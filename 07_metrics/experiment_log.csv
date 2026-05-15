@@ -1,0 +1,4 @@
+experiment_id,week,hypothesis,content_bucket,platform,variant_a,variant_b,success_metric,result,decision,notes
+E001,1,小資通勤比純韓系更能帶來收藏,小資通勤,Instagram,封面強調一週重複穿,封面強調顯高比例,save_rate,,,第一週測試
+E002,1,雨天穿搭比一般通勤更能帶來留言,雨天穿搭,小紅書,CTA留言雨天,CTA領清單,comment_rate,,,第一週測試
+E003,1,Pinterest英文標題比繁中標題更能帶長尾點擊,韓系日常,Pinterest,English title,Traditional Chinese title,ctr,,,第一週測試
