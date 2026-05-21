@@ -1,6 +1,6 @@
 # Perplexity 公開網頁輸出規格
 
-目的：保留你現有的 Perplexity 每週自動研究流程，但把輸出改成固定格式的公開網頁，讓 Codex 可以穩定拆解成 prompt、內容排程與商品導購資料。
+目的：保留你現有的 Perplexity 每週自動研究流程，以世界潮流趨勢作為上游來源，但把輸出改成固定格式的公開網頁，讓 Codex 可以穩定拆解成 prompt、內容排程與商品導購資料。台灣只作為下游商品搜尋、內容語氣與導購落地層。
 
 ## 建議做法
 
@@ -13,20 +13,23 @@
 ## 可貼進 Perplexity Task 的 Prompt
 
 ```text
-你是台灣繁中市場的 AI 虛擬穿搭創作者研究員。請每週搜尋網路，整理本週適合 20-35 歲台灣女性的小資通勤、韓系日常、雨天穿搭、小隻女顯高、約會/週末穿搭趨勢。
+你是 AI 虛擬穿搭創作者的全球流行趨勢研究員。請每週搜尋網路，整理本週適合女性虛擬模特兒影像創作的服飾流行單品與提示詞。研究範圍以世界潮流為上游來源，必須涵蓋國際精品設計師、日韓潮流品牌、歐美街頭/輕奢、快時尚與大眾流行。輸出使用繁體中文，並在商品搜尋、內容角度與導購層補上台灣可落地的表述。
 
-請輸出成一個可公開分享的網頁，格式必須固定，讓後續可以被人工或 Codex 拆解成 CSV。內容請使用繁體中文，商品方向以台灣可買、可搜尋、非高價精品為優先。
+請輸出成一個可公開分享的網頁，格式必須固定，讓後續可以被人工或 Codex 拆解成 CSV。不要把趨勢來源限縮在台灣；台灣只用於把全球趨勢轉成可搜尋、可購買、可發文、可導購的內容。
 
 必要區塊如下：
 
 1. Weekly Trend Summary
 - 本週日期
-- 本週總結 150-250 字
+- 本週全球趨勢總結 150-250 字
+- 台灣落地提醒 80-120 字
 - 本週最值得做的前三個主題
 
 2. Trend Topics
 請列出 5 個趨勢主題。每個主題包含：
 - trend_name
+- trend_origin：international_designer / japan_korea / western_street_luxury / fast_fashion_mass
+- global_context
 - why_now
 - audience
 - occasion
@@ -34,14 +37,16 @@
 - color_palettes：3 組
 - scenes：3 個
 - search_keywords：Pinterest、Google、小紅書、蝦皮/品牌官網關鍵字
+- taiwan_localization：台灣可搜尋、可搭配、可導購的落地方式
 - content_angles：收藏型、導購型、互動型各 1 個
 - risk_notes
-- score：台灣可購買性、視覺辨識度、收藏潛力、導購潛力，各 1-5 分
+- score：全球趨勢強度、視覺辨識度、收藏潛力、台灣導購潛力，各 1-5 分
 
 3. Item Prompt List
 請產出 20 個可直接給 AI 圖像工具使用的單品 prompt。每個 prompt 必須包含：
 - id
 - trend_name
+- trend_origin
 - audience
 - occasion
 - clothing_item
@@ -57,7 +62,7 @@
 - cta
 
 4. Product Search Keywords
-請按品類列出台灣可搜尋商品字詞：
+請按品類列出全球趨勢原詞與台灣可搜尋商品字詞：
 - tops
 - bottoms
 - outerwear
@@ -94,6 +99,7 @@ notes 可放資料來源或操作提醒。
 - 是否有固定欄位 CSV code block。
 - 是否能直接轉進 `04_prompts/item_prompt_database.csv`。
 - 是否有台灣可搜尋商品字詞。
+- 是否保留全球趨勢來源，不把研究限縮成台灣流行。
 - 是否每個主題都有平台內容角度與 CTA。
 
 ## 不建議的輸出
