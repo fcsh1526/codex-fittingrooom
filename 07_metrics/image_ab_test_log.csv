@@ -1,3 +1,13 @@
 date,prompt_id,trend_name,tool,variant,image_path,identity_consistency,outfit_clarity,body_integrity,platform_fit,shopping_value,publishable,best_platform,issue_notes,next_action
 2026-05-20,P001,小資通勤膠囊衣櫃,Grok,v01,,0,0,0,0,0,,Instagram,,待產圖
 2026-05-20,P001,小資通勤膠囊衣櫃,OpenAI,v01,,0,0,0,0,0,,Pinterest,,待產圖
+2026-05-22,W21-P001,Buttery Neutral,Grok,v01,,0,0,0,0,0,,Instagram,,Day 3 優先測試
+2026-05-22,W21-P002,Buttery Neutral,Grok,v01,,0,0,0,0,0,,小紅書,,Day 3 優先測試
+2026-05-22,W21-P006,Crinkled & Sandy Texture,Grok,v01,,0,0,0,0,0,,Pinterest,,Day 3 優先測試
+2026-05-22,W21-P007,Crinkled & Sandy Texture,Grok,v01,,0,0,0,0,0,,Instagram,,Day 3 優先測試
+2026-05-22,W21-P010,Sacai Unfinished Tailoring,Grok,v01,,0,0,0,0,0,,Instagram Reels,,Day 3 優先測試
+2026-05-22,W21-P012,Sacai Unfinished Tailoring,Grok,v01,,0,0,0,0,0,,Instagram,,Day 3 優先測試
+2026-05-22,W21-P014,Cobalt Pop,Grok,v01,,0,0,0,0,0,,Instagram Reels,,Day 3 優先測試
+2026-05-22,W21-P018,Quiet Drama Accessories,Grok,v01,,0,0,0,0,0,,Instagram,,Day 3 優先測試
+2026-05-22,W21-P019,Quiet Drama Accessories,OpenAI,v01,,0,0,0,0,0,,Pinterest,,Day 3 對照測試
+2026-05-22,W21-P020,Quiet Drama Accessories,OpenAI,v01,,0,0,0,0,0,,Instagram Reels,,Day 3 對照測試
