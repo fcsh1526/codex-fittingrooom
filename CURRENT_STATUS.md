@@ -1,12 +1,12 @@
 # Current Status - Mika Lin AI Fashion Creator
 
-Last updated: 2026-05-29
+Last updated: 2026-06-01
 
 ## Project Goal
 
 Build and validate an AI virtual fashion creator workflow for the Traditional Chinese / Taiwan market.
 
-Current stage: Day 5 content production and Canva carousel template automation.
+Current stage: Day 5 published; Day 6 commerce setup pending.
 
 ## Key Links
 
@@ -15,6 +15,8 @@ Current stage: Day 5 content production and Canva carousel template automation.
 - W21 test page: https://mika-lin-weekly.pplx.app/weeks/2026-W21-test.html
 - W21 CSV: https://mika-lin-weekly.pplx.app/data/2026-W21-test.csv
 - Canva panorama carousel design: https://www.canva.com/d/jJOq1Yimawt9wfU
+- Published IG carousel: https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01
+- Published asset Drive folder: https://drive.google.com/drive/folders/1tRiBkj2JbAiuv6Ol88Jx6-FpF2a6nKml
 
 ## Completed
 
@@ -22,96 +24,85 @@ Current stage: Day 5 content production and Canva carousel template automation.
 - 20 W21 prompt rows were imported into `04_prompts/item_prompt_database.csv`.
 - Day 3 Grok prompt set was created.
 - Grok output images were placed in Google Drive and visually reviewed.
-- W21-P007 was selected as the first publishable content candidate.
+- W21-P007 was selected as an early publishable content candidate.
 - Day 5 IG / Xiaohongshu / Pinterest copy drafts were created.
-- Two local IG carousel asset sets were generated:
-  - `05_content/day5_w21_p007_ig_carousel/`
-  - `05_content/day5_w21_p007_ig_carousel_v2/`
 - Canva plugin was enabled in Codex.
-- A Canva panorama template was created manually by the user.
-- The Canva design was resized/corrected to `5400 x 1350`.
-- Placeholder replacement automation was tested successfully.
-- W21-P007 copy was saved into the Canva design.
+- A Canva panorama carousel template was created manually by the user.
+- Canva design size was corrected to `5400 x 1350`.
+- Placeholder replacement automation was tested and saved.
+- User published an Instagram carousel for `Sumer Looks!`.
+- Published post and Drive assets were recorded.
 
-## Current Canva Template Status
+## Latest Published Post
 
-Design title:
+- Instagram URL: https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01
+- User-provided publish time: 2026/01/01 16:08
+- Date status: needs confirmation because the provided date is before the current working date 2026-06-01.
+- Format: Carousel
+- Theme / prompt id: Sumer Looks!
+- Product links: none
+- CTA: 想看同風格清單？留言「沙色套裝」我整理平價 / 質感 / 替代款
+- Initial metrics: 尚無
+
+## Latest Drive Asset Inventory
+
+Folder:
 
 ```text
-Mika Lin W21 Sand Suit Panorama Carousel
+https://drive.google.com/drive/folders/1tRiBkj2JbAiuv6Ol88Jx6-FpF2a6nKml
 ```
 
-Canvas size:
+Observed on 2026-06-01:
+
+- 1 MP4 file
+- 5 PNG files
+- PNG filenames are numbered `2` to `6`; confirm whether file `1` is missing or whether this is a Canva export naming artifact.
+
+Detailed inventory:
 
 ```text
-5400 x 1350
+07_metrics/drive_asset_inventory_2026_06_01_sumer_looks.csv
 ```
 
-Export target:
+Published content log:
 
 ```text
-5 images, each 1080 x 1350
+07_metrics/published_content_log.csv
 ```
-
-Current design contains W21-P007 final copy:
-
-- `slide1_title`: 沙色亞麻套裝
-- `slide1_subtitle`: 有精神，但不會太正式
-- `slide1_disclosure`: AI 虛擬穿搭示意
-- `slide2_kicker`: LOOK 01
-- `slide2_title`: 落肩西外 + 高腰寬褲
-- `slide2_body`: 比例乾淨，正式感剛好
-- `slide3_kicker`: INNER LAYER
-- `slide3_title`: 米白緞面背心
-- `slide3_body`: 比白 T 更精緻，下班約會也不突兀
-- `slide4_kicker`: ACCESSORIES
-- `slide4_title`: 巧克力棕包 + 裸色鞋
-- `slide4_body`: 棕色讓整套更穩，裸色鞋延伸腿部比例
-- `slide5_title`: 想看同風格清單？
-- `slide5_cta`: 留言「沙色套裝」
-- `slide5_note`: 我整理平價 / 質感 / 替代款
-- `slide5_disclosure`: AI 虛擬穿搭示意
 
 ## What The User Should Do Next
 
-1. Open the Canva design.
-2. Use the Canva cutting/slicing app to export the panorama into 5 images.
-3. Confirm the exported images are:
-   - 1080 x 1350
-   - page order 1 to 5
-   - no text cut by the boundaries
-4. Upload the 5 images to Instagram as a carousel.
-5. Use the short caption from `05_content/day5_w21_p007_posts.md` or this quick caption:
+1. Confirm whether the published time should really be `2026/01/01 16:08`.
+2. Confirm whether the Drive folder is missing `Mika Lin W21 Sand Suit Panorama Carousel - 1.PNG`.
+3. Wait for first 24-hour Instagram metrics.
+4. Send Codex:
+   - reach
+   - likes
+   - saves
+   - comments
+   - profile visits
+   - link clicks
+   - new followers
+5. Start Day 6 commerce setup from:
 
 ```text
-這套是我目前最想先測的「輕正式通勤」方向。
-
-沙色亞麻感西裝很適合台灣春夏：比黑西裝柔和，比一般襯衫更有整理過的感覺。
-
-想看同風格單品清單，可以留言「沙色套裝」。
-
-AI 虛擬穿搭示意，非真人試穿。商品連結可能包含聯盟連結。
+08_monetization/day6_sumer_looks_commerce_plan.md
 ```
-
-6. After publishing, record:
-   - IG post URL
-   - publish time
-   - whether any link was used
-   - first 24h reach, likes, saves, comments, profile clicks
 
 ## Next Codex Work
 
 Day 6:
 
-- Build a shoppable keyword list for W21-P007.
+- Build shoppable keyword list.
 - Prepare Shopee / brand official store / Amazon candidate search links.
 - Define UTM naming and short-link structure.
-- Create a first `affiliate_candidate_links.csv`.
+- Create the first affiliate candidate link table.
+- Prepare reply flow for any user who comments `沙色套裝`.
 
 Day 7:
 
 - Review first post performance.
-- Decide whether office capsule content should become one of the three main content buckets.
+- Decide whether this content direction should become a main content bucket.
 - Update prompt feedback for next Grok generation.
 
 ## Cross-Computer Setup
@@ -120,7 +111,7 @@ On another computer:
 
 1. Clone or pull the GitHub repo.
 2. Open `CURRENT_STATUS.md` first.
-3. Open the Canva link above.
+3. Open the Canva and Google Drive links above.
 4. Continue from "What The User Should Do Next".
 
 Recommended git command:
