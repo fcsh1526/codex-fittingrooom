@@ -36,8 +36,8 @@ Current stage: Day 5 published; Day 6 commerce setup pending.
 ## Latest Published Post
 
 - Instagram URL: https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01
-- User-provided publish time: 2026/01/01 16:08
-- Date status: needs confirmation because the provided date is before the current working date 2026-06-01.
+- Confirmed publish time: 2026/06/01 16:08
+- Date status: confirmed
 - Format: Carousel
 - Theme / prompt id: Sumer Looks!
 - Product links: none
@@ -56,7 +56,7 @@ Observed on 2026-06-01:
 
 - 1 MP4 file
 - 5 PNG files
-- PNG filenames are numbered `2` to `6`; confirm whether file `1` is missing or whether this is a Canva export naming artifact.
+- PNG filenames are numbered `2` to `6` because the source panorama is file `1` and is not exported as one of the sliced carousel images.
 
 Detailed inventory:
 
@@ -72,10 +72,8 @@ Published content log:
 
 ## What The User Should Do Next
 
-1. Confirm whether the published time should really be `2026/01/01 16:08`.
-2. Confirm whether the Drive folder is missing `Mika Lin W21 Sand Suit Panorama Carousel - 1.PNG`.
-3. Wait for first 24-hour Instagram metrics.
-4. Send Codex:
+1. Wait for first 24-hour Instagram metrics.
+2. Send Codex:
    - reach
    - likes
    - saves
@@ -83,7 +81,7 @@ Published content log:
    - profile visits
    - link clicks
    - new followers
-5. Start Day 6 commerce setup from:
+3. Start Day 6 commerce setup from:
 
 ```text
 08_monetization/day6_sumer_looks_commerce_plan.md
