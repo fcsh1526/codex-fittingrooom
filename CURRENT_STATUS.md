@@ -6,7 +6,7 @@ Last updated: 2026-06-01
 
 Build and validate an AI virtual fashion creator workflow for the Traditional Chinese / Taiwan market.
 
-Current stage: Day 5 published; Day 6 commerce setup pending.
+Current stage: Day 6 visibility check. First IG post has 0 reach after the first metric check.
 
 ## Key Links
 
@@ -32,6 +32,7 @@ Current stage: Day 5 published; Day 6 commerce setup pending.
 - Placeholder replacement automation was tested and saved.
 - User published an Instagram carousel for `Sumer Looks!`.
 - Published post and Drive assets were recorded.
+- 24-hour IG metrics were recorded in `07_metrics/instagram_24h_metrics.csv`.
 
 ## Latest Published Post
 
@@ -43,6 +44,27 @@ Current stage: Day 5 published; Day 6 commerce setup pending.
 - Product links: none
 - CTA: 想看同風格清單？留言「沙色套裝」我整理平價 / 質感 / 替代款
 - Initial metrics: 尚無
+
+## First Metrics Check
+
+Measured on 2026-06-02:
+
+```text
+reach = 0
+likes = 0
+saves = 0
+comments = 0
+shares = 0
+profile_visits = 0
+new_followers = 0
+cta_comments = 0
+```
+
+Interpretation:
+
+```text
+No visibility yet. Do not judge content quality or affiliate potential until the post receives non-zero reach.
+```
 
 ## Latest Drive Asset Inventory
 
@@ -72,16 +94,17 @@ Published content log:
 
 ## What The User Should Do Next
 
-1. Wait for first 24-hour Instagram metrics.
-2. Send Codex:
-   - reach
-   - likes
-   - saves
-   - comments
-   - profile visits
-   - link clicks
-   - new followers
-3. Start Day 6 commerce setup from:
+1. Check whether the Instagram account/post is public and visible.
+2. Add the first comment:
+
+```text
+想看同風格清單可以留言「沙色套裝」，我會整理平價 / 質感 / 替代款。
+AI 虛擬穿搭示意，非真人試穿。
+```
+
+3. Share the post once to Instagram Story.
+4. Recheck metrics after 6-12 hours.
+5. Continue Day 6 from:
 
 ```text
 08_monetization/day6_sumer_looks_commerce_plan.md

@@ -1,8 +1,8 @@
-# Day 6 Commerce Plan - Sumer Looks
+# Day 6 Plan - Sumer Looks
 
-Record date: 2026-06-01
+Record date: 2026-06-02
 
-## Starting Point
+## Current Result
 
 Published Instagram carousel:
 
@@ -10,24 +10,79 @@ Published Instagram carousel:
 https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01
 ```
 
-No product links were included in the first post. The CTA asks viewers to comment:
+Confirmed publish time:
 
 ```text
-沙色套裝
+2026/06/01 16:08
 ```
 
-This is acceptable for the first validation post because it tests comment intent before adding commerce friction.
+24-hour metrics:
 
-## Day 6 Goals
+```text
+reach = 0
+likes = 0
+saves = 0
+comments = 0
+shares = 0
+profile_visits = 0
+new_followers = 0
+cta_comments = 0
+```
 
-1. Build a shoppable keyword list for the outfit.
-2. Prepare affiliate candidate links.
-3. Create UTM and short-link naming rules.
-4. Prepare a reply flow for commenters.
+## Interpretation
 
-## Product Categories
+This is not a content-quality result yet. With `reach = 0`, the post did not receive measurable distribution, so we cannot evaluate:
 
-Prioritize products that are easy to buy from visual inspiration and less size-sensitive:
+- carousel design quality
+- CTA strength
+- save rate
+- comment intent
+- affiliate potential
+
+Day 6 should focus on fixing visibility and creating a small traffic test before spending time building a full affiliate product list.
+
+## Visibility Checklist
+
+User should check:
+
+1. Account is public, not private.
+2. The post is still visible on the profile grid.
+3. The post was not archived, deleted, hidden, or limited to close friends.
+4. Instagram account has no publishing or recommendation restriction.
+5. Caption includes at least a few relevant hashtags.
+6. First comment is added to clarify CTA.
+7. Profile bio has a clear identity, even if no product link is ready yet.
+
+## First Comment To Add
+
+```text
+想看同風格清單可以留言「沙色套裝」，我會整理平價 / 質感 / 替代款。
+AI 虛擬穿搭示意，非真人試穿。
+```
+
+## Manual Traffic Test
+
+After adding the first comment, create a small manual traffic test:
+
+- Share the post to Instagram Story.
+- Share the post link to 1-2 trusted friends or private groups.
+- Ask them only to view/save/comment naturally if interested.
+- Do not buy traffic.
+- Do not spam comments.
+
+Minimum test target:
+
+```text
+reach >= 20
+saves >= 1
+comments >= 1
+```
+
+## Commerce Work Status
+
+Do not build a full affiliate list until the post has non-zero reach or at least one human response.
+
+Keep these product categories ready for the next step:
 
 - structured brown bag
 - nude slingback shoes
@@ -35,7 +90,7 @@ Prioritize products that are easy to buy from visual inspiration and less size-s
 - linen wide-leg trousers
 - ivory satin camisole
 
-## Search Keywords
+## Search Keywords For Later
 
 Taiwan / Traditional Chinese:
 
@@ -67,30 +122,11 @@ summer office capsule wardrobe
 neutral office outfit women
 ```
 
-## Link Structure
-
-Campaign:
-
-```text
-w21_sand_linen_suit
-```
-
-Recommended UTM:
-
-```text
-utm_source=instagram&utm_medium=social&utm_campaign=w21_sand_linen_suit&utm_content=comment_reply
-utm_source=instagram&utm_medium=social&utm_campaign=w21_sand_linen_suit&utm_content=bio_link
-utm_source=pinterest&utm_medium=social&utm_campaign=w21_sand_linen_suit&utm_content=pin
-```
-
-## Comment Reply Draft
-
-```text
-收到，我會整理「沙色套裝」同風格單品清單：西外、寬褲、背心、鞋包都會放替代款。這套是 AI 虛擬穿搭示意，不是單一品牌實穿，所以我會用同風格單品整理。
-```
-
 ## Next Action
 
-Do not add random product links manually. First collect 24-hour engagement data, then decide whether to build a public product list for this outfit.
+1. User adds first comment.
+2. User checks account/post visibility.
+3. User shares the post once to Story.
+4. Recheck metrics after 6-12 hours.
+5. If reach becomes non-zero, continue to affiliate candidate links.
 
-If comments appear before the product list is ready, reply with the draft above and collect interest.
