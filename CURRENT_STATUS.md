@@ -1,12 +1,12 @@
 # Current Status - Mika Lin AI Fashion Creator
 
-Last updated: 2026-06-01
+Last updated: 2026-06-12
 
 ## Project Goal
 
 Build and validate an AI virtual fashion creator workflow for the Traditional Chinese / Taiwan market.
 
-Current stage: Day 6 visibility check. First IG post has 0 reach after the first metric check.
+Current stage: Instagram zero-reach recovery. First IG post has remained at zero exposure for 10+ days.
 
 ## Key Links
 
@@ -33,6 +33,8 @@ Current stage: Day 6 visibility check. First IG post has 0 reach after the first
 - User published an Instagram carousel for `Sumer Looks!`.
 - Published post and Drive assets were recorded.
 - 24-hour IG metrics were recorded in `07_metrics/instagram_24h_metrics.csv`.
+- 10+ day zero-reach status was recorded in `07_metrics/instagram_visibility_checks.csv`.
+- Recovery SOP was added at `09_sops/instagram_zero_reach_recovery.md`.
 
 ## Latest Published Post
 
@@ -66,6 +68,20 @@ Interpretation:
 No visibility yet. Do not judge content quality or affiliate potential until the post receives non-zero reach.
 ```
 
+## 10+ Day Visibility Check
+
+Reported on 2026-06-12:
+
+```text
+10+ days with no exposure / reach.
+```
+
+Interpretation:
+
+```text
+Treat this as account visibility, distribution, or channel setup issue. Do not treat it as content failure.
+```
+
 ## Latest Drive Asset Inventory
 
 Folder:
@@ -94,17 +110,24 @@ Published content log:
 
 ## What The User Should Do Next
 
-1. Check whether the Instagram account/post is public and visible.
-2. Add the first comment:
+1. Run the zero-reach recovery SOP:
+
+```text
+09_sops/instagram_zero_reach_recovery.md
+```
+
+2. Check whether the Instagram account/post is public and visible from another account or browser.
+3. Add the first comment:
 
 ```text
 想看同風格清單可以留言「沙色套裝」，我會整理平價 / 質感 / 替代款。
 AI 虛擬穿搭示意，非真人試穿。
 ```
 
-3. Share the post once to Instagram Story.
-4. Recheck metrics after 6-12 hours.
-5. Continue Day 6 from:
+4. Share the post once to Instagram Story.
+5. Send the post to 3-5 trusted people for a clean manual visibility test.
+6. If reach remains zero, publish one simpler second test post before doing affiliate work.
+7. Continue Day 6 only after reach becomes non-zero:
 
 ```text
 08_monetization/day6_sumer_looks_commerce_plan.md
