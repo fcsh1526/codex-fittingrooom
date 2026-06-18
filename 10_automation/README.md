@@ -39,6 +39,7 @@ Each week should produce:
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
 - `weekly_handoff_checklist.md`: what the user should provide each week.
 - `generate_canva_placeholders.py`: converts a weekly content packet CSV into Canva placeholder values.
+- `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
 
 ## Placeholder Generator
 
@@ -56,6 +57,33 @@ Expected result:
 ```text
 Wrote 1 row(s) to tmp\generated_canva_placeholder_test.csv
 ```
+
+## Weekly Packet Builder
+
+Use this when the weekly Perplexity prompts have already been imported into `04_prompts/item_prompt_database.csv`.
+
+Example:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\build_weekly_packet.py `
+  --week 2026-W21-test `
+  --limit 2 `
+  --output-dir 10_automation\runs\2026-W21-test
+```
+
+Expected result:
+
+```text
+Wrote 2 carousel packet(s) to 10_automation\runs\2026-W21-test
+```
+
+Generated files:
+
+- `weekly_content_packet.csv`
+- `grok_prompts.md`
+- `canva_placeholder_values.csv`
+- `README.md`
 
 ## Operating Rule
 

@@ -14,6 +14,12 @@ stable character -> weekly trend -> Grok prompts -> polished Canva carousel -> I
 
 Monetization is intentionally delayed until there is non-zero reach.
 
+Today's priority:
+
+```text
+reactivate distribution -> confirm Instagram visibility -> publish one simple test -> mirror to one backup channel
+```
+
 ## Current Stage
 
 Automation reset.
@@ -43,6 +49,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Instagram zero-reach recovery SOP was created.
 - A second simple test post was drafted.
 - Automation hub was created in `10_automation/`.
+- Weekly packet builder was tested and generated `10_automation/runs/2026-W21-test/`.
 
 ## Latest Published Post
 
@@ -120,6 +127,10 @@ Instagram account visibility status:
 
 If Instagram is still at zero reach:
 
+```text
+Use 05_content/2026_06_18_reactivation_plan.md today.
+```
+
 1. Verify the account/post is public from another account or browser.
 2. Publish the simple second-test post from `05_content/second_test_zero_reach_post.md`.
 3. Share it once to Story.
@@ -138,4 +149,3 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 6. Record publish metrics.
 
 Only after reach becomes non-zero should Codex create affiliate/product links.
-
