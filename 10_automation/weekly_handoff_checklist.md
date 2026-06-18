@@ -30,6 +30,14 @@ If the Perplexity export is ready, Codex should run:
 
 and produce the weekly Grok prompts, Canva placeholders, platform drafts, and publish checklist.
 
+When a run folder already exists, Codex should first run:
+
+```text
+10_automation/check_weekly_status.py
+```
+
+and follow `weekly_status.md`.
+
 Before image production, confirm:
 
 ```text

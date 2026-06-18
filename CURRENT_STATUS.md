@@ -57,6 +57,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Canva handoff automation now generates `canva_fill_guide.md`, `canva_placeholder_map.json`, and `canva_asset_slots.csv`.
 - Grok asset selection automation now fills cover/detail/crop asset slots from visual review scores and Drive inventory.
 - Publish and metrics automation now records post URLs, 6h/24h metrics, and next-action decisions.
+- Weekly status automation now writes `weekly_status.md/json` and tells the next action for each run folder.
 
 ## Latest Published Post
 
@@ -148,14 +149,15 @@ Use 05_content/2026_06_18_reactivation_plan.md today.
 
 When the user provides the next Perplexity URL or Drive folder, Codex should:
 
-1. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available.
-2. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
-3. Confirm `quality_report.md` status is `pass`.
-4. Use generated Grok prompts for image production.
-5. Run `10_automation/select_grok_assets.py` after Grok images are scored.
-6. Confirm `validate_weekly_run.py --require-assets` passes.
-7. Use generated Canva handoff files to fill the panorama template.
-8. Use generated IG / Threads / Pinterest drafts.
-9. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
+1. Run `10_automation/check_weekly_status.py` if a run folder already exists.
+2. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available.
+3. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
+4. Confirm `quality_report.md` status is `pass`.
+5. Use generated Grok prompts for image production.
+6. Run `10_automation/select_grok_assets.py` after Grok images are scored.
+7. Confirm `validate_weekly_run.py --require-assets` passes.
+8. Use generated Canva handoff files to fill the panorama template.
+9. Use generated IG / Threads / Pinterest drafts.
+10. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
 
 Only after reach becomes non-zero should Codex create affiliate/product links.

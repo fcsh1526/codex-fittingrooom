@@ -46,6 +46,7 @@ Each week should produce:
 - `select_grok_assets.py`: selects cover/detail/crop assets from Grok review scores and fills Canva asset slots.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.
+- `check_weekly_status.py`: reads a run folder and tells the current stage, blocking items, and next command.
 - `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
 
 ## Placeholder Generator
@@ -237,6 +238,25 @@ This writes:
 10_automation/runs/{week_id}/publish_status.md
 10_automation/runs/{week_id}/publish_status.json
 ```
+
+## Weekly Status Check
+
+When returning to a run folder, start here:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\check_weekly_status.py `
+  --run-dir 10_automation\runs\2026-W21-test
+```
+
+This writes:
+
+```text
+weekly_status.md
+weekly_status.json
+```
+
+Use `weekly_status.md` as the current source of truth for the next action.
 
 ## Operating Rule
 

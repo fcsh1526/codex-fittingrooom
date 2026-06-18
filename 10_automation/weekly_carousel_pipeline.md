@@ -276,3 +276,15 @@ After Grok assets are selected, run validation with:
 ```text
 --require-assets
 ```
+
+## Resume Rule
+
+Whenever work resumes, check the current stage first:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\check_weekly_status.py `
+  --run-dir 10_automation\runs\{week_id}
+```
+
+Then follow `weekly_status.md`.

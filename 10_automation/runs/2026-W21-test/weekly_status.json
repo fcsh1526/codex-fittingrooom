@@ -1,0 +1,77 @@
+{
+  "run_dir": "10_automation\\runs\\2026-W21-test",
+  "stage": {
+    "stage": "ready_for_canva_and_publish",
+    "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
+    "blocking_items": []
+  },
+  "packet": {
+    "row_count": 2,
+    "published_count": 0,
+    "carousel_ids": [
+      "2026-W21-test-001",
+      "2026-W21-test-002"
+    ]
+  },
+  "files": {
+    "weekly_content_packet.csv": {
+      "exists": true,
+      "size": 956
+    },
+    "grok_prompts.md": {
+      "exists": true,
+      "size": 2473
+    },
+    "canva_placeholder_values.csv": {
+      "exists": true,
+      "size": 1542
+    },
+    "canva_fill_guide.md": {
+      "exists": true,
+      "size": 3795
+    },
+    "canva_asset_slots.csv": {
+      "exists": true,
+      "size": 1984
+    },
+    "post_drafts.md": {
+      "exists": true,
+      "size": 2468
+    },
+    "publish_checklist.md": {
+      "exists": true,
+      "size": 1047
+    },
+    "quality_report.md": {
+      "exists": true,
+      "size": 93
+    }
+  },
+  "quality": {
+    "status": "pass",
+    "error_count": 0,
+    "warning_count": 0
+  },
+  "assets": {
+    "carousel_count": 2,
+    "selection_exists": true,
+    "review_template_exists": false,
+    "selected_cover_count": 2,
+    "missing_cover": [],
+    "missing_detail": [],
+    "selection_rows": 2
+  },
+  "publish": {
+    "published": false,
+    "metric_count": 0,
+    "latest_publish": {},
+    "latest_metric": {},
+    "latest_decision": "",
+    "latest_next_action": ""
+  },
+  "commands": [
+    "open 10_automation\\runs\\2026-W21-test/canva_fill_guide.md",
+    "open 10_automation\\runs\\2026-W21-test/canva_asset_plan.md",
+    "open 10_automation\\runs\\2026-W21-test/post_drafts.md"
+  ]
+}
