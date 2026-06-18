@@ -43,6 +43,22 @@ Codex should use:
 - `canva_fill_guide.md` for manual text replacement.
 - `canva_placeholder_map.json` for plugin-based replacement later.
 - `canva_asset_slots.csv` to decide which Grok image goes where.
+- `canva_asset_plan.md` after Grok images have been scored and selected.
+
+## If Grok Images Are Ready
+
+Codex should ask for or produce:
+
+- Drive image inventory
+- visual review score sheet
+- `grok_asset_selection.csv`
+- updated `canva_asset_slots.csv`
+
+Before Canva editing:
+
+```text
+validate_weekly_run.py --require-assets
+```
 
 ## If Grok Images Are Not Ready
 

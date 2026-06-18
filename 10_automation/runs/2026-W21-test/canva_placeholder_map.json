@@ -27,9 +27,9 @@
         "slide_range": "1-2",
         "asset_type": "Grok image",
         "purpose": "strongest full-body image, used as the visual anchor",
-        "recommended_file": "",
-        "status": "needed",
-        "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary."
+        "recommended_file": "IMG_1453.JPG",
+        "status": "selected",
+        "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary.; selected_file=IMG_1453.JPG; drive_url=https://drive.google.com/file/d/17lAxbTglyHMWeO48BIVdF_a8UD6OM7yC/view?usp=drivesdk"
       },
       {
         "carousel_id": "2026-W21-test-001",
@@ -37,9 +37,9 @@
         "slide_range": "3",
         "asset_type": "Grok image",
         "purpose": "alternate angle or outfit detail",
-        "recommended_file": "",
-        "status": "optional",
-        "notes": "Use only if hands, face, and clothing structure are clean."
+        "recommended_file": "IMG_1452.JPG",
+        "status": "selected",
+        "notes": "Use only if hands, face, and clothing structure are clean.; selected_file=IMG_1452.JPG; drive_url=https://drive.google.com/file/d/1tyGsMDssARExH-x6CykmCVpb71nL4nxJ/view?usp=drivesdk"
       },
       {
         "carousel_id": "2026-W21-test-001",
@@ -47,9 +47,9 @@
         "slide_range": "4-5",
         "asset_type": "crop / neutral background",
         "purpose": "quiet visual support for styling notes and CTA",
-        "recommended_file": "",
-        "status": "optional",
-        "notes": "Prefer a soft crop from the same image or a clean neutral background."
+        "recommended_file": "IMG_1452.JPG",
+        "status": "selected_from_crop",
+        "notes": "Prefer a soft crop from the same image or a clean neutral background.; selected_file=IMG_1452.JPG; drive_url=https://drive.google.com/file/d/1tyGsMDssARExH-x6CykmCVpb71nL4nxJ/view?usp=drivesdk"
       }
     ],
     "design_contract": {
@@ -92,9 +92,9 @@
         "slide_range": "1-2",
         "asset_type": "Grok image",
         "purpose": "strongest full-body image, used as the visual anchor",
-        "recommended_file": "",
-        "status": "needed",
-        "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary."
+        "recommended_file": "IMG_1455.JPG",
+        "status": "selected",
+        "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary.; selected_file=IMG_1455.JPG; drive_url=https://drive.google.com/file/d/1N_hpdxNvz1DebbwNf--ISkuKLxBp3zMT/view?usp=drivesdk"
       },
       {
         "carousel_id": "2026-W21-test-002",
@@ -102,9 +102,9 @@
         "slide_range": "3",
         "asset_type": "Grok image",
         "purpose": "alternate angle or outfit detail",
-        "recommended_file": "",
-        "status": "optional",
-        "notes": "Use only if hands, face, and clothing structure are clean."
+        "recommended_file": "IMG_1456.JPG",
+        "status": "selected",
+        "notes": "Use only if hands, face, and clothing structure are clean.; selected_file=IMG_1456.JPG; drive_url=https://drive.google.com/file/d/1J74tvt4WzRHxYwO1lpwmFpoFKikrBK59/view?usp=drivesdk"
       },
       {
         "carousel_id": "2026-W21-test-002",
@@ -112,9 +112,9 @@
         "slide_range": "4-5",
         "asset_type": "crop / neutral background",
         "purpose": "quiet visual support for styling notes and CTA",
-        "recommended_file": "",
-        "status": "optional",
-        "notes": "Prefer a soft crop from the same image or a clean neutral background."
+        "recommended_file": "IMG_1456.JPG",
+        "status": "selected_from_crop",
+        "notes": "Prefer a soft crop from the same image or a clean neutral background.; selected_file=IMG_1456.JPG; drive_url=https://drive.google.com/file/d/1J74tvt4WzRHxYwO1lpwmFpoFKikrBK59/view?usp=drivesdk"
       }
     ],
     "design_contract": {

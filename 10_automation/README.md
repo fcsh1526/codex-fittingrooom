@@ -43,6 +43,7 @@ Each week should produce:
 - `generate_canva_placeholders.py`: converts a weekly content packet CSV into Canva placeholder values.
 - `generate_canva_handoff.py`: creates the Canva fill guide, placeholder JSON map, and asset slot CSV.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
+- `select_grok_assets.py`: selects cover/detail/crop assets from Grok review scores and fills Canva asset slots.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
 
@@ -152,6 +153,41 @@ To validate an existing run folder:
   10_automation\validate_weekly_run.py `
   --run-dir 10_automation\runs\2026-W21-test `
   --min-rows 2
+```
+
+## Grok Asset Selection
+
+After Grok images are reviewed and scored, select Canva-ready assets:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\select_grok_assets.py `
+  --run-dir 10_automation\runs\2026-W21-test `
+  --score-sheet 07_metrics\w21_visual_review_scores.csv `
+  --drive-inventory 07_metrics\w21_drive_image_inventory.csv
+```
+
+This writes:
+
+```text
+grok_asset_selection.csv
+canva_asset_plan.md
+```
+
+and updates:
+
+```text
+canva_asset_slots.csv
+```
+
+Before editing Canva with final image assets, run:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\validate_weekly_run.py `
+  --run-dir 10_automation\runs\2026-W21-test `
+  --min-rows 2 `
+  --require-assets
 ```
 
 ## Operating Rule

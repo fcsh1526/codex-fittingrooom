@@ -55,6 +55,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - One-command weekly pipeline was tested with `10_automation/examples/perplexity_export_example.md`.
 - Weekly run quality validation now checks required files, required fields, AI disclosure, Grok safety terms, hashtag count, and Canva text length.
 - Canva handoff automation now generates `canva_fill_guide.md`, `canva_placeholder_map.json`, and `canva_asset_slots.csv`.
+- Grok asset selection automation now fills cover/detail/crop asset slots from visual review scores and Drive inventory.
 
 ## Latest Published Post
 
@@ -150,9 +151,10 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 2. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
 3. Confirm `quality_report.md` status is `pass`.
 4. Use generated Grok prompts for image production.
-5. Pick the best image assets.
-6. Use generated Canva handoff files to fill the panorama template.
-7. Use generated IG / Threads / Pinterest drafts.
-8. Record publish metrics.
+5. Run `10_automation/select_grok_assets.py` after Grok images are scored.
+6. Confirm `validate_weekly_run.py --require-assets` passes.
+7. Use generated Canva handoff files to fill the panorama template.
+8. Use generated IG / Threads / Pinterest drafts.
+9. Record publish metrics.
 
 Only after reach becomes non-zero should Codex create affiliate/product links.

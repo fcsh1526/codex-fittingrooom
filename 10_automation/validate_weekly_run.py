@@ -205,8 +205,9 @@ def validate_post_drafts(run_dir, packet_rows, issues):
             add_issue(issues, "error", "post_draft_disclosure", f"post_drafts.md missing disclosure term {term}.")
 
 
-def validate_canva_handoff(run_dir, packet_rows, issues):
+def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
     packet_ids = {clean(row.get("carousel_id")) for row in packet_rows}
+    mapping = {}
 
     map_path = run_dir / "canva_placeholder_map.json"
     if map_path.exists():
@@ -241,6 +242,28 @@ def validate_canva_handoff(run_dir, packet_rows, issues):
             for slot_id in ["cover_image", "detail_image", "texture_or_crop"]:
                 if slot_id not in slot_ids:
                     add_issue(issues, "warning", "canva_asset_slot", f"{carousel_id}: missing {slot_id} asset slot.")
+            if require_assets:
+                cover_rows = [row for row in slots if clean(row.get("slot_id")) == "cover_image"]
+                cover_file = clean(cover_rows[0].get("recommended_file")) if cover_rows else ""
+                if not cover_file:
+                    add_issue(issues, "error", "canva_cover_asset_required", f"{carousel_id}: cover_image has no recommended_file.")
+                detail_rows = [row for row in slots if clean(row.get("slot_id")) == "detail_image"]
+                detail_file = clean(detail_rows[0].get("recommended_file")) if detail_rows else ""
+                if not detail_file:
+                    add_issue(issues, "warning", "canva_detail_asset_recommended", f"{carousel_id}: detail_image has no recommended_file.")
+                mapped_slots = mapping.get(carousel_id, {}).get("asset_slots", []) if mapping else []
+                mapped_cover = ""
+                for mapped_slot in mapped_slots:
+                    if clean(mapped_slot.get("slot_id")) == "cover_image":
+                        mapped_cover = clean(mapped_slot.get("recommended_file"))
+                        break
+                if mapping and mapped_cover != cover_file:
+                    add_issue(
+                        issues,
+                        "error",
+                        "canva_map_asset_mismatch",
+                        f"{carousel_id}: canva_placeholder_map.json cover_image `{mapped_cover}` does not match CSV `{cover_file}`.",
+                    )
 
 
 def write_reports(run_dir, issues):
@@ -279,7 +302,7 @@ def write_reports(run_dir, issues):
     return report
 
 
-def validate_run(run_dir, min_rows=1):
+def validate_run(run_dir, min_rows=1, require_assets=False):
     run_dir = Path(run_dir)
     issues = []
     validate_required_files(run_dir, issues)
@@ -287,7 +310,7 @@ def validate_run(run_dir, min_rows=1):
     validate_canva_rows(run_dir, packet_rows=packet_rows, issues=issues)
     validate_grok_prompt(run_dir, issues)
     validate_post_drafts(run_dir, packet_rows=packet_rows, issues=issues)
-    validate_canva_handoff(run_dir, packet_rows=packet_rows, issues=issues)
+    validate_canva_handoff(run_dir, packet_rows=packet_rows, issues=issues, require_assets=require_assets)
     return write_reports(run_dir, issues)
 
 
@@ -295,10 +318,11 @@ def main():
     parser = argparse.ArgumentParser(description="Validate a generated weekly Mika Lin run folder.")
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--min-rows", type=int, default=1)
+    parser.add_argument("--require-assets", action="store_true", help="Fail when required Canva image slots have no selected asset.")
     parser.add_argument("--no-fail", action="store_true", help="Write reports but exit 0 even when errors exist.")
     args = parser.parse_args()
 
-    report = validate_run(args.run_dir, min_rows=args.min_rows)
+    report = validate_run(args.run_dir, min_rows=args.min_rows, require_assets=args.require_assets)
     print(
         f"Validation {report['status']}: "
         f"{report['error_count']} error(s), {report['warning_count']} warning(s)."

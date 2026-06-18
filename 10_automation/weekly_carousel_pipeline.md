@@ -108,6 +108,22 @@ Pick:
 - 1 detail / full-body backup
 - 1 optional alternate
 
+If a score sheet exists, select assets automatically:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\select_grok_assets.py `
+  --run-dir 10_automation\runs\{week_id} `
+  --score-sheet path_to_visual_review_scores.csv `
+  --drive-inventory path_to_drive_image_inventory.csv
+```
+
+Output:
+
+- `grok_asset_selection.csv`
+- `canva_asset_plan.md`
+- updated `canva_asset_slots.csv`
+
 ## Stage 5 - Canva Carousel
 
 Use a Canva panorama design:
@@ -232,3 +248,9 @@ This creates:
 - `README.md`
 
 The quality report must pass before producing Grok images or editing Canva.
+
+After Grok assets are selected, run validation with:
+
+```text
+--require-assets
+```
