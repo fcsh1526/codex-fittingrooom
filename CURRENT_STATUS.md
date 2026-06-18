@@ -56,6 +56,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Weekly run quality validation now checks required files, required fields, AI disclosure, Grok safety terms, hashtag count, and Canva text length.
 - Canva handoff automation now generates `canva_fill_guide.md`, `canva_placeholder_map.json`, and `canva_asset_slots.csv`.
 - Grok asset selection automation now fills cover/detail/crop asset slots from visual review scores and Drive inventory.
+- Publish and metrics automation now records post URLs, 6h/24h metrics, and next-action decisions.
 
 ## Latest Published Post
 
@@ -155,6 +156,6 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 6. Confirm `validate_weekly_run.py --require-assets` passes.
 7. Use generated Canva handoff files to fill the panorama template.
 8. Use generated IG / Threads / Pinterest drafts.
-9. Record publish metrics.
+9. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
 
 Only after reach becomes non-zero should Codex create affiliate/product links.

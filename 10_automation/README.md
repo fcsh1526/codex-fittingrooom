@@ -45,6 +45,7 @@ Each week should produce:
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
 - `select_grok_assets.py`: selects cover/detail/crop assets from Grok review scores and fills Canva asset slots.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
+- `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.
 - `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
 
 ## Placeholder Generator
@@ -188,6 +189,53 @@ Before editing Canva with final image assets, run:
   --run-dir 10_automation\runs\2026-W21-test `
   --min-rows 2 `
   --require-assets
+```
+
+## Publish And Metrics
+
+After publishing, record the post URL:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\record_post_metrics.py `
+  --run-dir 10_automation\runs\2026-W25 `
+  --week 2026-W25 `
+  --carousel-id 2026-W25-001 `
+  --platform Instagram `
+  --format Carousel `
+  --post-url "https://www.instagram.com/p/POST_ID/" `
+  --published-at "2026/06/18 16:08"
+```
+
+At 6h and 24h, record metrics:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\record_post_metrics.py `
+  --run-dir 10_automation\runs\2026-W25 `
+  --week 2026-W25 `
+  --carousel-id 2026-W25-001 `
+  --platform Instagram `
+  --format Carousel `
+  --post-url "https://www.instagram.com/p/POST_ID/" `
+  --published-at "2026/06/18 16:08" `
+  --record-metrics `
+  --measured-at 2026-06-19 `
+  --hours-after-publish 24 `
+  --reach 0 `
+  --likes 0 `
+  --saves 0 `
+  --comments 0 `
+  --shares 0
+```
+
+This writes:
+
+```text
+07_metrics/publish_registry.csv
+07_metrics/metric_checkpoints.csv
+10_automation/runs/{week_id}/publish_status.md
+10_automation/runs/{week_id}/publish_status.json
 ```
 
 ## Operating Rule

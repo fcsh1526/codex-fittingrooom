@@ -204,6 +204,28 @@ new_followers
 cta_comments
 ```
 
+Use:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\record_post_metrics.py `
+  --run-dir 10_automation\runs\{week_id} `
+  --week {week_id} `
+  --carousel-id {carousel_id} `
+  --platform Instagram `
+  --format Carousel `
+  --post-url "https://www.instagram.com/p/POST_ID/" `
+  --published-at "YYYY/MM/DD HH:mm" `
+  --record-metrics `
+  --measured-at YYYY-MM-DD `
+  --hours-after-publish 24 `
+  --reach 0 `
+  --likes 0 `
+  --saves 0 `
+  --comments 0 `
+  --shares 0
+```
+
 Decision rule:
 
 - `reach = 0`: run zero-reach recovery

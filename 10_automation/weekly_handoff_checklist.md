@@ -88,3 +88,24 @@ Run:
 ```text
 09_sops/instagram_zero_reach_recovery.md
 ```
+
+## If A Post Was Published
+
+Paste:
+
+```text
+Week ID:
+Carousel ID:
+Post URL:
+Published at:
+6h metrics:
+24h metrics:
+```
+
+Codex should run:
+
+```text
+10_automation/record_post_metrics.py
+```
+
+and check `publish_status.md` for the next action.
