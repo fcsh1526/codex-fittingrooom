@@ -30,6 +30,12 @@ If the Perplexity export is ready, Codex should run:
 
 and produce the weekly Grok prompts, Canva placeholders, platform drafts, and publish checklist.
 
+Before image production, confirm:
+
+```text
+quality_report.md status = pass
+```
+
 ## If Grok Images Are Not Ready
 
 Codex should output:

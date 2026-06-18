@@ -41,6 +41,7 @@ Each week should produce:
 - `import_perplexity_export.py`: imports a Perplexity CSV or markdown CSV block into `04_prompts/item_prompt_database.csv`.
 - `generate_canva_placeholders.py`: converts a weekly content packet CSV into Canva placeholder values.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
+- `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
 
 ## Placeholder Generator
@@ -130,6 +131,22 @@ Output:
 
 ```text
 10_automation/runs/2026-W25/
+```
+
+The one-command pipeline runs quality validation by default and writes:
+
+```text
+quality_report.md
+quality_report.json
+```
+
+To validate an existing run folder:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\validate_weekly_run.py `
+  --run-dir 10_automation\runs\2026-W21-test `
+  --min-rows 2
 ```
 
 ## Operating Rule

@@ -4,6 +4,7 @@ from pathlib import Path
 
 from build_weekly_packet import main as build_main
 from import_perplexity_export import import_rows
+from validate_weekly_run import validate_run
 
 
 def run_build_weekly_packet(week, limit, output_dir, source_database):
@@ -33,6 +34,7 @@ def main():
     parser.add_argument("--limit", type=int, default=2)
     parser.add_argument("--output-dir", help="Defaults to 10_automation/runs/{week}.")
     parser.add_argument("--dry-run-import", action="store_true")
+    parser.add_argument("--skip-validation", action="store_true")
     args = parser.parse_args()
 
     if args.perplexity_source:
@@ -55,6 +57,14 @@ def main():
         output_dir=output_dir,
         source_database=args.database,
     )
+    if not args.skip_validation:
+        report = validate_run(output_dir, min_rows=args.limit)
+        print(
+            f"Validation {report['status']}: "
+            f"{report['error_count']} error(s), {report['warning_count']} warning(s)."
+        )
+        if report["status"] != "pass":
+            raise SystemExit(1)
     print(f"Weekly pipeline complete: {output_dir}")
 
 

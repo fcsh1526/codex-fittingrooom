@@ -214,4 +214,8 @@ This creates:
 - `canva_placeholder_values.csv`
 - `post_drafts.md`
 - `publish_checklist.md`
+- `quality_report.md`
+- `quality_report.json`
 - `README.md`
+
+The quality report must pass before producing Grok images or editing Canva.

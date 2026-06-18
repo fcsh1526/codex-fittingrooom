@@ -53,6 +53,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Weekly run folder now includes Grok prompts, Canva placeholders, platform post drafts, and publish checklist.
 - Perplexity import automation now supports CSV files, direct CSV URLs, and markdown reports with fenced CSV blocks.
 - One-command weekly pipeline was tested with `10_automation/examples/perplexity_export_example.md`.
+- Weekly run quality validation now checks required files, required fields, AI disclosure, Grok safety terms, hashtag count, and Canva text length.
 
 ## Latest Published Post
 
@@ -146,10 +147,11 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 
 1. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available.
 2. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
-3. Use generated Grok prompts for image production.
-4. Pick the best image assets.
-5. Fill Canva placeholder values.
-6. Use generated IG / Threads / Pinterest drafts.
-7. Record publish metrics.
+3. Confirm `quality_report.md` status is `pass`.
+4. Use generated Grok prompts for image production.
+5. Pick the best image assets.
+6. Fill Canva placeholder values.
+7. Use generated IG / Threads / Pinterest drafts.
+8. Record publish metrics.
 
 Only after reach becomes non-zero should Codex create affiliate/product links.
