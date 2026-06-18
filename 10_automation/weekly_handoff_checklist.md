@@ -4,7 +4,7 @@ When restarting work in Codex, paste this information:
 
 ```text
 Week ID:
-Perplexity weekly URL:
+Perplexity weekly URL / CSV / markdown export:
 Chosen trend / outfit:
 Google Drive folder with Grok images:
 Canva design URL:
@@ -18,18 +18,27 @@ Anything stuck:
 Codex can continue with only:
 
 ```text
-Perplexity weekly URL
-Google Drive folder URL
-Canva design URL
+Week ID
+Perplexity weekly URL / CSV / markdown export
 ```
+
+If the Perplexity export is ready, Codex should run:
+
+```text
+10_automation/run_weekly_pipeline.py
+```
+
+and produce the weekly Grok prompts, Canva placeholders, platform drafts, and publish checklist.
 
 ## If Grok Images Are Not Ready
 
 Codex should output:
 
-- 3-5 Grok prompts
+- `grok_prompts.md`
 - one recommended cover concept
-- one Canva placeholder packet
+- `canva_placeholder_values.csv`
+- `post_drafts.md`
+- `publish_checklist.md`
 
 ## If Canva Is Not Ready
 
@@ -48,4 +57,3 @@ Run:
 ```text
 09_sops/instagram_zero_reach_recovery.md
 ```
-

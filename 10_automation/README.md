@@ -38,8 +38,10 @@ Each week should produce:
 - `weekly_content_packet_template.csv`: one-row template for a weekly carousel packet.
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
 - `weekly_handoff_checklist.md`: what the user should provide each week.
+- `import_perplexity_export.py`: imports a Perplexity CSV or markdown CSV block into `04_prompts/item_prompt_database.csv`.
 - `generate_canva_placeholders.py`: converts a weekly content packet CSV into Canva placeholder values.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
+- `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
 
 ## Placeholder Generator
 
@@ -86,6 +88,49 @@ Generated files:
 - `post_drafts.md`
 - `publish_checklist.md`
 - `README.md`
+
+## Perplexity Importer
+
+Use this when Perplexity provides a direct CSV export, a downloaded CSV, or a markdown report that contains a fenced CSV block.
+
+Dry run:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\import_perplexity_export.py `
+  --source 10_automation\examples\perplexity_export_example.md `
+  --week 2026-W25 `
+  --dry-run
+```
+
+Import:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\import_perplexity_export.py `
+  --source path_or_url_to_perplexity_export `
+  --week 2026-W25
+```
+
+The importer upserts rows by `(week, id)` so re-running the same week replaces that week's matching prompt rows instead of duplicating them.
+
+## One-Command Weekly Pipeline
+
+Use this when a Perplexity export is ready and you want the full weekly packet in one run:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\run_weekly_pipeline.py `
+  --week 2026-W25 `
+  --perplexity-source path_or_url_to_perplexity_export `
+  --limit 2
+```
+
+Output:
+
+```text
+10_automation/runs/2026-W25/
+```
 
 ## Operating Rule
 

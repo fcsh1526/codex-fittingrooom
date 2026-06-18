@@ -16,7 +16,13 @@ or
 Perplexity CSV / markdown report
 ```
 
-Codex extracts:
+Codex imports with:
+
+```text
+10_automation/import_perplexity_export.py
+```
+
+Then Codex extracts:
 
 - week id
 - trend name
@@ -179,9 +185,19 @@ Decision rule:
 - `saves > 0`: make a second carousel in same bucket
 - `comments > 0`: prepare product list / reply flow
 
-## One-Command Local Packet Build
+## One-Command Weekly Pipeline
 
-After the weekly Perplexity rows are imported into `04_prompts/item_prompt_database.csv`, generate the weekly run folder:
+If the Perplexity export is ready, run the full pipeline:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\run_weekly_pipeline.py `
+  --week 2026-W25 `
+  --perplexity-source path_or_url_to_perplexity_export `
+  --limit 2
+```
+
+If the weekly rows are already imported into `04_prompts/item_prompt_database.csv`, generate only the weekly run folder:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `

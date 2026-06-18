@@ -27,8 +27,8 @@ Codex should:
 
 1. Extract 5 trends.
 2. Pick 1-2 carousel candidates.
-3. Import selected rows into `04_prompts/item_prompt_database.csv`.
-4. Run `10_automation/build_weekly_packet.py`.
+3. Run `10_automation/run_weekly_pipeline.py` if a CSV / markdown export is available.
+4. Otherwise import selected rows into `04_prompts/item_prompt_database.csv`.
 5. Use the generated `grok_prompts.md`, `canva_placeholder_values.csv`, `post_drafts.md`, and `publish_checklist.md`.
 
 ## If Grok Images Are Available
@@ -53,7 +53,17 @@ Codex should:
 
 ## Current Automation Command
 
-Example:
+Full import + packet build example:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\run_weekly_pipeline.py `
+  --week 2026-W25 `
+  --perplexity-source path_or_url_to_perplexity_export `
+  --limit 2
+```
+
+Packet-only example:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
