@@ -195,6 +195,24 @@ def test_powershell_entrypoint_if_available():
         ]
     )
     assert_exists(TMP_ROOT / "PS_TODAY.md", "PowerShell daily brief")
+    run_command(
+        [
+            powershell,
+            "-ExecutionPolicy",
+            "Bypass",
+            "-File",
+            "10_automation/mika_weekly.ps1",
+            "-Action",
+            "visibility-test",
+            "-RunDir",
+            rel(run_dir),
+            "-VisibilityOutput",
+            rel(TMP_ROOT / "PS_VISIBILITY.md"),
+            "-VisibilityJson",
+            rel(TMP_ROOT / "PS_VISIBILITY.json"),
+        ]
+    )
+    assert_exists(TMP_ROOT / "PS_VISIBILITY.md", "PowerShell visibility test package")
 
 
 def test_weekly_dashboard():
@@ -222,6 +240,26 @@ def test_daily_brief():
     brief = read_json(TMP_ROOT / "TODAY.json")
     assert_equal(brief["priority_run"]["stage"], "visibility_recovery", "daily brief priority stage")
     assert_exists(TMP_ROOT / "TODAY.md", "daily brief")
+    assert_exists(TMP_ROOT / "run-w25" / "visibility_test_package.md", "daily brief visibility package")
+
+
+def test_visibility_test_package():
+    run_dir = TMP_ROOT / "run-w21"
+    run_command(
+        [
+            sys.executable,
+            "10_automation/prepare_visibility_test.py",
+            "--run-dir",
+            rel(run_dir),
+            "--output-md",
+            rel(TMP_ROOT / "visibility_test_package.md"),
+            "--output-json",
+            rel(TMP_ROOT / "visibility_test_package.json"),
+        ]
+    )
+    package = read_json(TMP_ROOT / "visibility_test_package.json")
+    assert_equal(package["source_carousel_id"], "2026-W21-test-001", "visibility package source carousel")
+    assert_exists(TMP_ROOT / "visibility_test_package.md", "visibility test package")
 
 
 def main():
@@ -232,6 +270,7 @@ def main():
     test_powershell_entrypoint_if_available()
     test_weekly_dashboard()
     test_daily_brief()
+    test_visibility_test_package()
     print("Smoke test passed.")
 
 

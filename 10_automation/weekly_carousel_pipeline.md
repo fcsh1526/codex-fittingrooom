@@ -326,6 +326,18 @@ If the dashboard shows `visibility_recovery`, do not make a new carousel or prod
 05_content/2026_06_18_reactivation_plan.md
 ```
 
+Then generate a single-image test package:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action visibility-test -Week {week_id}
+```
+
+Use:
+
+```text
+10_automation/runs/{week_id}/visibility_test_package.md
+```
+
 For a specific run, check the current stage with:
 
 ```powershell

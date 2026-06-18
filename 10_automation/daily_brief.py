@@ -3,6 +3,7 @@ import json
 from datetime import date
 from pathlib import Path
 
+from prepare_visibility_test import build_visibility_test
 from weekly_dashboard import build_dashboard
 
 
@@ -60,6 +61,7 @@ def stage_brief(stage):
                 "Prepare Threads / Pinterest fallback copy if the second test is still zero reach.",
             ],
             "files": [
+                "10_automation/runs/{run}/visibility_test_package.md",
                 "05_content/2026_06_18_reactivation_plan.md",
                 "09_sops/instagram_zero_reach_recovery.md",
             ],
@@ -192,7 +194,8 @@ def no_run_brief():
     }
 
 
-def render_markdown(today, dashboard, priority_run, brief):
+def render_markdown(today, dashboard, priority_run, brief, generated_files=None):
+    generated_files = generated_files or []
     run_name = Path(priority_run["run_dir"]).name if priority_run else "none"
     stage = clean(priority_run.get("stage")) if priority_run else "needs_weekly_input"
     next_action = clean(priority_run.get("next_action")) if priority_run else brief["decision"]
@@ -222,6 +225,10 @@ def render_markdown(today, dashboard, priority_run, brief):
     lines.extend(["", "## Useful Files", ""])
     for file_name in brief["files"]:
         lines.append(f"- `{file_name.replace('{run}', run_name)}`")
+    if generated_files:
+        lines.extend(["", "## Generated Files", ""])
+        for file_name in generated_files:
+            lines.append(f"- `{file_name}`")
     lines.extend(
         [
             "",
@@ -250,6 +257,11 @@ def build_daily_brief(runs_dir, output_md, output_json, today=None):
     dashboard = build_dashboard(runs_dir)
     priority_run = pick_priority_run(dashboard)
     brief = stage_brief(clean(priority_run.get("stage"))) if priority_run else no_run_brief()
+    generated_files = []
+
+    if priority_run and clean(priority_run.get("stage")) == "visibility_recovery":
+        _, visibility_md, visibility_json = build_visibility_test(priority_run["run_dir"])
+        generated_files.extend([str(visibility_md), str(visibility_json)])
 
     payload = {
         "date": today,
@@ -259,6 +271,7 @@ def build_daily_brief(runs_dir, output_md, output_json, today=None):
         "user_inputs": brief["user_inputs"],
         "codex_actions": brief["codex_actions"],
         "useful_files": brief["files"],
+        "generated_files": generated_files,
         "dashboard": dashboard,
     }
 
@@ -266,7 +279,7 @@ def build_daily_brief(runs_dir, output_md, output_json, today=None):
     output_json = Path(output_json)
     output_md.parent.mkdir(parents=True, exist_ok=True)
     output_json.parent.mkdir(parents=True, exist_ok=True)
-    output_md.write_text(render_markdown(today, dashboard, priority_run, brief), encoding="utf-8")
+    output_md.write_text(render_markdown(today, dashboard, priority_run, brief, generated_files), encoding="utf-8")
     output_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return payload
 

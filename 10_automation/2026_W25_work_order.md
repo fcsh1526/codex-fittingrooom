@@ -73,6 +73,12 @@ Then open:
 10_automation/TODAY.md
 ```
 
+If today is a visibility recovery day, use:
+
+```text
+10_automation/runs/{week_id}/visibility_test_package.md
+```
+
 Full import + packet build example:
 
 ```powershell
@@ -114,6 +120,7 @@ Use:
 05_content/second_test_zero_reach_post.md
 05_content/2026_06_18_reactivation_plan.md
 09_sops/instagram_zero_reach_recovery.md
+10_automation/runs/{week_id}/visibility_test_package.md
 ```
 
 ## Done Criteria For This Week

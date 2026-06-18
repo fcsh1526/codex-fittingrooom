@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-06-18",
+  "run_dir": "10_automation\\runs\\2026-W21-test",
+  "source_carousel_id": "2026-W21-test-002",
+  "source_packet": {
+    "week_id": "2026-W21-test",
+    "carousel_id": "2026-W21-test-002",
+    "market": "Taiwan Traditional Chinese",
+    "creator_name": "Mika Lin",
+    "trend_name": "Buttery Neutral",
+    "content_bucket": "daily_style",
+    "audience": "OL 通勤",
+    "occasion": "週間午餐",
+    "prompt_id": "W21-P002",
+    "clothing_item": "Cream blazer set",
+    "color_palette": "cream / off-white",
+    "fabric": "lightweight wool-blend",
+    "fit": "boxy oversized blazer + straight trousers",
+    "styling_rules": "white silk tank inside, slim brown belt, nude slingbacks",
+    "scene": "minimalist Tokyo office lobby",
+    "cover_asset": "",
+    "detail_asset": "",
+    "drive_folder_url": "",
+    "canva_design_url": "",
+    "ig_post_url": "https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01",
+    "status": "published",
+    "next_action": "Record 6h and 24h metrics"
+  },
+  "asset": {
+    "slot_id": "cover_image",
+    "file": "IMG_1455.JPG",
+    "drive_url": "https://drive.google.com/file/d/1N_hpdxNvz1DebbwNf--ISkuKLxBp3zMT/view?usp=drivesdk",
+    "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary.; selected_file=IMG_1455.JPG; drive_url=https://drive.google.com/file/d/1N_hpdxNvz1DebbwNf--ISkuKLxBp3zMT/view?usp=drivesdk"
+  },
+  "fallback_asset": {
+    "slot_id": "detail_image",
+    "file": "IMG_1456.JPG",
+    "drive_url": "https://drive.google.com/file/d/1J74tvt4WzRHxYwO1lpwmFpoFKikrBK59/view?usp=drivesdk",
+    "notes": "Use only if hands, face, and clothing structure are clean.; selected_file=IMG_1456.JPG; drive_url=https://drive.google.com/file/d/1J74tvt4WzRHxYwO1lpwmFpoFKikrBK59/view?usp=drivesdk"
+  },
+  "instagram_caption": "上班不想太正式，奶油白西裝套裝可以嗎？\n\n這套是 AI 虛擬穿搭示意，我想測試「輕正式通勤」方向：有整理過，但不會像面試套裝。\n\n你會穿這種奶油白西裝套裝出門嗎？\n留言 1 = 會\n留言 2 = 不會\n\nAI 虛擬穿搭示意，非真人試穿。",
+  "hashtags": "#通勤穿搭 #上班穿搭 #女生穿搭 #西裝外套 #寬褲穿搭 #小資穿搭 #AI穿搭 #虛擬穿搭 #穿搭靈感 #每日穿搭",
+  "first_comment": "想看同風格清單可以留言「通勤套裝」，我會整理平價 / 質感 / 替代款。\nAI 虛擬穿搭示意，非真人試穿。",
+  "threads_copy": "上班不想太正式，奶油白西裝套裝可以嗎？\n\n我在測 AI 虛擬穿搭帳號的通勤風格方向。你會穿這種搭配出門嗎？留言 1=會，2=不會。\n\nAI 虛擬穿搭示意，非真人試穿。",
+  "metrics_command": "powershell -ExecutionPolicy Bypass -File 10_automation\\mika_weekly.ps1 `\n  -Action metrics `\n  -RunDir 10_automation\\runs\\2026-W21-test `\n  -Week 2026-W21-test `\n  -CarouselId 2026-W21-test-002-visibility-01 `\n  -PostUrl \"POST_URL\" `\n  -PublishedAt \"YYYY/MM/DD HH:mm\" `\n  -RecordMetrics `\n  -MeasuredAt YYYY-MM-DD `\n  -HoursAfterPublish 24 `\n  -Reach 0 `\n  -Likes 0 `\n  -Saves 0 `\n  -Comments 0 `\n  -Shares 0"
+}

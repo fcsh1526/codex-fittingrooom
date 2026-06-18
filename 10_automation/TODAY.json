@@ -28,8 +28,13 @@
     "Prepare Threads / Pinterest fallback copy if the second test is still zero reach."
   ],
   "useful_files": [
+    "10_automation/runs/{run}/visibility_test_package.md",
     "05_content/2026_06_18_reactivation_plan.md",
     "09_sops/instagram_zero_reach_recovery.md"
+  ],
+  "generated_files": [
+    "10_automation\\runs\\2026-W21-test\\visibility_test_package.md",
+    "10_automation\\runs\\2026-W21-test\\visibility_test_package.json"
   ],
   "dashboard": {
     "runs_dir": "10_automation\\runs",

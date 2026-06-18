@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "dashboard", "today", "brief", "assets", "metrics", "validate", "smoke-test")]
+    [ValidateSet("pipeline", "status", "dashboard", "today", "brief", "visibility-test", "assets", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
@@ -9,6 +9,8 @@ param(
     [string]$RunsDir = "10_automation\runs",
     [string]$TodayOutput = "10_automation\TODAY.md",
     [string]$TodayJson = "10_automation\TODAY.json",
+    [string]$VisibilityOutput = "",
+    [string]$VisibilityJson = "",
     [string]$Database = "04_prompts\item_prompt_database.csv",
     [int]$Limit = 2,
 
@@ -115,6 +117,21 @@ switch ($Action) {
 
     "brief" {
         Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson)
+    }
+
+    "visibility-test" {
+        $resolvedRunDir = Resolve-RunDir
+        $argsList = @("--run-dir", $resolvedRunDir)
+        if ($CarouselId) {
+            $argsList += @("--carousel-id", $CarouselId)
+        }
+        if ($VisibilityOutput) {
+            $argsList += @("--output-md", $VisibilityOutput)
+        }
+        if ($VisibilityJson) {
+            $argsList += @("--output-json", $VisibilityJson)
+        }
+        Invoke-MikaPython -ScriptPath "10_automation\prepare_visibility_test.py" -ArgsList $argsList
     }
 
     "assets" {

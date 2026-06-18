@@ -39,6 +39,7 @@ Each week should produce:
 - `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
 - `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.
+- `prepare_visibility_test.py`: creates a single-image Instagram visibility test package from a run folder.
 - `weekly_content_packet_template.csv`: one-row template for a weekly carousel packet.
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
 - `weekly_handoff_checklist.md`: what the user should provide each week.
@@ -84,6 +85,21 @@ This writes:
 ```text
 10_automation/TODAY.md
 10_automation/TODAY.json
+```
+
+Create a single-image visibility test package:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action visibility-test `
+  -Week 2026-W21-test
+```
+
+This writes:
+
+```text
+10_automation/runs/{week_id}/visibility_test_package.md
+10_automation/runs/{week_id}/visibility_test_package.json
 ```
 
 The dashboard action writes:
@@ -343,6 +359,25 @@ This writes:
 10_automation/runs/{week_id}/publish_status.md
 10_automation/runs/{week_id}/publish_status.json
 ```
+
+## Visibility Test Package
+
+When a post stays at zero reach, create a simpler single-image test package before making another carousel:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\prepare_visibility_test.py `
+  --run-dir 10_automation\runs\2026-W21-test
+```
+
+The package includes:
+
+- recommended Grok image file and Drive URL
+- Instagram caption
+- hashtags
+- first comment
+- Threads backup copy
+- 6h / 24h metrics command template
 
 ## Weekly Status Check
 

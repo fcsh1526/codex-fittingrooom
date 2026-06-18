@@ -28,8 +28,14 @@ Today is an Instagram visibility recovery day, not a carousel production day.
 
 ## Useful Files
 
+- `10_automation/runs/2026-W21-test/visibility_test_package.md`
 - `05_content/2026_06_18_reactivation_plan.md`
 - `09_sops/instagram_zero_reach_recovery.md`
+
+## Generated Files
+
+- `10_automation\runs\2026-W21-test\visibility_test_package.md`
+- `10_automation\runs\2026-W21-test\visibility_test_package.json`
 
 ## Current Next Action
 

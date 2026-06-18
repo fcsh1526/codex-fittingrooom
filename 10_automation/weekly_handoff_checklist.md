@@ -41,6 +41,14 @@ Then open:
 
 This file tells you whether today is a Perplexity, Grok, Canva, publishing, metrics, or visibility-recovery day.
 
+If it says `visibility_recovery`, Codex also creates:
+
+```text
+10_automation/runs/{week_id}/visibility_test_package.md
+```
+
+Use that file for the single-image Instagram test.
+
 ## Minimum Required To Continue
 
 Codex can continue with only:
@@ -127,6 +135,12 @@ Run:
 09_sops/instagram_zero_reach_recovery.md
 ```
 
+Then generate the single-image test package:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action visibility-test -Week {week_id}
+```
+
 ## If A Post Was Published
 
 Paste:
@@ -162,6 +176,7 @@ Use actions:
 dashboard
 today
 brief
+visibility-test
 pipeline
 status
 assets
