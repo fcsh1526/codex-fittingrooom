@@ -36,6 +36,7 @@ Each week should produce:
 ## Files In This Folder
 
 - `mika_weekly.ps1`: Windows PowerShell entrypoint for the main weekly actions.
+- `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
 - `weekly_content_packet_template.csv`: one-row template for a weekly carousel packet.
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
@@ -97,6 +98,15 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -HoursAfterPublish 24 `
   -Reach 0
 ```
+
+Run a workflow smoke test after pulling changes or moving to another computer:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action smoke-test
+```
+
+The smoke test writes only to `tmp/smoke_weekly_pipeline/`.
 
 ## Placeholder Generator
 

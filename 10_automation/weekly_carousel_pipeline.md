@@ -8,6 +8,12 @@ For normal Windows use, prefer:
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action status -Week {week_id}
 ```
 
+After pulling changes or switching computers, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action smoke-test
+```
+
 ## Stage 1 - Trend Input
 
 User provides either:

@@ -60,6 +60,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Weekly status automation now writes `weekly_status.md/json` and tells the next action for each run folder.
 - Main weekly pipeline now creates asset review/status files by default and can select Grok assets when score sheets are provided.
 - Windows shortcut `10_automation/mika_weekly.ps1` now wraps pipeline, status, assets, metrics, and validate actions.
+- Smoke test automation now verifies weekly pipeline, asset selection, metrics decisions, and PowerShell entrypoint.
 
 ## Latest Published Post
 

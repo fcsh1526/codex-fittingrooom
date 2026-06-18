@@ -1,0 +1,192 @@
+import json
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+TMP_ROOT = ROOT / "tmp" / "smoke_weekly_pipeline"
+
+
+def rel(path):
+    return str(Path(path))
+
+
+def ensure_tmp_path(path):
+    resolved = Path(path).resolve()
+    tmp_resolved = (ROOT / "tmp").resolve()
+    try:
+        resolved.relative_to(tmp_resolved)
+    except ValueError as exc:
+        raise RuntimeError(f"Refusing to touch non-tmp path: {resolved}") from exc
+
+
+def clean_tmp():
+    ensure_tmp_path(TMP_ROOT)
+    if TMP_ROOT.exists():
+        shutil.rmtree(TMP_ROOT)
+    TMP_ROOT.mkdir(parents=True, exist_ok=True)
+
+
+def run_command(args):
+    result = subprocess.run(
+        args,
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+    )
+    print("$ " + " ".join(str(arg) for arg in args))
+    print(result.stdout)
+    if result.returncode != 0:
+        raise RuntimeError(f"Command failed with exit code {result.returncode}: {args}")
+
+
+def read_json(path):
+    return json.loads(Path(path).read_text(encoding="utf-8"))
+
+
+def assert_equal(actual, expected, label):
+    if actual != expected:
+        raise AssertionError(f"{label}: expected {expected!r}, got {actual!r}")
+
+
+def assert_exists(path, label):
+    if not Path(path).exists():
+        raise AssertionError(f"{label} missing: {path}")
+
+
+def test_new_week_without_assets():
+    run_dir = TMP_ROOT / "run-w25"
+    database = TMP_ROOT / "database-w25.csv"
+    run_command(
+        [
+            sys.executable,
+            "10_automation/run_weekly_pipeline.py",
+            "--week",
+            "2026-W25",
+            "--perplexity-source",
+            "10_automation/examples/perplexity_export_example.md",
+            "--database",
+            rel(database),
+            "--limit",
+            "2",
+            "--output-dir",
+            rel(run_dir),
+        ]
+    )
+
+    status = read_json(run_dir / "weekly_status.json")
+    assert_equal(status["stage"]["stage"], "needs_grok_asset_selection", "new week stage")
+    assert_exists(run_dir / "grok_asset_review_template.csv", "Grok review template")
+    assert_exists(run_dir / "weekly_status.md", "weekly status")
+
+
+def test_week_with_scored_assets():
+    run_dir = TMP_ROOT / "run-w21"
+    run_command(
+        [
+            sys.executable,
+            "10_automation/run_weekly_pipeline.py",
+            "--week",
+            "2026-W21-test",
+            "--database",
+            "04_prompts/item_prompt_database.csv",
+            "--limit",
+            "2",
+            "--output-dir",
+            rel(run_dir),
+            "--score-sheet",
+            "07_metrics/w21_visual_review_scores.csv",
+            "--drive-inventory",
+            "07_metrics/w21_drive_image_inventory.csv",
+        ]
+    )
+
+    status = read_json(run_dir / "weekly_status.json")
+    assert_equal(status["stage"]["stage"], "ready_for_canva_and_publish", "scored week stage")
+    assert_equal(status["assets"]["selected_cover_count"], 2, "selected cover count")
+    assert_exists(run_dir / "canva_asset_plan.md", "Canva asset plan")
+
+
+def test_zero_reach_decision():
+    run_dir = TMP_ROOT / "run-w25"
+    metrics_dir = TMP_ROOT / "metrics"
+    run_command(
+        [
+            sys.executable,
+            "10_automation/record_post_metrics.py",
+            "--run-dir",
+            rel(run_dir),
+            "--global-dir",
+            rel(metrics_dir),
+            "--week",
+            "2026-W25",
+            "--carousel-id",
+            "2026-W25-001",
+            "--platform",
+            "Instagram",
+            "--format",
+            "Carousel",
+            "--post-url",
+            "https://www.instagram.com/p/DZCTbtWGuhx/",
+            "--published-at",
+            "2026/06/01 16:08",
+            "--record-date",
+            "2026-06-02",
+            "--record-metrics",
+            "--measured-at",
+            "2026-06-02",
+            "--hours-after-publish",
+            "24",
+            "--reach",
+            "0",
+            "--likes",
+            "0",
+            "--saves",
+            "0",
+            "--comments",
+            "0",
+            "--shares",
+            "0",
+        ]
+    )
+    run_command([sys.executable, "10_automation/check_weekly_status.py", "--run-dir", rel(run_dir)])
+    status = read_json(run_dir / "weekly_status.json")
+    assert_equal(status["stage"]["stage"], "visibility_recovery", "zero reach stage")
+    assert_exists(run_dir / "publish_status.md", "publish status")
+
+
+def test_powershell_entrypoint_if_available():
+    powershell = shutil.which("powershell")
+    if not powershell:
+        print("Skipping PowerShell entrypoint smoke test: powershell not found.")
+        return
+    run_dir = TMP_ROOT / "run-w21"
+    run_command(
+        [
+            powershell,
+            "-ExecutionPolicy",
+            "Bypass",
+            "-File",
+            "10_automation/mika_weekly.ps1",
+            "-Action",
+            "status",
+            "-RunDir",
+            rel(run_dir),
+        ]
+    )
+
+
+def main():
+    clean_tmp()
+    test_new_week_without_assets()
+    test_week_with_scored_assets()
+    test_zero_reach_decision()
+    test_powershell_entrypoint_if_available()
+    print("Smoke test passed.")
+
+
+if __name__ == "__main__":
+    main()

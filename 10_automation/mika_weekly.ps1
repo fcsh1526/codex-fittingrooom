@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "assets", "metrics", "validate")]
+    [ValidateSet("pipeline", "status", "assets", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
@@ -168,5 +168,9 @@ switch ($Action) {
             $argsList += "--require-assets"
         }
         Invoke-MikaPython -ScriptPath "10_automation\validate_weekly_run.py" -ArgsList $argsList
+    }
+
+    "smoke-test" {
+        Invoke-MikaPython -ScriptPath "10_automation\smoke_test_weekly_pipeline.py"
     }
 }

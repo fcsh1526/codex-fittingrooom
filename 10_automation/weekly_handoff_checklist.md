@@ -136,4 +136,7 @@ status
 assets
 metrics
 validate
+smoke-test
 ```
+
+After syncing on a different computer, run `smoke-test` before continuing weekly work.
