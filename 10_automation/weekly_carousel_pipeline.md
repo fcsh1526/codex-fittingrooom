@@ -143,6 +143,16 @@ slide5_note
 slide5_disclosure
 ```
 
+Weekly Canva handoff files:
+
+```text
+10_automation/runs/{week_id}/canva_fill_guide.md
+10_automation/runs/{week_id}/canva_placeholder_map.json
+10_automation/runs/{week_id}/canva_asset_slots.csv
+```
+
+Use `canva_fill_guide.md` for manual copy/paste today. Use `canva_placeholder_map.json` as the future Canva plugin automation input.
+
 ## Stage 6 - Instagram Publish
 
 Use:
@@ -212,6 +222,9 @@ This creates:
 - `weekly_content_packet.csv`
 - `grok_prompts.md`
 - `canva_placeholder_values.csv`
+- `canva_fill_guide.md`
+- `canva_placeholder_map.json`
+- `canva_asset_slots.csv`
 - `post_drafts.md`
 - `publish_checklist.md`
 - `quality_report.md`

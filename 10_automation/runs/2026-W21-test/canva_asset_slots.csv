@@ -1,0 +1,7 @@
+carousel_id,slot_id,slide_range,asset_type,purpose,recommended_file,status,notes
+2026-W21-test-001,cover_image,1-2,Grok image,"strongest full-body image, used as the visual anchor",,needed,Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary.
+2026-W21-test-001,detail_image,3,Grok image,alternate angle or outfit detail,,optional,"Use only if hands, face, and clothing structure are clean."
+2026-W21-test-001,texture_or_crop,4-5,crop / neutral background,quiet visual support for styling notes and CTA,,optional,Prefer a soft crop from the same image or a clean neutral background.
+2026-W21-test-002,cover_image,1-2,Grok image,"strongest full-body image, used as the visual anchor",,needed,Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary.
+2026-W21-test-002,detail_image,3,Grok image,alternate angle or outfit detail,,optional,"Use only if hands, face, and clothing structure are clean."
+2026-W21-test-002,texture_or_crop,4-5,crop / neutral background,quiet visual support for styling notes and CTA,,optional,Prefer a soft crop from the same image or a clean neutral background.

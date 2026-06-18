@@ -63,13 +63,21 @@ Do not put multiple placeholders in the same text box unless they must share the
 3. User generates Grok images and places them in Google Drive.
 4. Codex reviews image quality and selects assets.
 5. User duplicates the Canva panorama template.
-6. User replaces image assets in Canva.
-7. Codex reads the Canva design and replaces placeholders.
-8. User previews and approves.
-9. Codex saves the Canva design.
+6. Use `canva_asset_slots.csv` to place cover/detail/background assets.
+7. Use `canva_fill_guide.md` to replace text placeholders.
+8. Use `quality_report.md` as the pre-production gate.
+9. User previews and approves.
 10. User uses Canva slicing/cutting app to export 5 images.
 11. User publishes to Instagram.
-12. Codex records metrics and prepares Day 6 commerce links.
+12. Codex records metrics.
+
+Future automation input:
+
+```text
+canva_placeholder_map.json
+```
+
+This file maps `{{placeholder}}` tokens to final copy and can be used by a Canva plugin transaction later.
 
 ## Design Rules
 

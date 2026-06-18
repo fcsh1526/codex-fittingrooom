@@ -5,6 +5,9 @@ Generated artifacts:
 - `weekly_content_packet.csv`
 - `grok_prompts.md`
 - `canva_placeholder_values.csv`
+- `canva_fill_guide.md`
+- `canva_placeholder_map.json`
+- `canva_asset_slots.csv`
 - `post_drafts.md`
 - `publish_checklist.md`
 

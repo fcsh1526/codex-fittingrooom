@@ -54,6 +54,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Perplexity import automation now supports CSV files, direct CSV URLs, and markdown reports with fenced CSV blocks.
 - One-command weekly pipeline was tested with `10_automation/examples/perplexity_export_example.md`.
 - Weekly run quality validation now checks required files, required fields, AI disclosure, Grok safety terms, hashtag count, and Canva text length.
+- Canva handoff automation now generates `canva_fill_guide.md`, `canva_placeholder_map.json`, and `canva_asset_slots.csv`.
 
 ## Latest Published Post
 
@@ -150,7 +151,7 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 3. Confirm `quality_report.md` status is `pass`.
 4. Use generated Grok prompts for image production.
 5. Pick the best image assets.
-6. Fill Canva placeholder values.
+6. Use generated Canva handoff files to fill the panorama template.
 7. Use generated IG / Threads / Pinterest drafts.
 8. Record publish metrics.
 

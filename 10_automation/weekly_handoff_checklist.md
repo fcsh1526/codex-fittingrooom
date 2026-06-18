@@ -36,6 +36,14 @@ Before image production, confirm:
 quality_report.md status = pass
 ```
 
+## If Canva Template Is Ready
+
+Codex should use:
+
+- `canva_fill_guide.md` for manual text replacement.
+- `canva_placeholder_map.json` for plugin-based replacement later.
+- `canva_asset_slots.csv` to decide which Grok image goes where.
+
 ## If Grok Images Are Not Ready
 
 Codex should output:
@@ -53,6 +61,7 @@ Codex should output:
 - 5-slide placeholder values
 - layout notes for `5400 x 1350`
 - short IG caption
+- Canva asset slots
 
 ## If IG Reach Is Still Zero
 

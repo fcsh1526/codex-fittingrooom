@@ -2,6 +2,7 @@ import argparse
 import csv
 from pathlib import Path
 
+from generate_canva_handoff import write_canva_handoff
 from generate_canva_placeholders import FIELDNAMES as CANVA_FIELDS
 from generate_canva_placeholders import build_placeholders
 
@@ -335,6 +336,9 @@ def write_manifest(path, week_id, packets):
         "- `weekly_content_packet.csv`",
         "- `grok_prompts.md`",
         "- `canva_placeholder_values.csv`",
+        "- `canva_fill_guide.md`",
+        "- `canva_placeholder_map.json`",
+        "- `canva_asset_slots.csv`",
         "- `post_drafts.md`",
         "- `publish_checklist.md`",
         "",
@@ -380,6 +384,7 @@ def main():
     write_grok_prompts(out_dir / "grok_prompts.md", packets)
     write_post_drafts(out_dir / "post_drafts.md", packets)
     write_publish_checklist(out_dir / "publish_checklist.md", args.week, packets)
+    write_canva_handoff(out_dir, canva_rows=canva_rows)
     write_manifest(out_dir / "README.md", args.week, packets)
 
     print(f"Wrote {len(packets)} carousel packet(s) to {out_dir}")

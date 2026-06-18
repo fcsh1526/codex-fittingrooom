@@ -1,0 +1,132 @@
+{
+  "2026-W21-test-001": {
+    "placeholders": {
+      "{{slide1_title}}": "butter yellow…",
+      "{{slide1_subtitle}}": "通勤穿搭靈感",
+      "{{slide1_disclosure}}": "AI 虛擬穿搭示意",
+      "{{slide2_kicker}}": "LOOK 01",
+      "{{slide2_title}}": "Buttery yellow kn…",
+      "{{slide2_body}}": "fitted, cropped V-neck",
+      "{{slide3_kicker}}": "FABRIC",
+      "{{slide3_title}}": "fine merino-cot…",
+      "{{slide3_body}}": "tucked into high-waist indigo…",
+      "{{slide4_kicker}}": "STYLING",
+      "{{slide4_title}}": "搭配重點",
+      "{{slide4_body}}": "tucked into high-waist indigo s…",
+      "{{slide5_title}}": "想看同風格清單？",
+      "{{slide5_cta}}": "留言「Buttery…」",
+      "{{slide5_note}}": "我整理平價 / 質感 / 替代款",
+      "{{slide5_disclosure}}": "AI 虛擬穿搭示意"
+    },
+    "caption_short": "這套想測「Buttery Neutral」方向。 重點是 Buttery yellow knit vest，適合 通勤。 想看同風格單品清單，可以留言「Buttery…」。 AI 虛擬穿搭示意，非真人試穿。",
+    "hashtags": "#通勤穿搭 #上班穿搭 #女生穿搭 #穿搭靈感 #AI穿搭 #虛擬穿搭",
+    "asset_slots": [
+      {
+        "carousel_id": "2026-W21-test-001",
+        "slot_id": "cover_image",
+        "slide_range": "1-2",
+        "asset_type": "Grok image",
+        "purpose": "strongest full-body image, used as the visual anchor",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary."
+      },
+      {
+        "carousel_id": "2026-W21-test-001",
+        "slot_id": "detail_image",
+        "slide_range": "3",
+        "asset_type": "Grok image",
+        "purpose": "alternate angle or outfit detail",
+        "recommended_file": "",
+        "status": "optional",
+        "notes": "Use only if hands, face, and clothing structure are clean."
+      },
+      {
+        "carousel_id": "2026-W21-test-001",
+        "slot_id": "texture_or_crop",
+        "slide_range": "4-5",
+        "asset_type": "crop / neutral background",
+        "purpose": "quiet visual support for styling notes and CTA",
+        "recommended_file": "",
+        "status": "optional",
+        "notes": "Prefer a soft crop from the same image or a clean neutral background."
+      }
+    ],
+    "design_contract": {
+      "canvas_size": "5400 x 1350 px",
+      "export": "5 slides, 1080 x 1350 px each",
+      "slice_guides_x": [
+        1080,
+        2160,
+        3240,
+        4320
+      ],
+      "safe_margin_from_guides_px": 80
+    }
+  },
+  "2026-W21-test-002": {
+    "placeholders": {
+      "{{slide1_title}}": "cream / off-w…",
+      "{{slide1_subtitle}}": "週間午餐穿搭靈感",
+      "{{slide1_disclosure}}": "AI 虛擬穿搭示意",
+      "{{slide2_kicker}}": "LOOK 01",
+      "{{slide2_title}}": "Cream blazer set",
+      "{{slide2_body}}": "boxy oversized blazer + s…",
+      "{{slide3_kicker}}": "FABRIC",
+      "{{slide3_title}}": "lightweight woo…",
+      "{{slide3_body}}": "white silk tank inside, slim …",
+      "{{slide4_kicker}}": "STYLING",
+      "{{slide4_title}}": "搭配重點",
+      "{{slide4_body}}": "white silk tank inside, slim br…",
+      "{{slide5_title}}": "想看同風格清單？",
+      "{{slide5_cta}}": "留言「Creambl…」",
+      "{{slide5_note}}": "我整理平價 / 質感 / 替代款",
+      "{{slide5_disclosure}}": "AI 虛擬穿搭示意"
+    },
+    "caption_short": "這套想測「Buttery Neutral」方向。 重點是 Cream blazer set，適合 週間午餐。 想看同風格單品清單，可以留言「Creambl…」。 AI 虛擬穿搭示意，非真人試穿。",
+    "hashtags": "#通勤穿搭 #上班穿搭 #女生穿搭 #穿搭靈感 #AI穿搭 #虛擬穿搭",
+    "asset_slots": [
+      {
+        "carousel_id": "2026-W21-test-002",
+        "slot_id": "cover_image",
+        "slide_range": "1-2",
+        "asset_type": "Grok image",
+        "purpose": "strongest full-body image, used as the visual anchor",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary."
+      },
+      {
+        "carousel_id": "2026-W21-test-002",
+        "slot_id": "detail_image",
+        "slide_range": "3",
+        "asset_type": "Grok image",
+        "purpose": "alternate angle or outfit detail",
+        "recommended_file": "",
+        "status": "optional",
+        "notes": "Use only if hands, face, and clothing structure are clean."
+      },
+      {
+        "carousel_id": "2026-W21-test-002",
+        "slot_id": "texture_or_crop",
+        "slide_range": "4-5",
+        "asset_type": "crop / neutral background",
+        "purpose": "quiet visual support for styling notes and CTA",
+        "recommended_file": "",
+        "status": "optional",
+        "notes": "Prefer a soft crop from the same image or a clean neutral background."
+      }
+    ],
+    "design_contract": {
+      "canvas_size": "5400 x 1350 px",
+      "export": "5 slides, 1080 x 1350 px each",
+      "slice_guides_x": [
+        1080,
+        2160,
+        3240,
+        4320
+      ],
+      "safe_margin_from_guides_px": 80
+    }
+  }
+}

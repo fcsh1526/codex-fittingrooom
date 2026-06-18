@@ -27,10 +27,11 @@ Each week should produce:
 1. `weekly_content_packet.csv`
 2. 3-5 Grok prompts
 3. Canva placeholder values
-4. IG carousel caption and hashtags
-5. Drive asset inventory
-6. Publish record
-7. Metrics record
+4. Canva fill guide / placeholder map / asset slots
+5. IG carousel caption and hashtags
+6. Drive asset inventory
+7. Publish record
+8. Metrics record
 
 ## Files In This Folder
 
@@ -40,6 +41,7 @@ Each week should produce:
 - `weekly_handoff_checklist.md`: what the user should provide each week.
 - `import_perplexity_export.py`: imports a Perplexity CSV or markdown CSV block into `04_prompts/item_prompt_database.csv`.
 - `generate_canva_placeholders.py`: converts a weekly content packet CSV into Canva placeholder values.
+- `generate_canva_handoff.py`: creates the Canva fill guide, placeholder JSON map, and asset slot CSV.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
@@ -86,6 +88,9 @@ Generated files:
 - `weekly_content_packet.csv`
 - `grok_prompts.md`
 - `canva_placeholder_values.csv`
+- `canva_fill_guide.md`
+- `canva_placeholder_map.json`
+- `canva_asset_slots.csv`
 - `post_drafts.md`
 - `publish_checklist.md`
 - `README.md`

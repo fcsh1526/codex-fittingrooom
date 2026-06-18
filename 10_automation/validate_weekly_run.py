@@ -10,6 +10,9 @@ REQUIRED_FILES = [
     "weekly_content_packet.csv",
     "grok_prompts.md",
     "canva_placeholder_values.csv",
+    "canva_fill_guide.md",
+    "canva_placeholder_map.json",
+    "canva_asset_slots.csv",
     "post_drafts.md",
     "publish_checklist.md",
     "README.md",
@@ -202,6 +205,44 @@ def validate_post_drafts(run_dir, packet_rows, issues):
             add_issue(issues, "error", "post_draft_disclosure", f"post_drafts.md missing disclosure term {term}.")
 
 
+def validate_canva_handoff(run_dir, packet_rows, issues):
+    packet_ids = {clean(row.get("carousel_id")) for row in packet_rows}
+
+    map_path = run_dir / "canva_placeholder_map.json"
+    if map_path.exists():
+        try:
+            mapping = json.loads(read_text(map_path))
+        except json.JSONDecodeError as exc:
+            add_issue(issues, "error", "canva_map_json", f"canva_placeholder_map.json is invalid JSON: {exc}.")
+            mapping = {}
+
+        map_ids = set(mapping.keys())
+        for carousel_id in sorted(packet_ids - map_ids):
+            add_issue(issues, "error", "canva_map_missing", f"canva_placeholder_map.json missing {carousel_id}.")
+        for carousel_id in sorted(map_ids - packet_ids):
+            add_issue(issues, "warning", "canva_map_extra", f"canva_placeholder_map.json has extra {carousel_id}.")
+        for carousel_id, data in mapping.items():
+            placeholders = data.get("placeholders", {})
+            for token in ["{{slide1_title}}", "{{slide1_disclosure}}", "{{slide5_cta}}", "{{slide5_disclosure}}"]:
+                if not clean(placeholders.get(token)):
+                    add_issue(issues, "error", "canva_map_placeholder", f"{carousel_id}: missing {token} in placeholder map.")
+            if not data.get("design_contract"):
+                add_issue(issues, "warning", "canva_map_contract", f"{carousel_id}: missing design_contract.")
+
+    slots_path = run_dir / "canva_asset_slots.csv"
+    if slots_path.exists():
+        rows = read_csv(slots_path)
+        by_carousel = {}
+        for row in rows:
+            by_carousel.setdefault(clean(row.get("carousel_id")), []).append(row)
+        for carousel_id in sorted(packet_ids):
+            slots = by_carousel.get(carousel_id, [])
+            slot_ids = {clean(row.get("slot_id")) for row in slots}
+            for slot_id in ["cover_image", "detail_image", "texture_or_crop"]:
+                if slot_id not in slot_ids:
+                    add_issue(issues, "warning", "canva_asset_slot", f"{carousel_id}: missing {slot_id} asset slot.")
+
+
 def write_reports(run_dir, issues):
     status = "pass" if not any(issue["severity"] == "error" for issue in issues) else "fail"
     warning_count = sum(1 for issue in issues if issue["severity"] == "warning")
@@ -246,6 +287,7 @@ def validate_run(run_dir, min_rows=1):
     validate_canva_rows(run_dir, packet_rows=packet_rows, issues=issues)
     validate_grok_prompt(run_dir, issues)
     validate_post_drafts(run_dir, packet_rows=packet_rows, issues=issues)
+    validate_canva_handoff(run_dir, packet_rows=packet_rows, issues=issues)
     return write_reports(run_dir, issues)
 
 
