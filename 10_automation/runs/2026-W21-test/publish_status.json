@@ -1,0 +1,41 @@
+{
+  "latest_publish": {
+    "record_date": "2026-06-12",
+    "week_id": "2026-W21-test",
+    "carousel_id": "2026-W21-test-002",
+    "platform": "Instagram",
+    "format": "Carousel",
+    "post_url": "https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01",
+    "published_at": "2026/06/01 16:08",
+    "content_bucket": "daily_style",
+    "prompt_id": "W21-P002",
+    "run_dir": "10_automation\\runs\\2026-W21-test",
+    "drive_folder_url": "",
+    "canva_design_url": "",
+    "product_links_used": "no",
+    "cta": "想看同風格清單？留言「沙色套裝」我整理平價 / 質感 / 替代款",
+    "status": "published",
+    "notes": "10+ day zero-reach check."
+  },
+  "latest_metric": {
+    "record_date": "2026-06-12",
+    "week_id": "2026-W21-test",
+    "carousel_id": "2026-W21-test-002",
+    "platform": "Instagram",
+    "post_url": "https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01",
+    "measured_at": "2026-06-12",
+    "hours_after_publish": "264",
+    "reach": "0",
+    "likes": "0",
+    "saves": "0",
+    "comments": "0",
+    "shares": "0",
+    "profile_visits": "0",
+    "new_followers": "0",
+    "cta_comments": "0",
+    "link_clicks": "0",
+    "decision": "visibility_recovery",
+    "interpretation": "Reach is zero, so this is a visibility or distribution problem, not a content-quality result.",
+    "next_action": "Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel."
+  }
+}

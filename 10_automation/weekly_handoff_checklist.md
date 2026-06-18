@@ -13,6 +13,20 @@ Last post reach:
 Anything stuck:
 ```
 
+If you are returning after a long break, first run the dashboard:
+
+```text
+10_automation/weekly_dashboard.py
+```
+
+or the Windows shortcut:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action dashboard
+```
+
+Then use `10_automation/runs/DASHBOARD.md` to choose the next run.
+
 ## Minimum Required To Continue
 
 Codex can continue with only:
@@ -131,6 +145,7 @@ For normal work, prefer:
 Use actions:
 
 ```text
+dashboard
 pipeline
 status
 assets
@@ -139,4 +154,4 @@ validate
 smoke-test
 ```
 
-After syncing on a different computer, run `smoke-test` before continuing weekly work.
+After syncing on a different computer, run `smoke-test`, then `dashboard`, before continuing weekly work.

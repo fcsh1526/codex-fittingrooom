@@ -2,6 +2,17 @@
 
 Purpose: restart the Mika Lin workflow after the first Instagram carousel stayed at zero reach for 10+ days.
 
+## Start Here Today
+
+Use this exact order:
+
+1. Spend 5 minutes on the Instagram visibility audit.
+2. Publish one simple single-image test only if the account/post can be opened from another account.
+3. Share it once to Story and send it to 3-5 trusted people.
+4. Record 6h and 24h metrics.
+
+Do not open Perplexity, Grok, Canva, or affiliate links until this test is done.
+
 ## Diagnosis
 
 Do not treat the first post as a content-quality failure.
@@ -133,3 +144,35 @@ reach = 0 after visibility audit + simple post + manual seed traffic
 ```
 
 If it fails again, treat Instagram as a portfolio archive and move the first growth test to Pinterest / Threads / Xiaohongshu.
+
+## Reply Template For Codex
+
+After the audit or after the next post, paste:
+
+```text
+IG audit:
+public =
+account status =
+post visible =
+can open from another account =
+
+Second test:
+post url =
+published at =
+shared to story =
+sent to trusted people =
+
+6h metrics:
+reach =
+likes =
+saves =
+comments =
+shares =
+
+24h metrics:
+reach =
+likes =
+saves =
+comments =
+shares =
+```

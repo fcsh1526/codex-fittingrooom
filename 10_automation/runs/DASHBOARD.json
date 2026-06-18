@@ -1,0 +1,20 @@
+{
+  "runs_dir": "10_automation\\runs",
+  "run_count": 1,
+  "stage_counts": {
+    "visibility_recovery": 1
+  },
+  "runs": [
+    {
+      "run_dir": "10_automation\\runs\\2026-W21-test",
+      "stage": "visibility_recovery",
+      "next_action": "Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel.",
+      "packet_rows": 2,
+      "quality": "pass",
+      "cover_assets": "2/2",
+      "published": true,
+      "metric_checkpoints": 2,
+      "latest_decision": "visibility_recovery"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ This is the fixed workflow for producing polished Instagram carousel content.
 For normal Windows use, prefer:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action status -Week {week_id}
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action dashboard
 ```
 
 After pulling changes or switching computers, run:
@@ -300,7 +300,21 @@ After Grok assets are selected, run validation with:
 
 ## Resume Rule
 
-Whenever work resumes, check the current stage first:
+Whenever work resumes after a break, check all weekly runs first:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\weekly_dashboard.py `
+  --runs-dir 10_automation\runs
+```
+
+If the dashboard shows `visibility_recovery`, do not make a new carousel or product list yet. Run:
+
+```text
+05_content/2026_06_18_reactivation_plan.md
+```
+
+For a specific run, check the current stage with:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `

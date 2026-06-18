@@ -179,12 +179,20 @@ def test_powershell_entrypoint_if_available():
     )
 
 
+def test_weekly_dashboard():
+    run_command([sys.executable, "10_automation/weekly_dashboard.py", "--runs-dir", rel(TMP_ROOT)])
+    dashboard = read_json(TMP_ROOT / "DASHBOARD.json")
+    assert_equal(dashboard["run_count"], 2, "dashboard run count")
+    assert_exists(TMP_ROOT / "DASHBOARD.md", "weekly dashboard")
+
+
 def main():
     clean_tmp()
     test_new_week_without_assets()
     test_week_with_scored_assets()
     test_zero_reach_decision()
     test_powershell_entrypoint_if_available()
+    test_weekly_dashboard()
     print("Smoke test passed.")
 
 

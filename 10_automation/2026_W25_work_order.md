@@ -10,6 +10,14 @@ Produce a steady stream of polished Instagram carousel posts before monetization
 
 Do not prioritize affiliate links until reach is non-zero.
 
+Because the first Instagram post has stayed at zero reach for 10+ days, today's priority is smaller:
+
+```text
+verify account visibility -> publish one simple single-image test -> record 6h/24h metrics
+```
+
+Do not produce a new panorama carousel until the simple visibility test gets non-zero reach.
+
 ## Required Inputs From User
 
 Paste these when ready:
@@ -53,6 +61,12 @@ Codex should:
 
 ## Current Automation Command
 
+Start here after returning from a break:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action dashboard
+```
+
 Full import + packet build example:
 
 ```powershell
@@ -86,12 +100,14 @@ README.md
 
 ## If Instagram Still Has Zero Reach
 
-Publish a simpler second test before doing product links.
+Publish a simpler second test before doing product links or another panorama carousel.
 
 Use:
 
 ```text
 05_content/second_test_zero_reach_post.md
+05_content/2026_06_18_reactivation_plan.md
+09_sops/instagram_zero_reach_recovery.md
 ```
 
 ## Done Criteria For This Week

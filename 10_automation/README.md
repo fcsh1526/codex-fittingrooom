@@ -49,6 +49,7 @@ Each week should produce:
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.
 - `check_weekly_status.py`: reads a run folder and tells the current stage, blocking items, and next command.
+- `weekly_dashboard.py`: scans all weekly run folders and writes a top-level dashboard.
 - `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
 
 ## Recommended Windows Entrypoint
@@ -61,6 +62,20 @@ Check an existing run:
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -Action status `
   -Week 2026-W21-test
+```
+
+Check all runs first when returning after a break:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action dashboard
+```
+
+This writes:
+
+```text
+10_automation/runs/DASHBOARD.md
+10_automation/runs/DASHBOARD.json
 ```
 
 Create a weekly run from Perplexity:
@@ -316,7 +331,21 @@ This writes:
 
 ## Weekly Status Check
 
-When returning to a run folder, start here:
+When returning to the project after a break, start with the all-run dashboard:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\weekly_dashboard.py `
+  --runs-dir 10_automation\runs
+```
+
+Then open:
+
+```text
+10_automation/runs/DASHBOARD.md
+```
+
+When returning to a specific run folder, use:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
