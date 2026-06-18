@@ -50,6 +50,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - A second simple test post was drafted.
 - Automation hub was created in `10_automation/`.
 - Weekly packet builder was tested and generated `10_automation/runs/2026-W21-test/`.
+- Weekly run folder now includes Grok prompts, Canva placeholders, platform post drafts, and publish checklist.
 
 ## Latest Published Post
 
@@ -141,11 +142,12 @@ Use 05_content/2026_06_18_reactivation_plan.md today.
 
 When the user provides the next Perplexity URL or Drive folder, Codex should:
 
-1. Fill a weekly content packet.
-2. Generate 3-5 Grok prompts.
-3. Pick the best image assets.
-4. Fill Canva placeholder values.
-5. Prepare IG caption and hashtags.
-6. Record publish metrics.
+1. Import weekly prompt rows into `04_prompts/item_prompt_database.csv`.
+2. Run `10_automation/build_weekly_packet.py`.
+3. Use generated Grok prompts for image production.
+4. Pick the best image assets.
+5. Fill Canva placeholder values.
+6. Use generated IG / Threads / Pinterest drafts.
+7. Record publish metrics.
 
 Only after reach becomes non-zero should Codex create affiliate/product links.

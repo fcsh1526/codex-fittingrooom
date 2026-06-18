@@ -32,7 +32,7 @@ Codex extracts:
 Output:
 
 ```text
-10_automation/weekly_content_packet_template.csv
+10_automation/runs/{week_id}/weekly_content_packet.csv
 ```
 
 filled for the current week.
@@ -51,7 +51,13 @@ Selection rules:
 
 ## Stage 3 - Grok Prompting
 
-Use the Mika Lin identity block and generate 3-5 image variants.
+Use:
+
+```text
+10_automation/runs/{week_id}/grok_prompts.md
+```
+
+with the Mika Lin identity block and generate 3-5 image variants.
 
 Prompt must include:
 
@@ -133,6 +139,13 @@ slide5_disclosure
 
 ## Stage 6 - Instagram Publish
 
+Use:
+
+```text
+10_automation/runs/{week_id}/post_drafts.md
+10_automation/runs/{week_id}/publish_checklist.md
+```
+
 While the account has little or zero reach, prefer:
 
 - one clear outfit concept
@@ -166,3 +179,23 @@ Decision rule:
 - `saves > 0`: make a second carousel in same bucket
 - `comments > 0`: prepare product list / reply flow
 
+## One-Command Local Packet Build
+
+After the weekly Perplexity rows are imported into `04_prompts/item_prompt_database.csv`, generate the weekly run folder:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\build_weekly_packet.py `
+  --week 2026-W21-test `
+  --limit 2 `
+  --output-dir 10_automation\runs\2026-W21-test
+```
+
+This creates:
+
+- `weekly_content_packet.csv`
+- `grok_prompts.md`
+- `canva_placeholder_values.csv`
+- `post_drafts.md`
+- `publish_checklist.md`
+- `README.md`

@@ -83,6 +83,8 @@ Generated files:
 - `weekly_content_packet.csv`
 - `grok_prompts.md`
 - `canva_placeholder_values.csv`
+- `post_drafts.md`
+- `publish_checklist.md`
 - `README.md`
 
 ## Operating Rule

@@ -157,6 +157,175 @@ def write_grok_prompts(path, packets):
     Path(path).write_text("\n".join(body), encoding="utf-8")
 
 
+def platform_hashtags(packet):
+    bucket = packet.get("content_bucket", "")
+    base = [
+        "#穿搭靈感",
+        "#女生穿搭",
+        "#AI穿搭",
+        "#虛擬穿搭",
+        "#MikaLin",
+    ]
+    if bucket == "office_capsule":
+        base = ["#通勤穿搭", "#上班穿搭", "#小資穿搭", "#西裝外套"] + base
+    elif bucket == "date_outfit":
+        base = ["#約會穿搭", "#週末穿搭", "#質感穿搭"] + base
+    elif bucket == "rainy_day":
+        base = ["#雨天穿搭", "#機能穿搭", "#日常穿搭"] + base
+    else:
+        base = ["#日常穿搭", "#簡約穿搭", "#質感穿搭"] + base
+    return " ".join(base[:10])
+
+
+def comment_keyword(packet):
+    item = clean(packet.get("clothing_item")) or clean(packet.get("trend_name")) or "同風格"
+    trend = clean(packet.get("trend_name"))
+    for candidate in [item, trend]:
+        compacted = candidate.replace(" ", "")
+        if any("\u4e00" <= char <= "\u9fff" for char in compacted):
+            return compacted[:8]
+    return "同風格"
+
+
+def instagram_caption(packet):
+    keyword = comment_keyword(packet)
+    trend = clean(packet.get("trend_name")) or "本週穿搭"
+    item = clean(packet.get("clothing_item")) or trend
+    occasion = clean(packet.get("occasion")) or "日常"
+
+    return f"""這套想測「{trend}」方向。
+
+重點是 {item}，適合 {occasion}。
+
+你會把這套穿去{occasion}嗎？
+留言 1 = 會
+留言 2 = 不會
+
+想看同風格單品清單，也可以留言「{keyword}」。
+
+AI 虛擬穿搭示意，非真人試穿。
+
+{platform_hashtags(packet)}"""
+
+
+def first_comment(packet):
+    keyword = comment_keyword(packet)
+    return f"""AI 虛擬穿搭示意，非真人試穿。
+如果想看同風格清單，可以留言「{keyword}」，我會整理平價 / 質感 / 替代款。"""
+
+
+def threads_copy(packet):
+    trend = clean(packet.get("trend_name")) or "本週穿搭"
+    item = clean(packet.get("clothing_item")) or trend
+    occasion = clean(packet.get("occasion")) or "日常"
+    return f"""這套 {item} 適合{occasion}嗎？
+
+我在測 AI 虛擬穿搭帳號的「{trend}」方向。你會穿嗎？留言 1=會，2=不會。
+
+AI 虛擬穿搭示意，非真人試穿。"""
+
+
+def pinterest_copy(packet):
+    trend = clean(packet.get("trend_name")) or "Weekly outfit idea"
+    item = clean(packet.get("clothing_item")) or trend
+    palette = clean(packet.get("color_palette")) or "neutral palette"
+    occasion = clean(packet.get("occasion")) or "daily wear"
+    return {
+        "title": f"{trend} outfit idea",
+        "description": (
+            f"AI virtual outfit inspiration featuring {item}, {palette}, for {occasion}. "
+            "Save this for outfit planning. AI virtual outfit, not a real try-on."
+        ),
+    }
+
+
+def write_post_drafts(path, packets):
+    lines = [
+        "# Weekly Platform Post Drafts",
+        "",
+        "Use these drafts after the image assets and Canva carousel are ready.",
+        "",
+    ]
+    for packet in packets:
+        pinterest = pinterest_copy(packet)
+        lines.extend(
+            [
+                f"## {packet['carousel_id']} - {packet['trend_name']}",
+                "",
+                "### Instagram Caption",
+                "",
+                "```text",
+                instagram_caption(packet),
+                "```",
+                "",
+                "### Instagram First Comment",
+                "",
+                "```text",
+                first_comment(packet),
+                "```",
+                "",
+                "### Threads Copy",
+                "",
+                "```text",
+                threads_copy(packet),
+                "```",
+                "",
+                "### Pinterest Pin",
+                "",
+                f"Title: `{pinterest['title']}`",
+                "",
+                "Description:",
+                "",
+                "```text",
+                pinterest["description"],
+                "```",
+                "",
+            ]
+        )
+    Path(path).write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_publish_checklist(path, week_id, packets):
+    lines = [
+        f"# Publish Checklist - {week_id}",
+        "",
+        "Use this checklist for each carousel before publishing.",
+        "",
+        "## Before Canva",
+        "",
+        "- Grok output folder is in Google Drive.",
+        "- Best cover image is selected.",
+        "- Best full-body detail image is selected.",
+        "- Image passes AI quality review: identity, outfit clarity, hands/body, no logos.",
+        "",
+        "## Canva",
+        "",
+        "- Replace all placeholders from `canva_placeholder_values.csv`.",
+        "- Confirm text is readable on mobile.",
+        "- Export 5 slides at 1080 x 1350.",
+        "- Do not export the full 5400 x 1350 master canvas as slide 1.",
+        "",
+        "## Instagram",
+        "",
+        "- Publish as carousel only after account visibility is confirmed.",
+        "- Add first comment immediately.",
+        "- Share once to Story.",
+        "- Send to 3 trusted people for clean manual seed traffic if reach is still low.",
+        "",
+        "## Metrics",
+        "",
+        "- Record 6-hour metrics.",
+        "- Record 24-hour metrics.",
+        "- If reach is 0, run `09_sops/instagram_zero_reach_recovery.md`.",
+        "",
+        "## Carousel Candidates",
+        "",
+    ]
+    for packet in packets:
+        lines.append(f"- `{packet['carousel_id']}`: {packet['trend_name']} / {packet['clothing_item']}")
+    Path(path).write_text("\n".join(lines), encoding="utf-8")
+
+
 def write_manifest(path, week_id, packets):
     lines = [
         f"# Weekly Run Manifest - {week_id}",
@@ -166,6 +335,8 @@ def write_manifest(path, week_id, packets):
         "- `weekly_content_packet.csv`",
         "- `grok_prompts.md`",
         "- `canva_placeholder_values.csv`",
+        "- `post_drafts.md`",
+        "- `publish_checklist.md`",
         "",
         "Selected carousel candidates:",
         "",
@@ -207,6 +378,8 @@ def main():
     write_csv(out_dir / "weekly_content_packet.csv", PACKET_FIELDS, packets)
     write_csv(out_dir / "canva_placeholder_values.csv", CANVA_FIELDS, canva_rows)
     write_grok_prompts(out_dir / "grok_prompts.md", packets)
+    write_post_drafts(out_dir / "post_drafts.md", packets)
+    write_publish_checklist(out_dir / "publish_checklist.md", args.week, packets)
     write_manifest(out_dir / "README.md", args.week, packets)
 
     print(f"Wrote {len(packets)} carousel packet(s) to {out_dir}")
@@ -214,4 +387,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

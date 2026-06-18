@@ -27,9 +27,9 @@ Codex should:
 
 1. Extract 5 trends.
 2. Pick 1-2 carousel candidates.
-3. Fill `weekly_content_packet_template.csv`.
-4. Generate Grok prompts from `04_prompts/grok_weekly_carousel_prompt.md`.
-5. Generate Canva placeholder values from `canva_placeholder_values_template.csv`.
+3. Import selected rows into `04_prompts/item_prompt_database.csv`.
+4. Run `10_automation/build_weekly_packet.py`.
+5. Use the generated `grok_prompts.md`, `canva_placeholder_values.csv`, `post_drafts.md`, and `publish_checklist.md`.
 
 ## If Grok Images Are Available
 
@@ -50,6 +50,29 @@ Codex should:
 3. Show preview.
 4. Ask user before saving.
 5. Record the final Canva URL.
+
+## Current Automation Command
+
+Example:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\build_weekly_packet.py `
+  --week 2026-W21-test `
+  --limit 2 `
+  --output-dir 10_automation\runs\2026-W21-test
+```
+
+Generated files:
+
+```text
+weekly_content_packet.csv
+grok_prompts.md
+canva_placeholder_values.csv
+post_drafts.md
+publish_checklist.md
+README.md
+```
 
 ## If Instagram Still Has Zero Reach
 
@@ -78,4 +101,3 @@ Better:
 at least one post reaches 20+ people
 one repeatable Canva template validated
 ```
-
