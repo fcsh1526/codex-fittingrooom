@@ -30,6 +30,8 @@ If the Perplexity export is ready, Codex should run:
 
 and produce the weekly Grok prompts, Canva placeholders, platform drafts, and publish checklist.
 
+If visual review scores and Drive inventory are also ready, pass them into `run_weekly_pipeline.py` so it can select assets and write `weekly_status.md` in the same run.
+
 When a run folder already exists, Codex should first run:
 
 ```text

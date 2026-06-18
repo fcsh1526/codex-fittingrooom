@@ -150,7 +150,9 @@ def determine_stage(files, quality, assets, publishing):
         }
 
     if assets["missing_cover"]:
-        if assets["selection_exists"]:
+        if assets["review_template_exists"] and assets["selection_rows"]:
+            next_action = "Fill grok_asset_review_template.csv after reviewing Grok outputs, then rerun select_grok_assets.py with that score sheet."
+        elif assets["selection_exists"]:
             next_action = "Review grok_asset_selection.csv, then rerun select_grok_assets.py with a scored image sheet."
         else:
             next_action = "Generate Grok images, score them, then run select_grok_assets.py."

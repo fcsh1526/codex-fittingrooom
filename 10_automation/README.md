@@ -135,6 +135,17 @@ Use this when a Perplexity export is ready and you want the full weekly packet i
   --limit 2
 ```
 
+If Grok image scores are already available, include them:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\run_weekly_pipeline.py `
+  --week 2026-W21-test `
+  --limit 2 `
+  --score-sheet 07_metrics\w21_visual_review_scores.csv `
+  --drive-inventory 07_metrics\w21_drive_image_inventory.csv
+```
+
 Output:
 
 ```text
@@ -146,6 +157,11 @@ The one-command pipeline runs quality validation by default and writes:
 ```text
 quality_report.md
 quality_report.json
+grok_asset_review_template.csv
+grok_asset_selection.csv
+canva_asset_plan.md
+weekly_status.md
+weekly_status.json
 ```
 
 To validate an existing run folder:

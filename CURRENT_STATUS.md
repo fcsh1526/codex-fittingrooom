@@ -58,6 +58,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Grok asset selection automation now fills cover/detail/crop asset slots from visual review scores and Drive inventory.
 - Publish and metrics automation now records post URLs, 6h/24h metrics, and next-action decisions.
 - Weekly status automation now writes `weekly_status.md/json` and tells the next action for each run folder.
+- Main weekly pipeline now creates asset review/status files by default and can select Grok assets when score sheets are provided.
 
 ## Latest Published Post
 
@@ -150,11 +151,11 @@ Use 05_content/2026_06_18_reactivation_plan.md today.
 When the user provides the next Perplexity URL or Drive folder, Codex should:
 
 1. Run `10_automation/check_weekly_status.py` if a run folder already exists.
-2. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available.
+2. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available; include score sheet / Drive inventory if Grok images are already reviewed.
 3. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
 4. Confirm `quality_report.md` status is `pass`.
 5. Use generated Grok prompts for image production.
-6. Run `10_automation/select_grok_assets.py` after Grok images are scored.
+6. Run `10_automation/select_grok_assets.py` only when Grok images are scored after the weekly packet already exists.
 7. Confirm `validate_weekly_run.py --require-assets` passes.
 8. Use generated Canva handoff files to fill the panorama template.
 9. Use generated IG / Threads / Pinterest drafts.

@@ -245,6 +245,15 @@ If the Perplexity export is ready, run the full pipeline:
   --limit 2
 ```
 
+If scored Grok images are already available, add:
+
+```text
+--score-sheet path_to_visual_review_scores.csv
+--drive-inventory path_to_drive_image_inventory.csv
+```
+
+The pipeline will then select cover/detail assets, validate with `--require-assets`, and write `weekly_status.md`.
+
 If the weekly rows are already imported into `04_prompts/item_prompt_database.csv`, generate only the weekly run folder:
 
 ```powershell

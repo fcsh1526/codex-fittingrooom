@@ -3,7 +3,9 @@ import sys
 from pathlib import Path
 
 from build_weekly_packet import main as build_main
+from check_weekly_status import check_status
 from import_perplexity_export import import_rows
+from select_grok_assets import select_assets
 from validate_weekly_run import validate_run
 
 
@@ -35,6 +37,10 @@ def main():
     parser.add_argument("--output-dir", help="Defaults to 10_automation/runs/{week}.")
     parser.add_argument("--dry-run-import", action="store_true")
     parser.add_argument("--skip-validation", action="store_true")
+    parser.add_argument("--score-sheet", help="Optional scored Grok image CSV. If omitted, an empty review template is created.")
+    parser.add_argument("--drive-inventory", help="Optional Drive image inventory CSV containing file_name and drive_url.")
+    parser.add_argument("--skip-asset-template", action="store_true", help="Do not create Grok asset review/selection files.")
+    parser.add_argument("--skip-status", action="store_true", help="Do not write weekly_status.md/json.")
     args = parser.parse_args()
 
     if args.perplexity_source:
@@ -65,6 +71,29 @@ def main():
         )
         if report["status"] != "pass":
             raise SystemExit(1)
+
+    if not args.skip_asset_template:
+        selections = select_assets(
+            run_dir=output_dir,
+            score_sheet=args.score_sheet,
+            drive_inventory=args.drive_inventory,
+        )
+        selected_count = sum(1 for row in selections if row["selection_status"] == "selected")
+        print(f"Asset selection: {selected_count}/{len(selections)} carousel(s) selected.")
+
+        if args.score_sheet and not args.skip_validation:
+            report = validate_run(output_dir, min_rows=args.limit, require_assets=True)
+            print(
+                f"Asset validation {report['status']}: "
+                f"{report['error_count']} error(s), {report['warning_count']} warning(s)."
+            )
+            if report["status"] != "pass":
+                raise SystemExit(1)
+
+    if not args.skip_status:
+        status = check_status(output_dir)
+        print(f"Stage: {status['stage']['stage']}")
+        print(f"Next action: {status['stage']['next_action']}")
     print(f"Weekly pipeline complete: {output_dir}")
 
 
