@@ -27,6 +27,20 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action d
 
 Then use `10_automation/runs/DASHBOARD.md` to choose the next run.
 
+For everyday work, run the daily brief:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
+```
+
+Then open:
+
+```text
+10_automation/TODAY.md
+```
+
+This file tells you whether today is a Perplexity, Grok, Canva, publishing, metrics, or visibility-recovery day.
+
 ## Minimum Required To Continue
 
 Codex can continue with only:
@@ -146,6 +160,8 @@ Use actions:
 
 ```text
 dashboard
+today
+brief
 pipeline
 status
 assets
@@ -154,4 +170,4 @@ validate
 smoke-test
 ```
 
-After syncing on a different computer, run `smoke-test`, then `dashboard`, before continuing weekly work.
+After syncing on a different computer, run `smoke-test`, then `today`, before continuing weekly work.

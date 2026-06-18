@@ -177,6 +177,24 @@ def test_powershell_entrypoint_if_available():
             rel(run_dir),
         ]
     )
+    run_command(
+        [
+            powershell,
+            "-ExecutionPolicy",
+            "Bypass",
+            "-File",
+            "10_automation/mika_weekly.ps1",
+            "-Action",
+            "today",
+            "-RunsDir",
+            rel(TMP_ROOT),
+            "-TodayOutput",
+            rel(TMP_ROOT / "PS_TODAY.md"),
+            "-TodayJson",
+            rel(TMP_ROOT / "PS_TODAY.json"),
+        ]
+    )
+    assert_exists(TMP_ROOT / "PS_TODAY.md", "PowerShell daily brief")
 
 
 def test_weekly_dashboard():
@@ -186,6 +204,26 @@ def test_weekly_dashboard():
     assert_exists(TMP_ROOT / "DASHBOARD.md", "weekly dashboard")
 
 
+def test_daily_brief():
+    run_command(
+        [
+            sys.executable,
+            "10_automation/daily_brief.py",
+            "--runs-dir",
+            rel(TMP_ROOT),
+            "--output-md",
+            rel(TMP_ROOT / "TODAY.md"),
+            "--output-json",
+            rel(TMP_ROOT / "TODAY.json"),
+            "--date",
+            "2026-06-18",
+        ]
+    )
+    brief = read_json(TMP_ROOT / "TODAY.json")
+    assert_equal(brief["priority_run"]["stage"], "visibility_recovery", "daily brief priority stage")
+    assert_exists(TMP_ROOT / "TODAY.md", "daily brief")
+
+
 def main():
     clean_tmp()
     test_new_week_without_assets()
@@ -193,6 +231,7 @@ def main():
     test_zero_reach_decision()
     test_powershell_entrypoint_if_available()
     test_weekly_dashboard()
+    test_daily_brief()
     print("Smoke test passed.")
 
 

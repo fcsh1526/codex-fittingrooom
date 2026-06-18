@@ -1,12 +1,14 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "dashboard", "assets", "metrics", "validate", "smoke-test")]
+    [ValidateSet("pipeline", "status", "dashboard", "today", "brief", "assets", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
     [string]$PerplexitySource = "",
     [string]$RunDir = "",
     [string]$RunsDir = "10_automation\runs",
+    [string]$TodayOutput = "10_automation\TODAY.md",
+    [string]$TodayJson = "10_automation\TODAY.json",
     [string]$Database = "04_prompts\item_prompt_database.csv",
     [int]$Limit = 2,
 
@@ -105,6 +107,14 @@ switch ($Action) {
 
     "dashboard" {
         Invoke-MikaPython -ScriptPath "10_automation\weekly_dashboard.py" -ArgsList @("--runs-dir", $RunsDir)
+    }
+
+    "today" {
+        Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson)
+    }
+
+    "brief" {
+        Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson)
     }
 
     "assets" {

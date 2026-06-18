@@ -38,6 +38,7 @@ Each week should produce:
 - `mika_weekly.ps1`: Windows PowerShell entrypoint for the main weekly actions.
 - `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
+- `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.
 - `weekly_content_packet_template.csv`: one-row template for a weekly carousel packet.
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
 - `weekly_handoff_checklist.md`: what the user should provide each week.
@@ -71,7 +72,21 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -Action dashboard
 ```
 
+Create today's work brief:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action today
+```
+
 This writes:
+
+```text
+10_automation/TODAY.md
+10_automation/TODAY.json
+```
+
+The dashboard action writes:
 
 ```text
 10_automation/runs/DASHBOARD.md
@@ -343,6 +358,20 @@ Then open:
 
 ```text
 10_automation/runs/DASHBOARD.md
+```
+
+For the fastest daily workflow, run:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\daily_brief.py `
+  --runs-dir 10_automation\runs
+```
+
+Then open:
+
+```text
+10_automation/TODAY.md
 ```
 
 When returning to a specific run folder, use:

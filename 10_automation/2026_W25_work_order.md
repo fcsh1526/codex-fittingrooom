@@ -64,7 +64,13 @@ Codex should:
 Start here after returning from a break:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action dashboard
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
+```
+
+Then open:
+
+```text
+10_automation/TODAY.md
 ```
 
 Full import + packet build example:

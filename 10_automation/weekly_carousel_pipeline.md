@@ -5,7 +5,7 @@ This is the fixed workflow for producing polished Instagram carousel content.
 For normal Windows use, prefer:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action dashboard
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
 ```
 
 After pulling changes or switching computers, run:
@@ -300,7 +300,19 @@ After Grok assets are selected, run validation with:
 
 ## Resume Rule
 
-Whenever work resumes after a break, check all weekly runs first:
+Whenever work resumes after a break, create the daily brief first:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
+```
+
+Then open:
+
+```text
+10_automation/TODAY.md
+```
+
+If you need the raw all-run dashboard, run:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
