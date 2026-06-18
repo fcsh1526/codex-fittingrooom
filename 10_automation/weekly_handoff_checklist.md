@@ -119,3 +119,21 @@ Codex should run:
 ```
 
 and check `publish_status.md` for the next action.
+
+## Windows Shortcut
+
+For normal work, prefer:
+
+```text
+10_automation/mika_weekly.ps1
+```
+
+Use actions:
+
+```text
+pipeline
+status
+assets
+metrics
+validate
+```

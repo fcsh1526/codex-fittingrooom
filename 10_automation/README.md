@@ -35,6 +35,7 @@ Each week should produce:
 
 ## Files In This Folder
 
+- `mika_weekly.ps1`: Windows PowerShell entrypoint for the main weekly actions.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
 - `weekly_content_packet_template.csv`: one-row template for a weekly carousel packet.
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
@@ -48,6 +49,54 @@ Each week should produce:
 - `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.
 - `check_weekly_status.py`: reads a run folder and tells the current stage, blocking items, and next command.
 - `run_weekly_pipeline.py`: optional one-command importer + weekly packet builder.
+
+## Recommended Windows Entrypoint
+
+Use `mika_weekly.ps1` for normal work.
+
+Check an existing run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action status `
+  -Week 2026-W21-test
+```
+
+Create a weekly run from Perplexity:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action pipeline `
+  -Week 2026-W25 `
+  -PerplexitySource path_or_url_to_perplexity_export `
+  -Limit 2
+```
+
+Create a weekly run and select Grok assets in the same command:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action pipeline `
+  -Week 2026-W21-test `
+  -ScoreSheet 07_metrics\w21_visual_review_scores.csv `
+  -DriveInventory 07_metrics\w21_drive_image_inventory.csv `
+  -Limit 2
+```
+
+Record post metrics:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action metrics `
+  -Week 2026-W25 `
+  -CarouselId 2026-W25-001 `
+  -PostUrl "https://www.instagram.com/p/POST_ID/" `
+  -PublishedAt "2026/06/18 16:08" `
+  -RecordMetrics `
+  -MeasuredAt 2026-06-19 `
+  -HoursAfterPublish 24 `
+  -Reach 0
+```
 
 ## Placeholder Generator
 

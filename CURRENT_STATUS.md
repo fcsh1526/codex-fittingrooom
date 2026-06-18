@@ -59,6 +59,7 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Publish and metrics automation now records post URLs, 6h/24h metrics, and next-action decisions.
 - Weekly status automation now writes `weekly_status.md/json` and tells the next action for each run folder.
 - Main weekly pipeline now creates asset review/status files by default and can select Grok assets when score sheets are provided.
+- Windows shortcut `10_automation/mika_weekly.ps1` now wraps pipeline, status, assets, metrics, and validate actions.
 
 ## Latest Published Post
 
@@ -160,5 +161,11 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 8. Use generated Canva handoff files to fill the panorama template.
 9. Use generated IG / Threads / Pinterest drafts.
 10. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
+
+On Windows, prefer the shortcut:
+
+```text
+10_automation/mika_weekly.ps1
+```
 
 Only after reach becomes non-zero should Codex create affiliate/product links.

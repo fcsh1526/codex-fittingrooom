@@ -2,6 +2,12 @@
 
 This is the fixed workflow for producing polished Instagram carousel content.
 
+For normal Windows use, prefer:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action status -Week {week_id}
+```
+
 ## Stage 1 - Trend Input
 
 User provides either:
