@@ -71,6 +71,7 @@ Then open:
 
 ```text
 10_automation/TODAY.md
+10_automation/PUBLISH_QUEUE.md
 ```
 
 If today is a visibility recovery day, use:

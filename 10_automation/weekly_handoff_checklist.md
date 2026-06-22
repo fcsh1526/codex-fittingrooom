@@ -37,6 +37,7 @@ Then open:
 
 ```text
 10_automation/TODAY.md
+10_automation/PUBLISH_QUEUE.md
 ```
 
 This file tells you whether today is a Perplexity, Grok, Canva, publishing, metrics, or visibility-recovery day.
@@ -174,6 +175,7 @@ Use actions:
 
 ```text
 dashboard
+queue
 today
 brief
 visibility-test

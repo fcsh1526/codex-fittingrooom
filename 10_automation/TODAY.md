@@ -1,6 +1,6 @@
 # Mika Lin Daily Brief
 
-Date: `2026-06-18`
+Date: `2026-06-22`
 Priority run: `2026-W21-test`
 Stage: `visibility_recovery`
 
@@ -36,6 +36,17 @@ Today is an Instagram visibility recovery day, not a carousel production day.
 
 - `10_automation\runs\2026-W21-test\visibility_test_package.md`
 - `10_automation\runs\2026-W21-test\visibility_test_package.json`
+- `10_automation\PUBLISH_QUEUE.md`
+- `10_automation\PUBLISH_QUEUE.json`
+- `10_automation\PUBLISH_QUEUE.csv`
+
+## Publish Queue Top Item
+
+- Type: `visibility_test`
+- ID: `2026-W21-test-002-visibility-01`
+- Stage: `ready_to_publish_visibility_test`
+- Asset: `IMG_1455.JPG`
+- Next action: Publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.
 
 ## Current Next Action
 

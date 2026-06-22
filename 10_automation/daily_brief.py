@@ -4,6 +4,7 @@ from datetime import date
 from pathlib import Path
 
 from prepare_visibility_test import build_visibility_test
+from publish_queue import build_publish_queue
 from weekly_dashboard import build_dashboard
 
 
@@ -194,8 +195,9 @@ def no_run_brief():
     }
 
 
-def render_markdown(today, dashboard, priority_run, brief, generated_files=None):
+def render_markdown(today, dashboard, priority_run, brief, generated_files=None, publish_queue=None):
     generated_files = generated_files or []
+    publish_queue = publish_queue or {}
     run_name = Path(priority_run["run_dir"]).name if priority_run else "none"
     stage = clean(priority_run.get("stage")) if priority_run else "needs_weekly_input"
     next_action = clean(priority_run.get("next_action")) if priority_run else brief["decision"]
@@ -229,6 +231,20 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None)
         lines.extend(["", "## Generated Files", ""])
         for file_name in generated_files:
             lines.append(f"- `{file_name}`")
+    top_item = publish_queue.get("top_item") or {}
+    if top_item:
+        lines.extend(
+            [
+                "",
+                "## Publish Queue Top Item",
+                "",
+                f"- Type: `{top_item.get('item_type')}`",
+                f"- ID: `{top_item.get('carousel_id')}`",
+                f"- Stage: `{top_item.get('stage')}`",
+                f"- Asset: `{top_item.get('recommended_asset') or 'n/a'}`",
+                f"- Next action: {top_item.get('next_action')}",
+            ]
+        )
     lines.extend(
         [
             "",
@@ -252,7 +268,15 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None)
     return "\n".join(lines)
 
 
-def build_daily_brief(runs_dir, output_md, output_json, today=None):
+def build_daily_brief(
+    runs_dir,
+    output_md,
+    output_json,
+    today=None,
+    queue_csv="10_automation/PUBLISH_QUEUE.csv",
+    queue_md="10_automation/PUBLISH_QUEUE.md",
+    queue_json="10_automation/PUBLISH_QUEUE.json",
+):
     today = today or date.today().isoformat()
     dashboard = build_dashboard(runs_dir)
     priority_run = pick_priority_run(dashboard)
@@ -263,6 +287,9 @@ def build_daily_brief(runs_dir, output_md, output_json, today=None):
         _, visibility_md, visibility_json = build_visibility_test(priority_run["run_dir"])
         generated_files.extend([str(visibility_md), str(visibility_json)])
 
+    queue = build_publish_queue(runs_dir, queue_csv, queue_md, queue_json)
+    generated_files.extend([queue_md, queue_json, queue_csv])
+
     payload = {
         "date": today,
         "priority_run": priority_run,
@@ -272,6 +299,10 @@ def build_daily_brief(runs_dir, output_md, output_json, today=None):
         "codex_actions": brief["codex_actions"],
         "useful_files": brief["files"],
         "generated_files": generated_files,
+        "publish_queue": {
+            "item_count": queue["item_count"],
+            "top_item": queue["top_item"],
+        },
         "dashboard": dashboard,
     }
 
@@ -279,7 +310,10 @@ def build_daily_brief(runs_dir, output_md, output_json, today=None):
     output_json = Path(output_json)
     output_md.parent.mkdir(parents=True, exist_ok=True)
     output_json.parent.mkdir(parents=True, exist_ok=True)
-    output_md.write_text(render_markdown(today, dashboard, priority_run, brief, generated_files), encoding="utf-8")
+    output_md.write_text(
+        render_markdown(today, dashboard, priority_run, brief, generated_files, queue),
+        encoding="utf-8",
+    )
     output_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return payload
 
@@ -289,10 +323,21 @@ def main():
     parser.add_argument("--runs-dir", default="10_automation/runs")
     parser.add_argument("--output-md", default="10_automation/TODAY.md")
     parser.add_argument("--output-json", default="10_automation/TODAY.json")
+    parser.add_argument("--queue-csv", default="10_automation/PUBLISH_QUEUE.csv")
+    parser.add_argument("--queue-md", default="10_automation/PUBLISH_QUEUE.md")
+    parser.add_argument("--queue-json", default="10_automation/PUBLISH_QUEUE.json")
     parser.add_argument("--date", default=date.today().isoformat())
     args = parser.parse_args()
 
-    payload = build_daily_brief(args.runs_dir, args.output_md, args.output_json, args.date)
+    payload = build_daily_brief(
+        args.runs_dir,
+        args.output_md,
+        args.output_json,
+        args.date,
+        queue_csv=args.queue_csv,
+        queue_md=args.queue_md,
+        queue_json=args.queue_json,
+    )
     priority = payload["priority_run"] or {}
     print(f"Stage: {priority.get('stage', 'needs_weekly_input')}")
     print(f"Decision: {payload['decision']}")

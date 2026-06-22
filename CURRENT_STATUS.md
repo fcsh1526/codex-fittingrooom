@@ -60,10 +60,11 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Weekly status automation now writes `weekly_status.md/json` and tells the next action for each run folder.
 - Weekly dashboard automation now scans all run folders and writes `10_automation/runs/DASHBOARD.md/json`.
 - Daily brief automation now writes `10_automation/TODAY.md/json` and translates dashboard status into today's 1-3 tasks.
+- Publish queue automation now writes `10_automation/PUBLISH_QUEUE.md/json/csv` and tracks each carousel / visibility test separately.
 - Visibility test automation now writes `visibility_test_package.md/json` for single-image Instagram recovery tests.
 - Main weekly pipeline now creates asset review/status files by default and can select Grok assets when score sheets are provided.
-- Windows shortcut `10_automation/mika_weekly.ps1` now wraps pipeline, status, dashboard, today, visibility-test, assets, metrics, and validate actions.
-- Smoke test automation now verifies weekly pipeline, asset selection, metrics decisions, dashboard output, daily brief output, visibility test package output, and PowerShell entrypoint.
+- Windows shortcut `10_automation/mika_weekly.ps1` now wraps pipeline, status, dashboard, queue, today, visibility-test, assets, metrics, and validate actions.
+- Smoke test automation now verifies weekly pipeline, asset selection, metrics decisions, dashboard output, daily brief output, publish queue output, visibility test package output, and PowerShell entrypoint.
 
 ## Latest Published Post
 
@@ -111,6 +112,7 @@ Start here:
 10_automation/weekly_carousel_pipeline.md
 10_automation/weekly_handoff_checklist.md
 10_automation/TODAY.md
+10_automation/PUBLISH_QUEUE.md
 10_automation/runs/DASHBOARD.md
 10_automation/runs/2026-W21-test/visibility_test_package.md
 ```
@@ -159,18 +161,19 @@ Use 05_content/2026_06_18_reactivation_plan.md today.
 When the user provides the next Perplexity URL or Drive folder, Codex should:
 
 1. Run `10_automation/daily_brief.py` first to create `TODAY.md`.
-2. If `TODAY.md` says `visibility_recovery`, use the generated `visibility_test_package.md` before making another carousel.
-3. Run `10_automation/weekly_dashboard.py` if the raw all-run table is needed.
-4. Run `10_automation/check_weekly_status.py` if a specific run folder already exists.
-5. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available; include score sheet / Drive inventory if Grok images are already reviewed.
-6. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
-7. Confirm `quality_report.md` status is `pass`.
-8. Use generated Grok prompts for image production.
-9. Run `10_automation/select_grok_assets.py` only when Grok images are scored after the weekly packet already exists.
-10. Confirm `validate_weekly_run.py --require-assets` passes.
-11. Use generated Canva handoff files to fill the panorama template.
-12. Use generated IG / Threads / Pinterest drafts.
-13. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
+2. Open `10_automation/PUBLISH_QUEUE.md` to see the exact next content item.
+3. If the top item is a visibility test, publish `visibility_test_package.md` before making another carousel.
+4. Run `10_automation/weekly_dashboard.py` if the raw all-run table is needed.
+5. Run `10_automation/check_weekly_status.py` if a specific run folder already exists.
+6. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available; include score sheet / Drive inventory if Grok images are already reviewed.
+7. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
+8. Confirm `quality_report.md` status is `pass`.
+9. Use generated Grok prompts for image production.
+10. Run `10_automation/select_grok_assets.py` only when Grok images are scored after the weekly packet already exists.
+11. Confirm `validate_weekly_run.py --require-assets` passes.
+12. Use generated Canva handoff files to fill the panorama template.
+13. Use generated IG / Threads / Pinterest drafts.
+14. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
 
 On Windows, prefer the shortcut:
 

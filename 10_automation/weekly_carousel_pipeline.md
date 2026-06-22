@@ -310,7 +310,10 @@ Then open:
 
 ```text
 10_automation/TODAY.md
+10_automation/PUBLISH_QUEUE.md
 ```
+
+Use `PUBLISH_QUEUE.md` to decide the exact next content item. It tracks normal carousels and single-image visibility tests separately.
 
 If you need the raw all-run dashboard, run:
 

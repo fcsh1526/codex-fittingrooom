@@ -39,6 +39,7 @@ Each week should produce:
 - `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
 - `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.
+- `publish_queue.py`: creates a per-carousel and visibility-test publish queue.
 - `prepare_visibility_test.py`: creates a single-image Instagram visibility test package from a run folder.
 - `weekly_content_packet_template.csv`: one-row template for a weekly carousel packet.
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
@@ -77,7 +78,8 @@ Create today's work brief:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
-  -Action today
+  -Action today `
+  -TodayDate 2026-06-22
 ```
 
 This writes:
@@ -85,6 +87,21 @@ This writes:
 ```text
 10_automation/TODAY.md
 10_automation/TODAY.json
+```
+
+Create the publish queue only:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action queue
+```
+
+This writes:
+
+```text
+10_automation/PUBLISH_QUEUE.md
+10_automation/PUBLISH_QUEUE.json
+10_automation/PUBLISH_QUEUE.csv
 ```
 
 Create a single-image visibility test package:
@@ -378,6 +395,22 @@ The package includes:
 - first comment
 - Threads backup copy
 - 6h / 24h metrics command template
+
+## Publish Queue
+
+The publish queue is the per-content source of truth. It includes both normal carousels and visibility tests:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\publish_queue.py `
+  --runs-dir 10_automation\runs
+```
+
+Open:
+
+```text
+10_automation/PUBLISH_QUEUE.md
+```
 
 ## Weekly Status Check
 

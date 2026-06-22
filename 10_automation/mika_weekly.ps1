@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "dashboard", "today", "brief", "visibility-test", "assets", "metrics", "validate", "smoke-test")]
+    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "visibility-test", "assets", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
@@ -9,6 +9,10 @@ param(
     [string]$RunsDir = "10_automation\runs",
     [string]$TodayOutput = "10_automation\TODAY.md",
     [string]$TodayJson = "10_automation\TODAY.json",
+    [string]$TodayDate = "",
+    [string]$QueueOutput = "10_automation\PUBLISH_QUEUE.md",
+    [string]$QueueJson = "10_automation\PUBLISH_QUEUE.json",
+    [string]$QueueCsv = "10_automation\PUBLISH_QUEUE.csv",
     [string]$VisibilityOutput = "",
     [string]$VisibilityJson = "",
     [string]$Database = "04_prompts\item_prompt_database.csv",
@@ -111,12 +115,24 @@ switch ($Action) {
         Invoke-MikaPython -ScriptPath "10_automation\weekly_dashboard.py" -ArgsList @("--runs-dir", $RunsDir)
     }
 
+    "queue" {
+        Invoke-MikaPython -ScriptPath "10_automation\publish_queue.py" -ArgsList @("--runs-dir", $RunsDir, "--output-md", $QueueOutput, "--output-json", $QueueJson, "--output-csv", $QueueCsv)
+    }
+
     "today" {
-        Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson)
+        $argsList = @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson, "--queue-md", $QueueOutput, "--queue-json", $QueueJson, "--queue-csv", $QueueCsv)
+        if ($TodayDate) {
+            $argsList += @("--date", $TodayDate)
+        }
+        Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList $argsList
     }
 
     "brief" {
-        Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson)
+        $argsList = @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson, "--queue-md", $QueueOutput, "--queue-json", $QueueJson, "--queue-csv", $QueueCsv)
+        if ($TodayDate) {
+            $argsList += @("--date", $TodayDate)
+        }
+        Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList $argsList
     }
 
     "visibility-test" {

@@ -192,6 +192,12 @@ def test_powershell_entrypoint_if_available():
             rel(TMP_ROOT / "PS_TODAY.md"),
             "-TodayJson",
             rel(TMP_ROOT / "PS_TODAY.json"),
+            "-QueueOutput",
+            rel(TMP_ROOT / "PS_QUEUE.md"),
+            "-QueueJson",
+            rel(TMP_ROOT / "PS_QUEUE.json"),
+            "-QueueCsv",
+            rel(TMP_ROOT / "PS_QUEUE.csv"),
         ]
     )
     assert_exists(TMP_ROOT / "PS_TODAY.md", "PowerShell daily brief")
@@ -233,6 +239,12 @@ def test_daily_brief():
             rel(TMP_ROOT / "TODAY.md"),
             "--output-json",
             rel(TMP_ROOT / "TODAY.json"),
+            "--queue-md",
+            rel(TMP_ROOT / "PUBLISH_QUEUE.md"),
+            "--queue-json",
+            rel(TMP_ROOT / "PUBLISH_QUEUE.json"),
+            "--queue-csv",
+            rel(TMP_ROOT / "PUBLISH_QUEUE.csv"),
             "--date",
             "2026-06-18",
         ]
@@ -241,6 +253,27 @@ def test_daily_brief():
     assert_equal(brief["priority_run"]["stage"], "visibility_recovery", "daily brief priority stage")
     assert_exists(TMP_ROOT / "TODAY.md", "daily brief")
     assert_exists(TMP_ROOT / "run-w25" / "visibility_test_package.md", "daily brief visibility package")
+    assert_equal(brief["publish_queue"]["top_item"]["stage"], "ready_to_publish_visibility_test", "daily brief queue top stage")
+
+
+def test_publish_queue():
+    run_command(
+        [
+            sys.executable,
+            "10_automation/publish_queue.py",
+            "--runs-dir",
+            rel(TMP_ROOT),
+            "--output-md",
+            rel(TMP_ROOT / "QUEUE_ONLY.md"),
+            "--output-json",
+            rel(TMP_ROOT / "QUEUE_ONLY.json"),
+            "--output-csv",
+            rel(TMP_ROOT / "QUEUE_ONLY.csv"),
+        ]
+    )
+    queue = read_json(TMP_ROOT / "QUEUE_ONLY.json")
+    assert_equal(queue["top_item"]["stage"], "ready_to_publish_visibility_test", "publish queue top stage")
+    assert_exists(TMP_ROOT / "QUEUE_ONLY.md", "publish queue")
 
 
 def test_visibility_test_package():
@@ -270,6 +303,7 @@ def main():
     test_powershell_entrypoint_if_available()
     test_weekly_dashboard()
     test_daily_brief()
+    test_publish_queue()
     test_visibility_test_package()
     print("Smoke test passed.")
 
