@@ -45,6 +45,7 @@ Each week should produce:
 - `AUTOMATION_ARCHITECTURE_BRIEF.md`: slide-style briefing for the current automation architecture and boundaries.
 - `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
+- `daily_cockpit.py`: creates the one-page daily HTML cockpit.
 - `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.
 - `publish_queue.py`: creates a per-carousel and visibility-test publish queue.
 - `prepare_visibility_test.py`: creates a single-image Instagram visibility test package from a run folder.
@@ -87,7 +88,24 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -Action dashboard
 ```
 
-Create today's work brief:
+Create today's cockpit:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action cockpit `
+  -TodayDate 2026-06-22
+```
+
+This writes:
+
+```text
+10_automation/DAILY_COCKPIT.html
+10_automation/DAILY_COCKPIT.md
+10_automation/TODAY.md
+10_automation/PUBLISH_QUEUE.md
+```
+
+Create today's work brief and cockpit:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
@@ -98,6 +116,8 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
 This writes:
 
 ```text
+10_automation/DAILY_COCKPIT.html
+10_automation/DAILY_COCKPIT.md
 10_automation/TODAY.md
 10_automation/TODAY.json
 ```

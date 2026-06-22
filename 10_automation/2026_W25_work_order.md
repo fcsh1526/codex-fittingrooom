@@ -64,12 +64,13 @@ Codex should:
 Start here after returning from a break:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit
 ```
 
 Then open:
 
 ```text
+10_automation/DAILY_COCKPIT.html
 10_automation/TODAY.md
 10_automation/PUBLISH_QUEUE.md
 ```

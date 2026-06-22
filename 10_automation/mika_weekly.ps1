@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "visibility-test", "assets", "metrics", "validate", "smoke-test")]
+    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "cockpit", "visibility-test", "assets", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
@@ -13,6 +13,8 @@ param(
     [string]$QueueOutput = "10_automation\PUBLISH_QUEUE.md",
     [string]$QueueJson = "10_automation\PUBLISH_QUEUE.json",
     [string]$QueueCsv = "10_automation\PUBLISH_QUEUE.csv",
+    [string]$CockpitHtml = "10_automation\DAILY_COCKPIT.html",
+    [string]$CockpitMd = "10_automation\DAILY_COCKPIT.md",
     [string]$VisibilityOutput = "",
     [string]$VisibilityJson = "",
     [string]$Database = "04_prompts\item_prompt_database.csv",
@@ -120,11 +122,19 @@ switch ($Action) {
     }
 
     "today" {
-        $argsList = @("--runs-dir", $RunsDir, "--output-md", $TodayOutput, "--output-json", $TodayJson, "--queue-md", $QueueOutput, "--queue-json", $QueueJson, "--queue-csv", $QueueCsv)
-        if ($TodayDate) {
-            $argsList += @("--date", $TodayDate)
+        $argsList = @("--runs-dir", $RunsDir, "--date", $TodayDate, "--today-md", $TodayOutput, "--today-json", $TodayJson, "--queue-md", $QueueOutput, "--queue-json", $QueueJson, "--queue-csv", $QueueCsv, "--output-html", $CockpitHtml, "--output-md", $CockpitMd)
+        if (-not $TodayDate) {
+            $argsList = @("--runs-dir", $RunsDir, "--today-md", $TodayOutput, "--today-json", $TodayJson, "--queue-md", $QueueOutput, "--queue-json", $QueueJson, "--queue-csv", $QueueCsv, "--output-html", $CockpitHtml, "--output-md", $CockpitMd)
         }
-        Invoke-MikaPython -ScriptPath "10_automation\daily_brief.py" -ArgsList $argsList
+        Invoke-MikaPython -ScriptPath "10_automation\daily_cockpit.py" -ArgsList $argsList
+    }
+
+    "cockpit" {
+        $argsList = @("--runs-dir", $RunsDir, "--date", $TodayDate, "--today-md", $TodayOutput, "--today-json", $TodayJson, "--queue-md", $QueueOutput, "--queue-json", $QueueJson, "--queue-csv", $QueueCsv, "--output-html", $CockpitHtml, "--output-md", $CockpitMd)
+        if (-not $TodayDate) {
+            $argsList = @("--runs-dir", $RunsDir, "--today-md", $TodayOutput, "--today-json", $TodayJson, "--queue-md", $QueueOutput, "--queue-json", $QueueJson, "--queue-csv", $QueueCsv, "--output-html", $CockpitHtml, "--output-md", $CockpitMd)
+        }
+        Invoke-MikaPython -ScriptPath "10_automation\daily_cockpit.py" -ArgsList $argsList
     }
 
     "brief" {

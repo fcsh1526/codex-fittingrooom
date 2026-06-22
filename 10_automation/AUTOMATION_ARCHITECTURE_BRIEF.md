@@ -21,15 +21,18 @@ The workflow is now organized around a queue, not a daily checklist.
 Daily work should start with:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today -TodayDate 2026-06-22
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-22
 ```
 
 Then open:
 
 ```text
+10_automation/DAILY_COCKPIT.html
 10_automation/TODAY.md
 10_automation/PUBLISH_QUEUE.md
 ```
+
+`DAILY_COCKPIT.html` is the daily-use artifact. It contains the top item, checklist, links, and reply template on one page.
 
 Previous top item before the production-first correction was a visibility test. The production-first rule changes this:
 
@@ -72,6 +75,12 @@ The decision layer is now the control center.
 ## Slide 3 - Control Center Files
 
 Use these three files in this order.
+
+```text
+10_automation/DAILY_COCKPIT.html
+```
+
+One-page daily operating page.
 
 ```text
 10_automation/TODAY.md

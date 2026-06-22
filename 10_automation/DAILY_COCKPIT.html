@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mika Lin Daily Cockpit</title>
+  <style>
+    :root {
+      --bg: #f5f2ea;
+      --paper: #fffdf8;
+      --ink: #1e1d1a;
+      --muted: #6f6a60;
+      --line: #ddd4c5;
+      --accent: #2f6f68;
+      --accent2: #a45f3d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Noto Sans TC", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.5;
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 28px;
+    }
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding-bottom: 18px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    p { margin: 8px 0; }
+    code, pre {
+      font-family: Consolas, "Courier New", monospace;
+    }
+    pre {
+      white-space: pre-wrap;
+      background: #f2eadf;
+      border: 1px solid var(--line);
+      padding: 12px;
+      border-radius: 8px;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .pill {
+      border: 1px solid var(--line);
+      background: var(--paper);
+      border-radius: 999px;
+      padding: 6px 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 16px;
+      align-items: start;
+    }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin-bottom: 16px;
+    }
+    .hero {
+      border-color: var(--ink);
+      border-width: 2px;
+    }
+    .big {
+      font-size: 24px;
+      font-weight: 700;
+      margin: 4px 0;
+    }
+    .muted { color: var(--muted); }
+    .button {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      padding: 8px 12px;
+      margin-right: 8px;
+    }
+    .button.secondary {
+      background: var(--accent2);
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    li { margin: 6px 0; }
+    .check {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .check:last-child { border-bottom: 0; }
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      margin-top: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    @media (max-width: 760px) {
+      main { padding: 16px; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Mika Lin Daily Cockpit</h1>
+      <div class="meta">
+        <span class="pill">Date: 2026-06-22</span>
+        <span class="pill">Production-first: zero reach does not block carousel production.</span>
+        <span class="pill">Top stage: ready_for_canva_and_publish</span>
+      </div>
+    </header>
+
+    <section class="card hero">
+      <h2>Today, Do This First</h2>
+      <p class="big">2026-W21-test-001</p>
+      <p><strong>Type:</strong> carousel / <strong>Stage:</strong> ready_for_canva_and_publish</p>
+      <p><strong>Asset:</strong> IMG_1453.JPG</p>
+      <p><strong>Next action:</strong> Use Canva handoff files to finish the carousel and publish it.</p>
+      <p><a class="button" href="https://drive.google.com/file/d/17lAxbTglyHMWeO48BIVdF_a8UD6OM7yC/view?usp=drivesdk">Open Recommended Asset</a></p>
+    </section>
+
+    <div class="grid">
+      <div>
+        <section class="card"><h2>Checklist</h2><label class="check"><input type="checkbox" data-check="0"><span>Open the Canva panorama design.</span></label><label class="check"><input type="checkbox" data-check="1"><span>Use canva_fill_guide.md to fill the slide text.</span></label><label class="check"><input type="checkbox" data-check="2"><span>Place the recommended asset and detail image from canva_asset_plan.md.</span></label><label class="check"><input type="checkbox" data-check="3"><span>Export the 5 carousel slides or finish the Canva design.</span></label><label class="check"><input type="checkbox" data-check="4"><span>Publish or schedule the Instagram carousel.</span></label><label class="check"><input type="checkbox" data-check="5"><span>Send Codex the post URL, publish time, and any immediate notes.</span></label></section>
+        <section class="card"><h2>Files To Open</h2><ul><li><a href="runs/2026-W21-test/canva_fill_guide.md">canva_fill_guide.md</a></li><li><a href="runs/2026-W21-test/canva_asset_plan.md">canva_asset_plan.md</a></li><li><a href="runs/2026-W21-test/post_drafts.md">post_drafts.md</a></li><li><a href="runs/2026-W21-test/publish_checklist.md">publish_checklist.md</a></li></ul></section>
+        <section class="card"><h2>Reply Template For Codex</h2><pre id='reply'>今日回報：
+item = 2026-W21-test-001
+type = carousel
+status = 
+Canva URL = 
+IG URL = 
+published at = 
+6h metrics = reach / likes / saves / comments / shares
+24h metrics = reach / likes / saves / comments / shares
+stuck = </pre><button class='button secondary' onclick='copyReply()'>Copy Reply Template</button></section>
+      </div>
+      <div>
+        <section class="card"><h2>Refresh Command</h2><pre>powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-22</pre></section>
+        <section class="card"><h2>Queue Preview</h2><table><thead><tr><th>Type</th><th>ID</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody><tr><td>carousel</td><td>2026-W21-test-001</td><td>ready_for_canva_and_publish</td><td>IMG_1453.JPG</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr><tr><td>visibility_test</td><td>2026-W21-test-002-visibility-01</td><td>ready_to_publish_visibility_test</td><td>IMG_1455.JPG</td><td>Optional side test: publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.</td></tr><tr><td>carousel</td><td>2026-W21-test-002</td><td>visibility_recovery</td><td>IMG_1455.JPG</td><td>Keep carousel production moving; optionally publish or record the generated single-image visibility test in parallel.</td></tr></tbody></table></section>
+        <section class="card"><h2>Reference</h2><p><a href="DAILY_COCKPIT.md">DAILY_COCKPIT.md</a></p><p><a href="TODAY.md">TODAY.md</a></p><p><a href="PUBLISH_QUEUE.md">PUBLISH_QUEUE.md</a></p></section>
+      </div>
+    </div>
+  </main>
+  <script>
+    const storageKey = "mika-cockpit-2026-06-22-2026-W21-test-001";
+    const boxes = Array.from(document.querySelectorAll('input[type="checkbox"][data-check]'));
+    const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
+    boxes.forEach(box => {
+      box.checked = !!saved[box.dataset.check];
+      box.addEventListener('change', () => {
+        saved[box.dataset.check] = box.checked;
+        localStorage.setItem(storageKey, JSON.stringify(saved));
+      });
+    });
+    function copyReply() {
+      const text = document.getElementById('reply').innerText;
+      navigator.clipboard.writeText(text);
+    }
+  </script>
+</body>
+</html>

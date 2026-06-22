@@ -30,17 +30,18 @@ Then use `10_automation/runs/DASHBOARD.md` to choose the next run.
 For everyday work, run the daily brief:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit
 ```
 
 Then open:
 
 ```text
+10_automation/DAILY_COCKPIT.html
 10_automation/TODAY.md
 10_automation/PUBLISH_QUEUE.md
 ```
 
-This file tells you whether today is a Perplexity, Grok, Canva, publishing, metrics, or visibility-recovery day.
+The cockpit is the daily operating page. It tells you the top item, checklist, files to open, and the reply template for Codex.
 
 If it says `visibility_recovery`, Codex also creates:
 
@@ -176,6 +177,7 @@ Use actions:
 ```text
 dashboard
 queue
+cockpit
 today
 brief
 visibility-test

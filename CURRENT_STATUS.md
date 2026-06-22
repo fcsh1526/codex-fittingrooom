@@ -66,6 +66,7 @@ Zero reach does not block the next carousel.
 - Weekly status automation now writes `weekly_status.md/json` and tells the next action for each run folder.
 - Weekly dashboard automation now scans all run folders and writes `10_automation/runs/DASHBOARD.md/json`.
 - Daily brief automation now writes `10_automation/TODAY.md/json` and translates dashboard status into today's 1-3 tasks.
+- Daily cockpit automation now writes `10_automation/DAILY_COCKPIT.html/md` as the main daily-use artifact.
 - Publish queue automation now writes `10_automation/PUBLISH_QUEUE.md/json/csv` and tracks each carousel / visibility test separately.
 - Visibility test automation now writes `visibility_test_package.md/json` for single-image Instagram recovery tests.
 - Main weekly pipeline now creates asset review/status files by default and can select Grok assets when score sheets are provided.
@@ -116,6 +117,7 @@ Start here:
 
 ```text
 10_automation/AUTOMATION_ARCHITECTURE_BRIEF.md
+10_automation/DAILY_COCKPIT.html
 10_automation/README.md
 10_automation/2026_W25_work_order.md
 10_automation/weekly_carousel_pipeline.md
@@ -191,12 +193,13 @@ On Windows, prefer the shortcut:
 First command after returning from a break:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit
 ```
 
 Then open:
 
 ```text
+10_automation/DAILY_COCKPIT.html
 10_automation/TODAY.md
 10_automation/PUBLISH_QUEUE.md
 ```

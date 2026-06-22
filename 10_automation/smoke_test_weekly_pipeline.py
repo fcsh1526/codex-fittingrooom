@@ -198,9 +198,14 @@ def test_powershell_entrypoint_if_available():
             rel(TMP_ROOT / "PS_QUEUE.json"),
             "-QueueCsv",
             rel(TMP_ROOT / "PS_QUEUE.csv"),
+            "-CockpitHtml",
+            rel(TMP_ROOT / "PS_COCKPIT.html"),
+            "-CockpitMd",
+            rel(TMP_ROOT / "PS_COCKPIT.md"),
         ]
     )
     assert_exists(TMP_ROOT / "PS_TODAY.md", "PowerShell daily brief")
+    assert_exists(TMP_ROOT / "PS_COCKPIT.html", "PowerShell daily cockpit")
     run_command(
         [
             powershell,
@@ -255,6 +260,35 @@ def test_daily_brief():
     assert_equal(brief["publish_queue"]["top_item"]["stage"], "ready_for_canva_and_publish", "daily brief queue top stage")
 
 
+def test_daily_cockpit():
+    run_command(
+        [
+            sys.executable,
+            "10_automation/daily_cockpit.py",
+            "--runs-dir",
+            rel(TMP_ROOT),
+            "--today-md",
+            rel(TMP_ROOT / "COCKPIT_TODAY.md"),
+            "--today-json",
+            rel(TMP_ROOT / "COCKPIT_TODAY.json"),
+            "--queue-md",
+            rel(TMP_ROOT / "COCKPIT_QUEUE.md"),
+            "--queue-json",
+            rel(TMP_ROOT / "COCKPIT_QUEUE.json"),
+            "--queue-csv",
+            rel(TMP_ROOT / "COCKPIT_QUEUE.csv"),
+            "--output-html",
+            rel(TMP_ROOT / "COCKPIT_ONLY.html"),
+            "--output-md",
+            rel(TMP_ROOT / "COCKPIT_ONLY.md"),
+            "--date",
+            "2026-06-18",
+        ]
+    )
+    assert_exists(TMP_ROOT / "COCKPIT_ONLY.html", "daily cockpit html")
+    assert_exists(TMP_ROOT / "COCKPIT_ONLY.md", "daily cockpit markdown")
+
+
 def test_publish_queue():
     run_command(
         [
@@ -302,6 +336,7 @@ def main():
     test_powershell_entrypoint_if_available()
     test_weekly_dashboard()
     test_daily_brief()
+    test_daily_cockpit()
     test_publish_queue()
     test_visibility_test_package()
     print("Smoke test passed.")
