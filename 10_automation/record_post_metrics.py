@@ -140,8 +140,8 @@ def decision_from_metrics(metrics):
     if reach == 0:
         return {
             "decision": "visibility_recovery",
-            "interpretation": "Reach is zero, so this is a visibility or distribution problem, not a content-quality result.",
-            "next_action": "Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel.",
+            "interpretation": "Reach is zero, so this is a visibility or distribution signal, not a reason to stop carousel production.",
+            "next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.",
         }
     if reach < 20 and hours >= 24:
         return {

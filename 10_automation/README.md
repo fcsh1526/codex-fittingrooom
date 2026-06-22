@@ -2,13 +2,19 @@
 
 Purpose: make the weekly Mika Lin workflow repeatable with less discussion and fewer manual decisions.
 
-The current priority is not monetization. The priority is:
+The current priority is continuous production, not monetization. The priority is:
 
 ```text
 stable character + weekly fashion trend + Grok image prompts + polished Instagram carousel + basic reach test
 ```
 
 Only after Instagram or another channel gets non-zero reach should affiliate links and product lists become the main work.
+
+Production rule:
+
+```text
+zero reach does not stop carousel production
+```
 
 ## Weekly Inputs
 
@@ -386,7 +392,7 @@ This writes:
 
 ## Visibility Test Package
 
-When a post stays at zero reach, create a simpler single-image test package before making another carousel:
+When a post stays at zero reach, create a simpler single-image test package as a side test. Continue producing carousels:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `

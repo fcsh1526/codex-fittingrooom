@@ -2,7 +2,7 @@
   "run_dir": "10_automation\\runs\\2026-W21-test",
   "stage": {
     "stage": "visibility_recovery",
-    "next_action": "Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel.",
+    "next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.",
     "blocking_items": []
   },
   "packet": {
@@ -80,7 +80,7 @@
       "product_links_used": "no",
       "cta": "想看同風格清單？留言「沙色套裝」我整理平價 / 質感 / 替代款",
       "status": "published",
-      "notes": "10+ day zero-reach check."
+      "notes": "10+ day zero-reach check; production-first policy."
     },
     "latest_metric": {
       "record_date": "2026-06-12",
@@ -100,14 +100,15 @@
       "cta_comments": "0",
       "link_clicks": "0",
       "decision": "visibility_recovery",
-      "interpretation": "Reach is zero, so this is a visibility or distribution problem, not a content-quality result.",
-      "next_action": "Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel."
+      "interpretation": "Reach is zero, so this is a visibility or distribution signal, not a reason to stop carousel production.",
+      "next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel."
     },
     "latest_decision": "visibility_recovery",
-    "latest_next_action": "Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel."
+    "latest_next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel."
   },
   "commands": [
     "open 05_content/2026_06_18_reactivation_plan.md",
+    "open 10_automation/PUBLISH_QUEUE.md",
     "open 09_sops/instagram_zero_reach_recovery.md"
   ]
 }

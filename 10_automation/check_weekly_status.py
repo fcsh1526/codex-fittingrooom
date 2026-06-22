@@ -200,6 +200,7 @@ def command_suggestions(run_dir, stage):
         )
     elif stage == "visibility_recovery":
         suggestions.append("open 05_content/2026_06_18_reactivation_plan.md")
+        suggestions.append("open 10_automation/PUBLISH_QUEUE.md")
         suggestions.append("open 09_sops/instagram_zero_reach_recovery.md")
     return suggestions
 

@@ -31,16 +31,13 @@ Then open:
 10_automation/PUBLISH_QUEUE.md
 ```
 
-Current top item:
+Previous top item before the production-first correction was a visibility test. The production-first rule changes this:
 
 ```text
-2026-W21-test-002-visibility-01
-stage = ready_to_publish_visibility_test
-asset = IMG_1455.JPG
-next = publish one IG single-image visibility test, share to Story, record 6h / 24h metrics
+ready_for_canva_and_publish carousel items outrank visibility tests
 ```
 
-This means: do not make another carousel yet.
+This means: keep producing carousels continuously. Visibility tests and zero-reach metrics are side signals, not blockers.
 
 ---
 
@@ -118,13 +115,13 @@ repeat_bucket
 
 The queue ranks stages by urgency.
 
-Current rule:
+Current production-first rule:
 
 ```text
-ready_to_publish_visibility_test > published_waiting_for_metrics > visibility_recovery > ready_for_canva_and_publish
+ready_for_canva_and_publish > needs_grok_asset_selection > published_waiting_for_metrics > ready_to_publish_visibility_test > visibility_recovery
 ```
 
-That is why the system currently blocks new carousel work until the single-image visibility test is published or recorded.
+That is why the system should keep moving carousel production even if Instagram reach is still zero.
 
 ---
 
@@ -253,7 +250,7 @@ The decision engine then routes the next step.
 
 ---
 
-## Slide 9 - Current Blocker
+## Slide 9 - Visibility Signal
 
 The first IG carousel had:
 
@@ -283,7 +280,7 @@ Therefore, the queue generated:
 visibility_test_package.md
 ```
 
-The next action is to publish a single-image visibility test before making more carousel content.
+The next action is not to stop carousel production. The visibility test is optional side evidence while the queue keeps preparing the next polished carousel.
 
 ---
 
@@ -326,12 +323,12 @@ These are external-tool boundaries, not missing local state-machine logic.
 
 ## Slide 11 - Recommended Next Automation Milestones
 
-Milestone 1: finish the visibility test loop.
+Milestone 1: keep the carousel production loop running.
 
 ```text
-Publish visibility_test_package.md
-Record 6h / 24h metrics
-Let queue decide Instagram vs backup channel
+Use PUBLISH_QUEUE.md
+Finish the next ready_for_canva_and_publish carousel
+Record post URLs and metrics when available
 ```
 
 Milestone 2: automate Drive inventory from Google Drive connector.
@@ -384,8 +381,8 @@ What external input is missing for that item?
 Current external input needed:
 
 ```text
-Publish the IG single-image visibility test from visibility_test_package.md,
-then provide post URL, publish time, 6h metrics, and 24h metrics.
+For the top carousel item, provide Canva progress / final Canva URL / post URL when published.
+Visibility test URL and metrics are useful, but they do not block the next carousel.
 ```
 
 After that, the automation can decide whether to:

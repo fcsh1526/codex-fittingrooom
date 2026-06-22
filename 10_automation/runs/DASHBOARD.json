@@ -8,7 +8,7 @@
     {
       "run_dir": "10_automation\\runs\\2026-W21-test",
       "stage": "visibility_recovery",
-      "next_action": "Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel.",
+      "next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.",
       "packet_rows": 2,
       "quality": "pass",
       "cover_assets": "2/2",

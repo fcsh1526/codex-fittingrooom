@@ -108,8 +108,8 @@ def stage_for_carousel(packet, asset, publish, metric):
 
 def next_action_for_stage(stage):
     actions = {
-        "visibility_recovery": "Publish or record the generated single-image visibility test before making another carousel.",
-        "ready_to_publish_visibility_test": "Publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.",
+        "visibility_recovery": "Keep carousel production moving; optionally publish or record the generated single-image visibility test in parallel.",
+        "ready_to_publish_visibility_test": "Optional side test: publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.",
         "published_waiting_for_metrics": "Record 6h / 24h metrics with record_post_metrics.py.",
         "needs_grok_asset_selection": "Generate or score Grok images, then run select_grok_assets.py.",
         "ready_for_canva_and_publish": "Use Canva handoff files to finish the carousel and publish it.",
@@ -186,13 +186,16 @@ def visibility_item(run_dir, package, publish_rows, metric_rows):
 def item_priority(row):
     stage = clean(row.get("stage"))
     item_type = clean(row.get("item_type"))
-    if item_type == "visibility_test" and stage == "ready_to_publish_visibility_test":
+    if item_type == "carousel" and stage == "ready_for_canva_and_publish":
         return 100
+    if item_type == "carousel" and stage == "needs_grok_asset_selection":
+        return 90
     priorities = {
-        "published_waiting_for_metrics": 90,
-        "visibility_recovery": 80,
-        "ready_for_canva_and_publish": 70,
-        "needs_grok_asset_selection": 60,
+        "published_waiting_for_metrics": 80,
+        "ready_for_canva_and_publish": 75,
+        "needs_grok_asset_selection": 70,
+        "ready_to_publish_visibility_test": 45,
+        "visibility_recovery": 40,
         "wait_for_24h": 50,
         "weak_distribution": 45,
         "hook_or_save_gap": 40,

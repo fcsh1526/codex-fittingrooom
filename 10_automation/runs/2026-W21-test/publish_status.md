@@ -17,5 +17,5 @@ Carousel ID: `2026-W21-test-002`
 ## Decision
 
 - Decision: `visibility_recovery`
-- Interpretation: Reach is zero, so this is a visibility or distribution problem, not a content-quality result.
-- Next action: Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel.
+- Interpretation: Reach is zero, so this is a visibility or distribution signal, not a reason to stop carousel production.
+- Next action: Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.

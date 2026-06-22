@@ -10,13 +10,13 @@ Produce a steady stream of polished Instagram carousel posts before monetization
 
 Do not prioritize affiliate links until reach is non-zero.
 
-Because the first Instagram post has stayed at zero reach for 10+ days, today's priority is smaller:
+Because the first Instagram post stayed at zero reach for 10+ days, keep a visibility test running in parallel:
 
 ```text
-verify account visibility -> publish one simple single-image test -> record 6h/24h metrics
+continue carousel production -> optionally publish one simple single-image test -> record 6h/24h metrics when available
 ```
 
-Do not produce a new panorama carousel until the simple visibility test gets non-zero reach.
+Do not wait for non-zero reach before producing the next polished carousel.
 
 ## Required Inputs From User
 
@@ -74,7 +74,7 @@ Then open:
 10_automation/PUBLISH_QUEUE.md
 ```
 
-If today is a visibility recovery day, use:
+If today is a visibility recovery day, keep using the publish queue. The visibility package is optional side evidence:
 
 ```text
 10_automation/runs/{week_id}/visibility_test_package.md
@@ -113,7 +113,7 @@ README.md
 
 ## If Instagram Still Has Zero Reach
 
-Publish a simpler second test before doing product links or another panorama carousel.
+Publish a simpler second test as a side check, but do not pause panorama carousel production.
 
 Use:
 

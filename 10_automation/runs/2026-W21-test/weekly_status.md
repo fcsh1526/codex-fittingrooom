@@ -5,12 +5,16 @@ Stage: `visibility_recovery`
 
 ## Next Action
 
-Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel.
+Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.
 
 ## Suggested Commands
 
 ```powershell
 open 05_content/2026_06_18_reactivation_plan.md
+```
+
+```powershell
+open 10_automation/PUBLISH_QUEUE.md
 ```
 
 ```powershell

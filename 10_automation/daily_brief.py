@@ -9,12 +9,12 @@ from weekly_dashboard import build_dashboard
 
 
 STAGE_PRIORITY = {
-    "visibility_recovery": 100,
-    "published_waiting_for_metrics": 90,
+    "ready_for_canva_and_publish": 100,
+    "needs_grok_asset_selection": 90,
+    "published_waiting_for_metrics": 80,
     "quality_gate_not_passed": 80,
     "missing_weekly_packet_files": 75,
-    "needs_grok_asset_selection": 70,
-    "ready_for_canva_and_publish": 60,
+    "visibility_recovery": 55,
     "weak_distribution": 50,
     "wait_for_24h": 45,
     "hook_or_save_gap": 40,
@@ -45,21 +45,21 @@ def pick_priority_run(dashboard):
 def stage_brief(stage):
     briefs = {
         "visibility_recovery": {
-            "decision": "Today is an Instagram visibility recovery day, not a carousel production day.",
+            "decision": "Production-first mode: keep making carousel content; zero reach is tracked as a side signal, not a blocker.",
             "tasks": [
-                "Check Instagram: public account, Account Status, profile grid visibility, and whether the post opens from another account.",
-                "Publish one simple single-image test with direct comment CTA, then share it once to Story.",
-                "Send the post to 3-5 trusted people and record 6h / 24h metrics.",
+                "Open PUBLISH_QUEUE.md and work on the top carousel item first.",
+                "If time allows, publish the single-image visibility test as a side test.",
+                "Record any post URL and 6h / 24h metrics, but do not stop carousel production because reach is zero.",
             ],
             "user_inputs": [
-                "IG audit result",
-                "Second-test post URL and publish time",
-                "6h and 24h metrics",
+                "Top carousel status or Canva URL",
+                "Any new post URL and publish time",
+                "Optional 6h and 24h metrics",
             ],
             "codex_actions": [
-                "Record the new post and metrics with record_post_metrics.py.",
-                "Update the weekly dashboard and decide whether Instagram remains a growth channel.",
-                "Prepare Threads / Pinterest fallback copy if the second test is still zero reach.",
+                "Keep the publish queue updated.",
+                "Prepare the next carousel handoff or captions.",
+                "Record metrics as data without blocking production.",
             ],
             "files": [
                 "10_automation/runs/{run}/visibility_test_package.md",

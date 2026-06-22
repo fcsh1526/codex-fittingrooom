@@ -17,7 +17,7 @@ Monetization is intentionally delayed until there is non-zero reach.
 Today's priority:
 
 ```text
-reactivate distribution -> confirm Instagram visibility -> publish one simple test -> mirror to one backup channel
+continue carousel production -> keep visibility test as a side signal -> record metrics when available
 ```
 
 ## Current Stage
@@ -25,6 +25,12 @@ reactivate distribution -> confirm Instagram visibility -> publish one simple te
 Queue-based automation reset.
 
 The first Instagram carousel stayed at zero reach, so the project should not judge content quality yet. The next work is to build a repeatable carousel workflow and run a simpler visibility test.
+
+Production rule:
+
+```text
+Zero reach does not block the next carousel.
+```
 
 ## Key Links
 
@@ -150,14 +156,12 @@ Instagram account visibility status:
 If Instagram is still at zero reach:
 
 ```text
-Use 05_content/2026_06_18_reactivation_plan.md today.
+Use PUBLISH_QUEUE.md first. Use 05_content/2026_06_18_reactivation_plan.md only as a side visibility check.
 ```
 
-1. Verify the account/post is public from another account or browser.
-2. Publish the simple second-test post from `05_content/second_test_zero_reach_post.md`.
-3. Share it once to Story.
-4. Send it to 3-5 trusted people for a clean manual visibility test.
-5. Record metrics after 6 hours and 24 hours.
+1. Continue the top carousel production item.
+2. Optionally publish the simple second-test post from `visibility_test_package.md`.
+3. Record metrics after 6 hours and 24 hours when available.
 
 ## Next Codex Work
 
@@ -165,7 +169,7 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 
 1. Run `10_automation/daily_brief.py` first to create `TODAY.md`.
 2. Open `10_automation/PUBLISH_QUEUE.md` to see the exact next content item.
-3. If the top item is a visibility test, publish `visibility_test_package.md` before making another carousel.
+3. If the top item is a visibility test, treat it as optional side evidence; do not let it block the next carousel.
 4. Run `10_automation/weekly_dashboard.py` if the raw all-run table is needed.
 5. Run `10_automation/check_weekly_status.py` if a specific run folder already exists.
 6. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available; include score sheet / Drive inventory if Grok images are already reviewed.

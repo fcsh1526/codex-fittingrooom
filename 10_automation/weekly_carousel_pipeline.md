@@ -240,7 +240,7 @@ Use:
 
 Decision rule:
 
-- `reach = 0`: run zero-reach recovery
+- `reach = 0`: record zero-reach recovery as a side test, but keep carousel production moving
 - `reach > 0 but saves = 0`: adjust hook / visual clarity
 - `saves > 0`: make a second carousel in same bucket
 - `comments > 0`: prepare product list / reply flow
@@ -323,13 +323,13 @@ If you need the raw all-run dashboard, run:
   --runs-dir 10_automation\runs
 ```
 
-If the dashboard shows `visibility_recovery`, do not make a new carousel or product list yet. Run:
+If the dashboard shows `visibility_recovery`, keep carousel production moving. Use the visibility package only as a side test:
 
 ```text
 05_content/2026_06_18_reactivation_plan.md
 ```
 
-Then generate a single-image test package:
+Generate or refresh the single-image test package when useful:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action visibility-test -Week {week_id}

@@ -250,10 +250,9 @@ def test_daily_brief():
         ]
     )
     brief = read_json(TMP_ROOT / "TODAY.json")
-    assert_equal(brief["priority_run"]["stage"], "visibility_recovery", "daily brief priority stage")
+    assert_equal(brief["priority_run"]["stage"], "ready_for_canva_and_publish", "daily brief priority stage")
     assert_exists(TMP_ROOT / "TODAY.md", "daily brief")
-    assert_exists(TMP_ROOT / "run-w25" / "visibility_test_package.md", "daily brief visibility package")
-    assert_equal(brief["publish_queue"]["top_item"]["stage"], "ready_to_publish_visibility_test", "daily brief queue top stage")
+    assert_equal(brief["publish_queue"]["top_item"]["stage"], "ready_for_canva_and_publish", "daily brief queue top stage")
 
 
 def test_publish_queue():
@@ -272,7 +271,7 @@ def test_publish_queue():
         ]
     )
     queue = read_json(TMP_ROOT / "QUEUE_ONLY.json")
-    assert_equal(queue["top_item"]["stage"], "ready_to_publish_visibility_test", "publish queue top stage")
+    assert_equal(queue["top_item"]["stage"], "ready_for_canva_and_publish", "publish queue top stage")
     assert_exists(TMP_ROOT / "QUEUE_ONLY.md", "publish queue")
 
 

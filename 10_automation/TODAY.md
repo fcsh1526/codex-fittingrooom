@@ -6,25 +6,25 @@ Stage: `visibility_recovery`
 
 ## Decision
 
-Today is an Instagram visibility recovery day, not a carousel production day.
+Production-first mode: keep making carousel content; zero reach is tracked as a side signal, not a blocker.
 
 ## Today Only
 
-1. Check Instagram: public account, Account Status, profile grid visibility, and whether the post opens from another account.
-2. Publish one simple single-image test with direct comment CTA, then share it once to Story.
-3. Send the post to 3-5 trusted people and record 6h / 24h metrics.
+1. Open PUBLISH_QUEUE.md and work on the top carousel item first.
+2. If time allows, publish the single-image visibility test as a side test.
+3. Record any post URL and 6h / 24h metrics, but do not stop carousel production because reach is zero.
 
 ## User Should Provide
 
-- IG audit result
-- Second-test post URL and publish time
-- 6h and 24h metrics
+- Top carousel status or Canva URL
+- Any new post URL and publish time
+- Optional 6h and 24h metrics
 
 ## Codex Can Do Next
 
-- Record the new post and metrics with record_post_metrics.py.
-- Update the weekly dashboard and decide whether Instagram remains a growth channel.
-- Prepare Threads / Pinterest fallback copy if the second test is still zero reach.
+- Keep the publish queue updated.
+- Prepare the next carousel handoff or captions.
+- Record metrics as data without blocking production.
 
 ## Useful Files
 
@@ -42,15 +42,15 @@ Today is an Instagram visibility recovery day, not a carousel production day.
 
 ## Publish Queue Top Item
 
-- Type: `visibility_test`
-- ID: `2026-W21-test-002-visibility-01`
-- Stage: `ready_to_publish_visibility_test`
-- Asset: `IMG_1455.JPG`
-- Next action: Publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.
+- Type: `carousel`
+- ID: `2026-W21-test-001`
+- Stage: `ready_for_canva_and_publish`
+- Asset: `IMG_1453.JPG`
+- Next action: Use Canva handoff files to finish the carousel and publish it.
 
 ## Current Next Action
 
-Run Instagram zero-reach recovery, publish one simple single-image test, and mirror to one backup channel.
+Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.
 
 ## Fixed Flow
 
