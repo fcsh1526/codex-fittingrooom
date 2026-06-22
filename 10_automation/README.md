@@ -36,6 +36,7 @@ Each week should produce:
 ## Files In This Folder
 
 - `mika_weekly.ps1`: Windows PowerShell entrypoint for the main weekly actions.
+- `AUTOMATION_ARCHITECTURE_BRIEF.md`: slide-style briefing for the current automation architecture and boundaries.
 - `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
 - `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.
@@ -58,6 +59,12 @@ Each week should produce:
 ## Recommended Windows Entrypoint
 
 Use `mika_weekly.ps1` for normal work.
+
+If the overall system feels unclear, start with:
+
+```text
+10_automation/AUTOMATION_ARCHITECTURE_BRIEF.md
+```
 
 Check an existing run:
 

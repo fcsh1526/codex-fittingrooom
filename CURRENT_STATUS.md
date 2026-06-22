@@ -1,6 +1,6 @@
 # Current Status - Mika Lin AI Fashion Creator
 
-Last updated: 2026-06-18
+Last updated: 2026-06-22
 
 ## Project Goal
 
@@ -22,7 +22,7 @@ reactivate distribution -> confirm Instagram visibility -> publish one simple te
 
 ## Current Stage
 
-Automation reset.
+Queue-based automation reset.
 
 The first Instagram carousel stayed at zero reach, so the project should not judge content quality yet. The next work is to build a repeatable carousel workflow and run a simpler visibility test.
 
@@ -65,6 +65,8 @@ The first Instagram carousel stayed at zero reach, so the project should not jud
 - Main weekly pipeline now creates asset review/status files by default and can select Grok assets when score sheets are provided.
 - Windows shortcut `10_automation/mika_weekly.ps1` now wraps pipeline, status, dashboard, queue, today, visibility-test, assets, metrics, and validate actions.
 - Smoke test automation now verifies weekly pipeline, asset selection, metrics decisions, dashboard output, daily brief output, publish queue output, visibility test package output, and PowerShell entrypoint.
+- Daily heartbeat was updated from old Day X companionship to queue-based automation status checking.
+- Automation architecture brief was added to explain the current state machine and manual boundaries.
 
 ## Latest Published Post
 
@@ -107,6 +109,7 @@ Treat this as an account visibility, distribution, or channel setup issue. Do no
 Start here:
 
 ```text
+10_automation/AUTOMATION_ARCHITECTURE_BRIEF.md
 10_automation/README.md
 10_automation/2026_W25_work_order.md
 10_automation/weekly_carousel_pipeline.md
@@ -185,6 +188,13 @@ First command after returning from a break:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action today
+```
+
+Then open:
+
+```text
+10_automation/TODAY.md
+10_automation/PUBLISH_QUEUE.md
 ```
 
 Only after reach becomes non-zero should Codex create affiliate/product links.
