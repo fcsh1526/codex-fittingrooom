@@ -74,6 +74,7 @@ Zero reach does not block the next carousel.
 - Smoke test automation now verifies weekly pipeline, asset selection, metrics decisions, dashboard output, daily brief output, publish queue output, visibility test package output, and PowerShell entrypoint.
 - Daily heartbeat was updated from old Day X companionship to queue-based automation status checking.
 - Automation architecture brief was added to explain the current state machine and manual boundaries.
+- Cross-computer handoff was added in `COMPUTER_B_SYNC.md` so Computer B can continue from GitHub without reading the old conversation.
 
 ## Latest Published Post
 
@@ -116,6 +117,7 @@ Treat this as an account visibility, distribution, or channel setup issue. Do no
 Start here:
 
 ```text
+COMPUTER_B_SYNC.md
 10_automation/AUTOMATION_ARCHITECTURE_BRIEF.md
 10_automation/DAILY_COCKPIT.html
 10_automation/README.md
@@ -199,6 +201,7 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action c
 Then open:
 
 ```text
+COMPUTER_B_SYNC.md
 10_automation/DAILY_COCKPIT.html
 10_automation/TODAY.md
 10_automation/PUBLISH_QUEUE.md

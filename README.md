@@ -4,14 +4,24 @@
 
 ## 使用順序
 
-1. 每天 09:30 先看 `09_sops/daily_30_day_workplan.md`，確認今天的任務、你要做的事、Codex 可以接手的事。
-2. 先閱讀 `01_strategy/90_day_roadmap.md`，確認每 2 週要完成的交付物。
-3. 到 `02_brand/virtual_creator_profile.md` 固定虛擬人物設定，所有 Grok Imagine 與 Codex/OpenAI imagegen 產圖都沿用同一套人物描述。
-4. Day 1 先把 `03_research/perplexity_task_prompt_day1.md` 貼進 Perplexity Task，之後每週一讓 Perplexity 依 `03_research/perplexity_public_page_spec.md` 更新公開網頁，並貼網址給 Codex 拆解。
-5. 每週二把研究結果填入 `04_prompts/item_prompt_database.csv`。
-6. 每週三依 `04_prompts/grok_openai_image_workflow.md` 做 Grok + Codex/OpenAI 圖像 A/B 測試，並用 `06_compliance/ai_image_quality_checklist.md` 篩選。
-7. 每週四到五用 `05_content/content_calendar.csv` 排程平台內容，並用 `05_content/platform_post_templates.md` 改寫 IG、小紅書、Pinterest 版本。
-8. 每週末把數據填入 `07_metrics/weekly_metrics_dashboard.csv` 與 `07_metrics/experiment_log.csv`，決定下週延伸題材。
+1. 換電腦或新對話時，先看 `COMPUTER_B_SYNC.md`。
+2. 每天先產生操作台：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-22
+```
+
+3. 打開 `10_automation/DAILY_COCKPIT.html`，照 top item 做事。
+4. 若需要看完整架構，讀 `10_automation/AUTOMATION_ARCHITECTURE_BRIEF.md`。
+5. 若要看內容隊列，讀 `10_automation/PUBLISH_QUEUE.md`。
+
+目前策略是 production-first：
+
+```text
+持續產出精美 carousel。
+IG 零流量或 visibility test 只作為旁支數據，不阻塞 carousel 生產。
+有非零流量後才進入聯盟商品、品牌合作或會員變現。
+```
 
 ## 核心 KPI
 
