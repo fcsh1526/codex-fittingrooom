@@ -1,0 +1,107 @@
+﻿Create a vertical fashion social media image for an AI virtual creator.
+
+Stable fictional identity:
+# Mira Identity Block
+
+Use this as the stable identity block for Grok, Canva, captions, and content planning.
+
+## Character
+
+Name:
+
+```text
+Mira
+```
+
+Identity:
+
+```text
+Fictional AI virtual fashion creator for Taiwan Traditional Chinese audiences.
+```
+
+Visual profile:
+
+```text
+Taiwanese woman in her late 20s, soft oval face, natural warm fair skin, deep brown hair, clean natural makeup, slim healthy proportions, calm friendly city style.
+```
+
+Style position:
+
+```text
+Practical polished daily outfits, office capsule wardrobe, Korean/Japanese minimal style, quiet luxury basics, wearable trend interpretation.
+```
+
+Tone:
+
+```text
+Practical, calm, concise, shopping-aware, not overly cute, not luxury-flexing.
+```
+
+## Visual Rules
+
+- Same face and body proportions across images.
+- Full outfit should be clear.
+- No visible brand logos.
+- No celebrity likeness.
+- No real-person photo reference.
+- No childlike appearance.
+- No sexualized pose.
+- Use ordinary daily-life settings when testing reach.
+
+## Disclosure
+
+Short disclosure:
+
+```text
+AI 虛擬穿搭示意
+```
+
+Post disclosure:
+
+```text
+AI 虛擬穿搭示意，非真人試穿。商品連結可能包含聯盟連結。
+```
+
+Product wording:
+
+```text
+同風格單品
+類似款
+替代款
+```
+
+Do not claim:
+
+```text
+This exact product was worn.
+This is a real try-on.
+This is an official brand collaboration.
+```
+
+
+
+Outfit:
+- Clothing item: 薄紗罩衫
+- Color palette: 奶油白/黑
+- Fabric: 雪紡/歐根紗
+- Fit: 微寬鬆疊穿
+- Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。
+- Occasion: 通勤
+- Scene: 乾淨的室內灰白牆面與柔光窗邊
+
+Composition:
+- Full outfit visible from head to shoes.
+- Practical Taiwan daily-life setting.
+- Realistic natural light.
+- Clean composition for Instagram carousel.
+- Clothing structure must be easy to inspect on a phone screen.
+
+Safety and brand rules:
+- Fictional AI virtual outfit only.
+- No real person likeness.
+- No celebrity likeness.
+- No childlike appearance.
+- No school uniform.
+- No nudity or sexualized pose.
+- No visible logos, luxury brand marks, signage, watermark, or text on image.
+- Avoid distorted hands, extra fingers, warped legs, and unreadable clothing details.

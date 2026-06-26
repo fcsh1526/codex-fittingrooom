@@ -1,26 +1,11 @@
-import argparse
+﻿import argparse
 import csv
 import json
 from pathlib import Path
 
 
 PLACEHOLDER_FIELDS = [
-    "slide1_title",
-    "slide1_subtitle",
-    "slide1_disclosure",
-    "slide2_kicker",
-    "slide2_title",
-    "slide2_body",
-    "slide3_kicker",
-    "slide3_title",
-    "slide3_body",
-    "slide4_kicker",
-    "slide4_title",
-    "slide4_body",
-    "slide5_title",
-    "slide5_cta",
-    "slide5_note",
-    "slide5_disclosure",
+    "slide2_line",
 ]
 
 
@@ -39,30 +24,30 @@ ASSET_SLOT_FIELDS = [
 DEFAULT_ASSET_SLOTS = [
     {
         "slot_id": "cover_image",
-        "slide_range": "1-2",
-        "asset_type": "Grok image",
-        "purpose": "strongest full-body image, used as the visual anchor",
+        "slide_range": "1",
+        "asset_type": "image",
+        "purpose": "strongest lifestyle full-body image; visual hook",
         "recommended_file": "",
         "status": "needed",
-        "notes": "Keep Mika Lin visible from head to shoes; avoid cropping across the slide boundary.",
+        "notes": "Make the person and outfit dominant. Keep text off the image.",
+    },
+    {
+        "slot_id": "texture_or_crop",
+        "slide_range": "2",
+        "asset_type": "crop / quiet design slide",
+        "purpose": "minimal transition slide with one short line",
+        "recommended_file": "",
+        "status": "optional",
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence.",
     },
     {
         "slot_id": "detail_image",
         "slide_range": "3",
-        "asset_type": "Grok image",
-        "purpose": "alternate angle or outfit detail",
+        "asset_type": "image",
+        "purpose": "second lifestyle image or reused hero crop",
         "recommended_file": "",
         "status": "optional",
-        "notes": "Use only if hands, face, and clothing structure are clean.",
-    },
-    {
-        "slot_id": "texture_or_crop",
-        "slide_range": "4-5",
-        "asset_type": "crop / neutral background",
-        "purpose": "quiet visual support for styling notes and CTA",
-        "recommended_file": "",
-        "status": "optional",
-        "notes": "Prefer a soft crop from the same image or a clean neutral background.",
+        "notes": "Use a second image when available. If not, use a different crop of the hero image.",
     },
 ]
 
@@ -113,10 +98,11 @@ def build_placeholder_map(canva_rows):
             "hashtags": clean(row.get("hashtags")),
             "asset_slots": asset_slots_for_carousel(carousel_id),
             "design_contract": {
-                "canvas_size": "5400 x 1350 px",
-                "export": "5 slides, 1080 x 1350 px each",
-                "slice_guides_x": [1080, 2160, 3240, 4320],
+                "canvas_size": "3240 x 1350 px",
+                "export": "3 slides, 1080 x 1350 px each",
+                "slice_guides_x": [1080, 2160],
                 "safe_margin_from_guides_px": 80,
+                "text_rule": "Only slide 2 has one short line. Slides 1 and 3 are image-led.",
             },
         }
     return mapping
@@ -134,15 +120,17 @@ def write_fill_guide(path, canva_rows):
     lines = [
         "# Canva Fill Guide",
         "",
-        "Use this file after duplicating the 5400 x 1350 panorama Canva template.",
+        "Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.",
         "",
         "## Template Contract",
         "",
-        "- Canvas: `5400 x 1350 px`",
-        "- Export: `5 slides x 1080 x 1350 px`",
-        "- Slice guides: `x = 1080, 2160, 3240, 4320`",
-        "- Keep text at least `80 px` away from slice guides.",
-        "- Keep the AI disclosure visible on slide 1 and slide 5.",
+        "- Canvas: `3240 x 1350 px`",
+        "- Export: `3 slides x 1080 x 1350 px`",
+        "- Slice guides: `x = 1080, 2160`",
+        "- Slide 1: image-led hook, no required text.",
+        "- Slide 2: one short transition line only.",
+        "- Slide 3: image-led ending, no CTA wall.",
+        "- Keep disclosure in the caption, not on the image.",
         "",
     ]
 
@@ -180,10 +168,10 @@ def write_fill_guide(path, canva_rows):
                 "### Before Saving",
                 "",
                 "- All placeholder braces are gone.",
-                "- Text does not cross slice boundaries.",
-                "- Mika Lin remains visually consistent.",
-                "- Outfit is readable on a phone screen.",
-                "- AI disclosure is visible.",
+                "- Slide 2 has only one short sentence.",
+                "- Mira remains visually consistent.",
+                "- Outfit is readable within one second.",
+                "- The post feels like a lifestyle moment, not a sales flyer.",
                 "",
             ]
         )

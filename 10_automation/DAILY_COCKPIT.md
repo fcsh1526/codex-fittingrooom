@@ -1,13 +1,13 @@
-# Mika Lin Daily Cockpit
+# Mira Daily Cockpit
 
-Date: `2026-06-22`
+Date: `2026-06-26`
 
 ## Today, Do This First
 
-- Item: `2026-W21-test-001`
+- Item: `2026-W26-002`
 - Type: `carousel`
 - Stage: `ready_for_canva_and_publish`
-- Asset: `IMG_1453.JPG`
+- Asset: `ChatGPT Image 2026年6月24日 下午03_30_10.png`
 - Next action: Use Canva handoff files to finish the carousel and publish it.
 
 ## Checklist
@@ -15,22 +15,22 @@ Date: `2026-06-22`
 - [ ] Open the Canva panorama design.
 - [ ] Use canva_fill_guide.md to fill the slide text.
 - [ ] Place the recommended asset and detail image from canva_asset_plan.md.
-- [ ] Export the 5 carousel slides or finish the Canva design.
+- [ ] Export the 3 carousel slides or finish the Canva design.
 - [ ] Publish or schedule the Instagram carousel.
 - [ ] Send Codex the post URL, publish time, and any immediate notes.
 
 ## Files To Open
 
-- `10_automation/runs/2026-W21-test/canva_fill_guide.md`
-- `10_automation/runs/2026-W21-test/canva_asset_plan.md`
-- `10_automation/runs/2026-W21-test/post_drafts.md`
-- `10_automation/runs/2026-W21-test/publish_checklist.md`
+- `10_automation/runs/2026-W26/canva_fill_guide.md`
+- `10_automation/runs/2026-W26/canva_asset_plan.md`
+- `10_automation/runs/2026-W26/post_drafts.md`
+- `10_automation/runs/2026-W26/publish_checklist.md`
 
 ## Reply Template For Codex
 
 ```text
 今日回報：
-item = 2026-W21-test-001
+item = 2026-W26-002
 type = carousel
 status = 
 Canva URL = 

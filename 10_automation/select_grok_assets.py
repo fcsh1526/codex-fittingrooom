@@ -123,6 +123,7 @@ def drive_lookup(rows):
                 "drive_url": clean(row.get("drive_url")),
                 "file_id": clean(row.get("file_id")),
                 "mime_type": clean(row.get("mime_type")),
+                "file_path": clean(row.get("file_path")),
             }
     return lookup
 
@@ -158,7 +159,10 @@ def build_selection(packet, score_rows, drive_rows):
         return clean(row.get("file_name")) if row else ""
 
     def url_for(row):
-        return drive_rows.get(file_name(row), {}).get("drive_url", "") if row else ""
+        if not row:
+            return ""
+        asset = drive_rows.get(file_name(row), {})
+        return asset.get("drive_url") or asset.get("file_path") or ""
 
     notes = []
     notes.append(f"cover_score={score_row(cover)}")
@@ -241,11 +245,11 @@ def update_placeholder_map(run_dir, slot_rows):
     path.write_text(json.dumps(mapping, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def write_asset_plan(path, selections):
+def write_asset_plan(path, selections, provider="Grok"):
     lines = [
-        "# Grok Asset Selection Plan",
+        f"# {provider.title()} Asset Selection Plan",
         "",
-        "Use this after Grok images are uploaded and reviewed.",
+        f"Use this after {provider} images are generated, uploaded if needed, and reviewed.",
         "",
     ]
     for row in selections:
@@ -266,30 +270,31 @@ def write_asset_plan(path, selections):
     Path(path).write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_review_template(path, packets):
+def write_review_template(path, packets, provider="Grok"):
     rows = []
     for packet in packets:
         prompt_id = clean(packet.get("prompt_id"))
         for index in range(1, 6):
             row = {field: "" for field in SCORE_FIELDS}
             row["prompt_id"] = prompt_id
-            row["tool"] = "Grok"
-            row["file_name"] = f"{prompt_id}_variant_{index}.jpg"
+            row["tool"] = provider
+            row["file_name"] = f"{prompt_id}_{provider.lower()}_variant_{index}.jpg"
             row["publishable"] = "pending"
             row["status"] = "review"
             rows.append(row)
     write_csv(path, SCORE_FIELDS, rows)
 
 
-def select_assets(run_dir, score_sheet=None, drive_inventory=None):
+def select_assets(run_dir, score_sheet=None, drive_inventory=None, provider="Grok"):
     run_dir = Path(run_dir)
     packets = read_csv(run_dir / "weekly_content_packet.csv")
     slot_rows = read_csv(run_dir / "canva_asset_slots.csv")
     score_rows = read_csv(score_sheet) if score_sheet else []
     drive_rows = drive_lookup(read_csv(drive_inventory)) if drive_inventory else {}
+    provider_slug = clean(provider).lower() or "grok"
 
     if not score_rows:
-        write_review_template(run_dir / "grok_asset_review_template.csv", packets)
+        write_review_template(run_dir / f"{provider_slug}_asset_review_template.csv", packets, provider=provider)
         selections = [
             {
                 "carousel_id": clean(packet.get("carousel_id")),
@@ -301,15 +306,17 @@ def select_assets(run_dir, score_sheet=None, drive_inventory=None):
                 "texture_asset": "",
                 "texture_url": "",
                 "selection_status": "needs_scoring",
-                "notes": "Fill grok_asset_review_template.csv after reviewing Grok outputs.",
+                "notes": f"Fill {provider_slug}_asset_review_template.csv after reviewing {provider} outputs.",
             }
             for packet in packets
         ]
     else:
         selections = [build_selection(packet, score_rows, drive_rows) for packet in packets]
 
-    write_csv(run_dir / "grok_asset_selection.csv", SELECTION_FIELDS, selections)
-    write_asset_plan(run_dir / "canva_asset_plan.md", selections)
+    write_csv(run_dir / f"{provider_slug}_asset_selection.csv", SELECTION_FIELDS, selections)
+    if provider_slug != "grok":
+        write_csv(run_dir / "grok_asset_selection.csv", SELECTION_FIELDS, selections)
+    write_asset_plan(run_dir / "canva_asset_plan.md", selections, provider=provider)
     updated_slots = update_asset_slots(slot_rows, selections)
     write_csv(run_dir / "canva_asset_slots.csv", ASSET_SLOT_FIELDS, updated_slots)
     update_placeholder_map(run_dir, updated_slots)
@@ -317,16 +324,18 @@ def select_assets(run_dir, score_sheet=None, drive_inventory=None):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Select Grok image assets for a generated weekly Canva handoff.")
+    parser = argparse.ArgumentParser(description="Select image assets for a generated weekly Canva handoff.")
     parser.add_argument("--run-dir", required=True)
-    parser.add_argument("--score-sheet", help="CSV with scored Grok images.")
-    parser.add_argument("--drive-inventory", help="Optional Drive inventory CSV containing file_name and drive_url.")
+    parser.add_argument("--score-sheet", help="CSV with scored image assets.")
+    parser.add_argument("--drive-inventory", help="Optional inventory CSV containing file_name and drive_url or file_path.")
+    parser.add_argument("--provider", default="Grok", help="Asset provider label, e.g. Grok or OpenAI.")
     args = parser.parse_args()
 
     selections = select_assets(
         run_dir=args.run_dir,
         score_sheet=args.score_sheet,
         drive_inventory=args.drive_inventory,
+        provider=args.provider,
     )
     selected_count = sum(1 for row in selections if row["selection_status"] == "selected")
     print(f"Wrote asset selections for {len(selections)} carousel(s); selected {selected_count}.")

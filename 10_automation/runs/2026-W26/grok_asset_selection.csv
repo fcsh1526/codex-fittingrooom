@@ -1,0 +1,3 @@
+carousel_id,prompt_id,cover_asset,cover_url,detail_asset,detail_url,texture_asset,texture_url,selection_status,notes
+2026-W26-001,W26-P001,ChatGPT Image 2026年6月24日 下午03_30_22.png,10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_22.png,,,ChatGPT Image 2026年6月24日 下午03_30_22.png,10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_22.png,selected,cover_score=23; detail_reuses_cover
+2026-W26-002,W26-P002,ChatGPT Image 2026年6月24日 下午03_30_10.png,10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_10.png,,,ChatGPT Image 2026年6月24日 下午03_30_10.png,10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_10.png,selected,cover_score=24; detail_reuses_cover

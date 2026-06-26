@@ -1,5 +1,6 @@
 {
-  "created_at": "2026-06-22",
+  "created_at": "2026-06-23",
+  "status": "paused",
   "run_dir": "10_automation\\runs\\2026-W21-test",
   "source_carousel_id": "2026-W21-test-002",
   "source_packet": {

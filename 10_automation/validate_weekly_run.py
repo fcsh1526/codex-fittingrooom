@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import csv
 import json
 import re
@@ -38,43 +38,20 @@ PACKET_REQUIRED_FIELDS = [
 
 CANVA_REQUIRED_FIELDS = [
     "carousel_id",
-    "slide1_title",
-    "slide1_subtitle",
-    "slide1_disclosure",
-    "slide2_title",
-    "slide2_body",
-    "slide3_title",
-    "slide3_body",
-    "slide4_title",
-    "slide4_body",
-    "slide5_title",
-    "slide5_cta",
-    "slide5_note",
-    "slide5_disclosure",
+    "slide2_line",
     "caption_short",
     "hashtags",
 ]
 
 
 CANVA_LENGTH_LIMITS = {
-    "slide1_title": 18,
-    "slide1_subtitle": 24,
-    "slide2_title": 28,
-    "slide2_body": 42,
-    "slide3_title": 26,
-    "slide3_body": 46,
-    "slide4_title": 18,
-    "slide4_body": 48,
-    "slide5_title": 18,
-    "slide5_cta": 22,
-    "slide5_note": 32,
+    "slide2_line": 28,
 }
 
 
 DISCLOSURE_TERMS = [
     "AI",
-    "虛擬穿搭",
-    "非真人試穿",
+    "虛擬",
 ]
 
 
@@ -96,7 +73,7 @@ def read_csv(path):
 
 
 def read_text(path):
-    return Path(path).read_text(encoding="utf-8")
+    return Path(path).read_text(encoding="utf-8-sig")
 
 
 def clean(value):
@@ -135,8 +112,8 @@ def validate_packet_rows(run_dir, min_rows, issues):
         if carousel_id in seen_ids:
             add_issue(issues, "error", "duplicate_carousel_id", f"Duplicate carousel_id: {carousel_id}.")
         seen_ids.add(carousel_id)
-        if clean(row.get("creator_name")) != "Mika Lin":
-            add_issue(issues, "warning", "creator_name", f"{row_label}: creator_name should be Mika Lin.")
+        if clean(row.get("creator_name")) != "Mira":
+            add_issue(issues, "warning", "creator_name", f"{row_label}: creator_name should be Mira.")
     return rows
 
 
@@ -165,10 +142,7 @@ def validate_canva_rows(run_dir, packet_rows, issues):
             value = clean(row.get(field))
             if len(value) > limit:
                 add_issue(issues, "warning", "canva_text_length", f"{row_label}: {field} is {len(value)} chars, limit {limit}.")
-        disclosure_text = " ".join(
-            clean(row.get(field))
-            for field in ["slide1_disclosure", "slide5_disclosure", "caption_short"]
-        )
+        disclosure_text = clean(row.get("caption_short"))
         for term in DISCLOSURE_TERMS:
             if term not in disclosure_text:
                 add_issue(issues, "error", "missing_disclosure", f"{row_label}: disclosure missing {term}.")
@@ -224,7 +198,7 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
             add_issue(issues, "warning", "canva_map_extra", f"canva_placeholder_map.json has extra {carousel_id}.")
         for carousel_id, data in mapping.items():
             placeholders = data.get("placeholders", {})
-            for token in ["{{slide1_title}}", "{{slide1_disclosure}}", "{{slide5_cta}}", "{{slide5_disclosure}}"]:
+            for token in ["{{slide2_line}}"]:
                 if not clean(placeholders.get(token)):
                     add_issue(issues, "error", "canva_map_placeholder", f"{carousel_id}: missing {token} in placeholder map.")
             if not data.get("design_contract"):
@@ -315,7 +289,7 @@ def validate_run(run_dir, min_rows=1, require_assets=False):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Validate a generated weekly Mika Lin run folder.")
+    parser = argparse.ArgumentParser(description="Validate a generated weekly Mira run folder.")
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--min-rows", type=int, default=1)
     parser.add_argument("--require-assets", action="store_true", help="Fail when required Canva image slots have no selected asset.")

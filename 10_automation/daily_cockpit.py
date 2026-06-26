@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import html
 import json
 from datetime import date
@@ -53,9 +53,10 @@ def run_files(top_item):
             normalize_path(f"{run_dir}/post_drafts.md"),
             normalize_path(f"{run_dir}/publish_checklist.md"),
         ]
-    if item_type == "carousel" and stage == "needs_grok_asset_selection":
+    if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return [
-            normalize_path(f"{run_dir}/grok_prompts.md"),
+            normalize_path(f"{run_dir}/openai_prompts"),
+            normalize_path(f"{run_dir}/openai_asset_review_template.csv"),
             normalize_path(f"{run_dir}/grok_asset_review_template.csv"),
             normalize_path(f"{run_dir}/canva_asset_slots.csv"),
         ]
@@ -77,16 +78,16 @@ def checklist_for(top_item):
             "Open the Canva panorama design.",
             "Use canva_fill_guide.md to fill the slide text.",
             "Place the recommended asset and detail image from canva_asset_plan.md.",
-            "Export the 5 carousel slides or finish the Canva design.",
+            "Export the 3 carousel slides or finish the Canva design.",
             "Publish or schedule the Instagram carousel.",
             "Send Codex the post URL, publish time, and any immediate notes.",
         ]
-    if item_type == "carousel" and stage == "needs_grok_asset_selection":
+    if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return [
-            "Open grok_prompts.md.",
-            "Generate Grok images in the mobile app.",
-            "Upload images to the matching Google Drive folder.",
-            "Send Codex the Drive folder URL or image score sheet.",
+            "Dry-run OpenAI image generation.",
+            "Generate OpenAI images after confirming API budget.",
+            "Review and score the generated image candidates.",
+            "Run asset selection and validation.",
         ]
     if item_type == "visibility_test":
         return [
@@ -174,7 +175,7 @@ def render_html(payload, cockpit_md):
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mika Lin Daily Cockpit</title>
+  <title>Mira Daily Cockpit</title>
   <style>
     :root {{
       --bg: #f5f2ea;
@@ -313,7 +314,7 @@ def render_html(payload, cockpit_md):
 <body>
   <main>
     <header>
-      <h1>Mika Lin Daily Cockpit</h1>
+      <h1>Mira Daily Cockpit</h1>
       <div class="meta">
         <span class="pill">Date: {html.escape(today)}</span>
         <span class="pill">{html.escape(mode)}</span>
@@ -369,7 +370,7 @@ def render_markdown(payload):
     files = run_files(top)
     checks = checklist_for(top)
     lines = [
-        "# Mika Lin Daily Cockpit",
+        "# Mira Daily Cockpit",
         "",
         f"Date: `{payload.get('date')}`",
         "",
@@ -421,7 +422,7 @@ def build_cockpit(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Build a single daily cockpit page for the Mika Lin workflow.")
+    parser = argparse.ArgumentParser(description="Build a single daily cockpit page for the Mira workflow.")
     parser.add_argument("--runs-dir", default="10_automation/runs")
     parser.add_argument("--date", default=date.today().isoformat())
     parser.add_argument("--today-md", default="10_automation/TODAY.md")

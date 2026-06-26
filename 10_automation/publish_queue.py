@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import csv
 import json
 import re
@@ -96,13 +96,16 @@ def latest_by_carousel(rows, carousel_id):
 
 
 def stage_for_carousel(packet, asset, publish, metric):
+    packet_status = clean(packet.get("status")).lower()
+    if packet_status in {"paused", "archived", "do_not_publish", "skip"}:
+        return packet_status
     if metric:
         decision = clean(metric.get("decision"))
         return decision or "metrics_recorded_review_needed"
-    if publish or clean(packet.get("status")) == "published":
+    if publish or packet_status == "published":
         return "published_waiting_for_metrics"
     if not clean(asset.get("file")):
-        return "needs_grok_asset_selection"
+        return "needs_image_asset_selection"
     return "ready_for_canva_and_publish"
 
 
@@ -111,7 +114,12 @@ def next_action_for_stage(stage):
         "visibility_recovery": "Keep carousel production moving; optionally publish or record the generated single-image visibility test in parallel.",
         "ready_to_publish_visibility_test": "Optional side test: publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.",
         "published_waiting_for_metrics": "Record 6h / 24h metrics with record_post_metrics.py.",
-        "needs_grok_asset_selection": "Generate or score Grok images, then run select_grok_assets.py.",
+        "needs_image_asset_selection": "Generate or score OpenAI images, then run select_grok_assets.py with --provider OpenAI.",
+        "needs_grok_asset_selection": "Generate or score images, then run select_grok_assets.py.",
+        "paused": "Paused by user; do not publish unless reactivated.",
+        "archived": "Archived; do not publish.",
+        "do_not_publish": "Do not publish this item.",
+        "skip": "Skipped; choose another content item.",
         "ready_for_canva_and_publish": "Use Canva handoff files to finish the carousel and publish it.",
         "weak_distribution": "Mirror the asset to Threads or Pinterest and test a clearer single-image hook.",
         "wait_for_24h": "Wait for the 24h checkpoint before changing the content direction.",
@@ -186,13 +194,16 @@ def visibility_item(run_dir, package, publish_rows, metric_rows):
 def item_priority(row):
     stage = clean(row.get("stage"))
     item_type = clean(row.get("item_type"))
+    if stage in {"paused", "archived", "do_not_publish", "skip"}:
+        return -10
     if item_type == "carousel" and stage == "ready_for_canva_and_publish":
         return 100
-    if item_type == "carousel" and stage == "needs_grok_asset_selection":
+    if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return 90
     priorities = {
         "published_waiting_for_metrics": 80,
         "ready_for_canva_and_publish": 75,
+        "needs_image_asset_selection": 70,
         "needs_grok_asset_selection": 70,
         "ready_to_publish_visibility_test": 45,
         "visibility_recovery": 40,
@@ -209,6 +220,11 @@ def build_queue(runs_dir):
     rows = []
     for run_dir in run_dirs_under(runs_dir):
         packets = read_csv(run_dir / "weekly_content_packet.csv")
+        paused_ids = {
+            clean(packet.get("carousel_id"))
+            for packet in packets
+            if clean(packet.get("status")).lower() in {"paused", "archived", "do_not_publish", "skip"}
+        }
         publish_rows = read_csv(run_dir / "publish_log.csv")
         metric_rows = read_csv(run_dir / "metric_checkpoints.csv")
         assets = assets_by_carousel(run_dir)
@@ -217,9 +233,15 @@ def build_queue(runs_dir):
             rows.append(carousel_item(run_dir, packet, assets.get(carousel_id, {}), publish_rows, metric_rows))
 
         visibility_package = read_json(run_dir / "visibility_test_package.json")
-        if visibility_package:
+        package_status = clean(visibility_package.get("status")).lower()
+        if (
+            visibility_package
+            and package_status not in {"paused", "archived", "do_not_publish", "skip"}
+            and clean(visibility_package.get("source_carousel_id")) not in paused_ids
+        ):
             rows.append(visibility_item(run_dir, visibility_package, publish_rows, metric_rows))
-    return sorted(rows, key=lambda row: (item_priority(row), clean(row.get("carousel_id"))), reverse=True)
+    active_rows = [row for row in rows if item_priority(row) >= 0]
+    return sorted(active_rows, key=lambda row: (item_priority(row), clean(row.get("carousel_id"))), reverse=True)
 
 
 def write_markdown(path, rows, runs_dir):
@@ -291,7 +313,7 @@ def build_publish_queue(runs_dir, output_csv, output_md, output_json):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Build a per-carousel publish queue across weekly Mika Lin run folders.")
+    parser = argparse.ArgumentParser(description="Build a per-carousel publish queue across weekly Mira run folders.")
     parser.add_argument("--runs-dir", default="10_automation/runs")
     parser.add_argument("--output-csv", default="10_automation/PUBLISH_QUEUE.csv")
     parser.add_argument("--output-md", default="10_automation/PUBLISH_QUEUE.md")

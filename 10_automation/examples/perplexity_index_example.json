@@ -1,0 +1,14 @@
+{
+  "weeks": [
+    {
+      "week": "2026-W24",
+      "title": "Older weekly report",
+      "csv_url": "https://mika-lin-weekly.pplx.app/data/2026-W24.csv"
+    },
+    {
+      "week": "2026-W25",
+      "title": "Latest weekly report",
+      "csv_url": "https://mika-lin-weekly.pplx.app/data/2026-W25.csv"
+    }
+  ]
+}

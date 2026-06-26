@@ -1,6 +1,7 @@
 # Visibility Test Package
 
-Created: `2026-06-22`
+Created: `2026-06-23`
+Status: `paused`
 Run folder: `10_automation\runs\2026-W21-test`
 Source carousel: `2026-W21-test-002`
 Prompt ID: `W21-P002`

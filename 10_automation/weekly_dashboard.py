@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import json
 from collections import Counter
 from pathlib import Path
@@ -54,7 +54,7 @@ def write_dashboard(runs_dir, summaries):
     )
 
     lines = [
-        "# Mika Lin Weekly Dashboard",
+        "# Mira Weekly Dashboard",
         "",
         f"Runs directory: `{runs_dir}`",
         f"Run count: `{len(summaries)}`",
@@ -102,7 +102,7 @@ def build_dashboard(runs_dir):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Build a dashboard for all weekly Mika Lin run folders.")
+    parser = argparse.ArgumentParser(description="Build a dashboard for all weekly Mira run folders.")
     parser.add_argument("--runs-dir", default="10_automation/runs")
     args = parser.parse_args()
 

@@ -1,0 +1,3 @@
+prompt_id,file_name,file_path,provider,model,size,quality,variant,status,notes
+W26-P001,ChatGPT Image 2026年6月24日 下午03_30_22.png,10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_22.png,openai,chatgpt-subscription,1024x1536,manual,1,generated,carousel_id=2026-W26-001; prompt_file=openai_prompts/W26-P001.txt; subscription_generated=true
+W26-P002,ChatGPT Image 2026年6月24日 下午03_30_10.png,10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_10.png,openai,chatgpt-subscription,1024x1536,manual,1,generated,carousel_id=2026-W26-002; prompt_file=openai_prompts/W26-P002.txt; subscription_generated=true

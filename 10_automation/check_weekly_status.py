@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import csv
 import json
 from pathlib import Path
@@ -80,8 +80,14 @@ def asset_status(run_dir):
         if not clean(detail.get("recommended_file")):
             missing_detail.append(carousel_id)
 
-    template_exists = (run_dir / "grok_asset_review_template.csv").exists()
-    selection_exists = (run_dir / "grok_asset_selection.csv").exists()
+    template_exists = any(
+        (run_dir / name).exists()
+        for name in ["openai_asset_review_template.csv", "grok_asset_review_template.csv"]
+    )
+    selection_exists = any(
+        (run_dir / name).exists()
+        for name in ["openai_asset_selection.csv", "grok_asset_selection.csv"]
+    )
 
     return {
         "carousel_count": len(carousel_ids),
@@ -112,20 +118,32 @@ def publish_status(run_dir):
 def packet_status(run_dir):
     rows = read_csv(run_dir / "weekly_content_packet.csv")
     published_count = sum(1 for row in rows if clean(row.get("status")) == "published")
+    inactive_statuses = {"paused", "archived", "do_not_publish", "skip"}
+    inactive_count = sum(1 for row in rows if clean(row.get("status")).lower() in inactive_statuses)
     return {
         "row_count": len(rows),
         "published_count": published_count,
+        "inactive_count": inactive_count,
+        "all_inactive": bool(rows) and inactive_count == len(rows),
         "carousel_ids": [clean(row.get("carousel_id")) for row in rows if clean(row.get("carousel_id"))],
     }
 
 
-def determine_stage(files, quality, assets, publishing):
+def determine_stage(files, quality, assets, publishing, packet=None):
+    packet = packet or {}
     missing_files = [name for name, state in files.items() if not state["exists"]]
     if missing_files:
         return {
             "stage": "missing_weekly_packet_files",
             "next_action": "Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder.",
             "blocking_items": missing_files,
+        }
+
+    if packet.get("all_inactive"):
+        return {
+            "stage": "paused",
+            "next_action": "This run is paused or archived. Create a new OpenAI-first run before publishing more content.",
+            "blocking_items": [],
         }
 
     if quality["status"] != "pass":
@@ -151,13 +169,13 @@ def determine_stage(files, quality, assets, publishing):
 
     if assets["missing_cover"]:
         if assets["review_template_exists"] and assets["selection_rows"]:
-            next_action = "Fill grok_asset_review_template.csv after reviewing Grok outputs, then rerun select_grok_assets.py with that score sheet."
+            next_action = "Fill the image review template after reviewing outputs, then rerun select_grok_assets.py with that score sheet."
         elif assets["selection_exists"]:
-            next_action = "Review grok_asset_selection.csv, then rerun select_grok_assets.py with a scored image sheet."
+            next_action = "Review the asset selection CSV, then rerun select_grok_assets.py with a scored image sheet."
         else:
-            next_action = "Generate Grok images, score them, then run select_grok_assets.py."
+            next_action = "Generate OpenAI images, score them, then run select_grok_assets.py with --provider OpenAI."
         return {
-            "stage": "needs_grok_asset_selection",
+            "stage": "needs_image_asset_selection",
             "next_action": next_action,
             "blocking_items": assets["missing_cover"],
         }
@@ -183,9 +201,12 @@ def command_suggestions(run_dir, stage):
         suggestions.append(
             f"python 10_automation/validate_weekly_run.py --run-dir {run_dir_str} --min-rows 1"
         )
-    elif stage == "needs_grok_asset_selection":
+    elif stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         suggestions.append(
-            f"python 10_automation/select_grok_assets.py --run-dir {run_dir_str} --score-sheet path_to_scores.csv --drive-inventory path_to_drive_inventory.csv"
+            f"python 10_automation/generate_openai_images.py --run-dir {run_dir_str} --variants 2 --dry-run"
+        )
+        suggestions.append(
+            f"python 10_automation/select_grok_assets.py --run-dir {run_dir_str} --provider OpenAI --score-sheet path_to_scores.csv --drive-inventory path_to_image_inventory.csv"
         )
         suggestions.append(
             f"python 10_automation/validate_weekly_run.py --run-dir {run_dir_str} --min-rows 1 --require-assets"
@@ -256,7 +277,7 @@ def check_status(run_dir):
     assets = asset_status(run_dir)
     publishing = publish_status(run_dir)
     packet = packet_status(run_dir)
-    stage = determine_stage(files, quality, assets, publishing)
+    stage = determine_stage(files, quality, assets, publishing, packet=packet)
     commands = command_suggestions(run_dir, stage["stage"])
     status = {
         "run_dir": str(run_dir),
@@ -273,7 +294,7 @@ def check_status(run_dir):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Check the current stage and next action for a weekly Mika Lin run folder.")
+    parser = argparse.ArgumentParser(description="Check the current stage and next action for a weekly Mira run folder.")
     parser.add_argument("--run-dir", required=True)
     args = parser.parse_args()
 

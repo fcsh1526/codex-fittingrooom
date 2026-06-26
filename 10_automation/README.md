@@ -1,11 +1,11 @@
-# Automation Hub
+﻿# Automation Hub
 
-Purpose: make the weekly Mika Lin workflow repeatable with less discussion and fewer manual decisions.
+Purpose: make the weekly Mira workflow repeatable with less discussion and fewer manual decisions.
 
 The current priority is continuous production, not monetization. The priority is:
 
 ```text
-stable character + weekly fashion trend + Grok image prompts + polished Instagram carousel + basic reach test
+stable character + weekly fashion trend + OpenAI image generation + Canva carousel + basic reach test
 ```
 
 Only after Instagram or another channel gets non-zero reach should affiliate links and product lists become the main work.
@@ -22,8 +22,8 @@ Each week needs these inputs:
 
 1. Perplexity weekly trend URL or CSV.
 2. One selected trend / outfit direction.
-3. 3-5 Grok output images in Google Drive.
-4. One Canva panorama template copy.
+3. 2-4 OpenAI-generated image candidates, or Grok images as a backup.
+4. One Canva panorama template or Canva brand template.
 5. A final Instagram post URL and metrics after publishing.
 
 ## Weekly Outputs
@@ -31,11 +31,11 @@ Each week needs these inputs:
 Each week should produce:
 
 1. `weekly_content_packet.csv`
-2. 3-5 Grok prompts
+2. Image prompts for OpenAI / Grok backup
 3. Canva placeholder values
 4. Canva fill guide / placeholder map / asset slots
 5. IG carousel caption and hashtags
-6. Drive asset inventory
+6. OpenAI image inventory or Drive asset inventory
 7. Publish record
 8. Metrics record
 
@@ -45,6 +45,8 @@ Each week should produce:
 - `AUTOMATION_ARCHITECTURE_BRIEF.md`: slide-style briefing for the current automation architecture and boundaries.
 - `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
+- `canva_connector_workflow.md`: how Codex should use the Canva connector for template edits and preview approval.
+- `instagram_visual_direction.md`: current low-text, image-led IG direction.
 - `daily_cockpit.py`: creates the one-page daily HTML cockpit.
 - `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.
 - `publish_queue.py`: creates a per-carousel and visibility-test publish queue.
@@ -53,10 +55,12 @@ Each week should produce:
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
 - `weekly_handoff_checklist.md`: what the user should provide each week.
 - `import_perplexity_export.py`: imports a Perplexity CSV or markdown CSV block into `04_prompts/item_prompt_database.csv`.
+- `resolve_perplexity_source.py`: resolves the latest or requested weekly CSV from the Perplexity public index.
 - `generate_canva_placeholders.py`: converts a weekly content packet CSV into Canva placeholder values.
 - `generate_canva_handoff.py`: creates the Canva fill guide, placeholder JSON map, and asset slot CSV.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
-- `select_grok_assets.py`: selects cover/detail/crop assets from Grok review scores and fills Canva asset slots.
+- `generate_openai_images.py`: generates or dry-runs OpenAI image assets from a weekly run folder.
+- `select_grok_assets.py`: selects cover/detail/crop assets from any scored provider review sheet and fills Canva asset slots.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.
 - `check_weekly_status.py`: reads a run folder and tells the current stage, blocking items, and next command.
@@ -169,6 +173,22 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -Limit 2
 ```
 
+Use the saved Perplexity public weekly index instead of pasting a CSV URL:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action pipeline `
+  -Week 2026-WXX `
+  -UsePerplexityIndex `
+  -Limit 2
+```
+
+Default index:
+
+```text
+https://mika-lin-weekly.pplx.app/data/index.json
+```
+
 Create a weekly run and select Grok assets in the same command:
 
 ```powershell
@@ -178,6 +198,38 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -ScoreSheet 07_metrics\w21_visual_review_scores.csv `
   -DriveInventory 07_metrics\w21_drive_image_inventory.csv `
   -Limit 2
+```
+
+Plan OpenAI image generation without spending API credits:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action generate-images `
+  -Week 2026-W25 `
+  -ImageVariants 2 `
+  -DryRunImages
+```
+
+Generate OpenAI images after setting `OPENAI_API_KEY`:
+
+```powershell
+$env:OPENAI_API_KEY="YOUR_API_KEY"
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action generate-images `
+  -Week 2026-W25 `
+  -ImageVariants 2 `
+  -ImageQuality medium
+```
+
+After reviewing the generated images, fill `openai_asset_review_template.csv`, then select Canva assets:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action assets `
+  -Week 2026-W25 `
+  -AssetProvider OpenAI `
+  -ScoreSheet 10_automation\runs\2026-W25\openai_asset_review_template.csv `
+  -DriveInventory 10_automation\runs\2026-W25\openai_image_inventory.csv
 ```
 
 Record post metrics:
@@ -328,14 +380,45 @@ To validate an existing run folder:
   --min-rows 2
 ```
 
-## Grok Asset Selection
+## OpenAI Image Generation
 
-After Grok images are reviewed and scored, select Canva-ready assets:
+OpenAI is now the preferred image source because it can run from an API and does not depend on Grok quota.
+
+Dry run first:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\generate_openai_images.py `
+  --run-dir 10_automation\runs\2026-W25 `
+  --variants 2 `
+  --dry-run
+```
+
+This writes:
+
+```text
+openai_prompts/
+openai_image_inventory.csv
+openai_asset_review_template.csv
+```
+
+When `OPENAI_API_KEY` is set, remove `--dry-run` to generate image files into:
+
+```text
+10_automation/runs/{week_id}/openai_images/
+```
+
+Keep all Chinese carousel text in Canva text layers. Do not ask the image model to render Chinese titles or CTAs inside the image.
+
+## Asset Selection
+
+After OpenAI or Grok images are reviewed and scored, select Canva-ready assets:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
   10_automation\select_grok_assets.py `
   --run-dir 10_automation\runs\2026-W21-test `
+  --provider OpenAI `
   --score-sheet 07_metrics\w21_visual_review_scores.csv `
   --drive-inventory 07_metrics\w21_drive_image_inventory.csv
 ```
@@ -343,7 +426,7 @@ After Grok images are reviewed and scored, select Canva-ready assets:
 This writes:
 
 ```text
-grok_asset_selection.csv
+openai_asset_selection.csv
 canva_asset_plan.md
 ```
 
@@ -499,5 +582,7 @@ Do not rebuild the workflow every week.
 Every week should follow:
 
 ```text
-Perplexity -> prompt packet -> Grok images -> Canva carousel -> IG post -> metrics -> decide next test
+Perplexity -> prompt packet -> OpenAI images -> Canva carousel -> IG post -> metrics -> decide next test
 ```
+
+Grok remains a backup provider only.

@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import csv
 from pathlib import Path
 
@@ -97,7 +97,7 @@ def to_packet_row(row, week_id, index):
         "week_id": week_id,
         "carousel_id": f"{week_id}-{index:03d}",
         "market": "Taiwan Traditional Chinese",
-        "creator_name": "Mika Lin",
+        "creator_name": "Mira",
         "trend_name": clean(row.get("trend_name")),
         "content_bucket": infer_bucket(row),
         "audience": clean(row.get("audience")),
@@ -115,7 +115,7 @@ def to_packet_row(row, week_id, index):
         "canva_design_url": "",
         "ig_post_url": "",
         "status": "draft",
-        "next_action": "Generate Grok images",
+        "next_action": "Generate OpenAI images",
     }
 
 
@@ -127,7 +127,7 @@ Prompt ID: `{packet['prompt_id']}`
 ```text
 Using the attached fictional AI virtual creator reference image as the subject, keep the same fictional identity, face, hairstyle, skin tone, body proportions, calm expression, and realistic Taiwan city style. Only replace the outfit.
 
-Dress Mika Lin in {packet['clothing_item']}, color palette {packet['color_palette']}, fabric {packet['fabric']}, fit {packet['fit']}.
+Dress Mira in {packet['clothing_item']}, color palette {packet['color_palette']}, fabric {packet['fabric']}, fit {packet['fit']}.
 
 Styling rules: {packet['styling_rules']}.
 
@@ -150,7 +150,7 @@ def write_grok_prompts(path, packets):
     body = [
         "# Weekly Grok Prompts",
         "",
-        "Use these prompts in Grok Imagine with the Mika Lin reference image.",
+        "Use these prompts in Grok Imagine with the Mira reference image.",
         "",
     ]
     for packet in packets:
@@ -163,12 +163,12 @@ def platform_hashtags(packet):
     base = [
         "#穿搭靈感",
         "#女生穿搭",
-        "#AI穿搭",
-        "#虛擬穿搭",
-        "#MikaLin",
+        "#AI造型",
+        "#虛擬造型",
+        "#Mira",
     ]
     if bucket == "office_capsule":
-        base = ["#通勤穿搭", "#上班穿搭", "#小資穿搭", "#西裝外套"] + base
+        base = ["#通勤穿搭", "#上班穿搭", "#日常穿搭"] + base
     elif bucket == "date_outfit":
         base = ["#約會穿搭", "#週末穿搭", "#質感穿搭"] + base
     elif bucket == "rainy_day":
@@ -189,41 +189,32 @@ def comment_keyword(packet):
 
 
 def instagram_caption(packet):
-    keyword = comment_keyword(packet)
     trend = clean(packet.get("trend_name")) or "本週穿搭"
     item = clean(packet.get("clothing_item")) or trend
     occasion = clean(packet.get("occasion")) or "日常"
 
-    return f"""這套想測「{trend}」方向。
+    return f"""{item}，給{occasion}一點生活感。
 
-重點是 {item}，適合 {occasion}。
+方向：{trend}。
 
-你會把這套穿去{occasion}嗎？
-留言 1 = 會
-留言 2 = 不會
-
-想看同風格單品清單，也可以留言「{keyword}」。
-
-AI 虛擬穿搭示意，非真人試穿。
+相似單品放在個人頁連結。
+AI 生成虛擬造型影像。
 
 {platform_hashtags(packet)}"""
 
 
 def first_comment(packet):
-    keyword = comment_keyword(packet)
-    return f"""AI 虛擬穿搭示意，非真人試穿。
-如果想看同風格清單，可以留言「{keyword}」，我會整理平價 / 質感 / 替代款。"""
+    return "不使用固定首則留言。"
 
 
 def threads_copy(packet):
     trend = clean(packet.get("trend_name")) or "本週穿搭"
     item = clean(packet.get("clothing_item")) or trend
     occasion = clean(packet.get("occasion")) or "日常"
-    return f"""這套 {item} 適合{occasion}嗎？
+    return f"""{occasion}想穿得有記憶點，可以從 {item} 開始。
 
-我在測 AI 虛擬穿搭帳號的「{trend}」方向。你會穿嗎？留言 1=會，2=不會。
-
-AI 虛擬穿搭示意，非真人試穿。"""
+方向：{trend}。
+AI 生成虛擬造型影像。"""
 
 
 def pinterest_copy(packet):
@@ -294,24 +285,25 @@ def write_publish_checklist(path, week_id, packets):
         "",
         "## Before Canva",
         "",
-        "- Grok output folder is in Google Drive.",
-        "- Best cover image is selected.",
-        "- Best full-body detail image is selected.",
+        "- OpenAI image candidates are generated, or Grok images are available as backup.",
+        "- Best lifestyle image is selected.",
+        "- Image feels candid enough for social browsing, not overly posed.",
+        "- Outfit is readable in one second.",
         "- Image passes AI quality review: identity, outfit clarity, hands/body, no logos.",
         "",
         "## Canva",
         "",
-        "- Replace all placeholders from `canva_placeholder_values.csv`.",
-        "- Confirm text is readable on mobile.",
-        "- Export 5 slides at 1080 x 1350.",
-        "- Do not export the full 5400 x 1350 master canvas as slide 1.",
+        "- Use the 3-slide minimal panorama template.",
+        "- Keep slides 1 and 3 image-led.",
+        "- Put at most one short sentence on slide 2.",
+        "- Export 3 slides at 1080 x 1350.",
+        "- Do not export the full 3240 x 1350 master canvas as slide 1.",
         "",
         "## Instagram",
         "",
-        "- Publish as carousel only after account visibility is confirmed.",
-        "- Add first comment immediately.",
-        "- Share once to Story.",
-        "- Send to 3 trusted people for clean manual seed traffic if reach is still low.",
+        "- Keep caption short.",
+        "- Put shopping link direction in caption or profile link, not in the image.",
+        "- Share once to Story if it feels natural.",
         "",
         "## Metrics",
         "",
@@ -352,16 +344,16 @@ def write_manifest(path, week_id, packets):
             "",
             "Next user action:",
             "",
-            "1. Generate 3-5 Grok images for each prompt.",
-            "2. Put outputs in Google Drive.",
-            "3. Provide the Drive folder and Canva design URL to Codex.",
+            "1. Generate 2-4 OpenAI image variants for each prompt.",
+            "2. Review and score the generated images.",
+            "3. Use the Canva connector or manual Canva template fill to finish the carousel.",
         ]
     )
     Path(path).write_text("\n".join(lines), encoding="utf-8")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Build a weekly Mika Lin carousel packet from item_prompt_database.csv.")
+    parser = argparse.ArgumentParser(description="Build a weekly Mira carousel packet from item_prompt_database.csv.")
     parser.add_argument("--source", default="04_prompts/item_prompt_database.csv")
     parser.add_argument("--week", required=True, help="Week id to filter, e.g. 2026-W21-test or 2026-W25.")
     parser.add_argument("--limit", type=int, default=2)

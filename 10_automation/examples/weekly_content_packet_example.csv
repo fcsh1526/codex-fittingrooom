@@ -1,3 +1,2 @@
-week_id,carousel_id,market,creator_name,trend_name,content_bucket,audience,occasion,prompt_id,clothing_item,color_palette,fabric,fit,styling_rules,scene,cover_asset,detail_asset,drive_folder_url,canva_design_url,ig_post_url,status,next_action
-2026-W25,2026-W25-001,Taiwan Traditional Chinese,Mika Lin,Light Office Suit,office_capsule,25-35 office women,上班通勤,W25-P001,亞麻感西裝套裝,沙色與米白,linen blend,落肩西外與高腰寬褲,米白內搭、棕色包、裸色鞋,簡約辦公室大廳,,,,,draft,Generate Grok images
-
+﻿week_id,carousel_id,market,creator_name,trend_name,content_bucket,audience,occasion,prompt_id,clothing_item,color_palette,fabric,fit,styling_rules,scene,cover_asset,detail_asset,drive_folder_url,canva_design_url,ig_post_url,status,next_action
+2026-W25,2026-W25-001,Taiwan Traditional Chinese,Mira,Light Office Suit,office_capsule,25-35 office women,上班通勤,W25-P001,亞麻感西裝套裝,沙色與米白,linen blend,落肩西外與高腰寬褲,米白內搭、棕色包、裸色鞋,簡約辦公室大廳,,,,,draft,Generate OpenAI images

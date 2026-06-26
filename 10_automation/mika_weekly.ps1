@@ -1,10 +1,12 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "cockpit", "visibility-test", "assets", "metrics", "validate", "smoke-test")]
+    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "cockpit", "visibility-test", "assets", "generate-images", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
     [string]$PerplexitySource = "",
+    [string]$PerplexityIndex = "",
+    [switch]$UsePerplexityIndex,
     [string]$RunDir = "",
     [string]$RunsDir = "10_automation\runs",
     [string]$TodayOutput = "10_automation\TODAY.md",
@@ -22,6 +24,12 @@ param(
 
     [string]$ScoreSheet = "",
     [string]$DriveInventory = "",
+    [string]$AssetProvider = "Grok",
+    [string]$OpenAIModel = "",
+    [string]$ImageSize = "1024x1536",
+    [string]$ImageQuality = "medium",
+    [int]$ImageVariants = 2,
+    [switch]$DryRunImages,
 
     [string]$CarouselId = "",
     [string]$Platform = "Instagram",
@@ -98,11 +106,20 @@ switch ($Action) {
         if ($PerplexitySource) {
             $argsList += @("--perplexity-source", $PerplexitySource)
         }
+        if ($UsePerplexityIndex) {
+            $argsList += "--use-perplexity-index"
+        }
+        if ($PerplexityIndex) {
+            $argsList += @("--perplexity-index", $PerplexityIndex)
+        }
         if ($ScoreSheet) {
             $argsList += @("--score-sheet", $ScoreSheet)
         }
         if ($DriveInventory) {
             $argsList += @("--drive-inventory", $DriveInventory)
+        }
+        if ($AssetProvider) {
+            $argsList += @("--asset-provider", $AssetProvider)
         }
 
         Invoke-MikaPython -ScriptPath "10_automation\run_weekly_pipeline.py" -ArgsList $argsList
@@ -169,7 +186,27 @@ switch ($Action) {
         if ($DriveInventory) {
             $argsList += @("--drive-inventory", $DriveInventory)
         }
+        if ($AssetProvider) {
+            $argsList += @("--provider", $AssetProvider)
+        }
         Invoke-MikaPython -ScriptPath "10_automation\select_grok_assets.py" -ArgsList $argsList
+    }
+
+    "generate-images" {
+        $resolvedRunDir = Resolve-RunDir
+        $argsList = @(
+            "--run-dir", $resolvedRunDir,
+            "--size", $ImageSize,
+            "--quality", $ImageQuality,
+            "--variants", "$ImageVariants"
+        )
+        if ($OpenAIModel) {
+            $argsList += @("--model", $OpenAIModel)
+        }
+        if ($DryRunImages) {
+            $argsList += "--dry-run"
+        }
+        Invoke-MikaPython -ScriptPath "10_automation\generate_openai_images.py" -ArgsList $argsList
     }
 
     "metrics" {

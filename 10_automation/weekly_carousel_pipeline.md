@@ -1,4 +1,4 @@
-# Weekly Carousel Pipeline
+﻿# Weekly Carousel Pipeline
 
 This is the fixed workflow for producing polished Instagram carousel content.
 
@@ -28,10 +28,22 @@ or
 Perplexity CSV / markdown report
 ```
 
+If no weekly CSV URL is pasted, use the saved public index:
+
+```text
+https://mika-lin-weekly.pplx.app/data/index.json
+```
+
 Codex imports with:
 
 ```text
 10_automation/import_perplexity_export.py
+```
+
+or resolves the CSV from the saved index with:
+
+```text
+10_automation/resolve_perplexity_source.py
 ```
 
 Then Codex extracts:
@@ -67,15 +79,50 @@ Selection rules:
 - avoid hard-to-buy product concepts
 - keep the outfit explainable in one sentence
 
-## Stage 3 - Grok Prompting
+## Stage 3 - OpenAI Image Generation
 
 Use:
 
 ```text
-10_automation/runs/{week_id}/grok_prompts.md
+10_automation/generate_openai_images.py
 ```
 
-with the Mika Lin identity block and generate 3-5 image variants.
+with the Mira identity block and generate 2-4 image variants.
+
+Dry run first, which costs nothing:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action generate-images `
+  -Week {week_id} `
+  -ImageVariants 2 `
+  -DryRunImages
+```
+
+After setting `OPENAI_API_KEY`, generate the image files:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action generate-images `
+  -Week {week_id} `
+  -ImageVariants 2 `
+  -ImageQuality medium
+```
+
+Outputs:
+
+- `openai_prompts/`
+- `openai_images/`
+- `openai_image_inventory.csv`
+- `openai_asset_review_template.csv`
+
+Keep Chinese titles, CTAs, and AI disclosure in Canva text layers. Do not render them into the image.
+
+Grok can still be used as a backup with:
+
+```text
+10_automation/runs/{week_id}/grok_prompts.md
+```
 
 Prompt must include:
 
@@ -126,13 +173,14 @@ If a score sheet exists, select assets automatically:
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
   10_automation\select_grok_assets.py `
   --run-dir 10_automation\runs\{week_id} `
+  --provider OpenAI `
   --score-sheet path_to_visual_review_scores.csv `
-  --drive-inventory path_to_drive_image_inventory.csv
+  --drive-inventory 10_automation\runs\{week_id}\openai_image_inventory.csv
 ```
 
 Output:
 
-- `grok_asset_selection.csv`
+- `openai_asset_selection.csv`
 - `canva_asset_plan.md`
 - updated `canva_asset_slots.csv`
 
@@ -141,35 +189,28 @@ Output:
 Use a Canva panorama design:
 
 ```text
-5400 x 1350
+3240 x 1350
 ```
 
 Export target:
 
 ```text
-5 slides, each 1080 x 1350
+3 slides, each 1080 x 1350
 ```
 
 Required placeholder fields:
 
 ```text
-slide1_title
-slide1_subtitle
-slide1_disclosure
-slide2_kicker
-slide2_title
-slide2_body
-slide3_kicker
-slide3_title
-slide3_body
-slide4_kicker
-slide4_title
-slide4_body
-slide5_title
-slide5_cta
-slide5_note
-slide5_disclosure
+slide2_line
 ```
+
+Slide roles:
+
+- Slide 1: image-led hook, no required text.
+- Slide 2: one short transition sentence.
+- Slide 3: image-led ending, no CTA wall.
+
+Keep AI disclosure in the caption, not on the image.
 
 Weekly Canva handoff files:
 
@@ -179,7 +220,7 @@ Weekly Canva handoff files:
 10_automation/runs/{week_id}/canva_asset_slots.csv
 ```
 
-Use `canva_fill_guide.md` for manual copy/paste today. Use `canva_placeholder_map.json` as the future Canva plugin automation input.
+Use `canva_fill_guide.md` for manual copy/paste if needed. The Canva connector can also replace text and image fills from `canva_placeholder_map.json` and `canva_asset_plan.md`, then show thumbnails for approval before saving.
 
 ## Stage 6 - Instagram Publish
 
@@ -194,12 +235,11 @@ While the account has little or zero reach, prefer:
 
 - one clear outfit concept
 - short caption
-- direct comment CTA
+- profile-link shopping direction
 - 8-12 hashtags
-- first comment added immediately
 - one Story share after publishing
 
-Do not add affiliate links until there is non-zero reach.
+Do not make the carousel itself look like a shopping catalog until reach and click behavior are clearer.
 
 ## Stage 7 - Metrics
 
@@ -257,11 +297,12 @@ If the Perplexity export is ready, run the full pipeline:
   --limit 2
 ```
 
-If scored Grok images are already available, add:
+If scored images are already available, add:
 
 ```text
+--asset-provider OpenAI
 --score-sheet path_to_visual_review_scores.csv
---drive-inventory path_to_drive_image_inventory.csv
+--drive-inventory path_to_image_inventory.csv
 ```
 
 The pipeline will then select cover/detail assets, validate with `--require-assets`, and write `weekly_status.md`.
@@ -290,9 +331,9 @@ This creates:
 - `quality_report.json`
 - `README.md`
 
-The quality report must pass before producing Grok images or editing Canva.
+The quality report must pass before producing OpenAI images or editing Canva.
 
-After Grok assets are selected, run validation with:
+After image assets are selected, run validation with:
 
 ```text
 --require-assets

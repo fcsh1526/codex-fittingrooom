@@ -1,4 +1,4 @@
-# 30 天每日陪跑工作計畫
+﻿# 30 天每日陪跑工作計畫
 
 每日固定短會：台北時間 09:30。  
 第一個月優先平台：Instagram、小紅書、Pinterest。  
@@ -19,7 +19,7 @@
 | 1 | 改 Perplexity Task prompt | 在 Perplexity Computer 修改原本每週 Task | 提供公開網頁固定格式 prompt，檢查是否符合本工作區欄位 | 可直接貼進 Perplexity 的 Task prompt |
 | 2 | 產第一個公開趨勢網頁 | 讓 Perplexity 產出公開 URL，確認 anyone-with-link 可讀 | 檢查網頁是否有 5 趨勢、20 prompt、CSV/JSON 區塊 | 第一份公開週報 URL |
 | 3 | 轉成可產圖 prompt | 貼週報 URL 或內容 | 拆成 `item_prompt_database.csv` 欄位，挑 10 個先測 | 10 個優先產圖 prompt |
-| 4 | 第一批圖像 A/B | 用 Grok Imagine 產 Mika Lin 圖像 | 用 Codex/OpenAI imagegen 產 2-3 張對照圖，整理評分表 | 第一批 Grok/OpenAI 對照圖 |
+| 4 | 第一批圖像 A/B | 用 Grok Imagine 產 Mira 圖像 | 用 Codex/OpenAI imagegen 產 2-3 張對照圖，整理評分表 | 第一批 Grok/OpenAI 對照圖 |
 | 5 | 寫第一批貼文 | 提供篩選後可用圖 | 產 IG carousel、小紅書筆記、Pinterest pin 草稿 | 3 則可發布草稿 |
 | 6 | 補導購元素 | 建立或提供聯盟商品候選 | 產商品搜尋關鍵字、UTM、CTA、揭露文字 | 每則內容有導購或名單 CTA |
 | 7 | 第一週回顧 | 貼平台或素材表現 | 分析 prompt 可用率、圖像可用率、最容易成形平台 | 下週保留/淘汰清單 |

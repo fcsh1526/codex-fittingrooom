@@ -7,6 +7,7 @@ Week ID:
 Perplexity weekly URL / CSV / markdown export:
 Chosen trend / outfit:
 Google Drive folder with Grok images:
+Local folder with OpenAI / Grok images:
 Canva design URL:
 Instagram account status:
 Last post reach:
@@ -66,7 +67,7 @@ If the Perplexity export is ready, Codex should run:
 10_automation/run_weekly_pipeline.py
 ```
 
-and produce the weekly Grok prompts, Canva placeholders, platform drafts, and publish checklist.
+and produce the weekly image prompts, Canva placeholders, platform drafts, and publish checklist.
 
 If visual review scores and Drive inventory are also ready, pass them into `run_weekly_pipeline.py` so it can select assets and write `weekly_status.md` in the same run.
 
@@ -90,16 +91,16 @@ Codex should use:
 
 - `canva_fill_guide.md` for manual text replacement.
 - `canva_placeholder_map.json` for plugin-based replacement later.
-- `canva_asset_slots.csv` to decide which Grok image goes where.
-- `canva_asset_plan.md` after Grok images have been scored and selected.
+- `canva_asset_slots.csv` to decide which selected image goes where.
+- `canva_asset_plan.md` after OpenAI or Grok images have been scored and selected.
 
-## If Grok Images Are Ready
+## If OpenAI Or Grok Images Are Ready
 
 Codex should ask for or produce:
 
 - Drive image inventory
 - visual review score sheet
-- `grok_asset_selection.csv`
+- provider asset selection CSV
 - updated `canva_asset_slots.csv`
 
 Before Canva editing:
@@ -108,11 +109,11 @@ Before Canva editing:
 validate_weekly_run.py --require-assets
 ```
 
-## If Grok Images Are Not Ready
+## If Images Are Not Ready
 
 Codex should output:
 
-- `grok_prompts.md`
+- `grok_prompts.md` or `openai_prompts/`
 - one recommended cover concept
 - `canva_placeholder_values.csv`
 - `post_drafts.md`
@@ -122,8 +123,8 @@ Codex should output:
 
 Codex should output:
 
-- 5-slide placeholder values
-- layout notes for `5400 x 1350`
+- 3-slide placeholder values
+- layout notes for `3240 x 1350`
 - short IG caption
 - Canva asset slots
 

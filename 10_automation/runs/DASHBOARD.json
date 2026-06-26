@@ -1,20 +1,32 @@
 {
   "runs_dir": "10_automation\\runs",
-  "run_count": 1,
+  "run_count": 2,
   "stage_counts": {
-    "visibility_recovery": 1
+    "paused": 1,
+    "quality_gate_not_passed": 1
   },
   "runs": [
     {
       "run_dir": "10_automation\\runs\\2026-W21-test",
-      "stage": "visibility_recovery",
-      "next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.",
+      "stage": "paused",
+      "next_action": "This run is paused or archived. Create a new OpenAI-first run before publishing more content.",
       "packet_rows": 2,
       "quality": "pass",
       "cover_assets": "2/2",
       "published": true,
       "metric_checkpoints": 2,
       "latest_decision": "visibility_recovery"
+    },
+    {
+      "run_dir": "10_automation\\runs\\2026-W26",
+      "stage": "quality_gate_not_passed",
+      "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
+      "packet_rows": 2,
+      "quality": "fail",
+      "cover_assets": "2/2",
+      "published": false,
+      "metric_checkpoints": 0,
+      "latest_decision": ""
     }
   ]
 }

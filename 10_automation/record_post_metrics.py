@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import csv
 import json
 from datetime import date
@@ -290,7 +290,7 @@ def write_run_reports(run_dir, publish_rows, metric_rows):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Record publish events and metrics for Mika Lin weekly carousel runs.")
+    parser = argparse.ArgumentParser(description="Record publish events and metrics for Mira weekly carousel runs.")
     parser.add_argument("--run-dir")
     parser.add_argument("--week", default="")
     parser.add_argument("--carousel-id", default="")

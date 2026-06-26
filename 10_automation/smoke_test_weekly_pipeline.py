@@ -78,9 +78,22 @@ def test_new_week_without_assets():
     )
 
     status = read_json(run_dir / "weekly_status.json")
-    assert_equal(status["stage"]["stage"], "needs_grok_asset_selection", "new week stage")
+    assert_equal(status["stage"]["stage"], "needs_image_asset_selection", "new week stage")
     assert_exists(run_dir / "grok_asset_review_template.csv", "Grok review template")
     assert_exists(run_dir / "weekly_status.md", "weekly status")
+
+
+def test_perplexity_index_resolver():
+    run_command(
+        [
+            sys.executable,
+            "10_automation/resolve_perplexity_source.py",
+            "--index",
+            "10_automation/examples/perplexity_index_example.json",
+            "--week",
+            "2026-W25",
+        ]
+    )
 
 
 def test_week_with_scored_assets():
@@ -108,6 +121,25 @@ def test_week_with_scored_assets():
     assert_equal(status["stage"]["stage"], "ready_for_canva_and_publish", "scored week stage")
     assert_equal(status["assets"]["selected_cover_count"], 2, "selected cover count")
     assert_exists(run_dir / "canva_asset_plan.md", "Canva asset plan")
+
+
+def test_openai_image_dry_run():
+    run_dir = TMP_ROOT / "run-w25"
+    run_command(
+        [
+            sys.executable,
+            "10_automation/generate_openai_images.py",
+            "--run-dir",
+            rel(run_dir),
+            "--variants",
+            "2",
+            "--dry-run",
+        ]
+    )
+    inventory = run_dir / "openai_image_inventory.csv"
+    assert_exists(inventory, "OpenAI image inventory")
+    assert_exists(run_dir / "openai_asset_review_template.csv", "OpenAI asset review template")
+    assert_exists(run_dir / "openai_prompts", "OpenAI prompt folder")
 
 
 def test_zero_reach_decision():
@@ -330,8 +362,10 @@ def test_visibility_test_package():
 
 def main():
     clean_tmp()
+    test_perplexity_index_resolver()
     test_new_week_without_assets()
     test_week_with_scored_assets()
+    test_openai_image_dry_run()
     test_zero_reach_decision()
     test_powershell_entrypoint_if_available()
     test_weekly_dashboard()

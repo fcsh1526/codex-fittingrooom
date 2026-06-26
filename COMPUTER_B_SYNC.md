@@ -1,8 +1,8 @@
 # Computer B Sync Handoff
 
-Last synced: 2026-06-22
+Last synced locally: 2026-06-26
 
-Purpose: let another computer continue the Mika Lin workflow from GitHub without reading the old conversation.
+Purpose: let another computer continue the Mira workflow from GitHub without reading the old conversation.
 
 ## Start On Computer B
 
@@ -10,8 +10,10 @@ Run from the repo folder:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\AppData\Local\Programs\Git\cmd\git.exe' pull origin main
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-22
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-26
 ```
+
+The PowerShell entrypoint is still named `mika_weekly.ps1` for compatibility. The public creator name is now `Mira`.
 
 Then open:
 
@@ -29,22 +31,28 @@ If HTML is inconvenient, open:
 
 ## Current Strategy
 
-Production-first.
+Production-first, image-led.
 
 ```text
-Keep producing polished carousel posts.
-Zero reach is tracked as data, not a blocker.
-Visibility tests are optional side checks.
-No affiliate/product monetization until a channel has non-zero reach.
+Mira -> believable daily outfit images -> 3-slide low-text Canva carousel -> short caption -> profile link
 ```
+
+Rules:
+
+- Do not publish another old W21 Grok-similar carousel.
+- Use the 3-slide minimal panorama template.
+- Keep text off the carousel except `{{slide2_line}}`.
+- Keep AI disclosure in the caption.
+- Use OpenAI or Grok based on image quality and available credits.
+- Zero reach is tracked as data, not a blocker.
 
 ## Current Top Item
 
 ```text
-item = 2026-W21-test-001
+item = 2026-W26-002
 type = carousel
 stage = ready_for_canva_and_publish
-asset = IMG_1453.JPG
+asset = ChatGPT Image 2026年6月24日 下午03_30_10.png
 next = Use Canva handoff files to finish the carousel and publish it.
 ```
 
@@ -53,39 +61,77 @@ next = Use Canva handoff files to finish the carousel and publish it.
 Open these when working on the carousel:
 
 ```text
-10_automation/runs/2026-W21-test/canva_fill_guide.md
-10_automation/runs/2026-W21-test/canva_asset_plan.md
-10_automation/runs/2026-W21-test/post_drafts.md
-10_automation/runs/2026-W21-test/publish_checklist.md
+10_automation/runs/2026-W26/canva_fill_guide.md
+10_automation/runs/2026-W26/canva_asset_plan.md
+10_automation/runs/2026-W26/post_drafts.md
+10_automation/runs/2026-W26/publish_checklist.md
+```
+
+Current recommended template prompt:
+
+```text
+10_automation/claude_design_mira_template_v1_prompt.md
+```
+
+Current Mira identity file:
+
+```text
+02_brand/mira_identity_block.md
 ```
 
 ## Current Queue
 
 ```text
-1. 2026-W21-test-001
+1. 2026-W26-002
    type = carousel
    stage = ready_for_canva_and_publish
-   action = finish Canva carousel and publish
+   asset = ChatGPT Image 2026年6月24日 下午03_30_10.png
+   action = finish the 3-slide Canva carousel and publish / schedule
 
-2. 2026-W21-test-002-visibility-01
-   type = visibility_test
-   stage = ready_to_publish_visibility_test
-   action = optional side test, not a blocker
-
-3. 2026-W21-test-002
+2. 2026-W26-001
    type = carousel
-   stage = visibility_recovery
-   reach = 0
-   action = keep production moving
+   stage = ready_for_canva_and_publish
+   asset = ChatGPT Image 2026年6月24日 下午03_30_22.png
+   action = backup / second carousel candidate
 ```
 
-## What To Send Back To Codex
+## Canva Template Contract
 
-After working on the top item, paste:
+Use:
+
+```text
+3240 x 1350 px master canvas
+3 slides x 1080 x 1350 px
+slice guides: x = 1080, 2160
+```
+
+Required Canva names:
+
+```text
+cover_image
+texture_or_crop
+detail_image
+{{slide2_line}}
+```
+
+Do not use the old 5-slide / 10-slide report template for current IG production.
+
+## Validation Status
+
+Latest local checks:
+
+```text
+W26 validation: pass, 0 errors, 0 warnings
+Smoke test: passed
+```
+
+## Reply Template
+
+After working on Computer B, send Codex:
 
 ```text
 今日回報：
-item = 2026-W21-test-001
+item = 2026-W26-002
 type = carousel
 status =
 Canva URL =
@@ -94,54 +140,4 @@ published at =
 6h metrics = reach / likes / saves / comments / shares
 24h metrics = reach / likes / saves / comments / shares
 stuck =
-```
-
-## Git Rule Between Computers
-
-Before switching computers:
-
-```powershell
-& 'C:\Users\Brandon_ChangChien\AppData\Local\Programs\Git\cmd\git.exe' status --short
-& 'C:\Users\Brandon_ChangChien\AppData\Local\Programs\Git\cmd\git.exe' pull origin main
-```
-
-If there are local changes, commit and push them before moving to the other machine.
-
-## Main Automation Commands
-
-Create daily cockpit:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-22
-```
-
-Refresh queue only:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action queue
-```
-
-Run smoke test after setup or pull:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action smoke-test
-```
-
-Record post metrics:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
-  -Action metrics `
-  -Week 2026-W21-test `
-  -CarouselId 2026-W21-test-001 `
-  -PostUrl "https://www.instagram.com/p/POST_ID/" `
-  -PublishedAt "YYYY/MM/DD HH:mm" `
-  -RecordMetrics `
-  -MeasuredAt YYYY-MM-DD `
-  -HoursAfterPublish 24 `
-  -Reach 0 `
-  -Likes 0 `
-  -Saves 0 `
-  -Comments 0 `
-  -Shares 0
 ```

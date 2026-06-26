@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import csv
 import io
 import re
@@ -55,7 +55,7 @@ def clean(value):
 
 def read_source(source):
     if re.match(r"^https?://", source):
-        request = urllib.request.Request(source, headers={"User-Agent": "MikaLinPipeline/1.0"})
+        request = urllib.request.Request(source, headers={"User-Agent": "MiraPipeline/1.0"})
         with urllib.request.urlopen(request, timeout=30) as response:
             raw = response.read()
         return raw.decode("utf-8-sig", errors="replace")
@@ -142,7 +142,7 @@ def normalize_row(row, week, index):
         "fabric": clean(row.get("fabric")),
         "fit": clean(row.get("fit")),
         "styling_rules": clean(row.get("styling_rules")),
-        "model_identity": clean(row.get("model_identity")) or "Mika Lin",
+        "model_identity": clean(row.get("model_identity")) or "Mira",
         "pose": clean(row.get("pose")),
         "background": clean(row.get("background")),
         "camera_style": clean(row.get("camera_style")),

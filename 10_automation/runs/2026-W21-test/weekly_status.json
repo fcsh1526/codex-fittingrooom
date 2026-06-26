@@ -1,13 +1,15 @@
 {
   "run_dir": "10_automation\\runs\\2026-W21-test",
   "stage": {
-    "stage": "visibility_recovery",
-    "next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.",
+    "stage": "paused",
+    "next_action": "This run is paused or archived. Create a new OpenAI-first run before publishing more content.",
     "blocking_items": []
   },
   "packet": {
     "row_count": 2,
-    "published_count": 1,
+    "published_count": 0,
+    "inactive_count": 2,
+    "all_inactive": true,
     "carousel_ids": [
       "2026-W21-test-001",
       "2026-W21-test-002"
@@ -16,7 +18,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 1027
+      "size": 1128
     },
     "grok_prompts.md": {
       "exists": true,
@@ -55,7 +57,7 @@
   "assets": {
     "carousel_count": 2,
     "selection_exists": true,
-    "review_template_exists": false,
+    "review_template_exists": true,
     "selected_cover_count": 2,
     "missing_cover": [],
     "missing_detail": [],
@@ -106,9 +108,5 @@
     "latest_decision": "visibility_recovery",
     "latest_next_action": "Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel."
   },
-  "commands": [
-    "open 05_content/2026_06_18_reactivation_plan.md",
-    "open 10_automation/PUBLISH_QUEUE.md",
-    "open 09_sops/instagram_zero_reach_recovery.md"
-  ]
+  "commands": []
 }

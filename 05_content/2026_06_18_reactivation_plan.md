@@ -1,6 +1,6 @@
-# 2026-06-18 Reactivation Plan
+﻿# 2026-06-18 Reactivation Plan
 
-Purpose: restart the Mika Lin workflow after the first Instagram carousel stayed at zero reach for 10+ days.
+Purpose: restart the Mira workflow after the first Instagram carousel stayed at zero reach for 10+ days.
 
 ## Start Here Today
 

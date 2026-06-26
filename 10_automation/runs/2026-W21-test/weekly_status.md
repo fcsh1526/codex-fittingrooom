@@ -1,25 +1,11 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W21-test`
-Stage: `visibility_recovery`
+Stage: `paused`
 
 ## Next Action
 
-Keep carousel production moving; optionally run a single-image visibility test and mirror to one backup channel.
-
-## Suggested Commands
-
-```powershell
-open 05_content/2026_06_18_reactivation_plan.md
-```
-
-```powershell
-open 10_automation/PUBLISH_QUEUE.md
-```
-
-```powershell
-open 09_sops/instagram_zero_reach_recovery.md
-```
+This run is paused or archived. Create a new OpenAI-first run before publishing more content.
 
 ## Summary
 

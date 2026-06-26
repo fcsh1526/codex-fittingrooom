@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import json
 from datetime import date
 from pathlib import Path
@@ -10,6 +10,7 @@ from weekly_dashboard import build_dashboard
 
 STAGE_PRIORITY = {
     "ready_for_canva_and_publish": 100,
+    "needs_image_asset_selection": 90,
     "needs_grok_asset_selection": 90,
     "published_waiting_for_metrics": 80,
     "quality_gate_not_passed": 80,
@@ -21,11 +22,19 @@ STAGE_PRIORITY = {
     "profile_interest": 35,
     "repeat_bucket": 30,
     "metrics_recorded_review_needed": 20,
+    "paused": 0,
 }
 
 
 def clean(value):
     return " ".join(str(value or "").split()).strip()
+
+
+def read_json(path):
+    path = Path(path)
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def pick_priority_run(dashboard):
@@ -84,7 +93,7 @@ def stage_brief(stage):
         "quality_gate_not_passed": {
             "decision": "Fix the content packet before image production.",
             "tasks": [
-                "Do not generate Grok images yet.",
+                "Do not generate images yet.",
                 "Run validation and fix missing fields, disclosure, prompt safety terms, or Canva text length.",
                 "Regenerate handoff files after validation passes.",
             ],
@@ -105,25 +114,60 @@ def stage_brief(stage):
             "user_inputs": ["Week ID", "Perplexity weekly URL / CSV / markdown export"],
             "codex_actions": [
                 "Run run_weekly_pipeline.py.",
-                "Create Grok prompts, Canva placeholders, post drafts, and checklist.",
+                "Create image prompts, Canva placeholders, post drafts, and checklist.",
             ],
             "files": ["10_automation/run_weekly_pipeline.py"],
         },
-        "needs_grok_asset_selection": {
-            "decision": "The next bottleneck is Grok image review and asset selection.",
+        "paused": {
+            "decision": "The current run is paused or archived.",
             "tasks": [
-                "Use grok_prompts.md to generate 30-50 Grok images or enough variants for the selected carousel.",
-                "Put the images in Google Drive with clear numbering.",
-                "Share the Drive folder or score sheet for selection.",
+                "Start a new OpenAI-first weekly run.",
+                "Do not publish old paused carousel or visibility-test assets.",
+                "Use OpenAI image generation for the next distinct visual direction.",
             ],
-            "user_inputs": ["Google Drive Grok output folder", "Optional visual score sheet"],
+            "user_inputs": ["New Perplexity weekly URL / CSV / markdown export", "OPENAI_API_KEY available when generating"],
             "codex_actions": [
-                "Create or update image inventory.",
+                "Run run_weekly_pipeline.py for the new week.",
+                "Dry-run generate_openai_images.py before spending API credits.",
+            ],
+            "files": [
+                "10_automation/run_weekly_pipeline.py",
+                "10_automation/generate_openai_images.py",
+            ],
+        },
+        "needs_image_asset_selection": {
+            "decision": "The next bottleneck is OpenAI image generation, review, and asset selection.",
+            "tasks": [
+                "Dry-run OpenAI image generation first.",
+                "Generate 2-4 OpenAI image variants after confirming API budget.",
+                "Review and score the generated image candidates.",
+            ],
+            "user_inputs": ["OPENAI_API_KEY available when generating", "Optional visual score sheet"],
+            "codex_actions": [
+                "Create or update OpenAI image inventory.",
                 "Select cover/detail assets and update canva_asset_slots.csv.",
                 "Validate with --require-assets before Canva work.",
             ],
             "files": [
-                "10_automation/runs/{run}/grok_prompts.md",
+                "10_automation/generate_openai_images.py",
+                "10_automation/runs/{run}/openai_asset_review_template.csv",
+                "10_automation/select_grok_assets.py",
+            ],
+        },
+        "needs_grok_asset_selection": {
+            "decision": "The next bottleneck is legacy image review and asset selection.",
+            "tasks": [
+                "Prefer OpenAI image generation unless Grok images already exist.",
+                "Review and score the available image candidates.",
+                "Run asset selection and validation.",
+            ],
+            "user_inputs": ["Optional visual score sheet"],
+            "codex_actions": [
+                "Select cover/detail assets and update canva_asset_slots.csv.",
+                "Validate with --require-assets before Canva work.",
+            ],
+            "files": [
+                "10_automation/generate_openai_images.py",
                 "10_automation/select_grok_assets.py",
             ],
         },
@@ -189,7 +233,7 @@ def no_run_brief():
         "user_inputs": ["Week ID", "Perplexity weekly URL / CSV / markdown export"],
         "codex_actions": [
             "Run run_weekly_pipeline.py.",
-            "Generate grok_prompts.md, canva_fill_guide.md, post_drafts.md, and publish_checklist.md.",
+            "Generate image prompts, canva_fill_guide.md, post_drafts.md, and publish_checklist.md.",
         ],
         "files": ["10_automation/run_weekly_pipeline.py"],
     }
@@ -203,7 +247,7 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None,
     next_action = clean(priority_run.get("next_action")) if priority_run else brief["decision"]
 
     lines = [
-        "# Mika Lin Daily Brief",
+        "# Mira Daily Brief",
         "",
         f"Date: `{today}`",
         f"Priority run: `{run_name}`",
@@ -255,7 +299,7 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None,
             "## Fixed Flow",
             "",
             "```text",
-            "person identity -> weekly trend -> prompt packet -> Grok images -> Canva carousel -> publish -> metrics -> next decision",
+            "person identity -> weekly trend -> prompt packet -> OpenAI images -> Canva carousel -> publish -> metrics -> next decision",
             "```",
             "",
             "## Dashboard Summary",
@@ -284,8 +328,12 @@ def build_daily_brief(
     generated_files = []
 
     if priority_run and clean(priority_run.get("stage")) == "visibility_recovery":
-        _, visibility_md, visibility_json = build_visibility_test(priority_run["run_dir"])
-        generated_files.extend([str(visibility_md), str(visibility_json)])
+        package_path = Path(priority_run["run_dir"]) / "visibility_test_package.json"
+        existing_package = read_json(package_path)
+        existing_status = clean(existing_package.get("status")).lower()
+        if existing_status not in {"paused", "archived", "do_not_publish", "skip"}:
+            _, visibility_md, visibility_json = build_visibility_test(priority_run["run_dir"])
+            generated_files.extend([str(visibility_md), str(visibility_json)])
 
     queue = build_publish_queue(runs_dir, queue_csv, queue_md, queue_json)
     generated_files.extend([queue_md, queue_json, queue_csv])
@@ -319,7 +367,7 @@ def build_daily_brief(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Create today's Mika Lin work brief from the weekly dashboard.")
+    parser = argparse.ArgumentParser(description="Create today's Mira work brief from the weekly dashboard.")
     parser.add_argument("--runs-dir", default="10_automation/runs")
     parser.add_argument("--output-md", default="10_automation/TODAY.md")
     parser.add_argument("--output-json", default="10_automation/TODAY.json")

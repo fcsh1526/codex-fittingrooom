@@ -1,6 +1,6 @@
-# Current Status - Mika Lin AI Fashion Creator
+﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-06-22
+Last updated: 2026-06-25
 
 ## Project Goal
 
@@ -9,7 +9,7 @@ Build a repeatable AI virtual fashion creator workflow for the Traditional Chine
 Current priority:
 
 ```text
-stable character -> weekly trend -> Grok prompts -> polished Canva carousel -> Instagram post -> metrics
+stable character -> weekly trend -> OpenAI / Grok image generation -> minimal Canva carousel -> Instagram post -> metrics
 ```
 
 Monetization is intentionally delayed until there is non-zero reach.
@@ -17,19 +17,25 @@ Monetization is intentionally delayed until there is non-zero reach.
 Today's priority:
 
 ```text
-continue carousel production -> keep visibility test as a side signal -> record metrics when available
+use the best available AI image source -> keep 3-slide Canva carousel production moving -> record metrics when available
 ```
 
 ## Current Stage
 
-Queue-based automation reset.
+Minimal image-led carousel transition.
 
-The first Instagram carousel stayed at zero reach, so the project should not judge content quality yet. The next work is to build a repeatable carousel workflow and run a simpler visibility test.
+The first Instagram carousel stayed at zero reach, so the project should not judge content quality yet. The user no longer wants to publish another similar carousel from the old Grok image batch. The next work is to produce more believable lifestyle outfit images and place them in a simpler 3-slide Canva format.
 
 Production rule:
 
 ```text
 Zero reach does not block the next carousel.
+```
+
+Current image source rule:
+
+```text
+Use OpenAI or Grok based on image quality and available credits.
 ```
 
 ## Key Links
@@ -49,7 +55,8 @@ Zero reach does not block the next carousel.
 - Day 3 Grok prompt set was created.
 - W21 Grok images were reviewed.
 - Canva plugin was enabled in Codex.
-- Canva panorama carousel template was tested at `5400 x 1350`.
+- Old Canva panorama carousel template was tested at `5400 x 1350`.
+- New Canva direction is `3240 x 1350`, exported as 3 image-led slides.
 - First Instagram carousel was published.
 - 24-hour and 10+ day zero-reach status were recorded.
 - Instagram zero-reach recovery SOP was created.
@@ -75,6 +82,11 @@ Zero reach does not block the next carousel.
 - Daily heartbeat was updated from old Day X companionship to queue-based automation status checking.
 - Automation architecture brief was added to explain the current state machine and manual boundaries.
 - Cross-computer handoff was added in `COMPUTER_B_SYNC.md` so Computer B can continue from GitHub without reading the old conversation.
+- OpenAI image-generation automation was added as the new primary image source.
+- Asset selection now supports provider labels such as OpenAI and Grok.
+- Perplexity public index resolution was added, so Codex can use the saved weekly site instead of requiring a pasted CSV URL every time.
+- Instagram creative direction changed to 3-slide, image-led, low-text carousel posts with simple captions and profile-link shopping direction.
+- Canva connector workflow and template spec were simplified to one text placeholder: `{{slide2_line}}`.
 
 ## Latest Published Post
 
@@ -151,8 +163,8 @@ Recovery files:
 For the next weekly carousel run:
 
 ```text
-Perplexity weekly URL:
-Google Drive folder for Grok images:
+Perplexity weekly URL or use saved public index:
+OpenAI API key available in environment: yes/no
 Canva panorama design URL:
 Instagram account visibility status:
 ```
@@ -163,9 +175,10 @@ If Instagram is still at zero reach:
 Use PUBLISH_QUEUE.md first. Use 05_content/2026_06_18_reactivation_plan.md only as a side visibility check.
 ```
 
-1. Continue the top carousel production item.
-2. Optionally publish the simple second-test post from `visibility_test_package.md`.
-3. Record metrics after 6 hours and 24 hours when available.
+1. Do not publish another old Grok-similar carousel.
+2. Generate or dry-run OpenAI images for the next weekly run.
+3. Use the 3-slide minimal Canva template automation or manual review to finish the next distinct carousel.
+4. Record metrics after publishing.
 
 ## Next Codex Work
 
@@ -176,15 +189,17 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 3. If the top item is a visibility test, treat it as optional side evidence; do not let it block the next carousel.
 4. Run `10_automation/weekly_dashboard.py` if the raw all-run table is needed.
 5. Run `10_automation/check_weekly_status.py` if a specific run folder already exists.
-6. Run `10_automation/run_weekly_pipeline.py` if the Perplexity export is available; include score sheet / Drive inventory if Grok images are already reviewed.
+6. Run `10_automation/run_weekly_pipeline.py --use-perplexity-index` if using the saved Perplexity public site, or pass `--perplexity-source` if a direct export is available.
 7. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
 8. Confirm `quality_report.md` status is `pass`.
-9. Use generated Grok prompts for image production.
-10. Run `10_automation/select_grok_assets.py` only when Grok images are scored after the weekly packet already exists.
-11. Confirm `validate_weekly_run.py --require-assets` passes.
-12. Use generated Canva handoff files to fill the panorama template.
-13. Use generated IG / Threads / Pinterest drafts.
-14. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
+9. Use `10_automation/generate_openai_images.py --dry-run` to plan image generation.
+10. Set `OPENAI_API_KEY` and rerun without `--dry-run` when ready to spend API credits.
+11. Score `openai_asset_review_template.csv`.
+12. Run `10_automation/select_grok_assets.py --provider OpenAI` after OpenAI images are scored.
+13. Confirm `validate_weekly_run.py --require-assets` passes.
+14. Use generated Canva handoff files or Canva connector edits to fill the 3-slide minimal carousel template.
+15. Use generated IG / Threads / Pinterest drafts.
+16. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
 
 On Windows, prefer the shortcut:
 

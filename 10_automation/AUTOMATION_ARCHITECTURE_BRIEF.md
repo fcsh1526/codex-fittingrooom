@@ -1,8 +1,8 @@
-# AI Virtual Fashion Creator Automation Brief
+﻿# AI Virtual Fashion Creator Automation Brief
 
 Updated: 2026-06-22
 
-This is the current automation architecture for the Mika Lin AI fashion creator workflow.
+This is the current automation architecture for the Mira AI fashion creator workflow.
 
 The purpose is not to keep adding disconnected scripts. The purpose is to run one fixed state machine:
 
@@ -50,7 +50,7 @@ There are six layers.
 
 ```text
 1. Brand layer
-   Mika Lin identity, visual rules, safety boundaries
+   Mira identity, visual rules, safety boundaries
 
 2. Trend layer
    Perplexity weekly report / CSV / markdown export
