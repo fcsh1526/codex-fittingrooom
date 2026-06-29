@@ -58,18 +58,20 @@ Then Codex extracts:
 - fit
 - styling rules
 - shopping keywords
+- model_profile_id
 
 Output:
 
 ```text
 10_automation/runs/{week_id}/weekly_content_packet.csv
+10_automation/runs/{week_id}/daily_queue.csv
 ```
 
 filled for the current week.
 
-## Stage 2 - Prompt Selection
+## Stage 2 - Daily Queue And Model Selection
 
-Pick one primary outfit direction per carousel.
+Pick 5-7 outfit directions for the week, then prepare one daily outfit at a time.
 
 Selection rules:
 
@@ -78,18 +80,43 @@ Selection rules:
 - avoid purely editorial looks until there is reach
 - avoid hard-to-buy product concepts
 - keep the outfit explainable in one sentence
+- map each content bucket to one internal model profile
 
-## Stage 3 - OpenAI Image Generation
-
-Use:
+Internal model mapping:
 
 ```text
-10_automation/generate_openai_images.py
+office_capsule -> M01
+date_outfit / weekend_daily -> M02
+daily_style / rainy_day -> M03
 ```
 
-with the Mira identity block and generate 2-4 image variants.
+Do not publish model names. They are internal controls for visual consistency only.
 
-Dry run first, which costs nothing:
+## Stage 3 - Image Generation Briefs
+
+The current primary path is Codex workspace image generation plus semi-manual review. Start from:
+
+```text
+10_automation/runs/{week_id}/daily_queue.csv
+10_automation/runs/{week_id}/image_generation_briefs.md
+```
+
+For each daily outfit, generate or place image candidates into:
+
+```text
+10_automation/runs/{week_id}/generated_images/
+```
+
+Each brief combines:
+
+- `model_profile_id`
+- trend / clothing item
+- occasion
+- Taiwan-relevant daily setting
+- outfit clarity requirements
+- visual rejection rules
+
+OpenAI API remains an optional future path when budget is available. Dry run first, which costs nothing:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
@@ -117,6 +144,8 @@ Outputs:
 - `openai_asset_review_template.csv`
 
 Keep Chinese titles, CTAs, and AI disclosure in Canva text layers. Do not render them into the image.
+
+No product list, comment CTA, AI disclosure, or template instruction text should appear inside the image.
 
 Grok can still be used as a backup with:
 
@@ -154,11 +183,11 @@ Avoid for now:
 Score each image:
 
 ```text
-identity_consistency
+model_consistency
+reader_relatability
 outfit_clarity
-body_integrity
-platform_fit
-shopping_value
+ai_realism
+commerce_value
 ```
 
 Pick:
@@ -173,14 +202,13 @@ If a score sheet exists, select assets automatically:
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
   10_automation\select_grok_assets.py `
   --run-dir 10_automation\runs\{week_id} `
-  --provider OpenAI `
-  --score-sheet path_to_visual_review_scores.csv `
-  --drive-inventory 10_automation\runs\{week_id}\openai_image_inventory.csv
+  --provider Codex `
+  --score-sheet 10_automation\runs\{week_id}\image_review_template.csv
 ```
 
 Output:
 
-- `openai_asset_selection.csv`
+- `{provider}_asset_selection.csv`
 - `canva_asset_plan.md`
 - updated `canva_asset_slots.csv`
 
@@ -221,6 +249,8 @@ Weekly Canva handoff files:
 ```
 
 Use `canva_fill_guide.md` for manual copy/paste if needed. The Canva connector can also replace text and image fills from `canva_placeholder_map.json` and `canva_asset_plan.md`, then show thumbnails for approval before saving.
+
+Final Canva export must remove template labels, cut-line text, product list text, comment CTA, and AI disclosure from the image. Only imagery, `{{slide2_line}}`, and small `Mira` brand text should remain.
 
 ## Stage 6 - Instagram Publish
 
@@ -300,7 +330,7 @@ If the Perplexity export is ready, run the full pipeline:
 If scored images are already available, add:
 
 ```text
---asset-provider OpenAI
+--asset-provider Codex
 --score-sheet path_to_visual_review_scores.csv
 --drive-inventory path_to_image_inventory.csv
 ```
@@ -320,6 +350,10 @@ If the weekly rows are already imported into `04_prompts/item_prompt_database.cs
 This creates:
 
 - `weekly_content_packet.csv`
+- `daily_queue.csv`
+- `image_generation_briefs.md`
+- `image_review_template.csv`
+- `generated_images/`
 - `grok_prompts.md`
 - `canva_placeholder_values.csv`
 - `canva_fill_guide.md`
@@ -331,7 +365,7 @@ This creates:
 - `quality_report.json`
 - `README.md`
 
-The quality report must pass before producing OpenAI images or editing Canva.
+The quality report must pass before image generation or editing Canva.
 
 After image assets are selected, run validation with:
 

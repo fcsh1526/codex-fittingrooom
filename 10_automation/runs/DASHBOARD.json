@@ -2,14 +2,14 @@
   "runs_dir": "10_automation\\runs",
   "run_count": 2,
   "stage_counts": {
-    "paused": 1,
-    "quality_gate_not_passed": 1
+    "missing_weekly_packet_files": 1,
+    "ready_for_canva_and_publish": 1
   },
   "runs": [
     {
       "run_dir": "10_automation\\runs\\2026-W21-test",
-      "stage": "paused",
-      "next_action": "This run is paused or archived. Create a new OpenAI-first run before publishing more content.",
+      "stage": "missing_weekly_packet_files",
+      "next_action": "Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder.",
       "packet_rows": 2,
       "quality": "pass",
       "cover_assets": "2/2",
@@ -19,10 +19,10 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W26",
-      "stage": "quality_gate_not_passed",
-      "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
+      "stage": "ready_for_canva_and_publish",
+      "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
       "packet_rows": 2,
-      "quality": "fail",
+      "quality": "pass",
       "cover_assets": "2/2",
       "published": false,
       "metric_checkpoints": 0,

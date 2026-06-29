@@ -47,6 +47,13 @@ def read_json(path):
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
 
+def read_csv(path):
+    import csv
+
+    with Path(path).open("r", encoding="utf-8-sig", newline="") as f:
+        return list(csv.DictReader(f))
+
+
 def assert_equal(actual, expected, label):
     if actual != expected:
         raise AssertionError(f"{label}: expected {expected!r}, got {actual!r}")
@@ -81,6 +88,14 @@ def test_new_week_without_assets():
     assert_equal(status["stage"]["stage"], "needs_image_asset_selection", "new week stage")
     assert_exists(run_dir / "grok_asset_review_template.csv", "Grok review template")
     assert_exists(run_dir / "weekly_status.md", "weekly status")
+    assert_exists(run_dir / "daily_queue.csv", "daily queue")
+    assert_exists(run_dir / "image_generation_briefs.md", "image generation briefs")
+    assert_exists(run_dir / "image_review_template.csv", "image review template")
+    queue = read_csv(run_dir / "daily_queue.csv")
+    packets = read_csv(run_dir / "weekly_content_packet.csv")
+    assert_equal(len(queue), 5, "daily queue row count")
+    if not all(row.get("model_profile_id") in {"M01", "M02", "M03"} for row in packets):
+        raise AssertionError("weekly packet model_profile_id must be M01/M02/M03")
 
 
 def test_perplexity_index_resolver():
@@ -121,6 +136,7 @@ def test_week_with_scored_assets():
     assert_equal(status["stage"]["stage"], "ready_for_canva_and_publish", "scored week stage")
     assert_equal(status["assets"]["selected_cover_count"], 2, "selected cover count")
     assert_exists(run_dir / "canva_asset_plan.md", "Canva asset plan")
+    assert_exists(run_dir / "daily_queue.csv", "scored week daily queue")
 
 
 def test_openai_image_dry_run():
@@ -290,6 +306,8 @@ def test_daily_brief():
     assert_equal(brief["priority_run"]["stage"], "ready_for_canva_and_publish", "daily brief priority stage")
     assert_exists(TMP_ROOT / "TODAY.md", "daily brief")
     assert_equal(brief["publish_queue"]["top_item"]["stage"], "ready_for_canva_and_publish", "daily brief queue top stage")
+    if not brief["publish_queue"]["top_item"].get("model_profile_id"):
+        raise AssertionError("daily brief top item should include model_profile_id")
 
 
 def test_daily_cockpit():

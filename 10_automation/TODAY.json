@@ -1,31 +1,35 @@
 {
-  "date": "2026-06-26",
+  "date": "2026-06-29",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W26",
-    "stage": "quality_gate_not_passed",
-    "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
+    "stage": "ready_for_canva_and_publish",
+    "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
     "packet_rows": 2,
-    "quality": "fail",
+    "quality": "pass",
     "cover_assets": "2/2",
     "published": false,
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "Fix the content packet before image production.",
+  "decision": "The run is ready for Canva assembly and publishing.",
   "tasks": [
-    "Do not generate images yet.",
-    "Run validation and fix missing fields, disclosure, prompt safety terms, or Canva text length.",
-    "Regenerate handoff files after validation passes."
+    "Open the Canva panorama template and fill text from canva_fill_guide.md.",
+    "Place images according to canva_asset_plan.md.",
+    "Publish or schedule the post, then send the post URL."
   ],
   "user_inputs": [
-    "No user input needed unless source trend data is wrong."
+    "Final Canva URL",
+    "Instagram post URL",
+    "Publish time"
   ],
   "codex_actions": [
-    "Run validate_weekly_run.py.",
-    "Patch the packet or generator, then rerun validation."
+    "Check caption, CTA, hashtags, and AI disclosure.",
+    "Record post URL and create 6h / 24h metrics commands."
   ],
   "useful_files": [
-    "10_automation/validate_weekly_run.py"
+    "10_automation/runs/{run}/canva_fill_guide.md",
+    "10_automation/runs/{run}/canva_asset_plan.md",
+    "10_automation/runs/{run}/post_drafts.md"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -39,6 +43,7 @@
       "week_id": "2026-W26",
       "carousel_id": "2026-W26-002",
       "prompt_id": "W26-P002",
+      "model_profile_id": "M02",
       "trend_name": "波點洋裝/套裝（Polka Dots）",
       "content_bucket": "date_outfit",
       "stage": "ready_for_canva_and_publish",
@@ -58,14 +63,14 @@
     "runs_dir": "10_automation\\runs",
     "run_count": 2,
     "stage_counts": {
-      "paused": 1,
-      "quality_gate_not_passed": 1
+      "missing_weekly_packet_files": 1,
+      "ready_for_canva_and_publish": 1
     },
     "runs": [
       {
         "run_dir": "10_automation\\runs\\2026-W21-test",
-        "stage": "paused",
-        "next_action": "This run is paused or archived. Create a new OpenAI-first run before publishing more content.",
+        "stage": "missing_weekly_packet_files",
+        "next_action": "Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder.",
         "packet_rows": 2,
         "quality": "pass",
         "cover_assets": "2/2",
@@ -75,10 +80,10 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W26",
-        "stage": "quality_gate_not_passed",
-        "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
+        "stage": "ready_for_canva_and_publish",
+        "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
         "packet_rows": 2,
-        "quality": "fail",
+        "quality": "pass",
         "cover_assets": "2/2",
         "published": false,
         "metric_checkpoints": 0,

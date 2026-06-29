@@ -1,4 +1,4 @@
-﻿# Canva Fill Guide
+# Canva Fill Guide
 
 Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
 

@@ -1,26 +1,30 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W26`
-Stage: `quality_gate_not_passed`
+Stage: `ready_for_canva_and_publish`
 
 ## Next Action
 
-Run validate_weekly_run.py and fix all errors before producing images or editing Canva.
-
-## Blocking Items
-
-- `quality_status=fail`
+Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.
 
 ## Suggested Commands
 
 ```powershell
-python 10_automation/validate_weekly_run.py --run-dir 10_automation\runs\2026-W26 --min-rows 1
+open 10_automation\runs\2026-W26/canva_fill_guide.md
+```
+
+```powershell
+open 10_automation\runs\2026-W26/canva_asset_plan.md
+```
+
+```powershell
+open 10_automation\runs\2026-W26/post_drafts.md
 ```
 
 ## Summary
 
 - Packet rows: `2`
-- Quality: `fail`
+- Quality: `pass`
 - Cover assets selected: `2` / `2`
 - Published: `False`
 - Metric checkpoints: `0`

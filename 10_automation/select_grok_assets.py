@@ -62,6 +62,12 @@ def write_csv(path, fieldnames, rows):
         writer.writerows(rows)
 
 
+def read_csv_with_fields(path):
+    with Path(path).open("r", encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        return list(reader), list(reader.fieldnames or [])
+
+
 def number(value):
     try:
         return int(clean(value))
@@ -70,16 +76,22 @@ def number(value):
 
 
 def score_row(row):
-    return sum(
-        number(row.get(field))
-        for field in [
-            "identity_consistency",
-            "outfit_clarity",
-            "body_integrity",
-            "platform_fit",
-            "shopping_value",
-        ]
-    )
+    codex_fields = [
+        "model_consistency",
+        "reader_relatability",
+        "outfit_clarity",
+        "ai_realism",
+        "commerce_value",
+    ]
+    legacy_fields = [
+        "identity_consistency",
+        "outfit_clarity",
+        "body_integrity",
+        "platform_fit",
+        "shopping_value",
+    ]
+    fields = codex_fields if any(clean(row.get(field)) for field in codex_fields) else legacy_fields
+    return sum(number(row.get(field)) for field in fields)
 
 
 def status_rank(row):
@@ -108,16 +120,20 @@ def ranked_assets(rows):
         key=lambda row: (
             status_rank(row),
             score_row(row),
-            clean(row.get("file_name")),
+            asset_file_name(row),
         ),
         reverse=True,
     )
 
 
+def asset_file_name(row):
+    return clean(row.get("file_name")) or clean(row.get("candidate_file"))
+
+
 def drive_lookup(rows):
     lookup = {}
     for row in rows:
-        file_name = clean(row.get("file_name"))
+        file_name = asset_file_name(row)
         if file_name:
             lookup[file_name] = {
                 "drive_url": clean(row.get("drive_url")),
@@ -134,7 +150,8 @@ def build_selection(packet, score_rows, drive_rows):
     candidates = ranked_assets(
         row
         for row in score_rows
-        if clean(row.get("prompt_id")) == prompt_id and clean(row.get("publishable")).lower() in {"yes", "true", "1"}
+        if (clean(row.get("prompt_id")) == prompt_id or clean(row.get("carousel_id")) == carousel_id)
+        and clean(row.get("publishable")).lower() in {"yes", "true", "1"}
     )
 
     if not candidates:
@@ -156,7 +173,7 @@ def build_selection(packet, score_rows, drive_rows):
     texture = detail or cover
 
     def file_name(row):
-        return clean(row.get("file_name")) if row else ""
+        return asset_file_name(row) if row else ""
 
     def url_for(row):
         if not row:
@@ -245,6 +262,38 @@ def update_placeholder_map(run_dir, slot_rows):
     path.write_text(json.dumps(mapping, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def update_daily_queue(run_dir, selections):
+    path = Path(run_dir) / "daily_queue.csv"
+    if not path.exists():
+        return
+    rows, fieldnames = read_csv_with_fields(path)
+    if not fieldnames:
+        return
+
+    selected_ids = {
+        clean(row.get("carousel_id"))
+        for row in selections
+        if clean(row.get("selection_status")) == "selected"
+    }
+    if not selected_ids:
+        return
+
+    updated = []
+    for row in rows:
+        out = dict(row)
+        if clean(row.get("carousel_id")) in selected_ids:
+            out["image_status"] = "asset_selected"
+            if clean(out.get("canva_status")) in {"", "not_started"}:
+                out["canva_status"] = "ready_for_canva"
+            note = clean(out.get("notes"))
+            marker = "Asset selected; ready for Canva."
+            if marker not in note:
+                out["notes"] = "; ".join(part for part in [note, marker] if part)
+        updated.append(out)
+
+    write_csv(path, fieldnames, updated)
+
+
 def write_asset_plan(path, selections, provider="Grok"):
     lines = [
         f"# {provider.title()} Asset Selection Plan",
@@ -320,6 +369,7 @@ def select_assets(run_dir, score_sheet=None, drive_inventory=None, provider="Gro
     updated_slots = update_asset_slots(slot_rows, selections)
     write_csv(run_dir / "canva_asset_slots.csv", ASSET_SLOT_FIELDS, updated_slots)
     update_placeholder_map(run_dir, updated_slots)
+    update_daily_queue(run_dir, selections)
     return selections
 
 

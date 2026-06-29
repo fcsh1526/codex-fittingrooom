@@ -5,6 +5,8 @@ import re
 import sys
 from pathlib import Path
 
+from mira_models import MODEL_IDS, validate_model_id
+
 
 REQUIRED_FILES = [
     "weekly_content_packet.csv",
@@ -13,6 +15,9 @@ REQUIRED_FILES = [
     "canva_fill_guide.md",
     "canva_placeholder_map.json",
     "canva_asset_slots.csv",
+    "daily_queue.csv",
+    "image_generation_briefs.md",
+    "image_review_template.csv",
     "post_drafts.md",
     "publish_checklist.md",
     "README.md",
@@ -23,6 +28,7 @@ PACKET_REQUIRED_FIELDS = [
     "week_id",
     "carousel_id",
     "creator_name",
+    "model_profile_id",
     "trend_name",
     "audience",
     "occasion",
@@ -114,7 +120,70 @@ def validate_packet_rows(run_dir, min_rows, issues):
         seen_ids.add(carousel_id)
         if clean(row.get("creator_name")) != "Mira":
             add_issue(issues, "warning", "creator_name", f"{row_label}: creator_name should be Mira.")
+        model_profile_id = clean(row.get("model_profile_id"))
+        if not validate_model_id(model_profile_id):
+            add_issue(issues, "error", "model_profile_id", f"{row_label}: model_profile_id must be one of {sorted(MODEL_IDS)}.")
     return rows
+
+
+def validate_daily_queue(run_dir, packet_rows, issues):
+    path = run_dir / "daily_queue.csv"
+    if not path.exists():
+        return []
+
+    rows = read_csv(path)
+    if len(rows) < 5:
+        add_issue(issues, "error", "daily_queue_row_count", f"daily_queue.csv should contain at least 5 rows, got {len(rows)}.")
+
+    packet_ids = {clean(row.get("carousel_id")) for row in packet_rows}
+    required_fields = [
+        "date",
+        "daily_id",
+        "week_id",
+        "carousel_id",
+        "model_profile_id",
+        "trend_name",
+        "clothing_item",
+        "occasion",
+        "image_status",
+        "canva_status",
+        "publish_status",
+    ]
+    seen_daily_ids = set()
+    for index, row in enumerate(rows, start=1):
+        row_label = clean(row.get("daily_id")) or f"daily queue row {index}"
+        for field in required_fields:
+            if not clean(row.get(field)):
+                add_issue(issues, "error", "daily_queue_required_field", f"{row_label}: missing {field}.")
+        daily_id = clean(row.get("daily_id"))
+        if daily_id in seen_daily_ids:
+            add_issue(issues, "error", "daily_queue_duplicate_id", f"Duplicate daily_id: {daily_id}.")
+        seen_daily_ids.add(daily_id)
+        if clean(row.get("carousel_id")) not in packet_ids:
+            add_issue(issues, "error", "daily_queue_carousel_id", f"{row_label}: carousel_id is not in weekly_content_packet.csv.")
+        if not validate_model_id(row.get("model_profile_id")):
+            add_issue(issues, "error", "daily_queue_model_profile_id", f"{row_label}: model_profile_id must be one of {sorted(MODEL_IDS)}.")
+    return rows
+
+
+def validate_image_generation_files(run_dir, packet_rows, issues):
+    brief_path = run_dir / "image_generation_briefs.md"
+    review_path = run_dir / "image_review_template.csv"
+    if brief_path.exists():
+        text = read_text(brief_path)
+        for row in packet_rows:
+            carousel_id = clean(row.get("carousel_id"))
+            model_profile_id = clean(row.get("model_profile_id"))
+            if carousel_id and carousel_id not in text:
+                add_issue(issues, "error", "image_brief_missing_carousel", f"image_generation_briefs.md missing {carousel_id}.")
+            if model_profile_id and model_profile_id not in text:
+                add_issue(issues, "error", "image_brief_missing_model", f"image_generation_briefs.md missing {model_profile_id}.")
+    if review_path.exists():
+        rows = read_csv(review_path)
+        review_ids = {clean(row.get("carousel_id")) for row in rows}
+        packet_ids = {clean(row.get("carousel_id")) for row in packet_rows}
+        for carousel_id in sorted(packet_ids - review_ids):
+            add_issue(issues, "error", "image_review_missing_row", f"image_review_template.csv missing {carousel_id}.")
 
 
 def validate_canva_rows(run_dir, packet_rows, issues):
@@ -281,6 +350,8 @@ def validate_run(run_dir, min_rows=1, require_assets=False):
     issues = []
     validate_required_files(run_dir, issues)
     packet_rows = validate_packet_rows(run_dir, min_rows=min_rows, issues=issues)
+    validate_daily_queue(run_dir, packet_rows=packet_rows, issues=issues)
+    validate_image_generation_files(run_dir, packet_rows=packet_rows, issues=issues)
     validate_canva_rows(run_dir, packet_rows=packet_rows, issues=issues)
     validate_grok_prompt(run_dir, issues)
     validate_post_drafts(run_dir, packet_rows=packet_rows, issues=issues)

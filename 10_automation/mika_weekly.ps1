@@ -20,7 +20,7 @@ param(
     [string]$VisibilityOutput = "",
     [string]$VisibilityJson = "",
     [string]$Database = "04_prompts\item_prompt_database.csv",
-    [int]$Limit = 2,
+    [int]$Limit = 5,
 
     [string]$ScoreSheet = "",
     [string]$DriveInventory = "",

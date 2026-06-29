@@ -10,6 +10,7 @@ QUEUE_FIELDS = [
     "week_id",
     "carousel_id",
     "prompt_id",
+    "model_profile_id",
     "trend_name",
     "content_bucket",
     "stage",
@@ -140,6 +141,7 @@ def carousel_item(run_dir, packet, asset, publish_rows, metric_rows):
         "week_id": clean(packet.get("week_id")) or Path(run_dir).name,
         "carousel_id": carousel_id,
         "prompt_id": clean(packet.get("prompt_id")),
+        "model_profile_id": clean(packet.get("model_profile_id")),
         "trend_name": clean(packet.get("trend_name")),
         "content_bucket": clean(packet.get("content_bucket")),
         "stage": stage,
@@ -175,6 +177,7 @@ def visibility_item(run_dir, package, publish_rows, metric_rows):
         "week_id": clean(packet.get("week_id")) or Path(run_dir).name,
         "carousel_id": carousel_id,
         "prompt_id": clean(packet.get("prompt_id")),
+        "model_profile_id": clean(packet.get("model_profile_id")),
         "trend_name": clean(packet.get("trend_name")),
         "content_bucket": clean(packet.get("content_bucket")),
         "stage": stage,
@@ -272,22 +275,23 @@ def write_markdown(path, rows, runs_dir):
                 "## Top Next Item",
                 "",
                 f"- Type: `{top['item_type']}`",
-                f"- ID: `{top['carousel_id']}`",
-                f"- Stage: `{top['stage']}`",
+        f"- ID: `{top['carousel_id']}`",
+        f"- Model: `{top.get('model_profile_id') or 'n/a'}`",
+        f"- Stage: `{top['stage']}`",
                 f"- Asset: `{top['recommended_asset'] or 'n/a'}`",
                 f"- Package: `{top['package_path'] or 'n/a'}`",
                 f"- Next action: {top['next_action']}",
                 "",
                 "## Queue",
                 "",
-                "| Type | ID | Stage | Asset | Reach | Next Action |",
-                "|---|---|---|---|---:|---|",
+                "| Type | ID | Model | Stage | Asset | Reach | Next Action |",
+                "|---|---|---|---|---|---:|---|",
             ]
         )
         for row in rows:
             next_action = clean(row.get("next_action")).replace("|", "/")
             lines.append(
-                f"| `{row['item_type']}` | `{row['carousel_id']}` | `{row['stage']}` | `{row['recommended_asset'] or 'n/a'}` | `{row['latest_reach'] or ''}` | {next_action} |"
+                f"| `{row['item_type']}` | `{row['carousel_id']}` | `{row.get('model_profile_id') or 'n/a'}` | `{row['stage']}` | `{row['recommended_asset'] or 'n/a'}` | `{row['latest_reach'] or ''}` | {next_action} |"
             )
         lines.append("")
     Path(path).write_text("\n".join(lines), encoding="utf-8")

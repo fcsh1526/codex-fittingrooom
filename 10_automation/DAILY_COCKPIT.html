@@ -144,7 +144,7 @@
     <header>
       <h1>Mira Daily Cockpit</h1>
       <div class="meta">
-        <span class="pill">Date: 2026-06-26</span>
+        <span class="pill">Date: 2026-06-29</span>
         <span class="pill">Production-first: zero reach does not block carousel production.</span>
         <span class="pill">Top stage: ready_for_canva_and_publish</span>
       </div>
@@ -153,7 +153,7 @@
     <section class="card hero">
       <h2>Today, Do This First</h2>
       <p class="big">2026-W26-002</p>
-      <p><strong>Type:</strong> carousel / <strong>Stage:</strong> ready_for_canva_and_publish</p>
+      <p><strong>Type:</strong> carousel / <strong>Model:</strong> M02 / <strong>Stage:</strong> ready_for_canva_and_publish</p>
       <p><strong>Asset:</strong> ChatGPT Image 2026年6月24日 下午03_30_10.png</p>
       <p><strong>Next action:</strong> Use Canva handoff files to finish the carousel and publish it.</p>
       <p><a class="button" href="10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_10.png">Open Recommended Asset</a></p>
@@ -167,6 +167,7 @@
 item = 2026-W26-002
 type = carousel
 status = 
+model = M02
 Canva URL = 
 IG URL = 
 published at = 
@@ -175,14 +176,14 @@ published at =
 stuck = </pre><button class='button secondary' onclick='copyReply()'>Copy Reply Template</button></section>
       </div>
       <div>
-        <section class="card"><h2>Refresh Command</h2><pre>powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-26</pre></section>
-        <section class="card"><h2>Queue Preview</h2><table><thead><tr><th>Type</th><th>ID</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody><tr><td>carousel</td><td>2026-W26-002</td><td>ready_for_canva_and_publish</td><td>ChatGPT Image 2026年6月24日 下午03_30_10.png</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr><tr><td>carousel</td><td>2026-W26-001</td><td>ready_for_canva_and_publish</td><td>ChatGPT Image 2026年6月24日 下午03_30_22.png</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr></tbody></table></section>
+        <section class="card"><h2>Refresh Command</h2><pre>powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-29</pre></section>
+        <section class="card"><h2>Queue Preview</h2><table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody><tr><td>carousel</td><td>2026-W26-002</td><td>M02</td><td>ready_for_canva_and_publish</td><td>ChatGPT Image 2026年6月24日 下午03_30_10.png</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr><tr><td>carousel</td><td>2026-W26-001</td><td>M01</td><td>ready_for_canva_and_publish</td><td>ChatGPT Image 2026年6月24日 下午03_30_22.png</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr></tbody></table></section>
         <section class="card"><h2>Reference</h2><p><a href="DAILY_COCKPIT.md">DAILY_COCKPIT.md</a></p><p><a href="TODAY.md">TODAY.md</a></p><p><a href="PUBLISH_QUEUE.md">PUBLISH_QUEUE.md</a></p></section>
       </div>
     </div>
   </main>
   <script>
-    const storageKey = "mika-cockpit-2026-06-26-2026-W26-002";
+    const storageKey = "mika-cockpit-2026-06-29-2026-W26-002";
     const boxes = Array.from(document.querySelectorAll('input[type="checkbox"][data-check]'));
     const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
     boxes.forEach(box => {

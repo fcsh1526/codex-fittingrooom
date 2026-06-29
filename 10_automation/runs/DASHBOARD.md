@@ -5,12 +5,12 @@ Run count: `2`
 
 ## Stage Counts
 
-- `paused`: `1`
-- `quality_gate_not_passed`: `1`
+- `missing_weekly_packet_files`: `1`
+- `ready_for_canva_and_publish`: `1`
 
 ## Runs
 
 | Run | Stage | Quality | Cover Assets | Published | Metrics | Next Action |
 |---|---|---|---:|---:|---:|---|
-| `2026-W21-test` | `paused` | `pass` | `2/2` | `True` | `2` | This run is paused or archived. Create a new OpenAI-first run before publishing more content. |
-| `2026-W26` | `quality_gate_not_passed` | `fail` | `2/2` | `False` | `0` | Run validate_weekly_run.py and fix all errors before producing images or editing Canva. |
+| `2026-W21-test` | `missing_weekly_packet_files` | `pass` | `2/2` | `True` | `2` | Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder. |
+| `2026-W26` | `ready_for_canva_and_publish` | `pass` | `2/2` | `False` | `0` | Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel. |

@@ -1,15 +1,15 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-06-25
+Last updated: 2026-06-29
 
 ## Project Goal
 
-Build a repeatable AI virtual fashion creator workflow for the Traditional Chinese / Taiwan market.
+Build a repeatable AI fashion magazine workflow for the Traditional Chinese / Taiwan market.
 
 Current priority:
 
 ```text
-stable character -> weekly trend -> OpenAI / Grok image generation -> minimal Canva carousel -> Instagram post -> metrics
+weekly trend -> daily outfit queue -> internal model profile -> Codex image brief -> minimal Canva carousel -> Instagram post -> metrics
 ```
 
 Monetization is intentionally delayed until there is non-zero reach.
@@ -17,14 +17,14 @@ Monetization is intentionally delayed until there is non-zero reach.
 Today's priority:
 
 ```text
-use the best available AI image source -> keep 3-slide Canva carousel production moving -> record metrics when available
+use Mira's 3 internal model profiles -> generate / review daily outfit images in the workspace -> keep 3-slide Canva carousel production moving
 ```
 
 ## Current Stage
 
-Minimal image-led carousel transition.
+Mira AI outfit daily system v1.
 
-The first Instagram carousel stayed at zero reach, so the project should not judge content quality yet. The user no longer wants to publish another similar carousel from the old Grok image batch. The next work is to produce more believable lifestyle outfit images and place them in a simpler 3-slide Canva format.
+Mira is no longer treated as one public virtual person. The brand is a fast-updating AI fashion magazine with 3 fixed internal models for office, weekend, and casual daily styling. Model names stay internal; IG should feel like a polished magazine with familiar recurring people, not a virtual influencer roleplay account.
 
 Production rule:
 
@@ -35,7 +35,7 @@ Zero reach does not block the next carousel.
 Current image source rule:
 
 ```text
-Use OpenAI or Grok based on image quality and available credits.
+Use Codex workspace image briefs and semi-manual review first. Keep OpenAI API / Grok as optional backup paths only.
 ```
 
 ## Key Links
@@ -63,12 +63,12 @@ Use OpenAI or Grok based on image quality and available credits.
 - A second simple test post was drafted.
 - Automation hub was created in `10_automation/`.
 - Weekly packet builder was tested and generated `10_automation/runs/2026-W21-test/`.
-- Weekly run folder now includes Grok prompts, Canva placeholders, platform post drafts, and publish checklist.
+- Weekly run folder now includes daily queue, image briefs, legacy Grok prompts, Canva placeholders, platform post drafts, and publish checklist.
 - Perplexity import automation now supports CSV files, direct CSV URLs, and markdown reports with fenced CSV blocks.
 - One-command weekly pipeline was tested with `10_automation/examples/perplexity_export_example.md`.
-- Weekly run quality validation now checks required files, required fields, AI disclosure, Grok safety terms, hashtag count, and Canva text length.
+- Weekly run quality validation now checks required files, required fields, model profile ids, AI disclosure, prompt safety terms, hashtag count, and Canva text length.
 - Canva handoff automation now generates `canva_fill_guide.md`, `canva_placeholder_map.json`, and `canva_asset_slots.csv`.
-- Grok asset selection automation now fills cover/detail/crop asset slots from visual review scores and Drive inventory.
+- Asset selection automation now fills cover/detail/crop asset slots from visual review scores and optional Drive inventory.
 - Publish and metrics automation now records post URLs, 6h/24h metrics, and next-action decisions.
 - Weekly status automation now writes `weekly_status.md/json` and tells the next action for each run folder.
 - Weekly dashboard automation now scans all run folders and writes `10_automation/runs/DASHBOARD.md/json`.
@@ -76,17 +76,23 @@ Use OpenAI or Grok based on image quality and available credits.
 - Daily cockpit automation now writes `10_automation/DAILY_COCKPIT.html/md` as the main daily-use artifact.
 - Publish queue automation now writes `10_automation/PUBLISH_QUEUE.md/json/csv` and tracks each carousel / visibility test separately.
 - Visibility test automation now writes `visibility_test_package.md/json` for single-image Instagram recovery tests.
-- Main weekly pipeline now creates asset review/status files by default and can select Grok assets when score sheets are provided.
+- Main weekly pipeline now creates daily queue, image review, and status files by default and can select scored assets when score sheets are provided.
 - Windows shortcut `10_automation/mika_weekly.ps1` now wraps pipeline, status, dashboard, queue, today, visibility-test, assets, metrics, and validate actions.
 - Smoke test automation now verifies weekly pipeline, asset selection, metrics decisions, dashboard output, daily brief output, publish queue output, visibility test package output, and PowerShell entrypoint.
 - Daily heartbeat was updated from old Day X companionship to queue-based automation status checking.
 - Automation architecture brief was added to explain the current state machine and manual boundaries.
 - Cross-computer handoff was added in `COMPUTER_B_SYNC.md` so Computer B can continue from GitHub without reading the old conversation.
-- OpenAI image-generation automation was added as the new primary image source.
+- OpenAI image-generation automation exists as an optional future API path.
 - Asset selection now supports provider labels such as OpenAI and Grok.
 - Perplexity public index resolution was added, so Codex can use the saved weekly site instead of requiring a pasted CSV URL every time.
 - Instagram creative direction changed to 3-slide, image-led, low-text carousel posts with simple captions and profile-link shopping direction.
 - Canva connector workflow and template spec were simplified to one text placeholder: `{{slide2_line}}`.
+- Mira was renamed from Mika and repositioned as an AI fashion magazine brand.
+- Internal model roster v1 was added: `M01 Office`, `M02 Weekend`, `M03 Casual`.
+- Weekly packets now include `model_profile_id`.
+- Content buckets map to model profiles: `office_capsule -> M01`, `date_outfit/weekend_daily -> M02`, `daily_style/rainy_day -> M03`.
+- Weekly run folders now generate `daily_queue.csv`, `image_generation_briefs.md`, `image_review_template.csv`, and `generated_images/`.
+- Daily cockpit and publish queue now show the internal model profile for each top item.
 
 ## Latest Published Post
 
@@ -147,8 +153,9 @@ Core templates:
 ```text
 10_automation/weekly_content_packet_template.csv
 10_automation/canva_placeholder_values_template.csv
-02_brand/mika_lin_identity_block.md
-04_prompts/grok_weekly_carousel_prompt.md
+02_brand/mira_identity_block.md
+02_brand/mira_model_roster.md
+02_brand/mira_model_roster.json
 ```
 
 Recovery files:
@@ -164,7 +171,6 @@ For the next weekly carousel run:
 
 ```text
 Perplexity weekly URL or use saved public index:
-OpenAI API key available in environment: yes/no
 Canva panorama design URL:
 Instagram account visibility status:
 ```
@@ -176,9 +182,10 @@ Use PUBLISH_QUEUE.md first. Use 05_content/2026_06_18_reactivation_plan.md only 
 ```
 
 1. Do not publish another old Grok-similar carousel.
-2. Generate or dry-run OpenAI images for the next weekly run.
-3. Use the 3-slide minimal Canva template automation or manual review to finish the next distinct carousel.
-4. Record metrics after publishing.
+2. Use `daily_queue.csv` and `image_generation_briefs.md` to produce workspace image candidates.
+3. Score candidates in `image_review_template.csv`.
+4. Use the 3-slide minimal Canva template automation or manual review to finish the next distinct carousel.
+5. Record metrics after publishing.
 
 ## Next Codex Work
 
@@ -192,10 +199,10 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 6. Run `10_automation/run_weekly_pipeline.py --use-perplexity-index` if using the saved Perplexity public site, or pass `--perplexity-source` if a direct export is available.
 7. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
 8. Confirm `quality_report.md` status is `pass`.
-9. Use `10_automation/generate_openai_images.py --dry-run` to plan image generation.
-10. Set `OPENAI_API_KEY` and rerun without `--dry-run` when ready to spend API credits.
-11. Score `openai_asset_review_template.csv`.
-12. Run `10_automation/select_grok_assets.py --provider OpenAI` after OpenAI images are scored.
+9. Open `daily_queue.csv` to confirm today's model profile and outfit.
+10. Open `image_generation_briefs.md` and generate / place candidate images in `generated_images/`.
+11. Score `image_review_template.csv`.
+12. Run `10_automation/select_grok_assets.py --provider Codex` after images are scored.
 13. Confirm `validate_weekly_run.py --require-assets` passes.
 14. Use generated Canva handoff files or Canva connector edits to fill the 3-slide minimal carousel template.
 15. Use generated IG / Threads / Pinterest drafts.

@@ -4,11 +4,11 @@ Use this checklist for each carousel before publishing.
 
 ## Before Canva
 
-- OpenAI image candidates are generated, or Grok images are available as backup.
+- Codex image candidates are generated in the project workspace.
 - Best lifestyle image is selected.
 - Image feels candid enough for social browsing, not overly posed.
 - Outfit is readable in one second.
-- Image passes AI quality review: identity, outfit clarity, hands/body, no logos.
+- Image passes AI quality review: internal model consistency, reader relatability, outfit clarity, AI realism, no logos.
 
 ## Canva
 
@@ -32,5 +32,5 @@ Use this checklist for each carousel before publishing.
 
 ## Carousel Candidates
 
-- `2026-W26-001`: 薄紗/透視層次（Sheer Layering） / 薄紗罩衫
-- `2026-W26-002`: 波點洋裝/套裝（Polka Dots） / 波點洋裝
+- `2026-W26-001` / `M01`: 薄紗/透視層次（Sheer Layering） / 薄紗罩衫
+- `2026-W26-002` / `M02`: 波點洋裝/套裝（Polka Dots） / 波點洋裝

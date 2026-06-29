@@ -10,7 +10,7 @@ Use this after OpenAI images are generated, uploaded if needed, and reviewed.
 - Detail: `ChatGPT Image 2026年6月24日 下午03_30_22.png`
 - Detail URL: 10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_22.png
 - Texture / crop: `ChatGPT Image 2026年6月24日 下午03_30_22.png`
-- Notes: cover_score=23; detail_reuses_cover
+- Notes: cover_score=5; detail_reuses_cover
 
 ## 2026-W26-002 / W26-P002
 
@@ -20,4 +20,4 @@ Use this after OpenAI images are generated, uploaded if needed, and reviewed.
 - Detail: `ChatGPT Image 2026年6月24日 下午03_30_10.png`
 - Detail URL: 10_automation\runs\2026-W26\openai_images\ChatGPT Image 2026年6月24日 下午03_30_10.png
 - Texture / crop: `ChatGPT Image 2026年6月24日 下午03_30_10.png`
-- Notes: cover_score=24; detail_reuses_cover
+- Notes: cover_score=5; detail_reuses_cover

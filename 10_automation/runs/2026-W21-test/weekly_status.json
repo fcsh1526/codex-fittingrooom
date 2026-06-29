@@ -1,9 +1,13 @@
 {
   "run_dir": "10_automation\\runs\\2026-W21-test",
   "stage": {
-    "stage": "paused",
-    "next_action": "This run is paused or archived. Create a new OpenAI-first run before publishing more content.",
-    "blocking_items": []
+    "stage": "missing_weekly_packet_files",
+    "next_action": "Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder.",
+    "blocking_items": [
+      "daily_queue.csv",
+      "image_generation_briefs.md",
+      "image_review_template.csv"
+    ]
   },
   "packet": {
     "row_count": 2,
@@ -35,6 +39,18 @@
     "canva_asset_slots.csv": {
       "exists": true,
       "size": 1984
+    },
+    "daily_queue.csv": {
+      "exists": false,
+      "size": 0
+    },
+    "image_generation_briefs.md": {
+      "exists": false,
+      "size": 0
+    },
+    "image_review_template.csv": {
+      "exists": false,
+      "size": 0
     },
     "post_drafts.md": {
       "exists": true,

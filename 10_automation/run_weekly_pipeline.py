@@ -36,7 +36,7 @@ def main():
     parser.add_argument("--perplexity-index", default="", help="Optional Perplexity public index URL. Defaults to the saved Mira index when --use-perplexity-index is set.")
     parser.add_argument("--use-perplexity-index", action="store_true", help="Resolve the CSV URL from the Perplexity public index.")
     parser.add_argument("--database", default="04_prompts/item_prompt_database.csv")
-    parser.add_argument("--limit", type=int, default=2)
+    parser.add_argument("--limit", type=int, default=5)
     parser.add_argument("--output-dir", help="Defaults to 10_automation/runs/{week}.")
     parser.add_argument("--dry-run-import", action="store_true")
     parser.add_argument("--skip-validation", action="store_true")

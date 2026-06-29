@@ -1,31 +1,35 @@
 # Mira Daily Brief
 
-Date: `2026-06-26`
+Date: `2026-06-29`
 Priority run: `2026-W26`
-Stage: `quality_gate_not_passed`
+Stage: `ready_for_canva_and_publish`
 
 ## Decision
 
-Fix the content packet before image production.
+The run is ready for Canva assembly and publishing.
 
 ## Today Only
 
-1. Do not generate images yet.
-2. Run validation and fix missing fields, disclosure, prompt safety terms, or Canva text length.
-3. Regenerate handoff files after validation passes.
+1. Open the Canva panorama template and fill text from canva_fill_guide.md.
+2. Place images according to canva_asset_plan.md.
+3. Publish or schedule the post, then send the post URL.
 
 ## User Should Provide
 
-- No user input needed unless source trend data is wrong.
+- Final Canva URL
+- Instagram post URL
+- Publish time
 
 ## Codex Can Do Next
 
-- Run validate_weekly_run.py.
-- Patch the packet or generator, then rerun validation.
+- Check caption, CTA, hashtags, and AI disclosure.
+- Record post URL and create 6h / 24h metrics commands.
 
 ## Useful Files
 
-- `10_automation/validate_weekly_run.py`
+- `10_automation/runs/2026-W26/canva_fill_guide.md`
+- `10_automation/runs/2026-W26/canva_asset_plan.md`
+- `10_automation/runs/2026-W26/post_drafts.md`
 
 ## Generated Files
 
@@ -37,21 +41,22 @@ Fix the content packet before image production.
 
 - Type: `carousel`
 - ID: `2026-W26-002`
+- Model: `M02`
 - Stage: `ready_for_canva_and_publish`
 - Asset: `ChatGPT Image 2026年6月24日 下午03_30_10.png`
 - Next action: Use Canva handoff files to finish the carousel and publish it.
 
 ## Current Next Action
 
-Run validate_weekly_run.py and fix all errors before producing images or editing Canva.
+Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.
 
 ## Fixed Flow
 
 ```text
-person identity -> weekly trend -> prompt packet -> OpenAI images -> Canva carousel -> publish -> metrics -> next decision
+Mira magazine -> weekly trend -> daily queue -> Codex image candidates -> Canva carousel -> publish -> metrics -> next decision
 ```
 
 ## Dashboard Summary
 
 - Run count: `2`
-- Stage counts: `{"paused": 1, "quality_gate_not_passed": 1}`
+- Stage counts: `{"missing_weekly_packet_files": 1, "ready_for_canva_and_publish": 1}`

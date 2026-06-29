@@ -1,4 +1,4 @@
-﻿# Weekly Platform Post Drafts
+# Weekly Platform Post Drafts
 
 Use these drafts after the image assets and Canva carousel are ready.
 

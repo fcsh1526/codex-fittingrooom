@@ -1,11 +1,17 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W21-test`
-Stage: `paused`
+Stage: `missing_weekly_packet_files`
 
 ## Next Action
 
-This run is paused or archived. Create a new OpenAI-first run before publishing more content.
+Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder.
+
+## Blocking Items
+
+- `daily_queue.csv`
+- `image_generation_briefs.md`
+- `image_review_template.csv`
 
 ## Summary
 

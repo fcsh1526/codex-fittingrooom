@@ -10,6 +10,9 @@ REQUIRED_RUN_FILES = [
     "canva_placeholder_values.csv",
     "canva_fill_guide.md",
     "canva_asset_slots.csv",
+    "daily_queue.csv",
+    "image_generation_briefs.md",
+    "image_review_template.csv",
     "post_drafts.md",
     "publish_checklist.md",
     "quality_report.md",
@@ -83,6 +86,7 @@ def asset_status(run_dir):
     template_exists = any(
         (run_dir / name).exists()
         for name in ["openai_asset_review_template.csv", "grok_asset_review_template.csv"]
+        + ["image_review_template.csv"]
     )
     selection_exists = any(
         (run_dir / name).exists()
@@ -173,7 +177,7 @@ def determine_stage(files, quality, assets, publishing, packet=None):
         elif assets["selection_exists"]:
             next_action = "Review the asset selection CSV, then rerun select_grok_assets.py with a scored image sheet."
         else:
-            next_action = "Generate OpenAI images, score them, then run select_grok_assets.py with --provider OpenAI."
+            next_action = "Use image_generation_briefs.md to generate Codex workspace images, score them in image_review_template.csv, then run select_grok_assets.py with --provider Codex."
         return {
             "stage": "needs_image_asset_selection",
             "next_action": next_action,
@@ -203,10 +207,10 @@ def command_suggestions(run_dir, stage):
         )
     elif stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         suggestions.append(
-            f"python 10_automation/generate_openai_images.py --run-dir {run_dir_str} --variants 2 --dry-run"
+            f"open {run_dir_str}/image_generation_briefs.md"
         )
         suggestions.append(
-            f"python 10_automation/select_grok_assets.py --run-dir {run_dir_str} --provider OpenAI --score-sheet path_to_scores.csv --drive-inventory path_to_image_inventory.csv"
+            f"python 10_automation/select_grok_assets.py --run-dir {run_dir_str} --provider Codex --score-sheet {run_dir_str}/image_review_template.csv --drive-inventory path_to_image_inventory.csv"
         )
         suggestions.append(
             f"python 10_automation/validate_weekly_run.py --run-dir {run_dir_str} --min-rows 1 --require-assets"

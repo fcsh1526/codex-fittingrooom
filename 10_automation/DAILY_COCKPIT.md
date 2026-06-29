@@ -1,11 +1,12 @@
 # Mira Daily Cockpit
 
-Date: `2026-06-26`
+Date: `2026-06-29`
 
 ## Today, Do This First
 
 - Item: `2026-W26-002`
 - Type: `carousel`
+- Model: `M02`
 - Stage: `ready_for_canva_and_publish`
 - Asset: `ChatGPT Image 2026年6月24日 下午03_30_10.png`
 - Next action: Use Canva handoff files to finish the carousel and publish it.
@@ -33,6 +34,7 @@ Date: `2026-06-26`
 item = 2026-W26-002
 type = carousel
 status = 
+model = M02
 Canva URL = 
 IG URL = 
 published at = 

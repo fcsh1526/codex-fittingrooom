@@ -55,9 +55,10 @@ def run_files(top_item):
         ]
     if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return [
-            normalize_path(f"{run_dir}/openai_prompts"),
-            normalize_path(f"{run_dir}/openai_asset_review_template.csv"),
-            normalize_path(f"{run_dir}/grok_asset_review_template.csv"),
+            normalize_path(f"{run_dir}/daily_queue.csv"),
+            normalize_path(f"{run_dir}/image_generation_briefs.md"),
+            normalize_path(f"{run_dir}/image_review_template.csv"),
+            normalize_path(f"{run_dir}/generated_images"),
             normalize_path(f"{run_dir}/canva_asset_slots.csv"),
         ]
     if item_type == "visibility_test":
@@ -84,9 +85,10 @@ def checklist_for(top_item):
         ]
     if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return [
-            "Dry-run OpenAI image generation.",
-            "Generate OpenAI images after confirming API budget.",
-            "Review and score the generated image candidates.",
+            "Open image_generation_briefs.md for today's internal model and outfit.",
+            "Generate image candidates inside the Codex workspace.",
+            "Save candidates under generated_images.",
+            "Review and score the candidates in image_review_template.csv.",
             "Run asset selection and validation.",
         ]
     if item_type == "visibility_test":
@@ -113,6 +115,7 @@ def reply_template(top_item):
             f"item = {item_id}",
             f"type = {item_type}",
             "status = ",
+            f"model = {clean(top_item.get('model_profile_id'))}",
             "Canva URL = ",
             "IG URL = ",
             "published at = ",
@@ -154,6 +157,7 @@ def render_html(payload, cockpit_md):
         "<tr>"
         f"<td>{html.escape(clean(row.get('item_type')))}</td>"
         f"<td>{html.escape(clean(row.get('carousel_id')))}</td>"
+        f"<td>{html.escape(clean(row.get('model_profile_id')))}</td>"
         f"<td>{html.escape(clean(row.get('stage')))}</td>"
         f"<td>{html.escape(clean(row.get('recommended_asset')))}</td>"
         f"<td>{html.escape(clean(row.get('next_action')))}</td>"
@@ -325,7 +329,7 @@ def render_html(payload, cockpit_md):
     <section class="card hero">
       <h2>Today, Do This First</h2>
       <p class="big">{html.escape(top_id)}</p>
-      <p><strong>Type:</strong> {html.escape(clean(top.get("item_type")))} / <strong>Stage:</strong> {html.escape(top_stage)}</p>
+      <p><strong>Type:</strong> {html.escape(clean(top.get("item_type")))} / <strong>Model:</strong> {html.escape(clean(top.get("model_profile_id")) or "n/a")} / <strong>Stage:</strong> {html.escape(top_stage)}</p>
       <p><strong>Asset:</strong> {html.escape(clean(top.get("recommended_asset")) or "n/a")}</p>
       <p><strong>Next action:</strong> {html.escape(clean(top.get("next_action")))}</p>
       {asset_block}
@@ -339,7 +343,7 @@ def render_html(payload, cockpit_md):
       </div>
       <div>
         {html_card("Refresh Command", f"<pre>{html.escape(command)}</pre>")}
-        {html_card("Queue Preview", f"<table><thead><tr><th>Type</th><th>ID</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody>{queue_rows}</tbody></table>")}
+        {html_card("Queue Preview", f"<table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody>{queue_rows}</tbody></table>")}
         {html_card("Reference", f"<p>{file_link(str(cockpit_md))}</p><p>{file_link('10_automation/TODAY.md')}</p><p>{file_link('10_automation/PUBLISH_QUEUE.md')}</p>")}
       </div>
     </div>
@@ -378,6 +382,7 @@ def render_markdown(payload):
         "",
         f"- Item: `{clean(top.get('carousel_id'))}`",
         f"- Type: `{clean(top.get('item_type'))}`",
+        f"- Model: `{clean(top.get('model_profile_id')) or 'n/a'}`",
         f"- Stage: `{clean(top.get('stage'))}`",
         f"- Asset: `{clean(top.get('recommended_asset')) or 'n/a'}`",
         f"- Next action: {clean(top.get('next_action'))}",
