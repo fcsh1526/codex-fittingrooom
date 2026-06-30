@@ -18,7 +18,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 1164
+      "size": 1187
     },
     "grok_prompts.md": {
       "exists": true,
@@ -38,7 +38,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1385
+      "size": 1381
     },
     "image_generation_briefs.md": {
       "exists": true,

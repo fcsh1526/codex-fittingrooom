@@ -107,6 +107,8 @@ def stage_for_carousel(packet, asset, publish, metric):
         return "published_waiting_for_metrics"
     if not clean(asset.get("file")):
         return "needs_image_asset_selection"
+    if packet_status == "canva_committed":
+        return "canva_committed_ready_to_publish"
     return "ready_for_canva_and_publish"
 
 
@@ -122,6 +124,7 @@ def next_action_for_stage(stage):
         "do_not_publish": "Do not publish this item.",
         "skip": "Skipped; choose another content item.",
         "ready_for_canva_and_publish": "Use Canva handoff files to finish the carousel and publish it.",
+        "canva_committed_ready_to_publish": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
         "weak_distribution": "Mirror the asset to Threads or Pinterest and test a clearer single-image hook.",
         "wait_for_24h": "Wait for the 24h checkpoint before changing the content direction.",
         "repeat_bucket": "Create a second carousel in the same content bucket.",
@@ -199,12 +202,15 @@ def item_priority(row):
     item_type = clean(row.get("item_type"))
     if stage in {"paused", "archived", "do_not_publish", "skip"}:
         return -10
+    if item_type == "carousel" and stage == "canva_committed_ready_to_publish":
+        return 110
     if item_type == "carousel" and stage == "ready_for_canva_and_publish":
         return 100
     if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return 90
     priorities = {
         "published_waiting_for_metrics": 80,
+        "canva_committed_ready_to_publish": 90,
         "ready_for_canva_and_publish": 75,
         "needs_image_asset_selection": 70,
         "needs_grok_asset_selection": 70,

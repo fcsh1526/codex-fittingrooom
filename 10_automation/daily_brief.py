@@ -9,6 +9,7 @@ from weekly_dashboard import build_dashboard
 
 
 STAGE_PRIORITY = {
+    "canva_committed_ready_to_publish": 110,
     "ready_for_canva_and_publish": 100,
     "needs_image_asset_selection": 90,
     "needs_grok_asset_selection": 90,
@@ -188,6 +189,23 @@ def stage_brief(stage):
                 "10_automation/runs/{run}/canva_fill_guide.md",
                 "10_automation/runs/{run}/canva_asset_plan.md",
                 "10_automation/runs/{run}/post_drafts.md",
+            ],
+        },
+        "canva_committed_ready_to_publish": {
+            "decision": "The Canva layout has been committed and is ready for export / publishing.",
+            "tasks": [
+                "Open the Canva design and review the committed carousel layout.",
+                "Export the 3 carousel slides if acceptable.",
+                "Publish or schedule the post, then send the post URL.",
+            ],
+            "user_inputs": ["Instagram post URL", "Publish time"],
+            "codex_actions": [
+                "Record post URL and create 6h / 24h metrics commands.",
+            ],
+            "files": [
+                "10_automation/runs/{run}/canva_asset_plan.md",
+                "10_automation/runs/{run}/post_drafts.md",
+                "10_automation/runs/{run}/publish_checklist.md",
             ],
         },
         "repeat_bucket": {

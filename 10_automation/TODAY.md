@@ -42,9 +42,9 @@ The run is ready for Canva assembly and publishing.
 - Type: `carousel`
 - ID: `2026-W26-002`
 - Model: `M02`
-- Stage: `ready_for_canva_and_publish`
+- Stage: `canva_committed_ready_to_publish`
 - Asset: `2026-W26-002_M02_candidate_A.png`
-- Next action: Use Canva handoff files to finish the carousel and publish it.
+- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Current Next Action
 

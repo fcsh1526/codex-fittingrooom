@@ -7,16 +7,14 @@ Date: `2026-06-30`
 - Item: `2026-W26-002`
 - Type: `carousel`
 - Model: `M02`
-- Stage: `ready_for_canva_and_publish`
+- Stage: `canva_committed_ready_to_publish`
 - Asset: `2026-W26-002_M02_candidate_A.png`
-- Next action: Use Canva handoff files to finish the carousel and publish it.
+- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Checklist
 
-- [ ] Open the Canva panorama design.
-- [ ] Use canva_fill_guide.md to fill the slide text.
-- [ ] Place the recommended asset and detail image from canva_asset_plan.md.
-- [ ] Export the 3 carousel slides or finish the Canva design.
+- [ ] Open the Canva panorama design and review the committed layout.
+- [ ] Export the 3 carousel slides if the layout looks acceptable.
 - [ ] Publish or schedule the Instagram carousel.
 - [ ] Send Codex the post URL, publish time, and any immediate notes.
 

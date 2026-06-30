@@ -46,7 +46,7 @@ def run_files(top_item):
     item_type = clean(top_item.get("item_type"))
     stage = clean(top_item.get("stage"))
 
-    if item_type == "carousel" and stage == "ready_for_canva_and_publish":
+    if item_type == "carousel" and stage in {"ready_for_canva_and_publish", "canva_committed_ready_to_publish"}:
         return [
             normalize_path(f"{run_dir}/canva_fill_guide.md"),
             normalize_path(f"{run_dir}/canva_asset_plan.md"),
@@ -80,6 +80,13 @@ def checklist_for(top_item):
             "Use canva_fill_guide.md to fill the slide text.",
             "Place the recommended asset and detail image from canva_asset_plan.md.",
             "Export the 3 carousel slides or finish the Canva design.",
+            "Publish or schedule the Instagram carousel.",
+            "Send Codex the post URL, publish time, and any immediate notes.",
+        ]
+    if item_type == "carousel" and stage == "canva_committed_ready_to_publish":
+        return [
+            "Open the Canva panorama design and review the committed layout.",
+            "Export the 3 carousel slides if the layout looks acceptable.",
             "Publish or schedule the Instagram carousel.",
             "Send Codex the post URL, publish time, and any immediate notes.",
         ]
