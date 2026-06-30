@@ -91,7 +91,7 @@ Use the installed $mira-image-daily skill first. Daily outfit generation is bloc
 - Internal model roster v1 was added: `M01 Office`, `M02 Weekend`, `M03 Casual`.
 - Mira image generation was changed from Taiwan-only wording to global trend research with wearable daily styling.
 - `$mira-image-daily` skill was created and installed to `C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily`.
-- Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03 are currently `needed`, so daily generation is intentionally blocked until approved.
+- Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03 candidate images were generated and are currently `candidate_review`, so daily generation is intentionally blocked until approved.
 - Weekly packets now include `model_profile_id`.
 - Content buckets map to model profiles: `office_capsule -> M01`, `date_outfit/weekend_daily -> M02`, `daily_style/rainy_day -> M03`.
 - Weekly run folders now generate `daily_queue.csv`, `image_generation_briefs.md`, `image_review_template.csv`, and `generated_images/`.
@@ -162,6 +162,7 @@ Core templates:
 02_brand/mira_image_generation_spec_v1.md
 02_brand/mira_reference_images.csv
 02_brand/reference_models/REFERENCE_IMAGE_REQUIREMENTS.md
+02_brand/reference_models/reference_start_image_review.md
 11_skills/mira-image-daily/SKILL.md
 10_automation/runs/2026-W26/m02_polka_image_test_brief.md
 ```

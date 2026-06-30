@@ -1,4 +1,4 @@
 model_profile_id,reference_image_path,status,notes
-M01,02_brand/reference_models/M01_start.png,needed,Office model anchor image must be approved before M01 daily generation.
-M02,02_brand/reference_models/M02_start.png,needed,Weekend model anchor image must be approved before M02 daily generation.
-M03,02_brand/reference_models/M03_start.png,needed,Casual model anchor image must be approved before M03 daily generation.
+M01,02_brand/reference_models/M01_start.png,candidate_review,Office model anchor candidate generated 2026-06-30; awaiting user approval.
+M02,02_brand/reference_models/M02_start.png,candidate_review,Weekend model anchor candidate generated 2026-06-30; awaiting user approval.
+M03,02_brand/reference_models/M03_start.png,candidate_review,Casual model anchor candidate generated 2026-06-30; awaiting user approval.
