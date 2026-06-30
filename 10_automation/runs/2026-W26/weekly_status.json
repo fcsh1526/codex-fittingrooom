@@ -34,7 +34,7 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 2464
+      "size": 2359
     },
     "daily_queue.csv": {
       "exists": true,
@@ -46,7 +46,7 @@
     },
     "image_review_template.csv": {
       "exists": true,
-      "size": 274
+      "size": 775
     },
     "post_drafts.md": {
       "exists": true,

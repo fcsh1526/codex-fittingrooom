@@ -1,6 +1,6 @@
 # Mira Daily Brief
 
-Date: `2026-06-29`
+Date: `2026-06-30`
 Priority run: `2026-W26`
 Stage: `ready_for_canva_and_publish`
 
@@ -43,7 +43,7 @@ The run is ready for Canva assembly and publishing.
 - ID: `2026-W26-002`
 - Model: `M02`
 - Stage: `ready_for_canva_and_publish`
-- Asset: `ChatGPT Image 2026年6月24日 下午03_30_10.png`
+- Asset: `2026-W26-002_M02_candidate_A.png`
 - Next action: Use Canva handoff files to finish the carousel and publish it.
 
 ## Current Next Action
