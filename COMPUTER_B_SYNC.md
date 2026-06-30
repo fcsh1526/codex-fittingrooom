@@ -1,6 +1,6 @@
 # Computer B Sync Handoff
 
-Last synced locally: 2026-06-29
+Last synced locally: 2026-06-30
 
 Purpose: let another computer continue the Mira workflow from GitHub without reading the old conversation.
 
@@ -34,7 +34,7 @@ If HTML is inconvenient, open:
 Production-first, image-led.
 
 ```text
-Mira magazine -> weekly trend -> daily outfit queue -> internal model profile -> believable outfit images -> 3-slide low-text Canva carousel -> short caption -> profile link
+Mira magazine -> global weekly trend -> daily outfit queue -> internal model profile -> approved reference start image -> believable outfit images -> 3-slide low-text Canva carousel -> short caption -> profile link
 ```
 
 Rules:
@@ -43,7 +43,8 @@ Rules:
 - Use the 3-slide minimal panorama template.
 - Keep text off the carousel except `{{slide2_line}}`.
 - Keep AI disclosure in the caption.
-- Use Codex workspace image briefs and semi-manual review first.
+- Use the `$mira-image-daily` skill for image jobs.
+- Do not generate daily outfit images for a model until its reference start image is approved.
 - Keep OpenAI API / Grok as optional backup paths only.
 - Zero reach is tracked as data, not a blocker.
 
@@ -71,6 +72,9 @@ Open these when working on the carousel:
 10_automation/runs/2026-W26/m02_polka_image_test_brief.md
 10_automation/runs/2026-W26/post_drafts.md
 10_automation/runs/2026-W26/publish_checklist.md
+02_brand/mira_reference_images.csv
+02_brand/reference_models/REFERENCE_IMAGE_REQUIREMENTS.md
+11_skills/mira-image-daily/SKILL.md
 ```
 
 Current recommended template prompt:
@@ -91,6 +95,7 @@ Current Mira identity file:
 02_brand/mira_identity_block.md
 02_brand/mira_model_roster.md
 02_brand/mira_image_generation_spec_v1.md
+02_brand/mira_reference_images.csv
 ```
 
 Internal model rule:
@@ -106,7 +111,13 @@ Do not publish model names in IG copy; they are only for consistent image genera
 Image generation note:
 
 ```text
-W26 has old selected images and can still be assembled in Canva, but the new Mira v1 direction should first test fresh M02 polka-dot candidates from m02_polka_image_test_brief.md.
+W26 has old selected images and can still be assembled in Canva, but the new Mira v1 direction should first create and approve M02_start.png, then test fresh M02 polka-dot candidates through $mira-image-daily.
+```
+
+Installed skill:
+
+```text
+C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily
 ```
 
 ## Current Queue

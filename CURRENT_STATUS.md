@@ -1,15 +1,15 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-06-29
+Last updated: 2026-06-30
 
 ## Project Goal
 
-Build a repeatable AI fashion magazine workflow for the Traditional Chinese / Taiwan market.
+Build a repeatable AI fashion magazine workflow: global fashion trend research, localized Traditional Chinese publishing, and daily outfit images with consistent internal models.
 
 Current priority:
 
 ```text
-weekly trend -> daily outfit queue -> internal model profile -> Codex image brief -> minimal Canva carousel -> Instagram post -> metrics
+global weekly trend -> daily outfit queue -> internal model profile -> approved reference start image -> Codex image job -> minimal Canva carousel -> Instagram post -> metrics
 ```
 
 Monetization is intentionally delayed until there is non-zero reach.
@@ -17,7 +17,7 @@ Monetization is intentionally delayed until there is non-zero reach.
 Today's priority:
 
 ```text
-use Mira's 3 internal model profiles -> generate / review daily outfit images in the workspace -> keep 3-slide Canva carousel production moving
+approve M01/M02/M03 reference start images -> use $mira-image-daily for daily image jobs -> keep 3-slide Canva carousel production moving
 ```
 
 ## Current Stage
@@ -35,7 +35,7 @@ Zero reach does not block the next carousel.
 Current image source rule:
 
 ```text
-Use Codex workspace image briefs and semi-manual review first. Keep OpenAI API / Grok as optional backup paths only.
+Use the installed $mira-image-daily skill first. Daily outfit generation is blocked until the assigned model has an approved reference start image. Keep OpenAI API / Grok as optional backup paths only.
 ```
 
 ## Key Links
@@ -89,6 +89,9 @@ Use Codex workspace image briefs and semi-manual review first. Keep OpenAI API /
 - Canva connector workflow and template spec were simplified to one text placeholder: `{{slide2_line}}`.
 - Mira was renamed from Mika and repositioned as an AI fashion magazine brand.
 - Internal model roster v1 was added: `M01 Office`, `M02 Weekend`, `M03 Casual`.
+- Mira image generation was changed from Taiwan-only wording to global trend research with wearable daily styling.
+- `$mira-image-daily` skill was created and installed to `C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily`.
+- Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03 are currently `needed`, so daily generation is intentionally blocked until approved.
 - Weekly packets now include `model_profile_id`.
 - Content buckets map to model profiles: `office_capsule -> M01`, `date_outfit/weekend_daily -> M02`, `daily_style/rainy_day -> M03`.
 - Weekly run folders now generate `daily_queue.csv`, `image_generation_briefs.md`, `image_review_template.csv`, and `generated_images/`.
@@ -157,6 +160,9 @@ Core templates:
 02_brand/mira_model_roster.md
 02_brand/mira_model_roster.json
 02_brand/mira_image_generation_spec_v1.md
+02_brand/mira_reference_images.csv
+02_brand/reference_models/REFERENCE_IMAGE_REQUIREMENTS.md
+11_skills/mira-image-daily/SKILL.md
 10_automation/runs/2026-W26/m02_polka_image_test_brief.md
 ```
 
@@ -184,15 +190,19 @@ Use PUBLISH_QUEUE.md first. Use 05_content/2026_06_18_reactivation_plan.md only 
 ```
 
 1. Do not publish another old Grok-similar carousel.
-2. Use `daily_queue.csv` and `image_generation_briefs.md` to produce workspace image candidates.
-3. Score candidates in `image_review_template.csv`.
-4. Use the 3-slide minimal Canva template automation or manual review to finish the next distinct carousel.
-5. Record metrics after publishing.
+2. Create or approve `M01_start.png`, `M02_start.png`, and `M03_start.png`.
+3. Update `02_brand/mira_reference_images.csv` rows to `approved` only after visual approval.
+4. Use `$mira-image-daily` to prepare daily image jobs from `daily_queue.csv`.
+5. Score candidates in `image_review_template.csv` or the generated job review sheet.
+6. Use the 3-slide minimal Canva template automation or manual review to finish the next distinct carousel.
+7. Record metrics after publishing.
 
 Current image-generation discussion should start from:
 
 ```text
 02_brand/mira_image_generation_spec_v1.md
+02_brand/mira_reference_images.csv
+11_skills/mira-image-daily/SKILL.md
 10_automation/runs/2026-W26/m02_polka_image_test_brief.md
 ```
 

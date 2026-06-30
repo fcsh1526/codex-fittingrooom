@@ -1,6 +1,13 @@
 # Mira Image Generation Spec v1
 
-Purpose: make Mira's images feel like a fast-updating AI fashion magazine for Taiwan daily outfits, while keeping the workflow simple enough to repeat.
+Purpose: make Mira's images feel like a fast-updating AI fashion magazine using global fashion trend research, while keeping the output wearable, daily, and repeatable.
+
+This document is the readable project copy. The stricter operational version lives in the Codex skill:
+
+```text
+11_skills/mira-image-daily/
+C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily\
+```
 
 ## Core Direction
 
@@ -9,7 +16,7 @@ Mira is not a single public virtual influencer. Mira is a magazine brand.
 The public feed should feel like:
 
 ```text
-Taiwan daily life + polished fashion magazine eye + approachable model + outfit clearly readable
+global trend signal + polished fashion magazine eye + approachable model + outfit clearly readable
 ```
 
 The public feed should not feel like:
@@ -19,6 +26,8 @@ virtual influencer roleplay, runway editorial, luxury hotel ad, brand campaign, 
 ```
 
 Internal model names must not appear on IG images, captions, Canva text, or public-facing copy.
+
+Perplexity weekly research is global by default. Do not narrow trend discovery to Taiwan. The image task is to translate global signals into wearable daily outfits for Mira's audience.
 
 ## Internal Models
 
@@ -44,13 +53,33 @@ The model profile controls visual consistency. It is not a character story.
 Every generated image should satisfy these rules:
 
 - Full outfit is readable in one second.
-- Person looks like a stylish ordinary Taiwan woman, not a distant supermodel.
+- Person looks stylish and approachable, not like a distant supermodel.
 - Pose is natural: walking, standing, adjusting bag, checking phone, waiting near a window, holding coffee.
 - Clothes are the hero; face is consistent but not over-glamorized.
-- Scene feels local and daily: cafe window, shaded sidewalk, MRT-adjacent walkway, department store fitting area, bookstore street, covered sidewalk.
+- Scene feels daily and believable: cafe window, shaded sidewalk, commute walkway, department store fitting area, bookstore street, covered sidewalk, quiet shopping street, simple studio with natural shadows.
 - Lighting is realistic: soft daylight, natural shadows, no plastic beauty render.
 - No visible logos, no text, no watermark, no shopping CTA inside image.
 - No Chinese words rendered inside the image.
+
+## Reference Start Image Requirement
+
+Do not generate daily outfit images from text-only character descriptions.
+
+Each model must first have an approved reference start image:
+
+```text
+02_brand/reference_models/M01_start.png
+02_brand/reference_models/M02_start.png
+02_brand/reference_models/M03_start.png
+```
+
+Approval is tracked in:
+
+```text
+02_brand/mira_reference_images.csv
+```
+
+Daily generation for a model is blocked until its row status is `approved` and the file exists.
 
 ## Rejection Rules
 
@@ -99,7 +128,7 @@ If candidate A is strong enough, stop and move to review. Do not over-generate j
 Use English for image prompts, with clothing details kept precise.
 
 ```text
-Create a realistic vertical lifestyle fashion image for Mira, an AI fashion magazine brand in Taiwan.
+Create a realistic vertical lifestyle fashion image for Mira, an AI fashion magazine brand using global fashion trend research.
 
 Use internal model {model_profile_id} only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
 
@@ -113,7 +142,7 @@ Styling:
 {styling_rules}
 
 Scene:
-{scene}. Make it feel like a believable Taiwan daily-life moment, not a runway, not a luxury hotel ad, not a brand campaign.
+{scene}. Make it feel like a believable daily-life fashion moment, not a runway, not a luxury hotel ad, not a brand campaign. Use the global trend signal, but translate it into wearable styling.
 
 Composition:
 Vertical 4:5 image. Full outfit readable within one second. Natural posture. Soft daylight. Real skin texture. Clothes are clear. Face is natural, calm, and approachable.
@@ -155,4 +184,3 @@ occasion = weekend / date / cafe
 ```
 
 Goal: find the Mira image tone before scaling to M01 and M03.
-

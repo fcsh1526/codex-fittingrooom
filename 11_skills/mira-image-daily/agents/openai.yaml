@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mira Image Daily"
+  short_description: "Daily Mira fashion image workflow"
+  default_prompt: "Use $mira-image-daily to prepare today's Mira outfit image job from the weekly packet."
