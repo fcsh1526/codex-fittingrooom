@@ -389,10 +389,12 @@ To validate an existing run folder:
 The current primary flow is Codex workspace image generation plus semi-manual review:
 
 1. Open `daily_queue.csv` to see today's outfit and `model_profile_id`.
-2. Open `image_generation_briefs.md` for the image brief.
-3. Generate or place candidate images in `generated_images/`.
-4. Score candidates in `image_review_template.csv`.
-5. Run asset selection with `--provider Codex`.
+2. Open `02_brand/mira_image_generation_spec_v1.md` for the shared image standard.
+3. Open `image_generation_briefs.md` for the run-specific image brief.
+4. For W26 M02 testing, open `10_automation/runs/2026-W26/m02_polka_image_test_brief.md`.
+5. Generate or place candidate images in `generated_images/`.
+6. Score candidates in `image_review_template.csv`.
+7. Run asset selection with `--provider Codex`.
 
 Reject images that feel like a runway, luxury hotel ad, over-posed influencer shoot, plastic skin, or distant supermodel styling. Keep the outfit clear, daily, Taiwan-relevant, and easy to imagine buying.
 

@@ -156,6 +156,8 @@ Core templates:
 02_brand/mira_identity_block.md
 02_brand/mira_model_roster.md
 02_brand/mira_model_roster.json
+02_brand/mira_image_generation_spec_v1.md
+10_automation/runs/2026-W26/m02_polka_image_test_brief.md
 ```
 
 Recovery files:
@@ -186,6 +188,13 @@ Use PUBLISH_QUEUE.md first. Use 05_content/2026_06_18_reactivation_plan.md only 
 3. Score candidates in `image_review_template.csv`.
 4. Use the 3-slide minimal Canva template automation or manual review to finish the next distinct carousel.
 5. Record metrics after publishing.
+
+Current image-generation discussion should start from:
+
+```text
+02_brand/mira_image_generation_spec_v1.md
+10_automation/runs/2026-W26/m02_polka_image_test_brief.md
+```
 
 ## Next Codex Work
 

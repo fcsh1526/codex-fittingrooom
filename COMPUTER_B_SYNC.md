@@ -68,6 +68,7 @@ Open these when working on the carousel:
 10_automation/runs/2026-W26/daily_queue.csv
 10_automation/runs/2026-W26/image_generation_briefs.md
 10_automation/runs/2026-W26/image_review_template.csv
+10_automation/runs/2026-W26/m02_polka_image_test_brief.md
 10_automation/runs/2026-W26/post_drafts.md
 10_automation/runs/2026-W26/publish_checklist.md
 ```
@@ -89,6 +90,7 @@ Current Mira identity file:
 ```text
 02_brand/mira_identity_block.md
 02_brand/mira_model_roster.md
+02_brand/mira_image_generation_spec_v1.md
 ```
 
 Internal model rule:
@@ -100,6 +102,12 @@ M03 = casual / budget-friendly daily wear
 ```
 
 Do not publish model names in IG copy; they are only for consistent image generation.
+
+Image generation note:
+
+```text
+W26 has old selected images and can still be assembled in Canva, but the new Mira v1 direction should first test fresh M02 polka-dot candidates from m02_polka_image_test_brief.md.
+```
 
 ## Current Queue
 
