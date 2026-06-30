@@ -2,9 +2,9 @@
 
 Generated: 2026-06-30
 
-Status update: v1 faces were too similar. v2 candidates were generated with stronger separation in face shape, hairstyle, body proportion, and role energy. The manifest now points to v2 files.
+Status update: v1 faces were too similar. v2 candidates were generated with stronger separation in face shape, hairstyle, body proportion, and role energy. The user approved all three v2 files on 2026-06-30.
 
-These are candidate identity anchors for the `$mira-image-daily` workflow. Do not mark them `approved` until the user accepts the face, hairstyle, body proportions, and overall role fit.
+These are the approved identity anchors for the `$mira-image-daily` workflow.
 
 ## M01 Office
 
@@ -58,24 +58,12 @@ Kept for comparison only:
 02_brand/reference_models/M03_start.png
 ```
 
-## Approval Step
+## Approval Status
 
-If accepted, update:
+Approved manifest:
 
 ```text
 02_brand/mira_reference_images.csv
 ```
 
-from:
-
-```text
-candidate_review
-```
-
-to:
-
-```text
-approved
-```
-
-Only then should `$mira-image-daily` prepare daily outfit image jobs for that model.
+All three v2 rows are now `approved`, so `$mira-image-daily` can prepare daily outfit image jobs for M01, M02, and M03.

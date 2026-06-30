@@ -1,4 +1,4 @@
 model_profile_id,reference_image_path,status,notes
-M01,02_brand/reference_models/M01_start_v2.png,candidate_review,Office model v2 candidate generated 2026-06-30 after v1 faces were too similar; awaiting user approval.
-M02,02_brand/reference_models/M02_start_v2.png,candidate_review,Weekend model v2 candidate generated 2026-06-30 after v1 faces were too similar; awaiting user approval.
-M03,02_brand/reference_models/M03_start_v2.png,candidate_review,Casual model v2 candidate generated 2026-06-30 after v1 faces were too similar; awaiting user approval.
+M01,02_brand/reference_models/M01_start_v2.png,approved,Office model v2 approved by user on 2026-06-30.
+M02,02_brand/reference_models/M02_start_v2.png,approved,Weekend model v2 approved by user on 2026-06-30.
+M03,02_brand/reference_models/M03_start_v2.png,approved,Casual model v2 approved by user on 2026-06-30.
