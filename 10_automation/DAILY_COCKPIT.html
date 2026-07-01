@@ -144,25 +144,25 @@
     <header>
       <h1>Mira Daily Cockpit</h1>
       <div class="meta">
-        <span class="pill">Date: 2026-06-30</span>
+        <span class="pill">Date: 2026-07-01</span>
         <span class="pill">Production-first: zero reach does not block carousel production.</span>
-        <span class="pill">Top stage: canva_committed_ready_to_publish</span>
+        <span class="pill">Top stage: needs_visual_revision</span>
       </div>
     </header>
 
     <section class="card hero">
       <h2>Today, Do This First</h2>
       <p class="big">2026-W26-002</p>
-      <p><strong>Type:</strong> carousel / <strong>Model:</strong> M02 / <strong>Stage:</strong> canva_committed_ready_to_publish</p>
+      <p><strong>Type:</strong> carousel / <strong>Model:</strong> M02 / <strong>Stage:</strong> needs_visual_revision</p>
       <p><strong>Asset:</strong> 2026-W26-002_M02_candidate_A.png</p>
-      <p><strong>Next action:</strong> Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.</p>
+      <p><strong>Next action:</strong> Do not publish. Review image quality, regenerate candidates, and revise the Canva magazine template / crop before export.</p>
       <p><a class="button" href="10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A.png">Open Recommended Asset</a></p>
     </section>
 
     <div class="grid">
       <div>
-        <section class="card"><h2>Checklist</h2><label class="check"><input type="checkbox" data-check="0"><span>Open the Canva panorama design and review the committed layout.</span></label><label class="check"><input type="checkbox" data-check="1"><span>Export the 3 carousel slides if the layout looks acceptable.</span></label><label class="check"><input type="checkbox" data-check="2"><span>Publish or schedule the Instagram carousel.</span></label><label class="check"><input type="checkbox" data-check="3"><span>Send Codex the post URL, publish time, and any immediate notes.</span></label></section>
-        <section class="card"><h2>Files To Open</h2><ul><li><a href="runs/2026-W26/canva_fill_guide.md">canva_fill_guide.md</a></li><li><a href="runs/2026-W26/canva_asset_plan.md">canva_asset_plan.md</a></li><li><a href="runs/2026-W26/post_drafts.md">post_drafts.md</a></li><li><a href="runs/2026-W26/publish_checklist.md">publish_checklist.md</a></li></ul></section>
+        <section class="card"><h2>Checklist</h2><label class="check"><input type="checkbox" data-check="0"><span>Do not publish this carousel yet.</span></label><label class="check"><input type="checkbox" data-check="1"><span>Review the generated image candidates for face drift, ghosting, body artifacts, and outfit clarity.</span></label><label class="check"><input type="checkbox" data-check="2"><span>Regenerate better candidates before replacing Canva assets.</span></label><label class="check"><input type="checkbox" data-check="3"><span>Revise the Canva template direction toward a high-fashion magazine layout before export.</span></label></section>
+        <section class="card"><h2>Files To Open</h2><ul><li><a href="runs/2026-W26/generated_images">generated_images</a></li><li><a href="runs/2026-W26/image_review_template.csv">image_review_template.csv</a></li><li><a href="runs/2026-W26/canva_asset_plan.md">canva_asset_plan.md</a></li><li><a href="runs/2026-W26/canva_fill_guide.md">canva_fill_guide.md</a></li><li><a href="runs/2026-W26/README.md">README.md</a></li></ul></section>
         <section class="card"><h2>Reply Template For Codex</h2><pre id='reply'>今日回報：
 item = 2026-W26-002
 type = carousel
@@ -176,14 +176,14 @@ published at =
 stuck = </pre><button class='button secondary' onclick='copyReply()'>Copy Reply Template</button></section>
       </div>
       <div>
-        <section class="card"><h2>Refresh Command</h2><pre>powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-30</pre></section>
-        <section class="card"><h2>Queue Preview</h2><table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody><tr><td>carousel</td><td>2026-W26-002</td><td>M02</td><td>canva_committed_ready_to_publish</td><td>2026-W26-002_M02_candidate_A.png</td><td>Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.</td></tr><tr><td>carousel</td><td>2026-W26-001</td><td>M01</td><td>ready_for_canva_and_publish</td><td>ChatGPT Image 2026年6月24日 下午03_30_22.png</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr></tbody></table></section>
+        <section class="card"><h2>Refresh Command</h2><pre>powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-07-01</pre></section>
+        <section class="card"><h2>Queue Preview</h2><table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody><tr><td>carousel</td><td>2026-W26-002</td><td>M02</td><td>needs_visual_revision</td><td>2026-W26-002_M02_candidate_A.png</td><td>Do not publish. Review image quality, regenerate candidates, and revise the Canva magazine template / crop before export.</td></tr><tr><td>carousel</td><td>2026-W26-001</td><td>M01</td><td>ready_for_canva_and_publish</td><td>ChatGPT Image 2026年6月24日 下午03_30_22.png</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr></tbody></table></section>
         <section class="card"><h2>Reference</h2><p><a href="DAILY_COCKPIT.md">DAILY_COCKPIT.md</a></p><p><a href="TODAY.md">TODAY.md</a></p><p><a href="PUBLISH_QUEUE.md">PUBLISH_QUEUE.md</a></p></section>
       </div>
     </div>
   </main>
   <script>
-    const storageKey = "mika-cockpit-2026-06-30-2026-W26-002";
+    const storageKey = "mika-cockpit-2026-07-01-2026-W26-002";
     const boxes = Array.from(document.querySelectorAll('input[type="checkbox"][data-check]'));
     const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
     boxes.forEach(box => {

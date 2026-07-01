@@ -22,13 +22,15 @@ Selected carousel candidates:
 Current Canva status:
 
 ```text
-2026-W26-002: Canva auto-fill committed on 2026-06-30.
+2026-W26-002: Canva auto-fill committed on 2026-06-30, but user rejected the result on 2026-07-01.
 Template: https://www.canva.com/design/DAHN7repRtk/EtRfbf-gk-HgejgxKHImoQ/edit
 Images: Candidate A cover, Candidate B crop/detail.
+Problems: generated face drift / ghosting; slide 2 cropped the head; template lacks high-fashion magazine feel.
 ```
 
 Next user action:
 
-1. Open the Mira Canva template: https://www.canva.com/design/DAHN7repRtk/EtRfbf-gk-HgejgxKHImoQ/edit
-2. Review the committed W26-002 layout in Canva and export the 3 carousel slides if acceptable.
-3. Keep `daily_queue.csv` and `image_generation_briefs.md` as the new daily-production structure for the next run.
+1. Do not publish W26-002.
+2. Discuss and revise the high-fashion magazine template direction before another Canva commit.
+3. Regenerate W26-002 image candidates with stricter face/artifact QA.
+4. Keep `daily_queue.csv` and `image_generation_briefs.md` as the new daily-production structure for the next run.

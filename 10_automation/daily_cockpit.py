@@ -61,6 +61,14 @@ def run_files(top_item):
             normalize_path(f"{run_dir}/generated_images"),
             normalize_path(f"{run_dir}/canva_asset_slots.csv"),
         ]
+    if item_type == "carousel" and stage == "needs_visual_revision":
+        return [
+            normalize_path(f"{run_dir}/generated_images"),
+            normalize_path(f"{run_dir}/image_review_template.csv"),
+            normalize_path(f"{run_dir}/canva_asset_plan.md"),
+            normalize_path(f"{run_dir}/canva_fill_guide.md"),
+            normalize_path(f"{run_dir}/README.md"),
+        ]
     if item_type == "visibility_test":
         package = clean(top_item.get("package_path"))
         return [package] if package else []
@@ -97,6 +105,13 @@ def checklist_for(top_item):
             "Save candidates under generated_images.",
             "Review and score the candidates in image_review_template.csv.",
             "Run asset selection and validation.",
+        ]
+    if item_type == "carousel" and stage == "needs_visual_revision":
+        return [
+            "Do not publish this carousel yet.",
+            "Review the generated image candidates for face drift, ghosting, body artifacts, and outfit clarity.",
+            "Regenerate better candidates before replacing Canva assets.",
+            "Revise the Canva template direction toward a high-fashion magazine layout before export.",
         ]
     if item_type == "visibility_test":
         return [

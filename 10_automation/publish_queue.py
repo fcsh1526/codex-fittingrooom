@@ -98,6 +98,8 @@ def latest_by_carousel(rows, carousel_id):
 
 def stage_for_carousel(packet, asset, publish, metric):
     packet_status = clean(packet.get("status")).lower()
+    if packet_status == "needs_visual_revision":
+        return "needs_visual_revision"
     if packet_status in {"paused", "archived", "do_not_publish", "skip"}:
         return packet_status
     if metric:
@@ -119,6 +121,7 @@ def next_action_for_stage(stage):
         "published_waiting_for_metrics": "Record 6h / 24h metrics with record_post_metrics.py.",
         "needs_image_asset_selection": "Generate or score OpenAI images, then run select_grok_assets.py with --provider OpenAI.",
         "needs_grok_asset_selection": "Generate or score images, then run select_grok_assets.py.",
+        "needs_visual_revision": "Do not publish. Review image quality, regenerate candidates, and revise the Canva magazine template / crop before export.",
         "paused": "Paused by user; do not publish unless reactivated.",
         "archived": "Archived; do not publish.",
         "do_not_publish": "Do not publish this item.",
@@ -202,6 +205,8 @@ def item_priority(row):
     item_type = clean(row.get("item_type"))
     if stage in {"paused", "archived", "do_not_publish", "skip"}:
         return -10
+    if item_type == "carousel" and stage == "needs_visual_revision":
+        return 115
     if item_type == "carousel" and stage == "canva_committed_ready_to_publish":
         return 110
     if item_type == "carousel" and stage == "ready_for_canva_and_publish":
@@ -210,6 +215,7 @@ def item_priority(row):
         return 90
     priorities = {
         "published_waiting_for_metrics": 80,
+        "needs_visual_revision": 95,
         "canva_committed_ready_to_publish": 90,
         "ready_for_canva_and_publish": 75,
         "needs_image_asset_selection": 70,

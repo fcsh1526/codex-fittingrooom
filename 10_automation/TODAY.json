@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W26",
     "stage": "ready_for_canva_and_publish",
@@ -46,7 +46,7 @@
       "model_profile_id": "M02",
       "trend_name": "波點洋裝/套裝（Polka Dots）",
       "content_bucket": "date_outfit",
-      "stage": "canva_committed_ready_to_publish",
+      "stage": "needs_visual_revision",
       "platform": "Instagram",
       "recommended_asset": "2026-W26-002_M02_candidate_A.png",
       "asset_url": "10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A.png",
@@ -54,7 +54,7 @@
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
+      "next_action": "Do not publish. Review image quality, regenerate candidates, and revise the Canva magazine template / crop before export.",
       "run_dir": "10_automation\\runs\\2026-W26",
       "package_path": ""
     }

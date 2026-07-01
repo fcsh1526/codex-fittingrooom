@@ -9,6 +9,7 @@ from weekly_dashboard import build_dashboard
 
 
 STAGE_PRIORITY = {
+    "needs_visual_revision": 120,
     "canva_committed_ready_to_publish": 110,
     "ready_for_canva_and_publish": 100,
     "needs_image_asset_selection": 90,
@@ -154,6 +155,29 @@ def stage_brief(stage):
                 "10_automation/runs/{run}/image_generation_briefs.md",
                 "10_automation/runs/{run}/image_review_template.csv",
                 "10_automation/select_grok_assets.py",
+            ],
+        },
+        "needs_visual_revision": {
+            "decision": "The current carousel should not be published; visual quality and template direction need revision.",
+            "tasks": [
+                "Review the generated candidates for face drift, ghosting, body artifacts, and outfit clarity.",
+                "Regenerate image candidates only after tightening the prompt and review criteria.",
+                "Discuss and revise the Canva template toward a high-fashion magazine carousel before export.",
+            ],
+            "user_inputs": [
+                "Which candidate image problems are unacceptable",
+                "Preferred high-fashion magazine references or direction",
+                "Whether to redesign the template before generating more images",
+            ],
+            "codex_actions": [
+                "Mark the run as blocked from publishing.",
+                "Draft stricter image QA and Canva crop checks.",
+                "Prepare a revised template brief before another Canva commit.",
+            ],
+            "files": [
+                "10_automation/runs/{run}/generated_images",
+                "10_automation/runs/{run}/image_review_template.csv",
+                "10_automation/runs/{run}/canva_asset_plan.md",
             ],
         },
         "needs_grok_asset_selection": {

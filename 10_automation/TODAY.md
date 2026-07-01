@@ -1,6 +1,6 @@
 # Mira Daily Brief
 
-Date: `2026-06-30`
+Date: `2026-07-01`
 Priority run: `2026-W26`
 Stage: `ready_for_canva_and_publish`
 
@@ -42,9 +42,9 @@ The run is ready for Canva assembly and publishing.
 - Type: `carousel`
 - ID: `2026-W26-002`
 - Model: `M02`
-- Stage: `canva_committed_ready_to_publish`
+- Stage: `needs_visual_revision`
 - Asset: `2026-W26-002_M02_candidate_A.png`
-- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
+- Next action: Do not publish. Review image quality, regenerate candidates, and revise the Canva magazine template / crop before export.
 
 ## Current Next Action
 
