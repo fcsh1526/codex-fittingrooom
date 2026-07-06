@@ -3,6 +3,7 @@
 Generated: 2026-06-30
 
 Phase A status update: 2026-07-06
+Phase B M01 update: 2026-07-06
 
 Mira now uses four fixed internal identities with true-age metadata and prompt-safe visual-age language:
 
@@ -23,11 +24,11 @@ Use:
 02_brand/mira_reference_images.csv
 ```
 
-Current approved transitional anchors:
+Current approved anchors:
 
 ```text
-M01: 02_brand/reference_models/M01_start_v2_face.png
-M01: 02_brand/reference_models/M01_start_v2_full.png
+M01: 02_brand/reference_models/M01_start_v3_face.png
+M01: 02_brand/reference_models/M01_start_v3_full.png
 M02: 02_brand/reference_models/M02_start_v2_face.png
 M02: 02_brand/reference_models/M02_start_v2_full.png
 M03: 02_brand/reference_models/M03_start_v2_face.png
@@ -36,7 +37,7 @@ M04: 02_brand/reference_models/M04_start_v2_face.png
 M04: 02_brand/reference_models/M04_start_v2_full.png
 ```
 
-These v2 anchors are only a Phase A remap so the factory has consistent numbering before Phase B. Phase B will replace them one model at a time with v3 face/full anchors after user approval.
+M01 has completed Phase B and now points to approved v3 face/full anchors. M02, M03, and M04 still use transitional v2 anchors until their own Phase B rebuilds are approved.
 
 ## Legacy Files
 
