@@ -19,28 +19,30 @@ Use:
 Required rows:
 
 ```text
-model_profile_id,reference_image_path,status,notes
-M01,02_brand/reference_models/M01_start.png,needed,Office model anchor
-M02,02_brand/reference_models/M02_start.png,needed,Weekend model anchor
-M03,02_brand/reference_models/M03_start.png,needed,Casual model anchor
+model_profile_id,true_age,visual_age_prompt,reference_version,reference_face_path,reference_full_path,status,superseded_paths,notes
+M01,25,early 20s,v3,02_brand/reference_models/M01_start_v3_face.png,02_brand/reference_models/M01_start_v3_full.png,needed,,Prompt uses visual age only
+M02,35,"late 20s, youthful",v3,02_brand/reference_models/M02_start_v3_face.png,02_brand/reference_models/M02_start_v3_full.png,needed,,Prompt uses visual age only
+M03,45,"mid 30s look, well-maintained",v3,02_brand/reference_models/M03_start_v3_face.png,02_brand/reference_models/M03_start_v3_full.png,needed,,Prompt uses visual age only
+M04,55,"early 40s look, elegant",v3,02_brand/reference_models/M04_start_v3_face.png,02_brand/reference_models/M04_start_v3_full.png,needed,,Prompt uses visual age only
 ```
 
-Do not proceed with daily image generation for a model until its reference image exists and status is `approved`.
+Do not proceed with daily image generation for a model until both reference images exist and status is `approved`.
 
 ## Reference Image Requirements
 
-Each reference start image must be:
+Each reference start pair must include:
 
 - one person only
-- front or slight three-quarter view
+- one face anchor: front or slight three-quarter portrait
+- one full-body anchor: head-to-shoe visible
 - neutral simple outfit, not trend-specific
-- full body or at least head-to-shoe visible
 - natural skin texture
 - ordinary healthy body proportions
 - no logos, no text, no watermark
 - neutral background
 - stable hairstyle and face
 - age and body type matching `mira_model_roster.json`
+- prompt visual age language, not numeric true age, when generating anchors
 
 ## What Can Change Later
 
@@ -71,4 +73,3 @@ If a reference image is missing:
 2. Tell the user exactly which file is missing.
 3. Offer to create the reference-start-image brief first.
 4. Do not create daily outfit candidates yet.
-

@@ -2,68 +2,66 @@
 
 Generated: 2026-06-30
 
-Status update: v1 faces were too similar. v2 candidates were generated with stronger separation in face shape, hairstyle, body proportion, and role energy. The user approved all three v2 files on 2026-06-30.
+Phase A status update: 2026-07-06
 
-These are the approved identity anchors for the `$mira-image-daily` workflow.
-
-## M01 Office
-
-File:
+Mira now uses four fixed internal identities with true-age metadata and prompt-safe visual-age language:
 
 ```text
-02_brand/reference_models/M01_start_v2.png
+M01 true age 25 -> prompt visual age: early 20s
+M02 true age 35 -> prompt visual age: late 20s, youthful
+M03 true age 45 -> prompt visual age: mid 30s look, well-maintained
+M04 true age 55 -> prompt visual age: early 40s look, elegant
 ```
 
-Review:
+The old single-image start files are retained for audit. Previous reference-pack draft folders were moved to the run archive. They are not the current source of truth.
 
-- Role fit: office / commute / meeting
-- Strength: visibly more mature than M02/M03, short bob, sharper office presence, full-body clean reference
-- Watch: strong professional mood; approve if M01 should be the most mature and structured model
+## Current Source Of Truth
 
-## M02 Weekend
-
-File:
-
-```text
-02_brand/reference_models/M02_start_v2.png
-```
-
-Review:
-
-- Role fit: weekend / date / cafe
-- Strength: rounder face, long wavy hair, softer smile, clearly different from M01 and M03
-- Watch: still a bit polished; approve if this level of softness is right for weekend/date content
-
-## M03 Casual
-
-File:
-
-```text
-02_brand/reference_models/M03_start_v2.png
-```
-
-Review:
-
-- Role fit: casual / budget-friendly daily wear
-- Strength: short-hair casual identity, practical outfit, stronger ordinary-life relatability, distinct from long-haired M02
-- Watch: face is still conventionally pretty; approve only if it feels ordinary enough for casual/small-budget content
-
-## Previous v1 Files
-
-Kept for comparison only:
-
-```text
-02_brand/reference_models/M01_start.png
-02_brand/reference_models/M02_start.png
-02_brand/reference_models/M03_start.png
-```
-
-## Approval Status
-
-Approved manifest:
+Use:
 
 ```text
 02_brand/mira_reference_images.csv
 ```
 
-All three v2 rows are now `approved`, so `$mira-image-daily` can prepare daily outfit image jobs for M01, M02, and M03.
+Current approved transitional anchors:
+
+```text
+M01: 02_brand/reference_models/M01_start_v2_face.png
+M01: 02_brand/reference_models/M01_start_v2_full.png
+M02: 02_brand/reference_models/M02_start_v2_face.png
+M02: 02_brand/reference_models/M02_start_v2_full.png
+M03: 02_brand/reference_models/M03_start_v2_face.png
+M03: 02_brand/reference_models/M03_start_v2_full.png
+M04: 02_brand/reference_models/M04_start_v2_face.png
+M04: 02_brand/reference_models/M04_start_v2_full.png
+```
+
+These v2 anchors are only a Phase A remap so the factory has consistent numbering before Phase B. Phase B will replace them one model at a time with v3 face/full anchors after user approval.
+
+## Legacy Files
+
+Kept for comparison only:
+
+```text
+02_brand/reference_models/M01_start.png
+02_brand/reference_models/M01_start_v2.png
+02_brand/reference_models/M02_start.png
+02_brand/reference_models/M02_start_v2.png
+02_brand/reference_models/M03_start.png
+02_brand/reference_models/M03_start_v2.png
+02_brand/reference_models/M04_start.png
+02_brand/reference_models/M04_start_v1.png
+10_automation/runs/2026-W26/reference_model_drafts_phase_a/*_pack_v1/
+```
+
+Do not use these legacy paths directly for new daily outfit image jobs unless `mira_reference_images.csv` points to them.
+
+## Prompt Rule
+
+When generating any new anchor candidate or daily outfit image:
+
+```text
+Express age through styling and presence, NOT wrinkles.
+East Asian women look significantly younger than Western age norms.
+Skin is smooth and well-maintained.
+```

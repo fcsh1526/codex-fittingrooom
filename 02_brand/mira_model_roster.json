@@ -1,36 +1,60 @@
 {
-  "version": "Mira model roster v1",
-  "public_rule": "Do not publish model names. These profiles are internal production controls for consistent outfit imagery.",
+  "version": "Mira model roster v5 - true age metadata with prompt-safe visual ages",
+  "public_rule": "Do not publish model names or model IDs. These profiles are internal production controls for consistent outfit imagery across age cohorts.",
+  "assignment_rule": "M01, M02, M03, and M04 represent fixed internal model identities, not fixed outfit occasions. Any weekly trend can be styled for work, weekend, date, travel, rainy day, or casual use with any model when the content plan calls for it.",
+  "age_prompt_policy": "True ages are roster metadata only. Image prompts must use prompt_age_language and visual_profile, never the numeric true_age. Express age through styling and presence, NOT wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained.",
   "profiles": [
     {
       "model_profile_id": "M01",
-      "internal_label": "Office",
-      "content_buckets": ["office_capsule"],
-      "reader_projection": "A polished office worker who makes practical workwear feel elegant and reachable.",
-      "visual_profile": "East Asian woman, early 30s, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin, calm intelligent expression, slightly taller average-slim healthy proportions, 165-170cm visual height.",
-      "style_range": "button shirts, knit tops, blazers, tailored trousers, midi skirts, loafers, low heels, structured bags, quiet neutral layers.",
-      "daily_scenes": "MRT-adjacent walkway, office lobby, elevator hall, cafe before work, shaded city sidewalk.",
-      "avoid": "supermodel proportions, luxury hotel background, runway pose, hard power-suit styling, visible logos, overly perfect beauty lighting"
+      "internal_label": "M01 visual early-20s",
+      "true_age": 25,
+      "prompt_age_language": "early 20s",
+      "content_buckets": ["all"],
+      "reader_projection": "A young adult reader who wants clean daily outfits that are current, approachable, and easy to adapt without feeling childish.",
+      "fixed_hair_baseline": "jaw-length dark brown bob with natural movement",
+      "visual_profile": "East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish.",
+      "style_range": "T-shirts, denim, relaxed shirts, light outerwear, simple dresses, skirts, sneakers, flat sandals, loafers, canvas or nylon bags, clean budget-friendly pieces, casual work basics.",
+      "daily_scenes": "neighborhood street, convenience-store corner, covered sidewalk, casual cafe, rainy MRT exit, bookstore street, simple studio with natural shadows.",
+      "avoid": "teen styling, childlike styling, school-uniform look, over-cute idol styling, athleisure brand-ad look, streetwear hype styling, luxury bag focus, exaggerated pose, obvious AI smoothness, wrinkle-based age cues"
     },
     {
       "model_profile_id": "M02",
-      "internal_label": "Weekend",
-      "content_buckets": ["date_outfit", "weekend_daily"],
-      "reader_projection": "A weekend and date outfit reference with soft styling, approachable charm, and easy visual appeal.",
-      "visual_profile": "East Asian woman, mid to late 20s, distinctly rounder face with soft cheeks and gentle almond eyes, long dark brown wavy hair past the shoulders, natural makeup, relaxed posture, softer healthy slim build, 158-163cm visual height.",
-      "style_range": "dresses, skirts, light cardigans, sheer layers, ballet flats, Mary Janes, small shoulder bags, soft color palettes.",
-      "daily_scenes": "cafe window, bookstore street, department store fitting area, quiet shopping street, afternoon city corner.",
-      "avoid": "glamour model pose, bridal styling, luxury resort, excessive sweetness, plastic skin, heavy filters"
+      "internal_label": "M02 visual late-20s",
+      "true_age": 35,
+      "prompt_age_language": "late 20s, youthful",
+      "content_buckets": ["all"],
+      "reader_projection": "A practical adult reader who wants clean daily outfits that are current, wearable, and easy to adapt across work and leisure.",
+      "fixed_hair_baseline": "dark brown medium-to-long hair with soft natural movement",
+      "visual_profile": "East Asian woman with a late-20s youthful adult look, softly defined oval face, gentle cheeks, balanced jawline, dark brown medium-to-long hair with natural movement, natural warm fair skin with visible human texture, approachable composed expression, healthy slim-to-average proportions.",
+      "style_range": "T-shirts, denim, relaxed shirts, light outerwear, rain-friendly layers, simple dresses, skirts, relaxed tailoring, soft blouses, sneakers, flat sandals, loafers, canvas or nylon bags, clean practical pieces.",
+      "daily_scenes": "neighborhood street, cafe window, office-adjacent corridor, bookstore street, covered sidewalk, department store fitting area, simple studio with natural shadows.",
+      "avoid": "making her look teen, making her look mature-elegant, excessive sweetness, plastic skin, heavy filters, bridal styling, glamour model pose, luxury resort background, wrinkle-based age cues"
     },
     {
       "model_profile_id": "M03",
-      "internal_label": "Casual",
-      "content_buckets": ["daily_style", "rainy_day"],
-      "reader_projection": "A practical casual reference for small-budget daily outfits that still look clean and intentional.",
-      "visual_profile": "East Asian woman, late 20s, gentle square-oval face with a broader jaw and shorter chin than the other models, slightly tan natural skin tone, short dark hair in a soft jaw-length bob or neat low ponytail with wispy bangs, approachable practical expression, petite-to-medium healthy proportions, 155-160cm visual height.",
-      "style_range": "T-shirts, denim, relaxed shirts, light outerwear, rain-friendly layers, sneakers, flat sandals, canvas or nylon bags.",
-      "daily_scenes": "neighborhood street, convenience-store corner, covered sidewalk, casual cafe, rainy MRT exit.",
-      "avoid": "athleisure brand-ad look, streetwear hype styling, luxury bag focus, exaggerated pose, childlike styling, obvious AI smoothness"
+      "internal_label": "M03 visual mid-30s",
+      "true_age": 45,
+      "prompt_age_language": "mid 30s look, well-maintained",
+      "content_buckets": ["all"],
+      "reader_projection": "A stylish adult reader who wants practical outfits with softness, confidence, and enough polish for work or weekend.",
+      "fixed_hair_baseline": "dark brown medium-to-long hair with polished natural movement",
+      "visual_profile": "East Asian woman with a well-maintained mid-30s look, softly defined oval face with gentle cheeks and balanced jawline, dark brown medium-to-long hair with polished natural movement, natural makeup, relaxed confident posture, healthy slim-to-average build, smooth well-maintained skin with realistic fine texture.",
+      "style_range": "dresses, skirts, relaxed tailoring, cardigans, sheer layers, denim, trousers, soft blouses, ballet flats, Mary Janes, loafers, shoulder bags, restrained color palettes.",
+      "daily_scenes": "cafe window, office-adjacent corridor, bookstore street, department store fitting area, quiet shopping street, neighborhood sidewalk, simple studio with natural shadows.",
+      "avoid": "making her look teen, making her look elderly, excessive sweetness, plastic skin, heavy filters, bridal styling, glamour model pose, luxury resort background, wrinkle-based age cues"
+    },
+    {
+      "model_profile_id": "M04",
+      "internal_label": "M04 visual early-40s",
+      "true_age": 55,
+      "prompt_age_language": "early 40s look, elegant",
+      "content_buckets": ["all"],
+      "reader_projection": "A polished mature reader who wants modern outfits that feel current, composed, elegant, and wearable without looking overly young or overly formal.",
+      "fixed_hair_baseline": "straight dark brown chin-to-shoulder bob with a clean side part",
+      "visual_profile": "East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with smooth well-maintained texture, calm intelligent expression, slightly taller average-slim healthy proportions, composed editorial presence.",
+      "style_range": "button shirts, knit tops, blazers, sheer layers, tailored trousers, midi skirts, denim, dresses, loafers, low heels, refined flats, structured bags, quiet neutral layers, polished casual pieces.",
+      "daily_scenes": "office lobby, cafe before work, shaded city sidewalk, bookstore street, covered walkway, quiet shopping street, simple studio with natural shadows.",
+      "avoid": "making her look teen, making her look elderly, overly smoothed skin, wrinkle-focused aging, plastic beauty lighting, hard power-suit stereotype, luxury hotel background, runway pose, visible logos"
     }
   ]
 }

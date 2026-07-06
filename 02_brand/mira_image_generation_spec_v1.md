@@ -38,15 +38,20 @@ Use the roster in:
 02_brand/mira_model_roster.json
 ```
 
-Short production use:
+Internal true-age metadata and prompt-safe visual age language:
 
 ```text
-M01 = office / commute / meeting
-M02 = weekend / date / cafe
-M03 = casual / budget-friendly daily wear
+M01 true age 25 -> prompt visual age: early 20s
+M02 true age 35 -> prompt visual age: late 20s, youthful
+M03 true age 45 -> prompt visual age: mid 30s look, well-maintained
+M04 true age 55 -> prompt visual age: early 40s look, elegant
 ```
 
-The model profile controls visual consistency. It is not a character story.
+True ages are roster metadata only. Image prompts must not include numeric true ages. Express age through styling and presence, not wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained.
+
+The model profile controls identity and visual consistency. It is not a character story and it is not tied to one clothing occasion.
+
+Content buckets such as `office_capsule`, `date_outfit`, `weekend_daily`, `daily_style`, and `rainy_day` describe the outfit context. They do not decide the model by themselves. Any bucket can be styled for any age cohort when the content plan calls for it.
 
 ## Image Requirements
 
@@ -65,12 +70,17 @@ Every generated image should satisfy these rules:
 
 Do not generate daily outfit images from text-only character descriptions.
 
-Each model must first have an approved reference start image:
+Each model must first have approved face and full-body reference start images:
 
 ```text
-02_brand/reference_models/M01_start.png
-02_brand/reference_models/M02_start.png
-02_brand/reference_models/M03_start.png
+02_brand/reference_models/M01_start_v{version}_face.png
+02_brand/reference_models/M01_start_v{version}_full.png
+02_brand/reference_models/M02_start_v{version}_face.png
+02_brand/reference_models/M02_start_v{version}_full.png
+02_brand/reference_models/M03_start_v{version}_face.png
+02_brand/reference_models/M03_start_v{version}_full.png
+02_brand/reference_models/M04_start_v{version}_face.png
+02_brand/reference_models/M04_start_v{version}_full.png
 ```
 
 Approval is tracked in:
@@ -79,7 +89,15 @@ Approval is tracked in:
 02_brand/mira_reference_images.csv
 ```
 
-Daily generation for a model is blocked until its row status is `approved` and the file exists.
+Daily generation for a model is blocked until its row status is `approved` and both `reference_face_path` and `reference_full_path` exist.
+
+Legacy draft pack folders are archived under run folders for audit. The only current truth source for approved anchors is:
+
+```text
+02_brand/mira_reference_images.csv
+```
+
+Old versions are never overwritten or deleted. Superseded paths stay in the manifest notes/audit trail. Candidate images and drafts must stay in run folders, not as canonical files under `02_brand/`.
 
 ## Rejection Rules
 
@@ -135,6 +153,14 @@ Use internal model {model_profile_id} only as a private production profile. Do n
 Model profile:
 {visual_profile}
 
+Prompt visual age language:
+{prompt_age_language}
+
+Age rendering:
+Express age through styling and presence, NOT wrinkles.
+East Asian women look significantly younger than Western age norms.
+Skin is smooth and well-maintained.
+
 Outfit:
 {clothing_item}. Palette: {color_palette}. Fabric: {fabric}. Fit: {fit}.
 
@@ -148,7 +174,7 @@ Composition:
 Vertical 4:5 image. Full outfit readable within one second. Natural posture. Soft daylight. Real skin texture. Clothes are clear. Face is natural, calm, and approachable.
 
 Avoid:
-supermodel proportions, runway pose, luxury resort, plastic skin, flawless beauty render, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, text, watermark.
+supermodel proportions, runway pose, luxury resort, plastic skin, flawless beauty render, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, text, watermark, wrinkle-based age cues, numeric true-age labels.
 ```
 
 ## Review Scores
@@ -183,4 +209,4 @@ outfit = 波點洋裝
 occasion = weekend / date / cafe
 ```
 
-Goal: find the Mira image tone before scaling to M01 and M03.
+Goal: find the Mira image tone before scaling across M01/M02/M03/M04.

@@ -1,36 +1,86 @@
-# Mira Model Roster v1
+# Mira Model Roster v5 - True Ages With Prompt-Safe Visual Ages
 
-Purpose: keep Mira as a fast-updating AI fashion magazine while using three fixed internal models for visual consistency and reader projection.
+Purpose: keep Mira as a fast-updating AI fashion magazine while using four fixed internal models for visual consistency across reader age bands.
 
 Public rule:
 
 ```text
-Do not publish model names. The account can look like a magazine with recurring familiar models, but the models are internal production controls.
+Do not publish model names or model IDs. The account can look like a magazine with recurring familiar models, but the models are internal production controls.
 ```
 
-## M01 - Office
+## Age Policy
 
-- Internal role: commute / workwear / meeting outfits.
-- Projection: a polished Taiwan office worker who makes practical workwear feel elegant and reachable.
-- Visual profile: East Asian woman, early 30s, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin, calm intelligent expression, slightly taller average-slim healthy proportions, 165-170cm visual height.
-- Style range: button shirts, knit tops, blazers, tailored trousers, midi skirts, loafers, low heels, structured bags, quiet neutral layers.
-- Scenes: MRT-adjacent walkway, office lobby, elevator hall, cafe before work, shaded city sidewalk.
-- Avoid: supermodel proportions, luxury hotel background, runway pose, hard power-suit styling, visible logos, overly perfect beauty lighting.
+True ages are internal roster metadata only. Do not put numeric true ages into image prompts.
 
-## M02 - Weekend
+Prompt age language:
 
-- Internal role: weekend / date / cafe / soft lifestyle outfits.
-- Projection: a weekend and date outfit reference with soft styling, approachable charm, and easy visual appeal.
-- Visual profile: East Asian woman, mid to late 20s, distinctly rounder face with soft cheeks and gentle almond eyes, long dark brown wavy hair past the shoulders, natural makeup, relaxed posture, softer healthy slim build, 158-163cm visual height.
-- Style range: dresses, skirts, light cardigans, sheer layers, ballet flats, Mary Janes, small shoulder bags, soft color palettes.
-- Scenes: cafe window, bookstore street, department store fitting area, quiet shopping street, afternoon city corner.
-- Avoid: glamour model pose, bridal styling, luxury resort, excessive sweetness, plastic skin, heavy filters.
+```text
+M01 true age 25 -> prompt visual age: early 20s
+M02 true age 35 -> prompt visual age: late 20s, youthful
+M03 true age 45 -> prompt visual age: mid 30s look, well-maintained
+M04 true age 55 -> prompt visual age: early 40s look, elegant
+```
 
-## M03 - Casual
+Every model prompt must follow:
 
-- Internal role: daily casual / rainy day / small-budget easy outfits.
-- Projection: a practical casual reference for small-budget daily outfits that still look clean and intentional.
-- Visual profile: East Asian woman, late 20s, gentle square-oval face with a broader jaw and shorter chin than the other models, slightly tan natural skin tone, short dark hair in a soft jaw-length bob or neat low ponytail with wispy bangs, approachable practical expression, petite-to-medium healthy proportions, 155-160cm visual height.
-- Style range: T-shirts, denim, relaxed shirts, light outerwear, rain-friendly layers, sneakers, flat sandals, canvas or nylon bags.
-- Scenes: neighborhood street, convenience-store corner, covered sidewalk, casual cafe, rainy MRT exit.
-- Avoid: athleisure brand-ad look, streetwear hype styling, luxury bag focus, exaggerated pose, childlike styling, obvious AI smoothness.
+```text
+Express age through styling and presence, NOT wrinkles.
+East Asian women look significantly younger than Western age norms.
+Skin is smooth and well-maintained.
+```
+
+## Model Strategy
+
+M01/M02/M03/M04 are no longer tied to fixed scenes such as office, weekend, or casual. They are fixed identities and age cohorts.
+
+Any weekly trend can be styled for:
+
+```text
+work / commute / weekend / date / travel / rainy day / daily casual
+```
+
+with any model when the content plan calls for that identity.
+
+## M01
+
+- True age metadata: 25.
+- Prompt age language: early 20s.
+- Projection: a young adult reader who wants clean daily outfits that are current, approachable, and easy to adapt without feeling childish.
+- Fixed hair baseline: jaw-length dark brown bob with natural movement.
+- Visual profile for prompts: East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish.
+- Style range: T-shirts, denim, relaxed shirts, light outerwear, simple dresses, skirts, sneakers, flat sandals, loafers, canvas or nylon bags, clean budget-friendly pieces, casual work basics.
+- Scenes: neighborhood street, convenience-store corner, covered sidewalk, casual cafe, rainy MRT exit, bookstore street, simple studio with natural shadows.
+- Avoid: teen styling, childlike styling, school-uniform look, over-cute idol styling, athleisure brand-ad look, streetwear hype styling, luxury bag focus, exaggerated pose, obvious AI smoothness, wrinkle-based age cues.
+
+## M02
+
+- True age metadata: 35.
+- Prompt age language: late 20s, youthful.
+- Projection: a practical adult reader who wants clean daily outfits that are current, wearable, and easy to adapt across work and leisure.
+- Fixed hair baseline: dark brown medium-to-long hair with soft natural movement.
+- Visual profile for prompts: East Asian woman with a late-20s youthful adult look, softly defined oval face, gentle cheeks, balanced jawline, dark brown medium-to-long hair with natural movement, natural warm fair skin with visible human texture, approachable composed expression, healthy slim-to-average proportions.
+- Style range: T-shirts, denim, relaxed shirts, light outerwear, rain-friendly layers, simple dresses, skirts, relaxed tailoring, soft blouses, sneakers, flat sandals, loafers, canvas or nylon bags, clean practical pieces.
+- Scenes: neighborhood street, cafe window, office-adjacent corridor, bookstore street, covered sidewalk, department store fitting area, simple studio with natural shadows.
+- Avoid: making her look teen, making her look mature-elegant, excessive sweetness, plastic skin, heavy filters, bridal styling, glamour model pose, luxury resort background, wrinkle-based age cues.
+
+## M03
+
+- True age metadata: 45.
+- Prompt age language: mid 30s look, well-maintained.
+- Projection: a stylish adult reader who wants practical outfits with softness, confidence, and enough polish for work or weekend.
+- Fixed hair baseline: dark brown medium-to-long hair with polished natural movement.
+- Visual profile for prompts: East Asian woman with a well-maintained mid-30s look, softly defined oval face with gentle cheeks and balanced jawline, dark brown medium-to-long hair with polished natural movement, natural makeup, relaxed confident posture, healthy slim-to-average build, smooth well-maintained skin with realistic fine texture.
+- Style range: dresses, skirts, relaxed tailoring, cardigans, sheer layers, denim, trousers, soft blouses, ballet flats, Mary Janes, loafers, shoulder bags, restrained color palettes.
+- Scenes: cafe window, office-adjacent corridor, bookstore street, department store fitting area, quiet shopping street, neighborhood sidewalk, simple studio with natural shadows.
+- Avoid: making her look teen, making her look elderly, excessive sweetness, plastic skin, heavy filters, bridal styling, glamour model pose, luxury resort background, wrinkle-based age cues.
+
+## M04
+
+- True age metadata: 55.
+- Prompt age language: early 40s look, elegant.
+- Projection: a polished mature reader who wants modern outfits that feel current, composed, elegant, and wearable without looking overly young or overly formal.
+- Fixed hair baseline: straight dark brown chin-to-shoulder bob with a clean side part.
+- Visual profile for prompts: East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with smooth well-maintained texture, calm intelligent expression, slightly taller average-slim healthy proportions, composed editorial presence.
+- Style range: button shirts, knit tops, blazers, sheer layers, tailored trousers, midi skirts, denim, dresses, loafers, low heels, refined flats, structured bags, quiet neutral layers, polished casual pieces.
+- Scenes: office lobby, cafe before work, shaded city sidewalk, bookstore street, covered walkway, quiet shopping street, simple studio with natural shadows.
+- Avoid: making her look teen, making her look elderly, overly smoothed skin, wrinkle-focused aging, plastic beauty lighting, hard power-suit stereotype, luxury hotel background, runway pose, visible logos.

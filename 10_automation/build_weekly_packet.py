@@ -7,7 +7,7 @@ from pathlib import Path
 from generate_canva_handoff import write_canva_handoff
 from generate_canva_placeholders import FIELDNAMES as CANVA_FIELDS
 from generate_canva_placeholders import build_placeholders
-from mira_models import load_model_roster, model_for_bucket, validate_model_id
+from mira_models import load_model_roster, model_for_index, validate_model_id
 
 
 PACKET_FIELDS = [
@@ -67,6 +67,13 @@ IMAGE_REVIEW_FIELDS = [
     "publishable",
     "status",
     "notes",
+]
+
+
+AGE_RENDERING_RULES = [
+    "Express age through styling and presence, NOT wrinkles.",
+    "East Asian women look significantly younger than Western age norms.",
+    "Skin is smooth and well-maintained.",
 ]
 
 
@@ -132,7 +139,9 @@ def infer_bucket(row):
 def to_packet_row(row, week_id, index):
     prompt_id = clean(row.get("id") or row.get("prompt_id") or f"P{index:03d}")
     bucket = infer_bucket(row)
-    model_profile_id = validate_model_id(row.get("model_profile_id")) or model_for_bucket(bucket)
+    model_profile_id = validate_model_id(row.get("model_profile_id")) or model_for_index(index)
+    # Intentionally ignore source model_identity. It is a legacy Perplexity field;
+    # model identity is controlled only by model_profile_id and approved anchors.
     return {
         "week_id": week_id,
         "carousel_id": f"{week_id}-{index:03d}",
@@ -166,7 +175,8 @@ def model_context(packet, roster):
         return "Use the Mira magazine internal model assigned to this content bucket."
     return (
         f"Internal model {profile.get('model_profile_id')} ({profile.get('internal_label')}): "
-        f"{profile.get('visual_profile')} Style range: {profile.get('style_range')} "
+        f"{profile.get('visual_profile')} Prompt visual age language: {profile.get('prompt_age_language')}. "
+        f"{' '.join(AGE_RENDERING_RULES)} Style range: {profile.get('style_range')} "
         f"Scenes: {profile.get('daily_scenes')} Avoid: {profile.get('avoid')}"
     )
 
@@ -269,6 +279,7 @@ def write_image_generation_briefs(path, packets):
                 f"- Internal model role: {profile.get('internal_label', packet['model_profile_id'])}",
                 f"- Reader projection: {profile.get('reader_projection', '')}",
                 f"- Visual profile: {profile.get('visual_profile', '')}",
+                f"- Prompt visual age language: {profile.get('prompt_age_language', '')}",
                 f"- Outfit: {packet['clothing_item']}",
                 f"- Palette / fabric / fit: {packet['color_palette']} / {packet['fabric']} / {packet['fit']}",
                 f"- Occasion: {packet['occasion']}",
@@ -280,11 +291,13 @@ def write_image_generation_briefs(path, packets):
                 "Create a realistic vertical lifestyle fashion image for Mira, an AI fashion magazine brand.",
                 f"Use internal model {packet['model_profile_id']} only as a private production profile; do not render or include the model ID or any text in the image.",
                 profile.get("visual_profile", ""),
+                f"Prompt visual age language: {profile.get('prompt_age_language', '')}.",
+                " ".join(AGE_RENDERING_RULES),
                 f"Outfit: {packet['clothing_item']}; palette {packet['color_palette']}; fabric {packet['fabric']}; fit {packet['fit']}.",
                 f"Styling rules: {packet['styling_rules']}.",
                 f"Scene: {packet['scene']}. Make it feel like a believable Taiwan daily-life moment, not a runway or brand advertisement.",
                 "Composition: full outfit readable within one second, natural posture, soft directional daylight, subtle real skin texture, no visible logos, no text, no watermark.",
-                "Avoid: supermodel proportions, luxury hotel background, runway pose, plastic skin, flawless beauty render, sexualized pose, childlike styling, celebrity likeness.",
+                "Avoid: supermodel proportions, luxury hotel background, runway pose, plastic skin, flawless beauty render, sexualized pose, childlike styling, celebrity likeness, wrinkle-based age cues, numeric true-age labels.",
                 "```",
                 "",
             ]

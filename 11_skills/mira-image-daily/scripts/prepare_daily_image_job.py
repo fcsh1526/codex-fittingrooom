@@ -21,6 +21,13 @@ REVIEW_FIELDS = [
 ]
 
 
+AGE_RENDERING_RULES = [
+    "Express age through styling and presence, NOT wrinkles.",
+    "East Asian women look significantly younger than Western age norms.",
+    "Skin is smooth and well-maintained.",
+]
+
+
 def clean(value):
     return " ".join((value or "").split()).strip()
 
@@ -81,24 +88,36 @@ def reference_status(project_root, model_id):
             "message": f"Missing manifest row for {model_id} in {manifest_path}",
             "path": "",
         }
-    ref_path = project_root / clean(row.get("reference_image_path"))
+    face_path_value = clean(row.get("reference_face_path")) or clean(row.get("reference_image_path"))
+    full_path_value = clean(row.get("reference_full_path")) or face_path_value
+    face_path = project_root / face_path_value
+    full_path = project_root / full_path_value
     status = clean(row.get("status")).lower()
     if status != "approved":
         return {
             "ok": False,
             "message": f"Reference image for {model_id} is not approved: status={status or 'blank'}",
-            "path": str(ref_path),
+            "face_path": str(face_path),
+            "full_path": str(full_path),
         }
-    if not ref_path.exists():
+    if not face_path.exists():
         return {
             "ok": False,
-            "message": f"Reference image file is missing for {model_id}: {ref_path}",
-            "path": str(ref_path),
+            "message": f"Reference face image file is missing for {model_id}: {face_path}",
+            "face_path": str(face_path),
+            "full_path": str(full_path),
         }
-    return {"ok": True, "message": "approved", "path": str(ref_path)}
+    if not full_path.exists():
+        return {
+            "ok": False,
+            "message": f"Reference full-body image file is missing for {model_id}: {full_path}",
+            "face_path": str(face_path),
+            "full_path": str(full_path),
+        }
+    return {"ok": True, "message": "approved", "face_path": str(face_path), "full_path": str(full_path)}
 
 
-def prompt_for(packet, profile, reference_path, variant):
+def prompt_for(packet, profile, reference, variant):
     variant_scene = {
         "A": "safest full-body daily lifestyle image",
         "B": "movement or street-style variation",
@@ -106,8 +125,9 @@ def prompt_for(packet, profile, reference_path, variant):
     }[variant]
     return f"""Candidate {variant}: {variant_scene}
 
-Use the attached reference start image as the identity anchor:
-{reference_path}
+Attach both reference start images to the image-generation request. File paths alone are not enough:
+- Face anchor: {reference['face_path']}
+- Full-body anchor: {reference['full_path']}
 
 Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
 
@@ -115,6 +135,10 @@ Use internal model {packet['model_profile_id']} only as a private production pro
 
 Model profile:
 {profile.get('visual_profile', '')}
+Prompt visual age language: {profile.get('prompt_age_language', '')}
+
+Age rendering rules:
+{chr(10).join(AGE_RENDERING_RULES)}
 
 Trend and outfit:
 Global trend signal: {packet.get('trend_name', '')}
@@ -129,10 +153,10 @@ Scene:
 Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: {packet.get('scene', '')}. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
 
 Composition:
-Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the reference start image.
+Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor.
 
 Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark.
+supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
 """
 
 
@@ -150,7 +174,7 @@ def write_job(project_root, run_dir, carousel_id, tool):
     job_dir = run_dir / "generated_images" / carousel_id
     job_dir.mkdir(parents=True, exist_ok=True)
 
-    prompts = [prompt_for(packet, profile, ref["path"], variant) for variant in ["A", "B", "C"]]
+    prompts = [prompt_for(packet, profile, ref, variant) for variant in ["A", "B", "C"]]
     (job_dir / "candidate_prompts.md").write_text("# Candidate Prompts\n\n" + "\n\n---\n\n".join(prompts), encoding="utf-8")
 
     job_lines = [
@@ -158,7 +182,9 @@ def write_job(project_root, run_dir, carousel_id, tool):
         "",
         f"- carousel_id: `{carousel_id}`",
         f"- model_profile_id: `{model_id}`",
-        f"- reference_image: `{ref['path']}`",
+        f"- reference_face_image: `{ref['face_path']}`",
+        f"- reference_full_image: `{ref['full_path']}`",
+        "- attach_reference_images: `required`",
         f"- trend: {packet.get('trend_name', '')}",
         f"- clothing_item: {packet.get('clothing_item', '')}",
         f"- occasion: {packet.get('occasion', '')}",
