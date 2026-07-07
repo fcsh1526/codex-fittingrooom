@@ -6,7 +6,9 @@ Purpose: restart Phase B anchor rebuild using user-provided source photos for M0
 
 M01 approval status: v4 face/full anchors approved on 2026-07-07. The M01 face anchor is a direct PNG conversion from `M01.JPG`; the M01 full-body anchor is candidate B from the direct-face extension pass.
 
-M02-M04 approval status: pending.
+M02 approval status: v3 face/full anchors approved on 2026-07-07. The M02 face anchor is a direct PNG conversion from `M02.JPG`; the M02 full-body anchor is candidate A from the direct-face extension pass.
+
+M03-M04 approval status: pending.
 
 Source files:
 
