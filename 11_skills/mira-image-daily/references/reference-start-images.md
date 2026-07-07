@@ -24,6 +24,7 @@ M01,25,early 20s,v3,02_brand/reference_models/M01_start_v3_face.png,02_brand/ref
 M02,35,"late 20s, youthful",v3,02_brand/reference_models/M02_start_v3_face.png,02_brand/reference_models/M02_start_v3_full.png,needed,,Prompt uses visual age only
 M03,45,"mid 30s look, well-maintained",v3,02_brand/reference_models/M03_start_v3_face.png,02_brand/reference_models/M03_start_v3_full.png,needed,,Prompt uses visual age only
 M04,55,"early 40s look, elegant",v3,02_brand/reference_models/M04_start_v3_face.png,02_brand/reference_models/M04_start_v3_full.png,needed,,Prompt uses visual age only
+M05,20,"around 20, youthful adult",v1,02_brand/reference_models/M05_start_v1_face.png,02_brand/reference_models/M05_start_v1_full.png,needed,,Prompt uses visual age only
 ```
 
 Do not proceed with daily image generation for a model until both reference images exist and status is `approved`.

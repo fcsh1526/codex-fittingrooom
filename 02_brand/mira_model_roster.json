@@ -1,7 +1,7 @@
 {
-  "version": "Mira model roster v5 - true age metadata with prompt-safe visual ages",
+  "version": "Mira model roster v6 - adds M05 true age metadata with prompt-safe visual ages",
   "public_rule": "Do not publish model names or model IDs. These profiles are internal production controls for consistent outfit imagery across age cohorts.",
-  "assignment_rule": "M01, M02, M03, and M04 represent fixed internal model identities, not fixed outfit occasions. Any weekly trend can be styled for work, weekend, date, travel, rainy day, or casual use with any model when the content plan calls for it.",
+  "assignment_rule": "M01, M02, M03, M04, and M05 represent fixed internal model identities, not fixed outfit occasions. Any weekly trend can be styled for work, weekend, date, travel, rainy day, or casual use with any model when the content plan calls for it.",
   "age_prompt_policy": "True ages are roster metadata only. Image prompts must use prompt_age_language and visual_profile, never the numeric true_age. Express age through styling and presence, NOT wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained.",
   "profiles": [
     {
@@ -55,6 +55,19 @@
       "style_range": "button shirts, knit tops, blazers, sheer layers, tailored trousers, midi skirts, denim, dresses, loafers, low heels, refined flats, structured bags, quiet neutral layers, polished casual pieces.",
       "daily_scenes": "office lobby, cafe before work, shaded city sidewalk, bookstore street, covered walkway, quiet shopping street, simple studio with natural shadows.",
       "avoid": "making her look teen, making her look elderly, overly smoothed skin, wrinkle-focused aging, plastic beauty lighting, hard power-suit stereotype, luxury hotel background, runway pose, visible logos"
+    },
+    {
+      "model_profile_id": "M05",
+      "internal_label": "M05 visual around-20",
+      "true_age": 20,
+      "prompt_age_language": "around 20, youthful adult",
+      "content_buckets": ["all"],
+      "reader_projection": "A very young adult reader who wants clean daily outfits that feel current, simple, and practical without drifting into teen or school styling.",
+      "fixed_hair_baseline": "dark brown shoulder-length bob with a soft side part",
+      "visual_profile": "East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.",
+      "style_range": "simple shirts, T-shirts, denim, relaxed trousers, short jackets, clean cardigans, simple skirts, easy dresses, sneakers, loafers, ballet flats, canvas or nylon bags, practical youthful basics.",
+      "daily_scenes": "neighborhood street, casual cafe, bookstore street, covered sidewalk, simple studio with natural shadows, rainy MRT exit, department store fitting area.",
+      "avoid": "teen styling, childlike styling, school-uniform look, over-cute idol styling, excessive sweetness, luxury styling, mature-elegant styling, hard executive styling, obvious AI smoothness, wrinkle-based age cues"
     }
   ]
 }

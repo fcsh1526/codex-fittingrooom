@@ -7,14 +7,16 @@ Phase B M01 update: 2026-07-06
 Phase B M01 v4 update: 2026-07-07
 Phase B M02 v3 update: 2026-07-07
 Phase B M03 v3 update: 2026-07-07
+Phase B M04 v3 and M05 v1 split update: 2026-07-07
 
-Mira now uses four fixed internal identities with true-age metadata and prompt-safe visual-age language:
+Mira now uses five fixed internal identities with true-age metadata and prompt-safe visual-age language:
 
 ```text
 M01 true age 25 -> prompt visual age: early 20s
 M02 true age 35 -> prompt visual age: late 20s, youthful
 M03 true age 45 -> prompt visual age: mid 30s look, well-maintained
 M04 true age 55 -> prompt visual age: early 40s look, elegant
+M05 true age 20 -> prompt visual age: around 20, youthful adult
 ```
 
 The old single-image start files are retained for audit. Previous reference-pack draft folders were moved to the run archive. They are not the current source of truth.
@@ -36,8 +38,10 @@ M02: 02_brand/reference_models/M02_start_v3_face.png
 M02: 02_brand/reference_models/M02_start_v3_full.png
 M03: 02_brand/reference_models/M03_start_v3_face.png
 M03: 02_brand/reference_models/M03_start_v3_full.png
-M04: 02_brand/reference_models/M04_start_v2_face.png
-M04: 02_brand/reference_models/M04_start_v2_full.png
+M04: 02_brand/reference_models/M04_start_v3_face.png
+M04: 02_brand/reference_models/M04_start_v3_full.png
+M05: 02_brand/reference_models/M05_start_v1_face.png
+M05: 02_brand/reference_models/M05_start_v1_full.png
 ```
 
 M01 has completed the Phase B restart and now points to approved v4 anchors. The v4 face anchor is a direct PNG conversion from the user-supplied M01.JPG with no face regeneration. The v4 full-body anchor uses candidate B from the direct-face extension pass and was approved by the user on 2026-07-07.
@@ -46,7 +50,9 @@ M02 has completed the Phase B restart and now points to approved v3 anchors. The
 
 M03 has completed the Phase B restart and now points to approved v3 anchors. The v3 face anchor is a direct PNG conversion from the user-supplied M03.JPG with no face regeneration. The v3 full-body anchor uses candidate A from the direct-face extension pass and was approved by the user on 2026-07-07.
 
-M04 still uses transitional v2 anchors until its own Phase B rebuild is approved.
+M04 has completed the Phase B restart and now points to approved v3 anchors. The v3 face anchor is a direct PNG conversion from the user-supplied M04.JPG with no face regeneration. The v3 full-body anchor uses candidate B from the direct-face extension pass and was approved by the user on 2026-07-07.
+
+M05 was created from the M04 candidate A split on 2026-07-07 after the user identified A and B as different people. M05 true age is 20, with prompt-safe visual age language `around 20, youthful adult`. The v1 face anchor is a deterministic crop from candidate A with no AI regeneration. The v1 full-body anchor is candidate A.
 
 ## Legacy Files
 
@@ -67,6 +73,8 @@ Kept for comparison only:
 02_brand/reference_models/M03_start_v2_full.png
 02_brand/reference_models/M04_start.png
 02_brand/reference_models/M04_start_v1.png
+02_brand/reference_models/M04_start_v2_face.png
+02_brand/reference_models/M04_start_v2_full.png
 10_automation/runs/2026-W26/reference_model_drafts_phase_a/*_pack_v1/
 ```
 

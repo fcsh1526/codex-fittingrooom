@@ -10,7 +10,9 @@ M02 approval status: v3 face/full anchors approved on 2026-07-07. The M02 face a
 
 M03 approval status: v3 face/full anchors approved on 2026-07-07. The M03 face anchor is a direct PNG conversion from `M03.JPG`; the M03 full-body anchor is candidate A from the direct-face extension pass.
 
-M04 approval status: pending.
+M04 approval status: v3 face/full anchors approved on 2026-07-07. The M04 face anchor is a direct PNG conversion from `M04.JPG`; the M04 full-body anchor is candidate B from the direct-face extension pass.
+
+M05 creation status: v1 face/full anchors approved on 2026-07-07 from the M04 candidate A split. M05 has no external uploaded source photo. Its face anchor is a deterministic crop from candidate A with no AI regeneration; its full-body anchor is candidate A.
 
 Source files:
 
@@ -21,11 +23,18 @@ M03.JPG -> M03 identity source
 M04.JPG -> M04 identity source
 ```
 
+Derived identity:
+
+```text
+M05 -> split from M04 candidate A, not from an external uploaded source file
+```
+
 Version strategy:
 
 ```text
 M01 already has approved v3 anchors, so this user-source rebuild will become v4 if approved.
 M02, M03, and M04 do not yet have approved v3 anchors, so their approved user-source rebuilds will become v3.
+M05 is a new split identity and starts at v1.
 ```
 
 Production conversion rules:

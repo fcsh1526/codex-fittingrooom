@@ -1,6 +1,6 @@
-# Mira Model Roster v5 - True Ages With Prompt-Safe Visual Ages
+# Mira Model Roster v6 - True Ages With Prompt-Safe Visual Ages
 
-Purpose: keep Mira as a fast-updating AI fashion magazine while using four fixed internal models for visual consistency across reader age bands.
+Purpose: keep Mira as a fast-updating AI fashion magazine while using five fixed internal models for visual consistency across reader age bands.
 
 Public rule:
 
@@ -19,6 +19,7 @@ M01 true age 25 -> prompt visual age: early 20s
 M02 true age 35 -> prompt visual age: late 20s, youthful
 M03 true age 45 -> prompt visual age: mid 30s look, well-maintained
 M04 true age 55 -> prompt visual age: early 40s look, elegant
+M05 true age 20 -> prompt visual age: around 20, youthful adult
 ```
 
 Every model prompt must follow:
@@ -31,7 +32,7 @@ Skin is smooth and well-maintained.
 
 ## Model Strategy
 
-M01/M02/M03/M04 are no longer tied to fixed scenes such as office, weekend, or casual. They are fixed identities and age cohorts.
+M01/M02/M03/M04/M05 are no longer tied to fixed scenes such as office, weekend, or casual. They are fixed identities and age cohorts.
 
 Any weekly trend can be styled for:
 
@@ -84,3 +85,14 @@ with any model when the content plan calls for that identity.
 - Style range: button shirts, knit tops, blazers, sheer layers, tailored trousers, midi skirts, denim, dresses, loafers, low heels, refined flats, structured bags, quiet neutral layers, polished casual pieces.
 - Scenes: office lobby, cafe before work, shaded city sidewalk, bookstore street, covered walkway, quiet shopping street, simple studio with natural shadows.
 - Avoid: making her look teen, making her look elderly, overly smoothed skin, wrinkle-focused aging, plastic beauty lighting, hard power-suit stereotype, luxury hotel background, runway pose, visible logos.
+
+## M05
+
+- True age metadata: 20.
+- Prompt age language: around 20, youthful adult.
+- Projection: a very young adult reader who wants clean daily outfits that feel current, simple, and practical without drifting into teen or school styling.
+- Fixed hair baseline: dark brown shoulder-length bob with a soft side part.
+- Visual profile for prompts: East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.
+- Style range: simple shirts, T-shirts, denim, relaxed trousers, short jackets, clean cardigans, simple skirts, easy dresses, sneakers, loafers, ballet flats, canvas or nylon bags, practical youthful basics.
+- Scenes: neighborhood street, casual cafe, bookstore street, covered sidewalk, simple studio with natural shadows, rainy MRT exit, department store fitting area.
+- Avoid: teen styling, childlike styling, school-uniform look, over-cute idol styling, excessive sweetness, luxury styling, mature-elegant styling, hard executive styling, obvious AI smoothness, wrinkle-based age cues.

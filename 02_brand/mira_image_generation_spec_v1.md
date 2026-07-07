@@ -209,4 +209,4 @@ outfit = 波點洋裝
 occasion = weekend / date / cafe
 ```
 
-Goal: find the Mira image tone before scaling across M01/M02/M03/M04.
+Goal: find the Mira image tone before scaling across M01/M02/M03/M04/M05.

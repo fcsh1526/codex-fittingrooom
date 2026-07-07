@@ -1,6 +1,6 @@
 ---
 name: mira-image-daily
-description: Use when working on the Mira AI fashion magazine image workflow in the 人物試衣間 project: turning global Perplexity weekly fashion trend rows into daily image-generation jobs, enforcing M01/M02/M03/M04 face/full reference-start-image consistency, creating candidate prompts, storing generated images in the project run folder, and preparing image review sheets before Canva.
+description: Use when working on the Mira AI fashion magazine image workflow in the 人物試衣間 project: turning global Perplexity weekly fashion trend rows into daily image-generation jobs, enforcing M01/M02/M03/M04/M05 face/full reference-start-image consistency, creating candidate prompts, storing generated images in the project run folder, and preparing image review sheets before Canva.
 ---
 
 # Mira Image Daily
@@ -63,7 +63,7 @@ The script writes:
 ## Generation Rules
 
 - Use global trend input, but translate it into a wearable daily outfit image.
-- Use the assigned internal model only: `M01`, `M02`, `M03`, or `M04`.
+- Use the assigned internal model only: `M01`, `M02`, `M03`, `M04`, or `M05`.
 - Use the model's approved face and full-body reference start images as identity anchors.
 - Do not publish or render model IDs, names, labels, prompt notes, reference-image metadata, or numeric true ages.
 - Generate 2-3 candidates first. Stop early if one is strong enough.
