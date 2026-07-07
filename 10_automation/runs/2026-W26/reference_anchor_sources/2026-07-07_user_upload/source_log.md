@@ -8,7 +8,9 @@ M01 approval status: v4 face/full anchors approved on 2026-07-07. The M01 face a
 
 M02 approval status: v3 face/full anchors approved on 2026-07-07. The M02 face anchor is a direct PNG conversion from `M02.JPG`; the M02 full-body anchor is candidate A from the direct-face extension pass.
 
-M03-M04 approval status: pending.
+M03 approval status: v3 face/full anchors approved on 2026-07-07. The M03 face anchor is a direct PNG conversion from `M03.JPG`; the M03 full-body anchor is candidate A from the direct-face extension pass.
+
+M04 approval status: pending.
 
 Source files:
 
