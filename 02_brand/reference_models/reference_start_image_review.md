@@ -4,6 +4,7 @@ Generated: 2026-06-30
 
 Phase A status update: 2026-07-06
 Phase B M01 update: 2026-07-06
+Phase B M01 v4 update: 2026-07-07
 
 Mira now uses four fixed internal identities with true-age metadata and prompt-safe visual-age language:
 
@@ -27,8 +28,8 @@ Use:
 Current approved anchors:
 
 ```text
-M01: 02_brand/reference_models/M01_start_v3_face.png
-M01: 02_brand/reference_models/M01_start_v3_full.png
+M01: 02_brand/reference_models/M01_start_v4_face.png
+M01: 02_brand/reference_models/M01_start_v4_full.png
 M02: 02_brand/reference_models/M02_start_v2_face.png
 M02: 02_brand/reference_models/M02_start_v2_full.png
 M03: 02_brand/reference_models/M03_start_v2_face.png
@@ -37,7 +38,9 @@ M04: 02_brand/reference_models/M04_start_v2_face.png
 M04: 02_brand/reference_models/M04_start_v2_full.png
 ```
 
-M01 has completed Phase B and now points to approved v3 face/full anchors. M02, M03, and M04 still use transitional v2 anchors until their own Phase B rebuilds are approved.
+M01 has completed the Phase B restart and now points to approved v4 anchors. The v4 face anchor is a direct PNG conversion from the user-supplied M01.JPG with no face regeneration. The v4 full-body anchor uses candidate B from the direct-face extension pass and was approved by the user on 2026-07-07.
+
+M02, M03, and M04 still use transitional v2 anchors until their own Phase B rebuilds are approved.
 
 ## Legacy Files
 
@@ -46,6 +49,8 @@ Kept for comparison only:
 ```text
 02_brand/reference_models/M01_start.png
 02_brand/reference_models/M01_start_v2.png
+02_brand/reference_models/M01_start_v3_face.png
+02_brand/reference_models/M01_start_v3_full.png
 02_brand/reference_models/M02_start.png
 02_brand/reference_models/M02_start_v2.png
 02_brand/reference_models/M03_start.png
