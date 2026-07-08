@@ -2,3 +2,6 @@ carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,rea
 2026-W26-002,W26-P002,M02,2026-W26-002_M02_candidate_A.png,Codex,5,5,5,5,5,yes,selected,"Best cover candidate: full outfit clear, soft cafe-window lifestyle mood, strong M02 consistency."
 2026-W26-002,W26-P002,M02,2026-W26-002_M02_candidate_B.png,Codex,4,5,5,4,5,yes,backup,"Best street-style backup: strong daily-life movement, slightly less identical to reference face."
 2026-W26-002,W26-P002,M02,2026-W26-002_M02_candidate_C.png,Codex,4,4,4,4,4,yes,backup,"Best detail/crop option: fitting-area context and dress detail are useful, less strong as cover."
+2026-W26-002,W26-P002,M02,2026-W26-002_M02_candidate_A_v2.png,Codex,5,5,5,5,5,yes,selected,"V2 cover: clean full-body bookstore-street image, stable face, clear polka-dot dress, no ghosting or head crop."
+2026-W26-002,W26-P002,M02,2026-W26-002_M02_candidate_B_v2.png,Codex,5,5,4,5,4,yes,selected_motion_crop,"V2 motion crop: strong horizontal film-still source, stable face and hands, intentional half-body crop for motion_crop."
+2026-W26-002,W26-P002,M02,2026-W26-002_M02_candidate_C_v2.png,Codex,5,5,5,5,5,yes,selected_detail,"V2 detail/closing: clean bookstore entrance image, stable face and body, clear dress and shoes; feet near bottom but not cropped."

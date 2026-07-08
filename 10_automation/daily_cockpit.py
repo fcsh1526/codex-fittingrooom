@@ -53,6 +53,14 @@ def run_files(top_item):
             normalize_path(f"{run_dir}/post_drafts.md"),
             normalize_path(f"{run_dir}/publish_checklist.md"),
         ]
+    if item_type == "carousel" and stage == "ready_for_canva_test":
+        return [
+            normalize_path(f"{run_dir}/canva_fill_guide.md"),
+            normalize_path(f"{run_dir}/canva_asset_plan.md"),
+            normalize_path(f"{run_dir}/canva_asset_slots.csv"),
+            normalize_path(f"{run_dir}/canva_placeholder_map.json"),
+            normalize_path(f"{run_dir}/generated_images/2026-W26-002"),
+        ]
     if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return [
             normalize_path(f"{run_dir}/daily_queue.csv"),
@@ -68,6 +76,8 @@ def run_files(top_item):
             normalize_path(f"{run_dir}/canva_asset_plan.md"),
             normalize_path(f"{run_dir}/canva_fill_guide.md"),
             normalize_path(f"{run_dir}/README.md"),
+            "10_automation/mira_high_fashion_carousel_template_v2.md",
+            "10_automation/claude_design_mira_template_v2_prompt.md",
         ]
     if item_type == "visibility_test":
         package = clean(top_item.get("package_path"))
@@ -98,6 +108,14 @@ def checklist_for(top_item):
             "Publish or schedule the Instagram carousel.",
             "Send Codex the post URL, publish time, and any immediate notes.",
         ]
+    if item_type == "carousel" and stage == "ready_for_canva_test":
+        return [
+            "Do not publish this carousel yet.",
+            "Test-fill the approved Mira Canva v2 template with A_v2, B_v2, and C_v2.",
+            "Review Canva crops for headroom, feet, face clarity, and cross-slide motion crop.",
+            "Commit Canva only if the preview is clean.",
+            "If crop fails, adjust Canva placement before export.",
+        ]
     if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return [
             "Open image_generation_briefs.md for today's internal model and outfit.",
@@ -109,9 +127,10 @@ def checklist_for(top_item):
     if item_type == "carousel" and stage == "needs_visual_revision":
         return [
             "Do not publish this carousel yet.",
+            "Verify the selected Mira Canva master has replaceable cover_image, motion_crop, detail_image, and slide2_line layers.",
             "Review the generated image candidates for face drift, ghosting, body artifacts, and outfit clarity.",
             "Regenerate better candidates before replacing Canva assets.",
-            "Revise the Canva template direction toward a high-fashion magazine layout before export.",
+            "Test-fill the Canva v2 template before export.",
         ]
     if item_type == "visibility_test":
         return [

@@ -32,7 +32,7 @@ DEFAULT_ASSET_SLOTS = [
         "notes": "Make the person and outfit dominant. Keep text off the image.",
     },
     {
-        "slot_id": "texture_or_crop",
+        "slot_id": "motion_crop",
         "slide_range": "2",
         "asset_type": "crop / quiet design slide",
         "purpose": "minimal transition slide with one short line",

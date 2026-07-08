@@ -1,77 +1,69 @@
-# Canva Fill Guide
+# Canva Fill Guide - 2026-W26
 
-Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
+Select and duplicate one registered Mira Canva master template:
+
+```text
+10_automation/canva_template_registry.md
+```
+
+Automation labels saved in Canva:
+
+```text
+cover_image
+motion_crop
+detail_image
+slide2_line
+```
 
 ## Template Contract
 
 - Canvas: `3240 x 1350 px`
 - Export: `3 slides x 1080 x 1350 px`
 - Slice guides: `x = 1080, 2160`
-- Slide 1: image-led hook, no required text.
-- Slide 2: one short transition line only.
-- Slide 3: image-led ending, no CTA wall.
+- Slide 1: image-led hook.
+- Slide 2: one short transition line and one editorial motion crop.
+- Slide 3: image-led closing frame.
 - Keep disclosure in the caption, not on the image.
 
-## 2026-W26-001
+## 2026-W26-002 / W26-P002
 
-### Text Replacements
+Status: use this item for the first Canva v2 test-fill.
 
-| Placeholder | Value |
-|---|---|
-| `{{slide2_line}}` | 薄紗罩衫，讓通勤多一點記憶點。 |
-
-### Asset Slots
-
-| Slot | Slide Range | Purpose | Status |
-|---|---:|---|---|
-| `cover_image` | `1` | strongest lifestyle full-body image; visual hook | needed |
-| `texture_or_crop` | `2` | minimal transition slide with one short line | optional |
-| `detail_image` | `3` | second lifestyle image or reused hero crop | optional |
-
-### Instagram Caption
-
-```text
-薄紗罩衫，給通勤一點生活感。 方向：薄紗/透視層次（Sheer Layering）。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。
-
-#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira
-```
-
-### Before Saving
-
-- All placeholder braces are gone.
-- Slide 2 has only one short sentence.
-- Mira remains visually consistent.
-- Outfit is readable within one second.
-- The post feels like a lifestyle moment, not a sales flyer.
-
-## 2026-W26-002
-
-### Text Replacements
+### Text Replacement
 
 | Placeholder | Value |
 |---|---|
-| `{{slide2_line}}` | 波點洋裝，讓約會多一點記憶點。 |
+| `{{slide2_line}}` | 黑白波點，留一點午後的輕盈。 |
 
 ### Asset Slots
 
-| Slot | Slide Range | Purpose | Status |
-|---|---:|---|---|
-| `cover_image` | `1` | strongest lifestyle full-body image; visual hook | needed |
-| `texture_or_crop` | `2` | minimal transition slide with one short line | optional |
-| `detail_image` | `3` | second lifestyle image or reused hero crop | optional |
+| Slot | Use File | Path |
+|---|---|---|
+| `cover_image` | `2026-W26-002_M02_candidate_A_v2.png` | `10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png` |
+| `motion_crop` | `2026-W26-002_M02_candidate_B_v2.png` | `10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B_v2.png` |
+| `detail_image` | `2026-W26-002_M02_candidate_C_v2.png` | `10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C_v2.png` |
 
-### Instagram Caption
+### Image QA Notes
+
+- `A_v2`: selected cover; full outfit readable, stable face, no ghosting.
+- `B_v2`: selected motion crop; intentional half-body crop, stable face and hands.
+- `C_v2`: selected closing frame; clear dress, shoes, and bag; feet are close to bottom but not cropped.
+
+### Instagram Caption Draft
 
 ```text
-波點洋裝，給約會一點生活感。 方向：波點洋裝/套裝（Polka Dots）。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。
+黑白波點洋裝，適合週末午後或輕鬆約會。
 
-#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira
+相似單品整理在個人頁連結。
+AI 生成虛擬造型影像。
+
+#週末穿搭 #洋裝穿搭 #波點洋裝 #AI穿搭 #虛擬造型 #Mira
 ```
 
-### Before Saving
+### Before Saving Canva
 
-- All placeholder braces are gone.
-- Slide 2 has only one short sentence.
-- Mira remains visually consistent.
-- Outfit is readable within one second.
-- The post feels like a lifestyle moment, not a sales flyer.
+- No head crop on Slide 1 or Slide 3.
+- Motion crop on Slide 2 looks intentional, not like a broken cut.
+- `{{slide2_line}}` has been replaced.
+- Final image has no product list, CTA wall, comment bait, or AI disclosure on the image.
+- The carousel still reads as one editorial spread after slicing.

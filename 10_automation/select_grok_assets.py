@@ -238,7 +238,8 @@ def update_asset_slots(slot_rows, selections):
             out["recommended_file"] = selection["detail_asset"] or selection["cover_asset"]
             out["status"] = "selected" if out["recommended_file"] else "optional"
             out["notes"] = slot_note(row.get("notes"), out["recommended_file"], selection["detail_url"] or selection["cover_url"])
-        elif slot_id == "texture_or_crop":
+        elif slot_id in {"motion_crop", "texture_or_crop"}:
+            out["slot_id"] = "motion_crop"
             out["recommended_file"] = selection["texture_asset"]
             out["status"] = "selected_from_crop" if selection["texture_asset"] else "optional"
             out["notes"] = slot_note(row.get("notes"), selection["texture_asset"], selection["texture_url"])

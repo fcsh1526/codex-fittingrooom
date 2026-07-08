@@ -46,6 +46,7 @@ Each week should produce:
 - `smoke_test_weekly_pipeline.py`: end-to-end smoke test for weekly pipeline, asset selection, metrics decision, and PowerShell entrypoint.
 - `weekly_carousel_pipeline.md`: the fixed weekly production workflow.
 - `canva_connector_workflow.md`: how Codex should use the Canva connector for template edits and preview approval.
+- `canva_template_registry.md` / `canva_template_registry.json`: active Mira Canva master template URLs, use cases, and automation slot contract.
 - `instagram_visual_direction.md`: current low-text, image-led IG direction.
 - `daily_cockpit.py`: creates the one-page daily HTML cockpit.
 - `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.

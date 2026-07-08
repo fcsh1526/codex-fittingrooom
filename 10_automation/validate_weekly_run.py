@@ -282,9 +282,16 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
         for carousel_id in sorted(packet_ids):
             slots = by_carousel.get(carousel_id, [])
             slot_ids = {clean(row.get("slot_id")) for row in slots}
-            for slot_id in ["cover_image", "detail_image", "texture_or_crop"]:
+            for slot_id in ["cover_image", "detail_image"]:
                 if slot_id not in slot_ids:
                     add_issue(issues, "warning", "canva_asset_slot", f"{carousel_id}: missing {slot_id} asset slot.")
+            if "motion_crop" not in slot_ids:
+                add_issue(
+                    issues,
+                    "warning",
+                    "canva_asset_slot",
+                    f"{carousel_id}: missing motion_crop asset slot.",
+                )
             if require_assets:
                 cover_rows = [row for row in slots if clean(row.get("slot_id")) == "cover_image"]
                 cover_file = clean(cover_rows[0].get("recommended_file")) if cover_rows else ""

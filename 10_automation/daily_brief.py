@@ -10,6 +10,7 @@ from weekly_dashboard import build_dashboard
 
 STAGE_PRIORITY = {
     "needs_visual_revision": 120,
+    "ready_for_canva_test": 115,
     "canva_committed_ready_to_publish": 110,
     "ready_for_canva_and_publish": 100,
     "needs_image_asset_selection": 90,
@@ -162,7 +163,7 @@ def stage_brief(stage):
             "tasks": [
                 "Review the generated candidates for face drift, ghosting, body artifacts, and outfit clarity.",
                 "Regenerate image candidates only after tightening the prompt and review criteria.",
-                "Discuss and revise the Canva template toward a high-fashion magazine carousel before export.",
+                "Use the approved Mira Canva v2 template, then test it with regenerated image candidates before export.",
             ],
             "user_inputs": [
                 "Which candidate image problems are unacceptable",
@@ -178,6 +179,26 @@ def stage_brief(stage):
                 "10_automation/runs/{run}/generated_images",
                 "10_automation/runs/{run}/image_review_template.csv",
                 "10_automation/runs/{run}/canva_asset_plan.md",
+            ],
+        },
+        "ready_for_canva_test": {
+            "decision": "The v2 image candidates are selected and the next step is Canva test-fill, not publishing.",
+            "tasks": [
+                "Open the approved Mira Canva v2 template.",
+                "Duplicate a registered Mira Canva master, then fill cover_image with A_v2, motion_crop with B_v2, and detail_image with C_v2.",
+                "Replace slide2_line with the approved short line.",
+                "Review the Canva preview for head crop, feet crop, face clarity, and cross-slide composition before committing.",
+            ],
+            "user_inputs": ["Canva test-fill preview", "Decision to commit or adjust crops"],
+            "codex_actions": [
+                "Use Canva connector autofill labels or manual fill guide.",
+                "Show the Canva preview before any commit.",
+                "Keep publish_status as not_published until the user approves the layout.",
+            ],
+            "files": [
+                "10_automation/runs/{run}/canva_fill_guide.md",
+                "10_automation/runs/{run}/canva_asset_plan.md",
+                "10_automation/runs/{run}/canva_asset_slots.csv",
             ],
         },
         "needs_grok_asset_selection": {

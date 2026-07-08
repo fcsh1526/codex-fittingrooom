@@ -1,6 +1,6 @@
 # Computer B Sync Handoff
 
-Last synced locally: 2026-06-30
+Last synced locally: 2026-07-08
 
 Purpose: let another computer continue the Mira workflow from GitHub without reading the old conversation.
 
@@ -40,7 +40,7 @@ Mira magazine -> global weekly trend -> daily outfit queue -> internal model pro
 Rules:
 
 - Do not publish another old W21 Grok-similar carousel.
-- Use the 3-slide minimal panorama template.
+- Use the 3-slide Mira high-fashion carousel v2 template direction.
 - Keep text off the carousel except `{{slide2_line}}`.
 - Keep AI disclosure in the caption.
 - Use the `$mira-image-daily` skill for image jobs.
@@ -54,9 +54,9 @@ Rules:
 item = 2026-W26-002
 type = carousel
 model = M02
-stage = ready_for_canva_and_publish
+stage = needs_visual_revision
 asset = ChatGPT Image 2026年6月24日 下午03_30_10.png
-next = Use Canva handoff files to finish the carousel and publish it.
+next = Do not publish. Canva v2 template is built and autofill labels are saved; regenerate cleaner image candidates, then test-fill the template.
 ```
 
 ## Files For Current Top Item
@@ -72,6 +72,8 @@ Open these when working on the carousel:
 10_automation/runs/2026-W26/m02_polka_image_test_brief.md
 10_automation/runs/2026-W26/post_drafts.md
 10_automation/runs/2026-W26/publish_checklist.md
+10_automation/mira_high_fashion_carousel_template_v2.md
+10_automation/claude_design_mira_template_v2_prompt.md
 02_brand/mira_reference_images.csv
 02_brand/reference_models/REFERENCE_IMAGE_REQUIREMENTS.md
 11_skills/mira-image-daily/SKILL.md
@@ -80,13 +82,33 @@ Open these when working on the carousel:
 Current recommended template prompt:
 
 ```text
-10_automation/claude_design_mira_template_v1_prompt.md
+10_automation/claude_design_mira_template_v2_prompt.md
 ```
 
 Current Canva template:
 
 ```text
-https://www.canva.com/design/DAHN7repRtk/EtRfbf-gk-HgejgxKHImoQ/edit
+10_automation/canva_template_registry.md
+10_automation/canva_template_registry.json
+```
+
+Canva automation status:
+
+```text
+Five Canva master templates were registered on 2026-07-08.
+
+Master templates:
+A Contact Sheet = https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
+B Symmetric = https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
+C Noir Evening = https://www.canva.com/design/DAHOyEHkFvg/DBpyigPr05vQqxuuqV7wKA/edit
+D Full-Bleed = https://www.canva.com/design/DAHOyNz_Dh4/SCdZqafV5zkpK5TVIB6kMw/edit
+E Weekend Air = https://www.canva.com/design/DAHOyEiLL24/yTWykrCQdrFjncOa46cq9g/edit
+
+Required slots:
+cover_image
+motion_crop
+detail_image
+slide2_line
 ```
 
 Current Mira identity file:
@@ -111,7 +133,7 @@ Do not publish model names in IG copy; they are only for consistent image genera
 Image generation note:
 
 ```text
-W26 has old selected images and can still be assembled in Canva, but the new Mira v1 direction should first create and approve M02_start.png, then test fresh M02 polka-dot candidates through $mira-image-daily.
+W26-002 should not be published from the old Canva fill. The user rejected it on 2026-07-01 because the generated images had face drift / ghosting and Slide 2 cropped the head. The new Canva v2 template is built; regenerate candidates through $mira-image-daily, then test-fill the v2 template.
 ```
 
 Installed skill:
@@ -152,12 +174,16 @@ Required Canva names:
 
 ```text
 cover_image
-texture_or_crop
+motion_crop
 detail_image
-{{slide2_line}}
+slide2_line
 ```
 
 Do not use the old 5-slide / 10-slide report template for current IG production.
+
+Do not return to a plain 3-slot placeholder layout. Use one registered Mira master template, duplicate it, then replace the named slots in the duplicate. The carousel should read as one editorial spread with intentional cross-slide crops, low text, and no accidental head crop.
+
+Do not split Canva image uploads into background, person cutout, and object layers. Replace whole flat images into the named frames.
 
 ## Validation Status
 

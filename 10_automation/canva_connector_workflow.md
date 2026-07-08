@@ -47,7 +47,7 @@ Image placeholders:
 
 ```text
 cover_image
-texture_or_crop
+motion_crop
 detail_image
 ```
 
@@ -62,6 +62,10 @@ Keep AI disclosure in the Instagram caption, not on the image.
 ## Important Limitation
 
 Canva edits are transactional. Codex can draft the edit and show thumbnails, but final save should happen only after the user confirms the preview is correct.
+
+Photo uploads through `image_to_design` may be split by Magic Layers into background, person cutout, and object layers. For the registered Mira templates, avoid that path for final fills. Replace whole flat images into the named frames (`cover_image`, `motion_crop`, `detail_image`) instead of assembling separate background/person/object layers.
+
+Daily production must duplicate one registered master template before replacing assets. Never overwrite the master templates directly.
 
 ## Human Review Checklist
 
