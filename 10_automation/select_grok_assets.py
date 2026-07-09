@@ -295,7 +295,7 @@ def update_daily_queue(run_dir, selections):
     write_csv(path, fieldnames, updated)
 
 
-def write_asset_plan(path, selections, provider="Grok"):
+def write_asset_plan(path, selections, provider="Codex"):
     lines = [
         f"# {provider.title()} Asset Selection Plan",
         "",
@@ -320,7 +320,7 @@ def write_asset_plan(path, selections, provider="Grok"):
     Path(path).write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_review_template(path, packets, provider="Grok"):
+def write_review_template(path, packets, provider="Codex"):
     rows = []
     for packet in packets:
         prompt_id = clean(packet.get("prompt_id"))
@@ -335,13 +335,13 @@ def write_review_template(path, packets, provider="Grok"):
     write_csv(path, SCORE_FIELDS, rows)
 
 
-def select_assets(run_dir, score_sheet=None, drive_inventory=None, provider="Grok"):
+def select_assets(run_dir, score_sheet=None, drive_inventory=None, provider="Codex"):
     run_dir = Path(run_dir)
     packets = read_csv(run_dir / "weekly_content_packet.csv")
     slot_rows = read_csv(run_dir / "canva_asset_slots.csv")
     score_rows = read_csv(score_sheet) if score_sheet else []
     drive_rows = drive_lookup(read_csv(drive_inventory)) if drive_inventory else {}
-    provider_slug = clean(provider).lower() or "grok"
+    provider_slug = clean(provider).lower() or "codex"
 
     if not score_rows:
         write_review_template(run_dir / f"{provider_slug}_asset_review_template.csv", packets, provider=provider)
@@ -364,8 +364,6 @@ def select_assets(run_dir, score_sheet=None, drive_inventory=None, provider="Gro
         selections = [build_selection(packet, score_rows, drive_rows) for packet in packets]
 
     write_csv(run_dir / f"{provider_slug}_asset_selection.csv", SELECTION_FIELDS, selections)
-    if provider_slug != "grok":
-        write_csv(run_dir / "grok_asset_selection.csv", SELECTION_FIELDS, selections)
     write_asset_plan(run_dir / "canva_asset_plan.md", selections, provider=provider)
     updated_slots = update_asset_slots(slot_rows, selections)
     write_csv(run_dir / "canva_asset_slots.csv", ASSET_SLOT_FIELDS, updated_slots)
@@ -379,7 +377,7 @@ def main():
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--score-sheet", help="CSV with scored image assets.")
     parser.add_argument("--drive-inventory", help="Optional inventory CSV containing file_name and drive_url or file_path.")
-    parser.add_argument("--provider", default="Grok", help="Asset provider label, e.g. Grok or OpenAI.")
+    parser.add_argument("--provider", default="Codex", help="Asset provider label, e.g. Codex or OpenAI.")
     args = parser.parse_args()
 
     selections = select_assets(

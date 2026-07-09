@@ -6,8 +6,7 @@ When restarting work in Codex, paste this information:
 Week ID:
 Perplexity weekly URL / CSV / markdown export:
 Chosen trend / outfit:
-Google Drive folder with Grok images:
-Local folder with OpenAI / Grok images:
+Codex generated image folder or notes:
 Canva design URL:
 Instagram account status:
 Last post reach:
@@ -92,13 +91,13 @@ Codex should use:
 - `canva_fill_guide.md` for manual text replacement.
 - `canva_placeholder_map.json` for plugin-based replacement later.
 - `canva_asset_slots.csv` to decide which selected image goes where.
-- `canva_asset_plan.md` after OpenAI or Grok images have been scored and selected.
+- `canva_asset_plan.md` after Codex images have been scored and selected.
 
-## If OpenAI Or Grok Images Are Ready
+## If Codex Images Are Ready
 
 Codex should ask for or produce:
 
-- Drive image inventory
+- generated image inventory
 - visual review score sheet
 - provider asset selection CSV
 - updated `canva_asset_slots.csv`
@@ -113,7 +112,9 @@ validate_weekly_run.py --require-assets
 
 Codex should output:
 
-- `grok_prompts.md` or `openai_prompts/`
+- `image_generation_briefs.md`
+- `generated_images/{carousel_id}/codex_generation_handoff.md`
+- `generated_images/{carousel_id}/candidate_prompts.md`
 - one recommended cover concept
 - `canva_placeholder_values.csv`
 - `post_drafts.md`

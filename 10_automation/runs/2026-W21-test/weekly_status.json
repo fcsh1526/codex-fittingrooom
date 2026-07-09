@@ -27,10 +27,6 @@
       "exists": true,
       "size": 1128
     },
-    "grok_prompts.md": {
-      "exists": true,
-      "size": 2473
-    },
     "canva_placeholder_values.csv": {
       "exists": true,
       "size": 1542

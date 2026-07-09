@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-07-08
+Last updated: 2026-07-09
 
 ## Project Goal
 
@@ -35,7 +35,7 @@ Zero reach does not block the next carousel.
 Current image source rule:
 
 ```text
-Use the installed $mira-image-daily skill first. Daily outfit generation is blocked until the assigned model has an approved reference start image. Keep OpenAI API / Grok as optional backup paths only.
+Use the installed $mira-image-daily skill first. Daily outfit generation is blocked until the assigned model has an approved reference start image. Codex workspace image generation is the primary path. Grok is not part of the active workflow.
 ```
 
 Current validation rule:
@@ -98,7 +98,7 @@ It is expected to fail until current W26 blockers are fixed.
 - Automation architecture brief was added to explain the current state machine and manual boundaries.
 - Cross-computer handoff was added in `COMPUTER_B_SYNC.md` so Computer B can continue from GitHub without reading the old conversation.
 - OpenAI image-generation automation exists as an optional future API path.
-- Asset selection now supports provider labels such as OpenAI and Grok.
+- Asset selection now supports provider labels such as Codex and OpenAI; old Grok files are legacy historical data only.
 - Perplexity public index resolution was added, so Codex can use the saved weekly site instead of requiring a pasted CSV URL every time.
 - Instagram creative direction changed to 3-slide, image-led, low-text carousel posts with simple captions and profile-link shopping direction.
 - Canva connector workflow and template spec were simplified to one text placeholder: `{{slide2_line}}`.
@@ -121,7 +121,7 @@ It is expected to fail until current W26 blockers are fixed.
 - Daily Canva use should duplicate one master template before replacing assets. Do not write daily content directly into master templates.
 - Canva image replacement must use whole flat PNG/JPG images in named frames. Do not use `image_to_design`, Magic Layers, split background/person/object assets, or old Canva design asset ids unless the asset is verified as a complete flat image.
 - First automation trial on 2026-07-08 duplicated `A Contact Sheet` to `DAHOyDPZHeQ`, but the saved result is a failed test because it reused split Canva assets and lost the person layer. Do not export or publish that design.
-- Strict validation now catches current production blockers: W26-001 `motion_crop` needs regeneration, W26-001 asset selection still needs review, and W26-002 `detail_image` Canva flat asset id is still `TBD`.
+- The failed W26-002 Canva copy `DAHO2rHNkZs` and old Canva image asset ids were invalidated because they used the old model identity. W26-002 is back at `needs_image_asset_selection` and must be regenerated with M02 v3 reference anchors through Codex.
 
 ## Latest Published Post
 
@@ -235,7 +235,7 @@ Current image-generation discussion should start from:
 02_brand/mira_image_generation_spec_v1.md
 02_brand/mira_reference_images.csv
 11_skills/mira-image-daily/SKILL.md
-10_automation/runs/2026-W26/m02_polka_image_test_brief.md
+10_automation/runs/2026-W26/generated_images/2026-W26-002/codex_generation_handoff.md
 ```
 
 ## Next Codex Work
@@ -253,7 +253,7 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 9. Open `daily_queue.csv` to confirm today's model profile and outfit.
 10. Open `image_generation_briefs.md` and generate / place candidate images in `generated_images/`.
 11. Score `image_review_template.csv`.
-12. Run `10_automation/select_grok_assets.py --provider Codex` after images are scored.
+12. Run `10_automation/select_codex_assets.py --provider Codex` after images are scored.
 13. Confirm `validate_weekly_run.py --require-assets` passes.
 14. Use generated Canva handoff files or Canva connector edits to duplicate and fill one registered Mira Canva master template. Canva autofill must stop unless the selected images have verified Canva image asset ids for complete flat PNG/JPG assets.
 15. Use generated IG / Threads / Pinterest drafts.

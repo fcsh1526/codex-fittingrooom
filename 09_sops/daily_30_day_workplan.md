@@ -1,69 +1,61 @@
-﻿# 30 天每日陪跑工作計畫
+# Daily Cockpit Operating Plan
 
-每日固定短會：台北時間 09:30。  
-第一個月優先平台：Instagram、小紅書、Pinterest。  
-工作原則：你負責需要帳號登入或人工判斷的操作，Codex 負責拆解、整理、文案、表格、檢查與版本化。
+This replaces the old Day X companionship plan.
 
-## 每日短會固定流程
-
-1. 你貼上昨天完成項目、Perplexity 公開網頁 URL、Grok 圖像結果或平台數據。
-2. Codex 幫你判斷今天只做 1-3 個最重要任務。
-3. Codex 更新本地 CSV/Markdown 草稿、產出 prompt、貼文、檢查表或回顧摘要。
-4. 你完成外部工具操作：Perplexity、Grok、平台發文、聯盟連結、LINE/Email 後台。
-5. 當天收尾時，把結果貼回來，Codex 幫你歸檔與決定隔天任務。
-
-## Day 1-7：把 Perplexity 到發文的鏈路接起來
-
-| Day | 今日目標 | 你負責 | Codex 可協助 | 交付物 |
-| --- | --- | --- | --- | --- |
-| 1 | 改 Perplexity Task prompt | 在 Perplexity Computer 修改原本每週 Task | 提供公開網頁固定格式 prompt，檢查是否符合本工作區欄位 | 可直接貼進 Perplexity 的 Task prompt |
-| 2 | 產第一個公開趨勢網頁 | 讓 Perplexity 產出公開 URL，確認 anyone-with-link 可讀 | 檢查網頁是否有 5 趨勢、20 prompt、CSV/JSON 區塊 | 第一份公開週報 URL |
-| 3 | 轉成可產圖 prompt | 貼週報 URL 或內容 | 拆成 `item_prompt_database.csv` 欄位，挑 10 個先測 | 10 個優先產圖 prompt |
-| 4 | 第一批圖像 A/B | 用 Grok Imagine 產 Mira 圖像 | 用 Codex/OpenAI imagegen 產 2-3 張對照圖，整理評分表 | 第一批 Grok/OpenAI 對照圖 |
-| 5 | 寫第一批貼文 | 提供篩選後可用圖 | 產 IG carousel、小紅書筆記、Pinterest pin 草稿 | 3 則可發布草稿 |
-| 6 | 補導購元素 | 建立或提供聯盟商品候選 | 產商品搜尋關鍵字、UTM、CTA、揭露文字 | 每則內容有導購或名單 CTA |
-| 7 | 第一週回顧 | 貼平台或素材表現 | 分析 prompt 可用率、圖像可用率、最容易成形平台 | 下週保留/淘汰清單 |
-
-## Day 8-14：建立固定週循環
-
-| Day | 今日目標 | 你負責 | Codex 可協助 | 交付物 |
-| --- | --- | --- | --- | --- |
-| 8 | 第二週 Perplexity 週報 | 跑第二週公開網頁 | 檢查格式穩定性與主題品質 | 第二份公開週報 URL |
-| 9 | 拆 20 個 prompt | 貼週報 URL 或內容 | 填入 prompt 資料庫，挑 3 個內容桶 | 20 個 prompt + 3 個主題 |
-| 10 | 大批量產圖 | Grok 產 30-50 張圖 | Codex/OpenAI 產少量封面或風格對照 | 12-20 張候選素材 |
-| 11 | 平台改寫 | 提供候選圖 | 改寫 IG、小紅書、Pinterest 文案與標題 | 5-7 則貼文草稿 |
-| 12 | 發布與排程 | 在平台發布或排程 | 檢查揭露、CTA、UTM、商品連結 | 本週內容上線 |
-| 13 | 整理素材庫 | 回報哪些圖不穩 | 淘汰失敗 prompt，整理可重用 prompt | 素材庫清理紀錄 |
-| 14 | 決定圖像分工 | 回報 Grok/OpenAI 使用體感 | 比較人物一致性、可用率、速度、成本 | 圖像工具分工決策 |
-
-## Day 15-30：開始驗證變現
-
-| Day | 今日目標 | 你負責 | Codex 可協助 | 交付物 |
-| --- | --- | --- | --- | --- |
-| 15 | 第三週週報 | 跑 Perplexity 公開網頁 | 選出 3 個最值得做題材 | 週 3 主題 |
-| 16 | 商品關鍵字 | 確認聯盟平台可用商品 | 產商品搜尋字、平價/質感/替代款分類 | 商品候選清單 |
-| 17 | 產圖 | Grok 主力產圖 | OpenAI 補封面/變體，更新評分 | 候選素材 |
-| 18 | 寫文案 | 提供可用圖 | 產 5-7 則平台版本 | 排程草稿 |
-| 19 | 發布 | 發文/排程 | 檢查 UTM 與揭露 | 上線內容 |
-| 20 | 初步數據 | 貼曝光、收藏、點擊 | 更新 metrics 與 experiment log | 第一版數據判讀 |
-| 21 | 週回顧 | 回報名單/成交 | 決定下週保留題材 | 回顧摘要 |
-| 22 | 第四週週報 | 跑 Perplexity 公開網頁 | 檢查與前三週差異 | 第四份週報 |
-| 23 | 聚焦高分題材 | 選 2-3 個延伸 | 產延伸 prompt 與系列標題 | 系列化內容表 |
-| 24 | 產圖 | Grok/OpenAI 分工產圖 | 更新圖像 A/B 紀錄 | 素材 |
-| 25 | 7 日穿搭清單 | 確認免費誘因方向 | 整理 PDF/LINE 文字大綱 | 免費清單草稿 |
-| 26 | 發布與導流 | 上線內容 | 檢查 CTA 是否導向清單/商品 | 發布紀錄 |
-| 27 | 數據整理 | 貼平台數據 | 找出收藏率/點擊率前 5 | 成效排行榜 |
-| 28 | 產品化判斷 | 回報受眾反應 | 判斷 prompt pack、指南或諮詢哪個先賣 | 付費產品方向 |
-| 29 | Media kit 初稿 | 提供帳號數據 | 整理品牌合作賣點 | Media kit 文案 |
-| 30 | 月回顧 | 貼 30 天總數據 | 決定第二個月策略 | 30 天回顧與下月計畫 |
-
-## 每天貼給 Codex 的最小輸入
+Current strategy:
 
 ```text
-今天是 Day X。
-Perplexity URL：
-Grok 圖像結果：
-已發布/預計發布平台：
-昨天數據：
-今天卡住的地方：
+Production-first:
+Perplexity weekly trend rows -> Codex image generation with M01-M05 anchors -> Canva master template -> Instagram carousel -> metrics
 ```
+
+## Daily Start
+
+Run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-07-09
+```
+
+Open:
+
+```text
+10_automation/DAILY_COCKPIT.html
+10_automation/PUBLISH_QUEUE.md
+10_automation/TODAY.md
+```
+
+Use `PUBLISH_QUEUE.md` as the concrete source of truth when files disagree.
+
+## If Top Item Is `needs_image_asset_selection`
+
+1. Open the carousel folder under `generated_images/{carousel_id}/`.
+2. Use `codex_generation_handoff.md` and `candidate_prompts.md`.
+3. Generate 2-3 Codex image candidates with the assigned model reference anchors.
+4. Save candidates in the carousel folder.
+5. Score `review_sheet.csv` or `image_review_template.csv`.
+6. Run `select_codex_assets.py`.
+7. Validate with `-RequireAssets`.
+
+## If Top Item Is `ready_for_canva_and_publish`
+
+1. Open `canva_fill_guide.md`.
+2. Open `canva_asset_plan.md`.
+3. Duplicate one registered Mira Canva master template.
+4. Replace only complete flat PNG/JPG image assets.
+5. User manually crops/exports and posts to Instagram.
+
+## If Top Item Is Metrics
+
+1. Record reach, likes, saves, comments, shares, profile visits, follows, and CTA comments.
+2. Zero reach does not stop the next carousel.
+3. Keep production moving unless the user explicitly pauses.
+
+## User Inputs Codex May Need
+
+Only ask for the smallest missing input:
+
+- Perplexity weekly URL or CSV, when no weekly run exists.
+- Visual approval or rejection notes, when candidates are generated.
+- Canva preview approval, when a duplicate template is filled.
+- Instagram post URL and publish time, after publishing.

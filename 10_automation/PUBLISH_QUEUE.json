@@ -23,7 +23,7 @@
     "latest_decision": "",
     "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
     "run_dir": "10_automation\\runs\\2026-W26",
-    "package_path": "10_automation\\runs\\2026-W26\\generated_images\\2026-W26-002\\grok_mobile_handoff.md"
+    "package_path": "10_automation\\runs\\2026-W26\\generated_images\\2026-W26-002\\codex_generation_handoff.md"
   },
   "items": [
     {
@@ -48,7 +48,7 @@
       "latest_decision": "",
       "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
       "run_dir": "10_automation\\runs\\2026-W26",
-      "package_path": "10_automation\\runs\\2026-W26\\generated_images\\2026-W26-002\\grok_mobile_handoff.md"
+      "package_path": "10_automation\\runs\\2026-W26\\generated_images\\2026-W26-002\\codex_generation_handoff.md"
     },
     {
       "item_type": "carousel",

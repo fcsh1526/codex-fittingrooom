@@ -17,7 +17,7 @@ Codex can use the Canva connector to:
 
 ```text
 weekly_content_packet.csv
--> OpenAI / Grok images
+-> Codex-generated images
 -> image inventory + review scores
 -> canva_asset_plan.md
 -> canva_placeholder_map.json

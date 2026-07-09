@@ -218,7 +218,6 @@ def next_action_for_stage(stage):
         "ready_to_publish_visibility_test": "Optional side test: publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.",
         "published_waiting_for_metrics": "Record 6h / 24h metrics with record_post_metrics.py.",
         "needs_image_asset_selection": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
-        "needs_grok_asset_selection": "Generate or score images, then run select_grok_assets.py.",
         "needs_visual_revision": "Do not publish. Use the approved Mira Canva v2 template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.",
         "ready_for_canva_test": "Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.",
         "canva_blocked_waiting_for_flat_png_asset": "Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.",
@@ -244,8 +243,8 @@ def carousel_item(run_dir, packet, asset, publish_rows, metric_rows, template=No
     stage = stage_for_carousel(packet, asset, publish, metric)
     template = template or {}
     package_path = ""
-    if stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
-        handoff_path = Path(run_dir) / "generated_images" / carousel_id / "grok_mobile_handoff.md"
+    if stage == "needs_image_asset_selection":
+        handoff_path = Path(run_dir) / "generated_images" / carousel_id / "codex_generation_handoff.md"
         prompt_path = Path(run_dir) / "generated_images" / carousel_id / "candidate_prompts.md"
         if handoff_path.exists():
             package_path = str(handoff_path)
@@ -328,7 +327,7 @@ def item_priority(row):
         return 110
     if item_type == "carousel" and stage == "ready_for_canva_and_publish":
         return 100
-    if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
+    if item_type == "carousel" and stage == "needs_image_asset_selection":
         return 90
     priorities = {
         "published_waiting_for_metrics": 80,
@@ -338,7 +337,6 @@ def item_priority(row):
         "canva_committed_ready_to_publish": 90,
         "ready_for_canva_and_publish": 75,
         "needs_image_asset_selection": 70,
-        "needs_grok_asset_selection": 70,
         "ready_to_publish_visibility_test": 45,
         "visibility_recovery": 40,
         "wait_for_24h": 50,

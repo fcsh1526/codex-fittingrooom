@@ -24,7 +24,7 @@ param(
 
     [string]$ScoreSheet = "",
     [string]$DriveInventory = "",
-    [string]$AssetProvider = "Grok",
+    [string]$AssetProvider = "Codex",
     [string]$DailyId = "",
     [string]$OpenAIModel = "",
     [string]$ImageSize = "1024x1536",
@@ -190,7 +190,7 @@ switch ($Action) {
         if ($AssetProvider) {
             $argsList += @("--provider", $AssetProvider)
         }
-        Invoke-MikaPython -ScriptPath "10_automation\select_grok_assets.py" -ArgsList $argsList
+        Invoke-MikaPython -ScriptPath "10_automation\select_codex_assets.py" -ArgsList $argsList
     }
 
     "image-job" {

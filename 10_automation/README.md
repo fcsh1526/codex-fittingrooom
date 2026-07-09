@@ -69,7 +69,8 @@ Each week should produce:
 - `generate_canva_handoff.py`: creates the Canva fill guide, placeholder JSON map, and asset slot CSV.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
 - `generate_openai_images.py`: optional future API path for OpenAI image assets; not the current primary flow.
-- `select_grok_assets.py`: selects cover/detail/crop assets from any scored provider review sheet and fills Canva asset slots.
+- `select_codex_assets.py`: selects cover/detail/crop assets from scored Codex review sheets and fills Canva asset slots.
+- `select_grok_assets.py`: legacy compatibility module used internally by the Codex selector; do not use it as the active workflow entrypoint.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.
 - `check_weekly_status.py`: reads a run folder and tells the current stage, blocking items, and next command.
@@ -372,7 +373,7 @@ Use this when a Perplexity export is ready and you want the full weekly packet i
   --limit 2
 ```
 
-If Grok image scores are already available, include them:
+If Codex image scores are already available, include them:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
@@ -455,11 +456,11 @@ Keep all Chinese carousel text in Canva text layers. Do not ask the image model 
 
 ## Asset Selection
 
-After Codex, OpenAI, Grok, or Drive images are reviewed and scored, select Canva-ready assets:
+After Codex images are reviewed and scored, select Canva-ready assets:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
-  10_automation\select_grok_assets.py `
+  10_automation\select_codex_assets.py `
   --run-dir 10_automation\runs\2026-W21-test `
   --provider Codex `
   --score-sheet 10_automation\runs\2026-W21-test\image_review_template.csv
@@ -547,7 +548,7 @@ When a post stays at zero reach, create a simpler single-image test package as a
 
 The package includes:
 
-- recommended Grok image file and Drive URL
+- recommended image file and asset URL when available
 - Instagram caption
 - hashtags
 - first comment
@@ -627,4 +628,4 @@ Every week should follow:
 Perplexity -> daily queue -> Codex image candidates -> review -> Canva carousel -> IG post -> metrics -> decide next test
 ```
 
-OpenAI API and Grok remain optional backup providers only.
+Codex workspace image generation is the primary image path. OpenAI API remains an optional future automation path; Grok is legacy historical data and is not part of the active workflow.

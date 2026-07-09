@@ -1,6 +1,6 @@
-# Weekly Grok Prompts
+# Legacy Backup Image Prompts
 
-Legacy backup prompts. Primary v1 workflow uses Codex image briefs and internal Mira model profiles.
+Historical filename: `grok_prompts.md`. The active workflow uses Codex image briefs and internal Mira model profiles.
 
 ## 2026-W26-001 - 薄紗/透視層次（Sheer Layering）
 

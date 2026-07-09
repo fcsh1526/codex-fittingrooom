@@ -71,9 +71,9 @@ def run_files(top_item):
             normalize_path(f"{run_dir}/canva_asset_slots.csv"),
             normalize_path(f"{run_dir}/generated_images/2026-W26-002"),
         ]
-    if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
+    if item_type == "carousel" and stage == "needs_image_asset_selection":
         return [
-            normalize_path(f"{run_dir}/generated_images/{clean(top_item.get('carousel_id'))}/grok_mobile_handoff.md"),
+            normalize_path(f"{run_dir}/generated_images/{clean(top_item.get('carousel_id'))}/codex_generation_handoff.md"),
             normalize_path(f"{run_dir}/generated_images/{clean(top_item.get('carousel_id'))}/candidate_prompts.md"),
             normalize_path(f"{run_dir}/generated_images/{clean(top_item.get('carousel_id'))}/review_sheet.csv"),
             normalize_path(f"{run_dir}/daily_queue.csv"),
@@ -138,9 +138,9 @@ def checklist_for(top_item):
             "Duplicate the recommended registered Canva master template again.",
             "Rerun the Canva fill only on the fresh duplicate.",
         ]
-    if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
+    if item_type == "carousel" and stage == "needs_image_asset_selection":
         return [
-            "Open image_generation_briefs.md for today's internal model and outfit.",
+            "Open the Codex generation handoff for today's internal model and outfit.",
             "Generate image candidates inside the Codex workspace.",
             "Save candidates under generated_images.",
             "Review and score the candidates in image_review_template.csv.",

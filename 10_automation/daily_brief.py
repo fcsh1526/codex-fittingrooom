@@ -15,7 +15,6 @@ STAGE_PRIORITY = {
     "canva_committed_ready_to_publish": 110,
     "ready_for_canva_and_publish": 100,
     "needs_image_asset_selection": 90,
-    "needs_grok_asset_selection": 90,
     "published_waiting_for_metrics": 80,
     "quality_gate_not_passed": 80,
     "missing_weekly_packet_files": 75,
@@ -156,7 +155,7 @@ def stage_brief(stage):
                 "10_automation/runs/{run}/daily_queue.csv",
                 "10_automation/runs/{run}/image_generation_briefs.md",
                 "10_automation/runs/{run}/image_review_template.csv",
-                "10_automation/select_grok_assets.py",
+                "10_automation/select_codex_assets.py",
             ],
         },
         "needs_visual_revision": {
@@ -222,23 +221,6 @@ def stage_brief(stage):
                 "10_automation/runs/{run}/canva_automation_trial_log.md",
                 "10_automation/runs/{run}/canva_fill_guide.md",
                 "10_automation/runs/{run}/generated_images/2026-W26-002",
-            ],
-        },
-        "needs_grok_asset_selection": {
-            "decision": "The next bottleneck is legacy image review and asset selection.",
-            "tasks": [
-                "Prefer OpenAI image generation unless Grok images already exist.",
-                "Review and score the available image candidates.",
-                "Run asset selection and validation.",
-            ],
-            "user_inputs": ["Optional visual score sheet"],
-            "codex_actions": [
-                "Select cover/detail assets and update canva_asset_slots.csv.",
-                "Validate with --require-assets before Canva work.",
-            ],
-            "files": [
-                "10_automation/generate_openai_images.py",
-                "10_automation/select_grok_assets.py",
             ],
         },
         "ready_for_canva_and_publish": {

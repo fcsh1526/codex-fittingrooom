@@ -44,10 +44,10 @@ Save only newly generated, M02 v3-consistent assets as:
 
 Then fill `review_sheet.csv` before Canva.
 
-## Mobile Grok Handoff
+## Codex Generation Handoff
 
-Use this direct handoff for phone generation:
+Use this direct handoff for Codex generation:
 
 ```text
-10_automation/runs/2026-W26/generated_images/2026-W26-002/grok_mobile_handoff.md
+10_automation/runs/2026-W26/generated_images/2026-W26-002/codex_generation_handoff.md
 ```

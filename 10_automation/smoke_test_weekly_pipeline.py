@@ -86,7 +86,7 @@ def test_new_week_without_assets():
 
     status = read_json(run_dir / "weekly_status.json")
     assert_equal(status["stage"]["stage"], "needs_image_asset_selection", "new week stage")
-    assert_exists(run_dir / "grok_asset_review_template.csv", "Grok review template")
+    assert_exists(run_dir / "codex_asset_review_template.csv", "Codex review template")
     assert_exists(run_dir / "weekly_status.md", "weekly status")
     assert_exists(run_dir / "daily_queue.csv", "daily queue")
     assert_exists(run_dir / "image_generation_briefs.md", "image generation briefs")

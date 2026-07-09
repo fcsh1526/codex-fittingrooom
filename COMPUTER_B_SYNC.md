@@ -51,7 +51,7 @@ Rules:
 - Keep AI disclosure in the caption.
 - Use the `$mira-image-daily` skill for image jobs.
 - Do not generate daily outfit images for a model until its reference start image is approved.
-- Keep OpenAI API / Grok as optional backup paths only.
+- Use Codex workspace image generation as the primary image path. Grok is not part of the active workflow.
 - Zero reach is tracked as data, not a blocker.
 
 ## Current Top Item
@@ -60,9 +60,9 @@ Rules:
 item = 2026-W26-002
 type = carousel
 model = M02
-stage = canva_blocked_waiting_for_flat_png_asset
-asset = 2026-W26-002_M02_candidate_A_v2.png
-next = Resolve A_v2, B_v2, and C_v2 to verified Canva image asset ids, then rerun Canva fill on a fresh duplicate.
+stage = needs_image_asset_selection
+asset = n/a
+next = Generate fresh Codex candidates from M02 v3 face/full reference anchors, score them, then run asset selection.
 ```
 
 ## Files For Current Top Item
@@ -75,7 +75,9 @@ Open these when working on the carousel:
 10_automation/runs/2026-W26/daily_queue.csv
 10_automation/runs/2026-W26/image_generation_briefs.md
 10_automation/runs/2026-W26/image_review_template.csv
-10_automation/runs/2026-W26/m02_polka_image_test_brief.md
+10_automation/runs/2026-W26/generated_images/2026-W26-002/codex_generation_handoff.md
+10_automation/runs/2026-W26/generated_images/2026-W26-002/candidate_prompts.md
+10_automation/runs/2026-W26/generated_images/2026-W26-002/review_sheet.csv
 10_automation/runs/2026-W26/post_drafts.md
 10_automation/runs/2026-W26/publish_checklist.md
 10_automation/mira_high_fashion_carousel_template_v2.md
@@ -144,7 +146,12 @@ Do not publish model names in IG copy; they are only for consistent image genera
 Image generation note:
 
 ```text
-W26-002 was regenerated with v2 assets after the old Canva fill was rejected on 2026-07-01 for face drift / ghosting and Slide 2 head crop. The current accepted asset set is A_v2 cover, B_v2 motion crop, and C_v2 detail. Do not return to the old fill.
+W26-002 v2 assets and Canva copy `DAHO2rHNkZs` were invalidated after the user caught old model identity drift. Do not use A_v2/B_v2/C_v2 or the old Canva asset ids.
+
+Next image set must be generated in Codex with:
+
+02_brand/reference_models/M02_start_v3_face.png
+02_brand/reference_models/M02_start_v3_full.png
 
 2026-07-08 Canva automation trial note: A Contact Sheet duplicate `DAHOyDPZHeQ` was saved with old split Canva asset ids and failed again with missing person layers / blurred background-only street images. Do not export or publish that design. Future Canva autofill must use complete flat PNG/JPG assets only.
 ```
@@ -161,9 +168,9 @@ C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily
 1. 2026-W26-002
    type = carousel
    model = M02
-   stage = canva_blocked_waiting_for_flat_png_asset
-   asset = 2026-W26-002_M02_candidate_A_v2.png
-   action = resolve flat PNG assets to verified Canva image asset ids, then rerun on a fresh duplicate
+   stage = needs_image_asset_selection
+   asset = n/a
+   action = generate Codex candidates with M02 v3 anchors, score review_sheet.csv, then run select_codex_assets.py
 
 2. 2026-W26-001
    type = carousel

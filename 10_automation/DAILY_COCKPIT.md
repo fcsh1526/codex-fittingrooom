@@ -16,7 +16,7 @@ Date: `2026-07-09`
 
 ## Checklist
 
-- [ ] Open image_generation_briefs.md for today's internal model and outfit.
+- [ ] Open the Codex generation handoff for today's internal model and outfit.
 - [ ] Generate image candidates inside the Codex workspace.
 - [ ] Save candidates under generated_images.
 - [ ] Review and score the candidates in image_review_template.csv.
@@ -24,7 +24,7 @@ Date: `2026-07-09`
 
 ## Files To Open
 
-- `10_automation/runs/2026-W26/generated_images/2026-W26-002/grok_mobile_handoff.md`
+- `10_automation/runs/2026-W26/generated_images/2026-W26-002/codex_generation_handoff.md`
 - `10_automation/runs/2026-W26/generated_images/2026-W26-002/candidate_prompts.md`
 - `10_automation/runs/2026-W26/generated_images/2026-W26-002/review_sheet.csv`
 - `10_automation/runs/2026-W26/daily_queue.csv`

@@ -215,9 +215,9 @@ AI virtual outfit only; fictional person; no real person likeness; no celebrity;
 def write_grok_prompts(path, packets):
     roster = load_model_roster()
     body = [
-        "# Weekly Grok Prompts",
+        "# Legacy Backup Image Prompts",
         "",
-        "Legacy backup prompts. Primary v1 workflow uses Codex image briefs and internal Mira model profiles.",
+        "Historical filename: `grok_prompts.md`. The active workflow uses Codex image briefs and internal Mira model profiles.",
         "",
     ]
     for packet in packets:
@@ -484,7 +484,7 @@ def write_manifest(path, week_id, packets):
         "- `daily_queue.csv`",
         "- `image_generation_briefs.md`",
         "- `image_review_template.csv`",
-        "- `grok_prompts.md`",
+        "- `grok_prompts.md` legacy backup prompt file",
         "- `canva_placeholder_values.csv`",
         "- `canva_fill_guide.md`",
         "- `canva_placeholder_map.json`",

@@ -10,7 +10,6 @@ from mira_models import MODEL_IDS, validate_model_id
 
 REQUIRED_FILES = [
     "weekly_content_packet.csv",
-    "grok_prompts.md",
     "canva_placeholder_values.csv",
     "canva_fill_guide.md",
     "canva_placeholder_map.json",
@@ -61,15 +60,14 @@ DISCLOSURE_TERMS = [
 ]
 
 
-GROK_REQUIRED_TERMS = [
-    "fictional",
-    "same fictional identity",
+IMAGE_BRIEF_REQUIRED_TERMS = [
     "full outfit",
-    "no real person",
-    "no celebrity",
-    "no childlike",
-    "no nudity",
-    "no visible brand logos",
+    "no visible logos",
+    "no text",
+    "no watermark",
+    "sexualized pose",
+    "childlike styling",
+    "celebrity likeness",
 ]
 
 
@@ -189,6 +187,7 @@ def validate_image_generation_files(run_dir, packet_rows, issues):
     review_path = run_dir / "image_review_template.csv"
     if brief_path.exists():
         text = read_text(brief_path)
+        text_lower = text.lower()
         for row in packet_rows:
             carousel_id = clean(row.get("carousel_id"))
             model_profile_id = clean(row.get("model_profile_id"))
@@ -196,6 +195,9 @@ def validate_image_generation_files(run_dir, packet_rows, issues):
                 add_issue(issues, "error", "image_brief_missing_carousel", f"image_generation_briefs.md missing {carousel_id}.")
             if model_profile_id and model_profile_id not in text:
                 add_issue(issues, "error", "image_brief_missing_model", f"image_generation_briefs.md missing {model_profile_id}.")
+        for term in IMAGE_BRIEF_REQUIRED_TERMS:
+            if term.lower() not in text_lower:
+                add_issue(issues, "error", "image_brief_required_term", f"image_generation_briefs.md missing `{term}`.")
     if review_path.exists():
         rows = read_csv(review_path)
         review_ids = {clean(row.get("carousel_id")) for row in rows}
@@ -240,16 +242,6 @@ def validate_canva_rows(run_dir, packet_rows, issues):
         if hashtag_count < 6 or hashtag_count > 12:
             add_issue(issues, "warning", "hashtag_count", f"{row_label}: hashtag count is {hashtag_count}; target 6-12.")
     return rows
-
-
-def validate_grok_prompt(run_dir, issues):
-    path = run_dir / "grok_prompts.md"
-    if not path.exists():
-        return
-    text = read_text(path).lower()
-    for term in GROK_REQUIRED_TERMS:
-        if term.lower() not in text:
-            add_issue(issues, "error", "grok_required_term", f"grok_prompts.md missing `{term}`.")
 
 
 def validate_post_drafts(run_dir, packet_rows, issues):
@@ -408,7 +400,6 @@ def validate_run(run_dir, min_rows=1, require_assets=False):
     validate_daily_queue(run_dir, packet_rows=packet_rows, issues=issues)
     validate_image_generation_files(run_dir, packet_rows=packet_rows, issues=issues)
     validate_canva_rows(run_dir, packet_rows=packet_rows, issues=issues)
-    validate_grok_prompt(run_dir, issues)
     validate_post_drafts(run_dir, packet_rows=packet_rows, issues=issues)
     validate_canva_handoff(run_dir, packet_rows=packet_rows, issues=issues, require_assets=require_assets)
     return write_reports(run_dir, issues)

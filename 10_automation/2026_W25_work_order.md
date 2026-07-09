@@ -24,7 +24,7 @@ Paste these when ready:
 
 ```text
 Perplexity weekly URL:
-Google Drive folder for Grok images:
+Codex generated image folder or notes:
 Canva panorama design URL:
 Instagram account visibility status:
 ```
@@ -37,16 +37,16 @@ Codex should:
 2. Pick 1-2 carousel candidates.
 3. Run `10_automation/run_weekly_pipeline.py` if a CSV / markdown export is available.
 4. Otherwise import selected rows into `04_prompts/item_prompt_database.csv`.
-5. Use the generated `grok_prompts.md`, `canva_placeholder_values.csv`, `post_drafts.md`, and `publish_checklist.md`.
+5. Use the generated `image_generation_briefs.md`, `canva_placeholder_values.csv`, `post_drafts.md`, and `publish_checklist.md`.
 
-## If Grok Images Are Available
+## If Codex Images Are Available
 
 Codex should:
 
-1. List the Drive folder.
-2. Build an image inventory.
+1. Open the carousel job folder under `generated_images/{carousel_id}/`.
+2. Build or update the image inventory.
 3. Review image quality.
-4. Pick the cover and detail assets.
+4. Pick the cover, motion crop, and detail assets.
 5. Update the weekly content packet.
 
 ## If Canva Design Is Available

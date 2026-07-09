@@ -1,13 +1,13 @@
 ﻿# AI Virtual Fashion Creator Automation Brief
 
-Updated: 2026-06-22
+Updated: 2026-07-09
 
 This is the current automation architecture for the Mira AI fashion creator workflow.
 
 The purpose is not to keep adding disconnected scripts. The purpose is to run one fixed state machine:
 
 ```text
-person identity -> weekly trend -> prompt packet -> Grok images -> Canva carousel -> publish -> metrics -> next decision
+person identity -> weekly trend -> prompt packet -> Codex images -> Canva carousel -> publish -> metrics -> next decision
 ```
 
 Monetization stays off until at least one channel gets non-zero reach.
@@ -56,10 +56,10 @@ There are six layers.
    Perplexity weekly report / CSV / markdown export
 
 3. Prompt layer
-   item_prompt_database.csv -> weekly_content_packet.csv -> grok_prompts.md
+   item_prompt_database.csv -> weekly_content_packet.csv -> image_generation_briefs.md -> codex_generation_handoff.md
 
 4. Asset layer
-   Grok images -> Drive inventory -> visual score sheet -> canva_asset_slots.csv
+   Codex-generated images -> review sheet -> canva_asset_slots.csv
 
 5. Publishing layer
    Canva handoff -> platform captions -> publish record -> metrics
@@ -110,7 +110,7 @@ Each content item moves through stages:
 
 ```text
 needs_weekly_input
-needs_grok_asset_selection
+needs_image_asset_selection
 ready_for_canva_and_publish
 published_waiting_for_metrics
 visibility_recovery
@@ -127,7 +127,7 @@ The queue ranks stages by urgency.
 Current production-first rule:
 
 ```text
-ready_for_canva_and_publish > needs_grok_asset_selection > published_waiting_for_metrics > ready_to_publish_visibility_test > visibility_recovery
+ready_for_canva_and_publish > needs_image_asset_selection > published_waiting_for_metrics > ready_to_publish_visibility_test > visibility_recovery
 ```
 
 That is why the system should keep moving carousel production even if Instagram reach is still zero.
@@ -150,7 +150,8 @@ This generates:
 
 ```text
 weekly_content_packet.csv
-grok_prompts.md
+image_generation_briefs.md
+generated_images/{carousel_id}/codex_generation_handoff.md
 canva_placeholder_values.csv
 canva_fill_guide.md
 canva_placeholder_map.json
@@ -161,17 +162,17 @@ quality_report.md/json
 weekly_status.md/json
 ```
 
-If score sheet and Drive inventory are available, the same pipeline can also select Grok assets.
+If a scored Codex review sheet is available, the same pipeline can also select Canva assets.
 
 ---
 
-## Slide 6 - Grok / Asset Automation
+## Slide 6 - Codex Image / Asset Automation
 
 Current state:
 
 ```text
-Grok image generation = manual in Grok mobile app
-Drive upload = manual or connector-assisted
+Codex image generation = primary workflow
+Reference anchors = required before generation
 Image scoring = CSV-driven
 Asset selection = automated
 Canva asset slots = automated
@@ -187,11 +188,11 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -DriveInventory path_to_drive_inventory.csv
 ```
 
-Why not fully automatic yet:
+Current external boundary:
 
 ```text
-Grok mobile app image generation and Instagram posting are external manual boundaries.
-The local repo can prepare prompts, score sheets, asset slots, captions, queues, and metrics commands.
+Canva final crop/export and Instagram posting remain manual.
+The local repo prepares prompts, image handoffs, score sheets, asset slots, captions, queues, and metrics commands.
 ```
 
 ---
@@ -301,12 +302,12 @@ Automated locally:
 Perplexity CSV / markdown import
 prompt database upsert
 weekly packet generation
-Grok prompt generation
+Codex image brief generation
 Canva placeholder generation
 Canva handoff generation
 asset slot generation
 quality validation
-Grok asset selection from score sheet
+Codex asset selection from score sheet
 publish / metrics recording
 decision classification
 weekly dashboard
@@ -320,7 +321,7 @@ Not automated yet:
 
 ```text
 Perplexity scheduled webpage scraping without user URL or export
-Grok mobile app image generation
+Canva final export
 Google Drive image inventory through connector in this exact pipeline
 Canva final design replacement / export
 Instagram publishing and insight retrieval

@@ -152,13 +152,7 @@ Keep Chinese titles, CTAs, and AI disclosure in Canva text layers. Do not render
 
 No product list, comment CTA, AI disclosure, or template instruction text should appear inside the image.
 
-Grok can still be used as a backup with:
-
-```text
-10_automation/runs/{week_id}/grok_prompts.md
-```
-
-Prompt must include:
+Codex prompts must include:
 
 - fictional AI virtual creator
 - same identity
@@ -205,7 +199,7 @@ If a score sheet exists, select assets automatically:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
-  10_automation\select_grok_assets.py `
+  10_automation\select_codex_assets.py `
   --run-dir 10_automation\runs\{week_id} `
   --provider Codex `
   --score-sheet 10_automation\runs\{week_id}\image_review_template.csv
@@ -359,7 +353,7 @@ This creates:
 - `image_generation_briefs.md`
 - `image_review_template.csv`
 - `generated_images/`
-- `grok_prompts.md`
+- `grok_prompts.md` legacy backup prompt file
 - `canva_placeholder_values.csv`
 - `canva_fill_guide.md`
 - `canva_placeholder_map.json`

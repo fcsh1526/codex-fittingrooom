@@ -6,7 +6,6 @@ from pathlib import Path
 
 REQUIRED_RUN_FILES = [
     "weekly_content_packet.csv",
-    "grok_prompts.md",
     "canva_placeholder_values.csv",
     "canva_fill_guide.md",
     "canva_asset_slots.csv",
@@ -66,7 +65,12 @@ def quality_status(run_dir):
 
 def asset_status(run_dir):
     slots = read_csv(run_dir / "canva_asset_slots.csv")
-    selections = read_csv(run_dir / "grok_asset_selection.csv")
+    selections = []
+    for selection_name in ["codex_asset_selection.csv", "openai_asset_selection.csv", "grok_asset_selection.csv"]:
+        selection_path = run_dir / selection_name
+        if selection_path.exists():
+            selections = read_csv(selection_path)
+            break
     carousel_ids = sorted({clean(row.get("carousel_id")) for row in slots if clean(row.get("carousel_id"))})
     missing_cover = []
     missing_detail = []
@@ -85,12 +89,11 @@ def asset_status(run_dir):
 
     template_exists = any(
         (run_dir / name).exists()
-        for name in ["openai_asset_review_template.csv", "grok_asset_review_template.csv"]
-        + ["image_review_template.csv"]
+        for name in ["image_review_template.csv", "codex_asset_review_template.csv", "openai_asset_review_template.csv", "grok_asset_review_template.csv"]
     )
     selection_exists = any(
         (run_dir / name).exists()
-        for name in ["openai_asset_selection.csv", "grok_asset_selection.csv"]
+        for name in ["codex_asset_selection.csv", "openai_asset_selection.csv", "grok_asset_selection.csv"]
     )
 
     return {
@@ -213,11 +216,11 @@ def determine_stage(files, quality, assets, publishing, packet=None):
 
     if assets["missing_cover"]:
         if assets["review_template_exists"] and assets["selection_rows"]:
-            next_action = "Fill the image review template after reviewing outputs, then rerun select_grok_assets.py with that score sheet."
+            next_action = "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet."
         elif assets["selection_exists"]:
-            next_action = "Review the asset selection CSV, then rerun select_grok_assets.py with a scored image sheet."
+            next_action = "Review the asset selection CSV, then rerun select_codex_assets.py with a scored image sheet."
         else:
-            next_action = "Use image_generation_briefs.md to generate Codex workspace images, score them in image_review_template.csv, then run select_grok_assets.py with --provider Codex."
+            next_action = "Use the Codex generation handoff to generate workspace images, score them in image_review_template.csv, then run select_codex_assets.py."
         return {
             "stage": "needs_image_asset_selection",
             "next_action": next_action,
@@ -245,12 +248,12 @@ def command_suggestions(run_dir, stage):
         suggestions.append(
             f"python 10_automation/validate_weekly_run.py --run-dir {run_dir_str} --min-rows 1"
         )
-    elif stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
+    elif stage == "needs_image_asset_selection":
         suggestions.append(
             f"open {run_dir_str}/image_generation_briefs.md"
         )
         suggestions.append(
-            f"python 10_automation/select_grok_assets.py --run-dir {run_dir_str} --provider Codex --score-sheet {run_dir_str}/image_review_template.csv --drive-inventory path_to_image_inventory.csv"
+            f"python 10_automation/select_codex_assets.py --run-dir {run_dir_str} --provider Codex --score-sheet {run_dir_str}/image_review_template.csv --drive-inventory path_to_image_inventory.csv"
         )
         suggestions.append(
             f"python 10_automation/validate_weekly_run.py --run-dir {run_dir_str} --min-rows 1 --require-assets"

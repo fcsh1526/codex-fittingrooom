@@ -3,11 +3,11 @@
 Stable fictional identity:
 # Mira Identity Block
 
-Use this as the stable identity block for Grok, Canva, captions, and content planning.
+Use this as the stable brand and voice block for Codex image briefs, Canva captions, and content planning.
 
-## Character
+## Brand
 
-Name:
+Public name:
 
 ```text
 Mira
@@ -16,13 +16,13 @@ Mira
 Identity:
 
 ```text
-Fictional AI virtual fashion creator for Taiwan Traditional Chinese audiences.
+AI fashion magazine brand for Taiwan Traditional Chinese audiences, built from recurring internal model profiles M01-M05.
 ```
 
-Visual profile:
+Visual system:
 
 ```text
-Taiwanese woman in her late 20s, soft oval face, natural warm fair skin, deep brown hair, clean natural makeup, slim healthy proportions, calm friendly city style.
+Use the assigned internal model profile and approved reference anchors for each image. Do not treat Mira as one fixed public virtual person.
 ```
 
 Style position:

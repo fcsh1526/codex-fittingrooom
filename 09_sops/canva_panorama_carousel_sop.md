@@ -60,7 +60,7 @@ Do not put multiple placeholders in the same text box unless they must share the
 
 1. Perplexity publishes the weekly trend report.
 2. Codex imports the weekly CSV / prompt rows.
-3. User generates Grok images and places them in Google Drive.
+3. Codex generates image candidates from the weekly prompt rows and approved M01-M05 reference anchors.
 4. Codex reviews image quality and selects assets.
 5. User duplicates the Canva panorama template.
 6. Use `canva_asset_slots.csv` to place cover/detail/background assets.
