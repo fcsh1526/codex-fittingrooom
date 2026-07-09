@@ -57,9 +57,12 @@ Rules:
 ## Current Top Item
 
 ```text
-old W26 production progress = abandoned as current proof
-fresh pipeline test = passed under tmp/fresh_perplexity_pipeline_v2
-next real production step = update Perplexity weekly site so the public index exposes the intended new week, then run pipeline from index
+item = 2026-W27-001
+type = carousel
+model = M01
+stage = needs_image_asset_selection
+asset = n/a
+next = Open codex_generation_handoff.md, generate M01 candidates, score review_sheet.csv, then run select_codex_assets.py.
 ```
 
 Fresh test report:
@@ -73,16 +76,16 @@ Fresh test report:
 Open these when working on the carousel:
 
 ```text
-10_automation/runs/2026-W26/canva_fill_guide.md
-10_automation/runs/2026-W26/canva_asset_plan.md
-10_automation/runs/2026-W26/daily_queue.csv
-10_automation/runs/2026-W26/image_generation_briefs.md
-10_automation/runs/2026-W26/image_review_template.csv
-10_automation/runs/2026-W26/generated_images/2026-W26-002/codex_generation_handoff.md
-10_automation/runs/2026-W26/generated_images/2026-W26-002/candidate_prompts.md
-10_automation/runs/2026-W26/generated_images/2026-W26-002/review_sheet.csv
-10_automation/runs/2026-W26/post_drafts.md
-10_automation/runs/2026-W26/publish_checklist.md
+10_automation/runs/2026-W27/canva_fill_guide.md
+10_automation/runs/2026-W27/canva_asset_plan.md
+10_automation/runs/2026-W27/daily_queue.csv
+10_automation/runs/2026-W27/image_generation_briefs.md
+10_automation/runs/2026-W27/image_review_template.csv
+10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md
+10_automation/runs/2026-W27/generated_images/2026-W27-001/candidate_prompts.md
+10_automation/runs/2026-W27/generated_images/2026-W27-001/review_sheet.csv
+10_automation/runs/2026-W27/post_drafts.md
+10_automation/runs/2026-W27/publish_checklist.md
 10_automation/mira_high_fashion_carousel_template_v2.md
 10_automation/claude_design_mira_template_v2_prompt.md
 02_brand/mira_reference_images.csv
@@ -168,9 +171,22 @@ C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily
 ## Current Queue
 
 ```text
-Perplexity public index currently resolves latest to 2026-W26.
-Do not use old 2026-W26 progress as the current automation test.
-Use a fresh run after Perplexity publishes the intended new week.
+1. 2026-W27-001
+   type = carousel
+   model = M01
+   stage = needs_image_asset_selection
+   package = 10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md
+   action = generate Codex image candidates, score review_sheet.csv, then run select_codex_assets.py
+
+2. 2026-W27-002
+   type = carousel
+   model = M02
+   stage = needs_image_asset_selection
+
+3. 2026-W27-003
+   type = carousel
+   model = M03
+   stage = needs_image_asset_selection
 ```
 
 ## Canva Template Contract
@@ -203,12 +219,8 @@ Do not split Canva image uploads into background, person cutout, and object laye
 Latest local checks:
 
 ```text
-W26 strict validation: fail by design until production blockers are fixed
-Current strict blockers:
-- 2026-W26-001 motion_crop needs_regeneration
-- 2026-W26-001 codex_asset_selection status needs_review
-- 2026-W26-002 detail_image Canva flat asset id is still TBD
-
+W27 baseline validation: pass
+W27 require-assets validation: expected to fail until Codex image candidates are generated, scored, and selected
 Smoke test: passed
 ```
 
@@ -218,7 +230,7 @@ After working on Computer B, send Codex:
 
 ```text
 今日回報：
-item = 2026-W26-002
+item = 2026-W27-001
 type = carousel
 status =
 Canva URL =

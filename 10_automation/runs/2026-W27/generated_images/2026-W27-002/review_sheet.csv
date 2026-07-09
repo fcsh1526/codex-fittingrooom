@@ -1,0 +1,4 @@
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,commerce_value,publishable,status,notes
+2026-W27-002,W27-P002,M02,2026-W27-002_M02_candidate_A.png,Codex,,,,,,pending,review,Score after generation.
+2026-W27-002,W27-P002,M02,2026-W27-002_M02_candidate_B.png,Codex,,,,,,pending,review,Score after generation.
+2026-W27-002,W27-P002,M02,2026-W27-002_M02_candidate_C.png,Codex,,,,,,pending,review,Score after generation.

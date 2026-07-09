@@ -4,11 +4,11 @@ Date: `2026-07-09`
 
 ## Today, Do This First
 
-- Item: `2026-W26-002`
+- Item: `2026-W27-001`
 - Type: `carousel`
-- Model: `M02`
-- Canva template: `A` Mira Template Master - A Contact Sheet
-- Canva template URL: https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
+- Model: `M01`
+- Canva template: `B` Mira Template Master - B Symmetric
+- Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
 - Canva design URL: n/a
 - Stage: `needs_image_asset_selection`
 - Asset: `n/a`
@@ -24,23 +24,23 @@ Date: `2026-07-09`
 
 ## Files To Open
 
-- `10_automation/runs/2026-W26/generated_images/2026-W26-002/codex_generation_handoff.md`
-- `10_automation/runs/2026-W26/generated_images/2026-W26-002/candidate_prompts.md`
-- `10_automation/runs/2026-W26/generated_images/2026-W26-002/review_sheet.csv`
-- `10_automation/runs/2026-W26/daily_queue.csv`
-- `10_automation/runs/2026-W26/image_generation_briefs.md`
-- `10_automation/runs/2026-W26/image_review_template.csv`
-- `10_automation/runs/2026-W26/generated_images`
-- `10_automation/runs/2026-W26/canva_asset_slots.csv`
+- `10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md`
+- `10_automation/runs/2026-W27/generated_images/2026-W27-001/candidate_prompts.md`
+- `10_automation/runs/2026-W27/generated_images/2026-W27-001/review_sheet.csv`
+- `10_automation/runs/2026-W27/daily_queue.csv`
+- `10_automation/runs/2026-W27/image_generation_briefs.md`
+- `10_automation/runs/2026-W27/image_review_template.csv`
+- `10_automation/runs/2026-W27/generated_images`
+- `10_automation/runs/2026-W27/canva_asset_slots.csv`
 
 ## Reply Template For Codex
 
 ```text
 今日回報：
-item = 2026-W26-002
+item = 2026-W27-001
 type = carousel
 status = 
-model = M02
+model = M01
 Canva URL = 
 IG URL = 
 published at = 

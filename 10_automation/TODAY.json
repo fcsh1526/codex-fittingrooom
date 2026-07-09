@@ -1,12 +1,12 @@
 {
   "date": "2026-07-09",
   "priority_run": {
-    "run_dir": "10_automation\\runs\\2026-W26",
-    "stage": "quality_gate_not_passed",
-    "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
-    "packet_rows": 2,
-    "quality": "fail",
-    "cover_assets": "1/2",
+    "run_dir": "10_automation\\runs\\2026-W27",
+    "stage": "needs_image_asset_selection",
+    "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
+    "packet_rows": 5,
+    "quality": "pass",
+    "cover_assets": "0/5",
     "published": false,
     "metric_checkpoints": 0,
     "latest_decision": ""
@@ -37,38 +37,39 @@
     "10_automation\\PUBLISH_QUEUE.csv"
   ],
   "publish_queue": {
-    "item_count": 2,
+    "item_count": 7,
     "top_item": {
       "item_type": "carousel",
-      "week_id": "2026-W26",
-      "carousel_id": "2026-W26-002",
-      "prompt_id": "W26-P002",
-      "model_profile_id": "M02",
-      "canva_template_key": "A",
-      "canva_template_name": "Mira Template Master - A Contact Sheet",
-      "canva_template_url": "https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit",
+      "week_id": "2026-W27",
+      "carousel_id": "2026-W27-001",
+      "prompt_id": "W27-P001",
+      "model_profile_id": "M01",
+      "canva_template_key": "B",
+      "canva_template_name": "Mira Template Master - B Symmetric",
+      "canva_template_url": "https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit",
       "canva_design_url": "",
-      "trend_name": "波點洋裝/套裝（Polka Dots）",
-      "content_bucket": "date_outfit",
+      "trend_name": "薄紗/透視層次（Sheer Layering）",
+      "content_bucket": "office_capsule",
       "stage": "needs_image_asset_selection",
       "platform": "Instagram",
       "recommended_asset": "",
       "asset_url": "",
-      "post_url": "needs_image_asset_selection",
+      "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
       "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
-      "run_dir": "10_automation\\runs\\2026-W26",
-      "package_path": "10_automation\\runs\\2026-W26\\generated_images\\2026-W26-002\\codex_generation_handoff.md"
+      "run_dir": "10_automation\\runs\\2026-W27",
+      "package_path": "10_automation\\runs\\2026-W27\\generated_images\\2026-W27-001\\codex_generation_handoff.md"
     }
   },
   "dashboard": {
     "runs_dir": "10_automation\\runs",
-    "run_count": 2,
+    "run_count": 3,
     "stage_counts": {
       "missing_weekly_packet_files": 1,
-      "quality_gate_not_passed": 1
+      "quality_gate_not_passed": 1,
+      "needs_image_asset_selection": 1
     },
     "runs": [
       {
@@ -89,6 +90,17 @@
         "packet_rows": 2,
         "quality": "fail",
         "cover_assets": "1/2",
+        "published": false,
+        "metric_checkpoints": 0,
+        "latest_decision": ""
+      },
+      {
+        "run_dir": "10_automation\\runs\\2026-W27",
+        "stage": "needs_image_asset_selection",
+        "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
+        "packet_rows": 5,
+        "quality": "pass",
+        "cover_assets": "0/5",
         "published": false,
         "metric_checkpoints": 0,
         "latest_decision": ""

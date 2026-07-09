@@ -97,18 +97,19 @@ The pipeline now creates the weekly packet, daily queue, Codex image job folders
 Current caveat as of 2026-07-09:
 
 ```text
-Perplexity index latest = 2026-W26
-Old W26 production progress is abandoned as current proof.
-Update Perplexity first before treating this as a true new-week production run.
+Perplexity index latest = 2026-W27
+Active run folder = 10_automation/runs/2026-W27
+Pipeline from Perplexity index has passed.
 ```
 
 ## Current Top Item
 
 ```text
-item = 2026-W26-002
-model = M02
+item = 2026-W27-001
+model = M01
 stage = needs_image_asset_selection
-template = A Contact Sheet
+template = B Symmetric
+package = 10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md
 ```
 
 Invalidated Canva flat image assets:
@@ -193,17 +194,18 @@ Prepare a strict image job:
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -Action image-job `
-  -Week 2026-W26 `
-  -CarouselId 2026-W26-002 `
+  -Week 2026-W27 `
+  -CarouselId 2026-W27-001 `
   -AssetProvider Codex
 ```
 
 This writes:
 
 ```text
-10_automation/runs/2026-W26/generated_images/2026-W26-002/image_job.md
-10_automation/runs/2026-W26/generated_images/2026-W26-002/candidate_prompts.md
-10_automation/runs/2026-W26/generated_images/2026-W26-002/review_sheet.csv
+10_automation/runs/2026-W27/generated_images/2026-W27-001/image_job.md
+10_automation/runs/2026-W27/generated_images/2026-W27-001/candidate_prompts.md
+10_automation/runs/2026-W27/generated_images/2026-W27-001/review_sheet.csv
+10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md
 ```
 
 ## Validation Commands
@@ -211,7 +213,7 @@ This writes:
 Run these before treating the repo as synchronized:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action validate -Week 2026-W26 -Limit 2 -RequireAssets
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action validate -Week 2026-W27 -Limit 5
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-07-09
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action smoke-test
 ```
@@ -219,7 +221,7 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action s
 Expected current result:
 
 ```text
-W26 strict validation should fail until the Canva detail_image asset id and W26-001 image selection issues are resolved.
+W27 baseline validation should pass. W27 --require-assets validation should fail until generated images are scored and selected.
 Smoke test should pass because generic automation entrypoints still work.
 ```
 

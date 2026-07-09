@@ -348,6 +348,24 @@ def item_priority(row):
     return priorities.get(stage, 10)
 
 
+def week_rank(row):
+    week_id = clean(row.get("week_id"))
+    match = re.match(r"^(\d{4})-W(\d{2})", week_id)
+    if not match:
+        return (0, 0)
+    return (int(match.group(1)), int(match.group(2)))
+
+
+def queue_sort_key(row):
+    year, week = week_rank(row)
+    return (
+        -item_priority(row),
+        -year,
+        -week,
+        clean(row.get("carousel_id")),
+    )
+
+
 def build_queue(runs_dir):
     rows = []
     templates = load_template_registry()
@@ -378,7 +396,7 @@ def build_queue(runs_dir):
         ):
             rows.append(visibility_item(run_dir, visibility_package, publish_rows, metric_rows))
     active_rows = [row for row in rows if item_priority(row) >= 0]
-    return sorted(active_rows, key=lambda row: (item_priority(row), clean(row.get("carousel_id"))), reverse=True)
+    return sorted(active_rows, key=queue_sort_key)
 
 
 def write_markdown(path, rows, runs_dir):

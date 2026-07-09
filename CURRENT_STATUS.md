@@ -15,8 +15,9 @@ global weekly trend -> daily outfit queue -> internal model profile -> approved 
 Latest automation test:
 
 ```text
-2026-07-09 fresh Perplexity pipeline test passed in tmp/fresh_perplexity_pipeline_v2.
-Perplexity public index currently resolves latest to 2026-W26, so a true new-week run is blocked until Perplexity publishes a newer weekly row.
+2026-07-09 W27 Perplexity pipeline passed from https://mika-lin-weekly.pplx.app/data/index.json.
+Active run folder: 10_automation/runs/2026-W27.
+Current top item: 2026-W27-001.
 ```
 
 Monetization is intentionally delayed until there is non-zero reach.
@@ -49,8 +50,8 @@ Current validation rule:
 
 ```text
 Smoke test verifies automation entrypoints.
-Strict W26 validation verifies production readiness.
-It is expected to fail until current W26 blockers are fixed.
+W27 baseline validation passes before image assets exist.
+Strict --require-assets validation is expected to fail until W27 image candidates are generated, scored, and selected.
 ```
 
 ## Key Links
@@ -131,6 +132,7 @@ It is expected to fail until current W26 blockers are fixed.
 - The failed W26-002 Canva copy `DAHO2rHNkZs` and old Canva image asset ids were invalidated because they used the old model identity. W26-002 is back at `needs_image_asset_selection` and must be regenerated with M02 v3 reference anchors through Codex.
 - User decided to abandon old W26 production progress and use a clean new-week test path instead. The W26 folder remains historical; do not use it as the proof of current automation health.
 - Fresh Perplexity pipeline test report was added at `10_automation/PERPLEXITY_FRESH_PIPELINE_TEST_2026-07-09.md`.
+- W27 was generated from the Perplexity public index into `10_automation/runs/2026-W27` with 5 carousel packets and 5 Codex generation handoffs.
 
 ## Latest Published Post
 
@@ -200,7 +202,7 @@ Core templates:
 02_brand/reference_models/REFERENCE_IMAGE_REQUIREMENTS.md
 02_brand/reference_models/reference_start_image_review.md
 11_skills/mira-image-daily/SKILL.md
-10_automation/runs/2026-W26/m02_polka_image_test_brief.md
+10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md
 10_automation/mira_high_fashion_carousel_template_v2.md
 10_automation/claude_design_mira_template_v2_prompt.md
 10_automation/canva_template_registry.md
@@ -244,7 +246,7 @@ Current image-generation discussion should start from:
 02_brand/mira_image_generation_spec_v1.md
 02_brand/mira_reference_images.csv
 11_skills/mira-image-daily/SKILL.md
-10_automation/runs/2026-W26/generated_images/2026-W26-002/codex_generation_handoff.md
+10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md
 ```
 
 ## Next Codex Work
