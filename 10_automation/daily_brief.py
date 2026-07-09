@@ -10,6 +10,7 @@ from weekly_dashboard import build_dashboard
 
 STAGE_PRIORITY = {
     "needs_visual_revision": 120,
+    "canva_blocked_waiting_for_flat_png_asset": 118,
     "ready_for_canva_test": 115,
     "canva_committed_ready_to_publish": 110,
     "ready_for_canva_and_publish": 100,
@@ -201,6 +202,28 @@ def stage_brief(stage):
                 "10_automation/runs/{run}/canva_asset_slots.csv",
             ],
         },
+        "canva_blocked_waiting_for_flat_png_asset": {
+            "decision": "The Canva draft is blocked because the previous fill reused split Canva assets. Do not export or publish it.",
+            "tasks": [
+                "Resolve the selected A_v2, B_v2, and C_v2 PNGs to verified Canva image asset ids.",
+                "Duplicate one registered Mira master again after the image assets are safe.",
+                "Fill only `cover_image`, `motion_crop`, and `detail_image` with verified complete flat assets, then review before saving.",
+            ],
+            "user_inputs": [
+                "Canva image asset ids for the three complete PNGs",
+                "Approval after the new preview is visible",
+            ],
+            "codex_actions": [
+                "Use only verified flat image assets for Canva replacement.",
+                "Stop if only local PNG paths are available and no verified Canva image asset ids exist.",
+                "Keep failed Canva drafts out of the publish queue.",
+            ],
+            "files": [
+                "10_automation/runs/{run}/canva_automation_trial_log.md",
+                "10_automation/runs/{run}/canva_fill_guide.md",
+                "10_automation/runs/{run}/generated_images/2026-W26-002",
+            ],
+        },
         "needs_grok_asset_selection": {
             "decision": "The next bottleneck is legacy image review and asset selection.",
             "tasks": [
@@ -306,9 +329,10 @@ def no_run_brief():
 def render_markdown(today, dashboard, priority_run, brief, generated_files=None, publish_queue=None):
     generated_files = generated_files or []
     publish_queue = publish_queue or {}
-    run_name = Path(priority_run["run_dir"]).name if priority_run else "none"
-    stage = clean(priority_run.get("stage")) if priority_run else "needs_weekly_input"
-    next_action = clean(priority_run.get("next_action")) if priority_run else brief["decision"]
+    top_item = publish_queue.get("top_item") or {}
+    run_name = Path(clean(top_item.get("run_dir")) or priority_run["run_dir"]).name if (top_item or priority_run) else "none"
+    stage = clean(top_item.get("stage")) or (clean(priority_run.get("stage")) if priority_run else "needs_weekly_input")
+    next_action = clean(top_item.get("next_action")) or (clean(priority_run.get("next_action")) if priority_run else brief["decision"])
 
     lines = [
         "# Mira Daily Brief",
@@ -339,7 +363,6 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None,
         lines.extend(["", "## Generated Files", ""])
         for file_name in generated_files:
             lines.append(f"- `{file_name}`")
-    top_item = publish_queue.get("top_item") or {}
     if top_item:
         lines.extend(
             [
@@ -349,6 +372,8 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None,
                 f"- Type: `{top_item.get('item_type')}`",
                 f"- ID: `{top_item.get('carousel_id')}`",
                 f"- Model: `{top_item.get('model_profile_id') or 'n/a'}`",
+                f"- Canva template: `{top_item.get('canva_template_key') or 'n/a'}` {top_item.get('canva_template_name') or ''}",
+                f"- Canva template URL: {top_item.get('canva_template_url') or 'n/a'}",
                 f"- Stage: `{top_item.get('stage')}`",
                 f"- Asset: `{top_item.get('recommended_asset') or 'n/a'}`",
                 f"- Next action: {top_item.get('next_action')}",
@@ -402,6 +427,10 @@ def build_daily_brief(
 
     queue = build_publish_queue(runs_dir, queue_csv, queue_md, queue_json)
     generated_files.extend([queue_md, queue_json, queue_csv])
+    top_item = queue.get("top_item") or {}
+    top_stage = clean(top_item.get("stage"))
+    if top_stage:
+        brief = stage_brief(top_stage)
 
     payload = {
         "date": today,

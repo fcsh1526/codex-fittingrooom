@@ -1,13 +1,20 @@
 {
   "run_dir": "10_automation\\runs\\2026-W26",
   "stage": {
-    "stage": "ready_for_canva_and_publish",
-    "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
-    "blocking_items": []
+    "stage": "canva_blocked_waiting_for_flat_png_asset",
+    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+    "blocking_items": [
+      "2026-W26-002"
+    ]
   },
   "packet": {
     "row_count": 2,
     "published_count": 0,
+    "ready_for_canva_test": [],
+    "canva_committed_ready_to_publish": [],
+    "canva_blocked_waiting_for_flat_png_asset": [
+      "2026-W26-002"
+    ],
     "inactive_count": 0,
     "all_inactive": false,
     "carousel_ids": [
@@ -18,7 +25,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 1233
+      "size": 1406
     },
     "grok_prompts.md": {
       "exists": true,
@@ -26,19 +33,19 @@
     },
     "canva_placeholder_values.csv": {
       "exists": true,
-      "size": 642
+      "size": 518
     },
     "canva_fill_guide.md": {
       "exists": true,
-      "size": 2433
+      "size": 2961
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 2359
+      "size": 2367
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1513
+      "size": 1597
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -58,12 +65,12 @@
     },
     "quality_report.md": {
       "exists": true,
-      "size": 93
+      "size": 465
     }
   },
   "quality": {
-    "status": "pass",
-    "error_count": 0,
+    "status": "fail",
+    "error_count": 3,
     "warning_count": 0
   },
   "assets": {
@@ -84,8 +91,7 @@
     "latest_next_action": ""
   },
   "commands": [
-    "open 10_automation\\runs\\2026-W26/canva_fill_guide.md",
-    "open 10_automation\\runs\\2026-W26/canva_asset_plan.md",
-    "open 10_automation\\runs\\2026-W26/post_drafts.md"
+    "open 10_automation\\runs\\2026-W26/canva_automation_trial_log.md",
+    "open 10_automation\\runs\\2026-W26/generated_images/2026-W26-002"
   ]
 }

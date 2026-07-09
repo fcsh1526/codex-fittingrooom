@@ -21,7 +21,7 @@ Duplicate a master template first. Replace assets only in the duplicate. Never w
 Replacement rule:
 
 ```text
-Replace whole flat images into the named Canva frames. Do not split uploads into background/person/object layers.
+Replace whole flat PNG/JPG images into the named Canva frames. Do not split uploads into background/person/object layers. Do not use image_to_design, Magic Layers, or old Canva design asset ids unless the asset is verified as a complete flat image.
 ```
 
 ## Master Templates

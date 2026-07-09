@@ -73,6 +73,24 @@ GROK_REQUIRED_TERMS = [
 ]
 
 
+BAD_ASSET_STATUSES = {
+    "needed",
+    "needs_review",
+    "needs_scoring",
+    "needs_regeneration",
+    "rejected",
+    "not_found",
+    "missing",
+}
+
+
+def has_encoding_drift(value):
+    text = str(value or "")
+    if "\ufffd" in text:
+        return True
+    return any(0xE000 <= ord(char) <= 0xF8FF for char in text)
+
+
 def read_csv(path):
     with Path(path).open("r", encoding="utf-8-sig", newline="") as f:
         return list(csv.DictReader(f))
@@ -211,6 +229,9 @@ def validate_canva_rows(run_dir, packet_rows, issues):
             value = clean(row.get(field))
             if len(value) > limit:
                 add_issue(issues, "warning", "canva_text_length", f"{row_label}: {field} is {len(value)} chars, limit {limit}.")
+        for field in ["slide2_line", "caption_short", "hashtags"]:
+            if has_encoding_drift(row.get(field)):
+                add_issue(issues, "error", "canva_encoding_drift", f"{row_label}: {field} appears to contain mojibake or private-use replacement characters.")
         disclosure_text = clean(row.get("caption_short"))
         for term in DISCLOSURE_TERMS:
             if term not in disclosure_text:
@@ -250,6 +271,7 @@ def validate_post_drafts(run_dir, packet_rows, issues):
 
 def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
     packet_ids = {clean(row.get("carousel_id")) for row in packet_rows}
+    packet_by_id = {clean(row.get("carousel_id")): row for row in packet_rows}
     mapping = {}
 
     map_path = run_dir / "canva_placeholder_map.json"
@@ -270,6 +292,11 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
             for token in ["{{slide2_line}}"]:
                 if not clean(placeholders.get(token)):
                     add_issue(issues, "error", "canva_map_placeholder", f"{carousel_id}: missing {token} in placeholder map.")
+                elif has_encoding_drift(placeholders.get(token)):
+                    add_issue(issues, "error", "canva_map_encoding_drift", f"{carousel_id}: {token} appears to contain mojibake or private-use replacement characters.")
+            for field in ["caption_short", "hashtags"]:
+                if has_encoding_drift(data.get(field)):
+                    add_issue(issues, "error", "canva_map_encoding_drift", f"{carousel_id}: {field} appears to contain mojibake or private-use replacement characters.")
             if not data.get("design_contract"):
                 add_issue(issues, "warning", "canva_map_contract", f"{carousel_id}: missing design_contract.")
 
@@ -282,26 +309,22 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
         for carousel_id in sorted(packet_ids):
             slots = by_carousel.get(carousel_id, [])
             slot_ids = {clean(row.get("slot_id")) for row in slots}
-            for slot_id in ["cover_image", "detail_image"]:
+            for slot_id in ["cover_image", "motion_crop", "detail_image"]:
                 if slot_id not in slot_ids:
-                    add_issue(issues, "warning", "canva_asset_slot", f"{carousel_id}: missing {slot_id} asset slot.")
-            if "motion_crop" not in slot_ids:
-                add_issue(
-                    issues,
-                    "warning",
-                    "canva_asset_slot",
-                    f"{carousel_id}: missing motion_crop asset slot.",
-                )
+                    severity = "error" if require_assets else "warning"
+                    add_issue(issues, severity, "canva_asset_slot", f"{carousel_id}: missing {slot_id} asset slot.")
+            for row in slots:
+                slot_id = clean(row.get("slot_id"))
+                status = clean(row.get("status")).lower()
+                if require_assets and status in BAD_ASSET_STATUSES:
+                    add_issue(issues, "error", "canva_asset_slot_status", f"{carousel_id}: {slot_id} has non-publishable status `{status}`.")
             if require_assets:
-                cover_rows = [row for row in slots if clean(row.get("slot_id")) == "cover_image"]
-                cover_file = clean(cover_rows[0].get("recommended_file")) if cover_rows else ""
-                if not cover_file:
-                    add_issue(issues, "error", "canva_cover_asset_required", f"{carousel_id}: cover_image has no recommended_file.")
-                detail_rows = [row for row in slots if clean(row.get("slot_id")) == "detail_image"]
-                detail_file = clean(detail_rows[0].get("recommended_file")) if detail_rows else ""
-                if not detail_file:
-                    add_issue(issues, "warning", "canva_detail_asset_recommended", f"{carousel_id}: detail_image has no recommended_file.")
+                slot_file_by_id = {clean(row.get("slot_id")): clean(row.get("recommended_file")) for row in slots}
+                for slot_id in ["cover_image", "motion_crop", "detail_image"]:
+                    if not slot_file_by_id.get(slot_id):
+                        add_issue(issues, "error", "canva_asset_required", f"{carousel_id}: {slot_id} has no recommended_file.")
                 mapped_slots = mapping.get(carousel_id, {}).get("asset_slots", []) if mapping else []
+                cover_file = slot_file_by_id.get("cover_image", "")
                 mapped_cover = ""
                 for mapped_slot in mapped_slots:
                     if clean(mapped_slot.get("slot_id")) == "cover_image":
@@ -314,6 +337,31 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
                         "canva_map_asset_mismatch",
                         f"{carousel_id}: canva_placeholder_map.json cover_image `{mapped_cover}` does not match CSV `{cover_file}`.",
                     )
+
+        if require_assets:
+            active_selection = None
+            for selection_name in ["codex_asset_selection.csv", "openai_asset_selection.csv", "grok_asset_selection.csv"]:
+                selection_path = run_dir / selection_name
+                if selection_path.exists():
+                    active_selection = (selection_name, selection_path)
+                    break
+            if active_selection:
+                selection_name, selection_path = active_selection
+                for row in read_csv(selection_path):
+                    carousel_id = clean(row.get("carousel_id"))
+                    if carousel_id not in packet_ids:
+                        continue
+                    status = clean(row.get("selection_status")).lower()
+                    if status and not status.startswith("selected"):
+                        add_issue(issues, "error", "asset_selection_status", f"{carousel_id}: {selection_name} has selection_status `{status}`.")
+
+        fill_guide = run_dir / "canva_fill_guide.md"
+        if require_assets and fill_guide.exists():
+            text = read_text(fill_guide)
+            for carousel_id, packet in packet_by_id.items():
+                packet_status = clean(packet.get("status")).lower()
+                if packet_status in {"ready_for_canva_test", "canva_blocked_waiting_for_flat_png_asset", "canva_committed", "canva_committed_ready_to_publish"} and "TBD" in text:
+                    add_issue(issues, "error", "canva_verified_asset_tbd", f"{carousel_id}: canva_fill_guide.md still contains `TBD`; verified Canva flat image assets are incomplete.")
 
 
 def write_reports(run_dir, issues):

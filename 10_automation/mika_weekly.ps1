@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "cockpit", "visibility-test", "assets", "generate-images", "metrics", "validate", "smoke-test")]
+    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "cockpit", "visibility-test", "assets", "image-job", "sync-canva-map", "generate-images", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
@@ -25,6 +25,7 @@ param(
     [string]$ScoreSheet = "",
     [string]$DriveInventory = "",
     [string]$AssetProvider = "Grok",
+    [string]$DailyId = "",
     [string]$OpenAIModel = "",
     [string]$ImageSize = "1024x1536",
     [string]$ImageQuality = "medium",
@@ -190,6 +191,27 @@ switch ($Action) {
             $argsList += @("--provider", $AssetProvider)
         }
         Invoke-MikaPython -ScriptPath "10_automation\select_grok_assets.py" -ArgsList $argsList
+    }
+
+    "image-job" {
+        $resolvedRunDir = Resolve-RunDir
+        $argsList = @(
+            "--project-root", ".",
+            "--run-dir", $resolvedRunDir,
+            "--tool", $AssetProvider
+        )
+        if ($CarouselId) {
+            $argsList += @("--carousel-id", $CarouselId)
+        }
+        if ($DailyId) {
+            $argsList += @("--daily-id", $DailyId)
+        }
+        Invoke-MikaPython -ScriptPath "11_skills\mira-image-daily\scripts\prepare_daily_image_job.py" -ArgsList $argsList
+    }
+
+    "sync-canva-map" {
+        $resolvedRunDir = Resolve-RunDir
+        Invoke-MikaPython -ScriptPath "10_automation\sync_canva_placeholder_map.py" -ArgsList @("--run-dir", $resolvedRunDir)
     }
 
     "generate-images" {

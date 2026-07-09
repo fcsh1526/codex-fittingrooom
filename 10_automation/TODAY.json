@@ -1,35 +1,35 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-09",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W26",
-    "stage": "ready_for_canva_and_publish",
-    "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
+    "stage": "canva_blocked_waiting_for_flat_png_asset",
+    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
     "packet_rows": 2,
-    "quality": "pass",
+    "quality": "fail",
     "cover_assets": "2/2",
     "published": false,
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The run is ready for Canva assembly and publishing.",
+  "decision": "The Canva draft is blocked because the previous fill reused split Canva assets. Do not export or publish it.",
   "tasks": [
-    "Open the Canva panorama template and fill text from canva_fill_guide.md.",
-    "Place images according to canva_asset_plan.md.",
-    "Publish or schedule the post, then send the post URL."
+    "Resolve the selected A_v2, B_v2, and C_v2 PNGs to verified Canva image asset ids.",
+    "Duplicate one registered Mira master again after the image assets are safe.",
+    "Fill only `cover_image`, `motion_crop`, and `detail_image` with verified complete flat assets, then review before saving."
   ],
   "user_inputs": [
-    "Final Canva URL",
-    "Instagram post URL",
-    "Publish time"
+    "Canva image asset ids for the three complete PNGs",
+    "Approval after the new preview is visible"
   ],
   "codex_actions": [
-    "Check caption, CTA, hashtags, and AI disclosure.",
-    "Record post URL and create 6h / 24h metrics commands."
+    "Use only verified flat image assets for Canva replacement.",
+    "Stop if only local PNG paths are available and no verified Canva image asset ids exist.",
+    "Keep failed Canva drafts out of the publish queue."
   ],
   "useful_files": [
+    "10_automation/runs/{run}/canva_automation_trial_log.md",
     "10_automation/runs/{run}/canva_fill_guide.md",
-    "10_automation/runs/{run}/canva_asset_plan.md",
-    "10_automation/runs/{run}/post_drafts.md"
+    "10_automation/runs/{run}/generated_images/2026-W26-002"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -44,17 +44,20 @@
       "carousel_id": "2026-W26-002",
       "prompt_id": "W26-P002",
       "model_profile_id": "M02",
+      "canva_template_key": "A",
+      "canva_template_name": "Mira Template Master - A Contact Sheet",
+      "canva_template_url": "https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit",
       "trend_name": "波點洋裝/套裝（Polka Dots）",
       "content_bucket": "date_outfit",
-      "stage": "needs_visual_revision",
+      "stage": "canva_blocked_waiting_for_flat_png_asset",
       "platform": "Instagram",
-      "recommended_asset": "2026-W26-002_M02_candidate_A.png",
-      "asset_url": "10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A.png",
+      "recommended_asset": "2026-W26-002_M02_candidate_A_v2.png",
+      "asset_url": "10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png",
       "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Do not publish. Review image quality, regenerate candidates, and revise the Canva magazine template / crop before export.",
+      "next_action": "Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.",
       "run_dir": "10_automation\\runs\\2026-W26",
       "package_path": ""
     }
@@ -64,7 +67,7 @@
     "run_count": 2,
     "stage_counts": {
       "missing_weekly_packet_files": 1,
-      "ready_for_canva_and_publish": 1
+      "canva_blocked_waiting_for_flat_png_asset": 1
     },
     "runs": [
       {
@@ -80,10 +83,10 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W26",
-        "stage": "ready_for_canva_and_publish",
-        "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
+        "stage": "canva_blocked_waiting_for_flat_png_asset",
+        "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
         "packet_rows": 2,
-        "quality": "pass",
+        "quality": "fail",
         "cover_assets": "2/2",
         "published": false,
         "metric_checkpoints": 0,

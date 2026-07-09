@@ -48,6 +48,7 @@ def run_files(top_item):
 
     if item_type == "carousel" and stage in {"ready_for_canva_and_publish", "canva_committed_ready_to_publish"}:
         return [
+            "10_automation/canva_template_registry.md",
             normalize_path(f"{run_dir}/canva_fill_guide.md"),
             normalize_path(f"{run_dir}/canva_asset_plan.md"),
             normalize_path(f"{run_dir}/post_drafts.md"),
@@ -55,10 +56,19 @@ def run_files(top_item):
         ]
     if item_type == "carousel" and stage == "ready_for_canva_test":
         return [
+            "10_automation/canva_template_registry.md",
             normalize_path(f"{run_dir}/canva_fill_guide.md"),
             normalize_path(f"{run_dir}/canva_asset_plan.md"),
             normalize_path(f"{run_dir}/canva_asset_slots.csv"),
             normalize_path(f"{run_dir}/canva_placeholder_map.json"),
+            normalize_path(f"{run_dir}/generated_images/2026-W26-002"),
+        ]
+    if item_type == "carousel" and stage == "canva_blocked_waiting_for_flat_png_asset":
+        return [
+            "10_automation/canva_template_registry.md",
+            normalize_path(f"{run_dir}/canva_automation_trial_log.md"),
+            normalize_path(f"{run_dir}/canva_fill_guide.md"),
+            normalize_path(f"{run_dir}/canva_asset_slots.csv"),
             normalize_path(f"{run_dir}/generated_images/2026-W26-002"),
         ]
     if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
@@ -71,6 +81,7 @@ def run_files(top_item):
         ]
     if item_type == "carousel" and stage == "needs_visual_revision":
         return [
+            "10_automation/canva_template_registry.md",
             normalize_path(f"{run_dir}/generated_images"),
             normalize_path(f"{run_dir}/image_review_template.csv"),
             normalize_path(f"{run_dir}/canva_asset_plan.md"),
@@ -115,6 +126,14 @@ def checklist_for(top_item):
             "Review Canva crops for headroom, feet, face clarity, and cross-slide motion crop.",
             "Commit Canva only if the preview is clean.",
             "If crop fails, adjust Canva placement before export.",
+        ]
+    if item_type == "carousel" and stage == "canva_blocked_waiting_for_flat_png_asset":
+        return [
+            "Do not export or publish the failed Canva draft.",
+            "Resolve the selected complete PNG/JPG assets to verified Canva image asset ids.",
+            "Confirm cover_image, motion_crop, and detail_image are whole flat image assets, not Magic Layers splits.",
+            "Duplicate the recommended registered Canva master template again.",
+            "Rerun the Canva fill only on the fresh duplicate.",
         ]
     if item_type == "carousel" and stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
         return [
@@ -186,6 +205,9 @@ def render_html(payload, cockpit_md):
     files = run_files(top)
     checks = checklist_for(top)
     asset_url = clean(top.get("asset_url"))
+    template_key = clean(top.get("canva_template_key")) or "n/a"
+    template_name = clean(top.get("canva_template_name"))
+    template_url = clean(top.get("canva_template_url"))
 
     file_items = "".join(f"<li>{file_link(path)}</li>" for path in files if clean(path))
     check_items = "".join(
@@ -199,6 +221,7 @@ def render_html(payload, cockpit_md):
         f"<td>{html.escape(clean(row.get('item_type')))}</td>"
         f"<td>{html.escape(clean(row.get('carousel_id')))}</td>"
         f"<td>{html.escape(clean(row.get('model_profile_id')))}</td>"
+        f"<td>{html.escape(clean((row.get('canva_template_key') or '') + ' ' + (row.get('canva_template_name') or '')))}</td>"
         f"<td>{html.escape(clean(row.get('stage')))}</td>"
         f"<td>{html.escape(clean(row.get('recommended_asset')))}</td>"
         f"<td>{html.escape(clean(row.get('next_action')))}</td>"
@@ -371,6 +394,8 @@ def render_html(payload, cockpit_md):
       <h2>Today, Do This First</h2>
       <p class="big">{html.escape(top_id)}</p>
       <p><strong>Type:</strong> {html.escape(clean(top.get("item_type")))} / <strong>Model:</strong> {html.escape(clean(top.get("model_profile_id")) or "n/a")} / <strong>Stage:</strong> {html.escape(top_stage)}</p>
+      <p><strong>Canva template:</strong> {html.escape(template_key)} {html.escape(template_name)}</p>
+      <p><strong>Canva URL:</strong> {f'<a href="{html.escape(template_url)}">{html.escape(template_url)}</a>' if template_url else 'n/a'}</p>
       <p><strong>Asset:</strong> {html.escape(clean(top.get("recommended_asset")) or "n/a")}</p>
       <p><strong>Next action:</strong> {html.escape(clean(top.get("next_action")))}</p>
       {asset_block}
@@ -384,7 +409,7 @@ def render_html(payload, cockpit_md):
       </div>
       <div>
         {html_card("Refresh Command", f"<pre>{html.escape(command)}</pre>")}
-        {html_card("Queue Preview", f"<table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody>{queue_rows}</tbody></table>")}
+        {html_card("Queue Preview", f"<table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Template</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody>{queue_rows}</tbody></table>")}
         {html_card("Reference", f"<p>{file_link(str(cockpit_md))}</p><p>{file_link('10_automation/TODAY.md')}</p><p>{file_link('10_automation/PUBLISH_QUEUE.md')}</p>")}
       </div>
     </div>
@@ -424,6 +449,8 @@ def render_markdown(payload):
         f"- Item: `{clean(top.get('carousel_id'))}`",
         f"- Type: `{clean(top.get('item_type'))}`",
         f"- Model: `{clean(top.get('model_profile_id')) or 'n/a'}`",
+        f"- Canva template: `{clean(top.get('canva_template_key')) or 'n/a'}` {clean(top.get('canva_template_name'))}",
+        f"- Canva template URL: {clean(top.get('canva_template_url')) or 'n/a'}",
         f"- Stage: `{clean(top.get('stage'))}`",
         f"- Asset: `{clean(top.get('recommended_asset')) or 'n/a'}`",
         f"- Next action: {clean(top.get('next_action'))}",

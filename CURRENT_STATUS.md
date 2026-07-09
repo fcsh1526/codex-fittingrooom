@@ -17,14 +17,14 @@ Monetization is intentionally delayed until there is non-zero reach.
 Today's priority:
 
 ```text
-complete Mira four-age reference packs -> resume daily outfit generation and Canva test-fill without Magic Layers
+use approved M01-M05 reference anchors -> generate daily outfit images -> choose one registered Canva master template -> duplicate/fill/export
 ```
 
 ## Current Stage
 
-Mira AI outfit daily system v2.
+Mira AI outfit daily system v2, now controlled from `COMMAND_CENTER.md`.
 
-Mira is no longer treated as one public virtual person. The brand is a fast-updating AI fashion magazine with 4 fixed internal models for age cohorts: M01 around 55, M02 around 45, M03 around 35, and M04 around 25. Model names stay internal; IG should feel like a polished magazine with familiar recurring people, not a virtual influencer roleplay account.
+Mira is no longer treated as one public virtual person. The brand is a fast-updating AI fashion magazine with 5 fixed internal models: M01, M02, M03, M04, and M05. Model names stay internal; IG should feel like a polished magazine with familiar recurring people, not a virtual influencer roleplay account.
 
 Production rule:
 
@@ -36,6 +36,14 @@ Current image source rule:
 
 ```text
 Use the installed $mira-image-daily skill first. Daily outfit generation is blocked until the assigned model has an approved reference start image. Keep OpenAI API / Grok as optional backup paths only.
+```
+
+Current validation rule:
+
+```text
+Smoke test verifies automation entrypoints.
+Strict W26 validation verifies production readiness.
+It is expected to fail until current W26 blockers are fixed.
 ```
 
 ## Key Links
@@ -95,21 +103,25 @@ Use the installed $mira-image-daily skill first. Daily outfit generation is bloc
 - Instagram creative direction changed to 3-slide, image-led, low-text carousel posts with simple captions and profile-link shopping direction.
 - Canva connector workflow and template spec were simplified to one text placeholder: `{{slide2_line}}`.
 - Mira was renamed from Mika and repositioned as an AI fashion magazine brand.
-- Internal model roster v4 now uses 4 age cohorts: `M01` around 55, `M02` around 45, `M03` around 35, and `M04` around 25.
+- Internal model roster v6 now uses 5 fixed model identities: `M01`, `M02`, `M03`, `M04`, and `M05`, with true ages kept as internal metadata and prompt-safe visual-age language used for image generation.
 - Mira image generation was changed from Taiwan-only wording to global trend research with wearable daily styling.
 - `$mira-image-daily` skill was created and installed to `C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily`.
-- Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03/M04 are approved for reference-start checks.
+- Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03/M04/M05 are approved for reference-start checks.
 - Reference pack manifest was added at `02_brand/mira_reference_packs.csv`; all 20 pack entries are approved across full-body, half-body, face-front, 3/4 face, and side-profile.
 - Weekly packets now include `model_profile_id`.
-- Content buckets no longer map permanently to models; weekly packet builds rotate age cohorts across `M01`, `M02`, `M03`, and `M04`, unless a row explicitly sets `model_profile_id`.
+- Content buckets no longer map permanently to models; weekly packet builds rotate across `M01`, `M02`, `M03`, `M04`, and `M05`, unless a row explicitly sets `model_profile_id`.
 - Weekly run folders now generate `daily_queue.csv`, `image_generation_briefs.md`, `image_review_template.csv`, and `generated_images/`.
 - Daily cockpit and publish queue now show the internal model profile for each top item.
+- Daily cockpit and publish queue now show the selected Canva master template key, name, and URL.
+- `COMMAND_CENTER.md` is the primary operational entrypoint for this repo.
 - Mira high-fashion carousel template v2 was added after reviewing the Scrolo-style reference screenshots. The new direction keeps the 3240 x 1350 / 3-slide automation contract, but requires cross-slide editorial movement, boundary crops, low text, and stricter head-crop validation.
 - Five Claude Design Mira template variants were pushed to Canva as master templates: A Contact Sheet, B Symmetric, C Noir Evening, D Full-Bleed, and E Weekend Air.
 - The active Canva master registry is `10_automation/canva_template_registry.md` and `10_automation/canva_template_registry.json`.
 - Current Canva automation slot contract is `cover_image`, `motion_crop`, `detail_image`, and `slide2_line`.
 - Daily Canva use should duplicate one master template before replacing assets. Do not write daily content directly into master templates.
-- Canva image replacement should use whole flat images in named frames. Do not split uploads into background/person/object layers.
+- Canva image replacement must use whole flat PNG/JPG images in named frames. Do not use `image_to_design`, Magic Layers, split background/person/object assets, or old Canva design asset ids unless the asset is verified as a complete flat image.
+- First automation trial on 2026-07-08 duplicated `A Contact Sheet` to `DAHOyDPZHeQ`, but the saved result is a failed test because it reused split Canva assets and lost the person layer. Do not export or publish that design.
+- Strict validation now catches current production blockers: W26-001 `motion_crop` needs regeneration, W26-001 asset selection still needs review, and W26-002 `detail_image` Canva flat asset id is still `TBD`.
 
 ## Latest Published Post
 
@@ -152,6 +164,7 @@ Treat this as an account visibility, distribution, or channel setup issue. Do no
 Start here:
 
 ```text
+COMMAND_CENTER.md
 COMPUTER_B_SYNC.md
 10_automation/AUTOMATION_ARCHITECTURE_BRIEF.md
 10_automation/DAILY_COCKPIT.html
@@ -242,7 +255,7 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 11. Score `image_review_template.csv`.
 12. Run `10_automation/select_grok_assets.py --provider Codex` after images are scored.
 13. Confirm `validate_weekly_run.py --require-assets` passes.
-14. Use generated Canva handoff files or Canva connector edits to duplicate and fill one registered Mira Canva master template.
+14. Use generated Canva handoff files or Canva connector edits to duplicate and fill one registered Mira Canva master template. Canva autofill must stop unless the selected images have verified Canva image asset ids for complete flat PNG/JPG assets.
 15. Use generated IG / Threads / Pinterest drafts.
 16. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.
 

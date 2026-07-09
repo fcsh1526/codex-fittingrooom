@@ -23,14 +23,29 @@ Current Canva status:
 
 ```text
 2026-W26-002: Canva auto-fill committed on 2026-06-30, but user rejected the result on 2026-07-01.
-Template: https://www.canva.com/design/DAHN7repRtk/EtRfbf-gk-HgejgxKHImoQ/edit
-Images: Candidate A cover, Candidate B crop/detail.
-Problems: generated face drift / ghosting; slide 2 cropped the head; template lacks high-fashion magazine feel.
+Template: https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit
+Template status: v2 base template is built; autofill labels were connected and saved on 2026-07-02.
+Images: A_v2 cover, B_v2 motion crop, C_v2 detail.
+Canva v2 fill: committed on 2026-07-02 with slide2 line `黑白波點，留一點午後的輕盈。`
+Canva assets: cover `MAHONX_UfzI`, motion crop `MAHONZhtTLw`, detail `MAHONcCuIkk`.
+Canva fix: committed a second repair on 2026-07-02 to restore Magic Layers person cutouts over the background fills.
+Cutout assets: cover person `MAHONW_Gcdc`, motion person `MAHONVPQBDI`, detail person `MAHONVfX15w`.
+Status: invalid after the 2026-07-08 flat-PNG gate; do not review/export this draft for publishing.
 ```
 
 Next user action:
 
-1. Do not publish W26-002.
-2. Discuss and revise the high-fashion magazine template direction before another Canva commit.
-3. Regenerate W26-002 image candidates with stricter face/artifact QA.
+1. Open the committed Canva v2 design and review the final crop.
+2. Export/slice the 3240 x 1350 master into three 1080 x 1350 carousel images.
+3. Prepare the caption and publish or schedule W26-002.
 4. Keep `daily_queue.csv` and `image_generation_briefs.md` as the new daily-production structure for the next run.
+
+## 2026-07-08 Override
+
+The Canva status above is superseded. Do not export or publish the committed Canva drafts.
+
+Latest failed trial: A Contact Sheet duplicate `DAHOyDPZHeQ` / https://www.canva.com/d/q9ytQ_Tl2yFqcPx
+
+Failure mode: old Canva asset ids / Magic Layers split assets produced missing person layers and blurred background-only street images.
+
+Current action: upload A_v2, B_v2, and C_v2 to Canva as complete flat PNG image assets, or provide public HTTPS URLs for Canva upload. Then rerun the Canva fill on a fresh duplicate only.

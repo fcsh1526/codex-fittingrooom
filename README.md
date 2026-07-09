@@ -4,7 +4,7 @@
 
 ## 使用順序
 
-1. 換電腦或新對話時，先看 `COMPUTER_B_SYNC.md`。
+1. 換電腦或新對話時，先看 `COMMAND_CENTER.md`，再看 `COMPUTER_B_SYNC.md`。
 2. 每天先產生操作台：
 
 ```powershell

@@ -6,11 +6,11 @@ Run count: `2`
 ## Stage Counts
 
 - `missing_weekly_packet_files`: `1`
-- `ready_for_canva_and_publish`: `1`
+- `canva_blocked_waiting_for_flat_png_asset`: `1`
 
 ## Runs
 
 | Run | Stage | Quality | Cover Assets | Published | Metrics | Next Action |
 |---|---|---|---:|---:|---:|---|
 | `2026-W21-test` | `missing_weekly_packet_files` | `pass` | `2/2` | `True` | `2` | Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder. |
-| `2026-W26` | `ready_for_canva_and_publish` | `pass` | `2/2` | `False` | `0` | Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel. |
+| `2026-W26` | `canva_blocked_waiting_for_flat_png_asset` | `fail` | `2/2` | `False` | `0` | Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers. |

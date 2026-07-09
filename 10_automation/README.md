@@ -2,6 +2,12 @@
 
 Purpose: make the weekly Mira workflow repeatable with less discussion and fewer manual decisions.
 
+Primary command center:
+
+```text
+../COMMAND_CENTER.md
+```
+
 The current priority is continuous production, not monetization. Mira is now treated as a fast-updating AI fashion magazine brand, not one public virtual influencer. The priority is:
 
 ```text
@@ -51,6 +57,8 @@ Each week should produce:
 - `daily_cockpit.py`: creates the one-page daily HTML cockpit.
 - `daily_brief.py`: creates `TODAY.md/json` from the dashboard so the next daily action is obvious.
 - `publish_queue.py`: creates a per-carousel and visibility-test publish queue.
+- `sync_canva_placeholder_map.py`: regenerates `canva_placeholder_map.json` from clean placeholder CSV and current asset slots.
+- `../11_skills/mira-image-daily/scripts/prepare_daily_image_job.py`: prepares strict daily image jobs from approved M01-M05 reference anchors.
 - `prepare_visibility_test.py`: creates a single-image Instagram visibility test package from a run folder.
 - `weekly_content_packet_template.csv`: one-row template for a weekly carousel packet.
 - `canva_placeholder_values_template.csv`: field values that Codex can paste into Canva.
@@ -108,6 +116,24 @@ This writes:
 10_automation/DAILY_COCKPIT.md
 10_automation/TODAY.md
 10_automation/PUBLISH_QUEUE.md
+```
+
+Prepare a daily image job:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action image-job `
+  -Week 2026-W26 `
+  -CarouselId 2026-W26-002 `
+  -AssetProvider Codex
+```
+
+Regenerate Canva machine placeholder map from clean CSV:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action sync-canva-map `
+  -Week 2026-W26
 ```
 
 Create today's work brief and cockpit:

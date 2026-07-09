@@ -15,6 +15,8 @@ detail_image
 slide2_line
 ```
 
+Hard gate: use only complete flat PNG/JPG image assets for `cover_image`, `motion_crop`, and `detail_image`. Do not use `image_to_design`, Magic Layers, background/person/object split assets, or unverified old Canva design asset ids.
+
 ## Template Contract
 
 - Canvas: `3240 x 1350 px`
@@ -27,7 +29,15 @@ slide2_line
 
 ## 2026-W26-002 / W26-P002
 
-Status: use this item for the first Canva v2 test-fill.
+Status: blocked until the three selected local PNGs are resolved to verified Canva image asset ids. Public URLs are not required when the complete images already exist as Canva image items.
+
+Verified Canva image assets:
+
+| Slot | Canva asset id | Name | Status |
+|---|---|---|---|
+| `cover_image` | `MAHOCYb2mPI` | `Mira W26-002 Candidate A cover` | verified image asset |
+| `motion_crop` | `MAHOCUFmjRs` | `Mira W26-002 Candidate B detail` | verified image asset |
+| `detail_image` | TBD | `2026-W26-002_M02_candidate_C_v2.png` | not found yet |
 
 ### Text Replacement
 
@@ -62,6 +72,7 @@ AI 生成虛擬造型影像。
 
 ### Before Saving Canva
 
+- Confirm each image slot is filled by a complete flat image asset, not a Magic Layers split.
 - No head crop on Slide 1 or Slide 3.
 - Motion crop on Slide 2 looks intentional, not like a broken cut.
 - `{{slide2_line}}` has been replaced.

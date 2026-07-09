@@ -1,12 +1,13 @@
 ﻿# Canva Minimal Panorama Template Spec
 
-Purpose: create one reusable Canva template for Mira's image-led Instagram carousels.
+Purpose: define the shared automation contract for Mira's registered Canva master templates.
 
 Current production direction:
 
 ```text
 Use 10_automation/mira_high_fashion_carousel_template_v2.md as the primary visual brief.
-This file remains the automation contract for required Canva layer names and export size.
+Use 10_automation/canva_template_registry.md as the source of truth for the five active Canva master templates.
+This file remains the shared automation contract for required Canva layer names and export size.
 ```
 
 Current Canva v2 template:

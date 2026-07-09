@@ -94,8 +94,8 @@ def test_new_week_without_assets():
     queue = read_csv(run_dir / "daily_queue.csv")
     packets = read_csv(run_dir / "weekly_content_packet.csv")
     assert_equal(len(queue), 5, "daily queue row count")
-    if not all(row.get("model_profile_id") in {"M01", "M02", "M03"} for row in packets):
-        raise AssertionError("weekly packet model_profile_id must be M01/M02/M03")
+    if not all(row.get("model_profile_id") in {"M01", "M02", "M03", "M04", "M05"} for row in packets):
+        raise AssertionError("weekly packet model_profile_id must be M01/M02/M03/M04/M05")
 
 
 def test_perplexity_index_resolver():

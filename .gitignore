@@ -1,3 +1,8 @@
 tmp/
 __pycache__/
 *.pyc
+
+# Local/private source material and draft anchor explorations.
+10_automation/runs/*/reference_anchor_sources/
+10_automation/runs/*/reference_anchor_candidates/
+10_automation/runs/*/reference_model_drafts_phase_a/

@@ -10,7 +10,7 @@
     "image_slots": ["cover_image", "motion_crop", "detail_image"],
     "text_slots": ["slide2_line"],
     "daily_use_rule": "Duplicate a master template before replacing assets. Never write daily content directly into the master templates.",
-    "replacement_rule": "Replace whole flat images into the named frames. Do not split uploads into background/person/object layers."
+    "replacement_rule": "Replace whole flat PNG/JPG images into the named frames. Do not split uploads into background/person/object layers. Do not use image_to_design, Magic Layers, or old Canva design asset ids unless the asset is verified as a complete flat image."
   },
   "templates": [
     {

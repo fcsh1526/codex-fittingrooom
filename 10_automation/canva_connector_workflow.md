@@ -63,9 +63,26 @@ Keep AI disclosure in the Instagram caption, not on the image.
 
 Canva edits are transactional. Codex can draft the edit and show thumbnails, but final save should happen only after the user confirms the preview is correct.
 
-Photo uploads through `image_to_design` may be split by Magic Layers into background, person cutout, and object layers. For the registered Mira templates, avoid that path for final fills. Replace whole flat images into the named frames (`cover_image`, `motion_crop`, `detail_image`) instead of assembling separate background/person/object layers.
+Photo uploads through `image_to_design` may be split by Magic Layers into background, person cutout, and object layers. For the registered Mira templates, that path is prohibited for final fills. Replace whole flat images into the named frames (`cover_image`, `motion_crop`, `detail_image`) instead of assembling separate background/person/object layers.
 
 Daily production must duplicate one registered master template before replacing assets. Never overwrite the master templates directly.
+
+## Hard Gate: Flat Image Assets Only
+
+Canva autofill must use complete flat PNG/JPG images. The source for each image slot must be one of:
+
+1. A complete flat PNG/JPG already uploaded to Canva and known to render the full person plus background as one image asset.
+2. A complete flat PNG/JPG image item found in Canva folders with `list_folder_items`, using its Canva image asset id.
+3. A complete flat PNG/JPG uploaded through a Canva connector path that returns a single image asset id. `upload_asset_from_url` is one such path, but public URL is not required when the asset already exists in Canva.
+
+Do not use these sources for final fills:
+
+- `image_to_design` output.
+- Magic Layers / Background Remover output.
+- Canva asset ids copied from old filled designs unless the asset is verified as a complete flat image.
+- Background-only, person-cutout-only, or object-only assets.
+
+If Codex only has local PNG paths and no safe Canva image asset id, stop and resolve the image asset first. Do not improvise with old Canva design asset ids. Do not use `image_to_design(image_file=...)` for final fills, because it creates an editable Magic Layers design instead of a guaranteed single flat image asset.
 
 ## Human Review Checklist
 

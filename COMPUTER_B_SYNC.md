@@ -1,8 +1,14 @@
 # Computer B Sync Handoff
 
-Last synced locally: 2026-07-08
+Last synced locally: 2026-07-09
 
 Purpose: let another computer continue the Mira workflow from GitHub without reading the old conversation.
+
+Primary command center:
+
+```text
+COMMAND_CENTER.md
+```
 
 ## Start On Computer B
 
@@ -10,7 +16,7 @@ Run from the repo folder:
 
 ```powershell
 & 'C:\Users\Brandon_ChangChien\AppData\Local\Programs\Git\cmd\git.exe' pull origin main
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-29
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit
 ```
 
 The PowerShell entrypoint is still named `mika_weekly.ps1` for compatibility. The public creator name is now `Mira`.
@@ -54,9 +60,9 @@ Rules:
 item = 2026-W26-002
 type = carousel
 model = M02
-stage = needs_visual_revision
-asset = ChatGPT Image 2026年6月24日 下午03_30_10.png
-next = Do not publish. Canva v2 template is built and autofill labels are saved; regenerate cleaner image candidates, then test-fill the template.
+stage = canva_blocked_waiting_for_flat_png_asset
+asset = 2026-W26-002_M02_candidate_A_v2.png
+next = Resolve A_v2, B_v2, and C_v2 to verified Canva image asset ids, then rerun Canva fill on a fresh duplicate.
 ```
 
 ## Files For Current Top Item
@@ -83,6 +89,12 @@ Current recommended template prompt:
 
 ```text
 10_automation/claude_design_mira_template_v2_prompt.md
+```
+
+Current command center audit:
+
+```text
+10_automation/INTEGRATION_AUDIT_2026-07-09.md
 ```
 
 Current Canva template:
@@ -123,9 +135,8 @@ Current Mira identity file:
 Internal model rule:
 
 ```text
-M01 = office / commute
-M02 = weekend / date / cafe
-M03 = casual / budget-friendly daily wear
+M01/M02/M03/M04/M05 are fixed internal model identities, not fixed outfit categories.
+Any weekly trend can be styled for work, commute, weekend, date, travel, rainy day, or daily casual with any model when the content plan calls for it.
 ```
 
 Do not publish model names in IG copy; they are only for consistent image generation.
@@ -133,7 +144,9 @@ Do not publish model names in IG copy; they are only for consistent image genera
 Image generation note:
 
 ```text
-W26-002 should not be published from the old Canva fill. The user rejected it on 2026-07-01 because the generated images had face drift / ghosting and Slide 2 cropped the head. The new Canva v2 template is built; regenerate candidates through $mira-image-daily, then test-fill the v2 template.
+W26-002 was regenerated with v2 assets after the old Canva fill was rejected on 2026-07-01 for face drift / ghosting and Slide 2 head crop. The current accepted asset set is A_v2 cover, B_v2 motion crop, and C_v2 detail. Do not return to the old fill.
+
+2026-07-08 Canva automation trial note: A Contact Sheet duplicate `DAHOyDPZHeQ` was saved with old split Canva asset ids and failed again with missing person layers / blurred background-only street images. Do not export or publish that design. Future Canva autofill must use complete flat PNG/JPG assets only.
 ```
 
 Installed skill:
@@ -148,15 +161,15 @@ C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily
 1. 2026-W26-002
    type = carousel
    model = M02
-   stage = ready_for_canva_and_publish
-   asset = ChatGPT Image 2026年6月24日 下午03_30_10.png
-   action = finish the 3-slide Canva carousel and publish / schedule
+   stage = canva_blocked_waiting_for_flat_png_asset
+   asset = 2026-W26-002_M02_candidate_A_v2.png
+   action = resolve flat PNG assets to verified Canva image asset ids, then rerun on a fresh duplicate
 
 2. 2026-W26-001
    type = carousel
    model = M01
    stage = ready_for_canva_and_publish
-   asset = ChatGPT Image 2026年6月24日 下午03_30_22.png
+   asset = 2026-W26-001_M01_candidate_A.png
    action = backup / second carousel candidate
 ```
 
@@ -183,14 +196,19 @@ Do not use the old 5-slide / 10-slide report template for current IG production.
 
 Do not return to a plain 3-slot placeholder layout. Use one registered Mira master template, duplicate it, then replace the named slots in the duplicate. The carousel should read as one editorial spread with intentional cross-slide crops, low text, and no accidental head crop.
 
-Do not split Canva image uploads into background, person cutout, and object layers. Replace whole flat images into the named frames.
+Do not split Canva image uploads into background, person cutout, and object layers. Replace whole flat PNG/JPG images into the named frames. Do not use `image_to_design`, Magic Layers, or old Canva design asset ids unless the asset is verified as a complete flat image.
 
 ## Validation Status
 
 Latest local checks:
 
 ```text
-W26 validation: pass, 0 errors, 0 warnings
+W26 strict validation: fail by design until production blockers are fixed
+Current strict blockers:
+- 2026-W26-001 motion_crop needs_regeneration
+- 2026-W26-001 codex_asset_selection status needs_review
+- 2026-W26-002 detail_image Canva flat asset id is still TBD
+
 Smoke test: passed
 ```
 

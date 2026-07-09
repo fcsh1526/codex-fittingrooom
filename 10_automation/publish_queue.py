@@ -11,6 +11,9 @@ QUEUE_FIELDS = [
     "carousel_id",
     "prompt_id",
     "model_profile_id",
+    "canva_template_key",
+    "canva_template_name",
+    "canva_template_url",
     "trend_name",
     "content_bucket",
     "stage",
@@ -25,6 +28,8 @@ QUEUE_FIELDS = [
     "run_dir",
     "package_path",
 ]
+
+TEMPLATE_REGISTRY_PATH = Path(__file__).with_name("canva_template_registry.json")
 
 
 def clean(value):
@@ -56,6 +61,52 @@ def read_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_template_registry(path=TEMPLATE_REGISTRY_PATH):
+    registry = read_json(path)
+    templates = {}
+    for template in registry.get("templates", []):
+        key = clean(template.get("key")).upper()
+        if key:
+            templates[key] = template
+    return templates
+
+
+def choose_template(packet, templates):
+    if not templates:
+        return {}
+
+    explicit = clean(packet.get("canva_template_key") or packet.get("template_key")).upper()
+    if explicit in templates:
+        return templates[explicit]
+
+    blob = " ".join(
+        clean(packet.get(field))
+        for field in [
+            "trend_name",
+            "content_bucket",
+            "audience",
+            "occasion",
+            "clothing_item",
+            "color_palette",
+            "fabric",
+            "fit",
+            "styling_rules",
+            "scene",
+        ]
+    ).lower()
+
+    keyword_rules = [
+        ("C", ["noir", "evening", "night", "autumn", "winter", "晚宴", "夜", "夜晚", "秋冬", "秋", "冬", "低光"]),
+        ("B", ["office", "commute", "formal", "tailored", "blazer", "通勤", "上班", "正式", "剪裁", "西外", "西裝"]),
+        ("E", ["weekend", "linen", "cafe", "airy", "週末", "假日", "亞麻", "咖啡", "留白"]),
+        ("D", ["full-bleed", "hero image", "image-led", "strong visual", "大片", "強視覺", "滿版"]),
+    ]
+    for key, keywords in keyword_rules:
+        if key in templates and any(keyword in blob for keyword in keywords):
+            return templates[key]
+    return templates.get("A") or next(iter(templates.values()))
+
+
 def run_dirs_under(runs_dir):
     runs_dir = Path(runs_dir)
     if not runs_dir.exists():
@@ -82,12 +133,50 @@ def assets_by_carousel(run_dir):
     for row in read_csv(Path(run_dir) / "canva_asset_slots.csv"):
         carousel_id = clean(row.get("carousel_id"))
         slot_id = clean(row.get("slot_id"))
-        if slot_id != "cover_image":
+        if not carousel_id or not slot_id:
             continue
-        out[carousel_id] = {
-            "file": clean(row.get("recommended_file")),
+        out.setdefault(
+            carousel_id,
+            {
+                "file": "",
+                "url": "",
+                "slots": {},
+                "invalid_slots": [],
+                "missing_slots": [],
+                "selection_status": "",
+            },
+        )
+        file_name = clean(row.get("recommended_file"))
+        status = clean(row.get("status")).lower()
+        out[carousel_id]["slots"][slot_id] = {
+            "file": file_name,
+            "status": status,
             "url": extract_note_value(row.get("notes"), "drive_url"),
         }
+        if slot_id == "cover_image":
+            out[carousel_id]["file"] = file_name
+            out[carousel_id]["url"] = extract_note_value(row.get("notes"), "drive_url")
+        if status in {"needed", "needs_review", "needs_scoring", "needs_regeneration", "rejected", "not_found", "missing"}:
+            out[carousel_id]["invalid_slots"].append(f"{slot_id}:{status}")
+
+    for asset in out.values():
+        for slot_id in ["cover_image", "motion_crop", "detail_image"]:
+            slot = asset["slots"].get(slot_id, {})
+            if not clean(slot.get("file")):
+                asset["missing_slots"].append(slot_id)
+    return out
+
+
+def asset_selection_statuses(run_dir):
+    out = {}
+    for file_name in ["codex_asset_selection.csv", "openai_asset_selection.csv", "grok_asset_selection.csv"]:
+        path = Path(run_dir) / file_name
+        if not path.exists():
+            continue
+        for row in read_csv(path):
+            carousel_id = clean(row.get("carousel_id"))
+            if carousel_id and carousel_id not in out:
+                out[carousel_id] = clean(row.get("selection_status")).lower()
     return out
 
 
@@ -98,8 +187,12 @@ def latest_by_carousel(rows, carousel_id):
 
 def stage_for_carousel(packet, asset, publish, metric):
     packet_status = clean(packet.get("status")).lower()
+    if packet_status == "ready_for_canva_test":
+        return "ready_for_canva_test"
     if packet_status == "needs_visual_revision":
         return "needs_visual_revision"
+    if packet_status == "canva_blocked_waiting_for_flat_png_asset":
+        return "canva_blocked_waiting_for_flat_png_asset"
     if packet_status in {"paused", "archived", "do_not_publish", "skip"}:
         return packet_status
     if metric:
@@ -107,9 +200,13 @@ def stage_for_carousel(packet, asset, publish, metric):
         return decision or "metrics_recorded_review_needed"
     if publish or packet_status == "published":
         return "published_waiting_for_metrics"
+    if clean(asset.get("selection_status")).lower() in {"needs_review", "needs_scoring", "needs_regeneration", "rejected"}:
+        return "needs_image_asset_selection"
+    if asset.get("invalid_slots") or asset.get("missing_slots"):
+        return "needs_image_asset_selection"
     if not clean(asset.get("file")):
         return "needs_image_asset_selection"
-    if packet_status == "canva_committed":
+    if packet_status in {"canva_committed", "canva_committed_ready_to_publish"}:
         return "canva_committed_ready_to_publish"
     return "ready_for_canva_and_publish"
 
@@ -119,9 +216,11 @@ def next_action_for_stage(stage):
         "visibility_recovery": "Keep carousel production moving; optionally publish or record the generated single-image visibility test in parallel.",
         "ready_to_publish_visibility_test": "Optional side test: publish the single-image visibility test, share once to Story, then record 6h / 24h metrics.",
         "published_waiting_for_metrics": "Record 6h / 24h metrics with record_post_metrics.py.",
-        "needs_image_asset_selection": "Generate or score OpenAI images, then run select_grok_assets.py with --provider OpenAI.",
+        "needs_image_asset_selection": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
         "needs_grok_asset_selection": "Generate or score images, then run select_grok_assets.py.",
-        "needs_visual_revision": "Do not publish. Review image quality, regenerate candidates, and revise the Canva magazine template / crop before export.",
+        "needs_visual_revision": "Do not publish. Use the approved Mira Canva v2 template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.",
+        "ready_for_canva_test": "Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.",
+        "canva_blocked_waiting_for_flat_png_asset": "Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.",
         "paused": "Paused by user; do not publish unless reactivated.",
         "archived": "Archived; do not publish.",
         "do_not_publish": "Do not publish this item.",
@@ -137,17 +236,21 @@ def next_action_for_stage(stage):
     return actions.get(stage, "Open weekly_status.md and follow the next action.")
 
 
-def carousel_item(run_dir, packet, asset, publish_rows, metric_rows):
+def carousel_item(run_dir, packet, asset, publish_rows, metric_rows, template=None):
     carousel_id = clean(packet.get("carousel_id"))
     publish = latest_by_carousel(publish_rows, carousel_id)
     metric = latest_by_carousel(metric_rows, carousel_id)
     stage = stage_for_carousel(packet, asset, publish, metric)
+    template = template or {}
     return {
         "item_type": "carousel",
         "week_id": clean(packet.get("week_id")) or Path(run_dir).name,
         "carousel_id": carousel_id,
         "prompt_id": clean(packet.get("prompt_id")),
         "model_profile_id": clean(packet.get("model_profile_id")),
+        "canva_template_key": clean(template.get("key")),
+        "canva_template_name": clean(template.get("name")),
+        "canva_template_url": clean(template.get("url")),
         "trend_name": clean(packet.get("trend_name")),
         "content_bucket": clean(packet.get("content_bucket")),
         "stage": stage,
@@ -207,6 +310,10 @@ def item_priority(row):
         return -10
     if item_type == "carousel" and stage == "needs_visual_revision":
         return 115
+    if item_type == "carousel" and stage == "canva_blocked_waiting_for_flat_png_asset":
+        return 114
+    if item_type == "carousel" and stage == "ready_for_canva_test":
+        return 112
     if item_type == "carousel" and stage == "canva_committed_ready_to_publish":
         return 110
     if item_type == "carousel" and stage == "ready_for_canva_and_publish":
@@ -216,6 +323,8 @@ def item_priority(row):
     priorities = {
         "published_waiting_for_metrics": 80,
         "needs_visual_revision": 95,
+        "canva_blocked_waiting_for_flat_png_asset": 94,
+        "ready_for_canva_test": 92,
         "canva_committed_ready_to_publish": 90,
         "ready_for_canva_and_publish": 75,
         "needs_image_asset_selection": 70,
@@ -233,6 +342,7 @@ def item_priority(row):
 
 def build_queue(runs_dir):
     rows = []
+    templates = load_template_registry()
     for run_dir in run_dirs_under(runs_dir):
         packets = read_csv(run_dir / "weekly_content_packet.csv")
         paused_ids = {
@@ -243,9 +353,13 @@ def build_queue(runs_dir):
         publish_rows = read_csv(run_dir / "publish_log.csv")
         metric_rows = read_csv(run_dir / "metric_checkpoints.csv")
         assets = assets_by_carousel(run_dir)
+        selection_statuses = asset_selection_statuses(run_dir)
         for packet in packets:
             carousel_id = clean(packet.get("carousel_id"))
-            rows.append(carousel_item(run_dir, packet, assets.get(carousel_id, {}), publish_rows, metric_rows))
+            template = choose_template(packet, templates)
+            asset = assets.get(carousel_id, {})
+            asset["selection_status"] = selection_statuses.get(carousel_id, clean(asset.get("selection_status")))
+            rows.append(carousel_item(run_dir, packet, asset, publish_rows, metric_rows, template))
 
         visibility_package = read_json(run_dir / "visibility_test_package.json")
         package_status = clean(visibility_package.get("status")).lower()
@@ -288,22 +402,25 @@ def write_markdown(path, rows, runs_dir):
                 "",
                 f"- Type: `{top['item_type']}`",
         f"- ID: `{top['carousel_id']}`",
-        f"- Model: `{top.get('model_profile_id') or 'n/a'}`",
-        f"- Stage: `{top['stage']}`",
+                f"- Model: `{top.get('model_profile_id') or 'n/a'}`",
+                f"- Canva template: `{top.get('canva_template_key') or 'n/a'}` {top.get('canva_template_name') or ''}",
+                f"- Canva template URL: {top.get('canva_template_url') or 'n/a'}",
+                f"- Stage: `{top['stage']}`",
                 f"- Asset: `{top['recommended_asset'] or 'n/a'}`",
                 f"- Package: `{top['package_path'] or 'n/a'}`",
                 f"- Next action: {top['next_action']}",
                 "",
                 "## Queue",
                 "",
-                "| Type | ID | Model | Stage | Asset | Reach | Next Action |",
-                "|---|---|---|---|---|---:|---|",
+                "| Type | ID | Model | Template | Stage | Asset | Reach | Next Action |",
+                "|---|---|---|---|---|---|---:|---|",
             ]
         )
         for row in rows:
             next_action = clean(row.get("next_action")).replace("|", "/")
+            template_label = clean(f"{row.get('canva_template_key')} {row.get('canva_template_name')}")
             lines.append(
-                f"| `{row['item_type']}` | `{row['carousel_id']}` | `{row.get('model_profile_id') or 'n/a'}` | `{row['stage']}` | `{row['recommended_asset'] or 'n/a'}` | `{row['latest_reach'] or ''}` | {next_action} |"
+                f"| `{row['item_type']}` | `{row['carousel_id']}` | `{row.get('model_profile_id') or 'n/a'}` | `{template_label or 'n/a'}` | `{row['stage']}` | `{row['recommended_asset'] or 'n/a'}` | `{row['latest_reach'] or ''}` | {next_action} |"
             )
         lines.append("")
     Path(path).write_text("\n".join(lines), encoding="utf-8")

@@ -122,11 +122,30 @@ def publish_status(run_dir):
 def packet_status(run_dir):
     rows = read_csv(run_dir / "weekly_content_packet.csv")
     published_count = sum(1 for row in rows if clean(row.get("status")) == "published")
+    ready_for_canva_test = [
+        clean(row.get("carousel_id"))
+        for row in rows
+        if clean(row.get("status")).lower() == "ready_for_canva_test"
+    ]
+    canva_committed_ready_to_publish = [
+        clean(row.get("carousel_id"))
+        for row in rows
+        if clean(row.get("status")).lower()
+        in {"canva_committed", "canva_committed_ready_to_publish"}
+    ]
+    canva_blocked_waiting_for_flat_png_asset = [
+        clean(row.get("carousel_id"))
+        for row in rows
+        if clean(row.get("status")).lower() == "canva_blocked_waiting_for_flat_png_asset"
+    ]
     inactive_statuses = {"paused", "archived", "do_not_publish", "skip"}
     inactive_count = sum(1 for row in rows if clean(row.get("status")).lower() in inactive_statuses)
     return {
         "row_count": len(rows),
         "published_count": published_count,
+        "ready_for_canva_test": ready_for_canva_test,
+        "canva_committed_ready_to_publish": canva_committed_ready_to_publish,
+        "canva_blocked_waiting_for_flat_png_asset": canva_blocked_waiting_for_flat_png_asset,
         "inactive_count": inactive_count,
         "all_inactive": bool(rows) and inactive_count == len(rows),
         "carousel_ids": [clean(row.get("carousel_id")) for row in rows if clean(row.get("carousel_id"))],
@@ -150,6 +169,13 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "blocking_items": [],
         }
 
+    if packet.get("canva_blocked_waiting_for_flat_png_asset"):
+        return {
+            "stage": "canva_blocked_waiting_for_flat_png_asset",
+            "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+            "blocking_items": packet.get("canva_blocked_waiting_for_flat_png_asset"),
+        }
+
     if quality["status"] != "pass":
         return {
             "stage": "quality_gate_not_passed",
@@ -169,6 +195,20 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "stage": publishing["latest_decision"],
             "next_action": publishing["latest_next_action"],
             "blocking_items": [],
+        }
+
+    if packet.get("ready_for_canva_test"):
+        return {
+            "stage": "ready_for_canva_test",
+            "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
+            "blocking_items": packet.get("ready_for_canva_test"),
+        }
+
+    if packet.get("canva_committed_ready_to_publish"):
+        return {
+            "stage": "canva_committed_ready_to_publish",
+            "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+            "blocking_items": packet.get("canva_committed_ready_to_publish"),
         }
 
     if assets["missing_cover"]:
@@ -215,10 +255,21 @@ def command_suggestions(run_dir, stage):
         suggestions.append(
             f"python 10_automation/validate_weekly_run.py --run-dir {run_dir_str} --min-rows 1 --require-assets"
         )
+    elif stage == "ready_for_canva_test":
+        suggestions.append(f"open {run_dir_str}/canva_fill_guide.md")
+        suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
+        suggestions.append("Open the approved Mira Canva v2 template and test-fill selected assets.")
+    elif stage == "canva_blocked_waiting_for_flat_png_asset":
+        suggestions.append(f"open {run_dir_str}/canva_automation_trial_log.md")
+        suggestions.append(f"open {run_dir_str}/generated_images/2026-W26-002")
     elif stage == "ready_for_canva_and_publish":
         suggestions.append(f"open {run_dir_str}/canva_fill_guide.md")
         suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
         suggestions.append(f"open {run_dir_str}/post_drafts.md")
+    elif stage == "canva_committed_ready_to_publish":
+        suggestions.append("open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit")
+        suggestions.append(f"open {run_dir_str}/post_drafts.md")
+        suggestions.append(f"open {run_dir_str}/publish_checklist.md")
     elif stage == "published_waiting_for_metrics":
         suggestions.append(
             f"python 10_automation/record_post_metrics.py --run-dir {run_dir_str} --record-metrics --hours-after-publish 24 --reach 0 --likes 0 --saves 0 --comments 0 --shares 0 --post-url POST_URL"
