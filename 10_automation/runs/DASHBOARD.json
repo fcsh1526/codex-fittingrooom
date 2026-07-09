@@ -3,7 +3,7 @@
   "run_count": 2,
   "stage_counts": {
     "missing_weekly_packet_files": 1,
-    "canva_blocked_waiting_for_flat_png_asset": 1
+    "quality_gate_not_passed": 1
   },
   "runs": [
     {
@@ -19,8 +19,8 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W26",
-      "stage": "canva_blocked_waiting_for_flat_png_asset",
-      "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+      "stage": "quality_gate_not_passed",
+      "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
       "packet_rows": 2,
       "quality": "fail",
       "cover_assets": "2/2",

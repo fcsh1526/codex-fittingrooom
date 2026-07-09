@@ -2,8 +2,8 @@
   "date": "2026-07-09",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W26",
-    "stage": "canva_blocked_waiting_for_flat_png_asset",
-    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+    "stage": "quality_gate_not_passed",
+    "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
     "packet_rows": 2,
     "quality": "fail",
     "cover_assets": "2/2",
@@ -11,25 +11,26 @@
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The Canva draft is blocked because the previous fill reused split Canva assets. Do not export or publish it.",
+  "decision": "The v2 image candidates are selected and the next step is Canva test-fill, not publishing.",
   "tasks": [
-    "Resolve the selected A_v2, B_v2, and C_v2 PNGs to verified Canva image asset ids.",
-    "Duplicate one registered Mira master again after the image assets are safe.",
-    "Fill only `cover_image`, `motion_crop`, and `detail_image` with verified complete flat assets, then review before saving."
+    "Open the approved Mira Canva v2 template.",
+    "Duplicate a registered Mira Canva master, then fill cover_image with A_v2, motion_crop with B_v2, and detail_image with C_v2.",
+    "Replace slide2_line with the approved short line.",
+    "Review the Canva preview for head crop, feet crop, face clarity, and cross-slide composition before committing."
   ],
   "user_inputs": [
-    "Canva image asset ids for the three complete PNGs",
-    "Approval after the new preview is visible"
+    "Canva test-fill preview",
+    "Decision to commit or adjust crops"
   ],
   "codex_actions": [
-    "Use only verified flat image assets for Canva replacement.",
-    "Stop if only local PNG paths are available and no verified Canva image asset ids exist.",
-    "Keep failed Canva drafts out of the publish queue."
+    "Use Canva connector autofill labels or manual fill guide.",
+    "Show the Canva preview before any commit.",
+    "Keep publish_status as not_published until the user approves the layout."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/canva_automation_trial_log.md",
     "10_automation/runs/{run}/canva_fill_guide.md",
-    "10_automation/runs/{run}/generated_images/2026-W26-002"
+    "10_automation/runs/{run}/canva_asset_plan.md",
+    "10_automation/runs/{run}/canva_asset_slots.csv"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -49,7 +50,7 @@
       "canva_template_url": "https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit",
       "trend_name": "波點洋裝/套裝（Polka Dots）",
       "content_bucket": "date_outfit",
-      "stage": "canva_blocked_waiting_for_flat_png_asset",
+      "stage": "ready_for_canva_test",
       "platform": "Instagram",
       "recommended_asset": "2026-W26-002_M02_candidate_A_v2.png",
       "asset_url": "10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png",
@@ -57,7 +58,7 @@
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.",
+      "next_action": "Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.",
       "run_dir": "10_automation\\runs\\2026-W26",
       "package_path": ""
     }
@@ -67,7 +68,7 @@
     "run_count": 2,
     "stage_counts": {
       "missing_weekly_packet_files": 1,
-      "canva_blocked_waiting_for_flat_png_asset": 1
+      "quality_gate_not_passed": 1
     },
     "runs": [
       {
@@ -83,8 +84,8 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W26",
-        "stage": "canva_blocked_waiting_for_flat_png_asset",
-        "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+        "stage": "quality_gate_not_passed",
+        "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
         "packet_rows": 2,
         "quality": "fail",
         "cover_assets": "2/2",

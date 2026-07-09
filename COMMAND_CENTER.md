@@ -77,16 +77,24 @@ Then open:
 ```text
 item = 2026-W26-002
 model = M02
-stage = canva_blocked_waiting_for_flat_png_asset
+stage = ready_for_canva_test
 template = A Contact Sheet
 ```
 
-Current blocker:
+Verified Canva flat image assets:
 
 ```text
 cover_image Canva asset id = MAHOCYb2mPI
 motion_crop Canva asset id = MAHOCUFmjRs
-detail_image Canva asset id = TBD
+detail_image Canva asset id = MAHON_SkSjs
+```
+
+Current Canva test copy:
+
+```text
+design_id = DAHO2rHNkZs
+edit_url = https://www.canva.com/d/FAQqtC4Lubay7GY
+status = copied, not filled or committed yet
 ```
 
 Do not export or publish the failed Canva draft:

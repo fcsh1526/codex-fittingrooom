@@ -1,6 +1,6 @@
 {
   "status": "fail",
-  "error_count": 3,
+  "error_count": 2,
   "warning_count": 0,
   "issues": [
     {
@@ -12,11 +12,6 @@
       "severity": "error",
       "code": "asset_selection_status",
       "message": "2026-W26-001: codex_asset_selection.csv has selection_status `needs_review`."
-    },
-    {
-      "severity": "error",
-      "code": "canva_verified_asset_tbd",
-      "message": "2026-W26-002: canva_fill_guide.md still contains `TBD`; verified Canva flat image assets are incomplete."
     }
   ]
 }

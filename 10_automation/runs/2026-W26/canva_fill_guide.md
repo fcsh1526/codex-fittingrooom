@@ -29,7 +29,7 @@ Hard gate: use only complete flat PNG/JPG image assets for `cover_image`, `motio
 
 ## 2026-W26-002 / W26-P002
 
-Status: blocked until the three selected local PNGs are resolved to verified Canva image asset ids. Public URLs are not required when the complete images already exist as Canva image items.
+Status: ready for a fresh Canva test fill. The three selected local PNGs have been resolved to verified Canva image asset ids. Public URLs are not required because the complete images already exist as Canva image items.
 
 Verified Canva image assets:
 
@@ -37,13 +37,21 @@ Verified Canva image assets:
 |---|---|---|---|
 | `cover_image` | `MAHOCYb2mPI` | `Mira W26-002 Candidate A cover` | verified image asset |
 | `motion_crop` | `MAHOCUFmjRs` | `Mira W26-002 Candidate B detail` | verified image asset |
-| `detail_image` | TBD | `2026-W26-002_M02_candidate_C_v2.png` | not found yet |
+| `detail_image` | `MAHON_SkSjs` | `2026-W26-002_M02_candidate_C_v2.png` | verified image asset |
+
+Fresh Canva test copy:
+
+```text
+design_id = DAHO2rHNkZs
+edit_url = https://www.canva.com/d/FAQqtC4Lubay7GY
+status = copied from A Contact Sheet, not filled or committed yet
+```
 
 ### Text Replacement
 
 | Placeholder | Value |
 |---|---|
-| `{{slide2_line}}` | 黑白波點，留一點午後的輕盈。 |
+| `{{slide2_line}}` | ????????????????? |
 
 ### Asset Slots
 
@@ -62,12 +70,10 @@ Verified Canva image assets:
 ### Instagram Caption Draft
 
 ```text
-黑白波點洋裝，適合週末午後或輕鬆約會。
+???????????????????????????????????????????
 
-相似單品整理在個人頁連結。
-AI 生成虛擬造型影像。
-
-#週末穿搭 #洋裝穿搭 #波點洋裝 #AI穿搭 #虛擬造型 #Mira
+AI ???????
+#???? #???? #???? #AI?? #Mira
 ```
 
 ### Before Saving Canva

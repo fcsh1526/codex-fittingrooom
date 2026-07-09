@@ -1,20 +1,20 @@
 {
   "run_dir": "10_automation\\runs\\2026-W26",
   "stage": {
-    "stage": "canva_blocked_waiting_for_flat_png_asset",
-    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+    "stage": "quality_gate_not_passed",
+    "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
     "blocking_items": [
-      "2026-W26-002"
+      "quality_status=fail"
     ]
   },
   "packet": {
     "row_count": 2,
     "published_count": 0,
-    "ready_for_canva_test": [],
-    "canva_committed_ready_to_publish": [],
-    "canva_blocked_waiting_for_flat_png_asset": [
+    "ready_for_canva_test": [
       "2026-W26-002"
     ],
+    "canva_committed_ready_to_publish": [],
+    "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
     "carousel_ids": [
@@ -25,7 +25,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 1406
+      "size": 1338
     },
     "grok_prompts.md": {
       "exists": true,
@@ -37,7 +37,7 @@
     },
     "canva_fill_guide.md": {
       "exists": true,
-      "size": 2961
+      "size": 3115
     },
     "canva_asset_slots.csv": {
       "exists": true,
@@ -45,7 +45,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1597
+      "size": 1423
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -65,12 +65,12 @@
     },
     "quality_report.md": {
       "exists": true,
-      "size": 465
+      "size": 319
     }
   },
   "quality": {
     "status": "fail",
-    "error_count": 3,
+    "error_count": 2,
     "warning_count": 0
   },
   "assets": {
@@ -91,7 +91,6 @@
     "latest_next_action": ""
   },
   "commands": [
-    "open 10_automation\\runs\\2026-W26/canva_automation_trial_log.md",
-    "open 10_automation\\runs\\2026-W26/generated_images/2026-W26-002"
+    "python 10_automation/validate_weekly_run.py --run-dir 10_automation\\runs\\2026-W26 --min-rows 1"
   ]
 }

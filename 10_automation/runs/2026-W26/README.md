@@ -48,4 +48,20 @@ Latest failed trial: A Contact Sheet duplicate `DAHOyDPZHeQ` / https://www.canva
 
 Failure mode: old Canva asset ids / Magic Layers split assets produced missing person layers and blurred background-only street images.
 
-Current action: upload A_v2, B_v2, and C_v2 to Canva as complete flat PNG image assets, or provide public HTTPS URLs for Canva upload. Then rerun the Canva fill on a fresh duplicate only.
+Current action: A_v2, B_v2, and C_v2 are now resolved to verified complete flat Canva image assets. Rerun the Canva fill on a fresh duplicate only, then review crops before commit/export.
+
+Verified flat image assets:
+
+```text
+cover_image = MAHOCYb2mPI
+motion_crop = MAHOCUFmjRs
+detail_image = MAHON_SkSjs
+```
+
+Fresh Canva test copy:
+
+```text
+design_id = DAHO2rHNkZs
+edit_url = https://www.canva.com/d/FAQqtC4Lubay7GY
+status = copied from A Contact Sheet, not filled or committed yet
+```

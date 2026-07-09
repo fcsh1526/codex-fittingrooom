@@ -1,24 +1,20 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W26`
-Stage: `canva_blocked_waiting_for_flat_png_asset`
+Stage: `quality_gate_not_passed`
 
 ## Next Action
 
-Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.
+Run validate_weekly_run.py and fix all errors before producing images or editing Canva.
 
 ## Blocking Items
 
-- `2026-W26-002`
+- `quality_status=fail`
 
 ## Suggested Commands
 
 ```powershell
-open 10_automation\runs\2026-W26/canva_automation_trial_log.md
-```
-
-```powershell
-open 10_automation\runs\2026-W26/generated_images/2026-W26-002
+python 10_automation/validate_weekly_run.py --run-dir 10_automation\runs\2026-W26 --min-rows 1
 ```
 
 ## Summary

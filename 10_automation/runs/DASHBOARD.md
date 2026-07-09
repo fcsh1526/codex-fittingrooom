@@ -6,11 +6,11 @@ Run count: `2`
 ## Stage Counts
 
 - `missing_weekly_packet_files`: `1`
-- `canva_blocked_waiting_for_flat_png_asset`: `1`
+- `quality_gate_not_passed`: `1`
 
 ## Runs
 
 | Run | Stage | Quality | Cover Assets | Published | Metrics | Next Action |
 |---|---|---|---:|---:|---:|---|
 | `2026-W21-test` | `missing_weekly_packet_files` | `pass` | `2/2` | `True` | `2` | Run run_weekly_pipeline.py or build_weekly_packet.py to regenerate the weekly run folder. |
-| `2026-W26` | `canva_blocked_waiting_for_flat_png_asset` | `fail` | `2/2` | `False` | `0` | Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers. |
+| `2026-W26` | `quality_gate_not_passed` | `fail` | `2/2` | `False` | `0` | Run validate_weekly_run.py and fix all errors before producing images or editing Canva. |

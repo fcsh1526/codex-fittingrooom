@@ -21,6 +21,16 @@ Verified Canva image assets found on 2026-07-08:
 
 - `cover_image` candidate A: `MAHOCYb2mPI` / `Mira W26-002 Candidate A cover` / `type=image` / `import_status=success`
 - `motion_crop` candidate B: `MAHOCUFmjRs` / `Mira W26-002 Candidate B detail` / `type=image` / `import_status=success`
-- `detail_image` candidate C: not found yet in Canva root image items; resolve before rerunning fill.
+- `detail_image` candidate C: `MAHON_SkSjs` / `2026-W26-002_M02_candidate_C_v2.png` / `type=image` / `import_status=success`
 
 Hard gate: no future Canva autofill may use `image_to_design`, Magic Layers output, background/person cutout layers, or unverified old Canva design asset ids.
+
+## 2026-07-09 Trial 2
+
+- Template duplicated: `Mira Template Master - A Contact Sheet`
+- Trial design id: `DAHO2rHNkZs`
+- Trial edit URL: `https://www.canva.com/d/FAQqtC4Lubay7GY`
+- Source template id: `DAHOx6hb1Ug`
+- Intended item: `2026-W26-002` / `M02` / polka dot outfit
+
+Result so far: copied only. The trial copy has not been filled or committed yet. Next step is a Canva editing transaction on this copy using the verified flat image asset ids above; save/commit only after preview approval.
