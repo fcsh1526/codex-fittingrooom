@@ -176,7 +176,7 @@ def reply_template(top_item):
             f"type = {item_type}",
             "status = ",
             f"model = {clean(top_item.get('model_profile_id'))}",
-            "Canva URL = ",
+            f"Canva URL = {clean(top_item.get('canva_design_url'))}",
             "IG URL = ",
             "published at = ",
             "6h metrics = reach / likes / saves / comments / shares",
@@ -208,6 +208,7 @@ def render_html(payload, cockpit_md):
     template_key = clean(top.get("canva_template_key")) or "n/a"
     template_name = clean(top.get("canva_template_name"))
     template_url = clean(top.get("canva_template_url"))
+    design_url = clean(top.get("canva_design_url"))
 
     file_items = "".join(f"<li>{file_link(path)}</li>" for path in files if clean(path))
     check_items = "".join(
@@ -395,7 +396,8 @@ def render_html(payload, cockpit_md):
       <p class="big">{html.escape(top_id)}</p>
       <p><strong>Type:</strong> {html.escape(clean(top.get("item_type")))} / <strong>Model:</strong> {html.escape(clean(top.get("model_profile_id")) or "n/a")} / <strong>Stage:</strong> {html.escape(top_stage)}</p>
       <p><strong>Canva template:</strong> {html.escape(template_key)} {html.escape(template_name)}</p>
-      <p><strong>Canva URL:</strong> {f'<a href="{html.escape(template_url)}">{html.escape(template_url)}</a>' if template_url else 'n/a'}</p>
+      <p><strong>Canva design URL:</strong> {f'<a href="{html.escape(design_url)}">{html.escape(design_url)}</a>' if design_url else 'n/a'}</p>
+      <p><strong>Canva template URL:</strong> {f'<a href="{html.escape(template_url)}">{html.escape(template_url)}</a>' if template_url else 'n/a'}</p>
       <p><strong>Asset:</strong> {html.escape(clean(top.get("recommended_asset")) or "n/a")}</p>
       <p><strong>Next action:</strong> {html.escape(clean(top.get("next_action")))}</p>
       {asset_block}
@@ -451,6 +453,7 @@ def render_markdown(payload):
         f"- Model: `{clean(top.get('model_profile_id')) or 'n/a'}`",
         f"- Canva template: `{clean(top.get('canva_template_key')) or 'n/a'}` {clean(top.get('canva_template_name'))}",
         f"- Canva template URL: {clean(top.get('canva_template_url')) or 'n/a'}",
+        f"- Canva design URL: {clean(top.get('canva_design_url')) or 'n/a'}",
         f"- Stage: `{clean(top.get('stage'))}`",
         f"- Asset: `{clean(top.get('recommended_asset')) or 'n/a'}`",
         f"- Next action: {clean(top.get('next_action'))}",

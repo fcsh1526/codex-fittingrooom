@@ -29,8 +29,8 @@ Hard gate: no future Canva autofill may use `image_to_design`, Magic Layers outp
 
 - Template duplicated: `Mira Template Master - A Contact Sheet`
 - Trial design id: `DAHO2rHNkZs`
-- Trial edit URL: `https://www.canva.com/d/FAQqtC4Lubay7GY`
+- Trial edit URL: `https://www.canva.com/d/BADXM4PGvSs2Rlh`
 - Source template id: `DAHOx6hb1Ug`
 - Intended item: `2026-W26-002` / `M02` / polka dot outfit
 
-Result so far: copied only. The trial copy has not been filled or committed yet. Next step is a Canva editing transaction on this copy using the verified flat image asset ids above; save/commit only after preview approval.
+Result: committed after preview approval. The copy uses verified flat image assets for `cover_image`, `motion_crop`, and `detail_image`. Next step is manual crop review, then export/slice for publishing.

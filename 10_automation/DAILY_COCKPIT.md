@@ -9,26 +9,25 @@ Date: `2026-07-09`
 - Model: `M02`
 - Canva template: `A` Mira Template Master - A Contact Sheet
 - Canva template URL: https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
-- Stage: `ready_for_canva_test`
+- Canva design URL: https://www.canva.com/d/BADXM4PGvSs2Rlh
+- Stage: `canva_committed_ready_to_publish`
 - Asset: `2026-W26-002_M02_candidate_A_v2.png`
-- Next action: Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.
+- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Checklist
 
-- [ ] Do not publish this carousel yet.
-- [ ] Test-fill the approved Mira Canva v2 template with A_v2, B_v2, and C_v2.
-- [ ] Review Canva crops for headroom, feet, face clarity, and cross-slide motion crop.
-- [ ] Commit Canva only if the preview is clean.
-- [ ] If crop fails, adjust Canva placement before export.
+- [ ] Open the Canva panorama design and review the committed layout.
+- [ ] Export the 3 carousel slides if the layout looks acceptable.
+- [ ] Publish or schedule the Instagram carousel.
+- [ ] Send Codex the post URL, publish time, and any immediate notes.
 
 ## Files To Open
 
 - `10_automation/canva_template_registry.md`
 - `10_automation/runs/2026-W26/canva_fill_guide.md`
 - `10_automation/runs/2026-W26/canva_asset_plan.md`
-- `10_automation/runs/2026-W26/canva_asset_slots.csv`
-- `10_automation/runs/2026-W26/canva_placeholder_map.json`
-- `10_automation/runs/2026-W26/generated_images/2026-W26-002`
+- `10_automation/runs/2026-W26/post_drafts.md`
+- `10_automation/runs/2026-W26/publish_checklist.md`
 
 ## Reply Template For Codex
 
@@ -38,7 +37,7 @@ item = 2026-W26-002
 type = carousel
 status = 
 model = M02
-Canva URL = 
+Canva URL = https://www.canva.com/d/BADXM4PGvSs2Rlh
 IG URL = 
 published at = 
 6h metrics = reach / likes / saves / comments / shares

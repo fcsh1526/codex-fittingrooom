@@ -43,8 +43,8 @@ Fresh Canva test copy:
 
 ```text
 design_id = DAHO2rHNkZs
-edit_url = https://www.canva.com/d/FAQqtC4Lubay7GY
-status = copied from A Contact Sheet, not filled or committed yet
+edit_url = https://www.canva.com/d/BADXM4PGvSs2Rlh
+status = committed, ready for manual crop review and export
 ```
 
 ### Text Replacement

@@ -10,10 +10,10 @@
   "packet": {
     "row_count": 2,
     "published_count": 0,
-    "ready_for_canva_test": [
+    "ready_for_canva_test": [],
+    "canva_committed_ready_to_publish": [
       "2026-W26-002"
     ],
-    "canva_committed_ready_to_publish": [],
     "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
@@ -25,7 +25,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 1338
+      "size": 1317
     },
     "grok_prompts.md": {
       "exists": true,
@@ -37,7 +37,7 @@
     },
     "canva_fill_guide.md": {
       "exists": true,
-      "size": 3115
+      "size": 3109
     },
     "canva_asset_slots.csv": {
       "exists": true,
@@ -45,7 +45,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1423
+      "size": 1443
     },
     "image_generation_briefs.md": {
       "exists": true,
