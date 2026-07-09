@@ -77,16 +77,17 @@ Then open:
 ```text
 item = 2026-W26-002
 model = M02
-stage = canva_committed_ready_to_publish
+stage = needs_image_asset_selection
 template = A Contact Sheet
 ```
 
-Verified Canva flat image assets:
+Invalidated Canva flat image assets:
 
 ```text
 cover_image Canva asset id = MAHOCYb2mPI
 motion_crop Canva asset id = MAHOCUFmjRs
 detail_image Canva asset id = MAHON_SkSjs
+reason = generated before M02 v3 reference anchors; old model identity
 ```
 
 Current Canva test copy:
@@ -94,13 +95,14 @@ Current Canva test copy:
 ```text
 design_id = DAHO2rHNkZs
 edit_url = https://www.canva.com/d/BADXM4PGvSs2Rlh
-status = committed, ready for manual crop review and export
+status = invalid, do not export or publish
 ```
 
-Do not export or publish the failed Canva draft:
+Do not export or publish these failed Canva drafts:
 
 ```text
 DAHOyDPZHeQ
+DAHO2rHNkZs
 ```
 
 ## State Rules

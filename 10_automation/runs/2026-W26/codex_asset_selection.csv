@@ -1,3 +1,3 @@
 carousel_id,prompt_id,cover_asset,cover_url,detail_asset,detail_url,texture_asset,texture_url,selection_status,notes
 2026-W26-001,W26-P001,,,,,,,needs_review,No publishable scored assets found for this prompt.
-2026-W26-002,W26-P002,2026-W26-002_M02_candidate_A_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png,2026-W26-002_M02_candidate_C_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C_v2.png,2026-W26-002_M02_candidate_B_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B_v2.png,selected_v2,cover=A_v2; texture=B_v2; detail=C_v2; all pass face/ghosting/head-crop QA
+2026-W26-002,W26-P002,,,,,,,needs_regeneration,Rejected 2026-07-09: selected A_v2/B_v2/C_v2 were generated before approved M02 v3 reference anchors and use the old model identity. Regenerate with M02_start_v3_face.png and M02_start_v3_full.png.

@@ -23,7 +23,7 @@
       "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
       "packet_rows": 2,
       "quality": "fail",
-      "cover_assets": "2/2",
+      "cover_assets": "1/2",
       "published": false,
       "metric_checkpoints": 0,
       "latest_decision": ""

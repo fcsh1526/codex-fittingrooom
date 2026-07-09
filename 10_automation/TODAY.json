@@ -6,28 +6,30 @@
     "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
     "packet_rows": 2,
     "quality": "fail",
-    "cover_assets": "2/2",
+    "cover_assets": "1/2",
     "published": false,
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The Canva layout has been committed and is ready for export / publishing.",
+  "decision": "The next bottleneck is Codex workspace image generation, review, and asset selection.",
   "tasks": [
-    "Open the Canva design and review the committed carousel layout.",
-    "Export the 3 carousel slides if acceptable.",
-    "Publish or schedule the post, then send the post URL."
+    "Open daily_queue.csv and image_generation_briefs.md.",
+    "Generate image candidates inside the Codex workspace for the assigned internal model.",
+    "Review and score the generated image candidates in image_review_template.csv."
   ],
   "user_inputs": [
-    "Instagram post URL",
-    "Publish time"
+    "Optional candidate image notes if manual review is needed."
   ],
   "codex_actions": [
-    "Record post URL and create 6h / 24h metrics commands."
+    "Create or update image review inventory.",
+    "Select cover/detail assets and update canva_asset_slots.csv.",
+    "Validate with --require-assets before Canva work."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/canva_asset_plan.md",
-    "10_automation/runs/{run}/post_drafts.md",
-    "10_automation/runs/{run}/publish_checklist.md"
+    "10_automation/runs/{run}/daily_queue.csv",
+    "10_automation/runs/{run}/image_generation_briefs.md",
+    "10_automation/runs/{run}/image_review_template.csv",
+    "10_automation/select_grok_assets.py"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -45,18 +47,18 @@
       "canva_template_key": "A",
       "canva_template_name": "Mira Template Master - A Contact Sheet",
       "canva_template_url": "https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit",
-      "canva_design_url": "https://www.canva.com/d/BADXM4PGvSs2Rlh",
+      "canva_design_url": "",
       "trend_name": "波點洋裝/套裝（Polka Dots）",
       "content_bucket": "date_outfit",
-      "stage": "canva_committed_ready_to_publish",
+      "stage": "needs_image_asset_selection",
       "platform": "Instagram",
-      "recommended_asset": "2026-W26-002_M02_candidate_A_v2.png",
-      "asset_url": "10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png",
-      "post_url": "",
+      "recommended_asset": "",
+      "asset_url": "",
+      "post_url": "needs_image_asset_selection",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
+      "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
       "run_dir": "10_automation\\runs\\2026-W26",
       "package_path": ""
     }
@@ -86,7 +88,7 @@
         "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
         "packet_rows": 2,
         "quality": "fail",
-        "cover_assets": "2/2",
+        "cover_assets": "1/2",
         "published": false,
         "metric_checkpoints": 0,
         "latest_decision": ""

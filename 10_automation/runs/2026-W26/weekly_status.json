@@ -11,9 +11,7 @@
     "row_count": 2,
     "published_count": 0,
     "ready_for_canva_test": [],
-    "canva_committed_ready_to_publish": [
-      "2026-W26-002"
-    ],
+    "canva_committed_ready_to_publish": [],
     "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
@@ -25,7 +23,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 1317
+      "size": 1260
     },
     "grok_prompts.md": {
       "exists": true,
@@ -37,15 +35,15 @@
     },
     "canva_fill_guide.md": {
       "exists": true,
-      "size": 3109
+      "size": 1949
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 2367
+      "size": 2098
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1443
+      "size": 1463
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -77,9 +75,13 @@
     "carousel_count": 2,
     "selection_exists": true,
     "review_template_exists": true,
-    "selected_cover_count": 2,
-    "missing_cover": [],
-    "missing_detail": [],
+    "selected_cover_count": 1,
+    "missing_cover": [
+      "2026-W26-002"
+    ],
+    "missing_detail": [
+      "2026-W26-002"
+    ],
     "selection_rows": 2
   },
   "publish": {

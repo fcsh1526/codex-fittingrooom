@@ -2,32 +2,34 @@
 
 Date: `2026-07-09`
 Priority run: `2026-W26`
-Stage: `canva_committed_ready_to_publish`
+Stage: `needs_image_asset_selection`
 
 ## Decision
 
-The Canva layout has been committed and is ready for export / publishing.
+The next bottleneck is Codex workspace image generation, review, and asset selection.
 
 ## Today Only
 
-1. Open the Canva design and review the committed carousel layout.
-2. Export the 3 carousel slides if acceptable.
-3. Publish or schedule the post, then send the post URL.
+1. Open daily_queue.csv and image_generation_briefs.md.
+2. Generate image candidates inside the Codex workspace for the assigned internal model.
+3. Review and score the generated image candidates in image_review_template.csv.
 
 ## User Should Provide
 
-- Instagram post URL
-- Publish time
+- Optional candidate image notes if manual review is needed.
 
 ## Codex Can Do Next
 
-- Record post URL and create 6h / 24h metrics commands.
+- Create or update image review inventory.
+- Select cover/detail assets and update canva_asset_slots.csv.
+- Validate with --require-assets before Canva work.
 
 ## Useful Files
 
-- `10_automation/runs/2026-W26/canva_asset_plan.md`
-- `10_automation/runs/2026-W26/post_drafts.md`
-- `10_automation/runs/2026-W26/publish_checklist.md`
+- `10_automation/runs/2026-W26/daily_queue.csv`
+- `10_automation/runs/2026-W26/image_generation_briefs.md`
+- `10_automation/runs/2026-W26/image_review_template.csv`
+- `10_automation/select_grok_assets.py`
 
 ## Generated Files
 
@@ -42,14 +44,14 @@ The Canva layout has been committed and is ready for export / publishing.
 - Model: `M02`
 - Canva template: `A` Mira Template Master - A Contact Sheet
 - Canva template URL: https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
-- Canva design URL: https://www.canva.com/d/BADXM4PGvSs2Rlh
-- Stage: `canva_committed_ready_to_publish`
-- Asset: `2026-W26-002_M02_candidate_A_v2.png`
-- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
+- Canva design URL: n/a
+- Stage: `needs_image_asset_selection`
+- Asset: `n/a`
+- Next action: Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
 
 ## Current Next Action
 
-Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
+Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
 
 ## Fixed Flow
 

@@ -61,9 +61,9 @@
         "slide_range": "1",
         "asset_type": "image",
         "purpose": "strongest lifestyle full-body image; visual hook",
-        "recommended_file": "2026-W26-002_M02_candidate_A_v2.png",
-        "status": "selected_v2",
-        "notes": "Make the person and outfit dominant. Keep text off the image.; selected_file=2026-W26-002_M02_candidate_A_v2.png; drive_url=10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png"
+        "recommended_file": "",
+        "status": "needs_regeneration",
+        "notes": "Rejected A_v2 because it was generated before approved M02 v3 reference anchors and uses the old model identity. Regenerate with M02_start_v3_face.png and M02_start_v3_full.png."
       },
       {
         "carousel_id": "2026-W26-002",
@@ -71,9 +71,9 @@
         "slide_range": "2",
         "asset_type": "crop / editorial motion slide",
         "purpose": "horizontal film-still crop crossing the slide boundary",
-        "recommended_file": "2026-W26-002_M02_candidate_B_v2.png",
-        "status": "selected_v2",
-        "notes": "Use as the motion_crop frame. It is an intentional half-body crop with stable face and no ghosting.; selected_file=2026-W26-002_M02_candidate_B_v2.png; local_path=10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B_v2.png"
+        "recommended_file": "",
+        "status": "needs_regeneration",
+        "notes": "Rejected B_v2 because it was generated before approved M02 v3 reference anchors and uses the old model identity. Regenerate with M02_start_v3_face.png and M02_start_v3_full.png."
       },
       {
         "carousel_id": "2026-W26-002",
@@ -81,9 +81,9 @@
         "slide_range": "3",
         "asset_type": "image",
         "purpose": "closing lifestyle image or detail frame",
-        "recommended_file": "2026-W26-002_M02_candidate_C_v2.png",
-        "status": "selected_v2",
-        "notes": "Use as the closing detail_image. Keep head and feet inside the crop if manually adjusted.; selected_file=2026-W26-002_M02_candidate_C_v2.png; drive_url=10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C_v2.png"
+        "recommended_file": "",
+        "status": "needs_regeneration",
+        "notes": "Rejected C_v2 because it was generated before approved M02 v3 reference anchors and uses the old model identity. Regenerate with M02_start_v3_face.png and M02_start_v3_full.png."
       }
     ],
     "design_contract": {

@@ -33,4 +33,14 @@ Hard gate: no future Canva autofill may use `image_to_design`, Magic Layers outp
 - Source template id: `DAHOx6hb1Ug`
 - Intended item: `2026-W26-002` / `M02` / polka dot outfit
 
-Result: committed after preview approval. The copy uses verified flat image assets for `cover_image`, `motion_crop`, and `detail_image`. Next step is manual crop review, then export/slice for publishing.
+Result: invalidated on 2026-07-09 after user review. The copy uses complete flat image assets, but those assets were generated before the approved M02 v3 reference anchors were created, so the model identity is old.
+
+Do not export or publish `DAHO2rHNkZs`.
+
+Invalidated assets:
+
+- `cover_image`: `MAHOCYb2mPI` / `2026-W26-002_M02_candidate_A_v2.png`
+- `motion_crop`: `MAHOCUFmjRs` / `2026-W26-002_M02_candidate_B_v2.png`
+- `detail_image`: `MAHON_SkSjs` / `2026-W26-002_M02_candidate_C_v2.png`
+
+Next action: regenerate W26-002 using `M02_start_v3_face.png` and `M02_start_v3_full.png`, score new candidates, then duplicate Canva again only after user-approved asset selection.

@@ -21,6 +21,6 @@ python 10_automation/validate_weekly_run.py --run-dir 10_automation\runs\2026-W2
 
 - Packet rows: `2`
 - Quality: `fail`
-- Cover assets selected: `2` / `2`
+- Cover assets selected: `1` / `2`
 - Published: `False`
 - Metric checkpoints: `0`

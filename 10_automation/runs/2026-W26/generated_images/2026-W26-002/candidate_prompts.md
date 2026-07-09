@@ -1,118 +1,36 @@
-# Candidate Prompts
+# Candidate Prompts - 2026-W26-002 / M02 v3
 
-Candidate A: safest full-body daily lifestyle image
+Use these prompts only with both approved M02 v3 reference images attached:
 
-Attach both reference start images to the image-generation request. File paths alone are not enough:
-- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_face.png
-- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_full.png
+```text
+02_brand/reference_models/M02_start_v3_face.png
+02_brand/reference_models/M02_start_v3_full.png
+```
 
-Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
+Hard rule: the face, hairstyle identity, apparent age range, and body proportions must match the attached M02 v3 references. Do not use the previous W26-002 A_v2/B_v2/C_v2 images as references.
 
-Use internal model M02 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
+## Candidate A - Full-Body Cover
 
-Model profile:
-East Asian woman with a late-20s youthful adult look, softly defined oval face, gentle cheeks, balanced jawline, dark brown medium-to-long hair with natural movement, natural warm fair skin with visible human texture, approachable composed expression, healthy slim-to-average proportions.
-Prompt visual age language: late 20s, youthful
+Create a realistic vertical 4:5 lifestyle fashion image for an AI fashion magazine.
 
-Age rendering rules:
-Express age through styling and presence, NOT wrinkles.
-East Asian women look significantly younger than Western age norms.
-Skin is smooth and well-maintained.
+Use the attached M02 v3 face and full-body reference images as strict identity anchors. The subject is an East Asian woman with a youthful late-20s adult look, softly defined oval face, gentle cheeks, balanced jawline, dark brown medium-to-long hair with natural movement, warm fair skin with visible human texture, approachable composed expression, and healthy slim-to-average proportions.
 
-Trend and outfit:
-Global trend signal: 波點洋裝/套裝（Polka Dots）
-Clothing item: 波點洋裝
-Palette: 黑白波點/紅唇色
-Fabric: 緞面/雪紡
-Fit: 直筒或 A 字
-Occasion: 約會
-Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。
+Outfit: black and white polka dot midi dress, satin or light chiffon texture, straight or soft A-line fit, subtle red accent such as a slim belt or lip color, simple black Mary Jane flats or low heels, small black shoulder bag. The full outfit must be readable in one second.
 
-Scene:
-Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: 乾淨的室內灰白牆面與柔光窗邊. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
+Scene: quiet bookstore street or cafe-window sidewalk, realistic daily-life setting, soft natural light, wearable weekend date outfit mood. No logos, no text, no watermark, no luxury hotel, no runway, no celebrity likeness, no childlike styling, no plastic skin.
 
-Composition:
-Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor.
+## Candidate B - Motion Crop
 
-Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
+Create a realistic vertical 4:5 lifestyle fashion image using the same attached M02 v3 identity anchors.
 
+Outfit remains the same: black and white polka dot dress, subtle red accent, simple black shoes, small black shoulder bag. Pose should feel like a natural street-style walking moment, with the dress movement visible and the face still consistent with M02 v3.
 
----
+Scene: bookstore street, quiet shopping street, or cafe window. Keep the image useful for a later horizontal motion crop. Avoid exaggerated pose, runway mood, supermodel distance, visible logos, text, watermark, and old M02 identity drift.
 
-Candidate B: movement or street-style variation
+## Candidate C - Detail-Friendly Closing Frame
 
-Attach both reference start images to the image-generation request. File paths alone are not enough:
-- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_face.png
-- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_full.png
+Create a realistic vertical 4:5 lifestyle fashion image using the same attached M02 v3 identity anchors.
 
-Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
+Outfit remains a black and white polka dot dress with readable fabric texture, red accent, black shoes, and small shoulder bag. Compose slightly closer than Candidate A but keep the outfit readable from head to shoes. The image should work as the closing detail frame for a 3-slide carousel.
 
-Use internal model M02 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
-
-Model profile:
-East Asian woman with a late-20s youthful adult look, softly defined oval face, gentle cheeks, balanced jawline, dark brown medium-to-long hair with natural movement, natural warm fair skin with visible human texture, approachable composed expression, healthy slim-to-average proportions.
-Prompt visual age language: late 20s, youthful
-
-Age rendering rules:
-Express age through styling and presence, NOT wrinkles.
-East Asian women look significantly younger than Western age norms.
-Skin is smooth and well-maintained.
-
-Trend and outfit:
-Global trend signal: 波點洋裝/套裝（Polka Dots）
-Clothing item: 波點洋裝
-Palette: 黑白波點/紅唇色
-Fabric: 緞面/雪紡
-Fit: 直筒或 A 字
-Occasion: 約會
-Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。
-
-Scene:
-Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: 乾淨的室內灰白牆面與柔光窗邊. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
-
-Composition:
-Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor.
-
-Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
-
-
----
-
-Candidate C: closer outfit-detail-friendly variation while keeping the outfit readable
-
-Attach both reference start images to the image-generation request. File paths alone are not enough:
-- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_face.png
-- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_full.png
-
-Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
-
-Use internal model M02 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
-
-Model profile:
-East Asian woman with a late-20s youthful adult look, softly defined oval face, gentle cheeks, balanced jawline, dark brown medium-to-long hair with natural movement, natural warm fair skin with visible human texture, approachable composed expression, healthy slim-to-average proportions.
-Prompt visual age language: late 20s, youthful
-
-Age rendering rules:
-Express age through styling and presence, NOT wrinkles.
-East Asian women look significantly younger than Western age norms.
-Skin is smooth and well-maintained.
-
-Trend and outfit:
-Global trend signal: 波點洋裝/套裝（Polka Dots）
-Clothing item: 波點洋裝
-Palette: 黑白波點/紅唇色
-Fabric: 緞面/雪紡
-Fit: 直筒或 A 字
-Occasion: 約會
-Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。
-
-Scene:
-Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: 乾淨的室內灰白牆面與柔光窗邊. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
-
-Composition:
-Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor.
-
-Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
+Scene: cafe-window sidewalk or quiet bookstore street. Realistic skin texture, natural light, no logos, no image text, no watermark, no luxury ad feeling, no plastic skin, no old-model face drift.

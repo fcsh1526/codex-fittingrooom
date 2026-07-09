@@ -14,43 +14,46 @@ Generated artifacts:
 - `post_drafts.md`
 - `publish_checklist.md`
 
-Selected carousel candidates:
+## Current Status
 
-- `2026-W26-001` / `W26-P001` / `M01` / 薄紗/透視層次（Sheer Layering） / 薄紗罩衫
-- `2026-W26-002` / `W26-P002` / `M02` / 波點洋裝/套裝（Polka Dots） / 波點洋裝
-
-Current Canva status:
+Do not publish any W26 Canva draft yet.
 
 ```text
-2026-W26-002: Canva auto-fill committed on 2026-06-30, but user rejected the result on 2026-07-01.
-Template: https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit
-Template status: v2 base template is built; autofill labels were connected and saved on 2026-07-02.
-Images: A_v2 cover, B_v2 motion crop, C_v2 detail.
-Canva v2 fill: committed on 2026-07-02 with slide2 line `黑白波點，留一點午後的輕盈。`
-Canva assets: cover `MAHONX_UfzI`, motion crop `MAHONZhtTLw`, detail `MAHONcCuIkk`.
-Canva fix: committed a second repair on 2026-07-02 to restore Magic Layers person cutouts over the background fills.
-Cutout assets: cover person `MAHONW_Gcdc`, motion person `MAHONVPQBDI`, detail person `MAHONVfX15w`.
-Status: invalid after the 2026-07-08 flat-PNG gate; do not review/export this draft for publishing.
+2026-W26-001 = needs_image_asset_selection
+2026-W26-002 = needs_image_asset_selection
 ```
 
-Next user action:
+## 2026-W26-001
 
-1. Open the committed Canva v2 design and review the final crop.
-2. Export/slice the 3240 x 1350 master into three 1080 x 1350 carousel images.
-3. Prepare the caption and publish or schedule W26-002.
-4. Keep `daily_queue.csv` and `image_generation_briefs.md` as the new daily-production structure for the next run.
+Status: blocked on image selection.
 
-## 2026-07-08 Override
+Reason:
 
-The Canva status above is superseded. Do not export or publish the committed Canva drafts.
+```text
+motion_crop has non-publishable status needs_regeneration
+codex_asset_selection.csv selection_status = needs_review
+```
 
-Latest failed trial: A Contact Sheet duplicate `DAHOyDPZHeQ` / https://www.canva.com/d/q9ytQ_Tl2yFqcPx
+## 2026-W26-002
 
-Failure mode: old Canva asset ids / Magic Layers split assets produced missing person layers and blurred background-only street images.
+Status: blocked on image regeneration.
 
-Current action: A_v2, B_v2, and C_v2 are now resolved to verified complete flat Canva image assets. Rerun the Canva fill on a fresh duplicate only, then review crops before commit/export.
+Reason:
 
-Verified flat image assets:
+```text
+The A_v2/B_v2/C_v2 image assets were generated on 2026-07-02.
+The approved M02 v3 reference anchors were created on 2026-07-07.
+Therefore the committed Canva copy used the old model identity.
+```
+
+Invalid Canva drafts:
+
+```text
+DAHOyDPZHeQ = invalid, old asset / Magic Layers failure
+DAHO2rHNkZs = invalid, old M02 identity; do not export or publish
+```
+
+Invalid old Canva asset ids:
 
 ```text
 cover_image = MAHOCYb2mPI
@@ -58,10 +61,11 @@ motion_crop = MAHOCUFmjRs
 detail_image = MAHON_SkSjs
 ```
 
-Fresh Canva test copy:
+Correct next action:
 
 ```text
-design_id = DAHO2rHNkZs
-edit_url = https://www.canva.com/d/BADXM4PGvSs2Rlh
-status = committed, ready for manual crop review and export
+Regenerate W26-002 with M02_start_v3_face.png and M02_start_v3_full.png.
+Score the new images.
+Rerun asset selection.
+Only then duplicate Canva again.
 ```

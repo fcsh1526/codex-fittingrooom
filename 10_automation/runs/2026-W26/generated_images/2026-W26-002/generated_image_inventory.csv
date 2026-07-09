@@ -1,7 +1,7 @@
 file_name,file_path,mime_type,notes
-2026-W26-002_M02_candidate_A.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A.png,image/png,Selected cover candidate.
-2026-W26-002_M02_candidate_B.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B.png,image/png,Street-style backup and crop/detail candidate.
-2026-W26-002_M02_candidate_C.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C.png,image/png,Fitting-room detail/crop backup candidate.
-2026-W26-002_M02_candidate_A_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png,image/png,V2 selected cover image for Canva v2 test-fill.
-2026-W26-002_M02_candidate_B_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B_v2.png,image/png,V2 selected motion crop image for Canva v2 motion_crop.
-2026-W26-002_M02_candidate_C_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C_v2.png,image/png,V2 selected detail/closing image for Canva v2 detail_image.
+2026-W26-002_M02_candidate_A.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A.png,image/png,Rejected old model identity; generated before approved M02 v3 reference anchors.
+2026-W26-002_M02_candidate_B.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B.png,image/png,Rejected old model identity; generated before approved M02 v3 reference anchors.
+2026-W26-002_M02_candidate_C.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C.png,image/png,Rejected old model identity; generated before approved M02 v3 reference anchors.
+2026-W26-002_M02_candidate_A_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png,image/png,Rejected old model identity; do not use for Canva.
+2026-W26-002_M02_candidate_B_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B_v2.png,image/png,Rejected old model identity; do not use for Canva.
+2026-W26-002_M02_candidate_C_v2.png,10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C_v2.png,image/png,Rejected old model identity; do not use for Canva.

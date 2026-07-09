@@ -1,86 +1,60 @@
 # Canva Fill Guide - 2026-W26
 
-Select and duplicate one registered Mira Canva master template:
+## Status
+
+`2026-W26-002` is not ready for Canva or publishing.
+
+The committed Canva copy below is invalid because it uses W26-002 image assets generated before the approved M02 v3 reference anchors were created.
 
 ```text
-10_automation/canva_template_registry.md
+invalid_design_id = DAHO2rHNkZs
+invalid_edit_url = https://www.canva.com/d/BADXM4PGvSs2Rlh
+invalid_reason = old model identity; generated before M02 v3 reference anchors
+action = do not export or publish
 ```
 
-Automation labels saved in Canva:
+## Correct Next Step
+
+Regenerate W26-002 images with the approved M02 v3 reference anchors:
 
 ```text
-cover_image
-motion_crop
-detail_image
-slide2_line
+reference_face_image = 02_brand/reference_models/M02_start_v3_face.png
+reference_full_image = 02_brand/reference_models/M02_start_v3_full.png
 ```
 
-Hard gate: use only complete flat PNG/JPG image assets for `cover_image`, `motion_crop`, and `detail_image`. Do not use `image_to_design`, Magic Layers, background/person/object split assets, or unverified old Canva design asset ids.
+Use only newly generated and approved images for the next Canva duplicate.
 
-## Template Contract
+## Invalidated Assets
 
-- Canvas: `3240 x 1350 px`
-- Export: `3 slides x 1080 x 1350 px`
-- Slice guides: `x = 1080, 2160`
-- Slide 1: image-led hook.
-- Slide 2: one short transition line and one editorial motion crop.
-- Slide 3: image-led closing frame.
-- Keep disclosure in the caption, not on the image.
-
-## 2026-W26-002 / W26-P002
-
-Status: ready for a fresh Canva test fill. The three selected local PNGs have been resolved to verified Canva image asset ids. Public URLs are not required because the complete images already exist as Canva image items.
-
-Verified Canva image assets:
-
-| Slot | Canva asset id | Name | Status |
+| Slot | Old Canva asset id | Old file | Status |
 |---|---|---|---|
-| `cover_image` | `MAHOCYb2mPI` | `Mira W26-002 Candidate A cover` | verified image asset |
-| `motion_crop` | `MAHOCUFmjRs` | `Mira W26-002 Candidate B detail` | verified image asset |
-| `detail_image` | `MAHON_SkSjs` | `2026-W26-002_M02_candidate_C_v2.png` | verified image asset |
+| `cover_image` | `MAHOCYb2mPI` | `2026-W26-002_M02_candidate_A_v2.png` | rejected_old_model |
+| `motion_crop` | `MAHOCUFmjRs` | `2026-W26-002_M02_candidate_B_v2.png` | rejected_old_model |
+| `detail_image` | `MAHON_SkSjs` | `2026-W26-002_M02_candidate_C_v2.png` | rejected_old_model |
 
-Fresh Canva test copy:
+## Replacement Text
 
-```text
-design_id = DAHO2rHNkZs
-edit_url = https://www.canva.com/d/BADXM4PGvSs2Rlh
-status = committed, ready for manual crop review and export
-```
-
-### Text Replacement
-
-| Placeholder | Value |
-|---|---|
-| `{{slide2_line}}` | ????????????????? |
-
-### Asset Slots
-
-| Slot | Use File | Path |
-|---|---|---|
-| `cover_image` | `2026-W26-002_M02_candidate_A_v2.png` | `10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_A_v2.png` |
-| `motion_crop` | `2026-W26-002_M02_candidate_B_v2.png` | `10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_B_v2.png` |
-| `detail_image` | `2026-W26-002_M02_candidate_C_v2.png` | `10_automation/runs/2026-W26/generated_images/2026-W26-002/2026-W26-002_M02_candidate_C_v2.png` |
-
-### Image QA Notes
-
-- `A_v2`: selected cover; full outfit readable, stable face, no ghosting.
-- `B_v2`: selected motion crop; intentional half-body crop, stable face and hands.
-- `C_v2`: selected closing frame; clear dress, shoes, and bag; feet are close to bottom but not cropped.
-
-### Instagram Caption Draft
+Use this only after new M02 v3 images pass visual review:
 
 ```text
-???????????????????????????????????????????
-
-AI ???????
-#???? #???? #???? #AI?? #Mira
+slide2_line = 波點洋裝，不只甜美，也可以很俐落。
 ```
 
-### Before Saving Canva
+## Caption Draft
 
-- Confirm each image slot is filled by a complete flat image asset, not a Magic Layers split.
-- No head crop on Slide 1 or Slide 3.
-- Motion crop on Slide 2 looks intentional, not like a broken cut.
-- `{{slide2_line}}` has been replaced.
-- Final image has no product list, CTA wall, comment bait, or AI disclosure on the image.
-- The carousel still reads as one editorial spread after slicing.
+Use this only after new M02 v3 images pass visual review:
+
+```text
+波點洋裝不一定只能可愛。這組用黑白波點、紅唇色細節和簡單配件，把約會穿搭做得乾淨一點。
+
+AI 虛擬穿搭示意。
+#約會穿搭 #波點洋裝 #甜酷穿搭 #AI穿搭 #Mira
+```
+
+## Canva Rules
+
+- Do not reuse `DAHO2rHNkZs`.
+- Do not reuse `MAHOCYb2mPI`, `MAHOCUFmjRs`, or `MAHON_SkSjs` for W26-002.
+- Duplicate a registered master again only after new M02 v3 images are selected.
+- Use complete flat PNG/JPG image assets only.
+- Do not use Magic Layers, cutout assets, or old Canva design asset ids.
