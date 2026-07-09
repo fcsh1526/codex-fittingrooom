@@ -38,12 +38,13 @@ Each week should produce:
 
 1. `weekly_content_packet.csv`
 2. Daily queue and image-generation briefs
-3. Canva placeholder values
-4. Canva fill guide / placeholder map / asset slots
-5. IG carousel caption and hashtags
-6. Image review template and selected asset plan
-7. Publish record
-8. Metrics record
+3. Per-carousel Codex image job folders and generation handoffs
+4. Canva placeholder values
+5. Canva fill guide / placeholder map / asset slots
+6. IG carousel caption and hashtags
+7. Image review template and selected asset plan
+8. Publish record
+9. Metrics record
 
 ## Files In This Folder
 
@@ -398,6 +399,9 @@ quality_report.json
 daily_queue.csv
 image_generation_briefs.md
 image_review_template.csv
+generated_images/{carousel_id}/codex_generation_handoff.md
+generated_images/{carousel_id}/candidate_prompts.md
+generated_images/{carousel_id}/review_sheet.csv
 canva_asset_plan.md
 weekly_status.md
 weekly_status.json

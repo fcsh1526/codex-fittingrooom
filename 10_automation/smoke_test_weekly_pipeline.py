@@ -91,6 +91,10 @@ def test_new_week_without_assets():
     assert_exists(run_dir / "daily_queue.csv", "daily queue")
     assert_exists(run_dir / "image_generation_briefs.md", "image generation briefs")
     assert_exists(run_dir / "image_review_template.csv", "image review template")
+    assert_exists(
+        run_dir / "generated_images" / "2026-W25-001" / "codex_generation_handoff.md",
+        "Codex generation handoff",
+    )
     queue = read_csv(run_dir / "daily_queue.csv")
     packets = read_csv(run_dir / "weekly_content_packet.csv")
     assert_equal(len(queue), 5, "daily queue row count")

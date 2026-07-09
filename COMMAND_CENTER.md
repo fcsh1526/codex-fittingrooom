@@ -72,6 +72,36 @@ Then open:
 10_automation/DAILY_COCKPIT.html
 ```
 
+## Fresh Weekly Start From Perplexity
+
+First check what the public Perplexity index currently exposes:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  10_automation\resolve_perplexity_source.py `
+  --index https://mika-lin-weekly.pplx.app/data/index.json `
+  --json
+```
+
+If the returned week is the intended new week, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
+  -Action pipeline `
+  -UsePerplexityIndex `
+  -Limit 2
+```
+
+The pipeline now creates the weekly packet, daily queue, Codex image job folders, `codex_generation_handoff.md`, Canva handoff files, and weekly status.
+
+Current caveat as of 2026-07-09:
+
+```text
+Perplexity index latest = 2026-W26
+Old W26 production progress is abandoned as current proof.
+Update Perplexity first before treating this as a true new-week production run.
+```
+
 ## Current Top Item
 
 ```text

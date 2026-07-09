@@ -25,6 +25,7 @@ param(
     [string]$ScoreSheet = "",
     [string]$DriveInventory = "",
     [string]$AssetProvider = "Codex",
+    [switch]$SkipImageJobs,
     [string]$DailyId = "",
     [string]$OpenAIModel = "",
     [string]$ImageSize = "1024x1536",
@@ -92,17 +93,22 @@ function Invoke-MikaPython {
 
 switch ($Action) {
     "pipeline" {
-        if (-not $Week) {
-            throw "Week is required for pipeline."
+        if (-not $Week -and -not $UsePerplexityIndex) {
+            throw "Week is required for pipeline unless UsePerplexityIndex is set."
         }
 
-        $resolvedRunDir = Resolve-RunDir
         $argsList = @(
-            "--week", $Week,
             "--database", $Database,
-            "--limit", "$Limit",
-            "--output-dir", $resolvedRunDir
+            "--limit", "$Limit"
         )
+
+        if ($Week) {
+            $argsList += @("--week", $Week)
+        }
+        if ($RunDir -or $Week) {
+            $resolvedRunDir = Resolve-RunDir
+            $argsList += @("--output-dir", $resolvedRunDir)
+        }
 
         if ($PerplexitySource) {
             $argsList += @("--perplexity-source", $PerplexitySource)
@@ -121,6 +127,9 @@ switch ($Action) {
         }
         if ($AssetProvider) {
             $argsList += @("--asset-provider", $AssetProvider)
+        }
+        if ($SkipImageJobs) {
+            $argsList += "--skip-image-jobs"
         }
 
         Invoke-MikaPython -ScriptPath "10_automation\run_weekly_pipeline.py" -ArgsList $argsList

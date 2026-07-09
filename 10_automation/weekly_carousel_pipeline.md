@@ -352,7 +352,9 @@ This creates:
 - `daily_queue.csv`
 - `image_generation_briefs.md`
 - `image_review_template.csv`
-- `generated_images/`
+- `generated_images/{carousel_id}/codex_generation_handoff.md`
+- `generated_images/{carousel_id}/candidate_prompts.md`
+- `generated_images/{carousel_id}/review_sheet.csv`
 - `grok_prompts.md` legacy backup prompt file
 - `canva_placeholder_values.csv`
 - `canva_fill_guide.md`

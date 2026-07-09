@@ -177,6 +177,44 @@ def write_job(project_root, run_dir, carousel_id, tool):
     prompts = [prompt_for(packet, profile, ref, variant) for variant in ["A", "B", "C"]]
     (job_dir / "candidate_prompts.md").write_text("# Candidate Prompts\n\n" + "\n\n---\n\n".join(prompts), encoding="utf-8")
 
+    handoff_lines = [
+        f"# Codex Generation Handoff - {carousel_id} / {model_id}",
+        "",
+        "Use this file to generate the carousel image candidates inside Codex.",
+        "",
+        "## Reference Images",
+        "",
+        "Attach both approved reference start images to the image-generation request:",
+        "",
+        "```text",
+        f"{ref['face_path']}",
+        f"{ref['full_path']}",
+        "```",
+        "",
+        "## Output Filenames",
+        "",
+        "Save generated candidates as:",
+        "",
+        "```text",
+        f"{carousel_id}_{model_id}_candidate_A.png",
+        f"{carousel_id}_{model_id}_candidate_B.png",
+        f"{carousel_id}_{model_id}_candidate_C.png",
+        "```",
+        "",
+        "## Candidate Prompts",
+        "",
+        "\n\n---\n\n".join(prompts),
+        "",
+        "## After Generation",
+        "",
+        "Update:",
+        "",
+        "```text",
+        f"{job_dir / 'review_sheet.csv'}",
+        "```",
+    ]
+    (job_dir / "codex_generation_handoff.md").write_text("\n".join(handoff_lines), encoding="utf-8")
+
     job_lines = [
         "# Mira Daily Image Job",
         "",
@@ -190,6 +228,12 @@ def write_job(project_root, run_dir, carousel_id, tool):
         f"- occasion: {packet.get('occasion', '')}",
         "",
         "Generate 2-3 candidates, then score them before Canva.",
+        "",
+        "Codex handoff:",
+        "",
+        "```text",
+        str(job_dir / "codex_generation_handoff.md"),
+        "```",
     ]
     (job_dir / "image_job.md").write_text("\n".join(job_lines), encoding="utf-8")
 

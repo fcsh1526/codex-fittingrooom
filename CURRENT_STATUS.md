@@ -12,6 +12,13 @@ Current priority:
 global weekly trend -> daily outfit queue -> internal model profile -> approved reference start image -> Codex image job -> minimal Canva carousel -> Instagram post -> metrics
 ```
 
+Latest automation test:
+
+```text
+2026-07-09 fresh Perplexity pipeline test passed in tmp/fresh_perplexity_pipeline_v2.
+Perplexity public index currently resolves latest to 2026-W26, so a true new-week run is blocked until Perplexity publishes a newer weekly row.
+```
+
 Monetization is intentionally delayed until there is non-zero reach.
 
 Today's priority:
@@ -122,6 +129,8 @@ It is expected to fail until current W26 blockers are fixed.
 - Canva image replacement must use whole flat PNG/JPG images in named frames. Do not use `image_to_design`, Magic Layers, split background/person/object assets, or old Canva design asset ids unless the asset is verified as a complete flat image.
 - First automation trial on 2026-07-08 duplicated `A Contact Sheet` to `DAHOyDPZHeQ`, but the saved result is a failed test because it reused split Canva assets and lost the person layer. Do not export or publish that design.
 - The failed W26-002 Canva copy `DAHO2rHNkZs` and old Canva image asset ids were invalidated because they used the old model identity. W26-002 is back at `needs_image_asset_selection` and must be regenerated with M02 v3 reference anchors through Codex.
+- User decided to abandon old W26 production progress and use a clean new-week test path instead. The W26 folder remains historical; do not use it as the proof of current automation health.
+- Fresh Perplexity pipeline test report was added at `10_automation/PERPLEXITY_FRESH_PIPELINE_TEST_2026-07-09.md`.
 
 ## Latest Published Post
 

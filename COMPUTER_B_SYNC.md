@@ -57,12 +57,15 @@ Rules:
 ## Current Top Item
 
 ```text
-item = 2026-W26-002
-type = carousel
-model = M02
-stage = needs_image_asset_selection
-asset = n/a
-next = Generate fresh Codex candidates from M02 v3 face/full reference anchors, score them, then run asset selection.
+old W26 production progress = abandoned as current proof
+fresh pipeline test = passed under tmp/fresh_perplexity_pipeline_v2
+next real production step = update Perplexity weekly site so the public index exposes the intended new week, then run pipeline from index
+```
+
+Fresh test report:
+
+```text
+10_automation/PERPLEXITY_FRESH_PIPELINE_TEST_2026-07-09.md
 ```
 
 ## Files For Current Top Item
@@ -165,19 +168,9 @@ C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily
 ## Current Queue
 
 ```text
-1. 2026-W26-002
-   type = carousel
-   model = M02
-   stage = needs_image_asset_selection
-   asset = n/a
-   action = generate Codex candidates with M02 v3 anchors, score review_sheet.csv, then run select_codex_assets.py
-
-2. 2026-W26-001
-   type = carousel
-   model = M01
-   stage = ready_for_canva_and_publish
-   asset = 2026-W26-001_M01_candidate_A.png
-   action = backup / second carousel candidate
+Perplexity public index currently resolves latest to 2026-W26.
+Do not use old 2026-W26 progress as the current automation test.
+Use a fresh run after Perplexity publishes the intended new week.
 ```
 
 ## Canva Template Contract

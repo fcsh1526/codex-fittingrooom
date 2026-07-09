@@ -1,4 +1,6 @@
 ﻿import argparse
+import csv
+import subprocess
 import sys
 from pathlib import Path
 
@@ -29,9 +31,48 @@ def run_build_weekly_packet(week, limit, output_dir, source_database):
         sys.argv = original_argv
 
 
+def read_packets(run_dir):
+    path = Path(run_dir) / "weekly_content_packet.csv"
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def clean(value):
+    return " ".join(str(value or "").split()).strip()
+
+
+def prepare_codex_image_jobs(run_dir, provider):
+    script = Path("11_skills") / "mira-image-daily" / "scripts" / "prepare_daily_image_job.py"
+    if not script.exists():
+        raise FileNotFoundError(f"Missing image job script: {script}")
+
+    prepared = []
+    for packet in read_packets(run_dir):
+        carousel_id = clean(packet.get("carousel_id"))
+        if not carousel_id:
+            continue
+        subprocess.run(
+            [
+                sys.executable,
+                str(script),
+                "--project-root",
+                ".",
+                "--run-dir",
+                str(run_dir),
+                "--carousel-id",
+                carousel_id,
+                "--tool",
+                provider,
+            ],
+            check=True,
+        )
+        prepared.append(carousel_id)
+    return prepared
+
+
 def main():
     parser = argparse.ArgumentParser(description="Run the weekly Mira automation pipeline.")
-    parser.add_argument("--week", required=True, help="Week id, e.g. 2026-W25.")
+    parser.add_argument("--week", default="", help="Week id, e.g. 2026-W25. Optional with --use-perplexity-index; the latest index week will be used.")
     parser.add_argument("--perplexity-source", help="Optional CSV/Markdown file path or direct CSV URL.")
     parser.add_argument("--perplexity-index", default="", help="Optional Perplexity public index URL. Defaults to the saved Mira index when --use-perplexity-index is set.")
     parser.add_argument("--use-perplexity-index", action="store_true", help="Resolve the CSV URL from the Perplexity public index.")
@@ -44,6 +85,7 @@ def main():
     parser.add_argument("--drive-inventory", help="Optional Drive image inventory CSV containing file_name and drive_url.")
     parser.add_argument("--asset-provider", default="Codex", help="Asset provider label for review templates and selection files.")
     parser.add_argument("--skip-asset-template", action="store_true", help="Do not create Codex asset review/selection files.")
+    parser.add_argument("--skip-image-jobs", action="store_true", help="Do not prepare per-carousel Codex image job folders.")
     parser.add_argument("--skip-status", action="store_true", help="Do not write weekly_status.md/json.")
     args = parser.parse_args()
 
@@ -51,7 +93,12 @@ def main():
     if args.use_perplexity_index:
         resolved = resolve_source(index_source=args.perplexity_index or DEFAULT_INDEX_URL, week=args.week, latest=not bool(args.week))
         source = resolved["csv_url"]
+        if not args.week:
+            args.week = resolved["week"]
         print(f"Resolved Perplexity source: {source}")
+
+    if not args.week:
+        parser.error("--week is required unless --use-perplexity-index resolves a week.")
 
     if source:
         result = import_rows(
@@ -73,6 +120,9 @@ def main():
         output_dir=output_dir,
         source_database=args.database,
     )
+    if not args.skip_image_jobs:
+        prepared = prepare_codex_image_jobs(output_dir, args.asset_provider)
+        print(f"Prepared Codex image job(s): {len(prepared)}.")
     if not args.skip_validation:
         report = validate_run(output_dir, min_rows=args.limit)
         print(
