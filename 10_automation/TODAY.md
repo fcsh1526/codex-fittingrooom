@@ -47,6 +47,7 @@ The next bottleneck is Codex workspace image generation, review, and asset selec
 - Canva design URL: n/a
 - Stage: `needs_image_asset_selection`
 - Asset: `n/a`
+- Package: `10_automation\runs\2026-W26\generated_images\2026-W26-002\grok_mobile_handoff.md`
 - Next action: Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
 
 ## Current Next Action

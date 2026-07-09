@@ -63,12 +63,12 @@
     },
     "quality_report.md": {
       "exists": true,
-      "size": 319
+      "size": 1052
     }
   },
   "quality": {
     "status": "fail",
-    "error_count": 2,
+    "error_count": 9,
     "warning_count": 0
   },
   "assets": {

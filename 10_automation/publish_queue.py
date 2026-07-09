@@ -243,6 +243,14 @@ def carousel_item(run_dir, packet, asset, publish_rows, metric_rows, template=No
     metric = latest_by_carousel(metric_rows, carousel_id)
     stage = stage_for_carousel(packet, asset, publish, metric)
     template = template or {}
+    package_path = ""
+    if stage in {"needs_image_asset_selection", "needs_grok_asset_selection"}:
+        handoff_path = Path(run_dir) / "generated_images" / carousel_id / "grok_mobile_handoff.md"
+        prompt_path = Path(run_dir) / "generated_images" / carousel_id / "candidate_prompts.md"
+        if handoff_path.exists():
+            package_path = str(handoff_path)
+        elif prompt_path.exists():
+            package_path = str(prompt_path)
     return {
         "item_type": "carousel",
         "week_id": clean(packet.get("week_id")) or Path(run_dir).name,
@@ -265,7 +273,7 @@ def carousel_item(run_dir, packet, asset, publish_rows, metric_rows, template=No
         "latest_decision": clean(metric.get("decision")),
         "next_action": next_action_for_stage(stage),
         "run_dir": str(run_dir),
-        "package_path": "",
+        "package_path": package_path,
     }
 
 

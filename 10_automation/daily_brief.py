@@ -377,6 +377,7 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None,
                 f"- Canva design URL: {top_item.get('canva_design_url') or 'n/a'}",
                 f"- Stage: `{top_item.get('stage')}`",
                 f"- Asset: `{top_item.get('recommended_asset') or 'n/a'}`",
+                f"- Package: `{top_item.get('package_path') or 'n/a'}`",
                 f"- Next action: {top_item.get('next_action')}",
             ]
         )

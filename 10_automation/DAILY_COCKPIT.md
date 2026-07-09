@@ -24,6 +24,9 @@ Date: `2026-07-09`
 
 ## Files To Open
 
+- `10_automation/runs/2026-W26/generated_images/2026-W26-002/grok_mobile_handoff.md`
+- `10_automation/runs/2026-W26/generated_images/2026-W26-002/candidate_prompts.md`
+- `10_automation/runs/2026-W26/generated_images/2026-W26-002/review_sheet.csv`
 - `10_automation/runs/2026-W26/daily_queue.csv`
 - `10_automation/runs/2026-W26/image_generation_briefs.md`
 - `10_automation/runs/2026-W26/image_review_template.csv`
