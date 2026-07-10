@@ -7,6 +7,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TMP_ROOT = ROOT / "tmp" / "smoke_weekly_pipeline"
+sys.path.insert(0, str(ROOT / "10_automation"))
+
+from mira_models import MODEL_ROTATION, model_for_index
 
 
 def rel(path):
@@ -100,6 +103,15 @@ def test_new_week_without_assets():
     assert_equal(len(queue), 5, "daily queue row count")
     if not all(row.get("model_profile_id") in {"M01", "M02", "M03", "M04", "M05"} for row in packets):
         raise AssertionError("weekly packet model_profile_id must be M01/M02/M03/M04/M05")
+
+
+def test_weekly_model_rotation_uses_all_five():
+    w28_models = [model_for_index(index, week_id="2026-W28") for index in range(1, 6)]
+    assert_equal(sorted(w28_models), MODEL_ROTATION, "weekly model roster coverage")
+    assert_equal(len(set(w28_models)), 5, "weekly model roster uniqueness")
+
+    w27_models = [model_for_index(index, week_id="2026-W27") for index in range(1, 6)]
+    assert_equal(w27_models, MODEL_ROTATION, "W27 locked model order")
 
 
 def test_perplexity_index_resolver():
@@ -384,6 +396,7 @@ def test_visibility_test_package():
 
 def main():
     clean_tmp()
+    test_weekly_model_rotation_uses_all_five()
     test_perplexity_index_resolver()
     test_new_week_without_assets()
     test_week_with_scored_assets()

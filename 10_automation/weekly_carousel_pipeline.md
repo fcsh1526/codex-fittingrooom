@@ -89,11 +89,12 @@ M01 true age 25 -> prompt visual age: early 20s
 M02 true age 35 -> prompt visual age: late 20s, youthful
 M03 true age 45 -> prompt visual age: mid 30s look, well-maintained
 M04 true age 55 -> prompt visual age: early 40s look, elegant
+M05 true age 20 -> prompt visual age: around 20, youthful adult
 ```
 
 True ages stay in roster metadata only. Image prompts must express age through styling and presence, not wrinkles, and must use the prompt visual-age language rather than numeric true ages.
 
-Content buckets still describe outfit context, such as `office_capsule`, `date_outfit`, `weekend_daily`, `daily_style`, and `rainy_day`, but they no longer permanently decide the model. The default packet builder rotates the age cohorts so each weekly trend set can cover multiple age bands. A row can still explicitly set `model_profile_id` when a specific age cohort is desired.
+Content buckets still describe outfit context, such as `office_capsule`, `date_outfit`, `weekend_daily`, `daily_style`, and `rainy_day`, but they no longer decide the model. The packet builder assigns all five internal models exactly once per 5-post week using a reproducible shuffled order. Perplexity rows provide outfit topics and styling inputs only; source `model_profile_id` values are ignored to protect weekly model coverage.
 
 Do not publish model names. They are internal controls for visual consistency only.
 

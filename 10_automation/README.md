@@ -11,7 +11,7 @@ Primary command center:
 The current priority is continuous production, not monetization. Mira is now treated as a fast-updating AI fashion magazine brand, not one public virtual influencer. The priority is:
 
 ```text
-weekly fashion trend + daily outfit queue + internal model profile + Codex image brief + Canva carousel + basic reach test
+weekly fashion trend + 5-post daily outfit queue + M01-M05 weekly model rotation + Codex image brief + Canva carousel + basic reach test
 ```
 
 Only after Instagram or another channel gets non-zero reach should affiliate links and product lists become the main work.
@@ -27,7 +27,7 @@ zero reach does not stop carousel production
 Each week needs these inputs:
 
 1. Perplexity weekly trend URL or CSV.
-2. One selected trend / outfit direction.
+2. Five selected trend / outfit directions for five daily carousels.
 3. 2-4 Codex-generated or manually approved image candidates in the run folder.
 4. One Canva panorama template or Canva brand template.
 5. A final Instagram post URL and metrics after publishing.

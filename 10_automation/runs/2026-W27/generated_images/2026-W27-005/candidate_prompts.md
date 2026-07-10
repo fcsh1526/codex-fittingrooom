@@ -3,16 +3,16 @@
 Candidate A: safest full-body daily lifestyle image
 
 Attach both reference start images to the image-generation request. File paths alone are not enough:
-- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_face.png
-- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_full.png
+- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_face.png
+- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_full.png
 
 Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
 
-Use internal model M01 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
+Use internal model M05 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
 
 Model profile:
-East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish.
-Prompt visual age language: early 20s
+East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.
+Prompt visual age language: around 20, youthful adult
 
 Age rendering rules:
 Express age through styling and presence, NOT wrinkles.
@@ -43,16 +43,16 @@ supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic sk
 Candidate B: movement or street-style variation
 
 Attach both reference start images to the image-generation request. File paths alone are not enough:
-- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_face.png
-- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_full.png
+- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_face.png
+- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_full.png
 
 Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
 
-Use internal model M01 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
+Use internal model M05 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
 
 Model profile:
-East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish.
-Prompt visual age language: early 20s
+East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.
+Prompt visual age language: around 20, youthful adult
 
 Age rendering rules:
 Express age through styling and presence, NOT wrinkles.
@@ -83,16 +83,16 @@ supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic sk
 Candidate C: closer outfit-detail-friendly variation while keeping the outfit readable
 
 Attach both reference start images to the image-generation request. File paths alone are not enough:
-- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_face.png
-- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_full.png
+- Face anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_face.png
+- Full-body anchor: C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_full.png
 
 Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
 
-Use internal model M01 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
+Use internal model M05 only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
 
 Model profile:
-East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish.
-Prompt visual age language: early 20s
+East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.
+Prompt visual age language: around 20, youthful adult
 
 Age rendering rules:
 Express age through styling and presence, NOT wrinkles.

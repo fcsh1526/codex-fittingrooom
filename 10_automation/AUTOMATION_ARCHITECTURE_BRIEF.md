@@ -132,6 +132,15 @@ ready_for_canva_and_publish > needs_image_asset_selection > published_waiting_fo
 
 That is why the system should keep moving carousel production even if Instagram reach is still zero.
 
+Weekly content cadence:
+
+```text
+5 Instagram carousel posts per week
+1 carousel per day
+M01-M05 each appear exactly once per week
+Perplexity provides outfit topics; Codex assigns the internal model rotation
+```
+
 ---
 
 ## Slide 5 - Weekly Automation Flow

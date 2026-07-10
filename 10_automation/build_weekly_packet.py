@@ -7,7 +7,7 @@ from pathlib import Path
 from generate_canva_handoff import write_canva_handoff
 from generate_canva_placeholders import FIELDNAMES as CANVA_FIELDS
 from generate_canva_placeholders import build_placeholders
-from mira_models import load_model_roster, model_for_index, validate_model_id
+from mira_models import load_model_roster, model_for_index
 
 
 PACKET_FIELDS = [
@@ -139,9 +139,9 @@ def infer_bucket(row):
 def to_packet_row(row, week_id, index):
     prompt_id = clean(row.get("id") or row.get("prompt_id") or f"P{index:03d}")
     bucket = infer_bucket(row)
-    model_profile_id = validate_model_id(row.get("model_profile_id")) or model_for_index(index)
-    # Intentionally ignore source model_identity. It is a legacy Perplexity field;
-    # model identity is controlled only by model_profile_id and approved anchors.
+    model_profile_id = model_for_index(index, week_id=week_id)
+    # Intentionally ignore source model_identity/model_profile_id. Perplexity
+    # controls outfit topics; Codex controls the weekly M01-M05 production roster.
     return {
         "week_id": week_id,
         "carousel_id": f"{week_id}-{index:03d}",

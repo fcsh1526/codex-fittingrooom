@@ -117,7 +117,7 @@ Strict --require-assets validation is expected to fail until W27 image candidate
 - Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03/M04/M05 are approved for reference-start checks.
 - Reference pack manifest was added at `02_brand/mira_reference_packs.csv`; all 20 pack entries are approved across full-body, half-body, face-front, 3/4 face, and side-profile.
 - Weekly packets now include `model_profile_id`.
-- Content buckets no longer map permanently to models; weekly packet builds rotate across `M01`, `M02`, `M03`, `M04`, and `M05`, unless a row explicitly sets `model_profile_id`.
+- Content buckets no longer map permanently to models. Weekly packet builds now assign `M01`, `M02`, `M03`, `M04`, and `M05` exactly once per 5-post week using a reproducible shuffled order; Perplexity controls outfit topics, not model identity.
 - Weekly run folders now generate `daily_queue.csv`, `image_generation_briefs.md`, `image_review_template.csv`, and `generated_images/`.
 - Daily cockpit and publish queue now show the internal model profile for each top item.
 - Daily cockpit and publish queue now show the selected Canva master template key, name, and URL.

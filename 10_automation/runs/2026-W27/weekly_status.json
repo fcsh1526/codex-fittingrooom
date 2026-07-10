@@ -40,11 +40,11 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1456
+      "size": 1457
     },
     "image_generation_briefs.md": {
       "exists": true,
-      "size": 12186
+      "size": 12184
     },
     "image_review_template.csv": {
       "exists": true,

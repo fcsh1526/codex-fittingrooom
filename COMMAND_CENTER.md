@@ -1,6 +1,6 @@
 # Mira Command Center
 
-Last updated: 2026-07-09
+Last updated: 2026-07-11
 
 Purpose: this file is the single command center for the Mira AI fashion magazine workflow. When other files disagree, use this file plus generated `DAILY_COCKPIT` / `PUBLISH_QUEUE` as the operational source of truth.
 
@@ -9,13 +9,15 @@ Purpose: this file is the single command center for the Mira AI fashion magazine
 ```text
 Production-first:
 keep producing polished, image-led Instagram carousel posts.
+Target cadence is 5 carousel posts per week, one per day.
+Each 5-post week uses M01-M05 exactly once in a reproducible shuffled order.
 Zero reach is a distribution signal, not a reason to stop production.
 ```
 
 Current workflow:
 
 ```text
-Perplexity trend -> weekly packet -> daily queue -> internal model M01-M05 -> reference-start image job -> image review -> asset selection -> Canva master duplicate -> publish -> metrics
+Perplexity weekly trends -> 5-post weekly packet -> daily queue -> internal model M01-M05 rotation -> reference-start image job -> image review -> asset selection -> Canva master duplicate -> publish -> metrics
 ```
 
 ## Canonical Files

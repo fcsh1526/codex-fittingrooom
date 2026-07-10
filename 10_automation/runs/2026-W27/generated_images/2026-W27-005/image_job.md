@@ -1,9 +1,9 @@
 # Mira Daily Image Job
 
 - carousel_id: `2026-W27-005`
-- model_profile_id: `M01`
-- reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_face.png`
-- reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_full.png`
+- model_profile_id: `M05`
+- reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_face.png`
+- reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_full.png`
 - attach_reference_images: `required`
 - trend: 絲巾腰帶/胯部綁法（Scarf-as-Belt）
 - clothing_item: 絲巾腰帶+牛仔褲

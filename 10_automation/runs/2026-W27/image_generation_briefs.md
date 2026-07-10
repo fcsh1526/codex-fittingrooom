@@ -106,12 +106,12 @@ Composition: full outfit readable within one second, natural posture, soft direc
 Avoid: supermodel proportions, luxury hotel background, runway pose, plastic skin, flawless beauty render, sexualized pose, childlike styling, celebrity likeness, wrinkle-based age cues, numeric true-age labels.
 ```
 
-## 2026-W27-005 / M01 - 絲巾腰帶/胯部綁法（Scarf-as-Belt）
+## 2026-W27-005 / M05 - 絲巾腰帶/胯部綁法（Scarf-as-Belt）
 
-- Internal model role: M01 visual early-20s
-- Reader projection: A young adult reader who wants clean daily outfits that are current, approachable, and easy to adapt without feeling childish.
-- Visual profile: East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish.
-- Prompt visual age language: early 20s
+- Internal model role: M05 visual around-20
+- Reader projection: A very young adult reader who wants clean daily outfits that feel current, simple, and practical without drifting into teen or school styling.
+- Visual profile: East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.
+- Prompt visual age language: around 20, youthful adult
 - Outfit: 絲巾腰帶+牛仔褲
 - Palette / fabric / fit: 奶油底復古圖案/牛仔藍/白 / 絲/仿絲 / 配件疊加、衣服保持簡潔
 - Occasion: 週末街拍/旅行
@@ -121,9 +121,9 @@ Avoid: supermodel proportions, luxury hotel background, runway pose, plastic ski
 
 ```text
 Create a realistic vertical lifestyle fashion image for Mira, an AI fashion magazine brand.
-Use internal model M01 only as a private production profile; do not render or include the model ID or any text in the image.
-East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish.
-Prompt visual age language: early 20s.
+Use internal model M05 only as a private production profile; do not render or include the model ID or any text in the image.
+East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.
+Prompt visual age language: around 20, youthful adult.
 Express age through styling and presence, NOT wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained.
 Outfit: 絲巾腰帶+牛仔褲; palette 奶油底復古圖案/牛仔藍/白; fabric 絲/仿絲; fit 配件疊加、衣服保持簡潔.
 Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。.

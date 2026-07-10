@@ -113,12 +113,12 @@ AI virtual outfit only; fictional person; no real person likeness; no celebrity;
 ## 2026-W27-005 - 絲巾腰帶/胯部綁法（Scarf-as-Belt）
 
 Prompt ID: `W27-P005`
-Internal model: `M01`
+Internal model: `M05`
 
 ```text
 Using the attached fictional AI virtual creator reference image as the subject, keep the same fictional identity, face, hairstyle, skin tone, body proportions, calm expression, and realistic Taiwan city style. Only replace the outfit.
 
-Internal model M01 (M01 visual early-20s): East Asian woman with an early-20s youthful adult look, fresh soft cheeks, a lighter jawline, natural warm skin with visible human texture, jaw-length dark brown bob with natural movement, approachable practical expression, petite-to-medium healthy proportions, clean casual polish. Prompt visual age language: early 20s. Express age through styling and presence, NOT wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained. Style range: T-shirts, denim, relaxed shirts, light outerwear, simple dresses, skirts, sneakers, flat sandals, loafers, canvas or nylon bags, clean budget-friendly pieces, casual work basics. Scenes: neighborhood street, convenience-store corner, covered sidewalk, casual cafe, rainy MRT exit, bookstore street, simple studio with natural shadows. Avoid: teen styling, childlike styling, school-uniform look, over-cute idol styling, athleisure brand-ad look, streetwear hype styling, luxury bag focus, exaggerated pose, obvious AI smoothness, wrinkle-based age cues
+Internal model M05 (M05 visual around-20): East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish. Prompt visual age language: around 20, youthful adult. Express age through styling and presence, NOT wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained. Style range: simple shirts, T-shirts, denim, relaxed trousers, short jackets, clean cardigans, simple skirts, easy dresses, sneakers, loafers, ballet flats, canvas or nylon bags, practical youthful basics. Scenes: neighborhood street, casual cafe, bookstore street, covered sidewalk, simple studio with natural shadows, rainy MRT exit, department store fitting area. Avoid: teen styling, childlike styling, school-uniform look, over-cute idol styling, excessive sweetness, luxury styling, mature-elegant styling, hard executive styling, obvious AI smoothness, wrinkle-based age cues
 
 Dress the internal Mira magazine model in 絲巾腰帶+牛仔褲, color palette 奶油底復古圖案/牛仔藍/白, fabric 絲/仿絲, fit 配件疊加、衣服保持簡潔.
 

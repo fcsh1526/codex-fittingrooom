@@ -36,4 +36,4 @@ Use this checklist for each carousel before publishing.
 - `2026-W27-002` / `M02`: 卡普里褲回歸（Capri Pants） / 卡普里褲+背心/襯衫
 - `2026-W27-003` / `M03`: Fisherman 涼鞋續熱（Fisherman Sandals） / Fisherman 涼鞋+寬褲
 - `2026-W27-004` / `M04`: 奶油黃作為新中性色（Butter Yellow） / 奶油黃針織背心/襯衫
-- `2026-W27-005` / `M01`: 絲巾腰帶/胯部綁法（Scarf-as-Belt） / 絲巾腰帶+牛仔褲
+- `2026-W27-005` / `M05`: 絲巾腰帶/胯部綁法（Scarf-as-Belt） / 絲巾腰帶+牛仔褲
