@@ -49,6 +49,7 @@ def run_files(top_item):
     if item_type == "carousel" and stage in {"ready_for_canva_and_publish", "canva_committed_ready_to_publish"}:
         return [
             "10_automation/canva_template_registry.md",
+            normalize_path(f"{run_dir}/canva_autofill_status.md"),
             normalize_path(f"{run_dir}/canva_fill_guide.md"),
             normalize_path(f"{run_dir}/canva_asset_plan.md"),
             normalize_path(f"{run_dir}/post_drafts.md"),

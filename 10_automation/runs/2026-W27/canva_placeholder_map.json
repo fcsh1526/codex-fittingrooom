@@ -1,7 +1,7 @@
 {
   "2026-W27-001": {
     "placeholders": {
-      "{{slide2_line}}": "薄紗罩衫/透視上衣，讓通勤多一點記憶點。"
+      "{{slide2_line}}": "薄紗層次，通勤也有記憶點。"
     },
     "caption_short": "薄紗罩衫/透視上衣，給通勤一點生活感。 方向：薄紗/透視層次（Sheer Layering）。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。",
     "hashtags": "#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira",
@@ -14,7 +14,7 @@
         "purpose": "strongest lifestyle full-body image; visual hook",
         "recommended_file": "2026-W27-001_M01_candidate_A.png",
         "status": "selected",
-        "notes": "Make the person and outfit dominant. Keep text off the image.; selected_file=2026-W27-001_M01_candidate_A.png"
+          "notes": "Make the person and outfit dominant. Keep text off the image.; selected_file=2026-W27-001_M01_candidate_A.png; canva_asset_id=MAHPAlYb4jU"
       },
       {
         "carousel_id": "2026-W27-001",
@@ -24,7 +24,7 @@
         "purpose": "minimal transition slide with one short line",
         "recommended_file": "2026-W27-001_M01_candidate_B.png",
         "status": "selected_from_crop",
-        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence.; selected_file=2026-W27-001_M01_candidate_B.png"
+          "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence.; selected_file=2026-W27-001_M01_candidate_B.png; canva_asset_id=MAHPAq4vFbM"
       },
       {
         "carousel_id": "2026-W27-001",
@@ -34,7 +34,7 @@
         "purpose": "second lifestyle image or reused hero crop",
         "recommended_file": "2026-W27-001_M01_candidate_C.png",
         "status": "selected",
-        "notes": "Use a second image when available. If not, use a different crop of the hero image.; selected_file=2026-W27-001_M01_candidate_C.png"
+          "notes": "Use a second image when available. If not, use a different crop of the hero image.; selected_file=2026-W27-001_M01_candidate_C.png; canva_asset_id=MAHPAvkBOYk"
       }
     ],
     "design_contract": {

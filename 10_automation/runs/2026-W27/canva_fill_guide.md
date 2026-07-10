@@ -18,7 +18,7 @@ Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
 
 | Placeholder | Value |
 |---|---|
-| `{{slide2_line}}` | 薄紗罩衫/透視上衣，讓通勤多一點記憶點。 |
+| `{{slide2_line}}` | 薄紗層次，通勤也有記憶點。 |
 
 ### Asset Slots
 

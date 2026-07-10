@@ -26,6 +26,7 @@ Date: `2026-07-11`
 ## Files To Open
 
 - `10_automation/canva_template_registry.md`
+- `10_automation/runs/2026-W27/canva_autofill_status.md`
 - `10_automation/runs/2026-W27/canva_fill_guide.md`
 - `10_automation/runs/2026-W27/canva_asset_plan.md`
 - `10_automation/runs/2026-W27/post_drafts.md`
