@@ -1,31 +1,28 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W27`
-Stage: `needs_image_asset_selection`
+Stage: `canva_committed_ready_to_publish`
 
 ## Next Action
 
-Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.
+Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.
 
 ## Blocking Items
 
-- `2026-W27-002`
-- `2026-W27-003`
-- `2026-W27-004`
-- `2026-W27-005`
+- `2026-W27-001`
 
 ## Suggested Commands
 
 ```powershell
-open 10_automation\runs\2026-W27/image_generation_briefs.md
+open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit
 ```
 
 ```powershell
-python 10_automation/select_codex_assets.py --run-dir 10_automation\runs\2026-W27 --provider Codex --score-sheet 10_automation\runs\2026-W27/image_review_template.csv --drive-inventory path_to_image_inventory.csv
+open 10_automation\runs\2026-W27/post_drafts.md
 ```
 
 ```powershell
-python 10_automation/validate_weekly_run.py --run-dir 10_automation\runs\2026-W27 --min-rows 1 --require-assets
+open 10_automation\runs\2026-W27/publish_checklist.md
 ```
 
 ## Summary

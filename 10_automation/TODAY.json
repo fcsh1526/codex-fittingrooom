@@ -2,8 +2,8 @@
   "date": "2026-07-11",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W27",
-    "stage": "needs_image_asset_selection",
-    "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
+    "stage": "canva_committed_ready_to_publish",
+    "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
     "packet_rows": 5,
     "quality": "pass",
     "cover_assets": "1/5",
@@ -11,25 +11,23 @@
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The run is ready for Canva assembly and publishing.",
+  "decision": "The Canva layout has been committed and is ready for export / publishing.",
   "tasks": [
-    "Open the Canva panorama template and fill text from canva_fill_guide.md.",
-    "Place images according to canva_asset_plan.md.",
+    "Open the Canva design and review the committed carousel layout.",
+    "Export the 3 carousel slides if acceptable.",
     "Publish or schedule the post, then send the post URL."
   ],
   "user_inputs": [
-    "Final Canva URL",
     "Instagram post URL",
     "Publish time"
   ],
   "codex_actions": [
-    "Check caption, CTA, hashtags, and AI disclosure.",
     "Record post URL and create 6h / 24h metrics commands."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/canva_fill_guide.md",
     "10_automation/runs/{run}/canva_asset_plan.md",
-    "10_automation/runs/{run}/post_drafts.md"
+    "10_automation/runs/{run}/post_drafts.md",
+    "10_automation/runs/{run}/publish_checklist.md"
   ],
   "generated_files": [
     "10_automation/PUBLISH_QUEUE.md",
@@ -47,10 +45,10 @@
       "canva_template_key": "B",
       "canva_template_name": "Mira Template Master - B Symmetric",
       "canva_template_url": "https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit",
-      "canva_design_url": "",
+      "canva_design_url": "https://www.canva.com/d/tAwp3vxLV_4luYn",
       "trend_name": "薄紗/透視層次（Sheer Layering）",
       "content_bucket": "office_capsule",
-      "stage": "ready_for_canva_and_publish",
+      "stage": "canva_committed_ready_to_publish",
       "platform": "Instagram",
       "recommended_asset": "2026-W27-001_M01_candidate_A.png",
       "asset_url": "",
@@ -58,7 +56,7 @@
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Use Canva handoff files to finish the carousel and publish it.",
+      "next_action": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
       "run_dir": "10_automation\\runs\\2026-W27",
       "package_path": ""
     }
@@ -69,7 +67,7 @@
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "quality_gate_not_passed": 1,
-      "needs_image_asset_selection": 1
+      "canva_committed_ready_to_publish": 1
     },
     "runs": [
       {
@@ -96,8 +94,8 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W27",
-        "stage": "needs_image_asset_selection",
-        "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
+        "stage": "canva_committed_ready_to_publish",
+        "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
         "packet_rows": 5,
         "quality": "pass",
         "cover_assets": "1/5",

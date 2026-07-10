@@ -1,20 +1,19 @@
 {
   "run_dir": "10_automation\\runs\\2026-W27",
   "stage": {
-    "stage": "needs_image_asset_selection",
-    "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
+    "stage": "canva_committed_ready_to_publish",
+    "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
     "blocking_items": [
-      "2026-W27-002",
-      "2026-W27-003",
-      "2026-W27-004",
-      "2026-W27-005"
+      "2026-W27-001"
     ]
   },
   "packet": {
     "row_count": 5,
     "published_count": 0,
     "ready_for_canva_test": [],
-    "canva_committed_ready_to_publish": [],
+    "canva_committed_ready_to_publish": [
+      "2026-W27-001"
+    ],
     "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
@@ -29,7 +28,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 2412
+      "size": 2581
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -45,7 +44,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1374
+      "size": 1418
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -101,8 +100,8 @@
     "latest_next_action": ""
   },
   "commands": [
-    "open 10_automation\\runs\\2026-W27/image_generation_briefs.md",
-    "python 10_automation/select_codex_assets.py --run-dir 10_automation\\runs\\2026-W27 --provider Codex --score-sheet 10_automation\\runs\\2026-W27/image_review_template.csv --drive-inventory path_to_image_inventory.csv",
-    "python 10_automation/validate_weekly_run.py --run-dir 10_automation\\runs\\2026-W27 --min-rows 1 --require-assets"
+    "open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit",
+    "open 10_automation\\runs\\2026-W27/post_drafts.md",
+    "open 10_automation\\runs\\2026-W27/publish_checklist.md"
   ]
 }

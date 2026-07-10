@@ -1,21 +1,23 @@
 # Canva Autofill Status - 2026-W27-001
 
-Status: `draft_not_committed_pending_user_approval`
+Status: `committed_ready_for_export`
 
 ## Summary
 
 W27-001 was generated with model `M01`.
 
-The Canva master template was copied and draft-filled through the Canva connector. The draft is not saved to the final Canva design until the editing transaction is committed.
+The Canva master template was copied, draft-filled, approved by the user, and committed through the Canva connector.
 
 ## Canva Design
 
 - Source template: `B Mira Template Master - B Symmetric`
 - Source template design id: `DAHOxwp1cZ8`
 - Copied design id: `DAHPAt_SEI8`
-- Copied design edit URL: `https://www.canva.com/d/XkDvLDg0nyIp39c`
+- Copied design edit URL: `https://www.canva.com/d/tAwp3vxLV_4luYn`
+- Copied design view URL: `https://www.canva.com/d/0wd5ATNnV63X4NK`
 - Draft edit URL: `https://www.canva.com/d/MN290MYHylYCOEj`
 - Editing transaction id: `3460399499461290534`
+- Editing transaction status: `committed`
 
 ## Asset IDs
 
@@ -35,6 +37,4 @@ The Canva master template was copied and draft-filled through the Canva connecto
 
 ## Next Required Action
 
-Ask the user to approve the Canva preview. If approved, commit the Canva editing transaction. If rejected, cancel the transaction and revise the draft.
-
-Do not mark this Canva design as final until the transaction is committed.
+Open the committed Canva design, review the layout, use Canva's slicing/cutting workflow to export the three 1080 x 1350 carousel images, then publish or schedule the Instagram carousel.
