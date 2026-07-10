@@ -1,5 +1,5 @@
 carousel_id,prompt_id,cover_asset,cover_url,detail_asset,detail_url,texture_asset,texture_url,selection_status,notes
-2026-W27-001,W27-P001,2026-W27-001_M01_candidate_A.png,,,,2026-W27-001_M01_candidate_A.png,,selected,cover_score=23; detail_reuses_cover
+2026-W27-001,W27-P001,2026-W27-001_M01_candidate_A.png,,2026-W27-001_M01_candidate_C.png,,2026-W27-001_M01_candidate_B.png,,selected,cover=A score=23; motion_crop=B score=23; detail=C score=23
 2026-W27-002,W27-P002,,,,,,,needs_review,No publishable scored assets found for this prompt.
 2026-W27-003,W27-P003,,,,,,,needs_review,No publishable scored assets found for this prompt.
 2026-W27-004,W27-P004,,,,,,,needs_review,No publishable scored assets found for this prompt.

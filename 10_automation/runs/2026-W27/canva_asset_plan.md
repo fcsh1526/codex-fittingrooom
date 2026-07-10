@@ -7,10 +7,10 @@ Use this after Codex images are generated, uploaded if needed, and reviewed.
 - Status: `selected`
 - Cover: `2026-W27-001_M01_candidate_A.png`
 - Cover URL: n/a
-- Detail: `2026-W27-001_M01_candidate_A.png`
+- Detail: `2026-W27-001_M01_candidate_C.png`
 - Detail URL: n/a
-- Texture / crop: `2026-W27-001_M01_candidate_A.png`
-- Notes: cover_score=23; detail_reuses_cover
+- Texture / crop: `2026-W27-001_M01_candidate_B.png`
+- Notes: cover=A score=23; motion_crop=B score=23; detail=C score=23
 
 ## 2026-W27-002 / W27-P002
 

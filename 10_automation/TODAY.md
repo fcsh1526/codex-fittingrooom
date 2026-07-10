@@ -1,6 +1,6 @@
 # Mira Daily Brief
 
-Date: `2026-07-10`
+Date: `2026-07-11`
 Priority run: `2026-W27`
 Stage: `ready_for_canva_and_publish`
 

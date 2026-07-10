@@ -130,6 +130,14 @@ def asset_file_name(row):
     return clean(row.get("file_name")) or clean(row.get("candidate_file"))
 
 
+def candidate_label(row):
+    stem = Path(asset_file_name(row)).stem.lower()
+    for label in ["a", "b", "c"]:
+        if stem.endswith(f"_candidate_{label}") or stem.endswith(f"-candidate-{label}"):
+            return label.upper()
+    return ""
+
+
 def drive_lookup(rows):
     lookup = {}
     for row in rows:
@@ -168,10 +176,6 @@ def build_selection(packet, score_rows, drive_rows):
             "notes": "No publishable scored assets found for this prompt.",
         }
 
-    cover = candidates[0]
-    detail = candidates[1] if len(candidates) > 1 else None
-    texture = detail or cover
-
     def file_name(row):
         return asset_file_name(row) if row else ""
 
@@ -180,6 +184,53 @@ def build_selection(packet, score_rows, drive_rows):
             return ""
         asset = drive_rows.get(file_name(row), {})
         return asset.get("drive_url") or asset.get("file_path") or ""
+
+    labeled = {}
+    for row in candidates:
+        label = candidate_label(row)
+        if label and label not in labeled:
+            labeled[label] = row
+
+    if labeled:
+        missing = [label for label in ["A", "B", "C"] if label not in labeled]
+        if missing:
+            return {
+                "carousel_id": carousel_id,
+                "prompt_id": prompt_id,
+                "cover_asset": "",
+                "cover_url": "",
+                "detail_asset": "",
+                "detail_url": "",
+                "texture_asset": "",
+                "texture_url": "",
+                "selection_status": "needs_review",
+                "notes": f"Three publishable A/B/C assets required; missing {', '.join(missing)}.",
+            }
+
+        cover = labeled["A"]
+        texture = labeled["B"]
+        detail = labeled["C"]
+        notes = [
+            f"cover=A score={score_row(cover)}",
+            f"motion_crop=B score={score_row(texture)}",
+            f"detail=C score={score_row(detail)}",
+        ]
+        return {
+            "carousel_id": carousel_id,
+            "prompt_id": prompt_id,
+            "cover_asset": file_name(cover),
+            "cover_url": url_for(cover),
+            "detail_asset": file_name(detail),
+            "detail_url": url_for(detail),
+            "texture_asset": file_name(texture),
+            "texture_url": url_for(texture),
+            "selection_status": "selected",
+            "notes": "; ".join(notes),
+        }
+
+    cover = candidates[0]
+    detail = candidates[1] if len(candidates) > 1 else None
+    texture = detail or cover
 
     notes = []
     notes.append(f"cover_score={score_row(cover)}")

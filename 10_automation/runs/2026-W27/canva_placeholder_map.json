@@ -22,9 +22,9 @@
         "slide_range": "2",
         "asset_type": "crop / quiet design slide",
         "purpose": "minimal transition slide with one short line",
-        "recommended_file": "2026-W27-001_M01_candidate_A.png",
+        "recommended_file": "2026-W27-001_M01_candidate_B.png",
         "status": "selected_from_crop",
-        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence.; selected_file=2026-W27-001_M01_candidate_A.png"
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence.; selected_file=2026-W27-001_M01_candidate_B.png"
       },
       {
         "carousel_id": "2026-W27-001",
@@ -32,9 +32,9 @@
         "slide_range": "3",
         "asset_type": "image",
         "purpose": "second lifestyle image or reused hero crop",
-        "recommended_file": "2026-W27-001_M01_candidate_A.png",
+        "recommended_file": "2026-W27-001_M01_candidate_C.png",
         "status": "selected",
-        "notes": "Use a second image when available. If not, use a different crop of the hero image.; selected_file=2026-W27-001_M01_candidate_A.png"
+        "notes": "Use a second image when available. If not, use a different crop of the hero image.; selected_file=2026-W27-001_M01_candidate_C.png"
       }
     ],
     "design_contract": {

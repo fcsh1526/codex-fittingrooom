@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W27",
     "stage": "needs_image_asset_selection",
