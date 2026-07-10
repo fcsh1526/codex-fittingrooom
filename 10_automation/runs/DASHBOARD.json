@@ -4,7 +4,7 @@
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "quality_gate_not_passed": 1,
-    "canva_committed_ready_to_publish": 1
+    "published_waiting_for_metrics": 1
   },
   "runs": [
     {
@@ -31,12 +31,12 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W27",
-      "stage": "canva_committed_ready_to_publish",
-      "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+      "stage": "published_waiting_for_metrics",
+      "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "1/5",
-      "published": false,
+      "published": true,
       "metric_checkpoints": 0,
       "latest_decision": ""
     }

@@ -1,0 +1,21 @@
+{
+  "latest_publish": {
+    "record_date": "2026-07-11",
+    "week_id": "2026-W27",
+    "carousel_id": "2026-W27-001",
+    "platform": "Instagram",
+    "format": "Carousel",
+    "post_url": "https://www.instagram.com/p/DaoA2C_Ezna/?img_index=2&igsh=eW94cmV0c3ZxZGpt",
+    "published_at": "2026/07/11 04:08",
+    "content_bucket": "office_capsule",
+    "prompt_id": "W27-P001",
+    "run_dir": "10_automation\\runs\\2026-W27",
+    "drive_folder_url": "",
+    "canva_design_url": "https://www.canva.com/d/tAwp3vxLV_4luYn",
+    "product_links_used": "no",
+    "cta": "",
+    "status": "published",
+    "notes": "Published by user after Canva committed export."
+  },
+  "latest_metric": {}
+}

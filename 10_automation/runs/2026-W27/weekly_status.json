@@ -1,19 +1,15 @@
 {
   "run_dir": "10_automation\\runs\\2026-W27",
   "stage": {
-    "stage": "canva_committed_ready_to_publish",
-    "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
-    "blocking_items": [
-      "2026-W27-001"
-    ]
+    "stage": "published_waiting_for_metrics",
+    "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
+    "blocking_items": []
   },
   "packet": {
     "row_count": 5,
-    "published_count": 0,
+    "published_count": 1,
     "ready_for_canva_test": [],
-    "canva_committed_ready_to_publish": [
-      "2026-W27-001"
-    ],
+    "canva_committed_ready_to_publish": [],
     "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
@@ -28,7 +24,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 2581
+      "size": 2593
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -44,7 +40,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1418
+      "size": 1456
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -92,16 +88,31 @@
     "selection_rows": 5
   },
   "publish": {
-    "published": false,
+    "published": true,
     "metric_count": 0,
-    "latest_publish": {},
+    "latest_publish": {
+      "record_date": "2026-07-11",
+      "week_id": "2026-W27",
+      "carousel_id": "2026-W27-001",
+      "platform": "Instagram",
+      "format": "Carousel",
+      "post_url": "https://www.instagram.com/p/DaoA2C_Ezna/?img_index=2&igsh=eW94cmV0c3ZxZGpt",
+      "published_at": "2026/07/11 04:08",
+      "content_bucket": "office_capsule",
+      "prompt_id": "W27-P001",
+      "run_dir": "10_automation\\runs\\2026-W27",
+      "drive_folder_url": "",
+      "canva_design_url": "https://www.canva.com/d/tAwp3vxLV_4luYn",
+      "product_links_used": "no",
+      "cta": "",
+      "status": "published",
+      "notes": "Published by user after Canva committed export."
+    },
     "latest_metric": {},
     "latest_decision": "",
     "latest_next_action": ""
   },
   "commands": [
-    "open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit",
-    "open 10_automation\\runs\\2026-W27/post_drafts.md",
-    "open 10_automation\\runs\\2026-W27/publish_checklist.md"
+    "python 10_automation/record_post_metrics.py --run-dir 10_automation\\runs\\2026-W27 --record-metrics --hours-after-publish 24 --reach 0 --likes 0 --saves 0 --comments 0 --shares 0 --post-url POST_URL"
   ]
 }

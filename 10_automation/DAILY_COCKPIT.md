@@ -4,41 +4,44 @@ Date: `2026-07-11`
 
 ## Today, Do This First
 
-- Item: `2026-W27-001`
+- Item: `2026-W27-002`
 - Type: `carousel`
-- Model: `M01`
+- Model: `M02`
 - Canva template: `B` Mira Template Master - B Symmetric
 - Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
-- Canva design URL: https://www.canva.com/d/tAwp3vxLV_4luYn
-- Stage: `canva_committed_ready_to_publish`
-- Asset: `2026-W27-001_M01_candidate_A.png`
-- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
+- Canva design URL: n/a
+- Stage: `needs_image_asset_selection`
+- Asset: `n/a`
+- Next action: Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
 
 ## Checklist
 
-- [ ] Open the Canva panorama design and review the committed layout.
-- [ ] Export the 3 carousel slides if the layout looks acceptable.
-- [ ] Publish or schedule the Instagram carousel.
-- [ ] Send Codex the post URL, publish time, and any immediate notes.
+- [ ] Open the Codex generation handoff for today's internal model and outfit.
+- [ ] Generate image candidates inside the Codex workspace.
+- [ ] Save candidates under generated_images.
+- [ ] Review and score the candidates in image_review_template.csv.
+- [ ] Run asset selection and validation.
 
 ## Files To Open
 
-- `10_automation/canva_template_registry.md`
-- `10_automation/runs/2026-W27/canva_autofill_status.md`
-- `10_automation/runs/2026-W27/canva_fill_guide.md`
-- `10_automation/runs/2026-W27/canva_asset_plan.md`
-- `10_automation/runs/2026-W27/post_drafts.md`
-- `10_automation/runs/2026-W27/publish_checklist.md`
+- `10_automation/runs/2026-W27/generated_images/2026-W27-002/codex_generation_handoff.md`
+- `10_automation/runs/2026-W27/generated_images/2026-W27-002/candidate_prompts.md`
+- `10_automation/runs/2026-W27/generated_images/2026-W27-002/review_sheet.csv`
+- `10_automation/runs/2026-W27/daily_queue.csv`
+- `10_automation/runs/2026-W27/image_generation_briefs.md`
+- `10_automation/runs/2026-W27/image_review_template.csv`
+- `10_automation/runs/2026-W27/generated_images`
+- `10_automation/runs/2026-W27/canva_asset_slots.csv`
 
 ## Reply Template For Codex
 
 ```text
 今日回報：
-item = 2026-W27-001
+item = 2026-W27-002
 type = carousel
 status = 
-model = M01
-Canva URL = https://www.canva.com/d/tAwp3vxLV_4luYn
+model = M02
+Canva URL = 
 IG URL = 
 published at = 
 6h metrics = reach / likes / saves / comments / shares

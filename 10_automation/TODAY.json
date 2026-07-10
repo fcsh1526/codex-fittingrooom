@@ -2,32 +2,34 @@
   "date": "2026-07-11",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W27",
-    "stage": "canva_committed_ready_to_publish",
-    "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+    "stage": "published_waiting_for_metrics",
+    "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
     "packet_rows": 5,
     "quality": "pass",
     "cover_assets": "1/5",
-    "published": false,
+    "published": true,
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The Canva layout has been committed and is ready for export / publishing.",
+  "decision": "The next bottleneck is Codex workspace image generation, review, and asset selection.",
   "tasks": [
-    "Open the Canva design and review the committed carousel layout.",
-    "Export the 3 carousel slides if acceptable.",
-    "Publish or schedule the post, then send the post URL."
+    "Open daily_queue.csv and image_generation_briefs.md.",
+    "Generate image candidates inside the Codex workspace for the assigned internal model.",
+    "Review and score the generated image candidates in image_review_template.csv."
   ],
   "user_inputs": [
-    "Instagram post URL",
-    "Publish time"
+    "Optional candidate image notes if manual review is needed."
   ],
   "codex_actions": [
-    "Record post URL and create 6h / 24h metrics commands."
+    "Create or update image review inventory.",
+    "Select cover/detail assets and update canva_asset_slots.csv.",
+    "Validate with --require-assets before Canva work."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/canva_asset_plan.md",
-    "10_automation/runs/{run}/post_drafts.md",
-    "10_automation/runs/{run}/publish_checklist.md"
+    "10_automation/runs/{run}/daily_queue.csv",
+    "10_automation/runs/{run}/image_generation_briefs.md",
+    "10_automation/runs/{run}/image_review_template.csv",
+    "10_automation/select_codex_assets.py"
   ],
   "generated_files": [
     "10_automation/PUBLISH_QUEUE.md",
@@ -39,26 +41,26 @@
     "top_item": {
       "item_type": "carousel",
       "week_id": "2026-W27",
-      "carousel_id": "2026-W27-001",
-      "prompt_id": "W27-P001",
-      "model_profile_id": "M01",
+      "carousel_id": "2026-W27-002",
+      "prompt_id": "W27-P002",
+      "model_profile_id": "M02",
       "canva_template_key": "B",
       "canva_template_name": "Mira Template Master - B Symmetric",
       "canva_template_url": "https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit",
-      "canva_design_url": "https://www.canva.com/d/tAwp3vxLV_4luYn",
-      "trend_name": "薄紗/透視層次（Sheer Layering）",
-      "content_bucket": "office_capsule",
-      "stage": "canva_committed_ready_to_publish",
+      "canva_design_url": "",
+      "trend_name": "卡普里褲回歸（Capri Pants）",
+      "content_bucket": "weekend_daily",
+      "stage": "needs_image_asset_selection",
       "platform": "Instagram",
-      "recommended_asset": "2026-W27-001_M01_candidate_A.png",
+      "recommended_asset": "",
       "asset_url": "",
       "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
+      "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
       "run_dir": "10_automation\\runs\\2026-W27",
-      "package_path": ""
+      "package_path": "10_automation\\runs\\2026-W27\\generated_images\\2026-W27-002\\codex_generation_handoff.md"
     }
   },
   "dashboard": {
@@ -67,7 +69,7 @@
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "quality_gate_not_passed": 1,
-      "canva_committed_ready_to_publish": 1
+      "published_waiting_for_metrics": 1
     },
     "runs": [
       {
@@ -94,12 +96,12 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W27",
-        "stage": "canva_committed_ready_to_publish",
-        "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+        "stage": "published_waiting_for_metrics",
+        "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
         "packet_rows": 5,
         "quality": "pass",
         "cover_assets": "1/5",
-        "published": false,
+        "published": true,
         "metric_checkpoints": 0,
         "latest_decision": ""
       }
