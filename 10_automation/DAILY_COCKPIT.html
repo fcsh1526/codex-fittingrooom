@@ -144,28 +144,28 @@
     <header>
       <h1>Mira Daily Cockpit</h1>
       <div class="meta">
-        <span class="pill">Date: 2026-07-09</span>
+        <span class="pill">Date: 2026-07-10</span>
         <span class="pill">Production-first: zero reach does not block carousel production.</span>
-        <span class="pill">Top stage: needs_image_asset_selection</span>
+        <span class="pill">Top stage: ready_for_canva_and_publish</span>
       </div>
     </header>
 
     <section class="card hero">
       <h2>Today, Do This First</h2>
       <p class="big">2026-W27-001</p>
-      <p><strong>Type:</strong> carousel / <strong>Model:</strong> M01 / <strong>Stage:</strong> needs_image_asset_selection</p>
+      <p><strong>Type:</strong> carousel / <strong>Model:</strong> M01 / <strong>Stage:</strong> ready_for_canva_and_publish</p>
       <p><strong>Canva template:</strong> B Mira Template Master - B Symmetric</p>
       <p><strong>Canva design URL:</strong> n/a</p>
       <p><strong>Canva template URL:</strong> <a href="https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit">https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit</a></p>
-      <p><strong>Asset:</strong> n/a</p>
-      <p><strong>Next action:</strong> Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</p>
+      <p><strong>Asset:</strong> 2026-W27-001_M01_candidate_A.png</p>
+      <p><strong>Next action:</strong> Use Canva handoff files to finish the carousel and publish it.</p>
       
     </section>
 
     <div class="grid">
       <div>
-        <section class="card"><h2>Checklist</h2><label class="check"><input type="checkbox" data-check="0"><span>Open the Codex generation handoff for today&#x27;s internal model and outfit.</span></label><label class="check"><input type="checkbox" data-check="1"><span>Generate image candidates inside the Codex workspace.</span></label><label class="check"><input type="checkbox" data-check="2"><span>Save candidates under generated_images.</span></label><label class="check"><input type="checkbox" data-check="3"><span>Review and score the candidates in image_review_template.csv.</span></label><label class="check"><input type="checkbox" data-check="4"><span>Run asset selection and validation.</span></label></section>
-        <section class="card"><h2>Files To Open</h2><ul><li><a href="runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md">codex_generation_handoff.md</a></li><li><a href="runs/2026-W27/generated_images/2026-W27-001/candidate_prompts.md">candidate_prompts.md</a></li><li><a href="runs/2026-W27/generated_images/2026-W27-001/review_sheet.csv">review_sheet.csv</a></li><li><a href="runs/2026-W27/daily_queue.csv">daily_queue.csv</a></li><li><a href="runs/2026-W27/image_generation_briefs.md">image_generation_briefs.md</a></li><li><a href="runs/2026-W27/image_review_template.csv">image_review_template.csv</a></li><li><a href="runs/2026-W27/generated_images">generated_images</a></li><li><a href="runs/2026-W27/canva_asset_slots.csv">canva_asset_slots.csv</a></li></ul></section>
+        <section class="card"><h2>Checklist</h2><label class="check"><input type="checkbox" data-check="0"><span>Open the Canva panorama design.</span></label><label class="check"><input type="checkbox" data-check="1"><span>Use canva_fill_guide.md to fill the slide text.</span></label><label class="check"><input type="checkbox" data-check="2"><span>Place the recommended asset and detail image from canva_asset_plan.md.</span></label><label class="check"><input type="checkbox" data-check="3"><span>Export the 3 carousel slides or finish the Canva design.</span></label><label class="check"><input type="checkbox" data-check="4"><span>Publish or schedule the Instagram carousel.</span></label><label class="check"><input type="checkbox" data-check="5"><span>Send Codex the post URL, publish time, and any immediate notes.</span></label></section>
+        <section class="card"><h2>Files To Open</h2><ul><li><a href="canva_template_registry.md">canva_template_registry.md</a></li><li><a href="runs/2026-W27/canva_fill_guide.md">canva_fill_guide.md</a></li><li><a href="runs/2026-W27/canva_asset_plan.md">canva_asset_plan.md</a></li><li><a href="runs/2026-W27/post_drafts.md">post_drafts.md</a></li><li><a href="runs/2026-W27/publish_checklist.md">publish_checklist.md</a></li></ul></section>
         <section class="card"><h2>Reply Template For Codex</h2><pre id='reply'>今日回報：
 item = 2026-W27-001
 type = carousel
@@ -179,14 +179,14 @@ published at =
 stuck = </pre><button class='button secondary' onclick='copyReply()'>Copy Reply Template</button></section>
       </div>
       <div>
-        <section class="card"><h2>Refresh Command</h2><pre>powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-07-09</pre></section>
-        <section class="card"><h2>Queue Preview</h2><table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Template</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody><tr><td>carousel</td><td>2026-W27-001</td><td>M01</td><td>B Mira Template Master - B Symmetric</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr><tr><td>carousel</td><td>2026-W27-002</td><td>M02</td><td>B Mira Template Master - B Symmetric</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr><tr><td>carousel</td><td>2026-W27-003</td><td>M03</td><td>A Mira Template Master - A Contact Sheet</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr><tr><td>carousel</td><td>2026-W27-004</td><td>M04</td><td>B Mira Template Master - B Symmetric</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr><tr><td>carousel</td><td>2026-W27-005</td><td>M01</td><td>E Mira Template Master - E Weekend Air</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr></tbody></table></section>
+        <section class="card"><h2>Refresh Command</h2><pre>powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-07-10</pre></section>
+        <section class="card"><h2>Queue Preview</h2><table><thead><tr><th>Type</th><th>ID</th><th>Model</th><th>Template</th><th>Stage</th><th>Asset</th><th>Next</th></tr></thead><tbody><tr><td>carousel</td><td>2026-W27-001</td><td>M01</td><td>B Mira Template Master - B Symmetric</td><td>ready_for_canva_and_publish</td><td>2026-W27-001_M01_candidate_A.png</td><td>Use Canva handoff files to finish the carousel and publish it.</td></tr><tr><td>carousel</td><td>2026-W27-002</td><td>M02</td><td>B Mira Template Master - B Symmetric</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr><tr><td>carousel</td><td>2026-W27-003</td><td>M03</td><td>A Mira Template Master - A Contact Sheet</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr><tr><td>carousel</td><td>2026-W27-004</td><td>M04</td><td>B Mira Template Master - B Symmetric</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr><tr><td>carousel</td><td>2026-W27-005</td><td>M01</td><td>E Mira Template Master - E Weekend Air</td><td>needs_image_asset_selection</td><td></td><td>Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.</td></tr></tbody></table></section>
         <section class="card"><h2>Reference</h2><p><a href="DAILY_COCKPIT.md">DAILY_COCKPIT.md</a></p><p><a href="TODAY.md">TODAY.md</a></p><p><a href="PUBLISH_QUEUE.md">PUBLISH_QUEUE.md</a></p></section>
       </div>
     </div>
   </main>
   <script>
-    const storageKey = "mika-cockpit-2026-07-09-2026-W27-001";
+    const storageKey = "mika-cockpit-2026-07-10-2026-W27-001";
     const boxes = Array.from(document.querySelectorAll('input[type="checkbox"][data-check]'));
     const saved = JSON.parse(localStorage.getItem(storageKey) || '{}');
     boxes.forEach(box => {

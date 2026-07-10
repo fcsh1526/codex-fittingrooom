@@ -4,7 +4,6 @@
     "stage": "needs_image_asset_selection",
     "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
     "blocking_items": [
-      "2026-W27-001",
       "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
@@ -42,11 +41,11 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 2702
+      "size": 2954
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1339
+      "size": 1374
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -78,16 +77,14 @@
     "carousel_count": 5,
     "selection_exists": true,
     "review_template_exists": true,
-    "selected_cover_count": 0,
+    "selected_cover_count": 1,
     "missing_cover": [
-      "2026-W27-001",
       "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
       "2026-W27-005"
     ],
     "missing_detail": [
-      "2026-W27-001",
       "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",

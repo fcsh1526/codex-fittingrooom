@@ -9,7 +9,6 @@ Fill the image review template after reviewing Codex outputs, then rerun select_
 
 ## Blocking Items
 
-- `2026-W27-001`
 - `2026-W27-002`
 - `2026-W27-003`
 - `2026-W27-004`
@@ -33,6 +32,6 @@ python 10_automation/validate_weekly_run.py --run-dir 10_automation\runs\2026-W2
 
 - Packet rows: `5`
 - Quality: `pass`
-- Cover assets selected: `0` / `5`
+- Cover assets selected: `1` / `5`
 - Published: `False`
 - Metric checkpoints: `0`

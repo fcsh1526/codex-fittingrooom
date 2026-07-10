@@ -1,5 +1,5 @@
 {
-  "runs_dir": "10_automation\\runs",
+  "runs_dir": "10_automation/runs",
   "item_count": 7,
   "top_item": {
     "item_type": "carousel",
@@ -13,17 +13,17 @@
     "canva_design_url": "",
     "trend_name": "薄紗/透視層次（Sheer Layering）",
     "content_bucket": "office_capsule",
-    "stage": "needs_image_asset_selection",
+    "stage": "ready_for_canva_and_publish",
     "platform": "Instagram",
-    "recommended_asset": "",
+    "recommended_asset": "2026-W27-001_M01_candidate_A.png",
     "asset_url": "",
     "post_url": "",
     "published_at": "",
     "latest_reach": "",
     "latest_decision": "",
-    "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
+    "next_action": "Use Canva handoff files to finish the carousel and publish it.",
     "run_dir": "10_automation\\runs\\2026-W27",
-    "package_path": "10_automation\\runs\\2026-W27\\generated_images\\2026-W27-001\\codex_generation_handoff.md"
+    "package_path": ""
   },
   "items": [
     {
@@ -38,17 +38,17 @@
       "canva_design_url": "",
       "trend_name": "薄紗/透視層次（Sheer Layering）",
       "content_bucket": "office_capsule",
-      "stage": "needs_image_asset_selection",
+      "stage": "ready_for_canva_and_publish",
       "platform": "Instagram",
-      "recommended_asset": "",
+      "recommended_asset": "2026-W27-001_M01_candidate_A.png",
       "asset_url": "",
       "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
+      "next_action": "Use Canva handoff files to finish the carousel and publish it.",
       "run_dir": "10_automation\\runs\\2026-W27",
-      "package_path": "10_automation\\runs\\2026-W27\\generated_images\\2026-W27-001\\codex_generation_handoff.md"
+      "package_path": ""
     },
     {
       "item_type": "carousel",

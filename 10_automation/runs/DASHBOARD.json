@@ -35,7 +35,7 @@
       "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
       "packet_rows": 5,
       "quality": "pass",
-      "cover_assets": "0/5",
+      "cover_assets": "1/5",
       "published": false,
       "metric_checkpoints": 0,
       "latest_decision": ""

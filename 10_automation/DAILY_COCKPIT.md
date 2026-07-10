@@ -1,6 +1,6 @@
 # Mira Daily Cockpit
 
-Date: `2026-07-09`
+Date: `2026-07-10`
 
 ## Today, Do This First
 
@@ -10,28 +10,26 @@ Date: `2026-07-09`
 - Canva template: `B` Mira Template Master - B Symmetric
 - Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
 - Canva design URL: n/a
-- Stage: `needs_image_asset_selection`
-- Asset: `n/a`
-- Next action: Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
+- Stage: `ready_for_canva_and_publish`
+- Asset: `2026-W27-001_M01_candidate_A.png`
+- Next action: Use Canva handoff files to finish the carousel and publish it.
 
 ## Checklist
 
-- [ ] Open the Codex generation handoff for today's internal model and outfit.
-- [ ] Generate image candidates inside the Codex workspace.
-- [ ] Save candidates under generated_images.
-- [ ] Review and score the candidates in image_review_template.csv.
-- [ ] Run asset selection and validation.
+- [ ] Open the Canva panorama design.
+- [ ] Use canva_fill_guide.md to fill the slide text.
+- [ ] Place the recommended asset and detail image from canva_asset_plan.md.
+- [ ] Export the 3 carousel slides or finish the Canva design.
+- [ ] Publish or schedule the Instagram carousel.
+- [ ] Send Codex the post URL, publish time, and any immediate notes.
 
 ## Files To Open
 
-- `10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md`
-- `10_automation/runs/2026-W27/generated_images/2026-W27-001/candidate_prompts.md`
-- `10_automation/runs/2026-W27/generated_images/2026-W27-001/review_sheet.csv`
-- `10_automation/runs/2026-W27/daily_queue.csv`
-- `10_automation/runs/2026-W27/image_generation_briefs.md`
-- `10_automation/runs/2026-W27/image_review_template.csv`
-- `10_automation/runs/2026-W27/generated_images`
-- `10_automation/runs/2026-W27/canva_asset_slots.csv`
+- `10_automation/canva_template_registry.md`
+- `10_automation/runs/2026-W27/canva_fill_guide.md`
+- `10_automation/runs/2026-W27/canva_asset_plan.md`
+- `10_automation/runs/2026-W27/post_drafts.md`
+- `10_automation/runs/2026-W27/publish_checklist.md`
 
 ## Reply Template For Codex
 

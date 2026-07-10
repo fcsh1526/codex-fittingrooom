@@ -12,9 +12,9 @@
         "slide_range": "1",
         "asset_type": "image",
         "purpose": "strongest lifestyle full-body image; visual hook",
-        "recommended_file": "",
-        "status": "needed",
-        "notes": "Make the person and outfit dominant. Keep text off the image."
+        "recommended_file": "2026-W27-001_M01_candidate_A.png",
+        "status": "selected",
+        "notes": "Make the person and outfit dominant. Keep text off the image.; selected_file=2026-W27-001_M01_candidate_A.png"
       },
       {
         "carousel_id": "2026-W27-001",
@@ -22,9 +22,9 @@
         "slide_range": "2",
         "asset_type": "crop / quiet design slide",
         "purpose": "minimal transition slide with one short line",
-        "recommended_file": "",
-        "status": "optional",
-        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence."
+        "recommended_file": "2026-W27-001_M01_candidate_A.png",
+        "status": "selected_from_crop",
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence.; selected_file=2026-W27-001_M01_candidate_A.png"
       },
       {
         "carousel_id": "2026-W27-001",
@@ -32,9 +32,9 @@
         "slide_range": "3",
         "asset_type": "image",
         "purpose": "second lifestyle image or reused hero crop",
-        "recommended_file": "",
-        "status": "optional",
-        "notes": "Use a second image when available. If not, use a different crop of the hero image."
+        "recommended_file": "2026-W27-001_M01_candidate_A.png",
+        "status": "selected",
+        "notes": "Use a second image when available. If not, use a different crop of the hero image.; selected_file=2026-W27-001_M01_candidate_A.png"
       }
     ],
     "design_contract": {

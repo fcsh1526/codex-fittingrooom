@@ -1,6 +1,6 @@
 carousel_id,prompt_id,cover_asset,cover_url,detail_asset,detail_url,texture_asset,texture_url,selection_status,notes
-2026-W27-001,W27-P001,,,,,,,needs_scoring,Fill codex_asset_review_template.csv after reviewing Codex outputs.
-2026-W27-002,W27-P002,,,,,,,needs_scoring,Fill codex_asset_review_template.csv after reviewing Codex outputs.
-2026-W27-003,W27-P003,,,,,,,needs_scoring,Fill codex_asset_review_template.csv after reviewing Codex outputs.
-2026-W27-004,W27-P004,,,,,,,needs_scoring,Fill codex_asset_review_template.csv after reviewing Codex outputs.
-2026-W27-005,W27-P005,,,,,,,needs_scoring,Fill codex_asset_review_template.csv after reviewing Codex outputs.
+2026-W27-001,W27-P001,2026-W27-001_M01_candidate_A.png,,,,2026-W27-001_M01_candidate_A.png,,selected,cover_score=23; detail_reuses_cover
+2026-W27-002,W27-P002,,,,,,,needs_review,No publishable scored assets found for this prompt.
+2026-W27-003,W27-P003,,,,,,,needs_review,No publishable scored assets found for this prompt.
+2026-W27-004,W27-P004,,,,,,,needs_review,No publishable scored assets found for this prompt.
+2026-W27-005,W27-P005,,,,,,,needs_review,No publishable scored assets found for this prompt.
