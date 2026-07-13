@@ -2,8 +2,8 @@
   "date": "2026-07-13",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W27",
-    "stage": "ready_for_canva_test",
-    "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
+    "stage": "canva_committed_ready_to_publish",
+    "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
     "packet_rows": 5,
     "quality": "pass",
     "cover_assets": "5/5",
@@ -11,26 +11,23 @@
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The v2 image candidates are selected and the next step is Canva test-fill, not publishing.",
+  "decision": "The Canva layout has been committed and is ready for export / publishing.",
   "tasks": [
-    "Open the approved Mira Canva v2 template.",
-    "Duplicate a registered Mira Canva master, then fill cover_image with A_v2, motion_crop with B_v2, and detail_image with C_v2.",
-    "Replace slide2_line with the approved short line.",
-    "Review the Canva preview for head crop, feet crop, face clarity, and cross-slide composition before committing."
+    "Open the Canva design and review the committed carousel layout.",
+    "Export the 3 carousel slides if acceptable.",
+    "Publish or schedule the post, then send the post URL."
   ],
   "user_inputs": [
-    "Canva test-fill preview",
-    "Decision to commit or adjust crops"
+    "Instagram post URL",
+    "Publish time"
   ],
   "codex_actions": [
-    "Use Canva connector autofill labels or manual fill guide.",
-    "Show the Canva preview before any commit.",
-    "Keep publish_status as not_published until the user approves the layout."
+    "Record post URL and create 6h / 24h metrics commands."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/canva_fill_guide.md",
     "10_automation/runs/{run}/canva_asset_plan.md",
-    "10_automation/runs/{run}/canva_asset_slots.csv"
+    "10_automation/runs/{run}/post_drafts.md",
+    "10_automation/runs/{run}/publish_checklist.md"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -42,24 +39,24 @@
     "top_item": {
       "item_type": "carousel",
       "week_id": "2026-W27",
-      "carousel_id": "2026-W27-003",
-      "prompt_id": "W27-P003",
-      "model_profile_id": "M03",
-      "canva_template_key": "A",
-      "canva_template_name": "Mira Template Master - A Contact Sheet",
-      "canva_template_url": "https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit",
-      "canva_design_url": "",
-      "trend_name": "Fisherman 涼鞋續熱（Fisherman Sandals）",
-      "content_bucket": "daily_style",
-      "stage": "ready_for_canva_test",
+      "carousel_id": "2026-W27-002",
+      "prompt_id": "W27-P002",
+      "model_profile_id": "M02",
+      "canva_template_key": "B",
+      "canva_template_name": "Mira Template Master - B Symmetric",
+      "canva_template_url": "https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit",
+      "canva_design_url": "https://www.canva.com/d/E0q_4eUbeTyT71W",
+      "trend_name": "卡普里褲回歸（Capri Pants）",
+      "content_bucket": "weekend_daily",
+      "stage": "canva_committed_ready_to_publish",
       "platform": "Instagram",
-      "recommended_asset": "2026-W27-003_M03_v2_candidate_A.png",
+      "recommended_asset": "2026-W27-002_M02_v2_candidate_A.png",
       "asset_url": "",
       "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.",
+      "next_action": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
       "run_dir": "10_automation\\runs\\2026-W27",
       "package_path": ""
     }
@@ -70,7 +67,7 @@
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "archived": 1,
-      "ready_for_canva_test": 1
+      "canva_committed_ready_to_publish": 1
     },
     "runs": [
       {
@@ -97,8 +94,8 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W27",
-        "stage": "ready_for_canva_test",
-        "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
+        "stage": "canva_committed_ready_to_publish",
+        "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
         "packet_rows": 5,
         "quality": "pass",
         "cover_assets": "5/5",

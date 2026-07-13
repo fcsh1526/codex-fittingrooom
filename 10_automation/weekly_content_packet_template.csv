@@ -1,2 +1,2 @@
-week_id,carousel_id,market,creator_name,model_profile_id,trend_name,content_bucket,audience,occasion,prompt_id,clothing_item,color_palette,fabric,fit,styling_rules,scene,cover_asset,detail_asset,drive_folder_url,canva_design_url,ig_post_url,status,next_action
+week_id,carousel_id,market,creator_name,model_profile_id,trend_name,content_bucket,audience,occasion,prompt_id,clothing_item,color_palette,fabric,fit,styling_rules,scene,cover_asset,detail_asset,drive_folder_url,canva_design_url,ig_post_url,status,next_action,canva_template_key
 2026-WXX,YYYY-WXX-001,Taiwan Traditional Chinese,Mira,M01,,,,,,,,,,,,,,,,,draft,Fill from Perplexity weekly report

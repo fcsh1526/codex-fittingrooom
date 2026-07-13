@@ -2,35 +2,32 @@
 
 Date: `2026-07-13`
 Priority run: `2026-W27`
-Stage: `ready_for_canva_test`
+Stage: `canva_committed_ready_to_publish`
 
 ## Decision
 
-The v2 image candidates are selected and the next step is Canva test-fill, not publishing.
+The Canva layout has been committed and is ready for export / publishing.
 
 ## Today Only
 
-1. Open the approved Mira Canva v2 template.
-2. Duplicate a registered Mira Canva master, then fill cover_image with A_v2, motion_crop with B_v2, and detail_image with C_v2.
-3. Replace slide2_line with the approved short line.
-4. Review the Canva preview for head crop, feet crop, face clarity, and cross-slide composition before committing.
+1. Open the Canva design and review the committed carousel layout.
+2. Export the 3 carousel slides if acceptable.
+3. Publish or schedule the post, then send the post URL.
 
 ## User Should Provide
 
-- Canva test-fill preview
-- Decision to commit or adjust crops
+- Instagram post URL
+- Publish time
 
 ## Codex Can Do Next
 
-- Use Canva connector autofill labels or manual fill guide.
-- Show the Canva preview before any commit.
-- Keep publish_status as not_published until the user approves the layout.
+- Record post URL and create 6h / 24h metrics commands.
 
 ## Useful Files
 
-- `10_automation/runs/2026-W27/canva_fill_guide.md`
 - `10_automation/runs/2026-W27/canva_asset_plan.md`
-- `10_automation/runs/2026-W27/canva_asset_slots.csv`
+- `10_automation/runs/2026-W27/post_drafts.md`
+- `10_automation/runs/2026-W27/publish_checklist.md`
 
 ## Generated Files
 
@@ -41,19 +38,19 @@ The v2 image candidates are selected and the next step is Canva test-fill, not p
 ## Publish Queue Top Item
 
 - Type: `carousel`
-- ID: `2026-W27-003`
-- Model: `M03`
-- Canva template: `A` Mira Template Master - A Contact Sheet
-- Canva template URL: https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
-- Canva design URL: n/a
-- Stage: `ready_for_canva_test`
-- Asset: `2026-W27-003_M03_v2_candidate_A.png`
+- ID: `2026-W27-002`
+- Model: `M02`
+- Canva template: `B` Mira Template Master - B Symmetric
+- Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
+- Canva design URL: https://www.canva.com/d/E0q_4eUbeTyT71W
+- Stage: `canva_committed_ready_to_publish`
+- Asset: `2026-W27-002_M02_v2_candidate_A.png`
 - Package: `n/a`
-- Next action: Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.
+- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Current Next Action
 
-Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.
+Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Fixed Flow
 
@@ -64,4 +61,4 @@ Mira magazine -> weekly trend -> daily queue -> Codex image candidates -> Canva 
 ## Dashboard Summary
 
 - Run count: `3`
-- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 1, "ready_for_canva_test": 1}`
+- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 1, "canva_committed_ready_to_publish": 1}`

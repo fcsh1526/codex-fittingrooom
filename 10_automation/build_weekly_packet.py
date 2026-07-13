@@ -34,6 +34,7 @@ PACKET_FIELDS = [
     "ig_post_url",
     "status",
     "next_action",
+    "canva_template_key",
 ]
 
 

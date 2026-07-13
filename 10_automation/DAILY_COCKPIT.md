@@ -4,42 +4,41 @@ Date: `2026-07-13`
 
 ## Today, Do This First
 
-- Item: `2026-W27-003`
+- Item: `2026-W27-002`
 - Type: `carousel`
-- Model: `M03`
-- Canva template: `A` Mira Template Master - A Contact Sheet
-- Canva template URL: https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
-- Canva design URL: n/a
-- Stage: `ready_for_canva_test`
-- Asset: `2026-W27-003_M03_v2_candidate_A.png`
-- Next action: Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.
+- Model: `M02`
+- Canva template: `B` Mira Template Master - B Symmetric
+- Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
+- Canva design URL: https://www.canva.com/d/E0q_4eUbeTyT71W
+- Stage: `canva_committed_ready_to_publish`
+- Asset: `2026-W27-002_M02_v2_candidate_A.png`
+- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Checklist
 
-- [ ] Do not publish this carousel yet.
-- [ ] Test-fill the approved Mira Canva v2 template with A_v2, B_v2, and C_v2.
-- [ ] Review Canva crops for headroom, feet, face clarity, and cross-slide motion crop.
-- [ ] Commit Canva only if the preview is clean.
-- [ ] If crop fails, adjust Canva placement before export.
+- [ ] Open the Canva panorama design and review the committed layout.
+- [ ] Export the 3 carousel slides if the layout looks acceptable.
+- [ ] Publish or schedule the Instagram carousel.
+- [ ] Send Codex the post URL, publish time, and any immediate notes.
 
 ## Files To Open
 
 - `10_automation/canva_template_registry.md`
+- `10_automation/runs/2026-W27/canva_autofill_status.md`
 - `10_automation/runs/2026-W27/canva_fill_guide.md`
 - `10_automation/runs/2026-W27/canva_asset_plan.md`
-- `10_automation/runs/2026-W27/canva_asset_slots.csv`
-- `10_automation/runs/2026-W27/canva_placeholder_map.json`
-- `10_automation/runs/2026-W27/generated_images/2026-W26-002`
+- `10_automation/runs/2026-W27/post_drafts.md`
+- `10_automation/runs/2026-W27/publish_checklist.md`
 
 ## Reply Template For Codex
 
 ```text
 今日回報：
-item = 2026-W27-003
+item = 2026-W27-002
 type = carousel
 status = 
-model = M03
-Canva URL = 
+model = M02
+Canva URL = https://www.canva.com/d/E0q_4eUbeTyT71W
 IG URL = 
 published at = 
 6h metrics = reach / likes / saves / comments / shares

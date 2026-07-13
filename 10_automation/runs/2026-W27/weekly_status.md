@@ -1,14 +1,15 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W27`
-Stage: `ready_for_canva_test`
+Stage: `canva_committed_ready_to_publish`
 
 ## Next Action
 
-Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.
+Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.
 
 ## Blocking Items
 
+- `2026-W27-002`
 - `2026-W27-003`
 - `2026-W27-004`
 - `2026-W27-005`
@@ -16,15 +17,15 @@ Test-fill the approved Mira Canva v2 template, review the crop preview, then com
 ## Suggested Commands
 
 ```powershell
-open 10_automation\runs\2026-W27/canva_fill_guide.md
+open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit
 ```
 
 ```powershell
-open 10_automation\runs\2026-W27/canva_asset_plan.md
+open 10_automation\runs\2026-W27/post_drafts.md
 ```
 
 ```powershell
-Open the approved Mira Canva v2 template and test-fill selected assets.
+open 10_automation\runs\2026-W27/publish_checklist.md
 ```
 
 ## Summary

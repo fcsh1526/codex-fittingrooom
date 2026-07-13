@@ -4,7 +4,7 @@
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "archived": 1,
-    "ready_for_canva_test": 1
+    "canva_committed_ready_to_publish": 1
   },
   "runs": [
     {
@@ -31,8 +31,8 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W27",
-      "stage": "ready_for_canva_test",
-      "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
+      "stage": "canva_committed_ready_to_publish",
+      "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",

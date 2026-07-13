@@ -2,9 +2,10 @@
   "run_dir": "10_automation\\runs\\2026-W27",
   "run_state": {},
   "stage": {
-    "stage": "ready_for_canva_test",
-    "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
+    "stage": "canva_committed_ready_to_publish",
+    "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
     "blocking_items": [
+      "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
       "2026-W27-005"
@@ -13,13 +14,12 @@
   "packet": {
     "row_count": 5,
     "published_count": 1,
-    "ready_for_canva_test": [
+    "ready_for_canva_test": [],
+    "canva_committed_ready_to_publish": [
+      "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
       "2026-W27-005"
-    ],
-    "canva_committed_ready_to_publish": [
-      "2026-W27-002"
     ],
     "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
@@ -35,7 +35,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 2883
+      "size": 3336
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -51,7 +51,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1920
+      "size": 1785
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -124,8 +124,8 @@
     ]
   },
   "commands": [
-    "open 10_automation\\runs\\2026-W27/canva_fill_guide.md",
-    "open 10_automation\\runs\\2026-W27/canva_asset_plan.md",
-    "Open the approved Mira Canva v2 template and test-fill selected assets."
+    "open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit",
+    "open 10_automation\\runs\\2026-W27/post_drafts.md",
+    "open 10_automation\\runs\\2026-W27/publish_checklist.md"
   ]
 }
