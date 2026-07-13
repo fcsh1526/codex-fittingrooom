@@ -156,7 +156,11 @@ def test_week_with_scored_assets():
     )
 
     status = read_json(run_dir / "weekly_status.json")
-    assert_equal(status["stage"]["stage"], "ready_for_canva_and_publish", "scored week stage")
+    assert_equal(
+        status["stage"]["stage"],
+        "canva_blocked_waiting_for_flat_png_asset",
+        "scored week without Canva asset ids",
+    )
     assert_equal(status["assets"]["selected_cover_count"], 2, "selected cover count")
     assert_exists(run_dir / "canva_asset_plan.md", "Canva asset plan")
     assert_exists(run_dir / "daily_queue.csv", "scored week daily queue")
@@ -225,7 +229,8 @@ def test_zero_reach_decision():
     )
     run_command([sys.executable, "10_automation/check_weekly_status.py", "--run-dir", rel(run_dir)])
     status = read_json(run_dir / "weekly_status.json")
-    assert_equal(status["stage"]["stage"], "visibility_recovery", "zero reach stage")
+    assert_equal(status["stage"]["stage"], "needs_image_asset_selection", "production continues after zero reach")
+    assert_equal(status["publish"]["latest_decision"], "visibility_recovery", "zero reach side decision")
     assert_exists(run_dir / "publish_status.md", "publish status")
 
 
@@ -326,9 +331,17 @@ def test_daily_brief():
         ]
     )
     brief = read_json(TMP_ROOT / "TODAY.json")
-    assert_equal(brief["priority_run"]["stage"], "ready_for_canva_and_publish", "daily brief priority stage")
+    assert_equal(
+        brief["priority_run"]["stage"],
+        "canva_blocked_waiting_for_flat_png_asset",
+        "daily brief run-level blocker",
+    )
     assert_exists(TMP_ROOT / "TODAY.md", "daily brief")
-    assert_equal(brief["publish_queue"]["top_item"]["stage"], "ready_for_canva_and_publish", "daily brief queue top stage")
+    assert_equal(
+        brief["publish_queue"]["top_item"]["stage"],
+        "needs_image_asset_selection",
+        "daily brief keeps production moving",
+    )
     if not brief["publish_queue"]["top_item"].get("model_profile_id"):
         raise AssertionError("daily brief top item should include model_profile_id")
 
@@ -378,7 +391,7 @@ def test_publish_queue():
         ]
     )
     queue = read_json(TMP_ROOT / "QUEUE_ONLY.json")
-    assert_equal(queue["top_item"]["stage"], "ready_for_canva_and_publish", "publish queue top stage")
+    assert_equal(queue["top_item"]["stage"], "needs_image_asset_selection", "publish queue production-first top stage")
     assert_exists(TMP_ROOT / "QUEUE_ONLY.md", "publish queue")
 
 

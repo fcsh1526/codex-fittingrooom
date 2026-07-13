@@ -69,8 +69,8 @@ Each week should produce:
 - `generate_canva_placeholders.py`: converts a weekly content packet CSV into Canva placeholder values.
 - `generate_canva_handoff.py`: creates the Canva fill guide, placeholder JSON map, and asset slot CSV.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
-- `generate_openai_images.py`: optional future API path for OpenAI image assets; not the current primary flow.
-- `select_codex_assets.py`: selects cover/detail/crop assets from scored Codex review sheets and fills Canva asset slots.
+- `generate_openai_images.py`: legacy non-reference API experiment; live use is blocked by default because it cannot preserve M01-M05 anchors.
+- `select_codex_assets.py`: selects cover/detail/crop assets from scored Codex review sheets and fills Canva asset slots. When no score sheet is passed, it discovers `generated_images/*/review_sheet.csv` automatically.
 - `select_grok_assets.py`: legacy compatibility module used internally by the Codex selector; do not use it as the active workflow entrypoint.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.
@@ -239,26 +239,16 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -DryRunImages
 ```
 
-Optional future path: generate OpenAI images after setting `OPENAI_API_KEY`:
-
-```powershell
-$env:OPENAI_API_KEY="YOUR_API_KEY"
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
-  -Action generate-images `
-  -Week 2026-W25 `
-  -ImageVariants 2 `
-  -ImageQuality medium
-```
-
 Current path: use `image_generation_briefs.md` to create candidates in `generated_images/`, score them in `image_review_template.csv`, then select Canva assets:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -Action assets `
   -Week 2026-W25 `
-  -AssetProvider Codex `
-  -ScoreSheet 10_automation\runs\2026-W25\image_review_template.csv
+  -AssetProvider Codex
 ```
+
+The assets action automatically combines the per-carousel review sheets under `generated_images/*/review_sheet.csv`. Use `-ScoreSheet` only to override that discovery with an explicit aggregate file.
 
 Record post metrics:
 
@@ -450,7 +440,9 @@ openai_image_inventory.csv
 openai_asset_review_template.csv
 ```
 
-When `OPENAI_API_KEY` is set, remove `--dry-run` to generate image files into:
+The legacy API script is dry-run only by default. Live generation is intentionally blocked because that endpoint path does not attach the approved M01-M05 face/full references. The active workflow is the installed `mira-image-daily` skill plus built-in imagegen.
+
+Historical API outputs, when explicitly overridden, are stored in:
 
 ```text
 10_automation/runs/{week_id}/openai_images/

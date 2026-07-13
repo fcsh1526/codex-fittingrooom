@@ -1,6 +1,6 @@
 ﻿# AI Virtual Fashion Creator Automation Brief
 
-Updated: 2026-07-09
+Updated: 2026-07-13
 
 This is the current automation architecture for the Mira AI fashion creator workflow.
 
@@ -183,6 +183,7 @@ Current state:
 Codex image generation = primary workflow
 Reference anchors = required before generation
 Image scoring = CSV-driven
+Per-carousel review-sheet discovery = automated
 Asset selection = automated
 Canva asset slots = automated
 ```
@@ -331,7 +332,7 @@ Not automated yet:
 ```text
 Perplexity scheduled webpage scraping without user URL or export
 Canva final export
-Google Drive image inventory through connector in this exact pipeline
+Google Drive image upload and inventory writeback are available through the connected Drive workflow
 Canva final design replacement / export
 Instagram publishing and insight retrieval
 ```
@@ -350,7 +351,7 @@ Finish the next ready_for_canva_and_publish carousel
 Record post URLs and metrics when available
 ```
 
-Milestone 2: automate Drive inventory from Google Drive connector.
+Milestone 2: automate Drive inventory from Google Drive connector. Completed for W27-002.
 
 ```text
 Input: Drive folder URL

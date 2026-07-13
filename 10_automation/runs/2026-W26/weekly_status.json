@@ -1,11 +1,14 @@
 {
   "run_dir": "10_automation\\runs\\2026-W26",
+  "run_state": {
+    "status": "archived",
+    "reason": "Archived by user decision. W26 is historical infrastructure work and must not return to the production queue.",
+    "archived_at": "2026-07-13"
+  },
   "stage": {
-    "stage": "quality_gate_not_passed",
-    "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
-    "blocking_items": [
-      "quality_status=fail"
-    ]
+    "stage": "archived",
+    "next_action": "Archived by user decision. W26 is historical infrastructure work and must not return to the production queue.",
+    "blocking_items": []
   },
   "packet": {
     "row_count": 2,
@@ -72,6 +75,9 @@
     "selection_exists": true,
     "review_template_exists": true,
     "selected_cover_count": 1,
+    "selected_carousel_ids": [
+      "2026-W26-001"
+    ],
     "missing_cover": [
       "2026-W26-002"
     ],
@@ -86,9 +92,8 @@
     "latest_publish": {},
     "latest_metric": {},
     "latest_decision": "",
-    "latest_next_action": ""
+    "latest_next_action": "",
+    "published_carousel_ids": []
   },
-  "commands": [
-    "python 10_automation/validate_weekly_run.py --run-dir 10_automation\\runs\\2026-W26 --min-rows 1"
-  ]
+  "commands": []
 }

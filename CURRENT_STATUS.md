@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-07-09
+Last updated: 2026-07-13
 
 ## Project Goal
 
@@ -20,6 +20,25 @@ Active run folder: 10_automation/runs/2026-W27.
 Current top item: 2026-W27-002; W27-001 is published.
 
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
+```
+
+W27 image-production checkpoint:
+
+```text
+W27-001 through W27-005 each have three reviewed Codex imagegen candidates.
+M01-M05 are each used exactly once; every carousel selects A=cover, B=motion crop, C=detail.
+Whole-week strict asset validation passes with 0 errors and 0 warnings.
+Drive folder: https://drive.google.com/drive/folders/1060dPXgzAc_oLznVkDuaCYrVH-2Obyl6
+Current stage: canva_blocked_waiting_for_flat_png_asset.
+W27-001 is already published. W27-002 through W27-005 still require verified flat-image Canva asset ids before connector replacement.
+```
+
+Canva ingestion is the only remaining external decision:
+
+```text
+Private option: upload the selected PNG files from the W27 Drive folder into Canva Uploads, then let Codex locate and fill them.
+Automation option: change the W27/selected Drive folder to anyone-with-link viewer, acknowledging that the generated images become publicly accessible by link; Codex can then test Canva URL ingestion.
+Do not use image_to_design or Magic Layers.
 ```
 
 Monetization is intentionally delayed until there is non-zero reach.
@@ -253,7 +272,7 @@ Current image-generation discussion should start from:
 
 ## Next Codex Work
 
-When the user provides the next Perplexity URL or Drive folder, Codex should:
+The daily Production Worker should:
 
 1. Run `10_automation/daily_brief.py` first to create `TODAY.md`.
 2. Open `10_automation/PUBLISH_QUEUE.md` to see the exact next content item.
@@ -264,10 +283,10 @@ When the user provides the next Perplexity URL or Drive folder, Codex should:
 7. Otherwise import weekly prompt rows into `04_prompts/item_prompt_database.csv`, then run `10_automation/build_weekly_packet.py`.
 8. Confirm `quality_report.md` status is `pass`.
 9. Open `daily_queue.csv` to confirm today's model profile and outfit.
-10. Open `image_generation_briefs.md` and generate / place candidate images in `generated_images/`.
-11. Score `image_review_template.csv`.
-12. Run `10_automation/select_codex_assets.py --provider Codex` after images are scored.
-13. Confirm `validate_weekly_run.py --require-assets` passes.
+10. Open the top item's generated handoff and use built-in imagegen to generate A/B/C candidates with approved face/full references.
+11. Score the carousel-local `generated_images/{carousel_id}/review_sheet.csv`.
+12. Run `10_automation/select_codex_assets.py --provider Codex`; it automatically discovers carousel-local review sheets when `--score-sheet` is omitted.
+13. Confirm strict assets validation passes for the top carousel with `validate -Week YYYY-WXX -CarouselId YYYY-WXX-NNN -RequireAssets`; run whole-week strict validation only after all five are produced.
 14. Use generated Canva handoff files or Canva connector edits to duplicate and fill one registered Mira Canva master template. Canva autofill must stop unless the selected images have verified Canva image asset ids for complete flat PNG/JPG assets.
 15. Use generated IG / Threads / Pinterest drafts.
 16. Run `10_automation/record_post_metrics.py` after publishing and at 6h/24h checkpoints.

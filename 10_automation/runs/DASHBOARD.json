@@ -3,8 +3,8 @@
   "run_count": 3,
   "stage_counts": {
     "missing_weekly_packet_files": 1,
-    "quality_gate_not_passed": 1,
-    "published_waiting_for_metrics": 1
+    "archived": 1,
+    "canva_blocked_waiting_for_flat_png_asset": 1
   },
   "runs": [
     {
@@ -20,8 +20,8 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W26",
-      "stage": "quality_gate_not_passed",
-      "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
+      "stage": "archived",
+      "next_action": "Archived by user decision. W26 is historical infrastructure work and must not return to the production queue.",
       "packet_rows": 2,
       "quality": "fail",
       "cover_assets": "1/2",
@@ -31,11 +31,11 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W27",
-      "stage": "published_waiting_for_metrics",
-      "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
+      "stage": "canva_blocked_waiting_for_flat_png_asset",
+      "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
       "packet_rows": 5,
       "quality": "pass",
-      "cover_assets": "1/5",
+      "cover_assets": "5/5",
       "published": true,
       "metric_checkpoints": 0,
       "latest_decision": ""

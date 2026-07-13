@@ -75,6 +75,7 @@ def asset_status(run_dir):
     missing_cover = []
     missing_detail = []
     selected_count = 0
+    selected_carousel_ids = []
 
     for carousel_id in carousel_ids:
         rows = [row for row in slots if clean(row.get("carousel_id")) == carousel_id]
@@ -84,6 +85,7 @@ def asset_status(run_dir):
             missing_cover.append(carousel_id)
         else:
             selected_count += 1
+            selected_carousel_ids.append(carousel_id)
         if not clean(detail.get("recommended_file")):
             missing_detail.append(carousel_id)
 
@@ -101,6 +103,7 @@ def asset_status(run_dir):
         "selection_exists": selection_exists,
         "review_template_exists": template_exists,
         "selected_cover_count": selected_count,
+        "selected_carousel_ids": selected_carousel_ids,
         "missing_cover": missing_cover,
         "missing_detail": missing_detail,
         "selection_rows": len(selections),
@@ -112,6 +115,9 @@ def publish_status(run_dir):
     metric_rows = read_csv(run_dir / "metric_checkpoints.csv")
     latest_publish = publish_rows[-1] if publish_rows else {}
     latest_metric = metric_rows[-1] if metric_rows else {}
+    published_carousel_ids = sorted(
+        {clean(row.get("carousel_id")) for row in publish_rows if clean(row.get("carousel_id"))}
+    )
     return {
         "published": bool(latest_publish),
         "metric_count": len(metric_rows),
@@ -119,6 +125,7 @@ def publish_status(run_dir):
         "latest_metric": latest_metric,
         "latest_decision": clean(latest_metric.get("decision")),
         "latest_next_action": clean(latest_metric.get("next_action")),
+        "published_carousel_ids": published_carousel_ids,
     }
 
 
@@ -186,20 +193,6 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "blocking_items": [f"quality_status={quality['status']}"],
         }
 
-    if publishing["published"] and publishing["metric_count"] == 0:
-        return {
-            "stage": "published_waiting_for_metrics",
-            "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
-            "blocking_items": [],
-        }
-
-    if publishing["latest_decision"]:
-        return {
-            "stage": publishing["latest_decision"],
-            "next_action": publishing["latest_next_action"],
-            "blocking_items": [],
-        }
-
     if packet.get("ready_for_canva_test"):
         return {
             "stage": "ready_for_canva_test",
@@ -212,6 +205,17 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "stage": "canva_committed_ready_to_publish",
             "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
             "blocking_items": packet.get("canva_committed_ready_to_publish"),
+        }
+
+    ready_for_canva = sorted(
+        set(assets.get("selected_carousel_ids", []))
+        - set(publishing.get("published_carousel_ids", []))
+    )
+    if ready_for_canva:
+        return {
+            "stage": "ready_for_canva_and_publish",
+            "next_action": "Use the selected image assets and Canva handoff to fill the next carousel, then export and publish it.",
+            "blocking_items": ready_for_canva,
         }
 
     if assets["missing_cover"]:
@@ -231,6 +235,20 @@ def determine_stage(files, quality, assets, publishing, packet=None):
         return {
             "stage": "ready_for_canva_and_publish",
             "next_action": "Use canva_fill_guide.md, canva_asset_plan.md, and post_drafts.md to finish Canva and publish the carousel.",
+            "blocking_items": [],
+        }
+
+    if publishing["published"] and publishing["metric_count"] == 0:
+        return {
+            "stage": "published_waiting_for_metrics",
+            "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
+            "blocking_items": [],
+        }
+
+    if publishing["latest_decision"]:
+        return {
+            "stage": publishing["latest_decision"],
+            "next_action": publishing["latest_next_action"],
             "blocking_items": [],
         }
 
@@ -330,15 +348,24 @@ def write_status_reports(run_dir, status):
 
 def check_status(run_dir):
     run_dir = Path(run_dir)
+    run_state = read_json(run_dir / "run_state.json")
     files = file_state(run_dir)
     quality = quality_status(run_dir)
     assets = asset_status(run_dir)
     publishing = publish_status(run_dir)
     packet = packet_status(run_dir)
-    stage = determine_stage(files, quality, assets, publishing, packet=packet)
+    if clean(run_state.get("status")).lower() == "archived":
+        stage = {
+            "stage": "archived",
+            "next_action": clean(run_state.get("reason")) or "This historical run is archived and excluded from production queues.",
+            "blocking_items": [],
+        }
+    else:
+        stage = determine_stage(files, quality, assets, publishing, packet=packet)
     commands = command_suggestions(run_dir, stage["stage"])
     status = {
         "run_dir": str(run_dir),
+        "run_state": run_state,
         "stage": stage,
         "packet": packet,
         "files": files,

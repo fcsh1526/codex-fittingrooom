@@ -1,22 +1,33 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W27`
-Stage: `published_waiting_for_metrics`
+Stage: `canva_blocked_waiting_for_flat_png_asset`
 
 ## Next Action
 
-Run record_post_metrics.py at the 6h and 24h checkpoints.
+Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.
+
+## Blocking Items
+
+- `2026-W27-002`
+- `2026-W27-003`
+- `2026-W27-004`
+- `2026-W27-005`
 
 ## Suggested Commands
 
 ```powershell
-python 10_automation/record_post_metrics.py --run-dir 10_automation\runs\2026-W27 --record-metrics --hours-after-publish 24 --reach 0 --likes 0 --saves 0 --comments 0 --shares 0 --post-url POST_URL
+open 10_automation\runs\2026-W27/canva_automation_trial_log.md
+```
+
+```powershell
+open 10_automation\runs\2026-W27/generated_images/2026-W26-002
 ```
 
 ## Summary
 
 - Packet rows: `5`
 - Quality: `pass`
-- Cover assets selected: `1` / `5`
+- Cover assets selected: `5` / `5`
 - Published: `True`
 - Metric checkpoints: `0`

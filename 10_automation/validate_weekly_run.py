@@ -299,9 +299,10 @@ def validate_post_drafts(run_dir, packet_rows, issues):
             add_issue(issues, "error", "post_draft_disclosure", f"post_drafts.md missing disclosure term {term}.")
 
 
-def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
+def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False, required_asset_ids=None):
     packet_ids = {clean(row.get("carousel_id")) for row in packet_rows}
     packet_by_id = {clean(row.get("carousel_id")): row for row in packet_rows}
+    required_asset_ids = set(required_asset_ids or packet_ids)
     mapping = {}
 
     map_path = run_dir / "canva_placeholder_map.json"
@@ -339,16 +340,17 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
         for carousel_id in sorted(packet_ids):
             slots = by_carousel.get(carousel_id, [])
             slot_ids = {clean(row.get("slot_id")) for row in slots}
+            require_carousel_assets = require_assets and carousel_id in required_asset_ids
             for slot_id in ["cover_image", "motion_crop", "detail_image"]:
                 if slot_id not in slot_ids:
-                    severity = "error" if require_assets else "warning"
+                    severity = "error" if require_carousel_assets else "warning"
                     add_issue(issues, severity, "canva_asset_slot", f"{carousel_id}: missing {slot_id} asset slot.")
             for row in slots:
                 slot_id = clean(row.get("slot_id"))
                 status = clean(row.get("status")).lower()
-                if require_assets and status in BAD_ASSET_STATUSES:
+                if require_carousel_assets and status in BAD_ASSET_STATUSES:
                     add_issue(issues, "error", "canva_asset_slot_status", f"{carousel_id}: {slot_id} has non-publishable status `{status}`.")
-            if require_assets:
+            if require_carousel_assets:
                 slot_file_by_id = {clean(row.get("slot_id")): clean(row.get("recommended_file")) for row in slots}
                 for slot_id in ["cover_image", "motion_crop", "detail_image"]:
                     if not slot_file_by_id.get(slot_id):
@@ -379,7 +381,7 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
                 selection_name, selection_path = active_selection
                 for row in read_csv(selection_path):
                     carousel_id = clean(row.get("carousel_id"))
-                    if carousel_id not in packet_ids:
+                    if carousel_id not in required_asset_ids:
                         continue
                     status = clean(row.get("selection_status")).lower()
                     if status and not status.startswith("selected"):
@@ -389,6 +391,8 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False):
         if require_assets and fill_guide.exists():
             text = read_text(fill_guide)
             for carousel_id, packet in packet_by_id.items():
+                if carousel_id not in required_asset_ids:
+                    continue
                 packet_status = clean(packet.get("status")).lower()
                 if packet_status in {"ready_for_canva_test", "canva_blocked_waiting_for_flat_png_asset", "canva_committed", "canva_committed_ready_to_publish"} and "TBD" in text:
                     add_issue(issues, "error", "canva_verified_asset_tbd", f"{carousel_id}: canva_fill_guide.md still contains `TBD`; verified Canva flat image assets are incomplete.")
@@ -430,7 +434,7 @@ def write_reports(run_dir, issues):
     return report
 
 
-def validate_run(run_dir, min_rows=1, require_assets=False):
+def validate_run(run_dir, min_rows=1, require_assets=False, carousel_id=""):
     run_dir = Path(run_dir)
     issues = []
     validate_required_files(run_dir, issues)
@@ -439,7 +443,18 @@ def validate_run(run_dir, min_rows=1, require_assets=False):
     validate_image_generation_files(run_dir, packet_rows=packet_rows, issues=issues)
     validate_canva_rows(run_dir, packet_rows=packet_rows, issues=issues)
     validate_post_drafts(run_dir, packet_rows=packet_rows, issues=issues)
-    validate_canva_handoff(run_dir, packet_rows=packet_rows, issues=issues, require_assets=require_assets)
+    required_asset_ids = {clean(carousel_id)} if clean(carousel_id) else None
+    if required_asset_ids and not required_asset_ids.issubset(
+        {clean(row.get("carousel_id")) for row in packet_rows}
+    ):
+        add_issue(issues, "error", "unknown_carousel_id", f"Carousel id not found in packet: {clean(carousel_id)}.")
+    validate_canva_handoff(
+        run_dir,
+        packet_rows=packet_rows,
+        issues=issues,
+        require_assets=require_assets,
+        required_asset_ids=required_asset_ids,
+    )
     return write_reports(run_dir, issues)
 
 
@@ -448,10 +463,16 @@ def main():
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--min-rows", type=int, default=1)
     parser.add_argument("--require-assets", action="store_true", help="Fail when required Canva image slots have no selected asset.")
+    parser.add_argument("--carousel-id", default="", help="Limit strict asset checks to one carousel id.")
     parser.add_argument("--no-fail", action="store_true", help="Write reports but exit 0 even when errors exist.")
     args = parser.parse_args()
 
-    report = validate_run(args.run_dir, min_rows=args.min_rows, require_assets=args.require_assets)
+    report = validate_run(
+        args.run_dir,
+        min_rows=args.min_rows,
+        require_assets=args.require_assets,
+        carousel_id=args.carousel_id,
+    )
     print(
         f"Validation {report['status']}: "
         f"{report['error_count']} error(s), {report['warning_count']} warning(s)."

@@ -320,7 +320,8 @@ def item_priority(row):
     if item_type == "carousel" and stage == "needs_visual_revision":
         return 115
     if item_type == "carousel" and stage == "canva_blocked_waiting_for_flat_png_asset":
-        return 114
+        # External Canva ingestion must not stop production of the next carousel.
+        return 88
     if item_type == "carousel" and stage == "ready_for_canva_test":
         return 112
     if item_type == "carousel" and stage == "canva_committed_ready_to_publish":
@@ -332,7 +333,7 @@ def item_priority(row):
     priorities = {
         "published_waiting_for_metrics": 80,
         "needs_visual_revision": 95,
-        "canva_blocked_waiting_for_flat_png_asset": 94,
+        "canva_blocked_waiting_for_flat_png_asset": 68,
         "ready_for_canva_test": 92,
         "canva_committed_ready_to_publish": 90,
         "ready_for_canva_and_publish": 75,
@@ -370,6 +371,9 @@ def build_queue(runs_dir):
     rows = []
     templates = load_template_registry()
     for run_dir in run_dirs_under(runs_dir):
+        run_state = read_json(run_dir / "run_state.json")
+        if clean(run_state.get("status")).lower() in {"archived", "paused", "do_not_publish", "skip"}:
+            continue
         packets = read_csv(run_dir / "weekly_content_packet.csv")
         paused_ids = {
             clean(packet.get("carousel_id"))

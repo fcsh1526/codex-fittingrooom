@@ -1,16 +1,27 @@
 {
   "run_dir": "10_automation\\runs\\2026-W27",
+  "run_state": {},
   "stage": {
-    "stage": "published_waiting_for_metrics",
-    "next_action": "Run record_post_metrics.py at the 6h and 24h checkpoints.",
-    "blocking_items": []
+    "stage": "canva_blocked_waiting_for_flat_png_asset",
+    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+    "blocking_items": [
+      "2026-W27-002",
+      "2026-W27-003",
+      "2026-W27-004",
+      "2026-W27-005"
+    ]
   },
   "packet": {
     "row_count": 5,
     "published_count": 1,
     "ready_for_canva_test": [],
     "canva_committed_ready_to_publish": [],
-    "canva_blocked_waiting_for_flat_png_asset": [],
+    "canva_blocked_waiting_for_flat_png_asset": [
+      "2026-W27-002",
+      "2026-W27-003",
+      "2026-W27-004",
+      "2026-W27-005"
+    ],
     "inactive_count": 0,
     "all_inactive": false,
     "carousel_ids": [
@@ -24,7 +35,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 2593
+      "size": 3089
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -36,11 +47,11 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 3035
+      "size": 5186
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1457
+      "size": 2034
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -72,19 +83,16 @@
     "carousel_count": 5,
     "selection_exists": true,
     "review_template_exists": true,
-    "selected_cover_count": 1,
-    "missing_cover": [
+    "selected_cover_count": 5,
+    "selected_carousel_ids": [
+      "2026-W27-001",
       "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
       "2026-W27-005"
     ],
-    "missing_detail": [
-      "2026-W27-002",
-      "2026-W27-003",
-      "2026-W27-004",
-      "2026-W27-005"
-    ],
+    "missing_cover": [],
+    "missing_detail": [],
     "selection_rows": 5
   },
   "publish": {
@@ -110,9 +118,13 @@
     },
     "latest_metric": {},
     "latest_decision": "",
-    "latest_next_action": ""
+    "latest_next_action": "",
+    "published_carousel_ids": [
+      "2026-W27-001"
+    ]
   },
   "commands": [
-    "python 10_automation/record_post_metrics.py --run-dir 10_automation\\runs\\2026-W27 --record-metrics --hours-after-publish 24 --reach 0 --likes 0 --saves 0 --comments 0 --shares 0 --post-url POST_URL"
+    "open 10_automation\\runs\\2026-W27/canva_automation_trial_log.md",
+    "open 10_automation\\runs\\2026-W27/generated_images/2026-W26-002"
   ]
 }

@@ -293,6 +293,9 @@ switch ($Action) {
         if ($RequireAssets) {
             $argsList += "--require-assets"
         }
+        if ($CarouselId) {
+            $argsList += @("--carousel-id", $CarouselId)
+        }
         Invoke-MikaPython -ScriptPath "10_automation\validate_weekly_run.py" -ArgsList $argsList
     }
 

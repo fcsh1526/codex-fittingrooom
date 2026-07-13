@@ -130,6 +130,34 @@ def asset_file_name(row):
     return clean(row.get("file_name")) or clean(row.get("candidate_file"))
 
 
+def discover_job_score_rows(run_dir):
+    rows = []
+    generated_dir = Path(run_dir) / "generated_images"
+    if not generated_dir.exists():
+        return rows
+    for review_path in sorted(generated_dir.glob("*/review_sheet.csv")):
+        for row in read_csv(review_path):
+            candidate = asset_file_name(row)
+            has_file = bool(candidate) and (review_path.parent / candidate).exists()
+            has_score = any(
+                clean(row.get(field))
+                for field in [
+                    "model_consistency",
+                    "reader_relatability",
+                    "outfit_clarity",
+                    "ai_realism",
+                    "commerce_value",
+                    "identity_consistency",
+                    "body_integrity",
+                    "platform_fit",
+                    "shopping_value",
+                ]
+            )
+            if has_file and has_score:
+                rows.append(row)
+    return rows
+
+
 def candidate_label(row):
     stem = Path(asset_file_name(row)).stem.lower()
     for label in ["a", "b", "c"]:
@@ -314,7 +342,52 @@ def update_placeholder_map(run_dir, slot_rows):
     path.write_text(json.dumps(mapping, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def update_daily_queue(run_dir, selections):
+def canva_ready_ids(slot_rows):
+    by_carousel = {}
+    for row in slot_rows:
+        by_carousel.setdefault(clean(row.get("carousel_id")), []).append(row)
+    ready = set()
+    for carousel_id, rows in by_carousel.items():
+        required = {"cover_image", "motion_crop", "detail_image"}
+        with_ids = {
+            clean(row.get("slot_id"))
+            for row in rows
+            if "canva_asset_id=" in clean(row.get("notes"))
+            and not clean(row.get("notes")).endswith("canva_asset_id=")
+        }
+        if required.issubset(with_ids):
+            ready.add(carousel_id)
+    return ready
+
+
+def update_packet_canva_status(run_dir, selections, slot_rows):
+    path = Path(run_dir) / "weekly_content_packet.csv"
+    if not path.exists():
+        return
+    rows, fieldnames = read_csv_with_fields(path)
+    selected_ids = {
+        clean(row.get("carousel_id"))
+        for row in selections
+        if clean(row.get("selection_status")) == "selected"
+    }
+    ready_ids = canva_ready_ids(slot_rows)
+    updated = []
+    for row in rows:
+        out = dict(row)
+        carousel_id = clean(row.get("carousel_id"))
+        status = clean(row.get("status")).lower()
+        if carousel_id in selected_ids and status != "published":
+            if carousel_id in ready_ids:
+                out["status"] = "ready_for_canva_test"
+                out["next_action"] = "Duplicate and fill the assigned Canva template."
+            else:
+                out["status"] = "canva_blocked_waiting_for_flat_png_asset"
+                out["next_action"] = "Resolve three selected flat PNG files to verified Canva asset ids; continue producing the next carousel meanwhile."
+        updated.append(out)
+    write_csv(path, fieldnames, updated)
+
+
+def update_daily_queue(run_dir, selections, slot_rows):
     path = Path(run_dir) / "daily_queue.csv"
     if not path.exists():
         return
@@ -329,16 +402,20 @@ def update_daily_queue(run_dir, selections):
     }
     if not selected_ids:
         return
+    ready_ids = canva_ready_ids(slot_rows)
 
     updated = []
     for row in rows:
         out = dict(row)
         if clean(row.get("carousel_id")) in selected_ids:
             out["image_status"] = "asset_selected"
-            if clean(out.get("canva_status")) in {"", "not_started"}:
+            if clean(row.get("carousel_id")) in ready_ids:
                 out["canva_status"] = "ready_for_canva"
+                marker = "Asset selected with verified Canva ids; ready for Canva."
+            else:
+                out["canva_status"] = "canva_blocked_waiting_for_flat_png_asset"
+                marker = "Asset selected; waiting for verified flat PNG Canva asset ids while production continues."
             note = clean(out.get("notes"))
-            marker = "Asset selected; ready for Canva."
             if marker not in note:
                 out["notes"] = "; ".join(part for part in [note, marker] if part)
         updated.append(out)
@@ -390,7 +467,7 @@ def select_assets(run_dir, score_sheet=None, drive_inventory=None, provider="Cod
     run_dir = Path(run_dir)
     packets = read_csv(run_dir / "weekly_content_packet.csv")
     slot_rows = read_csv(run_dir / "canva_asset_slots.csv")
-    score_rows = read_csv(score_sheet) if score_sheet else []
+    score_rows = read_csv(score_sheet) if score_sheet else discover_job_score_rows(run_dir)
     drive_rows = drive_lookup(read_csv(drive_inventory)) if drive_inventory else {}
     provider_slug = clean(provider).lower() or "codex"
 
@@ -419,7 +496,8 @@ def select_assets(run_dir, score_sheet=None, drive_inventory=None, provider="Cod
     updated_slots = update_asset_slots(slot_rows, selections)
     write_csv(run_dir / "canva_asset_slots.csv", ASSET_SLOT_FIELDS, updated_slots)
     update_placeholder_map(run_dir, updated_slots)
-    update_daily_queue(run_dir, selections)
+    update_packet_canva_status(run_dir, selections, updated_slots)
+    update_daily_queue(run_dir, selections, updated_slots)
     return selections
 
 

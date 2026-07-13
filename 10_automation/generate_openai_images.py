@@ -161,6 +161,7 @@ def generate_images(
     identity_path="02_brand/mira_identity_block.md",
     timeout=180,
     delay_seconds=1.0,
+    allow_non_reference_generation=False,
 ):
     run_dir = Path(run_dir)
     packet_path = run_dir / "weekly_content_packet.csv"
@@ -175,6 +176,11 @@ def generate_images(
     prompt_dir.mkdir(parents=True, exist_ok=True)
 
     api_key = os.environ.get("OPENAI_API_KEY")
+    if not dry_run and not allow_non_reference_generation:
+        raise SystemExit(
+            "This legacy API generator cannot preserve M01-M05 face/full reference anchors. "
+            "Use the Codex mira-image-daily + built-in imagegen workflow instead."
+        )
     if not dry_run and not api_key:
         raise SystemExit("OPENAI_API_KEY is required unless --dry-run is used.")
 
@@ -245,6 +251,11 @@ def main():
     parser.add_argument("--timeout", type=int, default=180)
     parser.add_argument("--delay-seconds", type=float, default=1.0)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--allow-non-reference-generation",
+        action="store_true",
+        help="Explicitly allow the legacy API path even though it does not preserve M01-M05 reference anchors.",
+    )
     args = parser.parse_args()
 
     rows = generate_images(
@@ -259,6 +270,7 @@ def main():
         identity_path=args.identity_path,
         timeout=args.timeout,
         delay_seconds=args.delay_seconds,
+        allow_non_reference_generation=args.allow_non_reference_generation,
     )
     action = "Planned" if args.dry_run else "Generated"
     print(f"{action} {len(rows)} OpenAI image asset(s).")
