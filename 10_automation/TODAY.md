@@ -41,13 +41,13 @@ The v2 image candidates are selected and the next step is Canva test-fill, not p
 ## Publish Queue Top Item
 
 - Type: `carousel`
-- ID: `2026-W27-002`
-- Model: `M02`
-- Canva template: `B` Mira Template Master - B Symmetric
-- Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
+- ID: `2026-W27-003`
+- Model: `M03`
+- Canva template: `A` Mira Template Master - A Contact Sheet
+- Canva template URL: https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
 - Canva design URL: n/a
 - Stage: `ready_for_canva_test`
-- Asset: `2026-W27-002_M02_v2_candidate_A.png`
+- Asset: `2026-W27-003_M03_v2_candidate_A.png`
 - Package: `n/a`
 - Next action: Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.
 

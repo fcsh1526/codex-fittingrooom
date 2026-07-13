@@ -5,7 +5,6 @@
     "stage": "ready_for_canva_test",
     "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
     "blocking_items": [
-      "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
       "2026-W27-005"
@@ -15,12 +14,13 @@
     "row_count": 5,
     "published_count": 1,
     "ready_for_canva_test": [
-      "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
       "2026-W27-005"
     ],
-    "canva_committed_ready_to_publish": [],
+    "canva_committed_ready_to_publish": [
+      "2026-W27-002"
+    ],
     "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
@@ -35,7 +35,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 2741
+      "size": 2883
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -51,7 +51,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 1890
+      "size": 1920
     },
     "image_generation_briefs.md": {
       "exists": true,

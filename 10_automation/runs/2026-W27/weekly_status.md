@@ -9,7 +9,6 @@ Test-fill the approved Mira Canva v2 template, review the crop preview, then com
 
 ## Blocking Items
 
-- `2026-W27-002`
 - `2026-W27-003`
 - `2026-W27-004`
 - `2026-W27-005`
