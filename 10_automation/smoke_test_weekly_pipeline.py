@@ -414,6 +414,55 @@ def test_visibility_test_package():
     assert_exists(TMP_ROOT / "visibility_test_package.md", "visibility test package")
 
 
+def test_canva_inventory_powershell_route():
+    powershell = shutil.which("powershell")
+    if not powershell:
+        print("Skipping Canva inventory PowerShell route test: powershell not found.")
+        return
+
+    import csv
+
+    run_dir = TMP_ROOT / "run-w21"
+    inventory_path = run_dir / "canva_asset_inventory.csv"
+    slot_rows = read_csv(run_dir / "canva_asset_slots.csv")
+    with inventory_path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["file_name", "canva_asset_id"])
+        writer.writeheader()
+        for index, row in enumerate(slot_rows, start=1):
+            file_name = (row.get("recommended_file") or "").strip()
+            if file_name:
+                writer.writerow({"file_name": file_name, "canva_asset_id": f"TEST_ASSET_{index:02d}"})
+
+    command = [
+        powershell,
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "10_automation/mika_weekly.ps1",
+        "-Action",
+        "assets",
+        "-RunDir",
+        rel(run_dir),
+        "-ScoreSheet",
+        "07_metrics/w21_visual_review_scores.csv",
+        "-DriveInventory",
+        "07_metrics/w21_drive_image_inventory.csv",
+        "-CanvaInventory",
+        rel(inventory_path),
+        "-AssetProvider",
+        "Codex",
+    ]
+    run_command(command)
+    run_command(command)
+    run_command([sys.executable, "10_automation/check_weekly_status.py", "--run-dir", rel(run_dir)])
+
+    status = read_json(run_dir / "weekly_status.json")
+    assert_equal(status["stage"]["stage"], "ready_for_canva_test", "Canva inventory routed through PowerShell")
+    for row in read_csv(run_dir / "canva_asset_slots.csv"):
+        notes = row.get("notes") or ""
+        assert_equal(notes.count("canva_asset_id="), 1, "idempotent Canva asset note")
+
+
 def main():
     clean_tmp()
     test_iso_week_dates()
@@ -429,6 +478,7 @@ def main():
     test_daily_cockpit()
     test_publish_queue()
     test_visibility_test_package()
+    test_canva_inventory_powershell_route()
     print("Smoke test passed.")
 
 

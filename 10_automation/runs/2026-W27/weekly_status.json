@@ -47,11 +47,11 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 5186
+      "size": 4118
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 2034
+      "size": 2122
     },
     "image_generation_briefs.md": {
       "exists": true,

@@ -32,7 +32,8 @@ single virtual influencer, selfie diary, runway editorial, luxury ad campaign, p
 - Outfit reflects the global trend, but is simplified into daily styling.
 - Model looks approachable, not remote or celebrity-like.
 - Scene supports the outfit and target occasion.
-- Lighting is realistic with visible fabric texture and natural skin texture.
+- Lighting is physically integrated with the scene: one readable source direction, matching color temperature, visible face/body falloff, contact shadows, and ambient color spill.
+- The model must look photographed in the location, never independently lit or pasted onto the background.
 - No logos, no image text, no watermark, no public model name.
 - No shopping CTA, disclosure, product list, or comments rendered inside the image.
 
@@ -71,6 +72,8 @@ B = movement or street-style variation
 C = closer outfit-detail-friendly variation
 ```
 
+All candidates are the same outfit session. A/B/C must keep the exact same garments, layers, palette, shoes, bag, jewelry, and styling placement. Only pose, camera distance, and framing may change.
+
 Stop if candidate A is already strong. Do not keep generating just to fill slots.
 
 ## Review Rule
@@ -83,4 +86,8 @@ Reject beautiful images if they are not usable for commerce:
 - too expensive-looking for the target
 - too posed
 - weak clothing detail
-
+- subject/background lighting mismatch
+- shadowless or front-lit face when the scene light is directional
+- missing shoe contact shadows or halo/cutout edges
+- any garment, color, shoe, bag, or accessory drift across A/B/C
+- white borders or letterboxing

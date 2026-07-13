@@ -24,9 +24,11 @@ param(
 
     [string]$ScoreSheet = "",
     [string]$DriveInventory = "",
+    [string]$CanvaInventory = "",
     [string]$AssetProvider = "Codex",
     [switch]$SkipImageJobs,
     [string]$DailyId = "",
+    [string]$VersionTag = "",
     [string]$OpenAIModel = "",
     [string]$ImageSize = "1024x1536",
     [string]$ImageQuality = "medium",
@@ -196,6 +198,9 @@ switch ($Action) {
         if ($DriveInventory) {
             $argsList += @("--drive-inventory", $DriveInventory)
         }
+        if ($CanvaInventory) {
+            $argsList += @("--canva-inventory", $CanvaInventory)
+        }
         if ($AssetProvider) {
             $argsList += @("--provider", $AssetProvider)
         }
@@ -214,6 +219,9 @@ switch ($Action) {
         }
         if ($DailyId) {
             $argsList += @("--daily-id", $DailyId)
+        }
+        if ($VersionTag) {
+            $argsList += @("--version-tag", $VersionTag)
         }
         Invoke-MikaPython -ScriptPath "11_skills\mira-image-daily\scripts\prepare_daily_image_job.py" -ArgsList $argsList
     }

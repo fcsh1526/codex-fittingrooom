@@ -34,7 +34,7 @@ references/reference-start-images.md
 2. Load the model profile from `mira_model_roster.json`.
 3. Confirm the required face and full-body reference start images exist through `mira_reference_images.csv`.
 4. Run `scripts/prepare_daily_image_job.py` to create a strict job folder.
-5. Use the generated candidate prompts with the available image-generation tool.
+5. Generate candidate A with both model references. Then generate B and C with the same two model references plus accepted candidate A as the wardrobe-lock reference.
 6. Save accepted outputs under the job folder and/or `generated_images/`.
 7. Fill the job review sheet before asset selection or Canva.
 
@@ -67,6 +67,7 @@ The script writes:
 - Use the model's approved face and full-body reference start images as identity anchors.
 - Do not publish or render model IDs, names, labels, prompt notes, reference-image metadata, or numeric true ages.
 - Generate 2-3 candidates first. Stop early if one is strong enough.
+- Generate A first. B/C must reference A and preserve its exact outfit; independent B/C generation without the A wardrobe lock is not allowed.
 - Prefer one excellent full-body image plus smart crops over three weak unrelated images.
 
 Prompt age rule:
@@ -103,9 +104,11 @@ reader_relatability
 outfit_clarity
 ai_realism
 commerce_value
+scene_lighting_integration
+outfit_continuity
 publishable
 status
 notes
 ```
 
-Only mark `publishable = yes` when `outfit_clarity >= 4` and `ai_realism >= 4`; user visual approval gates Canva readiness in the wider automation flow.
+Only mark `publishable = yes` when `outfit_clarity >= 4`, `ai_realism >= 4`, `scene_lighting_integration >= 4`, and `outfit_continuity >= 4`. Any pasted-on lighting, missing contact shadow, white border, or A/B/C wardrobe drift is an automatic rejection. User visual approval gates Canva readiness in the wider automation flow.

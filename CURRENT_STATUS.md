@@ -25,19 +25,19 @@ Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containi
 W27 image-production checkpoint:
 
 ```text
-W27-001 through W27-005 each have three reviewed Codex imagegen candidates.
-M01-M05 are each used exactly once; every carousel selects A=cover, B=motion crop, C=detail.
-Whole-week strict asset validation passes with 0 errors and 0 warnings.
-Drive folder: https://drive.google.com/drive/folders/1060dPXgzAc_oLznVkDuaCYrVH-2Obyl6
-Current stage: canva_blocked_waiting_for_flat_png_asset.
-W27-001 is already published. W27-002 through W27-005 still require verified flat-image Canva asset ids before connector replacement.
+W27-001 is published. The original W27-002 through W27-005 images were rejected on 2026-07-13 for subject/background lighting mismatch; M04-B also failed wardrobe continuity and M03-A had letterboxing.
+W27-002 through W27-005 now have non-destructive v2 A/B/C candidates. B/C use candidate A as an explicit wardrobe lock.
+Image review now includes hard gates for scene_lighting_integration and outfit_continuity. Pasted-on lighting, missing contact shadows, letterboxing, or any wardrobe drift automatically rejects a candidate.
+Google Drive is optional archive-only storage and is no longer a Canva pipeline dependency.
+Current stage: register the approved v2 PNG files as new Canva assets, then preview a fresh Canva copy before any commit.
 ```
 
-Canva ingestion is the only remaining external decision:
+Current Canva ingestion rule:
 
 ```text
-Private option: upload the selected PNG files from the W27 Drive folder into Canva Uploads, then let Codex locate and fill them.
-Automation option: change the W27/selected Drive folder to anyone-with-link viewer, acknowledging that the generated images become publicly accessible by link; Codex can then test Canva URL ingestion.
+Primary path: local generated PNG -> GitHub sync -> public raw GitHub URL -> Canva asset id.
+Google Drive is not required. Do not request or change Drive sharing merely to satisfy Canva ingestion.
+If images must stay private, use manual Canva Uploads because the current Canva connector has no local-file byte upload tool.
 Do not use image_to_design or Magic Layers.
 ```
 

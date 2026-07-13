@@ -1,4 +1,7 @@
-carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,commerce_value,publishable,status,notes
-2026-W27-003,W27-P003,M03,2026-W27-003_M03_candidate_A.png,Codex,5,5,5,5,5,yes,selected,"Strong cover: M03 identity preserved, complete outfit and both fisherman sandals are immediately readable."
-2026-W27-003,W27-P003,M03,2026-W27-003_M03_candidate_B.png,Codex,5,5,5,5,5,yes,backup,"Strong movement frame with correct sandal straps, natural walking posture and relatable bookstore-cafe setting."
-2026-W27-003,W27-P003,M03,2026-W27-003_M03_candidate_C.png,Codex,5,5,5,5,5,yes,backup,"Best detail frame: clear woven leather, rubber soles, cropped trouser hem and knit texture."
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,commerce_value,publishable,status,notes
+2026-W27-003,W27-P003,M03,2026-W27-003_M03_candidate_A.png,Codex,5,4,5,2,2,4,3,no,rejected,Flat facial light does not respond to the window or pendant; visible white letterbox borders are an automatic rejection.
+2026-W27-003,W27-P003,M03,2026-W27-003_M03_candidate_B.png,Codex,5,4,5,2,1,4,3,no,rejected,Person appears separately illuminated from the bookstore-cafe environment; insufficient ambient color and contact shadows.
+2026-W27-003,W27-P003,M03,2026-W27-003_M03_candidate_C.png,Codex,5,4,5,2,1,4,3,no,rejected,Outfit detail is clear but scene lighting integration fails the hard gate.
+2026-W27-003,W27-P003,M03,2026-W27-003_M03_v2_candidate_A.png,Codex,5,5,5,5,5,5,5,yes,selected,"Strong bookstore cover with directional storefront light, ambient book-and-wood color, exact outfit and fully readable sandals."
+2026-W27-003,W27-P003,M03,2026-W27-003_M03_v2_candidate_B.png,Codex,5,5,5,5,5,5,5,yes,backup,"Movement frame preserves every garment and sandal detail; cast and contact shadows convincingly match the doorway."
+2026-W27-003,W27-P003,M03,2026-W27-003_M03_v2_candidate_C.png,Codex,5,5,5,5,5,5,5,yes,backup,"Detail-friendly full outfit with no border, coherent storefront falloff and exact A-session wardrobe continuity."

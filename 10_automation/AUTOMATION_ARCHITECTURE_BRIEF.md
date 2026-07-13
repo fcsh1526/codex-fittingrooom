@@ -332,7 +332,7 @@ Not automated yet:
 ```text
 Perplexity scheduled webpage scraping without user URL or export
 Canva final export
-Google Drive image upload and inventory writeback are available through the connected Drive workflow
+Google Drive image upload and inventory writeback are optional archive functions, not production dependencies
 Canva final design replacement / export
 Instagram publishing and insight retrieval
 ```
@@ -351,11 +351,12 @@ Finish the next ready_for_canva_and_publish carousel
 Record post URLs and metrics when available
 ```
 
-Milestone 2: automate Drive inventory from Google Drive connector. Completed for W27-002.
+Milestone 2: keep image transport independent from Google Drive. Completed.
 
 ```text
-Input: Drive folder URL
-Output: drive_image_inventory.csv
+Primary input: project-local generated PNG synchronized to GitHub
+Primary output: Canva asset id recorded in canva_asset_inventory.csv
+Optional archive output: Drive folder and drive_image_inventory.csv
 ```
 
 Milestone 3: automate Canva placeholder replacement.

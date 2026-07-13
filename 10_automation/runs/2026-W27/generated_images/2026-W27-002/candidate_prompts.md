@@ -28,14 +28,20 @@ Fit: 合身七分褲+上寬下窄
 Occasion: 城市散步/咖啡廳
 Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。
 
+Outfit continuity lock:
+Candidates A, B, and C are three photographs from the same outfit session. Keep the exact same top layers, neckline, sleeve length, trousers or skirt, hem length, fabric, palette, shoes, bag, jewelry, and scarf placement in all three candidates. Only pose, camera distance, and framing may change. Do not reinterpret the trend into a different outfit for B or C.
+
 Scene:
 Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: 乾淨的室內灰白牆面與柔光窗邊. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
 
+Lighting integration lock:
+First establish one physically plausible key-light source inside the scene, such as daylight from a visible window or open street. Its direction and color temperature must affect the entire person consistently: forehead, cheeks, nose shadow, neck, arms, clothing folds, shoes, and bag. The side facing away from the source must be visibly darker and pick up the scene's ambient color. Add grounded contact shadows under both shoes and natural cast shadows on nearby surfaces. Match subject contrast, white balance, grain, depth of field, and edge softness to the background. The person must look photographed in the location, never cut out and pasted onto a background. No frontal beauty light, ring-light catchlights, shadowless face, studio fill, halo edges, or independent subject lighting.
+
 Composition:
-Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor.
+Full outfit readable within one second. Natural posture. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor. Fill the full 4:5 frame edge to edge with no white border or letterboxing.
 
 Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
+supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, pasted-on subject, mismatched key light, shadowless face, missing contact shadows, outfit changes between candidates, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
 
 
 ---
@@ -68,14 +74,20 @@ Fit: 合身七分褲+上寬下窄
 Occasion: 城市散步/咖啡廳
 Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。
 
+Outfit continuity lock:
+Candidates A, B, and C are three photographs from the same outfit session. Keep the exact same top layers, neckline, sleeve length, trousers or skirt, hem length, fabric, palette, shoes, bag, jewelry, and scarf placement in all three candidates. Only pose, camera distance, and framing may change. Do not reinterpret the trend into a different outfit for B or C.
+
 Scene:
 Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: 乾淨的室內灰白牆面與柔光窗邊. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
 
+Lighting integration lock:
+First establish one physically plausible key-light source inside the scene, such as daylight from a visible window or open street. Its direction and color temperature must affect the entire person consistently: forehead, cheeks, nose shadow, neck, arms, clothing folds, shoes, and bag. The side facing away from the source must be visibly darker and pick up the scene's ambient color. Add grounded contact shadows under both shoes and natural cast shadows on nearby surfaces. Match subject contrast, white balance, grain, depth of field, and edge softness to the background. The person must look photographed in the location, never cut out and pasted onto a background. No frontal beauty light, ring-light catchlights, shadowless face, studio fill, halo edges, or independent subject lighting.
+
 Composition:
-Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor.
+Full outfit readable within one second. Natural posture. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor. Fill the full 4:5 frame edge to edge with no white border or letterboxing.
 
 Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
+supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, pasted-on subject, mismatched key light, shadowless face, missing contact shadows, outfit changes between candidates, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
 
 
 ---
@@ -108,11 +120,17 @@ Fit: 合身七分褲+上寬下窄
 Occasion: 城市散步/咖啡廳
 Styling rules: 全身不超過 3 種顏色；不出現明顯 Logo；用 1 件主角 + 2 個細節完成造型。
 
+Outfit continuity lock:
+Candidates A, B, and C are three photographs from the same outfit session. Keep the exact same top layers, neckline, sleeve length, trousers or skirt, hem length, fabric, palette, shoes, bag, jewelry, and scarf placement in all three candidates. Only pose, camera distance, and framing may change. Do not reinterpret the trend into a different outfit for B or C.
+
 Scene:
 Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: 乾淨的室內灰白牆面與柔光窗邊. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
 
+Lighting integration lock:
+First establish one physically plausible key-light source inside the scene, such as daylight from a visible window or open street. Its direction and color temperature must affect the entire person consistently: forehead, cheeks, nose shadow, neck, arms, clothing folds, shoes, and bag. The side facing away from the source must be visibly darker and pick up the scene's ambient color. Add grounded contact shadows under both shoes and natural cast shadows on nearby surfaces. Match subject contrast, white balance, grain, depth of field, and edge softness to the background. The person must look photographed in the location, never cut out and pasted onto a background. No frontal beauty light, ring-light catchlights, shadowless face, studio fill, halo edges, or independent subject lighting.
+
 Composition:
-Full outfit readable within one second. Natural posture. Soft realistic light. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor.
+Full outfit readable within one second. Natural posture. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor. Fill the full 4:5 frame edge to edge with no white border or letterboxing.
 
 Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
+supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, pasted-on subject, mismatched key light, shadowless face, missing contact shadows, outfit changes between candidates, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.

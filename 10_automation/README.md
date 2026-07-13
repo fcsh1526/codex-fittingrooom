@@ -70,7 +70,7 @@ Each week should produce:
 - `generate_canva_handoff.py`: creates the Canva fill guide, placeholder JSON map, and asset slot CSV.
 - `build_weekly_packet.py`: converts rows from `04_prompts/item_prompt_database.csv` into a weekly run folder.
 - `generate_openai_images.py`: legacy non-reference API experiment; live use is blocked by default because it cannot preserve M01-M05 anchors.
-- `select_codex_assets.py`: selects cover/detail/crop assets from scored Codex review sheets and fills Canva asset slots. When no score sheet is passed, it discovers `generated_images/*/review_sheet.csv` automatically.
+- `select_codex_assets.py`: selects cover/detail/crop assets from scored Codex review sheets and fills Canva asset slots. When no score sheet is passed, it discovers `generated_images/*/review_sheet.csv` automatically. Google Drive inventory is optional; verified Canva IDs come from `canva_asset_inventory.csv`.
 - `select_grok_assets.py`: legacy compatibility module used internally by the Codex selector; do not use it as the active workflow entrypoint.
 - `validate_weekly_run.py`: validates required files, missing fields, disclosure, prompt safety terms, hashtag count, and Canva text length.
 - `record_post_metrics.py`: records publish URLs, 6h/24h metrics, and next-action decisions.

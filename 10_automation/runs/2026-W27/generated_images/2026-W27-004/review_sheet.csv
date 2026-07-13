@@ -1,4 +1,7 @@
-carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,commerce_value,publishable,status,notes
-2026-W27-004,W27-P004,M04,2026-W27-004_M04_candidate_A.png,Codex,5,5,5,5,5,yes,selected,"Strong cover: exact M04 identity, balanced butter-yellow vest and complete commute outfit."
-2026-W27-004,W27-P004,M04,2026-W27-004_M04_candidate_B.png,Codex,5,5,5,5,5,yes,backup,"Strong movement frame with clean butter-yellow shirt, cream trousers and natural walking anatomy."
-2026-W27-004,W27-P004,M04,2026-W27-004_M04_candidate_C.png,Codex,5,5,5,5,5,yes,backup,"Best detail frame: knit structure, shirt collar, trouser line and leather accessories stay clear."
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,commerce_value,publishable,status,notes
+2026-W27-004,W27-P004,M04,2026-W27-004_M04_candidate_A.png,Codex,5,4,5,2,1,4,3,no,rejected,Window direction is visible but the face remains evenly front-lit; subject lacks environmental falloff and feels pasted into the scene.
+2026-W27-004,W27-P004,M04,2026-W27-004_M04_candidate_B.png,Codex,5,3,3,2,1,1,2,no,rejected,Automatic rejection: butter-yellow knit vest and dark trousers changed into a yellow shirt and cream trousers; lighting also fails integration.
+2026-W27-004,W27-P004,M04,2026-W27-004_M04_candidate_C.png,Codex,5,4,5,2,1,4,3,no,rejected,Correct outfit family but the face is independently lit and does not inherit the strong side-window light.
+2026-W27-004,W27-P004,M04,2026-W27-004_M04_v2_candidate_A.png,Codex,5,5,5,4,4,5,5,yes,selected,"Visible image-right window now drives face, garment and floor lighting; butter-yellow vest and dark-brown trouser lock is correct."
+2026-W27-004,W27-P004,M04,2026-W27-004_M04_v2_candidate_B.png,Codex,5,5,5,4,4,5,5,yes,backup,"Exact vest, blouse, dark trousers, loafers and bag preserved in movement; coherent side light and grounded shadows."
+2026-W27-004,W27-P004,M04,2026-W27-004_M04_v2_candidate_C.png,Codex,5,5,5,4,4,5,5,yes,backup,"Same locked outfit and window-light setup; knit, collar and trouser details remain readable without wardrobe drift."

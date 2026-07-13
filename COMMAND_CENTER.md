@@ -112,7 +112,7 @@ Current state as of 2026-07-13:
 Perplexity index latest = 2026-W27
 Active run folder = 10_automation/runs/2026-W27
 Pipeline from Perplexity index has passed.
-W27 image production and asset selection are complete for all five carousel items.
+W27-001 is published. W27-002 through W27-005 v1 images are rejected; v2 A/B/C images were regenerated with lighting-integration and wardrobe-continuity locks.
 ```
 
 ## Current Top Item
@@ -120,12 +120,12 @@ W27 image production and asset selection are complete for all five carousel item
 ```text
 item = 2026-W27-002
 model = M02
-stage = canva_blocked_waiting_for_flat_png_asset
+stage = v2_review_then_canva_asset_registration
 template = B Symmetric
 package = 10_automation/runs/2026-W27/generated_images/2026-W27-002/codex_generation_handoff.md
 ```
 
-Current external gate: W27-002 through W27-005 have selected local and Drive PNG files, but the Drive URLs require Google sign-in and therefore cannot be passed to Canva's public URL uploader. Resolve them to verified flat-image Canva asset ids; W26 is archived and excluded from the queue.
+Current gate: review the v2 W27-002 through W27-005 candidates, register only approved v2 files as new Canva asset ids, then fill a fresh template copy. Google Drive is optional archive-only storage and must not block production. W26 remains archived and excluded from the queue.
 
 Invalidated Canva flat image assets:
 

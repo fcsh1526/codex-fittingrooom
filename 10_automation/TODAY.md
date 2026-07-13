@@ -46,7 +46,7 @@ The Canva draft is blocked because the previous fill reused split Canva assets. 
 - Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
 - Canva design URL: n/a
 - Stage: `canva_blocked_waiting_for_flat_png_asset`
-- Asset: `2026-W27-002_M02_candidate_A.png`
+- Asset: `2026-W27-002_M02_v2_candidate_A.png`
 - Package: `n/a`
 - Next action: Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.
 

@@ -1,4 +1,7 @@
-carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,commerce_value,publishable,status,notes
-2026-W27-005,W27-P005,M05,2026-W27-005_M05_candidate_A.png,Codex,5,5,5,5,5,yes,selected,"Strong cover: exact M05 identity, clear asymmetric scarf belt and complete wearable weekend outfit."
-2026-W27-005,W27-P005,M05,2026-W27-005_M05_candidate_B.png,Codex,5,5,5,5,5,yes,backup,"Strong travel movement frame with readable scarf knot, denim fit and natural walking posture."
-2026-W27-005,W27-P005,M05,2026-W27-005_M05_candidate_C.png,Codex,5,5,5,5,5,yes,backup,"Best detail frame: silk print, knot construction, belt loops and denim waistband are clear."
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,commerce_value,publishable,status,notes
+2026-W27-005,W27-P005,M05,2026-W27-005_M05_candidate_A.png,Codex,5,4,5,2,1,4,3,no,rejected,Bright frontal face and body do not follow the window source; weak subject/background integration.
+2026-W27-005,W27-P005,M05,2026-W27-005_M05_candidate_B.png,Codex,5,3,5,1,1,4,2,no,rejected,"Most obvious pasted-on result: bright neutral face against a darker warm street scene with no matching direction, color spill, or shadow falloff."
+2026-W27-005,W27-P005,M05,2026-W27-005_M05_candidate_C.png,Codex,5,4,5,2,1,4,3,no,rejected,Outfit is consistent but the subject is lit independently from the cafe environment.
+2026-W27-005,W27-P005,M05,2026-W27-005_M05_v2_candidate_A.png,Codex,5,5,5,5,5,5,5,yes,selected,"Strong cafe-window cover with directional facial falloff, warm counter bounce, grounded sneakers and exact scarf-belt placement."
+2026-W27-005,W27-P005,M05,2026-W27-005_M05_v2_candidate_B.png,Codex,5,5,5,5,5,5,5,yes,backup,"Movement frame preserves identical scarf threading, knot, outfit and bag while retaining coherent window and contact shadows."
+2026-W27-005,W27-P005,M05,2026-W27-005_M05_v2_candidate_C.png,Codex,5,5,5,5,5,5,5,yes,backup,"Detail-friendly full outfit with exact scarf lock and lighting that visibly responds to the image-right window."
