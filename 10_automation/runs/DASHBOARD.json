@@ -4,7 +4,7 @@
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "archived": 1,
-    "canva_blocked_waiting_for_flat_png_asset": 1
+    "ready_for_canva_test": 1
   },
   "runs": [
     {
@@ -31,8 +31,8 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W27",
-      "stage": "canva_blocked_waiting_for_flat_png_asset",
-      "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+      "stage": "ready_for_canva_test",
+      "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",

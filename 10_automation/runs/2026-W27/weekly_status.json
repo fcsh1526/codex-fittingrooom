@@ -2,8 +2,8 @@
   "run_dir": "10_automation\\runs\\2026-W27",
   "run_state": {},
   "stage": {
-    "stage": "canva_blocked_waiting_for_flat_png_asset",
-    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+    "stage": "ready_for_canva_test",
+    "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
     "blocking_items": [
       "2026-W27-002",
       "2026-W27-003",
@@ -14,14 +14,14 @@
   "packet": {
     "row_count": 5,
     "published_count": 1,
-    "ready_for_canva_test": [],
-    "canva_committed_ready_to_publish": [],
-    "canva_blocked_waiting_for_flat_png_asset": [
+    "ready_for_canva_test": [
       "2026-W27-002",
       "2026-W27-003",
       "2026-W27-004",
       "2026-W27-005"
     ],
+    "canva_committed_ready_to_publish": [],
+    "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
     "carousel_ids": [
@@ -35,7 +35,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 3089
+      "size": 2741
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -47,11 +47,11 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 4118
+      "size": 4454
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 2122
+      "size": 1890
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -124,7 +124,8 @@
     ]
   },
   "commands": [
-    "open 10_automation\\runs\\2026-W27/canva_automation_trial_log.md",
-    "open 10_automation\\runs\\2026-W27/generated_images/2026-W26-002"
+    "open 10_automation\\runs\\2026-W27/canva_fill_guide.md",
+    "open 10_automation\\runs\\2026-W27/canva_asset_plan.md",
+    "Open the approved Mira Canva v2 template and test-fill selected assets."
   ]
 }

@@ -10,24 +10,25 @@ Date: `2026-07-13`
 - Canva template: `B` Mira Template Master - B Symmetric
 - Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
 - Canva design URL: n/a
-- Stage: `canva_blocked_waiting_for_flat_png_asset`
+- Stage: `ready_for_canva_test`
 - Asset: `2026-W27-002_M02_v2_candidate_A.png`
-- Next action: Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.
+- Next action: Do not publish yet. Test-fill the approved Mira Canva v2 template with selected v2 assets, review crops, then decide whether to commit.
 
 ## Checklist
 
-- [ ] Do not export or publish the failed Canva draft.
-- [ ] Resolve the selected complete PNG/JPG assets to verified Canva image asset ids.
-- [ ] Confirm cover_image, motion_crop, and detail_image are whole flat image assets, not Magic Layers splits.
-- [ ] Duplicate the recommended registered Canva master template again.
-- [ ] Rerun the Canva fill only on the fresh duplicate.
+- [ ] Do not publish this carousel yet.
+- [ ] Test-fill the approved Mira Canva v2 template with A_v2, B_v2, and C_v2.
+- [ ] Review Canva crops for headroom, feet, face clarity, and cross-slide motion crop.
+- [ ] Commit Canva only if the preview is clean.
+- [ ] If crop fails, adjust Canva placement before export.
 
 ## Files To Open
 
 - `10_automation/canva_template_registry.md`
-- `10_automation/runs/2026-W27/canva_automation_trial_log.md`
 - `10_automation/runs/2026-W27/canva_fill_guide.md`
+- `10_automation/runs/2026-W27/canva_asset_plan.md`
 - `10_automation/runs/2026-W27/canva_asset_slots.csv`
+- `10_automation/runs/2026-W27/canva_placeholder_map.json`
 - `10_automation/runs/2026-W27/generated_images/2026-W26-002`
 
 ## Reply Template For Codex

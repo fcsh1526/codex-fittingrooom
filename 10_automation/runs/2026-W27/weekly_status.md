@@ -1,11 +1,11 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W27`
-Stage: `canva_blocked_waiting_for_flat_png_asset`
+Stage: `ready_for_canva_test`
 
 ## Next Action
 
-Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.
+Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.
 
 ## Blocking Items
 
@@ -17,11 +17,15 @@ Resolve the selected complete PNG/JPG images to verified Canva image asset ids, 
 ## Suggested Commands
 
 ```powershell
-open 10_automation\runs\2026-W27/canva_automation_trial_log.md
+open 10_automation\runs\2026-W27/canva_fill_guide.md
 ```
 
 ```powershell
-open 10_automation\runs\2026-W27/generated_images/2026-W26-002
+open 10_automation\runs\2026-W27/canva_asset_plan.md
+```
+
+```powershell
+Open the approved Mira Canva v2 template and test-fill selected assets.
 ```
 
 ## Summary
