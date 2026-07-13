@@ -3,6 +3,7 @@ import csv
 import json
 import re
 import sys
+from datetime import date, timedelta
 from pathlib import Path
 
 from mira_models import MODEL_IDS, validate_model_id
@@ -82,6 +83,9 @@ BAD_ASSET_STATUSES = {
 }
 
 
+ISO_WEEK_ID_PATTERN = re.compile(r"^(\d{4})-W(\d{2})(?:-test)?$")
+
+
 def has_encoding_drift(value):
     text = str(value or "")
     if "\ufffd" in text:
@@ -106,6 +110,16 @@ def add_issue(issues, severity, code, message):
     issues.append({"severity": severity, "code": code, "message": message})
 
 
+def iso_week_start(week_id):
+    match = ISO_WEEK_ID_PATTERN.fullmatch(clean(week_id))
+    if not match:
+        return None
+    try:
+        return date.fromisocalendar(int(match.group(1)), int(match.group(2)), 1)
+    except ValueError:
+        return None
+
+
 def validate_required_files(run_dir, issues):
     for file_name in REQUIRED_FILES:
         path = run_dir / file_name
@@ -125,6 +139,7 @@ def validate_packet_rows(run_dir, min_rows, issues):
         add_issue(issues, "error", "packet_row_count", f"Expected at least {min_rows} packet row(s), got {len(rows)}.")
 
     seen_ids = set()
+    seen_week_ids = set()
     for index, row in enumerate(rows, start=1):
         row_label = row.get("carousel_id") or f"row {index}"
         for field in PACKET_REQUIRED_FIELDS:
@@ -134,11 +149,18 @@ def validate_packet_rows(run_dir, min_rows, issues):
         if carousel_id in seen_ids:
             add_issue(issues, "error", "duplicate_carousel_id", f"Duplicate carousel_id: {carousel_id}.")
         seen_ids.add(carousel_id)
+        week_id = clean(row.get("week_id"))
+        if week_id:
+            seen_week_ids.add(week_id)
+            if not iso_week_start(week_id):
+                add_issue(issues, "error", "iso_week_id", f"{row_label}: invalid ISO week id `{week_id}`.")
         if clean(row.get("creator_name")) != "Mira":
             add_issue(issues, "warning", "creator_name", f"{row_label}: creator_name should be Mira.")
         model_profile_id = clean(row.get("model_profile_id"))
         if not validate_model_id(model_profile_id):
             add_issue(issues, "error", "model_profile_id", f"{row_label}: model_profile_id must be one of {sorted(MODEL_IDS)}.")
+    if len(seen_week_ids) > 1:
+        add_issue(issues, "error", "mixed_week_ids", f"weekly_content_packet.csv contains multiple week ids: {sorted(seen_week_ids)}.")
     return rows
 
 
@@ -152,6 +174,9 @@ def validate_daily_queue(run_dir, packet_rows, issues):
         add_issue(issues, "error", "daily_queue_row_count", f"daily_queue.csv should contain at least 5 rows, got {len(rows)}.")
 
     packet_ids = {clean(row.get("carousel_id")) for row in packet_rows}
+    packet_week_ids = {clean(row.get("week_id")) for row in packet_rows if clean(row.get("week_id"))}
+    expected_week_id = next(iter(packet_week_ids)) if len(packet_week_ids) == 1 else ""
+    expected_start = iso_week_start(expected_week_id) if expected_week_id else None
     required_fields = [
         "date",
         "daily_id",
@@ -177,6 +202,19 @@ def validate_daily_queue(run_dir, packet_rows, issues):
         seen_daily_ids.add(daily_id)
         if clean(row.get("carousel_id")) not in packet_ids:
             add_issue(issues, "error", "daily_queue_carousel_id", f"{row_label}: carousel_id is not in weekly_content_packet.csv.")
+        row_week_id = clean(row.get("week_id"))
+        if expected_week_id and row_week_id != expected_week_id:
+            add_issue(issues, "error", "daily_queue_week_id", f"{row_label}: week_id `{row_week_id}` does not match `{expected_week_id}`.")
+        if expected_start:
+            expected_date = (expected_start + timedelta(days=index - 1)).isoformat()
+            actual_date = clean(row.get("date"))
+            if actual_date != expected_date:
+                add_issue(
+                    issues,
+                    "error",
+                    "daily_queue_iso_date",
+                    f"{row_label}: date `{actual_date}` should be `{expected_date}` for ISO week `{expected_week_id}`.",
+                )
         if not validate_model_id(row.get("model_profile_id")):
             add_issue(issues, "error", "daily_queue_model_profile_id", f"{row_label}: model_profile_id must be one of {sorted(MODEL_IDS)}.")
     return rows

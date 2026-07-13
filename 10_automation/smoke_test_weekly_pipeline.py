@@ -10,6 +10,7 @@ TMP_ROOT = ROOT / "tmp" / "smoke_weekly_pipeline"
 sys.path.insert(0, str(ROOT / "10_automation"))
 
 from mira_models import MODEL_ROTATION, model_for_index
+from build_weekly_packet import week_start_date
 
 
 def rel(path):
@@ -112,6 +113,12 @@ def test_weekly_model_rotation_uses_all_five():
 
     w27_models = [model_for_index(index, week_id="2026-W27") for index in range(1, 6)]
     assert_equal(w27_models, MODEL_ROTATION, "W27 locked model order")
+
+
+def test_iso_week_dates():
+    assert_equal(str(week_start_date("2026-W27")), "2026-06-29", "ISO W27 Monday")
+    assert_equal(str(week_start_date("2026-W28")), "2026-07-06", "ISO W28 Monday")
+    assert_equal(str(week_start_date("2026-W29")), "2026-07-13", "ISO W29 Monday")
 
 
 def test_perplexity_index_resolver():
@@ -396,6 +403,7 @@ def test_visibility_test_package():
 
 def main():
     clean_tmp()
+    test_iso_week_dates()
     test_weekly_model_rotation_uses_all_five()
     test_perplexity_index_resolver()
     test_new_week_without_assets()

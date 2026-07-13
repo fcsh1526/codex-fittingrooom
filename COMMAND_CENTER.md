@@ -20,6 +20,16 @@ Current workflow:
 Perplexity weekly trends -> 5-post weekly packet -> daily queue -> internal model M01-M05 rotation -> reference-start image job -> image review -> asset selection -> Canva master duplicate -> publish -> metrics
 ```
 
+Week numbering rule:
+
+```text
+Use ISO 8601 week dates everywhere.
+Weeks start on Monday; W01 is the week containing the year's first Thursday.
+The Perplexity week id, run folder, packet week_id, carousel id, and daily queue dates must agree.
+Example: 2026-W27 = 2026-06-29 through 2026-07-05; 2026-W29 starts 2026-07-13.
+An unfinished ISO-week batch remains in the production queue until its five carousel items are completed; the current calendar week does not archive it automatically.
+```
+
 ## Canonical Files
 
 Use these as the highest-priority files:

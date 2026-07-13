@@ -17,7 +17,9 @@ Latest automation test:
 ```text
 2026-07-09 W27 Perplexity pipeline passed from https://mika-lin-weekly.pplx.app/data/index.json.
 Active run folder: 10_automation/runs/2026-W27.
-Current top item: 2026-W27-001.
+Current top item: 2026-W27-002; W27-001 is published.
+
+Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```
 
 Monetization is intentionally delayed until there is non-zero reach.
