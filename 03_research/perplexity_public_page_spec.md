@@ -21,11 +21,17 @@
 ## 可貼進 Perplexity Task 的 Prompt
 
 ```text
-你是 AI 虛擬穿搭創作者的全球流行趨勢研究員。請每週搜尋網路，整理本週適合女性虛擬模特兒影像創作的服飾流行單品與提示詞。研究範圍以世界潮流為上游來源，必須涵蓋國際精品設計師、日韓潮流品牌、歐美街頭/輕奢、快時尚與大眾流行。輸出使用繁體中文，並在商品搜尋、內容角度與導購層補上台灣可落地的表述。
+你是 AI 虛擬穿搭雜誌 Mira 的全球流行趨勢研究員。請每週搜尋網路，整理本週適合女性虛擬模特兒影像創作的服飾流行單品與提示詞。研究範圍以世界潮流為上游來源，必須涵蓋國際精品設計師、日韓潮流品牌、歐美街頭/輕奢、快時尚與大眾流行。顯示欄位使用台灣繁體中文，國際英文原詞只保留在來源、notes 與搜尋關鍵字區。
 
 週次必須採 ISO 8601：星期一為每週第一天，W01 為包含年度第一個星期四的週。標題的 YYYY-WXX、本週日期範圍、公開網址、index.json 與 CSV week 欄位必須完全一致。
 
 請輸出成一個可公開分享的網頁，格式必須固定，讓後續可以被人工或 Codex 拆解成 CSV。不要把趨勢來源限縮在台灣；台灣只用於把全球趨勢轉成可搜尋、可購買、可發文、可導購的內容。
+
+顯示語言規則：
+- trend_name、clothing_item、occasion 與平台文案只能使用自然台灣繁中，不得中英文混排。
+- 英文國際原詞放在 global_context、Product Search Keywords 或 CSV notes。
+- Capri Pants → 七分褲；Fisherman Sandals → 漁夫涼鞋；Sheer Layering → 透膚疊穿；Butter Yellow → 奶油黃；Scarf-as-Belt → 絲巾腰帶。
+- Perplexity 不分配 M01-M05；人物、表情、姿勢、鏡頭與背景由 Codex 統一控制。
 
 必要區塊如下：
 
@@ -94,7 +100,7 @@
 請最後輸出一段 CSV code block，欄位必須完全如下，不要多欄、不要少欄：
 id,week,trend_name,audience,occasion,clothing_item,color_palette,fabric,fit,styling_rules,model_identity,pose,background,camera_style,negative_prompt,shopping_keywords,affiliate_links,status,notes
 
-model_identity 固定填 Mika Lin。
+model_identity 固定填 assigned_by_codex。
 negative_prompt 固定填：AI virtual outfit only; no real person; no celebrity; no childlike appearance; no nudity; no logo.
 affiliate_links 先留空。
 status 固定填 draft。
@@ -111,6 +117,7 @@ notes 可放資料來源或操作提醒。
 - 是否有台灣可搜尋商品字詞。
 - 是否保留全球趨勢來源，不把研究限縮成台灣流行。
 - 是否每個主題都有平台內容角度與 CTA。
+- 顯示欄位是否為自然台灣繁中，英文原詞是否只出現在來源或 notes。
 
 ## 不建議的輸出
 

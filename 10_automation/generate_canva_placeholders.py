@@ -2,6 +2,8 @@
 import csv
 from pathlib import Path
 
+from fashion_language_zh_tw import display_mood_line, localize_display_text
+
 
 FIELDNAMES = [
     "carousel_id",
@@ -23,24 +25,14 @@ def compact(text, limit=34):
 
 
 def mood_line(row):
-    clothing_item = value(row, "clothing_item", "")
-    occasion = value(row, "occasion", "今天")
-    trend_name = value(row, "trend_name", "")
-
-    if clothing_item:
-        base = f"{clothing_item}，讓{occasion}多一點記憶點。"
-    elif trend_name:
-        base = f"{occasion}，穿一點{trend_name}。"
-    else:
-        base = "今天，穿得簡單但有記憶點。"
-    return compact(base, 24)
+    return display_mood_line(row)
 
 
 def build_placeholders(row):
     carousel_id = value(row, "carousel_id", "weekly-carousel")
-    trend_name = value(row, "trend_name", "本週穿搭")
-    clothing_item = value(row, "clothing_item", trend_name)
-    occasion = value(row, "occasion", "日常")
+    trend_name = localize_display_text(value(row, "trend_name", "本週穿搭"))
+    clothing_item = localize_display_text(value(row, "clothing_item", trend_name))
+    occasion = localize_display_text(value(row, "occasion", "日常"))
 
     caption = (
         f"{compact(clothing_item, 24)}，給{occasion}一點生活感。\n\n"

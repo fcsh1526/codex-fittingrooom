@@ -83,6 +83,8 @@ def score_row(row):
         "ai_realism",
         "scene_lighting_integration",
         "outfit_continuity",
+        "expression_liveliness",
+        "pose_variation",
         "commerce_value",
     ]
     legacy_fields = [
@@ -150,6 +152,8 @@ def discover_job_score_rows(run_dir):
                     "ai_realism",
                     "scene_lighting_integration",
                     "outfit_continuity",
+                    "expression_liveliness",
+                    "pose_variation",
                     "commerce_value",
                     "identity_consistency",
                     "body_integrity",
@@ -175,7 +179,7 @@ def passes_publishable_gates(row):
         return False
     if "ai_realism" in row:
         required = ["outfit_clarity", "ai_realism"]
-        for field in ["scene_lighting_integration", "outfit_continuity"]:
+        for field in ["scene_lighting_integration", "outfit_continuity", "expression_liveliness", "pose_variation"]:
             if field in row:
                 required.append(field)
     else:

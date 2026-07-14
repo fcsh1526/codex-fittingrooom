@@ -16,6 +16,8 @@ REVIEW_FIELDS = [
     "ai_realism",
     "scene_lighting_integration",
     "outfit_continuity",
+    "expression_liveliness",
+    "pose_variation",
     "commerce_value",
     "publishable",
     "status",
@@ -125,11 +127,30 @@ def prompt_for(packet, profile, reference, variant):
         "B": "movement or street-style variation",
         "C": "closer outfit-detail-friendly variation while keeping the outfit readable",
     }[variant]
+    variant_direction = {
+        "A": (
+            "Use an asymmetric three-quarter standing pose with a natural weight shift. "
+            "Keep the eyes attentive and add a restrained micro-smile or relaxed engaged expression. "
+            "At least one hand should interact naturally with the bag, jacket, pocket, railing, or nearby object; "
+            "do not leave both arms straight and symmetrical."
+        ),
+        "B": (
+            "Capture a candid mid-step or turning moment with visible body movement. "
+            "Use an off-camera gaze or a brief glance back toward camera, natural hair and fabric motion, "
+            "and one hand adjusting the bag, scarf, sleeve, or hair. Do not repeat Candidate A's stance or expression."
+        ),
+        "C": (
+            "Use a closer three-quarter or outfit-detail-friendly composition with a different camera height and body angle. "
+            "The model may lean lightly, pause beside furniture, or turn across the frame while keeping the full outfit readable. "
+            "Use a warm attentive expression different from A and B; avoid a centered passport-photo stance."
+        ),
+    }[variant]
     return f"""Candidate {variant}: {variant_scene}
 
 Attach both reference start images to the image-generation request. File paths alone are not enough:
 - Face anchor: {reference['face_path']}
 - Full-body anchor: {reference['full_path']}
+{"- Wardrobe-lock reference: accepted Candidate A from this same job" if variant in {"B", "C"} else "- Wardrobe-lock reference: Candidate A is created in this step"}
 
 Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
 
@@ -138,6 +159,9 @@ Use internal model {packet['model_profile_id']} only as a private production pro
 Model profile:
 {profile.get('visual_profile', '')}
 Prompt visual age language: {profile.get('prompt_age_language', '')}
+
+Reference-anchor use lock:
+The face image locks identity, facial geometry, skin character, and hair baseline only. The full-body image locks identity and body proportions only. Do not copy the references' neutral expression, straight-on passport angle, centered stance, hand position, studio background, lighting, or reference outfit. Preserve identity while creating a genuinely new lifestyle photograph.
 
 Age rendering rules:
 {chr(10).join(AGE_RENDERING_RULES)}
@@ -163,8 +187,11 @@ First establish one physically plausible key-light source inside the scene, such
 Composition:
 Full outfit readable within one second. Natural posture. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and body proportions remain consistent with the attached full-body anchor. Fill the full 4:5 frame edge to edge with no white border or letterboxing.
 
+Candidate-specific direction:
+{variant_direction}
+
 Avoid:
-supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, pasted-on subject, mismatched key light, shadowless face, missing contact shadows, outfit changes between candidates, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
+supermodel proportions, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, pasted-on subject, mismatched key light, shadowless face, missing contact shadows, outfit changes between candidates, repeated A/B/C pose, repeated expression, centered ID-photo stance, both arms hanging symmetrically, frozen face, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
 """
 
 

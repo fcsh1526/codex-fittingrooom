@@ -51,7 +51,7 @@
       "content_buckets": ["all"],
       "reader_projection": "A polished mature reader who wants modern outfits that feel current, composed, elegant, and wearable without looking overly young or overly formal.",
       "fixed_hair_baseline": "straight dark brown chin-to-shoulder bob with a clean side part",
-      "visual_profile": "East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with smooth well-maintained texture, calm intelligent expression, slightly taller average-slim healthy proportions, composed editorial presence.",
+      "visual_profile": "East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with smooth well-maintained texture, attentive intelligent eyes with naturally responsive subtle expressions, slightly taller average-slim healthy proportions, composed but not rigid editorial presence.",
       "style_range": "button shirts, knit tops, blazers, sheer layers, tailored trousers, midi skirts, denim, dresses, loafers, low heels, refined flats, structured bags, quiet neutral layers, polished casual pieces.",
       "daily_scenes": "office lobby, cafe before work, shaded city sidewalk, bookstore street, covered walkway, quiet shopping street, simple studio with natural shadows.",
       "avoid": "making her look teen, making her look elderly, overly smoothed skin, wrinkle-focused aging, plastic beauty lighting, hard power-suit stereotype, luxury hotel background, runway pose, visible logos"
@@ -64,7 +64,7 @@
       "content_buckets": ["all"],
       "reader_projection": "A very young adult reader who wants clean daily outfits that feel current, simple, and practical without drifting into teen or school styling.",
       "fixed_hair_baseline": "dark brown shoulder-length bob with a soft side part",
-      "visual_profile": "East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, calm practical expression, petite-to-medium healthy proportions, clean daily polish.",
+      "visual_profile": "East Asian woman with an around-20 youthful adult look, soft oval face, fresh natural skin with visible human texture, dark brown shoulder-length bob with a soft side part, bright attentive eyes with relaxed naturally responsive expressions, petite-to-medium healthy proportions, clean daily polish.",
       "style_range": "simple shirts, T-shirts, denim, relaxed trousers, short jackets, clean cardigans, simple skirts, easy dresses, sneakers, loafers, ballet flats, canvas or nylon bags, practical youthful basics.",
       "daily_scenes": "neighborhood street, casual cafe, bookstore street, covered sidewalk, simple studio with natural shadows, rainy MRT exit, department store fitting area.",
       "avoid": "teen styling, childlike styling, school-uniform look, over-cute idol styling, excessive sweetness, luxury styling, mature-elegant styling, hard executive styling, obvious AI smoothness, wrinkle-based age cues"

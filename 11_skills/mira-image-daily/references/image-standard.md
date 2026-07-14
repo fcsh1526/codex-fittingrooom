@@ -74,6 +74,14 @@ C = closer outfit-detail-friendly variation
 
 All candidates are the same outfit session. A/B/C must keep the exact same garments, layers, palette, shoes, bag, jewelry, and styling placement. Only pose, camera distance, and framing may change.
 
+Reference images lock identity, hair baseline, and body proportions only. They do not prescribe expression, pose, hand position, camera angle, background, lighting, or outfit.
+
+- A: asymmetric three-quarter stance, natural weight shift, attentive eyes, subtle expression.
+- B: candid mid-step or turning movement, different gaze, natural hand interaction.
+- C: closer or detail-friendly angle, different camera height and body direction.
+
+Reject a set when A/B/C repeat the same centered stance, straight arms, gaze, or frozen expression.
+
 Stop if candidate A is already strong. Do not keep generating just to fill slots.
 
 ## Review Rule
@@ -90,4 +98,6 @@ Reject beautiful images if they are not usable for commerce:
 - shadowless or front-lit face when the scene light is directional
 - missing shoe contact shadows or halo/cutout edges
 - any garment, color, shoe, bag, or accessory drift across A/B/C
+- frozen or passport-like expression
+- repeated pose, gaze, and hand position across A/B/C
 - white borders or letterboxing

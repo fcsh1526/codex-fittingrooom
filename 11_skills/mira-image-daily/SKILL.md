@@ -68,6 +68,8 @@ The script writes:
 - Do not publish or render model IDs, names, labels, prompt notes, reference-image metadata, or numeric true ages.
 - Generate 2-3 candidates first. Stop early if one is strong enough.
 - Generate A first. B/C must reference A and preserve its exact outfit; independent B/C generation without the A wardrobe lock is not allowed.
+- Treat face/full-body references as identity and proportion anchors only. Never copy their neutral expression, centered stance, hand position, studio background, or reference outfit.
+- A/B/C must differ in body angle, gaze, hand interaction, camera distance, and expression while preserving identity and wardrobe.
 - Prefer one excellent full-body image plus smart crops over three weak unrelated images.
 
 Prompt age rule:
@@ -106,9 +108,11 @@ ai_realism
 commerce_value
 scene_lighting_integration
 outfit_continuity
+expression_liveliness
+pose_variation
 publishable
 status
 notes
 ```
 
-Only mark `publishable = yes` when `outfit_clarity >= 4`, `ai_realism >= 4`, `scene_lighting_integration >= 4`, and `outfit_continuity >= 4`. Any pasted-on lighting, missing contact shadow, white border, or A/B/C wardrobe drift is an automatic rejection. User visual approval gates Canva readiness in the wider automation flow.
+Only mark `publishable = yes` when `outfit_clarity >= 4`, `ai_realism >= 4`, `scene_lighting_integration >= 4`, `outfit_continuity >= 4`, `expression_liveliness >= 4`, and `pose_variation >= 4`. Any pasted-on lighting, missing contact shadow, white border, A/B/C wardrobe drift, frozen expression, or repeated centered pose is an automatic rejection. User visual approval gates Canva readiness in the wider automation flow.

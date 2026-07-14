@@ -7,6 +7,7 @@ from pathlib import Path
 from generate_canva_handoff import write_canva_handoff
 from generate_canva_placeholders import FIELDNAMES as CANVA_FIELDS
 from generate_canva_placeholders import build_placeholders
+from fashion_language_zh_tw import localize_packet_fields
 from mira_models import load_model_roster, model_for_index
 
 
@@ -66,6 +67,8 @@ IMAGE_REVIEW_FIELDS = [
     "ai_realism",
     "scene_lighting_integration",
     "outfit_continuity",
+    "expression_liveliness",
+    "pose_variation",
     "commerce_value",
     "publishable",
     "status",
@@ -140,6 +143,7 @@ def infer_bucket(row):
 
 
 def to_packet_row(row, week_id, index):
+    row = localize_packet_fields(row)
     prompt_id = clean(row.get("id") or row.get("prompt_id") or f"P{index:03d}")
     bucket = infer_bucket(row)
     model_profile_id = model_for_index(index, week_id=week_id)

@@ -49,6 +49,7 @@ text-heavy carousel -> comment bait -> product list -> hard sell
 - Vertical guide lines: `x = 1080`, `x = 2160`
 - Safe margin for small text: `90 px`
 - Recommended Canva setup: one wide master design, then export and slice into three carousel images.
+- Cross-boundary requirement: at least two image frames must extend 100-200 px across `x = 1080` or `x = 2160`; merely touching a cut line does not count.
 
 ## Canva Element Names
 
@@ -81,6 +82,7 @@ slide2_line
 - Use the strongest full-body or near-full-body lifestyle image.
 - Image should cover 85-95% of the slide.
 - The image may extend slightly past the Slide 1 / Slide 2 cut line if the face and head remain safely inside the frame.
+- Production target: `cover_image` crosses `x = 1080` by 120-200 px.
 - No large headline, trend name, CTA, icon, sticker, or text block.
 - Outfit shape must be clear within one second.
 
@@ -90,6 +92,7 @@ slide2_line
 - Main role: quiet pause with one short sentence.
 - Use a cinematic crop, outfit detail, blurred background crop, or simple lifestyle context image.
 - At least one crop, insert, or background element should create a swipe reveal across a slide boundary.
+- Production target: `motion_crop` either begins before `x = 1080` or crosses `x = 2160` by at least 100 px.
 - Only text placeholder:
 
 ```text
@@ -97,6 +100,8 @@ slide2_line
 ```
 
 - Text should be one short sentence, placed lower-left or lower-center with generous whitespace.
+- Weekly text must contain an intentional line break supplied by automation; do not rely on Canva auto-wrap.
+- Text must occupy a face-free safe zone and remain at least 90 px from both cut lines.
 - Avoid labels, bullets, CTA, disclosure, product names, or explanatory copy.
 
 ### Slide 3 - Closing Image
@@ -107,6 +112,7 @@ slide2_line
 - If only one image exists, reuse it with a different crop.
 - If enough strong assets exist, this slide can use 2-3 horizontal film-still crops, but only when the outfit remains readable and the result does not feel crowded.
 - Optional static brand name: `Mira`, bottom-right, very small.
+- Production target: `detail_image` begins 80-140 px before `x = 2160` to create a reveal into slide 3.
 - No CTA wall.
 
 ## Style Rules
