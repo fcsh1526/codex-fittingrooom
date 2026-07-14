@@ -1,4 +1,7 @@
-carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,commerce_value,publishable,status,notes
-2026-W29-001,W29-P001,M01,2026-W29-001_M01_candidate_A.png,Codex,,,,,,,,,,pending,review,Score after generation.
-2026-W29-001,W29-P001,M01,2026-W29-001_M01_candidate_B.png,Codex,,,,,,,,,,pending,review,Score after generation.
-2026-W29-001,W29-P001,M01,2026-W29-001_M01_candidate_C.png,Codex,,,,,,,,,,pending,review,Score after generation.
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,commerce_value,publishable,status,notes
+2026-W29-001,W29-P001,M01,2026-W29-001_M01_candidate_A.png,Codex,3,,5,5,4,5,5,4,4,5,no,needs_proportion_review,User flagged an overly elongated fashion proportion versus the approved full-body anchor; blocked from Canva.
+2026-W29-001,W29-P001,M01,2026-W29-001_M01_candidate_B.png,Codex,3,,5,5,4,5,5,4,5,5,no,needs_proportion_review,User flagged an overly elongated fashion proportion versus the approved full-body anchor; blocked from Canva.
+2026-W29-001,W29-P001,M01,2026-W29-001_M01_candidate_C.png,Codex,3,,5,5,4,5,5,4,4,5,no,needs_proportion_review,User flagged an overly elongated fashion proportion versus the approved full-body anchor; blocked from Canva.
+2026-W29-001,W29-P001,M01,2026-W29-001_M01_v2_candidate_A.png,Codex,5,4,5,5,4,5,5,4,4,5,yes,approved_v2,Fixed 70mm geometry and anchor-measured body proportions; approved as the wardrobe and camera lock.
+2026-W29-001,W29-P001,M01,2026-W29-001_M01_v2_candidate_B.png,Codex,5,4,5,5,4,5,5,4,4,5,yes,approved_v2,Matches candidate A head size waist placement leg ratio subject scale lighting and outfit while varying pose and gaze.
+2026-W29-001,W29-P001,M01,2026-W29-001_M01_v2_candidate_C.png,Codex,5,4,5,5,4,5,5,4,4,5,yes,approved_v2,Matches candidate A camera geometry and realistic body ratio; full outfit and grounded shoes remain visible.

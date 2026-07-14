@@ -68,6 +68,9 @@ IMAGE_BRIEF_REQUIRED_TERMS = [
     "sexualized pose",
     "childlike styling",
     "celebrity likeness",
+    "Body proportion lock",
+    "70mm full-frame-equivalent",
+    "No low angle",
 ]
 
 

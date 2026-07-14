@@ -29,6 +29,9 @@ single virtual influencer, selfie diary, runway editorial, luxury ad campaign, p
 ## Image Requirements
 
 - Full outfit readable in one second.
+- Body proportions must match the approved full-body anchor: head-to-height ratio, shoulder width, torso length, hip placement, knee height, and lower-leg length.
+- Use 70mm full-frame-equivalent perspective with a level optical axis and lower-chest-to-sternum camera height. No low angle or wide-angle elongation.
+- Keep A/B/C at the same camera height, focal length, subject distance, and approximately 78-82% crown-to-sole frame occupancy.
 - Outfit reflects the global trend, but is simplified into daily styling.
 - Model looks approachable, not remote or celebrity-like.
 - Scene supports the outfit and target occasion.
@@ -72,13 +75,13 @@ B = movement or street-style variation
 C = closer outfit-detail-friendly variation
 ```
 
-All candidates are the same outfit session. A/B/C must keep the exact same garments, layers, palette, shoes, bag, jewelry, and styling placement. Only pose, camera distance, and framing may change.
+All candidates are the same outfit session. A/B/C must keep the exact same garments, layers, palette, shoes, bag, jewelry, styling placement, body proportions, lens, camera height, distance, horizon, and person scale. Only lateral position, pose, body angle, gaze, hand interaction, and expression may change.
 
 Reference images lock identity, hair baseline, and body proportions only. They do not prescribe expression, pose, hand position, camera angle, background, lighting, or outfit.
 
 - A: asymmetric three-quarter stance, natural weight shift, attentive eyes, subtle expression.
 - B: candid mid-step or turning movement, different gaze, natural hand interaction.
-- C: closer or detail-friendly angle, different camera height and body direction.
+- C: detail-friendly pose at the same camera geometry; Canva creates the closer crop later.
 
 Reject a set when A/B/C repeat the same centered stance, straight arms, gaze, or frozen expression.
 
@@ -89,6 +92,9 @@ Stop if candidate A is already strong. Do not keep generating just to fill slots
 Reject beautiful images if they are not usable for commerce:
 
 - outfit unclear
+- head size, torso length, waist-to-knee ratio, or knee-to-ankle ratio drifting from the approved full-body anchor
+- inconsistent body-to-leg proportions across A/B/C
+- tiny head, nine-head fashion elongation, low-angle leg stretching, or wide-angle perspective distortion
 - too glamorous
 - too artificial
 - too expensive-looking for the target

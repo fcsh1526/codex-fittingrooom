@@ -179,18 +179,34 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "blocking_items": [],
         }
 
-    if packet.get("canva_blocked_waiting_for_flat_png_asset"):
-        return {
-            "stage": "canva_blocked_waiting_for_flat_png_asset",
-            "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
-            "blocking_items": packet.get("canva_blocked_waiting_for_flat_png_asset"),
-        }
-
     if quality["status"] != "pass":
         return {
             "stage": "quality_gate_not_passed",
             "next_action": "Run validate_weekly_run.py and fix all errors before producing images or editing Canva.",
             "blocking_items": [f"quality_status={quality['status']}"],
+        }
+
+    # Keep the weekly production line moving until every carousel has image
+    # assets. One earlier carousel waiting for Canva must not hide later image
+    # jobs that are still incomplete.
+    if assets["missing_cover"]:
+        if assets["review_template_exists"] and assets["selection_rows"]:
+            next_action = "Continue generating and scoring the remaining Codex image jobs, then rerun select_codex_assets.py. Canva work for already selected carousels can proceed in parallel."
+        elif assets["selection_exists"]:
+            next_action = "Review the remaining image jobs, score publishable A/B/C sets, then rerun select_codex_assets.py."
+        else:
+            next_action = "Use the Codex generation handoff to generate workspace images, score them in image_review_template.csv, then run select_codex_assets.py."
+        return {
+            "stage": "needs_image_asset_selection",
+            "next_action": next_action,
+            "blocking_items": assets["missing_cover"],
+        }
+
+    if packet.get("canva_blocked_waiting_for_flat_png_asset"):
+        return {
+            "stage": "canva_blocked_waiting_for_flat_png_asset",
+            "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+            "blocking_items": packet.get("canva_blocked_waiting_for_flat_png_asset"),
         }
 
     if packet.get("ready_for_canva_test"):
@@ -216,19 +232,6 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "stage": "ready_for_canva_and_publish",
             "next_action": "Use the selected image assets and Canva handoff to fill the next carousel, then export and publish it.",
             "blocking_items": ready_for_canva,
-        }
-
-    if assets["missing_cover"]:
-        if assets["review_template_exists"] and assets["selection_rows"]:
-            next_action = "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet."
-        elif assets["selection_exists"]:
-            next_action = "Review the asset selection CSV, then rerun select_codex_assets.py with a scored image sheet."
-        else:
-            next_action = "Use the Codex generation handoff to generate workspace images, score them in image_review_template.csv, then run select_codex_assets.py."
-        return {
-            "stage": "needs_image_asset_selection",
-            "next_action": next_action,
-            "blocking_items": assets["missing_cover"],
         }
 
     if not publishing["published"]:
@@ -281,8 +284,11 @@ def command_suggestions(run_dir, stage):
         suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
         suggestions.append("Open the registered active Mira Canva master template and test-fill selected assets.")
     elif stage == "canva_blocked_waiting_for_flat_png_asset":
-        suggestions.append(f"open {run_dir_str}/canva_automation_trial_log.md")
-        suggestions.append(f"open {run_dir_str}/generated_images/2026-W26-002")
+        visual_review = run_dir / "W29_v2_VISUAL_REVIEW.html"
+        if visual_review.exists():
+            suggestions.append(f"open {visual_review}")
+        suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
+        suggestions.append(f"open {run_dir_str}/generated_images")
     elif stage == "ready_for_canva_and_publish":
         suggestions.append(f"open {run_dir_str}/canva_fill_guide.md")
         suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")

@@ -78,6 +78,7 @@ def number(value):
 def score_row(row):
     codex_fields = [
         "model_consistency",
+        "body_proportion_consistency",
         "reader_relatability",
         "outfit_clarity",
         "ai_realism",
@@ -147,6 +148,7 @@ def discover_job_score_rows(run_dir):
                 clean(row.get(field))
                 for field in [
                     "model_consistency",
+                    "body_proportion_consistency",
                     "reader_relatability",
                     "outfit_clarity",
                     "ai_realism",
@@ -179,7 +181,7 @@ def passes_publishable_gates(row):
         return False
     if "ai_realism" in row:
         required = ["outfit_clarity", "ai_realism"]
-        for field in ["scene_lighting_integration", "outfit_continuity", "expression_liveliness", "pose_variation"]:
+        for field in ["body_proportion_consistency", "scene_lighting_integration", "outfit_continuity", "expression_liveliness", "pose_variation"]:
             if field in row:
                 required.append(field)
     else:

@@ -1,11 +1,11 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W29`
-Stage: `needs_image_asset_selection`
+Stage: `canva_blocked_waiting_for_flat_png_asset`
 
 ## Next Action
 
-Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.
+Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.
 
 ## Blocking Items
 
@@ -18,21 +18,21 @@ Fill the image review template after reviewing Codex outputs, then rerun select_
 ## Suggested Commands
 
 ```powershell
-open 10_automation\runs\2026-W29/image_generation_briefs.md
+open 10_automation\runs\2026-W29\W29_v2_VISUAL_REVIEW.html
 ```
 
 ```powershell
-python 10_automation/select_codex_assets.py --run-dir 10_automation\runs\2026-W29 --provider Codex --score-sheet 10_automation\runs\2026-W29/image_review_template.csv --drive-inventory path_to_image_inventory.csv
+open 10_automation\runs\2026-W29/canva_asset_plan.md
 ```
 
 ```powershell
-python 10_automation/validate_weekly_run.py --run-dir 10_automation\runs\2026-W29 --min-rows 1 --require-assets
+open 10_automation\runs\2026-W29/generated_images
 ```
 
 ## Summary
 
 - Packet rows: `5`
 - Quality: `pass`
-- Cover assets selected: `0` / `5`
+- Cover assets selected: `5` / `5`
 - Published: `False`
 - Metric checkpoints: `0`

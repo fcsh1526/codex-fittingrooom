@@ -69,7 +69,9 @@ The script writes:
 - Generate 2-3 candidates first. Stop early if one is strong enough.
 - Generate A first. B/C must reference A and preserve its exact outfit; independent B/C generation without the A wardrobe lock is not allowed.
 - Treat face/full-body references as identity and proportion anchors only. Never copy their neutral expression, centered stance, hand position, studio background, or reference outfit.
-- A/B/C must differ in body angle, gaze, hand interaction, camera distance, and expression while preserving identity and wardrobe.
+- A/B/C must differ in body angle, gaze, hand interaction, lateral position, and expression while preserving identity, wardrobe, body proportions, focal length, camera height, subject distance, and person scale.
+- Use a 70mm full-frame-equivalent perspective, level optical axis, and lower-chest-to-sternum camera height. Never use a low angle or wide-angle perspective for full-body images.
+- Keep the crown-to-sole figure at roughly 78-82% of frame height across A/B/C. Canva handles closer crops later.
 - Prefer one excellent full-body image plus smart crops over three weak unrelated images.
 
 Prompt age rule:
@@ -102,6 +104,7 @@ After generation, update the review sheet with:
 
 ```text
 model_consistency
+body_proportion_consistency
 reader_relatability
 outfit_clarity
 ai_realism
@@ -115,4 +118,4 @@ status
 notes
 ```
 
-Only mark `publishable = yes` when `outfit_clarity >= 4`, `ai_realism >= 4`, `scene_lighting_integration >= 4`, `outfit_continuity >= 4`, `expression_liveliness >= 4`, and `pose_variation >= 4`. Any pasted-on lighting, missing contact shadow, white border, A/B/C wardrobe drift, frozen expression, or repeated centered pose is an automatic rejection. User visual approval gates Canva readiness in the wider automation flow.
+Only mark `publishable = yes` when `body_proportion_consistency >= 4`, `outfit_clarity >= 4`, `ai_realism >= 4`, `scene_lighting_integration >= 4`, `outfit_continuity >= 4`, `expression_liveliness >= 4`, and `pose_variation >= 4`. Any body-to-leg ratio drift, fashion-elongated anatomy, pasted-on lighting, missing contact shadow, white border, A/B/C wardrobe drift, frozen expression, or repeated centered pose is an automatic rejection. User visual approval gates Canva readiness in the wider automation flow.
