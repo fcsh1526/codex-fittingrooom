@@ -100,7 +100,7 @@ slide2_line
 ```
 
 - Text should be one short sentence, placed lower-left or lower-center with generous whitespace.
-- Weekly text must contain an intentional line break supplied by automation; do not rely on Canva auto-wrap.
+- Weekly text is concise English editorial mood copy with an intentional line break supplied by automation; do not rely on Canva auto-wrap.
 - Text must occupy a face-free safe zone and remain at least 90 px from both cut lines.
 - Avoid labels, bullets, CTA, disclosure, product names, or explanatory copy.
 
@@ -142,7 +142,7 @@ Use a maximum of 3 colors per slide. Use the accent color sparingly.
 
 ## Typography
 
-- Chinese sentence: `Noto Serif TC` or `Noto Sans TC`
+- English mood sentence: `Cormorant Garamond`, `Libre Baskerville`, or another restrained editorial serif available in the template
 - Small brand / label: `Inter Medium` or `DM Mono`
 - Maximum 2 typefaces across the carousel.
 - Minimum readable size on mobile: `24 pt` on a 1080 px wide slide.

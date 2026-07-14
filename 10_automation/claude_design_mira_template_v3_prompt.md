@@ -22,7 +22,8 @@ Required editable layers:
 - optional locked scene_backplate, boundary_insert, grain_overlay, brand_mark
 
 Text safety:
-- slide2_line is Traditional Chinese only and contains exactly two intentional lines.
+- slide2_line is concise English editorial mood copy and contains exactly two intentional lines, usually 2-4 words per line.
+- Product names, shopping terms, and explanatory copy do not appear on the Canva image; they remain in the Taiwan Traditional Chinese caption and data layer.
 - Reserve a calm text-safe zone in slide 2 that does not overlap a face.
 - Text must stay at least 90 px away from x=1080 and x=2160.
 - Do not rely on automatic wrapping. The supplied line break is part of the content.
@@ -37,7 +38,7 @@ Before returning the design, verify numerically:
 1. Canvas is 3240 x 1350.
 2. Cuts remain x=1080 and x=2160.
 3. At least two image frames cross those cuts by 100 px or more.
-4. slide2_line is in a face-free safe zone.
+4. The two-line English slide2_line is in a face-free safe zone.
 5. The three exported slices still work individually while clearly revealing shared imagery during a swipe.
 ```
 

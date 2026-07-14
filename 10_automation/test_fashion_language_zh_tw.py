@@ -18,12 +18,12 @@ class FashionLanguageZhTwTests(unittest.TestCase):
             }
         )
         self.assertEqual(localized["trend_name"], "奶油黃")
-        self.assertEqual(localized["clothing_item"], "漁夫涼鞋＋wide trousers")
+        self.assertEqual(localized["clothing_item"], "漁夫涼鞋＋寬褲")
         self.assertEqual(localized["occasion"], "旅行與戶外")
 
-    def test_canva_line_has_intentional_two_line_break(self):
+    def test_canva_line_is_english_editorial_copy_with_two_lines(self):
         line = display_mood_line({"clothing_item": "Fisherman 涼鞋+寬褲"})
-        self.assertEqual(line, "漁夫涼鞋搭寬褲\n旅行走路也輕盈")
+        self.assertEqual(line, "Light Steps.\nOpen Roads.")
         self.assertEqual(len(line.splitlines()), 2)
 
 

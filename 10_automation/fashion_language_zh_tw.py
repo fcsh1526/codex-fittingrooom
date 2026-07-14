@@ -4,6 +4,7 @@ import re
 TERM_RULES = [
     (r"卡普里褲|\bCapri(?:\s+Pants?)?\b", "七分褲"),
     (r"Fisherman\s*涼鞋|\bFisherman(?:\s+Sandals?)?\b", "漁夫涼鞋"),
+    (r"\b(?:wide[- ]leg(?:ged)?|wide)\s+(?:trousers|pants)\b", "寬褲"),
     (r"\bSheer\s+Layering\b", "透膚疊穿"),
     (r"\bButter\s+Yellow\b", "奶油黃"),
     (r"\bScarf[- ]as[- ]Belt\b", "絲巾腰帶"),
@@ -39,17 +40,15 @@ def display_mood_line(row):
     trend = localize_display_text(row.get("trend_name", ""))
 
     recipes = [
-        ("七分褲", "七分褲配簡潔上衣\n城市散步也俐落"),
-        ("漁夫涼鞋", "漁夫涼鞋搭寬褲\n旅行走路也輕盈"),
-        ("奶油黃", "奶油黃疊穿\n通勤清爽有精神"),
-        ("絲巾腰帶", "絲巾腰帶點亮牛仔褲\n週末穿搭更有層次"),
-        ("透膚", "透膚材質輕輕疊穿\n通勤也不顯單調"),
+        ("七分褲", "Clean Lines.\nCity Rhythm."),
+        ("漁夫涼鞋", "Light Steps.\nOpen Roads."),
+        ("奶油黃", "Butter Light.\nWorkday Ease."),
+        ("絲巾腰帶", "A Silk Twist.\nWeekend Denim."),
+        ("透膚", "Soft Layers.\nQuiet Confidence."),
     ]
     searchable = f"{trend} {item}"
     for keyword, line in recipes:
         if keyword in searchable:
             return line
 
-    subject = item or trend or "簡潔穿搭"
-    subject = subject[:12]
-    return f"{subject}\n日常穿得更有層次"
+    return "Everyday Ease.\nStyled with Intent."
