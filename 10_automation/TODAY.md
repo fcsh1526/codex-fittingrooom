@@ -60,5 +60,5 @@ Mira magazine -> weekly trend -> daily queue -> Codex image candidates -> Canva 
 
 ## Dashboard Summary
 
-- Run count: `3`
-- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 1, "canva_committed_ready_to_publish": 1}`
+- Run count: `4`
+- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 1, "canva_committed_ready_to_publish": 1, "needs_image_asset_selection": 1}`

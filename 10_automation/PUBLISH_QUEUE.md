@@ -1,7 +1,7 @@
 # Publish Queue
 
 Runs directory: `10_automation\runs`
-Queue items: `5`
+Queue items: `10`
 
 ## Top Next Item
 
@@ -24,4 +24,9 @@ Queue items: `5`
 | `carousel` | `2026-W27-003` | `M03` | `D Mira Template Master v3 - D Cross-Boundary Full-Bleed` | `canva_committed_ready_to_publish` | `2026-W27-003_M03_v2_candidate_A.png` | `` | Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it. |
 | `carousel` | `2026-W27-004` | `M04` | `A Mira Template Master v3 - A Cross-Boundary Contact Sheet` | `canva_committed_ready_to_publish` | `2026-W27-004_M04_v2_candidate_A.png` | `` | Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it. |
 | `carousel` | `2026-W27-005` | `M05` | `E Mira Template Master v3 - E Cross-Boundary Weekend Air` | `canva_committed_ready_to_publish` | `2026-W27-005_M05_v2_candidate_A.png` | `` | Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it. |
+| `carousel` | `2026-W29-001` | `M01` | `B Mira Template Master v3 - B Cross-Boundary Symmetric` | `needs_image_asset_selection` | `n/a` | `` | Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva. |
+| `carousel` | `2026-W29-002` | `M02` | `E Mira Template Master v3 - E Cross-Boundary Weekend Air` | `needs_image_asset_selection` | `n/a` | `` | Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva. |
+| `carousel` | `2026-W29-003` | `M04` | `B Mira Template Master v3 - B Cross-Boundary Symmetric` | `needs_image_asset_selection` | `n/a` | `` | Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva. |
+| `carousel` | `2026-W29-004` | `M03` | `B Mira Template Master v3 - B Cross-Boundary Symmetric` | `needs_image_asset_selection` | `n/a` | `` | Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva. |
+| `carousel` | `2026-W29-005` | `M05` | `E Mira Template Master v3 - E Cross-Boundary Weekend Air` | `needs_image_asset_selection` | `n/a` | `` | Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva. |
 | `carousel` | `2026-W27-001` | `M01` | `B Mira Template Master v3 - B Cross-Boundary Symmetric` | `published_waiting_for_metrics` | `2026-W27-001_M01_candidate_A.png` | `` | Record 6h / 24h metrics with record_post_metrics.py. |

@@ -50,9 +50,8 @@ CANVA_REQUIRED_FIELDS = [
 ]
 
 
-CANVA_LENGTH_LIMITS = {
-    "slide2_line": 28,
-}
+CANVA_MOOD_LINE_COUNT = 2
+CANVA_MOOD_MAX_CHARS_PER_LINE = 24
 
 
 DISCLOSURE_TERMS = [
@@ -265,10 +264,12 @@ def validate_canva_rows(run_dir, packet_rows, issues):
         for field in CANVA_REQUIRED_FIELDS:
             if not clean(row.get(field)):
                 add_issue(issues, "error", "canva_required_field", f"{row_label}: missing {field}.")
-        for field, limit in CANVA_LENGTH_LIMITS.items():
-            value = clean(row.get(field))
-            if len(value) > limit:
-                add_issue(issues, "warning", "canva_text_length", f"{row_label}: {field} is {len(value)} chars, limit {limit}.")
+        mood_lines = [line.strip() for line in str(row.get("slide2_line", "")).splitlines() if line.strip()]
+        if len(mood_lines) != CANVA_MOOD_LINE_COUNT:
+            add_issue(issues, "warning", "canva_line_count", f"{row_label}: slide2_line has {len(mood_lines)} non-empty lines; expected {CANVA_MOOD_LINE_COUNT}.")
+        for line_number, line in enumerate(mood_lines, start=1):
+            if len(line) > CANVA_MOOD_MAX_CHARS_PER_LINE:
+                add_issue(issues, "warning", "canva_text_length", f"{row_label}: slide2_line line {line_number} is {len(line)} chars, limit {CANVA_MOOD_MAX_CHARS_PER_LINE}.")
         for field in ["slide2_line", "caption_short", "hashtags"]:
             if has_encoding_drift(row.get(field)):
                 add_issue(issues, "error", "canva_encoding_drift", f"{row_label}: {field} appears to contain mojibake or private-use replacement characters.")

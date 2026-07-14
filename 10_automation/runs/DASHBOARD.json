@@ -1,10 +1,11 @@
 {
   "runs_dir": "10_automation\\runs",
-  "run_count": 3,
+  "run_count": 4,
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "archived": 1,
-    "canva_committed_ready_to_publish": 1
+    "canva_committed_ready_to_publish": 1,
+    "needs_image_asset_selection": 1
   },
   "runs": [
     {
@@ -37,6 +38,17 @@
       "quality": "pass",
       "cover_assets": "5/5",
       "published": true,
+      "metric_checkpoints": 0,
+      "latest_decision": ""
+    },
+    {
+      "run_dir": "10_automation\\runs\\2026-W29",
+      "stage": "needs_image_asset_selection",
+      "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
+      "packet_rows": 5,
+      "quality": "pass",
+      "cover_assets": "0/5",
+      "published": false,
       "metric_checkpoints": 0,
       "latest_decision": ""
     }

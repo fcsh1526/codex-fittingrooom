@@ -26,6 +26,24 @@ class FashionLanguageZhTwTests(unittest.TestCase):
         self.assertEqual(line, "Light Steps.\nOpen Roads.")
         self.assertEqual(len(line.splitlines()), 2)
 
+    def test_w29_display_terms_are_localized_without_mixed_language(self):
+        self.assertEqual(
+            localize_display_text("sheer mesh long-sleeve top + satin cami + wide trousers"),
+            "透膚網紗長袖上衣 ＋ 緞面細肩帶背心 ＋ 寬褲",
+        )
+        self.assertEqual(
+            localize_display_text("浪漫 Boho-Romantic (Lace與Fringe與Embroidery)"),
+            "浪漫波西米亞（蕾絲、流蘇與刺繡）",
+        )
+        self.assertEqual(
+            localize_display_text("浪漫 Boho-Romantic (Lace/Fringe/Embroidery)"),
+            "浪漫波西米亞（蕾絲、流蘇與刺繡）",
+        )
+        self.assertEqual(
+            localize_display_text("deconstructed blazer + sheer top + straight trousers"),
+            "解構西裝外套 ＋ 透膚上衣 ＋ 直筒長褲",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

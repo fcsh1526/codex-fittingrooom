@@ -19,6 +19,10 @@ Latest automation test:
 Active run folder: 10_automation/runs/2026-W27.
 Current top item: 2026-W27-002; W27-001 is published.
 
+2026-07-14 W29 was verified live in the public index and imported automatically from https://mika-lin-weekly.pplx.app/data/2026-W29.csv.
+The W29 run contains 20 imported rows and 5 carousel packets, with one distinct trend per carousel and each of M01-M05 assigned exactly once. Validation passes with 0 errors and 0 warnings.
+Perplexity has proposed a Monday auto-publish task because weekly files were repeatedly left in its workspace without deploy/publish. The recommended guarded schedule is documented in 10_automation/perplexity_autopublish_schedule.md and awaits user confirmation in Perplexity.
+
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```
 
@@ -155,6 +159,8 @@ Strict --require-assets validation is expected to fail until W27 image candidate
 - User decided to abandon old W26 production progress and use a clean new-week test path instead. The W26 folder remains historical; do not use it as the proof of current automation health.
 - Fresh Perplexity pipeline test report was added at `10_automation/PERPLEXITY_FRESH_PIPELINE_TEST_2026-07-09.md`.
 - W27 was generated from the Perplexity public index into `10_automation/runs/2026-W27` with 5 carousel packets and 5 Codex generation handoffs.
+- W29 was verified in the public index and imported into `10_automation/runs/2026-W29`; row selection now prioritizes one outfit from each distinct trend before filling remaining slots.
+- Perplexity auto-publish requirements were documented so a weekly report is not considered complete until the HTML, CSV, and public index are all live and verified.
 
 ## Latest Published Post
 

@@ -122,7 +122,30 @@ def choose_rows(rows, week=None, limit=2):
         if clean(row.get("clothing_item")) and clean(row.get("trend_name")):
             usable.append(row)
 
-    return usable[:limit]
+    selected = []
+    selected_indexes = set()
+    seen_trends = set()
+
+    # Perplexity groups several outfit rows under each trend. Select one row
+    # from each trend first so a five-post week does not repeat one theme.
+    for index, row in enumerate(usable):
+        trend_key = clean(row.get("trend_name")).casefold()
+        if trend_key in seen_trends:
+            continue
+        selected.append(row)
+        selected_indexes.add(index)
+        seen_trends.add(trend_key)
+        if len(selected) >= limit:
+            return selected
+
+    for index, row in enumerate(usable):
+        if index in selected_indexes:
+            continue
+        selected.append(row)
+        if len(selected) >= limit:
+            break
+
+    return selected
 
 
 def infer_bucket(row):
