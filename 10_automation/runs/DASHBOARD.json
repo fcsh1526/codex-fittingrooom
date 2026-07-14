@@ -32,7 +32,7 @@
     {
       "run_dir": "10_automation\\runs\\2026-W27",
       "stage": "canva_committed_ready_to_publish",
-      "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+      "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",

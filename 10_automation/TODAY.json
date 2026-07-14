@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W27",
     "stage": "canva_committed_ready_to_publish",
-    "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+    "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
     "packet_rows": 5,
     "quality": "pass",
     "cover_assets": "5/5",
@@ -43,8 +43,8 @@
       "prompt_id": "W27-P002",
       "model_profile_id": "M02",
       "canva_template_key": "B",
-      "canva_template_name": "Mira Template Master - B Symmetric",
-      "canva_template_url": "https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit",
+      "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
+      "canva_template_url": "https://www.canva.com/d/UoVSnPEpgguD3be",
       "canva_design_url": "https://www.canva.com/d/E0q_4eUbeTyT71W",
       "trend_name": "卡普里褲回歸（Capri Pants）",
       "content_bucket": "weekend_daily",
@@ -95,7 +95,7 @@
       {
         "run_dir": "10_automation\\runs\\2026-W27",
         "stage": "canva_committed_ready_to_publish",
-        "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+        "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
         "packet_rows": 5,
         "quality": "pass",
         "cover_assets": "5/5",

@@ -5,7 +5,7 @@ Stage: `canva_committed_ready_to_publish`
 
 ## Next Action
 
-Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.
+Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.
 
 ## Blocking Items
 
@@ -17,7 +17,7 @@ Open the committed Canva v2 design, review/export the 3 carousel slices, then pu
 ## Suggested Commands
 
 ```powershell
-open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit
+open 10_automation/canva_template_registry.md
 ```
 
 ```powershell

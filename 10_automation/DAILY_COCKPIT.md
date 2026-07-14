@@ -1,14 +1,14 @@
 # Mira Daily Cockpit
 
-Date: `2026-07-13`
+Date: `2026-07-14`
 
 ## Today, Do This First
 
 - Item: `2026-W27-002`
 - Type: `carousel`
 - Model: `M02`
-- Canva template: `B` Mira Template Master - B Symmetric
-- Canva template URL: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
+- Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
+- Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
 - Canva design URL: https://www.canva.com/d/E0q_4eUbeTyT71W
 - Stage: `canva_committed_ready_to_publish`
 - Asset: `2026-W27-002_M02_v2_candidate_A.png`

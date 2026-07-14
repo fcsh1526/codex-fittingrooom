@@ -196,14 +196,14 @@ def determine_stage(files, quality, assets, publishing, packet=None):
     if packet.get("ready_for_canva_test"):
         return {
             "stage": "ready_for_canva_test",
-            "next_action": "Test-fill the approved Mira Canva v2 template, review the crop preview, then commit only after user approval.",
+            "next_action": "Test-fill the registered active Mira Canva master template, review the crop preview, then commit only after user approval.",
             "blocking_items": packet.get("ready_for_canva_test"),
         }
 
     if packet.get("canva_committed_ready_to_publish"):
         return {
             "stage": "canva_committed_ready_to_publish",
-            "next_action": "Open the committed Canva v2 design, review/export the 3 carousel slices, then publish or schedule it.",
+            "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
             "blocking_items": packet.get("canva_committed_ready_to_publish"),
         }
 
@@ -279,7 +279,7 @@ def command_suggestions(run_dir, stage):
     elif stage == "ready_for_canva_test":
         suggestions.append(f"open {run_dir_str}/canva_fill_guide.md")
         suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
-        suggestions.append("Open the approved Mira Canva v2 template and test-fill selected assets.")
+        suggestions.append("Open the registered active Mira Canva master template and test-fill selected assets.")
     elif stage == "canva_blocked_waiting_for_flat_png_asset":
         suggestions.append(f"open {run_dir_str}/canva_automation_trial_log.md")
         suggestions.append(f"open {run_dir_str}/generated_images/2026-W26-002")
@@ -288,7 +288,7 @@ def command_suggestions(run_dir, stage):
         suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
         suggestions.append(f"open {run_dir_str}/post_drafts.md")
     elif stage == "canva_committed_ready_to_publish":
-        suggestions.append("open https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit")
+        suggestions.append("open 10_automation/canva_template_registry.md")
         suggestions.append(f"open {run_dir_str}/post_drafts.md")
         suggestions.append(f"open {run_dir_str}/publish_checklist.md")
     elif stage == "published_waiting_for_metrics":

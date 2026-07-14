@@ -163,7 +163,7 @@ def stage_brief(stage):
             "tasks": [
                 "Review the generated candidates for face drift, ghosting, body artifacts, and outfit clarity.",
                 "Regenerate image candidates only after tightening the prompt and review criteria.",
-                "Use the approved Mira Canva v2 template, then test it with regenerated image candidates before export.",
+                "Use the registered active Mira Canva master template, then test it with regenerated image candidates before export.",
             ],
             "user_inputs": [
                 "Which candidate image problems are unacceptable",
@@ -184,7 +184,7 @@ def stage_brief(stage):
         "ready_for_canva_test": {
             "decision": "The v2 image candidates are selected and the next step is Canva test-fill, not publishing.",
             "tasks": [
-                "Open the approved Mira Canva v2 template.",
+                "Open the registered active Mira Canva master template.",
                 "Duplicate a registered Mira Canva master, then fill cover_image with A_v2, motion_crop with B_v2, and detail_image with C_v2.",
                 "Replace slide2_line with the approved short line.",
                 "Review the Canva preview for head crop, feet crop, face clarity, and cross-slide composition before committing.",

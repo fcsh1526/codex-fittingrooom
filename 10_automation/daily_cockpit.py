@@ -126,7 +126,7 @@ def checklist_for(top_item):
     if item_type == "carousel" and stage == "ready_for_canva_test":
         return [
             "Do not publish this carousel yet.",
-            "Test-fill the approved Mira Canva v2 template with A_v2, B_v2, and C_v2.",
+            "Test-fill the registered active Mira Canva master template with A_v2, B_v2, and C_v2.",
             "Review Canva crops for headroom, feet, face clarity, and cross-slide motion crop.",
             "Commit Canva only if the preview is clean.",
             "If crop fails, adjust Canva placement before export.",
@@ -153,7 +153,7 @@ def checklist_for(top_item):
             "Verify the selected Mira Canva master has replaceable cover_image, motion_crop, detail_image, and slide2_line layers.",
             "Review the generated image candidates for face drift, ghosting, body artifacts, and outfit clarity.",
             "Regenerate better candidates before replacing Canva assets.",
-            "Test-fill the Canva v2 template before export.",
+            "Test-fill the registered active Canva master template before export.",
         ]
     if item_type == "visibility_test":
         return [

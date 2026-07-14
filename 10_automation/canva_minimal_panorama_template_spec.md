@@ -10,7 +10,7 @@ Use 10_automation/canva_template_registry.md as the source of truth for the five
 This file remains the shared automation contract for required Canva layer names and export size.
 ```
 
-Current Canva v2 template:
+Current Canva template version:
 
 ```text
 See 10_automation/canva_template_registry.md for the five active Canva master templates.
@@ -19,13 +19,13 @@ See 10_automation/canva_template_registry.md for the five active Canva master te
 Automation status:
 
 ```text
-2026-07-08: Five Canva master templates were registered. Required slots are cover_image, motion_crop, detail_image, and slide2_line.
+2026-07-14: Five cross-boundary v3 Canva master templates were committed and registered. Required slots are cover_image, motion_crop, detail_image, and slide2_line.
 ```
 
 ## Template Identity
 
 ```text
-Mira Template v2
+Mira Template v3
 Style: High-Fashion Editorial x Cinematic Swipe
 Role: lifestyle fashion carousel, not a weekly report
 ```

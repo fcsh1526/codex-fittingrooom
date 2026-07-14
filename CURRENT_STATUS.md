@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-07-13
+Last updated: 2026-07-14
 
 ## Project Goal
 
@@ -84,11 +84,11 @@ Strict --require-assets validation is expected to fail until W27 image candidate
 - Canva panorama carousel design: https://www.canva.com/d/jJOq1Yimawt9wfU
 - Legacy Mira Canva v2 single template: https://www.canva.com/design/DAHOIZe_Qz0/YjBO1NIF7JQ0VsRyrVRaew/edit
 - Mira Canva template registry: `10_automation/canva_template_registry.md`
-- Mira Template Master - A Contact Sheet: https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit
-- Mira Template Master - B Symmetric: https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit
-- Mira Template Master - C Noir Evening: https://www.canva.com/design/DAHOyEHkFvg/DBpyigPr05vQqxuuqV7wKA/edit
-- Mira Template Master - D Full-Bleed: https://www.canva.com/design/DAHOyNz_Dh4/SCdZqafV5zkpK5TVIB6kMw/edit
-- Mira Template Master - E Weekend Air: https://www.canva.com/design/DAHOyEiLL24/yTWykrCQdrFjncOa46cq9g/edit
+- Mira v3 A Cross-Boundary Contact Sheet: https://www.canva.com/d/c-IyIaIsCawzyCI
+- Mira v3 B Cross-Boundary Symmetric: https://www.canva.com/d/UoVSnPEpgguD3be
+- Mira v3 C Cross-Boundary Noir: https://www.canva.com/d/C9QGHZ6OH7HtYux
+- Mira v3 D Cross-Boundary Full-Bleed: https://www.canva.com/d/Kh_uu5y-twQzbF-
+- Mira v3 E Cross-Boundary Weekend Air: https://www.canva.com/d/djICquyAb4kcGwW
 - Published IG carousel: https://www.instagram.com/p/DZCTbtWGuhx/?igsh=aG9kcjl3OWIybm01
 - Published asset Drive folder: https://drive.google.com/drive/folders/1tRiBkj2JbAiuv6Ol88Jx6-FpF2a6nKml
 
@@ -145,6 +145,7 @@ Strict --require-assets validation is expected to fail until W27 image candidate
 - `COMMAND_CENTER.md` is the primary operational entrypoint for this repo.
 - Mira high-fashion carousel template v2 was added after reviewing the Scrolo-style reference screenshots. The new direction keeps the 3240 x 1350 / 3-slide automation contract, but requires cross-slide editorial movement, boundary crops, low text, and stricter head-crop validation.
 - Five Claude Design Mira template variants were pushed to Canva as master templates: A Contact Sheet, B Symmetric, C Noir Evening, D Full-Bleed, and E Weekend Air.
+- Five cross-boundary v3 copies were approved and committed in Canva on 2026-07-14. The active registry now points to v3; v2 remains archived.
 - The active Canva master registry is `10_automation/canva_template_registry.md` and `10_automation/canva_template_registry.json`.
 - Current Canva automation slot contract is `cover_image`, `motion_crop`, `detail_image`, and `slide2_line`.
 - Daily Canva use should duplicate one master template before replacing assets. Do not write daily content directly into master templates.
