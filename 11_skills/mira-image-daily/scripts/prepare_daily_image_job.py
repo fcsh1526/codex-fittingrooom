@@ -123,83 +123,62 @@ def reference_status(project_root, model_id):
 
 
 def prompt_for(packet, profile, reference, variant):
-    variant_scene = {
-        "A": "safest full-body daily lifestyle image",
-        "B": "movement or street-style variation",
-        "C": "closer outfit-detail-friendly variation while keeping the outfit readable",
+    asset_role = {
+        "A": "integrated-scene Hero and session lock",
+        "B": "movement variation edited from the accepted Hero A",
+        "C": "outfit-detail variation edited from the accepted Hero A",
     }[variant]
-    variant_direction = {
+    direction = {
         "A": (
-            "Use an asymmetric three-quarter standing pose with a natural weight shift. "
-            "Keep the eyes attentive and add a restrained micro-smile or relaxed engaged expression. "
-            "At least one hand should interact naturally with the bag, jacket, pocket, railing, or nearby object; "
-            "do not leave both arms straight and symmetrical."
+            "Show the full figure with surrounding environment. Use a relaxed asymmetric stance and one physically believable "
+            "interaction with a foreground or scene object, including visible contact pressure and contact shadow."
         ),
         "B": (
-            "Capture a candid mid-step or turning moment with visible body movement. "
-            "Use an off-camera gaze or a brief glance back toward camera, natural hair and fabric motion, "
-            "and one hand adjusting the bag, scarf, sleeve, or hair. Do not repeat Candidate A's stance or expression."
+            "Edit accepted Hero A into a candid three-quarter turn or small lateral movement. Change gaze and one hand action, "
+            "but keep the same scene, outfit construction, identity, body build, light source, and camera treatment."
         ),
         "C": (
-            "Use an outfit-detail-friendly three-quarter pose at the same camera height, lens, distance, and subject scale as A and B. "
-            "The model may lean lightly, pause beside furniture, or turn across the frame while keeping the full outfit readable; "
-            "Canva will create any closer crop later. "
-            "Use a warm attentive expression different from A and B; avoid a centered passport-photo stance."
+            "Edit accepted Hero A into a knees-up or waist-up outfit-detail composition. Preserve the exact neckline, layers, "
+            "sleeves, fabric behavior, accessories, identity, scene, and lighting treatment."
         ),
     }[variant]
-    return f"""Candidate {variant}: {variant_scene}
+    session_input = (
+        "Accepted Hero A is created in this step."
+        if variant == "A"
+        else "Attach accepted Hero A as the edit target/session lock in addition to both model anchors. Do not generate an independent reinterpretation."
+    )
+    return f"""Asset {variant}: {asset_role}
 
-Attach both reference start images to the image-generation request. File paths alone are not enough:
-- Face anchor: {reference['face_path']}
-- Full-body anchor: {reference['full_path']}
-{"- Wardrobe-lock reference: accepted Candidate A from this same job" if variant in {"B", "C"} else "- Wardrobe-lock reference: Candidate A is created in this step"}
+Required image inputs:
+- Face identity anchor: {reference['face_path']}
+- Full-body proportion anchor: {reference['full_path']}
+- Session rule: {session_input}
 
-Create a realistic vertical 4:5 lifestyle fashion image for Mira, an AI fashion magazine brand.
+Create a photorealistic vertical lifestyle fashion photograph for Mira. Internal model {packet['model_profile_id']} is production metadata only; never render model IDs, names, captions, logos, or watermarks.
 
-Use internal model {packet['model_profile_id']} only as a private production profile. Do not render or include the model ID, name, text, watermark, logo, or caption in the image.
-
-Model profile:
-{profile.get('visual_profile', '')}
-Prompt visual age language: {profile.get('prompt_age_language', '')}
-
-Reference-anchor use lock:
-The face image locks identity, facial geometry, skin character, and hair baseline only. The full-body image locks identity and body proportions only. Do not copy the references' neutral expression, straight-on passport angle, centered stance, hand position, studio background, lighting, or reference outfit. Preserve identity while creating a genuinely new lifestyle photograph.
-
-Body proportion lock:
-Treat the approved full-body anchor as an anatomical measurement reference, not merely a style reference. Match its head size relative to total height, shoulder width, torso length, natural waist and hip placement, crotch height, knee height, thigh length, lower-leg length, arm length, and hand size. Do not infer or exaggerate anatomy from the new high-waisted clothing. Do not shrink the head, narrow the torso, raise the crotch, lengthen the thighs or shins, or create fashion-illustration / nine-head proportions unless they are visibly present in the approved anchor. A, B, and C must show the same body proportions.
-
-Camera geometry lock:
-Use a normal-to-short-telephoto 70mm full-frame-equivalent perspective. Keep the camera at lower-chest to sternum height with a level optical axis, no upward or downward tilt. No low angle, wide angle, phone-lens distortion, forced perspective, or leg elongation. Keep the same focal length, camera height, subject distance, horizon, and person scale across A, B, and C; movement should be mostly lateral rather than toward the lens. The crown-to-sole figure should occupy about 78-82% of the frame height with comfortable headroom and floor visible beneath both shoes.
-
-Age rendering rules:
-{chr(10).join(AGE_RENDERING_RULES)}
+Identity and anatomy:
+Preserve the exact facial identity and core hairstyle from the face anchor. Match the full-body anchor's realistic head size, shoulder width, torso length, waist and hip placement, knee height, leg-to-torso balance, arm length, and hand size. Use plausible adult proportions rather than runway or nine-head elongation. The reference pose, expression, studio background, and reference outfit are not part of the identity.
 
 Trend and outfit:
-Global trend signal: {packet.get('trend_name', '')}
-Clothing item: {packet.get('clothing_item', '')}
-Palette: {packet.get('color_palette', '')}
-Fabric: {packet.get('fabric', '')}
-Fit: {packet.get('fit', '')}
-Occasion: {packet.get('occasion', '')}
-Styling rules: {packet.get('styling_rules', '')}
+- Trend: {packet.get('trend_name', '')}
+- Garments: {packet.get('clothing_item', '')}
+- Palette: {packet.get('color_palette', '')}
+- Fabric: {packet.get('fabric', '')}
+- Fit: {packet.get('fit', '')}
+- Occasion: {packet.get('occasion', '')}
+- Styling: {packet.get('styling_rules', '')}
 
-Outfit continuity lock:
-Candidates A, B, and C are three photographs from the same outfit session. Keep the exact same top layers, neckline, sleeve length, trousers or skirt, hem length, fabric, palette, shoes, bag, jewelry, and scarf placement in all three candidates. Only lateral position, body angle, pose, gaze, hand interaction, and expression may change. Do not change camera geometry or reinterpret the trend into a different outfit for B or C.
+Scene and camera:
+Use a believable daily-life setting that supports the occasion. Scene hint: {packet.get('scene', '')}. Treat person and environment as one exposure captured in-camera with a normal 50mm full-frame-equivalent lens near chest height and a level optical axis. One visible or inferable light source must affect face, hair, garments, hands, shoes, foreground, floor, and background consistently. Include ambient color spill, natural contact shadows, shared depth of field, restrained grain, slight optical softness, natural skin texture, flyaway hairs, and small fabric wrinkles.
 
-Scene:
-Use a believable daily-life fashion magazine scene that fits the occasion and outfit. Existing scene hint: {packet.get('scene', '')}. Do not force Taiwan if another global daily setting better fits the trend, but keep the image wearable and relatable.
+Asset direction:
+{direction}
 
-Lighting integration lock:
-First establish one physically plausible key-light source inside the scene, such as daylight from a visible window or open street. Its direction and color temperature must affect the entire person consistently: forehead, cheeks, nose shadow, neck, arms, clothing folds, shoes, and bag. The side facing away from the source must be visibly darker and pick up the scene's ambient color. Add grounded contact shadows under both shoes and natural cast shadows on nearby surfaces. Match subject contrast, white balance, grain, depth of field, and edge softness to the background. The person must look photographed in the location, never cut out and pasted onto a background. No frontal beauty light, ring-light catchlights, shadowless face, studio fill, halo edges, or independent subject lighting.
-
-Composition:
-Full outfit readable within one second. Natural posture. Real skin texture. Clothes are clear. Face remains consistent with the attached face anchor, and measured body proportions remain consistent with the attached full-body anchor. The environment fills the 4:5 frame edge to edge, while the crown-to-sole figure occupies about 78-82% of frame height. Keep both shoes and floor contact visible with no white border or letterboxing.
-
-Candidate-specific direction:
-{variant_direction}
+Age rendering:
+{chr(10).join(AGE_RENDERING_RULES)}
 
 Avoid:
-tiny head, oversized head, supermodel or nine-head proportions, elongated thighs or shins, raised crotch, narrow stretched torso, inconsistent body-to-leg ratio, low camera angle, wide-angle distortion, perspective leg stretching, runway pose, luxury hotel ad, resort fantasy, plastic skin, excessive filters, pasted-on subject, mismatched key light, shadowless face, missing contact shadows, outfit changes between candidates, repeated A/B/C pose, repeated expression, centered ID-photo stance, both arms hanging symmetrically, frozen face, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, visible logos, image text, watermark, wrinkle-based age cues, numeric true-age labels.
+tiny head, fashion-elongated body, raised crotch, stretched legs, low or wide camera angle, mannequin posture, floating hands or feet, independent subject lighting, cutout edges, halo, plastic skin, plastic fabric, garment drift, celebrity likeness, sexualized or childlike styling, text, logos, and watermark.
 """
 
 
@@ -270,7 +249,7 @@ def write_job(project_root, run_dir, carousel_id, tool, version_tag=""):
         f"- clothing_item: {packet.get('clothing_item', '')}",
         f"- occasion: {packet.get('occasion', '')}",
         "",
-        "Generate 2-3 candidates, then score them before Canva.",
+        "Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.",
         "",
         "Codex handoff:",
         "",

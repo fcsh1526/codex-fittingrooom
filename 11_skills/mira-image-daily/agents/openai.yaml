@@ -1,4 +1,4 @@
 interface:
   display_name: "Mira Image Daily"
-  short_description: "Daily Mira fashion image workflow"
-  default_prompt: "Use $mira-image-daily to prepare today's Mira outfit image job from the weekly packet."
+  short_description: "Hero-first Mira fashion image workflow"
+  default_prompt: "Use $mira-image-daily to build today's Hero-first photoreal Mira image session from the weekly packet, then derive B Motion and C Detail only after Hero approval."

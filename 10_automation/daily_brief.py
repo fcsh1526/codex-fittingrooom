@@ -139,11 +139,11 @@ def stage_brief(stage):
             ],
         },
         "needs_image_asset_selection": {
-            "decision": "The next bottleneck is Codex workspace image generation, review, and asset selection.",
+            "decision": "The next bottleneck is a Hero-first Codex image session, review, and asset selection.",
             "tasks": [
                 "Open daily_queue.csv and image_generation_briefs.md.",
-                "Generate image candidates inside the Codex workspace for the assigned internal model.",
-                "Review and score the generated image candidates in image_review_template.csv.",
+                "Generate and review one integrated-scene Hero for the assigned internal model.",
+                "After Hero approval, derive B Motion and C Detail from that accepted Hero and score the session.",
             ],
             "user_inputs": ["Optional candidate image notes if manual review is needed."],
             "codex_actions": [
@@ -373,7 +373,7 @@ def render_markdown(today, dashboard, priority_run, brief, generated_files=None,
             "## Fixed Flow",
             "",
             "```text",
-            "Mira magazine -> weekly trend -> daily queue -> Codex image candidates -> Canva carousel -> publish -> metrics -> next decision",
+            "Mira magazine -> weekly trend -> daily queue -> Codex Hero -> B/C derivatives -> Canva carousel -> publish -> metrics -> next decision",
             "```",
             "",
             "## Dashboard Summary",

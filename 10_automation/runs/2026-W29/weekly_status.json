@@ -2,10 +2,9 @@
   "run_dir": "10_automation\\runs\\2026-W29",
   "run_state": {},
   "stage": {
-    "stage": "canva_blocked_waiting_for_flat_png_asset",
-    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+    "stage": "needs_image_asset_selection",
+    "next_action": "Continue generating and scoring the remaining Codex image jobs, then rerun select_codex_assets.py. Canva work for already selected carousels can proceed in parallel.",
     "blocking_items": [
-      "2026-W29-001",
       "2026-W29-002",
       "2026-W29-003",
       "2026-W29-004",
@@ -18,11 +17,7 @@
     "ready_for_canva_test": [],
     "canva_committed_ready_to_publish": [],
     "canva_blocked_waiting_for_flat_png_asset": [
-      "2026-W29-001",
-      "2026-W29-002",
-      "2026-W29-003",
-      "2026-W29-004",
-      "2026-W29-005"
+      "2026-W29-001"
     ],
     "inactive_count": 0,
     "all_inactive": false,
@@ -37,7 +32,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 3301
+      "size": 3125
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -49,11 +44,11 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 4052
+      "size": 3034
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 2244
+      "size": 2008
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -85,16 +80,22 @@
     "carousel_count": 5,
     "selection_exists": true,
     "review_template_exists": true,
-    "selected_cover_count": 5,
+    "selected_cover_count": 1,
     "selected_carousel_ids": [
-      "2026-W29-001",
+      "2026-W29-001"
+    ],
+    "missing_cover": [
       "2026-W29-002",
       "2026-W29-003",
       "2026-W29-004",
       "2026-W29-005"
     ],
-    "missing_cover": [],
-    "missing_detail": [],
+    "missing_detail": [
+      "2026-W29-002",
+      "2026-W29-003",
+      "2026-W29-004",
+      "2026-W29-005"
+    ],
     "selection_rows": 5
   },
   "publish": {
@@ -107,8 +108,8 @@
     "published_carousel_ids": []
   },
   "commands": [
-    "open 10_automation\\runs\\2026-W29\\W29_v2_VISUAL_REVIEW.html",
-    "open 10_automation\\runs\\2026-W29/canva_asset_plan.md",
-    "open 10_automation\\runs\\2026-W29/generated_images"
+    "open 10_automation\\runs\\2026-W29/image_generation_briefs.md",
+    "python 10_automation/select_codex_assets.py --run-dir 10_automation\\runs\\2026-W29 --provider Codex --score-sheet 10_automation\\runs\\2026-W29/image_review_template.csv --drive-inventory path_to_image_inventory.csv",
+    "python 10_automation/validate_weekly_run.py --run-dir 10_automation\\runs\\2026-W29 --min-rows 1 --require-assets"
   ]
 }

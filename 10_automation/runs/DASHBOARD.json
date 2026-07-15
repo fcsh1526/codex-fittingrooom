@@ -3,8 +3,7 @@
   "run_count": 4,
   "stage_counts": {
     "missing_weekly_packet_files": 1,
-    "archived": 1,
-    "canva_committed_ready_to_publish": 1,
+    "archived": 2,
     "needs_image_asset_selection": 1
   },
   "runs": [
@@ -32,8 +31,8 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W27",
-      "stage": "canva_committed_ready_to_publish",
-      "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
+      "stage": "archived",
+      "next_action": "Preserved but removed from the active queue on 2026-07-15 when the user activated the W29 Hero-first photoreal pilot. Existing W27 Canva drafts remain available and must not override the new trial workflow.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",
@@ -44,10 +43,10 @@
     {
       "run_dir": "10_automation\\runs\\2026-W29",
       "stage": "needs_image_asset_selection",
-      "next_action": "Fill the image review template after reviewing Codex outputs, then rerun select_codex_assets.py with that score sheet.",
+      "next_action": "Continue generating and scoring the remaining Codex image jobs, then rerun select_codex_assets.py. Canva work for already selected carousels can proceed in parallel.",
       "packet_rows": 5,
       "quality": "pass",
-      "cover_assets": "0/5",
+      "cover_assets": "1/5",
       "published": false,
       "metric_checkpoints": 0,
       "latest_decision": ""

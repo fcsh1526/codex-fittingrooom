@@ -9,7 +9,7 @@
 - clothing_item: 透膚網紗長袖上衣 ＋ 緞面細肩帶背心 ＋ 寬褲
 - occasion: 通勤
 
-Generate 2-3 candidates, then score them before Canva.
+Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
 Codex handoff:
 

@@ -56,8 +56,27 @@ Assessment:
 - PARTIAL: the person no longer has the strong pasted-on appearance seen in earlier W29 runs, but the result still reads as cleaner and more controlled than a real candid photograph.
 - PARTIAL: front-facing stance and facial finish retain some catalog-image stiffness and synthetic smoothness.
 
-Decision:
+Decision at the initial comparison checkpoint:
 
-- Do not generate B/C or apply these images to Canva yet.
+- Hold B/C and Canva until the user accepts or rejects the Codex method.
 - Codex Test 1 is technically successful and materially improved, but it does not fully match the natural photographic realism of the user's ChatGPT web benchmark.
 - The next controlled comparison should use ChatGPT web Images 2.0 with the same M01 references, outfit, scene, and scoring criteria. No separately billed API is required for that comparison.
+
+## Trial activation - 2026-07-15
+
+The user accepted the improved Codex method as the active trial workflow. The web comparison is deferred.
+
+W29-001 production assets:
+
+- `../generated_images/2026-W29-001/2026-W29-001_M01_photoreal_pilot_candidate_A.png`
+- `../generated_images/2026-W29-001/2026-W29-001_M01_photoreal_pilot_candidate_B.png`
+- `../generated_images/2026-W29-001/2026-W29-001_M01_photoreal_pilot_candidate_C.png`
+
+Operational result:
+
+- A is the accepted refined Hero and session lock.
+- B was derived from A as a movement/gaze variation.
+- C was derived from A as an outfit-detail composition.
+- All three passed the pilot review and are selected for W29-001.
+- W29-002 through W29-005 were reset to `needs_review`; old W29 v2 selections cannot be used for new Canva work.
+- Review page: `../W29-001_PHOTOREAL_PILOT_REVIEW.html`.

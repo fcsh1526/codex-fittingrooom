@@ -1,32 +1,11 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W27`
-Stage: `canva_committed_ready_to_publish`
+Stage: `archived`
 
 ## Next Action
 
-Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.
-
-## Blocking Items
-
-- `2026-W27-002`
-- `2026-W27-003`
-- `2026-W27-004`
-- `2026-W27-005`
-
-## Suggested Commands
-
-```powershell
-open 10_automation/canva_template_registry.md
-```
-
-```powershell
-open 10_automation\runs\2026-W27/post_drafts.md
-```
-
-```powershell
-open 10_automation\runs\2026-W27/publish_checklist.md
-```
+Preserved but removed from the active queue on 2026-07-15 when the user activated the W29 Hero-first photoreal pilot. Existing W27 Canva drafts remain available and must not override the new trial workflow.
 
 ## Summary
 

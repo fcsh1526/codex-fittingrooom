@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-07-14
+Last updated: 2026-07-15
 
 ## Project Goal
 
@@ -23,10 +23,11 @@ Current top item: 2026-W27-002; W27-001 is published.
 The W29 run contains 20 imported rows and 5 carousel packets, with one distinct trend per carousel and each of M01-M05 assigned exactly once. Validation passes with 0 errors and 0 warnings.
 Perplexity has proposed a Monday auto-publish task because weekly files were repeatedly left in its workspace without deploy/publish. The recommended guarded schedule is documented in 10_automation/perplexity_autopublish_schedule.md and awaits user confirmation in Perplexity.
 
-2026-07-14 W29 image generation was restarted non-destructively as v2 after body-proportion drift was found in the first M01/M02 candidates.
-All five W29 carousels now have new A/B/C sets generated with the assigned face and full-body anchors, a fixed 70mm equivalent lens, sternum-height level camera, fixed subject distance, and an explicit body-proportion hard gate.
-Asset selection resolves 5/5 carousels to the v2 files only, and weekly validation passes with 0 errors and 0 warnings.
-Current checkpoint: user visual review of `10_automation/runs/2026-W29/W29_v2_VISUAL_REVIEW.html`. No W29 v2 image has been applied to Canva yet.
+2026-07-15 W29 old v2 A/B/C production was superseded after the user identified synthetic body proportions and weak person/environment integration.
+M01 passed a new Codex Hero-first photoreal pilot: one integrated scene was generated from the approved face/full-body anchors and received one targeted lighting/camera-finish refinement.
+The refined Hero has plausible body proportions, physical hand/stone and shoe/floor contact, and materially improved shared scene lighting. It is accepted as the trial session lock, while its remaining catalog-like stiffness is recorded as a known pilot limitation.
+W29-001 now has an approved A Hero, B Motion, and C Detail set selected by the automation. It may proceed to Canva asset registration in parallel.
+Current checkpoint: generate and review the W29-002 / M02 Hero A. W29-002 through W29-005 remain `needs_review`; old W29 v2 selections must not be used for new Canva work.
 
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```
@@ -38,7 +39,7 @@ W27-001 is published. The original W27-002 through W27-005 images were rejected 
 W27-002 through W27-005 now have non-destructive v2 A/B/C candidates. B/C use candidate A as an explicit wardrobe lock.
 Image review now includes hard gates for scene_lighting_integration and outfit_continuity. Pasted-on lighting, missing contact shadows, letterboxing, or any wardrobe drift automatically rejects a candidate.
 Google Drive is optional archive-only storage and is no longer a Canva pipeline dependency.
-Current stage: register the approved v2 PNG files as new Canva assets, then preview a fresh Canva copy before any commit.
+W27 is preserved as historical output but archived from the active queue on 2026-07-15 so its Canva drafts cannot override the W29 Hero-first photoreal trial.
 ```
 
 Current Canva ingestion rule:

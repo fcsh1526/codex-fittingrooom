@@ -1,33 +1,35 @@
 # Mira Daily Brief
 
-Date: `2026-07-14`
-Priority run: `2026-W27`
-Stage: `canva_committed_ready_to_publish`
+Date: `2026-07-15`
+Priority run: `2026-W29`
+Stage: `needs_image_asset_selection`
 
 ## Decision
 
-The Canva layout has been committed and is ready for export / publishing.
+The next bottleneck is a Hero-first Codex image session, review, and asset selection.
 
 ## Today Only
 
-1. Open the Canva design and review the committed carousel layout.
-2. Export the 3 carousel slides if acceptable.
-3. Publish or schedule the post, then send the post URL.
+1. Open daily_queue.csv and image_generation_briefs.md.
+2. Generate and review one integrated-scene Hero for the assigned internal model.
+3. After Hero approval, derive B Motion and C Detail from that accepted Hero and score the session.
 
 ## User Should Provide
 
-- Instagram post URL
-- Publish time
+- Optional candidate image notes if manual review is needed.
 
 ## Codex Can Do Next
 
-- Record post URL and create 6h / 24h metrics commands.
+- Create or update image review inventory.
+- Select cover/detail assets and update canva_asset_slots.csv.
+- Validate with --require-assets before Canva work.
 
 ## Useful Files
 
-- `10_automation/runs/2026-W27/canva_asset_plan.md`
-- `10_automation/runs/2026-W27/post_drafts.md`
-- `10_automation/runs/2026-W27/publish_checklist.md`
+- `10_automation/runs/2026-W29/daily_queue.csv`
+- `10_automation/runs/2026-W29/image_generation_briefs.md`
+- `10_automation/runs/2026-W29/image_review_template.csv`
+- `10_automation/select_codex_assets.py`
 
 ## Generated Files
 
@@ -38,27 +40,27 @@ The Canva layout has been committed and is ready for export / publishing.
 ## Publish Queue Top Item
 
 - Type: `carousel`
-- ID: `2026-W27-002`
+- ID: `2026-W29-002`
 - Model: `M02`
-- Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
-- Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
-- Canva design URL: https://www.canva.com/d/E0q_4eUbeTyT71W
-- Stage: `canva_committed_ready_to_publish`
-- Asset: `2026-W27-002_M02_v2_candidate_A.png`
-- Package: `n/a`
-- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
+- Canva template: `E` Mira Template Master v3 - E Cross-Boundary Weekend Air
+- Canva template URL: https://www.canva.com/d/djICquyAb4kcGwW
+- Canva design URL: n/a
+- Stage: `needs_image_asset_selection`
+- Asset: `n/a`
+- Package: `10_automation\runs\2026-W29\generated_images\2026-W29-002\codex_generation_handoff.md`
+- Next action: Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
 
 ## Current Next Action
 
-Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
+Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
 
 ## Fixed Flow
 
 ```text
-Mira magazine -> weekly trend -> daily queue -> Codex image candidates -> Canva carousel -> publish -> metrics -> next decision
+Mira magazine -> weekly trend -> daily queue -> Codex Hero -> B/C derivatives -> Canva carousel -> publish -> metrics -> next decision
 ```
 
 ## Dashboard Summary
 
 - Run count: `4`
-- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 1, "canva_committed_ready_to_publish": 1, "needs_image_asset_selection": 1}`
+- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 2, "needs_image_asset_selection": 1}`

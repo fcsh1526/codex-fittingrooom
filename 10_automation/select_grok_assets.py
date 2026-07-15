@@ -354,7 +354,14 @@ def update_asset_slots(slot_rows, selections, canva_assets=None):
         carousel_id = clean(row.get("carousel_id"))
         slot_id = clean(row.get("slot_id"))
         selection = selection_by_carousel.get(carousel_id)
-        if not selection or selection.get("selection_status") != "selected":
+        if not selection:
+            updated.append(out)
+            continue
+
+        if selection.get("selection_status") != "selected":
+            out["recommended_file"] = ""
+            out["status"] = "needed"
+            out["notes"] = slot_note(row.get("notes"), "", "")
             updated.append(out)
             continue
 

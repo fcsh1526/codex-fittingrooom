@@ -1,6 +1,6 @@
 ---
 name: mira-image-daily
-description: Use when working on the Mira AI fashion magazine image workflow in the 人物試衣間 project: turning global Perplexity weekly fashion trend rows into daily image-generation jobs, enforcing M01/M02/M03/M04/M05 face/full reference-start-image consistency, creating candidate prompts, storing generated images in the project run folder, and preparing image review sheets before Canva.
+description: Use when working on the Mira AI fashion magazine image workflow in the 人物試衣間 project: turn global Perplexity weekly fashion rows into daily Hero-first photoreal image sessions, enforce M01-M05 face and body references, derive B Motion and C Detail from an accepted Hero, store outputs in weekly run folders, and review assets before Canva.
 ---
 
 # Mira Image Daily
@@ -34,9 +34,10 @@ references/reference-start-images.md
 2. Load the model profile from `mira_model_roster.json`.
 3. Confirm the required face and full-body reference start images exist through `mira_reference_images.csv`.
 4. Run `scripts/prepare_daily_image_job.py` to create a strict job folder.
-5. Generate candidate A with both model references. Then generate B and C with the same two model references plus accepted candidate A as the wardrobe-lock reference.
-6. Save accepted outputs under the job folder and/or `generated_images/`.
-7. Fill the job review sheet before asset selection or Canva.
+5. Generate one integrated-scene Hero A with both model references. Review it before any other generation.
+6. If A has correct identity, proportions, outfit, physical contact, and scene lighting, optionally run one lighting/camera-finish edit. This accepted A becomes the session lock.
+7. Create B Motion and C Detail as edits derived from accepted A, with the two model references attached. Do not independently regenerate the outfit or scene.
+8. Save accepted outputs under the job folder and fill the review sheet before asset selection or Canva.
 
 Do not skip step 3. If either reference image is missing, stop and tell the user which reference image must be created or supplied first.
 
@@ -66,13 +67,15 @@ The script writes:
 - Use the assigned internal model only: `M01`, `M02`, `M03`, `M04`, or `M05`.
 - Use the model's approved face and full-body reference start images as identity anchors.
 - Do not publish or render model IDs, names, labels, prompt notes, reference-image metadata, or numeric true ages.
-- Generate 2-3 candidates first. Stop early if one is strong enough.
-- Generate A first. B/C must reference A and preserve its exact outfit; independent B/C generation without the A wardrobe lock is not allowed.
+- Generate and review A first. Do not queue B/C before A passes.
+- A is one coherent lifestyle photograph with shared scene light, contact shadows, ambient spill, depth of field, and grain.
+- A may receive at most one targeted lighting/camera-finish edit while identity, outfit, anatomy, pose, scene, and composition stay locked.
+- B/C must be edits derived from accepted A and preserve its exact outfit, scene, lighting logic, body build, and photographic treatment. Independent B/C generation is not allowed.
 - Treat face/full-body references as identity and proportion anchors only. Never copy their neutral expression, centered stance, hand position, studio background, or reference outfit.
-- A/B/C must differ in body angle, gaze, hand interaction, lateral position, and expression while preserving identity, wardrobe, body proportions, focal length, camera height, subject distance, and person scale.
-- Use a 70mm full-frame-equivalent perspective, level optical axis, and lower-chest-to-sternum camera height. Never use a low angle or wide-angle perspective for full-body images.
-- Keep the crown-to-sole figure at roughly 78-82% of frame height across A/B/C. Canva handles closer crops later.
-- Prefer one excellent full-body image plus smart crops over three weak unrelated images.
+- A/B should differ in body angle, gaze, hand interaction, and expression while preserving identity, wardrobe, body proportions, normal-lens perspective, and scene continuity. C may use a closer outfit-detail crop.
+- Use a normal 50mm full-frame-equivalent perspective near chest height with a level optical axis. Never use a low angle or wide-angle perspective for full-body images.
+- Include a real foreground or scene object with physically believable hand, foot, clothing, or bag interaction whenever suitable.
+- Prefer one excellent integrated Hero plus two controlled derivatives over three unrelated full-body images.
 
 Prompt age rule:
 
@@ -98,6 +101,12 @@ Use filenames like:
 {carousel_id}_{model_profile_id}_candidate_A.png
 {carousel_id}_{model_profile_id}_candidate_B.png
 {carousel_id}_{model_profile_id}_candidate_C.png
+```
+
+For the active pilot, a refined accepted A may use:
+
+```text
+{carousel_id}_{model_profile_id}_candidate_A_refined_v2.png
 ```
 
 After generation, update the review sheet with:

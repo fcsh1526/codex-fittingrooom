@@ -1,6 +1,6 @@
 # Mira Command Center
 
-Last updated: 2026-07-13
+Last updated: 2026-07-15
 
 Purpose: this file is the single command center for the Mira AI fashion magazine workflow. When other files disagree, use this file plus generated `DAILY_COCKPIT` / `PUBLISH_QUEUE` as the operational source of truth.
 
@@ -17,7 +17,7 @@ Zero reach is a distribution signal, not a reason to stop production.
 Current workflow:
 
 ```text
-Perplexity weekly trends -> 5-post weekly packet -> daily queue -> internal model M01-M05 rotation -> reference-start image job -> image review -> asset selection -> Canva master duplicate -> publish -> metrics
+Perplexity weekly trends -> 5-post weekly packet -> daily queue -> internal model M01-M05 rotation -> Hero-first photoreal image session -> image review -> asset selection -> Canva master duplicate -> publish -> metrics
 ```
 
 Week numbering rule:
@@ -106,26 +106,41 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
 
 The pipeline now creates the weekly packet, daily queue, Codex image job folders, `codex_generation_handoff.md`, Canva handoff files, and weekly status.
 
-Current state as of 2026-07-13:
+Current state as of 2026-07-15:
 
 ```text
-Perplexity index latest = 2026-W27
-Active run folder = 10_automation/runs/2026-W27
-Pipeline from Perplexity index has passed.
-W27-001 is published. W27-002 through W27-005 v1 images are rejected; v2 A/B/C images were regenerated with lighting-integration and wardrobe-continuity locks.
+Perplexity index latest imported run = 2026-W29
+Active run folder = 10_automation/runs/2026-W29
+W29 contains five carousel packets and assigns M01-M05 exactly once.
+Old W29 v2 A/B/C selections are superseded for new production. W29-001 is the active Hero-first photoreal trial.
 ```
 
 ## Current Top Item
 
 ```text
-item = 2026-W27-002
+item = 2026-W29-002
 model = M02
-stage = v2_review_then_canva_asset_registration
-template = B Symmetric
-package = 10_automation/runs/2026-W27/generated_images/2026-W27-002/codex_generation_handoff.md
+stage = generate_and_review_photoreal_Hero_A
+package = 10_automation/runs/2026-W29/generated_images/2026-W29-002/codex_generation_handoff.md
+completed pilot set = 2026-W29-001 / M01
+pilot review = 10_automation/runs/2026-W29/W29-001_PHOTOREAL_PILOT_REVIEW.html
 ```
 
-Current gate: review the v2 W27-002 through W27-005 candidates, register only approved v2 files as new Canva asset ids, then fill a fresh template copy. Google Drive is optional archive-only storage and must not block production. W26 remains archived and excluded from the queue.
+Current gate: generate and review M02 Hero A using the active pilot rules. W29-001 has a selected A/B/C set and may proceed to Canva asset registration in parallel. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
+
+## Hero-First Photoreal Pilot
+
+Active trial rule:
+
+```text
+A Hero = one coherent person-and-environment photograph using face/full-body anchors
+optional A refinement = one lighting/camera-finish edit only
+B Motion = edit derived from accepted A
+C Detail = edit derived from accepted A
+Canva = blocked until the three-asset session passes visual review
+```
+
+The accepted Hero must have plausible head/body proportions, real physical interaction, shared scene lighting, contact shadows, and no pasted-on appearance. B/C cannot independently reinterpret the wardrobe or scene.
 
 Invalidated Canva flat image assets:
 
@@ -209,18 +224,18 @@ Prepare a strict image job:
 ```powershell
 powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
   -Action image-job `
-  -Week 2026-W27 `
-  -CarouselId 2026-W27-001 `
+  -Week 2026-W29 `
+  -CarouselId 2026-W29-001 `
   -AssetProvider Codex
 ```
 
 This writes:
 
 ```text
-10_automation/runs/2026-W27/generated_images/2026-W27-001/image_job.md
-10_automation/runs/2026-W27/generated_images/2026-W27-001/candidate_prompts.md
-10_automation/runs/2026-W27/generated_images/2026-W27-001/review_sheet.csv
-10_automation/runs/2026-W27/generated_images/2026-W27-001/codex_generation_handoff.md
+10_automation/runs/2026-W29/generated_images/2026-W29-001/image_job.md
+10_automation/runs/2026-W29/generated_images/2026-W29-001/candidate_prompts.md
+10_automation/runs/2026-W29/generated_images/2026-W29-001/review_sheet.csv
+10_automation/runs/2026-W29/generated_images/2026-W29-001/codex_generation_handoff.md
 ```
 
 ## Validation Commands

@@ -30,8 +30,9 @@ single virtual influencer, selfie diary, runway editorial, luxury ad campaign, p
 
 - Full outfit readable in one second.
 - Body proportions must match the approved full-body anchor: head-to-height ratio, shoulder width, torso length, hip placement, knee height, and lower-leg length.
-- Use 70mm full-frame-equivalent perspective with a level optical axis and lower-chest-to-sternum camera height. No low angle or wide-angle elongation.
-- Keep A/B/C at the same camera height, focal length, subject distance, and approximately 78-82% crown-to-sole frame occupancy.
+- Use a normal 50mm full-frame-equivalent perspective with a level optical axis near chest height. No low angle or wide-angle elongation.
+- Build one coherent in-camera scene. Person, foreground, floor, and background must share light direction, white balance, depth of field, grain, edge softness, and ambient color spill.
+- Include plausible physical interaction or overlap so the person is grounded in the scene rather than isolated against a backdrop.
 - Outfit reflects the global trend, but is simplified into daily styling.
 - Model looks approachable, not remote or celebrity-like.
 - Scene supports the outfit and target occasion.
@@ -67,25 +68,25 @@ Avoid:
 
 ## Candidate Strategy
 
-Generate 2-3 candidates:
+Generate a controlled three-asset session:
 
 ```text
-A = safest full-body daily lifestyle image
-B = movement or street-style variation
-C = closer outfit-detail-friendly variation
+A = integrated-scene Hero and session lock
+B = movement variation edited from accepted A
+C = outfit-detail variation edited from accepted A
 ```
 
-All candidates are the same outfit session. A/B/C must keep the exact same garments, layers, palette, shoes, bag, jewelry, styling placement, body proportions, lens, camera height, distance, horizon, and person scale. Only lateral position, pose, body angle, gaze, hand interaction, and expression may change.
+All assets are the same photographed outfit session. Generate A first. If required, apply one lighting/camera-finish edit to A without changing its content. B/C must use accepted A as the edit target/session lock plus the face and full-body anchors. Keep exact garments, layers, palette, shoes, bag, jewelry, identity, body build, scene identity, and lighting logic. C may use a closer crop; B may change pose and gaze.
 
 Reference images lock identity, hair baseline, and body proportions only. They do not prescribe expression, pose, hand position, camera angle, background, lighting, or outfit.
 
-- A: asymmetric three-quarter stance, natural weight shift, attentive eyes, subtle expression.
-- B: candid mid-step or turning movement, different gaze, natural hand interaction.
-- C: detail-friendly pose at the same camera geometry; Canva creates the closer crop later.
+- A: natural weight shift with physical contact or foreground overlap and one coherent scene exposure.
+- B: candid turn or small movement derived from A, with changed gaze and natural hand interaction.
+- C: knees-up or waist-up outfit detail derived from A, preserving identity, garment construction, and scene treatment.
 
 Reject a set when A/B/C repeat the same centered stance, straight arms, gaze, or frozen expression.
 
-Stop if candidate A is already strong. Do not keep generating just to fill slots.
+Do not create B/C until A passes. Reject B/C if editing drifts wardrobe, identity, body build, or scene lighting.
 
 ## Review Rule
 

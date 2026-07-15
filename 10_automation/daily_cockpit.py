@@ -142,7 +142,7 @@ def checklist_for(top_item):
     if item_type == "carousel" and stage == "needs_image_asset_selection":
         return [
             "Open the Codex generation handoff for today's internal model and outfit.",
-            "Generate image candidates inside the Codex workspace.",
+            "Generate one integrated-scene Hero inside the Codex workspace.",
             "Save candidates under generated_images.",
             "Review and score the candidates in image_review_template.csv.",
             "Run asset selection and validation.",
@@ -151,7 +151,7 @@ def checklist_for(top_item):
         return [
             "Do not publish this carousel yet.",
             "Verify the selected Mira Canva master has replaceable cover_image, motion_crop, detail_image, and slide2_line layers.",
-            "Review the generated image candidates for face drift, ghosting, body artifacts, and outfit clarity.",
+            "Review the Hero first; derive B Motion and C Detail only after identity, proportions, outfit, contact, and scene lighting pass.",
             "Regenerate better candidates before replacing Canva assets.",
             "Test-fill the registered active Canva master template before export.",
         ]
@@ -180,7 +180,7 @@ def reply_template(top_item):
             f"type = {item_type}",
             "status = ",
             f"model = {clean(top_item.get('model_profile_id'))}",
-            f"Canva URL = {clean(top_item.get('canva_design_url'))}",
+            f"Canva URL = {clean(top_item.get('canva_design_url'))}".rstrip(),
             "IG URL = ",
             "published at = ",
             "6h metrics = reach / likes / saves / comments / shares",
