@@ -5,7 +5,6 @@
     "stage": "needs_visual_revision",
     "next_action": "Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.",
     "blocking_items": [
-      "2026-W29-004",
       "2026-W29-005"
     ]
   },
@@ -16,7 +15,6 @@
     "canva_committed_ready_to_publish": [],
     "canva_blocked_waiting_for_flat_png_asset": [],
     "needs_visual_revision": [
-      "2026-W29-004",
       "2026-W29-005"
     ],
     "inactive_count": 0,
@@ -32,7 +30,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 4250
+      "size": 4236
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -44,11 +42,11 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 4295
+      "size": 4106
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 3151
+      "size": 2877
     },
     "image_generation_briefs.md": {
       "exists": true,
