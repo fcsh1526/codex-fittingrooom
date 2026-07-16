@@ -3,7 +3,7 @@
   "model_profile_id": "M01",
   "canva_template_key": "B",
   "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
-  "status": "partial_needs_remaining_variants",
+  "status": "needs_canva_frame_review",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-001\\2026-W29-001_M01_photoreal_pilot_candidate_A_canva_safe_v1.png",
@@ -20,6 +20,38 @@
       "center_crop_fraction": 0.0815,
       "visual_status": "needs_canva_frame_review",
       "slot_id": "cover_image"
+    },
+    "B": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-001\\2026-W29-001_M01_photoreal_pilot_candidate_B_canva_safe_v1.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-001\\canva_ready\\2026-W29-001_M01_canva_B_1140x560.png",
+      "source_size": [
+        1789,
+        879
+      ],
+      "target_size": [
+        1140,
+        560
+      ],
+      "target_aspect_ratio": 2.0357,
+      "center_crop_fraction": 0.0002,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "motion_crop"
+    },
+    "C": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-001\\2026-W29-001_M01_photoreal_pilot_candidate_C_canva_safe_v1.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-001\\canva_ready\\2026-W29-001_M01_canva_C_1180x1350.png",
+      "source_size": [
+        1172,
+        1342
+      ],
+      "target_size": [
+        1180,
+        1350
+      ],
+      "target_aspect_ratio": 0.8741,
+      "center_crop_fraction": 0.0009,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "detail_image"
     }
   }
 }
