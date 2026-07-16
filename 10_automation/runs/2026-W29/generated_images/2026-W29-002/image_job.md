@@ -8,6 +8,8 @@
 - trend: 浪漫波西米亞（蕾絲、流蘇與刺繡）
 - clothing_item: 蕾絲滾邊細肩帶背心 ＋ 亞麻寬褲 ＋ 編織包
 - occasion: 旅行
+- canva_template: `v3-E` / Mira Template Master v3 - E Cross-Boundary Weekend Air
+- canva_slot_targets: `canva_slot_targets.json`
 
 Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 

@@ -1,0 +1,57 @@
+{
+  "carousel_id": "2026-W29-002",
+  "model_profile_id": "M02",
+  "canva_template_key": "E",
+  "canva_template_name": "Mira Template Master v3 - E Cross-Boundary Weekend Air",
+  "status": "needs_canva_frame_review",
+  "assets": {
+    "A": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-002\\2026-W29-002_M02_photoreal_pilot_candidate_A_canva_safe_v1.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-002\\canva_ready\\2026-W29-002_M02_canva_A_1120x1050.png",
+      "source_size": [
+        1295,
+        1214
+      ],
+      "target_size": [
+        1120,
+        1050
+      ],
+      "target_aspect_ratio": 1.0667,
+      "center_crop_fraction": 0.0001,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "cover_image"
+    },
+    "B": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-002\\2026-W29-002_M02_photoreal_pilot_candidate_B_canva_safe_v1.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-002\\canva_ready\\2026-W29-002_M02_canva_B_1120x410.png",
+      "source_size": [
+        2073,
+        758
+      ],
+      "target_size": [
+        1120,
+        410
+      ],
+      "target_aspect_ratio": 2.7317,
+      "center_crop_fraction": 0.0011,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "motion_crop"
+    },
+    "C": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-002\\2026-W29-002_M02_photoreal_pilot_candidate_C_canva_safe_v1.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-002\\canva_ready\\2026-W29-002_M02_canva_C_1060x1010.png",
+      "source_size": [
+        1285,
+        1224
+      ],
+      "target_size": [
+        1060,
+        1010
+      ],
+      "target_aspect_ratio": 1.0495,
+      "center_crop_fraction": 0.0003,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "detail_image"
+    }
+  }
+}
