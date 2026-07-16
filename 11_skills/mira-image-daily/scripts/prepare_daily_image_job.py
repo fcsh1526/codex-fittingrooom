@@ -57,6 +57,29 @@ def load_roster(project_root):
     return {row["model_profile_id"]: row for row in data.get("profiles", [])}
 
 
+def load_template_registry(project_root):
+    path = project_root / "10_automation" / "canva_template_registry.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    return {
+        clean(row.get("key")).upper(): row
+        for row in data.get("templates", [])
+        if clean(row.get("key"))
+    }
+
+
+def template_for_packet(project_root, packet):
+    templates = load_template_registry(project_root)
+    key = clean(packet.get("canva_template_key")).upper() or "A"
+    template = templates.get(key)
+    if not template:
+        raise SystemExit(f"Unknown or missing Canva template key: {key}")
+    required = {"cover_image", "motion_crop", "detail_image"}
+    missing = sorted(required - set(template.get("slot_geometry", {})))
+    if missing:
+        raise SystemExit(f"Canva template v3-{key} is missing slot geometry: {', '.join(missing)}")
+    return template
+
+
 def load_reference_manifest(project_root):
     path = project_root / "02_brand" / "mira_reference_images.csv"
     if not path.exists():
@@ -123,7 +146,13 @@ def reference_status(project_root, model_id):
     return {"ok": True, "message": "approved", "face_path": str(face_path), "full_path": str(full_path)}
 
 
-def prompt_for(packet, profile, reference, variant):
+def prompt_for(packet, profile, reference, template, variant):
+    slot_id = {"A": "cover_image", "B": "motion_crop", "C": "detail_image"}[variant]
+    target = template["slot_geometry"][slot_id]
+    target_width = int(target["width"])
+    target_height = int(target["height"])
+    target_ratio = float(target.get("aspect_ratio") or (target_width / target_height))
+    composition = clean(target.get("composition"))
     asset_role = {
         "A": "integrated-scene Hero and session lock",
         "B": "movement variation edited from the accepted Hero A",
@@ -143,6 +172,15 @@ def prompt_for(packet, profile, reference, variant):
             "sleeves, fabric behavior, accessories, identity, scene, and lighting treatment."
         ),
     }[variant]
+    if composition == "horizontal_motion":
+        direction += (
+            " Use a deliberately horizontal environmental composition with a readable face and torso/outfit gesture; "
+            "do not squeeze a full standing figure into the shallow frame."
+        )
+    elif composition == "portrait_motion":
+        direction += (
+            " Use a vertical three-quarter or full-body movement composition with complete hair and plausible floor contact."
+        )
     session_input = (
         "Accepted Hero A is created in this step."
         if variant == "A"
@@ -172,8 +210,13 @@ Trend and outfit:
 Scene and camera:
 Use a believable daily-life setting that supports the occasion. Scene hint: {packet.get('scene', '')}. Treat person and environment as one exposure captured in-camera with a normal 50mm full-frame-equivalent lens near chest height and a level optical axis. One visible or inferable light source must affect face, hair, garments, hands, shoes, foreground, floor, and background consistently. Include ambient color spill, natural contact shadows, shared depth of field, restrained grain, slight optical softness, natural skin texture, flyaway hairs, and small fabric wrinkles.
 
-Canva crop-safe composition:
-Create a near-square 1:1 environmental composition, not a narrow 9:16 portrait. The image will be center-cover cropped into Canva frames ranging from about 0.83:1 to 1.07:1. Keep the entire hairstyle and head below an 8% top safe margin. Keep the face and outfit focus inside the central 70% of the image. For full-body views, leave real scene space above the hair and below the feet and keep the crown-to-sole figure at about 68-74% of image height. The default center crop must remain publishable without manual focal-point adjustment.
+Canva frame target:
+- Assigned master: v3-{template['key']} / {template['name']}
+- Slot: {slot_id}
+- Exact frame: {target_width} x {target_height} px
+- Required width:height ratio: {target_ratio:.4f}:1
+- Composition role: {composition}
+Compose specifically for this frame ratio; do not reuse one narrow portrait composition for all A/B/C slots. Keep the entire hairstyle and head below an 8% top safe margin whenever the head appears. Keep the face and outfit focus inside the central 70%. For full-body views, leave real scene space above the hair and below the feet. No borders or letterboxing. The untouched Canva frame fill must remain publishable without manual focal-point adjustment.
 
 Asset direction:
 {direction}
@@ -200,7 +243,8 @@ def write_job(project_root, run_dir, carousel_id, tool, version_tag=""):
     job_dir = run_dir / "generated_images" / carousel_id
     job_dir.mkdir(parents=True, exist_ok=True)
 
-    prompts = [prompt_for(packet, profile, ref, variant) for variant in ["A", "B", "C"]]
+    template = template_for_packet(project_root, packet)
+    prompts = [prompt_for(packet, profile, ref, template, variant) for variant in ["A", "B", "C"]]
     (job_dir / "candidate_prompts.md").write_text("# Candidate Prompts\n\n" + "\n\n---\n\n".join(prompts), encoding="utf-8")
 
     handoff_lines = [
@@ -241,6 +285,25 @@ def write_job(project_root, run_dir, carousel_id, tool, version_tag=""):
     ]
     (job_dir / "codex_generation_handoff.md").write_text("\n".join(handoff_lines), encoding="utf-8")
 
+    slot_targets = {
+        "carousel_id": carousel_id,
+        "model_profile_id": model_id,
+        "canva_template_key": template["key"],
+        "canva_template_name": template["name"],
+        "canva_design_id": template["design_id"],
+        "slots": {
+            variant: {
+                "slot_id": slot_id,
+                **template["slot_geometry"][slot_id],
+            }
+            for variant, slot_id in {"A": "cover_image", "B": "motion_crop", "C": "detail_image"}.items()
+        },
+    }
+    (job_dir / "canva_slot_targets.json").write_text(
+        json.dumps(slot_targets, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
     job_lines = [
         "# Mira Daily Image Job",
         "",
@@ -252,6 +315,8 @@ def write_job(project_root, run_dir, carousel_id, tool, version_tag=""):
         f"- trend: {packet.get('trend_name', '')}",
         f"- clothing_item: {packet.get('clothing_item', '')}",
         f"- occasion: {packet.get('occasion', '')}",
+        f"- canva_template: `v3-{template['key']}` / {template['name']}",
+        "- canva_slot_targets: `canva_slot_targets.json`",
         "",
         "Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.",
         "",

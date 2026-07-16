@@ -5,7 +5,7 @@ Stage: `needs_visual_revision`
 
 ## Next Action
 
-Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.
+Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.
 
 ## Blocking Items
 
@@ -26,7 +26,7 @@ open 10_automation\runs\2026-W29/canva_asset_plan.md
 ```
 
 ```powershell
-Generate one near-square crop-safe A derivative as a pilot before revising the remaining W29 assets.
+Use canva_slot_targets.json and prepare_canva_ready_assets.py before revising the Canva design.
 ```
 
 ## Summary

@@ -211,7 +211,7 @@ def determine_stage(files, quality, assets, publishing, packet=None):
     if packet.get("needs_visual_revision"):
         return {
             "stage": "needs_visual_revision",
-            "next_action": "Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.",
+            "next_action": "Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.",
             "blocking_items": packet.get("needs_visual_revision"),
         }
 
@@ -299,7 +299,7 @@ def command_suggestions(run_dir, stage):
     elif stage == "needs_visual_revision":
         suggestions.append(f"open {run_dir_str}/generated_images")
         suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
-        suggestions.append("Generate one near-square crop-safe A derivative as a pilot before revising the remaining W29 assets.")
+        suggestions.append("Use canva_slot_targets.json and prepare_canva_ready_assets.py before revising the Canva design.")
     elif stage == "canva_blocked_waiting_for_flat_png_asset":
         visual_review = run_dir / "W29_v2_VISUAL_REVIEW.html"
         if visual_review.exists():

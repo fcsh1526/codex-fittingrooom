@@ -1,5 +1,6 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-16",
+  "geometry_audited_at": "2026-07-16",
   "active_version": "v3",
   "status": "committed",
   "canvas": {
@@ -22,7 +23,12 @@
       "url": "https://www.canva.com/d/c-IyIaIsCawzyCI",
       "previous_v2_url": "https://www.canva.com/design/DAHOx6hb1Ug/A1sysuKRtad0lCYR8jqBQg/edit",
       "role": "standard daily editorial",
-      "use_when": "General weekday outfit posts and most daily trend carousels."
+      "use_when": "General weekday outfit posts and most daily trend carousels.",
+      "slot_geometry": {
+        "cover_image": {"variant": "A", "element_id": "PBH0W52WPN6tdDhr-LBly7B8SRQCHnnxF", "left": 80, "top": 80, "width": 1160, "height": 1190, "aspect_ratio": 0.9748, "composition": "full_body"},
+        "motion_crop": {"variant": "B", "element_id": "PBH0W52WPN6tdDhr-LBRtGM3vzhrlNXpW", "left": 1180, "top": 470, "width": 980, "height": 430, "aspect_ratio": 2.2791, "composition": "horizontal_motion"},
+        "detail_image": {"variant": "C", "element_id": "PBH0W52WPN6tdDhr-LBRvB9j0scjc1tfY", "left": 2040, "top": 120, "width": 1080, "height": 1080, "aspect_ratio": 1.0, "composition": "outfit_detail"}
+      }
     },
     {
       "key": "B",
@@ -31,7 +37,12 @@
       "url": "https://www.canva.com/d/UoVSnPEpgguD3be",
       "previous_v2_url": "https://www.canva.com/design/DAHOxwp1cZ8/cIfSmcVa-DAJJrT-21PJoA/edit",
       "role": "formal balanced magazine spread",
-      "use_when": "Quiet, balanced, formal editorial posts where symmetry and calm presentation matter."
+      "use_when": "Quiet, balanced, formal editorial posts where symmetry and calm presentation matter.",
+      "slot_geometry": {
+        "cover_image": {"variant": "A", "element_id": "PBG0szxkSTKqLWNX-LBbTnwkYDV7sQb2f", "left": 0, "top": 0, "width": 1240, "height": 1350, "aspect_ratio": 0.9185, "composition": "full_body"},
+        "motion_crop": {"variant": "B", "element_id": "PBG0szxkSTKqLWNX-LBrNkdTtVWx2DSGy", "left": 1160, "top": 545, "width": 1140, "height": 560, "aspect_ratio": 2.0357, "composition": "horizontal_motion"},
+        "detail_image": {"variant": "C", "element_id": "PBG0szxkSTKqLWNX-LBwCJ73MvWPDZBxt", "left": 2060, "top": 0, "width": 1180, "height": 1350, "aspect_ratio": 0.8741, "composition": "outfit_detail"}
+      }
     },
     {
       "key": "C",
@@ -40,7 +51,12 @@
       "url": "https://www.canva.com/d/C9QGHZ6OH7HtYux",
       "previous_v2_url": "https://www.canva.com/design/DAHOyEHkFvg/DBpyigPr05vQqxuuqV7wKA/edit",
       "role": "dark evening / autumn-winter editorial",
-      "use_when": "Night, black, evening, low-light, autumn, winter, or stronger fashion-editorial moods."
+      "use_when": "Night, black, evening, low-light, autumn, winter, or stronger fashion-editorial moods.",
+      "slot_geometry": {
+        "cover_image": {"variant": "A", "element_id": "PB2GyF34vKF1k1q4-LBtfx0hWS7Gnd4fW", "left": 0, "top": 0, "width": 1230, "height": 1350, "aspect_ratio": 0.9111, "composition": "full_body"},
+        "motion_crop": {"variant": "B", "element_id": "PB2GyF34vKF1k1q4-LB7NyX60PQMJwTV1", "left": 1450, "top": 540, "width": 1000, "height": 460, "aspect_ratio": 2.1739, "composition": "horizontal_motion"},
+        "detail_image": {"variant": "C", "element_id": "PB2GyF34vKF1k1q4-LBN3VRtpTw2PkgYb", "left": 2060, "top": 0, "width": 1180, "height": 1350, "aspect_ratio": 0.8741, "composition": "outfit_detail"}
+      }
     },
     {
       "key": "D",
@@ -49,7 +65,12 @@
       "url": "https://www.canva.com/d/Kh_uu5y-twQzbF-",
       "previous_v2_url": "https://www.canva.com/design/DAHOyNz_Dh4/SCdZqafV5zkpK5TVIB6kMw/edit",
       "role": "strongest image-led impact",
-      "use_when": "The photos are strong and the post should maximize visual impact with the highest image weight."
+      "use_when": "The photos are strong and the post should maximize visual impact with the highest image weight.",
+      "slot_geometry": {
+        "cover_image": {"variant": "A", "element_id": "PBc4SXKCMsrnDq09-LBLCbPB4ylJMHvgH", "left": 0, "top": 0, "width": 1240, "height": 1350, "aspect_ratio": 0.9185, "composition": "full_body"},
+        "motion_crop": {"variant": "B", "element_id": "PBc4SXKCMsrnDq09-LBFxrBMDgGbP2z2x", "left": 1160, "top": 0, "width": 1140, "height": 1350, "aspect_ratio": 0.8444, "composition": "portrait_motion"},
+        "detail_image": {"variant": "C", "element_id": "PBc4SXKCMsrnDq09-LBlGL2nSt6yjbl6m", "left": 2060, "top": 0, "width": 1180, "height": 1350, "aspect_ratio": 0.8741, "composition": "outfit_detail"}
+      }
     },
     {
       "key": "E",
@@ -58,7 +79,12 @@
       "url": "https://www.canva.com/d/djICquyAb4kcGwW",
       "previous_v2_url": "https://www.canva.com/design/DAHOyEiLL24/yTWykrCQdrFjncOa46cq9g/edit",
       "role": "quiet weekend / Kinfolk-like",
-      "use_when": "Weekend, linen, cafe, soft daylight, airy negative space, or quieter daily-life posts."
+      "use_when": "Weekend, linen, cafe, soft daylight, airy negative space, or quieter daily-life posts.",
+      "slot_geometry": {
+        "cover_image": {"variant": "A", "element_id": "PB2KJwy4Hry1KtZw-LBFs9vTZxn5vkykb", "left": 130, "top": 150, "width": 1120, "height": 1050, "aspect_ratio": 1.0667, "composition": "full_body"},
+        "motion_crop": {"variant": "B", "element_id": "PB2KJwy4Hry1KtZw-LBHfvSdXxjrH1KwK", "left": 1180, "top": 700, "width": 1120, "height": 410, "aspect_ratio": 2.7317, "composition": "horizontal_motion"},
+        "detail_image": {"variant": "C", "element_id": "PB2KJwy4Hry1KtZw-LBlt6pr2SBJlgcPt", "left": 2060, "top": 170, "width": 1060, "height": 1010, "aspect_ratio": 1.0495, "composition": "outfit_detail"}
+      }
     }
   ]
 }

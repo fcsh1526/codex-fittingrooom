@@ -124,10 +124,16 @@ models = M01, M02, M04, M03, M05
 stage = needs_visual_revision
 selected assets = 15 / 15
 blocking reason = default Canva center-cover crop cuts the hairstyle/head in most source images
-next operation = W29-001 crop-safe A pilot passed; create crop-safe C, then replace and validate both affected frames together before scaling to the remaining designs
+next operation = W29-001 v3-B A is normalized at 1240x1350; create B at 1140x560 and C at 1180x1350, normalize all three, then replace and validate the complete set together
 ```
 
 Current gate: visual revision before export. All 15 original PNGs and five committed Canva duplicates remain preserved, but they are not approved for publishing. Do not rely on Canva Smart Crop or manual focal adjustment as the automation path. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
+
+Template-first image contract:
+
+```text
+choose v3 master -> read generated_images/{carousel_id}/canva_slot_targets.json -> create A/B/C for those exact ratios -> run prepare_canva_ready_assets.py -> verify untouched Canva frame fill
+```
 
 ## Hero-First Photoreal Pilot
 

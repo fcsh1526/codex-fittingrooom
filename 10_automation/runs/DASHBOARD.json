@@ -43,7 +43,7 @@
     {
       "run_dir": "10_automation\\runs\\2026-W29",
       "stage": "needs_visual_revision",
-      "next_action": "Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.",
+      "next_action": "Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",

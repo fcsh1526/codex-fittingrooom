@@ -1,6 +1,6 @@
 param(
     [Parameter(Mandatory = $true)]
-    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "cockpit", "visibility-test", "assets", "image-job", "sync-canva-map", "generate-images", "metrics", "validate", "smoke-test")]
+    [ValidateSet("pipeline", "status", "dashboard", "queue", "today", "brief", "cockpit", "visibility-test", "assets", "image-job", "canva-ready", "sync-canva-map", "generate-images", "metrics", "validate", "smoke-test")]
     [string]$Action,
 
     [string]$Week = "",
@@ -29,6 +29,10 @@ param(
     [switch]$SkipImageJobs,
     [string]$DailyId = "",
     [string]$VersionTag = "",
+    [string]$SourceA = "",
+    [string]$SourceB = "",
+    [string]$SourceC = "",
+    [double]$MaxCropFraction = 0.15,
     [string]$OpenAIModel = "",
     [string]$ImageSize = "1024x1536",
     [string]$ImageQuality = "medium",
@@ -224,6 +228,29 @@ switch ($Action) {
             $argsList += @("--version-tag", $VersionTag)
         }
         Invoke-MikaPython -ScriptPath "11_skills\mira-image-daily\scripts\prepare_daily_image_job.py" -ArgsList $argsList
+    }
+
+    "canva-ready" {
+        $resolvedRunDir = Resolve-RunDir
+        if (-not $CarouselId) {
+            throw "CarouselId is required for canva-ready."
+        }
+        $argsList = @(
+            "--project-root", ".",
+            "--run-dir", $resolvedRunDir,
+            "--carousel-id", $CarouselId,
+            "--max-crop-fraction", "$MaxCropFraction"
+        )
+        if ($SourceA) {
+            $argsList += @("--source-a", $SourceA)
+        }
+        if ($SourceB) {
+            $argsList += @("--source-b", $SourceB)
+        }
+        if ($SourceC) {
+            $argsList += @("--source-c", $SourceC)
+        }
+        Invoke-MikaPython -ScriptPath "11_skills\mira-image-daily\scripts\prepare_canva_ready_assets.py" -ArgsList $argsList
     }
 
     "sync-canva-map" {

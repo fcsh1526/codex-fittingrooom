@@ -38,7 +38,9 @@ references/reference-start-images.md
 6. If A has correct identity, proportions, outfit, physical contact, and scene lighting, optionally run one lighting/camera-finish edit. This accepted A becomes the session lock.
 7. Create B Motion and C Detail as edits derived from accepted A, with the two model references attached. Do not independently regenerate the outfit or scene.
 8. Save accepted outputs under the job folder and fill the review sheet before asset selection or Canva.
-9. Verify the untouched center-cover result in the assigned Canva master. If the full hairstyle, face, or outfit focus is cropped, reject the asset or create a crop-safe derivative before Canva commit.
+9. Read `canva_slot_targets.json`. Prepare A/B/C for the exact frame dimensions of the already assigned master; do not generate one generic portrait set before template selection.
+10. Run `scripts/prepare_canva_ready_assets.py` to normalize approved, crop-safe sources to exact frame pixels without stretching. The script rejects source/frame mismatches that need more than 15% center crop.
+11. Verify the untouched result in the assigned Canva master. If the full hairstyle, face, or outfit focus is cropped, reject the asset or create a better-composed derivative before Canva commit.
 
 Do not skip step 3. If either reference image is missing, stop and tell the user which reference image must be created or supplied first.
 
@@ -60,6 +62,20 @@ The script writes:
 10_automation/runs/{week_id}/generated_images/{carousel_id}/image_job.md
 10_automation/runs/{week_id}/generated_images/{carousel_id}/candidate_prompts.md
 10_automation/runs/{week_id}/generated_images/{carousel_id}/review_sheet.csv
+10_automation/runs/{week_id}/generated_images/{carousel_id}/canva_slot_targets.json
+```
+
+After A/B/C visual approval, normalize them to the selected master:
+
+```powershell
+& 'C:\Users\Brandon_ChangChien\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' `
+  11_skills\mira-image-daily\scripts\prepare_canva_ready_assets.py `
+  --project-root . `
+  --run-dir 10_automation\runs\2026-W29 `
+  --carousel-id 2026-W29-001 `
+  --source-a accepted_A.png `
+  --source-b accepted_B.png `
+  --source-c accepted_C.png
 ```
 
 ## Generation Rules
@@ -77,7 +93,9 @@ The script writes:
 - Use a normal 50mm full-frame-equivalent perspective near chest height with a level optical axis. Never use a low angle or wide-angle perspective for full-body images.
 - Include a real foreground or scene object with physically believable hand, foot, clothing, or bag interaction whenever suitable.
 - Prefer one excellent integrated Hero plus two controlled derivatives over three unrelated full-body images.
-- Final Canva assets must use a near-square crop-safe composition. Keep the full hairstyle below an 8% top safe margin, preserve scene space above the hair, and keep face/outfit focus in the central 70%. Do not depend on Canva Smart Crop or manual focal-point adjustment.
+- Select the Canva master before generation. A/B/C must use the exact aspect ratios in `canva_slot_targets.json`; v3-D B is portrait while A/B/C motion frames in the other masters may be shallow horizontal strips.
+- Keep the full hairstyle below an 8% top safe margin, preserve scene space above the hair, and keep face/outfit focus in the central 70%. Do not depend on Canva Smart Crop or manual focal-point adjustment.
+- Exact pixel normalization may center-crop at most 15% and must never stretch the image. A larger required crop means the source composition is wrong and must be regenerated.
 
 Prompt age rule:
 
@@ -95,6 +113,7 @@ Store image outputs in the run folder:
 
 ```text
 10_automation/runs/{week_id}/generated_images/{carousel_id}/
+10_automation/runs/{week_id}/generated_images/{carousel_id}/canva_ready/
 ```
 
 Use filenames like:

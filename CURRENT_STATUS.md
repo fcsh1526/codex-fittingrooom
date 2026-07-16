@@ -31,6 +31,10 @@ The five W29 v3 Canva duplicates were filled and committed on 2026-07-16, but vi
 
 The v3-E `MIRA` brand mark geometry was corrected and saved on 2026-07-16 in the master and in W29-002 / W29-005. Its text box now ends at x=3200 on the 3240px canvas, leaving a 40px right-safe margin.
 
+All five v3 masters were audited on 2026-07-16 and their exact A/B/C frame geometry is now stored in `canva_template_registry.json`. New weekly packets choose one master before image-job generation. Each job writes `canva_slot_targets.json`, and its A/B/C prompts use the assigned frame ratios instead of one generic portrait ratio. `prepare_canva_ready_assets.py` normalizes approved sources to exact frame pixels without stretching and rejects center crops above 15%.
+
+W29-001 correctly resolves to v3-B: A `1240x1350`, B `1140x560`, C `1180x1350`. The accepted crop-safe A source was normalized to `canva_ready/2026-W29-001_M01_canva_A_1240x1350.png` with an 8.15% center crop and remains visually intact. B and C still need purpose-built frame-ratio derivatives before the Canva design can be saved.
+
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```
 
@@ -159,7 +163,9 @@ A default Canva center-cover crop that cuts hair, face, or outfit focus is an au
 - Five Claude Design Mira template variants were pushed to Canva as master templates: A Contact Sheet, B Symmetric, C Noir Evening, D Full-Bleed, and E Weekend Air.
 - Five cross-boundary v3 copies were approved and committed in Canva on 2026-07-14. The active registry now points to v3; v2 remains archived.
 - v3-E master and W29-002 / W29-005 were corrected on 2026-07-16 so the bottom-right `MIRA` mark stays inside a 40px right-safe margin.
-- The image pipeline now requires near-square crop-safe output and a `canva_frame_fit` score before a carousel can be marked publishable.
+- The image pipeline now requires assigned-frame-ratio crop-safe output and a `canva_frame_fit` score before a carousel can be marked publishable.
+- All five v3 master frame geometries are machine-readable; template selection now occurs before A/B/C prompt generation.
+- `prepare_canva_ready_assets.py` creates exact frame-sized PNGs without stretching and blocks source/frame mismatches requiring more than 15% crop.
 - The active Canva master registry is `10_automation/canva_template_registry.md` and `10_automation/canva_template_registry.json`.
 - Current Canva automation slot contract is `cover_image`, `motion_crop`, `detail_image`, and `slide2_line`.
 - Daily Canva use should duplicate one master template before replacing assets. Do not write daily content directly into master templates.

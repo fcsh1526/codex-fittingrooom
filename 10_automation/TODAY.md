@@ -10,9 +10,9 @@ The current carousel should not be published until the generated assets pass the
 
 ## Today Only
 
-1. Create a near-square crop-safe derivative from the accepted Hero while preserving face, outfit, body, scene, and lighting.
-2. Replace the affected Canva frame on a pilot design without manual crop adjustment.
-3. Confirm the full hairstyle, face, and outfit focus survive the untouched center-cover crop before scaling to the remaining designs.
+1. Read canva_slot_targets.json and create each remaining A/B/C derivative for its exact assigned frame ratio.
+2. Run prepare_canva_ready_assets.py to normalize approved sources without stretching or more than 15% center crop.
+3. Replace the complete A/B/C set and confirm the full hairstyle, face, and outfit focus survive the untouched Canva fill.
 
 ## User Should Provide
 
@@ -21,7 +21,7 @@ The current carousel should not be published until the generated assets pass the
 ## Codex Can Do Next
 
 - Mark the run as blocked from publishing.
-- Generate crop-safe derivatives from accepted assets.
+- Generate assigned-frame-ratio derivatives from accepted assets.
 - Enforce canva_frame_fit as a hard asset-selection gate.
 
 ## Useful Files

@@ -161,16 +161,16 @@ def stage_brief(stage):
         "needs_visual_revision": {
             "decision": "The current carousel should not be published until the generated assets pass the actual Canva frame-fit check.",
             "tasks": [
-                "Create a near-square crop-safe derivative from the accepted Hero while preserving face, outfit, body, scene, and lighting.",
-                "Replace the affected Canva frame on a pilot design without manual crop adjustment.",
-                "Confirm the full hairstyle, face, and outfit focus survive the untouched center-cover crop before scaling to the remaining designs.",
+                "Read canva_slot_targets.json and create each remaining A/B/C derivative for its exact assigned frame ratio.",
+                "Run prepare_canva_ready_assets.py to normalize approved sources without stretching or more than 15% center crop.",
+                "Replace the complete A/B/C set and confirm the full hairstyle, face, and outfit focus survive the untouched Canva fill.",
             ],
             "user_inputs": [
                 "Visual approval of the first crop-safe pilot in Canva",
             ],
             "codex_actions": [
                 "Mark the run as blocked from publishing.",
-                "Generate crop-safe derivatives from accepted assets.",
+                "Generate assigned-frame-ratio derivatives from accepted assets.",
                 "Enforce canva_frame_fit as a hard asset-selection gate.",
             ],
             "files": [

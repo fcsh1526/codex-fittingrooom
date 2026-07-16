@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT / "10_automation"))
 
 from mira_models import MODEL_ROTATION, model_for_index
 from build_weekly_packet import week_start_date
+from canva_templates import load_template_registry
 
 
 def rel(path):
@@ -104,6 +105,29 @@ def test_new_week_without_assets():
     assert_equal(len(queue), 5, "daily queue row count")
     if not all(row.get("model_profile_id") in {"M01", "M02", "M03", "M04", "M05"} for row in packets):
         raise AssertionError("weekly packet model_profile_id must be M01/M02/M03/M04/M05")
+    if not all(row.get("canva_template_key") in {"A", "B", "C", "D", "E"} for row in packets):
+        raise AssertionError("Canva master must be selected before image-job generation")
+    first_packet = packets[0]
+    targets = read_json(run_dir / "generated_images" / first_packet["carousel_id"] / "canva_slot_targets.json")
+    assert_equal(targets["canva_template_key"], first_packet["canva_template_key"], "image job template key")
+    assert_equal(sorted(targets["slots"]), ["A", "B", "C"], "image job target variants")
+    prompt_text = (run_dir / "generated_images" / first_packet["carousel_id"] / "candidate_prompts.md").read_text(encoding="utf-8")
+    if "Exact frame:" not in prompt_text or "Required width:height ratio:" not in prompt_text:
+        raise AssertionError("candidate prompts must include exact Canva frame geometry")
+
+
+def test_canva_template_geometry_registry():
+    templates = load_template_registry()
+    assert_equal(sorted(templates), ["A", "B", "C", "D", "E"], "active Canva masters")
+    for key, template in templates.items():
+        slots = template.get("slot_geometry", {})
+        assert_equal(sorted(slots), ["cover_image", "detail_image", "motion_crop"], f"v3-{key} slots")
+        for slot_id, slot in slots.items():
+            if int(slot.get("width", 0)) <= 0 or int(slot.get("height", 0)) <= 0:
+                raise AssertionError(f"v3-{key} {slot_id} has invalid geometry")
+            expected_ratio = int(slot["width"]) / int(slot["height"])
+            if abs(float(slot.get("aspect_ratio", 0)) - expected_ratio) > 0.001:
+                raise AssertionError(f"v3-{key} {slot_id} aspect ratio mismatch")
 
 
 def test_weekly_model_rotation_uses_all_five():
@@ -467,6 +491,7 @@ def main():
     clean_tmp()
     test_iso_week_dates()
     test_weekly_model_rotation_uses_all_five()
+    test_canva_template_geometry_registry()
     test_perplexity_index_resolver()
     test_new_week_without_assets()
     test_week_with_scored_assets()

@@ -1,0 +1,25 @@
+{
+  "carousel_id": "2026-W29-001",
+  "model_profile_id": "M01",
+  "canva_template_key": "B",
+  "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
+  "status": "partial_needs_remaining_variants",
+  "assets": {
+    "A": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-001\\2026-W29-001_M01_photoreal_pilot_candidate_A_canva_safe_v1.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-001\\canva_ready\\2026-W29-001_M01_canva_A_1240x1350.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "target_size": [
+        1240,
+        1350
+      ],
+      "target_aspect_ratio": 0.9185,
+      "center_crop_fraction": 0.0815,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "cover_image"
+    }
+  }
+}

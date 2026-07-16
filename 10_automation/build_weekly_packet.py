@@ -9,6 +9,7 @@ from generate_canva_placeholders import FIELDNAMES as CANVA_FIELDS
 from generate_canva_placeholders import build_placeholders
 from fashion_language_zh_tw import localize_packet_fields
 from mira_models import load_model_roster, model_for_index
+from canva_templates import choose_template, load_template_registry, slot_for_variant
 
 
 PACKET_FIELDS = [
@@ -296,6 +297,7 @@ def daily_queue_rows(week_id, packets, days=5):
 
 def write_image_generation_briefs(path, packets):
     roster = load_model_roster()
+    templates = load_template_registry()
     lines = [
         "# Codex Image Generation Briefs",
         "",
@@ -304,6 +306,12 @@ def write_image_generation_briefs(path, packets):
     ]
     for packet in packets:
         profile = roster.get(packet["model_profile_id"], {})
+        template = choose_template(packet, templates)
+        targets = {variant: slot_for_variant(template, variant) for variant in ["A", "B", "C"]}
+        target_line = "; ".join(
+            f"{variant}/{target.get('slot_id')}={target.get('width')}x{target.get('height')} ({target.get('aspect_ratio')}:1)"
+            for variant, target in targets.items()
+        )
         lines.extend(
             [
                 f"## {packet['carousel_id']} / {packet['model_profile_id']} - {packet['trend_name']}",
@@ -316,6 +324,8 @@ def write_image_generation_briefs(path, packets):
                 f"- Palette / fabric / fit: {packet['color_palette']} / {packet['fabric']} / {packet['fit']}",
                 f"- Occasion: {packet['occasion']}",
                 f"- Scene: {packet['scene']}",
+                f"- Canva master: v3-{template.get('key', 'A')} / {template.get('name', '')}",
+                f"- Exact slot targets: {target_line}",
                 "",
                 "### Image Prompt",
                 "",
@@ -332,7 +342,7 @@ def write_image_generation_briefs(path, packets):
                 "Body proportion lock: match the approved full-body anchor's head-to-height ratio, shoulder width, torso length, natural waist and hip placement, crotch height, knee height, thigh length, lower-leg length, arm length, and hand size. Do not shrink the head, raise the crotch, narrow the torso, or lengthen the legs.",
                 "Camera geometry: use a 70mm full-frame-equivalent perspective, lower-chest-to-sternum camera height, and a level optical axis. Keep focal length, camera height, subject distance, horizon, and person scale fixed across A/B/C. No low angle, wide angle, phone-lens distortion, forced perspective, or leg elongation.",
                 "Lighting integration: use one scene-motivated directional source. Match its direction and color temperature on face, neck, arms, clothes, shoes, and bag; preserve visible light falloff, ambient color spill, and grounded contact shadows. Match subject contrast, grain, depth of field, and edge softness to the background.",
-                "Composition: near-square 1:1 environmental photograph, not a narrow 9:16 portrait. Full outfit readable within one second, natural posture, subtle real skin texture, crown-to-sole figure occupying about 68-74% of frame height, both shoes and floor contact visible, and real scene space above the hair. Keep the full hairstyle below an 8% top safe margin and the face/outfit focus inside the central 70% so center-cover crop into Canva frames from 0.83:1 to 1.07:1 remains publishable without manual focal adjustment. No visible logos, no text, no watermark.",
+                f"Composition: create A/B/C for the assigned v3-{template.get('key', 'A')} master at these exact target ratios: {target_line}. A must keep the full outfit readable; B follows its motion-frame orientation; C keeps the required outfit detail readable. Do not reuse one narrow portrait for all three slots. Keep the full hairstyle below an 8% top safe margin whenever the head appears, and keep face/outfit focus inside the central 70% so the untouched Canva fill remains publishable. No visible logos, no text, no watermark.",
                 "Avoid: tiny head, nine-head fashion elongation, inconsistent body-to-leg ratio, low-angle leg stretching, supermodel proportions, luxury hotel background, runway pose, plastic skin, flawless beauty render, pasted-on subject, frontal beauty light, shadowless face, halo edges, missing contact shadows, outfit drift across A/B/C, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, wrinkle-based age cues, numeric true-age labels.",
                 "```",
                 "",
@@ -566,6 +576,9 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     packets = [to_packet_row(row, args.week, index) for index, row in enumerate(selected, start=1)]
+    templates = load_template_registry()
+    for packet in packets:
+        packet["canva_template_key"] = choose_template(packet, templates).get("key", "A")
     canva_rows = [build_placeholders(packet) for packet in packets]
     daily_rows = daily_queue_rows(args.week, packets, days=args.daily_days)
 

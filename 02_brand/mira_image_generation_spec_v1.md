@@ -123,7 +123,7 @@ Preferred minimum:
 
 Canva usage:
 
-- `cover_image`: best full-body lifestyle image prepared in a near-square, Canva crop-safe composition.
+- `cover_image`: best full-body lifestyle image prepared for the exact cover frame ratio of the assigned Canva master.
 - `texture_or_crop`: crop from the best image, such as fabric, skirt movement, bag, shoe, sleeve, or waist detail.
 - `detail_image`: second usable crop-safe image if available; otherwise create a controlled derivative from the accepted Hero.
 
@@ -131,11 +131,12 @@ Do not force three unrelated photos. One excellent image plus controlled crop-sa
 
 ## Canva Frame Fit
 
-Final Canva assets must be near-square rather than narrow 9:16 portraits. They must survive the untouched center-cover behavior of the active templates, whose photo frames range from about `0.83:1` to `1.07:1`.
+Select the Canva master before producing final assets. A/B/C must be composed for that master's exact frame ratios; do not reuse one narrow 9:16 portrait across all slots. Current frames range from portrait `0.8444:1` to horizontal `2.7317:1`.
 
 - Keep the entire hairstyle below an 8% top safe margin.
 - Keep the face and outfit focus inside the central 70% of the image.
 - For full-body views, keep the crown-to-sole figure at about 68-74% of image height with real scene space above the hair and below the feet.
+- Final pixel normalization may center-crop no more than 15% and must never stretch the image.
 - Reject any default Canva crop that cuts hair, face, or the garment detail needed by the slide.
 
 ## Candidate Set

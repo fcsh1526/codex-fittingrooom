@@ -8,6 +8,8 @@
 - trend: 輕透層次 透膚疊穿
 - clothing_item: 透膚網紗長袖上衣 ＋ 緞面細肩帶背心 ＋ 寬褲
 - occasion: 通勤
+- canva_template: `v3-B` / Mira Template Master v3 - B Cross-Boundary Symmetric
+- canva_slot_targets: `canva_slot_targets.json`
 
 Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
