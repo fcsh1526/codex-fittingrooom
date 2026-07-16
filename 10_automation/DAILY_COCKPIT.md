@@ -1,46 +1,43 @@
 # Mira Daily Cockpit
 
-Date: `2026-07-15`
+Date: `2026-07-16`
 
 ## Today, Do This First
 
-- Item: `2026-W29-002`
+- Item: `2026-W29-001`
 - Type: `carousel`
-- Model: `M02`
-- Canva template: `E` Mira Template Master v3 - E Cross-Boundary Weekend Air
-- Canva template URL: https://www.canva.com/d/djICquyAb4kcGwW
+- Model: `M01`
+- Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
+- Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
 - Canva design URL: n/a
-- Stage: `needs_image_asset_selection`
-- Asset: `n/a`
-- Next action: Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.
+- Stage: `canva_blocked_waiting_for_flat_png_asset`
+- Asset: `2026-W29-001_M01_photoreal_pilot_candidate_A.png`
+- Next action: Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.
 
 ## Checklist
 
-- [ ] Open the Codex generation handoff for today's internal model and outfit.
-- [ ] Generate one integrated-scene Hero inside the Codex workspace.
-- [ ] Save candidates under generated_images.
-- [ ] Review and score the candidates in image_review_template.csv.
-- [ ] Run asset selection and validation.
+- [ ] Do not export or publish the failed Canva draft.
+- [ ] Resolve the selected complete PNG/JPG assets to verified Canva image asset ids.
+- [ ] Confirm cover_image, motion_crop, and detail_image are whole flat image assets, not Magic Layers splits.
+- [ ] Duplicate the recommended registered Canva master template again.
+- [ ] Rerun the Canva fill only on the fresh duplicate.
 
 ## Files To Open
 
-- `10_automation/runs/2026-W29/generated_images/2026-W29-002/codex_generation_handoff.md`
-- `10_automation/runs/2026-W29/generated_images/2026-W29-002/candidate_prompts.md`
-- `10_automation/runs/2026-W29/generated_images/2026-W29-002/review_sheet.csv`
-- `10_automation/runs/2026-W29/daily_queue.csv`
-- `10_automation/runs/2026-W29/image_generation_briefs.md`
-- `10_automation/runs/2026-W29/image_review_template.csv`
-- `10_automation/runs/2026-W29/generated_images`
+- `10_automation/canva_template_registry.md`
+- `10_automation/runs/2026-W29/canva_automation_trial_log.md`
+- `10_automation/runs/2026-W29/canva_fill_guide.md`
 - `10_automation/runs/2026-W29/canva_asset_slots.csv`
+- `10_automation/runs/2026-W29/generated_images/2026-W26-002`
 
 ## Reply Template For Codex
 
 ```text
 今日回報：
-item = 2026-W29-002
+item = 2026-W29-001
 type = carousel
 status = 
-model = M02
+model = M01
 Canva URL =
 IG URL = 
 published at = 

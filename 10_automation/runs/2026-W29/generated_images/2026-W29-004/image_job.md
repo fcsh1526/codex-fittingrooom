@@ -9,7 +9,7 @@
 - clothing_item: 氣球版型牛仔褲 ＋ 合身背心 ＋ 短版西裝外套
 - occasion: 通勤
 
-Generate 2-3 candidates, then score them before Canva.
+Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
 Codex handoff:
 

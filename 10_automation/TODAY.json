@@ -1,35 +1,35 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W29",
-    "stage": "needs_image_asset_selection",
-    "next_action": "Continue generating and scoring the remaining Codex image jobs, then rerun select_codex_assets.py. Canva work for already selected carousels can proceed in parallel.",
+    "stage": "canva_blocked_waiting_for_flat_png_asset",
+    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
     "packet_rows": 5,
     "quality": "pass",
-    "cover_assets": "1/5",
+    "cover_assets": "5/5",
     "published": false,
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The next bottleneck is a Hero-first Codex image session, review, and asset selection.",
+  "decision": "The Canva draft is blocked because the previous fill reused split Canva assets. Do not export or publish it.",
   "tasks": [
-    "Open daily_queue.csv and image_generation_briefs.md.",
-    "Generate and review one integrated-scene Hero for the assigned internal model.",
-    "After Hero approval, derive B Motion and C Detail from that accepted Hero and score the session."
+    "Resolve the selected A_v2, B_v2, and C_v2 PNGs to verified Canva image asset ids.",
+    "Duplicate one registered Mira master again after the image assets are safe.",
+    "Fill only `cover_image`, `motion_crop`, and `detail_image` with verified complete flat assets, then review before saving."
   ],
   "user_inputs": [
-    "Optional candidate image notes if manual review is needed."
+    "Canva image asset ids for the three complete PNGs",
+    "Approval after the new preview is visible"
   ],
   "codex_actions": [
-    "Create or update image review inventory.",
-    "Select cover/detail assets and update canva_asset_slots.csv.",
-    "Validate with --require-assets before Canva work."
+    "Use only verified flat image assets for Canva replacement.",
+    "Stop if only local PNG paths are available and no verified Canva image asset ids exist.",
+    "Keep failed Canva drafts out of the publish queue."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/daily_queue.csv",
-    "10_automation/runs/{run}/image_generation_briefs.md",
-    "10_automation/runs/{run}/image_review_template.csv",
-    "10_automation/select_codex_assets.py"
+    "10_automation/runs/{run}/canva_automation_trial_log.md",
+    "10_automation/runs/{run}/canva_fill_guide.md",
+    "10_automation/runs/{run}/generated_images/2026-W26-002"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -41,26 +41,26 @@
     "top_item": {
       "item_type": "carousel",
       "week_id": "2026-W29",
-      "carousel_id": "2026-W29-002",
-      "prompt_id": "W29-P005",
-      "model_profile_id": "M02",
-      "canva_template_key": "E",
-      "canva_template_name": "Mira Template Master v3 - E Cross-Boundary Weekend Air",
-      "canva_template_url": "https://www.canva.com/d/djICquyAb4kcGwW",
+      "carousel_id": "2026-W29-001",
+      "prompt_id": "W29-P001",
+      "model_profile_id": "M01",
+      "canva_template_key": "B",
+      "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
+      "canva_template_url": "https://www.canva.com/d/UoVSnPEpgguD3be",
       "canva_design_url": "",
-      "trend_name": "浪漫波西米亞（蕾絲、流蘇與刺繡）",
-      "content_bucket": "daily_style",
-      "stage": "needs_image_asset_selection",
+      "trend_name": "輕透層次 透膚疊穿",
+      "content_bucket": "office_capsule",
+      "stage": "canva_blocked_waiting_for_flat_png_asset",
       "platform": "Instagram",
-      "recommended_asset": "",
+      "recommended_asset": "2026-W29-001_M01_photoreal_pilot_candidate_A.png",
       "asset_url": "",
       "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Generate, regenerate, or score publishable image assets, then rerun asset selection before Canva.",
+      "next_action": "Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.",
       "run_dir": "10_automation\\runs\\2026-W29",
-      "package_path": "10_automation\\runs\\2026-W29\\generated_images\\2026-W29-002\\codex_generation_handoff.md"
+      "package_path": ""
     }
   },
   "dashboard": {
@@ -69,7 +69,7 @@
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "archived": 2,
-      "needs_image_asset_selection": 1
+      "canva_blocked_waiting_for_flat_png_asset": 1
     },
     "runs": [
       {
@@ -107,11 +107,11 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W29",
-        "stage": "needs_image_asset_selection",
-        "next_action": "Continue generating and scoring the remaining Codex image jobs, then rerun select_codex_assets.py. Canva work for already selected carousels can proceed in parallel.",
+        "stage": "canva_blocked_waiting_for_flat_png_asset",
+        "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
         "packet_rows": 5,
         "quality": "pass",
-        "cover_assets": "1/5",
+        "cover_assets": "5/5",
         "published": false,
         "metric_checkpoints": 0,
         "latest_decision": ""

@@ -9,7 +9,7 @@
 - clothing_item: 蕾絲滾邊細肩帶背心 ＋ 亞麻寬褲 ＋ 編織包
 - occasion: 旅行
 
-Generate 2-3 candidates, then score them before Canva.
+Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
 Codex handoff:
 

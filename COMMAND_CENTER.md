@@ -1,6 +1,6 @@
 # Mira Command Center
 
-Last updated: 2026-07-15
+Last updated: 2026-07-16
 
 Purpose: this file is the single command center for the Mira AI fashion magazine workflow. When other files disagree, use this file plus generated `DAILY_COCKPIT` / `PUBLISH_QUEUE` as the operational source of truth.
 
@@ -106,27 +106,28 @@ powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
 
 The pipeline now creates the weekly packet, daily queue, Codex image job folders, `codex_generation_handoff.md`, Canva handoff files, and weekly status.
 
-Current state as of 2026-07-15:
+Current state as of 2026-07-16:
 
 ```text
 Perplexity index latest imported run = 2026-W29
 Active run folder = 10_automation/runs/2026-W29
 W29 contains five carousel packets and assigns M01-M05 exactly once.
-Old W29 v2 A/B/C selections are superseded for new production. W29-001 is the active Hero-first photoreal trial.
+Old W29 v2 A/B/C selections are superseded for new production.
+The Hero-first photoreal trial is complete for W29-001 through W29-005: five carousel sets, fifteen selected images, and strict validation at 0 errors / 0 warnings.
 ```
 
 ## Current Top Item
 
 ```text
-item = 2026-W29-002
-model = M02
-stage = generate_and_review_photoreal_Hero_A
-package = 10_automation/runs/2026-W29/generated_images/2026-W29-002/codex_generation_handoff.md
-completed pilot set = 2026-W29-001 / M01
-pilot review = 10_automation/runs/2026-W29/W29-001_PHOTOREAL_PILOT_REVIEW.html
+items = 2026-W29-001 through 2026-W29-005
+models = M01, M02, M04, M03, M05
+stage = canva_blocked_waiting_for_flat_png_asset
+selected assets = 15 / 15
+strict validation = 0 errors / 0 warnings
+next operation = sync final PNGs to GitHub, register them as Canva assets, duplicate five v3 masters, and fill the duplicates
 ```
 
-Current gate: generate and review M02 Hero A using the active pilot rules. W29-001 has a selected A/B/C set and may proceed to Canva asset registration in parallel. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
+Current gate: Canva asset registration and duplicate-template fill. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
 
 ## Hero-First Photoreal Pilot
 

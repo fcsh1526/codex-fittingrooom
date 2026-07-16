@@ -9,7 +9,7 @@
 - clothing_item: 奶油黃開襟衫 ＋ 白色背心 ＋ 寬褲
 - occasion: 辦公室
 
-Generate 2-3 candidates, then score them before Canva.
+Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
 Codex handoff:
 

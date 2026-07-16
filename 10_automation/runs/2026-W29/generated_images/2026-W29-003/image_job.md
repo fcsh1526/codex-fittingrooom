@@ -9,7 +9,7 @@
 - clothing_item: 解構西裝外套 ＋ 透膚上衣 ＋ 直筒長褲
 - occasion: 展覽
 
-Generate 2-3 candidates, then score them before Canva.
+Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
 Codex handoff:
 
