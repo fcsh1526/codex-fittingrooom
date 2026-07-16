@@ -9,7 +9,6 @@ Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios,
 
 ## Blocking Items
 
-- `2026-W29-003`
 - `2026-W29-004`
 - `2026-W29-005`
 

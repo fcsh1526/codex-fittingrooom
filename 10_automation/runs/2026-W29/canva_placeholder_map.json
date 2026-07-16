@@ -110,9 +110,9 @@
         "slide_range": "1",
         "asset_type": "image",
         "purpose": "strongest lifestyle full-body image; visual hook",
-        "recommended_file": "2026-W29-003_M04_photoreal_pilot_candidate_A.png",
-        "status": "selected",
-        "notes": "Make the person and outfit dominant. Keep text off the image.; selected_file=2026-W29-003_M04_photoreal_pilot_candidate_A.png; canva_asset_id=MAHPgrlvP6s"
+        "recommended_file": "2026-W29-003_M04_canva_A_1240x1350.png",
+        "status": "exact_frame_approved",
+        "notes": "Exact v3-B cover frame; selected_file=2026-W29-003_M04_canva_A_1240x1350.png; canva_asset_id=MAHPiMdK8rU"
       },
       {
         "carousel_id": "2026-W29-003",
@@ -120,9 +120,9 @@
         "slide_range": "2",
         "asset_type": "crop / quiet design slide",
         "purpose": "minimal transition slide with one short line",
-        "recommended_file": "2026-W29-003_M04_photoreal_pilot_candidate_B.png",
-        "status": "selected_from_crop",
-        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence.; selected_file=2026-W29-003_M04_photoreal_pilot_candidate_B.png; canva_asset_id=MAHPghYdHYs"
+        "recommended_file": "2026-W29-003_M04_canva_B_1140x560.png",
+        "status": "exact_frame_approved",
+        "notes": "Exact v3-B horizontal motion frame; selected_file=2026-W29-003_M04_canva_B_1140x560.png; canva_asset_id=MAHPiLg9dHM"
       },
       {
         "carousel_id": "2026-W29-003",
@@ -130,9 +130,9 @@
         "slide_range": "3",
         "asset_type": "image",
         "purpose": "second lifestyle image or reused hero crop",
-        "recommended_file": "2026-W29-003_M04_photoreal_pilot_candidate_C.png",
-        "status": "selected",
-        "notes": "Use a second image when available. If not, use a different crop of the hero image.; selected_file=2026-W29-003_M04_photoreal_pilot_candidate_C.png; canva_asset_id=MAHPgouSJPs"
+        "recommended_file": "2026-W29-003_M04_canva_C_1180x1350.png",
+        "status": "exact_frame_approved",
+        "notes": "Exact v3-B detail frame; selected_file=2026-W29-003_M04_canva_C_1180x1350.png; canva_asset_id=MAHPiHtZUcs"
       }
     ],
     "design_contract": {
