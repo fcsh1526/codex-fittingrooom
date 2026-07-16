@@ -159,21 +159,19 @@ def stage_brief(stage):
             ],
         },
         "needs_visual_revision": {
-            "decision": "The current carousel should not be published; visual quality and template direction need revision.",
+            "decision": "The current carousel should not be published until the generated assets pass the actual Canva frame-fit check.",
             "tasks": [
-                "Review the generated candidates for face drift, ghosting, body artifacts, and outfit clarity.",
-                "Regenerate image candidates only after tightening the prompt and review criteria.",
-                "Use the registered active Mira Canva master template, then test it with regenerated image candidates before export.",
+                "Create a near-square crop-safe derivative from the accepted Hero while preserving face, outfit, body, scene, and lighting.",
+                "Replace the affected Canva frame on a pilot design without manual crop adjustment.",
+                "Confirm the full hairstyle, face, and outfit focus survive the untouched center-cover crop before scaling to the remaining designs.",
             ],
             "user_inputs": [
-                "Which candidate image problems are unacceptable",
-                "Preferred high-fashion magazine references or direction",
-                "Whether to redesign the template before generating more images",
+                "Visual approval of the first crop-safe pilot in Canva",
             ],
             "codex_actions": [
                 "Mark the run as blocked from publishing.",
-                "Draft stricter image QA and Canva crop checks.",
-                "Prepare a revised template brief before another Canva commit.",
+                "Generate crop-safe derivatives from accepted assets.",
+                "Enforce canva_frame_fit as a hard asset-selection gate.",
             ],
             "files": [
                 "10_automation/runs/{run}/generated_images",

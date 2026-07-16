@@ -27,7 +27,9 @@ Perplexity has proposed a Monday auto-publish task because weekly files were rep
 M01 passed a new Codex Hero-first photoreal pilot: one integrated scene was generated from the approved face/full-body anchors and received one targeted lighting/camera-finish refinement.
 The refined Hero has plausible body proportions, physical hand/stone and shoe/floor contact, and materially improved shared scene lighting. It is accepted as the trial session lock, while its remaining catalog-like stiffness is recorded as a known pilot limitation.
 W29-001 through W29-005 now each have an approved A Hero, B Motion, and C Detail set selected by the automation. The complete week contains 15 selected photoreal images across M01, M02, M04, M03, and M05.
-Whole-week strict asset validation passes with 0 errors and 0 warnings. All 15 final PNGs are now registered as Canva assets, and five fresh v3 template duplicates were filled and committed on 2026-07-16. Current checkpoint: open each committed design, optionally adjust crops, export three 1080 x 1350 slides, and publish or schedule. Old W29 v2 selections must not be used for new Canva work.
+The five W29 v3 Canva duplicates were filled and committed on 2026-07-16, but visual review found that narrow portrait source images are center-cover cropped by Canva's near-square frames, cutting the hairstyle/head in most designs. W29 is now `needs_visual_revision`, not ready to publish. The accepted photoreal sessions remain preserved; the next step is a one-design near-square crop-safe derivative pilot, followed by replacement and validation of the affected frames. Old W29 v2 selections must not be used for new Canva work.
+
+The v3-E `MIRA` brand mark geometry was corrected and saved on 2026-07-16 in the master and in W29-002 / W29-005. Its text box now ends at x=3200 on the 3240px canvas, leaving a 40px right-safe margin.
 
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```
@@ -81,8 +83,8 @@ Current validation rule:
 
 ```text
 Smoke test verifies automation entrypoints.
-W27 baseline validation passes before image assets exist.
-Strict --require-assets validation is expected to fail until W27 image candidates are generated, scored, and selected.
+canva_frame_fit >= 4 is required for modern Codex image assets.
+A default Canva center-cover crop that cuts hair, face, or outfit focus is an automatic rejection.
 ```
 
 ## Key Links
@@ -156,6 +158,8 @@ Strict --require-assets validation is expected to fail until W27 image candidate
 - Mira high-fashion carousel template v2 was added after reviewing the Scrolo-style reference screenshots. The new direction keeps the 3240 x 1350 / 3-slide automation contract, but requires cross-slide editorial movement, boundary crops, low text, and stricter head-crop validation.
 - Five Claude Design Mira template variants were pushed to Canva as master templates: A Contact Sheet, B Symmetric, C Noir Evening, D Full-Bleed, and E Weekend Air.
 - Five cross-boundary v3 copies were approved and committed in Canva on 2026-07-14. The active registry now points to v3; v2 remains archived.
+- v3-E master and W29-002 / W29-005 were corrected on 2026-07-16 so the bottom-right `MIRA` mark stays inside a 40px right-safe margin.
+- The image pipeline now requires near-square crop-safe output and a `canva_frame_fit` score before a carousel can be marked publishable.
 - The active Canva master registry is `10_automation/canva_template_registry.md` and `10_automation/canva_template_registry.json`.
 - Current Canva automation slot contract is `cover_image`, `motion_crop`, `detail_image`, and `slide2_line`.
 - Daily Canva use should duplicate one master template before replacing assets. Do not write daily content directly into master templates.

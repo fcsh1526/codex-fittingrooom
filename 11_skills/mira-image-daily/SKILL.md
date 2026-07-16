@@ -38,6 +38,7 @@ references/reference-start-images.md
 6. If A has correct identity, proportions, outfit, physical contact, and scene lighting, optionally run one lighting/camera-finish edit. This accepted A becomes the session lock.
 7. Create B Motion and C Detail as edits derived from accepted A, with the two model references attached. Do not independently regenerate the outfit or scene.
 8. Save accepted outputs under the job folder and fill the review sheet before asset selection or Canva.
+9. Verify the untouched center-cover result in the assigned Canva master. If the full hairstyle, face, or outfit focus is cropped, reject the asset or create a crop-safe derivative before Canva commit.
 
 Do not skip step 3. If either reference image is missing, stop and tell the user which reference image must be created or supplied first.
 
@@ -76,6 +77,7 @@ The script writes:
 - Use a normal 50mm full-frame-equivalent perspective near chest height with a level optical axis. Never use a low angle or wide-angle perspective for full-body images.
 - Include a real foreground or scene object with physically believable hand, foot, clothing, or bag interaction whenever suitable.
 - Prefer one excellent integrated Hero plus two controlled derivatives over three unrelated full-body images.
+- Final Canva assets must use a near-square crop-safe composition. Keep the full hairstyle below an 8% top safe margin, preserve scene space above the hair, and keep face/outfit focus in the central 70%. Do not depend on Canva Smart Crop or manual focal-point adjustment.
 
 Prompt age rule:
 
@@ -122,9 +124,10 @@ scene_lighting_integration
 outfit_continuity
 expression_liveliness
 pose_variation
+canva_frame_fit
 publishable
 status
 notes
 ```
 
-Only mark `publishable = yes` when `body_proportion_consistency >= 4`, `outfit_clarity >= 4`, `ai_realism >= 4`, `scene_lighting_integration >= 4`, `outfit_continuity >= 4`, `expression_liveliness >= 4`, and `pose_variation >= 4`. Any body-to-leg ratio drift, fashion-elongated anatomy, pasted-on lighting, missing contact shadow, white border, A/B/C wardrobe drift, frozen expression, or repeated centered pose is an automatic rejection. User visual approval gates Canva readiness in the wider automation flow.
+Only mark `publishable = yes` when `body_proportion_consistency >= 4`, `outfit_clarity >= 4`, `ai_realism >= 4`, `scene_lighting_integration >= 4`, `outfit_continuity >= 4`, `expression_liveliness >= 4`, `pose_variation >= 4`, and `canva_frame_fit >= 4`. Any body-to-leg ratio drift, fashion-elongated anatomy, pasted-on lighting, missing contact shadow, white border, A/B/C wardrobe drift, frozen expression, repeated centered pose, or default Canva crop that cuts hair/face/outfit focus is an automatic rejection. User visual approval gates Canva readiness in the wider automation flow.

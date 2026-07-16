@@ -121,13 +121,13 @@ The Hero-first photoreal trial is complete for W29-001 through W29-005: five car
 ```text
 items = 2026-W29-001 through 2026-W29-005
 models = M01, M02, M04, M03, M05
-stage = canva_blocked_waiting_for_flat_png_asset
+stage = needs_visual_revision
 selected assets = 15 / 15
-strict validation = 0 errors / 0 warnings
-next operation = open the five committed Canva duplicates, crop/export three 1080 x 1350 slides per design, and publish or schedule
+blocking reason = default Canva center-cover crop cuts the hairstyle/head in most source images
+next operation = create one near-square crop-safe A derivative pilot, replace it in W29-001, and validate the untouched Canva crop before scaling to the remaining designs
 ```
 
-Current gate: manual Canva crop/export and Instagram publishing. All 15 final PNGs are registered as Canva assets and all five v3 duplicate fills are committed. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
+Current gate: visual revision before export. All 15 original PNGs and five committed Canva duplicates remain preserved, but they are not approved for publishing. Do not rely on Canva Smart Crop or manual focal adjustment as the automation path. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
 
 ## Hero-First Photoreal Pilot
 
@@ -176,6 +176,8 @@ image selection status = selected
 cover_image = selected and has a file
 motion_crop = selected and has a file
 detail_image = selected and has a file
+canva_frame_fit >= 4 for every selected asset
+untouched center-cover crop preserves the full hairstyle, face, and required outfit focus
 no slot has needs_review / needs_regeneration / rejected / missing
 machine text files have no encoding drift
 if Canva autofill is needed, all required flat Canva image asset ids are known

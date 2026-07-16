@@ -2,8 +2,8 @@
   "run_dir": "10_automation\\runs\\2026-W29",
   "run_state": {},
   "stage": {
-    "stage": "canva_committed_ready_to_publish",
-    "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
+    "stage": "needs_visual_revision",
+    "next_action": "Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.",
     "blocking_items": [
       "2026-W29-001",
       "2026-W29-002",
@@ -16,14 +16,15 @@
     "row_count": 5,
     "published_count": 0,
     "ready_for_canva_test": [],
-    "canva_committed_ready_to_publish": [
+    "canva_committed_ready_to_publish": [],
+    "canva_blocked_waiting_for_flat_png_asset": [],
+    "needs_visual_revision": [
       "2026-W29-001",
       "2026-W29-002",
       "2026-W29-003",
       "2026-W29-004",
       "2026-W29-005"
     ],
-    "canva_blocked_waiting_for_flat_png_asset": [],
     "inactive_count": 0,
     "all_inactive": false,
     "carousel_ids": [
@@ -37,7 +38,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 4152
+      "size": 4292
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -53,7 +54,7 @@
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 3101
+      "size": 3501
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -107,8 +108,8 @@
     "published_carousel_ids": []
   },
   "commands": [
-    "open 10_automation/canva_template_registry.md",
-    "open 10_automation\\runs\\2026-W29/post_drafts.md",
-    "open 10_automation\\runs\\2026-W29/publish_checklist.md"
+    "open 10_automation\\runs\\2026-W29/generated_images",
+    "open 10_automation\\runs\\2026-W29/canva_asset_plan.md",
+    "Generate one near-square crop-safe A derivative as a pilot before revising the remaining W29 assets."
   ]
 }

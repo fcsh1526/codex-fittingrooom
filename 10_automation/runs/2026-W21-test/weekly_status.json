@@ -16,6 +16,7 @@
     "ready_for_canva_test": [],
     "canva_committed_ready_to_publish": [],
     "canva_blocked_waiting_for_flat_png_asset": [],
+    "needs_visual_revision": [],
     "inactive_count": 2,
     "all_inactive": true,
     "carousel_ids": [

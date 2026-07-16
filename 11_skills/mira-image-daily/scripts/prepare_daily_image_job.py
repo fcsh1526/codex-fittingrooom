@@ -19,6 +19,7 @@ REVIEW_FIELDS = [
     "outfit_continuity",
     "expression_liveliness",
     "pose_variation",
+    "canva_frame_fit",
     "commerce_value",
     "publishable",
     "status",
@@ -170,6 +171,9 @@ Trend and outfit:
 
 Scene and camera:
 Use a believable daily-life setting that supports the occasion. Scene hint: {packet.get('scene', '')}. Treat person and environment as one exposure captured in-camera with a normal 50mm full-frame-equivalent lens near chest height and a level optical axis. One visible or inferable light source must affect face, hair, garments, hands, shoes, foreground, floor, and background consistently. Include ambient color spill, natural contact shadows, shared depth of field, restrained grain, slight optical softness, natural skin texture, flyaway hairs, and small fabric wrinkles.
+
+Canva crop-safe composition:
+Create a near-square 1:1 environmental composition, not a narrow 9:16 portrait. The image will be center-cover cropped into Canva frames ranging from about 0.83:1 to 1.07:1. Keep the entire hairstyle and head below an 8% top safe margin. Keep the face and outfit focus inside the central 70% of the image. For full-body views, leave real scene space above the hair and below the feet and keep the crown-to-sole figure at about 68-74% of image height. The default center crop must remain publishable without manual focal-point adjustment.
 
 Asset direction:
 {direction}

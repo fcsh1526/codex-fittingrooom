@@ -4,7 +4,7 @@
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "archived": 2,
-    "canva_committed_ready_to_publish": 1
+    "needs_visual_revision": 1
   },
   "runs": [
     {
@@ -42,8 +42,8 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W29",
-      "stage": "canva_committed_ready_to_publish",
-      "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
+      "stage": "needs_visual_revision",
+      "next_action": "Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",

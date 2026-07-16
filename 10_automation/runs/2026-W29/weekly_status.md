@@ -1,11 +1,11 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W29`
-Stage: `canva_committed_ready_to_publish`
+Stage: `needs_visual_revision`
 
 ## Next Action
 
-Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.
+Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.
 
 ## Blocking Items
 
@@ -18,15 +18,15 @@ Open the committed Canva design, review/export the 3 carousel slices, then publi
 ## Suggested Commands
 
 ```powershell
-open 10_automation/canva_template_registry.md
+open 10_automation\runs\2026-W29/generated_images
 ```
 
 ```powershell
-open 10_automation\runs\2026-W29/post_drafts.md
+open 10_automation\runs\2026-W29/canva_asset_plan.md
 ```
 
 ```powershell
-open 10_automation\runs\2026-W29/publish_checklist.md
+Generate one near-square crop-safe A derivative as a pilot before revising the remaining W29 assets.
 ```
 
 ## Summary

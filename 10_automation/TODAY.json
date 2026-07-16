@@ -2,8 +2,8 @@
   "date": "2026-07-16",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W29",
-    "stage": "canva_committed_ready_to_publish",
-    "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
+    "stage": "needs_visual_revision",
+    "next_action": "Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.",
     "packet_rows": 5,
     "quality": "pass",
     "cover_assets": "5/5",
@@ -11,28 +11,29 @@
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The Canva layout has been committed and is ready for export / publishing.",
+  "decision": "The current carousel should not be published until the generated assets pass the actual Canva frame-fit check.",
   "tasks": [
-    "Open the Canva design and review the committed carousel layout.",
-    "Export the 3 carousel slides if acceptable.",
-    "Publish or schedule the post, then send the post URL."
+    "Create a near-square crop-safe derivative from the accepted Hero while preserving face, outfit, body, scene, and lighting.",
+    "Replace the affected Canva frame on a pilot design without manual crop adjustment.",
+    "Confirm the full hairstyle, face, and outfit focus survive the untouched center-cover crop before scaling to the remaining designs."
   ],
   "user_inputs": [
-    "Instagram post URL",
-    "Publish time"
+    "Visual approval of the first crop-safe pilot in Canva"
   ],
   "codex_actions": [
-    "Record post URL and create 6h / 24h metrics commands."
+    "Mark the run as blocked from publishing.",
+    "Generate crop-safe derivatives from accepted assets.",
+    "Enforce canva_frame_fit as a hard asset-selection gate."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/canva_asset_plan.md",
-    "10_automation/runs/{run}/post_drafts.md",
-    "10_automation/runs/{run}/publish_checklist.md"
+    "10_automation/runs/{run}/generated_images",
+    "10_automation/runs/{run}/image_review_template.csv",
+    "10_automation/runs/{run}/canva_asset_plan.md"
   ],
   "generated_files": [
-    "10_automation\\PUBLISH_QUEUE.md",
-    "10_automation\\PUBLISH_QUEUE.json",
-    "10_automation\\PUBLISH_QUEUE.csv"
+    "10_automation/PUBLISH_QUEUE.md",
+    "10_automation/PUBLISH_QUEUE.json",
+    "10_automation/PUBLISH_QUEUE.csv"
   ],
   "publish_queue": {
     "item_count": 5,
@@ -48,7 +49,7 @@
       "canva_design_url": "https://www.canva.com/d/oCPjHB_ErKCvfrX",
       "trend_name": "輕透層次 透膚疊穿",
       "content_bucket": "office_capsule",
-      "stage": "canva_committed_ready_to_publish",
+      "stage": "needs_visual_revision",
       "platform": "Instagram",
       "recommended_asset": "2026-W29-001_M01_photoreal_pilot_candidate_A.png",
       "asset_url": "",
@@ -56,7 +57,7 @@
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
+      "next_action": "Do not publish. Use the registered active Mira Canva master template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.",
       "run_dir": "10_automation\\runs\\2026-W29",
       "package_path": ""
     }
@@ -67,7 +68,7 @@
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "archived": 2,
-      "canva_committed_ready_to_publish": 1
+      "needs_visual_revision": 1
     },
     "runs": [
       {
@@ -105,8 +106,8 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W29",
-        "stage": "canva_committed_ready_to_publish",
-        "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
+        "stage": "needs_visual_revision",
+        "next_action": "Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.",
         "packet_rows": 5,
         "quality": "pass",
         "cover_assets": "5/5",

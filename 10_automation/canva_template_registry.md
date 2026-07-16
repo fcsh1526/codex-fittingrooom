@@ -1,6 +1,6 @@
 # Canva Template Registry
 
-Last updated: 2026-07-14
+Last updated: 2026-07-16
 
 Purpose: source of truth for Mira Canva master templates and automation slot names.
 
@@ -13,6 +13,12 @@ Active version: `v3` (committed in Canva). The original v2 designs remain archiv
 - Slice guides: `x = 1080`, `x = 2160`
 - Image slots: `cover_image`, `motion_crop`, `detail_image`
 - Text slot: `slide2_line`
+
+Crop-fit contract:
+
+```text
+Selected images must remain publishable under the template's untouched center-cover crop. Use near-square source compositions, preserve the full hairstyle with at least 8% top clearance, and keep face/outfit focus inside the central 70%. A design is not ready to publish when manual focal-point adjustment is still required.
+```
 
 Daily-use rule:
 
@@ -35,6 +41,8 @@ Replace whole flat PNG/JPG images into the named Canva frames. Do not split uplo
 | C | Mira Template Master v3 - C Cross-Boundary Noir | https://www.canva.com/d/C9QGHZ6OH7HtYux | Dark evening / autumn-winter editorial. Night, black, evening, or low-light moods. |
 | D | Mira Template Master v3 - D Cross-Boundary Full-Bleed | https://www.canva.com/d/Kh_uu5y-twQzbF- | Strongest image-led impact. Use when photos are strong and should dominate. |
 | E | Mira Template Master v3 - E Cross-Boundary Weekend Air | https://www.canva.com/d/djICquyAb4kcGwW | Quiet weekend / Kinfolk-like. Linen, cafe, soft daylight, airy negative space. |
+
+Template E correction saved on 2026-07-16: the bottom-right `MIRA` text box was moved left to a 40px right-safe margin in the master and in W29-002 / W29-005.
 
 ## Selection Rule
 

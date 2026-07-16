@@ -148,6 +148,11 @@ def packet_status(run_dir):
         for row in rows
         if clean(row.get("status")).lower() == "canva_blocked_waiting_for_flat_png_asset"
     ]
+    needs_visual_revision = [
+        clean(row.get("carousel_id"))
+        for row in rows
+        if clean(row.get("status")).lower() == "needs_visual_revision"
+    ]
     inactive_statuses = {"paused", "archived", "do_not_publish", "skip"}
     inactive_count = sum(1 for row in rows if clean(row.get("status")).lower() in inactive_statuses)
     return {
@@ -156,6 +161,7 @@ def packet_status(run_dir):
         "ready_for_canva_test": ready_for_canva_test,
         "canva_committed_ready_to_publish": canva_committed_ready_to_publish,
         "canva_blocked_waiting_for_flat_png_asset": canva_blocked_waiting_for_flat_png_asset,
+        "needs_visual_revision": needs_visual_revision,
         "inactive_count": inactive_count,
         "all_inactive": bool(rows) and inactive_count == len(rows),
         "carousel_ids": [clean(row.get("carousel_id")) for row in rows if clean(row.get("carousel_id"))],
@@ -200,6 +206,13 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "stage": "needs_image_asset_selection",
             "next_action": next_action,
             "blocking_items": assets["missing_cover"],
+        }
+
+    if packet.get("needs_visual_revision"):
+        return {
+            "stage": "needs_visual_revision",
+            "next_action": "Create near-square Canva-safe derivatives for the affected A/C assets, verify the untouched center-cover crop in the assigned template, and do not publish until canva_frame_fit passes.",
+            "blocking_items": packet.get("needs_visual_revision"),
         }
 
     if packet.get("canva_blocked_waiting_for_flat_png_asset"):
@@ -283,6 +296,10 @@ def command_suggestions(run_dir, stage):
         suggestions.append(f"open {run_dir_str}/canva_fill_guide.md")
         suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
         suggestions.append("Open the registered active Mira Canva master template and test-fill selected assets.")
+    elif stage == "needs_visual_revision":
+        suggestions.append(f"open {run_dir_str}/generated_images")
+        suggestions.append(f"open {run_dir_str}/canva_asset_plan.md")
+        suggestions.append("Generate one near-square crop-safe A derivative as a pilot before revising the remaining W29 assets.")
     elif stage == "canva_blocked_waiting_for_flat_png_asset":
         visual_review = run_dir / "W29_v2_VISUAL_REVIEW.html"
         if visual_review.exists():

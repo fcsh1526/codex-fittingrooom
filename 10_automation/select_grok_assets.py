@@ -86,6 +86,7 @@ def score_row(row):
         "outfit_continuity",
         "expression_liveliness",
         "pose_variation",
+        "canva_frame_fit",
         "commerce_value",
     ]
     legacy_fields = [
@@ -156,6 +157,7 @@ def discover_job_score_rows(run_dir):
                     "outfit_continuity",
                     "expression_liveliness",
                     "pose_variation",
+                    "canva_frame_fit",
                     "commerce_value",
                     "identity_consistency",
                     "body_integrity",
@@ -181,9 +183,16 @@ def passes_publishable_gates(row):
         return False
     if "ai_realism" in row:
         required = ["outfit_clarity", "ai_realism"]
-        for field in ["body_proportion_consistency", "scene_lighting_integration", "outfit_continuity", "expression_liveliness", "pose_variation"]:
-            if field in row:
-                required.append(field)
+        required.extend(
+            [
+                "body_proportion_consistency",
+                "scene_lighting_integration",
+                "outfit_continuity",
+                "expression_liveliness",
+                "pose_variation",
+                "canva_frame_fit",
+            ]
+        )
     else:
         required = ["outfit_clarity", "body_integrity"]
     return all(number(row.get(field)) >= 4 for field in required)
