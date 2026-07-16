@@ -4,14 +4,14 @@ Date: `2026-07-16`
 
 ## Today, Do This First
 
-- Item: `2026-W29-002`
+- Item: `2026-W29-003`
 - Type: `carousel`
-- Model: `M02`
-- Canva template: `E` Mira Template Master v3 - E Cross-Boundary Weekend Air
-- Canva template URL: https://www.canva.com/d/djICquyAb4kcGwW
-- Canva design URL: https://www.canva.com/d/IsZXSYsq61P-7-X
+- Model: `M04`
+- Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
+- Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
+- Canva design URL: https://www.canva.com/d/z2ZawJfzHFY3rRf
 - Stage: `needs_visual_revision`
-- Asset: `2026-W29-002_M02_photoreal_pilot_candidate_A.png`
+- Asset: `2026-W29-003_M04_photoreal_pilot_candidate_A.png`
 - Next action: Do not publish. Use the registered active Mira Canva master template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.
 
 ## Checklist
@@ -37,11 +37,11 @@ Date: `2026-07-16`
 
 ```text
 今日回報：
-item = 2026-W29-002
+item = 2026-W29-003
 type = carousel
 status = 
-model = M02
-Canva URL = https://www.canva.com/d/IsZXSYsq61P-7-X
+model = M04
+Canva URL = https://www.canva.com/d/z2ZawJfzHFY3rRf
 IG URL = 
 published at = 
 6h metrics = reach / likes / saves / comments / shares

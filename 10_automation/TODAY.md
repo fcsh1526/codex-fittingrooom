@@ -39,13 +39,13 @@ The current carousel should not be published until the generated assets pass the
 ## Publish Queue Top Item
 
 - Type: `carousel`
-- ID: `2026-W29-002`
-- Model: `M02`
-- Canva template: `E` Mira Template Master v3 - E Cross-Boundary Weekend Air
-- Canva template URL: https://www.canva.com/d/djICquyAb4kcGwW
-- Canva design URL: https://www.canva.com/d/IsZXSYsq61P-7-X
+- ID: `2026-W29-003`
+- Model: `M04`
+- Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
+- Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
+- Canva design URL: https://www.canva.com/d/z2ZawJfzHFY3rRf
 - Stage: `needs_visual_revision`
-- Asset: `2026-W29-002_M02_photoreal_pilot_candidate_A.png`
+- Asset: `2026-W29-003_M04_photoreal_pilot_candidate_A.png`
 - Package: `n/a`
 - Next action: Do not publish. Use the registered active Mira Canva master template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.
 
