@@ -8,6 +8,8 @@
 - trend: 未完成剪裁與解構西裝（外露車線與不對稱）
 - clothing_item: 解構西裝外套 ＋ 透膚上衣 ＋ 直筒長褲
 - occasion: 展覽
+- canva_template: `v3-B` / Mira Template Master v3 - B Cross-Boundary Symmetric
+- canva_slot_targets: `canva_slot_targets.json`
 
 Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
