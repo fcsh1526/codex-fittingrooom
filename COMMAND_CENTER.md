@@ -124,7 +124,7 @@ models = M01, M02, M04, M03, M05
 stage = needs_visual_revision
 selected assets = 15 / 15
 blocking reason = default Canva center-cover crop cuts the hairstyle/head in most source images
-next operation = create one near-square crop-safe A derivative pilot, replace it in W29-001, and validate the untouched Canva crop before scaling to the remaining designs
+next operation = W29-001 crop-safe A pilot passed; create crop-safe C, then replace and validate both affected frames together before scaling to the remaining designs
 ```
 
 Current gate: visual revision before export. All 15 original PNGs and five committed Canva duplicates remain preserved, but they are not approved for publishing. Do not rely on Canva Smart Crop or manual focal adjustment as the automation path. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
