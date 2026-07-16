@@ -27,7 +27,7 @@ Perplexity has proposed a Monday auto-publish task because weekly files were rep
 M01 passed a new Codex Hero-first photoreal pilot: one integrated scene was generated from the approved face/full-body anchors and received one targeted lighting/camera-finish refinement.
 The refined Hero has plausible body proportions, physical hand/stone and shoe/floor contact, and materially improved shared scene lighting. It is accepted as the trial session lock, while its remaining catalog-like stiffness is recorded as a known pilot limitation.
 W29-001 through W29-005 now each have an approved A Hero, B Motion, and C Detail set selected by the automation. The complete week contains 15 selected photoreal images across M01, M02, M04, M03, and M05.
-Whole-week strict asset validation passes with 0 errors and 0 warnings. Current checkpoint: sync the final PNGs to GitHub, register their public raw URLs as Canva image assets, then duplicate and fill the five approved v3 masters. Old W29 v2 selections must not be used for new Canva work.
+Whole-week strict asset validation passes with 0 errors and 0 warnings. All 15 final PNGs are now registered as Canva assets, and five fresh v3 template duplicates were filled and committed on 2026-07-16. Current checkpoint: open each committed design, optionally adjust crops, export three 1080 x 1350 slides, and publish or schedule. Old W29 v2 selections must not be used for new Canva work.
 
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```

@@ -2,8 +2,8 @@
   "date": "2026-07-16",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W29",
-    "stage": "canva_blocked_waiting_for_flat_png_asset",
-    "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+    "stage": "canva_committed_ready_to_publish",
+    "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
     "packet_rows": 5,
     "quality": "pass",
     "cover_assets": "5/5",
@@ -11,25 +11,23 @@
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The Canva draft is blocked because the previous fill reused split Canva assets. Do not export or publish it.",
+  "decision": "The Canva layout has been committed and is ready for export / publishing.",
   "tasks": [
-    "Resolve the selected A_v2, B_v2, and C_v2 PNGs to verified Canva image asset ids.",
-    "Duplicate one registered Mira master again after the image assets are safe.",
-    "Fill only `cover_image`, `motion_crop`, and `detail_image` with verified complete flat assets, then review before saving."
+    "Open the Canva design and review the committed carousel layout.",
+    "Export the 3 carousel slides if acceptable.",
+    "Publish or schedule the post, then send the post URL."
   ],
   "user_inputs": [
-    "Canva image asset ids for the three complete PNGs",
-    "Approval after the new preview is visible"
+    "Instagram post URL",
+    "Publish time"
   ],
   "codex_actions": [
-    "Use only verified flat image assets for Canva replacement.",
-    "Stop if only local PNG paths are available and no verified Canva image asset ids exist.",
-    "Keep failed Canva drafts out of the publish queue."
+    "Record post URL and create 6h / 24h metrics commands."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/canva_automation_trial_log.md",
-    "10_automation/runs/{run}/canva_fill_guide.md",
-    "10_automation/runs/{run}/generated_images/2026-W26-002"
+    "10_automation/runs/{run}/canva_asset_plan.md",
+    "10_automation/runs/{run}/post_drafts.md",
+    "10_automation/runs/{run}/publish_checklist.md"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -47,10 +45,10 @@
       "canva_template_key": "B",
       "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
       "canva_template_url": "https://www.canva.com/d/UoVSnPEpgguD3be",
-      "canva_design_url": "",
+      "canva_design_url": "https://www.canva.com/d/oCPjHB_ErKCvfrX",
       "trend_name": "輕透層次 透膚疊穿",
       "content_bucket": "office_capsule",
-      "stage": "canva_blocked_waiting_for_flat_png_asset",
+      "stage": "canva_committed_ready_to_publish",
       "platform": "Instagram",
       "recommended_asset": "2026-W29-001_M01_photoreal_pilot_candidate_A.png",
       "asset_url": "",
@@ -58,7 +56,7 @@
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.",
+      "next_action": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
       "run_dir": "10_automation\\runs\\2026-W29",
       "package_path": ""
     }
@@ -69,7 +67,7 @@
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "archived": 2,
-      "canva_blocked_waiting_for_flat_png_asset": 1
+      "canva_committed_ready_to_publish": 1
     },
     "runs": [
       {
@@ -107,8 +105,8 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W29",
-        "stage": "canva_blocked_waiting_for_flat_png_asset",
-        "next_action": "Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.",
+        "stage": "canva_committed_ready_to_publish",
+        "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
         "packet_rows": 5,
         "quality": "pass",
         "cover_assets": "5/5",

@@ -2,34 +2,32 @@
 
 Date: `2026-07-16`
 Priority run: `2026-W29`
-Stage: `canva_blocked_waiting_for_flat_png_asset`
+Stage: `canva_committed_ready_to_publish`
 
 ## Decision
 
-The Canva draft is blocked because the previous fill reused split Canva assets. Do not export or publish it.
+The Canva layout has been committed and is ready for export / publishing.
 
 ## Today Only
 
-1. Resolve the selected A_v2, B_v2, and C_v2 PNGs to verified Canva image asset ids.
-2. Duplicate one registered Mira master again after the image assets are safe.
-3. Fill only `cover_image`, `motion_crop`, and `detail_image` with verified complete flat assets, then review before saving.
+1. Open the Canva design and review the committed carousel layout.
+2. Export the 3 carousel slides if acceptable.
+3. Publish or schedule the post, then send the post URL.
 
 ## User Should Provide
 
-- Canva image asset ids for the three complete PNGs
-- Approval after the new preview is visible
+- Instagram post URL
+- Publish time
 
 ## Codex Can Do Next
 
-- Use only verified flat image assets for Canva replacement.
-- Stop if only local PNG paths are available and no verified Canva image asset ids exist.
-- Keep failed Canva drafts out of the publish queue.
+- Record post URL and create 6h / 24h metrics commands.
 
 ## Useful Files
 
-- `10_automation/runs/2026-W29/canva_automation_trial_log.md`
-- `10_automation/runs/2026-W29/canva_fill_guide.md`
-- `10_automation/runs/2026-W29/generated_images/2026-W26-002`
+- `10_automation/runs/2026-W29/canva_asset_plan.md`
+- `10_automation/runs/2026-W29/post_drafts.md`
+- `10_automation/runs/2026-W29/publish_checklist.md`
 
 ## Generated Files
 
@@ -44,15 +42,15 @@ The Canva draft is blocked because the previous fill reused split Canva assets. 
 - Model: `M01`
 - Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
 - Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
-- Canva design URL: n/a
-- Stage: `canva_blocked_waiting_for_flat_png_asset`
+- Canva design URL: https://www.canva.com/d/oCPjHB_ErKCvfrX
+- Stage: `canva_committed_ready_to_publish`
 - Asset: `2026-W29-001_M01_photoreal_pilot_candidate_A.png`
 - Package: `n/a`
-- Next action: Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.
+- Next action: Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Current Next Action
 
-Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.
+Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.
 
 ## Fixed Flow
 
@@ -63,4 +61,4 @@ Mira magazine -> weekly trend -> daily queue -> Codex Hero -> B/C derivatives ->
 ## Dashboard Summary
 
 - Run count: `4`
-- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 2, "canva_blocked_waiting_for_flat_png_asset": 1}`
+- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 2, "canva_committed_ready_to_publish": 1}`

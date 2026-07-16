@@ -124,10 +124,10 @@ models = M01, M02, M04, M03, M05
 stage = canva_blocked_waiting_for_flat_png_asset
 selected assets = 15 / 15
 strict validation = 0 errors / 0 warnings
-next operation = sync final PNGs to GitHub, register them as Canva assets, duplicate five v3 masters, and fill the duplicates
+next operation = open the five committed Canva duplicates, crop/export three 1080 x 1350 slides per design, and publish or schedule
 ```
 
-Current gate: Canva asset registration and duplicate-template fill. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
+Current gate: manual Canva crop/export and Instagram publishing. All 15 final PNGs are registered as Canva assets and all five v3 duplicate fills are committed. Do not reuse old W29 v2 selections. Google Drive remains optional archive-only storage.
 
 ## Hero-First Photoreal Pilot
 
