@@ -8,6 +8,8 @@
 - trend: 鬆弛實用輪廓（氣球褲與寬量感下身）
 - clothing_item: 氣球版型牛仔褲 ＋ 合身背心 ＋ 短版西裝外套
 - occasion: 通勤
+- canva_template: `v3-B` / Mira Template Master v3 - B Cross-Boundary Symmetric
+- canva_slot_targets: `canva_slot_targets.json`
 
 Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 
