@@ -8,6 +8,8 @@
 - trend: 中性色彩亮點（薄荷綠、奶油黃與原色）
 - clothing_item: 奶油黃開襟衫 ＋ 白色背心 ＋ 寬褲
 - occasion: 辦公室
+- canva_template: `v3-E` / Mira Template Master v3 - E Cross-Boundary Weekend Air
+- canva_slot_targets: `canva_slot_targets.json`
 
 Generate and review Hero A first. After A passes, derive B Motion and C Detail from accepted A, then score the set before Canva.
 

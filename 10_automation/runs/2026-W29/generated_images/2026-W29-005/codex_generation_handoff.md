@@ -16,9 +16,9 @@ C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_m
 Save generated candidates as:
 
 ```text
-2026-W29-005_M05_photoreal_pilot_candidate_A.png
-2026-W29-005_M05_photoreal_pilot_candidate_B.png
-2026-W29-005_M05_photoreal_pilot_candidate_C.png
+2026-W29-005_M05_candidate_A.png
+2026-W29-005_M05_candidate_B.png
+2026-W29-005_M05_candidate_C.png
 ```
 
 ## Candidate Prompts
@@ -46,6 +46,14 @@ Trend and outfit:
 
 Scene and camera:
 Use a believable daily-life setting that supports the occasion. Scene hint: clean studio with soft daylight, minimal props. Treat person and environment as one exposure captured in-camera with a normal 50mm full-frame-equivalent lens near chest height and a level optical axis. One visible or inferable light source must affect face, hair, garments, hands, shoes, foreground, floor, and background consistently. Include ambient color spill, natural contact shadows, shared depth of field, restrained grain, slight optical softness, natural skin texture, flyaway hairs, and small fabric wrinkles.
+
+Canva frame target:
+- Assigned master: v3-E / Mira Template Master v3 - E Cross-Boundary Weekend Air
+- Slot: cover_image
+- Exact frame: 1120 x 1050 px
+- Required width:height ratio: 1.0667:1
+- Composition role: full_body
+Compose specifically for this frame ratio; do not reuse one narrow portrait composition for all A/B/C slots. Keep the entire hairstyle and head below an 8% top safe margin whenever the head appears. Keep the face and outfit focus inside the central 70%. For full-body views, leave real scene space above the hair and below the feet. No borders or letterboxing. The untouched Canva frame fill must remain publishable without manual focal-point adjustment.
 
 Asset direction:
 Show the full figure with surrounding environment. Use a relaxed asymmetric stance and one physically believable interaction with a foreground or scene object, including visible contact pressure and contact shadow.
@@ -85,8 +93,16 @@ Trend and outfit:
 Scene and camera:
 Use a believable daily-life setting that supports the occasion. Scene hint: clean studio with soft daylight, minimal props. Treat person and environment as one exposure captured in-camera with a normal 50mm full-frame-equivalent lens near chest height and a level optical axis. One visible or inferable light source must affect face, hair, garments, hands, shoes, foreground, floor, and background consistently. Include ambient color spill, natural contact shadows, shared depth of field, restrained grain, slight optical softness, natural skin texture, flyaway hairs, and small fabric wrinkles.
 
+Canva frame target:
+- Assigned master: v3-E / Mira Template Master v3 - E Cross-Boundary Weekend Air
+- Slot: motion_crop
+- Exact frame: 1120 x 410 px
+- Required width:height ratio: 2.7317:1
+- Composition role: horizontal_motion
+Compose specifically for this frame ratio; do not reuse one narrow portrait composition for all A/B/C slots. Keep the entire hairstyle and head below an 8% top safe margin whenever the head appears. Keep the face and outfit focus inside the central 70%. For full-body views, leave real scene space above the hair and below the feet. No borders or letterboxing. The untouched Canva frame fill must remain publishable without manual focal-point adjustment.
+
 Asset direction:
-Edit accepted Hero A into a candid three-quarter turn or small lateral movement. Change gaze and one hand action, but keep the same scene, outfit construction, identity, body build, light source, and camera treatment.
+Edit accepted Hero A into a candid three-quarter turn or small lateral movement. Change gaze and one hand action, but keep the same scene, outfit construction, identity, body build, light source, and camera treatment. Use a deliberately horizontal environmental composition with a readable face and torso/outfit gesture; do not squeeze a full standing figure into the shallow frame.
 
 Age rendering:
 Express age through styling and presence, NOT wrinkles.
@@ -122,6 +138,14 @@ Trend and outfit:
 
 Scene and camera:
 Use a believable daily-life setting that supports the occasion. Scene hint: clean studio with soft daylight, minimal props. Treat person and environment as one exposure captured in-camera with a normal 50mm full-frame-equivalent lens near chest height and a level optical axis. One visible or inferable light source must affect face, hair, garments, hands, shoes, foreground, floor, and background consistently. Include ambient color spill, natural contact shadows, shared depth of field, restrained grain, slight optical softness, natural skin texture, flyaway hairs, and small fabric wrinkles.
+
+Canva frame target:
+- Assigned master: v3-E / Mira Template Master v3 - E Cross-Boundary Weekend Air
+- Slot: detail_image
+- Exact frame: 1060 x 1010 px
+- Required width:height ratio: 1.0495:1
+- Composition role: outfit_detail
+Compose specifically for this frame ratio; do not reuse one narrow portrait composition for all A/B/C slots. Keep the entire hairstyle and head below an 8% top safe margin whenever the head appears. Keep the face and outfit focus inside the central 70%. For full-body views, leave real scene space above the hair and below the feet. No borders or letterboxing. The untouched Canva frame fill must remain publishable without manual focal-point adjustment.
 
 Asset direction:
 Edit accepted Hero A into a knees-up or waist-up outfit-detail composition. Preserve the exact neckline, layers, sleeves, fabric behavior, accessories, identity, scene, and lighting treatment.
