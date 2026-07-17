@@ -1,415 +1,209 @@
-﻿# AI Virtual Fashion Creator Automation Brief
+# Mira Automation Architecture Brief
 
-Updated: 2026-07-13
+Updated: 2026-07-17
 
-This is the current automation architecture for the Mira AI fashion creator workflow.
+Detailed operating instructions: `10_automation/CANONICAL_WORKFLOW.md`.
 
-The purpose is not to keep adding disconnected scripts. The purpose is to run one fixed state machine:
+## 1. Objective
 
-```text
-person identity -> weekly trend -> prompt packet -> Codex images -> Canva carousel -> publish -> metrics -> next decision
-```
+Produce five polished Instagram carousel packages per ISO week from global fashion trends, using M01-M05 exactly once each, while keeping only Canva slicing/export and Instagram posting manual.
 
-Monetization stays off until at least one channel gets non-zero reach.
-
----
-
-## Slide 1 - Current Answer
-
-The workflow is now organized around a queue, not a daily checklist.
-
-Daily work should start with:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 -Action cockpit -TodayDate 2026-06-22
-```
-
-Then open:
+## 2. System Flow
 
 ```text
-10_automation/DAILY_COCKPIT.html
-10_automation/TODAY.md
-10_automation/PUBLISH_QUEUE.md
+Perplexity deployed index / CSV
+-> import and weekly packet
+-> five-item model rotation
+-> Canva master selection
+-> exact-frame Codex A/B/C generation
+-> visual and machine validation
+-> GitHub asset checkpoint
+-> Canva draft transaction
+-> user preview approval
+-> committed Canva duplicate
+-> manual slice/export/post
+-> publish registry and optional metrics
 ```
 
-`DAILY_COCKPIT.html` is the daily-use artifact. It contains the top item, checklist, links, and reply template on one page.
+## 3. System Layers
 
-Previous top item before the production-first correction was a visibility test. The production-first rule changes this:
+1. Trend: Perplexity public weekly report and machine CSV.
+2. Planning: weekly packet, daily queue, prompt id, model assignment, template key.
+3. Identity: M01-M05 face/full-body anchors.
+4. Images: Hero-first A/B/C generation and exact-ratio normalization.
+5. Canva: flat-image upload, transactional frame replacement, preview, approval, commit.
+6. Control: weekly status, dashboard, publish queue, daily cockpit.
+7. Distribution: manual export/publish, then URL and optional metrics recording.
 
-```text
-ready_for_canva_and_publish carousel items outrank visibility tests
-```
+## 4. Automation Boundary
 
-This means: keep producing carousels continuously. Visibility tests and zero-reach metrics are side signals, not blockers.
+Automated or Codex-operated:
 
----
+- import latest deployed Perplexity week;
+- select five rows and rotate M01-M05;
+- select a Canva master before generation;
+- prepare per-carousel prompt and exact slot contract;
+- generate A Hero, derive B Motion and C Detail;
+- validate identity, proportions, lighting, outfit continuity, and crop;
+- normalize exact PNG dimensions without stretching;
+- checkpoint assets and status to GitHub;
+- upload flat PNGs to Canva;
+- replace exact frames in a draft transaction;
+- show preview and commit after explicit approval;
+- regenerate status, queue, cockpit, and validation reports.
 
-## Slide 2 - System Layers
+Intentional manual boundary:
 
-There are six layers.
+- use Canva slicing app;
+- export three 1080x1350 slides;
+- publish/schedule Instagram;
+- provide post URL and publish time.
 
-```text
-1. Brand layer
-   Mira identity, visual rules, safety boundaries
+Optional:
 
-2. Trend layer
-   Perplexity weekly report / CSV / markdown export
+- Google Drive archive;
+- 6h/24h metrics;
+- visibility tests.
 
-3. Prompt layer
-   item_prompt_database.csv -> weekly_content_packet.csv -> image_generation_briefs.md -> codex_generation_handoff.md
+Inactive:
 
-4. Asset layer
-   Codex-generated images -> review sheet -> canva_asset_slots.csv
+- Grok image generation;
+- Google Drive as required image transport;
+- five-slide Canva templates;
+- Magic Layers or `image_to_design` final fills.
 
-5. Publishing layer
-   Canva handoff -> platform captions -> publish record -> metrics
-
-6. Decision layer
-   weekly_status -> dashboard -> publish queue -> today brief
-```
-
-The decision layer is now the control center.
-
----
-
-## Slide 3 - Control Center Files
-
-Use these three files in this order.
-
-```text
-10_automation/DAILY_COCKPIT.html
-```
-
-One-page daily operating page.
-
-```text
-10_automation/TODAY.md
-```
-
-What should happen today.
+## 5. State Machine
 
 ```text
-10_automation/PUBLISH_QUEUE.md
-```
-
-Exact next content item across all carousels and visibility tests.
-
-```text
-10_automation/runs/DASHBOARD.md
-```
-
-Weekly run-level overview.
-
-If these disagree, use `PUBLISH_QUEUE.md` for the concrete next publishing action.
-
----
-
-## Slide 4 - State Machine
-
-Each content item moves through stages:
-
-```text
-needs_weekly_input
 needs_image_asset_selection
-ready_for_canva_and_publish
-published_waiting_for_metrics
-visibility_recovery
-ready_to_publish_visibility_test
-wait_for_24h
-weak_distribution
-hook_or_save_gap
-profile_interest
-repeat_bucket
+-> needs_canva_frame_review
+-> canva_frame_approved
+-> ready_for_manual_export
+-> published_waiting_for_metrics
 ```
 
-The queue ranks stages by urgency.
-
-Current production-first rule:
+Correction states:
 
 ```text
-ready_for_canva_and_publish > needs_image_asset_selection > published_waiting_for_metrics > ready_to_publish_visibility_test > visibility_recovery
+needs_visual_revision
+canva_blocked_waiting_for_flat_png_asset
+quality_gate_not_passed
 ```
 
-That is why the system should keep moving carousel production even if Instagram reach is still zero.
+`ready_for_manual_export` is terminal for automated production. It must not return to Canva unless the user reports a defect.
 
-Weekly content cadence:
+## 6. Data Contracts
 
-```text
-5 Instagram carousel posts per week
-1 carousel per day
-M01-M05 each appear exactly once per week
-Perplexity provides outfit topics; Codex assigns the internal model rotation
-```
-
----
-
-## Slide 5 - Weekly Automation Flow
-
-When Perplexity export is ready:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
-  -Action pipeline `
-  -Week 2026-WXX `
-  -PerplexitySource path_or_url_to_export `
-  -Limit 2
-```
-
-This generates:
+Per week:
 
 ```text
 weekly_content_packet.csv
-image_generation_briefs.md
-generated_images/{carousel_id}/codex_generation_handoff.md
-canva_placeholder_values.csv
-canva_fill_guide.md
-canva_placeholder_map.json
-canva_asset_slots.csv
-post_drafts.md
-publish_checklist.md
+daily_queue.csv
 quality_report.md/json
 weekly_status.md/json
 ```
 
-If a scored Codex review sheet is available, the same pipeline can also select Canva assets.
-
----
-
-## Slide 6 - Codex Image / Asset Automation
-
-Current state:
+Per carousel:
 
 ```text
-Codex image generation = primary workflow
-Reference anchors = required before generation
-Image scoring = CSV-driven
-Per-carousel review-sheet discovery = automated
-Asset selection = automated
-Canva asset slots = automated
+image_job.md
+candidate_prompts.md
+canva_slot_targets.json
+review_sheet.csv
+canva_ready/*.png
+canva_ready/canva_ready_manifest.json
 ```
 
-Command:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
-  -Action assets `
-  -Week 2026-WXX `
-  -ScoreSheet path_to_scores.csv `
-  -DriveInventory path_to_drive_inventory.csv
-```
-
-Current external boundary:
+Canva handoff:
 
 ```text
-Canva final crop/export and Instagram posting remain manual.
-The local repo prepares prompts, image handoffs, score sheets, asset slots, captions, queues, and metrics commands.
-```
-
----
-
-## Slide 7 - Canva / Carousel Automation
-
-Current state:
-
-```text
-Canva text placeholders = automated
-Canva fill guide = automated
-Canva asset slots = automated
-Caption / hashtags / checklist = automated
-Final Canva editing / export = still manual unless we later implement Canva API/plugin replacement
-```
-
-Primary files:
-
-```text
-canva_fill_guide.md
-canva_placeholder_map.json
+canva_asset_inventory.csv
 canva_asset_slots.csv
-canva_asset_plan.md
-post_drafts.md
-publish_checklist.md
+canva_placeholder_map.json
+codex_asset_selection.csv
+canva_autofill_status.md
 ```
 
-This is enough to repeatedly create polished Instagram carousels, but the final Canva design action is still semi-manual.
+Control:
 
----
+```text
+runs/DASHBOARD.md
+PUBLISH_QUEUE.md
+TODAY.md
+DAILY_COCKPIT.html
+```
 
-## Slide 8 - Publishing / Metrics Automation
+## 7. Canva Contract
 
-After publishing, record the post:
+```text
+master canvas: 3240x1350
+output: 3 x 1080x1350
+guides: x=1080, x=2160
+slots: cover_image, motion_crop, detail_image, slide2_line
+```
+
+One carousel uses one registered v3 master and three newly generated exact-frame images. Masters are duplicated, never edited directly.
+
+## 8. Cross-Computer Contract
+
+GitHub `main` is the source of truth. Every accepted image, Canva URL, transaction status, queue change, and workflow change is committed before switching computers.
+
+Start:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
-  -Action metrics `
-  -Week 2026-WXX `
-  -CarouselId 2026-WXX-001 `
-  -PostUrl "https://www.instagram.com/p/POST_ID/" `
-  -PublishedAt "YYYY/MM/DD HH:mm"
+git pull origin main
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\10_automation\mika_weekly.ps1 -Action cockpit
 ```
 
-At 6h / 24h, record metrics:
+End:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File 10_automation\mika_weekly.ps1 `
-  -Action metrics `
-  -Week 2026-WXX `
-  -CarouselId 2026-WXX-001 `
-  -PostUrl "https://www.instagram.com/p/POST_ID/" `
-  -PublishedAt "YYYY/MM/DD HH:mm" `
-  -RecordMetrics `
-  -MeasuredAt YYYY-MM-DD `
-  -HoursAfterPublish 24 `
-  -Reach 0 `
-  -Likes 0 `
-  -Saves 0 `
-  -Comments 0 `
-  -Shares 0
+git status --short
+git diff --check
+git add <intended files>
+git commit -m "Describe checkpoint"
+git push origin main
 ```
 
-The decision engine then routes the next step.
+## 9. Quality Gates
 
----
+Image gate:
 
-## Slide 9 - Visibility Signal
+- fixed model identity and realistic proportions;
+- shared person/environment lighting;
+- exact outfit continuity;
+- believable physical contact;
+- full hair and outfit focus inside target frame;
+- no more than 15% center crop;
+- no stretch, border, text, logo, or watermark.
 
-The first IG carousel had:
+Canva gate:
+
+- all page assets inspected before replacement;
+- three complete flat images;
+- correct registered element ids;
+- draft thumbnail reviewed;
+- explicit user save approval;
+- successful commit;
+- full `Mira` mark and clean slice boundaries.
+
+Run gate:
 
 ```text
-reach = 0
-likes = 0
-saves = 0
-comments = 0
-shares = 0
+Validation pass: 0 error(s), 0 warning(s).
 ```
 
-The system interprets that as:
+## 10. Verified Baseline
+
+W29 completed the full exact-frame workflow:
 
 ```text
-visibility_recovery
+5 carousels
+15 exact-frame images
+5 committed Canva duplicates
+all items ready_for_manual_export
+0 validation errors
+0 validation warnings
 ```
 
-Not as:
-
-```text
-bad content
-```
-
-Therefore, the queue generated:
-
-```text
-visibility_test_package.md
-```
-
-The next action is not to stop carousel production. The visibility test is optional side evidence while the queue keeps preparing the next polished carousel.
-
----
-
-## Slide 10 - What Is Fully Automated Now
-
-Automated locally:
-
-```text
-Perplexity CSV / markdown import
-prompt database upsert
-weekly packet generation
-Codex image brief generation
-Canva placeholder generation
-Canva handoff generation
-asset slot generation
-quality validation
-Codex asset selection from score sheet
-publish / metrics recording
-decision classification
-weekly dashboard
-daily brief
-publish queue
-single-image visibility test package
-smoke test
-```
-
-Not automated yet:
-
-```text
-Perplexity scheduled webpage scraping without user URL or export
-Canva final export
-Google Drive image upload and inventory writeback are optional archive functions, not production dependencies
-Canva final design replacement / export
-Instagram publishing and insight retrieval
-```
-
-These are external-tool boundaries, not missing local state-machine logic.
-
----
-
-## Slide 11 - Recommended Next Automation Milestones
-
-Milestone 1: keep the carousel production loop running.
-
-```text
-Use PUBLISH_QUEUE.md
-Finish the next ready_for_canva_and_publish carousel
-Record post URLs and metrics when available
-```
-
-Milestone 2: keep image transport independent from Google Drive. Completed.
-
-```text
-Primary input: project-local generated PNG synchronized to GitHub
-Primary output: Canva asset id recorded in canva_asset_inventory.csv
-Optional archive output: Drive folder and drive_image_inventory.csv
-```
-
-Milestone 3: automate Canva placeholder replacement.
-
-```text
-Input: Canva design URL + canva_placeholder_map.json
-Output: updated Canva design or filled export checklist
-```
-
-Milestone 4: automate weekly Perplexity pull.
-
-```text
-Input: fixed Perplexity CSV URL
-Output: weekly run folder without manual download
-```
-
-Milestone 5: add cross-platform queue.
-
-```text
-Instagram
-Threads
-Pinterest
-Xiaohongshu
-```
-
----
-
-## Slide 12 - Operating Rule From Now On
-
-Do not ask:
-
-```text
-What Day X are we on?
-```
-
-Do ask:
-
-```text
-What is the top item in PUBLISH_QUEUE.md?
-What external input is missing for that item?
-```
-
-Current external input needed:
-
-```text
-For the top carousel item, provide Canva progress / final Canva URL / post URL when published.
-Visibility test URL and metrics are useful, but they do not block the next carousel.
-```
-
-After that, the automation can decide whether to:
-
-```text
-continue Instagram
-move first growth test to Threads / Pinterest / Xiaohongshu
-return to carousel production
-```
+W29 is the regression reference for future weekly automation tests.

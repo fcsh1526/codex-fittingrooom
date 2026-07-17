@@ -1,127 +1,68 @@
 # Canva Panorama Carousel SOP
 
-Purpose: create a continuous Instagram carousel that feels like one wide editorial canvas split into 5 slides.
+Updated: 2026-07-17
 
-## Canvas Setup
+This is the active Mira v3 three-slide carousel. The old five-slide `5400x1350` layout is retired.
 
-Create a custom Canva design:
-
-```text
-5400 x 1350 px
-```
-
-This exports to:
+## Canvas Contract
 
 ```text
-5 slides x 1080 x 1350 px
+master: 3240x1350 px
+slice 1: x=0..1079
+slice 2: x=1080..2159
+slice 3: x=2160..3239
+export: 3 images at 1080x1350 px
 ```
 
-Add vertical guides at:
+Required fields: `cover_image`, `motion_crop`, `detail_image`, `slide2_line`.
 
-```text
-x = 1080
-x = 2160
-x = 3240
-x = 4320
-```
+Use a registered v3 master from `10_automation/canva_template_registry.json`. Duplicate it; never edit the master.
 
-Keep important text at least `80 px` away from each guide.
+## Image Preparation
 
-## Placeholder Fields
+1. Select the master before generation.
+2. Read exact A/B/C sizes from `canva_slot_targets.json`.
+3. Generate A Hero at the A ratio.
+4. Derive B Motion and C Detail from accepted A at their own ratios.
+5. Keep complete hair and face inside the target frame.
+6. Normalize without stretching.
+7. Reject required center crop above 15%.
 
-Use one independent text box per placeholder:
+Do not insert one narrow portrait into all three frames.
 
-```text
-{{slide1_title}}
-{{slide1_subtitle}}
-{{slide1_disclosure}}
+## Connector Procedure
 
-{{slide2_kicker}}
-{{slide2_title}}
-{{slide2_body}}
+1. Upload three complete flat PNG images.
+2. Start a transaction on the weekly duplicate.
+3. Inspect all page image assets.
+4. Replace only A/B/C frame element ids.
+5. Inspect and show the draft thumbnail.
+6. Commit only after explicit save approval.
+7. Cancel or revise if rejected.
 
-{{slide3_kicker}}
-{{slide3_title}}
-{{slide3_body}}
+Never use Magic Layers, `image_to_design`, split person/background assets, or unverified old asset ids for final fills.
 
-{{slide4_kicker}}
-{{slide4_title}}
-{{slide4_body}}
+## Visual Acceptance
 
-{{slide5_title}}
-{{slide5_cta}}
-{{slide5_note}}
-{{slide5_disclosure}}
-```
+- The three slides read as one editorial panorama.
+- Cross-slide overlaps are intentional.
+- No face, hair, or key outfit detail is accidentally cut.
+- Slide 2 has one short editorial line.
+- The bottom-right `Mira` mark is fully visible.
+- Person and environment share believable lighting and depth.
+- A/B/C preserve identity and wardrobe.
 
-Do not put multiple placeholders in the same text box unless they must share the same font size and layout.
+## Manual Export
 
-## Weekly Automation Flow
+After commit and `ready_for_manual_export`:
 
-1. Perplexity publishes the weekly trend report.
-2. Codex imports the weekly CSV / prompt rows.
-3. Codex generates image candidates from the weekly prompt rows and approved M01-M05 reference anchors.
-4. Codex reviews image quality and selects assets.
-5. User duplicates the Canva panorama template.
-6. Use `canva_asset_slots.csv` to place cover/detail/background assets.
-7. Use `canva_fill_guide.md` to replace text placeholders.
-8. Use `quality_report.md` as the pre-production gate.
-9. User previews and approves.
-10. User uses Canva slicing/cutting app to export 5 images.
-11. User publishes to Instagram.
-12. Codex records metrics.
+1. Open the saved weekly Canva design.
+2. Use the existing Canva slicing app.
+3. Slice at x=1080 and x=2160.
+4. Export three `1080x1350` images left to right.
+5. Publish one Instagram Carousel.
+6. Send Codex the Instagram URL and publish time.
 
-Future automation input:
+The slicing/export step is intentionally manual. Zero reach does not move the item backward.
 
-```text
-canva_placeholder_map.json
-```
-
-This file maps `{{placeholder}}` tokens to final copy and can be used by a Canva plugin transaction later.
-
-## Design Rules
-
-- Use photo-led editorial layout.
-- Keep body text short.
-- Use Traditional Chinese for IG and Xiaohongshu.
-- Use English only for small editorial labels like `LOOK 01`, `INNER LAYER`, or `ACCESSORIES`.
-- Always include `AI 虛擬穿搭示意`.
-- Do not claim the AI outfit is an exact real product.
-- Use wording such as `同風格單品`, `類似款`, or `替代款`.
-
-## W21-P007 Field Values
-
-```text
-slide1_title = 沙色亞麻套裝
-slide1_subtitle = 有精神，但不會太正式
-slide1_disclosure = AI 虛擬穿搭示意
-slide2_kicker = LOOK 01
-slide2_title = 落肩西外 + 高腰寬褲
-slide2_body = 比例乾淨，正式感剛好
-slide3_kicker = INNER LAYER
-slide3_title = 米白緞面背心
-slide3_body = 比白 T 更精緻，下班約會也不突兀
-slide4_kicker = ACCESSORIES
-slide4_title = 巧克力棕包 + 裸色鞋
-slide4_body = 棕色讓整套更穩，裸色鞋延伸腿部比例
-slide5_title = 想看同風格清單？
-slide5_cta = 留言「沙色套裝」
-slide5_note = 我整理平價 / 質感 / 替代款
-slide5_disclosure = AI 虛擬穿搭示意
-```
-
-## Common Problems
-
-Wrong canvas size:
-
-- `5400 x 1080` creates 5 square slides.
-- `5400 x 1350` creates 5 portrait IG slides.
-
-Placeholder typo:
-
-- Wrong: `{{{{slide2_body}}}}`
-- Correct: `{{slide2_body}}`
-
-Text near slice boundary:
-
-- Move it inward by at least `80 px`.
+Complete process: `10_automation/CANONICAL_WORKFLOW.md`.

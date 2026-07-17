@@ -1,5 +1,9 @@
 ﻿# Automation Hub
 
+Canonical cross-computer SOP: `10_automation/CANONICAL_WORKFLOW.md`.
+
+Always read the canonical SOP after `git pull`. It supersedes older W27/W29 chat instructions and the retired five-slide Canva workflow.
+
 Purpose: make the weekly Mira workflow repeatable with less discussion and fewer manual decisions.
 
 Primary command center:

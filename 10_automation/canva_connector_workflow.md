@@ -1,5 +1,7 @@
 ﻿# Canva Connector Workflow
 
+Canonical end-to-end procedure: `10_automation/CANONICAL_WORKFLOW.md`. This file covers only the Canva connector portion.
+
 Purpose: make Canva assembly semi-automatic while keeping the carousel image-led and low-text.
 
 ## What Canva Connector Can Automate

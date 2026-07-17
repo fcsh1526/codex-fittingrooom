@@ -4,6 +4,8 @@ Last updated: 2026-07-17
 
 ## Project Goal
 
+Canonical cross-computer workflow: `10_automation/CANONICAL_WORKFLOW.md`. Computer B handoff: `COMPUTER_B_SYNC.md`.
+
 Build a repeatable AI fashion magazine workflow: global fashion trend research, localized Traditional Chinese publishing, and daily outfit images with consistent internal models.
 
 Current priority:
@@ -34,6 +36,8 @@ The v3-E `MIRA` brand mark geometry was corrected and saved on 2026-07-16 in the
 All five v3 masters were audited on 2026-07-16 and their exact A/B/C frame geometry is now stored in `canva_template_registry.json`. New weekly packets choose one master before image-job generation. Each job writes `canva_slot_targets.json`, and its A/B/C prompts use the assigned frame ratios instead of one generic portrait ratio. `prepare_canva_ready_assets.py` normalizes approved sources to exact frame pixels without stretching and rejects center crops above 15%.
 
 W29-001, W29-003 and W29-004 correctly resolve to v3-B: A `1240x1350`, B `1140x560`, C `1180x1350`. W29-002 and W29-005 resolve to v3-E: A `1120x1050`, B `1120x410`, C `1060x1010`. All five saved designs preserve complete hair and faces, keep the outfit focus visible, and show the full `MIRA` mark. W29 image and Canva production is complete; the remaining step is manual three-slice export and Instagram publishing.
+
+On 2026-07-17 the complete current workflow was consolidated into `10_automation/CANONICAL_WORKFLOW.md` for computer A, computer B, and future Codex tasks. `README.md`, `COMMAND_CENTER.md`, `COMPUTER_B_SYNC.md`, the Canva panorama SOP, the connector workflow, and the architecture brief now point to that canonical contract. The retired five-slide Canva instructions and stale W27 computer-B handoff were removed.
 
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```
