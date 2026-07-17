@@ -143,6 +143,11 @@ def packet_status(run_dir):
         if clean(row.get("status")).lower()
         in {"canva_committed", "canva_committed_ready_to_publish"}
     ]
+    ready_for_manual_export = [
+        clean(row.get("carousel_id"))
+        for row in rows
+        if clean(row.get("status")).lower() == "ready_for_manual_export"
+    ]
     canva_blocked_waiting_for_flat_png_asset = [
         clean(row.get("carousel_id"))
         for row in rows
@@ -160,6 +165,7 @@ def packet_status(run_dir):
         "published_count": published_count,
         "ready_for_canva_test": ready_for_canva_test,
         "canva_committed_ready_to_publish": canva_committed_ready_to_publish,
+        "ready_for_manual_export": ready_for_manual_export,
         "canva_blocked_waiting_for_flat_png_asset": canva_blocked_waiting_for_flat_png_asset,
         "needs_visual_revision": needs_visual_revision,
         "inactive_count": inactive_count,
@@ -234,6 +240,13 @@ def determine_stage(files, quality, assets, publishing, packet=None):
             "stage": "canva_committed_ready_to_publish",
             "next_action": "Open the committed Canva design, review/export the 3 carousel slices, then publish or schedule it.",
             "blocking_items": packet.get("canva_committed_ready_to_publish"),
+        }
+
+    if packet.get("ready_for_manual_export"):
+        return {
+            "stage": "ready_for_manual_export",
+            "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
+            "blocking_items": packet.get("ready_for_manual_export"),
         }
 
     ready_for_canva = sorted(
@@ -312,6 +325,9 @@ def command_suggestions(run_dir, stage):
         suggestions.append(f"open {run_dir_str}/post_drafts.md")
     elif stage == "canva_committed_ready_to_publish":
         suggestions.append("open 10_automation/canva_template_registry.md")
+        suggestions.append(f"open {run_dir_str}/post_drafts.md")
+        suggestions.append(f"open {run_dir_str}/publish_checklist.md")
+    elif stage == "ready_for_manual_export":
         suggestions.append(f"open {run_dir_str}/post_drafts.md")
         suggestions.append(f"open {run_dir_str}/publish_checklist.md")
     elif stage == "published_waiting_for_metrics":

@@ -1,47 +1,45 @@
 # Mira Daily Cockpit
 
-Date: `2026-07-16`
+Date: `2026-07-17`
 
 ## Today, Do This First
 
-- Item: `2026-W29-005`
+- Item: `2026-W29-001`
 - Type: `carousel`
-- Model: `M05`
-- Canva template: `E` Mira Template Master v3 - E Cross-Boundary Weekend Air
-- Canva template URL: https://www.canva.com/d/djICquyAb4kcGwW
-- Canva design URL: https://www.canva.com/d/gDyY0MlyrDQlQNI
-- Stage: `needs_visual_revision`
-- Asset: `2026-W29-005_M05_photoreal_pilot_candidate_A.png`
-- Next action: Do not publish. Use the registered active Mira Canva master template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.
+- Model: `M01`
+- Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
+- Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
+- Canva design URL: https://www.canva.com/d/oCPjHB_ErKCvfrX
+- Stage: `ready_for_manual_export`
+- Asset: `2026-W29-001_M01_canva_A_1240x1350.png`
+- Next action: Open the saved Canva design, split the 3240x1350 panorama into three 1080x1350 slides, export, then publish or schedule it.
 
 ## Checklist
 
-- [ ] Do not publish this carousel yet.
-- [ ] Verify the selected Mira Canva master has replaceable cover_image, motion_crop, detail_image, and slide2_line layers.
-- [ ] Review the Hero first; derive B Motion and C Detail only after identity, proportions, outfit, contact, and scene lighting pass.
-- [ ] Regenerate better candidates before replacing Canva assets.
-- [ ] Test-fill the registered active Canva master template before export.
+- [ ] Open the saved Canva panorama design.
+- [ ] Use the existing three-slice workflow to split 3240x1350 into three 1080x1350 slides.
+- [ ] Export the three slides without changing the approved layout.
+- [ ] Publish or schedule the Instagram carousel.
+- [ ] Send Codex the post URL and publish time.
 
 ## Files To Open
 
 - `10_automation/canva_template_registry.md`
-- `10_automation/runs/2026-W29/generated_images`
-- `10_automation/runs/2026-W29/image_review_template.csv`
-- `10_automation/runs/2026-W29/canva_asset_plan.md`
+- `10_automation/runs/2026-W29/canva_autofill_status.md`
 - `10_automation/runs/2026-W29/canva_fill_guide.md`
-- `10_automation/runs/2026-W29/README.md`
-- `10_automation/mira_high_fashion_carousel_template_v2.md`
-- `10_automation/claude_design_mira_template_v2_prompt.md`
+- `10_automation/runs/2026-W29/canva_asset_plan.md`
+- `10_automation/runs/2026-W29/post_drafts.md`
+- `10_automation/runs/2026-W29/publish_checklist.md`
 
 ## Reply Template For Codex
 
 ```text
 今日回報：
-item = 2026-W29-005
+item = 2026-W29-001
 type = carousel
 status = 
-model = M05
-Canva URL = https://www.canva.com/d/gDyY0MlyrDQlQNI
+model = M01
+Canva URL = https://www.canva.com/d/oCPjHB_ErKCvfrX
 IG URL = 
 published at = 
 6h metrics = reach / likes / saves / comments / shares

@@ -1,9 +1,9 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "priority_run": {
     "run_dir": "10_automation\\runs\\2026-W29",
-    "stage": "needs_visual_revision",
-    "next_action": "Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.",
+    "stage": "ready_for_manual_export",
+    "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
     "packet_rows": 5,
     "quality": "pass",
     "cover_assets": "5/5",
@@ -11,24 +11,22 @@
     "metric_checkpoints": 0,
     "latest_decision": ""
   },
-  "decision": "The current carousel should not be published until the generated assets pass the actual Canva frame-fit check.",
+  "decision": "The approved Canva panorama is saved and only the manual three-slice export remains.",
   "tasks": [
-    "Read canva_slot_targets.json and create each remaining A/B/C derivative for its exact assigned frame ratio.",
-    "Run prepare_canva_ready_assets.py to normalize approved sources without stretching or more than 15% center crop.",
-    "Replace the complete A/B/C set and confirm the full hairstyle, face, and outfit focus survive the untouched Canva fill."
+    "Open the saved Canva panorama design.",
+    "Split 3240x1350 into three 1080x1350 slides with the existing Canva app.",
+    "Export and publish or schedule the Instagram carousel."
   ],
   "user_inputs": [
-    "Visual approval of the first crop-safe pilot in Canva"
+    "Instagram post URL",
+    "Publish time"
   ],
   "codex_actions": [
-    "Mark the run as blocked from publishing.",
-    "Generate assigned-frame-ratio derivatives from accepted assets.",
-    "Enforce canva_frame_fit as a hard asset-selection gate."
+    "Record the post URL and update publish status."
   ],
   "useful_files": [
-    "10_automation/runs/{run}/generated_images",
-    "10_automation/runs/{run}/image_review_template.csv",
-    "10_automation/runs/{run}/canva_asset_plan.md"
+    "10_automation/runs/{run}/post_drafts.md",
+    "10_automation/runs/{run}/publish_checklist.md"
   ],
   "generated_files": [
     "10_automation\\PUBLISH_QUEUE.md",
@@ -40,24 +38,24 @@
     "top_item": {
       "item_type": "carousel",
       "week_id": "2026-W29",
-      "carousel_id": "2026-W29-005",
-      "prompt_id": "W29-P017",
-      "model_profile_id": "M05",
-      "canva_template_key": "E",
-      "canva_template_name": "Mira Template Master v3 - E Cross-Boundary Weekend Air",
-      "canva_template_url": "https://www.canva.com/d/djICquyAb4kcGwW",
-      "canva_design_url": "https://www.canva.com/d/gDyY0MlyrDQlQNI",
-      "trend_name": "中性色彩亮點（薄荷綠、奶油黃與原色）",
-      "content_bucket": "daily_style",
-      "stage": "needs_visual_revision",
+      "carousel_id": "2026-W29-001",
+      "prompt_id": "W29-P001",
+      "model_profile_id": "M01",
+      "canva_template_key": "B",
+      "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
+      "canva_template_url": "https://www.canva.com/d/UoVSnPEpgguD3be",
+      "canva_design_url": "https://www.canva.com/d/oCPjHB_ErKCvfrX",
+      "trend_name": "輕透層次 透膚疊穿",
+      "content_bucket": "office_capsule",
+      "stage": "ready_for_manual_export",
       "platform": "Instagram",
-      "recommended_asset": "2026-W29-005_M05_photoreal_pilot_candidate_A.png",
+      "recommended_asset": "2026-W29-001_M01_canva_A_1240x1350.png",
       "asset_url": "",
       "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
-      "next_action": "Do not publish. Use the registered active Mira Canva master template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.",
+      "next_action": "Open the saved Canva design, split the 3240x1350 panorama into three 1080x1350 slides, export, then publish or schedule it.",
       "run_dir": "10_automation\\runs\\2026-W29",
       "package_path": ""
     }
@@ -68,7 +66,7 @@
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "archived": 2,
-      "needs_visual_revision": 1
+      "ready_for_manual_export": 1
     },
     "runs": [
       {
@@ -106,8 +104,8 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W29",
-        "stage": "needs_visual_revision",
-        "next_action": "Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.",
+        "stage": "ready_for_manual_export",
+        "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
         "packet_rows": 5,
         "quality": "pass",
         "cover_assets": "5/5",

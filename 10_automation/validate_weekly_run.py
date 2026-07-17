@@ -388,7 +388,7 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False, r
                     if carousel_id not in required_asset_ids:
                         continue
                     status = clean(row.get("selection_status")).lower()
-                    if status and not status.startswith("selected"):
+                    if status and not (status.startswith("selected") or status == "exact_frame_approved"):
                         add_issue(issues, "error", "asset_selection_status", f"{carousel_id}: {selection_name} has selection_status `{status}`.")
 
         fill_guide = run_dir / "canva_fill_guide.md"
@@ -398,7 +398,7 @@ def validate_canva_handoff(run_dir, packet_rows, issues, require_assets=False, r
                 if carousel_id not in required_asset_ids:
                     continue
                 packet_status = clean(packet.get("status")).lower()
-                if packet_status in {"ready_for_canva_test", "canva_blocked_waiting_for_flat_png_asset", "canva_committed", "canva_committed_ready_to_publish"} and "TBD" in text:
+                if packet_status in {"ready_for_canva_test", "canva_blocked_waiting_for_flat_png_asset", "canva_committed", "canva_committed_ready_to_publish", "ready_for_manual_export"} and "TBD" in text:
                     add_issue(issues, "error", "canva_verified_asset_tbd", f"{carousel_id}: canva_fill_guide.md still contains `TBD`; verified Canva flat image assets are incomplete.")
 
 

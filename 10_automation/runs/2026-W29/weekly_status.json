@@ -2,9 +2,13 @@
   "run_dir": "10_automation\\runs\\2026-W29",
   "run_state": {},
   "stage": {
-    "stage": "needs_visual_revision",
-    "next_action": "Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.",
+    "stage": "ready_for_manual_export",
+    "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
     "blocking_items": [
+      "2026-W29-001",
+      "2026-W29-002",
+      "2026-W29-003",
+      "2026-W29-004",
       "2026-W29-005"
     ]
   },
@@ -13,10 +17,15 @@
     "published_count": 0,
     "ready_for_canva_test": [],
     "canva_committed_ready_to_publish": [],
-    "canva_blocked_waiting_for_flat_png_asset": [],
-    "needs_visual_revision": [
+    "ready_for_manual_export": [
+      "2026-W29-001",
+      "2026-W29-002",
+      "2026-W29-003",
+      "2026-W29-004",
       "2026-W29-005"
     ],
+    "canva_blocked_waiting_for_flat_png_asset": [],
+    "needs_visual_revision": [],
     "inactive_count": 0,
     "all_inactive": false,
     "carousel_ids": [
@@ -30,7 +39,7 @@
   "files": {
     "weekly_content_packet.csv": {
       "exists": true,
-      "size": 4236
+      "size": 4222
     },
     "canva_placeholder_values.csv": {
       "exists": true,
@@ -42,11 +51,11 @@
     },
     "canva_asset_slots.csv": {
       "exists": true,
-      "size": 4106
+      "size": 3917
     },
     "daily_queue.csv": {
       "exists": true,
-      "size": 2877
+      "size": 2544
     },
     "image_generation_briefs.md": {
       "exists": true,
@@ -100,8 +109,7 @@
     "published_carousel_ids": []
   },
   "commands": [
-    "open 10_automation\\runs\\2026-W29/generated_images",
-    "open 10_automation\\runs\\2026-W29/canva_asset_plan.md",
-    "Use canva_slot_targets.json and prepare_canva_ready_assets.py before revising the Canva design."
+    "open 10_automation\\runs\\2026-W29/post_drafts.md",
+    "open 10_automation\\runs\\2026-W29/publish_checklist.md"
   ]
 }

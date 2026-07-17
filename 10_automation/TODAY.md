@@ -1,34 +1,32 @@
 # Mira Daily Brief
 
-Date: `2026-07-16`
+Date: `2026-07-17`
 Priority run: `2026-W29`
-Stage: `needs_visual_revision`
+Stage: `ready_for_manual_export`
 
 ## Decision
 
-The current carousel should not be published until the generated assets pass the actual Canva frame-fit check.
+The approved Canva panorama is saved and only the manual three-slice export remains.
 
 ## Today Only
 
-1. Read canva_slot_targets.json and create each remaining A/B/C derivative for its exact assigned frame ratio.
-2. Run prepare_canva_ready_assets.py to normalize approved sources without stretching or more than 15% center crop.
-3. Replace the complete A/B/C set and confirm the full hairstyle, face, and outfit focus survive the untouched Canva fill.
+1. Open the saved Canva panorama design.
+2. Split 3240x1350 into three 1080x1350 slides with the existing Canva app.
+3. Export and publish or schedule the Instagram carousel.
 
 ## User Should Provide
 
-- Visual approval of the first crop-safe pilot in Canva
+- Instagram post URL
+- Publish time
 
 ## Codex Can Do Next
 
-- Mark the run as blocked from publishing.
-- Generate assigned-frame-ratio derivatives from accepted assets.
-- Enforce canva_frame_fit as a hard asset-selection gate.
+- Record the post URL and update publish status.
 
 ## Useful Files
 
-- `10_automation/runs/2026-W29/generated_images`
-- `10_automation/runs/2026-W29/image_review_template.csv`
-- `10_automation/runs/2026-W29/canva_asset_plan.md`
+- `10_automation/runs/2026-W29/post_drafts.md`
+- `10_automation/runs/2026-W29/publish_checklist.md`
 
 ## Generated Files
 
@@ -39,19 +37,19 @@ The current carousel should not be published until the generated assets pass the
 ## Publish Queue Top Item
 
 - Type: `carousel`
-- ID: `2026-W29-005`
-- Model: `M05`
-- Canva template: `E` Mira Template Master v3 - E Cross-Boundary Weekend Air
-- Canva template URL: https://www.canva.com/d/djICquyAb4kcGwW
-- Canva design URL: https://www.canva.com/d/gDyY0MlyrDQlQNI
-- Stage: `needs_visual_revision`
-- Asset: `2026-W29-005_M05_photoreal_pilot_candidate_A.png`
+- ID: `2026-W29-001`
+- Model: `M01`
+- Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
+- Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
+- Canva design URL: https://www.canva.com/d/oCPjHB_ErKCvfrX
+- Stage: `ready_for_manual_export`
+- Asset: `2026-W29-001_M01_canva_A_1240x1350.png`
 - Package: `n/a`
-- Next action: Do not publish. Use the registered active Mira Canva master template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.
+- Next action: Open the saved Canva design, split the 3240x1350 panorama into three 1080x1350 slides, export, then publish or schedule it.
 
 ## Current Next Action
 
-Do not publish. Use the registered active Mira Canva master template, verify layer/frame compatibility, regenerate clean candidates, then test-fill before export.
+Open the saved Canva design, split the 3240x1350 panorama into three 1080x1350 slides, export, then publish or schedule it.
 
 ## Fixed Flow
 
@@ -62,4 +60,4 @@ Mira magazine -> weekly trend -> daily queue -> Codex Hero -> B/C derivatives ->
 ## Dashboard Summary
 
 - Run count: `4`
-- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 2, "needs_visual_revision": 1}`
+- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 2, "ready_for_manual_export": 1}`

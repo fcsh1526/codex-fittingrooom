@@ -4,7 +4,7 @@
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "archived": 2,
-    "needs_visual_revision": 1
+    "ready_for_manual_export": 1
   },
   "runs": [
     {
@@ -42,8 +42,8 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W29",
-      "stage": "needs_visual_revision",
-      "next_action": "Read canva_slot_targets.json, create A/B/C for the assigned master frame ratios, normalize them without stretching, and do not publish until the untouched Canva fill and canva_frame_fit pass.",
+      "stage": "ready_for_manual_export",
+      "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",

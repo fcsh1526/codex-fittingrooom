@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-07-16
+Last updated: 2026-07-17
 
 ## Project Goal
 
@@ -27,13 +27,13 @@ Perplexity has proposed a Monday auto-publish task because weekly files were rep
 M01 passed a new Codex Hero-first photoreal pilot: one integrated scene was generated from the approved face/full-body anchors and received one targeted lighting/camera-finish refinement.
 The refined Hero has plausible body proportions, physical hand/stone and shoe/floor contact, and materially improved shared scene lighting. It is accepted as the trial session lock, while its remaining catalog-like stiffness is recorded as a known pilot limitation.
 W29-001 through W29-005 now each have an approved A Hero, B Motion, and C Detail set selected by the automation. The complete week contains 15 selected photoreal images across M01, M02, M04, M03, and M05.
-The five W29 v3 Canva duplicates were initially filled on 2026-07-16, but visual review found that generic narrow portrait sources were center-cover cropped by Canva's exact frames. W29-001 through W29-004 have now completed the corrected path: each A/B/C set was purpose-built for its assigned master, visually reviewed in Canva, approved by the user, and saved. All four are `ready_for_manual_export`; only W29-005 remains `needs_visual_revision`. Old W29 v2 selections must not be used for new Canva work.
+The five W29 v3 Canva duplicates were initially filled on 2026-07-16, but visual review found that generic narrow portrait sources were center-cover cropped by Canva's exact frames. W29-001 through W29-005 have now completed the corrected path: each A/B/C set was purpose-built for its assigned master, visually reviewed in Canva, approved by the user, and saved. All five are `ready_for_manual_export`. Old W29 v2 selections must not be used for new Canva work.
 
 The v3-E `MIRA` brand mark geometry was corrected and saved on 2026-07-16 in the master and in W29-002 / W29-005. Its text box now ends at x=3200 on the 3240px canvas, leaving a 40px right-safe margin.
 
 All five v3 masters were audited on 2026-07-16 and their exact A/B/C frame geometry is now stored in `canva_template_registry.json`. New weekly packets choose one master before image-job generation. Each job writes `canva_slot_targets.json`, and its A/B/C prompts use the assigned frame ratios instead of one generic portrait ratio. `prepare_canva_ready_assets.py` normalizes approved sources to exact frame pixels without stretching and rejects center crops above 15%.
 
-W29-001, W29-003 and W29-004 correctly resolve to v3-B: A `1240x1350`, B `1140x560`, C `1180x1350`. W29-002 resolves to v3-E: A `1120x1050`, B `1120x410`, C `1060x1010`. All four saved designs preserve complete hair and faces, keep the outfit focus visible, and show the full `MIRA` mark. Next production item is W29-005.
+W29-001, W29-003 and W29-004 correctly resolve to v3-B: A `1240x1350`, B `1140x560`, C `1180x1350`. W29-002 and W29-005 resolve to v3-E: A `1120x1050`, B `1120x410`, C `1060x1010`. All five saved designs preserve complete hair and faces, keep the outfit focus visible, and show the full `MIRA` mark. W29 image and Canva production is complete; the remaining step is manual three-slice export and Instagram publishing.
 
 Week ids use ISO 8601 exclusively: Monday is day 1, and W01 is the week containing the year's first Thursday. ISO calendar position and production completion are separate states; unfinished items remain active after their source week ends.
 ```

@@ -141,6 +141,8 @@ def latest_by_carousel(rows, carousel_id):
 
 def stage_for_carousel(packet, asset, publish, metric):
     packet_status = clean(packet.get("status")).lower()
+    if packet_status == "ready_for_manual_export":
+        return "ready_for_manual_export"
     if packet_status == "ready_for_canva_test":
         return "ready_for_canva_test"
     if packet_status == "needs_visual_revision":
@@ -180,6 +182,7 @@ def next_action_for_stage(stage):
         "skip": "Skipped; choose another content item.",
         "ready_for_canva_and_publish": "Use Canva handoff files to finish the carousel and publish it.",
         "canva_committed_ready_to_publish": "Open the Canva design, review the committed layout, export the 3 carousel slides, then publish or schedule it.",
+        "ready_for_manual_export": "Open the saved Canva design, split the 3240x1350 panorama into three 1080x1350 slides, export, then publish or schedule it.",
         "weak_distribution": "Mirror the asset to Threads or Pinterest and test a clearer single-image hook.",
         "wait_for_24h": "Wait for the 24h checkpoint before changing the content direction.",
         "repeat_bucket": "Create a second carousel in the same content bucket.",
@@ -279,6 +282,8 @@ def item_priority(row):
         return 112
     if item_type == "carousel" and stage == "canva_committed_ready_to_publish":
         return 110
+    if item_type == "carousel" and stage == "ready_for_manual_export":
+        return 110
     if item_type == "carousel" and stage == "ready_for_canva_and_publish":
         return 100
     if item_type == "carousel" and stage == "needs_image_asset_selection":
@@ -289,6 +294,7 @@ def item_priority(row):
         "canva_blocked_waiting_for_flat_png_asset": 68,
         "ready_for_canva_test": 92,
         "canva_committed_ready_to_publish": 90,
+        "ready_for_manual_export": 90,
         "ready_for_canva_and_publish": 75,
         "needs_image_asset_selection": 70,
         "ready_to_publish_visibility_test": 45,

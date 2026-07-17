@@ -3,7 +3,7 @@
   "model_profile_id": "M05",
   "canva_template_key": "E",
   "canva_template_name": "Mira Template Master v3 - E Cross-Boundary Weekend Air",
-  "status": "needs_canva_frame_review",
+  "status": "canva_frame_approved",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W29\\generated_images\\2026-W29-005\\2026-W29-005_M05_photoreal_pilot_candidate_A_canva_safe_v1.png",
@@ -18,7 +18,7 @@
       ],
       "target_aspect_ratio": 1.0667,
       "center_crop_fraction": 0.0625,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -34,7 +34,7 @@
       ],
       "target_aspect_ratio": 2.7317,
       "center_crop_fraction": 0.0011,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -50,7 +50,7 @@
       ],
       "target_aspect_ratio": 1.0495,
       "center_crop_fraction": 0.0472,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }

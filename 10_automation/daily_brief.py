@@ -13,6 +13,7 @@ STAGE_PRIORITY = {
     "canva_blocked_waiting_for_flat_png_asset": 118,
     "ready_for_canva_test": 115,
     "canva_committed_ready_to_publish": 110,
+    "ready_for_manual_export": 110,
     "ready_for_canva_and_publish": 100,
     "needs_image_asset_selection": 90,
     "published_waiting_for_metrics": 80,
@@ -252,6 +253,22 @@ def stage_brief(stage):
             ],
             "files": [
                 "10_automation/runs/{run}/canva_asset_plan.md",
+                "10_automation/runs/{run}/post_drafts.md",
+                "10_automation/runs/{run}/publish_checklist.md",
+            ],
+        },
+        "ready_for_manual_export": {
+            "decision": "The approved Canva panorama is saved and only the manual three-slice export remains.",
+            "tasks": [
+                "Open the saved Canva panorama design.",
+                "Split 3240x1350 into three 1080x1350 slides with the existing Canva app.",
+                "Export and publish or schedule the Instagram carousel.",
+            ],
+            "user_inputs": ["Instagram post URL", "Publish time"],
+            "codex_actions": [
+                "Record the post URL and update publish status.",
+            ],
+            "files": [
                 "10_automation/runs/{run}/post_drafts.md",
                 "10_automation/runs/{run}/publish_checklist.md",
             ],

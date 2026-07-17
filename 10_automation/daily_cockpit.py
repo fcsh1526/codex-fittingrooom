@@ -46,7 +46,7 @@ def run_files(top_item):
     item_type = clean(top_item.get("item_type"))
     stage = clean(top_item.get("stage"))
 
-    if item_type == "carousel" and stage in {"ready_for_canva_and_publish", "canva_committed_ready_to_publish"}:
+    if item_type == "carousel" and stage in {"ready_for_canva_and_publish", "canva_committed_ready_to_publish", "ready_for_manual_export"}:
         return [
             "10_automation/canva_template_registry.md",
             normalize_path(f"{run_dir}/canva_autofill_status.md"),
@@ -122,6 +122,14 @@ def checklist_for(top_item):
             "Export the 3 carousel slides if the layout looks acceptable.",
             "Publish or schedule the Instagram carousel.",
             "Send Codex the post URL, publish time, and any immediate notes.",
+        ]
+    if item_type == "carousel" and stage == "ready_for_manual_export":
+        return [
+            "Open the saved Canva panorama design.",
+            "Use the existing three-slice workflow to split 3240x1350 into three 1080x1350 slides.",
+            "Export the three slides without changing the approved layout.",
+            "Publish or schedule the Instagram carousel.",
+            "Send Codex the post URL and publish time.",
         ]
     if item_type == "carousel" and stage == "ready_for_canva_test":
         return [
