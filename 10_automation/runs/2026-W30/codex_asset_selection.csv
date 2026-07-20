@@ -1,0 +1,6 @@
+carousel_id,prompt_id,cover_asset,cover_url,detail_asset,detail_url,texture_asset,texture_url,selection_status,notes
+2026-W30-001,W30-P001,2026-W30-001_M04_candidate_A.png,,2026-W30-001_M04_candidate_C.png,,2026-W30-001_M04_candidate_B.png,,selected,cover=A score=52; motion_crop=B score=54; detail=C score=52
+2026-W30-002,W30-P002,2026-W30-002_M03_candidate_A.png,,2026-W30-002_M03_candidate_C.png,,2026-W30-002_M03_candidate_B.png,,selected,cover=A score=54; motion_crop=B score=55; detail=C score=54
+2026-W30-003,W30-P003,2026-W30-003_M01_candidate_A.png,,2026-W30-003_M01_candidate_C.png,,2026-W30-003_M01_candidate_B.png,,selected,cover=A score=53; motion_crop=B score=54; detail=C score=54
+2026-W30-004,W30-P004,2026-W30-004_M05_candidate_A.png,,2026-W30-004_M05_candidate_C.png,,2026-W30-004_M05_candidate_B.png,,selected,cover=A score=53; motion_crop=B score=55; detail=C score=53
+2026-W30-005,W30-P005,2026-W30-005_M02_candidate_A.png,,2026-W30-005_M02_candidate_C.png,,2026-W30-005_M02_candidate_B.png,,selected,cover=A score=54; motion_crop=B score=54; detail=C score=54

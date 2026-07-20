@@ -1,0 +1,4 @@
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,canva_frame_fit,commerce_value,publishable,status,notes
+2026-W30-002,W30-P002,M03,2026-W30-002_M03_candidate_A.png,Codex,5,5,5,5,5,5,5,5,4,5,5,yes,approved,"Hero lock approved; cropped-trouser length, proportions, cafe contact, and frame safety pass."
+2026-W30-002,W30-P002,M03,2026-W30-002_M03_candidate_B.png,Codex,5,5,5,5,5,5,5,5,5,5,5,yes,approved,"Horizontal bag-strap motion is lively and preserves the exact navy-white outfit and cafe light."
+2026-W30-002,W30-P002,M03,2026-W30-002_M03_candidate_C.png,Codex,5,5,5,5,5,5,5,5,4,5,5,yes,approved,"Detail frame keeps identity, layers, waistband construction, bag, and window treatment consistent."

@@ -1,0 +1,57 @@
+{
+  "carousel_id": "2026-W30-003",
+  "model_profile_id": "M01",
+  "canva_template_key": "A",
+  "canva_template_name": "Mira Template Master v3 - A Cross-Boundary Contact Sheet",
+  "status": "needs_canva_frame_review",
+  "assets": {
+    "A": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W30\\generated_images\\2026-W30-003\\2026-W30-003_M01_candidate_A.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W30\\generated_images\\2026-W30-003\\canva_ready\\2026-W30-003_M01_canva_A_1160x1190.png",
+      "source_size": [
+        1238,
+        1271
+      ],
+      "target_size": [
+        1160,
+        1190
+      ],
+      "target_aspect_ratio": 0.9748,
+      "center_crop_fraction": 0.0008,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "cover_image"
+    },
+    "B": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W30\\generated_images\\2026-W30-003\\2026-W30-003_M01_candidate_B.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W30\\generated_images\\2026-W30-003\\canva_ready\\2026-W30-003_M01_canva_B_980x430.png",
+      "source_size": [
+        1894,
+        830
+      ],
+      "target_size": [
+        980,
+        430
+      ],
+      "target_aspect_ratio": 2.2791,
+      "center_crop_fraction": 0.0013,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "motion_crop"
+    },
+    "C": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W30\\generated_images\\2026-W30-003\\2026-W30-003_M01_candidate_C.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W30\\generated_images\\2026-W30-003\\canva_ready\\2026-W30-003_M01_canva_C_1080x1080.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "target_size": [
+        1080,
+        1080
+      ],
+      "target_aspect_ratio": 1.0,
+      "center_crop_fraction": 0.0,
+      "visual_status": "needs_canva_frame_review",
+      "slot_id": "detail_image"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,canva_frame_fit,commerce_value,publishable,status,notes
+2026-W30-003,W30-P003,M01,2026-W30-003_M01_candidate_A.png,Codex,5,5,5,5,5,5,5,4,4,5,5,yes,approved,"Hero lock approved; fisherman sandals, wide-trouser drape, realistic proportions, and contacts pass."
+2026-W30-003,W30-P003,M01,2026-W30-003_M01_candidate_B.png,Codex,5,5,5,5,5,5,5,4,5,5,5,yes,approved,"Wide walking frame preserves footwear, outfit, identity, architecture, and daylight continuity."
+2026-W30-003,W30-P003,M01,2026-W30-003_M01_candidate_C.png,Codex,5,5,5,5,5,5,5,4,5,5,5,yes,approved,"Seated square detail clearly shows sandals and trouser texture with coherent contact shadows."

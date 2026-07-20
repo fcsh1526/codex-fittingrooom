@@ -1,0 +1,4 @@
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,canva_frame_fit,commerce_value,publishable,status,notes
+2026-W30-005,W30-P005,M02,2026-W30-005_M02_candidate_A.png,Codex,5,5,5,5,5,5,5,5,4,5,5,yes,approved,"Hero lock approved; scarf-belt knot, denim silhouette, body proportions, and daylight integration pass."
+2026-W30-005,W30-P005,M02,2026-W30-005_M02_candidate_B.png,Codex,5,5,5,5,5,5,4,5,5,5,5,yes,approved,"Ultra-wide motion keeps the same scarf-belt concept, denim, identity, and cafe-street session."
+2026-W30-005,W30-P005,M02,2026-W30-005_M02_candidate_C.png,Codex,5,5,5,5,5,5,5,5,4,5,5,yes,approved,"Near-square detail clearly explains the scarf knot and preserves shirt tuck, jean rise, and lighting."
