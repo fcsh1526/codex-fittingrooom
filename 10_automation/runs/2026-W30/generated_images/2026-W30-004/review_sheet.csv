@@ -1,4 +1,4 @@
 carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,canva_frame_fit,commerce_value,publishable,status,notes
-2026-W30-004,W30-P004,M05,2026-W30-004_M05_candidate_A.png,Codex,5,5,5,5,5,5,5,4,4,5,5,yes,approved,"Hero lock approved; adult commute styling, cream-yellow knit, proportions, and frame safety pass."
-2026-W30-004,W30-P004,M05,2026-W30-004_M05_candidate_B.png,Codex,5,5,5,5,5,5,5,5,5,5,5,yes,approved,"Horizontal bag motion keeps the knit-shirt-trouser construction and lobby light fully consistent."
-2026-W30-004,W30-P004,M05,2026-W30-004_M05_candidate_C.png,Codex,5,5,5,5,5,5,5,4,4,5,5,yes,approved,"Detail frame resolves knit texture and layered hem without identity or wardrobe drift."
+2026-W30-004,W30-P004,M05,2026-W30-004_M05_candidate_A.png,Codex,5,5,5,5,5,5,5,4,4,5,5,yes,canva_frame_approved,"Hero lock and exact v3-B Canva frame approved and saved on 2026-07-20."
+2026-W30-004,W30-P004,M05,2026-W30-004_M05_candidate_B.png,Codex,5,5,5,5,5,5,5,5,5,5,5,yes,canva_frame_approved,"Horizontal motion frame approved in the exact v3-B slot and saved on 2026-07-20."
+2026-W30-004,W30-P004,M05,2026-W30-004_M05_candidate_C.png,Codex,5,5,5,5,5,5,5,4,4,5,5,yes,canva_frame_approved,"Detail frame approved in the exact v3-B slot and saved on 2026-07-20."

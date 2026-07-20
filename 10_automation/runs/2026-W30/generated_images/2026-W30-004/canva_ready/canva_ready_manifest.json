@@ -3,7 +3,7 @@
   "model_profile_id": "M05",
   "canva_template_key": "B",
   "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
-  "status": "needs_canva_frame_review",
+  "status": "canva_frame_approved",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W30\\generated_images\\2026-W30-004\\2026-W30-004_M05_candidate_A.png",
@@ -18,7 +18,7 @@
       ],
       "target_aspect_ratio": 0.9185,
       "center_crop_fraction": 0.0003,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -34,7 +34,7 @@
       ],
       "target_aspect_ratio": 2.0357,
       "center_crop_fraction": 0.0002,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -50,7 +50,7 @@
       ],
       "target_aspect_ratio": 0.8741,
       "center_crop_fraction": 0.0009,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }

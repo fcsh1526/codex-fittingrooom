@@ -1,7 +1,7 @@
 # Mira Daily Brief
 
-Date: `2026-07-17`
-Priority run: `2026-W29`
+Date: `2026-07-20`
+Priority run: `2026-W30`
 Stage: `ready_for_manual_export`
 
 ## Decision
@@ -25,8 +25,8 @@ The approved Canva panorama is saved and only the manual three-slice export rema
 
 ## Useful Files
 
-- `10_automation/runs/2026-W29/post_drafts.md`
-- `10_automation/runs/2026-W29/publish_checklist.md`
+- `10_automation/runs/2026-W30/post_drafts.md`
+- `10_automation/runs/2026-W30/publish_checklist.md`
 
 ## Generated Files
 
@@ -37,13 +37,13 @@ The approved Canva panorama is saved and only the manual three-slice export rema
 ## Publish Queue Top Item
 
 - Type: `carousel`
-- ID: `2026-W29-001`
-- Model: `M01`
+- ID: `2026-W30-001`
+- Model: `M04`
 - Canva template: `B` Mira Template Master v3 - B Cross-Boundary Symmetric
 - Canva template URL: https://www.canva.com/d/UoVSnPEpgguD3be
-- Canva design URL: https://www.canva.com/d/oCPjHB_ErKCvfrX
+- Canva design URL: https://www.canva.com/d/SfW4YxacBg3micp
 - Stage: `ready_for_manual_export`
-- Asset: `2026-W29-001_M01_canva_A_1240x1350.png`
+- Asset: `2026-W30-001_M04_canva_A_1240x1350.png`
 - Package: `n/a`
 - Next action: Open the saved Canva design, split the 3240x1350 panorama into three 1080x1350 slides, export, then publish or schedule it.
 
@@ -59,5 +59,5 @@ Mira magazine -> weekly trend -> daily queue -> Codex Hero -> B/C derivatives ->
 
 ## Dashboard Summary
 
-- Run count: `4`
-- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 2, "ready_for_manual_export": 1}`
+- Run count: `5`
+- Stage counts: `{"missing_weekly_packet_files": 1, "archived": 2, "ready_for_manual_export": 2}`

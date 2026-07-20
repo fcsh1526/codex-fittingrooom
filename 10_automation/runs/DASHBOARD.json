@@ -1,10 +1,10 @@
 {
   "runs_dir": "10_automation\\runs",
-  "run_count": 4,
+  "run_count": 5,
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "archived": 2,
-    "ready_for_manual_export": 1
+    "ready_for_manual_export": 2
   },
   "runs": [
     {
@@ -42,6 +42,17 @@
     },
     {
       "run_dir": "10_automation\\runs\\2026-W29",
+      "stage": "ready_for_manual_export",
+      "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
+      "packet_rows": 5,
+      "quality": "pass",
+      "cover_assets": "5/5",
+      "published": false,
+      "metric_checkpoints": 0,
+      "latest_decision": ""
+    },
+    {
+      "run_dir": "10_automation\\runs\\2026-W30",
       "stage": "ready_for_manual_export",
       "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
       "packet_rows": 5,

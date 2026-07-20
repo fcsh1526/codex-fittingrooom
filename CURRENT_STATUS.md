@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-07-17
+Last updated: 2026-07-20
 
 ## Project Goal
 
@@ -17,6 +17,11 @@ global weekly trend -> daily outfit queue -> internal model profile -> approved 
 Latest automation test:
 
 ```text
+2026-07-20 W30 was verified live in the public Perplexity index and imported from https://mika-lin-weekly.pplx.app/data/2026-W30.csv.
+The W30 run contains 20 imported rows, five distinct Carousel packets, and M01-M05 exactly once. Fifteen Hero-first A/B/C images were generated against approved identity anchors and normalized to their assigned v3-A, v3-B, or v3-E exact frame pixels with effectively zero center crop.
+All five W30 Canva designs were created from fresh master copies, visually approved by the user, and committed on 2026-07-20. W30-001 through W30-005 are `ready_for_manual_export`; validation passes with 0 errors and 0 warnings.
+W29 remains independently `ready_for_manual_export` for daily manual publishing and does not block W30.
+
 2026-07-09 W27 Perplexity pipeline passed from https://mika-lin-weekly.pplx.app/data/index.json.
 Active run folder: 10_automation/runs/2026-W27.
 Current top item: 2026-W27-002; W27-001 is published.

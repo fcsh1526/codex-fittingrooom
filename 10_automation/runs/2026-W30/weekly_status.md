@@ -1,11 +1,11 @@
 # Weekly Status
 
 Run folder: `10_automation\runs\2026-W30`
-Stage: `canva_blocked_waiting_for_flat_png_asset`
+Stage: `ready_for_manual_export`
 
 ## Next Action
 
-Resolve the selected complete PNG/JPG images to verified Canva image asset ids, then rerun the Canva fill on a fresh duplicate. Public URLs are optional; do not use image_to_design, Magic Layers, or old Canva design asset ids. Review quality_report.md for any additional strict validation blockers.
+Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.
 
 ## Blocking Items
 
@@ -18,11 +18,11 @@ Resolve the selected complete PNG/JPG images to verified Canva image asset ids, 
 ## Suggested Commands
 
 ```powershell
-open 10_automation\runs\2026-W30/canva_asset_plan.md
+open 10_automation\runs\2026-W30/post_drafts.md
 ```
 
 ```powershell
-open 10_automation\runs\2026-W30/generated_images
+open 10_automation\runs\2026-W30/publish_checklist.md
 ```
 
 ## Summary

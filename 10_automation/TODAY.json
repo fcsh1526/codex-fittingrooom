@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-20",
   "priority_run": {
-    "run_dir": "10_automation\\runs\\2026-W29",
+    "run_dir": "10_automation\\runs\\2026-W30",
     "stage": "ready_for_manual_export",
     "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
     "packet_rows": 5,
@@ -34,39 +34,39 @@
     "10_automation\\PUBLISH_QUEUE.csv"
   ],
   "publish_queue": {
-    "item_count": 5,
+    "item_count": 10,
     "top_item": {
       "item_type": "carousel",
-      "week_id": "2026-W29",
-      "carousel_id": "2026-W29-001",
-      "prompt_id": "W29-P001",
-      "model_profile_id": "M01",
+      "week_id": "2026-W30",
+      "carousel_id": "2026-W30-001",
+      "prompt_id": "W30-P001",
+      "model_profile_id": "M04",
       "canva_template_key": "B",
       "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
       "canva_template_url": "https://www.canva.com/d/UoVSnPEpgguD3be",
-      "canva_design_url": "https://www.canva.com/d/oCPjHB_ErKCvfrX",
-      "trend_name": "輕透層次 透膚疊穿",
+      "canva_design_url": "https://www.canva.com/d/SfW4YxacBg3micp",
+      "trend_name": "薄紗與透視層次",
       "content_bucket": "office_capsule",
       "stage": "ready_for_manual_export",
       "platform": "Instagram",
-      "recommended_asset": "2026-W29-001_M01_canva_A_1240x1350.png",
+      "recommended_asset": "2026-W30-001_M04_canva_A_1240x1350.png",
       "asset_url": "",
       "post_url": "",
       "published_at": "",
       "latest_reach": "",
       "latest_decision": "",
       "next_action": "Open the saved Canva design, split the 3240x1350 panorama into three 1080x1350 slides, export, then publish or schedule it.",
-      "run_dir": "10_automation\\runs\\2026-W29",
+      "run_dir": "10_automation\\runs\\2026-W30",
       "package_path": ""
     }
   },
   "dashboard": {
     "runs_dir": "10_automation\\runs",
-    "run_count": 4,
+    "run_count": 5,
     "stage_counts": {
       "missing_weekly_packet_files": 1,
       "archived": 2,
-      "ready_for_manual_export": 1
+      "ready_for_manual_export": 2
     },
     "runs": [
       {
@@ -104,6 +104,17 @@
       },
       {
         "run_dir": "10_automation\\runs\\2026-W29",
+        "stage": "ready_for_manual_export",
+        "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
+        "packet_rows": 5,
+        "quality": "pass",
+        "cover_assets": "5/5",
+        "published": false,
+        "metric_checkpoints": 0,
+        "latest_decision": ""
+      },
+      {
+        "run_dir": "10_automation\\runs\\2026-W30",
         "stage": "ready_for_manual_export",
         "next_action": "Open the saved Canva panoramas, split each 3240x1350 design into three 1080x1350 slides, then export and publish or schedule them.",
         "packet_rows": 5,

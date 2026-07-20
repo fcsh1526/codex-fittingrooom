@@ -1,4 +1,4 @@
 carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,canva_frame_fit,commerce_value,publishable,status,notes
-2026-W30-001,W30-P001,M04,2026-W30-001_M04_candidate_A.png,Codex,5,5,4,5,5,5,5,4,4,5,5,yes,approved,"Hero lock approved; full body, sheer layering, contact shadows, and frame safety pass."
-2026-W30-001,W30-P001,M04,2026-W30-001_M04_candidate_B.png,Codex,5,5,4,5,5,5,5,5,5,5,5,yes,approved,"True horizontal motion frame; identity, tote interaction, wardrobe, and window light remain locked."
-2026-W30-001,W30-P001,M04,2026-W30-001_M04_candidate_C.png,Codex,5,5,4,5,5,5,5,4,4,5,5,yes,approved,"Detail frame preserves exact layers and scene treatment with safe hair and garment focus."
+2026-W30-001,W30-P001,M04,2026-W30-001_M04_candidate_A.png,Codex,5,5,4,5,5,5,5,4,4,5,5,yes,canva_frame_approved,"Hero lock and exact v3-B Canva frame approved and saved on 2026-07-20."
+2026-W30-001,W30-P001,M04,2026-W30-001_M04_candidate_B.png,Codex,5,5,4,5,5,5,5,5,5,5,5,yes,canva_frame_approved,"Horizontal motion frame approved in the exact v3-B slot and saved on 2026-07-20."
+2026-W30-001,W30-P001,M04,2026-W30-001_M04_candidate_C.png,Codex,5,5,4,5,5,5,5,4,4,5,5,yes,canva_frame_approved,"Detail frame approved in the exact v3-B slot and saved on 2026-07-20."
