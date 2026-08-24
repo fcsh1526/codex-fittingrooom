@@ -1,0 +1,116 @@
+{
+  "run_dir": "10_automation\\runs\\2026-W35",
+  "run_state": {},
+  "stage": {
+    "stage": "needs_image_asset_selection",
+    "next_action": "Continue generating and scoring the remaining Codex image jobs, then rerun select_codex_assets.py. Canva work for already selected carousels can proceed in parallel.",
+    "blocking_items": [
+      "2026-W35-001",
+      "2026-W35-002",
+      "2026-W35-003",
+      "2026-W35-004",
+      "2026-W35-005"
+    ]
+  },
+  "packet": {
+    "row_count": 5,
+    "published_count": 0,
+    "ready_for_canva_test": [],
+    "canva_committed_ready_to_publish": [],
+    "ready_for_manual_export": [],
+    "canva_blocked_waiting_for_flat_png_asset": [],
+    "needs_visual_revision": [],
+    "inactive_count": 0,
+    "all_inactive": false,
+    "carousel_ids": [
+      "2026-W35-001",
+      "2026-W35-002",
+      "2026-W35-003",
+      "2026-W35-004",
+      "2026-W35-005"
+    ]
+  },
+  "files": {
+    "weekly_content_packet.csv": {
+      "exists": true,
+      "size": 5334
+    },
+    "canva_placeholder_values.csv": {
+      "exists": true,
+      "size": 1474
+    },
+    "canva_fill_guide.md": {
+      "exists": true,
+      "size": 5368
+    },
+    "canva_asset_slots.csv": {
+      "exists": true,
+      "size": 2682
+    },
+    "daily_queue.csv": {
+      "exists": true,
+      "size": 1425
+    },
+    "image_generation_briefs.md": {
+      "exists": true,
+      "size": 11329
+    },
+    "image_review_template.csv": {
+      "exists": true,
+      "size": 595
+    },
+    "post_drafts.md": {
+      "exists": true,
+      "size": 4580
+    },
+    "publish_checklist.md": {
+      "exists": true,
+      "size": 1384
+    },
+    "quality_report.md": {
+      "exists": true,
+      "size": 93
+    }
+  },
+  "quality": {
+    "status": "pass",
+    "error_count": 0,
+    "warning_count": 0
+  },
+  "assets": {
+    "carousel_count": 5,
+    "selection_exists": true,
+    "review_template_exists": true,
+    "selected_cover_count": 0,
+    "selected_carousel_ids": [],
+    "missing_cover": [
+      "2026-W35-001",
+      "2026-W35-002",
+      "2026-W35-003",
+      "2026-W35-004",
+      "2026-W35-005"
+    ],
+    "missing_detail": [
+      "2026-W35-001",
+      "2026-W35-002",
+      "2026-W35-003",
+      "2026-W35-004",
+      "2026-W35-005"
+    ],
+    "selection_rows": 5
+  },
+  "publish": {
+    "published": false,
+    "metric_count": 0,
+    "latest_publish": {},
+    "latest_metric": {},
+    "latest_decision": "",
+    "latest_next_action": "",
+    "published_carousel_ids": []
+  },
+  "commands": [
+    "open 10_automation\\runs\\2026-W35/image_generation_briefs.md",
+    "python 10_automation/select_codex_assets.py --run-dir 10_automation\\runs\\2026-W35 --provider Codex --score-sheet 10_automation\\runs\\2026-W35/image_review_template.csv --drive-inventory path_to_image_inventory.csv",
+    "python 10_automation/validate_weekly_run.py --run-dir 10_automation\\runs\\2026-W35 --min-rows 1 --require-assets"
+  ]
+}

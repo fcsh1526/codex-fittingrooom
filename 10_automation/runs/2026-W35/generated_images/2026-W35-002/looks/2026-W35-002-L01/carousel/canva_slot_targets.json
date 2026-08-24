@@ -1,0 +1,45 @@
+{
+  "carousel_id": "2026-W35-002",
+  "look_id": "2026-W35-002-L01",
+  "model_profile_id": "M01",
+  "delivery_surface": "carousel",
+  "canva_template_key": "E",
+  "canva_template_name": "Mira Template Master v3 - E Cross-Boundary Weekend Air",
+  "canva_design_id": "DAHPUkcONPk",
+  "canva_crop_limit": 0.15,
+  "slots": {
+    "A": {
+      "slot_id": "cover_image",
+      "variant": "A",
+      "element_id": "PB2KJwy4Hry1KtZw-LBFs9vTZxn5vkykb",
+      "left": 130,
+      "top": 150,
+      "width": 1120,
+      "height": 1050,
+      "aspect_ratio": 1.0667,
+      "composition": "full_body"
+    },
+    "B": {
+      "slot_id": "motion_crop",
+      "variant": "B",
+      "element_id": "PB2KJwy4Hry1KtZw-LBHfvSdXxjrH1KwK",
+      "left": 1180,
+      "top": 700,
+      "width": 1120,
+      "height": 410,
+      "aspect_ratio": 2.7317,
+      "composition": "horizontal_motion"
+    },
+    "C": {
+      "slot_id": "detail_image",
+      "variant": "C",
+      "element_id": "PB2KJwy4Hry1KtZw-LBlt6pr2SBJlgcPt",
+      "left": 2060,
+      "top": 170,
+      "width": 1060,
+      "height": 1010,
+      "aspect_ratio": 1.0495,
+      "composition": "outfit_detail"
+    }
+  }
+}

@@ -34,6 +34,16 @@ def packet_for(run_dir, carousel_id):
     raise SystemExit(f"carousel_id not found: {carousel_id}")
 
 
+def look_for(run_dir, carousel_id, look_id):
+    plan_path = run_dir / "weekly_look_plan.csv"
+    if not plan_path.exists():
+        raise SystemExit(f"weekly_look_plan.csv not found for look-specific normalization: {plan_path}")
+    for row in read_csv(plan_path):
+        if clean(row.get("carousel_id")) == carousel_id and clean(row.get("look_id")) == look_id:
+            return row
+    raise SystemExit(f"look_id not found under {carousel_id}: {look_id}")
+
+
 def template_for(project_root, key):
     path = project_root / "10_automation" / "canva_template_registry.json"
     registry = json.loads(path.read_text(encoding="utf-8"))
@@ -86,6 +96,7 @@ def main():
     parser.add_argument("--project-root", default=".")
     parser.add_argument("--run-dir", required=True)
     parser.add_argument("--carousel-id", required=True)
+    parser.add_argument("--look-id", default="", help="Optional current-contract look id. Writes under the look's carousel job folder.")
     parser.add_argument("--source-a")
     parser.add_argument("--source-b")
     parser.add_argument("--source-c")
@@ -97,9 +108,17 @@ def main():
     packet = packet_for(run_dir, args.carousel_id)
     template_key = clean(packet.get("canva_template_key")).upper() or "A"
     template = template_for(project_root, template_key)
-    job_dir = run_dir / "generated_images" / args.carousel_id
+    look_id = clean(args.look_id)
+    if look_id:
+        look = look_for(run_dir, args.carousel_id, look_id)
+        job_dir = run_dir / "generated_images" / args.carousel_id / "looks" / look_id / "carousel"
+        model_id = clean(look.get("model_profile_id")) or clean(packet.get("model_profile_id"))
+        output_prefix = f"{look_id}_{model_id}_carousel"
+    else:
+        job_dir = run_dir / "generated_images" / args.carousel_id
+        model_id = clean(packet.get("model_profile_id"))
+        output_prefix = f"{args.carousel_id}_{model_id}"
     output_dir = job_dir / "canva_ready"
-    model_id = clean(packet.get("model_profile_id"))
 
     sources = {
         variant: value
@@ -115,15 +134,15 @@ def main():
         if not target:
             raise SystemExit(f"v3-{template_key} is missing geometry for {slot_id}")
         source = resolve_source(project_root, job_dir, sources[variant])
-        output = output_dir / (
-            f"{args.carousel_id}_{model_id}_canva_{variant}_{int(target['width'])}x{int(target['height'])}.png"
-        )
+        output = output_dir / f"{output_prefix}_canva_{variant}_{int(target['width'])}x{int(target['height'])}.png"
         results[variant] = prepare_asset(source, output, target, args.max_crop_fraction)
         results[variant]["slot_id"] = slot_id
 
     manifest = {
         "carousel_id": args.carousel_id,
+        "look_id": look_id,
         "model_profile_id": model_id,
+        "delivery_surface": "carousel",
         "canva_template_key": template_key,
         "canva_template_name": template.get("name"),
         "status": "needs_canva_frame_review" if len(results) == 3 else "partial_needs_remaining_variants",

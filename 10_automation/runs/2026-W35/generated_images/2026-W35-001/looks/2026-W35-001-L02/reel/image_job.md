@@ -1,0 +1,28 @@
+# Mira Daily Image Job
+
+- carousel_id: `2026-W35-001`
+- look_id: `2026-W35-001-L02`
+- look_name: 米灰高領薄外套＋深灰直筒裙
+- model_profile_id: `M05`
+- delivery_surface: `reel`
+- reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_face.png`
+- reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_full.png`
+- attach_reference_images: `required`
+- trend: 輕量高領外套
+- clothing_item: 米灰無裡短版高領薄外套；白色合身無袖棉質上衣；深灰高腰直筒中長裙；白色尖頭平底鞋；黑色小型手提包
+- occasion: 看展／空調空間
+- frame_plan: carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16
+- required_frames: 3
+- direct_reel_frame: `1080x1920` / `9:16`
+- reel_frame_targets: `reel_frame_targets.json`
+- canva_crop_limit_applies: `no`
+
+Generate and review the native 9:16 full-person Reel A; it is the only still required for this surface.
+Do not reuse one surface's crop as the other surface's source.
+Keep anatomy, identity, contact-shadow, crop-safety, and platform checks in review_sheet.csv rather than adding them to the generation prompt.
+
+Codex handoff:
+
+```text
+C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\10_automation\runs\2026-W35\generated_images\2026-W35-001\looks\2026-W35-001-L02\reel\codex_generation_handoff.md
+```

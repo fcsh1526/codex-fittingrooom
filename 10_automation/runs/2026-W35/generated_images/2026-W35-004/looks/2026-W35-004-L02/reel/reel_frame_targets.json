@@ -1,0 +1,17 @@
+{
+  "carousel_id": "2026-W35-004",
+  "look_id": "2026-W35-004-L02",
+  "model_profile_id": "M02",
+  "delivery_surface": "reel",
+  "direct_generation_required": true,
+  "canva_crop_limit_applies": false,
+  "frames": {
+    "A": {
+      "slot_id": "reel_hero",
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": 0.5625,
+      "composition": "vertical_hero"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "carousel_id": "2026-W35-004",
+  "look_id": "2026-W35-004-L01",
+  "model_profile_id": "M02",
+  "delivery_surface": "carousel",
+  "canva_template_key": "A",
+  "canva_template_name": "Mira Template Master v3 - A Cross-Boundary Contact Sheet",
+  "canva_design_id": "DAHPUm7E_1c",
+  "canva_crop_limit": 0.15,
+  "slots": {
+    "A": {
+      "slot_id": "cover_image",
+      "variant": "A",
+      "element_id": "PBH0W52WPN6tdDhr-LBly7B8SRQCHnnxF",
+      "left": 80,
+      "top": 80,
+      "width": 1160,
+      "height": 1190,
+      "aspect_ratio": 0.9748,
+      "composition": "full_body"
+    },
+    "B": {
+      "slot_id": "motion_crop",
+      "variant": "B",
+      "element_id": "PBH0W52WPN6tdDhr-LBRtGM3vzhrlNXpW",
+      "left": 1180,
+      "top": 470,
+      "width": 980,
+      "height": 430,
+      "aspect_ratio": 2.2791,
+      "composition": "horizontal_motion"
+    },
+    "C": {
+      "slot_id": "detail_image",
+      "variant": "C",
+      "element_id": "PBH0W52WPN6tdDhr-LBRvB9j0scjc1tfY",
+      "left": 2040,
+      "top": 120,
+      "width": 1080,
+      "height": 1080,
+      "aspect_ratio": 1.0,
+      "composition": "outfit_detail"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+carousel_id,look_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,canva_frame_fit,commerce_value,publishable,status,notes
+2026-W35-005,2026-W35-005-L01,2026-W35-005-L01,M04,2026-W35-005-L01_M04_carousel_candidate_A.png,Codex,,,,,,,,,,,,pending,review,Score after generation.
+2026-W35-005,2026-W35-005-L01,2026-W35-005-L01,M04,2026-W35-005-L01_M04_carousel_candidate_B.png,Codex,,,,,,,,,,,,pending,review,Score after generation.
+2026-W35-005,2026-W35-005-L01,2026-W35-005-L01,M04,2026-W35-005-L01_M04_carousel_candidate_C.png,Codex,,,,,,,,,,,,pending,review,Score after generation.
