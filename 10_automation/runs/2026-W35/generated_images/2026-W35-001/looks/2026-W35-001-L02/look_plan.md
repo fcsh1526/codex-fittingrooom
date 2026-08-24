@@ -14,7 +14,11 @@
 - required_surface_jobs: `reel, carousel`
 - reel_plan: `A = native 9:16 full-person source`
 - carousel_plan: `A = full-person Hero; B = scene application; C = accessory detail`
-- status: `waiting_for_both_surface_jobs`
+- status: `ready_for_manual_export`
 
-Run both surface jobs before marking the look asset-complete: `prepare_daily_image_job.py --look-id 2026-W35-001-L02 --surface reel`, then repeat with `--surface carousel`.
-Each look receives its own accepted Hero lock; another look under the same theme may share the model, but not the Hero image.
+Both surface jobs are asset-complete. Reel A is accepted for weekly compilation, and Carousel A/B/C were committed to Canva design `DAHTMMvp-EQ` on 2026-08-24.
+
+- Canva title: `Mira W35-001-L02｜薄外套配直筒裙`
+- Canva edit URL: `https://www.canva.com/d/uVG2Bgm4wwDUsn5`
+- Canva state: `committed_exact_frame`
+- next action: manual Canva slicing/export; do not regenerate unless the user reports a defect
