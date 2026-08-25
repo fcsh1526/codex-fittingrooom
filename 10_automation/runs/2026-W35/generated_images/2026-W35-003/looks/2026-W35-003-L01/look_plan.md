@@ -3,9 +3,9 @@
 - carousel_id: `2026-W35-003`
 - look_id: `2026-W35-003-L01`
 - model_profile_id: `M03`
-- theme: 運動外層配裙裝
+- theme: 運動外套配長裙
 - look_name: 海軍藍運動薄外套＋深灰直筒裙
-- dressing_decision: 用一件短版輕量運動外層降低直筒中長裙的正式感，運動語彙只留在外套
+- dressing_decision: 直筒長裙外面加一件短版運動外套，鞋子配簡單的白色平底球鞋
 - clothing_item: 深海軍藍短版立領薄尼龍運動外套；灰白合身棉質短袖；深灰高腰直筒中長裙；白色低調平底球鞋；黑色小型肩背包
 - scene: 辦公街區有棚人行道與午間自然反光
 - visible_action: 走出便利商店時一手拿無標誌紙袋，另一手把肩背包帶往肩上推回
@@ -14,7 +14,15 @@
 - required_surface_jobs: `reel, carousel`
 - reel_plan: `A = native 9:16 full-person source`
 - carousel_plan: `A = full-person Hero; B = scene application; C = accessory detail`
-- status: `waiting_for_both_surface_jobs`
+- status: `ready_for_manual_export`
 
-Run both surface jobs before marking the look asset-complete: `prepare_daily_image_job.py --look-id 2026-W35-003-L01 --surface reel`, then repeat with `--surface carousel`.
-Each look receives its own accepted Hero lock; another look under the same theme may share the model, but not the Hero image.
+Both surface jobs are asset-complete. Reel A is accepted for weekly compilation, and Carousel A/B/C were committed to Canva design `DAHTSMqIdbU` on 2026-08-25.
+
+- Canva title: `Mira W35-003-L01｜運動外套配直筒裙`
+- Canva display copy: `短版運動外套，襯得直筒長裙更俐落`
+- Canva transaction: `7513643862520315598` (`committed`)
+- Canva edit URL: `https://www.canva.com/d/staU17f_7CzzdJ_`
+- Canva view URL: `https://www.canva.com/d/REcGCHZOsOrQ3yr`
+- Canva local preview: `carousel/canva_ready/2026-W35-003-L01_canva_preview_2026-08-25.png`
+- Canva state: `committed_exact_frame`
+- next action: manual Canva slicing/export; do not regenerate unless the user reports a defect

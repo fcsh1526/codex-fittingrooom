@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W35",
+  "carousel_id": "2026-W35-003",
+  "look_id": "2026-W35-003-L01",
+  "canva_template_key": "B",
+  "canva_design_id": "DAHTSMqIdbU",
+  "canva_title": "Mira W35-003-L01｜運動外套配直筒裙",
+  "canva_display_copy": "短版運動外套，襯得直筒長裙更俐落",
+  "canva_edit_url": "https://www.canva.com/d/staU17f_7CzzdJ_",
+  "canva_view_url": "https://www.canva.com/d/REcGCHZOsOrQ3yr",
+  "canva_preview_file": "2026-W35-003-L01_canva_preview_2026-08-25.png",
+  "asset_ids": {
+    "A": "MAHTSKOzvoE",
+    "B": "MAHTSHVs_u0",
+    "C": "MAHTSPEOnxQ"
+  },
+  "transaction_id": "7513643862520315598",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-08-25"
+}

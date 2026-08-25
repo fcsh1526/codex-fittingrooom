@@ -5,7 +5,15 @@
   "delivery_surface": "carousel",
   "canva_template_key": "B",
   "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
-  "status": "needs_canva_frame_review",
+  "canva_design_id": "DAHTSMqIdbU",
+  "canva_edit_url": "https://www.canva.com/d/staU17f_7CzzdJ_",
+  "canva_view_url": "https://www.canva.com/d/REcGCHZOsOrQ3yr",
+  "canva_title": "Mira W35-003-L01｜運動外套配直筒裙",
+  "canva_display_copy": "短版運動外套，襯得直筒長裙更俐落",
+  "canva_preview_file": "2026-W35-003-L01_canva_preview_2026-08-25.png",
+  "transaction_id": "7513643862520315598",
+  "committed_at": "2026-08-25",
+  "status": "committed_exact_frame",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W35\\generated_images\\2026-W35-003\\looks\\2026-W35-003-L01\\carousel\\2026-W35-003-L01_M03_carousel_candidate_A_new_angle_v3.png",
@@ -20,7 +28,7 @@
       ],
       "target_aspect_ratio": 0.9185,
       "center_crop_fraction": 0.0051,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -36,7 +44,7 @@
       ],
       "target_aspect_ratio": 2.0357,
       "center_crop_fraction": 0.0002,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -52,7 +60,7 @@
       ],
       "target_aspect_ratio": 0.8741,
       "center_crop_fraction": 0.0009,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }
