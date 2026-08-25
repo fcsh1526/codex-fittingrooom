@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W35",
+  "carousel_id": "2026-W35-002",
+  "look_id": "2026-W35-002-L02",
+  "canva_template_key": "E",
+  "canva_design_id": "DAHTRTk6F7M",
+  "canva_title": "Mira W35-002-L02｜八月的麂皮鞋穿搭",
+  "canva_display_copy": "棕色皮鞋，襯得白色洋裝更清爽",
+  "canva_edit_url": "https://www.canva.com/d/gFYBsAlCzhfwiyr",
+  "canva_view_url": "https://www.canva.com/d/7I_txRWeZP4S7FS",
+  "canva_preview_file": "2026-W35-002-L02_canva_preview_2026-08-25.png",
+  "asset_ids": {
+    "A": "MAHTRQePiB0",
+    "B": "MAHTRTorA_0",
+    "C": "MAHTRSVwunU"
+  },
+  "transaction_id": "2026007701393032690",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-08-25"
+}

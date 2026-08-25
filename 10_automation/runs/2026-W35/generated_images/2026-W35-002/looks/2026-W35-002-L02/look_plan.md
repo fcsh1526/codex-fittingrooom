@@ -14,10 +14,15 @@
 - required_surface_jobs: `reel, carousel`
 - reel_plan: `A = native 9:16 full-person source`
 - carousel_plan: `A = full-person Hero; B = scene application; C = accessory detail`
-- status: `needs_canva_frame_review`
+- status: `ready_for_manual_export`
 
-Both surface jobs are asset-complete. Reel A and Carousel A/B/C were visually approved by the user on 2026-08-25; the three Carousel images were normalized to the v3-E exact frame sizes and are awaiting the connected Canva preview.
+Both surface jobs are asset-complete. Reel A is accepted for weekly compilation, and Carousel A/B/C were committed to Canva design `DAHTRTk6F7M` on 2026-08-25.
 
-- Canva display copy candidate: `八月想穿麂皮，先換一雙鞋`
-- Canva title candidate: `Mira W35-002-L02｜八月的麂皮鞋穿搭`
-- next action: push the exact-frame image checkpoint, then fill a v3-E duplicate and request Canva preview approval
+- Canva title: `Mira W35-002-L02｜八月的麂皮鞋穿搭`
+- Canva display copy: `棕色皮鞋，襯得白色洋裝更清爽`
+- Canva transaction: `2026007701393032690` (`committed`)
+- Canva edit URL: `https://www.canva.com/d/gFYBsAlCzhfwiyr`
+- Canva view URL: `https://www.canva.com/d/7I_txRWeZP4S7FS`
+- Canva local preview: `carousel/canva_ready/2026-W35-002-L02_canva_preview_2026-08-25.png`
+- Canva state: `committed_exact_frame`
+- next action: manual Canva slicing/export; do not regenerate unless the user reports a defect

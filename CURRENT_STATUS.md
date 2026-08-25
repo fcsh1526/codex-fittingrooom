@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-07-20
+Last updated: 2026-08-24
 
 ## Project Goal
 
@@ -11,7 +11,45 @@ Build a repeatable AI fashion magazine workflow: global fashion trend research, 
 Current priority:
 
 ```text
-global weekly trend -> daily outfit queue -> internal model profile -> approved reference start image -> Codex image job -> minimal Canva carousel -> Instagram post -> metrics
+global weekly trend -> five themes -> two looks per model -> Reel A plus Carousel A/B/C for every look -> manual edit and publish -> metrics
+```
+
+2026-08-24 dual-surface publishing checkpoint:
+
+```text
+Every week has five themes, one model per theme, and exactly two looks per model: ten complete looks.
+Every look must receive both surfaces; Reel and Carousel are no longer assigned as alternatives.
+Reel package: one separately composed native 9:16 full-person A per look. Compile the ten shots into one Reel, or split them into two five-shot Reels by first-look versus second-look.
+Carousel package: three connected Canva assets per look — A full person, B scene application, C accessory detail.
+W34 was marked complete by the user on 2026-08-24. Do not reopen or backfill it unless the user explicitly asks.
+Next active production week: 2026-W35. Start W35 in a new conversation by importing the current Perplexity weekly source, then build five themes, two looks per model, and both Reel/Carousel asset packages per look.
+The user performs final design, editing, export and Instagram upload manually.
+```
+
+2026-08-24 W35 production start checkpoint:
+
+```text
+2026-W35 was imported from the verified public Perplexity index with 20 source rows and five accepted Editorial Conversion Cards; no redundant editorial override was created.
+The formal run contains five themes, one M01-M05 model lock per theme, two editor-approved looks per theme, and both Reel/Carousel job folders for all ten looks. Pipeline validation passed with 0 errors and 0 warnings.
+2026-W35-001-L01 is the first completed asset package: one native 9:16 Reel A plus Carousel A/B/C, normalized to v3-B exact pixels with less than 0.1% crop per frame. Its current state is needs_canva_frame_review.
+Git checkpoint e1db686 (Start W35 dual-surface production) was pushed successfully to origin/main after explicit user authorization.
+The assigned v3-B master was duplicated as Canva design DAHTL2iNCtg. The exact-frame A/B/C assets were uploaded, user-approved, and committed successfully in transaction 3696843071690952901. On 2026-08-25, the user approved the Taiwan Traditional Chinese display copy `八月想穿高領外套，先選薄一點的`; the text and title `Mira W35-001-L01｜八月高領薄外套穿搭` were committed in transaction 7499007135634750257.
+2026-W35-001-L01 is now ready_for_manual_export. Canva edit URL: https://www.canva.com/d/G_oeHPa7gLKNPtt . The user performs the final 3240x1350 slicing/export manually. Do not regenerate L01 unless the user reports a defect.
+2026-W35-001-L02 is also ready_for_manual_export. On 2026-08-25, the user approved the display copy `薄外套配長裙，選短版比較俐落`; the text and title `Mira W35-001-L02｜薄外套與長裙` were committed to Canva design DAHTMMvp-EQ in transaction 4302577300270579012. Canva edit URL: https://www.canva.com/d/uVG2Bgm4wwDUsn5 . Continue from W35-002-L01.
+2026-W35-002-L01 is ready_for_manual_export. Its Reel A and Carousel A/B/C passed visual review; the user approved display copy `八月想搭麂皮，先從包包下手`. Canva design DAHTQZm-p8g was committed in transaction 7843532509469680359 with title `Mira W35-002-L01｜八月的麂皮包穿搭`. Canva edit URL: https://www.canva.com/d/s-1Tn7KDLNAktpu . Continue from W35-002-L02.
+2026-W35-002-L02 is ready_for_manual_export. Its Reel A and Carousel A/B/C passed visual review; the user approved display copy `棕色皮鞋，襯得白色洋裝更清爽`. Canva design DAHTRTk6F7M was committed in transaction 2026007701393032690 with title `Mira W35-002-L02｜八月的麂皮鞋穿搭`. Canva edit URL: https://www.canva.com/d/gFYBsAlCzhfwiyr . Continue from W35-003-L01.
+```
+
+Historical 2026-08-12 image-workflow checkpoint (surface-selection rules below are superseded by the 2026-08-24 dual-surface contract):
+
+```text
+The Instagram daily-outfit benchmark and official GPT Image prompting research are now integrated into the production workflow.
+Mira defaults to utility_with_immersion: solve one practical dressing question through an immersive high-quality lifestyle image.
+The weekly packet now records content_engine, dressing_decision, and visible_action.
+GPT Image Hero prompts use a concise 120-220 word structure and retain the full-frame mirrorless / natural 50mm look while removing fixed exposure numbers, body-part measurement lists, percentage safe zones, smoothing language, and long negative prompts.
+Hero A is generated and approved first. B Motion and C Detail are optional publishing derivatives from accepted A, not A/B tests.
+Generation instructions and QA are separate. Reference anchors must avoid sterile beauty-retouched studio finish because that finish can leak into later scenes.
+Research: 03_research/instagram_daily_outfit_benchmark_2026-08-11.md and 03_research/gpt_image_fashion_prompt_engineering_2026-08-12.md.
 ```
 
 Latest automation test:
@@ -157,10 +195,10 @@ A default Canva center-cover crop that cuts hair, face, or outfit focus is an au
 - Instagram creative direction changed to 3-slide, image-led, low-text carousel posts with simple captions and profile-link shopping direction.
 - Canva connector workflow and template spec were simplified to one text placeholder: `{{slide2_line}}`.
 - Mira was renamed from Mika and repositioned as an AI fashion magazine brand.
-- Internal model roster v6 now uses 5 fixed model identities: `M01`, `M02`, `M03`, `M04`, and `M05`, with true ages kept as internal metadata and prompt-safe visual-age language used for image generation.
+- Internal model roster v10 uses 5 active fixed model identities: `M01`, `M02`, `M03`, `M04`, and `M05`; `M06`, `M07`, `M08`, and `M09` are inactive reserves excluded from production and weekly rotation. M06 is face-only, while M07-M09 retain complete face/full-body pairs. M09 still requires age calibration. True ages remain internal metadata and prompt-safe visual-age language is used for image generation.
 - Mira image generation was changed from Taiwan-only wording to global trend research with wearable daily styling.
 - `$mira-image-daily` skill was created and installed to `C:\Users\Brandon_ChangChien\.codex\skills\mira-image-daily`.
-- Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03/M04/M05 are approved for reference-start checks.
+- Reference start image manifest was added at `02_brand/mira_reference_images.csv`; M01/M02/M03/M04/M05 are approved for reference-start checks. On 2026-08-04 M01 was restored to production-proven v4, while M02 and M03 were restored to production-proven v3 after direct comparisons. Their rejected newer files remain preserved as M06-M08 reserves. M09 v1 was added from a user-supplied full-body image; its full anchor is byte-identical to the source and its face anchor is a deterministic crop with no resize or AI regeneration.
 - Reference pack manifest was added at `02_brand/mira_reference_packs.csv`; all 20 pack entries are approved across full-body, half-body, face-front, 3/4 face, and side-profile.
 - Weekly packets now include `model_profile_id`.
 - Content buckets no longer map permanently to models. Weekly packet builds now assign `M01`, `M02`, `M03`, `M04`, and `M05` exactly once per 5-post week using a reproducible shuffled order; Perplexity controls outfit topics, not model identity.
