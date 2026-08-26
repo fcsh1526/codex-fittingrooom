@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W35",
+  "carousel_id": "2026-W35-003",
+  "look_id": "2026-W35-003-L02",
+  "canva_template_key": "B",
+  "canva_design_id": "DAHTW5QvkOQ",
+  "canva_title": "Mira W35-003-L02｜粉色長裙與黑色鞋包",
+  "canva_display_copy": "粉色長裙搭黑色鞋包，微甜",
+  "canva_edit_url": "https://www.canva.com/d/lB55dtgbaU8ws8C",
+  "canva_view_url": "https://www.canva.com/d/44H3OdeFv8DBjam",
+  "canva_preview_file": "2026-W35-003-L02_canva_preview_2026-08-26.png",
+  "asset_ids": {
+    "A": "MAHTWxH2BRo",
+    "B": "MAHTW7n-kEY",
+    "C": "MAHTW1FOWb8"
+  },
+  "transaction_id": "2522529655714933064",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-08-26"
+}

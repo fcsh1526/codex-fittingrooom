@@ -5,7 +5,15 @@
   "delivery_surface": "carousel",
   "canva_template_key": "B",
   "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
-  "status": "needs_canva_frame_review",
+  "canva_design_id": "DAHTW5QvkOQ",
+  "canva_edit_url": "https://www.canva.com/d/lB55dtgbaU8ws8C",
+  "canva_view_url": "https://www.canva.com/d/44H3OdeFv8DBjam",
+  "canva_title": "Mira W35-003-L02｜粉色長裙與黑色鞋包",
+  "canva_display_copy": "粉色長裙搭黑色鞋包，微甜",
+  "canva_preview_file": "2026-W35-003-L02_canva_preview_2026-08-26.png",
+  "transaction_id": "2522529655714933064",
+  "committed_at": "2026-08-26",
+  "status": "committed_exact_frame",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W35\\generated_images\\2026-W35-003\\looks\\2026-W35-003-L02\\carousel\\2026-W35-003-L02_M03_carousel_candidate_A.png",
@@ -20,7 +28,7 @@
       ],
       "target_aspect_ratio": 0.9185,
       "center_crop_fraction": 0.0815,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -36,7 +44,7 @@
       ],
       "target_aspect_ratio": 2.0357,
       "center_crop_fraction": 0.1272,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -52,7 +60,7 @@
       ],
       "target_aspect_ratio": 0.8741,
       "center_crop_fraction": 0.1259,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }
