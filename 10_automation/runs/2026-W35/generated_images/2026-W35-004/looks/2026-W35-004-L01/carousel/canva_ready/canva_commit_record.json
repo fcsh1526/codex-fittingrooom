@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W35",
+  "carousel_id": "2026-W35-004",
+  "look_id": "2026-W35-004-L01",
+  "canva_template_key": "A",
+  "canva_design_id": "DAHTXnjJfuI",
+  "canva_title": "Mira W35-004-L01｜白襯衫與窄版絲巾",
+  "canva_display_copy": "白襯衫加一條窄領巾，就有變化",
+  "canva_edit_url": "https://www.canva.com/d/oHZtrxCFd1dTbVj",
+  "canva_view_url": "https://www.canva.com/d/i7eeXK_AdBkG5G5",
+  "canva_preview_file": "2026-W35-004-L01_canva_preview_2026-08-26.png",
+  "asset_ids": {
+    "A": "MAHTXjAOejg",
+    "B": "MAHTXqkIMQ8",
+    "C": "MAHTXlX0P8g"
+  },
+  "transaction_id": "2910965136456385796",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-08-26"
+}
