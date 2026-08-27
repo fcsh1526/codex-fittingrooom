@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W35",
+  "carousel_id": "2026-W35-005",
+  "look_id": "2026-W35-005-L01",
+  "canva_template_key": "B",
+  "canva_design_id": "DAHTc6e1JFQ",
+  "canva_title": "Mira W35-005-L01｜粉色襯衫配深色牛仔褲",
+  "canva_display_copy": "搭配柔色緞面上衣\n牛仔褲也能變正裝",
+  "canva_edit_url": "https://www.canva.com/d/Pw2xDsjg40bJzz4",
+  "canva_view_url": "https://www.canva.com/d/oZ2AwEKwS6krMCX",
+  "canva_preview_file": "2026-W35-005-L01_canva_preview_2026-08-27.png",
+  "asset_ids": {
+    "A": "MAHTcyk6SWg",
+    "B": "MAHTcz5bc2I",
+    "C": "MAHTcx9zO5s"
+  },
+  "transaction_id": "5841682694510081296",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-08-27"
+}

@@ -5,7 +5,15 @@
   "delivery_surface": "carousel",
   "canva_template_key": "B",
   "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
-  "status": "needs_canva_frame_review",
+  "canva_design_id": "DAHTc6e1JFQ",
+  "canva_edit_url": "https://www.canva.com/d/Pw2xDsjg40bJzz4",
+  "canva_view_url": "https://www.canva.com/d/oZ2AwEKwS6krMCX",
+  "canva_title": "Mira W35-005-L01｜粉色襯衫配深色牛仔褲",
+  "canva_display_copy": "搭配柔色緞面上衣\n牛仔褲也能變正裝",
+  "canva_preview_file": "2026-W35-005-L01_canva_preview_2026-08-27.png",
+  "transaction_id": "5841682694510081296",
+  "committed_at": "2026-08-27",
+  "status": "committed_exact_frame",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W35\\generated_images\\2026-W35-005\\looks\\2026-W35-005-L01\\carousel\\2026-W35-005-L01_M04_carousel_candidate_A.png",
@@ -20,7 +28,7 @@
       ],
       "target_aspect_ratio": 0.9185,
       "center_crop_fraction": 0.0005,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -36,7 +44,7 @@
       ],
       "target_aspect_ratio": 2.0357,
       "center_crop_fraction": 0.0019,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -52,7 +60,7 @@
       ],
       "target_aspect_ratio": 0.8741,
       "center_crop_fraction": 0.0007,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }
