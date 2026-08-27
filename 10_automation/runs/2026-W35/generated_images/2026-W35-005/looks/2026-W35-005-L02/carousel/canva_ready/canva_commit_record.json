@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W35",
+  "carousel_id": "2026-W35-005",
+  "look_id": "2026-W35-005-L02",
+  "canva_template_key": "B",
+  "canva_design_id": "DAHTeF1y2Hk",
+  "canva_title": "Mira W35-005-L02｜淡紫上衣配深色牛仔褲",
+  "canva_display_copy": "淡紫上衣搭深色牛仔褲\n看展剛剛好",
+  "canva_edit_url": "https://www.canva.com/d/Hzg8_RYOBZA1Lz4",
+  "canva_view_url": "https://www.canva.com/d/a3ZZGPVmpfvlDli",
+  "canva_preview_file": "2026-W35-005-L02_canva_preview_draft.png",
+  "asset_ids": {
+    "A": "MAHTeL2LKqo",
+    "B": "MAHTeLjpzyo",
+    "C": "MAHTeN76vsk"
+  },
+  "transaction_id": "4305955231490615823",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-08-27"
+}

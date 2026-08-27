@@ -5,7 +5,15 @@
   "delivery_surface": "carousel",
   "canva_template_key": "B",
   "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
-  "status": "needs_canva_frame_review",
+  "canva_design_id": "DAHTeF1y2Hk",
+  "canva_edit_url": "https://www.canva.com/d/Hzg8_RYOBZA1Lz4",
+  "canva_view_url": "https://www.canva.com/d/a3ZZGPVmpfvlDli",
+  "canva_title": "Mira W35-005-L02｜淡紫上衣配深色牛仔褲",
+  "canva_display_copy": "淡紫上衣搭深色牛仔褲\n看展剛剛好",
+  "canva_preview_file": "2026-W35-005-L02_canva_preview_draft.png",
+  "transaction_id": "4305955231490615823",
+  "committed_at": "2026-08-27",
+  "status": "committed_exact_frame",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W35\\generated_images\\2026-W35-005\\looks\\2026-W35-005-L02\\carousel\\2026-W35-005-L02_M04_carousel_candidate_A_museum_v4.png",
@@ -20,7 +28,7 @@
       ],
       "target_aspect_ratio": 0.9185,
       "center_crop_fraction": 0.0003,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -36,7 +44,7 @@
       ],
       "target_aspect_ratio": 2.0357,
       "center_crop_fraction": 0.0002,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -52,7 +60,7 @@
       ],
       "target_aspect_ratio": 0.8741,
       "center_crop_fraction": 0.0009,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }
