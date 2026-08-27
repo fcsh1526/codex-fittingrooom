@@ -5,7 +5,15 @@
   "delivery_surface": "carousel",
   "canva_template_key": "A",
   "canva_template_name": "Mira Template Master v3 - A Cross-Boundary Contact Sheet",
-  "status": "needs_canva_frame_review",
+  "canva_design_id": "DAHTYJP1U-w",
+  "canva_edit_url": "https://www.canva.com/d/EZCdudocRfwZtV3",
+  "canva_view_url": "https://www.canva.com/d/IU7DpEZOQqXruAY",
+  "canva_title": "Mira W35-004-L02｜酒紅領巾與奶油白上衣",
+  "canva_display_copy": "繫上領巾，就可以參加晚宴",
+  "canva_preview_file": "2026-W35-004-L02_canva_preview_2026-08-27.png",
+  "transaction_id": "1753540117042186993",
+  "committed_at": "2026-08-27",
+  "status": "committed_exact_frame",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W35\\generated_images\\2026-W35-004\\looks\\2026-W35-004-L02\\carousel\\2026-W35-004-L02_M02_carousel_candidate_A.png",
@@ -20,7 +28,7 @@
       ],
       "target_aspect_ratio": 0.9748,
       "center_crop_fraction": 0.0252,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -36,7 +44,7 @@
       ],
       "target_aspect_ratio": 2.2791,
       "center_crop_fraction": 0.0005,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -52,7 +60,7 @@
       ],
       "target_aspect_ratio": 1.0,
       "center_crop_fraction": 0.0,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }

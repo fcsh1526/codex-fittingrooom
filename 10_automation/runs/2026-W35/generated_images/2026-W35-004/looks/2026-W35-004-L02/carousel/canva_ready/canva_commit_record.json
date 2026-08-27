@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W35",
+  "carousel_id": "2026-W35-004",
+  "look_id": "2026-W35-004-L02",
+  "canva_template_key": "A",
+  "canva_design_id": "DAHTYJP1U-w",
+  "canva_title": "Mira W35-004-L02｜酒紅領巾與奶油白上衣",
+  "canva_display_copy": "繫上領巾，就可以參加晚宴",
+  "canva_edit_url": "https://www.canva.com/d/EZCdudocRfwZtV3",
+  "canva_view_url": "https://www.canva.com/d/IU7DpEZOQqXruAY",
+  "canva_preview_file": "2026-W35-004-L02_canva_preview_2026-08-27.png",
+  "asset_ids": {
+    "A": "MAHTYOWqw8E",
+    "B": "MAHTYOLBW2A",
+    "C": "MAHTYP0cuLo"
+  },
+  "transaction_id": "1753540117042186993",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-08-27"
+}
