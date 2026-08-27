@@ -1,6 +1,6 @@
 ﻿# Current Status - Mira AI Fashion Creator
 
-Last updated: 2026-08-24
+Last updated: 2026-08-27
 
 ## Project Goal
 
@@ -43,6 +43,9 @@ The assigned v3-B master was duplicated as Canva design DAHTL2iNCtg. The exact-f
 2026-W35-004-L01 is ready_for_manual_export. Its native Reel A and distinct Carousel A/B/C office views passed visual review; the user approved display copy `白襯衫加一條窄領巾，就有變化`. Canva design DAHTXnjJfuI was committed in transaction 2910965136456385796 with title `Mira W35-004-L01｜白襯衫與窄版絲巾`. Canva edit URL: https://www.canva.com/d/oHZtrxCFd1dTbVj . Continue from W35-004-L02.
 2026-W35-004-L02 is ready_for_manual_export. Its native Reel A and restaurant evening Carousel A/B/C passed visual review; the user approved display copy `繫上領巾，就可以參加晚宴`. Canva design DAHTYJP1U-w was committed in transaction 1753540117042186993 with title `Mira W35-004-L02｜酒紅領巾與奶油白上衣`. Canva edit URL: https://www.canva.com/d/EZCdudocRfwZtV3 . Continue from W35-005-L01.
 2026-W35-005-L01 is ready_for_manual_export. Its native Reel A and design-studio Carousel A/B/C passed visual review; the replacement C uses a bag-and-waist detail to avoid the rejected foot-proportion issue. The user approved the two-line display copy `搭配柔色緞面上衣` / `牛仔褲也能變正裝`. Canva design DAHTc6e1JFQ was committed in transaction 5841682694510081296 with title `Mira W35-005-L01｜粉色襯衫配深色牛仔褲`. Canva edit URL: https://www.canva.com/d/Pw2xDsjg40bJzz4 . Continue from W35-005-L02.
+2026-W35-005-L02 is ready_for_manual_export. Its native Reel A and corrected museum Carousel A/B/C passed visual review; the user approved the two-line display copy `淡紫上衣搭深色牛仔褲` / `看展剛剛好`. Canva design DAHTeF1y2Hk was committed in transaction 4305955231490615823 with title `Mira W35-005-L02｜淡紫上衣配深色牛仔褲`. Canva edit URL: https://www.canva.com/d/Hzg8_RYOBZA1Lz4 .
+W35 image and Canva production is complete: 10/10 native Reel sources approved, 10/10 Carousel A/B/C sets approved, and 10/10 Canva designs committed. The next production boundary is two five-look Reel assemblies plus manual Carousel slicing/export.
+Use `10_automation/runs/2026-W35/weekly_media_index.json` as the machine-readable look-level progress source. Use `10_automation/runs/2026-W35/reel_asset_manifest.json` as the only Reel source-file and ordering authority for GitHub/Grok automation. Do not infer Reel sources from filenames or use Carousel, Canva-ready, preview, rejected, or unlisted files.
 ```
 
 Historical 2026-08-12 image-workflow checkpoint (surface-selection rules below are superseded by the 2026-08-24 dual-surface contract):

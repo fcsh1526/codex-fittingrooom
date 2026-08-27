@@ -1,0 +1,694 @@
+{
+  "schema_version": "1.0",
+  "week_id": "2026-W35",
+  "updated_at": "2026-08-27",
+  "repository": "fcsh1526/codex-fittingrooom",
+  "branch": "main",
+  "status": "ready_for_reel_assembly_and_manual_export",
+  "progress": {
+    "themes_total": 5,
+    "looks_total": 10,
+    "looks_ready_for_manual_export": 10,
+    "reel_sources_approved": 10,
+    "carousel_sets_approved": 10,
+    "canva_designs_committed": 10,
+    "reels_ready_for_grok": 2
+  },
+  "source_of_truth": {
+    "look_plan": "10_automation/runs/2026-W35/weekly_look_plan.csv",
+    "reel_manifest": "10_automation/runs/2026-W35/reel_asset_manifest.json",
+    "rule": "Use the approved source_path or raw_url from reel_asset_manifest.json; never infer a Reel source from filenames."
+  },
+  "looks": [
+    {
+      "look_id": "2026-W35-001-L01",
+      "carousel_id": "2026-W35-001",
+      "theme_name": "輕量高領外套",
+      "look_order": 1,
+      "look_name": "石墨黑高領薄夾克＋米灰直筒褲",
+      "model_profile_id": "M05",
+      "dressing_decision": "短版高領外套選無鋪棉款，裡面搭短袖，下身配薄的直筒褲",
+      "occasion": "通勤／空調辦公室",
+      "scene": "台北辦公大樓有棚入口與早晨自然側光",
+      "visible_action": "走向感應閘門時一手拿門禁卡，另一手自然扶住肩背包帶",
+      "status": "ready_for_manual_export",
+      "reel_group": "L01",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "accepted_reel_A",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/reel/2026-W35-001-L01_M05_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/reel/2026-W35-001-L01_M05_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/reel/2026-W35-001-L01_M05_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "b1da3f6c3e40dc98604c601007d1743f4ee4edc3611a3abf096e700491144b6f"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_A.png",
+            "width": 1202,
+            "height": 1309,
+            "review_status": "canva_frame_approved",
+            "sha256": "398b48b1becddbc1baad494ae3b2ef73721915bf21486f10b3ae848fc0a8f86e"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_B.png",
+            "width": 1789,
+            "height": 879,
+            "review_status": "canva_frame_approved",
+            "sha256": "d2c85cee4f670a85e42f61497c7d5eebc1bd80d27761beeca90cae7aaed0d3b1"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L01/carousel/2026-W35-001-L01_M05_carousel_candidate_C.png",
+            "width": 1172,
+            "height": 1342,
+            "review_status": "canva_frame_approved",
+            "sha256": "4a24daddc8490ebfcd115588186ef49d26bac6958a7cd4c28b37687246b7dc4c"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTL2iNCtg",
+        "title": "Mira W35-001-L01｜八月高領薄外套穿搭",
+        "display_copy": "八月想穿高領外套，先選薄一點的",
+        "edit_url": "https://www.canva.com/d/G_oeHPa7gLKNPtt",
+        "view_url": "https://www.canva.com/d/g1XuxvN9k93VQAO",
+        "transaction_id": "3696843071690952901",
+        "committed_at": "2026-08-24"
+      }
+    },
+    {
+      "look_id": "2026-W35-001-L02",
+      "carousel_id": "2026-W35-001",
+      "theme_name": "輕量高領外套",
+      "look_order": 2,
+      "look_name": "米灰高領薄外套＋深灰直筒裙",
+      "model_profile_id": "M05",
+      "dressing_decision": "短版無內裡外套配直筒長裙，裡面搭無袖上衣，進出冷氣房方便又不會太厚",
+      "occasion": "看展／空調空間",
+      "scene": "當代美術館明亮入口與混凝土票務區",
+      "visible_action": "從自助取票機抽出紙票後轉身走向展場，手提包貼近身側",
+      "status": "ready_for_manual_export",
+      "reel_group": "L02",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "accepted_reel_A",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/reel/2026-W35-001-L02_M05_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/reel/2026-W35-001-L02_M05_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/reel/2026-W35-001-L02_M05_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "68222944f986e772561db530685bd75786fa8540f4f57c07dc04472a2e036ba7"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_A.png",
+            "width": 1202,
+            "height": 1309,
+            "review_status": "canva_frame_approved",
+            "sha256": "f010469742b3ae62ce11242eb15f08f554dec24483ddf99275a9f065d8bf3d35"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_B.png",
+            "width": 1788,
+            "height": 880,
+            "review_status": "canva_frame_approved",
+            "sha256": "1a98349f0496f33ab35038439636872aad3a7962882fdbd2240f20554c2e38da"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-001/looks/2026-W35-001-L02/carousel/2026-W35-001-L02_M05_carousel_candidate_C.png",
+            "width": 1172,
+            "height": 1342,
+            "review_status": "canva_frame_approved",
+            "sha256": "430a17092e9ad487b8a92a837794f72c35233e00e3e67d578dcae2c17badc157"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTMMvp-EQ",
+        "title": "Mira W35-001-L02｜薄外套與長裙",
+        "display_copy": "薄外套配長裙，選短版比較俐落",
+        "edit_url": "https://www.canva.com/d/uVG2Bgm4wwDUsn5",
+        "view_url": "https://www.canva.com/d/EH7F9ocgxj1FLCC",
+        "transaction_id": "1441665566386026883",
+        "committed_at": "2026-08-24"
+      }
+    },
+    {
+      "look_id": "2026-W35-002-L01",
+      "carousel_id": "2026-W35-002",
+      "theme_name": "深棕麂皮配件",
+      "look_order": 1,
+      "look_name": "白色短袖＋深靛丹寧＋深棕麂皮包",
+      "model_profile_id": "M01",
+      "dressing_decision": "白 T 配深色直筒牛仔褲，八月穿也不會太厚；再背一個深棕麂皮包，秋天的感覺就有了",
+      "occasion": "咖啡廳／週末",
+      "scene": "街區咖啡店窗邊外帶櫃檯與午後自然光",
+      "visible_action": "接過外帶咖啡後把紙杯放到窗邊層板，另一手扶住麂皮包帶",
+      "status": "ready_for_manual_export",
+      "reel_group": "L01",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "accepted_reel_A",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/reel/2026-W35-002-L01_M01_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/reel/2026-W35-002-L01_M01_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/reel/2026-W35-002-L01_M01_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "1c703b2b37f920c9a2e5a19a18b52a6ddaf5f8b7daec866c8c520a3d92a1a059"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_A.png",
+            "width": 1295,
+            "height": 1214,
+            "review_status": "canva_frame_approved",
+            "sha256": "301c1c6fe67e4889052fe85edf5c799b464917706253ea59d11a02ae72026cd0"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_B.png",
+            "width": 2071,
+            "height": 759,
+            "review_status": "canva_frame_approved",
+            "sha256": "3ef3871086c5092766fef8e95cabd806a9440831544975cc59ccb64016589a17"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L01/carousel/2026-W35-002-L01_M01_carousel_candidate_C.png",
+            "width": 1285,
+            "height": 1224,
+            "review_status": "canva_frame_approved",
+            "sha256": "3d5149300b8e530fee9fa2ba47b70d7b71ad924503f4b57f1bd29b675574341f"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTQZm-p8g",
+        "title": "Mira W35-002-L01｜八月的麂皮包穿搭",
+        "display_copy": "八月想搭麂皮，先從包包下手",
+        "edit_url": "https://www.canva.com/d/s-1Tn7KDLNAktpu",
+        "view_url": "https://www.canva.com/d/JPUYfjdhN2HPgTf",
+        "transaction_id": "7843532509469680359",
+        "committed_at": "2026-08-25"
+      }
+    },
+    {
+      "look_id": "2026-W35-002-L02",
+      "carousel_id": "2026-W35-002",
+      "theme_name": "深棕麂皮配件",
+      "look_order": 2,
+      "look_name": "奶油白洋裝＋深棕麂皮低跟鞋",
+      "model_profile_id": "M01",
+      "dressing_decision": "奶油白薄棉洋裝配深棕麂皮低跟鞋，包包改選素面皮革",
+      "occasion": "週末逛街／午餐",
+      "scene": "台北安靜選物店的木質展示桌與街窗自然光",
+      "visible_action": "站在展示桌旁拿起一個小陶杯查看，雙腳自然錯步並留下可信鞋底接觸影",
+      "status": "ready_for_manual_export",
+      "reel_group": "L02",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "accepted_session_lock",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/reel/2026-W35-002-L02_M01_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/reel/2026-W35-002-L02_M01_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/reel/2026-W35-002-L02_M01_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "9eb086b5b82e2a68c55806539514ad75d1ea7a855a353136cec10895aea68d43"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_A.png",
+            "width": 1295,
+            "height": 1215,
+            "review_status": "canva_frame_approved",
+            "sha256": "2c22e541d68c92bfc7dda442747f7ae545e87e622958eab4520c97337696048b"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_B.png",
+            "width": 2072,
+            "height": 759,
+            "review_status": "canva_frame_approved",
+            "sha256": "a2272901a1daf3bc2389a0d4324213f23fc9197025d3be1e380dc3589b1a35eb"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-002/looks/2026-W35-002-L02/carousel/2026-W35-002-L02_M01_carousel_candidate_C.png",
+            "width": 1285,
+            "height": 1224,
+            "review_status": "canva_frame_approved",
+            "sha256": "0edbc6ff87a045d8d66a4a15398536637f7799ced165e242a0ee364f39567fd7"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTRTk6F7M",
+        "title": "Mira W35-002-L02｜八月的麂皮鞋穿搭",
+        "display_copy": "棕色皮鞋，襯得白色洋裝更清爽",
+        "edit_url": "https://www.canva.com/d/gFYBsAlCzhfwiyr",
+        "view_url": "https://www.canva.com/d/7I_txRWeZP4S7FS",
+        "transaction_id": "2026007701393032690",
+        "committed_at": "2026-08-25"
+      }
+    },
+    {
+      "look_id": "2026-W35-003-L01",
+      "carousel_id": "2026-W35-003",
+      "theme_name": "運動外套配長裙",
+      "look_order": 1,
+      "look_name": "海軍藍運動薄外套＋深灰直筒裙",
+      "model_profile_id": "M03",
+      "dressing_decision": "直筒長裙外面加一件短版運動外套，鞋子配簡單的白色平底球鞋",
+      "occasion": "上班／午間外出",
+      "scene": "辦公街區有棚人行道與午間自然反光",
+      "visible_action": "走出便利商店時一手拿無標誌紙袋，另一手把肩背包帶往肩上推回",
+      "status": "ready_for_manual_export",
+      "reel_group": "L01",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "accepted_session_lock",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/reel/2026-W35-003-L01_M03_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/reel/2026-W35-003-L01_M03_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/reel/2026-W35-003-L01_M03_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "c70458311189e19787c0d055ef80aa63b5f71750191d2dd490cd04d160e6947c"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_A_new_angle_v3.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_A_new_angle_v3.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_A_new_angle_v3.png",
+            "width": 1199,
+            "height": 1312,
+            "review_status": "canva_frame_approved",
+            "sha256": "b64f9343bd0e07943122f9eec9166d3bf70329e5ab801f8fdfba868a2988d522"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_B.png",
+            "width": 1789,
+            "height": 879,
+            "review_status": "canva_frame_approved",
+            "sha256": "36ab3786952b6cb288efaefc64a3b8c4c59f356f82b47ead1f97b1df06dfd3fa"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L01/carousel/2026-W35-003-L01_M03_carousel_candidate_C.png",
+            "width": 1172,
+            "height": 1342,
+            "review_status": "canva_frame_approved",
+            "sha256": "d421dc795e61fc337febd61dd554bdbd1af7a4b3bc8e2de6aea4a0b8cca3dbd2"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTSMqIdbU",
+        "title": "Mira W35-003-L01｜運動外套配直筒裙",
+        "display_copy": "短版運動外套，襯得直筒長裙更俐落",
+        "edit_url": "https://www.canva.com/d/staU17f_7CzzdJ_",
+        "view_url": "https://www.canva.com/d/REcGCHZOsOrQ3yr",
+        "transaction_id": "7513643862520315598",
+        "committed_at": "2026-08-25"
+      }
+    },
+    {
+      "look_id": "2026-W35-003-L02",
+      "carousel_id": "2026-W35-003",
+      "theme_name": "運動外套配長裙",
+      "look_order": 2,
+      "look_name": "灰白拉鍊外套＋柔粉中長裙",
+      "model_profile_id": "M03",
+      "dressing_decision": "粉色長裙配灰白短版拉鍊外套，鞋子和包包選黑色，整套不會太甜",
+      "occasion": "週末約會／看電影",
+      "scene": "獨立電影院的明亮側廊與霧面玻璃窗",
+      "visible_action": "沿側廊走向影廳時一手自然擺動，另一手輕整外套下擺",
+      "status": "ready_for_manual_export",
+      "reel_group": "L02",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "user_approved",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/reel/2026-W35-003-L02_M03_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/reel/2026-W35-003-L02_M03_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/reel/2026-W35-003-L02_M03_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "de5dd1f69d612ac258224ceb4dec61eb75c2d414e5485b7621587a4b86edc03d"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_A.png",
+            "width": 1254,
+            "height": 1254,
+            "review_status": "user_approved",
+            "sha256": "1ac4ae29f23cfa3556e1f1d1e647511ab5662374bddf13afabf0659e6f31ed5b"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_B.png",
+            "width": 1672,
+            "height": 941,
+            "review_status": "user_approved",
+            "sha256": "c717174c49b1c92a9337933d14c24daca3d3d57acd926bff9af202ffc961a99e"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-003/looks/2026-W35-003-L02/carousel/2026-W35-003-L02_M03_carousel_candidate_C.png",
+            "width": 1254,
+            "height": 1254,
+            "review_status": "user_approved",
+            "sha256": "0344a0e4b5b0cef807594859172fa62fc3f8ebf712c1095e20e5b9a9b57017d8"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTW5QvkOQ",
+        "title": "Mira W35-003-L02｜粉色長裙與黑色鞋包",
+        "display_copy": "粉色長裙搭黑色鞋包，微甜",
+        "edit_url": "https://www.canva.com/d/lB55dtgbaU8ws8C",
+        "view_url": "https://www.canva.com/d/44H3OdeFv8DBjam",
+        "transaction_id": "2522529655714933064",
+        "committed_at": "2026-08-26"
+      }
+    },
+    {
+      "look_id": "2026-W35-004-L01",
+      "carousel_id": "2026-W35-004",
+      "theme_name": "窄版絲巾的小結",
+      "look_order": 1,
+      "look_name": "白襯衫＋黑白窄領巾＋深藍直筒褲",
+      "model_profile_id": "M02",
+      "dressing_decision": "黑白窄版絲巾在鎖骨下方打一個小結，胸前就不再戴項鍊",
+      "occasion": "辦公室／會議",
+      "scene": "共享辦公室的玻璃會議室入口與均勻日光",
+      "visible_action": "抱著一份薄文件走出會議室，另一手輕扶門把，領巾結保持完整可見",
+      "status": "ready_for_manual_export",
+      "reel_group": "L01",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "user_approved",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/reel/2026-W35-004-L01_M02_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/reel/2026-W35-004-L01_M02_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/reel/2026-W35-004-L01_M02_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "03b7e3f75f03be5256eee0a877d7661adc8358a1f4784f12b1837b70ea8915cb"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_A.png",
+            "width": 1254,
+            "height": 1254,
+            "review_status": "user_approved",
+            "sha256": "657e51215a8874fa279c602600770221287c207349fd2e815d44b5118a132777"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_B.png",
+            "width": 1895,
+            "height": 830,
+            "review_status": "user_approved",
+            "sha256": "0cd9d1f055a15324a7437006a527a97d16e2a401c58d3a002a4732e51685e9af"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L01/carousel/2026-W35-004-L01_M02_carousel_candidate_C.png",
+            "width": 1254,
+            "height": 1254,
+            "review_status": "user_approved",
+            "sha256": "21e8a3364c74734b64fff0730c13af3f27f905e1cc7e3bf442c30cbb20c3d11b"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTXnjJfuI",
+        "title": "Mira W35-004-L01｜白襯衫與窄版絲巾",
+        "display_copy": "白襯衫加一條窄領巾，就有變化",
+        "edit_url": "https://www.canva.com/d/oHZtrxCFd1dTbVj",
+        "view_url": "https://www.canva.com/d/i7eeXK_AdBkG5G5",
+        "transaction_id": "2910965136456385796",
+        "committed_at": "2026-08-26"
+      }
+    },
+    {
+      "look_id": "2026-W35-004-L02",
+      "carousel_id": "2026-W35-004",
+      "theme_name": "窄版絲巾的小結",
+      "look_order": 2,
+      "look_name": "奶油白無袖上衣＋酒紅窄領巾＋深棕長褲",
+      "model_profile_id": "M02",
+      "dressing_decision": "奶油白上衣配酒紅窄版絲巾，結放在頸側，鞋子和包包選低調的深色",
+      "occasion": "晚餐／約會",
+      "scene": "街區餐館安靜候位區與傍晚窗邊暖冷混合光",
+      "visible_action": "把紙本菜單放回入口層架後轉身走向座位，手提包自然垂在身側",
+      "status": "ready_for_manual_export",
+      "reel_group": "L02",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "user_approved",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/reel/2026-W35-004-L02_M02_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/reel/2026-W35-004-L02_M02_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/reel/2026-W35-004-L02_M02_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "4468fcd14a56e6be76ee51ef7569188403dcb934c0bd3c96c561b86d882f8681"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_A.png",
+            "width": 1254,
+            "height": 1254,
+            "review_status": "user_approved",
+            "sha256": "51b35267e49adc76a89015445997db100c925ecaa40767b1ce3f727149e196ab"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_B.png",
+            "width": 1893,
+            "height": 831,
+            "review_status": "user_approved",
+            "sha256": "121340a8df67f1d494116fb7e33541c951464fd97a0b86aa42e5d9ee489e4640"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_C.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_C.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-004/looks/2026-W35-004-L02/carousel/2026-W35-004-L02_M02_carousel_candidate_C.png",
+            "width": 1254,
+            "height": 1254,
+            "review_status": "user_approved",
+            "sha256": "2e818de16bb7d7c87d89df7ebea8a543019b8b6df8be3f68122304d3b75bdd30"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTYJP1U-w",
+        "title": "Mira W35-004-L02｜酒紅領巾與奶油白上衣",
+        "display_copy": "繫上領巾，就可以參加晚宴",
+        "edit_url": "https://www.canva.com/d/EZCdudocRfwZtV3",
+        "view_url": "https://www.canva.com/d/IU7DpEZOQqXruAY",
+        "transaction_id": "1753540117042186993",
+        "committed_at": "2026-08-27"
+      }
+    },
+    {
+      "look_id": "2026-W35-005-L01",
+      "carousel_id": "2026-W35-005",
+      "theme_name": "深色直筒牛仔褲配柔色上衣",
+      "look_order": 1,
+      "look_name": "柔霧粉薄緞面上衣＋深靛直筒丹寧",
+      "model_profile_id": "M04",
+      "dressing_decision": "深色直筒牛仔褲搭柔霧緞面上衣和低跟鞋，上班穿也不會太休閒",
+      "occasion": "通勤／簡報",
+      "scene": "採光設計工作室的簡報區入口與側窗自然光",
+      "visible_action": "拿著平板電腦走向簡報桌，另一手自然穩住肩背包帶",
+      "status": "ready_for_manual_export",
+      "reel_group": "L01",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "user_approved",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/reel/2026-W35-005-L01_M04_reel_candidate_A.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/reel/2026-W35-005-L01_M04_reel_candidate_A.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/reel/2026-W35-005-L01_M04_reel_candidate_A.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "e2a198db12f43758209befa2afd7b3dd0ef1e46c6ed3a947debbe89d4c009ad8"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_A.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_A.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_A.png",
+            "width": 1202,
+            "height": 1308,
+            "review_status": "user_approved",
+            "sha256": "56161bd0a26d523d5ce5748b72c80e177f99a998e7c226f8dfd617afecfd894f"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_B.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_B.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_B.png",
+            "width": 1788,
+            "height": 880,
+            "review_status": "user_approved",
+            "sha256": "aa2f185f899df8a4c4c33a2ee58eb69e4983fa2fe11caa1e0b4492a82d6b6b2d"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_C_bag_detail_v3.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_C_bag_detail_v3.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L01/carousel/2026-W35-005-L01_M04_carousel_candidate_C_bag_detail_v3.png",
+            "width": 1173,
+            "height": 1341,
+            "review_status": "user_approved",
+            "sha256": "650f6bef810c84e744088dd45c5ec1a21aa6d0473746a441f6f2c6fd72fd2258"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTc6e1JFQ",
+        "title": "Mira W35-005-L01｜粉色襯衫配深色牛仔褲",
+        "display_copy": "搭配柔色緞面上衣\n牛仔褲也能變正裝",
+        "edit_url": "https://www.canva.com/d/Pw2xDsjg40bJzz4",
+        "view_url": "https://www.canva.com/d/oZ2AwEKwS6krMCX",
+        "transaction_id": "5841682694510081296",
+        "committed_at": "2026-08-27"
+      }
+    },
+    {
+      "look_id": "2026-W35-005-L02",
+      "carousel_id": "2026-W35-005",
+      "theme_name": "深色直筒牛仔褲配柔色上衣",
+      "look_order": 2,
+      "look_name": "淡紫灰垂墜上衣＋深藍直筒丹寧",
+      "model_profile_id": "M04",
+      "dressing_decision": "深色直筒牛仔褲配淡紫灰垂墜上衣，再拿一個硬挺的小包",
+      "occasion": "週末午餐／展覽",
+      "scene": "當代美術館明亮入口與混凝土大廳",
+      "visible_action": "走向展場入口，酒紅手提包自然垂在身側",
+      "status": "ready_for_manual_export",
+      "reel_group": "L02",
+      "reel": {
+        "status": "approved_native_9x16",
+        "review_status": "user_approved",
+        "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/reel/2026-W35-005-L02_M04_reel_candidate_A_museum_v3.png",
+        "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/reel/2026-W35-005-L02_M04_reel_candidate_A_museum_v3.png",
+        "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/reel/2026-W35-005-L02_M04_reel_candidate_A_museum_v3.png",
+        "width": 941,
+        "height": 1672,
+        "aspect_ratio": "9:16",
+        "sha256": "ef6c60029ac1e25e749d7e462c4b7ae103147dc1e400631baac58e14b824d9f7"
+      },
+      "carousel": {
+        "status": "approved_abc",
+        "assets": {
+          "A": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_A_museum_v4.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_A_museum_v4.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_A_museum_v4.png",
+            "width": 1202,
+            "height": 1309,
+            "review_status": "user_approved",
+            "sha256": "51ef68dc550c25dd2a8eb16b934ea5fa1206be1c72376da649e09bac8b26b4a0"
+          },
+          "B": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_B_museum_v2.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_B_museum_v2.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_B_museum_v2.png",
+            "width": 1789,
+            "height": 879,
+            "review_status": "user_approved",
+            "sha256": "e69ed5a7fec4fbe7303edbb0ef696daa092dca72b39f13be061321fe0a24c808"
+          },
+          "C": {
+            "source_path": "10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_C_standing_v4.png",
+            "raw_url": "https://raw.githubusercontent.com/fcsh1526/codex-fittingrooom/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_C_standing_v4.png",
+            "github_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/main/10_automation/runs/2026-W35/generated_images/2026-W35-005/looks/2026-W35-005-L02/carousel/2026-W35-005-L02_M04_carousel_candidate_C_standing_v4.png",
+            "width": 1172,
+            "height": 1342,
+            "review_status": "user_approved",
+            "sha256": "499bfa9916e219ae5e2f0c08c7f05cd23e997c941762f7cdd951e4e6487d4242"
+          }
+        }
+      },
+      "canva": {
+        "status": "committed_exact_frame",
+        "design_id": "DAHTeF1y2Hk",
+        "title": "Mira W35-005-L02｜淡紫上衣配深色牛仔褲",
+        "display_copy": "淡紫上衣搭深色牛仔褲\n看展剛剛好",
+        "edit_url": "https://www.canva.com/d/Hzg8_RYOBZA1Lz4",
+        "view_url": "https://www.canva.com/d/a3ZZGPVmpfvlDli",
+        "transaction_id": "4305955231490615823",
+        "committed_at": "2026-08-27"
+      }
+    }
+  ]
+}
