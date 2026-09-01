@@ -1,0 +1,247 @@
+{
+  "2026-W36-001": {
+    "placeholders": {
+      "{{slide2_line}}": "Everyday Ease. Styled with Intent."
+    },
+    "caption_short": "薄風衣＋背心洋裝，給通勤一點生活感。 方向：輕薄機能疊穿。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。",
+    "hashtags": "#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira",
+    "asset_slots": [
+      {
+        "carousel_id": "2026-W36-001",
+        "slot_id": "cover_image",
+        "slide_range": "1",
+        "asset_type": "image",
+        "purpose": "strongest lifestyle full-body image; visual hook",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Make the person and outfit dominant. Keep text off the image."
+      },
+      {
+        "carousel_id": "2026-W36-001",
+        "slot_id": "motion_crop",
+        "slide_range": "2",
+        "asset_type": "crop / quiet design slide",
+        "purpose": "minimal transition slide with one short line",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence."
+      },
+      {
+        "carousel_id": "2026-W36-001",
+        "slot_id": "detail_image",
+        "slide_range": "3",
+        "asset_type": "image",
+        "purpose": "second lifestyle image or reused hero crop",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a second image when available. If not, use a different crop of the hero image."
+      }
+    ],
+    "design_contract": {
+      "canvas_size": "3240 x 1350 px",
+      "export": "3 slides, 1080 x 1350 px each",
+      "slice_guides_x": [
+        1080,
+        2160
+      ],
+      "safe_margin_from_guides_px": 80,
+      "text_rule": "Only slide 2 has one short line. Slides 1 and 3 are image-led."
+    }
+  },
+  "2026-W36-002": {
+    "placeholders": {
+      "{{slide2_line}}": "Everyday Ease. Styled with Intent."
+    },
+    "caption_short": "短版夾克＋長寬褲，給上班一點生活感。 方向：短外套配長流動下身。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。",
+    "hashtags": "#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira",
+    "asset_slots": [
+      {
+        "carousel_id": "2026-W36-002",
+        "slot_id": "cover_image",
+        "slide_range": "1",
+        "asset_type": "image",
+        "purpose": "strongest lifestyle full-body image; visual hook",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Make the person and outfit dominant. Keep text off the image."
+      },
+      {
+        "carousel_id": "2026-W36-002",
+        "slot_id": "motion_crop",
+        "slide_range": "2",
+        "asset_type": "crop / quiet design slide",
+        "purpose": "minimal transition slide with one short line",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence."
+      },
+      {
+        "carousel_id": "2026-W36-002",
+        "slot_id": "detail_image",
+        "slide_range": "3",
+        "asset_type": "image",
+        "purpose": "second lifestyle image or reused hero crop",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a second image when available. If not, use a different crop of the hero image."
+      }
+    ],
+    "design_contract": {
+      "canvas_size": "3240 x 1350 px",
+      "export": "3 slides, 1080 x 1350 px each",
+      "slice_guides_x": [
+        1080,
+        2160
+      ],
+      "safe_margin_from_guides_px": 80,
+      "text_rule": "Only slide 2 has one short line. Slides 1 and 3 are image-led."
+    }
+  },
+  "2026-W36-003": {
+    "placeholders": {
+      "{{slide2_line}}": "Everyday Ease. Styled with Intent."
+    },
+    "caption_short": "棉麻基本款＋麂皮配件，給週末一點生活感。 方向：麂皮質感小面積入秋。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。",
+    "hashtags": "#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira",
+    "asset_slots": [
+      {
+        "carousel_id": "2026-W36-003",
+        "slot_id": "cover_image",
+        "slide_range": "1",
+        "asset_type": "image",
+        "purpose": "strongest lifestyle full-body image; visual hook",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Make the person and outfit dominant. Keep text off the image."
+      },
+      {
+        "carousel_id": "2026-W36-003",
+        "slot_id": "motion_crop",
+        "slide_range": "2",
+        "asset_type": "crop / quiet design slide",
+        "purpose": "minimal transition slide with one short line",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence."
+      },
+      {
+        "carousel_id": "2026-W36-003",
+        "slot_id": "detail_image",
+        "slide_range": "3",
+        "asset_type": "image",
+        "purpose": "second lifestyle image or reused hero crop",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a second image when available. If not, use a different crop of the hero image."
+      }
+    ],
+    "design_contract": {
+      "canvas_size": "3240 x 1350 px",
+      "export": "3 slides, 1080 x 1350 px each",
+      "slice_guides_x": [
+        1080,
+        2160
+      ],
+      "safe_margin_from_guides_px": 80,
+      "text_rule": "Only slide 2 has one short line. Slides 1 and 3 are image-led."
+    }
+  },
+  "2026-W36-004": {
+    "placeholders": {
+      "{{slide2_line}}": "Everyday Ease. Styled with Intent."
+    },
+    "caption_short": "緞面中長裙＋素色背心，給晚餐一點生活感。 方向：絲巾效果與緞面垂墜。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。",
+    "hashtags": "#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira",
+    "asset_slots": [
+      {
+        "carousel_id": "2026-W36-004",
+        "slot_id": "cover_image",
+        "slide_range": "1",
+        "asset_type": "image",
+        "purpose": "strongest lifestyle full-body image; visual hook",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Make the person and outfit dominant. Keep text off the image."
+      },
+      {
+        "carousel_id": "2026-W36-004",
+        "slot_id": "motion_crop",
+        "slide_range": "2",
+        "asset_type": "crop / quiet design slide",
+        "purpose": "minimal transition slide with one short line",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence."
+      },
+      {
+        "carousel_id": "2026-W36-004",
+        "slot_id": "detail_image",
+        "slide_range": "3",
+        "asset_type": "image",
+        "purpose": "second lifestyle image or reused hero crop",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a second image when available. If not, use a different crop of the hero image."
+      }
+    ],
+    "design_contract": {
+      "canvas_size": "3240 x 1350 px",
+      "export": "3 slides, 1080 x 1350 px each",
+      "slice_guides_x": [
+        1080,
+        2160
+      ],
+      "safe_margin_from_guides_px": 80,
+      "text_rule": "Only slide 2 has one short line. Slides 1 and 3 are image-led."
+    }
+  },
+  "2026-W36-005": {
+    "placeholders": {
+      "{{slide2_line}}": "Everyday Ease. Styled with Intent."
+    },
+    "caption_short": "黑灰基底＋深紅小包，給通勤一點生活感。 方向：深紅色小面積亮點。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。",
+    "hashtags": "#穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira",
+    "asset_slots": [
+      {
+        "carousel_id": "2026-W36-005",
+        "slot_id": "cover_image",
+        "slide_range": "1",
+        "asset_type": "image",
+        "purpose": "strongest lifestyle full-body image; visual hook",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Make the person and outfit dominant. Keep text off the image."
+      },
+      {
+        "carousel_id": "2026-W36-005",
+        "slot_id": "motion_crop",
+        "slide_range": "2",
+        "asset_type": "crop / quiet design slide",
+        "purpose": "minimal transition slide with one short line",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a soft crop, blurred background, or clean negative space. Only one short sentence."
+      },
+      {
+        "carousel_id": "2026-W36-005",
+        "slot_id": "detail_image",
+        "slide_range": "3",
+        "asset_type": "image",
+        "purpose": "second lifestyle image or reused hero crop",
+        "recommended_file": "",
+        "status": "needed",
+        "notes": "Use a second image when available. If not, use a different crop of the hero image."
+      }
+    ],
+    "design_contract": {
+      "canvas_size": "3240 x 1350 px",
+      "export": "3 slides, 1080 x 1350 px each",
+      "slice_guides_x": [
+        1080,
+        2160
+      ],
+      "safe_margin_from_guides_px": 80,
+      "text_rule": "Only slide 2 has one short line. Slides 1 and 3 are image-led."
+    }
+  }
+}
