@@ -1,0 +1,22 @@
+{
+  "model": "M01",
+  "week": "2026-W41",
+  "file": "10_automation/runs/2026-W41/reels/M01/review_v1/2026-W41_M01_two_looks_soft_v1.mp4",
+  "sha256": "288dec4e071e07beba6cafcff58568a2e1df9472d2a24ce34e822836bbf8a709",
+  "technical_decode": "completed",
+  "source_review": {
+    "full_samples_each": 25,
+    "face_samples_each": 5,
+    "scope": "sampled images only",
+    "findings": "Recognizable identity, clothing and stationary background in inspected samples. Actual cuff look-down gesture for M01; higher jacket-edge touch for M05."
+  },
+  "combined_review": {
+    "full_samples": 25,
+    "all_boundary_full_samples": 34,
+    "all_boundary_head_samples": 34,
+    "findings": "Matched whole-person scale and broadly fixed background. Brief face/hand double contours during dissolve are visible; no apparent major scale jump in inspected frames. Normal-speed comfort remains for full playback."
+  },
+  "assistant_continuous_watch_done": false,
+  "user_visual_approval": null,
+  "status": "sampled_QA_checked_user_playback_review_pending"
+}

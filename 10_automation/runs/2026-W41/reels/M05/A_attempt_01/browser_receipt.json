@@ -1,0 +1,25 @@
+{
+  "look_id": "2026-W41-001-L01",
+  "model": "M05",
+  "submitted_at": "2026-10-08T06:30:39.560Z",
+  "retrieved_at": "2026-10-08T06:32:43.599Z",
+  "result_url": "https://grok.com/imagine/post/a8bb94fc-2b16-4b78-a3f3-81a135139887?conversation=66c079aa-084c-4557-bab4-0ed78436be1f",
+  "saved_reference_name": "Mira M05 v1 face",
+  "first_frame": "user_approved_L01",
+  "settings": {
+    "mode": "video",
+    "resolution": "720p",
+    "duration_seconds": 6,
+    "aspect": "9:16",
+    "audio_ui_checked": false
+  },
+  "observed_video": {
+    "width": 720,
+    "height": 1280,
+    "duration": 6.041667
+  },
+  "source": "source.mp4",
+  "attempt": 1,
+  "dynamic_QA": "pending",
+  "user_video_approval": null
+}

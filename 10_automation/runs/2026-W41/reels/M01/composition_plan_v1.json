@@ -1,0 +1,11 @@
+{
+  "week": "2026-W41",
+  "model": "M01",
+  "version": "review_v1",
+  "look_ids": ["2026-W41-002-L01", "2026-W41-002-L02"],
+  "saved_reference_name": "Mira M01 v4 face",
+  "A_frames": [0,114],
+  "B_frames": [0,102],
+  "interval_reason": "Both cuff gestures finish and return to the waist by about3.5s. Keep a short reading settle; join in similar full-person positions and remove later idle/head-tilt time. No retiming or pose synchronization.",
+  "source_sampled_visual_review": "25 full-frame and5 face samples per source: recognizable identity; same shirt plaid, tucked waist, shoes/bag and stationary storefront. Both look down at the cuff during the gesture; motion is slightly more sustained than a brief touch. No continuous visual playback claimed."
+}

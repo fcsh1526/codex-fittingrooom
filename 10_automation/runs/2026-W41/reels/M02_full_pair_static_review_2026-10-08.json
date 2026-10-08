@@ -1,0 +1,129 @@
+{
+  "model": "M02",
+  "week": "2026-W41",
+  "files": [
+    {
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
+      "sha256": "1ba112fd6f23948f15b9e558afa945dd2e16ed2249e818e57d3320fe2890b912",
+      "actual_pixels": [
+        941,
+        1672
+      ],
+      "look_id": "2026-W41-003-L01",
+      "model": "M02",
+      "week": "2026-W41",
+      "generator": "built_in_image_gen",
+      "prompt": "hero_production_prompt_restart_v4.txt",
+      "references": [
+        "02_brand/reference_models/M02_start_v3_face.png",
+        "02_brand/reference_models/M02_start_v3_full.png"
+      ],
+      "tool_wall_seconds": 110.6,
+      "active_minutes": null,
+      "status": "static_review_pass_pending_user_visual_approval",
+      "user_approval": null,
+      "dynamic_QA": null,
+      "static_review": {
+        "identity": "Recognizable v3 face and pinned-back hair, healthy proportions; separate user visual check pending.",
+        "wardrobe": "Plain cocoa five-pocket straight-leg denim, black belt/shoes/small shoulder bag; L01 cream tee with open ivory light cropped jacket; L02 white short-sleeve point-collar shirt. Natural seam/cloth tonal variation, no apparent decorative motifs in selected sources.",
+        "framing": "Generated directly in portrait 9:16 composition, actual941x1672; full hair and both shoes visible, no resize/crop applied.",
+        "scene": "Shared left daylight and greige cafe walkway. Independent source renders have small face/pose/door/bench geometry differences; not identical matched pixels.",
+        "animation_start": "Both feet grounded, one slightly ahead; arms rest beside hips. Use one modest forward step and settle, no cloth handling.",
+        "continuity": "Black shoulder bag stays at image-left in both selected sources. Approximate subject scale and shoe placement similar; final generated join still requires review.",
+        "limitations": "Static inspection only; no video generation, dynamic pass, proof approval or complete delivery implied."
+      },
+      "rejected_prior_versions": [
+        {
+          "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A.png",
+          "sha256": "108c52b9e6e5780a0800c44b14a830ea02e8d5f05d315421c1699d9d1ddaa556",
+          "actual_pixels": [
+            941,
+            1672
+          ],
+          "status": "rejected_not_for_animation",
+          "reason": "Decorative-looking trouser texture and/or failed pair continuity; targeted texture edit did not resolve. Originals preserved."
+        },
+        {
+          "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v2.png",
+          "sha256": "5f6fe2ad32b645feeb4f44a58602ace7a25e7e511fa9f72153662e8beeafaa01",
+          "actual_pixels": [
+            941,
+            1672
+          ],
+          "status": "rejected_not_for_animation",
+          "reason": "Decorative-looking trouser texture and/or failed pair continuity; targeted texture edit did not resolve. Originals preserved."
+        },
+        {
+          "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v3.png",
+          "sha256": "59b05faa49354a2e0b454758ee89b28ef0214324f23d18f0732836eba65bbc44",
+          "actual_pixels": [
+            941,
+            1672
+          ],
+          "status": "rejected_not_for_animation",
+          "reason": "Decorative-looking trouser texture and/or failed pair continuity; targeted texture edit did not resolve. Originals preserved."
+        }
+      ]
+    },
+    {
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v3.png",
+      "sha256": "cb243dc67e57b95ad856d4e79d96423945aea0c0cdfc873bb22485627f4c9482",
+      "actual_pixels": [
+        941,
+        1672
+      ],
+      "look_id": "2026-W41-003-L02",
+      "model": "M02",
+      "week": "2026-W41",
+      "generator": "built_in_image_gen",
+      "prompt": "hero_production_prompt_restart_v3.txt",
+      "references": [
+        "02_brand/reference_models/M02_start_v3_face.png",
+        "02_brand/reference_models/M02_start_v3_full.png"
+      ],
+      "tool_wall_seconds": 55.9,
+      "active_minutes": null,
+      "status": "static_review_pass_pending_user_visual_approval",
+      "user_approval": null,
+      "dynamic_QA": null,
+      "static_review": {
+        "identity": "Recognizable v3 face and pinned-back hair, healthy proportions; separate user visual check pending.",
+        "wardrobe": "Plain cocoa five-pocket straight-leg denim, black belt/shoes/small shoulder bag; L01 cream tee with open ivory light cropped jacket; L02 white short-sleeve point-collar shirt. Natural seam/cloth tonal variation, no apparent decorative motifs in selected sources.",
+        "framing": "Generated directly in portrait 9:16 composition, actual941x1672; full hair and both shoes visible, no resize/crop applied.",
+        "scene": "Shared left daylight and greige cafe walkway. Independent source renders have small face/pose/door/bench geometry differences; not identical matched pixels.",
+        "animation_start": "Both feet grounded, one slightly ahead; arms rest beside hips. Use one modest forward step and settle, no cloth handling.",
+        "continuity": "Black shoulder bag stays at image-left in both selected sources. Approximate subject scale and shoe placement similar; final generated join still requires review.",
+        "limitations": "Static inspection only; no video generation, dynamic pass, proof approval or complete delivery implied."
+      },
+      "rejected_prior_versions": [
+        {
+          "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v1.png",
+          "sha256": "14136bae1847b90534805cc2bfab0c6d9e1975511eeb753f1aaf7077f0ad9890",
+          "actual_pixels": [
+            941,
+            1672
+          ],
+          "status": "rejected_not_for_animation",
+          "reason": "Decorative-looking trouser texture and/or failed pair continuity; targeted texture edit did not resolve. Originals preserved."
+        },
+        {
+          "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v2.png",
+          "sha256": "fa062cbc2706a10a85c211220abdd7018b908515e5e042b450043d0bb4d8a210",
+          "actual_pixels": [
+            941,
+            1672
+          ],
+          "status": "rejected_not_for_animation",
+          "reason": "Decorative-looking trouser texture and/or failed pair continuity; targeted texture edit did not resolve. Originals preserved."
+        }
+      ]
+    }
+  ],
+  "user_approval": null,
+  "production_rule": "Do not animate either source until separate user visual acceptance of the exact selected pair.",
+  "generation_count": 7,
+  "targeted_edits": 2,
+  "lesson": "Production-image continuity references propagated ornamental trouser texture; one targeted edit of each affected chain failed. Rebuild from approved identity anchors only, record rejected versions, and recheck scene/scale instead of carrying rejected surfaces forward.",
+  "identity_anchor_only_restarts": 2,
+  "continuity_reconstruction": 1
+}

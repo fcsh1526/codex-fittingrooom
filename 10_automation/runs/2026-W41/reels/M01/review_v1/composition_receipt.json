@@ -1,0 +1,158 @@
+{
+  "week": "2026-W41",
+  "model": "M01",
+  "look_ids": [
+    "2026-W41-002-L01",
+    "2026-W41-002-L02"
+  ],
+  "output_path": "10_automation/runs/2026-W41/reels/M01/review_v1/2026-W41_M01_two_looks_soft_v1.mp4",
+  "sha256": "288dec4e071e07beba6cafcff58568a2e1df9472d2a24ce34e822836bbf8a709",
+  "native_pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 198,
+  "duration_seconds": 8.25,
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W41/reels/M01/A_attempt_01/source.mp4",
+      "sha256": "17dd9f26af13347acc8ddeb7186742eec487e40bece36855bccb301d64dbb80d",
+      "selected_frames_half_open": [
+        0,
+        114
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W41/reels/M01/B_attempt_01/source.mp4",
+      "sha256": "f4f84478fca2d306e99e97f97cef597aaff5f92c1da99341b6db516103f8325f",
+      "selected_frames_half_open": [
+        0,
+        102
+      ]
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      96,
+      114
+    ]
+  },
+  "source_speed": "unchanged",
+  "framing_transform": "none",
+  "freeze_reverse_replay": false,
+  "text": "none",
+  "audio": "none",
+  "interval_reason": "Both cuff gestures finish and return to the waist by about3.5s. Keep a short reading settle; join in similar full-person positions and remove later idle/head-tilt time. No retiming or pose synchronization.",
+  "technical_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.25
+    },
+    "decoded_frames": 198,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 8.25,
+    "individual_PTS_measured": false
+  },
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      8,
+      16,
+      25,
+      33,
+      41,
+      49,
+      57,
+      66,
+      74,
+      82,
+      90,
+      98,
+      107,
+      115,
+      123,
+      131,
+      140,
+      148,
+      156,
+      164,
+      172,
+      181,
+      189,
+      197
+    ],
+    "face_checkpoint_indices": [
+      0,
+      49,
+      98,
+      148,
+      197
+    ],
+    "transition_boundary_indices": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "source_sampled_visual_review": "25 full-frame and5 face samples per source: recognizable identity; same shirt plaid, tucked waist, shoes/bag and stationary storefront. Both look down at the cuff during the gesture; motion is slightly more sustained than a brief touch. No continuous visual playback claimed.",
+  "combined_visual_QA": "sampled_QA_checked_user_playback_review_pending",
+  "continuous_playback_review": false,
+  "user_approval": null,
+  "status": "user_rejected_B_hand_cloth_contact",
+  "prior_batch_write": false,
+  "user_feedback": "user_feedback_2026-10-08.json"
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-08",
+  "model": "M01",
+  "file": "10_automation/runs/2026-W41/reels/M01/review_v1/2026-W41_M01_two_looks_soft_v1.mp4",
+  "sha256": "288dec4e071e07beba6cafcff58568a2e1df9472d2a24ce34e822836bbf8a709",
+  "user_quote": "第二鏡頭的袖口動作是虛的，手跟衣服沒有互動",
+  "decision": "rejected_hand_cloth_contact",
+  "scope": "second shot; no acceptance of first shot inferred",
+  "source": "10_automation/runs/2026-W41/reels/M01/B_attempt_01/source.mp4",
+  "source_sha256": "f4f84478fca2d306e99e97f97cef597aaff5f92c1da99341b6db516103f8325f",
+  "response": "Keep A original bytes and approved B first frame. One B retry with visible thumb/index contact at actual folded cuff edge on forearm, cloth response and release; inspect consecutive contact frames. Original film retained as failed version."
+}

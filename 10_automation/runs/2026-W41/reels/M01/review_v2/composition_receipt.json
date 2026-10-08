@@ -1,0 +1,158 @@
+{
+  "week": "2026-W41",
+  "model": "M01",
+  "look_ids": [
+    "2026-W41-002-L01",
+    "2026-W41-002-L02"
+  ],
+  "output_path": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+  "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+  "native_pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 228,
+  "duration_seconds": 9.5,
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W41/reels/M01/A_attempt_01/source.mp4",
+      "sha256": "17dd9f26af13347acc8ddeb7186742eec487e40bece36855bccb301d64dbb80d",
+      "selected_frames_half_open": [
+        0,
+        114
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W41/reels/M01/B_attempt_02/source.mp4",
+      "sha256": "608b15d2a563d48dd2ac5be420f82b5e299fd2e8199338c62ff76fbd2dfcab5e",
+      "selected_frames_half_open": [
+        12,
+        144
+      ]
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      96,
+      114
+    ]
+  },
+  "source_speed": "unchanged",
+  "framing_transform": "none",
+  "freeze_reverse_replay": false,
+  "text": "none",
+  "audio": "none",
+  "interval_reason": "Retain the exact original A[0,114). Revised B has visible fold grasp, cloth gathering/tension and release; longer than B1. Start at0.5s before contact and retain through6s for the hand return. Single0.75s native-speed dissolve; no accelerated movement or hidden cuff interaction.",
+  "technical_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 9.5
+    },
+    "decoded_frames": 228,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 9.5,
+    "individual_PTS_measured": false
+  },
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      9,
+      19,
+      28,
+      38,
+      47,
+      57,
+      66,
+      76,
+      85,
+      95,
+      104,
+      114,
+      123,
+      132,
+      142,
+      151,
+      161,
+      170,
+      180,
+      189,
+      199,
+      208,
+      218,
+      227
+    ],
+    "face_checkpoint_indices": [
+      0,
+      57,
+      114,
+      170,
+      227
+    ],
+    "transition_boundary_indices": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "source_sampled_visual_review": "B2:25 full and5 face samples plus all145 consecutive native hand/cloth-window images checked. Fingers close at the actual cuff edge with visible local cloth gathering, then release and return. The tug becomes a sustained adjustment with a small fold-height movement, not an exact instantaneous touch; no full continuous playback or user acceptance inferred. A is retained unchanged, not newly approved.",
+  "combined_visual_QA": "25 whole-film and all34 boundary whole/head images inspected; no apparent major scale/face/scene discontinuity in inspected images. Intentional dissolve overlap retained. Separate normal-speed user review pending.",
+  "continuous_playback_review": false,
+  "user_approval": "10_automation/runs/2026-W41/reels/M01/review_v2/user_picture_approval_2026-10-08.json",
+  "status": "user_picture_accepted",
+  "prior_batch_write": false,
+  "review_receipt": "10_automation/runs/2026-W41/reels/M01/review_v2/root_review_2026-10-08.json"
+}

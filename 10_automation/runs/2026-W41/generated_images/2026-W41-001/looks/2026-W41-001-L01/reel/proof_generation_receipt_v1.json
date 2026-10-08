@@ -1,0 +1,11 @@
+{
+  "look_id": "2026-W41-001-L01",
+  "role": "styling_proof",
+  "path": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_proof_candidate_v1.png",
+  "sha256": "6b72ce9ad42961f1d152fce7d9de2df27c64bdf89e48abacee194d8d4b654809",
+  "status": "candidate_pending_user_visual_approval",
+  "user_approval": null,
+  "source_hero_role": "own approved look full Hero wardrobe lock",
+  "prompt": "proof_prompt_v1.txt",
+  "assistant_review": "Native vertical composition; face/collar/open-front/short-hem/tee/trouser-waist readable; not a video keyframe."
+}

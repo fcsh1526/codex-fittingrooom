@@ -1,0 +1,15 @@
+{
+  "week": "2026-W41",
+  "model": "M01",
+  "version": "review_v2",
+  "output_filename": "2026-W41_M01_two_looks_soft_v2.mp4",
+  "look_ids": ["2026-W41-002-L01", "2026-W41-002-L02"],
+  "saved_reference_name": "Mira M01 v4 face",
+  "source_paths": ["10_automation/runs/2026-W41/reels/M01/A_attempt_01/source.mp4", "10_automation/runs/2026-W41/reels/M01/B_attempt_02/source.mp4"],
+  "attempts": [1,2],
+  "prompt_version": "A_motion_v1_B_motion_v2_contact_correction",
+  "A_frames": [0,114],
+  "B_frames": [12,144],
+  "interval_reason": "Retain the exact original A[0,114). Revised B has visible fold grasp, cloth gathering/tension and release; longer than B1. Start at0.5s before contact and retain through6s for the hand return. Single0.75s native-speed dissolve; no accelerated movement or hidden cuff interaction.",
+  "source_sampled_visual_review": "B2:25 full and5 face samples plus all145 consecutive native hand/cloth-window images checked. Fingers close at the actual cuff edge with visible local cloth gathering, then release and return. The tug becomes a sustained adjustment with a small fold-height movement, not an exact instantaneous touch; no full continuous playback or user acceptance inferred. A is retained unchanged, not newly approved."
+}

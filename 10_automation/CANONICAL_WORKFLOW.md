@@ -1,6 +1,6 @@
 # Mira Canonical Production Workflow
 
-Updated: 2026-07-17
+Updated: 2026-10-08
 
 This is the single source of truth for computer A, computer B, and every Codex task working on this repository. When another document conflicts with this file, follow this file and `10_automation/canva_template_registry.json`.
 
@@ -8,28 +8,51 @@ This is the single source of truth for computer A, computer B, and every Codex t
 
 ```text
 Perplexity public weekly CSV
--> ISO weekly run with five carousel packets
+-> ISO weekly run with five themes
 -> M01-M05 used exactly once each week
--> select one Canva v3 master for each carousel
--> generate exact-ratio A Hero, B Motion, C Detail in Codex
--> normalize without stretching and review
--> replace three flat images in a Canva duplicate
--> show draft preview and save only after user approval
--> user manually slices, exports, and posts to Instagram
--> record post URL and optional metrics
+-> one model is locked to each theme
+-> expand each theme into exactly two editor-approved complete looks (ten looks total)
+-> define one Reel-wide visual theme from the model's two weekly looks
+-> storyboard connected shots: scene purpose, action start/end, framing, light and identity visibility
+-> derive required starting images and styling-proof views from that storyboard
+-> prepare both surface jobs for every look
+-> Reel: native 9:16 full-person A plus a reviewed styling-proof view per look
+-> Carousel: A full-person Hero + B scene application + C accessory detail
+-> normalize Carousel A/B/C without stretching and review in the connected three-image Canva template
+-> compile five theme/model Reels; each keeps one model, two looks, four usable full/proof views and one audience problem
+-> user designs, edits, exports, and posts manually
+-> link production records to post URL and 24h / 72h / 7d metric snapshots
 ```
 
 Active rules:
 
+- User decision 2026-10-05: preserve the five current W37 first-wave publishing videos delivered to Drive on 2026-10-02, their local originals, file IDs and paired caption links. New research cuts must use separate paths and, if uploaded, distinct filenames/file IDs in a separate research folder. Acceptance of a trial never authorizes replacing a first-wave file. Replacement requires a later explicit user instruction naming the intended replacement.
+- User decision 2026-10-02: all subsequent shot/outfit switches default to a soft cross dissolve of approximately0.75 seconds, replacing the earlier direct-cut preference. Keep source character actions and speed unchanged. Plan overlapping handles, matched viewing positions and sufficient outfit-reading time in the storyboard. Validate the combined film; a transition must not conceal identity, wardrobe or background errors. Existing accepted exports remain historical versions; the pending M01 cut is revised under this rule.
+- Editing QA clarification 2026-10-08: user accepts the exact M02 8.5s deep-to-light front-edge gesture research picture, explicitly valuing its dissolve overlap and softened viewing feeling. Brief cross-dissolve double outlines may be an accepted aesthetic effect. Evaluate normal-speed comfort, continuity and outfit readability; a historical no-visible-ghost diagnostic criterion is not automatic editorial rejection. Keep single-source face/clothing/hand/background integrity checks and existing failed diagnostics. This single-cut acceptance does not establish a mandatory shot format, full-outfit delivery or audience performance.
+- Storyboard before Reel image generation: first define the entire film's visual theme, then design shots that connect, then generate their starting images. Every scene must serve the clothes, everyday situation or shot continuity. Do not assign decorative locations independently to each look and repair the sequence with transitions afterward.
+- Plan each shot's action start/end, neighboring-shot connection, outfit evidence and identity information. A beautiful captured mid-action still is not automatically an animation-ready starting frame. Face visibility and selected identity references must support the planned motion; a frontal image alone does not guarantee dynamic identity stability. Side views remain possible when supported and tested.
+- Creative direction: approachable daily-outfit editorial, with magazine composition and color. The former rapid two-look opening and fixed six-section edit are retired; use the current Reel SOP storyboard gate. Formal delivery remains one model and both looks.
+- 2026-10-01 editorial clarification: the current two-shot cuts are individual examples, not a mandatory weekly template. Choose shot count, framing and movement from the clothing information each film needs to show. Technical QA, user acceptance of one cut, account-wide style adoption and audience performance are separate decisions; never infer the latter from the former. W37 comparison and M03's unvalidated material-detail trial are recorded in `reels/EDITORIAL_REVIEW_2026-10-01.md` and `reels/M03_storyboard_v1.md` under the weekly run.
+
 - Use ISO 8601 week ids such as `2026-W29`.
-- Produce five Instagram carousels per week, normally one per weekday.
+- Produce five weekly themes with exactly two complete looks per theme: ten looks total.
 - M01-M05 are private identity ids. Never render or publish them in Instagram content.
+- Each of the five weekly themes keeps one model across all of its looks. Do not rotate identities inside a theme.
+- Each theme contains two complete looks in `weekly_look_plan.csv`. Each changed outfit starts its own look-specific lock.
+- Image work is created by `look_id`, not only by theme `carousel_id`. Every look must have both `reel/` and `carousel/` surface folders under `generated_images/{carousel_id}/looks/{look_id}/`.
+- Reel requires one native 9:16 full-person A and one usable styling-proof view per look. Each of five weekly Reels keeps one model/theme and both looks. Reuse proof imagery only after vertical framing and clarity review; generate a missing proof view when necessary. Do not require all Carousel frames inside a Reel.
+- Read `09_sops/mira_reel_production_sop.md` before video work. Current Reel rule (user decision 2026-09-29): deliver clean video and cover without baked-in text, subtitles, title cards or text overlays. Let shots show the styling point; put fuller explanation in the Instagram post caption. If a specific video truly needs on-screen words, notify the user with suggested wording, timing and placement so the user may add them manually in Instagram's editor; never render those words into the delivered file. Taiwan daily/commute audience, suitable music, about 15 seconds and 30–60 active production minutes remain test settings, not platform guarantees.
+- W37 M02 reference/video pilot passed technical checks and the user's clean-visual approval on 2026-09-29. W37 may proceed one look at a time; newly generated stills remain candidates until individual user visual approval. Static approval, submitted generation, dynamic QA and final user approval are distinct states. A still-image approval never approves a video automatically.
+- Carousel always requires three connected-template assets per look: A full-person Hero, B scene application, and C accessory detail. B/C follow accepted Carousel A and preserve the exact outfit and identity.
 - Perplexity supplies global fashion trends. Codex localizes each selected outfit for wearable daily use.
-- Codex built-in image generation is the production image path. Grok is not part of the active workflow.
+- Mira uses `utility_with_immersion`: every daily story solves one concrete dressing decision through an immersive, high-quality lifestyle image or image sequence.
+- Carousel and Reel are parallel delivery assets, not alternatives. Complete both surface packages for every look.
+- Codex built-in image generation is the production still-image path. Grok may animate an accepted Reel A when needed, but it does not replace source-image generation or change the outfit design.
 - Google Drive is optional archive storage, not a production dependency.
+- User decision 2026-10-07: when saving Mira work to Drive, use `800.Codex IG/{YYYY}-W{WW}/` by the content's ISO week, not the generation/upload date. Root and verified week/subfolder IDs are in `10_automation/google_drive_archive_registry.json`. Reuse an existing verified week folder; create a missing one inside that root. W37 is now `800.Codex IG/2026-W37`, retaining its original folder ID and all media/document links. Research and cloud trials remain in the weekly research subtree. Reorganizing folders does not authorize replacing first-wave files or changing sharing permissions.
 - GitHub is the cross-computer source of truth and the approved public image transport for Canva uploads.
 - Instagram reach does not block production.
-- The only required manual production step is Canva three-slice export and Instagram publishing.
+- Final Canva design, Reel assembly, export, and Instagram publishing are manual user steps.
 
 ## Source Of Truth Files
 
@@ -49,8 +72,16 @@ Machine data:
 02_brand/mira_reference_images.csv
 10_automation/canva_template_registry.json
 10_automation/runs/{week_id}/weekly_content_packet.csv
+10_automation/runs/{week_id}/weekly_look_plan.csv
 10_automation/runs/{week_id}/daily_queue.csv
 10_automation/runs/{week_id}/weekly_status.json
+```
+
+Research basis:
+
+```text
+03_research/instagram_daily_outfit_benchmark_2026-08-11.md
+03_research/gpt_image_fashion_prompt_engineering_2026-08-12.md
 ```
 
 ## Computer Start Procedure
@@ -83,13 +114,27 @@ https://mika-lin-weekly.pplx.app/data/index.json
 
 The report must be deployed. A file that exists only in the Perplexity workspace is not available to Codex.
 
+Before building the production week, review the five Perplexity Editorial Conversion Cards. Perplexity is research input, not automatic publishing approval. If any topic is seasonally unsuitable, repetitive, inaccurate, or weak as a visual answer, create an editor-approved five-row CSV at:
+
+```text
+03_research/editorial_overrides/{week_id}.csv
+```
+
+Mark each approved row with `status=editorial_approved` and `editorial_status=approved` in `notes`. When approved rows exist for a week, packet selection must ignore the raw Perplexity rows. Store `audience_problem`, `editorial_answer`, `opening_hook`, `visual_proof`, and `practical_rule` as stable key-value pairs in `notes`.
+
+After the five themes pass the editorial gate, create an editor-approved look source at `03_research/editorial_look_plans/{week_id}.csv`. Each theme must contain exactly two complete outfits. The production model is inherited from the theme packet and cannot be changed per look.
+
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\10_automation\mika_weekly.ps1 `
   -Action pipeline `
   -Week 2026-WXX `
   -UsePerplexityIndex `
+  -EditorialSource 03_research\editorial_overrides\2026-WXX.csv `
+  -LookSource 03_research\editorial_look_plans\2026-WXX.csv `
   -Limit 5
 ```
+
+Omit `-EditorialSource` only when the reviewed Perplexity rows are accepted without changes. Never create an override merely to reformat unchanged research.
 
 Expected output:
 
@@ -104,6 +149,8 @@ Acceptance checks:
 
 - 20 Perplexity prompt rows are normally available.
 - Exactly five carousel packets are selected.
+- If an editorial override exists, all five packets come from `editorial_approved` rows and carry the five editorial fields into `weekly_content_packet.csv`.
+- `weekly_look_plan.csv` contains exactly two looks for every theme, uses the same model as its parent theme, and gives every look a complete outfit, real scene, visible action, visual proof, and the fixed dual-surface plan.
 - M01-M05 are assigned exactly once each.
 - Dates follow the ISO week beginning Monday.
 - `quality_report.md` has zero errors.
@@ -128,13 +175,20 @@ Do not generate a generic portrait set first. Frame ratio is part of generation.
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\10_automation\mika_weekly.ps1 `
   -Action image-job `
   -Week 2026-WXX `
-  -CarouselId 2026-WXX-001 `
+  -LookId 2026-WXX-001-L01 `
+  -ImageSurface Reel `
   -AssetProvider Codex
 ```
 
-Read the generated `canva_slot_targets.json` before producing A/B/C.
+Run both delivery-surface jobs for every look:
 
-## Phase 3: Generate A, B, And C In Codex
+- Reel: run with `-ImageSurface Reel`, read `reel_frame_targets.json`, and generate one full-person A directly at 9:16 / 1080x1920. Do not use Canva ratios or the Carousel 15% crop rule.
+- Carousel: run with `-ImageSurface Carousel`, read `canva_slot_targets.json`, and generate A full-person Hero, then B scene application and C accessory detail at the exact assigned Canva ratios.
+- Keep identity, exact outfit, scene logic, and photographic treatment consistent, but create separate surface-specific compositions.
+- Final Reel packaging uses five model/theme groups per week. Each group needs four usable views: full-person plus styling proof for each look. Full-person Reel A and Carousel compositions remain separate; no blanket reuse or required eight-still montage. Do not mix identities into one Reel.
+- A look is not asset-complete until both surface folders pass review.
+
+## Phase 3: Generate Hero A, Then Any Required Derivatives
 
 Use `11_skills/mira-image-daily/SKILL.md`. The same skill is installed at `%USERPROFILE%\.codex\skills\mira-image-daily\SKILL.md`.
 
@@ -146,27 +200,31 @@ Identity inputs:
 02_brand/reference_models/{model}_*_full.png
 ```
 
-Mandatory order:
+Mandatory order after the surface is declared:
 
-1. Generate A Hero with both identity anchors and the exact A ratio.
-2. Review identity, proportions, outfit, contact, scene lighting, expression, and frame safety.
-3. Accept A as the session lock. At most one targeted lighting/camera edit is allowed.
-4. Derive B Motion from accepted A plus both anchors, at the exact B ratio.
-5. Derive C Detail from accepted A plus both anchors, at the exact C ratio.
-6. Save accepted files in the carousel job folder.
+1. Confirm the packet's single `dressing_decision` and `visible_action` before writing any prompt.
+2. Open `hero_A_prompt.md`; generate A Hero with both identity anchors and the exact A ratio.
+3. Review identity, proportions, outfit, contact, scene lighting, expression, realism and frame safety using the review sheet.
+4. If A has one correctable defect, make one targeted edit to the same image. Do not generate a competing A/B option.
+5. Accept A as the session lock.
+6. For Carousel, use `derivative_edit_prompt_templates.md` to derive required B Scene Application and C Accessory Detail from accepted Carousel A plus both anchors. These are sequence assets, not tests.
+7. For Reel, save the accepted full-person A and the selected or generated styling-proof view with their separate review records. Keep a frontal diagnostic variant as a separate file; do not replace the approved original. For Carousel, save accepted A/B/C in the surface-specific job folder.
 
 Photo rules:
 
-- Normal 50mm full-frame-equivalent perspective, chest-height camera, level optical axis.
+- Full-frame mirrorless camera with a 50mm prime lens, chest-height camera, and level optical axis; no smartphone, computational portrait mode, or DSLR simulation unless explicitly overridden.
+- Use the camera description for high-level look, viewpoint and composition. Do not put fixed aperture, shutter speed, ISO or white-balance numbers in GPT Image prompts.
+- Hero prompts normally use 120-220 English words in this order: intended use and dressing decision -> input-image roles -> real scene and one visible action -> exact outfit -> photographic treatment -> composition -> short constraints.
+- Use one final constraint line with no more than five essential exclusions. Do not append a long negative prompt.
+- Describe observable realism: available natural light, believable ambient spill, realistic skin texture, flyaway hairs, lived-in fabric folds, restrained grain and slight optical softness.
 - Realistic adult proportions, not runway or nine-head anatomy.
 - Scene light affects face, hair, clothes, hands, shoes, floor, props, and background consistently.
 - Include believable contact and contact shadows.
-- Keep the full hairstyle below an 8% top safe margin whenever the face appears.
-- Keep face and outfit focus inside the central 70%.
+- Keep exact body-part measurements, anatomy checks, contact-shadow checks, the 8% top margin, central 70% and crop tolerance in the review sheet rather than the base prompt.
 - A shallow B frame requires a genuine wide composition, not a hard-cropped portrait.
 - Preserve exact wardrobe construction and palette across A/B/C.
 
-Reject: cropped head/hair; distorted proportions; pasted-on person or halo; mismatched lighting; wardrobe drift; frozen repeated poses; text/logo/watermark; celebrity likeness; sexualized or childlike styling; or more than 15% required crop.
+Reject: cropped head/hair; distorted proportions; pasted-on person or halo; mismatched lighting; wardrobe drift; frozen repeated poses; text/logo/watermark; celebrity likeness; or sexualized or childlike styling. For Reel, reject a source that is not composed directly as 9:16. For Carousel only, reject more than 15% required crop.
 
 ## Phase 4: Normalize To Exact Canva Pixels
 
@@ -180,7 +238,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\10_automation\mika_wee
   -SourceC accepted_C.png
 ```
 
-`prepare_canva_ready_assets.py` must never stretch, must reject crop above 15%, and writes exact files plus `canva_ready_manifest.json` under `generated_images/{carousel_id}/canva_ready/`.
+This phase is Carousel-only. `prepare_canva_ready_assets.py` must never stretch, must reject crop above 15%, and writes exact files plus `canva_ready_manifest.json` under `generated_images/{carousel_id}/canva_ready/`. Reel assets bypass this phase because they are generated directly for 9:16.
 
 Inspect all three exact outputs. Keep status `needs_canva_frame_review` until the Canva preview passes.
 
@@ -220,8 +278,8 @@ Connector sequence:
 2. Start a Canva transaction on the weekly duplicate.
 3. Read every page image asset before replacement.
 4. Replace only the registered A/B/C element ids.
-5. Download and inspect the draft thumbnail.
-6. Show the preview to the user.
+5. Download the draft thumbnail into the look's `carousel/canva_ready/` folder and inspect the local PNG.
+6. Show the preview in Codex with the local PNG's absolute filesystem path. Do not embed Canva's temporary signed thumbnail URL directly; it may not render in the desktop conversation and it expires.
 7. Ask explicitly whether to save.
 8. Commit only after `同意保存` or equivalent explicit approval.
 9. Cancel if rejected.
@@ -288,6 +346,10 @@ This is the intentional manual boundary:
 Do not export the unsliced panorama as the post.
 
 ## Phase 9: Record Publish Result
+
+For the current Reel contract, prepare `reels/production_manifest.json` using `prepare_reel_production.py`. Its five Reel records link both look IDs, four asset slots, storyboard, actual generation settings, clip selection, QA, timing and publication. Do not infer accepted files from names. Use `record_reel_metrics.py publish` to link an actual post to its explicit `reel_id`, then `snapshot` at 24h, 72h and 7d. Missing values remain empty; historical lifetime snapshots stay separate from fixed-age comparisons. See `07_metrics/REEL_METRICS.md`.
+
+The command below remains for legacy Carousel records:
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\10_automation\mika_weekly.ps1 `

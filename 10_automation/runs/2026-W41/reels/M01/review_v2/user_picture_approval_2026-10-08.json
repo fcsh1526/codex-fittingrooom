@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-08",
+  "user_quote": "ok",
+  "context": "Direct response to displayed M01 9.5s v2 cuff-correction film and specific playback/acceptance request.",
+  "file": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+  "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+  "scope": "Accept this exact corrected film picture for use; not other stills, proof images, Carousel assets, other films or metrics.",
+  "user_full_duration_playback_self_report": null,
+  "assistant_continuous_playback_review": false,
+  "status": "user_picture_accepted",
+  "prior_v1": "Rejected and preserved; no retrospective acceptance."
+}

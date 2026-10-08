@@ -1,0 +1,28 @@
+# Mira Daily Image Job
+
+- carousel_id: `2026-W41-001`
+- look_id: `2026-W41-001-L01`
+- look_name: 奶油白短外套配可可棕長褲
+- model_profile_id: `M05`
+- delivery_surface: `carousel`
+- reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_face.png`
+- reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M05_start_v1_full.png`
+- attach_reference_images: `required`
+- trend: 短領口薄外套與俐落短比例
+- clothing_item: 奶油白短版無鋪棉立領外套，敞開；白色圓領棉短袖；可可棕高腰直筒斜紋長褲；黑色低跟樂福鞋；黑色小方肩包；窄黑皮帶
+- occasion: 通勤
+- frame_plan: carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16
+- required_frames: 3
+- canva_template: `v3-B` / Mira Template Master v3 - B Cross-Boundary Symmetric
+- canva_slot_targets: `canva_slot_targets.json`
+- canva_crop_limit: `15%`
+
+Generate Carousel A first. After acceptance, B Scene Application and C Accessory Detail are both required.
+Do not reuse one surface's crop as the other surface's source.
+Keep anatomy, identity, contact-shadow, crop-safety, and platform checks in review_sheet.csv rather than adding them to the generation prompt.
+
+Codex handoff:
+
+```text
+C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\10_automation\runs\2026-W41\generated_images\2026-W41-001\looks\2026-W41-001-L01\carousel\codex_generation_handoff.md
+```

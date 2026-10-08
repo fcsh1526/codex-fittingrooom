@@ -1,0 +1,16 @@
+{
+  "look_id": "2026-W41-002-L02",
+  "model": "M01",
+  "role": "proof",
+  "path": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L02/reel/2026-W41-002-L02_M01_reel_proof_candidate_v1.png",
+  "sha256": "ffec98e8536ad02c996cc27c68f9ed4839a8836eefd499618e847101d1bc6ba0",
+  "actual_pixels": [
+    941,
+    1672
+  ],
+  "generator": "built_in_image_gen",
+  "tool_wall_seconds": 41.9,
+  "status": "needs_visual_revision_trouser_surface_pattern",
+  "user_approval": null,
+  "notes": "Head-to-thigh portrait shows cuffs, shirt tuck and waist; same face/scene. L02 decorative-looking trouser surface persists after one targeted edit; no second edit, no dynamic submission, not marked usable."
+}

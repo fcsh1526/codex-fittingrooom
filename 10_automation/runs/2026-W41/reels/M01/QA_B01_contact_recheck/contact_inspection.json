@@ -1,0 +1,43 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M01/B_attempt_01/source.mp4",
+  "source_sha256": "f4f84478fca2d306e99e97f97cef597aaff5f92c1da99341b6db516103f8325f",
+  "native_roi": [
+    224,
+    385,
+    472,
+    680
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "contact_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "contact_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "contact_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "contact_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "contact_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "contact_visual_result": "pending",
+  "continuous_playback_review": false
+}

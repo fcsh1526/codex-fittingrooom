@@ -1,0 +1,22 @@
+{
+  "model": "M05",
+  "user_quote": "兩張都可以，沿用",
+  "assets": [
+    {
+      "look_id": "2026-W41-001-L01",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_candidate_A.png",
+      "sha256": "a6f81b73b32cb3132d2856753c2bbb9138c220fb7f4869e6abd131ae1af3a499",
+      "approved_on": "2026-10-08",
+      "user_quote": "兩張都可以，沿用",
+      "scope": "this exact full-person still as video first-frame; no video approval"
+    },
+    {
+      "look_id": "2026-W41-001-L02",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L02/reel/2026-W41-001-L02_M05_reel_candidate_A.png",
+      "sha256": "39e649c463d627ab6923269bbff11c0bcd833c4ba34e769d3b98f5c305a417e8",
+      "approved_on": "2026-10-08",
+      "user_quote": "兩張都可以，沿用",
+      "scope": "this exact full-person still as video first-frame; no video approval"
+    }
+  ]
+}

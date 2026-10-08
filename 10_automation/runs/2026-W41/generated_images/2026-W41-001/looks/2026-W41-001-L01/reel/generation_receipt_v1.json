@@ -1,0 +1,31 @@
+{
+  "look_id": "2026-W41-001-L01",
+  "model": "M05",
+  "role": "reel_full_A",
+  "path": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_candidate_A.png",
+  "sha256": "a6f81b73b32cb3132d2856753c2bbb9138c220fb7f4869e6abd131ae1af3a499",
+  "actual_pixels": [
+    941,
+    1672
+  ],
+  "composition": "direct_native_portrait_9x16",
+  "generator": "built_in_image_gen",
+  "prompt": "production_prompt_v1.txt",
+  "reference_face": "02_brand/reference_models/M05_start_v1_face.png",
+  "reference_full": "02_brand/reference_models/M05_start_v1_full.png",
+  "additional_reference_role": null,
+  "tool_wall_seconds": 45.6,
+  "human_active_minutes": null,
+  "assistant_static_review": {
+    "identity": "recognizable face/hair; no numeric age in prompt",
+    "outfit": "planned jacket/collar/tee/trousers/black belt/shoes/bag visible",
+    "framing": "complete hair and both shoes; overhead and floor margins; centered width",
+    "hands": "relaxed separate hands without prominent apparent deformation",
+    "integration": "shared left daylight and floor contact shadows",
+    "continuity": "paired still positions and background appear closely matched; not a dynamic pass"
+  },
+  "status": "candidate_pending_user_visual_approval",
+  "user_approval": null,
+  "grok_submitted": false,
+  "dynamic_QA": null
+}

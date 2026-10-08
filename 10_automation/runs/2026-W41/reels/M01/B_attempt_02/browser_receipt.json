@@ -1,0 +1,23 @@
+{
+  "week": "2026-W41",
+  "model": "M01",
+  "shot": "B",
+  "attempt": 2,
+  "first_frame": "2026-W41-002-L02_M01_reel_candidate_A.png",
+  "saved_reference_name": "Mira M01 v4 face",
+  "mode": "Video",
+  "ui_resolution": "720p",
+  "ui_duration": "6s",
+  "ui_aspect": "9:16",
+  "ui_audio": false,
+  "initial_click_at": "2026-10-08T07:15:11.011Z",
+  "initial_click_result": "input remained; no result observed; refocused and dispatched once from fresh AX",
+  "submitted_at": "2026-10-08T07:17:56.617Z",
+  "result_url": "https://grok.com/imagine/post/ba8c9abd-1cbf-4c2e-9de7-6460d6fb9319?conversation=152f50de-ddc4-4b22-82c4-1d5c7e31a49a",
+  "observed_pixels": [
+    720,
+    1280
+  ],
+  "observed_seconds": 6.041667,
+  "status": "downloaded_contact_QA_pending"
+}

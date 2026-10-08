@@ -1,0 +1,109 @@
+{
+  "request_date": "2026-10-08",
+  "request": "實驗後持續交付下一批五支可發布 Reel；上一批數據待整理，不以數據整理阻擋新批製作。",
+  "deliverable_count": 5,
+  "production_authorized": true,
+  "editorial_scope": "new_current_week_from_user_opened_weekly_report",
+  "content_week": "2026-W41",
+  "source": "https://mika-lin-weekly.pplx.app/weeks/2026-W41.html",
+  "source_observation": "User opened homepage successfully; W41 page and downloadable CSV read. Earlier login redirects are historical failed attempts.",
+  "models": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05"
+  ],
+  "rules": {
+    "one_model_per_reel": true,
+    "two_complete_looks_per_reel": true,
+    "native_portrait_full_person_source_per_look": true,
+    "usable_styling_proof_per_look": true,
+    "baked_text": "none",
+    "default_dissolve_seconds": 0.75,
+    "source_motion_speed": "unchanged",
+    "music": "clean_master_first; music_rights_and_IG_choice_separate",
+    "new_still_requires_user_visual_approval": true,
+    "final_reel_requires_user_visual_approval": true,
+    "previous_five_reels": "preserve_original_paths_files_and_Drive_IDs",
+    "research_and_metrics": "separate_from_current_delivery; prior_metrics_not_a_production_blocker"
+  },
+  "planning_order": [
+    "confirm_content_source_and_week",
+    "five_themes_and_ten_looks",
+    "whole_film_visual_theme_and_adjacent_shot_continuity",
+    "first_frame_and_styling_proof_requirements",
+    "new_still_generation_and_visual_approval",
+    "single_look_video_generation_and_dynamic_QA",
+    "paired_look_edit_and_normal_playback_review",
+    "five_distinct_delivery_files_and_mobile_readable_captions"
+  ],
+  "continuity_checks": [
+    "head_waist_shoes_and_garment_bounds_at_join",
+    "similar_subject_scale_attention_position_and_light",
+    "enough_unobscured_time_to_read_each_complete_outfit",
+    "single_shot_face_garment_hand_bag_and_background_stability",
+    "normal_playback_comfort; intended_dissolve_overlap_is_not_an_automatic_failure"
+  ],
+  "slots": [
+    {
+      "model": "M01",
+      "theme": "格紋單品與素色留白",
+      "looks": [
+        "2026-W41-002-L01",
+        "2026-W41-002-L02"
+      ],
+      "status": "film_picture_accepted_proof_and_carousel_incomplete",
+      "final_file": null,
+      "candidate_file": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "prior_candidate_status": "review_v1_rejected_by_user_B_hand_cloth_contact; preserved",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "user_approval": "10_automation/runs/2026-W41/reels/M01/review_v2/user_picture_approval_2026-10-08.json"
+    },
+    {
+      "model": "M02",
+      "theme": "可可棕直筒丹寧",
+      "looks": [
+        "2026-W41-003-L01",
+        "2026-W41-003-L02"
+      ],
+      "status": "two_full_first_frame_candidates_pending_user_visual_approval",
+      "final_file": null,
+      "first_frame_candidates": [
+        "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
+        "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v3.png"
+      ]
+    },
+    {
+      "model": "M03",
+      "theme": "放鬆剪裁與輕薄西裝",
+      "looks": [
+        "2026-W41-004-L01",
+        "2026-W41-004-L02"
+      ],
+      "status": "storyboard_prepared_new_stills_pending",
+      "final_file": null
+    },
+    {
+      "model": "M04",
+      "theme": "亮色包款與首飾單點",
+      "looks": [
+        "2026-W41-005-L01",
+        "2026-W41-005-L02"
+      ],
+      "status": "storyboard_prepared_new_stills_pending",
+      "final_file": null
+    },
+    {
+      "model": "M05",
+      "theme": "短領口薄外套與俐落短比例",
+      "looks": [
+        "2026-W41-001-L01",
+        "2026-W41-001-L02"
+      ],
+      "status": "video_candidate_pending_user_playback_review_and_proof_completion",
+      "final_file": null,
+      "candidate_file": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4"
+    }
+  ]
+}

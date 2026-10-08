@@ -1,0 +1,159 @@
+{
+  "week": "2026-W41",
+  "model": "M05",
+  "look_ids": [
+    "2026-W41-001-L01",
+    "2026-W41-001-L02"
+  ],
+  "output_path": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+  "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd",
+  "native_pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 192,
+  "duration_seconds": 8,
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W41/reels/M05/A_attempt_01/source.mp4",
+      "sha256": "1f159d2fb4b120b70577c6fd8bdd96af3d31ef022895a3ce466fe78c4a25f3e5",
+      "selected_frames_half_open": [
+        0,
+        114
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W41/reels/M05/B_attempt_01/source.mp4",
+      "sha256": "27e3fe4de245930b788ef22cfea4a3ec353c93f1386a917234273f250340b4a3",
+      "selected_frames_half_open": [
+        0,
+        96
+      ]
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      96,
+      114
+    ],
+    "start_seconds": 4,
+    "end_seconds": 4.75
+  },
+  "source_speed": "unchanged",
+  "framing_transform": "none",
+  "freeze_reverse_replay": false,
+  "text": "none",
+  "audio": "none",
+  "interval_reason": "A finishes its gesture before the overlap; B finishes its gesture with a short clean settle. Later idle time and additional foot rotation excluded.",
+  "technical_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.0
+    },
+    "decoded_frames": 192,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 8.0,
+    "individual_PTS_measured": false
+  },
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80,
+      88,
+      96,
+      103,
+      111,
+      119,
+      127,
+      135,
+      143,
+      151,
+      159,
+      167,
+      175,
+      183,
+      191
+    ],
+    "face_checkpoint_indices": [
+      0,
+      48,
+      96,
+      143,
+      191
+    ],
+    "transition_boundary_indices": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "source_sampled_visual_review": "25 full-frame and 5 face samples for each source: no apparent identity/clothing/background instability; actual hand begins higher than specified waist.",
+  "combined_visual_QA": "sampled_QA_checked_user_playback_review_pending",
+  "continuous_playback_review": false,
+  "user_approval": null,
+  "status": "candidate_pending_user_playback_review",
+  "prior_batch_write": false
+}

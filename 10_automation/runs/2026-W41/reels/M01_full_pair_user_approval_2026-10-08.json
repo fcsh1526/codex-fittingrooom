@@ -1,0 +1,23 @@
+{
+  "model": "M01",
+  "week": "2026-W41",
+  "user_quote": "兩張都可以，沿用",
+  "files": [
+    {
+      "look_id": "2026-W41-002-L01",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L01/reel/2026-W41-002-L01_M01_reel_candidate_A.png",
+      "sha256": "6cfca0f35e8bb6f1693a95376e22a1a14fa126b2b8edf16b1e72b623aeca428e",
+      "approved_on": "2026-10-08",
+      "user_quote": "兩張都可以，沿用",
+      "scope": "this exact full-person still as video first frame; no video approval"
+    },
+    {
+      "look_id": "2026-W41-002-L02",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L02/reel/2026-W41-002-L02_M01_reel_candidate_A.png",
+      "sha256": "2b0c67033573f1dc89ca0d00e40ac778f599b1affbbdf96a96036c787c4d4df6",
+      "approved_on": "2026-10-08",
+      "user_quote": "兩張都可以，沿用",
+      "scope": "this exact full-person still as video first frame; no video approval"
+    }
+  ]
+}

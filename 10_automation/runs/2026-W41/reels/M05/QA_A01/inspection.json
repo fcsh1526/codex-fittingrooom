@@ -1,0 +1,80 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M05/A_attempt_01/source.mp4",
+  "source_sha256": "1f159d2fb4b120b70577c6fd8bdd96af3d31ef022895a3ce466fe78c4a25f3e5",
+  "technical": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W41\\reels\\M05\\A_attempt_01\\source.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.04
+    },
+    "decoded_frames": 145,
+    "decoded_seconds": 6.041666666666667,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60,
+      66,
+      72,
+      78,
+      84,
+      90,
+      96,
+      102,
+      108,
+      114,
+      120,
+      126,
+      132,
+      138,
+      144
+    ],
+    "face_checkpoint_indices": [
+      0,
+      36,
+      72,
+      108,
+      144
+    ],
+    "transition_boundary_indices": [],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "audio_stream_count": 0,
+  "stream_declarations": [
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 2598 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "Stream #0:1[0x0]: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x1280 [SAR 1:1 DAR 9:16], 90k tbr, 90k tbn (attached pic)"
+  ],
+  "assistant_static_dynamic_review": "pending",
+  "continuous_playback_review": false,
+  "user_video_approval": null
+}

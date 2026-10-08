@@ -1,0 +1,858 @@
+{
+  "editing_defaults": {
+    "transition": "cross_dissolve",
+    "duration_seconds": 0.75,
+    "character_action": "unchanged",
+    "source_speed": "unchanged",
+    "decision_date": "2026-10-02",
+    "applies_to": "subsequent_edits",
+    "historical_exports": "preserved",
+    "evidence": "User: 之後所有的切換都要柔和一點，約0.75秒疊加"
+  },
+  "schema_version": 1,
+  "week_id": "2026-W41",
+  "mass_production_gate": "W37_M02_technical_pilot_passed_2026-09-29; current_new_stills_and_final_films_require_separate_visual_approval",
+  "reels": [
+    {
+      "reel_id": "2026-W41-M05-reel",
+      "week_id": "2026-W41",
+      "theme_id": "2026-W41-001",
+      "model_profile_id": "M05",
+      "look_ids": [
+        "2026-W41-001-L01",
+        "2026-W41-001-L02"
+      ],
+      "theme": "短領口薄外套與俐落短比例",
+      "audience_problem": "想在冷氣房加外套，走到室外又怕太厚太悶。",
+      "editorial_candidates": [
+        "選一件無鋪棉短版立領外套，搭短袖棉上衣和直筒褲，室內扣上、室外敞開。",
+        "選一件無鋪棉短版立領外套，搭短袖棉上衣和直筒褲，室內扣上、室外敞開。"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M05_start_v1_face.png",
+        "full": "02_brand/reference_models/M05_start_v1_full.png",
+        "saved_reference_name": null
+      },
+      "views": [
+        {
+          "slot_id": "2026-W41-001-L01_full",
+          "look_id": "2026-W41-001-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_candidate_A.png",
+          "source_type": "native_reel_approved_still",
+          "approval": {
+            "look_id": "2026-W41-001-L01",
+            "file": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_candidate_A.png",
+            "sha256": "a6f81b73b32cb3132d2856753c2bbb9138c220fb7f4869e6abd131ae1af3a499",
+            "approved_on": "2026-10-08",
+            "user_quote": "兩張都可以，沿用",
+            "scope": "this exact full-person still as video first-frame; no video approval"
+          },
+          "framing_review": "assistant_static_pass_user_approved",
+          "clarity_review": "assistant_static_pass_user_approved",
+          "evidence": "奶油白短版無鋪棉立領外套，敞開；白色圓領棉短袖；可可棕高腰直筒斜紋長褲；黑色低跟樂福鞋；黑色小方肩包；窄黑皮帶"
+        },
+        {
+          "slot_id": "2026-W41-001-L01_proof",
+          "look_id": "2026-W41-001-L01",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_proof_candidate_v1.png",
+          "source_type": "native_vertical_proof_candidate",
+          "approval": null,
+          "framing_review": "assistant_static_pass_user_pending",
+          "clarity_review": "assistant_static_pass_user_pending",
+          "evidence": "短立領與腰胯上方衣長；敞開外套內的短袖、直筒褲腳及鞋面"
+        },
+        {
+          "slot_id": "2026-W41-001-L02_full",
+          "look_id": "2026-W41-001-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L02/reel/2026-W41-001-L02_M05_reel_candidate_A.png",
+          "source_type": "native_reel_approved_still",
+          "approval": {
+            "look_id": "2026-W41-001-L02",
+            "file": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L02/reel/2026-W41-001-L02_M05_reel_candidate_A.png",
+            "sha256": "39e649c463d627ab6923269bbff11c0bcd833c4ba34e769d3b98f5c305a417e8",
+            "approved_on": "2026-10-08",
+            "user_quote": "兩張都可以，沿用",
+            "scope": "this exact full-person still as video first-frame; no video approval"
+          },
+          "framing_review": "assistant_static_pass_user_approved",
+          "clarity_review": "assistant_static_pass_user_approved",
+          "evidence": "炭灰短版無鋪棉立領外套，敞開；奶油白圓領棉短袖；淺灰高腰直筒斜紋長褲；黑色低跟樂福鞋；黑色小方肩包；窄黑皮帶"
+        },
+        {
+          "slot_id": "2026-W41-001-L02_proof",
+          "look_id": "2026-W41-001-L02",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L02/reel/2026-W41-001-L02_M05_reel_proof_candidate_v1.png",
+          "source_type": "native_vertical_proof_candidate",
+          "approval": null,
+          "framing_review": "assistant_static_pass_user_pending",
+          "clarity_review": "assistant_static_pass_user_pending",
+          "evidence": "同樣短衣長、短立領和短袖內搭，改為淺灰下身的明暗關係"
+        }
+      ],
+      "visual_theme": "外套先看領口與衣長",
+      "storyboard": [
+        {
+          "shot_id": "A",
+          "look_id": "2026-W41-001-L01",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手在外套腰側前緣輕扶一下後自然放下，露出短袖與短衣長；包在另一側且不遮腰線",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "短立領與腰胯上方衣長；敞開外套內的短袖、直筒褲腳及鞋面",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        },
+        {
+          "shot_id": "B",
+          "look_id": "2026-W41-001-L02",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手在外套腰側前緣輕扶一下後自然放下，露出短袖與短衣長；包在另一側且不遮腰線",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "同樣短衣長、短立領和短袖內搭，改為淺灰下身的明暗關係",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        }
+      ],
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "generation": {
+        "settings": {
+          "mode": "video",
+          "resolution": "720p",
+          "duration": 6,
+          "aspect": "9:16",
+          "audio": false,
+          "saved_reference": "Mira M05 v1 face"
+        },
+        "prompt_version": "motion_prompt_v1",
+        "trials": [
+          {
+            "look_id": "2026-W41-001-L01",
+            "attempt": 1,
+            "source": "10_automation/runs/2026-W41/reels/M05/A_attempt_01/source.mp4",
+            "browser_receipt": "10_automation\\runs\\2026-W41\\reels\\M05\\A_attempt_01\\browser_receipt.json"
+          },
+          {
+            "look_id": "2026-W41-001-L02",
+            "attempt": 1,
+            "source": "10_automation/runs/2026-W41/reels/M05/B_attempt_01/source.mp4",
+            "browser_receipt": "10_automation\\runs\\2026-W41\\reels\\M05\\B_attempt_01\\browser_receipt.json"
+          }
+        ]
+      },
+      "output_path": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "qa": {
+        "status": "sampled_QA_checked_user_playback_review_pending",
+        "continuous_watch_done": false,
+        "user_approval": null
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4"
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "video_candidate_pending_user_playback_review_and_proof_completion",
+      "join": {
+        "type": "cross_dissolve",
+        "seconds": 0.75,
+        "basis": "similar full-person scale, face/waist/shoe position, light and settled gesture phase",
+        "note": "Actual cut timing chosen from motion sources; overlap is intentional. No speed change, freeze or reverse."
+      },
+      "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change."
+    },
+    {
+      "reel_id": "2026-W41-M01-reel",
+      "week_id": "2026-W41",
+      "theme_id": "2026-W41-002",
+      "model_profile_id": "M01",
+      "look_ids": [
+        "2026-W41-002-L01",
+        "2026-W41-002-L02"
+      ],
+      "theme": "格紋單品與素色留白",
+      "audience_problem": "喜歡格紋，但一穿上身就覺得整套太花、不像平日通勤。",
+      "editorial_candidates": [
+        "讓薄格紋襯衫成為唯一圖案，搭深色直筒褲和素色配件。",
+        "讓薄格紋襯衫成為唯一圖案，搭深色直筒褲和素色配件。"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M01_start_v4_face.png",
+        "full": "02_brand/reference_models/M01_start_v4_full.png",
+        "saved_reference_name": "Mira M01 v4 face"
+      },
+      "views": [
+        {
+          "slot_id": "2026-W41-002-L01_full",
+          "look_id": "2026-W41-002-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L01/reel/2026-W41-002-L01_M01_reel_candidate_A.png",
+          "source_type": "native_reel_approved_still",
+          "approval": {
+            "look_id": "2026-W41-002-L01",
+            "file": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L01/reel/2026-W41-002-L01_M01_reel_candidate_A.png",
+            "sha256": "6cfca0f35e8bb6f1693a95376e22a1a14fa126b2b8edf16b1e72b623aeca428e",
+            "approved_on": "2026-10-08",
+            "user_quote": "兩張都可以，沿用",
+            "scope": "this exact full-person still as video first frame; no video approval"
+          },
+          "framing_review": "assistant_static_pass_user_approved",
+          "clarity_review": "assistant_static_pass_user_approved",
+          "evidence": "奶油白海軍藍薄棉格紋襯衫，尖領、袖口翻一折、下襬整齊紮入；炭灰高腰直筒長褲；黑色低跟便鞋；黑色小方肩包；小型銀耳針"
+        },
+        {
+          "slot_id": "2026-W41-002-L01_proof",
+          "look_id": "2026-W41-002-L01",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L01/reel/2026-W41-002-L01_M01_reel_proof_candidate_v1.png",
+          "source_type": "native_vertical_proof_candidate",
+          "approval": null,
+          "framing_review": "assistant_static_pass",
+          "clarity_review": "candidate_user_pending",
+          "evidence": "格紋只在上衣；整段素色褲鞋包清楚可見"
+        },
+        {
+          "slot_id": "2026-W41-002-L02_full",
+          "look_id": "2026-W41-002-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L02/reel/2026-W41-002-L02_M01_reel_candidate_A.png",
+          "source_type": "native_reel_approved_still",
+          "approval": {
+            "look_id": "2026-W41-002-L02",
+            "file": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L02/reel/2026-W41-002-L02_M01_reel_candidate_A.png",
+            "sha256": "2b0c67033573f1dc89ca0d00e40ac778f599b1affbbdf96a96036c787c4d4df6",
+            "approved_on": "2026-10-08",
+            "user_quote": "兩張都可以，沿用",
+            "scope": "this exact full-person still as video first frame; no video approval"
+          },
+          "framing_review": "assistant_static_pass_user_approved",
+          "clarity_review": "assistant_static_pass_user_approved",
+          "evidence": "可可棕奶油白細格薄棉襯衫，尖領、袖口翻一折、下襬整齊紮入；深海軍藍高腰直筒長褲；深棕低跟便鞋；深棕小方肩包；小型銀耳針"
+        },
+        {
+          "slot_id": "2026-W41-002-L02_proof",
+          "look_id": "2026-W41-002-L02",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L02/reel/2026-W41-002-L02_M01_reel_proof_candidate_v2.png",
+          "source_type": "native_vertical_proof_candidate",
+          "approval": null,
+          "framing_review": "assistant_static_pass",
+          "clarity_review": "needs_visual_revision_surface_pattern",
+          "evidence": "細格僅在上衣；深色褲鞋包與格紋形成留白"
+        }
+      ],
+      "visual_theme": "格紋只放一件就夠",
+      "storyboard": [
+        {
+          "shot_id": "A",
+          "look_id": "2026-W41-002-L01",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手輕順已翻折的襯衫袖口後放下，保留格紋上衣與素色下身的完整關係",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "格紋只在上衣；整段素色褲鞋包清楚可見",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        },
+        {
+          "shot_id": "B",
+          "look_id": "2026-W41-002-L02",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手輕順已翻折的襯衫袖口後放下，保留格紋上衣與素色下身的完整關係",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "細格僅在上衣；深色褲鞋包與格紋形成留白",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        }
+      ],
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "generation": {
+        "settings": {
+          "mode": "video",
+          "resolution": "720p",
+          "duration": 6,
+          "aspect": "9:16",
+          "audio": false,
+          "saved_reference": "Mira M01 v4 face"
+        },
+        "prompt_version": "A_motion_v1_B_motion_v2_contact_correction",
+        "trials": [
+          {
+            "look_id": "2026-W41-002-L01",
+            "attempt": 1,
+            "source": "10_automation/runs/2026-W41/reels/M01/A_attempt_01/source.mp4",
+            "browser_receipt": "10_automation\\runs\\2026-W41\\reels\\M01\\A_attempt_01\\browser_receipt.json"
+          },
+          {
+            "look_id": "2026-W41-002-L02",
+            "attempt": 2,
+            "source": "10_automation/runs/2026-W41/reels/M01/B_attempt_02/source.mp4",
+            "browser_receipt": "10_automation\\runs\\2026-W41\\reels\\M01\\B_attempt_02\\browser_receipt.json"
+          }
+        ]
+      },
+      "output_path": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "qa": {
+        "status": "sampled_review_complete_user_picture_accepted",
+        "continuous_watch_done": false,
+        "user_approval": "10_automation/runs/2026-W41/reels/M01/review_v2/user_picture_approval_2026-10-08.json",
+        "feedback": {
+          "date": "2026-10-08",
+          "model": "M01",
+          "file": "10_automation/runs/2026-W41/reels/M01/review_v1/2026-W41_M01_two_looks_soft_v1.mp4",
+          "sha256": "288dec4e071e07beba6cafcff58568a2e1df9472d2a24ce34e822836bbf8a709",
+          "user_quote": "第二鏡頭的袖口動作是虛的，手跟衣服沒有互動",
+          "decision": "rejected_hand_cloth_contact",
+          "scope": "second shot; no acceptance of first shot inferred",
+          "source": "10_automation/runs/2026-W41/reels/M01/B_attempt_01/source.mp4",
+          "source_sha256": "f4f84478fca2d306e99e97f97cef597aaff5f92c1da99341b6db516103f8325f",
+          "response": "Keep A original bytes and approved B first frame. One B retry with visible thumb/index contact at actual folded cuff edge on forearm, cloth response and release; inspect consecutive contact frames. Original film retained as failed version."
+        },
+        "review_receipt": "10_automation/runs/2026-W41/reels/M01/review_v2/root_review_2026-10-08.json"
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4"
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "film_picture_accepted_proof_and_carousel_incomplete",
+      "join": {
+        "type": "cross_dissolve",
+        "seconds": 0.75,
+        "basis": "similar full-person scale, face/waist/shoe position, light and settled gesture phase",
+        "note": "Actual cut timing chosen from motion sources; overlap is intentional. No speed change, freeze or reverse."
+      },
+      "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change.",
+      "revision_history": [
+        {
+          "file": "10_automation/runs/2026-W41/reels/M01/review_v1/2026-W41_M01_two_looks_soft_v1.mp4",
+          "sha256": "288dec4e071e07beba6cafcff58568a2e1df9472d2a24ce34e822836bbf8a709",
+          "status": "user_rejected_B_hand_cloth_contact",
+          "feedback": "第二鏡頭的袖口動作是虛的，手跟衣服沒有互動"
+        }
+      ]
+    },
+    {
+      "reel_id": "2026-W41-M02-reel",
+      "week_id": "2026-W41",
+      "theme_id": "2026-W41-003",
+      "model_profile_id": "M02",
+      "look_ids": [
+        "2026-W41-003-L01",
+        "2026-W41-003-L02"
+      ],
+      "theme": "可可棕直筒丹寧",
+      "audience_problem": "藍色牛仔褲穿膩了，卻不知道棕色丹寧怎麼搭才不沉重。",
+      "editorial_candidates": [
+        "用可可棕直筒丹寧配奶油白棉上衣，鞋包固定黑色。",
+        "用可可棕直筒丹寧配奶油白棉上衣，鞋包固定黑色。"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M02_start_v3_face.png",
+        "full": "02_brand/reference_models/M02_start_v3_full.png",
+        "saved_reference_name": null
+      },
+      "views": [
+        {
+          "slot_id": "2026-W41-003-L01_full",
+          "look_id": "2026-W41-003-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
+          "source_type": "native_reel_candidate_still",
+          "approval": null,
+          "framing_review": "assistant_static_pass_pending_user",
+          "clarity_review": "assistant_static_pass_pending_user",
+          "evidence": "奶油白圓領棉短袖，整齊紮入；可可棕高腰直筒丹寧褲，無刷破、褲腳停在鞋面；米白薄短外套敞開；黑色低跟便鞋；黑色小方肩包；黑色窄皮帶"
+        },
+        {
+          "slot_id": "2026-W41-003-L01_proof",
+          "look_id": "2026-W41-003-L01",
+          "role": "proof",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "白上衣、棕色丹寧和黑鞋包的三色分工，能辨認腰頭與直筒褲腳"
+        },
+        {
+          "slot_id": "2026-W41-003-L02_full",
+          "look_id": "2026-W41-003-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v3.png",
+          "source_type": "native_reel_candidate_still",
+          "approval": null,
+          "framing_review": "assistant_static_pass_pending_user",
+          "clarity_review": "assistant_static_pass_pending_user",
+          "evidence": "白色棉質短袖尖領襯衫，整齊紮入；可可棕高腰直筒丹寧褲，無刷破、褲腳停在鞋面；黑色低跟便鞋；黑色小方肩包；黑色窄皮帶"
+        },
+        {
+          "slot_id": "2026-W41-003-L02_proof",
+          "look_id": "2026-W41-003-L02",
+          "role": "proof",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "相同棕色直筒丹寧，白棉T換成白襯衫，腰線和鞋包保持清楚"
+        }
+      ],
+      "visual_theme": "棕色牛仔褲配白上衣",
+      "storyboard": [
+        {
+          "shot_id": "A",
+          "look_id": "2026-W41-003-L01",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "往前短跨一步後自然停住，褲腳與鞋子保持可見，手臂放鬆不插口袋",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "白上衣、棕色丹寧和黑鞋包的三色分工，能辨認腰頭與直筒褲腳",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        },
+        {
+          "shot_id": "B",
+          "look_id": "2026-W41-003-L02",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "往前短跨一步後自然停住，褲腳與鞋子保持可見，手臂放鬆不插口袋",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "相同棕色直筒丹寧，白棉T換成白襯衫，腰線和鞋包保持清楚",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        }
+      ],
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "generation": {
+        "settings": null,
+        "prompt_version": null,
+        "trials": []
+      },
+      "output_path": null,
+      "qa": {
+        "status": "no_video_yet",
+        "continuous_watch_done": false,
+        "user_approval": null
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": null
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "two_full_first_frame_candidates_pending_user_visual_approval",
+      "join": {
+        "type": "cross_dissolve",
+        "seconds": 0.75,
+        "basis": "similar full-person scale, face/waist/shoe position, light and settled gesture phase",
+        "note": "Actual cut timing chosen from motion sources; overlap is intentional. No speed change, freeze or reverse."
+      },
+      "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change.",
+      "starting_source_review": "L01 v4 + L02 v3 only. Earlier decorative texture versions rejected. Both bags image-left; native full person. Modest independent cafe geometry differences require generated join review."
+    },
+    {
+      "reel_id": "2026-W41-M03-reel",
+      "week_id": "2026-W41",
+      "theme_id": "2026-W41-004",
+      "model_profile_id": "M03",
+      "look_ids": [
+        "2026-W41-004-L01",
+        "2026-W41-004-L02"
+      ],
+      "theme": "放鬆剪裁與輕薄西裝",
+      "audience_problem": "每天穿西裝上班很容易像制服，脫掉外套又少了正式感。",
+      "editorial_candidates": [
+        "用無鋪棉輕薄西外搭棉質短袖上衣和直筒褲，保留一件正式外層即可。",
+        "用無鋪棉輕薄西外搭棉質短袖上衣和直筒褲，保留一件正式外層即可。"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M03_start_v3_face.png",
+        "full": "02_brand/reference_models/M03_start_v3_full.png",
+        "saved_reference_name": null
+      },
+      "views": [
+        {
+          "slot_id": "2026-W41-004-L01_full",
+          "look_id": "2026-W41-004-L01",
+          "role": "full",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "米白無鋪棉輕薄單排扣西裝外套，敞開、袖口翻一折；白色圓領棉短袖紮入；深藍高腰直筒長褲；黑色低跟便鞋；深棕肩背包；小型銀耳針"
+        },
+        {
+          "slot_id": "2026-W41-004-L01_proof",
+          "look_id": "2026-W41-004-L01",
+          "role": "proof",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "外套翻領、棉T圓領、翻折袖口與直筒褲的正式／日常關係"
+        },
+        {
+          "slot_id": "2026-W41-004-L02_full",
+          "look_id": "2026-W41-004-L02",
+          "role": "full",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "深藍無鋪棉輕薄單排扣西裝外套，敞開、袖口翻一折；淺灰圓領棉短袖紮入；奶油白高腰直筒長褲；黑色低跟便鞋；黑色肩背包；小型銀耳針"
+        },
+        {
+          "slot_id": "2026-W41-004-L02_proof",
+          "look_id": "2026-W41-004-L02",
+          "role": "proof",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "相同西外配圓領棉T的規則，以深外層和淺色直筒褲形成第二套"
+        }
+      ],
+      "visual_theme": "西裝裡面換成棉上衣",
+      "storyboard": [
+        {
+          "shot_id": "A",
+          "look_id": "2026-W41-004-L01",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手輕順已翻折的西外袖口後放下，外套敞開，棉T圓領全程可見",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "外套翻領、棉T圓領、翻折袖口與直筒褲的正式／日常關係",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        },
+        {
+          "shot_id": "B",
+          "look_id": "2026-W41-004-L02",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手輕順已翻折的西外袖口後放下，外套敞開，棉T圓領全程可見",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "相同西外配圓領棉T的規則，以深外層和淺色直筒褲形成第二套",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        }
+      ],
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "generation": {
+        "settings": null,
+        "prompt_version": null,
+        "trials": []
+      },
+      "output_path": null,
+      "qa": {
+        "status": "pending",
+        "continuous_watch_done": false,
+        "user_approval": null
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": null
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "storyboard_prepared_new_stills_pending",
+      "join": {
+        "type": "cross_dissolve",
+        "seconds": 0.75,
+        "basis": "similar full-person scale, face/waist/shoe position, light and settled gesture phase",
+        "note": "Actual cut timing chosen from motion sources; overlap is intentional. No speed change, freeze or reverse."
+      },
+      "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change."
+    },
+    {
+      "reel_id": "2026-W41-M04-reel",
+      "week_id": "2026-W41",
+      "theme_id": "2026-W41-005",
+      "model_profile_id": "M04",
+      "look_ids": [
+        "2026-W41-005-L01",
+        "2026-W41-005-L02"
+      ],
+      "theme": "亮色包款與首飾單點",
+      "audience_problem": "整身都穿黑白灰，拍照時常覺得沒有一個明確焦點。",
+      "editorial_candidates": [
+        "用一只鈷藍小肩包當唯一亮色，其餘服裝維持白、灰、黑。",
+        "用一只鈷藍小肩包當唯一亮色，其餘服裝維持白、灰、黑。"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M04_start_v3_face.png",
+        "full": "02_brand/reference_models/M04_start_v3_full.png",
+        "saved_reference_name": null
+      },
+      "views": [
+        {
+          "slot_id": "2026-W41-005-L01_full",
+          "look_id": "2026-W41-005-L01",
+          "role": "full",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "白色圓領棉短袖紮入；炭灰高腰直筒長褲；黑色無鋪棉薄短外套敞開；黑色低跟便鞋；鈷藍霧面小肩包、短肩帶；小型銀色幾何耳針"
+        },
+        {
+          "slot_id": "2026-W41-005-L01_proof",
+          "look_id": "2026-W41-005-L01",
+          "role": "proof",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "鈷藍包為唯一亮色；白灰黑衣服和小銀耳針不搶焦點"
+        },
+        {
+          "slot_id": "2026-W41-005-L02_full",
+          "look_id": "2026-W41-005-L02",
+          "role": "full",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "白色短袖棉襯衫整齊紮入；黑色高腰小腿中長A字棉裙；黑色圓方頭平底便鞋；鈷藍霧面小肩包、短肩帶；小型銀色幾何耳針"
+        },
+        {
+          "slot_id": "2026-W41-005-L02_proof",
+          "look_id": "2026-W41-005-L02",
+          "role": "proof",
+          "source_path": null,
+          "source_type": null,
+          "approval": null,
+          "framing_review": null,
+          "clarity_review": null,
+          "evidence": "褲裝改裙裝，唯一鈷藍包焦點保留；裙長與完整鞋包可見"
+        }
+      ],
+      "visual_theme": "中性色只亮一個配件",
+      "storyboard": [
+        {
+          "shot_id": "A",
+          "look_id": "2026-W41-005-L01",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手輕扶肩包短帶一次後放下，鈷藍包仍停在腰胯旁、不跨到衣服中央",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "鈷藍包為唯一亮色；白灰黑衣服和小銀耳針不搶焦點",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        },
+        {
+          "shot_id": "B",
+          "look_id": "2026-W41-005-L02",
+          "starting_view": "native_9x16_full_person",
+          "framing": "full_person",
+          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "face": "front or slight three-quarter; readable at opening; no large turn",
+          "light": "soft daylight from camera left; similar exposure in both looks",
+          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action": "空手輕扶肩包短帶一次後放下，鈷藍包仍停在腰胯旁、不跨到衣服中央",
+          "action_end": "hand relaxed; clothes unobscured; brief natural settle",
+          "camera": "fixed level 50mm view",
+          "generation_budget_seconds": 6,
+          "source_speed": "unchanged",
+          "outfit_information": "褲裝改裙裝，唯一鈷藍包焦點保留；裙長與完整鞋包可見",
+          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+        }
+      ],
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "generation": {
+        "settings": null,
+        "prompt_version": null,
+        "trials": []
+      },
+      "output_path": null,
+      "qa": {
+        "status": "pending",
+        "continuous_watch_done": false,
+        "user_approval": null
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": null
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "storyboard_prepared_new_stills_pending",
+      "join": {
+        "type": "cross_dissolve",
+        "seconds": 0.75,
+        "basis": "similar full-person scale, face/waist/shoe position, light and settled gesture phase",
+        "note": "Actual cut timing chosen from motion sources; overlap is intentional. No speed change, freeze or reverse."
+      },
+      "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change."
+    }
+  ],
+  "prior_batch": "W37 first-wave five preserved; no replacement authorized"
+}

@@ -1,0 +1,21 @@
+{
+  "week": "2026-W41",
+  "model": "M01",
+  "shot": "A",
+  "attempt": 1,
+  "first_frame": "2026-W41-002-L01_M01_reel_candidate_A.png",
+  "saved_reference_name": "Mira M01 v4 face",
+  "mode": "Video",
+  "ui_resolution": "720p",
+  "ui_duration": "6s",
+  "ui_aspect": "9:16",
+  "ui_audio": false,
+  "submitted_at": "2026-10-08T06:58:42.257Z",
+  "result_url": "https://grok.com/imagine/post/27e95016-f82b-4d82-a712-33d792e07784?conversation=ac1d33a4-3405-4e7e-9539-641283809154",
+  "observed_pixels": [
+    720,
+    1280
+  ],
+  "observed_seconds": 6.041667,
+  "status": "downloaded_dynamic_QA_pending"
+}

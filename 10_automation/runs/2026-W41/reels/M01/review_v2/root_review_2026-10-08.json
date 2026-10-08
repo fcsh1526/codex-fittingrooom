@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "film": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+  "film_sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+  "B_source_sha256": "608b15d2a563d48dd2ac5be420f82b5e299fd2e8199338c62ff76fbd2dfcab5e",
+  "source_inspection": {
+    "whole_frame_samples": 25,
+    "face_samples": 5,
+    "consecutive_hand_cloth_images": 145,
+    "observed_contact": "Fingers close at the visible forearm fold; local cloth gathers and moves with the hand, followed by release and return toward waist.",
+    "deviation": "Sustained small adjustment rather than one instantaneous tug; fold height moves modestly."
+  },
+  "combined_inspection": {
+    "whole_frame_samples": 25,
+    "consecutive_join_full_images": 34,
+    "consecutive_join_head_images": 34,
+    "observations": "Similar full-person scale and placement, broadly coherent bookstore geometry/exposure in inspected images; brief doubled outlines during the deliberate dissolve. No apparent major face pop or scene drift in inspected images."
+  },
+  "scope": "Image inspection and complete technical decode only; not continuous normal-speed playback or user acceptance.",
+  "A_retained_unchanged": true,
+  "continuous_playback_review": false,
+  "user_approval": "10_automation/runs/2026-W41/reels/M01/review_v2/user_picture_approval_2026-10-08.json",
+  "status": "sampled_review_complete_user_picture_accepted",
+  "prior_v1": "Rejected by user for B hand-cloth interaction; preserved."
+}

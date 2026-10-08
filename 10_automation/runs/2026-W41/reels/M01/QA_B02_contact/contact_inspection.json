@@ -1,0 +1,50 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M01/B_attempt_02/source.mp4",
+  "source_sha256": "608b15d2a563d48dd2ac5be420f82b5e299fd2e8199338c62ff76fbd2dfcab5e",
+  "native_roi": [
+    224,
+    385,
+    472,
+    680
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "contact_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "contact_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "contact_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "contact_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "contact_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "contact_visual_result": {
+    "whole_frame_samples": 25,
+    "face_samples": 5,
+    "consecutive_hand_cloth_images": 145,
+    "observed_contact": "Fingers close at the visible forearm fold; local cloth gathers and moves with the hand, followed by release and return toward waist.",
+    "deviation": "Sustained small adjustment rather than one instantaneous tug; fold height moves modestly."
+  },
+  "continuous_playback_review": false,
+  "user_approval": null
+}

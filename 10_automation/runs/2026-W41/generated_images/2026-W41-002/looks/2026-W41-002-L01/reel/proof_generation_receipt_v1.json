@@ -1,0 +1,16 @@
+{
+  "look_id": "2026-W41-002-L01",
+  "model": "M01",
+  "role": "proof",
+  "path": "10_automation/runs/2026-W41/generated_images/2026-W41-002/looks/2026-W41-002-L01/reel/2026-W41-002-L01_M01_reel_proof_candidate_v1.png",
+  "sha256": "60425dec56c912063c5b988883d2a907e5d714f0295ef74d44db1f866ab7ecbc",
+  "actual_pixels": [
+    941,
+    1672
+  ],
+  "generator": "built_in_image_gen",
+  "tool_wall_seconds": 45.4,
+  "status": "candidate_pending_user_visual_approval",
+  "user_approval": null,
+  "notes": "Own approved full-person Hero as wardrobe lock with v4 face/full; cuffs and tuck visible; user visual review pending."
+}

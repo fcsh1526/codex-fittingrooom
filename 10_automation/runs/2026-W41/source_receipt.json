@@ -1,0 +1,12 @@
+{
+  "week": "2026-W41",
+  "report_url": "https://mika-lin-weekly.pplx.app/weeks/2026-W41.html",
+  "csv_url": "https://mika-lin-weekly.pplx.app/data/2026-W41.csv",
+  "retrieved_date": "2026-10-08",
+  "method": "user-opened local IAB homepage -> visible W41 archive link -> CSV download",
+  "sha256": "61bffeedf1023f454745e45851df3d5b985de87093c1f3d50dcbf410bd231d11",
+  "rows": 20,
+  "themes": 5,
+  "editorial_review": "Five daily dressing rules retained; second complete outfits are Codex editorial expansions, not additional Perplexity rows.",
+  "evidence_limit": "Report clothing input read. External trend articles not independently verified; do not repeat their popularity or product claims as verified facts."
+}
