@@ -1,0 +1,16 @@
+{
+  "submitted_at": "2026-10-12T07:59:54.151Z",
+  "completion_observed_at": "2026-10-12T08:02:04.576Z",
+  "url": "https://grok.com/imagine/post/bfc0939c-7ad5-482d-ae26-6b8b81d733aa?conversation=c5b87558-836c-41b3-b4d5-57e396cb228a",
+  "download": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-c5b87558-836c-41b3-b4d5-57e396cb228a.mp4",
+  "first_frame": "approved M03 L01 near candidate v1",
+  "character_reference": "Mira M03 v3",
+  "settings": {
+    "resolution": "720p",
+    "seconds": 10,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "last_frame": false,
+  "recovery": "429 auto-review failed before first-frame-role action; after30s direct same-tab access succeeded; one actual generation"
+}

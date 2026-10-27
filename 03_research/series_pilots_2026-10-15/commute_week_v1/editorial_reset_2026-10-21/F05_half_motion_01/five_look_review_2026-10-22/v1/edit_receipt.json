@@ -1,0 +1,278 @@
+{
+  "created_at_taipei": "2026-10-22T09:58:53.659562+08:00",
+  "status": "five_look_research_candidate_pending_root_and_user_visual_review",
+  "builder_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\five_look_review_2026-10-22\\build_review.py",
+  "builder_sha256": "a82f038f7df2c19bcbe097102c956691953aceb340dcd4f5fb9c5f93eacbc79a",
+  "helper_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\close_join_review_2026-10-21\\build_close_study.py",
+  "helper_sha256": "9fec19663e1e0ab933e6b13c1fcc5a5412b189648d39a85326e8ee229613a0af",
+  "source_QA_eligibility_attested_by_operator": true,
+  "source_QA_eligibility_is_user_video_approval": false,
+  "sources": [
+    {
+      "role": "accepted385_prefix",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\four_look_review\\v1\\review.mp4",
+      "sha256": "3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+      "selected_frames_half_open": [
+        0,
+        385
+      ]
+    },
+    {
+      "role": "NEW_F05_full_to_half",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\F05_half_source.mp4",
+      "sha256": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+      "selected_frames_half_open": [
+        0,
+        144
+      ],
+      "actual_decoded_source_frames": 145
+    }
+  ],
+  "source_scans": {
+    "accepted_prefix": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 16.04
+      },
+      "decoded_frames": 385,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 16.041666666666668,
+      "individual_source_PTS_measured": false
+    },
+    "NEW_F05": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    }
+  },
+  "output": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\five_look_review_2026-10-22\\v1\\review.mp4",
+    "sha256": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+    "bytes": 18912651,
+    "frames": 511,
+    "fps": 24,
+    "duration_seconds": 21.291666666666668,
+    "size": [
+      720,
+      1280
+    ]
+  },
+  "edit": {
+    "formula": "385+144-18=511",
+    "prefix_pure_frames_half_open": [
+      0,
+      367
+    ],
+    "new_dissolve_output_frames_half_open": [
+      367,
+      385
+    ],
+    "new_dissolve_seconds_half_open": [
+      15.291666666666666,
+      16.041666666666668
+    ],
+    "outgoing_prefix_frames_half_open": [
+      367,
+      385
+    ],
+    "incoming_F05_frames_half_open": [
+      0,
+      18
+    ],
+    "then_F05_frames_half_open": [
+      18,
+      144
+    ],
+    "blend_incoming_alpha": "(overlap_index+1)/18; overlap_index=0..17",
+    "earlier_joins_are_not_rebuilt_from_raw_sources": true,
+    "prefix_file_sha_preserved_but_frames_reencoded": true
+  },
+  "full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 21.29
+    },
+    "decoded_frames": 511,
+    "full_decode_completed": true,
+    "decoded_frames_over_native_fps_seconds": 21.291666666666668,
+    "individual_source_PTS_measured": false
+  },
+  "streams": {
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 7103 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+    ],
+    "audio_stream_present": false
+  },
+  "fidelity": {
+    "all_output_frames_compared_to_intended_native_composite": 511,
+    "mean_absolute_RGB_error_0_to_255": 1.8963889667477534,
+    "worst_frame_mean_absolute_RGB_error": 2.540246310763889,
+    "minimum_frame_PSNR_dB": 36.88144306054208,
+    "codec_tolerance": {
+      "worst_frame_MAE_max": 3.0,
+      "minimum_frame_PSNR_dB_min": 32.0
+    },
+    "within_codec_tolerance": true,
+    "pixel_or_byte_identity_claim": false,
+    "protected_prefix_pure_frames": {
+      "frames_compared": 367,
+      "output_half_open": [
+        0,
+        367
+      ],
+      "mean_absolute_RGB_error": 1.8003208168946794,
+      "worst_frame_mean_absolute_RGB_error": 2.4876920572916665,
+      "minimum_frame_PSNR_dB": 37.423841900401584
+    }
+  },
+  "QA": {
+    "full_25_checkpoint_indices": [
+      0,
+      21,
+      42,
+      64,
+      85,
+      106,
+      128,
+      149,
+      170,
+      191,
+      212,
+      234,
+      255,
+      276,
+      298,
+      319,
+      340,
+      361,
+      382,
+      404,
+      425,
+      446,
+      468,
+      489,
+      510
+    ],
+    "dense_J45_indices": [
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392
+    ],
+    "all_18_new_dissolve_frames_extracted": true,
+    "F05_progress_output_indices": [
+      385,
+      403,
+      421,
+      439,
+      451,
+      463,
+      475,
+      487,
+      499,
+      510
+    ],
+    "individual_frames_size": [
+      720,
+      1280
+    ],
+    "contact_sheets_are_reduced_full_raster": true,
+    "normal_speed_visual_review_completed_by_this_script": false
+  },
+  "source_hashes_verified_unchanged_after_encode": true,
+  "speed": {
+    "source_factor": 1.0,
+    "retime": false,
+    "frame_order_preserved": true,
+    "reverse_repeat_freeze_interpolation": false,
+    "individual_source_PTS_measured": false
+  },
+  "crop": false,
+  "scale": false,
+  "text": false,
+  "audio": false,
+  "external_write": false,
+  "publication": false,
+  "assistant_continuous_normal_speed_visual_review": null,
+  "user_dynamic_approval": null,
+  "limits": [
+    "All-frame decoding and codec fidelity do not establish gait, wardrobe, identity, scene or rhythm quality.",
+    "Root must inspect the new J45 and full-to-half motion; only the earlier four-look exact film has user acceptance.",
+    "No normal-speed continuous playback or publishability is inferred by this script.",
+    "Earlier accepted double edges and short stairs remain in the protected prefix.",
+    "Root source-review disclosure before this render: whole head-to-shoe outfit readable approximately source0-3s; shoe crop begins around3.25s, earlier than the3.75s paper budget. This is a source observation, not an exact all-frame timing measurement or user acceptance.",
+    "Root source-review disclosure before this render: a further stair group enters from the right around source1.5-1.75s. No central appearance was identified in supplied sampled review, but shared-world membership and precise scene continuity remain unvalidated. No crop, retime or regeneration was used to conceal this."
+  ]
+}

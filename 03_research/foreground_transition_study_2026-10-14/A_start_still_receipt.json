@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14",
+  "status": "user_approved_exact_foreground_first_frame",
+  "model": "M02",
+  "look_id": "2026-W41-003-L01",
+  "tool_mode": "built_in_image_gen",
+  "image_calls": 1,
+  "repair_calls": 0,
+  "submitted_at": "2026-10-14T01:46:40.219Z",
+  "returned_at": "2026-10-14T01:47:51.898Z",
+  "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/foreground_transition_2026-10-14/2026-W41-003-L01_M02_foreground_start_candidate_v1.png",
+  "prompt_file": "03_research/foreground_transition_study_2026-10-14/A_start_prompt_v1.txt",
+  "reference_roles": [
+    "approved M02 v3 face, identity only",
+    "approved M02 v3 full, identity/proportions only"
+  ],
+  "wardrobe_authority": "Own approved L01 full-person image inspected; exact written weekly clothes, collared open zip-front ivory short outer, cocoa straight denim/black belt/loafers/small bag. No other look pixels.",
+  "review": "Native image viewed: recognizable low-bun M02, complete head and both black loafers, readable cream tee/ivory short outer/cocoa denim/black belt and small black bag. Unprinted fabric and plausible hand pose. Right foreground soft warm-gray wall occupies approximately31% width from top to bottom, entirely clear of face, hands and shoes. Cafe wood/glass opening moved to background image-left and planter behind body image-right: new corner, not geometric continuation of previous source. Image does not prove foreground motion, opaque full cover, video identity stability or successful two-shot join.",
+  "static_user_approval": "03_research/foreground_transition_study_2026-10-14/A_start_user_approval.json",
+  "grok_submissions": 0,
+  "planned_next": "User visual gate for this exact still; then outgoing A only6s lateral right camera test with M02 reference and single First frame. B requires own-source design and actual input-mode verification; no early complete-film claim.",
+  "limits": "One generation, not production-efficiency or IG-effect evidence. New source stays separate from approved weekly movies and prior research.",
+  "sha256": "a6ac27ac427cbe5d91f9d5751d6a4bc03ea98f771985ac6d70b520a7344dcff2",
+  "native_pixels": [
+    941,
+    1672
+  ]
+}

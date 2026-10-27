@@ -1,0 +1,17 @@
+{
+  "look_id": "2026-W36-005-L01",
+  "design_id": "DAHUllkwqQ0",
+  "transaction_id": "2120584742137611405",
+  "status": "committed_exact_frame",
+  "review": "canva_frame_approved",
+  "production_status": "ready_for_manual_export",
+  "approved_on": "2026-09-08",
+  "edit_url": "https://www.canva.com/d/WKLQH7goDF3Ty3b",
+  "copy": "炭灰與黑之間，一抹櫻桃紅",
+  "result": {
+    "transaction": {
+      "id": "2120584742137611405",
+      "status": "committed"
+    }
+  }
+}

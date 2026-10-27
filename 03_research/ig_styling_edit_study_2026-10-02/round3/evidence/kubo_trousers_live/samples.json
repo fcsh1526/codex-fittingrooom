@@ -1,0 +1,2452 @@
+[
+  {
+    "i": 0,
+    "file": "sample_000.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.286988
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.458392
+    }
+  },
+  {
+    "i": 1,
+    "file": "sample_001.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.48572
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.644011
+    }
+  },
+  {
+    "i": 2,
+    "file": "sample_002.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.675993
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.840111
+    }
+  },
+  {
+    "i": 3,
+    "file": "sample_003.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.871762
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.041338
+    }
+  },
+  {
+    "i": 4,
+    "file": "sample_004.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.064925
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.24734
+    }
+  },
+  {
+    "i": 5,
+    "file": "sample_005.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.26864
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.438359
+    }
+  },
+  {
+    "i": 6,
+    "file": "sample_006.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.46657
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.636982
+    }
+  },
+  {
+    "i": 7,
+    "file": "sample_007.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.694308
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.849771
+    }
+  },
+  {
+    "i": 8,
+    "file": "sample_008.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.875547
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.048529
+    }
+  },
+  {
+    "i": 9,
+    "file": "sample_009.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.072878
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.220229
+    }
+  },
+  {
+    "i": 10,
+    "file": "sample_010.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.244545
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.396658
+    }
+  },
+  {
+    "i": 11,
+    "file": "sample_011.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.409697
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.597421
+    }
+  },
+  {
+    "i": 12,
+    "file": "sample_012.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.635307
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.803181
+    }
+  },
+  {
+    "i": 13,
+    "file": "sample_013.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.820079
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.976064
+    }
+  },
+  {
+    "i": 14,
+    "file": "sample_014.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.002858
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.184475
+    }
+  },
+  {
+    "i": 15,
+    "file": "sample_015.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.213088
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.392377
+    }
+  },
+  {
+    "i": 16,
+    "file": "sample_016.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.416987
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.652646
+    }
+  },
+  {
+    "i": 17,
+    "file": "sample_017.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.678474
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.840272
+    }
+  },
+  {
+    "i": 18,
+    "file": "sample_018.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.862482
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.012689
+    }
+  },
+  {
+    "i": 19,
+    "file": "sample_019.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.068037
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.235989
+    }
+  },
+  {
+    "i": 20,
+    "file": "sample_020.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.250299
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.400723
+    }
+  },
+  {
+    "i": 21,
+    "file": "sample_021.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.430736
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.579525
+    }
+  },
+  {
+    "i": 22,
+    "file": "sample_022.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.611958
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.788186
+    }
+  },
+  {
+    "i": 23,
+    "file": "sample_023.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 17.802846
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.045541
+    }
+  },
+  {
+    "i": 24,
+    "file": "sample_024.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.070493
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.247131
+    }
+  },
+  {
+    "i": 25,
+    "file": "sample_025.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.274316
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.456992
+    }
+  },
+  {
+    "i": 26,
+    "file": "sample_026.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.486538
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.659132
+    }
+  },
+  {
+    "i": 27,
+    "file": "sample_027.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.686593
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.83592
+    }
+  },
+  {
+    "i": 28,
+    "file": "sample_028.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 18.866898
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.032555
+    }
+  },
+  {
+    "i": 29,
+    "file": "sample_029.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.060642
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.231541
+    }
+  },
+  {
+    "i": 30,
+    "file": "sample_030.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.255279
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.509641
+    }
+  },
+  {
+    "i": 31,
+    "file": "sample_031.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.538575
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.682611
+    }
+  },
+  {
+    "i": 32,
+    "file": "sample_032.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.708649
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.859629
+    }
+  },
+  {
+    "i": 33,
+    "file": "sample_033.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 19.910795
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.049933
+    }
+  },
+  {
+    "i": 34,
+    "file": "sample_034.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.084668
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.251232
+    }
+  },
+  {
+    "i": 35,
+    "file": "sample_035.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.28784
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.472183
+    }
+  },
+  {
+    "i": 36,
+    "file": "sample_036.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.492642
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.678723
+    }
+  },
+  {
+    "i": 37,
+    "file": "sample_037.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.709565
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.937819
+    }
+  },
+  {
+    "i": 38,
+    "file": "sample_038.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 20.964915
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.114608
+    }
+  },
+  {
+    "i": 39,
+    "file": "sample_039.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.142712
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.27184
+    }
+  },
+  {
+    "i": 40,
+    "file": "sample_040.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.301689
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.44812
+    }
+  },
+  {
+    "i": 41,
+    "file": "sample_041.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.476387
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.66432
+    }
+  },
+  {
+    "i": 42,
+    "file": "sample_042.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.686127
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.877547
+    }
+  },
+  {
+    "i": 43,
+    "file": "sample_043.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.88972
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.096177
+    }
+  },
+  {
+    "i": 44,
+    "file": "sample_044.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.12387
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.346014
+    }
+  },
+  {
+    "i": 45,
+    "file": "sample_045.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.371438
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.544927
+    }
+  },
+  {
+    "i": 46,
+    "file": "sample_046.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.572589
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.726761
+    }
+  },
+  {
+    "i": 47,
+    "file": "sample_047.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.766899
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.949876
+    }
+  },
+  {
+    "i": 48,
+    "file": "sample_048.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 22.971914
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.139226
+    }
+  },
+  {
+    "i": 49,
+    "file": "sample_049.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.175611
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.309963
+    }
+  },
+  {
+    "i": 50,
+    "file": "sample_050.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.340579
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.489563
+    }
+  },
+  {
+    "i": 51,
+    "file": "sample_051.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.503083
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.741605
+    }
+  },
+  {
+    "i": 52,
+    "file": "sample_052.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.766339
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.912327
+    }
+  },
+  {
+    "i": 53,
+    "file": "sample_053.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 23.939389
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.113813
+    }
+  },
+  {
+    "i": 54,
+    "file": "sample_054.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.172328
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.306137
+    }
+  },
+  {
+    "i": 55,
+    "file": "sample_055.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.336191
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.469728
+    }
+  },
+  {
+    "i": 56,
+    "file": "sample_056.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.497567
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.669604
+    }
+  },
+  {
+    "i": 57,
+    "file": "sample_057.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.70222
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.838934
+    }
+  },
+  {
+    "i": 58,
+    "file": "sample_058.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 24.864812
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.040599
+    }
+  },
+  {
+    "i": 59,
+    "file": "sample_059.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.118783
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.262626
+    }
+  },
+  {
+    "i": 60,
+    "file": "sample_060.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.289814
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.445048
+    }
+  },
+  {
+    "i": 61,
+    "file": "sample_061.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.472019
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.649014
+    }
+  },
+  {
+    "i": 62,
+    "file": "sample_062.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.660853
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.818682
+    }
+  },
+  {
+    "i": 63,
+    "file": "sample_063.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 25.848341
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.0178
+    }
+  },
+  {
+    "i": 64,
+    "file": "sample_064.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.031028
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.206079
+    }
+  },
+  {
+    "i": 65,
+    "file": "sample_065.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.229704
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.404645
+    }
+  },
+  {
+    "i": 66,
+    "file": "sample_066.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.431671
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.611193
+    }
+  },
+  {
+    "i": 67,
+    "file": "sample_067.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.637545
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.77545
+    }
+  },
+  {
+    "i": 68,
+    "file": "sample_068.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.802931
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 26.958014
+    }
+  },
+  {
+    "i": 69,
+    "file": "sample_069.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.006499
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.196005
+    }
+  },
+  {
+    "i": 70,
+    "file": "sample_070.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.221541
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.374192
+    }
+  },
+  {
+    "i": 71,
+    "file": "sample_071.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.407434
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.575777
+    }
+  },
+  {
+    "i": 72,
+    "file": "sample_072.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.598041
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.791585
+    }
+  },
+  {
+    "i": 73,
+    "file": "sample_073.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 27.814962
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.016365
+    }
+  },
+  {
+    "i": 74,
+    "file": "sample_074.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.045707
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.196462
+    }
+  },
+  {
+    "i": 75,
+    "file": "sample_075.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.224424
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.380784
+    }
+  },
+  {
+    "i": 76,
+    "file": "sample_076.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.419393
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.579674
+    }
+  },
+  {
+    "i": 77,
+    "file": "sample_077.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.607655
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.769156
+    }
+  },
+  {
+    "i": 78,
+    "file": "sample_078.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.802025
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 28.974048
+    }
+  },
+  {
+    "i": 79,
+    "file": "sample_079.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.001904
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.172023
+    }
+  },
+  {
+    "i": 80,
+    "file": "sample_080.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.20292
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.412006
+    }
+  },
+  {
+    "i": 81,
+    "file": "sample_081.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.423643
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.583351
+    }
+  },
+  {
+    "i": 82,
+    "file": "sample_082.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.597681
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.764114
+    }
+  },
+  {
+    "i": 83,
+    "file": "sample_083.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.790513
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.963081
+    }
+  },
+  {
+    "i": 84,
+    "file": "sample_084.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 29.975617
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.148501
+    }
+  },
+  {
+    "i": 85,
+    "file": "sample_085.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.172494
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.342713
+    }
+  },
+  {
+    "i": 86,
+    "file": "sample_086.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.369345
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.555437
+    }
+  },
+  {
+    "i": 87,
+    "file": "sample_087.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.582858
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.78206
+    }
+  },
+  {
+    "i": 88,
+    "file": "sample_088.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.807752
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.967987
+    }
+  },
+  {
+    "i": 89,
+    "file": "sample_089.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 30.994456
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.147492
+    }
+  },
+  {
+    "i": 90,
+    "file": "sample_090.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.1764
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.306955
+    }
+  },
+  {
+    "i": 91,
+    "file": "sample_091.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.334667
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.51242
+    }
+  },
+  {
+    "i": 92,
+    "file": "sample_092.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.540327
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.678764
+    }
+  },
+  {
+    "i": 93,
+    "file": "sample_093.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.703692
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.843715
+    }
+  },
+  {
+    "i": 94,
+    "file": "sample_094.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 31.868981
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.004428
+    }
+  },
+  {
+    "i": 95,
+    "file": "sample_095.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.030761
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.245793
+    }
+  },
+  {
+    "i": 96,
+    "file": "sample_096.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.270006
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.4147
+    }
+  },
+  {
+    "i": 97,
+    "file": "sample_097.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.438588
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.579887
+    }
+  },
+  {
+    "i": 98,
+    "file": "sample_098.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.605259
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.733803
+    }
+  },
+  {
+    "i": 99,
+    "file": "sample_099.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.772584
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.942958
+    }
+  },
+  {
+    "i": 100,
+    "file": "sample_100.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 32.970025
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 33.112387
+    }
+  },
+  {
+    "i": 101,
+    "file": "sample_101.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 33.156215
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 0.014984
+    }
+  },
+  {
+    "i": 102,
+    "file": "sample_102.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 0.028676
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 0.372309
+    }
+  },
+  {
+    "i": 103,
+    "file": "sample_103.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 0.411469
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 0.784161
+    }
+  },
+  {
+    "i": 104,
+    "file": "sample_104.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 0.827647
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.073522
+    }
+  },
+  {
+    "i": 105,
+    "file": "sample_105.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.107134
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.400326
+    }
+  },
+  {
+    "i": 106,
+    "file": "sample_106.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.427764
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.609786
+    }
+  },
+  {
+    "i": 107,
+    "file": "sample_107.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.640038
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.780275
+    }
+  },
+  {
+    "i": 108,
+    "file": "sample_108.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 1.878025
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.041348
+    }
+  },
+  {
+    "i": 109,
+    "file": "sample_109.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.115706
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.293064
+    }
+  },
+  {
+    "i": 110,
+    "file": "sample_110.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.321105
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.475815
+    }
+  },
+  {
+    "i": 111,
+    "file": "sample_111.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.507236
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.647119
+    }
+  },
+  {
+    "i": 112,
+    "file": "sample_112.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.672089
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.808218
+    }
+  },
+  {
+    "i": 113,
+    "file": "sample_113.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.838427
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 2.995086
+    }
+  },
+  {
+    "i": 114,
+    "file": "sample_114.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.025191
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.22055
+    }
+  },
+  {
+    "i": 115,
+    "file": "sample_115.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.244187
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.398132
+    }
+  },
+  {
+    "i": 116,
+    "file": "sample_116.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.431599
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.605145
+    }
+  },
+  {
+    "i": 117,
+    "file": "sample_117.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.661373
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.818415
+    }
+  },
+  {
+    "i": 118,
+    "file": "sample_118.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 3.8407
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.023873
+    }
+  },
+  {
+    "i": 119,
+    "file": "sample_119.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.045686
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.217995
+    }
+  },
+  {
+    "i": 120,
+    "file": "sample_120.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.245157
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.414838
+    }
+  },
+  {
+    "i": 121,
+    "file": "sample_121.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.460216
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.637495
+    }
+  },
+  {
+    "i": 122,
+    "file": "sample_122.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.731186
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.89383
+    }
+  },
+  {
+    "i": 123,
+    "file": "sample_123.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 4.919013
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.12544
+    }
+  },
+  {
+    "i": 124,
+    "file": "sample_124.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.146526
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.345589
+    }
+  },
+  {
+    "i": 125,
+    "file": "sample_125.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.377563
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.52788
+    }
+  },
+  {
+    "i": 126,
+    "file": "sample_126.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.555487
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.736065
+    }
+  },
+  {
+    "i": 127,
+    "file": "sample_127.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.76168
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.931371
+    }
+  },
+  {
+    "i": 128,
+    "file": "sample_128.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 5.974641
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.227035
+    }
+  },
+  {
+    "i": 129,
+    "file": "sample_129.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.254745
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.420519
+    }
+  },
+  {
+    "i": 130,
+    "file": "sample_130.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.45234
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.628982
+    }
+  },
+  {
+    "i": 131,
+    "file": "sample_131.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.654113
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.850384
+    }
+  },
+  {
+    "i": 132,
+    "file": "sample_132.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 6.877931
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.056438
+    }
+  },
+  {
+    "i": 133,
+    "file": "sample_133.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.084656
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.25723
+    }
+  },
+  {
+    "i": 134,
+    "file": "sample_134.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.296855
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.52419
+    }
+  },
+  {
+    "i": 135,
+    "file": "sample_135.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.555554
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.852423
+    }
+  },
+  {
+    "i": 136,
+    "file": "sample_136.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 7.902445
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.100762
+    }
+  },
+  {
+    "i": 137,
+    "file": "sample_137.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.143535
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.311717
+    }
+  },
+  {
+    "i": 138,
+    "file": "sample_138.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.332166
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.489268
+    }
+  },
+  {
+    "i": 139,
+    "file": "sample_139.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.515233
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.685743
+    }
+  },
+  {
+    "i": 140,
+    "file": "sample_140.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.713438
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.880468
+    }
+  },
+  {
+    "i": 141,
+    "file": "sample_141.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 8.927998
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.086681
+    }
+  },
+  {
+    "i": 142,
+    "file": "sample_142.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.190706
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.353869
+    }
+  },
+  {
+    "i": 143,
+    "file": "sample_143.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.378289
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.547946
+    }
+  },
+  {
+    "i": 144,
+    "file": "sample_144.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.591043
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.743832
+    }
+  },
+  {
+    "i": 145,
+    "file": "sample_145.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.793757
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.944836
+    }
+  },
+  {
+    "i": 146,
+    "file": "sample_146.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 9.982368
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.170907
+    }
+  },
+  {
+    "i": 147,
+    "file": "sample_147.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.200568
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.371201
+    }
+  },
+  {
+    "i": 148,
+    "file": "sample_148.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.39426
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.605186
+    }
+  },
+  {
+    "i": 149,
+    "file": "sample_149.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.629407
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.786834
+    }
+  },
+  {
+    "i": 150,
+    "file": "sample_150.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.811306
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 10.98934
+    }
+  },
+  {
+    "i": 151,
+    "file": "sample_151.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.029743
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.210699
+    }
+  },
+  {
+    "i": 152,
+    "file": "sample_152.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.236062
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.384608
+    }
+  },
+  {
+    "i": 153,
+    "file": "sample_153.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.412916
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.584015
+    }
+  },
+  {
+    "i": 154,
+    "file": "sample_154.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.607113
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.788613
+    }
+  },
+  {
+    "i": 155,
+    "file": "sample_155.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 11.813587
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.056923
+    }
+  },
+  {
+    "i": 156,
+    "file": "sample_156.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.070234
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.240509
+    }
+  },
+  {
+    "i": 157,
+    "file": "sample_157.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.318394
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.514706
+    }
+  },
+  {
+    "i": 158,
+    "file": "sample_158.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.545005
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.725287
+    }
+  },
+  {
+    "i": 159,
+    "file": "sample_159.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 12.758029
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.110929
+    }
+  },
+  {
+    "i": 160,
+    "file": "sample_160.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.144746
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.383055
+    }
+  },
+  {
+    "i": 161,
+    "file": "sample_161.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.407912
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.673568
+    }
+  },
+  {
+    "i": 162,
+    "file": "sample_162.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.690966
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.860772
+    }
+  },
+  {
+    "i": 163,
+    "file": "sample_163.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 13.908227
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.078314
+    }
+  },
+  {
+    "i": 164,
+    "file": "sample_164.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.126448
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.279781
+    }
+  },
+  {
+    "i": 165,
+    "file": "sample_165.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.307124
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.525836
+    }
+  },
+  {
+    "i": 166,
+    "file": "sample_166.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.554288
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.705419
+    }
+  },
+  {
+    "i": 167,
+    "file": "sample_167.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.72915
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.944571
+    }
+  },
+  {
+    "i": 168,
+    "file": "sample_168.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 14.972898
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.12389
+    }
+  },
+  {
+    "i": 169,
+    "file": "sample_169.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.152449
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.311718
+    }
+  },
+  {
+    "i": 170,
+    "file": "sample_170.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.359328
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.509698
+    }
+  },
+  {
+    "i": 171,
+    "file": "sample_171.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.552306
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.699397
+    }
+  },
+  {
+    "i": 172,
+    "file": "sample_172.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.722576
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.871617
+    }
+  },
+  {
+    "i": 173,
+    "file": "sample_173.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 15.928635
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.077355
+    }
+  },
+  {
+    "i": 174,
+    "file": "sample_174.png",
+    "before": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 16.107335
+    },
+    "after": {
+      "duration": 33.249522,
+      "paused": false,
+      "time": 21.398873
+    }
+  }
+]

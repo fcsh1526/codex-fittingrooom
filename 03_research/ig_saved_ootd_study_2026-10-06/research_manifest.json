@@ -1,0 +1,50 @@
+{
+  "study_id": "ig_saved_ootd_study_2026-10-06",
+  "observation_date_local": "2026-10-06",
+  "timezone": "Asia/Taipei",
+  "scope": "Five user-saved OOTD Reels, actual playing-page visual samples and transfer planning",
+  "source_ids": ["CyI3_vevrbf", "DcAodtyRNXg", "DJnnv5OPD6k", "DY6W8peI7LC", "DXOC1P6ExKJ"],
+  "primary_metadata_folders": ["CyI3_vevrbf", "DcAodtyRNXg", "DJnnv5OPD6k", "DY6W8peI7LC", "DXOC1P6ExKJ"],
+  "supplemental_passes": ["DcAodtyRNXg_middle_pass2", "DJnnv5OPD6k_pass3", "DY6W8peI7LC_middle_pass2", "DXOC1P6ExKJ_middle_pass2"],
+  "excluded_failed_capture_passes": {
+    "DJnnv5OPD6k": "Two initial full-page PNGs have no saved timestamp index; metadata remains valid, PNGs excluded from timed sequence",
+    "DJnnv5OPD6k_pass2": "Zero successful screenshots; capture_interrupted recorded"
+  },
+  "method": {
+    "original_video_downloaded": false,
+    "actual_playing_ui_screenshots": true,
+    "capture_before_after_times_saved": true,
+    "partial_viewport_limitations_recorded": true,
+    "exact_cut_times_verified": false,
+    "continuous_full_watch_claimed": false,
+    "audio_analyzed": false,
+    "muted": true,
+    "views_verified": false,
+    "reach_causality_claimed": false
+  },
+  "root_review": "Viewed both QA boards for source1, full-page source2 and supplementary source2, source3 top-only, source4 middle, source5 middle; viewport and time gaps retained",
+  "independent_review": "independent_review.md",
+  "deliverables": ["README.md", "next_trial_storyboard.md", "research_manifest.json", "independent_review.md"],
+  "next_trial": {
+    "mechanism": "Fixed camera, one small backward step to reveal clothing silhouette within a continuous source",
+    "candidate_model": "M02",
+    "status": "storyboard proposal only; no generation started",
+    "two_look_switch_seconds": 0.75,
+    "baked_text": false,
+    "retime": false,
+    "requires_actual_dynamic_qa": true,
+    "global_template_adopted": false
+  },
+  "mutations": {
+    "local_research_files_created": true,
+    "current_status_note_added": true,
+    "production_media_modified": false,
+    "first_wave_five_modified": false,
+    "accepted_research_cuts_modified": false,
+    "new_stills_generated": false,
+    "new_video_generated": false,
+    "instagram_saved_or_liked_state_changed": false,
+    "instagram_publication": false,
+    "google_drive_writes": false
+  }
+}

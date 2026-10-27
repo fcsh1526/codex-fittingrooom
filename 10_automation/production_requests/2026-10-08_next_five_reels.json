@@ -53,12 +53,23 @@
         "2026-W41-002-L01",
         "2026-W41-002-L02"
       ],
-      "status": "film_picture_accepted_proof_and_carousel_incomplete",
+      "status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
       "final_file": null,
       "candidate_file": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
       "prior_candidate_status": "review_v1_rejected_by_user_B_hand_cloth_contact; preserved",
       "accepted_picture_file": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
-      "user_approval": "10_automation/runs/2026-W41/reels/M01/review_v2/user_picture_approval_2026-10-08.json"
+      "user_approval": "10_automation/runs/2026-W41/reels/M01/review_v2/user_picture_approval_2026-10-08.json",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1FO1qSbxgfGz7Hje0VidsgK7Kjx7aybpx",
+        "url": "https://drive.google.com/file/d/1FO1qSbxgfGz7Hje0VidsgK7Kjx7aybpx/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU",
+        "url": "https://docs.google.com/document/d/1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "model": "M02",
@@ -67,12 +78,28 @@
         "2026-W41-003-L01",
         "2026-W41-003-L02"
       ],
-      "status": "two_full_first_frame_candidates_pending_user_visual_approval",
+      "status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
       "final_file": null,
       "first_frame_candidates": [
         "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
         "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v3.png"
-      ]
+      ],
+      "candidate_file": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "candidate_sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+      "previous_candidate": "review_v1 preserved; larger face-position separation at dissolve",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "user_approval": "10_automation/runs/2026-W41/reels/M02/review_v2/user_picture_approval_2026-10-08.json",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1o7q1eATsBJqZcBwCuRRYxpaIjKA_qBhj",
+        "url": "https://drive.google.com/file/d/1o7q1eATsBJqZcBwCuRRYxpaIjKA_qBhj/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0",
+        "url": "https://docs.google.com/document/d/1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "model": "M03",
@@ -81,8 +108,25 @@
         "2026-W41-004-L01",
         "2026-W41-004-L02"
       ],
-      "status": "storyboard_prepared_new_stills_pending",
-      "final_file": null
+      "status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
+      "final_file": null,
+      "first_frame_candidates": [
+        "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/2026-W41-004-L01_M03_reel_candidate_A_v2.png",
+        "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/2026-W41-004-L02_M03_reel_candidate_A.png"
+      ],
+      "candidate_file": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1xm14COZEhiAJQ77pyqb1hMYv4yrEJ1WM",
+        "url": "https://drive.google.com/file/d/1xm14COZEhiAJQ77pyqb1hMYv4yrEJ1WM/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4",
+        "url": "https://docs.google.com/document/d/1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "model": "M04",
@@ -91,8 +135,24 @@
         "2026-W41-005-L01",
         "2026-W41-005-L02"
       ],
-      "status": "storyboard_prepared_new_stills_pending",
-      "final_file": null
+      "status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
+      "final_file": null,
+      "format_variant": "parallel_two_looks",
+      "still_review": "10_automation/runs/2026-W41/reels/M04/parallel_first_frame_static_review_2026-10-08.json",
+      "still_user_approval": "10_automation/runs/2026-W41/reels/M04/parallel_first_frame_user_approval_2026-10-08.json",
+      "candidate_file": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1o_rtSa98FLdVcssVmer2REW3SgQYi6GU",
+        "url": "https://drive.google.com/file/d/1o_rtSa98FLdVcssVmer2REW3SgQYi6GU/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo",
+        "url": "https://docs.google.com/document/d/1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "model": "M05",
@@ -101,9 +161,21 @@
         "2026-W41-001-L01",
         "2026-W41-001-L02"
       ],
-      "status": "video_candidate_pending_user_playback_review_and_proof_completion",
+      "status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
       "final_file": null,
-      "candidate_file": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4"
+      "candidate_file": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1wl9LBA0JW04N9JFh-SpkTao2XTLRRl-m",
+        "url": "https://drive.google.com/file/d/1wl9LBA0JW04N9JFh-SpkTao2XTLRRl-m/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc",
+        "url": "https://docs.google.com/document/d/1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc/edit"
+      },
+      "publication_status": "not_published"
     }
   ]
 }

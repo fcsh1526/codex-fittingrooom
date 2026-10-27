@@ -1,0 +1,69 @@
+{
+  "review_date_taipei": "2026-10-20",
+  "status": "F04_video_scene_fail_new_endpoint_pending_exact_user_visual_approval",
+  "user_feedback_exact": "第四鏡最後的遠景，原本沒有的路邊植栽，忽然出現一排植栽",
+  "affected_source": {
+    "path": "../F04_source.mp4",
+    "sha256": "d83c6c18fa7d058c3eb3b374afad70db0a51cf0c561ba2c6bd4a255041d0bb50"
+  },
+  "affected_preview": {
+    "path": "../four_shot_review_v1/F01_F02_F03_F04_native_soft_review_v1.mp4",
+    "sha256": "ace98a7a170d74241b43a30f1e94f4ce75c8dff5ce47a7548c72f1da88795114"
+  },
+  "acceptance_scope": {
+    "F04_background_continuity": "fail",
+    "F04_gait_or_join_accepted": null,
+    "first_three_existing_acceptance": "unchanged",
+    "normal_playback_self_report": null,
+    "whole_five_look_film_approval": null
+  },
+  "evidence": {
+    "source_frames": [
+      72,
+      75,
+      78
+    ],
+    "source_seconds": [
+      3,
+      3.125,
+      3.25
+    ],
+    "preview_seconds": [
+      16.0416666667,
+      16.1666666667,
+      16.2916666667
+    ],
+    "observation": "Company-side empty paving to right of short planter develops blurred foliage at f75 and an extended solid hedge/planter by f78. Glass grid and existing tree trunks move only slightly. This is background generation change, not merely camera reveal.",
+    "support": "root inspected original-size f72/75/78 and approved first/last/E00; independent continuity agent agrees"
+  },
+  "cause_hypothesis": "Approved endpoint footfix_v2 already includes company-side long planter/tree row inconsistent with the open E00 crossing landing; endpoint-driven synthesis is plausible, not a measured internal cause.",
+  "correction": {
+    "mode": "built-in image_gen precise-object-edit",
+    "purpose": "Single user-reported scene defect correction, not a competing Hero variant or unsolicited aesthetic iteration.",
+    "source_default_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a0a39c-4727-7593-ac24-1a8727f9ff61\\exec-2226401b-7b28-4456-be5d-f4316a241db4.png",
+    "path": "F04_M03_L02_end_scene_correction_v3.png",
+    "sha256": "fe97ba462401f7df3ef286a348853b65f54c51703980b402174c0a59ed605139",
+    "pixels": [
+      941,
+      1672
+    ],
+    "edit_target": "../F04_M03_L02_end_candidate_A_footfix_v2.png",
+    "edit_target_sha256": "78b0322f697806c8cf436a221a631e39e5d2f57a7e65df4044a2a27309a673ed",
+    "auxiliary_location_reference": "../../environment/E00_shared_scene_candidate_A.png",
+    "prompt": "end_background_correction_prompt.txt",
+    "prompt_sha256": "1ef6fc8c8cfae43dd5beaa6b4788fb8c8d65e7b4f7b2c86878701f1a0a764dff",
+    "generation_wait_ms": 28449,
+    "active_work_minutes": null,
+    "calls": 1,
+    "further_variants": 0,
+    "visual_observation": "Company-side visible planters/shrubs/trees removed; clear paving and glass facade substituted. Full-person checked outfit, same bag shoulder, raised trailing shoe and foreground crossing/curb visually retained; no pixel-identity claim.",
+    "independent_visual_review": "Continuity agent compared v2/v3: company-side planters, hedge and tree row removed; no apparent person/stride/bag shoulder/curb/crossing shift or new road/entrance. Retained tree shadows can belong to existing off-screen trees. No blocking still defect, not a pixel-identity or motion pass. Retry must verify original near-side vegetation exits geometrically rather than vanishing.",
+    "user_still_approval": null,
+    "Grok_submission": false
+  },
+  "next": "Exact new still visual approval required, then one bounded F04 motion retry with original approved start and corrected endpoint. Preserve route completion; do not truncate mid-crossing to F05, mask with dissolve, crop or retime. Compare vegetation through continuous motion before new four-shot preview.",
+  "F05": "hold",
+  "original_media_preserved": true,
+  "cloud_writes": false,
+  "publication": false
+}

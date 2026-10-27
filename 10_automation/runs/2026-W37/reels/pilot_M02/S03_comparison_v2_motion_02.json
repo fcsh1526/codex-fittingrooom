@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-24",
+  "shot": "S03",
+  "attempt": 2,
+  "status": "downloaded_rejected_full_clip_provisional_early_extract",
+  "url": "https://grok.com/imagine/post/58923b5f-17a5-41db-98c3-e00d4d5f3733?conversation=e2d77286-5dab-4af4-8c05-89aea5e6254a",
+  "first_frame": "generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S03_comparison_v2_start_candidate.png",
+  "first_frame_sha256": "8BFD39709EDD8E35B585B678205F46EC3A4C28E49C6E70446567943FEDB07651",
+  "identity_reference": "Mira M02 v3",
+  "first_frame_role_verified": true,
+  "prompt_file": "prompts/S03_comparison_v2_motion_v2.md",
+  "settings": {"resolution": "720p", "duration_seconds": 6, "aspect_ratio": "9:16", "audio": false},
+  "browser_video_metadata": {"width": 720, "height": 1280, "duration_seconds": 6.041667, "playback_rate": 1},
+  "local_file": "videos/S03_comparison_v2_02.mp4",
+  "local_bytes": 2227442,
+  "sha256": "C5F6B66663B69C36BF1B46286E4AE1BB7412054CA46489EB99FAD458A6BE134C",
+  "qa": "In the Grok player the shirt remains on both shoulders at sampled 1.66, 2.10, 2.50 and 2.97 seconds. By 3.47 seconds the viewer-left shirt shoulder has dropped and the navy dress strap is exposed; it remains off at 5.65 seconds. The full six-second clip fails wardrobe continuity despite the stricter prompt. A tentative 0-2.8 second edit range needs normal-speed continuous review, precise trim and adjacent-shot QA. No third attempt with the same hem-pinch action is planned.",
+  "provisional_usable_interval_seconds": [0, 2.8],
+  "full_dynamic_qa_passed": false,
+  "user_video_approval": false
+}

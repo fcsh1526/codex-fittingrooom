@@ -1,0 +1,40 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-002-L01",
+  "surface": "carousel",
+  "session_lock": "2026-W37-002-L01_M05_carousel_candidate_A_v2.png",
+  "session_lock_user_approval": "2026-09-30: 可以，沿用這張",
+  "identity_references": [
+    "02_brand/reference_models/M05_start_v1_face.png",
+    "02_brand/reference_models/M05_start_v1_full.png"
+  ],
+  "tool": "built-in image_gen",
+  "B_scene_application": {
+    "file": "2026-W37-002-L01_M05_carousel_candidate_B.png",
+    "dimensions": "1790x879",
+    "source_ratio": 2.0364,
+    "target_ratio": 2.0357,
+    "sha256": "25957A7D284E44D600B1B6E8EF916ABCAE4C67F2734D16FAA8DDC600DEA999CC",
+    "prompt_intent": "Different angle in the same architecture studio, comparing a flat material sample beside the window; retain short white jacket, pale-blue shirt, indigo high waist and caramel bag in a genuine wide landscape composition.",
+    "assistant_review": "Face, wardrobe and warm daylight remain visually close to approved A. The shallow horizontal source is nearly the exact Canva slot ratio, and the garment length contrast is legible without a hard crop.",
+    "status": "user_visual_approved_2026-09-30",
+    "user_approval": "ok"
+  },
+  "C_accessory_detail": {
+    "file": "2026-W37-002-L01_M05_carousel_candidate_C.png",
+    "dimensions": "1173x1341",
+    "source_ratio": 0.8747,
+    "target_ratio": 0.8741,
+    "sha256": "31AA9E86293C811CFB60B7F75387D4C3AB1DE778144FC0ADDACD2DA57B4C0610",
+    "prompt_intent": "Intentional shoulder-to-mid-thigh detail with the compact caramel bag, its strap, the white jacket hem, pale-blue shirt and indigo waistband visible together; partial face crop is editorial and deliberate.",
+    "assistant_review": "Bag and jacket-to-waist styling relationship are the focus. Correct accessory placement, outfit palette and natural light. Source nearly matches the Canva detail slot ratio.",
+    "status": "user_visual_approved_2026-09-30",
+    "user_approval": "ok",
+    "discarded_iterations": [
+      "C_v1: full-face medium composition, bag too small to function as an accessory detail.",
+      "C_v2: larger bag but narrow source ratio would clip hair on centered slot crop.",
+      "C expansion and technical reframe: did not maintain close detail or target ratio."
+    ]
+  },
+  "next_gate": "B and C visually approved. Normalize A/B/C to exact v3-B slot pixels, inspect cropped outputs, then keep Canva template review as a separate gate."
+}

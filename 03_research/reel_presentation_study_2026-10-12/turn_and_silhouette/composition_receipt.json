@@ -1,0 +1,82 @@
+{
+  "status": "sampled_QA_complete_user_playback_pending",
+  "output": "03_research/reel_presentation_study_2026-10-12/turn_and_silhouette/M03_turn_silhouette_parallel_v1.mp4",
+  "sha256": "4739ca6f19f88772616dbd0b26bfac9c0ca4f4237d662842c02d4b0cd1edfd4d",
+  "sources": [
+    {
+      "path": "03_research/reel_presentation_study_2026-10-12/turn_and_silhouette/A_attempt_01/source.mp4",
+      "sha256": "32818b5afa1f4a2d93e3a4895a7e4158904ebef3dc0506dec79c374a416ec222",
+      "interval_frames": [
+        0,
+        144
+      ]
+    },
+    {
+      "path": "03_research/reel_presentation_study_2026-10-12/turn_and_silhouette/B_attempt_01/source.mp4",
+      "sha256": "ee44e95dfa88e8ddc9e598c27d17e6edae4d0945cfa05967309fe22b7926d0b9",
+      "interval_frames": [
+        0,
+        144
+      ]
+    }
+  ],
+  "crop_xywh": [
+    170,
+    90,
+    408,
+    1120
+  ],
+  "panel_wh": [
+    344,
+    944
+  ],
+  "left_xy": [
+    12,
+    168
+  ],
+  "right_xy": [
+    364,
+    168
+  ],
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_presentation_study_2026-10-12\\turn_and_silhouette\\M03_turn_silhouette_parallel_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.0
+    },
+    "decoded_frames": 144,
+    "decoded_seconds": 6.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "source_timing": "output n reads source n, native24fps; independent gestures retained",
+  "new_generation": true,
+  "text": false,
+  "audio": false,
+  "internal_cut": false,
+  "protected_five_films_sha256_match": true,
+  "continuous_playback": false,
+  "user_approval": null,
+  "drive_write": false,
+  "published": false,
+  "visual_review": {
+    "whole_samples": 25,
+    "native_first_frame": true,
+    "all144_boundary_thumbnails": true,
+    "complete_person_bounds": "contained in inspected views",
+    "continuous_playback": false
+  }
+}

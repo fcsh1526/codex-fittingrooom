@@ -1,0 +1,717 @@
+{
+  "date": "2026-10-02",
+  "status": "complete_verified",
+  "operation": "Replace three accepted Reel files in place, retain backups; convert five captions and publishing handoff into native Google Docs.",
+  "folder": {
+    "id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+    "url": "https://drive.google.com/drive/folders/1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+  },
+  "archive_folder": {
+    "success": true,
+    "id": "1OUivMGomc0nks90MHXeA7DQGGU6N8jMT",
+    "url": "https://drive.google.com/drive/folders/1OUivMGomc0nks90MHXeA7DQGGU6N8jMT",
+    "title": "歷史版本與 Markdown 原檔",
+    "parent_id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+  },
+  "handoff": {
+    "id": "1OSEdxcPyh1siSu77fed40l17s96LsiaIfkFYj_Voop0",
+    "title": "00_先看這份_第一波發布清單",
+    "mime_type": "application/vnd.google-apps.document",
+    "size": "1",
+    "url": "https://docs.google.com/document/d/1OSEdxcPyh1siSu77fed40l17s96LsiaIfkFYj_Voop0/edit?usp=drivesdk",
+    "display_url": "https://docs.google.com/document/d/1OSEdxcPyh1siSu77fed40l17s96LsiaIfkFYj_Voop0/edit?usp=drivesdk",
+    "file_or_folder": "file",
+    "created_time": "2026-10-02T06:58:53.665Z",
+    "modified_time": "2026-10-02T06:58:53.665Z",
+    "parent_ids": [
+      "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+    ],
+    "drive_id": null,
+    "current_user_can_share": true,
+    "has_augmented_permissions": null,
+    "shared": false,
+    "permissions": [
+      {
+        "type": "user",
+        "role": "owner",
+        "emailAddress": "fcsh1526@gmail.com",
+        "domain": null,
+        "displayName": "Brandon Chang Chien",
+        "allowFileDiscovery": null
+      }
+    ],
+    "source_visibility_status": "permission_metadata_available"
+  },
+  "files": [
+    {
+      "model": "M01",
+      "number": "01",
+      "theme": "T字帶鞋",
+      "seconds": 9.25,
+      "look_ids": [
+        "2026-W37-004-L01",
+        "2026-W37-004-L02"
+      ],
+      "video": {
+        "id": "1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI",
+        "title": "01_T字帶鞋_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "3225588",
+        "url": "https://drive.google.com/file/d/1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T02:38:49.398Z",
+        "modified_time": "2026-10-02T06:56:08.685Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_document": {
+        "id": "1aPNLnAv-1hSz4UfP1hzlPtxWuciX_xi9ZXFG_9tyW8w",
+        "title": "01_T字帶鞋_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1",
+        "url": "https://docs.google.com/document/d/1aPNLnAv-1hSz4UfP1hzlPtxWuciX_xi9ZXFG_9tyW8w/edit?usp=drivesdk",
+        "display_url": "https://docs.google.com/document/d/1aPNLnAv-1hSz4UfP1hzlPtxWuciX_xi9ZXFG_9tyW8w/edit?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T06:58:46.772Z",
+        "modified_time": "2026-10-02T06:58:46.772Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_verification": {
+        "textMatches": true,
+        "captionMatches": true,
+        "videoLink": "https://drive.google.com/file/d/1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI/view?usp=drivesdk",
+        "headings": [
+          {
+            "style": "TITLE",
+            "text": "01｜T字帶鞋：貼文文字\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "可直接貼入 Instagram\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "製作資訊（不貼入 Instagram）\n"
+          }
+        ]
+      },
+      "source_caption_path": "10_automation/runs/2026-W37/reels/M01_instagram_caption_draft.md",
+      "source_video_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_detail_full_full_detail_review_v1.mp4",
+      "local_sha256": "eb99760cd7d5df8fdc2dda66148ef90218b639f5ad0920dfd6dd5b1615f8a426",
+      "local_size": 3225588
+    },
+    {
+      "model": "M02",
+      "number": "02",
+      "theme": "薄襯衫疊穿",
+      "seconds": 8.75,
+      "look_ids": [
+        "2026-W37-001-L01",
+        "2026-W37-001-L02"
+      ],
+      "video": {
+        "id": "1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y",
+        "title": "02_薄襯衫疊穿_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "3202715",
+        "url": "https://drive.google.com/file/d/1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T02:37:48.921Z",
+        "modified_time": "2026-10-02T06:56:16.274Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_document": {
+        "id": "14PHIQW9oXobedzkjnc9UEA01HfpY83jSr5IGOV4cCck",
+        "title": "02_薄襯衫疊穿_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1",
+        "url": "https://docs.google.com/document/d/14PHIQW9oXobedzkjnc9UEA01HfpY83jSr5IGOV4cCck/edit?usp=drivesdk",
+        "display_url": "https://docs.google.com/document/d/14PHIQW9oXobedzkjnc9UEA01HfpY83jSr5IGOV4cCck/edit?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T06:58:48.185Z",
+        "modified_time": "2026-10-02T06:58:48.185Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_verification": {
+        "textMatches": true,
+        "captionMatches": true,
+        "videoLink": "https://drive.google.com/file/d/1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y/view?usp=drivesdk",
+        "headings": [
+          {
+            "style": "TITLE",
+            "text": "02｜薄襯衫疊穿：貼文文字\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "可直接貼入 Instagram\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "製作資訊（不貼入 Instagram）\n"
+          }
+        ]
+      },
+      "source_caption_path": "10_automation/runs/2026-W37/reels/pilot_M02/M02_instagram_caption_draft.md",
+      "source_video_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/M02_detail_full_full_detail_review_v1.mp4",
+      "local_sha256": "688d95d93c7705ac7500ada977c6ff2c97e649c175430487264b69ec8da28b56",
+      "local_size": 3202715
+    },
+    {
+      "model": "M03",
+      "number": "03",
+      "theme": "包包材質亮點",
+      "seconds": 10.75,
+      "look_ids": [
+        "2026-W37-005-L01",
+        "2026-W37-005-L02"
+      ],
+      "video": {
+        "id": "1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe",
+        "title": "03_包包材質亮點_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "5101501",
+        "url": "https://drive.google.com/file/d/1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T02:39:04.025Z",
+        "modified_time": "2026-10-02T06:56:26.434Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_document": {
+        "id": "1Cj7uEU3BmotowtWtBIRNun9pZT8AfIjjA9qlxuPL1GQ",
+        "title": "03_包包材質亮點_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1",
+        "url": "https://docs.google.com/document/d/1Cj7uEU3BmotowtWtBIRNun9pZT8AfIjjA9qlxuPL1GQ/edit?usp=drivesdk",
+        "display_url": "https://docs.google.com/document/d/1Cj7uEU3BmotowtWtBIRNun9pZT8AfIjjA9qlxuPL1GQ/edit?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T06:58:49.635Z",
+        "modified_time": "2026-10-02T06:58:49.635Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_verification": {
+        "textMatches": true,
+        "captionMatches": true,
+        "videoLink": "https://drive.google.com/file/d/1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe/view?usp=drivesdk",
+        "headings": [
+          {
+            "style": "TITLE",
+            "text": "03｜包包材質亮點：貼文文字\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "可直接貼入 Instagram\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "製作資訊（不貼入 Instagram）\n"
+          }
+        ]
+      },
+      "source_caption_path": "10_automation/runs/2026-W37/reels/M03_instagram_caption_draft.md",
+      "source_video_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/M03_order_D_review_v1.mp4",
+      "local_sha256": "906dc03da54d619536e25aa49b1ecb9877f2ea430f0f893959e24f2f92f462a8",
+      "local_size": 5101501
+    },
+    {
+      "model": "M04",
+      "number": "04",
+      "theme": "肩線與立領",
+      "seconds": 8,
+      "look_ids": [
+        "2026-W37-003-L01",
+        "2026-W37-003-L02"
+      ],
+      "video": {
+        "id": "1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1",
+        "title": "04_肩線與立領_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "2835208",
+        "url": "https://drive.google.com/file/d/1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T02:38:36.194Z",
+        "modified_time": "2026-10-02T06:57:55.676Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_document": {
+        "id": "1RRJYsNnT7xsWUO5WeYvEmvMjV8qd6yivKe3-er4-O7k",
+        "title": "04_肩線與立領_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1",
+        "url": "https://docs.google.com/document/d/1RRJYsNnT7xsWUO5WeYvEmvMjV8qd6yivKe3-er4-O7k/edit?usp=drivesdk",
+        "display_url": "https://docs.google.com/document/d/1RRJYsNnT7xsWUO5WeYvEmvMjV8qd6yivKe3-er4-O7k/edit?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T06:58:51.029Z",
+        "modified_time": "2026-10-02T06:58:51.029Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_verification": {
+        "textMatches": true,
+        "captionMatches": true,
+        "videoLink": "https://drive.google.com/file/d/1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1/view?usp=drivesdk",
+        "headings": [
+          {
+            "style": "TITLE",
+            "text": "04｜肩線與立領：貼文文字\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "可直接貼入 Instagram\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "製作資訊（不貼入 Instagram）\n"
+          }
+        ]
+      },
+      "source_caption_path": "10_automation/runs/2026-W37/reels/M04_instagram_caption_draft.md",
+      "source_video_path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+      "local_sha256": "b01ce4a5b95a7cbc368312d0607a6155fad5c7f1918b1ed3272b4b75b247679b",
+      "local_size": 2835208
+    },
+    {
+      "model": "M05",
+      "number": "05",
+      "theme": "短外套與腰線",
+      "seconds": 8,
+      "look_ids": [
+        "2026-W37-002-L01",
+        "2026-W37-002-L02"
+      ],
+      "video": {
+        "id": "1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB",
+        "title": "05_短外套與腰線_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "2329327",
+        "url": "https://drive.google.com/file/d/1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T02:38:11.810Z",
+        "modified_time": "2026-10-02T06:58:03.043Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_document": {
+        "id": "1661EfMbPzLB-QS_KAPmPpy4Na4rcEySafZ_z9AbBBGk",
+        "title": "05_短外套與腰線_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1",
+        "url": "https://docs.google.com/document/d/1661EfMbPzLB-QS_KAPmPpy4Na4rcEySafZ_z9AbBBGk/edit?usp=drivesdk",
+        "display_url": "https://docs.google.com/document/d/1661EfMbPzLB-QS_KAPmPpy4Na4rcEySafZ_z9AbBBGk/edit?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": "2026-10-02T06:58:52.426Z",
+        "modified_time": "2026-10-02T06:58:52.426Z",
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": true,
+        "has_augmented_permissions": null,
+        "shared": false,
+        "permissions": [
+          {
+            "type": "user",
+            "role": "owner",
+            "emailAddress": "fcsh1526@gmail.com",
+            "domain": null,
+            "displayName": "Brandon Chang Chien",
+            "allowFileDiscovery": null
+          }
+        ],
+        "source_visibility_status": "permission_metadata_available"
+      },
+      "caption_verification": {
+        "textMatches": true,
+        "captionMatches": true,
+        "videoLink": "https://drive.google.com/file/d/1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB/view?usp=drivesdk",
+        "headings": [
+          {
+            "style": "TITLE",
+            "text": "05｜短外套與腰線：貼文文字\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "可直接貼入 Instagram\n"
+          },
+          {
+            "style": "HEADING_2",
+            "text": "製作資訊（不貼入 Instagram）\n"
+          }
+        ]
+      },
+      "source_caption_path": "10_automation/runs/2026-W37/reels/M05_instagram_caption_draft.md",
+      "source_video_path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "local_sha256": "ae7ced47b34732083ef112461597a2745697818872103ff3f095763c11b4bc1e",
+      "local_size": 2329327
+    }
+  ],
+  "backups": [
+    {
+      "model": "M01",
+      "id": "18sXoNgUkKv0uj4wZpx0VOlf93vK9Mf_Y",
+      "title": "歷史_M01_two_looks_soft_review_v2_01.mp4",
+      "mime_type": "video/mp4",
+      "size": "2381598",
+      "url": "https://drive.google.com/file/d/18sXoNgUkKv0uj4wZpx0VOlf93vK9Mf_Y/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/18sXoNgUkKv0uj4wZpx0VOlf93vK9Mf_Y/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T06:55:18.206Z",
+      "modified_time": "2026-10-02T06:55:18.206Z",
+      "parent_ids": [
+        "1OUivMGomc0nks90MHXeA7DQGGU6N8jMT"
+      ],
+      "drive_id": null,
+      "current_user_can_share": true,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": [
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": "fcsh1526@gmail.com",
+          "domain": null,
+          "displayName": "Brandon Chang Chien",
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    },
+    {
+      "model": "M02",
+      "id": "1NV3toflm5mlG5jkt3luDRqbnaxSwqmi4",
+      "title": "歷史_M02_scale_continuity_v4_review_01.mp4",
+      "mime_type": "video/mp4",
+      "size": "3366883",
+      "url": "https://drive.google.com/file/d/1NV3toflm5mlG5jkt3luDRqbnaxSwqmi4/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1NV3toflm5mlG5jkt3luDRqbnaxSwqmi4/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T06:55:26.959Z",
+      "modified_time": "2026-10-02T06:55:26.959Z",
+      "parent_ids": [
+        "1OUivMGomc0nks90MHXeA7DQGGU6N8jMT"
+      ],
+      "drive_id": null,
+      "current_user_can_share": true,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": [
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": "fcsh1526@gmail.com",
+          "domain": null,
+          "displayName": "Brandon Chang Chien",
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    },
+    {
+      "model": "M03",
+      "id": "1M-bqO6Ghfs7zi0UJ9j-V2cENeNfN_g0e",
+      "title": "歷史_M03_two_looks_soft_review_v1_01.mp4",
+      "mime_type": "video/mp4",
+      "size": "4280287",
+      "url": "https://drive.google.com/file/d/1M-bqO6Ghfs7zi0UJ9j-V2cENeNfN_g0e/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1M-bqO6Ghfs7zi0UJ9j-V2cENeNfN_g0e/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T06:55:31.845Z",
+      "modified_time": "2026-10-02T06:55:31.845Z",
+      "parent_ids": [
+        "1OUivMGomc0nks90MHXeA7DQGGU6N8jMT"
+      ],
+      "drive_id": null,
+      "current_user_can_share": true,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": [
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": "fcsh1526@gmail.com",
+          "domain": null,
+          "displayName": "Brandon Chang Chien",
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    }
+  ],
+  "archived_markdown": [
+    {
+      "id": "13TKzfbSea5VTpMEpe80wr7r9uKraMX2r",
+      "title": "W37_REEL_HANDOFF.md",
+      "mime_type": "text/markdown",
+      "size": "2751",
+      "url": "https://drive.google.com/file/d/13TKzfbSea5VTpMEpe80wr7r9uKraMX2r/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/13TKzfbSea5VTpMEpe80wr7r9uKraMX2r/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T02:40:12.999Z",
+      "modified_time": "2026-10-02T02:40:12.999Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": null,
+      "source_visibility_status": "not_shared"
+    },
+    {
+      "id": "1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E",
+      "title": "M03_instagram_caption_draft.md",
+      "mime_type": "text/markdown",
+      "size": "673",
+      "url": "https://drive.google.com/file/d/1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T02:39:10.879Z",
+      "modified_time": "2026-10-02T02:39:10.879Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": null,
+      "source_visibility_status": "not_shared"
+    },
+    {
+      "id": "1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX",
+      "title": "M01_instagram_caption_draft.md",
+      "mime_type": "text/markdown",
+      "size": "773",
+      "url": "https://drive.google.com/file/d/1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T02:38:56.323Z",
+      "modified_time": "2026-10-02T02:38:56.323Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": null,
+      "source_visibility_status": "not_shared"
+    },
+    {
+      "id": "1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw",
+      "title": "M04_instagram_caption_draft.md",
+      "mime_type": "text/markdown",
+      "size": "541",
+      "url": "https://drive.google.com/file/d/1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T02:38:42.177Z",
+      "modified_time": "2026-10-02T02:38:42.177Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": null,
+      "source_visibility_status": "not_shared"
+    },
+    {
+      "id": "1S-K45957m6N4nNy6QbdnT6FopIkprq5-",
+      "title": "M05_instagram_caption_draft.md",
+      "mime_type": "text/markdown",
+      "size": "683",
+      "url": "https://drive.google.com/file/d/1S-K45957m6N4nNy6QbdnT6FopIkprq5-/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/1S-K45957m6N4nNy6QbdnT6FopIkprq5-/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T02:38:27.288Z",
+      "modified_time": "2026-10-02T02:38:27.288Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": null,
+      "source_visibility_status": "not_shared"
+    },
+    {
+      "id": "150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg",
+      "title": "M02_instagram_caption_draft.md",
+      "mime_type": "text/markdown",
+      "size": "689",
+      "url": "https://drive.google.com/file/d/150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg/view?usp=drivesdk",
+      "display_url": "https://drive.google.com/file/d/150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg/view?usp=drivesdk",
+      "file_or_folder": "file",
+      "created_time": "2026-10-02T02:38:20.167Z",
+      "modified_time": "2026-10-02T02:38:20.167Z",
+      "parent_ids": null,
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": false,
+      "permissions": null,
+      "source_visibility_status": "not_shared"
+    }
+  ],
+  "verification": {
+    "folder_file_count": 12,
+    "current_videos": 5,
+    "native_documents": 6,
+    "archive_files": 9,
+    "all_three_new_video_sizes_verified": true,
+    "caption_text_and_video_links_verified": true,
+    "handoff_native_rich_links_verified": true,
+    "handbook_text_verified": true,
+    "publication_performed": false,
+    "document_parents_readback_verified": true
+  },
+  "resolved_error": "First handbook write was atomically rejected for an unsupported numbered-list enum. Confirmed blank destination, retried with supported native bullet preset; full readback verified."
+}

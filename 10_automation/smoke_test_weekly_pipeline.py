@@ -100,6 +100,14 @@ def test_new_week_without_assets():
         run_dir / "generated_images" / "2026-W25-001" / "codex_generation_handoff.md",
         "Codex generation handoff",
     )
+    assert_exists(
+        run_dir / "generated_images" / "2026-W25-001" / "hero_A_prompt.md",
+        "Hero A prompt",
+    )
+    assert_exists(
+        run_dir / "generated_images" / "2026-W25-001" / "derivative_edit_prompt_templates.md",
+        "optional derivative edit templates",
+    )
     queue = read_csv(run_dir / "daily_queue.csv")
     packets = read_csv(run_dir / "weekly_content_packet.csv")
     assert_equal(len(queue), 5, "daily queue row count")
@@ -111,9 +119,13 @@ def test_new_week_without_assets():
     targets = read_json(run_dir / "generated_images" / first_packet["carousel_id"] / "canva_slot_targets.json")
     assert_equal(targets["canva_template_key"], first_packet["canva_template_key"], "image job template key")
     assert_equal(sorted(targets["slots"]), ["A", "B", "C"], "image job target variants")
-    prompt_text = (run_dir / "generated_images" / first_packet["carousel_id"] / "candidate_prompts.md").read_text(encoding="utf-8")
-    if "Exact frame:" not in prompt_text or "Required width:height ratio:" not in prompt_text:
-        raise AssertionError("candidate prompts must include exact Canva frame geometry")
+    prompt_text = (run_dir / "generated_images" / first_packet["carousel_id"] / "hero_A_prompt.md").read_text(encoding="utf-8")
+    if "create specifically for the v3-" not in prompt_text or "without relying on a later hard crop" not in prompt_text:
+        raise AssertionError("Hero prompt must include concise exact-frame composition guidance")
+    if any(term in prompt_text for term in ["f/4", "ISO 200", "5200 K", "central 70", "8% top"]):
+        raise AssertionError("Hero prompt must not contain retired camera or QA-overload terms")
+    if "not A/B tests" not in prompt_text:
+        raise AssertionError("Hero prompt handoff must distinguish derivatives from A/B tests")
 
 
 def test_canva_template_geometry_registry():

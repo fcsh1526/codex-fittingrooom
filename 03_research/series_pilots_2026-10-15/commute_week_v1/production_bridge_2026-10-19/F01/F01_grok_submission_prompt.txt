@@ -1,0 +1,12 @@
+本輪只生成 F01 一個獨立6秒、720p、原生9:16候選影片，留在目前Mira畫布。這是已確認分鏡的第一段，與過往置中散步、R01/R02及M02/M04無關。不產生新圖、不重試、不換裝、不合片、不改舊媒體。
+精確輸入角色，先實際核對內容；找不到或角色無法指定便停止回報，不要替代：
+First frame ONLY = 剛上傳並選取的525cb906-2d48-4bda-9b75-86d7a1ca592c。已獲使用者核准的M03米白覆臀西外／白圓領T／偏灰深藍褲／黑素面低跟鞋／深棕肩包；灰鋪面街角、花台樹影、右緣米色柱廊，公司入口與斑馬線在畫外。
+M03 face identity ONLY = 6236309c-2343-41e6-985c-994239ff744a。
+M03 full normal proportions ONLY = ac9ede4e-1715-4518-95b4-bda341a62061。
+不設Last frame。臉與全身參照只鎖身份／比例，不複製參照衣服或站姿。畫布選取殘留若有其他影片不使用。
+
+Generate exactly ONE continuous video from the approved opening frame. Keep the same woman, face, ivory blazer, white cotton T, gray-cast dark navy trousers, plain black low-heel shoes and dark brown shoulder bag throughout. This is only the first segment of a short continuous commute route; do not change clothes or jump locations.
+She walks with a purposeful, brisk everyday commuting stride from the corner approach into the adjacent beige semi-open colonnade. Her body moves forward naturally; arms, bag and fabric respond to the steps. The level camera tracks with her continuously, moving backward gently and beginning only a subtle arc from front three-quarter toward her side. Preserve complete head-to-shoe framing and readable outfit. Continue through the adjacent opening beside the visible right-edge column, not through a wall or planter. By about4.5seconds she reaches the beginning of the colonnade; finish still walking along it, leaving a clear continuous endpoint. Do not reach the plaza, road, crossing or office door in this first segment.
+Maintain the same physical architecture, paving, trees, planters and daylight; reveal adjacent space through camera movement without rebuilding existing objects. Natural real-time motion, no slow motion, speed ramp, cut, zoom jump, added transition, text, logo or speech. Use the supplied picture as the first frame, not as a redesign brief. Do not generate another still or additional clips.
+
+音訊可關則關；若此模式仍帶音軌便如實回報，我另存靜音預覽，不為聲音重生。完成回報精確使用的首幀／face／full asset IDs、影片ID、真正時長／解析度／音軌。請求動作與實際抽樣觀察分開，不把提示詞當驗收通過。

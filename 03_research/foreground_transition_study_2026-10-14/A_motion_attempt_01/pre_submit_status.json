@@ -1,0 +1,12 @@
+{
+  "status": "new_captcha_user_handoff_required",
+  "date": "2026-10-14",
+  "url": "https://grok.com/imagine",
+  "tab_id": "2",
+  "prompt_entered": true,
+  "audio_off": true,
+  "identity_reference_selected": false,
+  "approved_first_frame_uploaded": false,
+  "confirmed_generation_count": 0,
+  "scope": "Exact source still approved, no video submitted. Fresh human verification blocks toolbox. Resume after user completion."
+}

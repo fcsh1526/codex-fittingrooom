@@ -1,0 +1,571 @@
+{
+  "recorded_at_taipei": "2026-10-22T13:16:19.052838+08:00",
+  "purpose": "SHA-bound source and proposed boundary inspection only; no full film render or replacement",
+  "source": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\F02_pace_source.mp4",
+    "sha256": "f6fcd8e02e99a6dd1b6282d5b5eb5e2b0eeca0bacc10c54d83940cfa4a0bbdf6",
+    "bytes": 7049447,
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "audio_codec": "aac",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.04
+    },
+    "fully_decoded": true,
+    "frames": 145,
+    "native_fps": 24,
+    "pixels": [
+      720,
+      1280
+    ],
+    "derived_frame_duration_seconds": 6.041666666666667,
+    "individual_source_PTS_measured": false
+  },
+  "references": {
+    "F01": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "frames": 145
+    },
+    "F03": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "frames": 145
+    },
+    "selected_pace_master": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\cadence_master_trial_01\\cadence_source.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "frames": 145,
+      "role": "human-selected visual pace standard only; NOT an engine video-motion input"
+    }
+  },
+  "proposed_joins": [
+    {
+      "id": "J12",
+      "status": "proposed_new_overlap_not_approved_or_rendered_film",
+      "frames": 18,
+      "seconds": 0.75,
+      "outgoing": "old F01",
+      "incoming": "new F02",
+      "outgoing_half_open": [
+        60,
+        78
+      ],
+      "incoming_half_open": [
+        0,
+        18
+      ],
+      "rows": [
+        {
+          "overlap_offset": 0,
+          "outgoing_frame": 60,
+          "incoming_frame": 0,
+          "incoming_blend_weight": 0.05555555555555555
+        },
+        {
+          "overlap_offset": 3,
+          "outgoing_frame": 63,
+          "incoming_frame": 3,
+          "incoming_blend_weight": 0.2222222222222222
+        },
+        {
+          "overlap_offset": 6,
+          "outgoing_frame": 66,
+          "incoming_frame": 6,
+          "incoming_blend_weight": 0.3888888888888889
+        },
+        {
+          "overlap_offset": 9,
+          "outgoing_frame": 69,
+          "incoming_frame": 9,
+          "incoming_blend_weight": 0.5555555555555556
+        },
+        {
+          "overlap_offset": 12,
+          "outgoing_frame": 72,
+          "incoming_frame": 12,
+          "incoming_blend_weight": 0.7222222222222222
+        },
+        {
+          "overlap_offset": 15,
+          "outgoing_frame": 75,
+          "incoming_frame": 15,
+          "incoming_blend_weight": 0.8888888888888888
+        },
+        {
+          "overlap_offset": 17,
+          "outgoing_frame": 77,
+          "incoming_frame": 17,
+          "incoming_blend_weight": 1.0
+        }
+      ]
+    },
+    {
+      "id": "J23",
+      "status": "proposed_new_overlap_not_approved_or_rendered_film",
+      "frames": 18,
+      "seconds": 0.75,
+      "outgoing": "new F02",
+      "incoming": "old F03",
+      "outgoing_half_open": [
+        127,
+        145
+      ],
+      "incoming_half_open": [
+        1,
+        19
+      ],
+      "rows": [
+        {
+          "overlap_offset": 0,
+          "outgoing_frame": 127,
+          "incoming_frame": 1,
+          "incoming_blend_weight": 0.05555555555555555
+        },
+        {
+          "overlap_offset": 3,
+          "outgoing_frame": 130,
+          "incoming_frame": 4,
+          "incoming_blend_weight": 0.2222222222222222
+        },
+        {
+          "overlap_offset": 6,
+          "outgoing_frame": 133,
+          "incoming_frame": 7,
+          "incoming_blend_weight": 0.3888888888888889
+        },
+        {
+          "overlap_offset": 9,
+          "outgoing_frame": 136,
+          "incoming_frame": 10,
+          "incoming_blend_weight": 0.5555555555555556
+        },
+        {
+          "overlap_offset": 12,
+          "outgoing_frame": 139,
+          "incoming_frame": 13,
+          "incoming_blend_weight": 0.7222222222222222
+        },
+        {
+          "overlap_offset": 15,
+          "outgoing_frame": 142,
+          "incoming_frame": 16,
+          "incoming_blend_weight": 0.8888888888888888
+        },
+        {
+          "overlap_offset": 17,
+          "outgoing_frame": 144,
+          "incoming_frame": 18,
+          "incoming_blend_weight": 1.0
+        }
+      ]
+    }
+  ],
+  "source_sample_frame_indices": [
+    0,
+    36,
+    72,
+    108,
+    127,
+    144
+  ],
+  "whole_frame_checkpoints": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60,
+    66,
+    72,
+    78,
+    84,
+    90,
+    96,
+    102,
+    108,
+    114,
+    120,
+    126,
+    132,
+    138,
+    144
+  ],
+  "feet_crop_QA_only_xyxy": [
+    0,
+    740,
+    720,
+    1280
+  ],
+  "artifacts": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\checkpoints_25.jpg",
+      "sha256": "3f378bcb717cf346c600a2ae4d43e9b81bb923cbf36c105ed477e75457cf12be",
+      "bytes": 1122974
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\new_F02_every3_foot.jpg",
+      "sha256": "3cc5eaf729d4f4330b599ea0663843b73e9abc387dee1805d414ede39bb88b66",
+      "bytes": 964416
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\new_F02_every6_whole.jpg",
+      "sha256": "9cc88bdb9c1d8b1c6bfa235bd777f20ce014ecf16b2de686c1bc2bc1a88ae571",
+      "bytes": 1123215
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\selected_master_every3_foot.jpg",
+      "sha256": "086cd1c1383e33ec907d6c2bee05fb21bd23038fc703306fc71b72eba18a5f8d",
+      "bytes": 924465
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000000.png",
+      "sha256": "3243b032c68653dc81a5da9b61e634ab75bcc4911cc61277a6fff413aa56f20a",
+      "bytes": 879750
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000001.png",
+      "sha256": "f0dee8fb3cbcad171eeb64f951270d16b3031416f7f8ca39c0ce90b8066ba391",
+      "bytes": 912854
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000002.png",
+      "sha256": "eed6a6c94fa04e57829162d345befd205f9a4788a7f79c6ff4475428bf78913d",
+      "bytes": 928553
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000003.png",
+      "sha256": "36d274ebef4e1ce63fad7c58915e4dd0e821569ab37f6f86631146cafb28780a",
+      "bytes": 944730
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000004.png",
+      "sha256": "dd55e784d5f151b3779d0b50d8043ca960e88b418fcdf2143e81135aa2db449e",
+      "bytes": 949209
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000005.png",
+      "sha256": "7713a1b23c4be837d6aecc71f892810075601a129b847c7d493a3093a9433538",
+      "bytes": 942624
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000006.png",
+      "sha256": "b79d8467da941cd2856b3b417981ac02167fd44a861e76db61cb8f8adc54eedc",
+      "bytes": 949995
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000007.png",
+      "sha256": "02edd5fc47b4396b51cb96c2323ed1fe89466107ea77d82e4179f7a558cf4a5b",
+      "bytes": 952872
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000008.png",
+      "sha256": "217b637b0536519bc1b0b7c44448c059454e09cc77f7576f8af00683b7c4f008",
+      "bytes": 944399
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000009.png",
+      "sha256": "e11f2b47dc135a0e9ff45cce38cafe121b0ecbf5f0ced90ab3136c3b95741c9d",
+      "bytes": 937513
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000010.png",
+      "sha256": "7e8cc4ffeed387191bba95b47cbd43c7a18213745bf796401024151967e8ce03",
+      "bytes": 936454
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000011.png",
+      "sha256": "d978d3eef1c40fc55f546e00bd4de5cb79339b2609ecbecef64317e3c3ecc5fb",
+      "bytes": 933658
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000012.png",
+      "sha256": "654739647c3a14f3c1551969f4cad2c67cc57b29b6c86cd05369693b4a33e69b",
+      "bytes": 932675
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000013.png",
+      "sha256": "4096ec792ab514c97a9a585724a785234414849004b988dcb4be459dbe0a6fcc",
+      "bytes": 932541
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000014.png",
+      "sha256": "7fdb104d504a59a8ab8478d71affb3b8c2546bf8b500007e683da7d549bf88ab",
+      "bytes": 928495
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000015.png",
+      "sha256": "a9c29eb6f4b906e8760b098b22348a6087448e12eebd1caa4f5df1aca00ee8f4",
+      "bytes": 920456
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000016.png",
+      "sha256": "c072e175ae4c02e6c0c57a8d19c8b4b4259c6f72f7043f5949d4ff02b69938f9",
+      "bytes": 928906
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000017.png",
+      "sha256": "28d1cfe8c612c8c42352b4bfd21d2c26189a5f8f6c64de0f1fd06312afa0534f",
+      "bytes": 928114
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000036.png",
+      "sha256": "83eaf5bf468d5af8f3c958a366017c3fa78223bf8964d630ef2aa0160b44e60f",
+      "bytes": 856398
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000072.png",
+      "sha256": "3c793e535c4e6e58b1168586436cb447cbe6fea600401c508bbb92cec4e3c2d2",
+      "bytes": 988223
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000108.png",
+      "sha256": "f79545d6fd0f933331cee8db4863d61213ebb56113144320526332785654edd8",
+      "bytes": 1051091
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000127.png",
+      "sha256": "86e704b215adc7a19709b2d5d1f0c66d0abb8b8eef3a79af23aae18938d33bf4",
+      "bytes": 1046662
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000128.png",
+      "sha256": "74b72b3bc983f155c60e5f3ad09d1762fe77ba575b076083d409ced8c8763931",
+      "bytes": 1051279
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000129.png",
+      "sha256": "90b9bc23da58fe58957ecb3ac71d371e0143baa11c106f2b8a6651835d55b158",
+      "bytes": 1042596
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000130.png",
+      "sha256": "a8bfd26922c92a282f863a0b4f720d796a5887ad3d972e5182f13516b7afeea3",
+      "bytes": 1038716
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000131.png",
+      "sha256": "27a0fdf607519ff3687336ea3dcc364ce0e2ad23771f365a9496a0e4be684bb7",
+      "bytes": 1043572
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000132.png",
+      "sha256": "ae23af752c3e81e51e142a1c13f198b4fa59553ea5aba60b3a6e34b9d1c24412",
+      "bytes": 1035918
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000133.png",
+      "sha256": "6030a1115e85c25ba75814bd390a34a7cb037a76b19c66440520bf56781b224f",
+      "bytes": 1042739
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000134.png",
+      "sha256": "3904b9bc63d0a8d03badcc21d6722aee11e882d436f78612f13199d1d5920a0c",
+      "bytes": 1029963
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000135.png",
+      "sha256": "d9a4a7376e1baee3884841760256edb34b536d0364eb0c4f91445894b8dd3e28",
+      "bytes": 1036810
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000136.png",
+      "sha256": "3c1a1bb4d50b2ca7ce97ecba73c6f7c430a4444206dbc4402db44ccacdbfdfa8",
+      "bytes": 1041483
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000137.png",
+      "sha256": "b6526e344c63e5d885b5b7eb59fe9e2379a9239a2f5a853a29fb2beaae31e554",
+      "bytes": 1041171
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000138.png",
+      "sha256": "c3293902dd78408f9237f8356f6fda89fcee3c07305aada4d5c11dcbee96cb1b",
+      "bytes": 1045612
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000139.png",
+      "sha256": "97062b2010cc5128c397ba3c051bd834adc25e9489ac6cec8add0bce572c1a2a",
+      "bytes": 1043907
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000140.png",
+      "sha256": "77034ba2ff797dbddaa0eafe4b1e4857b60d8076b6f10c7ea5e328de1acb90a3",
+      "bytes": 1054996
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000141.png",
+      "sha256": "f8c23e3c0bf4d0b3021a2f96fd02023b472fa234cef5d2d38330e670f5c68e7f",
+      "bytes": 1049540
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000142.png",
+      "sha256": "fc66e153b4b5acafe1991c104bbb9ccd6f223172a3f68953ef021b4f6f3ad465",
+      "bytes": 1050416
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000143.png",
+      "sha256": "3716d279c7051802ba14238e0c456a83ab44f4a451f7fbaecd7f7e8783e89e34",
+      "bytes": 1052038
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\frames\\new_F02_f000144.png",
+      "sha256": "92efc3befdc31333105a299deb3dfb86261b14e95baa91e9e76b95510e5882d0",
+      "bytes": 1057440
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\first_last_comparison.jpg",
+      "sha256": "af775050bb0ad3d5943be57da69a25a6d14c7d91f8ff76ed04fda9a0568ce591",
+      "bytes": 327361
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\proposed_J23_start_comparison.jpg",
+      "sha256": "04fd70462df427e4381440b5f1236610ea28238f3071347c8634ce8b63da7c47",
+      "bytes": 252628
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\proposed_J12_whole.jpg",
+      "sha256": "b4593b36a8d72ea59920452e0017a5a5344c76a88abec14f3120e431d970fb0e",
+      "bytes": 1441529
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\proposed_J12_foot.jpg",
+      "sha256": "e15aba25bca1cbe58f3467d6889808cd9388a3c9f732ca88fa539a1a93384d8b",
+      "bytes": 440258
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\proposed_J23_whole.jpg",
+      "sha256": "3810d9730e2b1ec73a4adc73766ab37857a5ab287fd7fff8da4f609fe6b2a539",
+      "bytes": 1646287
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\proposed_J23_foot.jpg",
+      "sha256": "c9a74255b152bc2f924fc30bbd7db778a0b30dc6955b397f35139e925df2fcdd",
+      "bytes": 465295
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\source_stream_info.txt",
+      "sha256": "3c3b97747155ead5150dab4e42242a77bc969b041b5628d3adc7af6d72793de6",
+      "bytes": 1435
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\silent_remux_log.txt",
+      "sha256": "288c07a97eb4f4fe0ca3279ac118aafb809a50ac8db8ebcced9f6395c110be37",
+      "bytes": 2706
+    }
+  ],
+  "silent": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\QA_2026-10-22\\F02_pace_silent.mp4",
+    "sha256": "626a0b35aedbf9b3cf5966afae09113d3837c5a7b070f9ad238ce1ccbe0bb39d",
+    "bytes": 6857362,
+    "stream_copy": true,
+    "audio_removed": true,
+    "retimed": false,
+    "cropped": false,
+    "reencoded": false,
+    "source_h264_annexb_sha256": "7146cf9f13a963f275a6f5e9c86b607f9e39e4bac2321a0fed2cf9dc9ec0c771",
+    "silent_h264_annexb_sha256": "7146cf9f13a963f275a6f5e9c86b607f9e39e4bac2321a0fed2cf9dc9ec0c771",
+    "identical_video_bitstream": true
+  },
+  "protected_hashes_before": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\F02_M03_L05_start_candidate_A.png": "99aadb4495132c29d816b51e6bd17238b827b9975746802cadb96d37cabce987",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\F02_M03_L05_end_candidate_A.png": "10b9a0fd248ae13c1a4409cb9ed3d322c2ea00cc9eb49d7d4cfd052789cb47c7",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_M03_L03_start_candidate_A.png": "a7b6e33248b5e90c9c63ba0cda1264f23b8ebe8a3dabcb5baeab017c0b30db9e",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\four_look_review\\v1\\review.mp4": "3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\five_look_review_2026-10-22\\v1\\review.mp4": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\cadence_master_trial_01\\cadence_source.mp4": "9707b42d230466ef2c2088a926ec45745d546d717c0fa9756d1b8e52ac0ab21d"
+  },
+  "protected_hashes_after": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\F02_M03_L05_start_candidate_A.png": "99aadb4495132c29d816b51e6bd17238b827b9975746802cadb96d37cabce987",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\F02_M03_L05_end_candidate_A.png": "10b9a0fd248ae13c1a4409cb9ed3d322c2ea00cc9eb49d7d4cfd052789cb47c7",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_M03_L03_start_candidate_A.png": "a7b6e33248b5e90c9c63ba0cda1264f23b8ebe8a3dabcb5baeab017c0b30db9e",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\four_look_review\\v1\\review.mp4": "3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\five_look_review_2026-10-22\\v1\\review.mp4": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\cadence_master_trial_01\\cadence_source.mp4": "9707b42d230466ef2c2088a926ec45745d546d717c0fa9756d1b8e52ac0ab21d"
+  },
+  "all_source_hashes_unchanged": true,
+  "full_film_rendered_or_replaced": false,
+  "source_speed_factor": 1,
+  "source_frame_order_changed": false,
+  "visual_pass": null,
+  "user_motion_approval": null,
+  "normal_speed_continuous_visual_review": false,
+  "footfall_measurement": null,
+  "slide_free_claim": false,
+  "limits": [
+    "Contact sheets are sampled visual evidence, not precise foot-ground tracking.",
+    "Compare observed front/middle/end phase spacing against selected master 12-15 frame range; the prompt is not evidence of success.",
+    "Both J12 and J23 need fresh visual QA; old first/last still approval does not transfer motion or overlap approval.",
+    "Expected blends are diagnostic images, not a rendered, accepted or publishable film."
+  ]
+}

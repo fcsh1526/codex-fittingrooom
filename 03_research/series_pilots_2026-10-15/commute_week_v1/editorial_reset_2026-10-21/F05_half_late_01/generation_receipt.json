@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-22",
+  "mode": "built-in image_gen",
+  "intent": "Approved F05 full-to-half single-shot plan, new head-to-mid-thigh late control candidate",
+  "storyboard_approval_receipt": "../half_integration_2026-10-22/user_storyboard_approval.json",
+  "first_still_approval_receipt": "../F05_full_start_01/user_still_approval.json",
+  "input_roles": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_full_start_01\\F05_M03_L04_full_start_candidate_A.png",
+      "sha256": "ac588ec1674df43923140e17f46c4734706cf834f2b7f5599aeeec60376f9c82",
+      "role": "Exact approved first: wardrobe, direction, camera flank, lighting and visible site"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "role": "Approved M03 v3 face identity only"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "role": "Approved ordinary body proportion only; do not borrow studio wardrobe"
+    }
+  ],
+  "generation_calls": 1,
+  "targeted_edits": 0,
+  "tool_wait_seconds": 48.322,
+  "active_minutes": null,
+  "prompt": "prompt.txt",
+  "prompt_sha256": "747e21bd01f7062f151661ae1d2f54b44159c8c23d79ca272aa4895aaac612d0",
+  "generated_source": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a0a39c-4727-7593-ac24-1a8727f9ff61\\exec-140ac2c2-c67f-471b-a1e9-1ece94079b94.png",
+  "workspace_copy": "F05_M03_L04_half_late_candidate_A.png",
+  "sha256": "114300736fbcf321316d20ce992f968bcb39d9dcea0e85542f0491ee97539ab7",
+  "bytes": 2148124,
+  "dimensions": [
+    941,
+    1672
+  ],
+  "status": "user_visual_approved_exact_still",
+  "Grok_uploaded": true,
+  "F05_motion_generated": true,
+  "root_review": {
+    "viewed": [
+      "built-in returned native image",
+      "first_half_comparison.jpg"
+    ],
+    "findings": [
+      "Whole head, pointed white collar, turned short cuff, black high waist, complete cobalt bag and both hands visible",
+      "Direction remains rightward, forward closed-mouth gaze, near arm bent and far arm swinging",
+      "No new door/crosswalk/people visible"
+    ],
+    "differences_to_disclose": [
+      "Far hand now visible and forward in a different walking phase",
+      "Some tree/planter/glass details regenerated in tighter perspective; exact parallax not established",
+      "Fine skirt fabric pattern retained from approved source"
+    ],
+    "motion_pass": false
+  },
+  "independent_still_review": {
+    "agent": "/root/half_shot_reuse_audit_oct22",
+    "viewed": [
+      "native candidate",
+      "first_half_comparison.jpg",
+      "M03 v3 face anchor"
+    ],
+    "blocking_defect_observed": false,
+    "findings": [
+      "Face and hairstyle continue approved first; white pointed short-sleeve shirt, black high waist and cobalt bag readable",
+      "Both hands show no obvious extra digits, fusion or penetration in this still",
+      "Whole blue bag inside closer framing; shoes and hem outside frame as planned",
+      "Far hand swings forward; inherited skirt texture remains",
+      "Tree, planter and glass grid reprojected; candidate is not a direct enlargement of first"
+    ],
+    "limits": "Still-only review; no camera-path, motion continuity, gait or push-in timing pass"
+  },
+  "next": "Compare with approved first, exact user visual approval, then one bounded six-second single-shot trial with about3s pure full-outfit reading before continuous push-in; verify controls and achieved timing, no assumed literal pin.",
+  "approval_receipt": "user_still_approval.json",
+  "motion_receipt": "../F05_half_motion_01/submission_receipt.json"
+}

@@ -1,0 +1,261 @@
+{
+  "status": "exact_research_picture_user_accepted",
+  "file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+  "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\editorial_sequence_reset_2026-10-13\\four_shot_review_v1\\M03_lunch_outing_two_looks_trial_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 10.75
+    },
+    "decoded_frames": 258,
+    "decoded_seconds": 10.75,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "scope": "Separate M03 same-day lunch-story research candidate with exactly one model and both W41-004 looks. Not approved weekly replacement; Carousel and full production package incomplete.",
+  "sources": [
+    {
+      "shot": "A1",
+      "look_id": "2026-W41-004-L01",
+      "file": "03_research/editorial_sequence_reset_2026-10-13/A1_motion_attempt_01/source.mp4",
+      "sha256": "826dcddb4dca44a604f4b25bbc68cee52d3f2d5e2ead84031dc356edfa1e234d",
+      "frames": [
+        0,
+        54
+      ],
+      "end_exclusive": true,
+      "seconds": [
+        0,
+        2.25
+      ],
+      "still_approval": {
+        "date": "2026-10-13",
+        "user_quote": "可以，沿用修正版",
+        "question_context": "Explicit reply identifying second displayed M03 L01 walk-start v2 for lunch-outing A1.",
+        "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v2.png",
+        "sha256": "f8df74a64224495272dd1b85159c2af0d10f86fe383477c29266c052036c0990",
+        "scope": "Only this exact still as A1 source and L01 outfit/scene lock. No approval of A2, motion or whole film."
+      },
+      "browser_receipt": "03_research/editorial_sequence_reset_2026-10-13/A1_motion_attempt_01/browser_receipt.json",
+      "technical_receipt": "03_research/editorial_sequence_reset_2026-10-13/A1_motion_attempt_01/technical_receipt.json"
+    },
+    {
+      "shot": "A2",
+      "look_id": "2026-W41-004-L01",
+      "file": "03_research/editorial_sequence_reset_2026-10-13/A2_motion_attempt_01/source.mp4",
+      "sha256": "f0356f08ef7044ac37fd1d972e9046a2ba5784e92dac8f51b0ca5e74b41b156d",
+      "frames": [
+        0,
+        96
+      ],
+      "end_exclusive": true,
+      "seconds": [
+        0,
+        4.0
+      ],
+      "still_approval": {
+        "date": "2026-10-13",
+        "user_quote": "可以，沿用這張",
+        "question_context": "Exact last plain-fabric seated image, one hand on knee and one by bench; approved as second-shot start.",
+        "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v4_clean.png",
+        "sha256": "bb62e95ad1b56e4391b3c5654ddbe835c7e196dc6601a6fa3d4a43282360d10c",
+        "scope": "Exact seated A2v4 still only; no motion or whole-film approval."
+      },
+      "browser_receipt": "03_research/editorial_sequence_reset_2026-10-13/A2_motion_attempt_01/browser_receipt.json",
+      "technical_receipt": "03_research/editorial_sequence_reset_2026-10-13/A2_motion_attempt_01/technical_receipt.json"
+    },
+    {
+      "shot": "B1",
+      "look_id": "2026-W41-004-L02",
+      "file": "03_research/editorial_sequence_reset_2026-10-13/B1_motion_attempt_01/source.mp4",
+      "sha256": "8366b427e320c37f712b03024d21e929aa3621427f2066d146c268a6148f8e0c",
+      "frames": [
+        0,
+        90
+      ],
+      "end_exclusive": true,
+      "seconds": [
+        0,
+        3.75
+      ],
+      "still_approval": {
+        "date": "2026-10-13",
+        "user_quote": "可以，沿用最後這張",
+        "question_context": "Explicit reply identifying final M03 L02 B1v4 seated still: face/navy blazer/plain gray tee/cream trousers/black bag/crossed-leg pose for third shot.",
+        "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v4_clean.png",
+        "sha256": "5d3933fc1ba8dce227c70e3ed3b625d7151fb26acdde5b7fbc3b6b5aea7655f1",
+        "scope": "Exact B1v4 still only; authorizes next Grok First frame. No motion or whole-film approval."
+      },
+      "browser_receipt": "03_research/editorial_sequence_reset_2026-10-13/B1_motion_attempt_01/browser_receipt.json",
+      "technical_receipt": "03_research/editorial_sequence_reset_2026-10-13/B1_motion_attempt_01/technical_receipt.json"
+    },
+    {
+      "shot": "B2",
+      "look_id": "2026-W41-004-L02",
+      "file": "03_research/editorial_sequence_reset_2026-10-13/B2_motion_attempt_01/source.mp4",
+      "sha256": "f8d062ab84fdb7b648e11d0bc75764d1fe1beb7933a943068b18269ad2defe51",
+      "frames": [
+        0,
+        72
+      ],
+      "end_exclusive": true,
+      "seconds": [
+        0,
+        3.0
+      ],
+      "still_approval": {
+        "date": "2026-10-13",
+        "user_quote": "可以，沿用最後這張",
+        "question_context": "Explicit answer to latest B2v4 full-person face/navy blazer/plain gray tee/cream trousers/one hand on black shoulder-bag question.",
+        "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png",
+        "sha256": "a5e578157109ed5204218e310f84a2586fa744076ddf69ca71e83708ab63a3d2",
+        "scope": "Exact B2v4 still and its L02 wardrobe/bag as scene lock only. No B1 still, motion or whole-film approval."
+      },
+      "browser_receipt": "03_research/editorial_sequence_reset_2026-10-13/B2_motion_attempt_01/browser_receipt.json",
+      "technical_receipt": "03_research/editorial_sequence_reset_2026-10-13/B2_motion_attempt_01/technical_receipt.json"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "A1",
+      "to": "A2",
+      "type": "cross_dissolve",
+      "start_frame": 36,
+      "end_frame_exclusive": 54,
+      "start_seconds": 1.5,
+      "end_seconds": 2.25,
+      "seconds": 0.75,
+      "frames": 18
+    },
+    {
+      "from": "A2",
+      "to": "B1",
+      "type": "cross_dissolve",
+      "start_frame": 114,
+      "end_frame_exclusive": 132,
+      "start_seconds": 4.75,
+      "end_seconds": 5.5,
+      "seconds": 0.75,
+      "frames": 18
+    },
+    {
+      "from": "B1",
+      "to": "B2",
+      "type": "cross_dissolve",
+      "start_frame": 186,
+      "end_frame_exclusive": 204,
+      "start_seconds": 7.75,
+      "end_seconds": 8.5,
+      "seconds": 0.75,
+      "frames": 18
+    }
+  ],
+  "editing": "Original24fps speed; tail trims only; no text/audio/crop/zoom/freeze/retime.",
+  "assistant_continuous_playback": false,
+  "user_film_approval": {
+    "date": "2026-10-13",
+    "user_quote": "ok",
+    "question_context": "Direct reply after exact10.75s four-shot two-look trial was shown and assistant asked whether middle outfit switch and final return to full-person join felt comfortable.",
+    "file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+    "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+    "seconds": 10.75,
+    "scope": "Exact research film visual/editorial acceptance, including current0.75s dissolve joins. Not replacing weekly publishing files, adopting a mandatory account-wide format, confirming production-time targets or proving audience results.",
+    "normal_speed_full_playback_user_self_report": null,
+    "assistant_continuous_playback": false,
+    "drive_upload_authorized_by_this_reply": false
+  },
+  "first_look_direction_approval": "first_look_direction_acceptance_2026-10-13.json",
+  "protected_w41_delivery": [
+    {
+      "model": "M01",
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+      "unchanged": true
+    },
+    {
+      "model": "M02",
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+      "unchanged": true
+    },
+    {
+      "model": "M03",
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+      "unchanged": true
+    },
+    {
+      "model": "M04",
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+      "unchanged": true
+    },
+    {
+      "model": "M05",
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd",
+      "unchanged": true
+    }
+  ],
+  "drive_uploaded": false,
+  "visual_review": {
+    "status": "sampled_review_complete_exact_picture_user_accepted",
+    "method": "All258 output thumbnails,25 larger whole-frame samples,5 face samples and all23 boundary/overlap samples at each of3 joins (all18 dissolve frames per join) viewed. Native source spot checks recorded separately. No assistant continuous normal-speed playback.",
+    "single_source_findings": "Recognizable face and readable locked wardrobe in sampled intervals; no gross instantaneous face/clothing/hand/bag/background morph observed.0black candidates;258 frames decoded. Does not certify native contact or exact architecture every frame.",
+    "join_findings": {
+      "A1_A2": "Standing/seated body scale and position differ; visible double heads and bench outlines. Retains previously direction-accepted first-look cut.",
+      "A2_B1": "Seated head/waist focus closer than full→medium, but size, x-position and bench/window viewpoint differ; visible face/body overlap. Not an invisible change.",
+      "B1_B2": "Seated/standing scale differs and viewing direction changes; visible larger/smaller double head/body during0.75s overlap. Comfort requires whole-film viewing."
+    },
+    "assistant_continuous_playback": false,
+    "user_film_approval": {
+      "date": "2026-10-13",
+      "user_quote": "ok",
+      "question_context": "Direct reply after exact10.75s four-shot two-look trial was shown and assistant asked whether middle outfit switch and final return to full-person join felt comfortable.",
+      "file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+      "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+      "seconds": 10.75,
+      "scope": "Exact research film visual/editorial acceptance, including current0.75s dissolve joins. Not replacing weekly publishing files, adopting a mandatory account-wide format, confirming production-time targets or proving audience results.",
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "drive_upload_authorized_by_this_reply": false
+    },
+    "limits": "User accepts this exact full film. Does not infer uninterrupted playback self-report, assistant continuous playback, geometric match, production-time targets, mandatory weekly template or IG success."
+  },
+  "unoverlapped_reading_seconds": {
+    "A1": 1.5,
+    "A2": 2.5,
+    "B1": 2.25,
+    "B2": 2.25
+  },
+  "research_cost": {
+    "still_generation_calls": 14,
+    "by_shot": {
+      "A1": 2,
+      "A2": 4,
+      "B1": 4,
+      "B2": 4
+    },
+    "confirmed_motion_results": 4,
+    "total_server_generations": null,
+    "unconfirmed_UI_send_actions": 1,
+    "active_minutes": null,
+    "pure_generation_wait_minutes": null,
+    "note": "B2 had one unconfirmed locator send before UI recovery. Rebuilds and material failures retained; not a demonstrated30–60min production recipe."
+  },
+  "source_behavior_limits": {
+    "A1": "Initial one-step/settle, not sustained crossing.",
+    "A2": "Already seated torso adjustment; no sit-down action.",
+    "B1": "Looks toward image-left rather than prompted right.",
+    "B2": "Mainly forward step then posture change; not sustained departure."
+  }
+}

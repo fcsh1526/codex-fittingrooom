@@ -1,0 +1,23 @@
+{
+  "date":"2026-10-22",
+  "film":"review.mp4",
+  "sha256":"e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+  "status":"user_retained_gait_and_joins_in_exact_context_v2",
+  "frames":511,"fps":24,"pixels":[720,1280],"duration_seconds":21.291666666666668,"bytes":19360340,
+  "change":"Only F03 source changed relative to context_review_v1; F02 retained per user's exact approval. All intervals and18frame dissolves retained; other sources unchanged.",
+  "root_viewed":["QA/full25.png","QA/J23_every3_full.png","QA/J34_every3_full.png","QA/J34_every3_feet.png"],
+  "other_reviews":["F03 source and both proposed boundaries independently reviewed in F03/QA_2026-10-22/INDEPENDENT_SOURCE_AND_JOIN_REVIEW.md","builder sampled five rendered-context QA sheets in sampled_visual_review.json"],
+  "continuous_native_visual_review_claimed":false,
+  "technical_QA":{"decoded_output_vs_intended_frames":511,"mean_MAE":2.11628,"worst_MAE":2.55088,"minimum_PSNR_dB":36.88296,"protected_hashes_unchanged":10},
+  "observations":[
+    "Third look remains full-person with short jacket/high-waist shape readable, moving from final column into glass/planter plaza.",
+    "New F03 source middle phase intervals mostly15frames and latest18, improved from original18-to21 late intervals; not exact constantcadence or zero-slip proof.",
+    "J23 at7.7917–8.5417seconds retains short head/body/arm/leg and column ghosting; native walking comfort must be judged by user.",
+    "J34 at11.5417–12.2917seconds begins with compatible scale/pose; new outgoing can lead incoming slightly near end. Face/hair/arm/leg/shoe and planter/grid mixed outlines remain.",
+    "Other three looks, original F04/F05 stairs and final full-to-half design unchanged; no renewed background or publication pass inferred."
+  ],
+  "user_review_scope":"Third-look walking and both transitions, plus perceived cadence continuity across the complete five-look sequence. No publication authority implied.",
+  "retiming_crop_text_audio":false,
+  "user_approval":"user_gait_and_join_approval.json; gait/join scope only, not publication or zero-slip validation",
+  "external_delivery_changed":false
+}

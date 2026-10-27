@@ -1,0 +1,40 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F03_pushin_motion_01\\F03_pushin_source.mp4",
+  "sha256": "452baf11a5d6b01e62e522bddb2c1aac8f67938c902eee86d43436cfd569b814",
+  "bytes": 4762731,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "decoded_frames": 145,
+  "derived_frame_duration_seconds": 6.041666666666667,
+  "silent": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F03_pushin_motion_01\\source_inspection_2026-10-21\\F03_pushin_silent.mp4",
+    "sha256": "80094cf144e7fc813dda05cc5bea4e322cf53bb43d5aabd7c4ae9766a42d6e37",
+    "bytes": 4564266,
+    "main_h264_annexb_sha256": "917e571d300f501d72059ce23b35874994631563c244e24c98a76c60cb4de8f3",
+    "source_main_h264_annexb_sha256": "917e571d300f501d72059ce23b35874994631563c244e24c98a76c60cb4de8f3",
+    "identical": true,
+    "remux_only": true,
+    "retimed": false,
+    "cropped": false,
+    "reencoded": false
+  },
+  "protected_prefix_sha256_before": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+  "protected_prefix_sha256_after": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+  "visual_qa_pending": true,
+  "continuous_playback_performed": false
+}

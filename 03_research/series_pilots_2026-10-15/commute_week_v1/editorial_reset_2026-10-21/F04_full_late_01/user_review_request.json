@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-21",
+  "asset": "F04_M03_L02_full_late_candidate_A.png",
+  "sha256": "f9b3c4e0bf0ba2abd0924697e48a05454df8b9578667c1cb363905e9b36392ff",
+  "question": "請確認剛顯示的第四套末段參照圖：臉、格紋／灰褲／黑鞋包與前側行走構圖是否可以沿用？人物比首圖稍大，樹、花台與玻璃角度有變化，空間接續仍待動態檢查。依你訂的新圖先視覺核准流程，確認後才做影片測試。",
+  "options": ["可以，沿用這張", "臉或服裝需要修正", "構圖或背景需要調整"],
+  "answer": "可以，沿用這張",
+  "status": "exact_late_still_user_approved",
+  "motion_approval": false
+}

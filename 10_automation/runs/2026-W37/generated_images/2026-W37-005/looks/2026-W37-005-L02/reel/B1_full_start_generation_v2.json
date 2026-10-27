@@ -1,0 +1,59 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-005-L02",
+  "model_profile_id": "M03",
+  "shot_id": "B1",
+  "date": "2026-10-01",
+  "status": "user_visual_approved_for_derivatives_and_motion_2026-10-01",
+  "tool": "built-in image_gen",
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_B1_L02_start_v1.md",
+  "correction_prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_B1_L02_bag_color_correction_v2.md",
+  "identity_references": [
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png"
+  ],
+  "scene_reference": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A1_full_start_candidate_v2.png",
+  "selected_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/2026-W37-005-L02_M03_B1_full_start_candidate_v2.png",
+  "attempts": [
+    {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/2026-W37-005-L02_M03_B1_full_start_candidate_v1.png",
+      "sha256": "89f0639c37e7b63c5aab28ef7bfdc7aa0687a6b2112429edf77997b9222e376e",
+      "resolution": [
+        941,
+        1672
+      ],
+      "status": "rejected_bag_color_too_caramel",
+      "observed_tool_wall_seconds": 43.8
+    },
+    {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/2026-W37-005-L02_M03_B1_full_start_candidate_v2.png",
+      "sha256": "9e706d86bfe14812e5bdeac0299ea463f1cae83fbe0e40927eb5b5ae483a647e",
+      "resolution": [
+        941,
+        1672
+      ],
+      "status": "user_visual_approved_for_derivatives_and_motion",
+      "observed_tool_wall_seconds": 46.5
+    }
+  ],
+  "assistant_review": {
+    "framing": "Native941x1672 vertical, complete hair and both black closed flats with step room. Same near-frontal identity and cafe perspective as approved A1.",
+    "wardrobe": "Plain light-blue short-sleeve collared shirt dress, same-fabric tied belt, calf-length A-line hem; small dark chocolate-brown suede bag at viewer-right waist after one color correction.",
+    "open_detail": "Silver small-loop earrings accepted by user after explicit disclosure; retain in derivatives.",
+    "scene": "Cafe window on left, warm-gray wall, wood bench and paving retained. No physical first/last-frame continuity assumption."
+  },
+  "user_approval": {
+    "reply": "ok",
+    "date": "2026-10-01",
+    "scope": "Displayed B1 v2 including explicitly disclosed small silver loop earrings; not video approval."
+  },
+  "grok_submitted": true,
+  "publishable": false,
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": null,
+    "observed_tool_wall_seconds_total": 90.3,
+    "notes": "Tool wall includes orchestration; not measured active or pure generation time."
+  },
+  "motion_record_path": "10_automation/runs/2026-W37/reels/M03_B1_L02_motion_v1_01.json"
+}

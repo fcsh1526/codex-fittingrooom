@@ -1,0 +1,45 @@
+{
+  "carousel_id": "2026-W36-003",
+  "look_id": "2026-W36-003-L01",
+  "model_profile_id": "M01",
+  "delivery_surface": "carousel",
+  "canva_template_key": "C",
+  "canva_template_name": "Mira Template Master v3 - C Cross-Boundary Noir",
+  "canva_design_id": "DAHPUhYzs28",
+  "canva_crop_limit": 0.15,
+  "slots": {
+    "A": {
+      "slot_id": "cover_image",
+      "variant": "A",
+      "element_id": "PB2GyF34vKF1k1q4-LBtfx0hWS7Gnd4fW",
+      "left": 0,
+      "top": 0,
+      "width": 1230,
+      "height": 1350,
+      "aspect_ratio": 0.9111,
+      "composition": "full_body"
+    },
+    "B": {
+      "slot_id": "motion_crop",
+      "variant": "B",
+      "element_id": "PB2GyF34vKF1k1q4-LB7NyX60PQMJwTV1",
+      "left": 1450,
+      "top": 540,
+      "width": 1000,
+      "height": 460,
+      "aspect_ratio": 2.1739,
+      "composition": "horizontal_motion"
+    },
+    "C": {
+      "slot_id": "detail_image",
+      "variant": "C",
+      "element_id": "PB2GyF34vKF1k1q4-LBN3VRtpTw2PkgYb",
+      "left": 2060,
+      "top": 0,
+      "width": 1180,
+      "height": 1350,
+      "aspect_ratio": 0.8741,
+      "composition": "outfit_detail"
+    }
+  }
+}

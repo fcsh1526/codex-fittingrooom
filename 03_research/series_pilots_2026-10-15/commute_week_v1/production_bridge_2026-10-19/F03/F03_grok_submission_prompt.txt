@@ -1,0 +1,17 @@
+本次只製作F03第三套的一個6秒、720p、原生9:16候選影片，留在目前Mira畫布，保留所有舊媒體；不要出新圖、不要換裝、不要合片、不要自行重試。新首尾兩張皆已獲使用者逐張視覺核准。
+
+先實際查看並核對兩個上傳圖片內容，再同時指定角色，不能同時指定便停下回報：
+First frame ONLY = a7a33bb7-39ff-472d-b27d-53e50fe48c58（米白短立領拉鍊外套敞開、白圓領T、炭灰直筒褲、黑低跟鞋與小黑肩包；向右跨步，方柱與平梁在後方）。
+Last frame ONLY = d3c047bd-a2e5-4def-adba-a4ffb7cdcaa4（同衣同人同尺度，已走離柱廊到廣場路緣前，突出花台在左後，右側可見斑馬線起端；雙腳仍在鋪面）。
+Face identity ONLY = 6236309c-2343-41e6-985c-994239ff744a；Full ordinary proportions ONLY = ac9ede4e-1715-4518-95b4-bda341a62061。
+上一段已接受的F02影片545538de-6a5d-4ba9-a283-d5d8530a1520只作步頻、步幅、地面流速與向右側跟的動勢參照，不要把它的白襯衫或棕丹寧帶進新片。舊失敗片和畫布殘留選取均不是新內容輸入。
+
+Generate one continuous six-second live-action commuting shot between these exact approved first and last frames. Preserve the same M03 face, wavy hair and ordinary proportions, open waist-length ivory stand-collar zip jacket with pushed forearm sleeves, plain white crew-neck T tucked into charcoal high-waisted straight trousers, plain black low heels and small black shoulder bag. The view should make the short-jacket/high-waist silhouette readable.
+
+From the FIRST frame she is already walking decisively toward image-right, continuing the accepted preceding clip's cadence, stride and momentum. No easing in, delayed first step, slow motion or posing. Each supporting sole stays attached to the same paving point until heel lift and toe-off; her pelvis moves over the support foot as the other leg swings into the next heel landing. The planted shoe and paving point move together through the view, not as shoes pinned to screen pixels. Use natural weight transfer, arm counter-swing, fabric and bag response. No skating, stationary marching or moving-background loop.
+
+The level chest-height 50mm camera tracks her actual forward travel from the same near side, only gradually falling a little behind; no orbit, camera-side reversal, sudden turn or zoom. Preserve complete head and both shoes and comparable person scale. Continue across ONLY this adjacent compact plaza: the final square column, nearby tree and planter recede toward frame-left with coherent parallax, the distant green-gray glass grid changes more slowly, and dappled daylight stays consistent. Finish at the approved near-side curb approach, BOTH feet still on gray paving, not on the road. A short curb and single zebra-crossing beginning appear ahead-right. Do not introduce new pillars, long corridor, arches, doorway beside her, another street or an early crossing.
+
+Reach the endpoint while still walking, without freezing, stretching time or snapping into the last image. Do not add a slow opening handle for the external 0.75-second dissolve. No internal cut, transition, outfit morph, retiming, speed ramp, text, logo or extra person. Audio off if supported; otherwise report actual audio for local silent review.
+
+Generate exactly once. Report actual assigned first/last/face/full asset roles, new videoID, duration, pixels and audio. Separate requested walking/geometry from observed sampled facts; do not claim zero sliding, identical pace or exact same-site geometry just because requested.

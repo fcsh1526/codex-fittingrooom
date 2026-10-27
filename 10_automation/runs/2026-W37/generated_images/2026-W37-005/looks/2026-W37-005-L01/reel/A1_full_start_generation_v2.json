@@ -1,0 +1,52 @@
+{
+  "look_id": "2026-W37-005-L01",
+  "model_profile_id": "M03",
+  "date": "2026-10-01",
+  "status": "user_visual_approved_for_motion_2026-10-01",
+  "provider": "built_in_imagegen",
+  "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A1_full_start_candidate_v2.png",
+  "pixels": [
+    941,
+    1672
+  ],
+  "sha256": "5bc505fc4dcfd7eafd2f3e5e476da2bb60f02d8cbad31288434710c10acfe184",
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A1_L01_start_v1.md",
+  "correction_prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A1_L01_bag_face_correction_v2.md",
+  "references": [
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png"
+  ],
+  "reference_status": "Both approved in reference CSV and visually inspected before generation",
+  "history": [
+    {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A1_full_start_candidate_v1.png",
+      "status": "superseded_candidate_single_defect_bag_side_orientation"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A1_full_start_candidate_v2.png",
+      "status": "user_visual_approved_for_motion_2026-10-01",
+      "edit": "One targeted bag orientation edit; broad plain suede panel now more visible"
+    }
+  ],
+  "assistant_still_review": {
+    "identity": "Face, long wavy brown hair and expression are close to approved v3 anchors; final user identity review pending.",
+    "wardrobe": "Cream sleeveless collared shirt tucked into dark-coffee straight trousers, full black low-heel loafers, silver earrings; caramel suede small shoulder bag beside waistband.",
+    "framing": "941x1672 native vertical composition; full hair and both shoes visible, free arms do not cover bag. Bag center approximately x63%,y36%.",
+    "body": "Healthy ordinary proportions close to full anchor; no obvious elongated limb artifact.",
+    "scene": "Daylit neighborhood cafe wall, bench and paving. Complete shadows and normal ground contact. No text or logos observed.",
+    "proof": "Broad bag panel clearer after edit; native full-shot bag remains small. Separate proof view must be tested for nap visibility; not yet satisfied.",
+    "limitations": "Still candidate only, no motion or continuous QA; full-shot does not validate proposed four-shot rhythm."
+  },
+  "user_visual_approval": {
+    "reply": "ok",
+    "date": "2026-10-01",
+    "scope": "M03 A1 v2 displayed full still; permits same-look derivatives and motion, not video/style/publication approval"
+  },
+  "grok_submitted": true,
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": null
+  },
+  "targeted_corrections": 1,
+  "motion_record_path": "10_automation/runs/2026-W37/reels/M03_A1_L01_motion_v1_01.json"
+}

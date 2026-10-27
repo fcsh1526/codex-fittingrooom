@@ -1,0 +1,42 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "corrected_midpoint_crosswalk_orientation_pending_exact_user_visual_approval",
+  "user_feedback_exact": "斑馬線的方向不對，應該轉90度",
+  "rejected_candidate": {
+    "path": "F04_M03_L02_midpoint_scene_candidate_A.png",
+    "sha256": "6d273cf277773416ce10dd7a9a0d9c27f8358378c18275e629b8ed1cb193387f",
+    "scope": "Midpoint crosswalk direction rejected; no still or video approval inferred."
+  },
+  "targeted_correction": {
+    "mode": "built-in image_gen precise-object-edit",
+    "calls": 1,
+    "edits_after_base": 1,
+    "prompt": "crosswalk_90_correction_prompt.txt",
+    "tool_wait_ms": 26417,
+    "active_work_minutes": null,
+    "requested_change": "Quarter-turn the whole crosswalk pattern on the horizontal road plane; hold woman, pose, camera, road, curbs, facade and left-rear planting.",
+    "default_tool_output": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-cfbf567a-bf93-4452-ae0c-75f5e512f48a.png",
+    "workspace_output": "F04_M03_L02_midpoint_crosswalk90_v2.png",
+    "sha256": "25606eaac1e1bbd7f8e53873de07d2a2b99c87ace88924f1917cd94dae55175b",
+    "pixels": [941, 1672]
+  },
+  "visual_review": {
+    "old_pattern": "White stripe long edges run approximately left-to-right across the image.",
+    "new_pattern": "Long white stripes recede from the lower foreground toward the opposite curb, narrowing with distance, and repeat side-by-side left-to-right. Direction visibly exchanged rather than merely tilted.",
+    "invariants": "Woman, face/hair, checked shirt, charcoal trousers, original shoulder bag, shoes, stride, scale, camera view, curbs, glass facade and existing left-rear planter visually retained.",
+    "independent_review": "f04_crossing_continuity_plan visually confirms changed direction and no apparent pose/wardrobe/camera/curb displacement; eligible for exact still approval, no further variant needed.",
+    "measured_ground_plane_right_angle": null,
+    "pixel_identity_claim": false,
+    "user_still_approval": null
+  },
+  "dependency": {
+    "approved_first_and_end_preserved": true,
+    "first_end_orientation_recheck_required": true,
+    "reason": "Existing approved first/end use the previous crosswalk direction; a corrected midpoint alone does not establish first-mid-last spatial or walking-direction consistency.",
+    "next": "User reviews exact v2; then compare all three static views, make only necessary versioned first/end corrections with separate visual approvals before video. Do not silently change approved originals.",
+    "new_Grok_request": false,
+    "new_video": null,
+    "F05": "hold"
+  },
+  "old_media_Drive_and_accepted_three_shot_prefix_preserved": true
+}

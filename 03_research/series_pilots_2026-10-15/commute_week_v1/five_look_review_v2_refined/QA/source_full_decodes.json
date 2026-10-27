@@ -1,0 +1,142 @@
+[
+  {
+    "shot": "S04",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S04_source.mp4",
+    "sha256": "11f8b99c5fcd72937df7b53361070e5b16729539f401f13e8c3f0b0b49baa39b",
+    "scan": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 10.041666666666666,
+      "individual_PTS_measured": false
+    }
+  },
+  {
+    "shot": "S01",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S01_source.mp4",
+    "sha256": "499fa888e084649a4988ede3f0469619e2313456f4bd5035338f4d57bb9f3d04",
+    "scan": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 10.041666666666666,
+      "individual_PTS_measured": false
+    }
+  },
+  {
+    "shot": "S05",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S05_source.mp4",
+    "sha256": "9a8f023e05c45bf18255dac53752bcad8eb28277e564962a8d04903fede7bcc0",
+    "scan": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 10.041666666666666,
+      "individual_PTS_measured": false
+    }
+  },
+  {
+    "shot": "S02",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S02_source.mp4",
+    "sha256": "a8f9fc6e9019c23433c855e3d108d97d3236c05f76fa30b02b6b0fcdc97c6ec0",
+    "scan": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 10.041666666666666,
+      "individual_PTS_measured": false
+    }
+  },
+  {
+    "shot": "S03",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S03_source.mp4",
+    "sha256": "7b679f0f7e962ee29622b970d9f39ee1c000d234ab476ace1da347c5719adfba",
+    "scan": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 10.041666666666666,
+      "individual_PTS_measured": false
+    }
+  }
+]

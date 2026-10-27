@@ -149,7 +149,7 @@ def stage_for_carousel(packet, asset, publish, metric):
         return "needs_visual_revision"
     if packet_status == "canva_blocked_waiting_for_flat_png_asset":
         return "canva_blocked_waiting_for_flat_png_asset"
-    if packet_status in {"paused", "archived", "do_not_publish", "skip"}:
+    if packet_status in {"paused", "archived", "completed", "do_not_publish", "skip"}:
         return packet_status
     if metric:
         decision = clean(metric.get("decision"))
@@ -178,6 +178,7 @@ def next_action_for_stage(stage):
         "canva_blocked_waiting_for_flat_png_asset": "Do not export failed Canva drafts. Resolve the selected PNGs to verified Canva image asset ids, then rerun fill on a fresh duplicate.",
         "paused": "Paused by user; do not publish unless reactivated.",
         "archived": "Archived; do not publish.",
+        "completed": "Completed; no further production action.",
         "do_not_publish": "Do not publish this item.",
         "skip": "Skipped; choose another content item.",
         "ready_for_canva_and_publish": "Use Canva handoff files to finish the carousel and publish it.",
@@ -271,7 +272,7 @@ def visibility_item(run_dir, package, publish_rows, metric_rows):
 def item_priority(row):
     stage = clean(row.get("stage"))
     item_type = clean(row.get("item_type"))
-    if stage in {"paused", "archived", "do_not_publish", "skip"}:
+    if stage in {"paused", "archived", "completed", "do_not_publish", "skip"}:
         return -10
     if item_type == "carousel" and stage == "needs_visual_revision":
         return 115
@@ -331,7 +332,7 @@ def build_queue(runs_dir):
     templates = load_template_registry()
     for run_dir in run_dirs_under(runs_dir):
         run_state = read_json(run_dir / "run_state.json")
-        if clean(run_state.get("status")).lower() in {"archived", "paused", "do_not_publish", "skip"}:
+        if clean(run_state.get("status")).lower() in {"archived", "completed", "paused", "do_not_publish", "skip"}:
             continue
         packets = read_csv(run_dir / "weekly_content_packet.csv")
         paused_ids = {

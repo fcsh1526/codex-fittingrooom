@@ -1,0 +1,61 @@
+{
+  "review_kind": "technical_decode_and_sampled_visual_review_only",
+  "reviewed_at_local_date": "2026-10-05",
+  "source": "source.mp4",
+  "tools": ["10_automation/scan_reel_video.py", "10_automation/review_reel_frames.py", "view_image"],
+  "execution_note": "Reused the existing project video dependencies through read-only sandbox escalation. No installs, permission changes or video modification.",
+  "metadata": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "decoded_frames": 145,
+    "decoded_seconds": 6.041666666666667,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": []
+  },
+  "checkpoint_seconds": [0, 0.5, 1, 1.5, 2.25, 3, 3.5, 3.75, 4, 4.5, 5, 5.25, 5.5, 5.75, 6],
+  "evidence": ["qa/decode_scan.json", "qa/checkpoints/metadata.json", "qa/checkpoints/checkpoints.jpg"],
+  "observations": [
+    {
+      "time_range_seconds": [0, 2.25],
+      "observation": "Near-frontal identity, cream curved neckline, open mist-gray shirt, rolled sleeves and waist seam remain recognizable. The camera does not exactly reproduce a fixed opening1.5s beat; it gently changes framing before the full pullback. No obvious sampled face replacement or garment switch was seen."
+    },
+    {
+      "time_range_seconds": [3, 6],
+      "observation": "Complete head, calf-length cream dress, navy shoulder bag and both white lace-up canvas shoes are visible from3s onward. Subject scale and rigid window/seat/bookcase geometry appear approximately settled across3.5-6s sampled checkpoints, resolving A1's continuing pullback. Bag panel angle and fabric folds still move with the light gesture; fine hardware and hand contact require normal-speed review."
+    },
+    {
+      "time_range_seconds": [3, 6],
+      "observation": "A1's new floor-standing plant at the lower-left bench edge is absent. However, this retry reveals a longer hanging vine high on the right bookcase. Its extent and vertical position differ from B's opening; window/seat perspectives also remain similar rather than pixel-matched. These are specific cross-dissolve double-edge/object-disappearance risks, not hidden by this review."
+    },
+    {
+      "time_range_seconds": [5.25, 6],
+      "observation": "A2 tail shoe baseline is approximately92% of image height, similar to B0. A2 head top is approximately12%, versus B0 approximately8.5%; A2 head-to-shoe body extent is roughly4% smaller. These are manual visual estimates, not calibrated tracking measurements. Head and shoulder size still differ, so all18 overlap frames and normal-speed comfort must be inspected."
+    }
+  ],
+  "motion_timing_assessment": {
+    "first_sampled_complete_shoes_seconds": 3,
+    "approximately_settled_full_person_range_seconds": [3.5, 6],
+    "planned_overlap_handle_candidate_seconds": [5.25, 6],
+    "camera_timing_status": "approximately_matches_ending_stop_in_sampled_views",
+    "opening_fixed_beat_exactly_reproduced": false
+  },
+  "pairing_assessment": {
+    "comparison": "A2 source5.25-6.0s / B1 source0-0.75s",
+    "sampled_status": "suitable_to_render_review_candidate_with_disclosed_scale_and_vine_differences",
+    "complete_overlap_visual_review": "pending_render",
+    "not_claimed": "No claim of exact scene geometry, completed continuous playback or accepted transition"
+  },
+  "selection_suggestion": {
+    "a_start_frame": 0,
+    "a_end_frame_exclusive": 144,
+    "selected_frames": 144,
+    "selected_seconds": 6,
+    "reason": "Retain native timing and the now approximately settled full-person ending; remove only source frame144. This preserves about1.75s approximately settled full-person reading from3.5s to the planned5.25s overlap. The first sampled complete-shoe view at3.0s precedes the overlap by2.25s. Actual continuous reading and comfort require review.",
+    "accepted": false
+  },
+  "continuous_playback_review": "not_performed_by_this_review",
+  "user_motion_approval": "pending",
+  "publishable": false,
+  "conclusion": "Decode and sampled source review completed. A2 improves full-person stopping and removes the floor plant. It may be assembled into a review-only candidate with B1; head-height, scale and hanging-vine differences remain disclosed and require actual overlap/normal-speed acceptance."
+}

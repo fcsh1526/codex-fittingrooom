@@ -1,0 +1,69 @@
+[
+  {
+    "shot": "R01",
+    "method": "reused_exact_SHA_locked_existing_technical_scan",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_technical_scan.json",
+    "scan_sha256": "38ed8a01c8976a17cae77cf97776dd0a54b7686f5b44a1679310d586421a66bb",
+    "source_sha256": "4bf0bdb9f4d547827fd36001da3c359eadcd2b7a2c053761b454effdc0ee4981",
+    "scan": {
+      "source": "03_research\\series_pilots_2026-10-15\\commute_week_v1\\reference_reset_2026-10-16\\R01_source.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "decoded_seconds": 6.041666666666667,
+      "black_candidate_frames": [],
+      "near_identical_frame_pairs": [],
+      "note": "Technical signals only. Continuous visual review and user approval remain separate."
+    },
+    "fresh_full_decode_performed": false
+  },
+  {
+    "shot": "R02",
+    "method": "reused_existing_source_SHA_bound_technical_scan",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_technical_scan.json",
+    "scan_sha256": "11c85ea7b2c8bf12231a0490d1ade43a9274ed677b80546a48f44dc8a81d21bc",
+    "source_sha256": "a6ed7789501ea80753bd1819ffd37c2efa3576d3907fccc86c89f92e7a1482db",
+    "fresh_full_decode_performed": false,
+    "scan": {
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\reference_reset_2026-10-16\\R02_connected_check\\R02_source.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "decoded_seconds": 6.041666666666667,
+      "black_candidate_frames": [],
+      "near_identical_frame_pairs": [],
+      "note": "Technical signals only. Continuous visual review and user approval remain separate.",
+      "source_sha256": "a6ed7789501ea80753bd1819ffd37c2efa3576d3907fccc86c89f92e7a1482db"
+    }
+  }
+]

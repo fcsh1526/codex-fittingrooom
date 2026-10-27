@@ -1,0 +1,13 @@
+{
+  "date_client": "2026-10-21",
+  "status": "user accepted exact local preview and authorized fifth look",
+  "main_preview": "v2/local/review.mp4",
+  "main_sha256": "7dbd3d6c8ec11203b6a4decaa44c30bbfae2576318bea241ff914460e40f7e49",
+  "main_duration_seconds": 11.3333333,
+  "context_preview": "v2/context/review.mp4",
+  "context_sha256": "0f1c2f8a7dbe4b79d346faa2b75c061f260b711671f51e17f88a07283e89d9bd",
+  "question_scope": "Visual continuity and subjective comfort of push-in, .75s outfit change and close tracking. Disclose local5.29-6.04s ghosting, late partial bag crop and unvalidated edge-revealed background cylinder. No approval of fifth look or whole publishing film inferred.",
+  "user_reply": "可以保留，繼續第五套",
+  "F05_pending": false,
+  "exact_acceptance_receipt": "user_video_acceptance.json"
+}

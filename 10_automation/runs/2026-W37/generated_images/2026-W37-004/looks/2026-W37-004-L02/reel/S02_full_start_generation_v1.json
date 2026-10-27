@@ -1,0 +1,30 @@
+{
+  "look_id": "2026-W37-004-L02",
+  "model_profile_id": "M01",
+  "date": "2026-10-01",
+  "status": "user_visual_approved_for_motion_2026-10-01",
+  "provider": "built_in_imagegen",
+  "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L02/reel/2026-W37-004-L02_M01_S02_full_start_candidate_v1.png",
+  "pixels": [
+    941,
+    1672
+  ],
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M01_B_L02_full_start_v1.md",
+  "references": [
+    "M01 approved v4 face",
+    "M01 approved v4 full",
+    "L01 approved full still: scene only",
+    "L01 A video4.5s checkpoint: framing only"
+  ],
+  "assistant_still_review": {
+    "identity": "Tied-back hairstyle, face contour and features remain close to approved L01 and v4 identity; user review pending.",
+    "wardrobe": "Black short-sleeve top tucked into high-waisted mid-calf A-line skirt; cream square-toe closed T-straps, single vertical strap joining ankle-front horizontal strap; black shoulder bag and silver studs.",
+    "framing": "Native9:16 full hair/both shoes; upper body close to L01 still, smaller than later A moving frames. Match actual selected cut after B generation; no automatic full/medium scale match claimed.",
+    "scene": "Same pale wall, left bakery window, neighboring gallery opening, paving and upper-left daylight. Scene is preserved for direct outfit cut, not independently generated Last frame.",
+    "text": "none"
+  },
+  "user_visual_approval": "可以，沿用這張",
+  "grok_submitted": true,
+  "sha256": "AE6B04F320A673E877ABF5128CE4292DA170FDF836E3E2713344187872C7A99C",
+  "motion_record": "10_automation/runs/2026-W37/reels/M01_B_L02_fixed_full_v1_01.json"
+}

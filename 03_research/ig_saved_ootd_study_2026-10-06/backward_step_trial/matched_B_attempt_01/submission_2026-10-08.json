@@ -1,0 +1,30 @@
+{
+  "submitted_at_utc": "2026-10-08T01:24:07.881Z",
+  "post_url": "https://grok.com/imagine/post/c82f03ef-cb8f-46b8-b1a3-c51f7f14b966?conversation=6f3c6271-17d5-4114-a6b1-d5a03acd6d81",
+  "progress_observed": "生成中 16 %",
+  "execution_environment": "user_local_in_app_browser",
+  "identity_reference_ui": "Mira M02 v3",
+  "reference_selection_observed": true,
+  "first_frame_original_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/2026-W37-001-L02_M02_body_distance_matched_start_candidate_v3.png",
+  "first_frame_sha256": "f8098adfefc9be66ffcfea9bc3bad424e3f5e34a30a343d50dc4478f10af16e6",
+  "first_frame_role_observed": true,
+  "middle_last_attached": false,
+  "settings_ui_observed": {
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration": "6s",
+    "audio_right_option_selected": true,
+    "audio_option_labels_unavailable": true
+  },
+  "audio_disabled_requested": true,
+  "audio_disabled_ui_inference": "right option selected; labels are empty, confirm actual output audio separately",
+  "prompt_plain": "Use the selected Mira M02 v3 reference for the same woman's identity. Begin exactly with the approved first-frame image, including her starting size and position in the library.\n\nOne continuous six-second shot with a locked camera and fixed focal length. At normal everyday walking speed, she takes two short natural steps toward the camera along the central library aisle, facing forward. Her whole body moves closer and gradually becomes larger. Finish at a comfortable three-quarter view with her complete hair and face and clear headroom; the open shirt, dress neckline and waist remain visible. Settle briefly so the layering can be seen.\n\nKeep her face, hair, mist-blue open rolled-sleeve shirt, navy square-neck wide-strap dress, grey canvas shoulder tote and grey shoulder strap, cream slip-on canvas shoes without laces, and silver earrings unchanged. Window, bench, table, bookshelves, plants, floor perspective and lighting stay fixed. Natural fabric movement and weight transfer. No camera zoom or pan, cuts, turning, outfit change, slow motion, text or audio.\n",
+  "prompt_ui_mentions": [
+    "Mira M02 v3",
+    "Image 1"
+  ],
+  "generation_attempt_count": 1,
+  "source_retrieved": false,
+  "dynamic_qa_passed": false,
+  "composite_created": false
+}

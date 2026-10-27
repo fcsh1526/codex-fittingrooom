@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-16",
+  "user_answer_received_local_date": "2026-10-16",
+  "event_at": null,
+  "timezone": "Asia/Taipei",
+  "shot_id": "R02",
+  "model_id": "M03",
+  "look_id": "ED-W42-COMMUTE-V1-L02",
+  "status": "user_approved_exact_still",
+  "question": "剛顯示的 M03 格紋中景起始圖，臉、奶油白／海軍藍格紋襯衫、炭灰褲腰與黑肩包是否可以沿用？這張用來接第一套走近後的畫面，背景人流位置略有變化。依你在 AGENTS.md 設定的新圖視覺核准流程，確認後才會送入 Grok。",
+  "user_quote": "可以，沿用這張",
+  "file": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_M03_L02_medium_candidate_A.png",
+  "sha256": "97cbeb0b9b91a8b9b1b3070665578ed664e64b357d1f4cd1046a7966ae895594",
+  "pixels": [
+    941,
+    1672
+  ],
+  "generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_generation_receipt.json",
+  "scope": "Exact M03 L02 medium candidate visual approval only: cream/navy checked shirt, charcoal trouser waist, black shoulder bag and disclosed changed background commuter positions. Only this exact approved still may become the R02 first frame for its next independent motion. Approval does not establish exact geometry or dynamic background consistency, usable motion, R01-to-R02 join comfort, whole five-look film, account-wide adoption or publishing readiness.",
+  "recorded_static_observations_preserved": {
+    "identity": "recognizable M03 face/hair; new exact visual decision remains user gate",
+    "wardrobe": "cream/navy checked pointed-collar shirt, rolled sleeves, tucked charcoal trousers and small black shoulder bag retained; no blazer",
+    "framing": "native head-to-knee, near frontal with frame-right gaze and room at right; eyes/hair sit slightly lower than R01 frame108, not a proven exact match",
+    "scene": "glass office street/daylight/commuters continue visual context; people positions and building details differ, not certified identical geometry",
+    "texture": "fine ornamental surface texture remains on trousers similar to original approved wardrobe; no removal achieved or claimed",
+    "motion_or_join_proven": false
+  },
+  "grok_generation_allowed_for_exact_still": true,
+  "allowed_first_frame_asset": {
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_M03_L02_medium_candidate_A.png",
+    "sha256": "97cbeb0b9b91a8b9b1b3070665578ed664e64b357d1f4cd1046a7966ae895594"
+  },
+  "identity_reference_roles": "Existing approved M03 face/full identity and normal proportions only; not permission to substitute another outfit or first frame.",
+  "motion_generated_by_this_state_task": false,
+  "motion_approval": null,
+  "join_approval": null,
+  "dynamic_background_consistency_pass": null,
+  "complete_five_look_film_approval": null,
+  "account_wide_adoption": null,
+  "normal_speed_full_playback_user_self_report": null,
+  "publishable": false,
+  "publishing_files_replaced": []
+}

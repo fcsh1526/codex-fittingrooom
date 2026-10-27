@@ -1,0 +1,57 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\F04_source.mp4",
+  "sha256": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+  "bytes": 6821115,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "fully_decoded": true,
+  "decoded_frames": 145,
+  "derived_frame_duration_seconds": 6.041666666666667,
+  "requested_late_anchor_seconds": 4.333333333333333,
+  "nearest_late_frame_index": 104,
+  "native_frame90_107_exported": true,
+  "prospective_first108_interval_only_if_24fps": true,
+  "silent": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\QA_2026-10-21\\F04_silent.mp4",
+    "sha256": "c51296cf5870351e3875ffa065e8ee05f32588dd514935ae212d07745e9b93ba",
+    "bytes": 6622023,
+    "source_main_h264_annexb_sha256": "c03a5bd981a352321d16f10a1d5f3ae11fc10bb4be499a41b87c911731e41064",
+    "silent_main_h264_annexb_sha256": "c03a5bd981a352321d16f10a1d5f3ae11fc10bb4be499a41b87c911731e41064",
+    "identical": true,
+    "stream_copy_only": true,
+    "cropped": false,
+    "retimed": false,
+    "reencoded": false
+  },
+  "protected_hashes_before": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_full_start_01\\F04_M03_L02_full_start_candidate_A.png": "03b45655b7bef2b97b3ef19de6cc9b864b86341d908114e149f0653c8dfd36f0",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_full_late_01\\F04_M03_L02_full_late_candidate_A.png": "f9b3c4e0bf0ba2abd0924697e48a05454df8b9578667c1cb363905e9b36392ff",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F01_F02_gait_fix_review_v1.mp4": "54da666276fd89fc93461fc25bbe2aa805e565beff8f708bf071b78118a462dd",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F05\\five_look_review_2026-10-21\\v1\\review.mp4": "be262d6771141eeda11d2671cc5c1a87b7a03d869aacf60c117e5d5bc8b38b03"
+  },
+  "protected_hashes_after": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_full_start_01\\F04_M03_L02_full_start_candidate_A.png": "03b45655b7bef2b97b3ef19de6cc9b864b86341d908114e149f0653c8dfd36f0",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_full_late_01\\F04_M03_L02_full_late_candidate_A.png": "f9b3c4e0bf0ba2abd0924697e48a05454df8b9578667c1cb363905e9b36392ff",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F01_F02_gait_fix_review_v1.mp4": "54da666276fd89fc93461fc25bbe2aa805e565beff8f708bf071b78118a462dd",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F05\\five_look_review_2026-10-21\\v1\\review.mp4": "be262d6771141eeda11d2671cc5c1a87b7a03d869aacf60c117e5d5bc8b38b03"
+  },
+  "continuous_playback_performed": false,
+  "visual_review_pending": true
+}

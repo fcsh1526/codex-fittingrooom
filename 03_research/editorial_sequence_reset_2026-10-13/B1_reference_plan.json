@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-13",
+  "look_id": "2026-W41-004-L02",
+  "shot": "B1",
+  "status": "v4_user_visual_approved",
+  "prompt": "B1_prompt_v1.txt",
+  "references": [
+    {
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png",
+      "sha256": "a5e578157109ed5204218e310f84a2586fa744076ddf69ca71e83708ab63a3d2"
+    },
+    {
+      "path": "03_research/editorial_sequence_reset_2026-10-13/A2_motion_attempt_01/qa/frame_090.png",
+      "sha256": "2d6fbb80f27212729abf50f3b797e4acc8205bf715548bb26fd24c0d8fc21ed9"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "scene_frame_note": "A2 source frame90 at3.75s within retained0–4s interval. Framing/pose authority only, not L01 wardrobe authority; not an exact4s endpoint.",
+  "user_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用最後這張",
+    "question_context": "Explicit reply identifying final M03 L02 B1v4 seated still: face/navy blazer/plain gray tee/cream trousers/black bag/crossed-leg pose for third shot.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v4_clean.png",
+    "sha256": "5d3933fc1ba8dce227c70e3ed3b625d7151fb26acdde5b7fbc3b6b5aea7655f1",
+    "scope": "Exact B1v4 still only; authorizes next Grok First frame. No motion or whole-film approval."
+  },
+  "grok_uploaded": false,
+  "candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v4_clean.png",
+  "generation_count": 4
+}

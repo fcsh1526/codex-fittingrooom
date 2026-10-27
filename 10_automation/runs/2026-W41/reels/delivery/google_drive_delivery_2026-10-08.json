@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "week_id": "2026-W41",
+  "status": "drive_delivery_verified_ready_for_grok_bot_handoff",
+  "approved_on": "2026-10-08",
+  "user_approval_quote": "全部核准，然後像上一批一樣將影片跟文案放入google drive，我要讓後面grok bot接手發文",
+  "approval_scope": "exact five current film versions; no inferred continuous playback",
+  "continuous_watch_done": false,
+  "drive_folder": {
+    "id": "1Zar1hL_qG32r_0AsPrqz5BaqV6pO62__",
+    "url": "https://drive.google.com/drive/folders/1Zar1hL_qG32r_0AsPrqz5BaqV6pO62__"
+  },
+  "posting_authority": "storage and handoff requested; no Instagram posting performed in this task",
+  "reels": [
+    {
+      "model": "M01",
+      "number": "01",
+      "title": "格紋襯衫配素色褲",
+      "source_path": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "duration_seconds": 9.5,
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+      "look_ids": [
+        "2026-W41-002-L01",
+        "2026-W41-002-L02"
+      ],
+      "caption": "格紋襯衫配素色長褲，通勤穿搭比較好安排。\n\n奶油白與海軍藍格紋配炭灰褲，棕色細格配深藍褲；鞋包維持素色，整套不再增加第二種圖案。",
+      "drive_filename": "01_格紋襯衫配素色褲_Reel.mp4",
+      "publication_status": "not_published",
+      "scheduled_at": null,
+      "instagram_url": null,
+      "size_bytes": 3384132,
+      "md5": "be983d9004e92e76b8182a9f1361a9c3",
+      "caption_local_path": "10_automation/runs/2026-W41/reels/delivery/01_格紋襯衫配素色褲_貼文文字.txt",
+      "video_drive": {
+        "id": "1FO1qSbxgfGz7Hje0VidsgK7Kjx7aybpx",
+        "url": "https://drive.google.com/file/d/1FO1qSbxgfGz7Hje0VidsgK7Kjx7aybpx/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU",
+        "url": "https://docs.google.com/document/d/1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU/edit"
+      }
+    },
+    {
+      "model": "M02",
+      "number": "02",
+      "title": "可可棕牛仔褲",
+      "source_path": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "duration_seconds": 9,
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+      "look_ids": [
+        "2026-W41-003-L01",
+        "2026-W41-003-L02"
+      ],
+      "caption": "想換掉常穿的藍色牛仔褲，可以試試可可棕。\n\n配奶油白 T 或白短袖襯衫，上衣紮入露出腰頭，鞋包都選黑色；兩套沿用同一組配色就好搭。",
+      "drive_filename": "02_可可棕牛仔褲_Reel.mp4",
+      "publication_status": "not_published",
+      "scheduled_at": null,
+      "instagram_url": null,
+      "size_bytes": 3795943,
+      "md5": "b1e24ccdcba92d00d7c3d15f40d542f0",
+      "caption_local_path": "10_automation/runs/2026-W41/reels/delivery/02_可可棕牛仔褲_貼文文字.txt",
+      "video_drive": {
+        "id": "1o7q1eATsBJqZcBwCuRRYxpaIjKA_qBhj",
+        "url": "https://drive.google.com/file/d/1o7q1eATsBJqZcBwCuRRYxpaIjKA_qBhj/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0",
+        "url": "https://docs.google.com/document/d/1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0/edit"
+      }
+    },
+    {
+      "model": "M03",
+      "number": "03",
+      "title": "西裝外套配棉T",
+      "source_path": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "duration_seconds": 11.25,
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+      "look_ids": [
+        "2026-W41-004-L01",
+        "2026-W41-004-L02"
+      ],
+      "caption": "通勤的西裝外套，裡面可以換成圓領 T。\n\n米白外套配深藍褲，深藍外套配奶油白褲；兩套都露出圓領內搭，再把袖口翻一折。",
+      "drive_filename": "03_西裝外套配棉T_Reel.mp4",
+      "publication_status": "not_published",
+      "scheduled_at": null,
+      "instagram_url": null,
+      "size_bytes": 3829259,
+      "md5": "3958bb798dfb28e5c9a5c16fa6a98d1a",
+      "caption_local_path": "10_automation/runs/2026-W41/reels/delivery/03_西裝外套配棉T_貼文文字.txt",
+      "video_drive": {
+        "id": "1xm14COZEhiAJQ77pyqb1hMYv4yrEJ1WM",
+        "url": "https://drive.google.com/file/d/1xm14COZEhiAJQ77pyqb1hMYv4yrEJ1WM/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4",
+        "url": "https://docs.google.com/document/d/1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4/edit"
+      }
+    },
+    {
+      "model": "M04",
+      "number": "04",
+      "title": "黑白灰配藍色包",
+      "source_path": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "duration_seconds": 6,
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+      "look_ids": [
+        "2026-W41-005-L01",
+        "2026-W41-005-L02"
+      ],
+      "caption": "想替黑白灰穿搭加點顏色，先換一個藍色包包。\n\n白 T 配炭灰長褲，白襯衫配黑色中長裙；兩套都維持素色衣服，同一個小肩包就能搭配褲裝與裙裝。",
+      "drive_filename": "04_黑白灰配藍色包_Reel.mp4",
+      "publication_status": "not_published",
+      "scheduled_at": null,
+      "instagram_url": null,
+      "size_bytes": 1560464,
+      "md5": "61bd6aea705ff659cae6c030045eb233",
+      "caption_local_path": "10_automation/runs/2026-W41/reels/delivery/04_黑白灰配藍色包_貼文文字.txt",
+      "video_drive": {
+        "id": "1o_rtSa98FLdVcssVmer2REW3SgQYi6GU",
+        "url": "https://drive.google.com/file/d/1o_rtSa98FLdVcssVmer2REW3SgQYi6GU/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo",
+        "url": "https://docs.google.com/document/d/1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo/edit"
+      }
+    },
+    {
+      "model": "M05",
+      "number": "05",
+      "title": "短版立領外套",
+      "source_path": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "duration_seconds": 8,
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd",
+      "look_ids": [
+        "2026-W41-001-L01",
+        "2026-W41-001-L02"
+      ],
+      "caption": "冷氣房要加外套，可以先選短版立領款。\n\n奶油白配棕褲、炭灰配淺灰褲；外套敞開露出短袖內搭，短衣長也讓褲子的腰線看得清楚。",
+      "drive_filename": "05_短版立領外套_Reel.mp4",
+      "publication_status": "not_published",
+      "scheduled_at": null,
+      "instagram_url": null,
+      "size_bytes": 2395711,
+      "md5": "66bfc992e3fd5b46179a367b78675961",
+      "caption_local_path": "10_automation/runs/2026-W41/reels/delivery/05_短版立領外套_貼文文字.txt",
+      "video_drive": {
+        "id": "1wl9LBA0JW04N9JFh-SpkTao2XTLRRl-m",
+        "url": "https://drive.google.com/file/d/1wl9LBA0JW04N9JFh-SpkTao2XTLRRl-m/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc",
+        "url": "https://docs.google.com/document/d/1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc/edit"
+      }
+    }
+  ],
+  "handoff_doc": {
+    "id": "1KnN0c7g4mbRwn3_R-Y_XaK9J-l5MZulKjqfDbZpGSts",
+    "url": "https://docs.google.com/document/d/1KnN0c7g4mbRwn3_R-Y_XaK9J-l5MZulKjqfDbZpGSts/edit"
+  },
+  "verified_on": "2026-10-08",
+  "verification": {
+    "film_count": 5,
+    "caption_doc_count": 5,
+    "handoff_doc_count": 1,
+    "folder_count": 11,
+    "source_sha256_verified": true,
+    "remote_video_size_verified": true,
+    "remote_checksum_available": false,
+    "caption_exact_match": true,
+    "paired_links_verified": true,
+    "native_caption_chips": 5,
+    "caption_styles_preserved": true,
+    "continuous_watch_done": false,
+    "verification_checks": [
+      {
+        "model": "M01",
+        "size_match": true,
+        "folder_match": true,
+        "caption_exact_match": true,
+        "video_link_match": true,
+        "styles_preserved": true,
+        "old_template_removed": true
+      },
+      {
+        "model": "M02",
+        "size_match": true,
+        "folder_match": true,
+        "caption_exact_match": true,
+        "video_link_match": true,
+        "styles_preserved": true,
+        "old_template_removed": true
+      },
+      {
+        "model": "M03",
+        "size_match": true,
+        "folder_match": true,
+        "caption_exact_match": true,
+        "video_link_match": true,
+        "styles_preserved": true,
+        "old_template_removed": true
+      },
+      {
+        "model": "M04",
+        "size_match": true,
+        "folder_match": true,
+        "caption_exact_match": true,
+        "video_link_match": true,
+        "styles_preserved": true,
+        "old_template_removed": true
+      },
+      {
+        "model": "M05",
+        "size_match": true,
+        "folder_match": true,
+        "caption_exact_match": true,
+        "video_link_match": true,
+        "styles_preserved": true,
+        "old_template_removed": true
+      }
+    ]
+  }
+}

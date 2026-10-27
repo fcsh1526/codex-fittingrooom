@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "scope": "Planning document/data validation only, not image/video dynamic QA",
+  "shots": 5,
+  "joins": 4,
+  "total_estimated_seconds": 29.5,
+  "hero_prompt_word_counts": [
+    183,
+    180,
+    196,
+    186,
+    192
+  ],
+  "wardrobe_and_dependencies_checked": true,
+  "timing_checked": true,
+  "identity_reference_paths_exist": true,
+  "original_sources_and_manual_registry_preserved_by_rebuild": true,
+  "new_media_generated": false,
+  "media_visual_approvals": null,
+  "shot_plan_sha256": "e2081df5974d2a1b5eab72029a0fe082fb7ac3764adab93ef2a486478b3c76b0",
+  "prior_proposal_snapshot_hash_matched": true
+}

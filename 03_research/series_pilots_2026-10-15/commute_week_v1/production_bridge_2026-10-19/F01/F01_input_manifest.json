@@ -1,0 +1,39 @@
+{
+  "status": "prepared_before_generation",
+  "grok_submission_allowed": false,
+  "prompt_sha256": "f01c9a34898fc93844e5b4b1bd36064f0bc4f5a9647f41b77b033d5db95b4f6e",
+  "intent": "photorealistic-natural",
+  "recorded_date": "2026-10-19",
+  "prompt": "F01_prompt.txt",
+  "inputs": [
+    {
+      "sha256": "33192568eb30aef6fccf160a93bed33136a6fa906056baaad500f0b040170c40",
+      "role": "approved scene design and materials only",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/environment/E00_shared_scene_candidate_A.png"
+    },
+    {
+      "sha256": "f23e54ed6131a269604075e500b859e5f7c67841246d170583022a880d1aa92d",
+      "role": "true t0 composition, scale and walking direction only",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/F01_t0_composition_reference.png"
+    },
+    {
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "role": "approved M03 v3 face and hair identity",
+      "path": "02_brand/reference_models/M03_start_v3_face.png"
+    },
+    {
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "role": "approved M03 v3 body proportions and identity only",
+      "path": "02_brand/reference_models/M03_start_v3_full.png"
+    },
+    {
+      "sha256": "e85bc259d141bc50baed97bfbcc5f638b210f6a9971ef91436c8d439b236bf6c",
+      "role": "approved L01 wardrobe only",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png"
+    }
+  ],
+  "source_scene_approval": "../environment/E00_user_scene_approval_2026-10-19.json",
+  "asset_id": "F01",
+  "tool": "built_in_image_gen",
+  "references_visually_inspected": true
+}

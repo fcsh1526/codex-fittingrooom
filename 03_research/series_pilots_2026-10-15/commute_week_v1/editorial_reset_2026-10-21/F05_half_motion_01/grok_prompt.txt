@@ -1,0 +1,21 @@
+執行且只執行一次第五套「先全身讀裙裝，再連續推近半身」6秒單鏡動態。兩張精確新照片及此分鏡已逐一獲使用者核准。不新增照片、不合片、不自行重試、不使用殘留格紋或舊第五套拉開影片。先核對UUID內容及當前工具能力；任一必要控制不支援、參照讀不到或內容不符就停止，不能默默丟參照、改last或改純文字模式。
+
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "f5116434-8cbe-440f-934f-584053a8b243"
+keyframes: [{"asset_id":"c52cfeba-1216-4860-8580-0ab399600c40","timestamp_s":5.333333333333333}]
+last_frame_asset_id: 不傳、不設
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+
+first是M03白短袖尖領棉襯衫／黑高腰及小腿A字裙／鈷藍皮肩包／素黑低跟鞋，完整頭鞋右向跨步，在玻璃、淺石花台與樹旁；左緣原有小階梯。keyframe是同套從頭到大腿的半身，整個藍包保留，近手自然在腰旁、遠手向前擺，仍朝右走、同側機位和同一玻璃花台路段。它是約第5又1/3秒片內構圖參照，不是6秒Last。兩個asset_ids只鎖已核准M03v3臉與普通身形，不複製攝影棚服裝、站姿、微笑或背景。
+
+Generate ONE continuous six-second real-time fashion commute shot. The same woman walks purposefully toward image-right at the existing steady, natural commuting cadence throughout. No hesitation, pose, slow-motion walk, foot sliding, teleporting or speed ramp. Near arm stays naturally bent at waist; far arm swings gently with opposite legs. Keep the exact approved face/hair, plain pointed white cotton shirt with turned short cuffs, tucked black high waist, black calf A-line skirt and cobalt shoulder bag/strap/hardware, plain black low-heeled shoes. Natural skirt motion and restrained bag swing, no clothing-touch gesture.
+
+Timing is essential: from 0.0 to about3.75seconds the level chest-height50mm camera tracks alongside on the SAME flank at a CONSTANT full-person size. Complete head, skirt hem, bag and BOTH shoes stay clearly in frame. Give viewers time to read the whole outfit. Continue walking immediately during the first0.75second to match the incoming gait; do not wait or zoom in early.
+
+Only after this full-outfit portion, smoothly move the camera closer from about3.75 to5.25seconds within the SAME unbroken shot. Reach the approved head-to-mid-thigh composition near the5.333333333333333-second guide, then continue walking at that closer scale until6seconds. Keep the whole head, pointed collar, black waist, COMPLETE blue bag and hands inside the close frame; lower hem/shoes naturally leave frame during the continuous approach. Keep forward gaze and the same camera side, no orbit across axis, no pan toward camera, no cuts, dissolves, freeze or digital jump. The viewing emphasis changes from full skirt silhouette to white-shirt waist/collar and the blue bag.
+
+Same rigid outdoor glass grid, pale speckled planter walls, existing trees and paving. Connect views through plausible translation and parallax, with coherent morning sunlight and contact shadows. Do not morph tree/planter/glass to fit the guide or invent a doorway, canopy, new stairs/columns/row of plants, road markings, crowd or interior. Existing far-left stairs may naturally pass outside frame. Gentle photographic depth of field, not a blur effect concealing errors. No logos or text. Do not invent an audio-off option; report actual track.
+
+若工具接受就只送一次。完成後回報真正傳入first/keyframes與timestamp/身份asset_ids、last未設、全數接受與否及輸出assetUUID；將參數回報與抽樣畫面觀察分開。尤其說明完整裙裝維持至何時、推近何時開始、藍包有否出框，但不宣稱字面關鍵幀命中、步態背景、換裝或整片已通過。若不支援控制就停止；不追加第二版。

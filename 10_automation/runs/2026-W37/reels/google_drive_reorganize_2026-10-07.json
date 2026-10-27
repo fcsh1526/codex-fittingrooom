@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-07",
+  "user_instruction": "歸到800.Codex IG之下，再依週別建立資料夾",
+  "operation": "Rename/move existing W37 folder; preserve its entire subtree and stable IDs",
+  "root": {
+    "id": "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_",
+    "name": "800.Codex IG",
+    "url": "https://drive.google.com/drive/folders/1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_"
+  },
+  "before": {
+    "week_folder_id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+    "name": "Mira W37 Reels",
+    "parents": [
+      "0ALSZ-Pip1MdEUk9PVA"
+    ],
+    "children": [
+      {
+        "id": "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO",
+        "title": "影片剪輯研究",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "modified_time": "2026-10-02T07:43:29.575Z"
+      },
+      {
+        "id": "1OSEdxcPyh1siSu77fed40l17s96LsiaIfkFYj_Voop0",
+        "title": "00_先看這份_第一波發布清單",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "3711",
+        "modified_time": "2026-10-02T07:02:32.698Z"
+      },
+      {
+        "id": "1661EfMbPzLB-QS_KAPmPpy4Na4rcEySafZ_z9AbBBGk",
+        "title": "05_短外套與腰線_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1727",
+        "modified_time": "2026-10-02T07:00:22.882Z"
+      },
+      {
+        "id": "1RRJYsNnT7xsWUO5WeYvEmvMjV8qd6yivKe3-er4-O7k",
+        "title": "04_肩線與立領_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1705",
+        "modified_time": "2026-10-02T07:00:18.429Z"
+      },
+      {
+        "id": "1Cj7uEU3BmotowtWtBIRNun9pZT8AfIjjA9qlxuPL1GQ",
+        "title": "03_包包材質亮點_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1730",
+        "modified_time": "2026-10-02T07:00:11.868Z"
+      },
+      {
+        "id": "14PHIQW9oXobedzkjnc9UEA01HfpY83jSr5IGOV4cCck",
+        "title": "02_薄襯衫疊穿_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1703",
+        "modified_time": "2026-10-02T07:00:06.404Z"
+      },
+      {
+        "id": "1aPNLnAv-1hSz4UfP1hzlPtxWuciX_xi9ZXFG_9tyW8w",
+        "title": "01_T字帶鞋_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1724",
+        "modified_time": "2026-10-02T07:00:02.498Z"
+      },
+      {
+        "id": "1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB",
+        "title": "05_短外套與腰線_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "2329327",
+        "modified_time": "2026-10-02T06:58:03.043Z"
+      },
+      {
+        "id": "1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1",
+        "title": "04_肩線與立領_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "2835208",
+        "modified_time": "2026-10-02T06:57:55.676Z"
+      },
+      {
+        "id": "1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe",
+        "title": "03_包包材質亮點_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "5101501",
+        "modified_time": "2026-10-02T06:56:26.434Z"
+      },
+      {
+        "id": "1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y",
+        "title": "02_薄襯衫疊穿_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "3202715",
+        "modified_time": "2026-10-02T06:56:16.274Z"
+      },
+      {
+        "id": "1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI",
+        "title": "01_T字帶鞋_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "3225588",
+        "modified_time": "2026-10-02T06:56:08.685Z"
+      },
+      {
+        "id": "1OUivMGomc0nks90MHXeA7DQGGU6N8jMT",
+        "title": "歷史版本與 Markdown 原檔",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "modified_time": "2026-10-02T06:54:54.730Z"
+      }
+    ]
+  },
+  "after": {
+    "week": {
+      "id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+      "title": "2026-W37",
+      "mime_type": "application/vnd.google-apps.folder",
+      "size": null,
+      "url": "https://drive.google.com/drive/folders/1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+      "display_url": "https://drive.google.com/drive/folders/1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+      "file_or_folder": "folder",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    },
+    "research": {
+      "id": "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO",
+      "title": "影片剪輯研究",
+      "mime_type": null,
+      "size": null,
+      "url": null,
+      "file_or_folder": null,
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    },
+    "cloud_trial": {
+      "id": "1ZMrwm9ny4YgS2YIsvl-yNqJau5ez95wR",
+      "title": "M02_雲端試作_2026-10-07",
+      "mime_type": null,
+      "size": null,
+      "url": null,
+      "file_or_folder": null,
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    },
+    "children": [
+      {
+        "id": "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO",
+        "title": "影片剪輯研究",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "modified_time": "2026-10-02T07:43:29.575Z"
+      },
+      {
+        "id": "1OSEdxcPyh1siSu77fed40l17s96LsiaIfkFYj_Voop0",
+        "title": "00_先看這份_第一波發布清單",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "3711",
+        "modified_time": "2026-10-02T07:02:32.698Z"
+      },
+      {
+        "id": "1661EfMbPzLB-QS_KAPmPpy4Na4rcEySafZ_z9AbBBGk",
+        "title": "05_短外套與腰線_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1727",
+        "modified_time": "2026-10-02T07:00:22.882Z"
+      },
+      {
+        "id": "1RRJYsNnT7xsWUO5WeYvEmvMjV8qd6yivKe3-er4-O7k",
+        "title": "04_肩線與立領_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1705",
+        "modified_time": "2026-10-02T07:00:18.429Z"
+      },
+      {
+        "id": "1Cj7uEU3BmotowtWtBIRNun9pZT8AfIjjA9qlxuPL1GQ",
+        "title": "03_包包材質亮點_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1730",
+        "modified_time": "2026-10-02T07:00:11.868Z"
+      },
+      {
+        "id": "14PHIQW9oXobedzkjnc9UEA01HfpY83jSr5IGOV4cCck",
+        "title": "02_薄襯衫疊穿_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1703",
+        "modified_time": "2026-10-02T07:00:06.404Z"
+      },
+      {
+        "id": "1aPNLnAv-1hSz4UfP1hzlPtxWuciX_xi9ZXFG_9tyW8w",
+        "title": "01_T字帶鞋_貼文文字",
+        "mime_type": "application/vnd.google-apps.document",
+        "size": "1724",
+        "modified_time": "2026-10-02T07:00:02.498Z"
+      },
+      {
+        "id": "1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB",
+        "title": "05_短外套與腰線_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "2329327",
+        "modified_time": "2026-10-02T06:58:03.043Z"
+      },
+      {
+        "id": "1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1",
+        "title": "04_肩線與立領_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "2835208",
+        "modified_time": "2026-10-02T06:57:55.676Z"
+      },
+      {
+        "id": "1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe",
+        "title": "03_包包材質亮點_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "5101501",
+        "modified_time": "2026-10-02T06:56:26.434Z"
+      },
+      {
+        "id": "1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y",
+        "title": "02_薄襯衫疊穿_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "3202715",
+        "modified_time": "2026-10-02T06:56:16.274Z"
+      },
+      {
+        "id": "1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI",
+        "title": "01_T字帶鞋_第一波發布.mp4",
+        "mime_type": "video/mp4",
+        "size": "3225588",
+        "modified_time": "2026-10-02T06:56:08.685Z"
+      },
+      {
+        "id": "1OUivMGomc0nks90MHXeA7DQGGU6N8jMT",
+        "title": "歷史版本與 Markdown 原檔",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "modified_time": "2026-10-02T06:54:54.730Z"
+      }
+    ]
+  },
+  "verification": {
+    "week_parent_and_name_readback": true,
+    "child_inventory_count": 13,
+    "all_child_ids_titles_mime_sizes_modified_times_unchanged": true,
+    "first_wave_videos_count": 5,
+    "first_wave_videos_replaced": false,
+    "permissions_changed": false,
+    "cloud_task_created": false,
+    "publication": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "status": "source_eligible_for_separately_saved_research_preview_user_dynamic_review_pending",
+  "asset_id": "bf03f73b-7602-47ed-8fff-a2d0517e864c",
+  "source": "F05_source.mp4",
+  "source_sha256": "d920c5a95bd9934d1f3a33dd498e1065860798cd78ce8ffdadf4aaf02d7f671e",
+  "source_bytes": 4722088,
+  "decoded_frames": 145,
+  "fps": 24,
+  "size": [720, 1280],
+  "derived_duration_seconds": 6.041666666666667,
+  "new_motion_generations": 1,
+  "human_challenge": "user replied 已完成; fresh UI cleared before upload and submission",
+  "approved_first": {"asset_id": "1d3601d9-c5e3-4d90-9073-224ae5e613af", "sha256": "9bc90ffa51bdad22106401647fef10fbf20b2da6faf88192b1b6f8191aba97d2"},
+  "approved_last": {"asset_id": "2cd09782-09d7-4c5c-bde2-6e0e8384ca3b", "sha256": "9af51b785d2bd104751cd2502deaa86f29cad217621643cef98c23d0ff1f16e7"},
+  "requested_mode": "6s / 720p / 9:16 / first+last+M03 v3 face/full",
+  "parameter_acceptance_evidence": "Grok agent reported acceptance; internal tool call not independently visible",
+  "root_and_independent_sampled_findings": [
+    "Continuous same-side pullback from close to full person, not instantaneous scale change",
+    "Skirt hem enters around 3s; both shoes around 3.5s; full outfit readable approximately final 2.5s",
+    "White pointed collar shirt, black A-line skirt, cobalt bag and rightward walking remain coherent in inspected frames",
+    "Canopy progressively enters from upper-right edge as field widens; no demonstrated grow-out-of-glass event",
+    "No conspicuous newly appearing hedge row or foreground pole in inspected frames",
+    "Final action is outside/alongside the company doorway; no threshold crossing or interior entry"
+  ],
+  "limits": [
+    "Sampled visual review, not full-speed continuous playback confirmation or measured zero sliding",
+    "Existing endpoint canopy/door deviations from E00 were disclosed and approved as still differences, not exact 3D reconstruction",
+    "Head/arm phase mismatch remains across F04 to F05; actual dissolve shows transient double edges",
+    "No user dynamic acceptance of F05 or complete five-look film yet"
+  ],
+  "silent_copy": {"path": "QA_2026-10-21/F05_silent.mp4", "sha256": "4854b2f41b4c4737b3b38844601a006699518160eff5dbb891dfc95f8bcca106", "identical_main_h264_annexb_sha256": "59930f689626455cf1cf9c9ab7b863ac848274d6174dd7901200cb3f29821808", "remux_only": true},
+  "evidence": ["grok_prompt.txt", "completion_dom.txt", "completion_loaded.png", "QA_2026-10-21/technical_report.json", "QA_2026-10-21/VISUAL_REVIEW.md", "QA_2026-10-21/checkpoints_25.jpg", "QA_2026-10-21/dense_late_background.jpg", "QA_2026-10-21/overlap_phase_pairs.jpg"],
+  "research_append": "../five_look_review_2026-10-21/v1/review.mp4",
+  "originals_preserved": true,
+  "publishing_or_drive_or_github_action": false
+}

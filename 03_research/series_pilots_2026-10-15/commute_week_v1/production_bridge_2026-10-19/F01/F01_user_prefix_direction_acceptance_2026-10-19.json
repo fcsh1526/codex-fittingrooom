@@ -1,0 +1,12 @@
+{
+  "recorded_date":"2026-10-19",
+  "asset":"F01_prefix_3p25s_silent_review_v2.mp4",
+  "sha256":"d789898f3765aba72f4a286e94b1d1122444f186320e8433fa4c324e0dea870c",
+  "seconds":3.25,
+  "question":"請播放交付的 3.25 秒前段：人物的前進感、鏡頭跟隨並繞到側面的方式，是否可以保留？原片後半延伸成不符街景基準的長拱廊，已排除；本次只確認前段運鏡方向，整條路線尚未通過。",
+  "user_answer":"前段方向可以保留",
+  "status":"exact_prefix_walk_and_camera_direction_accepted",
+  "scope":["retain exact3.25second prefix walking progression", "retain camera-follow to side direction"],
+  "not_implied":["full6second source spatial continuity pass", "all-frame technical identity/anatomy pass", "normal-speed full-playback self-report", "all five looks or final route film accepted", "publication or replacement of deliveries"],
+  "authorized_next":"Develop bounded F02 start/end from usable actual motion and shared site. New generated stills retain exact user visual approval gate."
+}

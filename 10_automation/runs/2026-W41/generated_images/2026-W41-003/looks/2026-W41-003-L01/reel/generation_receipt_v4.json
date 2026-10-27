@@ -16,8 +16,16 @@
   ],
   "tool_wall_seconds": 110.6,
   "active_minutes": null,
-  "status": "static_review_pass_pending_user_visual_approval",
-  "user_approval": null,
+  "status": "user_approved_full_person_first_frame",
+  "user_approval": {
+    "look_id": "2026-W41-003-L01",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
+    "sha256": "1ba112fd6f23948f15b9e558afa945dd2e16ed2249e818e57d3320fe2890b912",
+    "approved_on": "2026-10-08",
+    "user_quote": "ok",
+    "context": "Response to displayed M02 L01 v4 / L02 v3 and pair visual approval request.",
+    "scope": "This exact full-person still as video first frame; not proof/Carousel/video acceptance."
+  },
   "dynamic_QA": null,
   "static_review": {
     "identity": "Recognizable v3 face and pinned-back hair, healthy proportions; separate user visual check pending.",

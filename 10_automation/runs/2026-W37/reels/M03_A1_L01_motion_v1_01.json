@@ -1,0 +1,72 @@
+{
+  "reel_id": "2026-W37-M03-reel",
+  "look_id": "2026-W37-005-L01",
+  "trial_id": "M03_A1_L01_motion_v1_01",
+  "date": "2026-10-01",
+  "status": "decoded_sampled_review_complete_continuous_qa_pending",
+  "source_post_url": "https://grok.com/imagine/post/75e7eda5-4051-4798-a909-fec73ef69006?conversation=a5650c8a-b2ab-4401-a857-2906812df204",
+  "input_still": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A1_full_start_candidate_v2.png",
+  "still_user_approval": "ok; explicitly approved for motion on 2026-10-01",
+  "input_role": "single First frame; exact filename checkbox selected; Add last frame visible; no Last frame",
+  "identity_reference": "No separate saved character selected. A1 approved near-frontal face is identity input; A2 is approved faceless detail.",
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A1_L01_motion_v1.md",
+  "ui_settings": {
+    "resolution": "720p",
+    "duration": "6s",
+    "audio": "off; checkbox0 observed",
+    "model": "unnamed in visible UI"
+  },
+  "video": {
+    "output_path": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+    "sha256": "f30b6aa35633531f8c5f513382a69a5d0d5a067022f07a4c0101e895aaf56ec9",
+    "resolution": [
+      720,
+      1264
+    ],
+    "fps": 24,
+    "duration_seconds": 6.041666666666667
+  },
+  "qa": {
+    "decode_scan": {
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M03_A1_L01_motion_v1_01.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1264
+        ],
+        "size": [
+          720,
+          1264
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "decoded_seconds": 6.041666666666667,
+      "black_candidate_frames": [],
+      "near_identical_frame_pairs": [],
+      "note": "Technical signals only. Continuous visual review and user approval remain separate."
+    },
+    "sampled_review": "Nine checkpoints: face/hair and full loafers remain visible; cream shirt, coffee trousers and bag persist. Subject makes a short step then rotates slightly, exceeding a pure weight shift. No obvious sampled background morph. Continuous QA pending.",
+    "provisional_selection_frames": [
+      18,
+      66
+    ],
+    "end_frame_exclusive": true,
+    "usable_seconds": null,
+    "continuous_watch_done": false,
+    "user_visual_approval": null
+  },
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": null
+  },
+  "upload": {
+    "status": "assistant_upload_success",
+    "method": "filechooser registered before actual AX Upload media click, setFiles, exact selected filename verified"
+  }
+}

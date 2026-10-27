@@ -1,0 +1,15 @@
+{
+  "file": "geometry-fixed-lens.html",
+  "fixed_focal": 0.9977551495587385,
+  "syntax_initial_render": true,
+  "buttons_tested": [
+    0,
+    50,
+    100
+  ],
+  "slider_all101_states_tested": true,
+  "pressed_state_updates": true,
+  "no_invalid_svg_points": true,
+  "state_storage_called": true,
+  "real_browser_layout_tested": false
+}

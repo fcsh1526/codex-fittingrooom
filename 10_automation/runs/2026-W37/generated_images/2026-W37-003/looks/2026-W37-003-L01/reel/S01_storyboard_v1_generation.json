@@ -1,0 +1,24 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-003-L01",
+  "model_profile_id": "M04",
+  "surface": "reel",
+  "shot_id": "S01",
+  "status": "user_visual_approved_for_motion_2026-09-30",
+  "storyboard": "10_automation/runs/2026-W37/reels/M04_storyboard_v1.md",
+  "image_tool": "built_in_imagegen",
+  "reference_roles": {
+    "face_identity": "02_brand/reference_models/M04_start_v3_face.png",
+    "body_proportion": "02_brand/reference_models/M04_start_v3_full.png"
+  },
+  "output_path": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L01/reel/2026-W37-003-L01_M04_S01_storyboard_v1_start_candidate.png",
+  "output_sha256": "D02AEE759E4744AE4BE67E551E646886AA399C88E4074AA98824A8CA9C0F7FD7",
+  "output_pixels": [941, 1672],
+  "prompt": "Use case: photorealistic-natural identity-preserving fashion editorial image for the FIRST FRAME of a native 9:16 Instagram Reel, no text. Reference image 1 locks this East Asian woman's exact face and dark-brown side-parted chin-to-shoulder bob; reference image 2 locks her realistic full-body proportions only. She has an elegant early-40s look with natural skin texture. Create a new scene and outfit: a modest chamber-music arts center foyer connected to a design bookshop, warm off-white plaster wall, narrow pale-wood display table well behind her, soft daylight from viewer-left. One person only. She is near-frontal, eyes and both sides of face clearly readable, poised just BEFORE one ordinary short step, weight grounded, one hand naturally near a small black underarm bag at her side; the bag does not block her clothes. Exact outfit: deep navy unlined lightweight jacket with a clear but natural shoulder line, hem at upper hip; opaque ivory crew-neck sleeveless satin midi dress falling straight to mid-calf; black low-heel loafers; small black underarm bag; tiny silver earrings. The navy shoulder shape and ivory satin drape must both read. Full-frame mirrorless camera, level chest-height 50mm prime perspective, premium but approachable daily-fashion magazine photograph; real fabric folds, subtle grain, believable shoe contact shadows and room light. Compose DIRECTLY in portrait 9:16, full head and both complete shoes visible, calm space around her for video motion, no poster, signs, logos, letters, watermark, other people, fashion-elongated body, or artificial beauty lighting.",
+  "assistant_review": {
+    "visible": "Near-frontal full person, both shoes and head present; navy jacket shoulders, ivory straight dress and black loafers clear; no visible image text.",
+    "risk": "Identity resemblance, dress fabric/length and motion-start suitability require user visual approval; background stability can only be checked after Grok motion generation.",
+    "grok_submitted": false,
+    "user_visual_approval": "2026-09-30: user replied 可以，沿用這張 to the displayed M04 L01 Reel start image and explicit face/outfit/framing approval question. Approval is for this still as a motion input, not for any future Grok video."
+  }
+}

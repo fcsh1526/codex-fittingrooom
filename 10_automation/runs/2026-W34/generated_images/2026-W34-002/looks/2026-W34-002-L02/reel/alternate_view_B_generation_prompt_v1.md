@@ -1,0 +1,9 @@
+# Alternate View B Generation Prompt v1
+
+Use case: identity-preserve. Create one native 9:16 Alternate View B for the same practical daily-outfit editorial. Image 1 is the edit target and session lock: preserve the exact woman, pulled-back dark hairstyle, sand blazer construction and color, cream sleeveless top, deep-indigo straight jeans, dark-brown loafers, dark-brown tote, body build and documentary photographic treatment. Image 2 reinforces face identity; Image 3 reinforces ordinary body proportions. Change only the location corner, camera angle, pose, gaze and hand interaction.
+
+Place her at the planted courtyard edge of the same contemporary Taipei art space, beside a low raw-concrete ledge with leafy shadows and quiet late-summer greenery. Do not reproduce the semi-outdoor colonnade or exhibition entrance from Image 1. Photograph her from the left-front walkway in a natural three-quarter side view. She stands with a relaxed weight shift, one hand resting lightly on the concrete ledge, the other holding the upper part of the same tote's shoulder-length handle. She looks toward the courtyard plants, not the camera. This is an independent outfit image, not the next action after Image 1.
+
+Keep exactly: lightweight unlined sand blazer, subtly relaxed fit, worn fully open with sleeves down and unrolled; one fitted cream-white sleeveless cotton top; deep-indigo high-waisted straight-leg jeans; dark-brown matte-leather loafers; same small dark-brown leather tote with shoulder-length handles. Show complete hairstyle, full figure and both shoes.
+
+Full-frame mirrorless documentary fashion photograph, natural 50mm at chest height, level axis, believable open-shade daylight and concrete ambient spill, honest skin texture, flyaway hairs, lived-in fabric folds, restrained grain and slight optical softness. No text, logos, watermark, added garments or accessories.

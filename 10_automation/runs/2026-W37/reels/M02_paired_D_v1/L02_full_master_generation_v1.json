@@ -1,0 +1,45 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "generation_date": "2026-10-05",
+  "look_id": "2026-W37-001-L02",
+  "model_profile_id": "M02",
+  "asset_role": "matched_full_person_master_and_B_first_frame_candidate",
+  "tool": "Codex built-in imagegen",
+  "reference_images": [
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L01\\reel\\paired_scene_v1\\2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M02_start_v3_face.png",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M02_start_v3_full.png",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L02\\reel\\2026-W37-001-L02_M02_S04_comparison_v2_start_candidate.png"
+  ],
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/hero_A_prompt.md",
+  "source_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-50f80b1b-0c21-4210-9e70-41ffd7a0cb29.png",
+  "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+  "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a",
+  "requested_dimensions": [
+    1080,
+    1920
+  ],
+  "actual_dimensions": [
+    941,
+    1672
+  ],
+  "aspect_ratio_relative_error": 0.0005316321105794941,
+  "native_portrait_generation": true,
+  "exact_delivery_dimensions_met": false,
+  "resize_or_crop_applied": false,
+  "generation_attempts": 1,
+  "generation_wait_seconds": 42.644,
+  "active_minutes": null,
+  "assistant_static_observations": [
+    "Complete head and both ivory canvas slip-on shoes visible; no shoelaces copied from L01.",
+    "Mist-blue rolled sleeves/open shirt, navy square neckline and A-line calf-length dress, gray canvas tote and silver studs visible.",
+    "Near-frontal identity and relaxed strap-holding posture resemble accepted L01 scene source.",
+    "Full/full composition, window/seat, bookcase, warm-gray wall and terrazzo floor appear closely matched at displayed size; pose and garment silhouettes necessarily differ.",
+    "Static arrangement does not establish the generated A end position or full0.75s transition match."
+  ],
+  "user_visual_approval": "approved",
+  "user_visual_approval_date": "2026-10-05",
+  "user_visual_approval_evidence": "User replied ok after both L01 medium and L02 full candidates were displayed and individually listed for approval; still-only scope.",
+  "dynamic_qa": "not_started",
+  "publishable": false
+}

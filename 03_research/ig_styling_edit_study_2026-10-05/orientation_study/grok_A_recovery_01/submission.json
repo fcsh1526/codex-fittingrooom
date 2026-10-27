@@ -1,0 +1,14 @@
+{
+  "submitted_at": "2026-10-05T08:55:51.935Z",
+  "post_url": "https://grok.com/imagine/post/a720b96e-1dd6-4bbe-935c-a6f737114f57?conversation=685c6276-f7a8-4e66-99f6-d687d7c244d6",
+  "progress_observed": 20,
+  "prompt_variant": "unchanged prompt_A.txt",
+  "uploaded_asset": "approved L01 full master",
+  "character_reference": "Mira M02 v3",
+  "first_frame_role_verified": true,
+  "audio": false,
+  "resolution_ui": "720p",
+  "duration_ui": "6s",
+  "aspect_ui": "9:16",
+  "navigation_during_generation": false
+}

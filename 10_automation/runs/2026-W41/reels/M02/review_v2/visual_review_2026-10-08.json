@@ -1,0 +1,23 @@
+{
+  "week": "2026-W41",
+  "model": "M02",
+  "film": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+  "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+  "frames": 216,
+  "seconds": 9,
+  "fps": 24,
+  "native_pixels": [
+    720,
+    1280
+  ],
+  "transition_seconds": 0.75,
+  "source_speed": "unchanged",
+  "text": "none",
+  "audio": "none",
+  "findings": "25 whole-film and5 face checkpoints plus all34 transition-boundary full/head windows inspected. Both complete outfits are readable outside the dissolve. V2 enters B at1s, narrowing the vertical face separation versus B0 in v1; residual double-face/body and cafe-geometry overlap remains during the intended0.75s dissolve. No apparent gross face, hand, bag, shoe or background collapse in inspected source/checkpoint windows. This sampling does not establish full normal-speed comfort or a complete identity-stability pass; user playback review remains required.",
+  "continuous_watch_done": false,
+  "user_approval": "10_automation/runs/2026-W41/reels/M02/review_v2/user_picture_approval_2026-10-08.json",
+  "proof_and_carousel": "incomplete",
+  "prior_batch_write": false,
+  "status": "sampled_review_complete_user_picture_accepted"
+}

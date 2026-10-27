@@ -1,0 +1,24 @@
+{
+  "url": "https://grok.com/imagine/post/ddd76361-f431-4a1c-94ca-d252cfc3a2da?conversation=701b6ce1-def8-4d53-84cb-96773081c485",
+  "submitted_at": "2026-10-08T09:27:30.749Z",
+  "completed_at": "2026-10-08T09:28:41.326Z",
+  "saved_reference": "Mira M04 v3",
+  "prompt": "Animate the attached first frame with selected Mira M04 v3 identity. Preserve her recognizable face and side-parted pulled-back hair. Fixed level full-person camera, complete hair and both shoes always visible. One ordinary-speed shoulder-strap adjustment: her left hand on image-right rises to the blue shoulder strap near the upper chest on that same side. Thumb and fingers visibly touch and lightly hold the real strap once, settle it slightly on the shoulder, then release and return naturally. The strap and bag respond slightly to the contact, while the bag remains beside her left/image-right waist-to-hip, never pulled across the torso. Feet remain planted with natural small weight settling. Keep hands, elbows, skirt or trousers, shoes and bag close to the pictured central body outline; no wide arm sweep. Keep the bookstore doorway, greige wall, paving, light direction and shadows stable. No cuts, zoom, walking, large turns, text or audio. Six seconds. Begin exactly as pictured: left hand is in the trouser pocket; take it out naturally before reaching to the strap, ending relaxed beside the hip. Keep the open black lightweight cropped jacket, tucked white crewneck tee, charcoal straight trousers and black low-heel loafers unchanged.",
+  "native_dom": {
+    "duration": 6.041667,
+    "height": 1280,
+    "width": 720
+  },
+  "downloaded_path": "A_attempt_01/source.mp4",
+  "submission_note": "Initial DOM click only collapsed editor; confirmed draft retained, native button sent and composer cleared.",
+  "source_sha256": "da776b7e2d870338db83a46addbbec983b6a5acee5cdc80728c1d21152a150a6",
+  "measured_native": {
+    "size": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "frames": 145,
+    "audio_streams": 0
+  }
+}

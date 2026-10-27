@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="760" viewBox="0 0 1120 760" style="color:CanvasText;background:Canvas">
+<title>F04 fixed six-stripe projection: accepted original camera</title>
+<rect width="1120" height="760" fill="Canvas"/>
+<defs><clipPath id="panel"><rect width="340" height="604"/></clipPath></defs>
+<g transform="translate(20,40)"><text x="0" y="-15" fill="currentColor" font-size="18">Start — 0.9° from horizontal</text>
+<rect width="340" height="604" fill="Canvas" stroke="currentColor" opacity=".2"/>
+<g clip-path="url(#panel)">
+<polygon points="85.46,442.47 434.87,448.89 422.44,438.33 91.73,432.57" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="97.38,423.66 411.28,428.85 401.21,420.29 102.49,415.59" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="107.14,408.26 392.08,412.54 383.76,405.47 111.38,401.56" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="115.27,395.42 376.15,399.01 369.16,393.07 118.86,389.76" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="122.16,384.54 362.72,387.60 356.77,382.54 125.23,379.71" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="128.07,375.22 351.24,377.85 346.11,373.49 130.72,371.04" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<path d="M-395.36,440.45L1178.60,470.48" fill="none" stroke="currentColor"/>
+<path d="M-150.18,364.18L745.57,374.05" fill="none" stroke="currentColor"/>
+<path d="M151.53,194.08L151.53,468.90m0,-70l-22,70m22,-70l22,70" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="151.53" cy="186.08" r="9" fill="currentColor"/>
+</g></g>
+<g transform="translate(390,40)"><text x="0" y="-15" fill="currentColor" font-size="18">Mid — 14.1° from horizontal</text>
+<rect width="340" height="604" fill="Canvas" stroke="currentColor" opacity=".2"/>
+<g clip-path="url(#panel)">
+<polygon points="-106.18,417.42 118.40,498.97 145.16,483.14 -78.04,410.21" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="-52.28,403.60 168.67,469.23 189.49,456.90 -28.60,397.54" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="-6.76,391.94 208.06,445.91 224.73,436.05 13.45,386.76" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="32.19,381.96 239.76,427.15 253.40,419.08 49.63,377.49" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="65.90,373.33 265.83,411.72 277.20,405.00 81.10,369.43" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="95.35,365.78 287.64,398.82 297.26,393.12 108.73,362.35" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<path d="M-37.90,334.55L1166.52,522.16" fill="none" stroke="currentColor"/>
+<path d="M117.95,223.43L117.95,368.47m0,-70l-22,70m22,-70l22,70" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="117.95" cy="215.43" r="9" fill="currentColor"/>
+</g></g>
+<g transform="translate(760,40)"><text x="0" y="-15" fill="currentColor" font-size="18">End — 31.9° from horizontal</text>
+<rect width="340" height="604" fill="Canvas" stroke="currentColor" opacity=".2"/>
+<g clip-path="url(#panel)">
+<polygon points="-557.57,544.62 -439.73,842.20 -312.00,770.65 -482.74,525.99" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="-416.92,509.60 -211.96,714.61 -131.49,669.54 -358.57,495.07" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="-306.49,482.11 -65.35,632.49 -10.03,601.51 -259.72,470.46" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="-217.49,459.95 36.92,575.21 77.27,552.61 -179.17,450.40" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="-144.23,441.71 112.32,532.97 143.05,515.76 -112.26,433.74" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<polygon points="-82.88,426.43 170.21,500.55 194.39,487.00 -55.79,419.69" fill="GrayText" fill-opacity=".3" stroke="currentColor" stroke-width="1"/>
+<path d="M-213.77,368.28L2336.94,1005.10" fill="none" stroke="currentColor"/>
+<path d="M140.36,221.06L140.36,376.59m0,-70l-22,70m22,-70l22,70" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="140.36" cy="213.06" r="9" fill="currentColor"/>
+</g></g>
+<text x="20" y="710" fill="currentColor" font-size="18">Same six rectangles. Original mid projects almost horizontally, unlike approved mid vertical/depth direction.</text></svg>

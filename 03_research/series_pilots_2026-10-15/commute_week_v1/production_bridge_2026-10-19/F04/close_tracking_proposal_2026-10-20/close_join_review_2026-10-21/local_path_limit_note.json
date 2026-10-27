@@ -1,0 +1,12 @@
+{
+  "date_taipei": "2026-10-21",
+  "first_attempt": "candidate_v1/local_close/local_close_native_soft_review_v1.mp4",
+  "failure": "Windows output path length262 characters; exclusive final output file creation failed with errno2",
+  "new_media_written_on_first_attempt": false,
+  "failed_empty_directory_preserved": true,
+  "correction": "Shortened only local output directory and QA filenames; second execution uses v2/local and v2/context",
+  "source_generation_retry": false,
+  "source_or_accepted_film_modified": false,
+  "root_notified": true,
+  "dynamic_approval_inferred": false
+}

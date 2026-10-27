@@ -1,0 +1,29 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "look_id": "2026-W37-002-L01",
+  "shot_id": "A_scale_push_v1",
+  "attempt_id": "02",
+  "submitted_at_local_date": "2026-09-29",
+  "source_first_frame": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png",
+  "first_frame_user_approval": "2026-09-29: 好",
+  "saved_character_reference": "Mira M05 v1 face",
+  "saved_character_reference_contents": ["02_brand/reference_models/M05_start_v1_face.png"],
+  "input_role_verification": "Grok composer retained the approved L01 image as First frame and the saved face reference separately; visible prompt contained the color-continuity addition before submission.",
+  "settings_observed": { "aspect_ratio": "9:16 selected", "resolution": "720p selected", "duration": "6s selected", "audio": "The actual output has an AAC audio stream despite the no-generated-speech-or-music prompt; strip it from any editorial clean master." },
+  "prompt_file": "10_automation/runs/2026-W37/reels/prompts/M05_A_L01_scale_push_v2_colorlock.md",
+  "source_url": "https://grok.com/imagine/post/c9328e94-80a9-4e4c-be00-4094ef7d61c5?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_scale_push_v2_02.mp4",
+  "output_sha256": "B9D13AB3F87485B981AED06E1569B6C3B19C1CF5F03F47A174FE627C868C3139",
+  "output_metadata": { "duration_seconds": 6.041667, "resolution": "720x1280", "frame_rate": 24, "decoded_frames": 145, "audio_stream": true },
+  "status": "technical_rejected_no_further_same_shot_retry",
+  "qa": {
+    "continuous_watch_done": false,
+    "dynamic_identity": "Face and hair appear broadly stable in 2-fps contact sheet; user full-speed review not requested because wardrobe failed.",
+    "wardrobe_continuity": "FAIL: trouser legs stay deep navy, but waistband becomes a conspicuous purple-magenta band from approximately 2 seconds onward and persists into the closer framing.",
+    "motion_and_camera": "One natural forward walk and camera push; closer framing appears after the waistband color mutation.",
+    "usable_interval_seconds": "Approximately 0-2 seconds only, full-person to three-quarter framing; insufficient for intended connected full-to-medium shot.",
+    "decode_and_scan": "Full 145-frame H.264 decode passed; blackdetect and freezedetect found no events.",
+    "contact_sheet": "10_automation/runs/2026-W37/reels/qa/M05_A_L01_scale_push_v2_02/contact_2fps.jpg",
+    "decision": "reject_for_wardrobe_hue_drift; one allowed retry exhausted; lower motion complexity or reframe the storyboard"
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "samples": [
+    {
+      "file": "sample_000.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.002688
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.107639
+      }
+    },
+    {
+      "file": "sample_001.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.154229
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.26115
+      }
+    },
+    {
+      "file": "sample_002.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.299206
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.436533
+      }
+    },
+    {
+      "file": "sample_003.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.476443
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.584217
+      }
+    },
+    {
+      "file": "sample_004.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.652743
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.763481
+      }
+    },
+    {
+      "file": "sample_005.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.80726
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.926926
+      }
+    },
+    {
+      "file": "sample_006.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.968386
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 0.032616
+      }
+    },
+    {
+      "file": "sample_007.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 0.072515
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 0.198477
+      }
+    },
+    {
+      "file": "sample_008.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 0.240927
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 0.339815
+      }
+    },
+    {
+      "file": "sample_009.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 0.461646
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 0.58168
+      }
+    },
+    {
+      "file": "sample_010.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 0.788134
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 0.91672
+      }
+    },
+    {
+      "file": "sample_011.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 0.958955
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 1.07852
+      }
+    },
+    {
+      "file": "sample_012.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 1.115015
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 1.230545
+      }
+    },
+    {
+      "file": "sample_013.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 1.274277
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 1.372797
+      }
+    },
+    {
+      "file": "sample_014.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 1.420288
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 1.53952
+      }
+    },
+    {
+      "file": "sample_015.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 1.58252
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 1.684878
+      }
+    },
+    {
+      "file": "sample_016.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 1.739022
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 1.845042
+      }
+    },
+    {
+      "file": "sample_017.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 1.889054
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 2.074822
+      }
+    },
+    {
+      "file": "sample_018.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 2.113935
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 2.202664
+      }
+    },
+    {
+      "file": "sample_019.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 2.254506
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 2.389003
+      }
+    },
+    {
+      "file": "sample_020.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 2.428084
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 2.532654
+      }
+    },
+    {
+      "file": "sample_021.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 2.589719
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 2.69463
+      }
+    },
+    {
+      "file": "sample_022.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 2.738638
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 2.841526
+      }
+    },
+    {
+      "file": "sample_023.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 2.8829
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 3.00593
+      }
+    },
+    {
+      "file": "sample_024.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 3.04921
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 3.141747
+      }
+    },
+    {
+      "file": "sample_025.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 3.207459
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 3.298338
+      }
+    },
+    {
+      "file": "sample_026.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 3.341174
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 3.538158
+      }
+    },
+    {
+      "file": "sample_027.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 3.576786
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 3.715818
+      }
+    },
+    {
+      "file": "sample_028.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 3.758092
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 3.919585
+      }
+    },
+    {
+      "file": "sample_029.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 3.955979
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 4.078179
+      }
+    },
+    {
+      "file": "sample_030.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 4.118883
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 4.217776
+      }
+    },
+    {
+      "file": "sample_031.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 4.266441
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 4.384563
+      }
+    },
+    {
+      "file": "sample_032.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 4.446165
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 4.555498
+      }
+    },
+    {
+      "file": "sample_033.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 4.597053
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 4.73436
+      }
+    },
+    {
+      "file": "sample_034.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 4.790577
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 4.990408
+      }
+    },
+    {
+      "file": "sample_035.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.033711
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.123179
+      }
+    },
+    {
+      "file": "sample_036.png",
+      "before": {
+        "duration": 6.041667,
+        "muted": false,
+        "paused": false,
+        "time": 5.161128
+      },
+      "after": {
+        "duration": 6.041667,
+        "paused": false,
+        "time": 5.257927
+      }
+    }
+  ],
+  "wraps": 1,
+  "method": "Actual playing UI viewport screenshots bracketed by media time",
+  "continuous_full_watch_claimed": false
+}

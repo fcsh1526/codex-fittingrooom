@@ -1,0 +1,8 @@
+{
+  "stage": "filter_initialization",
+  "error": "FFmpeg xfade reported trimmed input current rate1/0 invalid, requiring an explicit constant-frame-rate marker.",
+  "source_metadata": "Both original sources decoded24fps,720x1280,145frames.",
+  "valid_video_created": false,
+  "source_files_modified": false,
+  "resolution": "Reused the existing same24fps endpoint-timestamp method, verify original and normalized selected-frame hash sequences before output rendering."
+}

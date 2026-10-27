@@ -1,0 +1,59 @@
+{
+  "stage": "continuous_shared_world_sketch",
+  "frames": 468,
+  "seconds": 19.5,
+  "pixels": [
+    540,
+    960
+  ],
+  "fps": 24,
+  "audio": false,
+  "text": false,
+  "world_count": 1,
+  "continuous_world_and_camera": true,
+  "boundary_numeric_checks": [
+    {
+      "t": 3.75,
+      "person_delta": 2.5644397219969994e-05,
+      "camera_delta": 1.566015985343867e-05
+    },
+    {
+      "t": 7.5,
+      "person_delta": 3.4503232327404254e-05,
+      "camera_delta": 2.5035969014716324e-05
+    },
+    {
+      "t": 11.25,
+      "person_delta": 2.517707381188457e-05,
+      "camera_delta": 7.237730224543211e-05
+    },
+    {
+      "t": 15.0,
+      "person_delta": 1.811909569771756e-05,
+      "camera_delta": 1.095765771388177e-05
+    }
+  ],
+  "photoreal_stills_generated": 0,
+  "grok_calls": 0,
+  "existing_media_modified": false,
+  "user_exact_draft_acceptance": null,
+  "limits": "Simplified billboard characters and schematic geometry. Limb/projection/occlusion errors do not validate generated shot quality. No verified five-day interpretation or attraction.",
+  "files": {
+    "route_map.png": {
+      "bytes": 78425,
+      "sha256": "65e414335a775044564e309c1b5449ca272f8b239316c6b3771f0b1b21652a82"
+    },
+    "continuous_storyboard.png": {
+      "bytes": 274255,
+      "sha256": "eadba7d372446c8c764ba97d437f903f85c7262164b651a2ebf6a91cf791e948"
+    },
+    "continuous_route_animatic.mp4": {
+      "bytes": 2291533,
+      "sha256": "5678b424af4d04dc8d709d940aa5272853db32c9b5f7d304ce5b37faee12bc31"
+    },
+    "route_plan.json": {
+      "bytes": 5339,
+      "sha256": "10aa3b837899ccefb7a4ae29e8e3b0cbd61c5c6b8d37fe7fbddec36e2236a195"
+    }
+  }
+}

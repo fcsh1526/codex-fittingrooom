@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-21",
+  "asset": "F05_M03_L04_full_late_candidate_A.png",
+  "sha256": "e04a1f4267a02738a83a2851878133e627f4457d78d74ce0b5309fc716418cdd",
+  "question": "請確認第五套收束圖：臉、白短袖襯衫／黑A字裙、鈷藍包、黑鞋與跨步是否可以沿用？同一外立面前的樹、花台及玻璃角度有變化，場景連貫仍待影片驗證；這版不進門。依你的新圖核准規則，確認後才生成第五段影片。",
+  "options": [
+    "可以，沿用這張收束圖",
+    "臉或服裝需要修正",
+    "構圖或背景需要調整"
+  ],
+  "answer": null,
+  "status": "deferred_unapproved_branch_after_user_selected_full_to_half_storyboard",
+  "F05_motion_approval": false,
+  "complete_film_approval": false,
+  "deferred_by": "../half_integration_2026-10-22/user_storyboard_approval.json"
+}

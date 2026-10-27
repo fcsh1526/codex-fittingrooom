@@ -1,0 +1,17 @@
+現在執行一次F04「首／第3秒／尾」關鍵幀控制試片。三張圖均已由使用者逐張核准，不出新圖，不合片，不自動重試。使用你剛確認可並用的精確參數；若實際工具拒絕，停下如實回報，不要改成soft reference或丟掉任何錨點：
+
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "e008f6b5-efe9-40b4-be75-615af1be766c"
+last_frame_asset_id: "a06e27e3-5f21-4875-805d-27e34796dd42"
+keyframes: [{"asset_id":"90081a23-1319-4ce4-9076-a72c8d26a332","timestamp_s":3}]
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+
+First是原格紋側面向右跨步首幀；mid是已核准90度方向、已移除圓柱／短柱／黃帶的過街中途圖；last是已核准同方向標線的新末幀，剛過路緣／公司側空鋪面／玻璃外牆。首／中／尾只以各自影格角色指定。兩張asset_ids分別只鎖M03 v3臉與正常身形，不帶入參照服裝／場景。沒有獨立face/full/scene類型時，只能如實寫asset_ids加prompt角色。
+
+Generate one continuous six-second real-time commute shot connecting the exact first,3-second middle and last anchors. Preserve the same M03 identity and ordinary proportions, cream/navy checked pointed shirt, forearm sleeves, tucked charcoal trousers, black low heels and black bag on the same physical shoulder. Walk briskly and naturally from the existing plaza edge onto the single crossing and up the company-side curb, ending still walking before the doorway. Keep steady cadence from the opening; no pause at the middle anchor. The level chest-height50mm camera follows the same flank, gradually falling behind to rear three-quarter, keeping the complete head and shoes and comparable person scale.
+
+Treat all three views as ONE fixed scene. Keep original short left-rear planter boundaries, glass-window grid, curbs and crossing paint anchored in world space. Original planting exits by real parallax, never spreading, fading or migrating. White stripe projection changes only with the camera; do not rotate or repaint marks on the road. Keep the company-side landing open, with no invented silver column, bollards, yellow strip, extra plants or second road. Preserve visible opening right-edge road-paint cues so the preceding shot can connect. If anchor views cannot connect physically, do not disguise it with a cut or dissolve. Keep grounded alternating steps and stable bag/fabric texture. No skating, slow motion, speed ramp, retiming, freeze, internal cut/dissolve, text or logo. Audio off if available, otherwise report actual audio.
+
+只生成這一次，回報實際傳入的first／last／keyframes（含timestamp_s）／asset_ids、輸出asset ID、時長、像素、音軌。把工具接受參數與實際抽樣觀察分開；不能只因有keyframes參數就宣告第3秒實際畫面或全段幾何已通過，也不要自行再生成第二版。

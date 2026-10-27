@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "U02",
+  "source": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+  "sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+  "reviewed_files": [
+    "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/QA_U02/full_25_checkpoints.jpg",
+    "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/QA_U02/face_5_checkpoints.jpg",
+    "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/QA_U02/feet_every_quarter_second.jpg"
+  ],
+  "method": "25full and5face checkpoints plus feet sampled every6frames over all241native frames; not continuous playback.",
+  "observations": {
+    "camera": "Near-side-profile parallel tracking remains throughout, with coherent lateral movement of crossing stripes and office/tree background. Does not reuse45degree view.",
+    "walking": "Repeated alternating leg advancement, foot lift/heel-to-toe landings and natural skirt response visible in sampled temporal sequence; not static weight-shift. Source remains real-time; perceived briskness requires user playback.",
+    "pose": "Head follows walking direction; profile remains readable rather than turning toward camera.",
+    "wardrobe": "White pointed-collar short sleeves, tucked waist, black calf-length A-line skirt, cobalt bag and plain black low heels retained; no added bow/slit in inspected frames.",
+    "background_commuters": "Multiple commuters walk through deeper lanes and enter/leave frame, more than3-4 at some times; no inspected main-outfit occlusion or clear sudden identity replacement/geometry collapse. Small rear people remain a visual-QA risk.",
+    "identity": "M03 near-profile remains recognizable at checkpoints; no instant face swap seen in samples.",
+    "cadence_goal": "18-20footfalls/10s was requested; exact footfalls not confidently measured, not claimed achieved."
+  },
+  "footfall_count": null,
+  "blocking_sampled_defects_for_user_review": [],
+  "selected_frames_half_open": [
+    0,
+    120
+  ],
+  "selected_seconds_half_open": [
+    0,
+    5
+  ],
+  "selection_rationale": "Whole outfit readable and side-tracking established at start; avoid unnecessary later source while testing new source language. Actual join comfort still to be checked.",
+  "assistant_continuous_playback": false,
+  "user_motion_approval": null
+}

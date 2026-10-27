@@ -1,0 +1,43 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "generation_date": "2026-10-05",
+  "look_id": "2026-W37-001-L02",
+  "model_profile_id": "M02",
+  "asset_role": "square_neckline_front_opening_medium_styling_proof_candidate",
+  "tool": "Codex built-in imagegen",
+  "reference_images": [
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L02\\reel\\paired_scene_v1\\2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M02_start_v3_face.png",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M02_start_v3_full.png"
+  ],
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/proof_prompt_v1.md",
+  "source_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-ceffd8e6-428f-47ca-b14f-022f193f32cc.png",
+  "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+  "sha256": "1ea5251c0346edc52e38d414c5c52156a4c41e0a74d08d05c3140b196994dd77",
+  "requested_dimensions": [
+    1080,
+    1920
+  ],
+  "actual_dimensions": [
+    941,
+    1672
+  ],
+  "aspect_ratio_relative_error": 0.0005316321105794941,
+  "native_portrait_generation": true,
+  "exact_delivery_dimensions_met": false,
+  "resize_or_crop_applied": false,
+  "generation_attempts": 1,
+  "generation_wait_seconds": 41.948,
+  "active_minutes": null,
+  "assistant_static_observations": [
+    "Complete face/hair, both shoulders, blue open shirt fronts, navy square neckline, waist seam and upper skirt visible.",
+    "Gray tote and relaxed strap contact remain visible; no obvious hand artifact at displayed size.",
+    "Same library arrangement, but closer framing changes background scale and reveals more apparent shirt texture; does not prove exact3D camera continuity.",
+    "Top margin visually about7percent; complete hair visible, final platform-safe review pending. Dress straps mostly covered; width not visually proven."
+  ],
+  "user_visual_approval": "approved",
+  "dynamic_qa": "not_started",
+  "publishable": false,
+  "user_visual_approval_date": "2026-10-05",
+  "user_visual_approval_evidence": "User answered 可以，沿用這張 to the exact L02 proof candidate approval question; still-only scope."
+}

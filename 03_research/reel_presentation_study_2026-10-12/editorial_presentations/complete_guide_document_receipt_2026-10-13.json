@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "status": "planning_complete_media_execution_paused",
+  "pdf": "output/pdf/Mira_Reel_六種分鏡與選用指南_2026-10-13.pdf",
+  "sha256": "978dbe89c64b6e5800e7c6873250036daeb950eaada09f4869d5a7346ff123d7",
+  "pages": 14,
+  "visual_review": {
+    "all_pages_viewed": true,
+    "render_dpi": 80,
+    "clipping_or_overlap_observed": false,
+    "images": [
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-01.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-02.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-03.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-04.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-05.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-06.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-07.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-08.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-09.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-10.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-11.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-12.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-13.png",
+      "tmp/pdfs/mira_complete_guide_2026-10-13/page-14.png"
+    ]
+  },
+  "media_execution_resumed": false,
+  "external_writes": false
+}

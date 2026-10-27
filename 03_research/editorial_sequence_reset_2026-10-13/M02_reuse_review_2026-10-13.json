@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-13",
+  "week": "2026-W41",
+  "model": "M02",
+  "look_ids": [
+    "2026-W41-003-L01",
+    "2026-W41-003-L02"
+  ],
+  "old_still_approval": "10_automation/runs/2026-W41/reels/M02_full_pair_user_approval_2026-10-08.json",
+  "image_reviews": [
+    {
+      "look_id": "2026-W41-003-L01",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
+      "sha256": "1ba112fd6f23948f15b9e558afa945dd2e16ed2249e818e57d3320fe2890b912",
+      "approved_on": "2026-10-08",
+      "user_quote": "ok",
+      "context": "Response to displayed M02 L01 v4 / L02 v3 and pair visual approval request.",
+      "scope": "This exact full-person still as video first frame; not proof/Carousel/video acceptance.",
+      "reuse_status": "static_suitable_for_this_trial_full_view",
+      "review": "Viewed exact native full-person image against approved M02 face and weekly outfit. Full head/shoes, straight brown denim waist/hem and black shoes/bag readable. Same cafe wood-framed glass door at image-right, gray wall, left planter and short wooden stool; native vertical composition. New seated view still missing. Not new user approval or dynamic whole-film pass."
+    },
+    {
+      "look_id": "2026-W41-003-L02",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v3.png",
+      "sha256": "cb243dc67e57b95ad856d4e79d96423945aea0c0cdfc873bb22485627f4c9482",
+      "approved_on": "2026-10-08",
+      "user_quote": "ok",
+      "context": "Response to displayed M02 L01 v4 / L02 v3 and pair visual approval request.",
+      "scope": "This exact full-person still as video first frame; not proof/Carousel/video acceptance.",
+      "reuse_status": "static_suitable_for_this_trial_full_view",
+      "review": "Viewed exact native full-person image against approved M02 face and weekly outfit. Full head/shoes, straight brown denim waist/hem and black shoes/bag readable. Same cafe wood-framed glass door at image-right, gray wall, left planter and short wooden stool; native vertical composition. New seated view still missing. Not new user approval or dynamic whole-film pass."
+    }
+  ],
+  "motion_reviews": [
+    {
+      "role": "first_full",
+      "file": "10_automation/runs/2026-W41/reels/M02/A_attempt_01/source.mp4",
+      "sha256": "571c5ddc0ef77f47d21efabc385fdac0c405680dde8ad511c449ced50c36b437",
+      "reuse_status": "sampled_motion_candidate_join_review_required",
+      "candidate_frames_end_exclusive": [
+        0,
+        60
+      ],
+      "candidate_seconds": [
+        0.0,
+        2.5
+      ],
+      "review_method": "Viewed existing25 whole-frame and5 face checkpoint boards per source; read prior native145-lower-body review record. No new continuous assistant playback or all-native-frame inspection claimed.",
+      "actual_motion": "Short forward-step/catch-up then stance shifts; no sustained departure. Wardrobe and cafe context broadly stable in checkpoints. No fine hand-cloth action required.",
+      "user_accepted_previous_film": "10_automation/runs/2026-W41/reels/M02/review_v2/user_picture_approval_2026-10-08.json",
+      "new_combined_film_accepted": false
+    },
+    {
+      "role": "closing_full",
+      "file": "10_automation/runs/2026-W41/reels/M02/B_attempt_01/source.mp4",
+      "sha256": "7924c288d65aacf9ce831d14787e95c349441a5e4ae5229510dff3155125e0c5",
+      "reuse_status": "sampled_motion_candidate_join_review_required",
+      "candidate_frames_end_exclusive": [
+        24,
+        108
+      ],
+      "candidate_seconds": [
+        1.0,
+        4.5
+      ],
+      "review_method": "Viewed existing25 whole-frame and5 face checkpoint boards per source; read prior native145-lower-body review record. No new continuous assistant playback or all-native-frame inspection claimed.",
+      "actual_motion": "Short forward-step/catch-up then stance shifts; no sustained departure. Wardrobe and cafe context broadly stable in checkpoints. No fine hand-cloth action required.",
+      "user_accepted_previous_film": "10_automation/runs/2026-W41/reels/M02/review_v2/user_picture_approval_2026-10-08.json",
+      "new_combined_film_accepted": false
+    }
+  ],
+  "scene_lock_observed": "Cafe exterior: wood-framed glass door at image-right, gray plaster wall, left leafy planter and short wooden stool. Seated sources should derive this place; do not copy M03 window-left/long-bench geometry.",
+  "incremental_missing_sources": [
+    "L01 seated native9:16 styling-proof still + motion",
+    "L02 seated native9:16 styling-proof still + motion"
+  ],
+  "planning_reduction": "Two full-person stills and two original full-person clips can be proposed for reuse. Start by generating only two missing seated stills, each with its own exact wardrobe authority; static user approval and motion QA still required. Incremental cost is not from-zero production cost.",
+  "limits": "Reuse is a trial source choice. New join comfort, context consistency, complete production/Carousel package and actual reduced generation cost remain unverified."
+}

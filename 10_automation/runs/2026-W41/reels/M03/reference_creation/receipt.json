@@ -1,0 +1,11 @@
+{
+  "name": "Mira M03 v3",
+  "status": "created_and_selected_observed",
+  "anchors": [
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png"
+  ],
+  "uploaded_media_count": 2,
+  "screenshot": "created_selected.png",
+  "wardrobe_role": "identity_only"
+}

@@ -1,0 +1,32 @@
+{
+  "date":"2026-10-22",
+  "status":"single_source_completed_downloaded_QA_eligible_for_separate_context_trial",
+  "request_count":1,
+  "authority":"../context_review_v1/user_F02_approval.json; user retains newF02 and explicitly authorizes F03 repair",
+  "new_AI_stills_generated":false,
+  "input_frame_provenance":"controls/extraction_receipt.json; exact unmodified originalF03f91, not a newly generated photograph and no fabricated separate still approval",
+  "input_frame_sha256":"915d8618c9dca7bd16482ec37ee8fca64aa6d3b6177f210de36a032f791e6526",
+  "uploaded_media_UUID":"e0c03421-c8a7-431c-b305-f72b232c6c7f",
+  "requested_parameters":{
+    "duration":"6","resolution_name":"720p","aspect_ratio":"9:16",
+    "first_frame_asset_id":"a7a33bb7-39ff-472d-b27d-53e50fe48c58",
+    "keyframes":[{"asset_id":"e0c03421-c8a7-431c-b305-f72b232c6c7f","timestamp_s":3.7916666666666665}],
+    "last_frame_asset_id":null,
+    "asset_ids":["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+  },
+  "video_motion_reference_is_engine_input":false,
+  "pace_directing_target":"Even native support-phase rhythm around15frames; improve old18-to21frame late lingering, no easing at keyframe. Text is not measured success.",
+  "planned_selection":[1,109],
+  "planned_J23":"newF02[127,145) -> newF03[1,19)",
+  "planned_J34":"newF03[91,109) -> oldF04[0,18)",
+  "join_frames":18,
+  "risks":["anchor does not prove exact world or frame timing","both joins must be inspected after new source","oldF03retry introduced a large pillar; inspect whole source for rigid-scene failure"],
+  "actual_parameter_acceptance":"Grok rendered response reports requested first/keyframe/identity accepted and last unset; internal engine call not independently observed. UI reports keyframe might snap to1/3second grid, actual chosen time unknown.",
+  "output":{"asset_UUID":"d98ac854-e6f1-4d78-8e2a-c78c0a8fe01e","source":"F03_pace_source.mp4","sha256":"6bdf5237c8e8b40772b91ddd76a3d99cf81c0f44f0aea6381a69a7eb21fc61c3","frames":145,"fps":24,"pixels":[720,1280],"duration_seconds":6.041666666666667,"audio":"AAC present; separate identical-H264 silent copy in QA folder"},
+  "dynamic_QA":"root and independent source/boundary sampled eligible for separate context, not constantcadence/zero-slip/continuous visual or user final pass; source_visual_review.json and QA report",
+  "fullfilm_changed":false,
+  "external_delivery_changed":false,
+  "automatic_retry_allowed":false,
+  "prompt":"grok_prompt.txt",
+  "acknowledgment":"submission_dom.txt and submission.png show cleared textbox plus Thinking"
+}

@@ -1,0 +1,58 @@
+{
+  "look_id": "2026-W36-005-L02",
+  "design_id": "DAHUlpuvOHc",
+  "transaction_id": "4997259004119778727",
+  "status": "committed_exact_frame",
+  "edit_url": "https://www.canva.com/d/zAvaGAkOq-m8K7h",
+  "pages": [
+    {
+      "page_id": "PBG0szxkSTKqLWNX",
+      "page_number": 1,
+      "dimension": {
+        "width": 3240,
+        "height": 1350
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "assets": {
+    "A": "MAHUlp6Zdn0",
+    "B": "MAHUltqZyL4",
+    "C": "MAHUlo50ZAc"
+  },
+  "operations": [
+    {
+      "type": "update_title",
+      "title": "Mira W36-005-L02｜黑色洋裝與酒紅鞋"
+    },
+    {
+      "type": "replace_text",
+      "element_id": "PBG0szxkSTKqLWNX-LBVWRR3Zd24NWCYp",
+      "text": "黑色裙襬下，酒紅隨步伐閃現"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBbTnwkYDV7sQb2f",
+      "asset_id": "MAHUlp6Zdn0",
+      "asset_type": "image",
+      "alt_text": "黑色襯衫洋裝與酒紅低跟鞋全身"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBrNkdTtVWx2DSGy",
+      "asset_id": "MAHUltqZyL4",
+      "asset_type": "image",
+      "alt_text": "劇場藝廊坐姿場景與酒紅低跟鞋"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBwCJ73MvWPDZBxt",
+      "asset_id": "MAHUlo50ZAc",
+      "asset_type": "image",
+      "alt_text": "黑色裙襬與酒紅尖頭低跟鞋細節"
+    }
+  ],
+  "preview_file": "C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/10_automation/runs/2026-W36/generated_images/2026-W36-005/looks/2026-W36-005-L02/carousel/canva_ready/005-L02_canva_draft_preview.png"
+}

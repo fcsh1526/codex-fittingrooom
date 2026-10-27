@@ -1,0 +1,33 @@
+{
+  "shot_id": "S01",
+  "look_id": "2026-W37-001-L01",
+  "date": "2026-09-23",
+  "storyboard": "storyboard_comparison_v2.md",
+  "source_still": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S01_comparison_v2_start_candidate.png",
+  "source_still_user_approval": "approved_by_user_ok_2026-09-22",
+  "identity_reference_ui_name": "Mira M02 v3",
+  "source_still_ui_role": "First frame",
+  "prompt_file": "prompts/S01_comparison_v2_motion_v1.md",
+  "grok_post_url": "https://grok.com/imagine/post/0c3f8f03-75c9-41fd-8409-6fb06b32264a?conversation=b94ae30d-53d6-47ba-bff9-75e48d72fbab",
+  "video_file": "10_automation/runs/2026-W37/reels/pilot_M02/videos/S01_comparison_v2_01.mp4",
+  "sha256": "63EA61961F4E39E77585E3D1F8A165D7F15E2A7FDE6D7E2DC007FA1996CE956E",
+  "actual_width": 720,
+  "actual_height": 1280,
+  "actual_duration_seconds": 6.041667,
+  "preview_playback_rate": 1,
+  "requested_settings": {"mode": "video", "resolution": "720p", "duration": "6s", "aspect_ratio": "9:16", "audio": "off"},
+  "generation_attempt": 1,
+  "generation_wait_seconds": null,
+  "active_minutes": null,
+  "preliminary_review": [
+    "Grok player and downloaded file were available. Browser player reported 720x1280, 6.041667 seconds and 1x playback.",
+    "Sampled visible frames showed near-frontal face, gray open shirt, cream dress, navy bag and complete shoes with no obvious outfit switch.",
+    "The generated motion continues walking through the six-second source despite the one-step prompt. Select only a short front portion; do not use the full six seconds by default.",
+    "At approximately 2.78 seconds the subject remains near-frontal, bag on viewer right and outfit readable; this is the provisional match point for S02."
+  ],
+  "provisional_edit_interval_seconds": [0, 2.8],
+  "continuous_full_resolution_qa": "pending",
+  "adjacent_shot_qa": "pending_S02_motion",
+  "user_video_approval": "pending",
+  "production_status": "review_candidate_not_accepted"
+}

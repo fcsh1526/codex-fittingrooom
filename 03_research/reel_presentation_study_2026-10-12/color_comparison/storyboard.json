@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-12",
+  "content_week": "2026-W41",
+  "model": "M03",
+  "experiment": "two_look_light_dark_color_comparison",
+  "intent": "兩套完整造型同時可見：淺色西外配深褲，深色西外配淺褲。袖口動作僅是自然活動，不當成教學主張。",
+  "viewing_question": "不用字幕，能否一眼看出兩套上下身明暗配色互換？",
+  "method": "reuse previously tested equal full-person parallel presentation for this specific visible color relationship",
+  "novelty_limit": "editorial application of existing format, not new camera language or an audience-performance claim",
+  "look_ids": [
+    "2026-W41-004-L01",
+    "2026-W41-004-L02"
+  ],
+  "frames": [
+    0,
+    144
+  ],
+  "fps": 24,
+  "seconds": 6,
+  "source_action_speed": "unchanged; natural timing differences retained",
+  "main_crop_xywh": [
+    170,
+    90,
+    408,
+    1120
+  ],
+  "panel_wh": [
+    344,
+    944
+  ],
+  "left_xy": [
+    12,
+    168
+  ],
+  "right_xy": [
+    364,
+    168
+  ],
+  "background": "#eee9e1",
+  "transition": "none; both looks visible throughout with no internal cut; later switches default0.75s",
+  "text": "none",
+  "audio": "none",
+  "new_generation": false,
+  "comparison_limit": "6s simultaneous view vs original11.25s sequential view differs in duration and layout; not a controlled performance test",
+  "new_still_approval_needed": false,
+  "trial_user_approval": null
+}

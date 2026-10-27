@@ -5,7 +5,7 @@ Generate and review Carousel Hero A first. After A is accepted, create B Scene A
 ```text
 Use case: photorealistic-natural.
 
-Asset: Hero A for Mira, a daily-outfit fashion magazine. It should make one dressing decision immediately readable: 在白襯衫鎖骨下方打一個黑白窄領巾小結，胸前不再增加項鍊.
+Asset: Hero A for Mira, a daily-outfit fashion magazine. It should make one dressing decision immediately readable: 黑白窄版絲巾在鎖骨下方打一個小結，胸前就不再戴項鍊.
 
 Input images: Image 1 is the model's identity and hairstyle reference. Image 2 is a loose body-proportion reference. Keep her recognizable, but do not copy either reference's studio pose, expression, lighting, background or clothes.
 
@@ -13,7 +13,7 @@ A candid real photograph of the same adult East Asian woman at 共享辦公室�
 
 Outfit, immediately readable: 白色自然合身純棉襯衫；黑白細窄絲巾在鎖骨下方打小蝴蝶結；深海軍藍高腰直筒西裝褲；黑色尖頭平底鞋；黑色小型肩背包. Palette: 白色／黑色／深海軍藍. Materials: 純棉襯衫布／輕薄仿絲／薄西裝料／霧面皮革. Fit: 襯衫自然合身；領巾窄長；長褲高腰直筒. Styling direction: 領巾結保持小而平；胸前不加項鍊；鞋包同為黑色. Do not add or substitute garments.
 
-Visual proof to preserve: 白襯衫領口的窄領巾小結與純色直筒褲第一眼可辨，胸前沒有其他焦點. Practical styling rule: 白上衣只加一條窄領巾，結放在鎖骨下方，鞋包維持同色中性調.
+Visual proof to preserve: 白襯衫領口有一個窄版絲巾小結，搭素色直筒褲，胸前沒有其他配件. Practical styling rule: 白上衣只加一條窄版絲巾，結放在鎖骨下方，鞋子和包包選同一個中性色.
 
 Photorealistic, unretouched documentary fashion editorial. Full-frame mirrorless look with a natural 50mm perspective at chest height. Use available natural light appropriate to the location, mixed with believable ambient light; realistic skin texture, flyaway hairs, lived-in fabric folds, restrained grain and slight optical softness. Honest and unposed; polished through framing, color and material detail rather than beauty retouching.
 

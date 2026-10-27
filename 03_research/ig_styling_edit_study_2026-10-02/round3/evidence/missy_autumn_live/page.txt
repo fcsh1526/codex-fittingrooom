@@ -1,0 +1,501 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "首頁":
+  - /url: /
+  - img "首頁"
+- link "Reel":
+  - /url: /reels/
+  - img "Reel"
+- link "訊息":
+  - /url: /direct/inbox/
+  - img "訊息"
+- link "搜尋":
+  - /url: /explore/
+  - img "搜尋"
+- link "通知":
+  - /url: "#"
+  - img "通知"
+- link "新貼文":
+  - /url: "#"
+  - img "新貼文"
+- link "專業主控板":
+  - /url: "#"
+  - img "專業主控板"
+- link "mira.fitroom.ai的大頭貼照":
+  - /url: /mira.fitroom.ai/
+  - link "mira.fitroom.ai的大頭貼照":
+    - img "mira.fitroom.ai的大頭貼照"
+- link "設定":
+  - /url: "#"
+  - img "設定"
+- link "其他 Meta 旗下產品":
+  - /url: "#"
+  - img "其他 Meta 旗下產品"
+- main:
+  - group "Video player":
+    - slider "調整音量":
+      - button "已靜音":
+        - img "已靜音"
+    - button "標籤":
+      - img "標籤"
+  - button "missy_elz的大頭貼照":
+    - link "missy_elz的大頭貼照":
+      - img "missy_elz的大頭貼照"
+  - link "missy_elz":
+    - /url: /missy_elz/
+    - generic: missy_elz
+  - img "已驗證"
+  - link "Veni Sun • Window Eyes":
+    - /url: /reels/audio/617578940210175/
+    - text: Veni Sun
+    - generic: •
+    - text: Window Eyes
+  - button "追蹤"
+  - button "更多選項":
+    - img "更多選項"
+  - separator
+  - link "missy_elz的大頭貼照":
+    - /url: /missy_elz/
+    - img "missy_elz的大頭貼照"
+  - link "missy_elz 已驗證":
+    - /url: /missy_elz/
+    - generic: missy_elz
+    - img "已驗證"
+  - time: 2週
+  - text: A laid back early Autumn outfit 🍂 Comment SHOP if you’d like me to dm you the links 🫶🏼
+  - text: A comfy but elevated outfit for day to day.
+  - text: "Size info:"
+  - text: "Jacket: xs/s"
+  - text: "£26 (!!) Jeans: 10 short"
+  - text: "White t-shirt: small"
+  - text: https://liketk.it/6npKo
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - link "_katiepeake的大頭貼照":
+    - /url: /_katiepeake/
+    - img "_katiepeake的大頭貼照"
+  - link "_katiepeake 已驗證":
+    - /url: /_katiepeake/
+    - generic: _katiepeake
+    - img "已驗證"
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18070625705767181/
+    - time: 2週
+  - generic: This jacket 😍
+  - button "3個讚":
+    - generic: 3個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "lizzieridgee的大頭貼照":
+    - /url: /lizzieridgee/
+    - img "lizzieridgee的大頭貼照"
+  - link "lizzieridgee":
+    - /url: /lizzieridgee/
+    - generic: lizzieridgee
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18492993655107706/
+    - time: 2週
+  - generic: Oooh love this. That jacket is incredible ❤️
+  - button "2個讚":
+    - generic: 2個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "azitazzh的大頭貼照":
+    - /url: /azitazzh/
+    - img "azitazzh的大頭貼照"
+  - link "azitazzh":
+    - /url: /azitazzh/
+    - generic: azitazzh
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/17904659058564409/
+    - time: 2週
+  - generic: The jacket 😍
+  - button "4個讚":
+    - generic: 4個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - link "thesecretstylist的大頭貼照":
+    - /url: /thesecretstylist/
+    - img "thesecretstylist的大頭貼照"
+  - link "thesecretstylist 已驗證":
+    - /url: /thesecretstylist/
+    - generic: thesecretstylist
+    - img "已驗證"
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18635476882034512/
+    - time: 2週
+  - generic: Obsessed with that jacket 😍
+  - button "3個讚":
+    - generic: 3個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "kjg_home的大頭貼照":
+    - /url: /kjg_home/
+    - img "kjg_home的大頭貼照"
+  - link "kjg_home 已驗證":
+    - /url: /kjg_home/
+    - generic: kjg_home
+    - img "已驗證"
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/17875229796632405/
+    - time: 2週
+  - generic: 😍😍
+  - button "5個讚":
+    - generic: 5個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "jennirum的大頭貼照":
+    - /url: /jennirum/
+    - img "jennirum的大頭貼照"
+  - link "jennirum":
+    - /url: /jennirum/
+    - generic: jennirum
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18113454317080773/
+    - time: 2週
+  - generic: Me podrías decir de donde son los zuecos ? Gracias 🤩
+  - button "3個讚":
+    - generic: 3個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "gemeas.lisa的大頭貼照":
+    - /url: /gemeas.lisa/
+    - img "gemeas.lisa的大頭貼照"
+  - link "gemeas.lisa 已驗證":
+    - /url: /gemeas.lisa/
+    - generic: gemeas.lisa
+    - img "已驗證"
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/17898479286598757/
+    - time: 2週
+  - generic: Canon 🤎
+  - button "3個讚":
+    - generic: 3個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "clare_millington的大頭貼照":
+    - /url: /clare_millington/
+    - img "clare_millington的大頭貼照"
+  - link "clare_millington":
+    - /url: /clare_millington/
+    - generic: clare_millington
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18070882496486465/
+    - time: 2週
+  - generic: Shop 🛍️
+  - button "2個讚":
+    - generic: 2個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "thestrobot的大頭貼照":
+    - /url: /thestrobot/
+    - img "thestrobot的大頭貼照"
+  - link "thestrobot":
+    - /url: /thestrobot/
+    - generic: thestrobot
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18106532030621245/
+    - time: 2週
+  - generic: Shop 😍
+  - button "1 個讚":
+    - generic: 1 個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "caroline.739326的大頭貼照":
+    - /url: /caroline.739326/
+    - img "caroline.739326的大頭貼照"
+  - link "caroline.739326":
+    - /url: /caroline.739326/
+    - generic: caroline.739326
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18115077961995409/
+    - time: 2週
+  - generic: Shop ❤️
+  - button "2個讚":
+    - generic: 2個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "_stephdonaldson的大頭貼照":
+    - /url: /_stephdonaldson/
+    - img "_stephdonaldson的大頭貼照"
+  - link "_stephdonaldson":
+    - /url: /_stephdonaldson/
+    - generic: _stephdonaldson
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18057818048629257/
+    - time: 2週
+  - generic: Shop ❤️
+  - button "5個讚":
+    - generic: 5個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "eyfs70的大頭貼照":
+    - /url: /eyfs70/
+    - img "eyfs70的大頭貼照"
+  - link "eyfs70":
+    - /url: /eyfs70/
+    - generic: eyfs70
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18105987650229013/
+    - time: 2週
+  - generic: Shop ❤️
+  - button "2個讚":
+    - generic: 2個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "rochdi_bouchra的大頭貼照":
+    - /url: /rochdi_bouchra/
+    - img "rochdi_bouchra的大頭貼照"
+  - link "rochdi_bouchra":
+    - /url: /rochdi_bouchra/
+    - generic: rochdi_bouchra
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18097685531175142/
+    - time: 2週
+  - generic: Shop 😍
+  - button "4個讚":
+    - generic: 4個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "mrutje的大頭貼照":
+    - /url: /mrutje/
+    - img "mrutje的大頭貼照"
+  - link "mrutje":
+    - /url: /mrutje/
+    - generic: mrutje
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/17942658420086681/
+    - time: 2週
+  - generic: Shop ❤️
+  - button "4個讚":
+    - generic: 4個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - link "mellish_1的大頭貼照":
+    - /url: /mellish_1/
+    - img "mellish_1的大頭貼照"
+  - link "mellish_1":
+    - /url: /mellish_1/
+    - generic: mellish_1
+  - link "2週":
+    - /url: /p/DdUFOPNo4vT/c/18060196790619976/
+    - time: 2週
+  - generic: Random but are your Naples regular fit or slim fit ? Im wondering if they stretch a little when worn ? X
+  - button "3個讚":
+    - generic: 3個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部2則回覆":
+    - generic: 查看全部2則回覆
+  - progressbar:
+    - img "載入中……"
+  - button "讚":
+    - img "讚"
+  - button "1.1 萬"
+  - button "回應":
+    - img "回應"
+  - button "780"
+  - button "轉發":
+    - img "轉發"
+  - button "42"
+  - button "分享":
+    - img "分享"
+  - button "儲存":
+    - button "儲存":
+      - img "儲存"
+  - link "9月15日":
+    - /url: /missy_elz/reel/DdUFOPNo4vT/
+    - time: 9月15日
+  - generic: 這則貼文設有留言數量上限。
+  - separator
+  - text: 更多「
+  - link "missy_elz":
+    - /url: /missy_elz/
+  - text: 」的貼文
+  - link "Outfit Round Up 👉🏼 49 transitional / early Autumn outfit ideas, for when you don’t know what to wear 📌 Which look is your favourite?!🫶🏼 *All of my outfits are linked to shop on my LTK, the link is in my bio or you can search MISSY ELZ on the LTK app- you can also follow & subscribe for exclusive / early access content 🥰 輪播廣告":
+    - /url: /missy_elz/p/Dc8A8yPCKw6/
+    - img "Outfit Round Up 👉🏼 49 transitional / early Autumn outfit ideas, for when you don’t know what to wear 📌 Which look is your favourite?!🫶🏼 *All of my outfits are linked to shop on my LTK, the link is in my bio or you can search MISSY ELZ on the LTK app- you can also follow & subscribe for exclusive / early access content 🥰"
+    - img "輪播廣告"
+  - link "No one talk to me about the make up on the collar 🫠 Comment SHOP if you’d like me to dm you the links 🫶🏼 https://liketk.it/6oGy6 影片片段":
+    - /url: /missy_elz/reel/Dd6m1BVosla/
+    - img "No one talk to me about the make up on the collar 🫠 Comment SHOP if you’d like me to dm you the links 🫶🏼 https://liketk.it/6oGy6"
+    - img "影片片段"
+  - link "Elasticated waist, pockets & under £25 👏🏻 comment SHOP & I will send you a dm with the links 🫶🏼 I got these in beige a couple of months ago and love them so much I had to get this olive colour for the new season! They’re the perfect ‘in between weather’ trouser- a great alternative to jeans, comfortable & great for styling casually or smarter (& a good option for the office 🙌🏻) I wear XS reg. https://liketk.it/6owFE 影片片段":
+    - /url: /missy_elz/reel/Dd1lMwFoHN-/
+    - img "Elasticated waist, pockets & under £25 👏🏻 comment SHOP & I will send you a dm with the links 🫶🏼 I got these in beige a couple of months ago and love them so much I had to get this olive colour for the new season! They’re the perfect ‘in between weather’ trouser- a great alternative to jeans, comfortable & great for styling casually or smarter (& a good option for the office 🙌🏻) I wear XS reg. https://liketk.it/6owFE"
+    - img "影片片段"
+  - link "🍂 56 new season outfit ideas, for when you don’t know what to wear 📌 Day to day casual & smart casual Autumn looks for feeling comfortable but still put together! Which look is your favourite?! All of my outfits are on my LTK- the link is in my bio or you can search MISSY ELZ on the LTK app + you can also follow me on there & subscribe for daily outfit inspo 🫶🏼 輪播廣告":
+    - /url: /missy_elz/p/DdyE3R8CHRD/
+    - img "🍂 56 new season outfit ideas, for when you don’t know what to wear 📌 Day to day casual & smart casual Autumn looks for feeling comfortable but still put together! Which look is your favourite?! All of my outfits are on my LTK- the link is in my bio or you can search MISSY ELZ on the LTK app + you can also follow me on there & subscribe for daily outfit inspo 🫶🏼"
+    - img "輪播廣告"
+  - 'link "15% off this weekend 🙌🏻 Comment SHOP & I’ll dm you the links 🫶🏼 Which look is your favourite? Also, which argyle knit should I keep- grey or navy? I can’t decide 😩 https://liketk.it/6okda #hmoutfit #autumnoutfitideas #zarajeans #autumnstyling #fallstyleinspo 影片片段"':
+    - /url: /missy_elz/reel/DdvblNbokh8/
+    - 'img "15% off this weekend 🙌🏻 Comment SHOP & I’ll dm you the links 🫶🏼 Which look is your favourite? Also, which argyle knit should I keep- grey or navy? I can’t decide 😩 https://liketk.it/6okda #hmoutfit #autumnoutfitideas #zarajeans #autumnstyling #fallstyleinspo"'
+    - img "影片片段"
+  - 'link "Styling the staples: Grey jumper edition 🧶 Comment SHOP if you’d like me to dm you the links 🫶🏼 A classic grey crew neck jumper is a real wardrobe staple for me- simple, timeless & incredibly versatile. Which look is your favourite? I wear a size small. https://liketk.it/6ocik 輪播廣告"':
+    - /url: /missy_elz/p/DdrTInECBon/
+    - 'img "Styling the staples: Grey jumper edition 🧶 Comment SHOP if you’d like me to dm you the links 🫶🏼 A classic grey crew neck jumper is a real wardrobe staple for me- simple, timeless & incredibly versatile. Which look is your favourite? I wear a size small. https://liketk.it/6ocik"'
+    - img "輪播廣告"
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "關於":
+    - /url: https://about.instagram.com/
+    - generic: 關於
+  - link "部落格":
+    - /url: https://about.instagram.com/blog/
+    - generic: 部落格
+  - link "工作機會":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: 工作機會
+  - link "使用說明":
+    - /url: https://help.instagram.com/
+    - generic: 使用說明
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "隱私":
+    - /url: /legal/privacy/
+    - generic: 隱私
+  - link "使用條款":
+    - /url: /legal/terms/
+    - generic: 使用條款
+  - link "地點":
+    - /url: /explore/locations/
+    - generic: 地點
+  - link "熱門":
+    - /url: /popular/
+    - generic: 熱門
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "聯絡人上傳和非用戶":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: 聯絡人上傳和非用戶
+  - link "Meta 驗證":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta 驗證
+  - generic: 中文(台灣)
+  - img "向下雙箭頭圖示"
+  - combobox "切換顯示語言":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)" [selected]
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026Instagram from Meta
+- button "訊息":
+  - generic "訊息":
+    - img "訊息"
+    - generic: 訊息
+    - button "用戶虛擬替身 Víctor Sanchego":
+      - img "用戶虛擬替身"

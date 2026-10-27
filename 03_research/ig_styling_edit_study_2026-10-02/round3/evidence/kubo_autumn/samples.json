@@ -1,0 +1,106 @@
+[
+  {
+    "i": 0,
+    "file": "sample_000.png",
+    "before": {
+      "duration": 14.812879,
+      "paused": false,
+      "time": 0.196331
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  },
+  {
+    "i": 1,
+    "file": "sample_001.png",
+    "before": {
+      "duration": 14.8,
+      "paused": true,
+      "time": 0
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  },
+  {
+    "i": 2,
+    "file": "sample_002.png",
+    "before": {
+      "duration": 14.8,
+      "paused": true,
+      "time": 0
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  },
+  {
+    "i": 3,
+    "file": "sample_003.png",
+    "before": {
+      "duration": 14.8,
+      "paused": true,
+      "time": 0
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  },
+  {
+    "i": 4,
+    "file": "sample_004.png",
+    "before": {
+      "duration": null,
+      "paused": false,
+      "time": 0
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  },
+  {
+    "i": 5,
+    "file": "sample_005.png",
+    "before": {
+      "duration": null,
+      "paused": false,
+      "time": 0
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  },
+  {
+    "i": 6,
+    "file": "sample_006.png",
+    "before": {
+      "duration": null,
+      "paused": false,
+      "time": 0
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  },
+  {
+    "i": 7,
+    "file": "sample_007.png",
+    "before": {
+      "duration": null,
+      "paused": true,
+      "time": 0
+    },
+    "after": {
+      "paused": true,
+      "time": 0
+    }
+  }
+]

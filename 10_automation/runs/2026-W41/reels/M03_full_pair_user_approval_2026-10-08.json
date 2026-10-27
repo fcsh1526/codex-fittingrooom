@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-08",
+  "user_quote": "兩張都可以，沿用",
+  "context": "Explicit answer identifying M03 L01 v2 and L02 v1 full-person first frames.",
+  "sources": [
+    {
+      "look_id": "2026-W41-004-L01",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/2026-W41-004-L01_M03_reel_candidate_A_v2.png",
+      "sha256": "5e2027ae6cadcdec0e54eb88daf21929af3c5e3f20b4c0a6f6c18221a76d575f",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "tool": "built-in image_gen",
+      "original_generated_name": "exec-6fad12f7-1b4a-4fea-af3b-c262d82adf6f.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/hero_edit_prompt_v2.txt",
+      "identity_anchors": [
+        "02_brand/reference_models/M03_start_v3_face.png",
+        "02_brand/reference_models/M03_start_v3_full.png"
+      ],
+      "framing_transform": "none",
+      "assistant_review": "Hair and both shoes visible with generous margin; ordinary body proportions; open lapels, crewneck tee, one cuff fold, plain straight trousers, shoes and image-right shoulder bag readable. Recognizable anchor face/hair in static inspection. Shared left daylight and grounded shadows; full-person scale and walkway layout broadly matched. Dynamic contact and identity/background stability not established.",
+      "status": "assistant_static_pass_user_visual_approval_pending",
+      "user_approval": null
+    },
+    {
+      "look_id": "2026-W41-004-L02",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/2026-W41-004-L02_M03_reel_candidate_A.png",
+      "sha256": "0b3233467f983d6d7119cef1aaf7632ce337775eeac9a3c339c50c9661915d4e",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "tool": "built-in image_gen",
+      "original_generated_name": "exec-2026bacf-1be0-4355-bc7f-d8b259d7722d.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/hero_production_prompt_v1.txt",
+      "identity_anchors": [
+        "02_brand/reference_models/M03_start_v3_face.png",
+        "02_brand/reference_models/M03_start_v3_full.png"
+      ],
+      "framing_transform": "none",
+      "assistant_review": "Hair and both shoes visible with generous margin; ordinary body proportions; open lapels, crewneck tee, one cuff fold, plain straight trousers, shoes and image-right shoulder bag readable. Recognizable anchor face/hair in static inspection. Shared left daylight and grounded shadows; full-person scale and walkway layout broadly matched. Dynamic contact and identity/background stability not established.",
+      "status": "assistant_static_pass_user_visual_approval_pending",
+      "user_approval": null
+    }
+  ],
+  "scope": "Only these exact full-person starting stills. No film/proof/Carousel approval."
+}

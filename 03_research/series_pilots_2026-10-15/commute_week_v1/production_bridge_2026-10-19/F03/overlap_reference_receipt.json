@@ -1,0 +1,35 @@
+{
+  "recorded_date": "2026-10-19",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4",
+  "source_sha256": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+  "overlap_source_frames_half_open": [
+    127,
+    145
+  ],
+  "overlap_seconds": 0.75,
+  "outputs": [
+    {
+      "file": "F02_actual_frame_000127.png",
+      "source_frame": 127,
+      "source_seconds": 5.291666666666667,
+      "pixels": [
+        720,
+        1280
+      ],
+      "sha256": "7ace2500794245e6f04cbca3664086a9bec62bf14e64e3920ee4e74b3f3eabfc"
+    },
+    {
+      "file": "F02_actual_frame_000144.png",
+      "source_frame": 144,
+      "source_seconds": 6.0,
+      "pixels": [
+        720,
+        1280
+      ],
+      "sha256": "53e9ced8826f321008d2941be1e677d78affc60be716ca6ee4481e0f84a3da4b"
+    }
+  ],
+  "frame127_role": "exact outgoing overlap-start edit target",
+  "frame144_role": "outgoing overlap-end direction reference, not F03 first frame",
+  "new_generative_images": false
+}

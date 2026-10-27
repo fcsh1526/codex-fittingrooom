@@ -1,0 +1,28 @@
+[
+  {
+    "role": "LOOK1_FRONT",
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_reel_front_control_v1.png",
+    "pixels": [
+      941,
+      1672
+    ],
+    "sha256": "ad03bb699a5752d84cd8f6945a66caa98d235349621585aa0e6f5bc787740ce4",
+    "generator": "image_gen",
+    "generated_date": "2026-09-16",
+    "approval_evidence": "User reply 2026-09-16: 兩張都可以，開始測試",
+    "approval_scope": "Grok diagnostic input"
+  },
+  {
+    "role": "LOOK2_START",
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_reel_candidate_A.png",
+    "pixels": [
+      941,
+      1672
+    ],
+    "sha256": "65045a427f234a90efc09761e2f7b3c7cd2bab5c6a356f71ede34eb38b663274",
+    "generator": "image_gen",
+    "generated_date": "2026-09-16",
+    "approval_evidence": "User reply 2026-09-16: 兩張都可以，開始測試",
+    "approval_scope": "Grok diagnostic input"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "status": "deterministic_F04_geometry_audit_pending_editorial_camera_decision",
+  "source_files_unchanged": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\accepted_keys_previs_2026-10-16\\build_previs.py": "5962fcf2c0abca9810d295b54ea401cc54e52206f4770c897b9d3e4f08fd438a",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\accepted_keys_previs_2026-10-16\\previs_plan.json": "920663bad78038757488f5c190fa4c51647d9f5e4514d9d82b6a754c729df49a",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\static_key_views_2026-10-16\\build_key_views.py": "8fa07517362a7759689029fa7cd0bb4604c2c48f74558d0ca6a862c7adc16e9e",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\continuous_route_storyboard_2026-10-16\\render_route.py": "fbe95f3b5660d4d98d4f3bcd55e894007174edef6ff6239a9b06aef2d36fc4fa",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\continuous_route_storyboard_2026-10-16\\route_plan.json": "10aa3b837899ccefb7a4ae29e8e3b0cbd61c5c6b8d37fe7fbddec36e2236a195"
+  },
+  "shared_world_stripe_count": 6,
+  "all_frames_share_identical_stripe_vertices": true,
+  "original_F04_previs_time_interval": [
+    11.25,
+    15.75
+  ],
+  "start_mid_end_axis_angles_deg": [
+    0.8604598222445311,
+    14.103114130762512,
+    31.94922371395305
+  ],
+  "approved_mid_direction_matched": false,
+  "limits": [
+    "Original schematic camera/geometry preserved, not photoreal image calibration.",
+    "Original-mid white long axis is about14degrees from horizontal; approved mid asks depth/near-vertical stripes.",
+    "Do not rotate paint independently per frame. A later camera or one global stripe orientation decision is required.",
+    "This is not a new film, exact source-frame match, identity approval or generator feasibility proof."
+  ],
+  "AI_calls": 0,
+  "Grok_calls": 0,
+  "output_files": {
+    "f04-fixed-crosswalk.html": {
+      "sha256": "bd61b19b8dd5e7c4f48173c9d32085ca368b2ec4395884fffc1c7b768692bbce",
+      "bytes": 42144
+    },
+    "geometry_plan.json": {
+      "sha256": "953a3874338984393c613f3bded514ee8d7d15841fee41ddd8b5607a900782eb",
+      "bytes": 54774
+    },
+    "f04-fixed-crosswalk-three-views.svg": {
+      "sha256": "77abebf227d3144da5653e595b711e1b8ad0871a3345a5898941bcf1f0254731",
+      "bytes": 4809
+    }
+  }
+}

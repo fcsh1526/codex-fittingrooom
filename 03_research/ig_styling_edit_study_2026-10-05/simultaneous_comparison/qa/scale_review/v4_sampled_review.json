@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-05",
+  "reviewer": "parallel_scale_check_oct05",
+  "output": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+  "review_method": "Visual inspection of existing output_v4/frame_00.png through frame_04.png and native B_independent/frame_042.png; manual boundary estimates only, not segmentation. No video edits or additional extraction performed.",
+  "nominal_output_checkpoint_frames": [0,36,72,108,143],
+  "sampled_findings": {
+    "common_panel_rectangle": "Visible top and bottom boundaries align in all five inspected outputs.",
+    "heads_and_shoes": "Complete in all five inspected outputs; normal settled presentation now nearly aligned. Opening retains approximately12px lower A head top, with A lowest shoe approximately5px higher, consistent with original stance and forward step.",
+    "clothing_and_hands": "No new clipping of either sampled dress hem, sleeves or hands visible in these outputs.",
+    "bags": "Both sampled bags remain complete. Critical native B frame42 has bag right edge approximately592px versus fixed crop right615px, leaving roughly23native pixels or17output pixels of lateral clearance under the retained B scaling.",
+    "B_vertical_ambient_crop": "Nominal extra15px of scaled ambient top and19px bottom removed; inspected heads/shoes remain inside the shared924px high panel."
+  },
+  "manual_estimate_uncertainty_native_px": 4,
+  "continuous_playback_review": false,
+  "full_frame_sequence_boundary_pass": false,
+  "user_visual_approval": null,
+  "global_format_adoption": "not inferred",
+  "audience_effect": "not measured",
+  "writes": "This sampled review JSON only; no video/source/publishing/cloud mutation."
+}

@@ -1,0 +1,160 @@
+{
+  "created_at_utc": "2026-10-15T06:24:37.937414+00:00",
+  "date": "2026-10-15",
+  "reviewer": "commute_motion_review subagent",
+  "status": "S03_S04_sampled_source_QA_complete_join_and_user_playback_pending",
+  "media_originals_unchanged": true,
+  "method": "All-frame technical decode using scan_reel_video.py. Read-only extraction primitives from native_pair_tools.py. Actually viewed 25 full checkpoints and 5 head windows over full source, 15 hand/bag and 15 feet crops, and a sheet of every proposed selected native frame for each source. No source edit or composition performed.",
+  "full_source_quarter_indices": [
+    0,
+    60,
+    120,
+    180,
+    240
+  ],
+  "assistant_continuous_visual_review": false,
+  "user_video_approval": null,
+  "new_generation_or_retry": false,
+  "audio_note": "Both originals contain AAC. A silent review/export should strip source audio without changing picture timing.",
+  "limitations": [
+    "Thumbnail and checkpoint review cannot establish full normal-speed comfort or every fine contact/identity transition.",
+    "All original frames technically decoded, but not every full-resolution frame manually inspected.",
+    "Still visual acceptance of residual texture does not mean the attempted texture correction succeeded.",
+    "Proposed intervals are source-based candidates; actual neighboring overlap and whole-film review remain required."
+  ],
+  "shots": [
+    {
+      "shot_id": "S03",
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\motion_attempt_02\\S03_source.mp4",
+      "source_sha256": "7b679f0f7e962ee29622b970d9f39ee1c000d234ab476ace1da347c5719adfba",
+      "file_bytes": 7659868,
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "decoded_seconds": 10.041666666666666,
+      "technical_scan": "S03_technical_scan.json",
+      "technical_no_black_or_near_identical_candidates": true,
+      "reviewed_source_frames_half_open": [
+        0,
+        241
+      ],
+      "recommended_native_frames_half_open": [
+        48,
+        204
+      ],
+      "recommended_seconds_half_open": [
+        2.0,
+        8.5
+      ],
+      "selected_frame_count": 156,
+      "sampled_review_no_blocking_defect_for_join_trial": true,
+      "approved_sampled_dynamic_qa": true,
+      "approval_scope": "Assistant sampled source QA permits an isolated join trial only; not normal-speed full-playback, exact identity proof, user motion approval or publication readiness.",
+      "observations": {
+        "identity": "No abrupt face substitution in the inspected sheets. The broad smile settles into a neutral closed-mouth expression and the head turns toward the walking direction early; facial polish and angle differ from the smiling still. This is a prompt deviation, not proof of exact all-frame identity.",
+        "garments": "Cream short stand-collar open jacket, white tee and charcoal straight trousers remain readable; length and major seams are stable in samples. Residual approved still texture is not being reclassified as a new failure.",
+        "hands_feet": "Hands remain separate from the trousers and bag in the 15 detailed checkpoints; no conspicuous extra limb or discontinuous shoe replacement observed. Narrow/crossing steps and some long forward toe presentations remain. Static crops cannot verify every foot-ground contact or finger transition.",
+        "bag": "Small black shoulder bag stays on the same side and behind the hip; strap attachment remains plausible in samples. Some flex/shape variation occurs with walking.",
+        "background": "Wall, window frames, masonry joints and paving translate left as the subject walks right. Major lines stay straight in the sampled frames; no sampled rigid-geometry collapse. Lighting changes from mottled shade into more even bright light.",
+        "continuous_tracking": "Subject remains full-person while background translates; no sampled stop, teleport or exit. Selected every-frame thumbnails show ongoing walking, not normal-speed playback."
+      },
+      "join_risks": [
+        "The first approximately 1.5 seconds have smile/head-angle settling. Recommended interval begins at f48 / 2 seconds.",
+        "Incoming from S02 should compare gaze/head height and shoe phase; outgoing to S04 should compare arm phase and background column positions. This source review does not approve either dissolve.",
+        "Visible crossfade face/leg/background double outlines are expected if phases differ; use the requested 18-frame overlap and inspect the actual join. Do not claim seamless continuity."
+      ],
+      "viewed_QA_assets": [
+        "QA_S03/full_25_checkpoints.jpg",
+        "QA_S03/face_5_checkpoints.jpg",
+        "QA_S03/feet_15_checkpoints.jpg",
+        "QA_S03/hands_bag_15_checkpoints.jpg",
+        "QA_S03/selected_all_156_thumbnails.jpg"
+      ],
+      "assistant_continuous_visual_review": false,
+      "user_video_approval": null,
+      "publishable": false
+    },
+    {
+      "shot_id": "S04",
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\motion_attempt_02\\S04_source.mp4",
+      "source_sha256": "11f8b99c5fcd72937df7b53361070e5b16729539f401f13e8c3f0b0b49baa39b",
+      "file_bytes": 9272581,
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "decoded_seconds": 10.041666666666666,
+      "technical_scan": "S04_technical_scan.json",
+      "technical_no_black_or_near_identical_candidates": true,
+      "reviewed_source_frames_half_open": [
+        0,
+        241
+      ],
+      "recommended_native_frames_half_open": [
+        72,
+        228
+      ],
+      "recommended_seconds_half_open": [
+        3.0,
+        9.5
+      ],
+      "selected_frame_count": 156,
+      "sampled_review_no_blocking_defect_for_join_trial": true,
+      "approved_sampled_dynamic_qa": true,
+      "approval_scope": "Assistant sampled source QA permits an isolated join trial only; not normal-speed full-playback, exact identity proof, user motion approval or publication readiness.",
+      "observations": {
+        "identity": "No abrupt face substitution in inspected sheets. The opening smile shifts toward neutral, with a brief lowered gaze around 2–2.5 seconds and a gradual turn toward frame-right. Later face appears narrower/more profile and more polished than first frame; this remains a visible angle/expression/appearance change, not exact identity proof.",
+        "garments": "White short-sleeve pointed-collar tucked shirt and black calf-length A-line skirt remain distinguishable. Skirt hem swings with strides and does not switch to trousers or a different neckline in inspected samples. Residual approved still texture remains an accepted still fact.",
+        "hands_feet": "Detailed checkpoints show two arms/hands and separate black low block-heel shoes with plausible alternating lift/contact poses; no conspicuous duplicated limbs observed. Narrow crossing steps remain; some shoe toe/heel shape variability can be perspective and is not declared perfect geometry.",
+        "bag": "Cobalt bag remains visible on the same side. Soft silhouette and opening fold vary with the walking angle; no disappearance or switch of color in samples.",
+        "background": "Pale wall, window mullions, masonry joints and later revealed steps/door panels stay substantially rigid in samples and translate with the track. Previously unseen architecture is generated continuation, not a verified real location. No sampled severe bending/flowing wall.",
+        "continuous_tracking": "Full shoes and head remain visible; background motion and changing stride continue throughout the selected interval. Later angle is more side-on than S03, so literal identical-camera-view requirement is not fully met."
+      },
+      "join_risks": [
+        "Avoid the initial smile-to-downward-gaze settling by starting f72 / 3 seconds; f72–227 retains 156 native frames.",
+        "Camera/subject angle is gradually more side-on, particularly near the selected end. J34/J45 can therefore show changed facial angle/shoulder width even if person size is similar.",
+        "Blue bag adds useful visual difference but can produce double outlines against a black bag during dissolve. Skirt hem vs trousers will also intentionally double during overlap; verify comfort on actual joined video.",
+        "No exact zero-difference transition or complete five-look acceptance follows from this source QA."
+      ],
+      "viewed_QA_assets": [
+        "QA_S04/full_25_checkpoints.jpg",
+        "QA_S04/face_5_checkpoints.jpg",
+        "QA_S04/feet_15_checkpoints.jpg",
+        "QA_S04/hands_bag_15_checkpoints.jpg",
+        "QA_S04/selected_all_156_thumbnails.jpg"
+      ],
+      "assistant_continuous_visual_review": false,
+      "user_video_approval": null,
+      "publishable": false
+    }
+  ]
+}

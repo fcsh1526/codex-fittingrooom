@@ -1,0 +1,3 @@
+look_id,model_profile_id,asset_id,candidate_file,assistant_static_review,user_visual_approval,publishable,dynamic_qa,notes
+2026-W37-001-L01,M02,L01_full,2026-W37-001-L01_M02_reel_full_master_candidate_v1.png,observed_complete_head_shoes_and_layering_in_reading_alcove,approved,no,not_started,2026-10-05 user ok to exact displayed full master; source941x1672; still approval only
+2026-W37-001-L01,M02,L01_proof,2026-W37-001-L01_M02_reel_proof_candidate_v1.png,observed_complete_head_neckline_front_opening_and_waist,approved,no,not_started,2026-10-05 user ok to displayed medium and L02 full; source941x1672; about7percent top margin needs final interface check; shoulders covered so strap width not proven

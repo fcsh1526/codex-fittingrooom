@@ -1,0 +1,5 @@
+# M01 B L02 動態
+
+2026-10-01使用者核准全身圖「可以，沿用這張」。助手代為上傳成功，以exact檔名被勾選及新增最後幀控制項确认First frame，無Last frame／獨立角色參照。720p／6s／音訊checkbox0，送出後待驗收。
+
+Use the attached image as the exact First frame. One continuous fixed-camera full-person fashion shot at ordinary real-time speed. Preserve this same woman’s face, tied-back hair, tucked black short-sleeve top, black high-waisted mid-calf A-line skirt, small black shoulder bag and silver studs. She naturally transfers her weight and plants one foot only a few centimeters forward on the same paving tile, then settles lightly. She does not walk closer. Keep full hair and BOTH complete shoes in frame throughout. Keep both cream square-toe closed shoes identical, with low broad heels, one central vertical instep strap joined to one horizontal ankle-front strap; the skirt hem remains at mid-calf and never covers the straps. The pale wall, bakery window, gallery doorway and paving joints are stationary and unchanged; preserve natural daylight and shoe contact shadows. No camera motion, zoom, cut, turning away, outfit change, slow motion, speech, writing or watermark.

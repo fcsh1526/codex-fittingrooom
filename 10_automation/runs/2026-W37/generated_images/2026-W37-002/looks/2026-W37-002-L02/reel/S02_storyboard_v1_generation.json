@@ -1,0 +1,30 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-002-L02",
+  "model_profile_id": "M05",
+  "created_at": "2026-09-29",
+  "purpose": "Reel A full-person wardrobe and B-shot end-frame reference; not yet the medium first frame",
+  "storyboard": "10_automation/runs/2026-W37/reels/M05_short_jacket_visual_story_v1.md",
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/hero_A_prompt_m05_storyboard_v1.md",
+  "tool": "built-in image_gen",
+  "identity_references": [
+    "02_brand/reference_models/M05_start_v1_face.png",
+    "02_brand/reference_models/M05_start_v1_full.png"
+  ],
+  "output_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/2026-W37-002-L02_M05_S02_storyboard_v1_full_candidate.png",
+  "dimensions": {
+    "width": 941,
+    "height": 1672,
+    "aspect_ratio": 0.562799
+  },
+  "sha256": "D95A15B17F8A85DD92DF850BB6C478E0BF2327A3F0D1612896ECDF61C711FF9F",
+  "assistant_visual_review": {
+    "identity": "Face and shoulder-length side-parted hair visually match the approved M05 anchors and L01 candidate; dynamic identity remains untested.",
+    "wardrobe": "Sand short jacket, white crew-neck T-shirt tucked into mist-gray wide trousers, dark-brown low-heel shoes and black shoulder bag are present. One shoe is mostly behind the trouser hem and opposite leg; user should judge whether the footwear reads clearly enough.",
+    "framing": "Near-frontal full-person portrait with whole head and shoe area visible; vertical ratio approximates 9:16; viewer-left daylight and light interior broadly match the L01 visual plan.",
+    "technical_limits": "Still review only; the B-shot medium first frame and Grok motion remain unmade."
+  },
+  "status": "user_visual_approved_as_B_wardrobe_reference",
+  "grok_submission": null,
+  "user_visual_approval": "2026-09-29: 可以，沿用這張. Approved as the L02 full-person wardrobe and B-shot end-frame reference; a separate medium first frame still requires visual approval before Grok motion."
+}

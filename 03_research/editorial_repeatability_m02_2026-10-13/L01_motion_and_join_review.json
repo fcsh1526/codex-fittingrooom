@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-13",
+  "status": "source_sampled_visual_candidate_first_look_export_user_review_pending",
+  "source": "03_research/editorial_repeatability_m02_2026-10-13/L01_motion_attempt_01/source.mp4",
+  "source_sha256": "ed6acbd36c3c33fa3aae4d0e8146cff93e45f264b995ffb66142a4dca7225e24",
+  "source_review": {
+    "method": "Viewed all145 source thumbnails,25 larger checkpoint frames,5 face checkpoints and native frames36/96/144.",
+    "actual_motion": "Already seated, changes attention to image-right during first second, quietens smile, returns near-front at4–4.5s. Hands remain supported on thighs; lower body does not stand or sit down.",
+    "findings": "No gross abrupt identity/garment/hand/bag/scene discontinuity visible at inspected resolution. Gray wall, door edges, stool and planter broadly steady; head turn is larger than a purely frontal micro-gesture. Subtle texture and unseen intervals at native resolution remain unvalidated.",
+    "usable_candidate_frames_end_exclusive": [
+      0,
+      108
+    ],
+    "assistant_continuous_playback": false,
+    "user_film_approval": null
+  },
+  "edit_review": {
+    "file": "03_research/editorial_repeatability_m02_2026-10-13/first_look_review_v1/M02_L01_cafe_pause_trial_v1.mp4",
+    "frames": 150,
+    "seconds": 6.25,
+    "fps": 24,
+    "pixels": [
+      720,
+      1280
+    ],
+    "method": "Viewed all150 film thumbnails,25 larger checkpoints,5 face checkpoints and23 transition checkpoints covering entire18-frame dissolve plus handles.",
+    "join_seconds": [
+      1.75,
+      2.5
+    ],
+    "findings": "Full-to-seated has plainly visible double face/body and cafe/stool outline shifts throughout the blend. Full-source bag and hem differ from approved seated still. These disclosed still differences were accepted as source choices; new dynamic join comfort remains for user review. No hard cut, no retime or digital crop.",
+    "assistant_continuous_playback": false,
+    "user_film_approval": null
+  },
+  "new_image_calls_total": 4,
+  "confirmed_new_grok_results": 1,
+  "protected_w41_originals_verified_unchanged": 5,
+  "external_uploads": "One approved L01 seated still to Grok for this research. No Drive, IG or GitHub changes."
+}

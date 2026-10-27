@@ -1,0 +1,13 @@
+{
+  "post_url": "https://grok.com/imagine/post/f07a42ba-d33b-4d68-bbdf-8e743cb68516?conversation=9ac39d90-6889-4915-ae0a-23c50c254ed8",
+  "send_clicks": 1,
+  "submitted_clock_ms": 1791257597044,
+  "observed_clock_ms": 1791257656084,
+  "settings": {
+    "duration": "6s",
+    "resolution": "720p",
+    "ratio": "9:16",
+    "audio": "off"
+  },
+  "status": "observed_current_state"
+}

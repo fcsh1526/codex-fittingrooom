@@ -1,0 +1,30 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "version": "fixed_camera_environment_review_v2",
+  "status": "picture_track_user_visual_approved_clean_unpublished",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+  "output_sha256": "AE7CED47B34732083EF112461597A2745697818872103FF3F095763C11B4BC1E",
+  "output_metadata": {"duration_seconds": 8.0, "resolution": "720x1280", "frame_rate": 24, "decoded_frames": 192, "audio_stream": false, "embedded_text": false},
+  "segments": [
+    {"look_id": "2026-W37-002-L01", "source_record": "10_automation/runs/2026-W37/reels/M05_A_L01_full_fixed_environment_v1_01.json", "source_frames": "0-95 inclusive", "selected_frames": 96, "selected_duration_seconds": 4.0},
+    {"look_id": "2026-W37-002-L02", "source_record": "10_automation/runs/2026-W37/reels/M05_B_L02_motion_01.json", "source_frames": "6-101 inclusive", "selected_frames": 96, "selected_duration_seconds": 4.0}
+  ],
+  "cut_frame": 96,
+  "cut_seconds": 4.0,
+  "editing": "One direct outfit cut between full-person fixed-camera shots at normal speed. No animated zoom, dissolve, text, audio, transition effect or speed change. The first 9.25-second fixed-camera assembly was retained as v1 but not shown: its A tail triggered a freeze detector from 4.79 seconds, so v2 trims before that hold.",
+  "qa": {
+    "full_decode": "Passed; 192 frames.",
+    "black_or_frozen_frames": "No blackdetect or freezedetect events in v2.",
+    "contact_sheet": "10_automation/runs/2026-W37/reels/qa/M05_two_looks_fixed_environment_review_v2_01/contact_2fps.jpg",
+    "cut_neighborhood": "10_automation/runs/2026-W37/reels/qa/M05_two_looks_fixed_environment_review_v2_01/cut_neighborhood.jpg",
+    "sampled_environment_review": "Architecture studio table/window/grid and ceramics-gallery door/shelf/plinth appear stationary in 2-fps review; the user subsequently replied ok to a request to inspect background stability and the outfit cut at normal speed.",
+    "styling_evidence_review": "Both full-person moving views show the short jacket hem, tucked inner layer and high waistband at native 720x1280. The two separately approved native-vertical medium proof stills remain available in the manifest but are not inserted into this cut, because the scale jump and mismatched room geometry would reintroduce the reported discomfort and continuity risk.",
+    "limitation": "User ok confirms the visual background/cut check for this picture track, not publication, music rights, Instagram caption or post metrics."
+  },
+  "user_visual_review": {
+    "date": "2026-09-30",
+    "reply": "ok",
+    "question_scope": "Asked whether the new clip's architecture table, ceramics and outfit cut still drifted or felt uncomfortable.",
+    "interpreted_decision": "Background stability and cut accepted for the clean picture track; no publication authorization inferred."
+  }
+}

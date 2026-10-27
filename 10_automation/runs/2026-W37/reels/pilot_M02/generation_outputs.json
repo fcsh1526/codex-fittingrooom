@@ -1,0 +1,107 @@
+[
+  {
+    "trial_id": "T01",
+    "url": "https://grok.com/imagine/post/355bb7fc-0b21-499a-af09-3baecfcfa589?conversation=f50c2ee7-629d-4460-91ea-d5cd3a75db6d",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T01_01.mp4",
+    "bytes": 1765579,
+    "sha256": "e79db0cf4780d42a3cddd782f06c5b1d3b3cd862bc007f92be84ec47273a506b",
+    "attempt_id": "01"
+  },
+  {
+    "trial_id": "T02",
+    "url": "https://grok.com/imagine/post/0bbc1679-bdb5-4eaf-a112-50a358d00ea9?conversation=2e9e778c-d70b-46fa-95d7-54dab4032c99",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T02_01.mp4",
+    "bytes": 1696424,
+    "sha256": "8e110cbc4cde0d77580fd6e2e68751f0ce83a3d647219a401c6e01352697b4e4",
+    "attempt_id": "01"
+  },
+  {
+    "trial_id": "T02",
+    "attempt_id": "02",
+    "url": "https://grok.com/imagine/post/fa440f1a-62ce-443f-97ac-0b196ffd87ce?conversation=871c0666-2b45-46ec-a9b5-4bbb614de9a9",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T02_02.mp4",
+    "bytes": 1716309,
+    "sha256": "c9c694f791ff7f0e3fb9f37cefba1fed40ac3483bcb6e1fbda6726b4eea1ace4"
+  },
+  {
+    "trial_id": "T03",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/62c7abce-1b60-4541-b5d8-e52f243986b7?conversation=3be821fc-8a32-4f79-b9ec-6ccb15bc12b8",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T03_01.mp4",
+    "bytes": 1673984,
+    "sha256": "5b92a365d9615d592af4d6b065e587416bd3d6858730e9239e4970e3a11af652"
+  },
+  {
+    "trial_id": "T04",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/df55358c-9103-4880-8e61-16a832b92523?conversation=d1295587-d4c5-4991-bcb7-470cd99e112f",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T04_01.mp4",
+    "download_status": "saved",
+    "bytes": 1801476,
+    "sha256": "b20cceb91a6126ce55d52e9d95498480e336277897498fd220c7ff887f11a9b4"
+  },
+  {
+    "trial_id": "T05",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/8b9c08ed-8e5a-4684-8ebb-2a183adab1f2?conversation=10fe18f8-c06c-4ab8-9a0b-ae4a280dfb13",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T05_01.mp4",
+    "bytes": 1568432,
+    "sha256": "f0cf3511e27b6190a3350d44965dafb1887d6effc32642f62df3ac2babeea622"
+  },
+  {
+    "trial_id": "T06",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/ffefeeaa-3c89-4706-afe3-ef7e44b0219a?conversation=64baf4cd-c1a0-406c-800c-b26e55b6f417",
+    "path": null,
+    "download_status": "pending"
+  },
+  {
+    "trial_id": "T07",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/e4c735ff-8f3a-4881-a7d2-89726f634263?conversation=757a84e6-8d8f-4810-81c3-b82debc51f55",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T07_01.mp4",
+    "download_status": "saved",
+    "generation_status": "generated",
+    "bytes": 2251341,
+    "sha256": "91af988c0a2839d4c12521bad612aaa58002a465dc7e664c73d83d452768326a"
+  },
+  {
+    "trial_id": "T08",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/05802349-f4b4-4953-a52f-6d2537a96cb5?conversation=6eba5bd5-a829-423a-8181-26f1bc513186",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T08_01.mp4",
+    "download_status": "saved",
+    "generation_status": "generated",
+    "bytes": 2415501,
+    "sha256": "e2d4bde0860baaa26b6bb044a14bbb491b7798b0331bf4728cf96e0b279993a7"
+  },
+  {
+    "trial_id": "T09",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/c9d75df8-ea6b-497d-a026-be4cefaa8d8a?conversation=586a7030-0cac-4235-8af6-879c461056a2",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T09_01.mp4",
+    "download_status": "saved",
+    "generation_status": "generated",
+    "bytes": 2708975,
+    "sha256": "79c8c8ff28fe0c397240d1c168e7c00ab65ed38e148dd3c3c916c2fe60f5fccb"
+  },
+  {
+    "trial_id": "T10",
+    "attempt_id": "01",
+    "url": "https://grok.com/imagine/post/d105f2fb-a4ee-4c79-8a30-96924639668f?conversation=586a7030-0cac-4235-8af6-879c461056a2",
+    "path": null,
+    "download_status": "not_available",
+    "generation_status": "result_unavailable",
+    "failure_note": "Initially showed 9 percent; then disappeared and its observed URL redirected to T09. Cause not exposed."
+  },
+  {
+    "trial_id": "T10",
+    "attempt_id": "02",
+    "url": "https://grok.com/imagine/post/d8b9d24f-a60c-4cd7-9052-172b34bf8c6d?conversation=c2f1508b-5dee-494a-a5f9-872408a32813",
+    "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T10_02.mp4",
+    "bytes": 2837724,
+    "sha256": "a2f191183b6106c374a3185a3f003fecc3cca861925246fdc0deb3a83f08d5c3",
+    "download_status": "saved",
+    "generation_status": "generated"
+  }
+]

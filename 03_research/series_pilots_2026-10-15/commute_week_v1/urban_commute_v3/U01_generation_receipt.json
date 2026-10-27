@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "U01",
+  "look_id": "ED-W42-COMMUTE-V1-L01",
+  "model_id": "M03",
+  "mode": "built_in_imagegen",
+  "use_case": "photorealistic-natural",
+  "purpose": "New source for purposeful urban commute motion; still does not prove actual speed/camera/film appeal.",
+  "generation": {
+    "actual_prompt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_generation_prompt_v1.txt",
+    "word_count": 202,
+    "input_roles": [
+      {
+        "path": "02_brand/reference_models/M03_start_v3_face.png",
+        "role": "approved M03 v3 face identity only"
+      },
+      {
+        "path": "02_brand/reference_models/M03_start_v3_full.png",
+        "role": "approved normal proportions and hair only"
+      },
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+        "role": "exact wardrobe only; replace old empty-wall setting, walking pose and45degree camera"
+      }
+    ],
+    "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-680e05a6-5f53-4ebb-a419-28a4a2751d3f.png",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+    "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+    "pixels": [
+      941,
+      1672
+    ],
+    "tool_wait_seconds_observed": 61.1
+  },
+  "review_candidate": {
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+    "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+    "pixels": [
+      941,
+      1672
+    ]
+  },
+  "requested_aspect": "9:16",
+  "aspect_note": "Native imagegen vertical request yields941x1672 pixel rounding; no crop/stretch.",
+  "targeted_edit": null,
+  "assistant_still_review": {
+    "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+    "camera": "front-facing full person",
+    "scene": "glassy business district with multiple background commuters separated from primary torso; U01 renders more than requested3-4",
+    "pose": "one hand now holds bag strap rather than both arms swinging; free arm relaxed; no claim that this still proves brisk pace",
+    "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+    "proof_of_actual_speed_or_camera": false,
+    "film_or_join_qa": null
+  },
+  "user_visual_approval": {
+    "schema_version": 1,
+    "date": "2026-10-15",
+    "shot_id": "U01",
+    "look_id": "ED-W42-COMMUTE-V1-L01",
+    "model_id": "M03",
+    "question": "請確認兩張新起始圖：正面長西外版，以及最後一張已修回素面黑鞋的側面裙裝版，臉、原服裝、通勤人流與構圖是否可以沿用？依你設定的新圖視覺核准流程，確認後才送 Grok；快步、運鏡及廣告般吸引力會由動態試片再驗證。",
+    "question_record_type": "verbatim_combined_visual_approval_question",
+    "user_quote": "兩張可以，沿用",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+    "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+    "pixels": [
+      941,
+      1672
+    ],
+    "accepted_version": "original_candidate_A",
+    "scope": "Exact U01 still visual approval only. This exact image may enter independent Grok motion. Brisk natural movement, actual camera behavior, side-profile identity stability, commuter trajectories, join comfort and advertising-like appeal remain to be verified in motion; no generated motion, pair or complete five-look film approval, account-wide adoption or publishing replacement inferred.",
+    "recorded_still_observations": {
+      "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+      "camera": "front-facing full person",
+      "scene": "glassy business district with multiple background commuters separated from primary torso; U01 renders more than requested3-4",
+      "pose": "one hand now holds bag strap rather than both arms swinging; free arm relaxed; no claim that this still proves brisk pace",
+      "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+      "proof_of_actual_speed_or_camera": false,
+      "film_or_join_qa": null
+    },
+    "shoe_correction_record": null,
+    "grok_generation_allowed_for_exact_still": true,
+    "motion_approval": null,
+    "join_approval": null,
+    "complete_five_look_film_approval": null,
+    "publishable": false,
+    "publishing_files_replaced": []
+  },
+  "grok_generation_allowed": true,
+  "status": "user_approved",
+  "costs": {
+    "generation_calls": 1,
+    "targeted_edits": 0,
+    "active_minutes": null,
+    "wait_seconds_observed": [
+      61.1
+    ]
+  },
+  "user_visual_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json",
+  "approved_asset_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+  "motion_approval": null
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_date":"2026-10-19",
+  "asset":"F02_M03_L05_end_candidate_A.png",
+  "sha256":"10b9a0fd248ae13c1a4409cb9ed3d322c2ea00cc9eb49d7d4cfd052789cb47c7",
+  "question":"請確認剛顯示的 M03 柱廊出口末幀：同套白襯衫／棕丹寧、黑鞋包、左側最後一根方柱與右側小廣場，是否可以沿用？這是同場地的新角度，背景玻璃立面與花台的細節仍需在影片中檢查連貫。依你訂的新圖核准規則，確認後才會用已核准起始圖＋這張末幀生成第二段。",
+  "user_answer":"可以，沿用這張末幀",
+  "status":"exact_F02_end_still_approved_for_bounded_first_last_motion",
+  "scope":"Exact endpoint still face/wardrobe/person scale/short-column exit and plaza appearance, with disclosed unverified background continuity; permits one F02 motion from approved start to this end.",
+  "not_implied":["all multi-view architecture verified", "dynamic or0.75second join acceptance", "whole route/five-look film/publishing approval"]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-22",
+  "type": "unmodified native video frame extraction; not AI image generation",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4",
+  "source_sha256": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+  "native_frame_index_zero_based": 91,
+  "source_time_seconds": 3.7916666666666665,
+  "output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F03\\controls\\F03_original_actual_frame_000091.png",
+  "output_sha256": "915d8618c9dca7bd16482ec37ee8fca64aa6d3b6177f210de36a032f791e6526",
+  "pixels": [
+    720,
+    1280
+  ],
+  "crop_resize_retouch": false,
+  "approval_lineage": "Original F03[1,109) occurs in previously accepted three/four-look research intervals; user latest explicitly retains camera design and authorizes F03 gait repair. No new photographic content or separately fabricated exact-still approval.",
+  "role": "F03 interior framing anchor at91/24 seconds, corresponding to existing F04 first-frame derivation; not gait conditioning or guarantee of frame accuracy",
+  "planned_selection": [
+    1,
+    109
+  ],
+  "planned_generation": {
+    "duration": "6",
+    "first": "existing approved F03 first a7a33bb7-39ff-472d-b27d-53e50fe48c58",
+    "keyframe": {
+      "asset": "pending actual upload",
+      "timestamp_s": 3.7916666666666665
+    },
+    "last": null,
+    "identity": [
+      "6236309c-2343-41e6-985c-994239ff744a",
+      "ac9ede4e-1715-4518-95b4-bda341a62061"
+    ]
+  },
+  "risk": "Only keyframe composition is anchored. Newf91..108 motion and newf1..18 entry must be checked against both neighboring sources. No guarantee of exact conditioning, constant cadence, route reconstruction or zero slip.",
+  "not_new_source_approval": true
+}

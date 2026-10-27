@@ -1,0 +1,26 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-003-L02",
+  "model_profile_id": "M04",
+  "surface": "reel",
+  "shot_id": "S02_full",
+  "status": "user_visual_approved_for_motion_2026-09-30",
+  "storyboard": "10_automation/runs/2026-W37/reels/M04_storyboard_v1.md",
+  "image_tool": "built_in_imagegen",
+  "reference_roles": {
+    "face_identity": "02_brand/reference_models/M04_start_v3_face.png",
+    "body_proportion": "02_brand/reference_models/M04_start_v3_full.png",
+    "approved_L01_photo_palette_and_scene": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L01/reel/2026-W37-003-L01_M04_S01_storyboard_v1_start_candidate.png"
+  },
+  "first_generation_prompt": "Use case: photorealistic-natural identity-preserving fashion editorial image for the SECOND LOOK of the same one-model, two-look Instagram Reel. Reference image 1 is the exact M04 face identity; reference image 2 fixes realistic body proportions; reference image 3 is the APPROVED first-look photograph and supplies only the photographic palette, viewer-left daylight, head size, frontal camera axis and adjoining arts-center bookshop architecture, NOT its clothes. Create a separate native portrait 9:16 full-person FIRST FRAME in the design-bookshop area connected to that modest arts center. Same elegant East Asian woman with an early-40s look, natural skin texture, dark-brown side-parted chin-to-shoulder bob, near-frontal clearly readable face. She stands naturally beside a low pale-wood display table, one foot settled and the other just ready for a short ordinary step, hands relaxed, small black shoulder bag at her side, not blocking neckline or waist. Exact new outfit: opaque ivory sleeveless cotton-poplin top with a distinct short stand collar held slightly away from the neck, tucked into a dark ink-navy high-waisted straight satin midi skirt that falls naturally to mid-calf without puffiness; black low-heel squared-point shoes; small black shoulder bag; silver stud earrings. The standing collar and gentle skirt drape must both read. Premium yet approachable daily-fashion magazine photograph, full-frame mirrorless camera, level chest-height 50mm prime perspective, subtle grain, lived-in folds, believable shoe contact shadows and consistent soft daylight from viewer-left. Full head and BOTH complete shoes visible with safe margins, ordinary human proportions, no logos, legible book text, typography, watermark, other people, coat, trousers, or artificial beauty lighting.",
+  "targeted_edit_reason": "The first generated image had black loafers instead of the specified black low-heel squared-point shoes.",
+  "targeted_edit_prompt": "Edit ONLY the woman's two black shoes in the supplied photograph. Replace the black loafers with a matching pair of simple black low-heel women's shoes with a subtly squared, slightly pointed closed toe, no loafer apron seam, no penny strap or buckle, no extra decoration. Keep both shoes on the same feet and floor positions with believable contact shadows. Preserve every other pixel-level feature as closely as possible: exact M04 face, bob hairstyle, skin, pose, ivory sleeveless stand-collar top, ink-navy satin midi skirt, bag, hands, bookshop background, composition, perspective, lighting, and 9:16 full-person frame. No text, logos, new people or other changes.",
+  "selected_output_path": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L02/reel/2026-W37-003-L02_M04_S02_storyboard_v1_full_candidate.png",
+  "selected_output_sha256": "BA3D228F364D6ED1E4681EB5DD5CA9895DC6396C7B0AE69F909259060311AEC4",
+  "selected_output_pixels": [941, 1672],
+  "assistant_review": {
+    "visible": "Near-frontal same M04 face and bob, stand collar, high waist, straight ink-navy skirt and corrected black low-heel shoes; full head and shoes visible; similar daylight and subject position to L01.",
+    "risk": "User must approve the face, wardrobe and composition before this still is used in Grok motion generation. No video exists yet.",
+    "user_visual_approval": "2026-09-30: user replied 可以，沿用這張 to the displayed corrected L02 full Reel still and explicit face, top, skirt and shoes approval question. Approval applies to this still, not a future Grok video."
+  }
+}

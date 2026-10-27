@@ -1,0 +1,328 @@
+{
+  "schema_version": 1,
+  "proposal_id": "PROPOSAL_20261015_COMMUTE_WEEK_V1",
+  "series_id": "SERIES_COMMUTE_WEEK",
+  "title": "同一個人，五套俐落的上班組合",
+  "created_date": "2026-10-15",
+  "planning_week": "2026-W42",
+  "source_weeks": [
+    "2026-W41"
+  ],
+  "status": "proposed_for_review",
+  "adopted_date": null,
+  "production_authorized": false,
+  "weekly_quota_change": null,
+  "viewer_question": "這週想穿得俐落，又不想每天看起來都同一套，可以怎麼安排？",
+  "viewer_takeaway": "同一人的五個上班組合，以重複單品、領口、外層衣長、圖案和裙褲輪廓形成變化。",
+  "scenario": {
+    "type": "一般辦公室日常",
+    "dress_code_assumption": "允許T恤、襯衫、裙裝及無刷破丹寧的辦公室",
+    "target_region": null,
+    "publication_dates": [],
+    "weather_check": null
+  },
+  "proposed_model": {
+    "model_id": "M03",
+    "reference_face_path": "02_brand/reference_models/M03_start_v3_face.png",
+    "reference_full_path": "02_brand/reference_models/M03_start_v3_full.png",
+    "reference_status": "approved_in_existing_registry",
+    "new_outfit_visual_approvals": null
+  },
+  "source_material_ids": [
+    "mi_132859673c7eb7d1b03e",
+    "mi_298fb6b14233b1ea1e02",
+    "mi_68379696f88350c51301",
+    "mi_85f5a240adae8197cfa9",
+    "mi_8611594dc3f17c973535",
+    "mi_b74605299216521e5b98",
+    "mi_bdd455a7381021815ef0",
+    "mi_cf78b0ed7cf1dff88725",
+    "mi_d748d421354d40a41f40",
+    "mi_df9d6d62b6399d01f4a9",
+    "mi_f34fb2e558a98f541a3e"
+  ],
+  "wardrobe": [
+    {
+      "garment_id": "G01",
+      "name": "米白輕薄單排扣西外",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_85f5a240adae8197cfa9",
+      "source_row_id": "W41-P013",
+      "source_content_sha256": "f9c8ac399ab2ae9983e0278e90a23e7bad4d74701ac66bee603eed01ab7914f9",
+      "product_identity": "virtual_wardrobe_definition_only",
+      "editorial_specification": "下擺覆蓋臀部；此衣長為本案新增編輯設定，非P013明載。"
+    },
+    {
+      "garment_id": "G02",
+      "name": "白色圓領棉短袖",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_68379696f88350c51301",
+      "source_row_id": "W41-P014",
+      "source_content_sha256": "1ae3c5574887777b98249c5c58be921d76ec65ad74da5df749f4634833f4b716",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G03",
+      "name": "深藍高腰直筒褲",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_bdd455a7381021815ef0",
+      "source_row_id": "W41-P015",
+      "source_content_sha256": "7147019f23906718de3819120c6fbc80e013c489cdc9f1a880786ae14ad4bcc0",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G04",
+      "name": "黑色圓方頭低跟便鞋",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_f34fb2e558a98f541a3e",
+      "source_row_id": "W41-P008",
+      "source_content_sha256": "b94bde89c2f72d9ec01456dfad12ee47aaebc764f053ab8df01a45d092dda4d8",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G05",
+      "name": "深棕肩包",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_298fb6b14233b1ea1e02",
+      "source_row_id": "W41-P016",
+      "source_content_sha256": "60447b3a1188f062d9cbf1f3b9b5f33f0e6e8ef0c002d08bcb7ccb1d8e2f34b9",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G06",
+      "name": "奶油白海軍藍格紋薄襯衫",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_cf78b0ed7cf1dff88725",
+      "source_row_id": "W41-P005",
+      "source_content_sha256": "645dca968ac9ebb9d79a38f9b8150aa0950226ec1e0ae0b24f057eacf89bc19f",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G07",
+      "name": "炭灰高腰直筒褲",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_df9d6d62b6399d01f4a9",
+      "source_row_id": "W41-P006",
+      "source_content_sha256": "eef4ef54c3efb156cc1a8df544a8d0bce983bd34ecd50dd1edde7248934bdab4",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G08",
+      "name": "黑色小方肩包",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_8611594dc3f17c973535",
+      "source_row_id": "W41-P004",
+      "source_content_sha256": "217d3e7cf9571caf8f978a2443fad3384174a05503255c5ced99f0de1ac0fead",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G09",
+      "name": "奶油白短版無鋪棉立領外套",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_132859673c7eb7d1b03e",
+      "source_row_id": "W41-P001",
+      "source_content_sha256": "a6872f754c46e4da6da8e5a68e512fcdfcebf52c29ec635aaad1fd12e6ce5d91",
+      "product_identity": "virtual_wardrobe_definition_only",
+      "editorial_specification": "短版外套衣長停在腰胯附近；敞開露出白T。"
+    },
+    {
+      "garment_id": "G10",
+      "name": "白色短袖棉質尖領襯衫",
+      "origin": "existing_editorial_plan",
+      "editorial_path": "10_automation/runs/2026-W41/weekly_look_plan.csv",
+      "editorial_look_id": "2026-W41-003-L02",
+      "visual_approval_for_this_proposal": null,
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G11",
+      "name": "黑色高腰小腿中長A字棉裙",
+      "origin": "existing_editorial_plan",
+      "editorial_path": "10_automation/runs/2026-W41/weekly_look_plan.csv",
+      "editorial_look_id": "2026-W41-005-L02",
+      "visual_approval_for_this_proposal": null,
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G12",
+      "name": "鈷藍小肩包",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_d748d421354d40a41f40",
+      "source_row_id": "W41-P017",
+      "source_content_sha256": "14e23497eac0c7d6bec3488eb23c6e428bcf74fe80c51c1162f360eaae313fe9",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G13",
+      "name": "可可棕高腰直筒丹寧",
+      "origin": "source_description_editorially_specified",
+      "material_id": "mi_b74605299216521e5b98",
+      "source_row_id": "W41-P009",
+      "source_content_sha256": "1074a602d2c8223f81d1de6b272085e04352988ef2ffc7d021b19a7b518358a5",
+      "product_identity": "virtual_wardrobe_definition_only"
+    },
+    {
+      "garment_id": "G14",
+      "name": "黑色窄皮帶",
+      "origin": "existing_editorial_plan",
+      "editorial_path": "10_automation/runs/2026-W41/weekly_look_plan.csv",
+      "editorial_look_id": "2026-W41-003-L02",
+      "visual_approval_for_this_proposal": null,
+      "product_identity": "virtual_wardrobe_definition_only"
+    }
+  ],
+  "looks": [
+    {
+      "look_id": "ED-W42-COMMUTE-V1-L01",
+      "example_day": 1,
+      "model_id": "M03",
+      "garment_ids": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "viewer_information": "長西外與直筒褲；內搭棉T保留日常感",
+      "editorial_styling": "西外敞開，白T整齊入褲；鞋面完整",
+      "status": "proposed",
+      "still_approval": null,
+      "film_approval": null,
+      "media_paths": []
+    },
+    {
+      "look_id": "ED-W42-COMMUTE-V1-L02",
+      "example_day": 2,
+      "model_id": "M03",
+      "garment_ids": [
+        "G06",
+        "G07",
+        "G04",
+        "G08"
+      ],
+      "viewer_information": "格紋集中上身，素色下身",
+      "editorial_styling": "襯衫整齊紮入；單一主印花",
+      "status": "proposed",
+      "still_approval": null,
+      "film_approval": null,
+      "media_paths": []
+    },
+    {
+      "look_id": "ED-W42-COMMUTE-V1-L03",
+      "example_day": 3,
+      "model_id": "M03",
+      "garment_ids": [
+        "G09",
+        "G02",
+        "G07",
+        "G04",
+        "G08"
+      ],
+      "viewer_information": "同條灰褲改搭短外層；腰胯附近衣長清楚",
+      "editorial_styling": "短立領外套敞開，露出同件白T",
+      "status": "proposed",
+      "still_approval": null,
+      "film_approval": null,
+      "media_paths": []
+    },
+    {
+      "look_id": "ED-W42-COMMUTE-V1-L04",
+      "example_day": 4,
+      "model_id": "M03",
+      "garment_ids": [
+        "G10",
+        "G11",
+        "G04",
+        "G12"
+      ],
+      "viewer_information": "A字裙完整輪廓；亮色只留包款",
+      "editorial_styling": "白襯衫紮入；裙襬與鞋完整",
+      "status": "proposed",
+      "still_approval": null,
+      "film_approval": null,
+      "media_paths": []
+    },
+    {
+      "look_id": "ED-W42-COMMUTE-V1-L05",
+      "example_day": 5,
+      "model_id": "M03",
+      "garment_ids": [
+        "G10",
+        "G13",
+        "G14",
+        "G04",
+        "G08"
+      ],
+      "viewer_information": "同件尖領襯衫換棕丹寧，保留整齊上身",
+      "editorial_styling": "襯衫紮入；無刷破丹寧；褲腳停在鞋面",
+      "status": "proposed",
+      "still_approval": null,
+      "film_approval": null,
+      "media_paths": []
+    }
+  ],
+  "editorial_relationships": [
+    {
+      "fixed": [
+        "G07"
+      ],
+      "looks": [
+        "ED-W42-COMMUTE-V1-L02",
+        "ED-W42-COMMUTE-V1-L03"
+      ],
+      "change": "格紋襯衫改為短立領外套＋白T"
+    },
+    {
+      "fixed": [
+        "G10"
+      ],
+      "looks": [
+        "ED-W42-COMMUTE-V1-L04",
+        "ED-W42-COMMUTE-V1-L05"
+      ],
+      "change": "黑A字裙改可可棕丹寧，包回黑色"
+    },
+    {
+      "fixed": [
+        "G02"
+      ],
+      "looks": [
+        "ED-W42-COMMUTE-V1-L01",
+        "ED-W42-COMMUTE-V1-L03"
+      ],
+      "change": "長西外改短外套；褲色也有變化，不當成單因子測試"
+    }
+  ],
+  "film_plan": {
+    "shot_count": 5,
+    "ordered_look_ids": [
+      "ED-W42-COMMUTE-V1-L01",
+      "ED-W42-COMMUTE-V1-L02",
+      "ED-W42-COMMUTE-V1-L03",
+      "ED-W42-COMMUTE-V1-L04",
+      "ED-W42-COMMUTE-V1-L05"
+    ],
+    "action": "同向自然行走",
+    "camera": "側前方全身，小幅跟行；相近人物大小與視線落點",
+    "scene": "一般辦公區附近明亮有遮蔭人行道",
+    "source_usable_seconds_per_look": 6.5,
+    "transition": "cross_dissolve",
+    "transition_seconds": 0.75,
+    "estimated_total_seconds": 29.5,
+    "clear_seconds_first_last": 5.75,
+    "clear_seconds_each_middle": 5,
+    "source_speed": "native; perceptual naturalness still requires review",
+    "baked_text": false,
+    "master_audio": "silent",
+    "timing_status": "editorial_trial_budget_not_platform_rule",
+    "media_generated": false
+  },
+  "source_limits": [
+    "週報外部流行及商品主張未重新獨立查證。",
+    "P006原標看展、P008原標旅行；本次辦公室用途為編輯推論，原CSV不改。",
+    "相似描述統一為同件虛擬單品是本案編輯決定，不宣稱相同實際商品。",
+    "本案五套均為新提案，既有其他人物／look核准不能轉移。"
+  ],
+  "next_gate": "先審閱系列內容及套數；實際台灣地區／日期／天氣補查後再展開分鏡與新圖核准。",
+  "proposal_document": "03_research/series_pilots_2026-10-15/commute_week_v1/PROPOSAL.md"
+}

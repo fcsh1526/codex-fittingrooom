@@ -1,0 +1,13 @@
+{
+  "recorded_date":"2026-10-19",
+  "asset":"F01_F02_soft_join_review_v1.mp4",
+  "sha256":"a6aa239c75663ccfd39f4c438f86db7f82cdaf375239a641ca110bee133daca2",
+  "seconds":8.541666666666666,
+  "question":"請完整播放這支 8.54 秒前兩鏡試接：長西外走出街角 → 約 0.75 秒柔和換成棕丹寧 → 走到柱廊出口。約 2.5–3.25 秒仍有人物與柱線雙影；整體行進、換裝與場地接續是否可以保留，繼續安排第三套？這只確認前兩鏡，五套整片尚未完成。",
+  "user_answer":"場景接續很好，但是第二鏡的人物腳步飄移了，而且走路節奏忽然變慢。不過整體方向是對的",
+  "status":"revision_required_F02_gait_scene_and_direction_retained",
+  "retained":["visual scene continuation between the two shots", "overall walking-route editorial direction"],
+  "revision_required":["second-shot foot sliding", "sudden slowing of walking rhythm in second shot"],
+  "not_implied":["exact world geometry or all frames passed", "F02 motion approved", "all dissolve double edges accepted", "whole five-look film or publishing approval", "full normal-speed playback self-report"],
+  "next":"One targeted F02 motion retry from same approved first/last images, same6s720p9:16, rewrite walking/ground relationship and remove advance-only-a-little easing cue. No retiming or later-look expansion."
+}

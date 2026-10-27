@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-22",
+  "output_sha256": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+  "root_viewed": [
+    "v1/QA/full25.png",
+    "v1/QA/J45_dense.png",
+    "v1/QA/F05_progress.png"
+  ],
+  "independent_reviewer": "/root/half_shot_reuse_audit_oct22",
+  "sampled_observations": [
+    "No sudden scale jump or disappearing person observed at J45",
+    "Output15.5–15.8s visible face/arm/leg/shoe double edges and skirt/trouser overlap; not an invisible join",
+    "Full fifth outfit pure after dissolve~16.04–18.3s, then tighter at~18.5s, head-to-thigh by~20.6–21.25s",
+    "Additional right stairs at~17s, unvalidated spatial relation to existing stairs"
+  ],
+  "technical_fidelity": "All511decoded frames within intended-composite codec tolerance, per v1/edit_receipt.json; protectedsource hashes unchanged",
+  "continuous_normal_speed_full_film_visual_review": false,
+  "user_accepted": false,
+  "no_retime_crop_text_audio": true,
+  "status": "sampled_review_complete_ready_for_exact_user_feedback",
+  "review_request": "user_review_request.json"
+}

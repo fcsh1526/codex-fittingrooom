@@ -1,0 +1,2771 @@
+<!doctype html>
+<html lang="en" data-visualize-standalone>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Geometry Proposal</title>
+<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+
+</head>
+<body>
+<iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Geometry Proposal" data-srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
+&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
+&lt;title&gt;Geometry Proposal&lt;/title&gt;
+&lt;style&gt;:root {
+  color-scheme: light dark;
+  background-color: var(
+    --background,
+    var(--color-background-primary, light-dark(rgb(255 255 255), rgb(24 24 24)))
+  ) !important;
+
+  /* Agent-facing contract; keep in sync with SKILL.md. */
+  --background: var(
+    --color-background-primary,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --card: color-mix(in oklab, var(--foreground) 5%, var(--background));
+  --card-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --popover: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255), rgb(45 45 45))
+  );
+  --popover-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --primary: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --primary-foreground: var(
+    --color-text-inverse,
+    light-dark(rgb(255 255 255), rgb(13 13 13))
+  );
+  --secondary: var(
+    --color-background-secondary,
+    light-dark(rgb(255 255 255 / 96%), rgb(54 54 54 / 96%))
+  );
+  --secondary-foreground: var(
+    --color-text-primary,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --muted: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --muted-foreground: var(
+    --color-text-secondary,
+    light-dark(rgb(26 28 31 / 49.4%), rgb(255 255 255 / 49.8%))
+  );
+  --accent: var(
+    --color-background-info,
+    light-dark(rgb(229 242 255), rgb(13 39 63))
+  );
+  --accent-foreground: var(
+    --color-text-info,
+    light-dark(rgb(51 156 255), rgb(131 195 255))
+  );
+  --destructive: var(
+    --color-text-warning,
+    light-dark(rgb(226 85 7), rgb(255 133 73))
+  );
+  --border: var(
+    --color-border-secondary,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+  --input: var(
+    --color-border-primary,
+    light-dark(
+      rgb(26 28 31 / 11.8%),
+      color-mix(in oklab, rgb(0 0 0) 10%, transparent)
+    )
+  );
+  --ring: var(
+    --color-ring-primary,
+    light-dark(rgb(51 156 255), rgb(131 195 255 / 76%))
+  );
+  --font-size-base: var(--font-text-md-size, 16px);
+  --blue: light-dark(rgb(51 156 255), rgb(51 156 255));
+  --orange: light-dark(rgb(226 85 7), rgb(251 106 34));
+  --green: light-dark(rgb(0 162 64), rgb(64 201 119));
+  --red: light-dark(rgb(224 46 42), rgb(255 103 100));
+  --purple: light-dark(rgb(146 79 247), rgb(173 123 249));
+  --yellow: light-dark(rgb(255 195 0), rgb(255 210 64));
+  --viz-series-1: var(--primary);
+  --viz-series-2: light-dark(rgb(243 136 59), rgb(245 154 86));
+  --viz-series-3: light-dark(rgb(93 201 119), rgb(116 213 139));
+  --viz-series-4: light-dark(rgb(235 119 177), rgb(240 143 192));
+  --viz-series-5: light-dark(rgb(155 121 236), rgb(170 145 239));
+  --viz-series-6: light-dark(rgb(58 185 177), rgb(90 203 194));
+
+  /* Internal implementation variables; not part of the agent contract. */
+  --font-sans:
+    -apple-system-body, ui-sans-serif, -apple-system, system-ui, &quot;Segoe UI&quot;,
+    Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;Segoe UI Emoji&quot;,
+    &quot;Segoe UI Symbol&quot;;
+  --font-mono:
+    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    monospace;
+  --font-size-normal: max(11px, var(--font-size-base));
+  --font-size-tooltip: calc(var(--font-size-base) - 1px);
+  --font-size-small: max(11px, calc(var(--font-size-base) - 2px));
+  --font-size-h1: calc(var(--font-size-normal) * 1.7142857143);
+  --font-size-h2: calc(var(--font-size-normal) * 1.4285714286);
+  --font-size-h3: calc(var(--font-size-normal) * 1.2857142857);
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --icon-size: 16px;
+  --line-height-normal: calc(var(--font-size-normal) * 1.5);
+  --line-height-tooltip: calc(var(--font-size-tooltip) * 1.4285714286);
+  --line-height-small: calc(var(--font-size-small) + 4px);
+  --corner-shape: round;
+  --radius: var(--border-radius-lg, 8px);
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-2xl: calc(var(--radius) * 2);
+  --radius-full: 9999px;
+  --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
+  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+
+  /* Legacy aliases; not part of the current agent contract. */
+  --viz-bg: transparent;
+  --viz-panel: var(--card);
+  --viz-border: var(--border);
+  --viz-text: var(--foreground);
+  --viz-muted: var(--muted-foreground);
+  --viz-accent: var(--primary);
+  --viz-accent-text: var(--primary-foreground);
+  --viz-accent-bg: var(--accent);
+  --viz-font-size: var(--font-size-base);
+  --viz-warning: var(--destructive);
+}
+
+:root[data-theme=&quot;light&quot;] {
+  color-scheme: light;
+}
+
+:root[data-theme=&quot;dark&quot;] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html &gt; body {
+  /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
+  --color-background-primary: var(
+    --background,
+    light-dark(rgb(255 255 255), rgb(24 24 24))
+  );
+  --color-text-primary: var(
+    --foreground,
+    light-dark(rgb(26 28 31), rgb(255 255 255))
+  );
+  --color-border-secondary: var(
+    --border,
+    light-dark(rgb(26 28 31 / 8%), rgb(255 255 255 / 8.2%))
+  );
+
+  margin: 0;
+  padding: var(--visualize-paint-gutter, 0px);
+  color: var(--foreground);
+  background: transparent !important;
+  font-family: var(--font-sans) !important;
+  -webkit-font-smoothing: antialiased;
+  font-size: var(--font-size-base);
+  line-height: calc(var(--font-size-base) * 1.625);
+  font-weight: var(--font-weight-normal);
+}
+
+.cursor-interaction {
+  cursor: var(--cursor-interaction, pointer);
+}
+
+a {
+  color: color-mix(in srgb, var(--viz-accent) 80%, var(--viz-text) 20%);
+  cursor: var(--cursor-interaction, pointer);
+  text-decoration: none;
+  text-underline-offset: 2px;
+  font-weight: inherit;
+}
+
+a:is(:hover, :focus-visible) {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+.table {
+  font-family: var(--font-sans);
+}
+
+h1 {
+  font-size: calc(var(--font-size-base) * 1.5);
+  line-height: 1.3333333333;
+}
+
+h2 {
+  font-size: calc(var(--font-size-base) * 1.25);
+  line-height: 1.4;
+}
+h3 {
+  font-size: calc(var(--font-size-base) * 1.125);
+  line-height: 1.5555555556;
+}
+h4 {
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+}
+h5,
+h6 {
+  font-size: var(--font-size-base);
+  line-height: calc(var(--font-size-base) * 1.625);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+th {
+  font-weight: 600;
+}
+
+code:not(pre code) {
+  display: inline;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  corner-shape: var(--corner-shape);
+  background: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  word-break: break-word;
+}
+pre,
+pre code {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table {
+  width: 100%;
+  color: var(--foreground);
+  font: inherit;
+  text-align: start;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: calc(var(--font-size-base) * 0.875);
+  line-height: calc(var(--font-size-base) * 1.625);
+  font-family: var(--font-sans);
+}
+
+.table :is(th, td) {
+  padding-block: 10px;
+  padding-inline: 0 24px;
+  overflow-wrap: anywhere;
+  border-bottom: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+  border-bottom-color: color-mix(in srgb, var(--foreground) 5%, transparent);
+}
+.table :is(th, td):not(:last-child) {
+  padding-inline-end: calc(var(--font-size-base) * 1.5);
+}
+
+.table-responsive &gt; .table :is(th, td) {
+  overflow-wrap: break-word;
+}
+
+.table :is(th, td):last-child {
+  padding-inline-end: 0;
+}
+
+.table :is(caption, thead th) {
+  font-weight: 600;
+}
+
+.table thead :is(th, td) {
+  border-bottom-color: var(--border-strong, var(--input));
+  padding-block: calc(var(--font-size-base) / 2);
+  line-height: var(--font-size-base);
+}
+
+.table tbody tr:last-child :is(th, td) {
+  border-bottom: 0;
+}
+.table tbody :is(th, td) {
+  padding-block: calc(var(--font-size-base) * 0.625);
+}
+
+.table.table-sm :is(th, td) {
+  padding-block: 8px;
+}
+
+.table.table-sm :is(th, td):not(:last-child) {
+  padding-inline-end: 16px;
+}
+
+.table :is(.text-end, [align=&quot;right&quot;]) {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.table :is(.text-center, [align=&quot;center&quot;]) {
+  text-align: center;
+}
+
+.table .text-nowrap {
+  white-space: nowrap;
+}
+
+#widget {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0;
+  background: transparent !important;
+}
+
+.card {
+  min-width: 0;
+  padding: 12px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  border-radius: var(--radius-2xl);
+  corner-shape: var(--corner-shape);
+  color: var(--card-foreground);
+  background: var(--card);
+}
+
+.widget {
+  min-width: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-lg);
+  corner-shape: var(--corner-shape);
+  box-shadow: 0 0 0 0.5px var(--border-strong, var(--border));
+  color: var(--foreground);
+  background: var(--background);
+}
+
+#widget &gt; :not(.card, .widget, .progress) {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.tooltip {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0;
+  width: max-content;
+  max-width: min(
+    20rem,
+    var(--tooltip-available-width, calc(100vw - 10px)),
+    calc(100vw - 10px)
+  );
+  max-height: min(
+    var(--tooltip-available-height, calc(100vh - 10px)),
+    calc(100vh - 10px)
+  );
+  border: 1px solid var(--border);
+  corner-shape: var(--corner-shape);
+  overflow-wrap: break-word;
+  white-space: normal;
+  pointer-events: none;
+  user-select: none;
+  font-family: var(--font-sans);
+  padding: 5px 12px;
+  border-color: color-mix(
+    in oklab,
+    light-dark(var(--primary-foreground), var(--foreground)) 5%,
+    transparent
+  );
+  border-radius: var(--radius-2xl);
+  color: light-dark(var(--primary-foreground), var(--foreground));
+  background: light-dark(var(--foreground), var(--popover));
+  box-shadow: 0 8px 18px rgb(15 23 42 / 20%);
+  letter-spacing: -0.15px;
+  font-size: calc(var(--font-size-base) * 14 / 16);
+  font-size: round(nearest, calc(var(--font-size-base) * 14 / 16), 1px);
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+}
+
+.viz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(180px, 24%), 1fr));
+  gap: 10px;
+}
+
+.viz-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.viz-stat-value {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.25;
+}
+
+.viz-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  margin-block: 6px;
+  border: 0;
+  background: var(--border);
+}
+
+.nav {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+}
+
+.progress {
+  display: flex;
+  height: 8px;
+  margin-block: calc((var(--line-height-normal, 1.5em) - 8px) / 2);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+}
+
+.progress-bar:only-child {
+  border-radius: var(--radius-full);
+}
+
+.progress-bar {
+  height: 100%;
+  flex-shrink: 0;
+  border: 0;
+  background: var(--viz-series-1);
+}
+
+.viz-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  color: color-mix(in srgb, var(--foreground) 40%, var(--muted-foreground));
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  font-family: var(--font-sans);
+  font-size: calc(var(--font-size-base) * 14 / 16);
+  font-size: round(nearest, calc(var(--font-size-base) * 14 / 16), 1px);
+  font-weight: var(--font-weight-normal);
+  line-height: 1;
+}
+
+small,
+.text-small {
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.viz-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.viz-controls &gt; .form-label {
+  display: grid;
+  min-width: min(100%, 260px);
+  flex: 1 1 280px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 2px 12px;
+  margin-bottom: 0;
+}
+
+.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+  grid-column: 1 / -1;
+}
+
+.btn,
+.nav-link,
+.form-check-input,
+.form-control,
+.form-range,
+.form-select {
+  font: inherit;
+}
+
+/* Match inline alignment without overriding a containing flex or grid layout. */
+.btn,
+.nav-link,
+.form-control,
+.form-select,
+.form-range,
+.form-check {
+  vertical-align: middle;
+}
+
+.btn,
+.nav-link {
+  appearance: button;
+  display: inline-flex;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0 8px;
+  -webkit-app-region: no-drag;
+  border: 1px solid var(--input);
+  corner-shape: var(--corner-shape);
+  cursor: var(--cursor-interaction, pointer);
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-font-smoothing: inherit;
+  font-family: var(--font-sans);
+  height: fit-content;
+  min-height: calc(12px + 2 * var(--control-spacing, 12px));
+  padding-inline: var(--control-spacing, 12px);
+  border-color: transparent;
+  border-radius: var(--radius-full);
+  color: var(--foreground);
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  font-size: calc(var(--font-size-base) * 14 / 16);
+  font-size: round(nearest, calc(var(--font-size-base) * 14 / 16), 1px);
+  font-weight: var(--font-weight-normal);
+  line-height: 18px;
+}
+
+.btn {
+  border-color: var(--border);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+}
+
+.btn:is(.btn-block, .viz-tile) {
+  inline-size: 100%;
+}
+
+.btn.viz-tile {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+a.btn {
+  cursor: var(--cursor-interaction, pointer);
+  text-decoration: none;
+}
+
+.btn:not(:disabled):hover {
+  background: light-dark(
+    color-mix(in srgb, var(--foreground) 5.5%, transparent),
+    color-mix(in srgb, var(--foreground) 8%, transparent)
+  );
+}
+
+.nav-link:not(:disabled):not([aria-disabled=&quot;true&quot;]):hover {
+  background: color-mix(in srgb, var(--foreground) 10%, transparent);
+}
+
+.btn-primary {
+  border-color: var(--border);
+  color: var(--primary-foreground);
+  background: var(--foreground);
+  background-clip: border-box;
+}
+
+.btn-primary .text-muted {
+  color: color-mix(in srgb, var(--primary-foreground) 50%, transparent);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: color-mix(in srgb, var(--foreground) 80%, transparent);
+  background-clip: border-box;
+}
+
+.btn-ghost {
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.btn-ghost:not(:disabled):hover {
+  color: var(--muted-foreground);
+  background: light-dark(
+    color-mix(in srgb, var(--foreground) 5.5%, transparent),
+    color-mix(in srgb, var(--foreground) 8%, transparent)
+  );
+}
+
+.nav-pills .nav-link {
+  min-width: 0;
+  border-color: transparent;
+  color: var(--muted-foreground);
+  background: transparent;
+}
+
+.nav-justified .nav-link {
+  flex: 1 1 0;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.nav-pills .nav-link.active {
+  color: var(--foreground);
+  background: var(--muted);
+}
+
+/* Shared preview chrome; product styles stay inside each variant. */
+.viz-dotted-background {
+  background-image: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--foreground) 14%, transparent) 0.8px,
+    transparent 0.8px
+  );
+  background-position: center;
+  background-size: 16px 16px;
+}
+
+.viz-carousel {
+  position: relative;
+  min-width: 0;
+}
+
+.viz-carousel:has(&gt; .viz-carousel-controls) {
+  min-height: calc(60px + var(--viz-carousel-picker-height, 0px));
+  padding-bottom: 60px;
+}
+
+.viz-carousel &gt; [data-variant][hidden] {
+  display: none !important;
+}
+
+.viz-carousel &gt; [data-variant] {
+  isolation: isolate;
+}
+
+.viz-carousel-controls {
+  --viz-carousel-hover: light-dark(
+    color-mix(in srgb, var(--foreground) 5.4%, transparent),
+    color-mix(in srgb, var(--foreground) 7.8%, transparent)
+  );
+  position: absolute;
+  z-index: 2;
+  bottom: 8px;
+  left: 50%;
+  display: flex;
+  width: max-content;
+  /* Leave room for the host&#x27;s design-controls launcher at the trailing edge. */
+  max-width: calc(100% - 96px);
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+  /* Match the settings dropdown chrome independently of the content font size. */
+  font-size: 13px;
+  font-weight: var(--font-weight-normal);
+  line-height: 18px;
+  transform: translateX(-50%);
+  user-select: none;
+}
+
+/* Keep authored mockup button styles out of the shared carousel chrome. */
+.viz-carousel-controls button,
+.viz-carousel-picker &gt; summary {
+  display: flex !important;
+  height: auto !important;
+  min-height: 30px;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px;
+  padding: 0 6px !important;
+  -webkit-app-region: no-drag;
+  border: 0 !important;
+  border-radius: 14px !important;
+  color: inherit !important;
+  background: transparent !important;
+  font: inherit !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.viz-carousel-controls &gt; button,
+.viz-carousel-picker &gt; summary {
+  position: relative;
+  isolation: isolate;
+}
+
+.viz-carousel-controls &gt; button {
+  --icon-size: 16px;
+  width: 30px !important;
+  padding: 0 !important;
+}
+
+.viz-carousel-picker &gt; summary {
+  padding-inline: 12px !important;
+}
+
+.viz-carousel-controls .viz-carousel-caret {
+  width: 14px;
+  height: 14px;
+  flex: none;
+  margin: 0;
+  color: inherit;
+  transform: rotate(180deg);
+}
+
+.viz-carousel-controls &gt; button &gt; svg,
+.viz-carousel-controls .viz-carousel-caret,
+.viz-carousel-count {
+  opacity: 0.5;
+}
+
+.viz-carousel-controls &gt; button::before,
+.viz-carousel-picker &gt; summary::before {
+  position: absolute;
+  z-index: -1;
+  inset: 3px;
+  border-radius: 12px;
+  content: &quot;&quot;;
+  pointer-events: none;
+}
+
+.viz-carousel-controls &gt; button:hover::before,
+.viz-carousel-picker &gt; summary:hover::before {
+  background: var(--viz-carousel-hover);
+}
+
+.viz-carousel-controls &gt; button,
+.viz-carousel-controls [data-lucide],
+.viz-carousel-controls .lucide {
+  flex-shrink: 0;
+}
+
+.viz-carousel-picker {
+  min-width: 0;
+}
+
+.viz-carousel-picker &gt; summary {
+  min-width: 0;
+  list-style: none;
+}
+
+.viz-carousel-picker &gt; summary::-webkit-details-marker {
+  display: none;
+}
+
+.viz-carousel-count {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.viz-carousel-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.viz-carousel-options {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 4px);
+  left: 0;
+  display: flex;
+  max-height: 240px;
+  flex-direction: column;
+  gap: 2px;
+  overflow: auto;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--background);
+  box-shadow: 0 4px 12px light-dark(rgb(0 0 0 / 6%), rgb(0 0 0 / 25%));
+}
+
+.viz-carousel-options &gt; button {
+  border-radius: max(0px, calc(var(--radius-lg) - 5px)) !important;
+  width: 100% !important;
+  min-height: 28px;
+  justify-content: flex-start !important;
+  padding: 4px 8px !important;
+  font-size: var(--font-size-small) !important;
+  text-align: start;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.viz-carousel-options &gt; [aria-current=&quot;true&quot;],
+.viz-carousel-options &gt; button:hover {
+  background: var(--viz-carousel-hover) !important;
+}
+
+.btn:disabled,
+.nav-link:disabled,
+.nav-link[aria-disabled=&quot;true&quot;] {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+[data-lucide] {
+  stroke-width: 1.6;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--foreground);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0 8px;
+  outline: none;
+  border: 1px solid var(--input);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  height: calc(12px + 2 * var(--control-spacing, 12px));
+  min-height: calc(12px + 2 * var(--control-spacing, 12px));
+  padding-inline: calc(4px + var(--control-spacing, 12px) / 2);
+  border-color: var(--input);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--popover) 96%, transparent);
+  font-size: calc(var(--font-size-base) * 14 / 16);
+  font-size: round(nearest, calc(var(--font-size-base) * 14 / 16), 1px);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.4285714286;
+}
+.form-control:is(
+  [type=&quot;file&quot;],
+  [type=&quot;date&quot;],
+  [type=&quot;datetime-local&quot;],
+  [type=&quot;month&quot;],
+  [type=&quot;week&quot;],
+  [type=&quot;color&quot;]
+) {
+  height: calc(12px + 2 * var(--control-spacing, 12px));
+  min-height: calc(12px + 2 * var(--control-spacing, 12px));
+  line-height: 18px;
+}
+.form-control:is(
+  [type=&quot;date&quot;],
+  [type=&quot;datetime-local&quot;],
+  [type=&quot;month&quot;],
+  [type=&quot;week&quot;]
+) {
+  padding-inline: var(--control-spacing, 12px);
+}
+
+.form-control::placeholder {
+  color: var(--muted-foreground);
+}
+
+.form-control[type=&quot;file&quot;] {
+  overflow: hidden;
+  cursor: var(--cursor-interaction, pointer);
+  padding: 0;
+}
+
+.form-control[type=&quot;file&quot;]::file-selector-button {
+  padding: 0 8px;
+  border: 0;
+  border-right: 1px solid var(--input);
+  color: var(--secondary-foreground);
+  background: var(--secondary);
+  cursor: inherit;
+  font: inherit;
+  min-height: calc(10px + 2 * var(--control-spacing, 12px));
+  padding-inline: var(--control-spacing, 12px);
+  margin-inline-end: var(--control-spacing, 12px);
+}
+
+.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+  background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
+}
+
+.form-control-color[type=&quot;color&quot;] {
+  width: 40px;
+  height: calc(12px + 2 * var(--control-spacing, 12px));
+  padding: 3px;
+  cursor: var(--cursor-interaction, pointer);
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+  border: 0;
+  border-radius: calc(var(--radius-lg) - 4px);
+  corner-shape: var(--corner-shape);
+}
+
+textarea.form-control {
+  height: auto;
+  resize: vertical;
+  min-height: 96px;
+  padding: 8px 10px;
+}
+
+.form-control:focus-visible {
+  border-color: var(--ring);
+  box-shadow: none;
+}
+.form-control:disabled {
+  color: var(--muted-foreground);
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  opacity: 1;
+}
+.form-control[aria-invalid=&quot;true&quot;] {
+  border-color: var(--red);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--red) 20%, transparent);
+}
+
+.form-control:disabled,
+.form-select:disabled {
+  cursor: not-allowed;
+}
+
+.form-select {
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  min-height: calc(12px + 2 * var(--control-spacing, 12px));
+  margin: 0;
+  /* The secondary icon role is 14px at compact density and 16px at web density. */
+  --icon-size: calc(10px + var(--control-spacing, 12px) / 2);
+  /* Settings dropdowns retain a 12px inset and a 4px text-to-chevron gap. */
+  padding: 0 calc(16px + var(--icon-size)) 0 12px;
+  outline: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  corner-shape: var(--corner-shape);
+  color: var(--foreground);
+  background-color: var(--secondary);
+  background-image:
+    linear-gradient(
+      45deg,
+      transparent calc(50% - 0.6px),
+      var(--muted-foreground) calc(50% - 0.6px) calc(50% + 0.6px),
+      transparent calc(50% + 0.6px)
+    ),
+    linear-gradient(
+      135deg,
+      transparent calc(50% - 0.6px),
+      var(--muted-foreground) calc(50% - 0.6px) calc(50% + 0.6px),
+      transparent calc(50% + 0.6px)
+    );
+  background-position:
+    calc(100% - 12px - var(--icon-size) / 2) 50%,
+    calc(100% - 12px - var(--icon-size) * 0.18) 50%;
+  background-repeat: no-repeat;
+  background-size: calc(var(--icon-size) * 0.32) calc(var(--icon-size) * 0.32);
+  cursor: var(--cursor-interaction, default);
+  font-size: calc(var(--font-size-base) * 14 / 16);
+  font-size: round(nearest, calc(var(--font-size-base) * 14 / 16), 1px);
+  font-weight: var(--font-weight-normal);
+  line-height: 18px;
+}
+
+.form-select option {
+  color: var(--popover-foreground);
+  background-color: var(--popover);
+}
+
+.form-select:not(:disabled):hover {
+  background-color: light-dark(
+    color-mix(in srgb, var(--foreground) 5.5%, transparent),
+    color-mix(in srgb, var(--foreground) 8%, transparent)
+  );
+}
+
+.form-select:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+}
+.form-select:disabled {
+  opacity: 0.4;
+}
+
+.form-check {
+  display: flex;
+  min-height: calc(12px + 2 * var(--control-spacing, 12px));
+  align-items: center;
+  gap: 6px;
+}
+
+.form-check-input {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  margin: 0;
+  border: 1px solid var(--input);
+  color: var(--primary-foreground);
+  background-color: transparent;
+  cursor: var(--cursor-interaction, default);
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    box-shadow 150ms;
+}
+
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  corner-shape: round;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  width: calc(10px + var(--control-spacing, 12px) / 2);
+  height: calc(10px + var(--control-spacing, 12px) / 2);
+  border-color: var(--border-strong, var(--input));
+  border-radius: calc(var(--radius-sm) / 2);
+  background-color: transparent;
+  color: var(--foreground);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input:not(:disabled):not(:checked):hover {
+  background-color: var(--card);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:is(:checked, :indeterminate) {
+  border-color: var(--border-strong, var(--input));
+  background-color: color-mix(in srgb, var(--popover) 96%, transparent);
+}
+
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-foreground);
+  content: &quot;&quot;;
+  mask: var(--checkmark-image) center / 12px 12px no-repeat;
+  background-color: var(--foreground);
+}
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;checkbox&quot;]:indeterminate::before {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 65%;
+  height: 6.65%;
+  margin: auto;
+  border-radius: var(--radius-full);
+  background: var(--foreground);
+  mask: none;
+  content: &quot;&quot;;
+}
+
+.form-check-input[type=&quot;radio&quot;] {
+  border-radius: var(--radius-full);
+  width: 16px;
+  height: 16px;
+  border: 0;
+  box-shadow: inset 0 0 0 1px var(--input);
+}
+
+.form-check-input[type=&quot;radio&quot;]:checked {
+  border: 0;
+  background: radial-gradient(
+    circle,
+    var(--primary-foreground) 0 3px,
+    var(--foreground) 3px
+  );
+  box-shadow: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:focus-visible {
+  border-color: var(--ring);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+}
+.form-check:not(.form-switch) .form-check-input[type=&quot;radio&quot;]:disabled,
+.form-check:not(.form-switch)
+  .form-check-input[type=&quot;radio&quot;]:disabled
+  + .form-check-label {
+  opacity: 0.5;
+}
+
+.form-switch .form-check-input:disabled,
+.form-switch .form-check-input:disabled + .form-check-label {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-check-label {
+  color: var(--foreground);
+  cursor: var(--cursor-interaction, default);
+}
+
+.form-switch .form-check-input {
+  position: relative;
+  width: 32px;
+  height: 20px;
+  border: 0;
+  border-radius: var(--radius-full);
+  background: var(--muted);
+  box-shadow: none;
+  transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.form-switch .form-check-input::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-sm);
+  content: &quot;&quot;;
+  transform: translate(2px, -50%);
+  transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
+  border-color: #fff;
+  background: #fff;
+}
+
+.form-switch .form-check-input:checked {
+  background: var(--blue);
+}
+
+.form-switch .form-check-input:checked::before {
+  transform: translate(14px, -50%);
+}
+
+.form-switch .form-check-input:focus-visible {
+  box-shadow: 0 0 0 2px var(--ring);
+  outline: none;
+}
+
+.form-range {
+  appearance: none;
+  display: block;
+  width: 100%;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  accent-color: var(--primary);
+  height: calc(12px + 2 * var(--control-spacing, 12px));
+  min-height: calc(12px + 2 * var(--control-spacing, 12px));
+  outline: none;
+  border-radius: var(--radius-full);
+  color: var(--foreground);
+  background: transparent;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  background: var(--form-range-track, var(--border));
+  height: 2px;
+  border-radius: var(--radius-full);
+}
+
+.form-range::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  margin-top: -9px;
+  border-color: transparent;
+  background: currentColor;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Outline the native track and thumb, preserving the larger input hit area. */
+.form-range:focus-visible::-webkit-slider-runnable-track {
+  outline: 2px auto Highlight;
+  outline-color: -webkit-focus-ring-color;
+}
+
+.form-range::-moz-range-track {
+  background: var(--form-range-track, var(--border));
+  height: 2px;
+  border-radius: var(--radius-full);
+}
+
+.form-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  border-color: transparent;
+  background: currentColor;
+  box-shadow: var(--shadow-sm);
+}
+
+.form-range:focus-visible::-moz-range-thumb {
+  outline: 2px solid Highlight;
+  outline-offset: 2px;
+}
+
+.form-range:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+.btn:not(.btn-primary, .viz-tile):is(
+  [aria-pressed=&quot;true&quot;],
+  [aria-selected=&quot;true&quot;],
+  .is-selected
+) {
+  border-color: transparent;
+  color: var(--primary-foreground);
+  background: var(--blue);
+}
+
+.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.btn:focus-visible,
+.nav-link:focus-visible {
+  outline-offset: 2px;
+  outline: none;
+  box-shadow: 0 0 0 2px var(--ring);
+}
+
+.viz-carousel-controls :is(button, summary):focus-visible {
+  outline: 2px solid var(--ring) !important;
+  outline-offset: 2px !important;
+}
+
+/* Web recipes are the default, including on renderers without inline style queries. */
+@supports (border-radius: if(style(--corner-shape: round): 1px; else: 2px)) {
+  /* Match the host&#x27;s proportional text-sm scale at every text preference. */
+  .tooltip,
+  .viz-badge,
+  .btn,
+  .nav-link,
+  .form-control,
+  .form-select {
+    font-size: if(
+      style(--corner-shape: round): round(
+          nearest,
+          calc(var(--font-size-base) * 14 / 16),
+          1px
+        );
+        else: round(nearest, calc(var(--font-size-base) * 13 / 14), 1px)
+    );
+  }
+
+  .btn,
+  .nav-link,
+  .form-select {
+    border-radius: if(
+      style(--corner-shape: round): var(--radius-full); else: var(--radius-lg)
+    );
+  }
+
+  .form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+    border-radius: if(
+      style(--corner-shape: round): calc(var(--radius-sm) / 2);
+        else: calc(var(--radius-lg) * 0.4)
+    );
+  }
+
+  .tooltip {
+    font-weight: if(
+      style(--corner-shape: round): 600; else: var(--font-weight-normal)
+    );
+  }
+}
+
+@media (pointer: coarse) {
+  .viz-carousel:has(&gt; .viz-carousel-controls) {
+    min-height: calc(76px + var(--viz-carousel-picker-height, 0px));
+    padding-bottom: 76px;
+  }
+
+  .btn,
+  .nav-link,
+  .viz-carousel-controls button,
+  .viz-carousel-picker &gt; summary,
+  .form-control,
+  .form-select {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Keep small-screen WebKit from zooming when a text field receives focus. */
+  .form-control,
+  .form-select {
+    font-size: max(16px, calc(var(--font-size-base) * 14 / 16));
+    font-size: max(
+      16px,
+      round(nearest, calc(var(--font-size-base) * 14 / 16), 1px)
+    );
+  }
+  .form-control:is(
+    [type=&quot;file&quot;],
+    [type=&quot;date&quot;],
+    [type=&quot;datetime-local&quot;],
+    [type=&quot;month&quot;],
+    [type=&quot;week&quot;],
+    [type=&quot;time&quot;],
+    [type=&quot;color&quot;]
+  ) {
+    height: 44px;
+    min-height: 44px;
+    font-size: max(16px, calc(var(--font-size-base) * 14 / 16));
+    font-size: max(
+      16px,
+      round(nearest, calc(var(--font-size-base) * 14 / 16), 1px)
+    );
+  }
+
+  .form-control[type=&quot;file&quot;]::file-selector-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .form-control-color[type=&quot;color&quot;] {
+    width: 44px;
+    height: 44px;
+  }
+
+  .form-control:is(
+    [type=&quot;date&quot;],
+    [type=&quot;datetime-local&quot;],
+    [type=&quot;month&quot;],
+    [type=&quot;time&quot;],
+    [type=&quot;week&quot;]
+  ) {
+    min-width: 0;
+    max-width: 100%;
+    padding-block: 8px;
+  }
+
+  .form-check {
+    min-height: 44px;
+    padding-inline: 15px;
+  }
+
+  .form-check-input {
+    position: relative;
+  }
+
+  .form-check-input::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 44px;
+    height: 44px;
+    content: &quot;&quot;;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-check-label {
+    display: inline-flex;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .form-range {
+    height: 44px;
+    touch-action: pan-y;
+  }
+}
+
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#widget &gt; svg {
+  width: 100%;
+}
+
+/* Model-authored chart rules can otherwise stretch icons after these styles load. */
+svg.lucide {
+  display: block;
+  width: var(--icon-size) !important;
+  height: var(--icon-size) !important;
+  flex: none;
+  margin: 0 !important;
+  stroke-width: 1.6;
+}
+
+.text-warning,
+.text-destructive {
+  color: var(--destructive);
+}
+
+html&gt;body{padding:0}&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;script type=&quot;application/json&quot; id=&quot;codex-visualization-widget-state&quot;&gt;__CODEX_VISUALIZATION_WIDGET_STATE__&lt;/script&gt;
+&lt;script&gt;(() =&gt; {
+  const root = document.documentElement;
+  const mediaQuery = globalThis.matchMedia(&quot;(prefers-color-scheme: dark)&quot;);
+  const apply = Reflect.apply;
+  const isArray = Array.isArray;
+  const hasOwn = Object.hasOwn;
+  const parentWindow = globalThis.parent;
+  const stringify = JSON.stringify;
+  const parse = JSON.parse;
+  const encode = TextEncoder.prototype.encode.bind(new TextEncoder());
+  const initialStateElement = document.getElementById(
+    &quot;codex-visualization-widget-state&quot;,
+  );
+  const initialGlobals = parse(initialStateElement?.textContent ?? &quot;{}&quot;);
+  initialStateElement?.remove();
+  /** @type {Record&lt;string, unknown&gt; | null} */
+  let state = initialGlobals.widgetState ?? null;
+  const statePersistence = initialGlobals.statePersistence ?? &quot;none&quot;;
+  let nextStateRequestId = 0;
+  /** @type {Map&lt;number, { resolve: () =&gt; void; reject: (error: Error) =&gt; void; timeout: ReturnType&lt;typeof globalThis.setTimeout&gt;; serializedState: string }&gt;} */
+  const pendingStateWrites = new Map();
+  const persistenceError = () =&gt;
+    Object.assign(
+      new Error(&quot;The host could not persist the widget state update&quot;),
+      {
+        code: -32000,
+        data: { code: &quot;widget_state_persistence_failed&quot;, retryable: false },
+      },
+    );
+  /**
+   * @param {object} prototype
+   * @param {string} property
+   */
+  const getPrototypeGetter = (prototype, property) =&gt; {
+    // oxlint-disable-next-line typescript/unbound-method -- invoked through captured Reflect.apply
+    const getter = Object.getOwnPropertyDescriptor(prototype, property)?.get;
+    if (getter == null) {
+      throw new Error(`Missing ${property} getter`);
+    }
+    return getter;
+  };
+  const getMessageData = getPrototypeGetter(MessageEvent.prototype, &quot;data&quot;);
+  const getMessagePorts = getPrototypeGetter(MessageEvent.prototype, &quot;ports&quot;);
+  const getMessageSource = getPrototypeGetter(MessageEvent.prototype, &quot;source&quot;);
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const addHostMessageListener = MessagePort.prototype.addEventListener;
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const postHostMessage = MessagePort.prototype.postMessage;
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const startHostPort = MessagePort.prototype.start;
+  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
+  const stopMessagePropagation = Event.prototype.stopImmediatePropagation;
+  /** @type {MessagePort | null} */
+  let hostPort = null;
+  const postToHost = (type, payload) =&gt; {
+    if (hostPort != null) {
+      apply(postHostMessage, hostPort, [{ type, ...payload }]);
+    }
+  };
+  const openExternal = ({ href }) =&gt; {
+    if (globalThis.navigator.userActivation?.isActive === true) {
+      postToHost(&quot;open-external&quot;, { href });
+    }
+  };
+  const sendFollowUpMessage = ({ context, prompt, title }) =&gt; {
+    if (globalThis.navigator.userActivation?.isActive === true) {
+      postToHost(&quot;follow-up&quot;, { context, prompt, title });
+    }
+    return Promise.resolve();
+  };
+  /**
+   * @param {Record&lt;string, unknown&gt; | ((previous: Record&lt;string, unknown&gt; | null) =&gt; Record&lt;string, unknown&gt;)} next
+   * @returns {Promise&lt;void&gt;}
+   */
+  const setWidgetState = async (next) =&gt; {
+    const nextState = typeof next === &quot;function&quot; ? next(state) : next;
+    if (
+      nextState == null ||
+      typeof nextState !== &quot;object&quot; ||
+      isArray(nextState)
+    ) {
+      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+    }
+    const inputState = stringify(
+      nextState,
+      (_key, /** @type {unknown} */ value) =&gt; {
+        if (
+          typeof value === &quot;undefined&quot; ||
+          typeof value === &quot;function&quot; ||
+          typeof value === &quot;symbol&quot; ||
+          (typeof value === &quot;number&quot; &amp;&amp; !Number.isFinite(value))
+        ) {
+          throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+        }
+        return value;
+      },
+    );
+    const parsedState = parse(inputState);
+    if (
+      parsedState == null ||
+      typeof parsedState !== &quot;object&quot; ||
+      isArray(parsedState)
+    ) {
+      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
+    }
+    const storedState = {
+      modelContent: null,
+      privateContent: null,
+      ...parsedState,
+    };
+    const serializedState = stringify(storedState);
+    if (encode(serializedState).length &gt; 16 * 1024) {
+      throw new TypeError(
+        &quot;Widget state must be a JSON object of at most 16 KiB&quot;,
+      );
+    }
+    if (
+      hasOwn(storedState, &quot;imageIds&quot;) &amp;&amp;
+      (!isArray(storedState.imageIds) ||
+        storedState.imageIds.some(
+          (/** @type {unknown} */ id) =&gt; typeof id !== &quot;string&quot;,
+        ))
+    ) {
+      throw new TypeError(&quot;Widget state imageIds must be an array of strings&quot;);
+    }
+    if (storedState.imageIds?.length &gt; 0) {
+      throw Object.assign(
+        new TypeError(&quot;Visualization state does not support image attachments&quot;),
+        { code: -32602, data: { code: &quot;images_unsupported&quot; } },
+      );
+    }
+    state = storedState;
+    globalThis.openai.widgetState = state;
+    globalThis.dispatchEvent(
+      new CustomEvent(&quot;openai:set_globals&quot;, {
+        detail: { globals: { widgetState: state } },
+      }),
+    );
+    if (statePersistence === &quot;none&quot;) {
+      throw persistenceError();
+    }
+    const id = ++nextStateRequestId;
+    return new Promise((resolve, reject) =&gt; {
+      const timeout = globalThis.setTimeout(() =&gt; {
+        pendingStateWrites.delete(id);
+        reject(persistenceError());
+      }, 30_000);
+      pendingStateWrites.set(id, { resolve, reject, timeout, serializedState });
+      postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
+    });
+  };
+  const syncTheme = () =&gt; {
+    const theme = mediaQuery.matches ? &quot;dark&quot; : &quot;light&quot;;
+    root.dataset.theme = theme;
+    globalThis.openai = {
+      ...globalThis.openai,
+      openExternal,
+      sendFollowUpMessage,
+      setWidgetState,
+      theme,
+      visualizationStyleVariables: {},
+      visualizationTheme: theme,
+      widgetState: state,
+      statePersistence,
+      stateModelContext: &quot;none&quot;,
+    };
+    globalThis.dispatchEvent(
+      new CustomEvent(&quot;openai:set_globals&quot;, {
+        detail: { globals: globalThis.openai },
+      }),
+    );
+  };
+  const sendHeight = () =&gt; {
+    postToHost(&quot;height&quot;, {
+      height: Math.ceil(
+        Math.max(
+          document.body.scrollHeight,
+          document.body.getBoundingClientRect().height,
+        ),
+      ),
+    });
+  };
+
+  globalThis.addEventListener(
+    &quot;message&quot;,
+    (event) =&gt; {
+      const data = apply(getMessageData, event, []);
+      const ports = apply(getMessagePorts, event, []);
+      const source = apply(getMessageSource, event, []);
+      if (
+        hostPort != null ||
+        source !== parentWindow ||
+        typeof data !== &quot;object&quot; ||
+        data?.type !== &quot;codex-visualization-initialize&quot; ||
+        !isArray(ports) ||
+        ports.length !== 1
+      ) {
+        return;
+      }
+      apply(stopMessagePropagation, event, []);
+      const nextHostPort = ports[0];
+      try {
+        apply(addHostMessageListener, nextHostPort, [
+          &quot;message&quot;,
+          (event) =&gt; {
+            const data = apply(getMessageData, event, []);
+            if (typeof data === &quot;object&quot; &amp;&amp; data?.type === &quot;measure&quot;) {
+              sendHeight();
+            } else if (
+              typeof data === &quot;object&quot; &amp;&amp;
+              data?.type === &quot;widget-state-result&quot;
+            ) {
+              /** @type {unknown} */
+              const id = data.id;
+              if (typeof id !== &quot;number&quot;) {
+                return;
+              }
+              const pending = pendingStateWrites.get(id);
+              if (pending != null) {
+                pendingStateWrites.delete(id);
+                globalThis.clearTimeout(pending.timeout);
+                if (data.ok === true) {
+                  pending.resolve();
+                } else {
+                  pending.reject(persistenceError());
+                }
+              }
+            }
+          },
+        ]);
+        apply(startHostPort, nextHostPort, []);
+      } catch {
+        return;
+      }
+      hostPort = nextHostPort;
+      for (const [id, { serializedState }] of pendingStateWrites) {
+        postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
+      }
+      sendHeight();
+    },
+    { capture: true },
+  );
+  document.currentScript?.remove();
+  mediaQuery.addEventListener(&quot;change&quot;, syncTheme);
+  globalThis.addEventListener(&quot;click&quot;, (event) =&gt; {
+    if (event.defaultPrevented) {
+      return;
+    }
+    let element = null;
+    if (event.target instanceof globalThis.Element) {
+      element = event.target;
+    } else if (event.target instanceof globalThis.Node) {
+      element = event.target.parentElement;
+    }
+    const link = element?.closest(&quot;a[href]&quot;);
+    const href = link?.getAttribute(&quot;href&quot;);
+    if (href == null) {
+      return;
+    }
+    if (href.startsWith(&quot;#&quot;)) {
+      let id;
+      try {
+        id = decodeURIComponent(href.slice(1));
+      } catch {
+        return;
+      }
+      const target = id.length === 0 ? root : document.getElementById(id);
+      if (
+        target == null ||
+        globalThis.navigator.userActivation?.isActive !== true
+      ) {
+        return;
+      }
+      event.preventDefault();
+      postToHost(&quot;scroll-to&quot;, {
+        top: target.getBoundingClientRect().top + globalThis.scrollY,
+      });
+      return;
+    }
+    event.preventDefault();
+    openExternal({ href });
+  });
+  new ResizeObserver(sendHeight).observe(document.body);
+  syncTheme();
+})();
+&lt;/script&gt;
+&lt;div id=&quot;mira-f04-camera-proposal-20261020&quot;&gt;
+  &lt;style&gt;
+    #mira-f04-camera-proposal-20261020 { color:var(--foreground); width:100%; }
+    #mira-f04-camera-proposal-20261020 .geometry-views { display:flex; gap:20px; flex-wrap:wrap; align-items:center; justify-content:center; }
+    #mira-f04-camera-proposal-20261020 .perspective { width:min(100%,310px); aspect-ratio:9/16; }
+    #mira-f04-camera-proposal-20261020 .plan { width:min(100%,270px); height:270px; }
+    #mira-f04-camera-proposal-20261020 .geometry-controls { margin-top:12px; }
+    #mira-f04-camera-proposal-20261020 .slider-label { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+    #mira-f04-camera-proposal-20261020 .scene-line { fill:none; stroke:var(--border); stroke-width:1.2; }
+    #mira-f04-camera-proposal-20261020 .ground { fill:var(--muted); stroke:var(--border); stroke-width:1; }
+    #mira-f04-camera-proposal-20261020 .paint { fill:var(--background); stroke:var(--foreground); stroke-width:1; }
+    #mira-f04-camera-proposal-20261020 .actor { fill:none; stroke:var(--viz-series-1); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    #mira-f04-camera-proposal-20261020 .actor-dot { fill:var(--viz-series-1); }
+    #mira-f04-camera-proposal-20261020 .camera { fill:var(--foreground); }
+    #mira-f04-camera-proposal-20261020 .route { fill:none; stroke:var(--viz-series-1); stroke-width:2; }
+    #mira-f04-camera-proposal-20261020 .camera-ray { fill:none; stroke:var(--foreground); stroke-width:1; stroke-dasharray:4 4; }
+    #mira-f04-camera-proposal-20261020 .diagram-label { fill:var(--foreground); font-size:12px; }
+  &lt;/style&gt;
+  &lt;h3&gt;第四段提案：側面過街，再跟到公司側&lt;/h3&gt;
+  &lt;div class=&quot;geometry-views&quot;&gt;
+    &lt;svg class=&quot;perspective&quot; role=&quot;img&quot; aria-label=&quot;同一地面六條固定白線與修正相機路徑的透視提案&quot;&gt;&lt;/svg&gt;
+    &lt;svg class=&quot;plan&quot; role=&quot;img&quot; aria-label=&quot;固定斑馬線、人物與相機位置的俯視圖&quot;&gt;&lt;/svg&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;geometry-controls&quot;&gt;
+    &lt;div class=&quot;slider-label&quot;&gt;&lt;label for=&quot;mira-f04-proposal-progress&quot;&gt;過街段位置&lt;/label&gt;&lt;output class=&quot;tabular-nums&quot; data-position&gt;&lt;/output&gt;&lt;/div&gt;
+    &lt;input class=&quot;form-range&quot; id=&quot;mira-f04-proposal-progress&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;100&quot; step=&quot;1&quot; value=&quot;50&quot;&gt;
+    &lt;div class=&quot;viz-row&quot;&gt;
+      &lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; data-at=&quot;0&quot; aria-pressed=&quot;false&quot;&gt;首幀&lt;/button&gt;
+      &lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; data-at=&quot;50&quot; aria-pressed=&quot;true&quot;&gt;中景&lt;/button&gt;
+      &lt;button class=&quot;btn btn-ghost&quot; type=&quot;button&quot; data-at=&quot;100&quot; aria-pressed=&quot;false&quot;&gt;末幀&lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;text-small&quot; aria-live=&quot;polite&quot; data-detail&gt;&lt;/div&gt;
+  &lt;script type=&quot;application/json&quot; data-model&gt;{&quot;stripes&quot;:[{&quot;id&quot;:&quot;C1&quot;,&quot;points&quot;:[[11.35,0,2.65],[13.7,0,2.65],[13.7,0,2.88],[11.35,0,2.88]]},{&quot;id&quot;:&quot;C2&quot;,&quot;points&quot;:[[11.35,0,3.11],[13.7,0,3.11],[13.7,0,3.34],[11.35,0,3.34]]},{&quot;id&quot;:&quot;C3&quot;,&quot;points&quot;:[[11.35,0,3.57],[13.7,0,3.57],[13.7,0,3.8],[11.35,0,3.8]]},{&quot;id&quot;:&quot;C4&quot;,&quot;points&quot;:[[11.35,0,4.03],[13.7,0,4.03],[13.7,0,4.260000000000001],[11.35,0,4.260000000000001]]},{&quot;id&quot;:&quot;C5&quot;,&quot;points&quot;:[[11.35,0,4.49],[13.7,0,4.49],[13.7,0,4.720000000000001],[11.35,0,4.720000000000001]]},{&quot;id&quot;:&quot;C6&quot;,&quot;points&quot;:[[11.35,0,4.95],[13.7,0,4.95],[13.7,0,5.180000000000001],[11.35,0,5.180000000000001]]}],&quot;frames&quot;:[{&quot;percentage&quot;:0,&quot;source_t&quot;:11.25,&quot;person&quot;:[11.9,1.6],&quot;camera&quot;:[12.172239681712547,-1.4589572331794147],&quot;forward&quot;:[-0.0580998760011763,0.9983107754645584],&quot;heading&quot;:[0.879192004898441,0.4764676468792607],&quot;focal&quot;:0.9977551495587385,&quot;white_long_axis_angle_from_horizontal_deg&quot;:0.8604598222445311,&quot;camera_offset_from_person&quot;:[0.27223968171254675,-3.058957233179415],&quot;aim&quot;:[11.95547287326389,2.265674479166667],&quot;white_long_axis_deviation_from_vertical_deg&quot;:89.13954017775546},{&quot;percentage&quot;:1,&quot;source_t&quot;:11.295,&quot;person&quot;:[11.948830296145454,1.6275454248727272],&quot;camera&quot;:[12.297086466268519,-1.3690335524076933],&quot;forward&quot;:[-0.07972676047506705,0.9968167553086933],&quot;heading&quot;:[0.8625051187193312,0.5060483377928954],&quot;focal&quot;:0.9982906074616609,&quot;white_long_axis_angle_from_horizontal_deg&quot;:1.202165856543834,&quot;camera_offset_from_person&quot;:[0.3482561701230645,-2.9965789772804206],&quot;aim&quot;:[12.0042374895274,2.292431745456061],&quot;white_long_axis_deviation_from_vertical_deg&quot;:88.79783414345617},{&quot;percentage&quot;:2,&quot;source_t&quot;:11.34,&quot;person&quot;:[11.995743460072728,1.6561667444363637],&quot;camera&quot;:[12.422819394365662,-1.2757336411057107],&quot;forward&quot;:[-0.10290491197347348,0.9946911978557625],&quot;heading&quot;:[0.844512274897702,0.5355361962996602],&quot;focal&quot;:0.9998680375,&quot;white_long_axis_angle_from_horizontal_deg&quot;:1.5813654863403643,&quot;camera_offset_from_person&quot;:[0.4270759342929344,-2.9319003855420744],&quot;aim&quot;:[12.050957164072729,2.318731192436364],&quot;white_long_axis_deviation_from_vertical_deg&quot;:88.41863451365964},{&quot;percentage&quot;:3,&quot;source_t&quot;:11.385,&quot;person&quot;:[12.040772905018182,1.685841526109091],&quot;camera&quot;:[12.54929294674506,-1.1792267618024794],&quot;forward&quot;:[-0.12767597321478594,0.991815933459257],&quot;heading&quot;:[0.8251514125097417,0.5649116271003618],&quot;focal&quot;:1.0024440241681134,&quot;white_long_axis_angle_from_horizontal_deg&quot;:2.00159188919974,&quot;camera_offset_from_person&quot;:[0.5085200417268786,-2.8650682879115705],&quot;aim&quot;:[12.095670635532072,2.3446142922757582],&quot;white_long_axis_deviation_from_vertical_deg&quot;:87.99840811080026},{&quot;percentage&quot;:4,&quot;source_t&quot;:11.43,&quot;person&quot;:[12.083952044218181,1.7165473373090907],&quot;camera&quot;:[12.6763616041478,-1.0796821770270104],&quot;forward&quot;:[-0.1540729585397598,0.988059473638508],&quot;heading&quot;:[0.8044406292954278,0.5940330579511345],&quot;focal&quot;:1.0059751519603588,&quot;white_long_axis_angle_from_horizontal_deg&quot;:2.4666113372108898,&quot;camera_offset_from_person&quot;:[0.5924095599296195,-2.796229514336101],&quot;aim&quot;:[12.138416642537626,2.3701225171424243],&quot;white_long_axis_deviation_from_vertical_deg&quot;:87.53338866278911},{&quot;percentage&quot;:5,&quot;source_t&quot;:11.475,&quot;person&quot;:[12.125314290909094,1.7482617454545453],&quot;camera&quot;:[12.803879847314972,-0.9772691493083132],&quot;forward&quot;:[-0.18211648280995837,0.9832769633673567],&quot;heading&quot;:[0.7824165892163228,0.6227553941308706],&quot;focal&quot;:1.0104180053710938,&quot;white_long_axis_angle_from_horizontal_deg&quot;:2.980386739299399,&quot;camera_offset_from_person&quot;:[0.6785655564058791,-2.7255308947628585],&quot;aim&quot;:[12.179233923721595,2.3952973392045456],&quot;white_long_axis_deviation_from_vertical_deg&quot;:87.0196132607006},{&quot;percentage&quot;:6,&quot;source_t&quot;:11.52,&quot;person&quot;:[12.164893058327275,1.7809623179636362],&quot;camera&quot;:[12.931702156987654,-0.8721569411753995],&quot;forward&quot;:[-0.2118103989393245,0.9773107770311162],&quot;heading&quot;:[0.7591350672954188,0.6509331375820254],&quot;focal&quot;:1.015729168894676,&quot;white_long_axis_angle_from_horizontal_deg&quot;:3.547023420632331,&quot;camera_offset_from_person&quot;:[0.7668090986603797,-2.653119259139036],&quot;aim&quot;:[12.218161217716164,2.420180230630303],&quot;white_long_axis_deviation_from_vertical_deg&quot;:86.45297657936767},{&quot;percentage&quot;:7,&quot;source_t&quot;:11.565,&quot;person&quot;:[12.20272175970909,1.814626622254545],&quot;camera&quot;:[13.059683013906934,-0.7645148151572789],&quot;forward&quot;:[-0.24313689854683504,0.9699919837632814],&quot;heading&quot;:[0.7346708337016025,0.6784237363979775],&quot;focal&quot;:1.021865227025463,&quot;white_long_axis_angle_from_horizontal_deg&quot;:4.170694186793071,&quot;camera_offset_from_person&quot;:[0.8569612541978435,-2.579141437411824],&quot;aim&quot;:[12.255237263153536,2.4448126635878786],&quot;white_long_axis_deviation_from_vertical_deg&quot;:85.82930581320693},{&quot;percentage&quot;:8,&quot;source_t&quot;:11.61,&quot;person&quot;:[12.23883380829091,1.8492322257454543],&quot;camera&quot;:[13.187676898813901,-0.6545120337829642],&quot;forward&quot;:[-0.2760512128369972,0.9611429279203082],&quot;heading&quot;:[0.7091168289844398,0.7050910032407538],&quot;focal&quot;:1.0287827642578125,&quot;white_long_axis_angle_from_horizontal_deg&quot;:4.855541637050825,&quot;camera_offset_from_person&quot;:[0.9488430905229928,-2.5037442595284185],&quot;aim&quot;:[12.29050079866591,2.4692361102454545],&quot;white_long_axis_deviation_from_vertical_deg&quot;:85.14445836294918},{&quot;percentage&quot;:9,&quot;source_t&quot;:11.655,&quot;person&quot;:[12.273262617309092,1.8847566958545452],&quot;camera&quot;:[13.315538292449641,-0.5423178595814642],&quot;forward&quot;:[-0.3104761589344066,0.9505811668307641],&quot;heading&quot;:[0.6825826303296653,0.730808424125116],&quot;focal&quot;:1.0364383650860822,&quot;white_long_axis_angle_from_horizontal_deg&quot;:5.605557434458988,&quot;camera_offset_from_person&quot;:[1.0422756751405495,-2.4270745554360094],&quot;aim&quot;:[12.32399056288548,2.493492042771212],&quot;white_long_axis_deviation_from_vertical_deg&quot;:84.39444256554101},{&quot;percentage&quot;:10,&quot;source_t&quot;:11.7,&quot;person&quot;:[12.3060416,1.9211775999999996],&quot;camera&quot;:[13.443121675555236,-0.42810155508179104],&quot;forward&quot;:[-0.3462969063599365,0.9381249664333304],&quot;heading&quot;:[0.6551922604840966,0.7554621776116522],&quot;focal&quot;:1.0447886140046296,&quot;white_long_axis_angle_from_horizontal_deg&quot;:6.424441002096493,&quot;camera_offset_from_person&quot;:[1.137080075555236,-2.3492791550817906],&quot;aim&quot;:[12.355745294444445,2.5176219333333334],&quot;white_long_axis_deviation_from_vertical_deg&quot;:83.57555899790351},{&quot;percentage&quot;:11,&quot;source_t&quot;:11.745,&quot;person&quot;:[12.337204169600001,1.9584725055999994],&quot;camera&quot;:[13.570281528871776,-0.31203238281295476],&quot;forward&quot;:[-0.38335647700715175,0.9236004609876854],&quot;heading&quot;:[0.6270814406320223,0.778953700045688],&quot;focal&quot;:1.0537900955078126,&quot;white_long_axis_angle_from_horizontal_deg&quot;:7.315443963667528,&quot;camera_offset_from_person&quot;:[1.2330773592717745,-2.270504888412954],&quot;aim&quot;:[12.385803731975003,2.5416672540999996],&quot;white_long_axis_deviation_from_vertical_deg&quot;:82.68455603633247},{&quot;percentage&quot;:12,&quot;source_t&quot;:11.79,&quot;person&quot;:[12.366783739345454,1.9966189800727265],&quot;camera&quot;:[13.696872333140341,-0.19427960530396704],&quot;forward&quot;:[-0.42145261739062584,0.9068504238817947],&quot;heading&quot;:[0.5983944299638067,0.8012016638701461],&quot;focal&quot;:1.0633993940899884,&quot;white_long_axis_angle_from_horizontal_deg&quot;:8.281211410797443,&quot;camera_offset_from_person&quot;:[1.330088593794887,-2.1908985853766936],&quot;aim&quot;:[12.414204614109343,2.5656694772393935],&quot;white_long_axis_deviation_from_vertical_deg&quot;:81.71878858920256},{&quot;percentage&quot;:13,&quot;source_t&quot;:11.835,&quot;person&quot;:[12.39481372247273,2.035594590836365],&quot;camera&quot;:[13.822748569102027,-0.07501248508383496],&quot;forward&quot;:[-0.4603367608319347,0.8877443700901528],&quot;heading&quot;:[0.5692806229435696,0.8221432796909438],&quot;focal&quot;:1.073573094245515,&quot;white_long_axis_angle_from_horizontal_deg&quot;:9.323636219738402,&quot;camera_offset_from_person&quot;:[1.4279348466292963,-2.1106070759202],&quot;aim&quot;:[12.440986679479675,2.5896700749196984],&quot;white_long_axis_deviation_from_vertical_deg&quot;:80.6763637802616},{&quot;percentage&quot;:14,&quot;source_t&quot;:11.88,&quot;person&quot;:[12.421327532218182,2.0753769053090916],&quot;camera&quot;:[13.947764717497906,0.04559971531842466],&quot;forward&quot;:[-0.4997157888897127,0.8661894309758877],&quot;heading&quot;:[0.5398910872107715,0.841734883410668],&quot;focal&quot;:1.08426778046875,&quot;white_long_axis_angle_from_horizontal_deg&quot;:10.443747173026745,&quot;camera_offset_from_person&quot;:[1.5264371852797238,-2.029777189990667],&quot;aim&quot;:[12.466188666718184,2.613710519309092],&quot;white_long_axis_deviation_from_vertical_deg&quot;:79.55625282697325},{&quot;percentage&quot;:15,&quot;source_t&quot;:11.925,&quot;person&quot;:[12.446358581818181,2.1159434909090913],&quot;camera&quot;:[14.071775259069074,0.16738773337380386],&quot;forward&quot;:[-0.5392571662021375,0.8421411453548866],&quot;heading&quot;:[0.5103752199138365,0.8599518212655307],&quot;focal&quot;:1.095440037254051,&quot;white_long_axis_angle_from_horizontal_deg&quot;:11.641654187823239,&quot;camera_offset_from_person&quot;:[1.6254166772508922,-1.9485557575352874],&quot;aim&quot;:[12.489849314457071,2.6378322825757583],&quot;white_long_axis_deviation_from_vertical_deg&quot;:78.35834581217676},{&quot;percentage&quot;:16,&quot;source_t&quot;:11.97,&quot;person&quot;:[12.469940284509091,2.157271915054546],&quot;camera&quot;:[14.194634674556614,0.2901823065532927],&quot;forward&quot;:[-0.578597736738791,0.8156130571789227],&quot;heading&quot;:[0.4808776797440303,0.8767876921604214],&quot;focal&quot;:1.1070464490957754,&quot;white_long_axis_angle_from_horizontal_deg&quot;:12.916572992238844,&quot;camera_offset_from_person&quot;:[1.7246943900475236,-1.8670896085012534],&quot;aim&quot;:[12.512007361328536,2.6620768368878798],&quot;white_long_axis_deviation_from_vertical_deg&quot;:77.08342700776116},{&quot;percentage&quot;:17,&quot;source_t&quot;:12.015,&quot;person&quot;:[12.492106053527273,2.199339745163637],&quot;camera&quot;:[14.316197444701613,0.4138141723278801],&quot;forward&quot;:[-0.6173560397402794,0.7866838756426869],&quot;heading&quot;:[0.4515357196425513,0.8922530436411429],&quot;focal&quot;:1.1190436004882813,&quot;white_long_axis_angle_from_horizontal_deg&quot;:14.26694594196382,&quot;camera_offset_from_person&quot;:[1.8240913911743406,-1.785525572835757],&quot;aim&quot;:[12.532701545964773,2.6864856544136373],&quot;white_long_axis_deviation_from_vertical_deg&quot;:75.73305405803617},{&quot;percentage&quot;:18,&quot;source_t&quot;:12.06,&quot;person&quot;:[12.512889302109093,2.242124548654546],&quot;camera&quot;:[14.436318050245157,0.5381140681685537],&quot;forward&quot;:[-0.6551474819928682,0.755501010481392],&quot;heading&quot;:[0.42247700587730197,0.9063736423269104],&quot;focal&quot;:1.1313880759259258,&quot;white_long_axis_angle_from_horizontal_deg&quot;:15.690665090100651,&quot;camera_offset_from_person&quot;:[1.9234287481360646,-1.7040104804859921],&quot;aim&quot;:[12.551970606997982,2.7111002073212127],&quot;white_long_axis_deviation_from_vertical_deg&quot;:74.30933490989935},{&quot;percentage&quot;:19,&quot;source_t&quot;:12.105,&quot;person&quot;:[12.532323443490911,2.285603892945455],&quot;camera&quot;:[14.55485097192833,0.6629127315463041],&quot;forward&quot;:[-0.6916011853388278,0.7222795860592548],&quot;heading&quot;:[0.3938179679730445,0.9191884508095074],&quot;focal&quot;:1.1440364599030672,&quot;white_long_axis_angle_from_horizontal_deg&quot;:17.185389292244874,&quot;camera_offset_from_person&quot;:[2.0225275284374185,-1.6226911613991508],&quot;aim&quot;:[12.569853283060356,2.7359619677787883],&quot;white_long_axis_deviation_from_vertical_deg&quot;:72.81461070775512},{&quot;percentage&quot;:20,&quot;source_t&quot;:12.15,&quot;person&quot;:[12.55044189090909,2.329755345454546],&quot;camera&quot;:[14.671650690492214,0.7880408999321209],&quot;forward&quot;:[-0.7263769360794547,0.6872965493379287],&quot;heading&quot;:[0.36566268531638474,0.9307474418805622],&quot;focal&quot;:1.1569453369140625,&quot;white_long_axis_angle_from_horizontal_deg&quot;:18.748931693564046,&quot;camera_offset_from_person&quot;:[2.121208799583124,-1.541714445522425],&quot;aim&quot;:[12.58638831278409,2.761112407954546],&quot;white_long_axis_deviation_from_vertical_deg&quot;:71.25106830643595},{&quot;percentage&quot;:21,&quot;source_t&quot;:12.195,&quot;person&quot;:[12.567278057600001,2.3745564736],&quot;camera&quot;:[14.786571686677904,0.9133293107969922],&quot;forward&quot;:[-0.7591805084904477,0.650880139140983],&quot;heading&quot;:[0.3381022835204273,0.9411093697749865],&quot;focal&quot;:1.1700712914532696,&quot;white_long_axis_angle_from_horizontal_deg&quot;:20.37968093030968,&quot;camera_offset_from_person&quot;:[2.219293629077903,-1.461227162803008],&quot;aim&quot;:[12.601614434801391,2.786593000016667],&quot;white_long_axis_deviation_from_vertical_deg&quot;:69.62031906969032},{&quot;percentage&quot;:22,&quot;source_t&quot;:12.24,&quot;person&quot;:[12.582865356800001,2.4199848448000005],&quot;camera&quot;:[14.89946844122648,1.0386087016119077],&quot;forward&quot;:[-0.7897757805979986,0.6133956442466983],&quot;heading&quot;:[0.31121478882697734,0.9503395999406632],&quot;focal&quot;:1.1833709080150463,&quot;white_long_axis_angle_from_horizontal_deg&quot;:22.077012058385943,&quot;camera_offset_from_person&quot;:[2.316603084426479,-1.3813761431880929],&quot;aim&quot;:[12.615570387744446,2.8124452161333338],&quot;white_long_axis_deviation_from_vertical_deg&quot;:67.92298794161405},{&quot;percentage&quot;:23,&quot;source_t&quot;:12.285,&quot;person&quot;:[12.597237201745456,2.4660180264727276],&quot;camera&quot;:[15.010195434879028,1.1637098098478564],&quot;forward&quot;:[-0.8179924915516348,0.5752288968446813],&quot;heading&quot;:[0.2850653726091294,0.958508076825239],&quot;focal&quot;:1.19680077109375,&quot;white_long_axis_angle_from_horizontal_deg&quot;:23.841643387201913,&quot;camera_offset_from_person&quot;:[2.4129582331335726,-1.3023082166248712],&quot;aim&quot;:[12.628294910245456,2.8387105284727276],&quot;white_long_axis_deviation_from_vertical_deg&quot;:66.15835661279809},{&quot;percentage&quot;:24,&quot;source_t&quot;:12.33,&quot;person&quot;:[12.61042700567273,2.512633586036364],&quot;camera&quot;:[15.118607148376636,1.2884633729758275],&quot;forward&quot;:[-0.8437291130395718,0.5367692090735621],&quot;heading&quot;:[0.2597069099633249,0.9656874861554856],&quot;focal&quot;:1.2103174651837385,&quot;white_long_axis_angle_from_horizontal_deg&quot;:25.675902614559284,&quot;camera_offset_from_person&quot;:[2.508180142703907,-1.2241702130605365],&quot;aim&quot;:[12.639826740936618,2.865430409203031],&quot;white_long_axis_deviation_from_vertical_deg&quot;:64.32409738544072},{&quot;percentage&quot;:25,&quot;source_t&quot;:12.375,&quot;person&quot;:[12.622468181818181,2.559809090909091],&quot;camera&quot;:[15.224558062460385,1.4127001284668104],&quot;forward&quot;:[-0.8669509799608528,0.49839341723674174],&quot;heading&quot;:[0.23518077525427092,0.9719516464057254],&quot;focal&quot;:1.2238775747793693,&quot;white_long_axis_angle_from_horizontal_deg&quot;:27.583877408699216,&quot;camera_offset_from_person&quot;:[2.602089880642205,-1.1471089624422806],&quot;aim&quot;:[12.650204618450125,2.8926463304924246],&quot;white_long_axis_deviation_from_vertical_deg&quot;:62.416122591300784},{&quot;percentage&quot;:26,&quot;source_t&quot;:12.42,&quot;person&quot;:[12.633394143418183,2.607522108509091],&quot;camera&quot;:[15.32790265787137,1.5362508137917943],&quot;forward&quot;:[-0.8876844035505955,0.4604523859130534],&quot;heading&quot;:[0.21151780167609513,0.9773741451328207],&quot;focal&quot;:1.237437684375,&quot;white_long_axis_angle_from_horizontal_deg&quot;:29.571438222137285,&quot;camera_offset_from_person&quot;:[2.6945085144531875,-1.0712712947172967],&quot;aim&quot;:[12.659467281418184,2.920399764509091],&quot;white_long_axis_deviation_from_vertical_deg&quot;:60.42856177786271},{&quot;percentage&quot;:27,&quot;source_t&quot;:12.465,&quot;person&quot;:[12.64323830370909,2.6557502062545453],&quot;camera&quot;:[15.428495415350667,1.658946166421769],&quot;forward&quot;:[-0.9060078703057717,0.42326084031481104],&quot;heading&quot;:[0.18873933973075152,0.9820272204160126],&quot;focal&quot;:1.2509543784649884,&quot;white_long_axis_angle_from_horizontal_deg&quot;:31.646131188455666,&quot;camera_offset_from_person&quot;:[2.785257111641578,-0.9968040398327763],&quot;aim&quot;:[12.66765346847298,2.948732183421212],&quot;white_long_axis_deviation_from_vertical_deg&quot;:58.35386881154433},{&quot;percentage&quot;:28,&quot;source_t&quot;:12.51,&quot;person&quot;:[12.65203407592727,2.704470951563636],&quot;camera&quot;:[15.526190815639367,1.7806169238277223],&quot;forward&quot;:[-0.9220415739564958,0.3870908625837453],&quot;heading&quot;:[0.16685835942218283,0.9859808760269835],&quot;focal&quot;:1.2643842415436921,&quot;white_long_axis_angle_from_horizontal_deg&quot;:33.81694425404976,&quot;camera_offset_from_person&quot;:[2.874156739712097,-0.9238540277359137],&quot;aim&quot;:[12.674801918246715,2.9776850593969693],&quot;white_long_axis_deviation_from_vertical_deg&quot;:56.18305574595024},{&quot;percentage&quot;:29,&quot;source_t&quot;:12.555,&quot;person&quot;:[12.659814873309092,2.7536619118545453],&quot;camera&quot;:[15.620843339478558,1.901093823480644],&quot;forward&quot;:[-0.9359364590413483,0.3521689149217214],&quot;heading&quot;:[0.1458805516290515,0.9893022109832786],&quot;focal&quot;:1.2776838581054686,&quot;white_long_axis_angle_from_horizontal_deg&quot;:36.09394980365479,&quot;camera_offset_from_person&quot;:[2.9610284661694672,-0.8525680883739013],&quot;aim&quot;:[12.680951369371591,3.0072998646045455],&quot;white_long_axis_deviation_from_vertical_deg&quot;:53.90605019634521},{&quot;percentage&quot;:30,&quot;source_t&quot;:12.6,&quot;person&quot;:[12.66661410909091,2.803300654545454],&quot;camera&quot;:[15.712307467609321,2.0202076028515235],&quot;forward&quot;:[-0.9478637376539067,0.318675908786287],&quot;heading&quot;:[0.12580539456215797,0.9920549393552051],&quot;focal&quot;:1.2908098126446759,&quot;white_long_axis_angle_from_horizontal_deg&quot;:38.48782321023458,&quot;camera_offset_from_person&quot;:[3.0456933585184114,-0.7830930516939305],&quot;aim&quot;:[12.6861405604798,3.037618071212121],&quot;white_long_axis_deviation_from_vertical_deg&quot;:51.51217678976542},{&quot;percentage&quot;:31,&quot;source_t&quot;:12.645,&quot;person&quot;:[12.67246519650909,2.853364747054545],&quot;camera&quot;:[15.800437680772744,2.1377889994113506],&quot;forward&quot;:[-0.9580055528463417,0.2867496481524875],&quot;heading&quot;:[0.10662716078508104,0.994299074012901],&quot;focal&quot;:1.3037186896556712,&quot;white_long_axis_angle_from_horizontal_deg&quot;:41.00923152350956,&quot;camera_offset_from_person&quot;:[3.1279724842636525,-0.7155757476431942],&quot;aim&quot;:[12.690408230203536,3.0686811513878784],&quot;white_long_axis_deviation_from_vertical_deg&quot;:48.99076847649044},{&quot;percentage&quot;:32,&quot;source_t&quot;:12.69,&quot;person&quot;:[12.677401548800002,2.903831756799999],&quot;camera&quot;:[15.885088459709912,2.253668750631113],&quot;forward&quot;:[-0.9665471705293095,0.2564889220644549],&quot;heading&quot;:[0.08833584858679207,0.9960907478008474],&quot;focal&quot;:1.3163670736328124,&quot;white_long_axis_angle_from_horizontal_deg&quot;:43.66808330283291,&quot;camera_offset_from_person&quot;:[3.207686910909911,-0.6501630061688861],&quot;aim&quot;:[12.693793117175003,3.100530577299999],&quot;white_long_axis_deviation_from_vertical_deg&quot;:46.33191669716709},{&quot;percentage&quot;:33,&quot;source_t&quot;:12.735,&quot;person&quot;:[12.6814565792,2.9546792511999995],&quot;camera&quot;:[15.966114285161911,2.3676775939818024],&quot;forward&quot;:[-0.9736708322109521,0.22795857189768517],&quot;heading&quot;:[0.07091802838592512,0.9974821468326404],&quot;focal&quot;:1.328711549070457,&quot;white_long_axis_angle_from_horizontal_deg&quot;:46.47263327878532,&quot;camera_offset_from_person&quot;:[3.2846577059619104,-0.5870016572181972],&quot;aim&quot;:[12.69633396002639,3.1332078211166663],&quot;white_long_axis_deviation_from_vertical_deg&quot;:43.52736672121468},{&quot;percentage&quot;:34,&quot;source_t&quot;:12.78,&quot;person&quot;:[12.684663700945455,3.005884797672726],&quot;camera&quot;:[16.04336963786983,2.479646266934405],&quot;forward&quot;:[-0.9795512155417708,0.20119497044071255],&quot;heading&quot;:[0.0543576003206408,0.9985215327109283],&quot;focal&quot;:1.340708700462963,&quot;white_long_axis_angle_from_horizontal_deg&quot;:49.428448037060456,&quot;camera_offset_from_person&quot;:[3.3587059369243732,-0.5262385307383209],&quot;aim&quot;:[12.6980694973899,3.1667543550060593],&quot;white_long_axis_deviation_from_vertical_deg&quot;:40.571551962939544},{&quot;percentage&quot;:35,&quot;source_t&quot;:12.825,&quot;person&quot;:[12.687056327272728,3.0574259636363625],&quot;camera&quot;:[16.116708998574747,2.5894055069599116],&quot;forward&quot;:[-0.9843523312586161,0.17621148641824633],&quot;heading&quot;:[0.03863646332991902,0.9992533330949444],&quot;focal&quot;:1.3523151123046875,&quot;white_long_axis_angle_from_horizontal_deg&quot;:52.53726446178477,&quot;camera_offset_from_person&quot;:[3.4296526713020192,-0.4680204566764509],&quot;aim&quot;:[12.699038467897728,3.2012116511363624],&quot;white_long_axis_deviation_from_vertical_deg&quot;:37.46273553821523},{&quot;percentage&quot;:36,&quot;source_t&quot;:12.870000000000001,&quot;person&quot;:[12.688667871418183,3.109280316509092],&quot;camera&quot;:[16.185986848017755,2.696786051529315],&quot;forward&quot;:[-0.9882256246900741,0.15300364278641437],&quot;heading&quot;:[0.023735099033610596,0.9997182828546574],&quot;focal&quot;:1.3634873690899885,&quot;white_long_axis_angle_from_horizontal_deg&quot;:55.79581216928062,&quot;camera_offset_from_person&quot;:[3.4973189765995745,-0.412494264979777],&quot;aim&quot;:[12.69927961018207,3.2366211816757584],&quot;white_long_axis_deviation_from_vertical_deg&quot;:34.20418783071938},{&quot;percentage&quot;:37,&quot;source_t&quot;:12.915,&quot;person&quot;:[12.689531746618183,3.1614254237090904],&quot;camera&quot;:[16.25105766693994,2.801618638113595],&quot;forward&quot;:[-0.991309033164184,0.1315537941949628],&quot;heading&quot;:[0.009633075748168681,0.9999536008493745],&quot;focal&quot;:1.3741820553132233,&quot;white_long_axis_angle_from_horizontal_deg&quot;:59.19472087323792,&quot;camera_offset_from_person&quot;:[3.561525920321756,-0.3598067855954957],&quot;aim&quot;:[12.698831662875127,3.273024418792424],&quot;white_long_axis_deviation_from_vertical_deg&quot;:30.80527912676208},{&quot;percentage&quot;:38,&quot;source_t&quot;:12.96,&quot;person&quot;:[12.689681366109092,3.213838852654546],&quot;camera&quot;:[16.311775936082384,2.90373400418375],&quot;forward&quot;:[-0.9937267626196435,0.11183524155418356],&quot;heading&quot;:[-0.003690520769576627,0.9999931900050367],&quot;focal&quot;:1.38435575546875,&quot;white_long_axis_angle_from_horizontal_deg&quot;:62.71768268929895,&quot;camera_offset_from_person&quot;:[3.6220945699732914,-0.3101048484707961],&quot;aim&quot;:[12.697733364609093,3.310462834654546],&quot;white_long_axis_deviation_from_vertical_deg&quot;:27.282317310701053},{&quot;percentage&quot;:39,&quot;source_t&quot;:13.004999999999999,&quot;person&quot;:[12.689150143127273,3.2664981707636356],&quot;camera&quot;:[16.36799613618617,3.0029628872107623],&quot;forward&quot;:[-0.9955895748192736,0.09381576898996301],&quot;heading&quot;:[-0.016256722612290067,0.9998678507532419],&quot;focal&quot;:1.3939650540509259,&quot;white_long_axis_angle_from_horizontal_deg&quot;:66.34106909162418,&quot;camera_offset_from_person&quot;:[3.678845993058899,-0.2635352835528733],&quot;aim&quot;:[12.696023454016162,3.348977901430302],&quot;white_long_axis_deviation_from_vertical_deg&quot;:23.658930908375822},{&quot;percentage&quot;:40,&quot;source_t&quot;:13.05,&quot;person&quot;:[12.68797149090909,3.3193809454545464],&quot;camera&quot;:[16.419572747992394,3.0991360246656288],&quot;forward&quot;:[-0.996995411351872,0.07746063350703773],&quot;heading&quot;:[-0.028086373607134996,0.9996054999936728],&quot;focal&quot;:1.4029665355541088,&quot;white_long_axis_angle_from_horizontal_deg&quot;:70.03418964047299,&quot;camera_offset_from_person&quot;:[3.7316012570833035,-0.22024492078891772],&quot;aim&quot;:[12.693740669728536,3.3886110912878795],&quot;white_long_axis_deviation_from_vertical_deg&quot;:19.965810359527012},{&quot;percentage&quot;:41,&quot;source_t&quot;:13.095,&quot;person&quot;:[12.68617882269091,3.3724647441454554],&quot;camera&quot;:[16.466360252242136,3.1920841540193323],&quot;forward&quot;:[-0.9980302157949908,0.06273506483780844],&quot;heading&quot;:[-0.039199874482259665,0.9992313895392674],&quot;focal&quot;:1.4113167844726562,&quot;white_long_axis_angle_from_horizontal_deg&quot;:73.76030718800106,&quot;camera_offset_from_person&quot;:[3.7801814295512264,-0.18038059012612312],&quot;aim&quot;:[12.69092375037841,3.4294038763954555],&quot;white_long_axis_deviation_from_vertical_deg&quot;:16.239692811998935},{&quot;percentage&quot;:42,&quot;source_t&quot;:13.14,&quot;person&quot;:[12.68380555170909,3.4257271342545463],&quot;camera&quot;:[16.50821312967648,3.281638012742864],&quot;forward&quot;:[-0.9987688473059226,0.049606346884231954],&quot;heading&quot;:[-0.04961697234075736,0.9987683195094528],&quot;focal&quot;:1.418972385300926,&quot;white_long_axis_angle_from_horizontal_deg&quot;:77.47839317470134,&quot;camera_offset_from_person&quot;:[3.824407577967389,-0.14408912151168224],&quot;aim&quot;:[12.68761143459798,3.4713977289212132],&quot;white_long_axis_deviation_from_vertical_deg&quot;:12.521606825298662},{&quot;percentage&quot;:43,&quot;source_t&quot;:13.185,&quot;person&quot;:[12.680885091200002,3.4791456832000005],&quot;camera&quot;:[16.544985861036515,3.367628338307212],&quot;forward&quot;:[-0.9992760057117396,0.03804555701775745],&quot;heading&quot;:[-0.05935658794512247,0.998236843373111],&quot;focal&quot;:1.4258899225332753,&quot;white_long_axis_angle_from_horizontal_deg&quot;:81.14544564194769,&quot;camera_offset_from_person&quot;:[3.864100769836513,-0.11151734489278853],&quot;aim&quot;:[12.683842461019447,3.514634121033334],&quot;white_long_axis_deviation_from_vertical_deg&quot;:8.854554358052312},{&quot;percentage&quot;:44,&quot;source_t&quot;:13.23,&quot;person&quot;:[12.6774508544,3.532697958400001],&quot;camera&quot;:[16.576532927063322,3.449885868183368],&quot;forward&quot;:[-0.9996071093148098,0.028029038643696946],&quot;heading&quot;:[-0.06843667486391083,0.9976554623383621],&quot;focal&quot;:1.4320259806640625,&quot;white_long_axis_angle_from_horizontal_deg&quot;:84.71905326208724,&quot;camera_offset_from_person&quot;:[3.899082072663322,-0.08281209021663306],&quot;aim&quot;:[12.679655568275,3.5591545249000007],&quot;white_long_axis_deviation_from_vertical_deg&quot;:5.280946737912757},{&quot;percentage&quot;:45,&quot;source_t&quot;:13.275,&quot;person&quot;:[12.673536254545455,3.586361527272728],&quot;camera&quot;:[16.602708808497994,3.5282413398423187],&quot;forward&quot;:[-0.9998090822596438,0.01953967837833163],&quot;heading&quot;:[-0.07687410511150934,0.9970408075717386],&quot;focal&quot;:1.4373371441876446,&quot;white_long_axis_angle_from_horizontal_deg&quot;:88.15982385731809,&quot;camera_offset_from_person&quot;:[3.9291725539525384,-0.05812018743040893],&quot;aim&quot;:[12.675089494996843,3.6050004126893946],&quot;white_long_axis_deviation_from_vertical_deg&quot;:1.840176142681912},{&quot;percentage&quot;:46,&quot;source_t&quot;:13.32,&quot;person&quot;:[12.669174704872727,3.6401139572363634],&quot;camera&quot;:[16.62336798608161,3.602525490755055],&quot;forward&quot;:[-0.9999210188941684,0.012568053693722861],&quot;heading&quot;:[-0.08468457648390754,0.9964078093359873],&quot;focal&quot;:1.4417799975983796,&quot;white_long_axis_angle_from_horizontal_deg&quot;:91.43333211211248,&quot;camera_offset_from_person&quot;:[3.954193281208884,-0.03758846648130855],&quot;aim&quot;:[12.670182979817172,3.6522132565696968],&quot;white_long_axis_deviation_from_vertical_deg&quot;:1.4333321121124811},{&quot;percentage&quot;:47,&quot;source_t&quot;:13.365,&quot;person&quot;:[12.664399618618182,3.6939328157090907],&quot;camera&quot;:[16.638364940555263,3.6725690583925656],&quot;forward&quot;:[-0.999974698659804,0.007113511104521698],&quot;heading&quot;:[-0.09188253734368848,0.9957698525920965],&quot;focal&quot;:1.445311125390625,&quot;white_long_axis_angle_from_horizontal_deg&quot;:94.51136367719687,&quot;camera_offset_from_person&quot;:[3.9739653219370803,-0.021363757316525005],&quot;aim&quot;:[12.664974761368182,3.7008345287090907],&quot;white_long_axis_deviation_from_vertical_deg&quot;:4.511363677196869},{&quot;percentage&quot;:48,&quot;source_t&quot;:13.41,&quot;person&quot;:[12.659244409018182,3.7477956701090913],&quot;camera&quot;:[16.64755415266003,3.73820278022584],&quot;forward&quot;:[-0.9999949271434313,0.003185229568409499],&quot;heading&quot;:[-0.09848112511496851,0.9951389189435261],&quot;focal&quot;:1.4478871120587384,&quot;white_long_axis_angle_from_horizontal_deg&quot;:97.37239394159717,&quot;camera_offset_from_person&quot;:[3.98830974364185,-0.00959288988325107],&quot;aim&quot;:[12.65950357828207,3.750905701275758],&quot;white_long_axis_deviation_from_vertical_deg&quot;:7.372393941597167},{&quot;percentage&quot;:49,&quot;source_t&quot;:13.455,&quot;person&quot;:[12.653742489309092,3.801680087854545],&quot;camera&quot;:[16.65079010313701,3.799257393725867],&quot;forward&quot;:[-0.9999996773392107,0.0008033190364775252],&quot;heading&quot;:[-0.10449211521218768,0.9945257150312822],&quot;focal&quot;:1.4494645420970775,&quot;white_long_axis_angle_from_horizontal_deg&quot;:100.00138461340559,&quot;camera_offset_from_person&quot;:[3.9970476138279163,-0.0024226941286781423],&quot;aim&quot;:[12.653808169191036,3.8024682464378787],&quot;white_long_axis_deviation_from_vertical_deg&quot;:10.001384613405591},{&quot;percentage&quot;:50,&quot;source_t&quot;:13.5,&quot;person&quot;:[12.647927272727273,3.8555636363636365],&quot;camera&quot;:[16.647927272727273,3.8555636363636365],&quot;forward&quot;:[-1.0,0.0],&quot;heading&quot;:[-0.10992587753926089,0.9939397876366673],&quot;focal&quot;:1.45,&quot;white_long_axis_angle_from_horizontal_deg&quot;:102.38907294951088,&quot;camera_offset_from_person&quot;:[4.0,0.0],&quot;aim&quot;:[12.647927272727273,3.8555636363636365],&quot;white_long_axis_deviation_from_vertical_deg&quot;:12.389072949510876},{&quot;percentage&quot;:51,&quot;source_t&quot;:13.545,&quot;person&quot;:[12.64183217250909,3.909423883054546],&quot;camera&quot;:[16.64183217250909,3.908394283054546],&quot;forward&quot;:[-0.9999999668726216,0.000257399991472976],&quot;heading&quot;:[-0.11479133805611609,0.9933896258303117],&quot;focal&quot;:1.4496448,&quot;white_long_axis_angle_from_horizontal_deg&quot;:104.59049262542523,&quot;camera_offset_from_person&quot;:[4.0,-0.0010296000000000018],&quot;aim&quot;:[12.64183217250909,3.909423883054546],&quot;white_long_axis_deviation_from_vertical_deg&quot;:14.590492625425227},{&quot;percentage&quot;:52,&quot;source_t&quot;:13.59,&quot;person&quot;:[12.635490601890911,3.963238395345455],&quot;camera&quot;:[16.63549060189091,3.959161595345455],&quot;forward&quot;:[-0.9999994806160846,0.0010191994706439114],&quot;heading&quot;:[-0.11909594322564089,0.9928827505336142],&quot;focal&quot;:1.4485983999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:106.66534586711904,&quot;camera_offset_from_person&quot;:[4.0,-0.004076800000000007],&quot;aim&quot;:[12.635490601890911,3.963238395345455],&quot;white_long_axis_deviation_from_vertical_deg&quot;:16.665345867119044},{&quot;percentage&quot;:53,&quot;source_t&quot;:13.635,&quot;person&quot;:[12.62893597410909,4.016984740654544],&quot;camera&quot;:[16.62893597410909,4.007905540654543],&quot;forward&quot;:[-0.9999974240139337,0.002269794153026926],&quot;heading&quot;:[-0.12284562541843665,0.992425791843175],&quot;focal&quot;:1.4468896,&quot;white_long_axis_angle_from_horizontal_deg&quot;:108.6161642990884,&quot;camera_offset_from_person&quot;:[4.0,-0.009079200000000016],&quot;aim&quot;:[12.62893597410909,4.016984740654544],&quot;white_long_axis_deviation_from_vertical_deg&quot;:18.616164299088396},{&quot;percentage&quot;:54,&quot;source_t&quot;:13.68,&quot;person&quot;:[12.6222017024,4.0706404864],&quot;camera&quot;:[16.622201702399998,4.0546660864],&quot;forward&quot;:[-0.9999920256749059,0.003993568153735348],&quot;heading&quot;:[-0.12604476758226396,0.9920245544164384],&quot;focal&quot;:1.4445472,&quot;white_long_axis_angle_from_horizontal_deg&quot;:110.44661413237782,&quot;camera_offset_from_person&quot;:[4.0,-0.015974400000000027],&quot;aim&quot;:[12.6222017024,4.0706404864],&quot;white_long_axis_deviation_from_vertical_deg&quot;:20.446614132377817},{&quot;percentage&quot;:55,&quot;source_t&quot;:13.725,&quot;person&quot;:[12.6153212,4.124183199999999],&quot;camera&quot;:[16.6153212,4.099483199999999],&quot;forward&quot;:[-0.9999809352327119,0.006174882275062038],&quot;heading&quot;:[-0.12869616566944497,0.9916840711345437],&quot;focal&quot;:1.4416,&quot;white_long_axis_angle_from_horizontal_deg&quot;:112.16119221812144,&quot;camera_offset_from_person&quot;:[4.0,-0.024700000000000045],&quot;aim&quot;:[12.6153212,4.124183199999999],&quot;white_long_axis_deviation_from_vertical_deg&quot;:22.161192218121442},{&quot;percentage&quot;:56,&quot;source_t&quot;:13.77,&quot;person&quot;:[12.608327880145456,4.177590448872727],&quot;camera&quot;:[16.608327880145456,4.1423968488727265],&quot;forward&quot;:[-0.9999612963257976,0.008798059469592992],&quot;heading&quot;:[-0.1308009874735161,0.9914086451488877],&quot;focal&quot;:1.4380768,&quot;white_long_axis_angle_from_horizontal_deg&quot;:113.76496436085014,&quot;camera_offset_from_person&quot;:[4.0,-0.03519360000000007],&quot;aim&quot;:[12.608327880145456,4.177590448872727],&quot;white_long_axis_deviation_from_vertical_deg&quot;:23.764964360850144},{&quot;percentage&quot;:57,&quot;source_t&quot;:13.815,&quot;person&quot;:[12.601255156072726,4.230839800436362],&quot;camera&quot;:[16.601255156072725,4.183447000436362],&quot;forward&quot;:[-0.9999298174674532,0.01184736846331786],&quot;heading&quot;:[-0.13235872665381648,0.9912018802840218],&quot;focal&quot;:1.4340064,&quot;white_long_axis_angle_from_horizontal_deg&quot;:115.26334760693719,&quot;camera_offset_from_person&quot;:[4.0,-0.04739279999999994],&quot;aim&quot;:[12.601255156072726,4.230839800436362],&quot;white_long_axis_deviation_from_vertical_deg&quot;:25.263347606937188},{&quot;percentage&quot;:58,&quot;source_t&quot;:13.86,&quot;person&quot;:[12.594136441018183,4.28390882210909],&quot;camera&quot;:[16.594136441018183,4.222673622109091],&quot;forward&quot;:[-0.9998828409138739,0.015307006434982213],&quot;heading&quot;:[-0.1333671508340002,0.9910666996112931],&quot;focal&quot;:1.4294176,&quot;white_long_axis_angle_from_horizontal_deg&quot;:116.66193463713532,&quot;camera_offset_from_person&quot;:[4.0,-0.06123519999999995],&quot;aim&quot;:[12.594136441018183,4.28390882210909],&quot;white_long_axis_deviation_from_vertical_deg&quot;:26.661934637135317},{&quot;percentage&quot;:59,&quot;source_t&quot;:13.905,&quot;person&quot;:[12.587005148218182,4.33677508130909],&quot;camera&quot;:[16.587005148218182,4.26011668130909],&quot;forward&quot;:[-0.9998164096239381,0.019161081563879013],&quot;heading&quot;:[-0.1338222427466918,0.9910053518252288],&quot;focal&quot;:1.4243392,&quot;white_long_axis_angle_from_horizontal_deg&quot;:117.96635626025602,&quot;camera_offset_from_person&quot;:[4.0,-0.07665839999999995],&quot;aim&quot;:[12.587005148218182,4.33677508130909],&quot;white_long_axis_deviation_from_vertical_deg&quot;:27.96635626025602},{&quot;percentage&quot;:60,&quot;source_t&quot;:13.95,&quot;person&quot;:[12.579894690909091,4.389416145454545],&quot;camera&quot;:[16.579894690909093,4.295816145454545],&quot;forward&quot;:[-0.9997263323819539,0.023393596177737796],&quot;heading&quot;:[-0.13371813347608363,0.9910194048451686],&quot;focal&quot;:1.4188,&quot;white_long_axis_angle_from_horizontal_deg&quot;:119.18217697676978,&quot;camera_offset_from_person&quot;:[4.0,-0.09359999999999995],&quot;aim&quot;:[12.579894690909091,4.389416145454545],&quot;white_long_axis_deviation_from_vertical_deg&quot;:29.18217697676978},{&quot;percentage&quot;:61,&quot;source_t&quot;:13.995000000000001,&quot;person&quot;:[12.572838482327274,4.441809581963637],&quot;camera&quot;:[16.572838482327274,4.329811981963638],&quot;forward&quot;:[-0.9996082471255956,0.0279884311545683],&quot;heading&quot;:[-0.13304702691903972,0.9911097258265628],&quot;focal&quot;:1.4128288,&quot;white_long_axis_angle_from_horizontal_deg&quot;:120.3148183187909,&quot;camera_offset_from_person&quot;:[4.0,-0.11199759999999997],&quot;aim&quot;:[12.572838482327274,4.441809581963637],&quot;white_long_axis_deviation_from_vertical_deg&quot;:30.3148183187909},{&quot;percentage&quot;:62,&quot;source_t&quot;:14.04,&quot;person&quot;:[12.565869935709092,4.493932958254544],&quot;camera&quot;:[16.56586993570909,4.362144158254544],&quot;forward&quot;:[-0.9994576824877228,0.032929332156459455],&quot;heading&quot;:[-0.13179911466106622,0.9912764464943971],&quot;focal&quot;:1.4064543999999999,&quot;white_long_axis_angle_from_horizontal_deg&quot;:121.36950489461363,&quot;camera_offset_from_person&quot;:[4.0,-0.13178879999999996],&quot;aim&quot;:[12.565869935709092,4.493932958254544],&quot;white_long_axis_deviation_from_vertical_deg&quot;:31.369504894613627},{&quot;percentage&quot;:63,&quot;source_t&quot;:14.085,&quot;person&quot;:[12.559022464290909,4.545763841745456],&quot;camera&quot;:[16.55902246429091,4.392852641745455],&quot;forward&quot;:[-0.9992701175245903,0.03819989819870656],&quot;heading&quot;:[-0.12996248054490828,0.9915189124018836],&quot;focal&quot;:1.3997055999999999,&quot;white_long_axis_angle_from_horizontal_deg&quot;:122.35122855796168,&quot;camera_offset_from_person&quot;:[4.0,-0.15291120000000002],&quot;aim&quot;:[12.559022464290909,4.545763841745456],&quot;white_long_axis_deviation_from_vertical_deg&quot;:32.351228557961676},{&quot;percentage&quot;:64,&quot;source_t&quot;:14.129999999999999,&quot;person&quot;:[12.552329481309092,4.597279799854544],&quot;camera&quot;:[16.552329481309094,4.421977399854544],&quot;forward&quot;:[-0.999041039565838,0.043783572983596475],&quot;heading&quot;:[-0.12752299431811012,0.9918356143636622],&quot;focal&quot;:1.3926112,&quot;white_long_axis_angle_from_horizontal_deg&quot;:123.26472673480862,&quot;camera_offset_from_person&quot;:[4.0,-0.17530240000000002],&quot;aim&quot;:[12.552329481309092,4.597279799854544],&quot;white_long_axis_deviation_from_vertical_deg&quot;:33.26472673480862},{&quot;percentage&quot;:65,&quot;source_t&quot;:14.175,&quot;person&quot;:[12.5458244,4.648458400000001],&quot;camera&quot;:[16.5458244,4.449558400000001],&quot;forward&quot;:[-0.9987660000851515,0.04966363935423417],&quot;heading&quot;:[-0.12446419388242544,0.9922240999094902],&quot;focal&quot;:1.3852,&quot;white_long_axis_angle_from_horizontal_deg&quot;:124.11447157705244,&quot;camera_offset_from_person&quot;:[4.0,-0.19890000000000008],&quot;aim&quot;:[12.5458244,4.648458400000001],&quot;white_long_axis_deviation_from_vertical_deg&quot;:34.11447157705244},{&quot;percentage&quot;:66,&quot;source_t&quot;:14.22,&quot;person&quot;:[12.539540633599998,4.699277209600001],&quot;camera&quot;:[16.539540633599998,4.475635609600001],&quot;forward&quot;:[-0.9984406684560998,0.05582321714964784],&quot;heading&quot;:[-0.12076715586166827,0.9926808621430573],&quot;focal&quot;:1.3775008,&quot;white_long_axis_angle_from_horizontal_deg&quot;:124.90466721499492,&quot;camera_offset_from_person&quot;:[4.0,-0.2236416000000001],&quot;aim&quot;:[12.539540633599998,4.699277209600001],&quot;white_long_axis_deviation_from_vertical_deg&quot;:34.904667214994916},{&quot;percentage&quot;:67,&quot;source_t&quot;:14.265,&quot;person&quot;:[12.533511595345455,4.749713796072728],&quot;camera&quot;:[16.533511595345455,4.500248996072727],&quot;forward&quot;:[-0.9980608834266651,0.06224526466796412],&quot;heading&quot;:[-0.11641035446596551,0.9932012028653148],&quot;focal&quot;:1.3695423999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:125.63925291965353,&quot;camera_offset_from_person&quot;:[4.0,-0.24946480000000007],&quot;aim&quot;:[12.533511595345455,4.749713796072728],&quot;white_long_axis_deviation_from_vertical_deg&quot;:35.63925291965353},{&quot;percentage&quot;:68,&quot;source_t&quot;:14.31,&quot;person&quot;:[12.527770698472727,4.799745726836364],&quot;camera&quot;:[16.52777069847273,4.523438526836364],&quot;forward&quot;:[-0.9976227021195896,0.06891258386977438],&quot;heading&quot;:[-0.11136950899364788,0.9937790662247387],&quot;focal&quot;:1.3613536,&quot;white_long_axis_angle_from_horizontal_deg&quot;:126.32191044963135,&quot;camera_offset_from_person&quot;:[4.0,-0.27630720000000014],&quot;aim&quot;:[12.527770698472727,4.799745726836364],&quot;white_long_axis_deviation_from_vertical_deg&quot;:36.321910449631346},{&quot;percentage&quot;:69,&quot;source_t&quot;:14.355,&quot;person&quot;:[12.522351356218184,4.849350569309092],&quot;camera&quot;:[16.522351356218184,4.5452441693090915],&quot;forward&quot;:[-0.9971224463448817,0.07580782937928383],&quot;heading&quot;:[-0.10561742080805046,0.9944068384830502],&quot;focal&quot;:1.3529632,&quot;white_long_axis_angle_from_horizontal_deg&quot;:126.956074244865,&quot;camera_offset_from_person&quot;:[4.0,-0.3041063999999999],&quot;aim&quot;:[12.522351356218184,4.849350569309092],&quot;white_long_axis_deviation_from_vertical_deg&quot;:36.95607424486499},{&quot;percentage&quot;:70,&quot;source_t&quot;:14.4,&quot;person&quot;:[12.517286981818181,4.8985058909090915],&quot;camera&quot;:[16.51728698181818,4.565705890909092],&quot;forward&quot;:[-0.9965567459964947,0.0829135212669083],&quot;heading&quot;:[-0.09912380130058096,0.995075108730855],&quot;focal&quot;:1.3444,&quot;white_long_axis_angle_from_horizontal_deg&quot;:127.54494344645836,&quot;camera_offset_from_person&quot;:[4.0,-0.3327999999999999],&quot;aim&quot;:[12.517286981818181,4.8985058909090915],&quot;white_long_axis_deviation_from_vertical_deg&quot;:37.54494344645836},{&quot;percentage&quot;:71,&quot;source_t&quot;:14.445,&quot;person&quot;:[12.512610988509092,4.9471892590545465],&quot;camera&quot;:[16.512610988509092,4.584863659054546],&quot;forward&quot;:[-0.9959225792979662,0.09021206152442084],&quot;heading&quot;:[-0.09185509325758913,0.9957723845551449],&quot;focal&quot;:1.3356928,&quot;white_long_axis_angle_from_horizontal_deg&quot;:128.0914949762916,&quot;camera_offset_from_person&quot;:[4.0,-0.3623255999999999],&quot;aim&quot;:[12.512610988509092,4.9471892590545465],&quot;white_long_axis_deviation_from_vertical_deg&quot;:38.091494976291614},{&quot;percentage&quot;:72,&quot;source_t&quot;:14.49,&quot;person&quot;:[12.508356789527273,4.995378241163637],&quot;camera&quot;:[16.508356789527273,4.602757441163638],&quot;forward&quot;:[-0.9952173096621266,0.09768575407334786],&quot;heading&quot;:[-0.08377428926220573,0.9964847557582667],&quot;focal&quot;:1.3268704,&quot;white_long_axis_angle_from_horizontal_deg&quot;:128.59849711141433,&quot;camera_offset_from_person&quot;:[4.0,-0.3926207999999999],&quot;aim&quot;:[12.508356789527273,4.995378241163637],&quot;white_long_axis_deviation_from_vertical_deg&quot;:38.59849711141433},{&quot;percentage&quot;:73,&quot;source_t&quot;:14.535,&quot;person&quot;:[12.50455779810909,5.043050404654545],&quot;camera&quot;:[16.50455779810909,4.619427204654545],&quot;forward&quot;:[-0.9944387189380474,0.105316828080109],&quot;heading&quot;:[-0.0748407523628274,0.9971954982779283],&quot;focal&quot;:1.3179615999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:129.0685231453773,&quot;camera_offset_from_person&quot;:[4.0,-0.4236232],&quot;aim&quot;:[12.50455779810909,5.043050404654545],&quot;white_long_axis_deviation_from_vertical_deg&quot;:39.0685231453773},{&quot;percentage&quot;:74,&quot;source_t&quot;:14.58,&quot;person&quot;:[12.50124742749091,5.090183316945455],&quot;camera&quot;:[16.50124742749091,4.6349129169454555],&quot;forward&quot;:[-0.9935850368342029,0.11308746428838053],&quot;heading&quot;:[-0.06501004634643673,0.9978846094985301],&quot;focal&quot;:1.3089952,&quot;white_long_axis_angle_from_horizontal_deg&quot;:129.5039648498197,&quot;camera_offset_from_person&quot;:[4.0,-0.4552704],&quot;aim&quot;:[12.50124742749091,5.090183316945455],&quot;white_long_axis_deviation_from_vertical_deg&quot;:39.50396484981971},{&quot;percentage&quot;:75,&quot;source_t&quot;:14.625,&quot;person&quot;:[12.49845909090909,5.136754545454546],&quot;camera&quot;:[16.49845909090909,4.649254545454546],&quot;forward&quot;:[-0.9926549663300601,0.12097982402147603],&quot;heading&quot;:[-0.05423378569173922,0.998528265243174],&quot;focal&quot;:1.2999999999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:129.90704554190384,&quot;camera_offset_from_person&quot;:[4.0,-0.48750000000000004],&quot;aim&quot;:[12.49845909090909,5.136754545454546],&quot;white_long_axis_deviation_from_vertical_deg&quot;:39.90704554190384},{&quot;percentage&quot;:76,&quot;source_t&quot;:14.67,&quot;person&quot;:[12.496226201599999,5.1827416576],&quot;camera&quot;:[16.4962262016,4.662492057600001],&quot;forward&quot;:[-0.9916477049185145,0.12897608045619371],&quot;heading&quot;:[-0.04245951880534239,0.9990981879989668],&quot;focal&quot;:1.2910047999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:130.2798326325737,&quot;camera_offset_from_person&quot;:[4.0,-0.5202496],&quot;aim&quot;:[12.496226201599999,5.1827416576],&quot;white_long_axis_deviation_from_vertical_deg&quot;:40.27983263257369},{&quot;percentage&quot;:77,&quot;source_t&quot;:14.715,&quot;person&quot;:[12.4945821728,5.2281222207999996],&quot;camera&quot;:[16.4945821728,4.674665420799999],&quot;forward&quot;:[-0.9905629615580122,0.13705845172560507],&quot;heading&quot;:[-0.02963066264876939,0.9995609155179063],&quot;focal&quot;:1.2820383999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:130.6242495820375,&quot;camera_offset_from_person&quot;:[4.0,-0.5534568000000002],&quot;aim&quot;:[12.4945821728,5.2281222207999996],&quot;white_long_axis_deviation_from_vertical_deg&quot;:40.62424958203749},{&quot;percentage&quot;:78,&quot;source_t&quot;:14.76,&quot;person&quot;:[12.493560417745455,5.272873802472726],&quot;camera&quot;:[16.493560417745456,4.685814602472726],&quot;forward&quot;:[-0.9894009692548988,0.14520923537250147],&quot;heading&quot;:[-0.01568651254069168,0.9998769590926229],&quot;focal&quot;:1.2731295999999999,&quot;white_long_axis_angle_from_horizontal_deg&quot;:130.94208722634104,&quot;camera_offset_from_person&quot;:[4.0,-0.5870592000000002],&quot;aim&quot;:[12.493560417745455,5.272873802472726],&quot;white_long_axis_deviation_from_vertical_deg&quot;:40.942087226341044},{&quot;percentage&quot;:79,&quot;source_t&quot;:14.805,&quot;person&quot;:[12.493194349672727,5.316973970036363],&quot;camera&quot;:[16.493194349672727,4.6959795700363625],&quot;forward&quot;:[-0.9881624932424259,0.15341084364839627],&quot;heading&quot;:[-0.0005623579854709474,0.9999998418767355],&quot;focal&quot;:1.2643072,&quot;white_long_axis_angle_from_horizontal_deg&quot;:131.2350144656097,&quot;camera_offset_from_person&quot;:[4.0,-0.6209944000000003],&quot;aim&quot;:[12.493194349672727,5.316973970036363],&quot;white_long_axis_deviation_from_vertical_deg&quot;:41.23501446560971},{&quot;percentage&quot;:80,&quot;source_t&quot;:14.85,&quot;person&quot;:[12.493517381818181,5.360400290909091],&quot;camera&quot;:[16.49351738181818,4.705200290909091],&quot;forward&quot;:[-0.9868488347716429,0.16164583913559513],&quot;heading&quot;:[0.015810255984587563,0.9998750100916124],&quot;focal&quot;:1.2555999999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:131.50458832302937,&quot;camera_offset_from_person&quot;:[4.0,-0.6552000000000001],&quot;aim&quot;:[12.493517381818181,5.360400290909091],&quot;white_long_axis_deviation_from_vertical_deg&quot;:41.50458832302937},{&quot;percentage&quot;:81,&quot;source_t&quot;:14.895,&quot;person&quot;:[12.494562927418182,5.40313033250909],&quot;camera&quot;:[16.49456292741818,4.713516732509089],&quot;forward&quot;:[-0.9854618305798101,0.16989697016218339],&quot;heading&quot;:[0.033503072120577515,0.9994386145024032],&quot;focal&quot;:1.2470367999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:131.75226339590066,&quot;camera_offset_from_person&quot;:[4.0,-0.6896136000000004],&quot;aim&quot;:[12.494562927418182,5.40313033250909],&quot;white_long_axis_deviation_from_vertical_deg&quot;:41.752263395900655},{&quot;percentage&quot;:82,&quot;source_t&quot;:14.94,&quot;person&quot;:[12.49636439970909,5.445141662254545],&quot;camera&quot;:[16.49636439970909,4.720968862254545],&quot;forward&quot;:[-0.9840038481525403,0.17814720548184992],&quot;heading&quot;:[0.05259040705917653,0.9986161670458525],&quot;focal&quot;:1.2386464,&quot;white_long_axis_angle_from_horizontal_deg&quot;:131.97940072769444,&quot;camera_offset_from_person&quot;:[4.0,-0.7241728],&quot;aim&quot;:[12.49636439970909,5.445141662254545],&quot;white_long_axis_deviation_from_vertical_deg&quot;:41.97940072769444},{&quot;percentage&quot;:83,&quot;source_t&quot;:14.985,&quot;person&quot;:[12.498955211927273,5.486411847563637],&quot;camera&quot;:[16.498955211927274,4.7275966475636375],&quot;forward&quot;:[-0.9824777769452713,0.18637976770207024],&quot;heading&quot;:[0.0721276726808213,0.9973954074656892],&quot;focal&quot;:1.2304576,&quot;white_long_axis_angle_from_horizontal_deg&quot;:132.18727613415874,&quot;camera_offset_from_person&quot;:[4.0,-0.7588151999999999],&quot;aim&quot;:[12.498955211927273,5.486411847563637],&quot;white_long_axis_deviation_from_vertical_deg&quot;:42.187276134158736},{&quot;percentage&quot;:84,&quot;source_t&quot;:15.03,&quot;person&quot;:[12.502152824242424,5.527045404713805],&quot;camera&quot;:[16.502152824242422,4.733567004713805],&quot;forward&quot;:[-0.9808870157765058,0.19457816496477917],&quot;heading&quot;:[0.078424677119337,0.9969200419385337],&quot;focal&quot;:1.2224992,&quot;white_long_axis_angle_from_horizontal_deg&quot;:132.38020068810675,&quot;camera_offset_from_person&quot;:[4.0,-0.7934784000000001],&quot;aim&quot;:[12.502152824242424,5.527045404713805],&quot;white_long_axis_deviation_from_vertical_deg&quot;:42.380200688106754},{&quot;percentage&quot;:85,&quot;source_t&quot;:15.075,&quot;person&quot;:[12.505274242424242,5.567444297138046],&quot;camera&quot;:[16.505274242424242,4.739344297138046],&quot;forward&quot;:[-0.9792354566483056,0.20272622041261548],&quot;heading&quot;:[0.07565195792595063,0.9971342844682306],&quot;focal&quot;:1.2147999999999999,&quot;white_long_axis_angle_from_horizontal_deg&quot;:132.569627677611,&quot;camera_offset_from_person&quot;:[4.0,-0.8280999999999998],&quot;aim&quot;:[12.505274242424242,5.567444297138046],&quot;white_long_axis_deviation_from_vertical_deg&quot;:42.56962767761101},{&quot;percentage&quot;:86,&quot;source_t&quot;:15.120000000000001,&quot;person&quot;:[12.508268024242424,5.607642871380471],&quot;camera&quot;:[16.508268024242426,4.745025271380471],&quot;forward&quot;:[-0.9775274652876687,0.21080809901013292],&quot;heading&quot;:[0.0728925491613622,0.9973397998058426],&quot;focal&quot;:1.2073888,&quot;white_long_axis_angle_from_horizontal_deg&quot;:132.75785302853754,&quot;camera_offset_from_person&quot;:[4.0,-0.8626176000000003],&quot;aim&quot;:[12.508268024242424,5.607642871380471],&quot;white_long_axis_deviation_from_vertical_deg&quot;:42.75785302853754},{&quot;percentage&quot;:87,&quot;source_t&quot;:15.165,&quot;person&quot;:[12.51113613333333,5.6476442092592585],&quot;camera&quot;:[16.51113613333333,4.750675409259259],&quot;forward&quot;:[-0.9757678587347111,0.2188083313319608],&quot;heading&quot;:[0.07014740593684425,0.9975366366406457],&quot;focal&quot;:1.2002944,&quot;white_long_axis_angle_from_horizontal_deg&quot;:132.9463598950559,&quot;camera_offset_from_person&quot;:[4.0,-0.8969688],&quot;aim&quot;:[12.51113613333333,5.6476442092592585],&quot;white_long_axis_deviation_from_vertical_deg&quot;:42.946359895055906},{&quot;percentage&quot;:88,&quot;source_t&quot;:15.21,&quot;person&quot;:[12.513880533333333,5.687451392592593],&quot;camera&quot;:[16.513880533333335,4.756360192592593],&quot;forward&quot;:[-0.9739618803292833,0.2267118339775121],&quot;heading&quot;:[0.06741749311341041,0.9977248526634501],&quot;focal&quot;:1.1935456,&quot;white_long_axis_angle_from_horizontal_deg&quot;:133.13659005156205,&quot;camera_offset_from_person&quot;:[4.0,-0.9310912],&quot;aim&quot;:[12.513880533333333,5.687451392592593],&quot;white_long_axis_deviation_from_vertical_deg&quot;:43.13659005156205},{&quot;percentage&quot;:89,&quot;source_t&quot;:15.254999999999999,&quot;person&quot;:[12.516503187878788,5.727067503198653],&quot;camera&quot;:[16.51650318787879,4.7621451031986535],&quot;forward&quot;:[-0.9721151724662237,0.23450392632313047],&quot;heading&quot;:[0.06470378467931792,0.9979045145945441],&quot;focal&quot;:1.1871711999999999,&quot;white_long_axis_angle_from_horizontal_deg&quot;:133.32994451066924,&quot;camera_offset_from_person&quot;:[4.0,-0.9649223999999998],&quot;aim&quot;:[12.516503187878788,5.727067503198653],&quot;white_long_axis_deviation_from_vertical_deg&quot;:43.329944510669236},{&quot;percentage&quot;:90,&quot;source_t&quot;:15.3,&quot;person&quot;:[12.51900606060606,5.766495622895623],&quot;camera&quot;:[16.51900606060606,4.768095622895623],&quot;forward&quot;:[-0.9702337475006096,0.2421703433761522],&quot;heading&quot;:[0.06200726310361685,0.9980756981924762],&quot;focal&quot;:1.1811999999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:133.52778337349883,&quot;camera_offset_from_person&quot;:[4.0,-0.9984000000000003],&quot;aim&quot;:[12.51900606060606,5.766495622895623],&quot;white_long_axis_deviation_from_vertical_deg&quot;:43.527783373498835},{&quot;percentage&quot;:91,&quot;source_t&quot;:15.344999999999999,&quot;person&quot;:[12.521391115151516,5.805738833501682],&quot;camera&quot;:[16.521391115151516,4.774277233501682],&quot;forward&quot;:[-0.9683239571879886,0.24969724454986358],&quot;heading&quot;:[0.05932891866562874,0.9982384882431489],&quot;focal&quot;:1.1756608,&quot;white_long_axis_angle_from_horizontal_deg&quot;:133.7314249250311,&quot;camera_offset_from_person&quot;:[4.0,-1.0314616],&quot;aim&quot;:[12.521391115151516,5.805738833501682],&quot;white_long_axis_deviation_from_vertical_deg&quot;:43.73142492503109},{&quot;percentage&quot;:92,&quot;source_t&quot;:15.39,&quot;person&quot;:[12.523660315151515,5.844800216835018],&quot;camera&quot;:[16.523660315151517,4.780755416835017],&quot;forward&quot;:[-0.9663924610408036,0.2570712182324174],&quot;heading&quot;:[0.05666974876257424,0.9983929785285885],&quot;focal&quot;:1.1705823999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:133.9421439907653,&quot;camera_offset_from_person&quot;:[4.0,-1.0640448000000005],&quot;aim&quot;:[12.523660315151515,5.844800216835018],&quot;white_long_axis_deviation_from_vertical_deg&quot;:43.94214399076529},{&quot;percentage&quot;:93,&quot;source_t&quot;:15.434999999999999,&quot;person&quot;:[12.525815624242425,5.883682854713804],&quot;camera&quot;:[16.525815624242426,4.7875956547138045],&quot;forward&quot;:[-0.9644461939713528,0.264279282075179],&quot;heading&quot;:[0.05403075719424944,0.9985392717750344],&quot;focal&quot;:1.1659936,&quot;white_long_axis_angle_from_horizontal_deg&quot;:134.1611695761043,&quot;camera_offset_from_person&quot;:[4.0,-1.0960872],&quot;aim&quot;:[12.525815624242425,5.883682854713804],&quot;white_long_axis_deviation_from_vertical_deg&quot;:44.1611695761043},{&quot;percentage&quot;:94,&quot;source_t&quot;:15.48,&quot;person&quot;:[12.527859006060606,5.922389828956229],&quot;camera&quot;:[16.527859006060606,4.794863428956229],&quot;forward&quot;:[-0.9624923335741414,0.2713088789756127],&quot;heading&quot;:[0.051412953427155524,0.9986774795798177],&quot;focal&quot;:1.1619232,&quot;white_long_axis_angle_from_horizontal_deg&quot;:134.3896818167625,&quot;camera_offset_from_person&quot;:[4.0,-1.1275263999999998],&quot;aim&quot;:[12.527859006060606,5.922389828956229],&quot;white_long_axis_deviation_from_vertical_deg&quot;:44.389681816762504},{&quot;percentage&quot;:95,&quot;source_t&quot;:15.525,&quot;person&quot;:[12.529792424242425,5.960924221380472],&quot;camera&quot;:[16.529792424242423,4.802624221380471],&quot;forward&quot;:[-0.9605382673769662,0.27814786877568526],&quot;heading&quot;:[0.04881735183779312,0.9988077223167355],&quot;focal&quot;:1.1583999999999999,&quot;white_long_axis_angle_from_horizontal_deg&quot;:134.62880827705274,&quot;camera_offset_from_person&quot;:[4.0,-1.1583],&quot;aim&quot;:[12.529792424242425,5.960924221380472],&quot;white_long_axis_deviation_from_vertical_deg&quot;:44.62880827705274},{&quot;percentage&quot;:96,&quot;source_t&quot;:15.57,&quot;person&quot;:[12.531617842424245,5.999289113804714],&quot;camera&quot;:[16.531617842424247,4.810943513804714],&quot;forward&quot;:[-0.9585915603612482,0.28478451573810576],&quot;heading&quot;:[0.04624497093727622,0.9989301290195478],&quot;focal&quot;:1.1554528,&quot;white_long_axis_angle_from_horizontal_deg&quot;:134.87961964308306,&quot;camera_offset_from_person&quot;:[4.0,-1.1883456000000001],&quot;aim&quot;:[12.531617842424245,5.999289113804714],&quot;white_long_axis_deviation_from_vertical_deg&quot;:44.87961964308306},{&quot;percentage&quot;:97,&quot;source_t&quot;:15.615,&quot;person&quot;:[12.533337224242425,6.037487588047138],&quot;camera&quot;:[16.533337224242423,4.819886788047137],&quot;forward&quot;:[-0.9566599230187572,0.29120747189889457],&quot;heading&quot;:[0.04369683257690781,0.9990448372434271],&quot;focal&quot;:1.1531103999999999,&quot;white_long_axis_angle_from_horizontal_deg&quot;:135.1431248695419,&quot;camera_offset_from_person&quot;:[4.0,-1.2176008],&quot;aim&quot;:[12.533337224242425,6.037487588047138],&quot;white_long_axis_deviation_from_vertical_deg&quot;:45.14312486954191},{&quot;percentage&quot;:98,&quot;source_t&quot;:15.66,&quot;person&quot;:[12.534952533333334,6.075522725925927],&quot;camera&quot;:[16.534952533333332,4.829519525925927],&quot;forward&quot;:[-0.9547511801747358,0.29740575642537437],&quot;heading&quot;:[0.041173961136688864,0.9991519929041399],&quot;focal&quot;:1.1514015999999998,&quot;white_long_axis_angle_from_horizontal_deg&quot;:135.420265851681,&quot;camera_offset_from_person&quot;:[4.0,-1.2460031999999999],&quot;aim&quot;:[12.534952533333334,6.075522725925927],&quot;white_long_axis_deviation_from_vertical_deg&quot;:45.420265851680995},{&quot;percentage&quot;:99,&quot;source_t&quot;:15.705,&quot;person&quot;:[12.536465733333335,6.113397609259259],&quot;camera&quot;:[16.536465733333337,4.839907209259259],&quot;forward&quot;:[-0.9528732407673316,0.30336873113352125],&quot;heading&quot;:[0.038677382698245236,0.9992517500948465],&quot;focal&quot;:1.1503552,&quot;white_long_axis_angle_from_horizontal_deg&quot;:135.71191170803704,&quot;camera_offset_from_person&quot;:[4.0,-1.2734904],&quot;aim&quot;:[12.536465733333335,6.113397609259259],&quot;white_long_axis_deviation_from_vertical_deg&quot;:45.711911708037036},{&quot;percentage&quot;:100,&quot;source_t&quot;:15.75,&quot;person&quot;:[12.537878787878787,6.15111531986532],&quot;camera&quot;:[16.53787878787879,4.85111531986532],&quot;forward&quot;:[-0.9510340687309481,0.30908607233755797],&quot;heading&quot;:[0.03620812420188667,0.9993442708805513],&quot;focal&quot;:1.15,&quot;white_long_axis_angle_from_horizontal_deg&quot;:136.01885277401868,&quot;camera_offset_from_person&quot;:[4.0,-1.3],&quot;aim&quot;:[12.537878787878787,6.15111531986532],&quot;white_long_axis_deviation_from_vertical_deg&quot;:46.01885277401868}],&quot;road_z&quot;:[2.5,5.4],&quot;company_z&quot;:8.8,&quot;company_x&quot;:[-6,20],&quot;door_x&quot;:[11.7,13.3],&quot;eye_height&quot;:1.3,&quot;horizon&quot;:0.42,&quot;fixed_world_geometry&quot;:true,&quot;coordinate_units&quot;:&quot;schematic relative units; not surveyed&quot;,&quot;stage&quot;:&quot;new_camera_only_proposal_pending_user_review&quot;}&lt;/script&gt;
+  &lt;script&gt;
+    (() =&gt; {
+      const root = document.getElementById(&#x27;mira-f04-camera-proposal-20261020&#x27;);
+      const data = JSON.parse(root.querySelector(&#x27;[data-model]&#x27;).textContent);
+      const view = root.querySelector(&#x27;.perspective&#x27;);
+      const plan = root.querySelector(&#x27;.plan&#x27;);
+      const slider = root.querySelector(&#x27;input&#x27;);
+      const ns = &#x27;http://www.w3.org/2000/svg&#x27;;
+      let progress = 50;
+      const saved = window.openai?.widgetState?.privateContent?.progress;
+      if (Number.isFinite(saved)) progress = Math.max(0,Math.min(100,Math.round(saved)));
+      function element(parent,name,attributes={}) {
+        const node=document.createElementNS(ns,name);
+        Object.entries(attributes).forEach(([key,value])=&gt;node.setAttribute(key,String(value)));
+        parent.appendChild(node); return node;
+      }
+      function project(point,frame,w,h) {
+        const dx=point[0]-frame.camera[0], dz=point[2]-frame.camera[1];
+        const depth=dx*frame.forward[0]+dz*frame.forward[1];
+        if(depth&lt;=.16) return null;
+        return [w*.5+(dx*frame.forward[1]-dz*frame.forward[0])*h*frame.focal/depth,
+          h*data.horizon-(point[1]-data.eye_height)*h*frame.focal/depth];
+      }
+      function clip(points,frame) {
+        const depth=p=&gt;(p[0]-frame.camera[0])*frame.forward[0]+(p[2]-frame.camera[1])*frame.forward[1]-.17;
+        const out=[];
+        points.forEach((b,i)=&gt;{
+          const a=points[(i+points.length-1)%points.length], da=depth(a), db=depth(b);
+          if((da&gt;=0)!==(db&gt;=0)) {const u=da/(da-db);out.push(a.map((v,k)=&gt;v+(b[k]-v)*u));}
+          if(db&gt;=0)out.push(b);
+        }); return out;
+      }
+      function polygon(points,frame,w,h,kind) {
+        const values=clip(points,frame).map(p=&gt;project(p,frame,w,h)).filter(Boolean);
+        if(values.length&gt;2)element(view,&#x27;polygon&#x27;,{points:values.map(p=&gt;p.join(&#x27;,&#x27;)).join(&#x27; &#x27;),class:kind});
+      }
+      function line(points,frame,w,h,kind) {
+        const values=points.map(p=&gt;project(p,frame,w,h));
+        if(values.every(Boolean))element(view,&#x27;polyline&#x27;,{points:values.map(p=&gt;p.join(&#x27;,&#x27;)).join(&#x27; &#x27;),class:kind});
+      }
+      function draw() {
+        const frame=data.frames[progress], w=view.clientWidth||300, h=w*16/9;
+        view.setAttribute(&#x27;viewBox&#x27;,`0 0 ${w} ${h}`); view.replaceChildren();
+        polygon([[-6,0,8.8],[20,0,8.8],[20,6.5,8.8],[-6,6.5,8.8]],frame,w,h,&#x27;ground&#x27;);
+        for(let x=6;x&lt;=20;x+=2)line([[x,0,8.8],[x,6.5,8.8]],frame,w,h,&#x27;scene-line&#x27;);
+        for(const y of [2.8,4.5,6.5])line([[-6,y,8.8],[20,y,8.8]],frame,w,h,&#x27;scene-line&#x27;);
+        polygon([[-6,0,2.5],[20,0,2.5],[20,0,5.4],[-6,0,5.4]],frame,w,h,&#x27;ground&#x27;);
+        data.stripes.forEach(stripe=&gt;polygon(stripe.points,frame,w,h,&#x27;paint&#x27;));
+        for(const z of data.road_z)line([[8,0,z],[18,0,z]],frame,w,h,&#x27;scene-line&#x27;);
+        const p=frame.person, f=frame.heading, side=[f[1],-f[0]];
+        const world=(l,y,a=0)=&gt;[p[0]+side[0]*l+f[0]*a,y,p[1]+side[1]*l+f[1]*a];
+        line([world(0,1.48),world(0,.86),world(-.11,.06,-.1)],frame,w,h,&#x27;actor&#x27;);
+        line([world(0,.86),world(.11,.06,.1)],frame,w,h,&#x27;actor&#x27;);
+        line([world(-.24,1.0),world(-.18,1.36),world(.18,1.36),world(.24,1.0)],frame,w,h,&#x27;actor&#x27;);
+        const head=project(world(0,1.58),frame,w,h), top=project(world(0,1.70),frame,w,h), low=project(world(0,1.48),frame,w,h);
+        if(head&amp;&amp;top&amp;&amp;low)element(view,&#x27;ellipse&#x27;,{cx:head[0],cy:head[1],rx:Math.abs(low[1]-top[1])*.33,ry:Math.abs(low[1]-top[1])*.5,class:&#x27;actor-dot&#x27;});
+        const mw=plan.clientWidth||270,mh=270;
+        plan.setAttribute(&#x27;viewBox&#x27;,`0 0 ${mw} ${mh}`);plan.replaceChildren();
+        const q=(x,z)=&gt;[20+(x-8)/10*(mw-40),240-(z+1)/11*210];
+        const rect=(x0,z0,x1,z1,kind)=&gt;{const a=q(x0,z0),b=q(x1,z1);element(plan,&#x27;rect&#x27;,{x:Math.min(a[0],b[0]),y:Math.min(a[1],b[1]),width:Math.abs(b[0]-a[0]),height:Math.abs(b[1]-a[1]),class:kind});};
+        rect(8,2.5,18,5.4,&#x27;ground&#x27;);rect(8,8.8,18,9.3,&#x27;ground&#x27;);
+        data.stripes.forEach((s,i)=&gt;{rect(s.points[0][0],s.points[0][2],s.points[2][0],s.points[2][2],&#x27;paint&#x27;);const a=q(14.1,s.points[0][2]);const label=element(plan,&#x27;text&#x27;,{x:a[0],y:a[1],class:&#x27;diagram-label&#x27;});label.textContent=String(i+1);});
+        element(plan,&#x27;polyline&#x27;,{points:data.frames.map(f=&gt;q(...f.person).join(&#x27;,&#x27;)).join(&#x27; &#x27;),class:&#x27;route&#x27;});
+        const a=q(...frame.person),b=q(...frame.camera);element(plan,&#x27;line&#x27;,{x1:a[0],y1:a[1],x2:b[0],y2:b[1],class:&#x27;camera-ray&#x27;});
+        element(plan,&#x27;circle&#x27;,{cx:a[0],cy:a[1],r:5,class:&#x27;actor-dot&#x27;});element(plan,&#x27;rect&#x27;,{x:b[0]-5,y:b[1]-4,width:10,height:8,class:&#x27;camera&#x27;});
+        const company=element(plan,&#x27;text&#x27;,{x:20,y:24,class:&#x27;diagram-label&#x27;});company.textContent=&#x27;同一公司&#x27;;
+        const legend=element(plan,&#x27;text&#x27;,{x:12,y:264,class:&#x27;diagram-label&#x27;});legend.textContent=&#x27;● 人物　■ 相機　1–6 固定白線&#x27;;
+        slider.value=String(progress); root.querySelector(&#x27;[data-position]&#x27;).textContent=`${progress}%`;
+        root.querySelectorAll(&#x27;[data-at]&#x27;).forEach(b=&gt;b.setAttribute(&#x27;aria-pressed&#x27;,String(Number(b.dataset.at)===progress)));
+        root.querySelector(&#x27;[data-detail]&#x27;).textContent=progress===50?&#x27;鏡位修正提案：中景白條朝景深延伸；尚待確認。&#x27;:&#x27;固定6條白線、同一人物路線；這是新的鏡位提案。&#x27;;
+      }
+      function change(value) {progress=Math.max(0,Math.min(100,Math.round(value)));draw();window.openai?.setWidgetState?.({modelContent:{F04_route_progress:progress},privateContent:{progress}})?.catch(()=&gt;{});}
+      slider.addEventListener(&#x27;input&#x27;,e=&gt;change(Number(e.target.value)));
+      root.querySelectorAll(&#x27;[data-at]&#x27;).forEach(b=&gt;b.addEventListener(&#x27;click&#x27;,()=&gt;change(Number(b.dataset.at))));
+      window.addEventListener(&#x27;openai:set_globals&#x27;,event=&gt;{const value=event.detail?.globals?.widgetState?.privateContent?.progress;if(Number.isFinite(value)){progress=Math.max(0,Math.min(100,Math.round(value)));draw();}});
+      new ResizeObserver(draw).observe(root);draw();
+    })();
+  &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  if (window.FloatingUIDOM == null) {
+    return;
+  }
+  const { autoUpdate, computePosition, flip, offset, shift, size } =
+    window.FloatingUIDOM;
+  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipId = `codex-visualization-tooltip-${
+    window.crypto?.randomUUID?.() ?? Date.now().toString(36)
+  }`;
+  const tooltipGap = 5;
+  const hoverDelay = 700;
+  const skipDelay = 300;
+  let activeTrigger = null;
+  let pendingTrigger = null;
+  let tooltip = null;
+  let openTimeout = null;
+  let autoUpdateCleanup = null;
+  let positionRequest = 0;
+  let skipDelayUntil = 0;
+  let lastPointerWasTouch = false;
+  let pinnedByTouch = false;
+
+  const getTrigger = (event) =&gt; {
+    for (const target of event.composedPath()) {
+      if (target?.nodeType === Node.ELEMENT_NODE) {
+        const trigger = target.closest(&quot;[data-tooltip]&quot;);
+        if (trigger) return trigger;
+      }
+    }
+    return null;
+  };
+  const containsTarget = (trigger, target) =&gt;
+    target?.nodeType != null &amp;&amp; trigger.contains(target);
+  const getContent = (trigger) =&gt;
+    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
+  const getPlacement = (trigger) =&gt; {
+    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
+    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  };
+  const getTooltip = () =&gt; {
+    if (tooltip == null) {
+      tooltip = document.createElement(&quot;div&quot;);
+      tooltip.id = tooltipId;
+      tooltip.className = &quot;tooltip&quot;;
+      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+    }
+    return tooltip;
+  };
+  const setDescribedBy = (trigger, described) =&gt; {
+    const ids = new Set(
+      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+        .split(/\s+/)
+        .filter(Boolean),
+    );
+    if (described) {
+      ids.add(tooltipId);
+    } else {
+      ids.delete(tooltipId);
+    }
+    if (ids.size === 0) {
+      trigger.removeAttribute(&quot;aria-describedby&quot;);
+    } else {
+      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+    }
+  };
+  const clearOpenTimeout = () =&gt; {
+    if (openTimeout != null) {
+      window.clearTimeout(openTimeout);
+      openTimeout = null;
+    }
+    pendingTrigger = null;
+  };
+  const closeTooltip = (activateSkipDelay = true) =&gt; {
+    clearOpenTimeout();
+    pinnedByTouch = false;
+    positionRequest += 1;
+    autoUpdateCleanup?.();
+    autoUpdateCleanup = null;
+    if (activeTrigger == null) {
+      return;
+    }
+    setDescribedBy(activeTrigger, false);
+    activeTrigger = null;
+    tooltip?.remove();
+    if (activateSkipDelay) {
+      skipDelayUntil = Date.now() + skipDelay;
+    }
+  };
+  const updatePosition = (trigger, floating) =&gt; {
+    const request = ++positionRequest;
+    void computePosition(trigger, floating, {
+      middleware: [
+        offset(tooltipGap),
+        flip({ padding: tooltipGap }),
+        shift({ padding: tooltipGap }),
+        size({
+          padding: tooltipGap,
+          apply({ availableHeight, availableWidth, elements }) {
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-width&quot;,
+              `${Math.max(0, availableWidth)}px`,
+            );
+            elements.floating.style.setProperty(
+              &quot;--tooltip-available-height&quot;,
+              `${Math.max(0, availableHeight)}px`,
+            );
+          },
+        }),
+      ],
+      placement: getPlacement(trigger),
+      strategy: &quot;fixed&quot;,
+    })
+      .then(({ x, y }) =&gt; {
+        if (activeTrigger !== trigger || request !== positionRequest) {
+          return;
+        }
+        const scale = window.devicePixelRatio || 1;
+        floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
+        floating.style.visibility = &quot;visible&quot;;
+      })
+      .catch(() =&gt; {
+        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+          closeTooltip(false);
+        }
+      });
+  };
+  const openTooltip = (trigger) =&gt; {
+    const content = getContent(trigger);
+    if (!trigger.isConnected || content.length === 0) {
+      return;
+    }
+    clearOpenTimeout();
+    if (activeTrigger === trigger) {
+      return;
+    }
+    closeTooltip();
+    const floating = getTooltip();
+    floating.textContent = content;
+    floating.style.visibility = &quot;hidden&quot;;
+    floating.style.transform = &quot;translate(0, 0)&quot;;
+    document.body.appendChild(floating);
+    activeTrigger = trigger;
+    setDescribedBy(trigger, true);
+    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+      updatePosition(trigger, floating);
+    });
+  };
+  const requestOpen = (trigger, immediate = false) =&gt; {
+    if (
+      getContent(trigger).length === 0 ||
+      activeTrigger === trigger ||
+      pendingTrigger === trigger
+    ) {
+      return;
+    }
+    clearOpenTimeout();
+    pendingTrigger = trigger;
+    const delay =
+      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+        ? 0
+        : hoverDelay;
+    if (delay === 0) {
+      openTooltip(trigger);
+      return;
+    }
+    openTimeout = window.setTimeout(() =&gt; {
+      openTimeout = null;
+      pendingTrigger = null;
+      openTooltip(trigger);
+    }, delay);
+  };
+  const handlePointerOpen = (event) =&gt; {
+    if (event.pointerType === &quot;touch&quot;) {
+      return;
+    }
+    const trigger = getTrigger(event);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    requestOpen(trigger);
+  };
+  const handlePointer = (event) =&gt; {
+    lastPointerWasTouch =
+      event.type === &quot;pointerdown&quot; &amp;&amp; event.pointerType === &quot;touch&quot;;
+  };
+  const handleTouchClick = (event) =&gt; {
+    const isTouch = event.pointerType === &quot;touch&quot; || lastPointerWasTouch;
+    lastPointerWasTouch = false;
+    if (!isTouch || event.detail === 0) {
+      return;
+    }
+    const trigger = getTrigger(event);
+    if (
+      trigger == null ||
+      !trigger.isConnected ||
+      getContent(trigger).length === 0 ||
+      (pinnedByTouch &amp;&amp; activeTrigger === trigger)
+    ) {
+      if (pinnedByTouch) {
+        closeTooltip();
+      }
+      return;
+    }
+    openTooltip(trigger);
+    pinnedByTouch = activeTrigger === trigger;
+    window.setTimeout(() =&gt; {
+      if (activeTrigger === trigger &amp;&amp; !trigger.isConnected) {
+        closeTooltip(false);
+      }
+    }, 0);
+  };
+  const handleLeave = (event) =&gt; {
+    if (pinnedByTouch) {
+      return;
+    }
+    const trigger = getTrigger(event);
+    if (trigger == null || containsTarget(trigger, event.relatedTarget)) {
+      return;
+    }
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handleFocusIn = (event) =&gt; {
+    const trigger = getTrigger(event);
+    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+      requestOpen(trigger, true);
+    }
+  };
+  const handleKeyDown = (event) =&gt; {
+    if (event.key === &quot;Escape&quot;) {
+      closeTooltip();
+    }
+  };
+  const handleContextMenu = (event) =&gt; {
+    lastPointerWasTouch = false;
+    const trigger = getTrigger(event);
+    if (activeTrigger === trigger || pendingTrigger === trigger) {
+      closeTooltip();
+    }
+  };
+  const handlers = {
+    pointerover: handlePointerOpen,
+    pointerdown: handlePointer,
+    pointercancel: handlePointer,
+    click: handleTouchClick,
+    pointerout: handleLeave,
+    focusin: handleFocusIn,
+    focusout: handleLeave,
+    keydown: handleKeyDown,
+    contextmenu: handleContextMenu,
+  };
+  const roots = new Map();
+  const handledEvents = new WeakSet();
+  const handleEvent = (event) =&gt; {
+    if (handledEvents.has(event)) return;
+    handledEvents.add(event);
+    handlers[event.type](event);
+  };
+  const discoverRoots = (node) =&gt; {
+    if (node.shadowRoot) listen(node.shadowRoot);
+    for (const element of node.querySelectorAll(&quot;*&quot;)) {
+      if (element.shadowRoot) listen(element.shadowRoot);
+    }
+  };
+  const listen = (root) =&gt; {
+    if (roots.has(root)) return;
+    for (const type of Object.keys(handlers)) root.addEventListener(type, handleEvent);
+    const observer = new window.MutationObserver((records) =&gt; {
+      for (const { addedNodes } of records) {
+        for (const node of addedNodes) {
+          if (node.nodeType === Node.ELEMENT_NODE) discoverRoots(node);
+        }
+      }
+      for (const [root, cleanup] of roots) {
+        if (root.host &amp;&amp; !root.host.isConnected) {
+          cleanup();
+          roots.delete(root);
+        }
+      }
+      if (activeTrigger &amp;&amp; !activeTrigger.isConnected) closeTooltip(false);
+    });
+    observer.observe(root, { childList: true, subtree: true });
+    roots.set(root, () =&gt; {
+      observer.disconnect();
+      for (const type of Object.keys(handlers)) root.removeEventListener(type, handleEvent);
+    });
+    discoverRoots(root);
+  };
+  const destroy = () =&gt; {
+    closeTooltip(false);
+    lastPointerWasTouch = false;
+    for (const cleanup of roots.values()) cleanup();
+    roots.clear();
+    tooltip = null;
+  };
+
+  // Events between children of one shadow root never reach the document.
+  listen(document);
+  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-tabs&quot;&gt;
+(() =&gt; {
+  const selector = &#x27;.nav[role=&quot;tablist&quot;] [role=&quot;tab&quot;]&#x27;;
+  const disabled = &#x27;:disabled,[aria-disabled=&quot;true&quot;]&#x27;;
+  const selectTab = (selected) =&gt; {
+    const panelId = selected.getAttribute(&quot;aria-controls&quot;);
+    for (const tab of selected.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;)) {
+      const active = tab === selected;
+      tab.classList.toggle(&quot;active&quot;, active);
+      tab.setAttribute(&quot;aria-selected&quot;, String(active));
+      const id = tab.getAttribute(&quot;aria-controls&quot;);
+      const panel = id &amp;&amp; document.getElementById(id);
+      if (panel != null) {
+        panel.hidden = id !== panelId;
+        if (!panel.hidden &amp;&amp; selected.id) {
+          panel.setAttribute(&quot;aria-labelledby&quot;, selected.id);
+        }
+      }
+    }
+  };
+  const interact = (event) =&gt; {
+    const tab = event.target?.closest?.(selector);
+    if (event.defaultPrevented || tab == null || tab.matches(disabled)) {
+      return;
+    }
+    if (event.type === &quot;click&quot;) {
+      selectTab(tab);
+      return;
+    }
+    const tabs = Array.from(
+      tab.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;),
+    ).filter((candidate) =&gt; !candidate.matches(disabled));
+    const current = tabs.indexOf(tab);
+    let next;
+    if (event.key === &quot;ArrowRight&quot; || event.key === &quot;ArrowDown&quot;) {
+      next = (current + 1) % tabs.length;
+    } else if (event.key === &quot;ArrowLeft&quot; || event.key === &quot;ArrowUp&quot;) {
+      next = (current + tabs.length - 1) % tabs.length;
+    } else if (event.key === &quot;Home&quot;) {
+      next = 0;
+    } else if (event.key === &quot;End&quot;) {
+      next = tabs.length - 1;
+    } else {
+      return;
+    }
+    event.preventDefault();
+    tabs[next].focus();
+    selectTab(tabs[next]);
+  };
+
+  for (const list of document.querySelectorAll(&#x27;.nav[role=&quot;tablist&quot;]&#x27;)) {
+    const selected =
+      list.querySelector(&#x27;[role=&quot;tab&quot;][aria-selected=&quot;true&quot;]&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;].active&#x27;) ??
+      list.querySelector(&#x27;[role=&quot;tab&quot;]&#x27;);
+    if (selected != null) {
+      selectTab(selected);
+    }
+  }
+  document.addEventListener(&quot;click&quot;, interact);
+  document.addEventListener(&quot;keydown&quot;, interact);
+  window.addEventListener(&quot;pagehide&quot;, () =&gt; {
+    document.removeEventListener(&quot;click&quot;, interact);
+    document.removeEventListener(&quot;keydown&quot;, interact);
+  }, { once: true });
+})();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-carousel&quot;&gt;
+  (() =&gt; {
+    for (const root of document.querySelectorAll(&quot;.viz-carousel&quot;)) {
+      const panels = Array.from(
+        root.querySelectorAll(&quot;:scope &gt; [data-variant]&quot;),
+      );
+      if (panels.length === 0) {
+        continue;
+      }
+      root.setAttribute(&quot;role&quot;, &quot;group&quot;);
+      panels.forEach((panel, index) =&gt; {
+        panel.hidden = index !== 0;
+        panel.setAttribute(&quot;role&quot;, &quot;group&quot;);
+        if (!panel.hasAttribute(&quot;aria-label&quot;)) {
+          panel.setAttribute(&quot;aria-label&quot;, panel.dataset.variant);
+        }
+      });
+      root.dataset.activeVariant = panels[0].dataset.variant;
+      if (panels.length === 1) {
+        continue;
+      }
+
+      const controls = document.createElement(&quot;div&quot;);
+      controls.className = &quot;viz-carousel-controls&quot;;
+      // Portable copy of the settings dropdown&#x27;s legacy glyph; no 14px icon-package preset matches it.
+      // https://github.com/openai/openai/blob/master/codex/codex-apps/webview/src/icons/chevron.svg
+      controls.innerHTML = `
+      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-previous cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+      &lt;details class=&quot;viz-carousel-picker&quot;&gt;
+        &lt;summary class=&quot;cursor-interaction&quot;&gt;
+          &lt;span class=&quot;viz-carousel-count tabular-nums&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;viz-carousel-name&quot;&gt;&lt;/span&gt;
+          &lt;svg class=&quot;viz-carousel-caret&quot; width=&quot;14&quot; height=&quot;14&quot; viewBox=&quot;0 0 20 21&quot; fill=&quot;none&quot; aria-hidden=&quot;true&quot; focusable=&quot;false&quot;&gt;
+            &lt;path d=&quot;M15.2793 7.71101C15.539 7.45131 15.961 7.45131 16.2207 7.71101C16.4804 7.97071 16.4804 8.39272 16.2207 8.65242L10.4707 14.4024C10.211 14.6621 9.78902 14.6621 9.52932 14.4024L3.77932 8.65242L3.69436 8.54792C3.52385 8.28979 3.55205 7.93828 3.77932 7.71101C4.00659 7.48374 4.3581 7.45554 4.61623 7.62605L4.72073 7.71101L10 12.9903L15.2793 7.71101Z&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;0.6&quot; /&gt;
+          &lt;/svg&gt;
+        &lt;/summary&gt;
+        &lt;div class=&quot;viz-carousel-options&quot;&gt;&lt;/div&gt;
+      &lt;/details&gt;
+      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-next cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;`;
+      const previous = controls.querySelector(&quot;.viz-carousel-previous&quot;);
+      const next = controls.querySelector(&quot;.viz-carousel-next&quot;);
+      const picker = controls.querySelector(&quot;.viz-carousel-picker&quot;);
+      const summary = picker.querySelector(&quot;summary&quot;);
+      const count = controls.querySelector(&quot;.viz-carousel-count&quot;);
+      const name = controls.querySelector(&quot;.viz-carousel-name&quot;);
+      const options = controls.querySelector(&quot;.viz-carousel-options&quot;);
+      const status = document.createElement(&quot;span&quot;);
+      status.className = &quot;sr-only&quot;;
+      status.setAttribute(&quot;role&quot;, &quot;status&quot;);
+      status.setAttribute(&quot;aria-live&quot;, &quot;polite&quot;);
+      status.setAttribute(&quot;aria-atomic&quot;, &quot;true&quot;);
+      previous.setAttribute(
+        &quot;aria-label&quot;,
+        root.dataset.previousLabel ?? &quot;Previous variant&quot;,
+      );
+      next.setAttribute(&quot;aria-label&quot;, root.dataset.nextLabel ?? &quot;Next variant&quot;);
+
+      let active = 0;
+      let mousePointerId = null;
+      let summaryPointerHandled = false;
+      summary.addEventListener(&quot;pointerdown&quot;, (event) =&gt; {
+        summaryPointerHandled =
+          event.pointerType === &quot;mouse&quot; &amp;&amp; event.button === 0 &amp;&amp; !event.ctrlKey;
+        if (!summaryPointerHandled) {
+          return;
+        }
+        event.preventDefault();
+        summary.focus({ preventScroll: true });
+        picker.open = !picker.open;
+        mousePointerId = picker.open ? event.pointerId : null;
+      });
+      summary.addEventListener(&quot;click&quot;, (event) =&gt; {
+        if (summaryPointerHandled &amp;&amp; event.detail &gt; 0) {
+          event.preventDefault();
+        }
+      });
+      const choices = panels.map((panel, index) =&gt; {
+        const choice = document.createElement(&quot;button&quot;);
+        choice.type = &quot;button&quot;;
+        choice.className = &quot;cursor-interaction&quot;;
+        choice.textContent = panel.dataset.variant;
+        choice.addEventListener(&quot;click&quot;, () =&gt; {
+          select(index);
+          summary.focus();
+        });
+        choice.addEventListener(&quot;pointerup&quot;, (event) =&gt; {
+          if (
+            picker.open &amp;&amp;
+            event.pointerType === &quot;mouse&quot; &amp;&amp;
+            event.button === 0 &amp;&amp;
+            event.pointerId === mousePointerId
+          ) {
+            choice.click();
+          }
+        });
+        options.appendChild(choice);
+        return choice;
+      });
+      const select = (index) =&gt; {
+        const changed = active !== index;
+        active = index;
+        panels.forEach((panel, position) =&gt; {
+          panel.hidden = position !== active;
+          choices[position].setAttribute(
+            &quot;aria-current&quot;,
+            String(position === active),
+          );
+        });
+        root.dataset.activeVariant = panels[active].dataset.variant;
+        count.textContent = `${active + 1} / ${panels.length}`;
+        name.textContent = panels[active].dataset.variant;
+        picker.open = false;
+        mousePointerId = null;
+        if (changed) {
+          status.textContent = `${count.textContent}: ${name.textContent}`;
+        }
+      };
+      previous.addEventListener(&quot;click&quot;, () =&gt;
+        select((active + panels.length - 1) % panels.length),
+      );
+      next.addEventListener(&quot;click&quot;, () =&gt;
+        select((active + 1) % panels.length),
+      );
+      picker.addEventListener(&quot;keydown&quot;, (event) =&gt; {
+        if (event.key === &quot;Escape&quot; &amp;&amp; picker.open) {
+          event.preventDefault();
+          picker.open = false;
+          mousePointerId = null;
+          summary.focus();
+          return;
+        }
+        if (event.altKey || event.ctrlKey || event.metaKey) {
+          return;
+        }
+        const index = choices.indexOf(document.activeElement);
+        let nextIndex;
+        if (event.key === &quot;ArrowDown&quot;) {
+          nextIndex = index &lt; 0 ? active : (index + 1) % choices.length;
+        } else if (event.key === &quot;ArrowUp&quot;) {
+          nextIndex = index &lt; 0 ? active : (index + choices.length - 1) % choices.length;
+        } else if (picker.open &amp;&amp; event.key === &quot;Home&quot;) {
+          nextIndex = 0;
+        } else if (picker.open &amp;&amp; event.key === &quot;End&quot;) {
+          nextIndex = choices.length - 1;
+        } else {
+          return;
+        }
+        event.preventDefault();
+        picker.open = true;
+        choices[nextIndex].focus();
+      });
+      picker.addEventListener(&quot;focusout&quot;, (event) =&gt; {
+        if (!picker.contains(event.relatedTarget)) {
+          picker.open = false;
+          mousePointerId = null;
+        }
+      });
+      const dismiss = (event) =&gt; {
+        if (!summary.contains(event.target)) {
+          mousePointerId = null;
+        }
+        if (!picker.contains(event.target)) {
+          picker.open = false;
+        }
+      };
+      const endPointerSelection = () =&gt; {
+        mousePointerId = null;
+      };
+      const sizePicker = () =&gt; {
+        root.style.setProperty(
+          &quot;--viz-carousel-picker-height&quot;,
+          `${picker.open ? options.offsetHeight : 0}px`,
+        );
+      };
+      picker.addEventListener(&quot;toggle&quot;, sizePicker);
+      window.addEventListener(&quot;resize&quot;, sizePicker);
+      document.addEventListener(&quot;pointerdown&quot;, dismiss);
+      document.addEventListener(&quot;pointerup&quot;, endPointerSelection);
+      document.addEventListener(&quot;pointercancel&quot;, endPointerSelection);
+      window.addEventListener(&quot;blur&quot;, endPointerSelection);
+      window.addEventListener(
+        &quot;pagehide&quot;,
+        () =&gt; {
+          document.removeEventListener(&quot;pointerdown&quot;, dismiss);
+          document.removeEventListener(&quot;pointerup&quot;, endPointerSelection);
+          document.removeEventListener(&quot;pointercancel&quot;, endPointerSelection);
+          window.removeEventListener(&quot;blur&quot;, endPointerSelection);
+          window.removeEventListener(&quot;resize&quot;, sizePicker);
+        },
+        { once: true },
+      );
+      root.append(controls, status);
+      select(0);
+    }
+  })();
+&lt;/script&gt;
+&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+(() =&gt; {
+  const initialize = () =&gt; {
+    globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
+  };
+  if (globalThis.lucide != null) {
+    initialize();
+    return;
+  }
+  document
+    .getElementById(&quot;codex-visualization-lucide&quot;)
+    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
+})();
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+"></iframe>
+
+<script>(() => {
+  const frame = document.getElementById("codex-visualization");
+  if (!(frame instanceof HTMLIFrameElement)) {
+    return;
+  }
+  const isShare = document.documentElement.classList.contains(
+    "visualization-share-root",
+  );
+  let viewportHeight = globalThis.innerHeight;
+  let sizeFingerprint = null;
+  let sizeWriteTimeout;
+  let lastSize = null;
+  let pendingSize = null;
+  const storageKey = `codex:visualization-widget-state-v2:${JSON.stringify([
+    globalThis.location.pathname,
+    globalThis.location.search,
+  ])}`;
+  const sizeStorageKey = `${storageKey}:share-size-v1`;
+  const parseState = (serializedState) => {
+    if (
+      typeof serializedState !== "string" ||
+      new TextEncoder().encode(serializedState).length > 16 * 1024
+    ) {
+      throw new TypeError(
+        "Widget state must be a JSON object of at most 16 KiB",
+      );
+    }
+    /** @type {unknown} */
+    const state = JSON.parse(serializedState);
+    if (
+      state == null ||
+      typeof state !== "object" ||
+      Array.isArray(state) ||
+      ("imageIds" in state &&
+        (!Array.isArray(state.imageIds) || state.imageIds.length > 0))
+    ) {
+      throw new TypeError("Widget state must be a JSON object");
+    }
+    const storedState = { modelContent: null, privateContent: null, ...state };
+    const canonicalState = JSON.stringify(
+      storedState,
+      (_key, /** @type {unknown} */ value) => {
+        if (typeof value === "number" && !Number.isFinite(value)) {
+          throw new TypeError("Widget state must contain finite numbers");
+        }
+        return value;
+      },
+    );
+    if (new TextEncoder().encode(canonicalState).length > 16 * 1024) {
+      throw new TypeError(
+        "Widget state must be a JSON object of at most 16 KiB",
+      );
+    }
+    return storedState;
+  };
+  let storage = null;
+  let state = null;
+  try {
+    const localStorage = globalThis.localStorage;
+    const probeKey = `${storageKey}:probe`;
+    localStorage.setItem(probeKey, "1");
+    localStorage.removeItem(probeKey);
+    storage = localStorage;
+    const savedState = storage.getItem(storageKey);
+    if (savedState != null) {
+      try {
+        state = parseState(savedState);
+      } catch {
+        // Invalid saved state does not disable future writes.
+      }
+    }
+  } catch {
+    storage = null;
+  }
+  const persistSize = () => {
+    globalThis.clearTimeout(sizeWriteTimeout);
+    if (pendingSize == null) {
+      return;
+    }
+    try {
+      storage?.setItem(sizeStorageKey, pendingSize);
+    } catch {
+      // A denied or full cache must not affect the visualization.
+    }
+    pendingSize = null;
+  };
+  if (isShare) {
+    globalThis.addEventListener("pagehide", persistSize);
+  }
+  const initialGlobals = {
+    widgetState: state,
+    statePersistence: storage == null ? "none" : "local",
+  };
+
+  const channel = new MessageChannel();
+  channel.port1.addEventListener("message", (event) => {
+    const data = event.data;
+    if (typeof data !== "object" || data == null) {
+      return;
+    }
+    if (data.type === "widget-state-write") {
+      if (!Number.isSafeInteger(data.id) || data.id <= 0) {
+        return;
+      }
+      let ok = false;
+      try {
+        if (storage != null) {
+          const state = parseState(data.state);
+          storage.setItem(storageKey, JSON.stringify(state));
+          ok = true;
+        }
+      } catch {
+        // Storage denial, quota limits, and invalid state return a failed receipt.
+      }
+      channel.port1.postMessage({
+        type: "widget-state-result",
+        id: data.id,
+        ok,
+      });
+      return;
+    }
+    if (data.type === "height") {
+      const height = data.height;
+      if (
+        typeof height !== "number" ||
+        !Number.isFinite(height) ||
+        height < 0
+      ) {
+        return;
+      }
+      if (height <= 10_000) {
+        const width = isShare && storage != null ? frame.clientWidth : null;
+        frame.style.height = Math.ceil(height) + "px";
+        if (isShare && storage != null) {
+          const size = JSON.stringify({
+            fingerprint: sizeFingerprint,
+            width,
+            viewportHeight: globalThis.innerHeight,
+            dark: globalThis.matchMedia("(prefers-color-scheme: dark)").matches,
+            scale: globalThis.devicePixelRatio,
+            height: Math.ceil(height),
+          });
+          if (size !== lastSize) {
+            lastSize = size;
+            pendingSize = size;
+            globalThis.clearTimeout(sizeWriteTimeout);
+            sizeWriteTimeout = globalThis.setTimeout(persistSize, 100);
+          }
+        }
+      }
+      if (isShare) {
+        // Keep unusually tall content accessible without accepting an unbounded height.
+        if (height > 10_000 && Number.parseFloat(frame.style.height) === 0) {
+          frame.style.removeProperty("height");
+        }
+        frame.scrolling = height > 10_000 ? "auto" : "no";
+        document.documentElement.classList.add("visualization-share-ready");
+      }
+      return;
+    }
+    if (data.type === "scroll-to") {
+      const top = data.top;
+      if (
+        typeof top === "number" &&
+        Number.isFinite(top) &&
+        top >= 0 &&
+        globalThis.navigator.userActivation?.isActive === true
+      ) {
+        globalThis.scrollTo({
+          top: Math.ceil(
+            globalThis.scrollY + frame.getBoundingClientRect().top + top,
+          ),
+        });
+      }
+      return;
+    }
+    if (data.type === "open-external") {
+      const rawHref = data.href;
+      if (typeof rawHref !== "string") {
+        return;
+      }
+      let href;
+      try {
+        const url = new URL(rawHref, document.baseURI);
+        if (url.protocol !== "https:") {
+          return;
+        }
+        href = url.href;
+      } catch {
+        return;
+      }
+      if (globalThis.navigator.userActivation?.isActive === true) {
+        const anchor = document.createElement("a");
+        anchor.href = href;
+        anchor.rel = "noopener noreferrer";
+        anchor.target = "_blank";
+        document.body.appendChild(anchor);
+        anchor.click();
+        anchor.remove();
+      }
+      return;
+    }
+    if (data.type === "follow-up") {
+      const prompt = data.prompt;
+      if (
+        typeof prompt !== "string" ||
+        globalThis.navigator.userActivation?.isActive !== true
+      ) {
+        return;
+      }
+      const title = data.title;
+      globalThis.prompt(typeof title === "string" ? title : prompt, prompt);
+    }
+  });
+  channel.port1.start();
+  const srcdoc = frame.dataset.srcdoc;
+  if (srcdoc == null) {
+    return;
+  }
+  globalThis.addEventListener("resize", () => {
+    const height = Number.parseFloat(frame.style.height);
+    if (!isShare && (!Number.isFinite(height) || height <= viewportHeight)) {
+      frame.style.removeProperty("height");
+    }
+    viewportHeight = globalThis.innerHeight;
+    channel.port1.postMessage({ type: "measure" });
+  });
+  frame.addEventListener(
+    "load",
+    () => {
+      frame.contentWindow?.postMessage(
+        { type: "codex-visualization-initialize" },
+        "*",
+        [channel.port2],
+      );
+    },
+    { once: true },
+  );
+  // Match the trusted bootstrap element, not the same text in an authored title.
+  const frameHtml = srcdoc.replace(
+    '<script type="application/json" id="codex-visualization-widget-state">__CODEX_VISUALIZATION_WIDGET_STATE__<\/script>',
+    () =>
+      '<script type="application/json" id="codex-visualization-widget-state">' +
+      JSON.stringify(initialGlobals).replaceAll("<", "\\u003c") +
+      "<\/script>",
+  );
+  if (isShare && storage != null) {
+    // Fingerprint the rendered document, including restored widget state, without
+    // storing its content. This is a layout cache, not a security identity.
+    let hash = 5381;
+    for (let index = 0; index < frameHtml.length; index += 1) {
+      hash = (hash * 33 + frameHtml.charCodeAt(index)) % 4_294_967_296;
+    }
+    sizeFingerprint = hash.toString(36);
+    try {
+      const size = JSON.parse(storage.getItem(sizeStorageKey) ?? "null");
+      if (
+        size?.fingerprint === sizeFingerprint &&
+        size.width === frame.clientWidth &&
+        size.viewportHeight === globalThis.innerHeight &&
+        size.dark ===
+          globalThis.matchMedia("(prefers-color-scheme: dark)").matches &&
+        size.scale === globalThis.devicePixelRatio &&
+        typeof size.height === "number" &&
+        Number.isFinite(size.height) &&
+        size.height >= 0 &&
+        size.height <= 10_000
+      ) {
+        frame.style.height = size.height + "px";
+      }
+    } catch {
+      // Ignore missing or invalid cache entries and measure the live frame.
+    }
+  }
+  frame.srcdoc = frameHtml;
+  delete frame.dataset.srcdoc;
+})();
+</script>
+</body>
+</html>

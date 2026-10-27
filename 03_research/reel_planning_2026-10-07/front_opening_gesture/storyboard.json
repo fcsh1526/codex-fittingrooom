@@ -1,0 +1,142 @@
+{
+  "trial_id": "M02_front_opening_gesture_v1",
+  "planned_at_utc": "2026-10-07 08:33:14 UTC",
+  "status": "planned_not_generated_not_dispatched",
+  "week_id": "2026-W37",
+  "model_profile_id": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "purpose": "Test whether one small front-edge hand gesture makes the existing neckline and inner/outer color relationship easier to read.",
+  "diagnostic_only": true,
+  "new_stills_required": 0,
+  "new_motion_sources_planned": 2,
+  "new_camera_or_edit_type": false,
+  "assets": [
+    {
+      "source": "02_brand/reference_models/M02_start_v3_face.png",
+      "role": "identity_face",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5",
+      "local_original_hash_matched": true,
+      "verified_date": "2026-10-07"
+    },
+    {
+      "source": "02_brand/reference_models/M02_start_v3_full.png",
+      "role": "identity_full",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4",
+      "local_original_hash_matched": true,
+      "verified_date": "2026-10-07"
+    },
+    {
+      "source": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+      "role": "first_frame_A",
+      "sha256": "6c3c36d53e894f4be8aa1de1f7eef70749f15e0e906421d26bb838c74bed18bf",
+      "local_original_hash_matched": true,
+      "verified_date": "2026-10-07"
+    },
+    {
+      "source": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+      "role": "first_frame_B",
+      "sha256": "1ea5251c0346edc52e38d414c5c52156a4c41e0a74d08d05c3140b196994dd77",
+      "local_original_hash_matched": true,
+      "verified_date": "2026-10-07"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.instagram.com/missy_elz/reel/DdUFOPNo4vT/",
+      "evidence": "03_research/ig_styling_edit_study_2026-10-02/round3/evidence/missy_autumn_live/cycle_02_board.jpg",
+      "samples": [
+        "015",
+        "018"
+      ],
+      "observation": "hands at front edge/hem with inner top and waist context",
+      "limitation": "muted sampled brackets, not exact cuts or continuous action proof"
+    },
+    {
+      "url": "https://www.instagram.com/buufen_girl/reel/DcAodtyRNXg/",
+      "evidence": "03_research/ig_saved_ootd_study_2026-10-06/DcAodtyRNXg_middle_pass2/qa/playing_samples_board_01.jpg",
+      "observation": "consistent room/position supports visible color-group comparison",
+      "limitation": "multiple wardrobe factors change; no single-item causal claim"
+    }
+  ],
+  "settings_requested": {
+    "duration_seconds": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "audio": false,
+    "camera": "locked",
+    "source_speed": "native"
+  },
+  "shots": [
+    {
+      "id": "A",
+      "look_id": "2026-W37-001-L01",
+      "first_frame_role": "first_frame_A",
+      "prompt": "prompts/A_front_edge.txt",
+      "action": "free right hand (image left) touches waist-level open-shirt edge once and returns; other hand holds bag strap",
+      "readable_info": [
+        "cream curved neckline",
+        "grey/cream color relation",
+        "dress waist"
+      ],
+      "clear_head_tail_handles_requested_seconds": 1
+    },
+    {
+      "id": "B",
+      "look_id": "2026-W37-001-L02",
+      "first_frame_role": "first_frame_B",
+      "prompt": "prompts/B_front_edge.txt",
+      "action": "same single free-hand gesture, no wardrobe-state change",
+      "readable_info": [
+        "navy square neckline",
+        "blue/navy color relation",
+        "dress waist"
+      ],
+      "clear_head_tail_handles_requested_seconds": 1
+    }
+  ],
+  "nominal_timeline": {
+    "source_seconds_each": 6,
+    "dissolve_seconds": 0.75,
+    "composite_seconds": 11.25,
+    "if_native_fps_24": {
+      "source_frames_each": 144,
+      "dissolve_frames": 18,
+      "output_frames": 270
+    }
+  },
+  "gates": [
+    "actual tool/asset access",
+    "single-source dynamic QA including hand-cloth contact",
+    "actual start/end paired geometry",
+    "all overlap frames",
+    "normal full playback",
+    "user visual approval"
+  ],
+  "pending": {
+    "generation_submission": false,
+    "new_sources_retrieved": false,
+    "dynamic_QA_passed": false,
+    "composite_created": false,
+    "user_video_approved": false,
+    "cloud_task_updated": false,
+    "drive_uploaded": false
+  },
+  "protected": {
+    "first_wave_modified": false,
+    "prior_trials_modified": false,
+    "cloud_packet_modified": false,
+    "instagram_published": false
+  },
+  "limits": [
+    "no text",
+    "no retime/freeze/reverse",
+    "no forced synchronization",
+    "no unapproved stills",
+    "no fabricated wardrobe changes",
+    "no implied comfort/material/temperature proof",
+    "no reach or causal performance claim"
+  ]
+}

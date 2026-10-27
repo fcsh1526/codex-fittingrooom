@@ -1,0 +1,25 @@
+{
+  "week": "2026-W41",
+  "model": "M02",
+  "user_quote": "ok",
+  "files": [
+    {
+      "look_id": "2026-W41-003-L01",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
+      "sha256": "1ba112fd6f23948f15b9e558afa945dd2e16ed2249e818e57d3320fe2890b912",
+      "approved_on": "2026-10-08",
+      "user_quote": "ok",
+      "context": "Response to displayed M02 L01 v4 / L02 v3 and pair visual approval request.",
+      "scope": "This exact full-person still as video first frame; not proof/Carousel/video acceptance."
+    },
+    {
+      "look_id": "2026-W41-003-L02",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v3.png",
+      "sha256": "cb243dc67e57b95ad856d4e79d96423945aea0c0cdfc873bb22485627f4c9482",
+      "approved_on": "2026-10-08",
+      "user_quote": "ok",
+      "context": "Response to displayed M02 L01 v4 / L02 v3 and pair visual approval request.",
+      "scope": "This exact full-person still as video first frame; not proof/Carousel/video acceptance."
+    }
+  ]
+}

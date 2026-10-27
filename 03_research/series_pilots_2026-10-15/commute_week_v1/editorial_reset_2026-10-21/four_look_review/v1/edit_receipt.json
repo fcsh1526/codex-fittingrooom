@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-21",
+  "status": "four_look_research_work_in_progress_not_whole_five_look_film",
+  "source_sha256": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+  "protected_hashes_unchanged": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\F04_source.mp4": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F05\\five_look_review_2026-10-21\\v1\\review.mp4": "be262d6771141eeda11d2671cc5c1a87b7a03d869aacf60c117e5d5bc8b38b03",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F01_F02_gait_fix_review_v1.mp4": "54da666276fd89fc93461fc25bbe2aa805e565beff8f708bf071b78118a462dd"
+  },
+  "sources": [
+    {
+      "role": "accepted_prefix_first295",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4",
+      "selected_prefix_frames": 295
+    },
+    {
+      "role": "new_F04_full_first108",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\F04_source.mp4",
+      "selected_prefix_frames": 108
+    }
+  ],
+  "prefix_cut_detail": "First295ofexisting331 corresponds originalF01[0,78), correctedF02[0,145), originalF03[1,109), earlier two .75s joins retained",
+  "output": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\four_look_review\\v1\\review.mp4",
+    "sha256": "3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+    "bytes": 15007735,
+    "frames": 385,
+    "fps": 24,
+    "duration_seconds": 16.041666666666668,
+    "size": [
+      720,
+      1280
+    ],
+    "audio": false,
+    "text": false,
+    "retime": false,
+    "crop": false
+  },
+  "new_dissolve": {
+    "output_frames_half_open": [
+      277,
+      295
+    ],
+    "seconds_half_open": [
+      11.541666666666666,
+      12.291666666666666
+    ],
+    "duration_seconds": 0.75,
+    "outgoing_original_F03_frames_half_open": [
+      91,
+      109
+    ],
+    "incoming_new_F04_frames_half_open": [
+      0,
+      18
+    ]
+  },
+  "full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 16.04
+    },
+    "decoded_frames": 385,
+    "full_decode_completed": true,
+    "decoded_frames_over_native_fps_seconds": 16.041666666666668,
+    "individual_source_PTS_measured": false
+  },
+  "streams": {
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 7481 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+    ],
+    "audio_stream_present": false
+  },
+  "fidelity": {
+    "all_output_frames_compared_to_intended_native_composite": 385,
+    "mean_absolute_RGB_error_0_to_255": 1.943261900064634,
+    "worst_frame_mean_absolute_RGB_error": 2.5801027199074076,
+    "minimum_frame_PSNR_dB": 37.05307826527261,
+    "codec_tolerance": {
+      "worst_frame_MAE_max": 3.0,
+      "minimum_frame_PSNR_dB_min": 32.0
+    },
+    "within_codec_tolerance": true,
+    "byte_identical_or_pixel_identical_claim": false,
+    "protected_prefix_pure_frames": {
+      "frames_compared": 0,
+      "output_half_open": null,
+      "mean_absolute_RGB_error": null,
+      "worst_frame_mean_absolute_RGB_error": null,
+      "minimum_frame_PSNR_dB": null
+    }
+  },
+  "limits": [
+    "Source contains previously unseen short stairs revealed from right edge; site membership unvalidated",
+    "Source and blend gait not measured slide-free; new dissolve may show phase mismatch",
+    "No user normal-speed or whole-film approval",
+    "Fifth look not included; no publishing pass"
+  ],
+  "next": "Root densejoin inspection, then user research viewing before deciding ambiguous stairs/join acceptability; no automatic source retry"
+}

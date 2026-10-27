@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-24",
+  "title": "M02 W37 two-look comparison v2 four-shot rough cut",
+  "status": "technical_review_candidate_user_video_approval_pending",
+  "model": "M02",
+  "look_ids": ["2026-W37-001-L01", "2026-W37-001-L02"],
+  "sequence": [
+    {"shot": "S01", "look_id": "2026-W37-001-L01", "source": "videos/S01_comparison_v2_01.mp4", "source_record": "S01_comparison_v2_motion_01.json", "in_seconds": 0.05, "out_seconds": 2.60},
+    {"shot": "S02", "look_id": "2026-W37-001-L01", "source": "videos/S02_comparison_v2_02.mp4", "source_record": "S02_comparison_v2_motion_02.json", "in_seconds": 0.10, "out_seconds": 2.55},
+    {"shot": "S03", "look_id": "2026-W37-001-L02", "source": "videos/S03_comparison_v2_02.mp4", "source_record": "S03_comparison_v2_motion_02.json", "in_seconds": 0.10, "out_seconds": 2.75, "known_defect_outside_selection": "blue shirt slips off shoulder after about 3.47s in source"},
+    {"shot": "S04", "look_id": "2026-W37-001-L02", "source": "videos/S04_comparison_v2_01.mp4", "source_record": "S04_comparison_v2_motion_01.json", "in_seconds": 0.00, "out_seconds": 3.10}
+  ],
+  "output": {
+    "file": "videos/M02_comparison_v2_roughcut_01_seekable.webm",
+    "bytes": 5973627,
+    "sha256": "36EF9FECF0F79C117D4BFDE0B56E57F67076ABF5E0E83D026C6BBDF84C4DE132",
+    "video_width": 720,
+    "video_height": 1280,
+    "duration_seconds_browser": 10.704,
+    "audio": false,
+    "captions": false,
+    "format": "WebM MediaRecorder browser canvas technical review output, duration metadata inserted; no cue points, seeking not reliable"
+  },
+  "edit_method": "browser canvas draws four selected sources at normal speed with direct cuts; no speed changes, crossfades, or overlays",
+  "review": {
+    "normal_speed_replay": true,
+    "sampled_output_times_seconds": [0.2, 2.3, 3.08, 5.05, 5.73, 7.27, 8.05, 9.24, 10.704],
+    "observed": "Both looks and three direct cuts are readable in sampled playback; no rapid opening flash, PowerPoint transition or black interruption observed in the visible samples. S03 shoulder remains covered at the late selected-range sample around output 7.27s.",
+    "limits": "This is a review candidate. Sampled playback does not prove every frame of all four source intervals, identity continuity or final editorial acceptance. The output cannot be used as a publication master; it has no music or captions.",
+    "full_dynamic_qa_passed": false,
+    "user_video_approval": false
+  },
+  "active_production_minutes": null,
+  "generation_wait_minutes": null,
+  "publication_url": null
+}

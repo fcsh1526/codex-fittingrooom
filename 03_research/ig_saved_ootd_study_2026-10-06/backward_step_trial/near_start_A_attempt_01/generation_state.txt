@@ -1,0 +1,52 @@
+Browser tab: 6, Title: "Imagine - Grok", URL: "https://grok.com/imagine/post/f07a42ba-d33b-4d68-bbdf-8e743cb68516?conversation=9ac39d90-6889-4915-ae0a-23c50c254ed8".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 60, 215-270
+~0 AXWebArea Imagine - Grok, URL: grok.com/imagine/post/f07a42ba-d33b-4d68-bbdf-8e743cb68516?conversation=9ac39d90-6889-4915-ae0a-23c50c254ed8
+~		2 link Description: 跳至主要內容, Value: grok.com/imagine/post/f07a42ba-d33b-4d68-bbdf-8e743cb68516?conversation=9ac39d90-6889-4915-ae0a-23c50c254ed8#grok-content-area
++					124 button @77204bba-a252-4012-be0c-1f2d44f9f377 @db4e7032-c6c3-4c91-86fa-d4b6b773cc2f Use the selected Mira M02 v3 reference for the same woman's identity. Begin exactly with the approved near-person first-frame image. The full-person reference guides her exact outfit and white lace-up canvas shoes only. One continuous six-second shot. The camera is locked in place with a fixed focal length. At normal everyday walking speed, she takes two short natural steps backward down the clear central library aisle, facing the camera. Her whole body moves away and becomes gradually smaller; both shoes and the complete outfit enter the frame. She then settles naturally for a brief full-outfit view. Keep the same mist-grey open rolled-sleeve shirt, cream dress neckline and waist seam, navy shoulder bag, earrings, face and hair. Window, bench, table, bookshelves, plants, floor and lighting stay fixed. Natural fabric movement and weight transfer. No camera zoom, pan, cuts, outfit change, slow motion, text or audio.
++			125 container
++				126 container
++					127 link Description: 返回, Value: grok.com/imagine
++					128 button 折疊面板
++					129 container
++						130 button 擴展影片
++						131 button 暫停
++						132 button 0:03 / 0:06
++						133 button 視訊品質
++						134 button 靜音
++					135 container 貼文詳情
++						136 button 重新產生
++						137 button 擴展
++							138 image
++							139 text 擴展
++						140 button 提升畫質
++							141 image
++							142 text 提升畫質
++						143 button 分享
++						144 button 讚
++						145 button 倒讚
++						146 checkbox Description: 收藏, Value: 0
++						147 button 在 X 上發文
++						148 button 下載
++						149 pop up button (collapsed) Description: 更多選項, ID: radix-_r_r1_, Secondary Actions: Expand
++				150 container
++					151 text entry area (settable) Description: Ask Grok anything, Value: Mira M02 v3
+ 
+Image 1
+
+
+
+Use the selected Mira M02 v3 reference for the same woman's identity. Begin exactly with the approved near-person first-frame image. The full-person reference guides her exact outfit and white lace-up canvas shoes only.
+
+One continuous six-second shot. The camera is locked in place with a fixed focal length. At normal everyday walking speed, she takes two short natural steps backward down the clear central library aisle, facing the camera. Her whole body moves away and becomes gradually smaller; both shoes and the complete outfit enter the frame. She then settles naturally for a brief full-outfit view.
+
+Keep the same mist-grey open rolled-sleeve shirt, cream dress neckline and waist seam, navy shoulder bag, earrings, face and hair. Window, bench, table, bookshelves, plants, floor and lighting stay fixed. Natural fabric movement and weight transfer. No camera zoom, pan, cuts, outfit change, slow motion, text or audio.
++						152 container
++							153 text Mira M02 v3
++							154 text Image 1
++						155 text Use the selected Mira M02 v3 reference for the same woman's identity. Begin exactly with the approved near-person first-frame image. The full-person reference guides her exact outfit and white lace-up canvas shoes only.
++						156 text One continuous six-second shot. The camera is locked in place with a fixed focal length. At normal everyday walking speed, she takes two short natural steps backward down the clear central library aisle, facing the camera. Her whole body moves away and becomes gradually smaller; both shoes and the complete outfit enter the frame. She then settles naturally for a brief full-outfit view.
++						157 text Keep the same mist-grey open rolled-sleeve shirt, cream dress neckline and waist seam, navy shoulder bag, earrings, face and hair. Window, bench, table, bookshelves, plants, floor and lighting stay fixed. Natural fabric movement and weight transfer. No camera zoom, pan, cuts, outfit change, slow motion, text or audio.
++					158 button 製作影片
++		159 text Imagine - Grok
+The focused UI element is 0 AXWebArea Imagine - Grok, URL: grok.com/imagine/post/f07a42ba-d33b-4d68-bbdf-8e743cb68516?conversation=9ac39d90-6889-4915-ae0a-23c50c254ed8

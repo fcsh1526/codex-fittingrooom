@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-24",
+  "shot": "S02",
+  "attempt": 2,
+  "status": "downloaded_provisional_action_match_full_qa_pending",
+  "url": "https://grok.com/imagine/post/6272d96f-dc95-4b6f-8576-90c9f9a6e2d4?conversation=788563cc-d28f-4230-967b-288c4fa225b1",
+  "first_frame": "generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S02_comparison_v2_start_candidate.png",
+  "identity_reference": "Mira M02 v3",
+  "first_frame_role_verified": true,
+  "prompt_file": "prompts/S02_comparison_v2_motion_v2.md",
+  "settings": {"resolution": "720p", "duration_seconds": 6, "aspect_ratio": "9:16", "audio": false},
+  "local_file": "videos/S02_comparison_v2_02.mp4",
+  "local_bytes": 1908939,
+  "sha256": "4F2FEF2E6A09F94D187D2D62F8EA86F21A66E83127139CBC398F3F23334D13A4",
+  "qa": "Grok player paused around 1s: free hand pinches gray shirt hem near hip; cream dress hangs normally. Around 3s: shirt and dress return to normal. This corrects attempt-01 action. Full normal-speed playback, identity comparison, adjacent-shot cut and user visual approval remain pending."
+}

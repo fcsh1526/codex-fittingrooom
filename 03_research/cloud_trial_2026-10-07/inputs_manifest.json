@@ -1,0 +1,259 @@
+{
+  "packet_version": 1,
+  "created_local_date": "2026-10-07",
+  "week": "2026-W37",
+  "model": "M02",
+  "scope": "Cloud trial preparation. No new B source, final candidate, cloud execution or user-video pass yet.",
+  "approval_precedence": "Exact-hash approval receipts override historical pending-still notes. Static approval is not dynamic approval.",
+  "files": [
+    {
+      "path": "inputs/M02_face.png",
+      "source_project_path": "02_brand/reference_models/M02_start_v3_face.png",
+      "role": "approved_identity_face",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5",
+      "size_bytes": 799278
+    },
+    {
+      "path": "inputs/M02_full.png",
+      "source_project_path": "02_brand/reference_models/M02_start_v3_full.png",
+      "role": "approved_identity_full",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4",
+      "size_bytes": 1961595
+    },
+    {
+      "path": "inputs/A_near_start_v2.png",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/backward_step_v2/2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v2.png",
+      "role": "approved_first_frame_L01",
+      "sha256": "e85778d9d38b7541cc5cf96fb73ea047c26da22c8179fe10b8c30f5c38356cb7",
+      "size_bytes": 1862853
+    },
+    {
+      "path": "inputs/B_matched_start_v3.png",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/2026-W37-001-L02_M02_body_distance_matched_start_candidate_v3.png",
+      "role": "approved_first_frame_L02",
+      "sha256": "f8098adfefc9be66ffcfea9bc3bad424e3f5e34a30a343d50dc4478f10af16e6",
+      "size_bytes": 1971568
+    },
+    {
+      "path": "evidence/A_still_approval.json",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/backward_step_v2/visual_approval_v2_2026-10-06.json",
+      "role": "exact_still_approval",
+      "sha256": "c57c69fcaec073191684d7a97a932a22b855d785f88e58b055f047d82fa5c473",
+      "size_bytes": 593
+    },
+    {
+      "path": "evidence/B_still_approval.json",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/visual_approval_v3_2026-10-07.json",
+      "role": "exact_still_approval",
+      "sha256": "c48c902e6240e030bab9ebe1f32c2e43fc852f55907d090cf573cf43e6d42938",
+      "size_bytes": 654
+    },
+    {
+      "path": "inputs/source_A.mp4",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/near_start_A_attempt_01/source.mp4",
+      "role": "retained_reviewed_L01_source",
+      "sha256": "be49906fa1ec7397bb456acc1ce7947325e71b4ce5a0692d7235d878ad6017ea",
+      "size_bytes": 2944089
+    },
+    {
+      "path": "inputs/L01_full_master.png",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+      "role": "approved_full_person_L01",
+      "sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e",
+      "size_bytes": 2038772
+    },
+    {
+      "path": "inputs/L01_proof.png",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+      "role": "approved_styling_proof_L01",
+      "sha256": "6c3c36d53e894f4be8aa1de1f7eef70749f15e0e906421d26bb838c74bed18bf",
+      "size_bytes": 1806548
+    },
+    {
+      "path": "inputs/L02_full_master.png",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+      "role": "approved_full_person_L02",
+      "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a",
+      "size_bytes": 2080360
+    },
+    {
+      "path": "inputs/L02_proof.png",
+      "source_project_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+      "role": "approved_styling_proof_L02",
+      "sha256": "1ea5251c0346edc52e38d414c5c52156a4c41e0a74d08d05c3140b196994dd77",
+      "size_bytes": 2036731
+    },
+    {
+      "path": "evidence/L01_full_visual_approval_2026-10-05.json",
+      "source_project_path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/L01_full_visual_approval_2026-10-05.json",
+      "role": "four_view_still_approval",
+      "sha256": "608d6c4de4ed75415d8ea989c479e34360d7f6707e87634cefbec0a2ed4c8d93",
+      "size_bytes": 618
+    },
+    {
+      "path": "evidence/paired_still_visual_approvals_2026-10-05.json",
+      "source_project_path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/paired_still_visual_approvals_2026-10-05.json",
+      "role": "four_view_still_approval",
+      "sha256": "d184a76981d59bdee7b378c5a94238c8e7dad79336be8dcda462221e72650990",
+      "size_bytes": 1123
+    },
+    {
+      "path": "evidence/L02_proof_visual_approval_2026-10-05.json",
+      "source_project_path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/L02_proof_visual_approval_2026-10-05.json",
+      "role": "four_view_still_approval",
+      "sha256": "657e0e7c16d7fd9f4f16faad65ce476172c3a43e6d9ec3c658be47a093bca57c",
+      "size_bytes": 462
+    },
+    {
+      "path": "evidence/A_input_receipt.json",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/near_start_A_attempt_01/input_receipt.json",
+      "role": "historical_A_provenance",
+      "sha256": "f069d52e78b09c035a9f56372626dc1f4d7c41ae4fca4347f12c2cdb9c28b34d",
+      "size_bytes": 1757
+    },
+    {
+      "path": "evidence/A_retrieval.json",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/near_start_A_attempt_01/retrieval.json",
+      "role": "historical_A_provenance",
+      "sha256": "bfafda1a9d6bb61bf1d0c860d329477bfebcc43ed4ffbc3478bfd93490ad9300",
+      "size_bytes": 690
+    },
+    {
+      "path": "evidence/A_sampled_review.json",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/near_start_A_attempt_01/sampled_review.json",
+      "role": "historical_A_provenance",
+      "sha256": "a83bdebf18df5c4051a7dc25fb8836adc54b1af1ca0e3113abc680426486d360",
+      "size_bytes": 627
+    },
+    {
+      "path": "evidence/A_submitted_prompt.txt",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/near_start_A_attempt_01/submitted_prompt.txt",
+      "role": "historical_A_provenance",
+      "sha256": "49433c7995b23623d370e1b30ca0dfc77ba2a5eae3e18d19c3d1c30aee5a59b4",
+      "size_bytes": 955
+    },
+    {
+      "path": "evidence/A_QA/actual_metadata.json",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/qa/near_A1/actual_metadata.json",
+      "role": "historical_sampled_QA_not_full_watch",
+      "sha256": "d34ccdb91e492daa96f33d3bb6af1dab05200d2cec9c42b8e018aaf1bc8c3880",
+      "size_bytes": 938
+    },
+    {
+      "path": "evidence/A_QA/decode_scan.json",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/qa/near_A1/decode_scan.json",
+      "role": "historical_sampled_QA_not_full_watch",
+      "sha256": "ae95c78313d6e11e1d7c8164e314c4dff69eb180313ec8a1ec07d9a7b697688f",
+      "size_bytes": 792
+    },
+    {
+      "path": "evidence/A_QA/independent_review.md",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/qa/near_A1/independent_review.md",
+      "role": "historical_sampled_QA_not_full_watch",
+      "sha256": "a1a5b90e20cd499b4e7305ac437792d227d70ffcae9556a099f7a91b9f9260b7",
+      "size_bytes": 4761
+    },
+    {
+      "path": "evidence/A_QA/full_25_checkpoints.jpg",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/qa/near_A1/full_25_checkpoints.jpg",
+      "role": "historical_sampled_QA_not_full_watch",
+      "sha256": "cddae1101e72776482ef6393951c421bb7e5e7a274314bc8f1e31f082fab9bc2",
+      "size_bytes": 1018454
+    },
+    {
+      "path": "evidence/A_QA/face_5_checkpoints.jpg",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/qa/near_A1/face_5_checkpoints.jpg",
+      "role": "historical_sampled_QA_not_full_watch",
+      "sha256": "0211da3cea17177a138834308726b6f10b8385a3b5cb2941d3e6ed311cfd3f77",
+      "size_bytes": 108246
+    },
+    {
+      "path": "prompts/B_approach.txt",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/matched_B_attempt_01/prompt.txt",
+      "role": "approved_still_motion_plan",
+      "sha256": "0754eadd78b520a34816ae8fb9b68b40e6c77e5eea807b43a4b0e9d4a6c871b2",
+      "size_bytes": 1073
+    },
+    {
+      "path": "evidence/revised_storyboard_v3.md",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/revised_storyboard_v3.md",
+      "role": "historical_storyboard_current_approvals_override",
+      "sha256": "6c57ec3e34c83d3b5fcbed68a72619b349c98bcbf6aa12c70bdbce71a04b6e4d",
+      "size_bytes": 3017
+    },
+    {
+      "path": "evidence/matched_B_source_plan_oct07.md",
+      "source_project_path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/matched_B_source_plan_oct07.md",
+      "role": "historical_plan_current_state_override",
+      "sha256": "da2c9c3ebc60f5370785f27769dc47e3708ae52e6e111c60e82e5b4f775be261",
+      "size_bytes": 1528
+    },
+    {
+      "path": "workflow/CANONICAL_WORKFLOW.md",
+      "source_project_path": "10_automation/CANONICAL_WORKFLOW.md",
+      "role": "workflow_snapshot",
+      "sha256": "a490466e400a4886c8777ed19f130961a3427f1d91d81d4d64fa621d009f5fc1",
+      "size_bytes": 22886
+    },
+    {
+      "path": "workflow/CURRENT_STATUS_snapshot.md",
+      "source_project_path": "CURRENT_STATUS.md",
+      "role": "workflow_snapshot",
+      "sha256": "dbbce848637e20da67ef6cebcfcd17d955f8020cad6d11b75b3245e6d6039721",
+      "size_bytes": 124884
+    },
+    {
+      "path": "workflow/publishing_structure_snapshot.md",
+      "source_project_path": "10_automation/runs/2026-W37/publishing_structure.md",
+      "role": "workflow_snapshot",
+      "sha256": "5ee8a3ba20db9a4a5410fe9c08ca669464646ef7724017632e4e3c756e1c12aa",
+      "size_bytes": 27783
+    },
+    {
+      "path": "workflow/mira_reel_production_sop.md",
+      "source_project_path": "09_sops/mira_reel_production_sop.md",
+      "role": "workflow_snapshot",
+      "sha256": "9d0b324fafcb46cc92e26379279709f7e957884be3ab36deddabd88a7c9a5ac1",
+      "size_bytes": 21978
+    },
+    {
+      "path": "workflow/mira-image-daily/SKILL.md",
+      "source_project_path": "11_skills/mira-image-daily/SKILL.md",
+      "role": "workflow_snapshot",
+      "sha256": "cc4c0e366bf7d807deb9013d7218d11569312a0bb20276547a65a8e1f0fcbfcc",
+      "size_bytes": 12869
+    },
+    {
+      "path": "workflow/mira-image-daily/references/image-standard.md",
+      "source_project_path": "11_skills/mira-image-daily/references/image-standard.md",
+      "role": "workflow_snapshot",
+      "sha256": "b221617d6dbb3c0cbf73be2044a65d3950a7d3eaeac4a58793fffe040b4c2c9d",
+      "size_bytes": 7725
+    },
+    {
+      "path": "workflow/mira-image-daily/references/reference-start-images.md",
+      "source_project_path": "11_skills/mira-image-daily/references/reference-start-images.md",
+      "role": "workflow_snapshot",
+      "sha256": "f353b75a12cb2d58e55cf647b960a8c5b8076705c144d5d2027c3bcfb8ee8dde",
+      "size_bytes": 3062
+    },
+    {
+      "path": "inputs/M02_looks.json",
+      "role": "two_weekly_looks_and_current_scene",
+      "sha256": "f2396288b08ddcfd0f1e14d6714e28fed2cf78032428d8adbe4b3b693d8b2008",
+      "size_bytes": 3580
+    },
+    {
+      "path": "inputs/M02_identity.json",
+      "role": "approved_identity_registry_row",
+      "sha256": "dcc0c19b67bff472ba9c6289decad0a109dfbfea3dda6375b5f7980b2938fd89",
+      "size_bytes": 892
+    },
+    {
+      "path": "evidence/protected_originals.json",
+      "role": "local_protected_originals_verified_not_transferred",
+      "sha256": "c3ebc265a4d95d26a8e56b5c01eae54fe0e543a2a392644a0c05d64823d0232c",
+      "size_bytes": 1909
+    }
+  ]
+}

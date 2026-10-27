@@ -1,0 +1,111 @@
+{
+  "run_dir": "10_automation\\runs\\2026-W34",
+  "run_state": {
+    "status": "completed",
+    "completed_at": "2026-08-24",
+    "reason": "W34 completed by user decision. Start 2026-W35 in a new conversation; do not backfill W34 unless explicitly reopened.",
+    "next_week": "2026-W35"
+  },
+  "stage": {
+    "stage": "completed",
+    "next_action": "W34 completed by user decision. Start 2026-W35 in a new conversation; do not backfill W34 unless explicitly reopened.",
+    "blocking_items": []
+  },
+  "packet": {
+    "row_count": 5,
+    "published_count": 0,
+    "ready_for_canva_test": [],
+    "canva_committed_ready_to_publish": [],
+    "ready_for_manual_export": [],
+    "canva_blocked_waiting_for_flat_png_asset": [],
+    "needs_visual_revision": [],
+    "inactive_count": 0,
+    "all_inactive": false,
+    "carousel_ids": [
+      "2026-W34-001",
+      "2026-W34-002",
+      "2026-W34-003",
+      "2026-W34-004",
+      "2026-W34-005"
+    ]
+  },
+  "files": {
+    "weekly_content_packet.csv": {
+      "exists": true,
+      "size": 5911
+    },
+    "canva_placeholder_values.csv": {
+      "exists": true,
+      "size": 1783
+    },
+    "canva_fill_guide.md": {
+      "exists": true,
+      "size": 5677
+    },
+    "canva_asset_slots.csv": {
+      "exists": true,
+      "size": 2682
+    },
+    "daily_queue.csv": {
+      "exists": true,
+      "size": 2003
+    },
+    "image_generation_briefs.md": {
+      "exists": true,
+      "size": 11830
+    },
+    "image_review_template.csv": {
+      "exists": true,
+      "size": 595
+    },
+    "post_drafts.md": {
+      "exists": true,
+      "size": 6308
+    },
+    "publish_checklist.md": {
+      "exists": true,
+      "size": 1906
+    },
+    "quality_report.md": {
+      "exists": true,
+      "size": 93
+    }
+  },
+  "quality": {
+    "status": "pass",
+    "error_count": 0,
+    "warning_count": 0
+  },
+  "assets": {
+    "carousel_count": 5,
+    "selection_exists": true,
+    "review_template_exists": true,
+    "selected_cover_count": 0,
+    "selected_carousel_ids": [],
+    "missing_cover": [
+      "2026-W34-001",
+      "2026-W34-002",
+      "2026-W34-003",
+      "2026-W34-004",
+      "2026-W34-005"
+    ],
+    "missing_detail": [
+      "2026-W34-001",
+      "2026-W34-002",
+      "2026-W34-003",
+      "2026-W34-004",
+      "2026-W34-005"
+    ],
+    "selection_rows": 5
+  },
+  "publish": {
+    "published": false,
+    "metric_count": 0,
+    "latest_publish": {},
+    "latest_metric": {},
+    "latest_decision": "",
+    "latest_next_action": "",
+    "published_carousel_ids": []
+  },
+  "commands": []
+}

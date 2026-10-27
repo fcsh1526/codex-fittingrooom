@@ -1,0 +1,73 @@
+{
+  "source": "03_research/editorial_sequence_reset_2026-10-13/first_look_review_v1/M03_L01_walk_to_seated_trial_v1.mp4",
+  "sha256": "65a4cd87b9ef6a0e7dd3c6f26612c2173d9d5cc2b673f8d3c460120a5387ed8c",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\editorial_sequence_reset_2026-10-13\\first_look_review_v1\\M03_L01_walk_to_seated_trial_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 5.5
+    },
+    "decoded_frames": 132,
+    "decoded_seconds": 5.5,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    5,
+    10,
+    16,
+    21,
+    27,
+    32,
+    38,
+    43,
+    49,
+    54,
+    60,
+    65,
+    70,
+    76,
+    81,
+    87,
+    92,
+    98,
+    103,
+    109,
+    114,
+    120,
+    125,
+    131
+  ],
+  "face_sample_frames": [
+    0,
+    32,
+    65,
+    98,
+    131
+  ],
+  "all_frame_thumbnails_exported": 132,
+  "visual_review": {
+    "status": "sampled_frame_review_complete_user_normal_speed_review_pending",
+    "method": "All132 output thumbnails,25 larger whole-frame samples,5 face samples;23 transition/boundary samples including all18 dissolve frames.",
+    "findings": "No black/decode failures; recognizable clothing and face in sampled single-source intervals. Standing-to-seated scale, face position and bench viewpoint differ; visible double heads/body outlines during overlap. Not an invisible match.",
+    "limits": "No assistant continuous normal-speed playback. User comfort, daily-magazine impression, originality and whole-film acceptance pending. No audience or sustainable-budget conclusions.",
+    "assistant_continuous_playback": false,
+    "user_film_approval": null
+  },
+  "assistant_continuous_playback": false,
+  "user_film_approval": null
+}

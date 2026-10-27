@@ -1,0 +1,4 @@
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,reader_relatability,outfit_clarity,ai_realism,commerce_value,publishable,status,notes
+2026-W26-001,W26-P001,M01,2026-W26-001_M01_candidate_A.png,Codex,4,5,4,4,4,yes,selected,"Strong office sheer-layering frame; identity close to M01; outfit and fabric are clear enough for cover_image."
+2026-W26-001,W26-P001,M01,2026-W26-001_M01_candidate_B.png,Codex,2,5,4,4,4,no,reject,"Rejected for model drift: face skews younger and reads like a different person despite strong commute movement."
+2026-W26-001,W26-P001,M01,2026-W26-001_M01_candidate_C.png,Codex,4,5,5,4,5,yes,selected,"Best detail_image option; strong sheer fabric detail, stable face, clear neckline and layering."

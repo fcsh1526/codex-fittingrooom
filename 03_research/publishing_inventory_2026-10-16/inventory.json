@@ -1,0 +1,94 @@
+{
+  "observed_date": "2026-10-16",
+  "timezone": "Asia/Taipei",
+  "research_execution": "paused_by_user",
+  "formal_delivered_batches": [
+    {
+      "week": "2026-W37",
+      "films": 5,
+      "publication_dates": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-07"
+      ],
+      "published": 5,
+      "handoff_url": "https://docs.google.com/document/d/1OSEdxcPyh1siSu77fed40l17s96LsiaIfkFYj_Voop0/edit"
+    },
+    {
+      "week": "2026-W41",
+      "films": 5,
+      "publication_dates": [
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "published": 5,
+      "handoff_url": "https://docs.google.com/document/d/1KnN0c7g4mbRwn3_R-Y_XaK9J-l5MZulKjqfDbZpGSts/edit"
+    }
+  ],
+  "formal_packaged_unpublished_count": 0,
+  "verification": "Live Drive folder lists + 2026-10-15 handoff amendments + actual IG rendered profile top ten URLs/captions. Does not certify exact original video stream identity after IG transcoding.",
+  "local_stale_status_warning": "Original W37 10/2 and W41 10/8 delivery receipts/documentation contain pre-posting not_published values; preserve as historical, do not use to count today's inventory.",
+  "accepted_research_versions": [
+    {
+      "title": "M02兩段連續D版",
+      "file_basename": "M02_paired_D_v1_review_v2_matched.mp4",
+      "seconds": 11.25
+    },
+    {
+      "title": "M02左右尺寸修正版",
+      "file_basename": "M02_parallel_compare_review_v4_size_matched.mp4",
+      "seconds": 6
+    },
+    {
+      "title": "M02左右錯時轉身",
+      "file": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+      "seconds": 6,
+      "priority_for_repackaging": true
+    },
+    {
+      "title": "M02前襟手勢柔接",
+      "file_basename": "M02_front_opening_deep_to_light_review_v1.mp4",
+      "seconds": 8.5,
+      "limitation": "medium framing, not full-person delivery"
+    },
+    {
+      "title": "M03左右轉身輪廓",
+      "file_basename": "M03_turn_silhouette_parallel_v1.mp4",
+      "seconds": 6
+    },
+    {
+      "title": "M03午休的小出走",
+      "file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+      "seconds": 10.75,
+      "priority_for_repackaging": true
+    },
+    {
+      "title": "M02咖啡店牆角遮鏡",
+      "file": "03_research/foreground_transition_study_2026-10-14/joined_review_v1/M02_cafe_wall_two_looks_trial_v1.mp4",
+      "seconds": 11.333333333333334,
+      "limitation": "User later requests longer outfit-reading and substantially different styles; not priority as-is."
+    }
+  ],
+  "research_inventory_interpretation": "Seven accepted research picture versions, not seven fresh outfit topics or formally packaged ready-to-post assets. Reuse clothes already published; captions/cover/appropriate topic and final posting package need review. No new five-Reel release exists. Latest refused five-look films and single-shot direction approvals excluded.",
+  "next_workflow_preference": {
+    "user_request": "先有分鏡表，先用簡單線條草稿描繪，再拍各鏡頭，降低等待生成及試錯。",
+    "sequence": [
+      "viewer purpose and whole-film visual direction",
+      "simple line storyboard panels with shot scale, model movement, camera movement, seconds and joins",
+      "time-based whole-sequence previsualization",
+      "identify missing footage and starting frames",
+      "new-still exact visual approval",
+      "Grok individual-shot generation",
+      "edit and whole-film review"
+    ],
+    "adds_new_routine_permission_gate": false,
+    "new_generation_resumed": false
+  },
+  "external_writes": [],
+  "new_media_generated": 0
+}

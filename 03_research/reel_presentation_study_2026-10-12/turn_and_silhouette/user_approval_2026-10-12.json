@@ -1,0 +1,14 @@
+{
+  "user_message": "可以，但是我以為這之前有這種剪輯方式了，是發展到第二還是第三種剪輯方式是這個左右畫面?",
+  "approved_output": "03_research/reel_presentation_study_2026-10-12/turn_and_silhouette/M03_turn_silhouette_parallel_v1.mp4",
+  "sha256": "4739ca6f19f88772616dbd0b26bfac9c0ca4f4237d662842c02d4b0cd1edfd4d",
+  "scope": "visual acceptance of this exact trial; user correctly identifies reused parallel format",
+  "historical_precedent": "M02 parallel comparison and approved orientation trial on2026-10-05; W41 M04 parallel film on2026-10-08",
+  "new_editing_format": false,
+  "new_motion_mechanism": false,
+  "current_variation": "new M03 source animations with opposing turns and front return",
+  "continuous_playback_self_report": null,
+  "account_wide_adoption": false,
+  "drive_replacement_authorized": false,
+  "publication_authorized": false
+}

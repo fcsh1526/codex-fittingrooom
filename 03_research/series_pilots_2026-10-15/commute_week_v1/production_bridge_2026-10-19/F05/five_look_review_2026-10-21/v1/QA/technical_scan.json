@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 29.67
+  },
+  "decoded_frames": 712,
+  "full_decode_completed": true,
+  "decoded_frames_over_native_fps_seconds": 29.666666666666668,
+  "individual_source_PTS_measured": false
+}

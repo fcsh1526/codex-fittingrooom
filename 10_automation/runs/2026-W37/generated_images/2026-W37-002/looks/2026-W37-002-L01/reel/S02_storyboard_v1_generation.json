@@ -1,0 +1,25 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-002-L01",
+  "model_profile_id": "M05",
+  "created_at": "2026-09-29",
+  "purpose": "Native vertical medium styling-proof candidate showing the L01 cropped-jacket-to-high-waist relationship; potential lower-motion first frame only after user visual approval",
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/proof_medium_prompt_m05_storyboard_v1.md",
+  "tool": "built-in image_gen",
+  "identity_references": [
+    "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png",
+    "02_brand/reference_models/M05_start_v1_face.png"
+  ],
+  "output_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S02_storyboard_v1_medium_candidate.png",
+  "dimensions": { "width": 941, "height": 1672, "aspect_ratio": 0.562799 },
+  "sha256": "F743554F8477E6E03E4E099D716A480F126E68B067B9819FD9D2D9AC0E848AF9",
+  "assistant_visual_review": {
+    "identity": "Near-frontal M05 face and side-parted shoulder-length hair broadly match approved anchors and L01 full-person still; user review pending.",
+    "wardrobe": "White short jacket, tucked pale-blue shirt, deep-indigo high-waisted wide trousers and caramel-brown bag visible; jacket hem and waistband unobstructed and not purple.",
+    "framing": "Native vertical head-to-leg medium image; table stays beside her rather than covering the waist; shoes intentionally outside proof composition.",
+    "technical_limits": "Still only; no motion submitted from this image."
+  },
+  "status": "user_visual_approved_as_L01_styling_proof",
+  "grok_submission": null,
+  "user_visual_approval": "2026-09-29: 可以，沿用這張. Approved as the L01 medium styling-proof still; no Grok motion submitted from it."
+}

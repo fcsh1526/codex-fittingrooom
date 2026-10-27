@@ -1,0 +1,83 @@
+{
+  "source": "03_research/reel_presentation_study_2026-10-12/E02_silhouette_2026-10-13/review_v1/M05_E02_silhouette_two_looks_v1.mp4",
+  "sha256": "2ae0fb878364b535e6aa40ac816e3a0b3c4b4d19c4599f838923f6e3f872c3f3",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_presentation_study_2026-10-12\\E02_silhouette_2026-10-13\\review_v1\\M05_E02_silhouette_two_looks_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.0
+    },
+    "decoded_frames": 192,
+    "decoded_seconds": 8.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    7,
+    15,
+    23,
+    31,
+    39,
+    47,
+    55,
+    63,
+    71,
+    79,
+    87,
+    95,
+    103,
+    111,
+    119,
+    127,
+    135,
+    143,
+    151,
+    159,
+    167,
+    175,
+    183,
+    191
+  ],
+  "face_sample_frames": [
+    0,
+    47,
+    95,
+    143,
+    191
+  ],
+  "all_frame_thumbnails_exported": 192,
+  "visual_review": "frame_review_completed_user_normal_speed_review_pending",
+  "assistant_continuous_playback": false,
+  "user_film_approval": false,
+  "review": {
+    "method": "All192 film thumbnails,25 larger whole frames,5 face samples, all21 join/boundary samples and native turn/stance source frame36 viewed. No assistant continuous normal-speed watch claimed.",
+    "identity_clothing_background": "Recognizable M05 and respective short jackets, tee, high waist, straight trousers, belt, bag and loafers in retained views. Window/wall/bench/floor remain broadly fixed; no obvious architectural drift observed in sampled/thumbnail views.",
+    "transition": "3.25-4.00s,18frames cross dissolve. Small head/foot position differences create transient double outlines and face ghosting; not an invisible outfit morph. No black-frame signal or size jump by crop/zoom. Comfort requires user normal-speed playback.",
+    "editorial": "Charcoal/light gray front proportion then cream/cocoa shallow turn and return. Same short-jacket/high-waist/straight-leg theme. First shot quiet; viewer usefulness and magazine feeling remain unvalidated.",
+    "technical_limits": "Only four diagnostic generations. Exact angle/pose control did not consistently follow prompts, so repeatable production is not established. Native tiny hand/shoe/bag details not certified on every frame."
+  },
+  "status": "rejected_editorially_by_user",
+  "user_feedback": {
+    "date": "2026-10-13",
+    "user_quote": "這種類型剪輯不要了，跟之前大同小異",
+    "decision": "rejected_editorially",
+    "scope": "Latest M05 E02 eight-second film and further minor variants of the same fixed full-person two-look dissolve display. Does not rescind historical accepted publishing files, the one-model/two-look contract, no-text rule or soft-transition preference.",
+    "reason": "Insufficient perceptual difference from previous experiments.",
+    "next_gate": "Before generating more media, compare the proposed whole-film experience with previous trials and an actually observed reference mechanism. A new name, different outfit or small pose change is insufficient.",
+    "new_generation_authorized_by_this_feedback": false
+  }
+}

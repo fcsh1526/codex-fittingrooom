@@ -1,0 +1,30 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "version": "first_last_keyframe_review_v2_moving_cut",
+  "status": "rejected_environment_drift",
+  "storyboard": "10_automation/runs/2026-W37/reels/M05_keyframe_continuity_test_v1.md",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_first_last_review_v2_01.mp4",
+  "output_sha256": "7A4E53E16FD68A1B52A0714FB2C1FF7E539EF6DE41E57449C89A567BD94A0656",
+  "output_metadata": {"duration_seconds_approx": 9.25, "resolution": "720x1280", "source_frame_rate": 24, "decoded_frames": 222, "audio_stream": false, "embedded_text": false},
+  "segments": [
+    {"look_id": "2026-W37-002-L01", "source_record": "10_automation/runs/2026-W37/reels/M05_A_L01_first_last_push_v1_01.json", "source_frames": "0-125 inclusive", "selected_frames": 126, "selected_duration_seconds": 5.25},
+    {"look_id": "2026-W37-002-L02", "source_record": "10_automation/runs/2026-W37/reels/M05_B_L02_first_last_pull_v1_01.json", "source_frames": "6-101 inclusive", "selected_frames": 96, "selected_duration_seconds": 4.0}
+  ],
+  "cut_frame": 126,
+  "cut_seconds": 5.25,
+  "editing": "One direct outfit cut at similar face/shoulder/waist scale; no overlay, dissolve, animated zoom, text, audio or speed change. Earlier 10-second v1 cut remains at reels/videos/M05_two_looks_first_last_review_v1_01.mp4 for comparison; v2 removes the brief hold around the cut.",
+  "qa": {
+    "full_decode": "Passed; 222 frames.",
+    "black_or_frozen_frames": "No blackdetect/freezedetect events.",
+    "cut_neighborhood": "10_automation/runs/2026-W37/reels/qa/M05_two_looks_first_last_review_v2_01/cut_neighborhood.jpg",
+    "assistant_visual_review": "Cut neighborhood shows similar near-frontal person scale and stable styling details. Overall comfort and editorial rhythm require user normal-speed playback.",
+    "limitation": "Technical two-look preview, not a published Reel. User visual approval, music choice and publication remain pending."
+  },
+  "user_visual_review": {
+    "date": "2026-09-30",
+    "pacing": "acceptable",
+    "environment": "rejected_background_drift",
+    "verbatim": "節奏可以，但是背景的環境出現飄移錯誤",
+    "decision": "Do not publish or reuse this first/last-keyframe edit as an accepted source. Preserve the cut rhythm as a reference for the next test."
+  }
+}

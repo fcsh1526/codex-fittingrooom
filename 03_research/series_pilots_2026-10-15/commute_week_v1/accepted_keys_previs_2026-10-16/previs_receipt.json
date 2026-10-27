@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "stage": "new_timed_sketch_pending_user_review",
+  "frames": 468,
+  "seconds": 19.5,
+  "fps": 24,
+  "pixels": [
+    540,
+    960
+  ],
+  "audio": false,
+  "text": false,
+  "arrows_in_video": false,
+  "approved_static_keys_retained": true,
+  "new_camera_path_and_outfit_schedule_accepted": null,
+  "photoreal_stills_generated": 0,
+  "grok_calls": 0,
+  "existing_approved_files_modified": false,
+  "geometry_checks": {
+    "approved_key_matches": [
+      {
+        "id": "K1",
+        "max_camera_projection_error": 0.0
+      },
+      {
+        "id": "K2",
+        "max_camera_projection_error": 0.0
+      },
+      {
+        "id": "K3",
+        "max_camera_projection_error": 0.0
+      },
+      {
+        "id": "K4",
+        "max_camera_projection_error": 0.0
+      }
+    ],
+    "sample_count": 469,
+    "camera_inside_checked_buildings_or_columns": false,
+    "body_centre_top_and_feet_fit_all_samples": true,
+    "max_adjacent_yaw_change_deg_at24fps": 0.7645019446419414,
+    "limits": "Centre/top/feet checks do not prove every sleeve/bag contour or foreground occlusion. Camera curve continuity is a schematic property, not actual generated motion."
+  },
+  "files": {
+    "eight_frame_board.png": {
+      "bytes": 375632,
+      "sha256": "535d9c31003a7e71f53cdd8b7ded88a6bcf61f0eb26015c0c2c0b6d81df64482"
+    },
+    "accepted_keys_five_outfits_animatic.mp4": {
+      "bytes": 1637380,
+      "sha256": "b10d8df45560165aec160a45588677a45dd24ac198aeb9f0f64212c8ebcb07a0"
+    },
+    "previs_plan.json": {
+      "bytes": 2667,
+      "sha256": "920663bad78038757488f5c190fa4c51647d9f5e4514d9d82b6a754c729df49a"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+只執行一次「第五套裙裝拉開至公司門前」6秒影片測試。使用者已逐張核准以下精確首尾圖，不新出照片、不換衣、不合片、不自行重試。不要用其他模特兒或畫布目前選取狀態猜輸入。
+
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "1d3601d9-c5e3-4d90-9073-224ae5e613af"
+last_frame_asset_id: "2cd09782-09d7-4c5c-bde2-6e0e8384ca3b"
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+
+first為M03白短袖尖領襯衫／黑裙腰／鈷藍肩包、向右行走近景，包左側部分裁邊；last為同套全身走到灰綠玻璃公司的門前、整條A字裙及黑鞋藍包可見，金屬門框與矩形雨棚在前方右側。兩圖內容不符或必要參數被拒絕就停止，不自行替換。face/full只鎖M03 v3身份、髮型與普通身形，不複製其衣服、站姿或背景。
+
+Generate one continuous six-second real-time commute shot connecting the exact first and last frames. The SAME woman walks purposefully toward image-right at an even natural cadence, remaining predominantly side-facing with forward gaze. For the first roughly three-quarter second, track at the existing close distance and scale so the preceding close shot can overlap comfortably. Then smoothly move the camera farther away on the SAME flank, with a level chest-height50mm photographic view, progressively revealing the whole black A-line skirt, cobalt bag and finally both plain black low-heel shoes. Reach the approved wider scale by about four seconds, leaving the last two seconds for readable full-outfit walking near the office doorway. Never shrink her instantly or rotate the camera to the other side. End still walking just outside the doorway; do not operate a handle, stop to pose, walk through glass or invent an interior sequence.
+
+Preserve exact white short-sleeved pointed-collar cotton shirt with short folded cuffs, tucked black high waist, calf-length A-line cotton skirt with no slit, small cobalt-blue leather shoulder bag with its metal adjustment buckle on the near shoulder, and plain black low-heeled slip-ons. Keep face/hair/ordinary proportions and skirt length stable; bag reappears through widening field of view, never inflating or changing design. Natural arm movement, grounded alternating shoe contacts and cloth motion; no skating, hesitation, slow motion or speed ramp.
+
+Keep one rigid grey-green glass company facade, pale paving, existing short planter/foliage behind image-left and the approved entrance ahead/right under the rectangular canopy. Background changes only through natural parallax, expanding field of view and optical depth of field; reveal the doorway and canopy progressively rather than having them form out of glass or greenery. Do not add a plant row, extra door, silver pole or other street fixture. Keep coherent daylight, recognisable architectural lines, believable skin/fabric texture and softly defocused surroundings. No internal cut/dissolve, freeze, text or logo. Disable audio only if a real option exists, otherwise report actual track.
+
+完成後在原畫布保留唯一新影片，回報實際傳入first/last/asset_ids、輸出UUID、實際時長／像素／音軌。把參數接受與實際抽樣觀察分開，不自行宣告步態／空間／完整五套成片通過，不追加第二支。

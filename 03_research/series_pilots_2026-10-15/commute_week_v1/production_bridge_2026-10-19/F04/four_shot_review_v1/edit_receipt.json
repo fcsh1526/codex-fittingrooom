@@ -1,0 +1,514 @@
+{
+  "created_at_taipei": "2026-10-20T10:58:39.465418+08:00",
+  "status": "research_four_shot_candidate_pending_visual_review",
+  "execution": "local",
+  "model": "M03",
+  "look_ids": [
+    "L01",
+    "L05",
+    "L03",
+    "L02"
+  ],
+  "builder_sha256": "73c797a4612168eeb3b7f907443487fd1a4129c23501696bd5095680f25c8a96",
+  "native_helper": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\build_first_pair_review.py",
+  "native_helper_sha256": "b86dee666b84fcb38777379919f5ef3d15568fb228840007b8ff29cf031455b5",
+  "accepted_prefix": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4",
+    "sha256": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+    "used_as_media_input": true,
+    "native_frames_half_open": [
+      0,
+      331
+    ],
+    "earlier_joins_rebuilt": false,
+    "full_decode": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 13.79
+      },
+      "decoded_frames": 331,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 13.791666666666666,
+      "individual_source_PTS_measured": false
+    },
+    "stream_inventory": {
+      "streams": [
+        "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 7761 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+      ],
+      "audio_stream_present": false
+    },
+    "modified": false
+  },
+  "incoming_source": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_source.mp4",
+    "sha256": "d83c6c18fa7d058c3eb3b374afad70db0a51cf0c561ba2c6bd4a255041d0bb50",
+    "native_frames_half_open": [
+      0,
+      145
+    ],
+    "full_decode": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    }
+  },
+  "protected_inputs": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4",
+      "sha256": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_start_candidate_A.png",
+      "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_end_candidate_A_footfix_v2.png",
+      "sha256": "78b0322f697806c8cf436a221a631e39e5d2f57a7e65df4044a2a27309a673ed"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_source.mp4",
+      "sha256": "d83c6c18fa7d058c3eb3b374afad70db0a51cf0c561ba2c6bd4a255041d0bb50"
+    }
+  ],
+  "protected_inputs_verified_unchanged_after_encode": true,
+  "output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\four_shot_review_v1\\F01_F02_F03_F04_native_soft_review_v1.mp4",
+  "output_sha256": "ace98a7a170d74241b43a30f1e94f4ce75c8dff5ce47a7548c72f1da88795114",
+  "native_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 458,
+  "seconds": 19.083333333333332,
+  "frame_count_formula": "331 +F04_decoded_frames -18",
+  "output_full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 19.08
+    },
+    "decoded_frames": 458,
+    "full_decode_completed": true,
+    "decoded_frames_over_native_fps_seconds": 19.083333333333332,
+    "individual_source_PTS_measured": false
+  },
+  "output_stream_inventory": {
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 8167 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+    ],
+    "audio_stream_present": false
+  },
+  "new_transition": {
+    "id": "J34",
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      313,
+      331
+    ],
+    "output_seconds_half_open": [
+      13.041666666666666,
+      13.791666666666666
+    ],
+    "outgoing_accepted_prefix_native_frames_half_open": [
+      313,
+      331
+    ],
+    "equivalent_original_F03_native_frames_half_open": [
+      127,
+      145
+    ],
+    "incoming_F04_native_frames_half_open": [
+      0,
+      18
+    ],
+    "incoming_weight": "(overlap_index +1)/18; overlap_index=0..17"
+  },
+  "speed": {
+    "accepted_prefix_factor": 1.0,
+    "F04_factor": 1.0,
+    "output_clock_fps": 24,
+    "native_frame_order_preserved": true,
+    "retime": false,
+    "freeze_reverse_repeat_interpolation": false,
+    "individual_source_PTS_measured": false
+  },
+  "framing_transform": "none; complete native720x1280 raster",
+  "text": "none",
+  "audio": "none",
+  "sample_assets": {
+    "full_checkpoint_indices": [
+      0,
+      19,
+      38,
+      57,
+      76,
+      95,
+      114,
+      133,
+      152,
+      171,
+      190,
+      209,
+      228,
+      248,
+      267,
+      286,
+      305,
+      324,
+      343,
+      362,
+      381,
+      400,
+      419,
+      438,
+      457
+    ],
+    "J34_boundary_indices": [
+      305,
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338
+    ],
+    "J34_all_18_transition_frames_extracted": true,
+    "individual_QA_frames_size": [
+      720,
+      1280
+    ],
+    "QA_frame_crop": false,
+    "QA_contact_sheets_are_reduced_full_raster_thumbnails": true
+  },
+  "QA_artifacts": [
+    {
+      "path": "QA_four_shot\\frame_mapping.json",
+      "sha256": "e59ccdbdb5115d60a434f7436492c0ed141de567eada4eb34910719806526a0a"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000000.png",
+      "sha256": "4fd0471d6d7aac266ce9115096c01f3a3c978af12e18267b331160194b1034c1"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000019.png",
+      "sha256": "c201a4d27942617f013b33824ce583e7c7ae38826ea35e8d9f34fa7f346a472f"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000038.png",
+      "sha256": "e98748c3c87653ac101a2fde2588f81ebc9ba4f16f0dfe2c2961ffa929be4413"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000057.png",
+      "sha256": "124b6de28a1fc6c9a22d3723d6e115c9efc3c56d703ec90a6dc6cda67102fd15"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000076.png",
+      "sha256": "8b7aa81d335c9abb2bc9f1d0795a2b25224f10a96e85a3212209bc187390c613"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000095.png",
+      "sha256": "6c20caa3a6ae77dbe5f404affde3193ed972e7832ea330dd4d70c3d0f0cffa95"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000114.png",
+      "sha256": "571dbbea55187272922d4aaf1ab73980655b58fffe0be73270e2ab094a81c297"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000133.png",
+      "sha256": "904f71958f439817884de038a28ff05fa2dd3dac479c4fbfb6e0ef4a8757b42d"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000152.png",
+      "sha256": "661504e7b969c75af9669f82021a3d3f3e30a998a53a16c348f1b28e426ac719"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000171.png",
+      "sha256": "d453402f4267a071babd0d0ff3138b7f2d3940e3053df90d578558059ffb9229"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000190.png",
+      "sha256": "e2f727b819f5d9ba61ce4fb0e534e050260c14adb410ed166bf91607e5e5b10f"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000209.png",
+      "sha256": "14b0e276998821823389ad0d0ba8d02ec901af81c66002de2c567cfe9ef3bd2c"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000228.png",
+      "sha256": "8be5c7719eefcaf5785babf0aa28d067e0e1899b5a6f340b1608833673c08bd9"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000248.png",
+      "sha256": "39ebb3c7ab3014774f5e6c7fd0c14aa92760f06d06f35fd006ba4a31a7f3ef3f"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000267.png",
+      "sha256": "27a92f9ce345d12aac309f12726bd5821aeacd426b4831945920af54f9dc5ed1"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000286.png",
+      "sha256": "90f99474a6d4dddf2c0550d62f0f4485b51f0dec7e9d29f4e50ec006ee383009"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000305.png",
+      "sha256": "afb8f32346adbef397e617ec9e83d7381360d32e6078ffcbdf0c40ddd8137ab1"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000306.png",
+      "sha256": "3f9d79a5fac76078d5c25cd8a62ef9a245997449529c8c1e7abfe4257c12a516"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000307.png",
+      "sha256": "8c9d37580ab4ee1dbd3130c7d5c3f0a189bac5e9e60d3965fbb3778a3a394bab"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000308.png",
+      "sha256": "8ea9be09368897e81f693c1af162832ef2836d975562623dddbd90438e501907"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000309.png",
+      "sha256": "dea73aa30df2e99c89117c1bc9200334f19af95e6f722a35b464ae045df09ab2"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000310.png",
+      "sha256": "091d3f797f228f5af1f3966e06545ccba6d948ad703757e75077e57de76633e1"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000311.png",
+      "sha256": "be106a057167d45d3cc313472182d1f76bcfd7e6c47c1887a3f70a0c587d2e78"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000312.png",
+      "sha256": "b3b3bb7bb29652a0244be5d0f06062c852e75ffb5a98bae28b737022ce2b51ba"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000313.png",
+      "sha256": "aa29adea941dbf6414e112b842d457d1524a4f3a3692744e03d825ad6951766a"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000314.png",
+      "sha256": "8d7c924017e6123e05d3122d5602a4ea9dfb1a553dfb57dbdfd37486f2a522ab"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000315.png",
+      "sha256": "c427aaca6398fcee528982d80c70b68f4db25f80065fb75a6bae63520b890cc8"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000316.png",
+      "sha256": "62b7aea6ab492bef82ffab8ccc0f480e5152eeec900711e6ec75ce0c06590473"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000317.png",
+      "sha256": "1e88aa33f36d387cf0d8c18be4bfc1de5d7e727a7aced8ae6a64ac81a6d7e34e"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000318.png",
+      "sha256": "7ded4cf41c688cf6fb4e12bf64518961b4e2b5b470edd9461336efd5a217b2bc"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000319.png",
+      "sha256": "9fe234eb6d6da5170b18ff1e4412461d1af2f3d6d0b5921bd04bfa2c19c41718"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000320.png",
+      "sha256": "e36de2cca6dcecd4355376102bbdecc7c49ff881c18a7db3068453f754800ac0"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000321.png",
+      "sha256": "cfef7768d60b73342bc69f3678dd1854ec9ad79a7d7712dd99e0abf6d47a803a"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000322.png",
+      "sha256": "5fa62b9afad898a663fbfcd57ebd6506376af7811f98070665b32d4f95fc98b5"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000323.png",
+      "sha256": "5ab97bd82613ecab6f11948d3c60d6027c1358feb2864133fb4c975f874a42b3"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000324.png",
+      "sha256": "3da6a532bc7f13b9f073b591d02459f23658ee03f2ba40677562bb757215bb03"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000325.png",
+      "sha256": "d29b1dd1095e01b4e077018f085cb2e572b0dde6cfd9cc76c64f5cf9cc7757e7"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000326.png",
+      "sha256": "05cd594465dcafa389d7656ee0f669c5197464616f1dae4c4500c92508de9b22"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000327.png",
+      "sha256": "9bc0e03c22f6f68add5c2c3e521acd6b4688d1e03b5e337e06e7263cc023bbe3"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000328.png",
+      "sha256": "148acefe9a123c4ab668786d8a820dd2f807494698547a87dd50bf2e6cc13fc4"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000329.png",
+      "sha256": "0bc1b73e3668564c61f674766e18d5438f970e02301ac099fcac5226cc74ca47"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000330.png",
+      "sha256": "cbd6c095a3e2d4aa06326553d8c232da8fe4ff4035551c724928e96069fba722"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000331.png",
+      "sha256": "8af67f09097c9cd23e640485e1bb70782025acb52b372dcd006226b14c621f09"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000332.png",
+      "sha256": "b522cbda4c9fc1c2a3e8a69dfe2083c77df756c603464f0e9ab7556fac377ca4"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000333.png",
+      "sha256": "ccb634557da64907fb26b033c3d9d022bcf4deb30fa6ac7cc660df43637b22d8"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000334.png",
+      "sha256": "9bf7a1420e39e16b54429ba856a2ff3f4f6820497d0d28354637ec6de7d1da62"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000335.png",
+      "sha256": "62dd9f4667f4d1d787f90a3ea7757dcc2eaf70a27fe249186cdc2bb718189fb7"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000336.png",
+      "sha256": "1a4ee78536b4ad32c0d5fea80edafa9cc2d7661d147ba143bc03eeee9b42dc98"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000337.png",
+      "sha256": "db704df83cafad67cdb43c0b2a490e06b3acd38b768ce558b77947dd158584df"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000338.png",
+      "sha256": "54e71cbeee77acf7dd7a347f026c443a4b1a93b59dffffb2c1668b138ee5f7e0"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000343.png",
+      "sha256": "6090d1f367914ac14b7f571cbc2f0047d8c83a7a4e25721e91f2e40da171151b"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000362.png",
+      "sha256": "d31b5cb69a8acf059aff29c6d80ad88ec33bf3ce64c925aeffa24f5590392c9d"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000381.png",
+      "sha256": "35b335d063c5e89b49e04d21d5d4f7cc25a06ef7f136f2cd90aa1eda9a0a3102"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000400.png",
+      "sha256": "4443d39b936239cc040618e1ea7d927dc2fabbf330197b99092f6ca78e62b314"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000419.png",
+      "sha256": "c61e88e7dffa870e8671777e33e9a7f34dfad36dfdaa323a0932aedd41288756"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000438.png",
+      "sha256": "5aae5da7e4a884340449be7713fc7dbe0e57beaa09c1083169de56a17ba8f201"
+    },
+    {
+      "path": "QA_four_shot\\frames\\frame_000457.png",
+      "sha256": "dbdeb30ca29877514a0ad5b63c21f7d178cd8e7ddfcb104321a0ea233fe28fc8"
+    },
+    {
+      "path": "QA_four_shot\\full_25_checkpoints.png",
+      "sha256": "807db8e882836285f91f3e8f4c31bbab36eb4b0c4c69c7acbd63166f63098db9"
+    },
+    {
+      "path": "QA_four_shot\\full_decode.json",
+      "sha256": "ecf9c23b9d99c939c1117d7d51f56da5e8f372d00a52f993ee57f80451a49dd3"
+    },
+    {
+      "path": "QA_four_shot\\J34_all_boundary_frames.png",
+      "sha256": "67ef73124dfe2ceafcd52f717f05511ba17b80497a0a10660bb4212ede986b7c"
+    }
+  ],
+  "technical_checks_are_visual_approval": false,
+  "assistant_continuous_visual_review": null,
+  "combined_dynamic_QA": "pending",
+  "user_video_approval": null,
+  "publishable": false,
+  "cloud_write": false,
+  "publication": false,
+  "limitations": [
+    "Invoke only after operator inspection of exact F04; this builder does not perform source visual QA.",
+    "Accepted prefix pictures/order/joins are used as decoded media; output is re-encoded, not byte/pixel identical.",
+    "New J34 necessarily blends the accepted prefix final18frames; no earlier transition is rebuilt.",
+    "Full decode, sample boards and mapping do not establish identity, clothing, gait, site or transition acceptance.",
+    "Normal-speed continuous review and exact user video approval remain separate; no five-look film approval inferred.",
+    "24fps native frame sequence is retained; individual presentation timestamps were not measured."
+  ]
+}

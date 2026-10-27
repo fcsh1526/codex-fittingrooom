@@ -1,0 +1,23 @@
+{
+  "record_date_local":"2026-10-20",
+  "status":"local_phase_trim_candidate_pending_user_video_feedback",
+  "file":"F01_F02_F03_phase_plus1_native_soft_review_v1.mp4",
+  "sha256":"f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+  "frames":331,
+  "fps":24,
+  "seconds":13.791666666666666,
+  "change":"Original F03 starts at nativeframe1 instead of0; first-frame trim only, no speed change. Same18frame.75s dissolves.",
+  "F03_source_sha256":"26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+  "rejected_retry_sha256_not_used":"828ce1a288f32b75708e1bac0ad6594be0fc16ce4e09222d7c5cb58502f5bac9",
+  "reviewed":"QA_three_shot/J23_all_boundary_frames.png and edit_receipt/mapping",
+  "observed":["same rightward direction and large person scale retained", "original scene remains; failed new pillar not imported", "footstep phase is advanced1nativeframe against same outgoingF02 tail", "person/column/ground double edges remain during7.79-8.54s"],
+  "material_limit":"This is a local overlap-phase diagnostic, not a proved correction of source-only shoe-on-paving sliding. The user8-9s report includes after the dissolve; same originalF03 motion remains there.",
+  "assistant_continuous_visual_playback":false,
+  "measured_gait_improvement":null,
+  "user_normal_speed_full_playback_self_report":null,
+  "user_video_approval":null,
+  "publishable":false,
+  "next":"Show exact13.79s candidate; ask whether8-9s drift improves. If not, reassess source/boundary compatibility without another blind generation or offsets2/3.",
+  "original_three_sources_accepted_pair_original_preview_hashes_preserved":true,
+  "publishing_changes":false
+}

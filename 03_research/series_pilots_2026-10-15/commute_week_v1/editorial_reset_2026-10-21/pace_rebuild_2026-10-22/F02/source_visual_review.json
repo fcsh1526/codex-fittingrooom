@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-22",
+  "source_sha256": "f6fcd8e02e99a6dd1b6282d5b5eb5e2b0eeca0bacc10c54d83940cfa4a0bbdf6",
+  "status": "eligible_for_separate_context_trial_only_not_final_gait_pass",
+  "root_reviewed": ["checkpoints_25.jpg", "new_F02_every3_foot.jpg", "proposed_J12_foot.jpg", "proposed_J23_whole.jpg"],
+  "UI_playback": {"observed_running": true, "playback_rate": 1, "muted": true, "loop": true, "observed_current_time": 3.592612, "paused_after_observation": true, "continuous_visual_review_claimed": false},
+  "observations": {
+    "identity_and_outfit": "No blocking sampled change in M03 face, white short sleeve shirt, cocoa trousers, narrow black belt, black shoes and small black bag.",
+    "camera_and_scene": "Full head and both shoes visible at checkpoints; near-side tracking along compact rectangular colonnade and planters. Sampled background plausible for a context trial, not a precise world-reconstruction pass.",
+    "approximate_support_phase_centers": [12,30,45,60,75,90,105,120,138],
+    "measurement_limit": "Every-three-frame visual phase estimates about +/-3 native frames, not exact heel strike, physical walking speed or proof of zero slip.",
+    "pace_comparison": "Middle mostly 15-frame intervals versus former F02 mostly18, hence denser. Opening and finish about18; selected master middle mostly12 and early/late15. New F02 does not establish constant selected-master cadence.",
+    "J12": "Improved relative motion agreement; incomingf15 has advanced into next extension instead of remaining near legs passing. Residual spatial foot/leg ghosting and phase difference remain.",
+    "J23": "Paired proposed sources show broadly compatible leg progression; head/body/column ghosting remains and new sourcef127 is not pixel-identical to the old source that generated F03first. Full-speed comfort not established."
+  },
+  "decision": "Build a separately named full-film context candidate changing only F02, retain other four source intervals, all camera/half design and eighteen-frame dissolves. Evaluate whole-film rhythm before further regeneration so source f91 connections are not silently invalidated.",
+  "not_claimed": ["constant0.5-0.6second cadence", "zero sliding", "seamless joins", "wholefilm approved", "publishable", "video motion reference accepted by engine"]
+}

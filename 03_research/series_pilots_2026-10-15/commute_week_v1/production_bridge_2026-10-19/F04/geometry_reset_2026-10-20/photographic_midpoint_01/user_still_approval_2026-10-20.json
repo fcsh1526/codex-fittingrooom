@@ -1,0 +1,15 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "approved_exact_midpoint_v3_with_disclosed_scene_differences",
+  "asset": "F04_M03_L02_mid_camera_no_planter_v3.png",
+  "sha256": "0a4fe3eb96bf2473cb441844e770ec1ed391718eceb997bcf38b50a886b5b22f",
+  "pixels": [941, 1672],
+  "question": "請確認最新一張 M03 中途圖（已移除左側成排樹／花台）：臉、格紋襯衫／灰褲、黑鞋包、側走姿勢與人物尺度是否可沿用？右玻璃仍比線稿寬，左外牆與遠方門面是補出的背景；遠方門面不當作公司入口。依你在 AGENTS.md 設定的新圖先核准流程，確認後只先製作相容末幀。",
+  "user_answer": "可以，沿用這張中途圖",
+  "scope": "Exact midpoint appearance, clothing, side-walking pose and framing accepted with disclosed wider right glass and newly filled left/far background; use with approved endpoint guide to derive a new endpoint candidate.",
+  "far_doorway_is_validated_company_entrance": false,
+  "geometric_reconstruction_or_prefix_match_proven": false,
+  "dynamic_QA": null,
+  "endpoint_or_new_video_approval": null,
+  "originals_and_publishing_packages_preserved": true
+}

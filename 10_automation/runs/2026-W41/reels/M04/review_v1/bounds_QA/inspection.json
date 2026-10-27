@@ -1,0 +1,14 @@
+{
+  "frames": 144,
+  "files": [
+    "parallel_bounds_00.jpg",
+    "parallel_bounds_01.jpg",
+    "parallel_bounds_02.jpg",
+    "parallel_bounds_03.jpg",
+    "parallel_bounds_04.jpg",
+    "parallel_bounds_05.jpg"
+  ],
+  "inspection_only": true,
+  "all_frame_bound_visual_review": "completed; no subject clipping apparent in all144 thumbnails",
+  "continuous_playback_review": false
+}

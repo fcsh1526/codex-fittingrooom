@@ -1,0 +1,124 @@
+{
+  "created_at_utc": "2026-10-15T06:29:41.009738+00:00",
+  "reviewer": "commute_motion_review subagent",
+  "date": "2026-10-15",
+  "status": "new_join_checkpoint_review_complete_user_normal_speed_review_pending",
+  "exact_output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\five_look_review_v1\\M03_commute_five_look_review_v1.mp4",
+  "output_sha256": "ccbbe61977fc61c7850ec994018411f5d5a463209916bd46a18ab5387e38c345",
+  "scope": [
+    "J23",
+    "J34",
+    "J45"
+  ],
+  "prior_J12_acceptance_not_reaudited_or_expanded": true,
+  "S05_selected_source_frames_half_open_from_receipt": [
+    72,
+    228
+  ],
+  "method": "Read existing boundary full-frame/head-window boards and three native midpoint PNGs with view_image. No video or receipt edits and no new source scan.",
+  "assistant_continuous_visual_review": false,
+  "user_video_approval": null,
+  "publishable": false,
+  "summary": "No sampled defect blocks handing this research preview to the user for normal-speed comfort review. All three new joins visibly superimpose faces, limbs and rigid background lines. J34 has the strongest face/head displacement; J45 has the clearest face-angle/expression change; J23 has conspicuous gait-phase double legs. Broad person scale is comparable, but exact match is absent. Ghosting clears in the displayed pure-source frames after the overlap.",
+  "limitations": [
+    "Still-frame boundary review cannot establish perceived comfort, blink/flash response or whole-film rhythm at normal speed.",
+    "No claim of zero identity drift, exact garment geometry, seamless one-take continuity or user motion approval.",
+    "Previously accepted residual still texture and existing source QA remain unchanged.",
+    "The intended cross-dissolve is visible and is not being treated as proof that all sources are geometrically identical."
+  ],
+  "joins": [
+    {
+      "join": "J23",
+      "output_frames_half_open": [
+        276,
+        294
+      ],
+      "output_seconds_half_open": [
+        11.5,
+        12.25
+      ],
+      "requested_overlap_frames": 18,
+      "requested_overlap_seconds": 0.75,
+      "viewed_assets": [
+        "QA/J23/transition_all_boundary_frames.jpg",
+        "QA/J23/transition_all_boundary_head_windows.jpg",
+        "QA/J23/frames/frame_000284.png"
+      ],
+      "viewed_boundary_context": "All 18 overlap frames plus eight frames on each side, as displayed in the existing QA boards; one native midpoint frame inspected separately.",
+      "observations": {
+        "severity": "visible moderate-to-strong dissolve ghosting; not a seamless match",
+        "body_and_scale": "Head-to-shoe framing stays broadly comparable; there is no abrupt extreme zoom. Gait phases differ, causing separated feet, doubled lower legs and a widened transient body outline. Torso/arm positions differ.",
+        "face_expression": "Double eyes, nose and mouth are visible near the middle of the overlap. The incoming head position and smaller smile differ mildly; clear frames on either side remain readable.",
+        "background": "Window mullions and stone joints occupy different positions; overlapping structures form parallel/diagonal double lines. The outgoing windowed view becomes the incoming plainer wall view.",
+        "most_visible_region": "Lower legs/feet and the face near output f281–287 (about11.71–11.96s).",
+        "native_single_frame_viewed": "QA/J23/frames/frame_000284.png"
+      },
+      "sampled_unexpected_black_flash_or_extended_ghosting_observed": false,
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "user_join_approval": null,
+      "continuous_playback_comfort_verified": false
+    },
+    {
+      "join": "J34",
+      "output_frames_half_open": [
+        414,
+        432
+      ],
+      "output_seconds_half_open": [
+        17.25,
+        18.0
+      ],
+      "requested_overlap_frames": 18,
+      "requested_overlap_seconds": 0.75,
+      "viewed_assets": [
+        "QA/J34/transition_all_boundary_frames.jpg",
+        "QA/J34/transition_all_boundary_head_windows.jpg",
+        "QA/J34/frames/frame_000422.png"
+      ],
+      "viewed_boundary_context": "All 18 overlap frames plus eight frames on each side, as displayed in the existing QA boards; one native midpoint frame inspected separately.",
+      "observations": {
+        "severity": "strongest face/head misalignment of the three inspected new joins",
+        "body_and_scale": "Broad full-person scale is similar, but the incoming torso/head is displaced and leg phases differ. Black skirt and charcoal trousers overlap as two separate silhouettes; arms and shoes double conspicuously.",
+        "face_expression": "Horizontal plus slight vertical head offset produces visibly separated eyes and two facial profiles around the center of the dissolve. This is overlap of distinct frames; it must not be described as zero-difference or identity-perfect changing clothes.",
+        "background": "Large wall/window/pillar lines do not match; a windowed outgoing view and different incoming masonry/window position form conspicuous doubled rigid lines.",
+        "most_visible_region": "Face/shoulder double contours and skirt/trouser silhouette near f419–425 (about17.46–17.71s).",
+        "native_single_frame_viewed": "QA/J34/frames/frame_000422.png"
+      },
+      "sampled_unexpected_black_flash_or_extended_ghosting_observed": false,
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "user_join_approval": null,
+      "continuous_playback_comfort_verified": false
+    },
+    {
+      "join": "J45",
+      "output_frames_half_open": [
+        552,
+        570
+      ],
+      "output_seconds_half_open": [
+        23.0,
+        23.75
+      ],
+      "requested_overlap_frames": 18,
+      "requested_overlap_seconds": 0.75,
+      "viewed_assets": [
+        "QA/J45/transition_all_boundary_frames.jpg",
+        "QA/J45/transition_all_boundary_head_windows.jpg",
+        "QA/J45/frames/frame_000560.png"
+      ],
+      "viewed_boundary_context": "All 18 overlap frames plus eight frames on each side, as displayed in the existing QA boards; one native midpoint frame inspected separately.",
+      "observations": {
+        "severity": "visible moderate-to-strong ghosting, particularly expression/angle change and legs",
+        "body_and_scale": "The white shirt gives a common torso cue, but side-on skirt walking changes to a more frontal trousers view; shoulder width and gait phase therefore differ even at broadly similar full-person scale. Two pairs of shoe/leg silhouettes coexist during the dissolve.",
+        "face_expression": "Outgoing neutral more side-on gaze changes to a more frontal, slightly smiling incoming face. Double eyes/mouth are visible mid-overlap. This expression/angle change is more conspicuous than a simple color swap.",
+        "background": "Outgoing steps/door-side masonry fade into the incoming plainer wall. Wall joints/vertical edges form double lines during overlap.",
+        "most_visible_region": "Face expression/angle and blue-to-black shoulder bag change around f557–563 (about23.21–23.46s).",
+        "native_single_frame_viewed": "QA/J45/frames/frame_000560.png"
+      },
+      "sampled_unexpected_black_flash_or_extended_ghosting_observed": false,
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "user_join_approval": null,
+      "continuous_playback_comfort_verified": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "record_date_local": "2026-10-19",
+  "status": "one_F03_motion_submitted_agent_thinking",
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "prompt": "F03_grok_submission_prompt.txt",
+  "requested_roles": {
+    "first_frame": "a7a33bb7-39ff-472d-b27d-53e50fe48c58",
+    "last_frame": "d3c047bd-a2e5-4def-adba-a4ffb7cdcaa4",
+    "face": "6236309c-2343-41e6-985c-994239ff744a",
+    "full_proportions": "ac9ede4e-1715-4518-95b4-bda341a62061",
+    "preceding_video_motion_reference_only": "545538de-6a5d-4ba9-a283-d5d8530a1520"
+  },
+  "approved_inputs": [
+    {"path": "F03_M03_L03_start_candidate_A.png", "sha256": "a7b6e33248b5e90c9c63ba0cda1264f23b8ebe8a3dabcb5baeab017c0b30db9e", "approval": "F03_start_user_still_approval_2026-10-19.json"},
+    {"path": "F03_M03_L03_end_candidate_A.png", "sha256": "e6442c7a17951eb536e88175285cad52dd8bc32c9732980741afee976d871c70", "approval": "F03_end_user_still_approval_2026-10-19.json"}
+  ],
+  "upload_observations": {"both_new_images_decode_as": "941x1672", "first_image_visually_confirmed_in_canvas": true, "last_image_role_requires_agent_content_check": true, "upload_order_not_assumed_as_general_rule": true},
+  "requested_output": {"count": 1, "duration_seconds": 6, "resolution": "720p9:16", "audio": "off if supported, otherwise report"},
+  "agent_submission_count": 1,
+  "confirmed_new_video_count_at_submission": 0,
+  "actual_settings_independently_visible": null,
+  "ui_observation": "Exact saved prompt submitted; 正在思考 and Stop control visible.",
+  "media_retimed_or_overwritten": false,
+  "publishing_or_drive_changes": false
+}

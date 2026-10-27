@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-13",
+  "look_id": "2026-W41-004-L01",
+  "model": "M03",
+  "shot": "A2",
+  "tool": "built-in image_gen",
+  "status": "v4_user_visual_approved",
+  "candidates": [
+    {
+      "version": "v1",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v1.png",
+      "sha256": "820107fc7161ab6fe33f01ebe0f751cb2132a32dc1c67bdc8a9e0db0f1aabd28",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-222836f2-d98d-44b6-a260-93b9ef283a59.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/A2_prompt_v1.txt",
+      "status": "material_pattern_deviation",
+      "framing_transform": "none"
+    },
+    {
+      "version": "v2",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v2_material_failed.png",
+      "sha256": "2f5ffa93e911fb3c5bbff25e4ec8ba93adb2d62fd561789f4d426402143dbba6",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-ddce9610-b386-4ada-bce4-e0bf5b505c7e.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/A2_material_correction_v2.txt",
+      "status": "material_correction_failed",
+      "framing_transform": "none"
+    },
+    {
+      "version": "v3",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v3_material_failed.png",
+      "sha256": "fca6c82996824aafbe866342a02c022dab3537d8130c962d9836505622f354f9",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-a288eb12-5bb9-4c4b-b24c-9438a9daed68.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/A2_clean_wardrobe_replan_v3.txt",
+      "status": "replan_still_copies_invented_pattern",
+      "framing_transform": "none"
+    },
+    {
+      "version": "v4",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v4_clean.png",
+      "sha256": "bb62e95ad1b56e4391b3c5654ddbe835c7e196dc6601a6fa3d4a43282360d10c",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-b35742e5-ba03-4fae-bbb7-78efcc1798a3.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/A2_clean_inputs_v4.txt",
+      "status": "user_visual_approved",
+      "framing_transform": "none"
+    }
+  ],
+  "user_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用這張",
+    "question_context": "Exact last plain-fabric seated image, one hand on knee and one by bench; approved as second-shot start.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v4_clean.png",
+    "sha256": "bb62e95ad1b56e4391b3c5654ddbe835c7e196dc6601a6fa3d4a43282360d10c",
+    "scope": "Exact seated A2v4 still only; no motion or whole-film approval."
+  },
+  "generation_count": 4,
+  "targeted_material_edits": 1,
+  "input_replans": 2,
+  "attempt_accounting": "Initial A2+one material edit failed. Reordered wardrobe/scene references still copied motif. Final rebuild excluded every contaminated seated/walking image and used approved face/full plus original weekly plain-wardrobe photo. No second targeted edit of initial image. Record all4calls; not a one-retry production success.",
+  "references_v1": "approved A1 scene/outfit lock + face/full; generated motif contaminated derivative",
+  "references_v4": [
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png",
+    "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/2026-W41-004-L01_M03_reel_candidate_A_v2.png"
+  ],
+  "scene_rebuild_note": "Clean v4 uses textual lunch-shop/window/bench description instead of a contaminated pixel scene reference. Actual bench/window viewpoint differs; not a geometrically matched A1 end key. Use separate single-first-frame shots only.",
+  "assistant_static_review": "Recognizable M03, solid white tee/navy trousers, open cream lapels/cuffs, same-side brown bag and silver studs. Natural seated support and hands. Actual v4 has one leg crossed and one hand at bench side, superseding intended knees-together/both-hands-on-thighs pose with exact user approval. Full head and knees visible; feet outside frame not certified.",
+  "production_limits": "Four still attempts to fix pattern; budget and repeatability not validated. A1 approved still carries subtle texture; dynamic material matching with clean A2 must be examined, not assumed.",
+  "grok_uploaded": true,
+  "video_generated": true,
+  "formal_full_proof_carousel_complete": false,
+  "motion_generation_count": 1,
+  "browser_receipt": "03_research/editorial_sequence_reset_2026-10-13/A2_motion_attempt_01/browser_receipt.json",
+  "motion_source_sha256": "f0356f08ef7044ac37fd1d972e9046a2ba5784e92dac8f51b0ca5e74b41b156d",
+  "user_film_approval": null
+}

@@ -1,0 +1,55 @@
+{
+  "review_kind": "technical_decode_and_sampled_visual_review_only",
+  "reviewed_at_local_date": "2026-10-05",
+  "output": "M02_paired_D_v1_review_v1.mp4",
+  "output_sha256": "d7be26a3474342a06ee757b9528ff38b36e6ab59da37014826d170fb56d247e8",
+  "metadata": {"width": 720, "height": 1280, "fps": 24, "decoded_frames": 270, "seconds": 11.25},
+  "source_selection": {
+    "A": {"source": "../grok_A_attempt_02/source.mp4", "start_frame": 0, "end_frame_exclusive": 144},
+    "B": {"source": "../grok_B_attempt_01/source.mp4", "start_frame": 0, "end_frame_exclusive": 144},
+    "timing": "unchanged24fps",
+    "resize_crop_or_extension": "none",
+    "selected_original_vs_same_rate_frame_hashes": "identical144-frame hash sequence for each source; only source frame144 excluded",
+    "audio": "none",
+    "baked_text": "none"
+  },
+  "technical_signals": {"black_candidate_frames": [], "near_identical_frame_pairs": []},
+  "visual_evidence": [
+    "M02_paired_D_v1_review_v1_qa/keypoints/keypoints.jpg",
+    "M02_paired_D_v1_review_v1_qa/complete_overlap/complete_overlap_with_endpoints.jpg",
+    "Original-resolution output checkpoints f135,f144,f269"
+  ],
+  "keypoint_frames_reviewed": [0, 67, 125, 126, 134, 135, 143, 144, 145, 202, 269],
+  "complete_overlap_frames_reviewed": [126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143],
+  "overlap_boundary_frames_reviewed": [125, 144],
+  "observations": [
+    {
+      "output_seconds": [0, 5.25],
+      "observation": "The first source moves from readable cream neckline/open gray-shirt medium to complete full-person view. At the inspected full-person samples both shoes remain complete, and A2's extra floor plant is absent. No obvious sampled within-source face replacement or outfit switch was seen."
+    },
+    {
+      "output_seconds": [5.375, 5.8333333333],
+      "output_frame_range_inclusive": [129, 140],
+      "observation": "The dissolve visibly produces vertically separated faces, necklines and hand/bag contours. The double face is strongest near frames132-137 (5.50-5.7083s); frame135 was inspected at original720x1280 resolution. This comes from actual head-position/subject-scale differences between sources, and is not described as a comfortable transition or a source identity failure."
+    },
+    {
+      "output_seconds": [5.25, 6],
+      "observation": "Right bookcase edges/hanging vine, left window/bench and floor lines also double during the dissolve. A2's longer upper-right vine fades away into B's different visible arrangement. The two scenes share the intended alcove but do not match exact geometry. All18 overlap frames plus two endpoints were inspected on the contact sheet; source-speed or geometry corrections were not applied."
+    },
+    {
+      "output_seconds": [6, 11.25],
+      "observation": "The second source continues full-person reading into a face-included navy square-neck/open blue-shirt proof. Final inspected frame269 keeps the head complete and shows front-opening/waist context and gray tote. The actual B camera continues enlarging toward the end rather than fixing at the planned4.5s source point."
+    }
+  ],
+  "remaining_required_review": [
+    "Normal-speed whole source and whole output playback for brief face/wardrobe/background morphs and foot contact",
+    "User's normal-speed comfort decision on the full/full dissolve, explicitly aware of doubled faces/scene lines",
+    "Final safe-area/top-margin framing and editorial usefulness"
+  ],
+  "assistant_continuous_review": false,
+  "user_visual_approval": "pending",
+  "dynamic_qa_pass": false,
+  "publishable": false,
+  "status": "review_candidate_with_disclosed_transition_ghosting",
+  "conclusion": "Exact-frame technical build and decode completed. Source-frame preservation verified; the candidate retains native motion and one0.75s dissolve. All overlap frames show the expected dissolve progression but also clear head/background mismatch ghosting. Provide only as a disclosed normal-speed review candidate; do not claim comfort or dynamic acceptance."
+}

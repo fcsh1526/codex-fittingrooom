@@ -1,0 +1,5 @@
+# M01 A L01 動態提示詞
+
+已於2026-10-01送出，核准圖為單一First frame，未選獨立角色參照，無Last frame。720p、6s、音訊關閉；實際輸出仍需核對。代為上傳成功：先點素材工具箱入口，再用目前AX狀態的「上傳媒體」按鈕，先註冊filechooser事件再點擊，然後setFiles。這次用tab.click實際AX按鈕成功；前次Playwright按鈕點擊未回傳的根因尚未確認。
+
+Use the attached image as the exact First frame. One continuous fixed-camera full-person fashion shot at ordinary real-time speed. Preserve this same woman’s face, tied-back hair, white short-sleeved collared cotton shirt, tucked dark-gray high-waisted ankle-clear straight trousers, black narrow belt and small black shoulder bag. She takes one short natural step toward the camera and transfers her weight naturally; her head and BOTH complete shoes remain inside the frame throughout, with floor visible below. No further walk toward the camera. Keep each burgundy closed-toe low broad-heel shoe identical: one central vertical instep strap joined to one horizontal ankle-front strap; trouser hems never cover those straps. Keep the shop window, pale wall, paving joints, door frame, light and contact shadows stable. No camera movement, zoom, cut, turning away, outfit change, slow motion, speech, writing or watermark.

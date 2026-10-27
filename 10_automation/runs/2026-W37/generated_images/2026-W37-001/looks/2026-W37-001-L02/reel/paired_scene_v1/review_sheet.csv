@@ -1,0 +1,3 @@
+look_id,model_profile_id,asset_id,candidate_file,assistant_static_review,user_visual_approval,publishable,dynamic_qa,notes
+2026-W37-001-L02,M02,L02_full,2026-W37-001-L02_M02_reel_full_master_candidate_v1.png,observed_complete_head_shoes_square_neckline_and_matched_library_scene,approved,no,not_started,2026-10-05 user ok to displayed L01 medium and L02 full; source941x1672; square neckline visible but straps mostly covered by shirt; no dynamic pass
+2026-W37-001-L02,M02,L02_proof,2026-W37-001-L02_M02_reel_proof_candidate_v1.png,observed_complete_head_square_neckline_front_opening_waist_and_gray_tote,approved,no,not_started,2026-10-05 user 可以，沿用這張 to exact proof still; source941x1672; about7percent top margin; no dynamic approval

@@ -1,0 +1,124 @@
+{
+  "model": "M04",
+  "format": "parallel_two_looks",
+  "output_path": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+  "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+  "native_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 144,
+  "duration_seconds": 6.0,
+  "audio": "none",
+  "text": "none",
+  "sources": [
+    {
+      "role": "A",
+      "look_id": "2026-W41-005-L01",
+      "path": "10_automation/runs/2026-W41/reels/M04/A_attempt_01/source.mp4",
+      "sha256": "da776b7e2d870338db83a46addbbec983b6a5acee5cdc80728c1d21152a150a6",
+      "frames_half_open": [
+        0,
+        144
+      ],
+      "crop_xyxy": [
+        168,
+        115,
+        551,
+        1175
+      ],
+      "panel_size": [
+        352,
+        974
+      ],
+      "panel_position": [
+        4,
+        152
+      ],
+      "sampled_visual_review": "completed",
+      "observed_action": "Both hands adjust the shoulder strap; right hand crosses the chest and left hand supports the lower strap, then both return. Visible strap contact and small bag response; not exact planned single-left-hand action."
+    },
+    {
+      "role": "B",
+      "look_id": "2026-W41-005-L02",
+      "path": "10_automation/runs/2026-W41/reels/M04/B_attempt_01/source.mp4",
+      "sha256": "9e881699ee6689cfe7afc6134da22e34e4a735e5974ce11d8555a999dcf76d6f",
+      "frames_half_open": [
+        0,
+        144
+      ],
+      "crop_xyxy": [
+        168,
+        115,
+        551,
+        1175
+      ],
+      "panel_size": [
+        352,
+        974
+      ],
+      "panel_position": [
+        364,
+        152
+      ],
+      "sampled_visual_review": "completed",
+      "observed_action": "Right hand crosses the chest to hold and settle the strap; left arm stays relaxed. Small head tilt and later shoe pivot. Visible contact and bag response; opposite hand from planned single-left-hand action."
+    }
+  ],
+  "background": "#e8e2d9",
+  "native_speed": true,
+  "forced_synchronization": false,
+  "transition": "none; simultaneous panels without shot changes",
+  "source_scans": [
+    {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 6.041666666666667,
+      "individual_PTS_measured": false
+    },
+    {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 6.041666666666667,
+      "individual_PTS_measured": false
+    }
+  ],
+  "combined_sampled_visual_review": "25 whole-frame and five windows for each face inspected; all144 combined-frame thumbnails checked for panel bounds. Hair, hands, both shoes, bag and skirt remain contained. Close opening head/waist/shoe positions; independent head tilts and gesture timing preserved. Stable architectural anchors in inspected frames.",
+  "continuous_playback_review": false,
+  "user_video_approval": null,
+  "status": "sampled_QA_complete_user_playback_and_film_approval_pending",
+  "all_frame_panel_bound_review": "completed via six consecutive thumbnail sheets; not full-detail all-frame identity review"
+}

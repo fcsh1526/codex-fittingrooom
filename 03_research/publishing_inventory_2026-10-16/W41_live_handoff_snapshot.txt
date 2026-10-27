@@ -1,0 +1,48 @@
+﻿W41 Reel｜Grok bot 發布交接清單
+這批五支影片已全部核准，每支是一位模特兒的兩套穿搭。影片無文字、無音訊。使用下方同編號的影片與文案；發布至 mira.fitroom.ai。編號是檔案配對與建議順序，尚未指定發布日期。
+01｜格紋襯衫配素色褲
+影片長度：9.5 秒；兩套依序呈現。狀態：已發布；發布時間（台北）：2026-10-09 15:52（posted.json）；網址：https://www.instagram.com/mira.fitroom.ai/reel/DeRA3taRF22/。
+開啟 01 影片（下載後發布）
+貼文文字：01_格紋襯衫配素色褲_貼文文字
+02｜可可棕牛仔褲
+影片長度：9 秒；兩套依序呈現。狀態：已發布；發布時間（台北）：約 2026-10-10 10:58（posted.json）；網址：https://www.instagram.com/mira.fitroom.ai/reel/DeTDxXuRrbC/。
+開啟 02 影片（下載後發布）
+貼文文字：02_可可棕牛仔褲_貼文文字
+03｜西裝外套配棉T
+影片長度：11.25 秒；兩套依序呈現。狀態：已發布；發布時間（台北）：2026-10-11 19:52（posted.json）；網址：https://www.instagram.com/mira.fitroom.ai/reel/DeWmCXTRphe/。
+開啟 03 影片（下載後發布）
+貼文文字：03_西裝外套配棉T_貼文文字
+04｜黑白灰配藍色包
+影片長度：6 秒；左右並排。狀態：已發布；發布時間（台北）：2026-10-12 17:55（posted.json）；網址：https://www.instagram.com/mira.fitroom.ai/reel/DeY9XC9x6Bk/。
+開啟 04 影片（下載後發布）
+貼文文字：04_黑白灰配藍色包_貼文文字
+05｜短版立領外套
+影片長度：8 秒；兩套依序呈現。狀態：已發布；發布時間（台北）：約 2026-10-13 19:51（posted.json）；網址：https://www.instagram.com/mira.fitroom.ai/reel/DebvjKpRR1u/。
+開啟 05 影片（下載後發布）
+貼文文字：05_短版立領外套_貼文文字
+Grok bot 接手步驟
+* 依照使用者後續指定的時間分日發布；排程未指定前先保留待發布。從上方開啟同編號影片與貼文文件，先確認該支尚未發布。
+* 只複製「可直接貼入 Instagram」下方兩段文字，保留空行；標題、影片連結與製作資訊都不貼入貼文。
+* 使用原始 MP4，維持人物動作與速度；不要加文字。發布前完整預覽、檢查封面裁切；音樂若需加入，在 IG 編輯中處理，無需改寫影片。
+* 每支成功發布後，在對應項目回填發布時間（台北時間）與 Instagram 網址，將狀態改為已發布；若提交結果不明，先查帳號現有貼文，避免重複發布。
+* 發布後 24 小時、72 小時與第 7 天保存洞察；缺少的數字留空。
+版本與成效回填
+本資料夾五支 MP4 是本批發布版本：01 格紋襯衫、02 可可棕牛仔褲、03 西裝外套配棉 T、04 藍色包左右並排、05 短版立領外套。文案一支一份；W37 原批次保留在原週資料夾。
+本批是虛擬模特兒的穿搭建議，勿把生成造型寫成實際商品試穿、購買推薦或合作證據。文案維持原稿；不加入未確認的商品連結。
+目前五支均未發布。Grok bot 的連線與排程由後續工作接續；本次只交付檔案。帳號：mira.fitroom.ai；發布日期、音樂與封面選擇尚未指定。
+各支發布後 24 小時、72 小時與第 7 天，記錄瀏覽、觸及、非粉絲比例、平均觀看時間、收藏、分享與帶來追蹤。介面沒有的數據留空，事件為 0 時才填 0；比較相同發布天數的結果。
+發布回填紀錄（2026-10-15 補記）
+以下依本機 posted.json 回填；上方「目前五支均未發布」為 10/8 交付時的原始狀態，予以保留。目前帳號暫停發布。
+
+
+* 01：2026-10-09 15:52（posted.json）｜https://www.instagram.com/mira.fitroom.ai/reel/DeRA3taRF22/
+* 02：約 2026-10-10 10:58（posted.json）｜https://www.instagram.com/mira.fitroom.ai/reel/DeTDxXuRrbC/
+* 03：2026-10-11 19:52（posted.json）｜https://www.instagram.com/mira.fitroom.ai/reel/DeWmCXTRphe/
+* 04：2026-10-12 17:55（posted.json）｜https://www.instagram.com/mira.fitroom.ai/reel/DeY9XC9x6Bk/
+* 05：約 2026-10-13 19:51（posted.json）｜https://www.instagram.com/mira.fitroom.ai/reel/DebvjKpRR1u/
+發布回填（2026-10-15 社群小編）
+01 已發布 2026-10-09 15:52 台北 https://www.instagram.com/mira.fitroom.ai/reel/DeRA3taRF22/
+02 已發布 約 2026-10-10 10:58 台北 https://www.instagram.com/mira.fitroom.ai/reel/DeTDxXuRrbC/
+03 已發布 2026-10-11 19:52 台北 https://www.instagram.com/mira.fitroom.ai/reel/DeWmCXTRphe/
+04 已發布 2026-10-12 17:55 台北 https://www.instagram.com/mira.fitroom.ai/reel/DeY9XC9x6Bk/
+05 已發布 約 2026-10-13 19:51 台北 https://www.instagram.com/mira.fitroom.ai/reel/DebvjKpRR1u/

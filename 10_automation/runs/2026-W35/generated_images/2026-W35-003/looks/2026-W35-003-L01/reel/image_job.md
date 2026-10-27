@@ -8,7 +8,7 @@
 - reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M03_start_v3_face.png`
 - reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M03_start_v3_full.png`
 - attach_reference_images: `required`
-- trend: 運動外層配裙裝
+- trend: 運動外套配長裙
 - clothing_item: 深海軍藍短版立領薄尼龍運動外套；灰白合身棉質短袖；深灰高腰直筒中長裙；白色低調平底球鞋；黑色小型肩背包
 - occasion: 上班／午間外出
 - frame_plan: carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16

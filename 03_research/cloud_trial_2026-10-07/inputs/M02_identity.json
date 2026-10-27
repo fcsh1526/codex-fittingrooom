@@ -1,0 +1,11 @@
+{
+  "model_profile_id": "M02",
+  "true_age": "35",
+  "visual_age_prompt": "late 20s, youthful",
+  "reference_version": "v3",
+  "reference_face_path": "02_brand/reference_models/M02_start_v3_face.png",
+  "reference_full_path": "02_brand/reference_models/M02_start_v3_full.png",
+  "status": "approved",
+  "superseded_paths": "02_brand/reference_models/M02_start_v4_face.png;02_brand/reference_models/M02_start_v4_full.png;02_brand/reference_models/M02_start_v2_face.png;02_brand/reference_models/M02_start_v2_full.png;02_brand/reference_models/M03_start.png;02_brand/reference_models/M03_start_v2.png",
+  "notes": "Restored 2026-08-04 by user decision after direct visual comparison; v3 is the production-proven M02 anchor used in completed outfit and Canva workflows. Rejected v4 files remain preserved and are copied non-destructively to M07 v1 as an inactive reserve identity."
+}

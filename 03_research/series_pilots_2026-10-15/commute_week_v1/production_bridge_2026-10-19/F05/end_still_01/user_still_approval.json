@@ -1,0 +1,10 @@
+{
+  "date_client": "2026-10-21",
+  "user_reply": "可以，沿用這張末幀",
+  "question": "請確認剛顯示的第五套門前末幀：臉、白短袖襯衫／黑 A 字裙、鈷藍肩包與公司入口是否可以沿用？這版拉開到完整鞋子，雨棚比原街景稍厚，門框細節也有差異。依你設定的新圖核准流程，確認後才做連續拉開的影片測試。",
+  "asset": "F05_M03_L04_end_candidate_A.png",
+  "sha256": "9af51b785d2bd104751cd2502deaa86f29cad217621643cef98c23d0ff1f16e7",
+  "dimensions": [941,1672],
+  "scope": "Exact full-person endpoint including disclosed heavier canopy and door-frame differences; permits bounded first/last motion test after compatibility review, not motion/full-film approval.",
+  "independent_review": "Outfit/identity readable, whole skirt and blue bag visible; full head/shoes require larger continuous pullback than originally lower-calf plan. Door ahead/right, outside threshold; plausible same-company interpretation, not exact 3D/site reconstruction. Existing left planter must not grow."
+}

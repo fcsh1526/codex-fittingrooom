@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-21",
+  "mode": "built-in image_gen",
+  "intent": "identity-preserve wardrobe-only edit of actual shortened-L03 outgoing overlap frame",
+  "input_roles": [
+    {"path": "../source_audit/F03_f091.png", "sha256": "915d8618c9dca7bd16482ec37ee8fca64aa6d3b6177f210de36a032f791e6526", "role": "Actual source frame, edit target for composition/pose/scene; not prior full-source endpoint"},
+    {"path": "../../starting_images/S02_M03_L02_candidate_A.png", "sha256": "6efa44841ae892ce1a82fd42fc046ae60e295c002b23834453d37b594342f2d1", "role": "Approved cream/navy checked pointed-collar rolled-sleeve shirt design only"},
+    {"path": "02_brand/reference_models/M03_start_v3_face.png", "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d", "role": "approved identity face only, project-root relative"},
+    {"path": "02_brand/reference_models/M03_start_v3_full.png", "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890", "role": "approved body proportions only, project-root relative"}
+  ],
+  "prompt": "prompt.txt",
+  "prompt_sha256": "9344e3379b02f58047e73b8aef5f317e88598c383e58a393f2775f75d57af01e",
+  "generation_calls": 1,
+  "targeted_corrections": 0,
+  "tool_wait_seconds": 44.331,
+  "active_minutes": null,
+  "generated_source": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-056d286f-c1a3-4a5b-9ed1-31f9f41fecba.png",
+  "workspace_copy": "F04_M03_L02_full_start_candidate_A.png",
+  "sha256": "03b45655b7bef2b97b3ef19de6cc9b864b86341d908114e149f0653c8dfd36f0",
+  "bytes": 2186691,
+  "dimensions": [941,1672],
+  "root_and_independent_review": "Head/eye/hand/shoes broadly compatible at normalized framing; complete outfit and both shoes readable; shirt replaced jacket/T while charcoal trousers, black bag and plain low heels remain recognizable. No obvious new planter row/column/crosswalk paint in reviewed still.",
+  "differences_to_disclose": ["Softer/smoother face", "Slightly fuller black bag", "Small regenerated hand/shoe-tip and glass/paving details; not pixel-identical preservation"],
+  "scene_scope": "Same apparent plaza/planter-side view as actualf91; not established as company side or surveyed route geometry",
+  "status": "exact_still_user_approved",
+  "approval_receipt": "user_still_approval.json",
+  "grok_uploaded": false,
+  "new_motion_generated": false,
+  "next": "Exact still approval then compatible endpoint and short motion planning; no automatic fullfilm or publishing pass"
+}

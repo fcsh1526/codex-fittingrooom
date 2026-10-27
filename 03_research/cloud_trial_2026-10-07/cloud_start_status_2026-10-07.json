@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-07",
+  "status": "cloud_preflight_reported_pass_waiting_grok_human_verification",
+  "requested_target": "chatgptWorkCloud",
+  "user_authorization": "幫我建立新的 ChatGPT Work 雲端工作，開始 M02 試作。",
+  "creation_receipt": "cloud_creation_receipt_2026-10-07.json",
+  "temporary_client_thread_id": "local-chatgpt:98fa2401-49c1-42ab-abd5-bef57e8637d3",
+  "formal_chat": {
+    "thread_id": "6ac5f463-2198-83ee-bd93-282a51acd2cc",
+    "kind": "chatgpt",
+    "title": "M02 雲端試作",
+    "status_at_discovery": "active",
+    "created_at_unix": 1791358076.778304,
+    "initial_prompt_match_verified": true,
+    "rename_reported_success": true
+  },
+  "executor": {
+    "thread_id": "01a11542-fb5b-770b-82de-60ba35d97085",
+    "kind": "codex",
+    "host_id": "durable",
+    "cwd": "/workspace/scratch/9d61f717ecd9",
+    "initial_prompt_match_verified": true,
+    "latest_event": "turnCompleted",
+    "latest_status": "idle",
+    "latest_turn_completed_at_unix": 1791358318,
+    "latest_turn_duration_ms": 240027
+  },
+  "evidence_source": "Parent agent read the formal task and received the matching durable executor final report through wait_threads. This receipt records that reported result; local root has not independently read back each cloud execution receipt or Drive output.",
+  "packet": {
+    "archive": "M02_cloud_trial_packet_v1.zip",
+    "sha256": "051a5c61fff60594cfa4d454e9be9862d66442d471cac8d77ae5a830dc11029b",
+    "size_bytes": 18448040,
+    "drive_file_id": "1qBVTqaSHDXQWIXwsv7zDU-bkNTXzTk2-",
+    "drive_folder_id": "1ZMrwm9ny4YgS2YIsvl-yNqJau5ez95wR"
+  },
+  "cloud_preflight": {
+    "status": "reported_pass",
+    "manifest_files_reported_verified": 36,
+    "A_full_decoded_frames_reported": 145,
+    "roundtrip_decoded_frames_reported": 24,
+    "Drive_save_reported": true,
+    "Drive_output_file_ids": null,
+    "independent_root_receipt_readback_completed": false
+  },
+  "grok_stage": {
+    "status": "waiting_human_verification",
+    "reported_surface": "Grok Cloud Browser",
+    "reported_prompt": "Verify you are human",
+    "required_next_action": "User completes verification in the cloud task Browser; continue the cloud trial there.",
+    "new_B_generated_reported": false,
+    "combined_candidate_rendered_reported": false
+  },
+  "first_wave_modified_by_this_update": false,
+  "instagram_publication": false,
+  "historical_creation_receipt_modified": false,
+  "frozen_packet_or_prior_delivery_receipts_modified": false,
+  "cloud_full_workflow_pass": false
+}

@@ -1,0 +1,22 @@
+{
+  "date_client": "2026-10-21",
+  "version": "v2",
+  "local_preview": "v2/local/review.mp4",
+  "local_sha256": "7dbd3d6c8ec11203b6a4decaa44c30bbfae2576318bea241ff914460e40f7e49",
+  "local_frames": 272,
+  "local_duration_seconds": 11.3333333,
+  "local_transition_seconds": [5.2916667, 6.0416667],
+  "context_preview": "v2/context/review.mp4",
+  "context_sha256": "0f1c2f8a7dbe4b79d346faa2b75c061f260b711671f51e17f88a07283e89d9bd",
+  "context_frames": 585,
+  "context_duration_seconds": 24.375,
+  "context_new_transitions_seconds": [[13.0416667, 13.7916667], [18.3333333, 19.0833333]],
+  "root_viewed": ["v2/local/QA/join_1_dense.png", "v2/context/QA/join_1_dense.png", "v2/local/QA/native_frames/frame_000135.png", "v2/context/QA/full_25_checkpoints.png"],
+  "root_observations": "Protected prefix to push-in overlap has relatively close same-outfit scale; a brief duplicate step remains possible. Push-in to L02 keeps similar side framing but actual motion/head placement differ: clear two-face/arm silhouettes at mid dissolve (local f135). Do not label seamless. User may judge whether 0.75s subjective softness is acceptable; previous subjective acceptance of ghosting does not approve this exact edit. L02 late framing/bag crop and edge-revealed unvalidated fixture remain visible, not cropped or retimed away.",
+  "technical_validation": "Both full decodes,24fps720x1280,no audio,18-frame dissolves; details v2/close_study_edit_receipt.json. Original prefix bytes unchanged; re-encoded preview prefix compared with codec-tolerance metrics, not claimed pixel-identical.",
+  "status": "research preview, pending exact user visual feedback",
+  "user_dynamic_acceptance": null,
+  "continuous_full_speed_visual_review": null,
+  "publishing_or_drive_change": false,
+  "F05_started": false
+}

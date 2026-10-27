@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-15",
+  "film": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/M03_commute_week_inspiration_v2_refined.mp4",
+  "sha256": "fe796bb8aa71fbebda3af262b94fde868abf11be2bf6b048a2cda66bad66bb65",
+  "status": "sampled_review_complete_ready_for_user_normal_speed_review",
+  "root_reviewed_files": [
+    "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/QA/full_25_checkpoints.jpg",
+    "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/QA/face_5_checkpoints.jpg"
+  ],
+  "observations": [
+    "Five exact looks and M03 identity retained; A-line skirt now opens the sequence, followed by long blazer, brown denim, check shirt and short jacket.",
+    "Full body and both shoes remain visible at sampled points; each look has2.5-4.25clear seconds.",
+    "No first-second image switch; first clear interval is3.75seconds.",
+    "Selected later S01 has right-facing gaze, with more grey trouser tone already known in source.",
+    "Cross-dissolves retain short face/limb/background double outlines.",
+    "All five sources are still walking, so new poses/camera language or resolution of prior pacing/viewer-purpose complaints is not claimed.",
+    "First join is more consistent in gaze direction than intermediatev2 but still has vertical head separation/double eyes. Second join retains side-angle reset. Remaining joins have identical source/alpha mappings to reviewedv2."
+  ],
+  "join_review_path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/join_sampled_visual_review.json",
+  "assistant_continuous_playback": false,
+  "normal_speed_full_playback_user_self_report": null,
+  "user_film_approval": null,
+  "publishable": false
+}

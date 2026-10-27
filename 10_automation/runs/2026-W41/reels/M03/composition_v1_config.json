@@ -1,0 +1,16 @@
+{
+  "week": "2026-W41",
+  "model": "M03",
+  "version": "review_v1",
+  "look_ids": ["2026-W41-004-L01", "2026-W41-004-L02"],
+  "saved_reference_name": "Mira M03 v3",
+  "A_frames": [0, 144],
+  "B_frames": [0, 144],
+  "interval_reason": "Retain actual cuff contact and complete release/return. A finishes both-cuff sequence near its native end; joining settled A to B's own relaxed start minimizes pose separation. B retains cuff settling, release and settled ending. No speed or framing transform.",
+  "source_sampled_visual_review": {
+    "scope": "25 whole-frame and 5 face checkpoints per source; all145 consecutive hand/cloth windows per source. Normal-speed continuous playback not established.",
+    "A": "Visible right-hand contact with left folded cuff and small cloth settling, followed by an additional opposite-cuff adjustment and complete arm return. Actual two-cuff action differs from single-cuff prompt. No gross hand, outfit, shoe, face or architectural collapse seen in inspected windows.",
+    "B": "Visible left-hand contact with right folded cuff, small local cloth motion and release; opposite laterality to prompt and brief outward forearm presentation. No gross hand, outfit, shoe, face or architectural collapse seen in inspected windows.",
+    "limitations": "Fine fingertip mechanics and normal-speed comfort remain playback/user-review questions; generated action variation is recorded, not reported as exact prompt compliance."
+  }
+}

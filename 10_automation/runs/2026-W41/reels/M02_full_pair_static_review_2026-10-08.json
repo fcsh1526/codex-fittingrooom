@@ -119,7 +119,7 @@
       ]
     }
   ],
-  "user_approval": null,
+  "user_approval": "10_automation/runs/2026-W41/reels/M02_full_pair_user_approval_2026-10-08.json",
   "production_rule": "Do not animate either source until separate user visual acceptance of the exact selected pair.",
   "generation_count": 7,
   "targeted_edits": 2,

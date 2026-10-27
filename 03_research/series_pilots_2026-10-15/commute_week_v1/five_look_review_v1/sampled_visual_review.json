@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "film": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/M03_commute_five_look_review_v1.mp4",
+  "film_sha256": "ccbbe61977fc61c7850ec994018411f5d5a463209916bd46a18ab5387e38c345",
+  "status": "sampled_review_complete_ready_for_user_normal_speed_review",
+  "full_person_board": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/QA/full_25_checkpoints.jpg",
+  "face_board": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/QA/face_5_checkpoints.jpg",
+  "root_reviewed_J12_head_board": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/QA/J12/transition_all_boundary_head_windows.jpg",
+  "new_join_review": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/join_sampled_visual_review.json",
+  "observations": [
+    "One M03, five complete office combinations, repeated white tee/charcoal trousers/white shirt remain visible editorial links.",
+    "Full-person framing and source speed retained; no captions or audio.",
+    "S01 trousers change to greyer tone with source lighting, already accepted in exact first pair.",
+    "Early expression settling/head-turn prompt deviations remain in source records; no stealth retiming.",
+    "Four0.75s dissolves show short double faces/limbs and background lines; J34 face displacement and skirt/trouser overlap most evident, J45 changes face angle/expression, J23 shows gait mismatch.",
+    "Sampled frames become clear after each dissolve; no sampled extra black flash or prolonged ghost."
+  ],
+  "technical_verification": {
+    "frames": 708,
+    "fps": 24,
+    "pixels": [
+      720,
+      1280
+    ],
+    "seconds": 29.5,
+    "audio": false,
+    "source_hashes_preserved": true,
+    "accepted_first_pair_source_blend_mapping_retained_before_J23": true
+  },
+  "blocking_sampled_defects_for_user_review": [],
+  "assistant_continuous_playback": false,
+  "user_complete_film_approval": null,
+  "publishable": false,
+  "purpose_of_user_review": "Judge the complete five-look wardrobe viewing route, pacing, outfit reading and comfort at four joins; not account-wide adoption or audience performance."
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-21",
+  "asset": "F04_M03_L02_full_start_candidate_A.png",
+  "sha256": "03b45655b7bef2b97b3ef19de6cc9b864b86341d908114e149f0653c8dfd36f0",
+  "question": "請確認剛顯示的第四套全身起始圖：臉、奶油白／海軍藍格紋、灰褲、黑鞋包與行走構圖是否可以沿用？這版臉略柔、包稍飽滿，仍在廣場花台旁。依你訂的新圖先視覺核准流程，確認後才準備相容末幀與影片。",
+  "options": ["可以，沿用這張", "臉或服裝需要修正", "構圖或場景需要調整"],
+  "status": "exact_still_user_approved",
+  "answer": "可以，沿用這張",
+  "motion_approval": false
+}

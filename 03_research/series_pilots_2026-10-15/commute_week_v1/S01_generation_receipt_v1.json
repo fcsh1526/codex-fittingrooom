@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "S01",
+  "look_id": "ED-W42-COMMUTE-V1-L01",
+  "mode": "built_in_imagegen",
+  "use_case": "photorealistic-natural",
+  "prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S01_generation_prompt_v1.txt",
+  "prompt_word_count": 199,
+  "identity_references": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "role": "face_identity_only",
+      "approved_in_existing_registry": true
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "role": "normal_body_proportions_and_hair_only",
+      "approved_in_existing_registry": true
+    }
+  ],
+  "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-a65058f5-f18f-4eb5-a9d0-86cb4390ed2b.png",
+  "project_asset": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+  "sha256": "e85bc259d141bc50baed97bfbcc5f638b210f6a9971ef91436c8d439b236bf6c",
+  "actual_pixels": [
+    941,
+    1672
+  ],
+  "requested_aspect_ratio": "9:16",
+  "exact_integer_9_16": false,
+  "aspect_note": "Native vertical9:16 generation request; output941x1672 differs by0.5 horizontal pixel from exact ratio at this height. No stretch or crop performed; final video packaging must record its normalization.",
+  "assistant_review": {
+    "identity": "recognizable M03 v3 face/hair/body",
+    "wardrobe": "hip-covering ivory blazer, white crewneck tee, grey-cast dark navy trousers, black low-heeled shoes, dark-brown shoulder bag",
+    "pose": "plausible walking first frame with grounded step; natural motion remains untested",
+    "framing": "head and shoes complete; figure larger than initial10/88percent guide, retained as approved actual baseline",
+    "scene": "coherent wall/stone walkway, integrated natural light and shoe shadows",
+    "visible_deviations": [
+      "Trousers appear grey-cast dark navy.",
+      "Gaze is slightly frame-left while walking forward-right; preserve this head angle during first motion test."
+    ],
+    "dynamic_qa": null
+  },
+  "user_still_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S01_user_still_approval_2026-10-15.json",
+  "costs": {
+    "generation_calls": 1,
+    "targeted_edits": 0,
+    "active_minutes": null,
+    "wait_seconds_observed_tool": 47.6
+  }
+}

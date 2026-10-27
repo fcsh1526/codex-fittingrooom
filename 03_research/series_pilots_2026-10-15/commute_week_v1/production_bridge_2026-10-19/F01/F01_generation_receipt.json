@@ -1,0 +1,51 @@
+{
+  "recorded_date": "2026-10-19",
+  "asset_id": "F01",
+  "status": "exact_corrected_still_user_approved_motion_next",
+  "tool": "built_in_image_gen",
+  "base_prompt": "F01_prompt.txt",
+  "base_input_manifest": "F01_input_manifest.json",
+  "generation_calls": 1,
+  "targeted_edit_calls": 1,
+  "correction_target": "Starting camera/composition was at a later colonnade position, with company doorway and crossing incorrectly visible.",
+  "edit_prompt": "F01_targeted_composition_edit_prompt.txt",
+  "edit_inputs_order": ["F01_M03_L01_candidate_A.png", "../F01_t0_composition_reference.png", "../environment/E00_shared_scene_candidate_A.png", "../../../../../02_brand/reference_models/M03_start_v3_face.png", "../../../../../02_brand/reference_models/M03_start_v3_full.png"],
+  "edit_input_roles": ["edit target; preserve exact identity and wardrobe", "t0 composition, scale and route only", "site materials and daylight only", "face and hair identity", "body proportions and identity only"],
+  "outputs": [
+    {
+      "file": "F01_M03_L01_candidate_A.png",
+      "original": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-8d803989-0c6e-477c-bbf9-2abf4072db29.png",
+      "sha256": "88a2b2c2548a375ebc56b548d7bf2af3ca6b1ccf8fc4d81b259466b117ec0824",
+      "pixels": [941, 1672],
+      "bytes": 2390837,
+      "waiting_seconds": 49.714,
+      "status": "preserved_superseded_candidate_composition_defect_not_sent_to_Grok"
+    },
+    {
+      "file": "F01_M03_L01_candidate_A_composition_edit.png",
+      "original": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-f464dfad-0477-4bb7-a03f-5fc4b038657e.png",
+      "sha256": "781d078884d3ee0a096be6ffd000c9d7681e40e65ed804cdff264a7489b760fa",
+      "pixels": [941, 1672],
+      "bytes": 2477741,
+      "waiting_seconds": 57.555,
+      "status": "exact_user_approved_still"
+    }
+  ],
+  "format": "Generated directly as vertical 9:16 intent; actual rounded dimensions recorded, no cropping, stretching or pixel normalization.",
+  "assistant_visual_review": {
+    "full_head_and_both_shoes_visible": true,
+    "visible_wardrobe_matches_L01_semantics": true,
+    "face_and_hair_visually_compatible_with_M03_v3": true,
+    "biometric_identity_measurement_performed": false,
+    "no_visible_text_logos_or_watermark_observed": true,
+    "company_door_and_crossing_removed_in_edit": true,
+    "exact_t0_geometry_match": false,
+    "deviations": ["Person about two-thirds frame height rather than the sketch's about one-half.", "New planters, trees and dappled light fill the formerly unspecified approach view.", "Peripheral colonnade edge remains visible; exact site geometry cannot be proved from this one view."],
+    "dynamic_qa": "not_started"
+  },
+  "user_visual_approval": "F01_user_still_approval_2026-10-19.json",
+  "active_minutes": null,
+  "grok_calls_at_still_approval": 0,
+  "publishing_files_changed": false,
+  "public_sync_performed": false
+}

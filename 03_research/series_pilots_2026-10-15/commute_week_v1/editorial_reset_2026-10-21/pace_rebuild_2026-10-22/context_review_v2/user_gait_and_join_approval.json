@@ -1,0 +1,13 @@
+{
+  "date":"2026-10-22",
+  "question_item_id":"[\"request_user_input_async\",\"call_53901453b8164642a26b69003d22acb8\",0]",
+  "question":"請完整播放下方21.29秒第三套修正版，特別看7.8–12.3秒：棕褲接米白短外套，再換格紋時，步伐是否更連續，整體還會忽快忽慢嗎？兩處0.75秒柔接仍有短暫雙影。這次確認第三套及整體步態，尚非發布核准。",
+  "answer":"步伐與接續可保留",
+  "film":"review.mp4",
+  "film_sha256":"e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+  "frames":511,"fps":24,"pixels":[720,1280],"duration_seconds":21.291666666666668,
+  "accepted_scope":["third-look gait and neighboring transitions in this exact film","perceived walking continuity across the five-look sequence","retention despite disclosed brief ghosting at the soft joins"],
+  "retained_baselines":["original camera and final full-to-half direction","newF02 retained by prior exact-context approval","all18frame/0.75second dissolves, native source speed, no text or audio"],
+  "not_implied":["publication or Drive/GitHub/IG action authority","zero ghosting or zero foot slip","exact keyframe time or exact world reconstruction","unselected raw-source tail approval","user explicitly reporting continuous full-speed viewing","all-series or weekly-production format change"],
+  "next_state":"gait-and-transition research checkpoint accepted; preserve exact film and reusable recipe; do not regenerate approved portions without a new reason"
+}

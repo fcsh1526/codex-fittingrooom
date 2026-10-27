@@ -1,0 +1,512 @@
+{
+  "created_at_taipei": "2026-10-21T10:16:17.665838+08:00",
+  "status": "research_close_candidates_pending_visual_review",
+  "execution": "local",
+  "purpose": "Show full-to-close L03 camera move before same-scale L02 outfit dissolve",
+  "source_eligible_for_local_edit_attested_by_operator": true,
+  "source_QA_eligibility_is_user_dynamic_approval": false,
+  "builder_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\close_join_review_2026-10-21\\build_close_study.py",
+  "builder_sha256": "9fec19663e1e0ab933e6b13c1fcc5a5412b189648d39a85326e8ee229613a0af",
+  "native_helper_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\build_first_pair_review.py",
+  "native_helper_sha256": "b86dee666b84fcb38777379919f5ef3d15568fb228840007b8ff29cf031455b5",
+  "sources": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F03_pushin_motion_01\\F03_pushin_source.mp4",
+      "sha256": "452baf11a5d6b01e62e522bddb2c1aac8f67938c902eee86d43436cfd569b814"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F04_close_motion_01\\F04_close_source.mp4",
+      "sha256": "502951d7b908e24c7d5c21f60f9a2e0d369e9fc05f012cb9a1bb0fee16b73145"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4",
+      "sha256": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33"
+    }
+  ],
+  "source_scans": {
+    "L03_pushin": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    },
+    "L02_close": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    },
+    "protected_prefix": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 13.79
+      },
+      "decoded_frames": 331,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 13.791666666666666,
+      "individual_source_PTS_measured": false
+    }
+  },
+  "native_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "overlap_frames": 18,
+  "overlap_seconds": 0.75,
+  "blend_weight": "incoming_alpha=(overlap_index+1)/18; overlap_index=0..17",
+  "local_frame_formula": "145+145-18=272",
+  "full_frame_formula": "331+145+145-36=585",
+  "protected_prefix_join_context": {
+    "prefix_original_file_unchanged_SHA_verified_before_and_after": true,
+    "prefix_unblended_frames_half_open": [
+      0,
+      313
+    ],
+    "new_first_join_prefix_frames_half_open": [
+      313,
+      331
+    ],
+    "corresponding_original_F03_frames_half_open": [
+      127,
+      145
+    ],
+    "bridge_first_frame_is_original_F03_frame127": "root-provided source derivation; source visual match reviewed separately",
+    "old_joins_are_not_rebuilt_from_original_sources": true,
+    "new_encode_has_expected_codec_differences": true
+  },
+  "outputs": [
+    {
+      "role": "local_close",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\close_join_review_2026-10-21\\v2\\local\\review.mp4",
+      "sha256": "7dbd3d6c8ec11203b6a4decaa44c30bbfae2576318bea241ff914460e40f7e49",
+      "bytes": 8726233,
+      "frames": 272,
+      "seconds": 11.333333333333334,
+      "decoded_scan": {
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 11.33
+        },
+        "decoded_frames": 272,
+        "full_decode_completed": true,
+        "decoded_frames_over_native_fps_seconds": 11.333333333333334,
+        "individual_source_PTS_measured": false
+      },
+      "streams": {
+        "streams": [
+          "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 6156 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+        ],
+        "audio_stream_present": false
+      },
+      "fidelity": {
+        "all_output_frames_compared_to_intended_native_composite": 272,
+        "mean_absolute_RGB_error_0_to_255": 1.8811201719728687,
+        "worst_frame_mean_absolute_RGB_error": 2.2729144965277777,
+        "minimum_frame_PSNR_dB": 38.133209806394134,
+        "codec_tolerance": {
+          "worst_frame_MAE_max": 3.0,
+          "minimum_frame_PSNR_dB_min": 32.0
+        },
+        "within_codec_tolerance": true,
+        "byte_identical_or_pixel_identical_claim": false,
+        "protected_prefix_pure_frames": {
+          "frames_compared": 0,
+          "output_half_open": null,
+          "mean_absolute_RGB_error": null,
+          "worst_frame_mean_absolute_RGB_error": null,
+          "minimum_frame_PSNR_dB": null
+        }
+      },
+      "QA_folder": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\close_join_review_2026-10-21\\v2\\local\\QA",
+      "QA": {
+        "full_checkpoint_indices": [
+          0,
+          11,
+          23,
+          34,
+          45,
+          56,
+          68,
+          79,
+          90,
+          102,
+          113,
+          124,
+          136,
+          147,
+          158,
+          169,
+          181,
+          192,
+          203,
+          215,
+          226,
+          237,
+          248,
+          260,
+          271
+        ],
+        "joins": [
+          {
+            "id": "J1_L03_pushin_to_L02_close",
+            "indices": [
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148,
+              149,
+              150,
+              151,
+              152
+            ],
+            "outgoing_role": "L03_pushin",
+            "incoming_role": "L02_close",
+            "outgoing_frames_half_open": [
+              127,
+              145
+            ],
+            "incoming_frames_half_open": [
+              0,
+              18
+            ],
+            "output_frames_half_open": [
+              127,
+              145
+            ],
+            "output_seconds_half_open": [
+              5.291666666666667,
+              6.041666666666667
+            ]
+          }
+        ],
+        "all_dissolve_frames_extracted": true,
+        "individual_frames_size": [
+          720,
+          1280
+        ],
+        "boards_are_reduced_full_raster_thumbnails": true,
+        "crop": false
+      }
+    },
+    {
+      "role": "prefix_plus_close",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\close_join_review_2026-10-21\\v2\\context\\review.mp4",
+      "sha256": "0f1c2f8a7dbe4b79d346faa2b75c061f260b711671f51e17f88a07283e89d9bd",
+      "bytes": 20759260,
+      "frames": 585,
+      "seconds": 24.375,
+      "decoded_scan": {
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 24.38
+        },
+        "decoded_frames": 585,
+        "full_decode_completed": true,
+        "decoded_frames_over_native_fps_seconds": 24.375,
+        "individual_source_PTS_measured": false
+      },
+      "streams": {
+        "streams": [
+          "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 6810 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+        ],
+        "audio_stream_present": false
+      },
+      "fidelity": {
+        "all_output_frames_compared_to_intended_native_composite": 585,
+        "mean_absolute_RGB_error_0_to_255": 1.865898934591643,
+        "worst_frame_mean_absolute_RGB_error": 2.4798527922453704,
+        "minimum_frame_PSNR_dB": 37.42497076961568,
+        "codec_tolerance": {
+          "worst_frame_MAE_max": 3.0,
+          "minimum_frame_PSNR_dB_min": 32.0
+        },
+        "within_codec_tolerance": true,
+        "byte_identical_or_pixel_identical_claim": false,
+        "protected_prefix_pure_frames": {
+          "frames_compared": 313,
+          "output_half_open": [
+            0,
+            313
+          ],
+          "mean_absolute_RGB_error": 1.8487491194644132,
+          "worst_frame_mean_absolute_RGB_error": 2.4798527922453704,
+          "minimum_frame_PSNR_dB": 37.42497076961568
+        }
+      },
+      "QA_folder": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\close_join_review_2026-10-21\\v2\\context\\QA",
+      "QA": {
+        "full_checkpoint_indices": [
+          0,
+          24,
+          49,
+          73,
+          97,
+          122,
+          146,
+          170,
+          195,
+          219,
+          243,
+          268,
+          292,
+          316,
+          341,
+          365,
+          389,
+          414,
+          438,
+          462,
+          487,
+          511,
+          535,
+          560,
+          584
+        ],
+        "joins": [
+          {
+            "id": "J1_protected_prefix_to_L03_pushin",
+            "indices": [
+              305,
+              306,
+              307,
+              308,
+              309,
+              310,
+              311,
+              312,
+              313,
+              314,
+              315,
+              316,
+              317,
+              318,
+              319,
+              320,
+              321,
+              322,
+              323,
+              324,
+              325,
+              326,
+              327,
+              328,
+              329,
+              330,
+              331,
+              332,
+              333,
+              334,
+              335,
+              336,
+              337,
+              338
+            ],
+            "outgoing_role": "protected_prefix",
+            "incoming_role": "L03_pushin",
+            "outgoing_frames_half_open": [
+              313,
+              331
+            ],
+            "incoming_frames_half_open": [
+              0,
+              18
+            ],
+            "output_frames_half_open": [
+              313,
+              331
+            ],
+            "output_seconds_half_open": [
+              13.041666666666666,
+              13.791666666666666
+            ]
+          },
+          {
+            "id": "J2_L03_pushin_to_L02_close",
+            "indices": [
+              432,
+              433,
+              434,
+              435,
+              436,
+              437,
+              438,
+              439,
+              440,
+              441,
+              442,
+              443,
+              444,
+              445,
+              446,
+              447,
+              448,
+              449,
+              450,
+              451,
+              452,
+              453,
+              454,
+              455,
+              456,
+              457,
+              458,
+              459,
+              460,
+              461,
+              462,
+              463,
+              464,
+              465
+            ],
+            "outgoing_role": "L03_pushin",
+            "incoming_role": "L02_close",
+            "outgoing_frames_half_open": [
+              127,
+              145
+            ],
+            "incoming_frames_half_open": [
+              0,
+              18
+            ],
+            "output_frames_half_open": [
+              440,
+              458
+            ],
+            "output_seconds_half_open": [
+              18.333333333333332,
+              19.083333333333332
+            ]
+          }
+        ],
+        "all_dissolve_frames_extracted": true,
+        "individual_frames_size": [
+          720,
+          1280
+        ],
+        "boards_are_reduced_full_raster_thumbnails": true,
+        "crop": false
+      }
+    }
+  ],
+  "source_hashes_verified_unchanged_after_encode": true,
+  "speed": {
+    "all_source_factors": 1.0,
+    "native_frame_order_preserved": true,
+    "retime": false,
+    "reverse_repeat_freeze_interpolation": false,
+    "source_individual_PTS_measured": false
+  },
+  "framing_transform": "none; native720x1280 full raster",
+  "text": "none",
+  "audio": "none",
+  "source_or_old_film_overwrite": false,
+  "cloud_write": false,
+  "publication": false,
+  "assistant_continuous_visual_review": null,
+  "user_dynamic_approval": null,
+  "five_look_film_complete": false,
+  "publishable": false,
+  "limitations": [
+    "This builder checks media and intended edit fidelity; it does not approve identity, wardrobe, cadence or background.",
+    "No feet are visible in the planned L02 close shot; zero foot sliding cannot be verified there.",
+    "Dissolve double images require normal-speed comfort review; technical encode success is not editorial approval.",
+    "The accepted prefix file is preserved byte-for-byte, but its frames are re-encoded in the optional continuation."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "user_quote": "可以，繼續後面三套",
+  "question_context": "使用者在精確12.25秒M03前兩鏡試接（第一套西外持續行走，約0.75秒柔和疊化轉第二套格紋行走）展示與前兩鏡接續審閱後，回覆可以並要求繼續後面三套。此欄為上下文摘要，不冒充未保存的問題逐字稿。",
+  "file": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/M03_commute_first_pair_review_v1.mp4",
+  "sha256": "d25ad7a1ecdc7fc9dcafa18295aa201e1e7ca466e09e763d7553bc943efacc8b",
+  "pixels": [
+    720,
+    1280
+  ],
+  "fps": 24.0,
+  "decoded_frames": 294,
+  "seconds": 12.25,
+  "technical_verification": "Exact film SHA matches edit_receipt.json; independently decoded720x1280,24fps,294frames. Full decode verifies technical readability, not continuous visual playback.",
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      138,
+      156
+    ],
+    "output_seconds_half_open": [
+      5.75,
+      6.5
+    ]
+  },
+  "scope": "接受這支精確前兩鏡研究片的視覺呈現與目前約0.75秒疊化接續，可沿用此試接方式並擴做S03-S05；不擴成零重影、全帳號固定系列採納、完整五套成片核准或IG成效。後續每張新起始圖仍須精確視覺核准後才可進入動態。",
+  "visual_acceptance": "accepted_exact_first_pair_film",
+  "continue_remaining_shots": [
+    "S03",
+    "S04",
+    "S05"
+  ],
+  "account_wide_adoption": null,
+  "complete_five_look_film_approval": null,
+  "normal_speed_full_playback_user_self_report": null,
+  "assistant_continuous_playback": false,
+  "new_stills_automatically_approved": false,
+  "future_motion_and_joins_automatically_approved": false,
+  "publishing_files_replaced": [],
+  "external_upload_or_publication_authorized_by_this_reply": false
+}

@@ -1,0 +1,12 @@
+{
+  "week": "2026-W41",
+  "model": "M02",
+  "version": "review_v2",
+  "output_filename": "2026-W41_M02_two_looks_soft_v2.mp4",
+  "look_ids": ["2026-W41-003-L01", "2026-W41-003-L02"],
+  "saved_reference_name": "Mira M02 v3",
+  "A_frames": [0,114],
+  "B_frames": [24,144],
+  "interval_reason": "Keep A unchanged. V1 B0 entrance has a lower head position and wider face double image during the dissolve. Enter B at1s after its initial forward-foot motion, when face/shoe placement is nearer A's settled pose; retain B trailing-foot catch-up and later natural settle through6s. Native speed, one18-frame0.75s dissolve, no pixel framing adjustment. V1 remains preserved for comparison; neither version is user-approved.",
+  "source_sampled_visual_review": "Each source:25 full-frame and5 face checkpoints plus all145 consecutive native lower-body windows inspected. No apparent gross leg/shoe/pants collapse or foot teleport in inspected windows. Both contain catch-up and stance adjustments beyond an exact single step. Face/outfit/cafe broadly coherent in samples. Continuous normal-speed comfort remains pending."
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-22",
+  "question_item_id": "[\"request_user_input_async\",\"call_d75b83345de049bdbeaf7b81e72d6e5e\",0]",
+  "artifact": "half_shot_board.png",
+  "sha256": "32901080f8ffcf66e40a940921d9cc5addffdc8057df68f6903375d8a69dad58",
+  "question": "建議保留已接受的前四套，第五套先完整展示裙裝約3秒，再於同一鏡推近白襯衫與藍包，以半身收尾；整片預計約21.3秒。是否照這份線稿分鏡準備新的半身收束圖？這尚未改動影片，原全身收束圖仍保留待審。",
+  "answer": "採用第五套全身推近半身",
+  "status": "user_selected_exact_storyboard_direction",
+  "scope": "Keep accepted four-look preview; prepare one compatible F05 head-to-mid-thigh late candidate after approved full-person first; exact still visual approval still required before new video. Budget~21.3s not generated outcome.",
+  "new_half_still_approved": false,
+  "F05_motion_approved": false,
+  "complete_film_approved": false,
+  "prior_full_late_still_approved": false
+}

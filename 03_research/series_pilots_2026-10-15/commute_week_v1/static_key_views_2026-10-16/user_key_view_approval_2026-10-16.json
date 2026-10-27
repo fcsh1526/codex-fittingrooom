@@ -1,0 +1,15 @@
+{
+  "recorded_date": "2026-10-16",
+  "user_quote": "可以",
+  "context": "Assistant delivered two pages of four static key viewpoints, each with perspective view and the same site's camera/person plan. Asked to check one route toward one company entrance, then fill intermediate orbit and outfit-change moments.",
+  "status": "accepted_exact_four_static_spatial_key_views",
+  "approved_files": [
+    {"path":"key_views_01.png","sha256":"6c7763868207dc121d64a8e5c6c622fa64e4a09b66794d26c66b7b75edc76ab5"},
+    {"path":"key_views_02.png","sha256":"75b43cba394bdd5aaf2443ef32616a3dc37d1dac95d1ba858d3ff4b4c69a4d86"}
+  ],
+  "scope": "Four spatial anchor compositions and the route toward the same entrance, using one schematic outfit. Proceed with planning intermediate turn/orbit and five outfit changes, then a new timed sketch.",
+  "not_approved": ["intermediate camera path or motion comfort", "five-look timing/reading", "new photoreal starting images", "Grok motion", "final film or account-wide adoption", "publishing or replacement"],
+  "reference_geometry": "key_views_receipt.json",
+  "photoreal_still_approval_transferred": false,
+  "generation_performed_by_approval_record": false
+}

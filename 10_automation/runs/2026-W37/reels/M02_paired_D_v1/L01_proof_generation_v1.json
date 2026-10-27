@@ -1,0 +1,44 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "generation_date": "2026-10-05",
+  "look_id": "2026-W37-001-L01",
+  "model_profile_id": "M02",
+  "asset_role": "neckline_front_opening_medium_first_frame_candidate",
+  "tool": "Codex built-in imagegen",
+  "reference_images": [
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L01\\reel\\paired_scene_v1\\2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M02_start_v3_face.png",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M02_start_v3_full.png"
+  ],
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/proof_prompt_v1.md",
+  "source_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-45ef8293-62f9-4a79-9a35-23d590205220.png",
+  "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+  "sha256": "6c3c36d53e894f4be8aa1de1f7eef70749f15e0e906421d26bb838c74bed18bf",
+  "requested_dimensions": [
+    1080,
+    1920
+  ],
+  "actual_dimensions": [
+    941,
+    1672
+  ],
+  "aspect_ratio_relative_error": 0.0005316321105794941,
+  "native_portrait_generation": true,
+  "exact_delivery_dimensions_met": false,
+  "resize_or_crop_applied": false,
+  "generation_attempts": 1,
+  "generation_wait_seconds": 41.856,
+  "active_minutes": null,
+  "assistant_static_observations": [
+    "Complete hair and face, both shoulders, open gray shirt fronts, cream curved neckline, waist seam and upper skirt visible.",
+    "Navy shoulder strap and bag remain visible; hand grip has no obvious artifact at displayed size.",
+    "Window/seat at left, wood bookcase at right and warm-gray center wall retain the same scene arrangement; exact 3D camera continuity is unverified.",
+    "Medium framing top margin visually about7 percent, slightly below the8 percent planning guideline; complete head visible, final interface safe-zone check remains pending.",
+    "No dynamic QA or proof of background rigidity."
+  ],
+  "user_visual_approval": "approved",
+  "user_visual_approval_date": "2026-10-05",
+  "user_visual_approval_evidence": "User replied ok after both L01 medium and L02 full candidates were displayed and individually listed for approval; still-only scope.",
+  "dynamic_qa": "not_started",
+  "publishable": false
+}

@@ -1,0 +1,29 @@
+{
+  "recorded_date": "2026-10-19",
+  "status": "full_source_spatial_extension_failed_prefix_direction_review_pending",
+  "submission_receipt": "F01_grok_submission_receipt.json",
+  "completion_dom": "F01_grok_completion_dom.txt",
+  "completion_screenshot": "F01_grok_result_screenshot.png",
+  "video_asset_id": "e842d665-6c44-4871-acad-094fe0d62297",
+  "generation_count_observed": 1,
+  "actual_reference_selection_independently_visible": false,
+  "agent_reported_input_roles": {"first_frame":"525cb906-2d48-4bda-9b75-86d7a1ca592c","face":"6236309c-2343-41e6-985c-994239ff744a","full_proportions_only":"ac9ede4e-1715-4518-95b4-bda341a62061","last_frame":null},
+  "browser_rendered_video": {"pixels":[720,1280],"duration_seconds":6.041667},
+  "source": {"file":"F01_source.mp4","downloaded_file":"C:/Users/Brandon_ChangChien/Downloads/generated_video (48).mp4","sha256":"6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50","bytes":6308529,"pixels":[720,1280],"fps":24,"decoded_frames":145,"seconds_frame_count_over_fps":6.041666666666667,"audio_codec":"aac","scan":"F01_technical_scan.json"},
+  "full_silent_review": "F01_silent_review_v1.mp4",
+  "selected_prefix": {"file":"F01_prefix_3p25s_silent_review_v2.mp4","sha256":"d789898f3765aba72f4a286e94b1d1122444f186320e8433fa4c324e0dea870c","source_frames_half_open":[0,78],"seconds":3.25,"last_actual_source_frame":"F01_prefix_last_frame_f77.png","last_frame_time_seconds":3.2083333333333335,"receipt":"F01_prefix_selection_receipt.json","status":"direction_candidate_not_whole_route_pass"},
+  "assistant_sampled_visual_review": {
+    "root_viewed":"QA_source/full_25_checkpoints.jpg",
+    "independent_agent":"/root/f01_motion_spatial_review",
+    "observations":["Opening retains the approved ivory-blazer outfit, gray paving, near rectangular column, planter and tree-shadow context.","Through about3.25seconds, camera moves from front-three-quarter toward side while complete head and shoes remain visible.","From roughly3.5–4seconds, newly revealed architecture expands into a long repetitive deep corridor with arched side openings.","The later corridor is incompatible with E00's compact short rectangular semi-open colonnade; do not use the6second endpoint as the shared-site lock.","No obvious sampled wardrobe switch or identity replacement; sampling does not establish every-frame stability or natural motion."],
+    "full_source_spatial_continuity_pass":false,
+    "prefix_dynamic_pass":null,
+    "same_route_final_endpoint_verified":false,
+    "assistant_continuous_playback":false,
+    "user_normal_speed_full_playback_self_report":null
+  },
+  "next_dependency":"Ask for exact3.25second prefix walking/camera-direction feedback. If retained, establish compatible next-start and bounded end geometry using approved E00, accepted spatial keys and actual selected endpoint; obtain exact new-still approval before further generation. A final-endpoint still is a proposed constraint, not a proven fix.",
+  "whole_film_approval":null,
+  "publishing_changes":[],
+  "public_sync":false
+}

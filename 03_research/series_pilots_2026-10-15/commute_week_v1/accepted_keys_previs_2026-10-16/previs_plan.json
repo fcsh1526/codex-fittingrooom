@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "stage": "accepted_static_keys_intermediate_motion_and_wardrobe_planning",
+  "title": "同一條上班路，五天的穿搭",
+  "static_anchor_approval": "../static_key_views_2026-10-16/user_key_view_approval_2026-10-16.json",
+  "spatial_anchor_receipt": "../static_key_views_2026-10-16/key_views_receipt.json",
+  "total_seconds": 19.5,
+  "fps": 24,
+  "camera_method": "Continuous world-space position and look-target curves through the exact four accepted key views; not rotating a fixed offset instantly with the character's heading.",
+  "framing_method": "Smoothly interpolate the accepted key-view focal ratios and horizontal look targets; retain exact values at K1-K4.",
+  "wardrobe_editorial_rationale": "Keep blazer opening, move brown denim to front/side viewing; short jacket then plaid retain grey trousers; skirt/blue bag close the route. The white shirt has already been shown from the front in brown denim look.",
+  "wardrobe_order": ["L01", "L05", "L03", "L02", "L04"],
+  "looks": [
+    {"id":"L01","wardrobe":"long_blazer","label":"長西外＋深藍褲","interval":[0.0,4.5],"clear_interval":[0.0,3.75],"purpose":"先看完整通勤輪廓與長西外衣長。"},
+    {"id":"L05","wardrobe":"brown_denim","label":"白襯衫＋棕丹寧","interval":[3.75,8.25],"clear_interval":[4.5,7.5],"purpose":"前側方看尖領、紮腰與窄黑皮帶。"},
+    {"id":"L03","wardrobe":"short_jacket","label":"短外套＋灰褲","interval":[7.5,12.0],"clear_interval":[8.25,11.25],"purpose":"側面看短外套與腰胯比例。"},
+    {"id":"L02","wardrobe":"plaid_shirt","label":"格紋襯衫＋同條灰褲","interval":[11.25,15.75],"clear_interval":[12.0,15.0],"purpose":"灰褲延續，圖案成為側後方仍可辨認的差異。"},
+    {"id":"L04","wardrobe":"a_skirt","label":"白襯衫＋黑裙＋藍包","interval":[15.0,19.5],"clear_interval":[15.75,19.5],"purpose":"用裙形、藍包與抵達公司收束。"}
+  ],
+  "joins": [[3.75,4.5],[7.5,8.25],[11.25,12.0],[15.0,15.75]],
+  "preserved": ["one compact company-front environment", "same M03 concept and exact five wardrobes", "four approved key-view spatial compositions", "about0.75s soft clothing changes", "no text/audio in sketch film", "no publishing replacement"],
+  "not_claimed": ["five outfits fully shown from the front", "realistic limbs or fabric motion", "Grok ability to follow this path", "final film acceptance", "IG optimal duration or exposure"],
+  "production_scope": "New sketch previsualization and eight-step board only. No photoreal still or Grok motion generation; new stills still require exact user visual approval."
+}

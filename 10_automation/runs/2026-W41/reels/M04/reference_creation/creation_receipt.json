@@ -1,0 +1,10 @@
+{
+  "name": "Mira M04 v3",
+  "created_selected": true,
+  "anchors": [
+    "M04_start_v3_face.png",
+    "M04_start_v3_full.png"
+  ],
+  "observed_at": "2026-10-08T09:25:07.358Z",
+  "destination": "https://grok.com/imagine"
+}

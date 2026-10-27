@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-06",
+  "model": "M02",
+  "look_id": "2026-W37-001-L02",
+  "method": "built_in_image_gen",
+  "use_case": "identity-preserve",
+  "status": "user_visual_approved",
+  "selected_asset": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/2026-W37-001-L02_M02_body_distance_matched_start_candidate_v3.png",
+  "selected_sha256": "f8098adfefc9be66ffcfea9bc3bad424e3f5e34a30a343d50dc4478f10af16e6",
+  "actual_size": [
+    941,
+    1672
+  ],
+  "surface": "reel_native_portrait_9x16",
+  "generation_count": 3,
+  "base_generation_count": 1,
+  "targeted_edit_count": 2,
+  "targeted_edit": [
+    "person_distance",
+    "tote_strap_wardrobe_regression"
+  ],
+  "prompt_files": [
+    "matched_B_start_v2_prompt.txt",
+    "matched_B_start_v2_distance_edit_prompt.txt",
+    "matched_B_start_v3_strap_edit_prompt.txt"
+  ],
+  "base_preserved": {
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/2026-W37-001-L02_M02_body_distance_matched_start_candidate_v1.png",
+    "sha256": "e4474308e39cbf7c2512619cef752232cd8efec903058ffeaef2299df0c79568",
+    "status": "retained_superseded_before_user_approval"
+  },
+  "inputs": [
+    {
+      "role": "composition_edit_target_A_actual_f96",
+      "path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/qa/near_A1/full/frame_000096.png",
+      "sha256": "97c56067756b45642075532405a084263b42f76bf46815dc65a9ba6861b710cf",
+      "approval_limit": "Sampled dynamic-QA composition guide, not separately user-approved still."
+    },
+    {
+      "role": "approved_L02_exact_outfit",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+      "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a"
+    },
+    {
+      "role": "approved_v3_face_identity",
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "role": "approved_v3_full_body_proportions_only",
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    }
+  ],
+  "root_static_review": {
+    "method": "visible_generated_image_and_composition_comparison",
+    "head_position": "v2 closer to A guide; approximate 720-space head top~185 vsA~178",
+    "shoe_bottom": "v2~1020 vsA~1060; residual stance/proportion difference remains",
+    "same_exact_background_or_pixel_registration": false,
+    "subject_outfit": "same M02; open mist-blue shirt, navy square-neck dress, cream no-lace slip-on shoes, grey shoulder tote visible",
+    "future_dynamic_success": null,
+    "tote_strap": "Visible grey canvas strap matching grey tote restored; body/head/feet and main scene geometry visually retained from v2."
+  },
+  "independent_review": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/qa/matched_B_start_v2/independent_review_v3.md",
+  "independent_review_status": "limited_static_pass_grey_strap_and_retained_person_scene_geometry",
+  "user_approval": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/visual_approval_v3_2026-10-07.json",
+  "uploaded_to_Grok": false,
+  "video_generated_from_selected_still": false,
+  "text": "none",
+  "publishable": false,
+  "cloud_write": false,
+  "original_assets_overwritten": false,
+  "additional_targeted_edit_exception": {
+    "reason": "Independent QA found a concrete inherited L01 dark-blue strap on the L02 grey tote. Corrected that wardrobe regression before requesting user approval, while preserving selected geometry.",
+    "count_honesty": "One base plus two targeted edits; exceeds the normal skill one-edit guideline. No competing Hero or global rule change. All variants retained.",
+    "further_edits_planned": false
+  },
+  "last_edit_input": {
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/2026-W37-001-L02_M02_body_distance_matched_start_candidate_v2.png",
+    "sha256": "27298b46bcc0aeb18928dc540d6ee94e64be7287de2c39f2ba8a2f6e7ba32fa5",
+    "role": "person-position/outfit edit target except erroneous strap"
+  },
+  "root_QA_boards_reviewed": [
+    "qa/matched_B_start_v2/v2_v3_same_canvas_720_QA.jpg",
+    "qa/matched_B_start_v2/v2_v3_approved_B_strap_QA.jpg"
+  ]
+}

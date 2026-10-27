@@ -1,0 +1,15 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "approved_exact_endpoint_v2_with_disclosed_composition_differences",
+  "asset": "F04_M03_L02_end_camera_correction_v2.png",
+  "sha256": "e3117eef0d3854bb279d2070a08378b9eefacbabeae0889c057cbcf75e52e8e9",
+  "pixels": [941, 1672],
+  "question": "請確認最新 M03 末幀：臉、格紋襯衫／灰褲、黑鞋包，以及走到公司側鋪面的側後方構圖是否可沿用？人物比線稿略大、偏上，左下白帶更低更貼邊；玻璃細節尚未驗證精確連貫。依你在 AGENTS.md 設定的新圖先核准流程，確認後先對照首中尾，合理才做一次第四鏡影片測試。",
+  "user_answer": "可以，沿用這張末幀",
+  "scope": "Exact endpoint appearance accepted with disclosed larger/higher person, lower cropped paint remnant and unverified glass details; review first/middle/end plausibility, then one bounded F04 motion test only if reasonable.",
+  "disclosed_differences_accepted": true,
+  "geometric_reconstruction_or_prefix_match_proven": false,
+  "dynamic_QA": null,
+  "four_or_five_shot_film_approval": null,
+  "originals_and_publishing_packages_preserved": true
+}

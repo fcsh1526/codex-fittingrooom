@@ -1,0 +1,11 @@
+{
+  "record_date_local":"2026-10-20",
+  "event_timestamp":null,
+  "asset":{"path":"F04_M03_L02_end_candidate_A_footfix_v2.png","sha256":"78b0322f697806c8cf436a221a631e39e5d2f57a7e65df4044a2a27309a673ed","width":941,"height":1672},
+  "question":"請確認最後這張 M03 第四套末幀修正版：臉、格紋襯衫／灰褲、黑鞋包，以及剛過街到公司側的側後方構圖，是否可以沿用？後腳已抬離路緣；新角度的斑馬線與外牆連貫性仍須影片檢查。依你在 AGENTS.md 設定的新圖視覺核准流程，確認後才送 Grok。",
+  "user_answer":"可以，沿用修正版末幀",
+  "status":"exact_F04_corrected_endpoint_user_approved",
+  "scope":"Exact corrected endpoint and authority to submit one bounded F04 motion candidate. Does not approve motion, gait, precise site geometry, four-shot preview or full five-look film.",
+  "start_approval":"F04_start_user_still_approval_2026-10-20.json",
+  "next":"Upload exact approved start and corrected endpoint to same Mira canvas; verify roles before one6s720p9:16 motion request"
+}

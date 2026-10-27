@@ -1,0 +1,12 @@
+LOCAL PREPARATION ONLY — NOT SUBMITTED BY THIS AGENT.
+Replace all four role placeholders only after exact images/asset IDs are visually confirmed on the original Mira canvas. Local paths do not upload files or lock roles.
+
+Create exactly ONE six-second, 720p, native vertical 9:16 video diagnostic. Use FIRST_UPLOAD_ASSET_ID as the first frame and LAST_UPLOAD_ASSET_ID as the last frame. Use M03_FACE_ASSET_ID and M03_FULL_ASSET_ID only for the same M03 v3 identity and ordinary body proportions. If these roles cannot coexist, stop; do not omit an input, make a new still, change settings or retry.
+
+This is one continuous SAME-OUTFIT shot, L03 throughout. Start with the exact approved original F03 source frame127. Continue her natural purposeful rightward commuting walk immediately, without a starting hold or slowing her stride. Camera tracks in parallel on the same side, gradually dollying closer through the first four seconds, from the existing full-person framing to the approved head-to-mid-thigh endpoint. Keep the entire head, both hands and black shoulder bag in frame. By about4s reach that close scale, then maintain the same scale and tracking through the final2s while she continues walking naturally; do not freeze the person.
+
+Keep the ivory short stand-collar zip jacket, plain white crewneck cotton T, charcoal straight trousers and same black shoulder bag/physical shoulder throughout. The last still's slightly fuller bag and more visible buckle are approved endpoint appearance, not permission for a sudden bag swap or expansion. Preserve her face, haircut, body proportions, garment construction and sunlight.
+
+Follow the same grey-green company glass and existing single planter/tree setting without extending a hedge or adding columns, plant rows, street fixtures, new doors or roads. As camera approaches, optical background defocus grows naturally; do not simulate a cut or mask a scene replacement with blur. No camera orbit, outfit change, internal transition, slow motion, speed ramp or digital zoom. No text, logo, music or speech. Return the actual result asset ID and the actual first/last/identity settings accepted, separately from this request.
+
+ONE diagnostic only. Any rejection, security challenge or incompatible control combination means stop and report. No automatic retry. This video is not authorized for automatic append or publication.

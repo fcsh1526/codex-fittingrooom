@@ -1,0 +1,17 @@
+在已確認可同時指定以下5圖的前提下，只生成一次F04場景參照控制候選：6秒、720p、9:16，原Mira畫布。不出新圖、不合片、不自行重試，角色不能並用便停下回報。
+
+first_frame ONLY=e008f6b5-efe9-40b4-be75-615af1be766c：已核准原首幀，格紋襯衫／灰褲／黑鞋包，向右跨步，原畫面左後短花台。
+last_frame ONLY=a06e27e3-5f21-4875-805d-27e34796dd42：已核准新末幀，同人同套、公司側空鋪面，前腳承重／後鞋過路緣，左下斑馬線已按中途圖改向，長白條短端抵近路緣。細紋較明顯已告知並接受。
+asset_ids中的文字角色：
+6236309c-2343-41e6-985c-994239ff744a = face identity ONLY。
+ac9ede4e-1715-4518-95b4-bda341a62061 = ordinary full-body proportions ONLY。
+90081a23-1319-4ce4-9076-a72c8d26a332 = SAME crossing SCENE/LAYOUT reference ONLY；用於固定中途街景、窗格、路緣、短花台範圍與核准白條方向，不當另一個first/last，也不要求精確第3秒命中。沒有專用scene欄位時不能說已設獨立scene類型，請如實回報asset_ids＋提示詞角色。
+不要採用舊末幀936d6b16…、331ad2df…，以及失敗影片b3587cc9…、c6004f06…的新增場景。失敗F03柱體版bcb58740…也不用。
+
+Generate one continuous six-second real-time commuting shot between the exact first and newly approved last images, using the added intermediate image ONLY as a scene/layout reference. Preserve M03 face/hair, ordinary proportions, cream/navy fine-check pointed shirt, forearm sleeves, tucked charcoal straight trousers, black low heels and the black bag on the SAME physical shoulder. Keep fabric texture stable without amplification.
+
+The existing short planter and tree visible at image-left/rear have a fixed, bounded footprint. They leave view only through camera travel and parallax; they never extend into previously empty paving, dissolve, shrink or migrate. Do not assign them a different side of the road. The company-side landing stays open against the same gray-green glass grid. Keep ONE narrow road and ONE crossing with persistent curb and window lines. Use the approved intermediate and last views for the same physical paint orientation. White stripes stay fixed on asphalt; their projected direction changes only through continuous camera motion, never by spinning, dissolving or repainting stripes beneath her. Preserve the tiny visible right-edge crossing cues at the opening, which must connect to the preceding shot. Do not invent a second stripe set to reconcile views.
+
+Begin already walking toward frame-right, continuing the preceding F03 cadence and momentum through0.75s without a restart. Follow one smooth curved path onto the crossing, across the lane and over the company-side curb, ending still walking on paving before any doorway. A level chest-height50mm full-person camera stays on the same flank and gradually falls behind to rear three-quarter; keep head and shoes visible and person scale comparable. Supporting soles stay with the same ground point until toe-off, with body weight passing over each foot, natural arm/bag/fabric response and steady brisk normal cadence. No camera-side flip, sudden angle reset, zoom, skating, slow motion, speed ramp, retiming, freeze, internal cut or dissolve. No added silver round column, bollards, yellow strip, plants, road, text or logo. Audio off if supported; otherwise report actual audio.
+
+Generate exactly once. Report actual5-image parameter assignment, new asset ID, duration, pixels and audio. Separate requested constraints from sampled observations. Do not declare geometric reconstruction, hard-timed middle keyframe, zero sliding or full continuity merely because requested. If the reference combination itself is unsupported, do not silently drop a reference or change mode.

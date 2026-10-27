@@ -1,0 +1,23 @@
+{
+  "source": "https://www.instagram.com/__iamkubo__/reel/DdyQ56qRXGA/",
+  "observed_at": "2026-10-02T07:35:25.056Z",
+  "method": "full viewport getScreenshot, before/after media-time read; crop only offline",
+  "pixel_crop": [
+    292,
+    29,
+    626,
+    623
+  ],
+  "duration": 8.543491,
+  "intrinsic": [
+    1080,
+    1920
+  ],
+  "muted": true,
+  "rect": {
+    "height": 599.6979370117188,
+    "width": 337.3333435058594,
+    "x": 295.8333435058594,
+    "y": 29.45833396911621
+  }
+}

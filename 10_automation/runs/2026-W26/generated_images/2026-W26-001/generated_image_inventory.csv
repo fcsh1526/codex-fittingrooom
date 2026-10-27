@@ -1,0 +1,4 @@
+carousel_id,model_profile_id,candidate_file,role,local_path,notes
+2026-W26-001,M01,2026-W26-001_M01_candidate_A.png,cover_image,10_automation/runs/2026-W26/generated_images/2026-W26-001/2026-W26-001_M01_candidate_A.png,"Selected cover image. Strongest full-body office sheer-layering frame."
+2026-W26-001,M01,2026-W26-001_M01_candidate_B.png,motion_crop,10_automation/runs/2026-W26/generated_images/2026-W26-001/2026-W26-001_M01_candidate_B.png,"Selected motion crop source. Strong commute movement; crop carefully because identity skews slightly younger."
+2026-W26-001,M01,2026-W26-001_M01_candidate_C.png,detail_image,10_automation/runs/2026-W26/generated_images/2026-W26-001/2026-W26-001_M01_candidate_C.png,"Selected detail image. Best fabric and layering detail."

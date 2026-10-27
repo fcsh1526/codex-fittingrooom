@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-24",
+  "shot": "S04",
+  "attempt": 1,
+  "status": "downloaded_provisional_short_step_full_qa_pending",
+  "url": "https://grok.com/imagine/post/29f71138-bd5c-45cb-8d27-f3a618715622?conversation=2c50bff9-9934-44d9-b380-1ec0c308544b",
+  "first_frame": "generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S04_comparison_v2_start_candidate.png",
+  "first_frame_sha256": "EEC97051F4D9C5670664B33C8D97D681BB04B7767ED8B754D87ABD1B1A5B9B77",
+  "user_still_approval": "2026-09-24 ok",
+  "identity_reference": "Mira M02 v3",
+  "first_frame_role_verified": true,
+  "prompt_file": "prompts/S04_comparison_v2_motion_v1.md",
+  "settings": {"resolution": "720p", "duration_seconds": 6, "aspect_ratio": "9:16", "audio": false},
+  "browser_video_metadata": {"width": 720, "height": 1280, "duration_seconds": 6.041667, "playback_rate": 1},
+  "local_file": "videos/S04_comparison_v2_01.mp4",
+  "local_bytes": 1935353,
+  "sha256": "C184574BB16F74CB997B3D23E789C7731664D203A822A3111C97649C08B2C331",
+  "qa": "Grok player checkpoints at approximately 0.37, 1.66, 2.97, 4.40 and 5.69s. One short step completes by about 1.7s; the subject then settles rather than continuing to walk. Near-frontal face, shirt shoulders, square neckline and shoes are visible at sampled points. The late source holds a pose and is not the proposed edit. Full normal-speed selected-interval review, S03-to-S04 cut and user video approval remain pending.",
+  "provisional_usable_interval_seconds": [0, 3.1],
+  "full_dynamic_qa_passed": false,
+  "user_video_approval": false
+}

@@ -1,0 +1,43 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M03/A_attempt_01/source.mp4",
+  "source_sha256": "c7be14f597876f403d78dbaae75bdb949cbe8b801e526f14379207e85d7a6f83",
+  "native_roi": [
+    180,
+    400,
+    580,
+    760
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "cuff_contact_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "cuff_contact_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "cuff_contact_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "cuff_contact_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "cuff_contact_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "hand_cloth_visual_result": "Visible right-hand contact with left folded cuff and small cloth settling, followed by an additional opposite-cuff adjustment and complete arm return. Actual two-cuff action differs from single-cuff prompt. No gross hand, outfit, shoe, face or architectural collapse seen in inspected windows.",
+  "continuous_playback_review": false
+}

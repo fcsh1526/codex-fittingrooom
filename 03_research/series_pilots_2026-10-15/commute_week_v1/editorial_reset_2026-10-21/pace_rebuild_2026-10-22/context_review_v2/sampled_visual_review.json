@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22",
+  "reviewer": "pace_context_builder_oct22 subagent",
+  "exact_movie_sha256": "e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+  "status": "sampled_QA_only_NOT_dynamic_or_user_acceptance",
+  "viewed_with_view_image": [
+    "QA/full25.png",
+    "QA/J23_every3_full.png",
+    "QA/J34_every3_full.png",
+    "QA/J23_every3_feet.png",
+    "QA/J34_every3_feet.png"
+  ],
+  "observations": [
+    "25-point film samples preserve all five wardrobe looks and the existing final full-to-half camera arrangement.",
+    "J23 middle samples f193-f199 retain doubled face/arm/leg edges and background tree/column double lines during the prescribed 18-frame dissolve.",
+    "J34 middle samples f283-f289 retain double body/leg/shoe contours; the late outgoing F03 and incoming F04 shoes occupy different positions within the overlap.",
+    "Only F03 changes from context_v1; retained F02 and F01/F04/F05 source ranges remain unchanged.",
+    "No whole-film fixed tempo, ground-relative slip-free movement, exact background continuity or comfortable normal-speed viewing is established from these sampled images."
+  ],
+  "continuous_normal_speed_visual_review": null,
+  "measured_ground_relative_slip_free": null,
+  "whole_film_cadence_pass": null,
+  "user_approval": null,
+  "publication_approval": null
+}

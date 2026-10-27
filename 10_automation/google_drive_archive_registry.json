@@ -1,0 +1,72 @@
+{
+  "updated_date": "2026-10-22",
+  "source": "User-requested Drive organization, verified by connector readback",
+  "root": {
+    "name": "800.Codex IG",
+    "id": "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_",
+    "url": "https://drive.google.com/drive/folders/1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_"
+  },
+  "weekly_folder_naming": "{YYYY}-W{WW}",
+  "week_assignment": "Content ISO week, not generation or upload calendar date",
+  "creation_policy": "Search inside the exact root for the content week's folder; reuse its verified ID or create it if absent. Keep research versions distinct from first-wave media. Preserve existing file IDs/links when reorganizing.",
+  "weeks": {
+    "2026-W37": {
+      "id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+      "name": "2026-W37",
+      "parent_id": "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_",
+      "path": "800.Codex IG/2026-W37",
+      "url": "https://drive.google.com/drive/folders/1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+      "first_wave": "Five original publishing videos and their six native Google Docs remain directly inside the weekly folder with stable IDs.",
+      "research": {
+        "id": "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO",
+        "name": "影片剪輯研究",
+        "parent_id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+        "path": "800.Codex IG/2026-W37/影片剪輯研究",
+        "url": "https://drive.google.com/drive/folders/1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO",
+        "cloud_trial_M02": {
+          "id": "1ZMrwm9ny4YgS2YIsvl-yNqJau5ez95wR",
+          "name": "M02_雲端試作_2026-10-07",
+          "parent_id": "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO",
+          "path": "800.Codex IG/2026-W37/影片剪輯研究/M02_雲端試作_2026-10-07",
+          "url": "https://drive.google.com/drive/folders/1ZMrwm9ny4YgS2YIsvl-yNqJau5ez95wR",
+          "packet_id": "1qBVTqaSHDXQWIXwsv7zDU-bkNTXzTk2-",
+          "instruction_document_id": "1yibqbGZJ8s_Z-z253xfjk6RlXEy0S-iNG8TC7qcXkG8"
+        }
+      },
+      "history": {
+        "id": "1OUivMGomc0nks90MHXeA7DQGGU6N8jMT",
+        "name": "歷史版本與 Markdown 原檔",
+        "parent_id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+      },
+      "reorganization_receipt": "10_automation/runs/2026-W37/reels/google_drive_reorganize_2026-10-07.json"
+    },
+    "2026-W41": {
+      "id": "1Zar1hL_qG32r_0AsPrqz5BaqV6pO62__",
+      "name": "2026-W41",
+      "parent_id": "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_",
+      "path": "800.Codex IG/2026-W41",
+      "url": "https://drive.google.com/drive/folders/1Zar1hL_qG32r_0AsPrqz5BaqV6pO62__",
+      "first_wave": "Five exact user-approved clean Reel masters, five native Google Docs captions and one native handoff Doc, verified by connector readback. No IG posting performed.",
+      "handoff_document": {
+        "id": "1KnN0c7g4mbRwn3_R-Y_XaK9J-l5MZulKjqfDbZpGSts",
+        "url": "https://docs.google.com/document/d/1KnN0c7g4mbRwn3_R-Y_XaK9J-l5MZulKjqfDbZpGSts/edit"
+      },
+      "delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json"
+    },
+    "2026-W43": {
+      "id": "1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB",
+      "name": "2026-W43",
+      "parent_id": "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_",
+      "path": "800.Codex IG/2026-W43",
+      "url": "https://drive.google.com/drive/folders/1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB",
+      "content": "One user-approved continuous-route five-look commute Reel and native Google Docs caption/handoff.",
+      "source_material_pool_weeks": [
+        "2026-W41"
+      ],
+      "publication_status": "ready_not_posted",
+      "delivery_receipt": "10_automation\\runs\\2026-W43\\reels\\series_delivery_2026-10-22\\google_drive_delivery_2026-10-22.json"
+    }
+  },
+  "legacy_week_folders": "Existing W34/W35 and older loose media were not reorganized by this W37 operation; no unverified week mapping was applied.",
+  "series_reuse_policy": "A new edited series uses its editorial content batch week; source material pool weeks are recorded separately. The approved five-look commute series is W43 editorial content reusing W41 clothing material, not a claim of fresh W43 trend research."
+}

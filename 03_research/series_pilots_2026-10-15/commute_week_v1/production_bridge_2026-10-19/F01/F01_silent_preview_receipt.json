@@ -1,0 +1,32 @@
+{
+  "source_sha256": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+  "preview_sha256": "450c54b8a9d402b697e00015d60295604a50c230b446e8e280a5de47ddae7f9b",
+  "source_frames": 145,
+  "preview_frames": 145,
+  "preview_seconds": 6.041666666666667,
+  "preview_metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "picture_stream_copy": true,
+  "audio_removed_in_preview_only": true,
+  "text_added": false,
+  "cuts": 0,
+  "crop": false,
+  "retime": false,
+  "dynamic_visual_qa": "pending_review",
+  "continuous_playback_review": false,
+  "user_motion_approval": null
+}

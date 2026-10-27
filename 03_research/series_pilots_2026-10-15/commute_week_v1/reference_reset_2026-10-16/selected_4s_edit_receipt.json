@@ -1,0 +1,114 @@
+{
+  "recorded_date": "2026-10-16",
+  "status": "accepted_exact_single_shot_direction",
+  "source": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_source.mp4",
+  "source_sha256": "4bf0bdb9f4d547827fd36001da3c359eadcd2b7a2c053761b454effdc0ee4981",
+  "source_interval_frames_half_open": [
+    48,
+    144
+  ],
+  "source_interval_seconds": [
+    2,
+    6
+  ],
+  "preview": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_walk_past_4s_review_v2.mp4",
+  "preview_sha256": "27fa4c9fcce685aaa247aa0f9dfb12fa4b311a26d56d81635c6254a8679be348",
+  "output_frames": 96,
+  "seconds": 4.0,
+  "pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": false,
+  "audio": false,
+  "internal_cuts": 0,
+  "dissolves": 0,
+  "retime": false,
+  "crop": false,
+  "scale": false,
+  "trim_reason": "Remove repeated early centred walking; retain actual full-to-near rightward pass. Natural walking speed unchanged.",
+  "full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 4.0
+    },
+    "decoded_frames": 96,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 4.0,
+    "individual_PTS_measured": false
+  },
+  "boards": {
+    "full_checkpoint_indices": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      51,
+      55,
+      59,
+      63,
+      67,
+      71,
+      75,
+      79,
+      83,
+      87,
+      91,
+      95
+    ],
+    "face_checkpoint_indices": [
+      0,
+      24,
+      48,
+      71,
+      95
+    ],
+    "transition_boundary_indices": [],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "assistant_continuous_playback": false,
+  "user_approval": {
+    "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_user_single_shot_direction_approval_2026-10-16.json",
+    "status": "accepted_exact_single_shot_direction",
+    "acceptance_level": "partial_direction_acceptance",
+    "user_quote": "更接近，可以往這個方向做",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_walk_past_4s_review_v2.mp4",
+    "sha256": "27fa4c9fcce685aaa247aa0f9dfb12fa4b311a26d56d81635c6254a8679be348",
+    "recorded_date": "2026-10-16",
+    "whole_five_look_film_approval": null,
+    "join_approval": null,
+    "normal_speed_full_playback_user_self_report": null
+  },
+  "generation_calls": 1,
+  "previous_status": "sampled_QA_pending_user_review",
+  "whole_five_look_film_approval": null,
+  "join_approval": null
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-20",
+  "user_reply": "ok",
+  "approved_asset": "F04_close_tracking_storyboard_v1.png",
+  "scope": "Three-panel composition direction: same L03 push-in bridge, then about 0.75-second same-scale soft outfit transition to closer L02 tracking; feet/crosswalk out of F04 frame, naturally defocused background.",
+  "does_not_approve": [
+    "new photographic stills",
+    "new motion",
+    "completed five-look film"
+  ],
+  "next_action": "Generate one same-L03 close framing photographic endpoint candidate and request exact visual approval before using it as another new image's lock or as a Grok video input.",
+  "approved_asset_sha256": "94ea7bc2e4584c3f810d6711957142a43df560d20558ba7518da0fdfb25ee12c"
+}

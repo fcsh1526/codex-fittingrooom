@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-22",
+  "source_sha256": "9707b42d230466ef2c2088a926ec45745d546d717c0fa9756d1b8e52ac0ab21d",
+  "root_viewed": [
+    "QA_2026-10-22/new_checkpoints25.jpg",
+    "QA_2026-10-22/new_feet_every3.jpg",
+    "QA_2026-10-22/comparison_checkpoints25.jpg",
+    "Original F01–F05 three-frame foot boards"
+  ],
+  "independent_review": "/root/gait_cadence_tail_audit_oct22, QA_2026-10-22/CADENCE_COMPARISON_AUDIT.md",
+  "observations": [
+    "Whole person and both shoes in sampled frames through6s, no new costume or push-in",
+    "New repeated support-phase centers approx6,21,36,48,60,72,84,96,111,123,135 each±3f; middle repeated12f intervals vs original often15f",
+    "Only compare source[0,108) used in actual film: new about8visible phases/originalabout7; not a precise speed or step-count percentage",
+    "Opening and around4s includes15f intervals; requested0.5–0.6s not strictly guaranteed throughwhole6s",
+    "New later glass doorway/facade revealed, not matched to old route or fifth-look first; not eligible for direct insertion"
+  ],
+  "defects_not_validated": [
+    "No world-aligned foot tracking or zero-slip pass",
+    "No complete continuous normal-speed visual gait pass",
+    "No original film transition or scene continuity pass"
+  ],
+  "technical_only": "Both sources unchanged, all sourceframes decoded. Main comparison108f24fps720x640, native frame order, no text/audio/retime/crop; eachside uniform50percent scaling",
+  "whole_film_changed": false,
+  "user_pace_approval": false,
+  "automatic_retry": false
+}

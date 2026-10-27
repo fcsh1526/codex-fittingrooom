@@ -36,7 +36,7 @@ Do not insert one narrow portrait into all three frames.
 2. Start a transaction on the weekly duplicate.
 3. Inspect all page image assets.
 4. Replace only A/B/C frame element ids.
-5. Inspect and show the draft thumbnail.
+5. Download the draft thumbnail into the look's `carousel/canva_ready/` folder, inspect it locally, and show it in Codex using its absolute filesystem path. Never rely on Canva's temporary signed thumbnail URL as the conversation preview.
 6. Commit only after explicit save approval.
 7. Cancel or revise if rejected.
 

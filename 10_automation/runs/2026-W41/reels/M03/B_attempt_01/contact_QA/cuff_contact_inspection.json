@@ -1,0 +1,43 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M03/B_attempt_01/source.mp4",
+  "source_sha256": "d45055c1c335c8f89cf7e6d7eeb0401989ab1c66df3658c681afb8f437282677",
+  "native_roi": [
+    180,
+    400,
+    580,
+    760
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "cuff_contact_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "cuff_contact_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "cuff_contact_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "cuff_contact_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "cuff_contact_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "hand_cloth_visual_result": "Visible left-hand contact with right folded cuff, small local cloth motion and release; opposite laterality to prompt and brief outward forearm presentation. No gross hand, outfit, shoe, face or architectural collapse seen in inspected windows.",
+  "continuous_playback_review": false
+}

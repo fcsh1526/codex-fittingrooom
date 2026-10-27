@@ -1,0 +1,427 @@
+{
+  "created_at_taipei": "2026-10-22T15:49:22.975419+08:00",
+  "status": "retained_F02_NEW_F03_partial_context_candidate_NOT_user_approved",
+  "operator_exact_source_QA_eligibility": true,
+  "eligibility_is_user_dynamic_approval": false,
+  "source_authority": "User retained context_v1 F02 and its joins; requested continuation with F03 repair. Root separately authorized this exact new F03 for context render.",
+  "sources": [
+    {
+      "role": "F01_original",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4",
+      "sha256": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+      "selected_frames_half_open": [
+        0,
+        78
+      ]
+    },
+    {
+      "role": "F02_NEW_pace_partial",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\F02_pace_source.mp4",
+      "sha256": "f6fcd8e02e99a6dd1b6282d5b5eb5e2b0eeca0bacc10c54d83940cfa4a0bbdf6",
+      "selected_frames_half_open": [
+        0,
+        145
+      ]
+    },
+    {
+      "role": "F03_NEW_pace_partial",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F03\\F03_pace_source.mp4",
+      "sha256": "6bdf5237c8e8b40772b91ddd76a3d99cf81c0f44f0aea6381a69a7eb21fc61c3",
+      "selected_frames_half_open": [
+        1,
+        109
+      ]
+    },
+    {
+      "role": "F04_existing_full",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\F04_source.mp4",
+      "sha256": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+      "selected_frames_half_open": [
+        0,
+        108
+      ]
+    },
+    {
+      "role": "F05_existing_full_to_half",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\F05_half_source.mp4",
+      "sha256": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+      "selected_frames_half_open": [
+        0,
+        144
+      ]
+    }
+  ],
+  "source_scans": {
+    "F01_original": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    },
+    "F02_NEW_pace_partial": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    },
+    "F03_NEW_pace_partial": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    },
+    "F04_existing_full": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    },
+    "F05_existing_full_to_half": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "full_decode_completed": true,
+      "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+      "individual_source_PTS_measured": false
+    }
+  },
+  "output": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\context_review_v2\\review.mp4",
+    "sha256": "e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+    "bytes": 19360340,
+    "frames": 511,
+    "fps": 24,
+    "size": [
+      720,
+      1280
+    ],
+    "duration_seconds": 21.291666666666668
+  },
+  "edit": {
+    "formula": "78+145+108+108+144-4*18=511",
+    "joins": [
+      {
+        "id": "J12",
+        "output_half_open": [
+          60,
+          78
+        ],
+        "outgoing": [
+          "F01_original",
+          60,
+          78
+        ],
+        "incoming": [
+          "F02_NEW_pace_partial",
+          0,
+          18
+        ]
+      },
+      {
+        "id": "J23",
+        "output_half_open": [
+          187,
+          205
+        ],
+        "outgoing": [
+          "F02_NEW_pace_partial",
+          127,
+          145
+        ],
+        "incoming": [
+          "F03_NEW_pace_partial",
+          1,
+          19
+        ]
+      },
+      {
+        "id": "J34",
+        "output_half_open": [
+          277,
+          295
+        ],
+        "outgoing": [
+          "F03_NEW_pace_partial",
+          91,
+          109
+        ],
+        "incoming": [
+          "F04_existing_full",
+          0,
+          18
+        ]
+      },
+      {
+        "id": "J45",
+        "output_half_open": [
+          367,
+          385
+        ],
+        "outgoing": [
+          "F04_existing_full",
+          90,
+          108
+        ],
+        "incoming": [
+          "F05_existing_full_to_half",
+          0,
+          18
+        ]
+      }
+    ],
+    "blend_incoming_alpha": "(overlap_index+1)/18; overlap_index=0..17",
+    "raw_native_sources": true,
+    "only_source_changed_from_context_v1_EDL": "F03"
+  },
+  "full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 21.29
+    },
+    "decoded_frames": 511,
+    "full_decode_completed": true,
+    "decoded_frames_over_native_fps_seconds": 21.291666666666668,
+    "individual_source_PTS_measured": false
+  },
+  "streams": {
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 7271 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+    ],
+    "audio_stream_present": false
+  },
+  "fidelity": {
+    "frames_compared": 511,
+    "mean_absolute_RGB_error_0_to_255": 2.116282680904363,
+    "worst_frame_MAE": 2.55087890625,
+    "minimum_frame_PSNR_dB": 36.882956420150855,
+    "codec_tolerance": {
+      "worst_frame_MAE_max": 3.0,
+      "minimum_PSNR_dB_min": 32.0
+    },
+    "within_codec_tolerance": true,
+    "pixel_or_byte_identity_claim": false
+  },
+  "QA": {
+    "full25_indices": [
+      0,
+      21,
+      42,
+      64,
+      85,
+      106,
+      128,
+      149,
+      170,
+      191,
+      212,
+      234,
+      255,
+      276,
+      298,
+      319,
+      340,
+      361,
+      382,
+      404,
+      425,
+      446,
+      468,
+      489,
+      510
+    ],
+    "join_every3_indices": {
+      "J23": [
+        178,
+        181,
+        184,
+        187,
+        190,
+        193,
+        196,
+        199,
+        202,
+        204,
+        205,
+        208,
+        211,
+        214
+      ],
+      "J34": [
+        268,
+        271,
+        274,
+        277,
+        280,
+        283,
+        286,
+        289,
+        292,
+        294,
+        295,
+        298,
+        301,
+        304
+      ]
+    },
+    "individual_frames_native_size": [
+      720,
+      1280
+    ],
+    "feet_crop_QA_only_xyxy": [
+      0,
+      740,
+      720,
+      1280
+    ],
+    "movie_crop_or_scale": false,
+    "continuous_normal_speed_visual_review_by_script": false
+  },
+  "protected_hashes_before": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\F02_pace_source.mp4": "f6fcd8e02e99a6dd1b6282d5b5eb5e2b0eeca0bacc10c54d83940cfa4a0bbdf6",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\F04_source.mp4": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\F05_half_source.mp4": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\five_look_review_2026-10-22\\v1\\review.mp4": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\four_look_review\\v1\\review.mp4": "3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F03\\F03_pace_source.mp4": "6bdf5237c8e8b40772b91ddd76a3d99cf81c0f44f0aea6381a69a7eb21fc61c3",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\context_review_v1\\review.mp4": "799911d2a7637c7920c0d2ecec47cc36bea670142a57c9c947dacd256b24d819"
+  },
+  "protected_hashes_after": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F02\\F02_pace_source.mp4": "f6fcd8e02e99a6dd1b6282d5b5eb5e2b0eeca0bacc10c54d83940cfa4a0bbdf6",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\F04_source.mp4": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\F05_half_source.mp4": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\five_look_review_2026-10-22\\v1\\review.mp4": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\four_look_review\\v1\\review.mp4": "3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\F03\\F03_pace_source.mp4": "6bdf5237c8e8b40772b91ddd76a3d99cf81c0f44f0aea6381a69a7eb21fc61c3",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\context_review_v1\\review.mp4": "799911d2a7637c7920c0d2ecec47cc36bea670142a57c9c947dacd256b24d819"
+  },
+  "protected_hashes_unchanged": true,
+  "builder": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\context_review_v2\\build_review.py",
+    "sha256": "f239a6f8135f99930d4755d675aaca65b4095a61602dd642cc04cb9d703b934d",
+    "established_helpers_sha256_before_after": {
+      "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\build_context_review.py": "9bf080ab5dc3f07d72ef075ee74b84ff8c693cb19e861b8c91fdcf81a0796f02",
+      "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\close_join_review_2026-10-21\\build_close_study.py": "9fec19663e1e0ab933e6b13c1fcc5a5412b189648d39a85326e8ee229613a0af"
+    }
+  },
+  "speed_factor": 1.0,
+  "retime": false,
+  "crop": false,
+  "scale": false,
+  "text": false,
+  "audio": false,
+  "freeze_repeat_reverse_interpolation": false,
+  "frame_order_preserved": true,
+  "individual_source_PTS_measured": false,
+  "external_write": false,
+  "publication": false,
+  "user_dynamic_approval": null,
+  "assistant_continuous_normal_speed_visual_review": null,
+  "limits": [
+    "Only F03 changes from context_v1. F01, retained F02, F04 and full-to-half F05 sources/ranges remain unchanged.",
+    "Both J23 and J34 require new dynamic/context review. A keyframe request does not prove literal frame timing or world continuity.",
+    "No claim that the whole-film cadence, ground-relative foot support or background is repaired.",
+    "Full decode/fidelity confirms the intended native edit, not aesthetics, identity, scene, comfort or publishability.",
+    "All originals, context_v1 and publishing packages are retained; no external mutation."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "source": "03_research/foreground_transition_study_2026-10-14/joined_review_v1/M02_cafe_wall_two_looks_trial_v1.mp4",
+  "sha256": "31a9af4f730672f4173397597b1d40864fae6d055351410220597e966f2de4b3",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\editorial_sequence_reset_2026-10-13\\..\\foreground_transition_study_2026-10-14\\joined_review_v1\\M02_cafe_wall_two_looks_trial_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 11.33
+    },
+    "decoded_frames": 272,
+    "decoded_seconds": 11.333333333333334,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    11,
+    22,
+    33,
+    45,
+    56,
+    67,
+    79,
+    90,
+    101,
+    112,
+    124,
+    135,
+    146,
+    158,
+    169,
+    180,
+    191,
+    203,
+    214,
+    225,
+    237,
+    248,
+    259,
+    271
+  ],
+  "face_sample_frames": [
+    0,
+    67,
+    135,
+    203,
+    271
+  ],
+  "all_frame_thumbnails_exported": 272,
+  "visual_review": {
+    "status": "user_approved_exact_full_film_with_disclosed_wall_change",
+    "viewed": [
+      "qa/whole_25.jpg",
+      "qa/join_25.jpg"
+    ],
+    "source_all_frame_thumbnails_viewed": {
+      "A": 145,
+      "B": 145
+    },
+    "output_all_frame_thumbnails_viewed": false,
+    "join_indices_viewed": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
+    ],
+    "wall_material_change_visible": true,
+    "user_approval": "user_film_approval.json"
+  },
+  "assistant_continuous_playback": false,
+  "user_film_approval": null,
+  "full_film_user_approval": "user_film_approval.json",
+  "status": "user_approved_exact_full_film"
+}

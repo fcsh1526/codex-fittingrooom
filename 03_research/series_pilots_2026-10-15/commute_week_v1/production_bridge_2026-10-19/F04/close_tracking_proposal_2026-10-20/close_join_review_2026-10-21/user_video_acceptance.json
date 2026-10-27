@@ -1,0 +1,11 @@
+{
+  "date_client": "2026-10-21",
+  "user_reply": "可以保留，繼續第五套",
+  "question": "請播放下方 11.33 秒試片：第三套全身推近 → 約 0.75 秒柔接 → 格紋近景跟拍。第 5.3–6 秒仍有臉與手臂重影，後段包角出框，背景細柱從右側露出。這種推近與換裝的接續是否可以保留，繼續第五套？",
+  "accepted_file": "v2/local/review.mp4",
+  "sha256": "7dbd3d6c8ec11203b6a4decaa44c30bbfae2576318bea241ff914460e40f7e49",
+  "frames": 272,
+  "fps": 24,
+  "scope": "Subjective acceptance of exact11.333s research edit including disclosed dissolve ghosting, late bag crop and edge-revealed fixture. Authorizes preparing fifth look from actual final L02 footage.",
+  "not_inferred": ["full-speed playback self-report", "zero sliding", "exact world reconstruction", "whole24.375s context approval", "unseen new still or motion approval", "final five-look film or publishing approval"]
+}

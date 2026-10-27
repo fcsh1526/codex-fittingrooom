@@ -1,0 +1,14 @@
+{
+  "frames_half_open": [
+    48,
+    204
+  ],
+  "seconds_half_open": [
+    2.0,
+    8.5
+  ],
+  "count": 156,
+  "all_frames_thumbnail_board": "selected_all_156_thumbnails.jpg",
+  "crops_inspection_only": true,
+  "assistant_continuous_visual_review": false
+}

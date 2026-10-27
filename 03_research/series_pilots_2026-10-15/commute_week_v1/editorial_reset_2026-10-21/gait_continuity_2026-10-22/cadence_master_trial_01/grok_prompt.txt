@@ -1,0 +1,20 @@
+只執行一次獨立「俐落通勤步態母本」6秒測試，不修改任何已生成影片，不新出圖、不合片、不自行重試。使用者已接受五套片運鏡／半身方向，但回饋來源腳步慢／各鏡忽快忽慢；本次只比較步伐節拍，沒有換裝或推近。
+
+使用已逐張核准的M03格紋全身first，與approved M03v3身份，先核對內容及目前能力；讀不到或不符即停止。
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "b43b2900-fe9c-48f9-9193-fcd2e8d396f7"
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+last_frame_asset_id: 不傳、不設
+keyframes: 不傳、不設
+
+first應是M03奶油白／海軍藍細格尖領捲袖襯衫、炭灰褲、黑肩包與素黑低跟鞋，完整頭鞋向右走，玻璃／淺石花台／樹旁；不是白襯衫黑裙／藍包。兩個asset_ids只鎖v3臉／普通身形，不複製攝影棚衣服。
+
+Generate ONE continuous six-second real-time shot of a brisk, assured urban commute. She is ALREADY in an energetic forward walk at the first frame, keeps it through the last frame, and does not start slowly, wait, pose or stop. Use a steady brisk rhythm around one alternating footfall every0.5–0.6seconds, approximately eleven alternating steps over6seconds. This is a requested test tempo, not postproduction acceleration: her body must actually perform that lively continuous walk at native speed. Confident purposeful forward intent, light natural torso response, natural opposing arm swing, flexible knees and a quick clean heel-to-toe roll. Walk, do not jog or run; no exaggerated marching, catwalk hip sway, floating or weightless slow-motion performance. Never linger in the double-support phase. Shoes plant and stay on the SAME paving point while taking weight, then lift, pelvis progresses over each support foot; tracking camera must not drag the foot across the tiles.
+
+Same approved M03 face/hair/proportions and exact cream/navy fine checked shirt, rolled sleeves, charcoal straight trousers, near-side black leather shoulder bag and plain black low heels. Gaze forward along the route. The level chest-height50mm camera tracks parallel with her toward image-right on the SAME flank, maintaining a CONSTANT full-person scale for all6seconds. Complete head, trouser hems and BOTH shoes stay inside frame with margin. No push-in, pullback, camera orbit, change of look or cut. Read the actual walking rhythm in the feet and whole-body progression.
+
+Same grey-green glass, pale speckled stone planter, existing trees, paving and coherent morning light as first. They form one rigid environment with plausible parallax; no new doorway/column row/plant row/road/crosswalk/crowd or spawning stairs to fill space. Natural integrated shadows, no blur trick, text, logo, freeze, slow motion, speed ramp or optical-flow interpolation. Do not add an invented audio-off parameter; report actual audio.
+
+只生成一次。回報真正傳入first/identity及無last/keyframes、是否接受及新assetUUID；參數與抽樣觀察分開。請觀察步相在前中後是否規律，雙鞋是否在框、有無滑移；不要只因提示詞寫了brisk就宣稱步態達標，也不要宣稱接點或整片已修正。必要參數不支援就停止，不能偷偷改參照或追加第二版。

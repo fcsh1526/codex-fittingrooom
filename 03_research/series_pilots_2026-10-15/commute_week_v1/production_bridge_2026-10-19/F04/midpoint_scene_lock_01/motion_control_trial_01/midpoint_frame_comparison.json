@@ -1,0 +1,32 @@
+{
+  "method": "Compare approved midpoint resized to720x1280 with native decoded frames; no spatial registration or perceptual metric. Comparison only, not geometry/pass criterion.",
+  "midpoint_sha256": "25606eaac1e1bbd7f8e53873de07d2a2b99c87ace88924f1917cd94dae55175b",
+  "scores": [
+    {
+      "source_frame": 66,
+      "seconds": 2.75,
+      "mean_absolute_RGB_difference_0_255": 48.7868
+    },
+    {
+      "source_frame": 69,
+      "seconds": 2.875,
+      "mean_absolute_RGB_difference_0_255": 51.7063
+    },
+    {
+      "source_frame": 72,
+      "seconds": 3.0,
+      "mean_absolute_RGB_difference_0_255": 24.3878
+    },
+    {
+      "source_frame": 75,
+      "seconds": 3.125,
+      "mean_absolute_RGB_difference_0_255": 28.4836
+    },
+    {
+      "source_frame": 78,
+      "seconds": 3.25,
+      "mean_absolute_RGB_difference_0_255": 49.3825
+    }
+  ],
+  "literal_pixel_identity_claimed": false
+}

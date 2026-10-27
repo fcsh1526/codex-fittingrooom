@@ -1,0 +1,21 @@
+{
+  "week_id": "2026-W36",
+  "carousel_id": "2026-W36-002",
+  "look_id": "2026-W36-002-L01",
+  "canva_template_key": "B",
+  "canva_design_id": "DAHT8C2hr2A",
+  "canva_title": "Mira W36-002-L01｜短外套 × 長寬褲",
+  "canva_display_copy": "上下都想穿寬鬆，外套要選短版",
+  "canva_edit_url": "https://www.canva.com/d/hid0tlpsSBVU147",
+  "canva_view_url": "https://www.canva.com/d/EjOLnWRXrmkTDVH",
+  "canva_preview_file": "2026-W36-002-L01_canva_draft_preview.png",
+  "asset_ids": {
+    "A": "MAHT8BCB2gc",
+    "B": "MAHT8D-tKNo",
+    "C": "MAHT8E77njs"
+  },
+  "transaction_id": "3363577527879637267",
+  "transaction_status": "committed",
+  "status": "ready_for_manual_export",
+  "committed_at": "2026-09-01"
+}

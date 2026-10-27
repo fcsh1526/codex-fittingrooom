@@ -1,0 +1,59 @@
+{
+  "original_weekly_rows": [
+    {
+      "week_id": "2026-W37",
+      "carousel_id": "2026-W37-001",
+      "model_profile_id": "M02",
+      "look_id": "2026-W37-001-L01",
+      "look_order": "1",
+      "theme_name": "可拆式輕薄疊穿",
+      "opening_hook": "冷氣房用可脫薄襯衫罩住肩臂，洋裝本身可以單穿",
+      "look_name": "霧灰薄襯衫配奶油白洋裝",
+      "dressing_decision": "冷氣房用可脫薄襯衫罩住肩臂，洋裝本身可以單穿",
+      "occasion": "冷氣房閱讀／花藝課",
+      "clothing_item": "霧灰無內裡棉質薄襯衫；奶油白不透膚細肩帶小腿中長洋裝；白色低筒帆布鞋；深海軍藍小肩包；細銀耳環",
+      "color_palette": "霧灰／奶油白／海軍藍",
+      "fabric": "輕薄棉府綢／不透膚棉混紡／帆布",
+      "fit": "襯衫下襬及上臀、敞開；洋裝自然直落；平底鞋",
+      "styling_rules": "冷氣房用可脫薄襯衫罩住肩臂，洋裝本身可以單穿",
+      "visual_proof": "敞開襯衫露出完整洋裝，薄袖折痕與肩包帶清楚可見",
+      "practical_rule": "冷氣房用可脫薄襯衫罩住肩臂，洋裝本身可以單穿",
+      "scene": "有大片側窗的社區圖書館入口閱讀區，木書架與石磨地板",
+      "visible_action": "站在還書桌旁把一本無字素封面書放到桌上",
+      "frame_plan": "carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16",
+      "required_frames": "3",
+      "status": "editorial_approved",
+      "next_action": "Prepare both surface jobs: Reel A, then Carousel A/B/C"
+    },
+    {
+      "week_id": "2026-W37",
+      "carousel_id": "2026-W37-001",
+      "model_profile_id": "M02",
+      "look_id": "2026-W37-001-L02",
+      "look_order": "2",
+      "theme_name": "可拆式輕薄疊穿",
+      "opening_hook": "以可脫襯衫調節室內外溫差，避免外套與內搭都厚重",
+      "look_name": "霧藍薄襯衫配深藍洋裝",
+      "dressing_decision": "以可脫襯衫調節室內外溫差，避免外套與內搭都厚重",
+      "occasion": "冷氣房閱讀／花藝課",
+      "clothing_item": "霧藍無內裡亞麻混紡薄襯衫；深海軍藍方領寬肩帶中長洋裝；米白帆布便鞋；灰色帆布小托特包；銀色耳釘",
+      "color_palette": "霧藍／海軍藍／米白",
+      "fabric": "亞麻混紡／薄棉質／帆布",
+      "fit": "襯衫寬鬆及上臀；洋裝自然A字及小腿；鞋子平底",
+      "styling_rules": "以可脫襯衫調節室內外溫差，避免外套與內搭都厚重",
+      "visual_proof": "寬肩帶洋裝可獨立成套，薄襯衫捲袖和敞開前襟顯示輕量層次",
+      "practical_rule": "以可脫襯衫調節室內外溫差，避免外套與內搭都厚重",
+      "scene": "採光明亮的花藝工作坊，入口木桌放著素色花瓶",
+      "visible_action": "一手拿起桌上一枝白色桔梗，另一手自然垂下",
+      "frame_plan": "carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16",
+      "required_frames": "3",
+      "status": "editorial_approved",
+      "next_action": "Prepare both surface jobs: Reel A, then Carousel A/B/C"
+    }
+  ],
+  "current_trial_override": {
+    "scene_both_looks": "common library scene in approved trial stills",
+    "L02_original_floral_scene": "historical weekly source; do not use for this motion trial",
+    "native_four_views": "two full-person and two proof assets individually approved; four clips not required"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-15",
+  "user_quote": "可以，沿用這張",
+  "question": "M03第一套起始圖：米白長西外、白T、偏灰深藍褲、黑低跟鞋與深棕肩包的臉、服裝與行走構圖是否可以沿用；核准後作為第二套場景與尺度基準。",
+  "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+  "sha256": "e85bc259d141bc50baed97bfbcc5f638b210f6a9971ef91436c8d439b236bf6c",
+  "pixels": [
+    941,
+    1672
+  ],
+  "scope": "Exact S01 still visual approval including disclosed grey-cast navy trousers; may use as scene/scale/shoe reference for S02. Does not approve generated motion, joins, complete film, account-wide adoption or publishing replacement.",
+  "video_approval": null,
+  "complete_film_approval": null
+}

@@ -1,0 +1,32 @@
+{
+  "preview_id": "M02_scale_continuity_v4_caption_preview_01",
+  "date": "2026-09-29",
+  "purpose": "test_whether_a_single_opening_caption_makes_the_weekly_styling_point_clearer",
+  "source_video": "videos/M02_scale_continuity_v4_review_01.mp4",
+  "source_storyboard": "storyboard_scale_continuity_v4.md",
+  "visual_edit": "unchanged_two_source_shots; one_direct_cut_at_2.5_seconds; normal_speed",
+  "on_screen_text": [
+    {"start_seconds": 0.15, "fade_in_seconds": 0.20, "fade_out_start_seconds": 1.75, "fade_out_seconds": 0.25, "lines": ["冷氣房多一層", "洋裝外加薄襯衫"]}
+  ],
+  "caption_source": "weekly_content_packet.csv audience problem and both W37-001 look rows",
+  "caption_graphic": "edit_v4/M02_opening_caption.png",
+  "caption_render_script": "edit_v4/render_caption_overlay.py",
+  "output_file": "videos/M02_scale_continuity_v4_caption_preview_01.mp4",
+  "output_sha256": "BA7D205AB21737C7473298D5BE9F6A8512F16F180B3B5857803EADB6E151FB26",
+  "output_width": 720,
+  "output_height": 1280,
+  "output_frame_rate": 24,
+  "output_duration_seconds": 7.0,
+  "audio": "none; music selection deferred until visual message and cut are accepted",
+  "qa": "full_decode_passed; user_rejected_future_on_screen_text",
+  "qa_frames": ["edit_v4/caption_t0p75.jpg", "edit_v4/caption_t2p55.jpg"],
+  "qa_notes": [
+    "Bold dark Traditional Chinese text sits in the first look's window-side negative space and is gone before the outfit cut.",
+    "The caption names the visible styling relationship without adding unverified material performance claims.",
+    "The original silent, caption-free review cut remains available for direct comparison."
+  ],
+  "user_feedback": "2026-09-29: 之後都不要加文字; this text-overlay experiment is rejected for future Reel production",
+  "user_video_approval": "rejected_text_overlay",
+  "future_use": "archive_only; do_not_publish_or_use_as_reel_template",
+  "w37_mass_production": "paused"
+}

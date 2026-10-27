@@ -1,0 +1,139 @@
+{
+  "status": "accepted_research_clean_picture_track",
+  "model": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "output": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+  "output_sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569",
+  "size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 144,
+  "seconds": 6,
+  "sources": [
+    {
+      "label": "A",
+      "path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/grok_A_recovery_01/source.mp4",
+      "sha256": "9e62f66f6562c9a059600f03e5cd3fcc313df00b77ac71915e41d1801353eb83",
+      "native_frames": 145,
+      "selected_frames": [
+        0,
+        144
+      ],
+      "native_fps": 24,
+      "fixed_window_xywh": [
+        135,
+        0,
+        490,
+        1280
+      ],
+      "image_rectangle_xywh": [
+        4,
+        180,
+        352,
+        920
+      ],
+      "speed": "unchanged",
+      "action": "unchanged"
+    },
+    {
+      "label": "B",
+      "path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/grok_B_recovery_01/source.mp4",
+      "sha256": "db36cdaca6158eb2b6ac0755ceb1603a7b52bff0f5ced1673d3d4b61a339cfce",
+      "native_frames": 145,
+      "selected_frames": [
+        0,
+        144
+      ],
+      "native_fps": 24,
+      "fixed_window_xywh": [
+        135,
+        0,
+        490,
+        1280
+      ],
+      "image_rectangle_xywh": [
+        4,
+        180,
+        352,
+        920
+      ],
+      "speed": "unchanged",
+      "action": "unchanged"
+    }
+  ],
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-05\\orientation_study\\M02_parallel_angle_review_v2.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709/unknown/unknown, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.0
+    },
+    "decoded_frames": 144,
+    "decoded_seconds": 6.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "image_scale_note": "Common constant near-proportional raster scale; rounding 920px height introduces <0.1% ratio difference. No subject tracking.",
+  "informational_change": "Front to side-facing torso views add sleeve and dress outline; bags partly obscure shirt side.",
+  "actual_turn_note": "More side-facing than requested 30 degrees; angle not calibrated. A turns earlier than B.",
+  "synchronization": "Common start only; no forced gesture phase",
+  "baked_text": false,
+  "audio": false,
+  "output_clock": "Explicit native 24fps timebase and encoder frame rate; source frame selection unchanged.",
+  "interior_switches": [],
+  "transition_rule": "Any future switch needs approximately 0.75s dissolve.",
+  "retime_freeze_reverse_replay": false,
+  "assistant_sampled_review": "Root source25+face5 per look, sourceA f72 and B f84/f108 originals, output5 checkpoints and B critical f84 checked; independent source/output review recorded separately.",
+  "assistant_continuous_review": false,
+  "user_approval": {
+    "decision": "accepted_clean_picture_track",
+    "user_reply": "恩 ，不錯。一開始兩邊沒有同步轉身，但是再看第二次後反而覺得不錯",
+    "recorded_at_local": "2026-10-05T17:17:07.042500+08:00",
+    "context": "Direct feedback on the complete6s angle-v2 preview. User explicitly mentions a second viewing.",
+    "output_path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+    "output_sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569",
+    "scope": "This exact independent research cut, including its native staggered turns.",
+    "user_feedback": {
+      "first_impression": "Noticed the sides did not turn synchronously.",
+      "second_impression": "Felt the result was good after looking again.",
+      "reported_second_viewing": true,
+      "full_duration_and_playback_speed_explicitly_confirmed": false
+    },
+    "action_timing_decision": "Retain the native A-earlier/B-later turns; do not retime to synchronize this accepted cut.",
+    "assistant_continuous_review_claimed": false,
+    "account_wide_style_adoption": false,
+    "first_wave_replacement_authorized": false,
+    "cloud_upload_performed": false,
+    "publication_performed": false,
+    "audience_performance": null
+  },
+  "publishable": false,
+  "protected_media_hashes_matched": true,
+  "cloud_writes": false,
+  "publication": false,
+  "audience_metrics": null,
+  "sampled_limitations": [
+    "B tote obscures lower shirt side; A bag partly obscures side.",
+    "Actual torso turn is more side-facing than nominal30degrees; exact angle not calibrated.",
+    "A turns around2.5–3s, B around4–4.5s; native phase difference retained.",
+    "New generated facial expressions differ; no sampled obvious identity swap; all-frame identity guarantee not claimed."
+  ],
+  "accepted_picture_seconds": 6
+}

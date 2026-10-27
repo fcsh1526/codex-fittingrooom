@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-16",
+  "status": "delivered_existing_approved_research_films",
+  "authorization_quote": "好，但是因為沒素材了，先將有的給我",
+  "delivery_week": "2026-W42",
+  "source_weeks": [
+    "2026-W41",
+    "2026-W37"
+  ],
+  "drive_path": "800.Codex IG/2026-W42/現有成片發布包_2026-10-16",
+  "folder_id": "1gceZNPztGT_dNh7ph2-DoPpVKk-QYmQs",
+  "folder_url": "https://drive.google.com/drive/folders/1gceZNPztGT_dNh7ph2-DoPpVKk-QYmQs",
+  "items": [
+    {
+      "number": "01",
+      "model": "M03",
+      "look_ids": [
+        "2026-W41-004-L01",
+        "2026-W41-004-L02"
+      ],
+      "filename": "01_午休也能穿的西外搭配_Reel.mp4",
+      "duration_seconds": 10.75,
+      "size_bytes": 4387713,
+      "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+      "md5": "de2d2a50e052f247825849e4bb1d4164",
+      "video": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1s2Ua3omUSRuOTD_G9R73i_KTsB_K9S2k",
+        "title": "01_午休也能穿的西外搭配_Reel.mp4",
+        "file_name": "01_午休也能穿的西外搭配_Reel.mp4",
+        "mime_type": "video/mp4",
+        "url": "https://drive.google.com/file/d/1s2Ua3omUSRuOTD_G9R73i_KTsB_K9S2k/view?usp=drivesdk",
+        "parent_id": "1gceZNPztGT_dNh7ph2-DoPpVKk-QYmQs",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1s2Ua3omUSRuOTD_G9R73i_KTsB_K9S2k",
+          "title": "01_午休也能穿的西外搭配_Reel.mp4",
+          "file_name": "01_午休也能穿的西外搭配_Reel.mp4",
+          "mime_type": "video/mp4",
+          "url": "https://drive.google.com/file/d/1s2Ua3omUSRuOTD_G9R73i_KTsB_K9S2k/view?usp=drivesdk",
+          "parent_id": "1gceZNPztGT_dNh7ph2-DoPpVKk-QYmQs"
+        }
+      },
+      "caption_doc": {
+        "fileId": "1dmy_itYv7OmYB23z-6ETYZTkwdIqTjb5ZMLz99nwWrQ",
+        "mimeType": "application/vnd.google-apps.document",
+        "title": "01_午休也能穿的西外搭配｜IG文案與影片",
+        "url": "https://docs.google.com/document/d/1dmy_itYv7OmYB23z-6ETYZTkwdIqTjb5ZMLz99nwWrQ/edit?usp=drivesdk"
+      },
+      "caption": "西外配長褲，先決定深色要放上身還是下身。\n\n米白西外搭深藍褲，深藍西外接奶油白褲；內搭都選素面圓領 T，敞開穿就看得清楚。",
+      "publish_status": "not_published_at_delivery",
+      "published_at": null,
+      "post_url": null
+    },
+    {
+      "number": "02",
+      "model": "M02",
+      "look_ids": [
+        "2026-W37-001-L01",
+        "2026-W37-001-L02"
+      ],
+      "filename": "02_薄襯衫與洋裝_Reel.mp4",
+      "duration_seconds": 6,
+      "size_bytes": 1614800,
+      "sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569",
+      "md5": "cab353ea661cf65f33931628067e0c40",
+      "video": {
+        "accepted_input": "file_uri",
+        "success": true,
+        "id": "1p-FggKaO7iohp6hoFhz9laSBsCEryPbE",
+        "title": "02_薄襯衫與洋裝_Reel.mp4",
+        "file_name": "02_薄襯衫與洋裝_Reel.mp4",
+        "mime_type": "video/mp4",
+        "url": "https://drive.google.com/file/d/1p-FggKaO7iohp6hoFhz9laSBsCEryPbE/view?usp=drivesdk",
+        "parent_id": "1gceZNPztGT_dNh7ph2-DoPpVKk-QYmQs",
+        "structuredContent": {
+          "accepted_input": "file_uri",
+          "success": true,
+          "id": "1p-FggKaO7iohp6hoFhz9laSBsCEryPbE",
+          "title": "02_薄襯衫與洋裝_Reel.mp4",
+          "file_name": "02_薄襯衫與洋裝_Reel.mp4",
+          "mime_type": "video/mp4",
+          "url": "https://drive.google.com/file/d/1p-FggKaO7iohp6hoFhz9laSBsCEryPbE/view?usp=drivesdk",
+          "parent_id": "1gceZNPztGT_dNh7ph2-DoPpVKk-QYmQs"
+        }
+      },
+      "caption_doc": {
+        "fileId": "1bBzM7qn2Jp6MXlmSpzF36hxut1zqfVzCuPrim3lNtzs",
+        "mimeType": "application/vnd.google-apps.document",
+        "title": "02_薄襯衫與洋裝｜IG文案與影片",
+        "url": "https://docs.google.com/document/d/1bBzM7qn2Jp6MXlmSpzF36hxut1zqfVzCuPrim3lNtzs/edit?usp=drivesdk"
+      },
+      "caption": "襯衫搭洋裝，留一點開口給洋裝原本的領型。\n\n奶油白洋裝露出細肩帶，深藍洋裝保留方領；襯衫敞開穿，讓內外兩層都看得清楚。",
+      "publish_status": "not_published_at_delivery",
+      "published_at": null,
+      "post_url": null
+    }
+  ],
+  "index_doc": {
+    "fileId": "1dxMZKKMbSK2mcr3WxzpKLB0a0WMUfdTbppbnM88-Yh4",
+    "mimeType": "application/vnd.google-apps.document",
+    "title": "先讀這份｜兩支現有成片發布清單 2026-10-16",
+    "url": "https://docs.google.com/document/d/1dxMZKKMbSK2mcr3WxzpKLB0a0WMUfdTbppbnM88-Yh4/edit?usp=drivesdk"
+  },
+  "verification": [
+    {
+      "id": "1dmy_itYv7OmYB23z-6ETYZTkwdIqTjb5ZMLz99nwWrQ",
+      "content_and_native_structure_verified": true,
+      "headings": [
+        {
+          "text": "午休也能穿的西外搭配",
+          "style": "TITLE"
+        },
+        {
+          "text": "可直接貼入 Instagram",
+          "style": "HEADING_1"
+        },
+        {
+          "text": "製作資訊（不貼入 Instagram）",
+          "style": "HEADING_1"
+        }
+      ],
+      "links": [
+        {
+          "text": "開啟／下載影片",
+          "url": "https://drive.google.com/file/d/1s2Ua3omUSRuOTD_G9R73i_KTsB_K9S2k/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "1bBzM7qn2Jp6MXlmSpzF36hxut1zqfVzCuPrim3lNtzs",
+      "content_and_native_structure_verified": true,
+      "headings": [
+        {
+          "text": "薄襯衫與洋裝",
+          "style": "TITLE"
+        },
+        {
+          "text": "可直接貼入 Instagram",
+          "style": "HEADING_1"
+        },
+        {
+          "text": "製作資訊（不貼入 Instagram）",
+          "style": "HEADING_1"
+        }
+      ],
+      "links": [
+        {
+          "text": "開啟／下載影片",
+          "url": "https://drive.google.com/file/d/1p-FggKaO7iohp6hoFhz9laSBsCEryPbE/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "id": "1dxMZKKMbSK2mcr3WxzpKLB0a0WMUfdTbppbnM88-Yh4",
+      "content_and_native_structure_verified": true,
+      "headings": [
+        {
+          "text": "兩支現有成片發布清單",
+          "style": "TITLE"
+        },
+        {
+          "text": "影片與文案",
+          "style": "HEADING_1"
+        },
+        {
+          "text": "01｜午休也能穿的西外搭配",
+          "style": "HEADING_2"
+        },
+        {
+          "text": "02｜薄襯衫與洋裝",
+          "style": "HEADING_2"
+        },
+        {
+          "text": "發文方式",
+          "style": "HEADING_1"
+        },
+        {
+          "text": "素材與狀態",
+          "style": "HEADING_1"
+        }
+      ],
+      "links": [
+        {
+          "text": "開啟影片 01",
+          "url": "https://drive.google.com/file/d/1s2Ua3omUSRuOTD_G9R73i_KTsB_K9S2k/view?usp=drivesdk"
+        },
+        {
+          "text": "開啟貼文文案 01",
+          "url": "https://docs.google.com/document/d/1dmy_itYv7OmYB23z-6ETYZTkwdIqTjb5ZMLz99nwWrQ/edit?usp=drivesdk"
+        },
+        {
+          "text": "開啟影片 02",
+          "url": "https://drive.google.com/file/d/1p-FggKaO7iohp6hoFhz9laSBsCEryPbE/view?usp=drivesdk"
+        },
+        {
+          "text": "開啟貼文文案 02",
+          "url": "https://docs.google.com/document/d/1bBzM7qn2Jp6MXlmSpzF36hxut1zqfVzCuPrim3lNtzs/edit?usp=drivesdk"
+        },
+        {
+          "text": "開啟發布包資料夾",
+          "url": "https://drive.google.com/drive/folders/1gceZNPztGT_dNh7ph2-DoPpVKk-QYmQs"
+        }
+      ]
+    },
+    {
+      "id": "1dmy_itYv7OmYB23z-6ETYZTkwdIqTjb5ZMLz99nwWrQ",
+      "correct_mime_and_parent": true
+    },
+    {
+      "id": "1bBzM7qn2Jp6MXlmSpzF36hxut1zqfVzCuPrim3lNtzs",
+      "correct_mime_and_parent": true
+    },
+    {
+      "id": "1dxMZKKMbSK2mcr3WxzpKLB0a0WMUfdTbppbnM88-Yh4",
+      "correct_mime_and_parent": true
+    },
+    {
+      "exact_expected_five_files": true,
+      "count": 5
+    }
+  ],
+  "local_byte_identical_to_exact_approved_source": true,
+  "remote_sizes_match_local": true,
+  "remote_checksum": "Connector metadata did not return requested md5Checksum or sha256Checksum. Remote cryptographic equality not claimed.",
+  "prior_published_wardrobe_reused": true,
+  "prior_publish_packages_untouched": true,
+  "generation_performed": false,
+  "encoding_or_media_edit_performed": false,
+  "text_or_audio_added": false,
+  "publication_performed": false,
+  "bot_messaged": false,
+  "research_generation_remains_paused": true,
+  "evidence": [
+    "local_manifest.json",
+    "google_docs_content.json"
+  ],
+  "next_research_method": "Simple line storyboard and whole-film timing preview before generating missing shots; exact new-still visual approval retained."
+}

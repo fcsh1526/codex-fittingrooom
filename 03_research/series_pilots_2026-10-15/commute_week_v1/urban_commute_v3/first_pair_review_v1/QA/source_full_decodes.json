@@ -1,0 +1,58 @@
+[
+  {
+    "shot": "U01",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+    "sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+    "scan": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 10.041666666666666,
+      "individual_PTS_measured": false
+    }
+  },
+  {
+    "shot": "U02",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+    "sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+    "scan": {
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "full_decode_completed": true,
+      "frame_count_over_fps_seconds": 10.041666666666666,
+      "individual_PTS_measured": false
+    }
+  }
+]

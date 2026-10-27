@@ -1,0 +1,2571 @@
+{
+  "summary": {
+    "frames_compared": 511,
+    "mean_absolute_RGB_error_0_to_255": 2.116282680904363,
+    "worst_frame_MAE": 2.55087890625,
+    "minimum_frame_PSNR_dB": 36.882956420150855,
+    "codec_tolerance": {
+      "worst_frame_MAE_max": 3.0,
+      "minimum_PSNR_dB_min": 32.0
+    },
+    "within_codec_tolerance": true,
+    "pixel_or_byte_identity_claim": false
+  },
+  "frames": [
+    {
+      "output_frame": 0,
+      "mean_absolute_RGB_error": 1.6416456886574073,
+      "PSNR_dB": 41.71540997094711
+    },
+    {
+      "output_frame": 1,
+      "mean_absolute_RGB_error": 1.7897334346064815,
+      "PSNR_dB": 40.790093957898804
+    },
+    {
+      "output_frame": 2,
+      "mean_absolute_RGB_error": 1.8179144965277778,
+      "PSNR_dB": 40.65466168353567
+    },
+    {
+      "output_frame": 3,
+      "mean_absolute_RGB_error": 1.8410850694444445,
+      "PSNR_dB": 40.53344812766479
+    },
+    {
+      "output_frame": 4,
+      "mean_absolute_RGB_error": 1.77591796875,
+      "PSNR_dB": 40.927129939858546
+    },
+    {
+      "output_frame": 5,
+      "mean_absolute_RGB_error": 1.840959201388889,
+      "PSNR_dB": 40.54978651055155
+    },
+    {
+      "output_frame": 6,
+      "mean_absolute_RGB_error": 1.8665910734953703,
+      "PSNR_dB": 40.41744798367267
+    },
+    {
+      "output_frame": 7,
+      "mean_absolute_RGB_error": 1.8700477430555555,
+      "PSNR_dB": 40.3968270640413
+    },
+    {
+      "output_frame": 8,
+      "mean_absolute_RGB_error": 1.8363878038194446,
+      "PSNR_dB": 40.5981498336122
+    },
+    {
+      "output_frame": 9,
+      "mean_absolute_RGB_error": 1.9156401909722223,
+      "PSNR_dB": 40.130375171717375
+    },
+    {
+      "output_frame": 10,
+      "mean_absolute_RGB_error": 1.9179466869212962,
+      "PSNR_dB": 40.159786883680084
+    },
+    {
+      "output_frame": 11,
+      "mean_absolute_RGB_error": 1.9097374131944445,
+      "PSNR_dB": 40.17509693663713
+    },
+    {
+      "output_frame": 12,
+      "mean_absolute_RGB_error": 1.8589796730324073,
+      "PSNR_dB": 40.49683488709662
+    },
+    {
+      "output_frame": 13,
+      "mean_absolute_RGB_error": 1.919388744212963,
+      "PSNR_dB": 40.117654871658246
+    },
+    {
+      "output_frame": 14,
+      "mean_absolute_RGB_error": 1.950068359375,
+      "PSNR_dB": 40.01070303932628
+    },
+    {
+      "output_frame": 15,
+      "mean_absolute_RGB_error": 1.9341030092592593,
+      "PSNR_dB": 40.07727901407752
+    },
+    {
+      "output_frame": 16,
+      "mean_absolute_RGB_error": 1.8956712962962963,
+      "PSNR_dB": 40.292420518379075
+    },
+    {
+      "output_frame": 17,
+      "mean_absolute_RGB_error": 1.9387836371527778,
+      "PSNR_dB": 40.02133750582081
+    },
+    {
+      "output_frame": 18,
+      "mean_absolute_RGB_error": 1.933146339699074,
+      "PSNR_dB": 40.067476477039214
+    },
+    {
+      "output_frame": 19,
+      "mean_absolute_RGB_error": 1.9158492476851852,
+      "PSNR_dB": 40.14307359276032
+    },
+    {
+      "output_frame": 20,
+      "mean_absolute_RGB_error": 1.8711241319444445,
+      "PSNR_dB": 40.38698332896929
+    },
+    {
+      "output_frame": 21,
+      "mean_absolute_RGB_error": 1.914248046875,
+      "PSNR_dB": 40.12151778234603
+    },
+    {
+      "output_frame": 22,
+      "mean_absolute_RGB_error": 1.9220844184027779,
+      "PSNR_dB": 40.10219673951851
+    },
+    {
+      "output_frame": 23,
+      "mean_absolute_RGB_error": 1.900564597800926,
+      "PSNR_dB": 40.20070100102909
+    },
+    {
+      "output_frame": 24,
+      "mean_absolute_RGB_error": 1.8571567563657407,
+      "PSNR_dB": 40.445069393155826
+    },
+    {
+      "output_frame": 25,
+      "mean_absolute_RGB_error": 1.9093627025462963,
+      "PSNR_dB": 40.16630249109249
+    },
+    {
+      "output_frame": 26,
+      "mean_absolute_RGB_error": 1.9225752314814815,
+      "PSNR_dB": 40.147825689958935
+    },
+    {
+      "output_frame": 27,
+      "mean_absolute_RGB_error": 1.9117328559027778,
+      "PSNR_dB": 40.199744855438894
+    },
+    {
+      "output_frame": 28,
+      "mean_absolute_RGB_error": 1.8792252604166666,
+      "PSNR_dB": 40.35020860046877
+    },
+    {
+      "output_frame": 29,
+      "mean_absolute_RGB_error": 1.9299117476851853,
+      "PSNR_dB": 40.060491461919945
+    },
+    {
+      "output_frame": 30,
+      "mean_absolute_RGB_error": 1.9218869357638888,
+      "PSNR_dB": 40.11663930025898
+    },
+    {
+      "output_frame": 31,
+      "mean_absolute_RGB_error": 1.9206647858796295,
+      "PSNR_dB": 40.12598274091264
+    },
+    {
+      "output_frame": 32,
+      "mean_absolute_RGB_error": 1.8681962528935185,
+      "PSNR_dB": 40.384993384004005
+    },
+    {
+      "output_frame": 33,
+      "mean_absolute_RGB_error": 1.9103269675925927,
+      "PSNR_dB": 40.15380035418051
+    },
+    {
+      "output_frame": 34,
+      "mean_absolute_RGB_error": 1.9200593171296296,
+      "PSNR_dB": 40.11516021035406
+    },
+    {
+      "output_frame": 35,
+      "mean_absolute_RGB_error": 1.8956134259259259,
+      "PSNR_dB": 40.23607183587338
+    },
+    {
+      "output_frame": 36,
+      "mean_absolute_RGB_error": 1.8361787471064814,
+      "PSNR_dB": 40.54446411422041
+    },
+    {
+      "output_frame": 37,
+      "mean_absolute_RGB_error": 1.892511574074074,
+      "PSNR_dB": 40.21844937180995
+    },
+    {
+      "output_frame": 38,
+      "mean_absolute_RGB_error": 1.8912684461805556,
+      "PSNR_dB": 40.22569199065731
+    },
+    {
+      "output_frame": 39,
+      "mean_absolute_RGB_error": 1.8814898003472222,
+      "PSNR_dB": 40.27782343848254
+    },
+    {
+      "output_frame": 40,
+      "mean_absolute_RGB_error": 1.8181998697916666,
+      "PSNR_dB": 40.63553513842521
+    },
+    {
+      "output_frame": 41,
+      "mean_absolute_RGB_error": 1.8900632957175927,
+      "PSNR_dB": 40.24490372223213
+    },
+    {
+      "output_frame": 42,
+      "mean_absolute_RGB_error": 1.9074703414351852,
+      "PSNR_dB": 40.13317347580839
+    },
+    {
+      "output_frame": 43,
+      "mean_absolute_RGB_error": 1.8404267939814816,
+      "PSNR_dB": 40.513080653133926
+    },
+    {
+      "output_frame": 44,
+      "mean_absolute_RGB_error": 2.012037760416667,
+      "PSNR_dB": 39.53267045859727
+    },
+    {
+      "output_frame": 45,
+      "mean_absolute_RGB_error": 2.07899486400463,
+      "PSNR_dB": 39.34107182185846
+    },
+    {
+      "output_frame": 46,
+      "mean_absolute_RGB_error": 2.1766084346064813,
+      "PSNR_dB": 38.69303103273645
+    },
+    {
+      "output_frame": 47,
+      "mean_absolute_RGB_error": 2.052636357060185,
+      "PSNR_dB": 39.53322530216949
+    },
+    {
+      "output_frame": 48,
+      "mean_absolute_RGB_error": 2.191324508101852,
+      "PSNR_dB": 38.73445449672857
+    },
+    {
+      "output_frame": 49,
+      "mean_absolute_RGB_error": 2.123117042824074,
+      "PSNR_dB": 39.129279375857344
+    },
+    {
+      "output_frame": 50,
+      "mean_absolute_RGB_error": 2.2119733796296295,
+      "PSNR_dB": 38.563206229494845
+    },
+    {
+      "output_frame": 51,
+      "mean_absolute_RGB_error": 2.053119212962963,
+      "PSNR_dB": 39.5105585425652
+    },
+    {
+      "output_frame": 52,
+      "mean_absolute_RGB_error": 2.2004437934027776,
+      "PSNR_dB": 38.68844607491375
+    },
+    {
+      "output_frame": 53,
+      "mean_absolute_RGB_error": 2.1514478443287035,
+      "PSNR_dB": 39.02890734198752
+    },
+    {
+      "output_frame": 54,
+      "mean_absolute_RGB_error": 2.235231843171296,
+      "PSNR_dB": 38.493734493420305
+    },
+    {
+      "output_frame": 55,
+      "mean_absolute_RGB_error": 2.0429622395833333,
+      "PSNR_dB": 39.51912910665007
+    },
+    {
+      "output_frame": 56,
+      "mean_absolute_RGB_error": 2.1692896412037035,
+      "PSNR_dB": 38.88860562369876
+    },
+    {
+      "output_frame": 57,
+      "mean_absolute_RGB_error": 2.1249526186342593,
+      "PSNR_dB": 39.19419566748072
+    },
+    {
+      "output_frame": 58,
+      "mean_absolute_RGB_error": 2.24069408275463,
+      "PSNR_dB": 38.71896707361025
+    },
+    {
+      "output_frame": 59,
+      "mean_absolute_RGB_error": 2.332515552662037,
+      "PSNR_dB": 38.15429153250004
+    },
+    {
+      "output_frame": 60,
+      "mean_absolute_RGB_error": 2.186457609953704,
+      "PSNR_dB": 38.881961787754705
+    },
+    {
+      "output_frame": 61,
+      "mean_absolute_RGB_error": 2.207134693287037,
+      "PSNR_dB": 38.802884633874875
+    },
+    {
+      "output_frame": 62,
+      "mean_absolute_RGB_error": 2.1679756221064816,
+      "PSNR_dB": 38.952015286901826
+    },
+    {
+      "output_frame": 63,
+      "mean_absolute_RGB_error": 2.2434411168981483,
+      "PSNR_dB": 38.61097941200189
+    },
+    {
+      "output_frame": 64,
+      "mean_absolute_RGB_error": 2.114920066550926,
+      "PSNR_dB": 39.26792047927548
+    },
+    {
+      "output_frame": 65,
+      "mean_absolute_RGB_error": 2.215696976273148,
+      "PSNR_dB": 38.809923261142096
+    },
+    {
+      "output_frame": 66,
+      "mean_absolute_RGB_error": 2.1295880353009258,
+      "PSNR_dB": 39.224682088267265
+    },
+    {
+      "output_frame": 67,
+      "mean_absolute_RGB_error": 2.179011501736111,
+      "PSNR_dB": 38.941327184315135
+    },
+    {
+      "output_frame": 68,
+      "mean_absolute_RGB_error": 1.999128689236111,
+      "PSNR_dB": 39.834121438412154
+    },
+    {
+      "output_frame": 69,
+      "mean_absolute_RGB_error": 2.1654170283564813,
+      "PSNR_dB": 38.95988197777747
+    },
+    {
+      "output_frame": 70,
+      "mean_absolute_RGB_error": 2.070114655671296,
+      "PSNR_dB": 39.46758147916904
+    },
+    {
+      "output_frame": 71,
+      "mean_absolute_RGB_error": 2.1695243778935187,
+      "PSNR_dB": 38.97374429532738
+    },
+    {
+      "output_frame": 72,
+      "mean_absolute_RGB_error": 1.9694151475694444,
+      "PSNR_dB": 39.95703732434738
+    },
+    {
+      "output_frame": 73,
+      "mean_absolute_RGB_error": 2.135602936921296,
+      "PSNR_dB": 39.19464911507069
+    },
+    {
+      "output_frame": 74,
+      "mean_absolute_RGB_error": 2.1103993055555557,
+      "PSNR_dB": 39.296004916380184
+    },
+    {
+      "output_frame": 75,
+      "mean_absolute_RGB_error": 1.9883246527777778,
+      "PSNR_dB": 39.8497619220474
+    },
+    {
+      "output_frame": 76,
+      "mean_absolute_RGB_error": 2.0448093894675927,
+      "PSNR_dB": 39.52975469115281
+    },
+    {
+      "output_frame": 77,
+      "mean_absolute_RGB_error": 2.151468822337963,
+      "PSNR_dB": 39.12264081534119
+    },
+    {
+      "output_frame": 78,
+      "mean_absolute_RGB_error": 2.0601023582175926,
+      "PSNR_dB": 39.51808949596647
+    },
+    {
+      "output_frame": 79,
+      "mean_absolute_RGB_error": 1.975902416087963,
+      "PSNR_dB": 39.88505525889935
+    },
+    {
+      "output_frame": 80,
+      "mean_absolute_RGB_error": 2.116470630787037,
+      "PSNR_dB": 39.14203154326541
+    },
+    {
+      "output_frame": 81,
+      "mean_absolute_RGB_error": 2.0983409288194443,
+      "PSNR_dB": 39.32095170348004
+    },
+    {
+      "output_frame": 82,
+      "mean_absolute_RGB_error": 2.0375481047453703,
+      "PSNR_dB": 39.65259122857429
+    },
+    {
+      "output_frame": 83,
+      "mean_absolute_RGB_error": 1.9327882667824074,
+      "PSNR_dB": 40.15890907394481
+    },
+    {
+      "output_frame": 84,
+      "mean_absolute_RGB_error": 1.9353313078703704,
+      "PSNR_dB": 40.14011167970972
+    },
+    {
+      "output_frame": 85,
+      "mean_absolute_RGB_error": 1.9341286892361111,
+      "PSNR_dB": 40.165673484848256
+    },
+    {
+      "output_frame": 86,
+      "mean_absolute_RGB_error": 1.9372272858796296,
+      "PSNR_dB": 40.15554814494414
+    },
+    {
+      "output_frame": 87,
+      "mean_absolute_RGB_error": 1.8502452256944444,
+      "PSNR_dB": 40.5723553032343
+    },
+    {
+      "output_frame": 88,
+      "mean_absolute_RGB_error": 1.876302806712963,
+      "PSNR_dB": 40.41424778336378
+    },
+    {
+      "output_frame": 89,
+      "mean_absolute_RGB_error": 1.8864478443287036,
+      "PSNR_dB": 40.38307322248335
+    },
+    {
+      "output_frame": 90,
+      "mean_absolute_RGB_error": 1.905414134837963,
+      "PSNR_dB": 40.28652129827027
+    },
+    {
+      "output_frame": 91,
+      "mean_absolute_RGB_error": 1.8129126880787036,
+      "PSNR_dB": 40.75467446977386
+    },
+    {
+      "output_frame": 92,
+      "mean_absolute_RGB_error": 1.885304904513889,
+      "PSNR_dB": 40.344537591993074
+    },
+    {
+      "output_frame": 93,
+      "mean_absolute_RGB_error": 1.9231676793981483,
+      "PSNR_dB": 40.195868736658255
+    },
+    {
+      "output_frame": 94,
+      "mean_absolute_RGB_error": 1.941514033564815,
+      "PSNR_dB": 40.06327966053257
+    },
+    {
+      "output_frame": 95,
+      "mean_absolute_RGB_error": 1.8823940248842592,
+      "PSNR_dB": 40.34301949610483
+    },
+    {
+      "output_frame": 96,
+      "mean_absolute_RGB_error": 1.9224688946759259,
+      "PSNR_dB": 40.16739263138368
+    },
+    {
+      "output_frame": 97,
+      "mean_absolute_RGB_error": 1.9297417534722223,
+      "PSNR_dB": 40.10540404340056
+    },
+    {
+      "output_frame": 98,
+      "mean_absolute_RGB_error": 1.9389500144675926,
+      "PSNR_dB": 40.05424188527114
+    },
+    {
+      "output_frame": 99,
+      "mean_absolute_RGB_error": 1.8326005497685185,
+      "PSNR_dB": 40.64709329044794
+    },
+    {
+      "output_frame": 100,
+      "mean_absolute_RGB_error": 1.8909971788194444,
+      "PSNR_dB": 40.30742197786139
+    },
+    {
+      "output_frame": 101,
+      "mean_absolute_RGB_error": 1.889550419560185,
+      "PSNR_dB": 40.3557045134511
+    },
+    {
+      "output_frame": 102,
+      "mean_absolute_RGB_error": 2.0212503616898148,
+      "PSNR_dB": 39.636389980819914
+    },
+    {
+      "output_frame": 103,
+      "mean_absolute_RGB_error": 2.0925162760416667,
+      "PSNR_dB": 39.1741126913674
+    },
+    {
+      "output_frame": 104,
+      "mean_absolute_RGB_error": 2.018440755208333,
+      "PSNR_dB": 39.6835426175107
+    },
+    {
+      "output_frame": 105,
+      "mean_absolute_RGB_error": 2.0159201388888888,
+      "PSNR_dB": 39.73070693818456
+    },
+    {
+      "output_frame": 106,
+      "mean_absolute_RGB_error": 2.035230758101852,
+      "PSNR_dB": 39.596028168221395
+    },
+    {
+      "output_frame": 107,
+      "mean_absolute_RGB_error": 2.006097728587963,
+      "PSNR_dB": 39.71774124178283
+    },
+    {
+      "output_frame": 108,
+      "mean_absolute_RGB_error": 2.013101128472222,
+      "PSNR_dB": 39.694435022545214
+    },
+    {
+      "output_frame": 109,
+      "mean_absolute_RGB_error": 1.9476352719907408,
+      "PSNR_dB": 40.05543037421315
+    },
+    {
+      "output_frame": 110,
+      "mean_absolute_RGB_error": 2.0205052806712964,
+      "PSNR_dB": 39.67548718136627
+    },
+    {
+      "output_frame": 111,
+      "mean_absolute_RGB_error": 1.9574139178240741,
+      "PSNR_dB": 40.020645948822406
+    },
+    {
+      "output_frame": 112,
+      "mean_absolute_RGB_error": 2.045671657986111,
+      "PSNR_dB": 39.567770838608254
+    },
+    {
+      "output_frame": 113,
+      "mean_absolute_RGB_error": 2.150292607060185,
+      "PSNR_dB": 38.96295248420365
+    },
+    {
+      "output_frame": 114,
+      "mean_absolute_RGB_error": 2.0756514033564817,
+      "PSNR_dB": 39.422246655607914
+    },
+    {
+      "output_frame": 115,
+      "mean_absolute_RGB_error": 2.0236085792824072,
+      "PSNR_dB": 39.67717595492134
+    },
+    {
+      "output_frame": 116,
+      "mean_absolute_RGB_error": 2.198200954861111,
+      "PSNR_dB": 38.735535960277325
+    },
+    {
+      "output_frame": 117,
+      "mean_absolute_RGB_error": 2.119461082175926,
+      "PSNR_dB": 39.25324892752477
+    },
+    {
+      "output_frame": 118,
+      "mean_absolute_RGB_error": 2.0822471788194443,
+      "PSNR_dB": 39.41234563840757
+    },
+    {
+      "output_frame": 119,
+      "mean_absolute_RGB_error": 2.031857638888889,
+      "PSNR_dB": 39.67085640126548
+    },
+    {
+      "output_frame": 120,
+      "mean_absolute_RGB_error": 2.0374681712962963,
+      "PSNR_dB": 39.62500453740341
+    },
+    {
+      "output_frame": 121,
+      "mean_absolute_RGB_error": 2.0307020399305555,
+      "PSNR_dB": 39.649280394935715
+    },
+    {
+      "output_frame": 122,
+      "mean_absolute_RGB_error": 2.2137156394675928,
+      "PSNR_dB": 38.816001834731175
+    },
+    {
+      "output_frame": 123,
+      "mean_absolute_RGB_error": 2.3565455005787035,
+      "PSNR_dB": 37.927389369663864
+    },
+    {
+      "output_frame": 124,
+      "mean_absolute_RGB_error": 2.1571755642361112,
+      "PSNR_dB": 39.053304144728706
+    },
+    {
+      "output_frame": 125,
+      "mean_absolute_RGB_error": 2.348181785300926,
+      "PSNR_dB": 38.061266162989185
+    },
+    {
+      "output_frame": 126,
+      "mean_absolute_RGB_error": 2.1399703414351854,
+      "PSNR_dB": 39.078583665103
+    },
+    {
+      "output_frame": 127,
+      "mean_absolute_RGB_error": 2.0809078414351854,
+      "PSNR_dB": 39.33255926182657
+    },
+    {
+      "output_frame": 128,
+      "mean_absolute_RGB_error": 2.1942820457175927,
+      "PSNR_dB": 38.8640142595189
+    },
+    {
+      "output_frame": 129,
+      "mean_absolute_RGB_error": 2.3367064525462964,
+      "PSNR_dB": 37.99460800242493
+    },
+    {
+      "output_frame": 130,
+      "mean_absolute_RGB_error": 2.1333857783564816,
+      "PSNR_dB": 39.13930251772262
+    },
+    {
+      "output_frame": 131,
+      "mean_absolute_RGB_error": 2.3673665364583334,
+      "PSNR_dB": 37.86036160292707
+    },
+    {
+      "output_frame": 132,
+      "mean_absolute_RGB_error": 2.2669607204861113,
+      "PSNR_dB": 38.43403370690642
+    },
+    {
+      "output_frame": 133,
+      "mean_absolute_RGB_error": 2.3744252748842594,
+      "PSNR_dB": 37.935034187373496
+    },
+    {
+      "output_frame": 134,
+      "mean_absolute_RGB_error": 2.1524710648148146,
+      "PSNR_dB": 39.041203022731416
+    },
+    {
+      "output_frame": 135,
+      "mean_absolute_RGB_error": 2.353224464699074,
+      "PSNR_dB": 37.99835778582939
+    },
+    {
+      "output_frame": 136,
+      "mean_absolute_RGB_error": 2.1758857783564816,
+      "PSNR_dB": 38.88615839810865
+    },
+    {
+      "output_frame": 137,
+      "mean_absolute_RGB_error": 2.1468189380787037,
+      "PSNR_dB": 39.0021586581825
+    },
+    {
+      "output_frame": 138,
+      "mean_absolute_RGB_error": 2.1888331886574073,
+      "PSNR_dB": 38.82449593275422
+    },
+    {
+      "output_frame": 139,
+      "mean_absolute_RGB_error": 2.345459346064815,
+      "PSNR_dB": 38.07659967864356
+    },
+    {
+      "output_frame": 140,
+      "mean_absolute_RGB_error": 2.421264105902778,
+      "PSNR_dB": 37.79032676553259
+    },
+    {
+      "output_frame": 141,
+      "mean_absolute_RGB_error": 2.255529513888889,
+      "PSNR_dB": 38.59966610670813
+    },
+    {
+      "output_frame": 142,
+      "mean_absolute_RGB_error": 2.1766887297453703,
+      "PSNR_dB": 38.942680608530615
+    },
+    {
+      "output_frame": 143,
+      "mean_absolute_RGB_error": 2.129582248263889,
+      "PSNR_dB": 39.164661336969935
+    },
+    {
+      "output_frame": 144,
+      "mean_absolute_RGB_error": 2.338062065972222,
+      "PSNR_dB": 38.1998883591423
+    },
+    {
+      "output_frame": 145,
+      "mean_absolute_RGB_error": 2.459271195023148,
+      "PSNR_dB": 37.63159149666695
+    },
+    {
+      "output_frame": 146,
+      "mean_absolute_RGB_error": 2.2602795862268517,
+      "PSNR_dB": 38.60021335283794
+    },
+    {
+      "output_frame": 147,
+      "mean_absolute_RGB_error": 2.164330150462963,
+      "PSNR_dB": 39.02606776642916
+    },
+    {
+      "output_frame": 148,
+      "mean_absolute_RGB_error": 2.4130425347222224,
+      "PSNR_dB": 37.85517394296183
+    },
+    {
+      "output_frame": 149,
+      "mean_absolute_RGB_error": 2.4508626302083334,
+      "PSNR_dB": 37.787453329099236
+    },
+    {
+      "output_frame": 150,
+      "mean_absolute_RGB_error": 2.2459132667824075,
+      "PSNR_dB": 38.66180035506059
+    },
+    {
+      "output_frame": 151,
+      "mean_absolute_RGB_error": 2.237062717013889,
+      "PSNR_dB": 38.722194546322875
+    },
+    {
+      "output_frame": 152,
+      "mean_absolute_RGB_error": 2.4735355179398146,
+      "PSNR_dB": 37.659672340544894
+    },
+    {
+      "output_frame": 153,
+      "mean_absolute_RGB_error": 2.5190758825231483,
+      "PSNR_dB": 37.558121099907495
+    },
+    {
+      "output_frame": 154,
+      "mean_absolute_RGB_error": 2.2966496672453705,
+      "PSNR_dB": 38.4789070744533
+    },
+    {
+      "output_frame": 155,
+      "mean_absolute_RGB_error": 2.274552951388889,
+      "PSNR_dB": 38.53621925726529
+    },
+    {
+      "output_frame": 156,
+      "mean_absolute_RGB_error": 2.260253544560185,
+      "PSNR_dB": 38.62211309385182
+    },
+    {
+      "output_frame": 157,
+      "mean_absolute_RGB_error": 2.424908130787037,
+      "PSNR_dB": 37.889383081705844
+    },
+    {
+      "output_frame": 158,
+      "mean_absolute_RGB_error": 2.2824442997685184,
+      "PSNR_dB": 38.55318907336881
+    },
+    {
+      "output_frame": 159,
+      "mean_absolute_RGB_error": 2.2432429108796295,
+      "PSNR_dB": 38.70439672023786
+    },
+    {
+      "output_frame": 160,
+      "mean_absolute_RGB_error": 2.1916919849537035,
+      "PSNR_dB": 38.96048607868274
+    },
+    {
+      "output_frame": 161,
+      "mean_absolute_RGB_error": 2.419950810185185,
+      "PSNR_dB": 37.914856746378284
+    },
+    {
+      "output_frame": 162,
+      "mean_absolute_RGB_error": 2.272326027199074,
+      "PSNR_dB": 38.599739468755025
+    },
+    {
+      "output_frame": 163,
+      "mean_absolute_RGB_error": 2.1907816116898147,
+      "PSNR_dB": 38.8816333828539
+    },
+    {
+      "output_frame": 164,
+      "mean_absolute_RGB_error": 2.434882450810185,
+      "PSNR_dB": 37.81537685968345
+    },
+    {
+      "output_frame": 165,
+      "mean_absolute_RGB_error": 2.307512297453704,
+      "PSNR_dB": 38.408487731262504
+    },
+    {
+      "output_frame": 166,
+      "mean_absolute_RGB_error": 2.2305501302083335,
+      "PSNR_dB": 38.76547858178359
+    },
+    {
+      "output_frame": 167,
+      "mean_absolute_RGB_error": 2.158060980902778,
+      "PSNR_dB": 39.030960915453065
+    },
+    {
+      "output_frame": 168,
+      "mean_absolute_RGB_error": 2.1854191984953704,
+      "PSNR_dB": 38.94787156237569
+    },
+    {
+      "output_frame": 169,
+      "mean_absolute_RGB_error": 2.179873046875,
+      "PSNR_dB": 38.95937319448928
+    },
+    {
+      "output_frame": 170,
+      "mean_absolute_RGB_error": 2.1688870804398146,
+      "PSNR_dB": 39.01176728848843
+    },
+    {
+      "output_frame": 171,
+      "mean_absolute_RGB_error": 2.0774233217592593,
+      "PSNR_dB": 39.39535276298753
+    },
+    {
+      "output_frame": 172,
+      "mean_absolute_RGB_error": 2.3409107349537037,
+      "PSNR_dB": 38.18963675112268
+    },
+    {
+      "output_frame": 173,
+      "mean_absolute_RGB_error": 2.3834602864583334,
+      "PSNR_dB": 38.0975392562626
+    },
+    {
+      "output_frame": 174,
+      "mean_absolute_RGB_error": 2.2206553819444443,
+      "PSNR_dB": 38.79292107465593
+    },
+    {
+      "output_frame": 175,
+      "mean_absolute_RGB_error": 2.1659928385416665,
+      "PSNR_dB": 39.04462652252385
+    },
+    {
+      "output_frame": 176,
+      "mean_absolute_RGB_error": 2.297935836226852,
+      "PSNR_dB": 38.53958762449259
+    },
+    {
+      "output_frame": 177,
+      "mean_absolute_RGB_error": 2.4576435908564815,
+      "PSNR_dB": 37.72470683346155
+    },
+    {
+      "output_frame": 178,
+      "mean_absolute_RGB_error": 2.2230888310185186,
+      "PSNR_dB": 38.83418893506754
+    },
+    {
+      "output_frame": 179,
+      "mean_absolute_RGB_error": 2.4616442418981483,
+      "PSNR_dB": 37.658512372113016
+    },
+    {
+      "output_frame": 180,
+      "mean_absolute_RGB_error": 2.298251953125,
+      "PSNR_dB": 38.46562808988062
+    },
+    {
+      "output_frame": 181,
+      "mean_absolute_RGB_error": 2.498806423611111,
+      "PSNR_dB": 37.52441661598324
+    },
+    {
+      "output_frame": 182,
+      "mean_absolute_RGB_error": 2.2598542390046297,
+      "PSNR_dB": 38.68462199163805
+    },
+    {
+      "output_frame": 183,
+      "mean_absolute_RGB_error": 2.443872974537037,
+      "PSNR_dB": 37.780569566350124
+    },
+    {
+      "output_frame": 184,
+      "mean_absolute_RGB_error": 2.274711733217593,
+      "PSNR_dB": 38.5775025498046
+    },
+    {
+      "output_frame": 185,
+      "mean_absolute_RGB_error": 2.3142563657407407,
+      "PSNR_dB": 38.40412679645018
+    },
+    {
+      "output_frame": 186,
+      "mean_absolute_RGB_error": 2.4272739438657407,
+      "PSNR_dB": 38.01326521826467
+    },
+    {
+      "output_frame": 187,
+      "mean_absolute_RGB_error": 2.4472236689814815,
+      "PSNR_dB": 37.69962413903076
+    },
+    {
+      "output_frame": 188,
+      "mean_absolute_RGB_error": 2.323744212962963,
+      "PSNR_dB": 38.369290618463694
+    },
+    {
+      "output_frame": 189,
+      "mean_absolute_RGB_error": 2.3162575954861113,
+      "PSNR_dB": 38.30774165921098
+    },
+    {
+      "output_frame": 190,
+      "mean_absolute_RGB_error": 2.2803439670138888,
+      "PSNR_dB": 38.539131229456046
+    },
+    {
+      "output_frame": 191,
+      "mean_absolute_RGB_error": 2.381681134259259,
+      "PSNR_dB": 37.99636764429443
+    },
+    {
+      "output_frame": 192,
+      "mean_absolute_RGB_error": 2.216545500578704,
+      "PSNR_dB": 38.808201987565916
+    },
+    {
+      "output_frame": 193,
+      "mean_absolute_RGB_error": 2.2986147280092593,
+      "PSNR_dB": 38.35022579162248
+    },
+    {
+      "output_frame": 194,
+      "mean_absolute_RGB_error": 2.2238903356481483,
+      "PSNR_dB": 38.74075523590635
+    },
+    {
+      "output_frame": 195,
+      "mean_absolute_RGB_error": 2.3251475694444443,
+      "PSNR_dB": 38.24615102804058
+    },
+    {
+      "output_frame": 196,
+      "mean_absolute_RGB_error": 2.1200198929398146,
+      "PSNR_dB": 39.25744743986015
+    },
+    {
+      "output_frame": 197,
+      "mean_absolute_RGB_error": 2.314609375,
+      "PSNR_dB": 38.280747730393536
+    },
+    {
+      "output_frame": 198,
+      "mean_absolute_RGB_error": 2.228857783564815,
+      "PSNR_dB": 38.735410283430426
+    },
+    {
+      "output_frame": 199,
+      "mean_absolute_RGB_error": 2.2977311197916666,
+      "PSNR_dB": 38.350247137979245
+    },
+    {
+      "output_frame": 200,
+      "mean_absolute_RGB_error": 2.046412037037037,
+      "PSNR_dB": 39.543068676206715
+    },
+    {
+      "output_frame": 201,
+      "mean_absolute_RGB_error": 2.27873046875,
+      "PSNR_dB": 38.3633019898575
+    },
+    {
+      "output_frame": 202,
+      "mean_absolute_RGB_error": 2.201918402777778,
+      "PSNR_dB": 38.74494920365118
+    },
+    {
+      "output_frame": 203,
+      "mean_absolute_RGB_error": 2.0694491464120373,
+      "PSNR_dB": 39.349666629313184
+    },
+    {
+      "output_frame": 204,
+      "mean_absolute_RGB_error": 2.153444733796296,
+      "PSNR_dB": 38.982482858390505
+    },
+    {
+      "output_frame": 205,
+      "mean_absolute_RGB_error": 2.016209129050926,
+      "PSNR_dB": 39.540099512685806
+    },
+    {
+      "output_frame": 206,
+      "mean_absolute_RGB_error": 1.998107277199074,
+      "PSNR_dB": 39.656315037171495
+    },
+    {
+      "output_frame": 207,
+      "mean_absolute_RGB_error": 2.0044715711805554,
+      "PSNR_dB": 39.61349094646191
+    },
+    {
+      "output_frame": 208,
+      "mean_absolute_RGB_error": 1.9974678096064815,
+      "PSNR_dB": 39.628051633948054
+    },
+    {
+      "output_frame": 209,
+      "mean_absolute_RGB_error": 1.8723213252314814,
+      "PSNR_dB": 40.24997405969415
+    },
+    {
+      "output_frame": 210,
+      "mean_absolute_RGB_error": 1.906677517361111,
+      "PSNR_dB": 40.0879008431908
+    },
+    {
+      "output_frame": 211,
+      "mean_absolute_RGB_error": 1.8886689814814814,
+      "PSNR_dB": 40.16118804662256
+    },
+    {
+      "output_frame": 212,
+      "mean_absolute_RGB_error": 1.9081213831018518,
+      "PSNR_dB": 40.0783330893251
+    },
+    {
+      "output_frame": 213,
+      "mean_absolute_RGB_error": 1.786476779513889,
+      "PSNR_dB": 40.70427081847963
+    },
+    {
+      "output_frame": 214,
+      "mean_absolute_RGB_error": 1.8517469618055555,
+      "PSNR_dB": 40.34846076236198
+    },
+    {
+      "output_frame": 215,
+      "mean_absolute_RGB_error": 1.8661953848379629,
+      "PSNR_dB": 40.22584026736133
+    },
+    {
+      "output_frame": 216,
+      "mean_absolute_RGB_error": 1.9064026331018518,
+      "PSNR_dB": 40.00226076039538
+    },
+    {
+      "output_frame": 217,
+      "mean_absolute_RGB_error": 1.7736566840277779,
+      "PSNR_dB": 40.73084296086399
+    },
+    {
+      "output_frame": 218,
+      "mean_absolute_RGB_error": 1.9341804108796297,
+      "PSNR_dB": 39.754119772649055
+    },
+    {
+      "output_frame": 219,
+      "mean_absolute_RGB_error": 1.9852875434027777,
+      "PSNR_dB": 39.60180439303831
+    },
+    {
+      "output_frame": 220,
+      "mean_absolute_RGB_error": 2.1402086950231483,
+      "PSNR_dB": 38.680828538115016
+    },
+    {
+      "output_frame": 221,
+      "mean_absolute_RGB_error": 1.946931423611111,
+      "PSNR_dB": 39.88373047643589
+    },
+    {
+      "output_frame": 222,
+      "mean_absolute_RGB_error": 2.0270750144675924,
+      "PSNR_dB": 39.36469342842667
+    },
+    {
+      "output_frame": 223,
+      "mean_absolute_RGB_error": 1.9511494502314815,
+      "PSNR_dB": 39.74799175753981
+    },
+    {
+      "output_frame": 224,
+      "mean_absolute_RGB_error": 1.8600025318287037,
+      "PSNR_dB": 40.19988357854161
+    },
+    {
+      "output_frame": 225,
+      "mean_absolute_RGB_error": 1.9003128616898148,
+      "PSNR_dB": 40.03299949990769
+    },
+    {
+      "output_frame": 226,
+      "mean_absolute_RGB_error": 1.8899197048611112,
+      "PSNR_dB": 40.07306526956981
+    },
+    {
+      "output_frame": 227,
+      "mean_absolute_RGB_error": 1.901486545138889,
+      "PSNR_dB": 40.00284805338535
+    },
+    {
+      "output_frame": 228,
+      "mean_absolute_RGB_error": 1.8302021846064815,
+      "PSNR_dB": 40.404201989955844
+    },
+    {
+      "output_frame": 229,
+      "mean_absolute_RGB_error": 1.884076244212963,
+      "PSNR_dB": 40.095577609361214
+    },
+    {
+      "output_frame": 230,
+      "mean_absolute_RGB_error": 1.889245876736111,
+      "PSNR_dB": 40.062003734955226
+    },
+    {
+      "output_frame": 231,
+      "mean_absolute_RGB_error": 1.910113208912037,
+      "PSNR_dB": 39.927769271827806
+    },
+    {
+      "output_frame": 232,
+      "mean_absolute_RGB_error": 1.8074674479166666,
+      "PSNR_dB": 40.50759468681044
+    },
+    {
+      "output_frame": 233,
+      "mean_absolute_RGB_error": 1.8969921875,
+      "PSNR_dB": 39.999436617744294
+    },
+    {
+      "output_frame": 234,
+      "mean_absolute_RGB_error": 1.8734932002314815,
+      "PSNR_dB": 40.12425467099193
+    },
+    {
+      "output_frame": 235,
+      "mean_absolute_RGB_error": 1.8906673177083333,
+      "PSNR_dB": 40.027691797346165
+    },
+    {
+      "output_frame": 236,
+      "mean_absolute_RGB_error": 1.8160073061342592,
+      "PSNR_dB": 40.47989235018044
+    },
+    {
+      "output_frame": 237,
+      "mean_absolute_RGB_error": 1.9061906828703703,
+      "PSNR_dB": 40.01487713269278
+    },
+    {
+      "output_frame": 238,
+      "mean_absolute_RGB_error": 1.8956260850694444,
+      "PSNR_dB": 40.13442416921963
+    },
+    {
+      "output_frame": 239,
+      "mean_absolute_RGB_error": 1.9330226417824075,
+      "PSNR_dB": 39.87968978194564
+    },
+    {
+      "output_frame": 240,
+      "mean_absolute_RGB_error": 2.0479738136574075,
+      "PSNR_dB": 39.2214102700958
+    },
+    {
+      "output_frame": 241,
+      "mean_absolute_RGB_error": 2.0950376157407407,
+      "PSNR_dB": 38.966635139863016
+    },
+    {
+      "output_frame": 242,
+      "mean_absolute_RGB_error": 1.9331217447916667,
+      "PSNR_dB": 39.894406895322064
+    },
+    {
+      "output_frame": 243,
+      "mean_absolute_RGB_error": 2.092900390625,
+      "PSNR_dB": 39.07991716611313
+    },
+    {
+      "output_frame": 244,
+      "mean_absolute_RGB_error": 1.946767578125,
+      "PSNR_dB": 39.835619754483865
+    },
+    {
+      "output_frame": 245,
+      "mean_absolute_RGB_error": 1.9279220920138889,
+      "PSNR_dB": 39.94973076118105
+    },
+    {
+      "output_frame": 246,
+      "mean_absolute_RGB_error": 1.9111867042824073,
+      "PSNR_dB": 40.00505262420827
+    },
+    {
+      "output_frame": 247,
+      "mean_absolute_RGB_error": 1.8953667534722223,
+      "PSNR_dB": 40.12806769781801
+    },
+    {
+      "output_frame": 248,
+      "mean_absolute_RGB_error": 1.9101005497685186,
+      "PSNR_dB": 39.993686982795495
+    },
+    {
+      "output_frame": 249,
+      "mean_absolute_RGB_error": 1.8785456452546296,
+      "PSNR_dB": 40.18438237678544
+    },
+    {
+      "output_frame": 250,
+      "mean_absolute_RGB_error": 1.7011284722222222,
+      "PSNR_dB": 41.17110003539369
+    },
+    {
+      "output_frame": 251,
+      "mean_absolute_RGB_error": 1.8700220630787037,
+      "PSNR_dB": 40.122622944883624
+    },
+    {
+      "output_frame": 252,
+      "mean_absolute_RGB_error": 2.0366880063657407,
+      "PSNR_dB": 39.246725132287935
+    },
+    {
+      "output_frame": 253,
+      "mean_absolute_RGB_error": 1.9176671006944443,
+      "PSNR_dB": 39.932696527522424
+    },
+    {
+      "output_frame": 254,
+      "mean_absolute_RGB_error": 1.8625224247685186,
+      "PSNR_dB": 40.224807803024014
+    },
+    {
+      "output_frame": 255,
+      "mean_absolute_RGB_error": 1.8605570023148148,
+      "PSNR_dB": 40.298294674082314
+    },
+    {
+      "output_frame": 256,
+      "mean_absolute_RGB_error": 1.9108463541666667,
+      "PSNR_dB": 40.01437352449932
+    },
+    {
+      "output_frame": 257,
+      "mean_absolute_RGB_error": 1.8157946325231482,
+      "PSNR_dB": 40.541599714614094
+    },
+    {
+      "output_frame": 258,
+      "mean_absolute_RGB_error": 2.038432074652778,
+      "PSNR_dB": 39.26428658844404
+    },
+    {
+      "output_frame": 259,
+      "mean_absolute_RGB_error": 2.064187282986111,
+      "PSNR_dB": 39.19591023400278
+    },
+    {
+      "output_frame": 260,
+      "mean_absolute_RGB_error": 2.161253616898148,
+      "PSNR_dB": 38.670287208152715
+    },
+    {
+      "output_frame": 261,
+      "mean_absolute_RGB_error": 1.9737897858796296,
+      "PSNR_dB": 39.71908440204855
+    },
+    {
+      "output_frame": 262,
+      "mean_absolute_RGB_error": 2.141552734375,
+      "PSNR_dB": 38.7901704069997
+    },
+    {
+      "output_frame": 263,
+      "mean_absolute_RGB_error": 2.154628544560185,
+      "PSNR_dB": 38.82665389823998
+    },
+    {
+      "output_frame": 264,
+      "mean_absolute_RGB_error": 2.217502531828704,
+      "PSNR_dB": 38.460401481016724
+    },
+    {
+      "output_frame": 265,
+      "mean_absolute_RGB_error": 2.0334989872685183,
+      "PSNR_dB": 39.44710751801837
+    },
+    {
+      "output_frame": 266,
+      "mean_absolute_RGB_error": 2.1702159288194443,
+      "PSNR_dB": 38.691689581278325
+    },
+    {
+      "output_frame": 267,
+      "mean_absolute_RGB_error": 2.185001446759259,
+      "PSNR_dB": 38.68605021568492
+    },
+    {
+      "output_frame": 268,
+      "mean_absolute_RGB_error": 2.0537040653935184,
+      "PSNR_dB": 39.348065695039416
+    },
+    {
+      "output_frame": 269,
+      "mean_absolute_RGB_error": 2.009578631365741,
+      "PSNR_dB": 39.60341969524303
+    },
+    {
+      "output_frame": 270,
+      "mean_absolute_RGB_error": 2.0309519675925927,
+      "PSNR_dB": 39.49247190381282
+    },
+    {
+      "output_frame": 271,
+      "mean_absolute_RGB_error": 2.1316843894675928,
+      "PSNR_dB": 38.94070927249311
+    },
+    {
+      "output_frame": 272,
+      "mean_absolute_RGB_error": 2.0464055266203705,
+      "PSNR_dB": 39.41673235165012
+    },
+    {
+      "output_frame": 273,
+      "mean_absolute_RGB_error": 2.010542896412037,
+      "PSNR_dB": 39.576627923204384
+    },
+    {
+      "output_frame": 274,
+      "mean_absolute_RGB_error": 1.9941525607638888,
+      "PSNR_dB": 39.68627997253889
+    },
+    {
+      "output_frame": 275,
+      "mean_absolute_RGB_error": 2.01942455150463,
+      "PSNR_dB": 39.544969421667155
+    },
+    {
+      "output_frame": 276,
+      "mean_absolute_RGB_error": 2.144386935763889,
+      "PSNR_dB": 39.027611303930165
+    },
+    {
+      "output_frame": 277,
+      "mean_absolute_RGB_error": 2.0638407841435185,
+      "PSNR_dB": 39.342404384472424
+    },
+    {
+      "output_frame": 278,
+      "mean_absolute_RGB_error": 2.0753935185185184,
+      "PSNR_dB": 39.28419282896723
+    },
+    {
+      "output_frame": 279,
+      "mean_absolute_RGB_error": 2.1284458188657407,
+      "PSNR_dB": 39.05888500902988
+    },
+    {
+      "output_frame": 280,
+      "mean_absolute_RGB_error": 2.1559353298611112,
+      "PSNR_dB": 38.88653643496463
+    },
+    {
+      "output_frame": 281,
+      "mean_absolute_RGB_error": 2.1362897858796295,
+      "PSNR_dB": 38.9696983679603
+    },
+    {
+      "output_frame": 282,
+      "mean_absolute_RGB_error": 2.1619979745370372,
+      "PSNR_dB": 38.82599084157631
+    },
+    {
+      "output_frame": 283,
+      "mean_absolute_RGB_error": 2.0812876157407407,
+      "PSNR_dB": 39.248182797436264
+    },
+    {
+      "output_frame": 284,
+      "mean_absolute_RGB_error": 2.1313386140046298,
+      "PSNR_dB": 38.92489065382726
+    },
+    {
+      "output_frame": 285,
+      "mean_absolute_RGB_error": 2.155412326388889,
+      "PSNR_dB": 38.82912521063525
+    },
+    {
+      "output_frame": 286,
+      "mean_absolute_RGB_error": 2.2385398582175924,
+      "PSNR_dB": 38.40529493162886
+    },
+    {
+      "output_frame": 287,
+      "mean_absolute_RGB_error": 2.0258192274305555,
+      "PSNR_dB": 39.563701600522585
+    },
+    {
+      "output_frame": 288,
+      "mean_absolute_RGB_error": 2.304857132523148,
+      "PSNR_dB": 38.097543777432975
+    },
+    {
+      "output_frame": 289,
+      "mean_absolute_RGB_error": 2.1804155815972224,
+      "PSNR_dB": 38.793233673077175
+    },
+    {
+      "output_frame": 290,
+      "mean_absolute_RGB_error": 2.368839699074074,
+      "PSNR_dB": 37.85206307581415
+    },
+    {
+      "output_frame": 291,
+      "mean_absolute_RGB_error": 2.0918876591435187,
+      "PSNR_dB": 39.25068175706459
+    },
+    {
+      "output_frame": 292,
+      "mean_absolute_RGB_error": 2.408878761574074,
+      "PSNR_dB": 37.63702769427062
+    },
+    {
+      "output_frame": 293,
+      "mean_absolute_RGB_error": 2.1479571759259257,
+      "PSNR_dB": 38.967880461393015
+    },
+    {
+      "output_frame": 294,
+      "mean_absolute_RGB_error": 2.316644965277778,
+      "PSNR_dB": 38.17164763779412
+    },
+    {
+      "output_frame": 295,
+      "mean_absolute_RGB_error": 2.459114945023148,
+      "PSNR_dB": 37.431227636008934
+    },
+    {
+      "output_frame": 296,
+      "mean_absolute_RGB_error": 2.184955150462963,
+      "PSNR_dB": 38.69981155788547
+    },
+    {
+      "output_frame": 297,
+      "mean_absolute_RGB_error": 2.1550983796296297,
+      "PSNR_dB": 38.84236740346711
+    },
+    {
+      "output_frame": 298,
+      "mean_absolute_RGB_error": 2.4821372251157405,
+      "PSNR_dB": 37.35459559850539
+    },
+    {
+      "output_frame": 299,
+      "mean_absolute_RGB_error": 2.3452282262731483,
+      "PSNR_dB": 37.98085735467713
+    },
+    {
+      "output_frame": 300,
+      "mean_absolute_RGB_error": 2.527310474537037,
+      "PSNR_dB": 37.098058741336494
+    },
+    {
+      "output_frame": 301,
+      "mean_absolute_RGB_error": 2.225426070601852,
+      "PSNR_dB": 38.5989948323206
+    },
+    {
+      "output_frame": 302,
+      "mean_absolute_RGB_error": 2.3881275318287036,
+      "PSNR_dB": 37.72781873825088
+    },
+    {
+      "output_frame": 303,
+      "mean_absolute_RGB_error": 2.214531611689815,
+      "PSNR_dB": 38.54001630638212
+    },
+    {
+      "output_frame": 304,
+      "mean_absolute_RGB_error": 2.101628327546296,
+      "PSNR_dB": 39.063521105657664
+    },
+    {
+      "output_frame": 305,
+      "mean_absolute_RGB_error": 2.100689380787037,
+      "PSNR_dB": 39.10577942584992
+    },
+    {
+      "output_frame": 306,
+      "mean_absolute_RGB_error": 2.0743992332175925,
+      "PSNR_dB": 39.229240803475804
+    },
+    {
+      "output_frame": 307,
+      "mean_absolute_RGB_error": 2.1353848379629627,
+      "PSNR_dB": 38.877601492434124
+    },
+    {
+      "output_frame": 308,
+      "mean_absolute_RGB_error": 2.023884548611111,
+      "PSNR_dB": 39.455038141210515
+    },
+    {
+      "output_frame": 309,
+      "mean_absolute_RGB_error": 2.0825560619212964,
+      "PSNR_dB": 39.154338666754605
+    },
+    {
+      "output_frame": 310,
+      "mean_absolute_RGB_error": 2.245859375,
+      "PSNR_dB": 38.320143061795946
+    },
+    {
+      "output_frame": 311,
+      "mean_absolute_RGB_error": 2.131244574652778,
+      "PSNR_dB": 38.86535311916348
+    },
+    {
+      "output_frame": 312,
+      "mean_absolute_RGB_error": 2.086087962962963,
+      "PSNR_dB": 39.11681608956467
+    },
+    {
+      "output_frame": 313,
+      "mean_absolute_RGB_error": 2.237413556134259,
+      "PSNR_dB": 38.344382144380816
+    },
+    {
+      "output_frame": 314,
+      "mean_absolute_RGB_error": 2.25412109375,
+      "PSNR_dB": 38.37745344342251
+    },
+    {
+      "output_frame": 315,
+      "mean_absolute_RGB_error": 2.4962214265046296,
+      "PSNR_dB": 37.17556666382434
+    },
+    {
+      "output_frame": 316,
+      "mean_absolute_RGB_error": 2.1757237413194446,
+      "PSNR_dB": 38.75253724225824
+    },
+    {
+      "output_frame": 317,
+      "mean_absolute_RGB_error": 2.431826171875,
+      "PSNR_dB": 37.41970451867814
+    },
+    {
+      "output_frame": 318,
+      "mean_absolute_RGB_error": 2.229195240162037,
+      "PSNR_dB": 38.38514634546921
+    },
+    {
+      "output_frame": 319,
+      "mean_absolute_RGB_error": 2.141993634259259,
+      "PSNR_dB": 38.8007993346962
+    },
+    {
+      "output_frame": 320,
+      "mean_absolute_RGB_error": 2.03869140625,
+      "PSNR_dB": 39.28365945261702
+    },
+    {
+      "output_frame": 321,
+      "mean_absolute_RGB_error": 2.0977926070601853,
+      "PSNR_dB": 39.04413224774608
+    },
+    {
+      "output_frame": 322,
+      "mean_absolute_RGB_error": 2.2220265480324075,
+      "PSNR_dB": 38.403775711486226
+    },
+    {
+      "output_frame": 323,
+      "mean_absolute_RGB_error": 2.274326171875,
+      "PSNR_dB": 38.168731191820946
+    },
+    {
+      "output_frame": 324,
+      "mean_absolute_RGB_error": 2.098407841435185,
+      "PSNR_dB": 39.113846015073904
+    },
+    {
+      "output_frame": 325,
+      "mean_absolute_RGB_error": 2.366706452546296,
+      "PSNR_dB": 37.6857417241628
+    },
+    {
+      "output_frame": 326,
+      "mean_absolute_RGB_error": 2.222760054976852,
+      "PSNR_dB": 38.459575814129
+    },
+    {
+      "output_frame": 327,
+      "mean_absolute_RGB_error": 2.34923828125,
+      "PSNR_dB": 37.8095002072105
+    },
+    {
+      "output_frame": 328,
+      "mean_absolute_RGB_error": 2.1043930844907406,
+      "PSNR_dB": 39.075315537125995
+    },
+    {
+      "output_frame": 329,
+      "mean_absolute_RGB_error": 2.407780671296296,
+      "PSNR_dB": 37.483255021596975
+    },
+    {
+      "output_frame": 330,
+      "mean_absolute_RGB_error": 2.22360423900463,
+      "PSNR_dB": 38.41694714635283
+    },
+    {
+      "output_frame": 331,
+      "mean_absolute_RGB_error": 2.1465100549768517,
+      "PSNR_dB": 38.77357754119857
+    },
+    {
+      "output_frame": 332,
+      "mean_absolute_RGB_error": 2.0366261574074076,
+      "PSNR_dB": 39.33242052660146
+    },
+    {
+      "output_frame": 333,
+      "mean_absolute_RGB_error": 2.2888447627314816,
+      "PSNR_dB": 38.08598620061344
+    },
+    {
+      "output_frame": 334,
+      "mean_absolute_RGB_error": 2.2944147858796295,
+      "PSNR_dB": 38.14927031040318
+    },
+    {
+      "output_frame": 335,
+      "mean_absolute_RGB_error": 2.422316623263889,
+      "PSNR_dB": 37.5530822066784
+    },
+    {
+      "output_frame": 336,
+      "mean_absolute_RGB_error": 2.134988787615741,
+      "PSNR_dB": 38.9806495196806
+    },
+    {
+      "output_frame": 337,
+      "mean_absolute_RGB_error": 2.137964771412037,
+      "PSNR_dB": 38.96215644142022
+    },
+    {
+      "output_frame": 338,
+      "mean_absolute_RGB_error": 2.263007450810185,
+      "PSNR_dB": 38.28650803941792
+    },
+    {
+      "output_frame": 339,
+      "mean_absolute_RGB_error": 2.1322605613425925,
+      "PSNR_dB": 38.90118047216519
+    },
+    {
+      "output_frame": 340,
+      "mean_absolute_RGB_error": 2.0687149160879628,
+      "PSNR_dB": 39.22382381641028
+    },
+    {
+      "output_frame": 341,
+      "mean_absolute_RGB_error": 2.190558087384259,
+      "PSNR_dB": 38.57745802276723
+    },
+    {
+      "output_frame": 342,
+      "mean_absolute_RGB_error": 2.2168388310185185,
+      "PSNR_dB": 38.571078850996784
+    },
+    {
+      "output_frame": 343,
+      "mean_absolute_RGB_error": 2.4536610243055557,
+      "PSNR_dB": 37.36150079979434
+    },
+    {
+      "output_frame": 344,
+      "mean_absolute_RGB_error": 2.1307002314814816,
+      "PSNR_dB": 38.96703983019317
+    },
+    {
+      "output_frame": 345,
+      "mean_absolute_RGB_error": 2.204490379050926,
+      "PSNR_dB": 38.502922152948784
+    },
+    {
+      "output_frame": 346,
+      "mean_absolute_RGB_error": 2.240911458333333,
+      "PSNR_dB": 38.45888117814101
+    },
+    {
+      "output_frame": 347,
+      "mean_absolute_RGB_error": 2.4449385127314813,
+      "PSNR_dB": 37.40583345503398
+    },
+    {
+      "output_frame": 348,
+      "mean_absolute_RGB_error": 2.1132703993055557,
+      "PSNR_dB": 39.05561116677421
+    },
+    {
+      "output_frame": 349,
+      "mean_absolute_RGB_error": 2.2107526765046295,
+      "PSNR_dB": 38.64292973981957
+    },
+    {
+      "output_frame": 350,
+      "mean_absolute_RGB_error": 2.4007982494212965,
+      "PSNR_dB": 37.62056380699068
+    },
+    {
+      "output_frame": 351,
+      "mean_absolute_RGB_error": 2.1411606626157407,
+      "PSNR_dB": 38.993224358785525
+    },
+    {
+      "output_frame": 352,
+      "mean_absolute_RGB_error": 2.403507667824074,
+      "PSNR_dB": 37.55963910144894
+    },
+    {
+      "output_frame": 353,
+      "mean_absolute_RGB_error": 2.1264532696759257,
+      "PSNR_dB": 39.0526434647783
+    },
+    {
+      "output_frame": 354,
+      "mean_absolute_RGB_error": 2.4375079571759257,
+      "PSNR_dB": 37.443240268525756
+    },
+    {
+      "output_frame": 355,
+      "mean_absolute_RGB_error": 2.2667274305555556,
+      "PSNR_dB": 38.331146266734315
+    },
+    {
+      "output_frame": 356,
+      "mean_absolute_RGB_error": 2.4631430844907407,
+      "PSNR_dB": 37.336569932052925
+    },
+    {
+      "output_frame": 357,
+      "mean_absolute_RGB_error": 2.151371166087963,
+      "PSNR_dB": 38.92880743382486
+    },
+    {
+      "output_frame": 358,
+      "mean_absolute_RGB_error": 2.4393019386574073,
+      "PSNR_dB": 37.490695757183204
+    },
+    {
+      "output_frame": 359,
+      "mean_absolute_RGB_error": 2.202982855902778,
+      "PSNR_dB": 38.61130555450674
+    },
+    {
+      "output_frame": 360,
+      "mean_absolute_RGB_error": 2.170932436342593,
+      "PSNR_dB": 38.79468214644337
+    },
+    {
+      "output_frame": 361,
+      "mean_absolute_RGB_error": 2.4212022569444445,
+      "PSNR_dB": 37.58396268240961
+    },
+    {
+      "output_frame": 362,
+      "mean_absolute_RGB_error": 2.2882374855324072,
+      "PSNR_dB": 38.27780981445561
+    },
+    {
+      "output_frame": 363,
+      "mean_absolute_RGB_error": 2.55087890625,
+      "PSNR_dB": 37.00161037208177
+    },
+    {
+      "output_frame": 364,
+      "mean_absolute_RGB_error": 2.2506886574074074,
+      "PSNR_dB": 38.496208106050965
+    },
+    {
+      "output_frame": 365,
+      "mean_absolute_RGB_error": 2.453437138310185,
+      "PSNR_dB": 37.435580344450585
+    },
+    {
+      "output_frame": 366,
+      "mean_absolute_RGB_error": 2.4052683738425924,
+      "PSNR_dB": 37.7169034903246
+    },
+    {
+      "output_frame": 367,
+      "mean_absolute_RGB_error": 2.2532472511574073,
+      "PSNR_dB": 38.49604726939977
+    },
+    {
+      "output_frame": 368,
+      "mean_absolute_RGB_error": 2.286695601851852,
+      "PSNR_dB": 38.33922982281406
+    },
+    {
+      "output_frame": 369,
+      "mean_absolute_RGB_error": 2.2487319155092593,
+      "PSNR_dB": 38.482417639416454
+    },
+    {
+      "output_frame": 370,
+      "mean_absolute_RGB_error": 2.2980342158564815,
+      "PSNR_dB": 38.24191177412621
+    },
+    {
+      "output_frame": 371,
+      "mean_absolute_RGB_error": 2.2527803096064813,
+      "PSNR_dB": 38.39502496486643
+    },
+    {
+      "output_frame": 372,
+      "mean_absolute_RGB_error": 2.1566710069444444,
+      "PSNR_dB": 38.957267014737035
+    },
+    {
+      "output_frame": 373,
+      "mean_absolute_RGB_error": 2.1892371961805557,
+      "PSNR_dB": 38.812424802387476
+    },
+    {
+      "output_frame": 374,
+      "mean_absolute_RGB_error": 2.191416015625,
+      "PSNR_dB": 38.79036854729536
+    },
+    {
+      "output_frame": 375,
+      "mean_absolute_RGB_error": 2.2082801649305557,
+      "PSNR_dB": 38.64427159537041
+    },
+    {
+      "output_frame": 376,
+      "mean_absolute_RGB_error": 2.196527777777778,
+      "PSNR_dB": 38.73446639517036
+    },
+    {
+      "output_frame": 377,
+      "mean_absolute_RGB_error": 2.167361111111111,
+      "PSNR_dB": 38.74553319925086
+    },
+    {
+      "output_frame": 378,
+      "mean_absolute_RGB_error": 2.2137391493055554,
+      "PSNR_dB": 38.6841896170823
+    },
+    {
+      "output_frame": 379,
+      "mean_absolute_RGB_error": 2.197402705439815,
+      "PSNR_dB": 38.78212660629679
+    },
+    {
+      "output_frame": 380,
+      "mean_absolute_RGB_error": 2.4477032696759258,
+      "PSNR_dB": 37.54656053939249
+    },
+    {
+      "output_frame": 381,
+      "mean_absolute_RGB_error": 2.27102466724537,
+      "PSNR_dB": 38.34695929324637
+    },
+    {
+      "output_frame": 382,
+      "mean_absolute_RGB_error": 2.160010127314815,
+      "PSNR_dB": 38.89958530321873
+    },
+    {
+      "output_frame": 383,
+      "mean_absolute_RGB_error": 2.261277488425926,
+      "PSNR_dB": 38.41171999521339
+    },
+    {
+      "output_frame": 384,
+      "mean_absolute_RGB_error": 2.2439055266203702,
+      "PSNR_dB": 38.4785009837763
+    },
+    {
+      "output_frame": 385,
+      "mean_absolute_RGB_error": 2.1523842592592595,
+      "PSNR_dB": 38.872574380042245
+    },
+    {
+      "output_frame": 386,
+      "mean_absolute_RGB_error": 2.1164402488425926,
+      "PSNR_dB": 38.96842489959007
+    },
+    {
+      "output_frame": 387,
+      "mean_absolute_RGB_error": 2.0835847077546297,
+      "PSNR_dB": 39.1039731068792
+    },
+    {
+      "output_frame": 388,
+      "mean_absolute_RGB_error": 2.082464916087963,
+      "PSNR_dB": 39.152899316572
+    },
+    {
+      "output_frame": 389,
+      "mean_absolute_RGB_error": 2.0430794270833332,
+      "PSNR_dB": 39.33061491501402
+    },
+    {
+      "output_frame": 390,
+      "mean_absolute_RGB_error": 2.118445818865741,
+      "PSNR_dB": 39.04546799243846
+    },
+    {
+      "output_frame": 391,
+      "mean_absolute_RGB_error": 2.0473860677083335,
+      "PSNR_dB": 39.261481554477506
+    },
+    {
+      "output_frame": 392,
+      "mean_absolute_RGB_error": 2.1139561631944446,
+      "PSNR_dB": 38.90592196724328
+    },
+    {
+      "output_frame": 393,
+      "mean_absolute_RGB_error": 1.9985243055555555,
+      "PSNR_dB": 39.493623585639924
+    },
+    {
+      "output_frame": 394,
+      "mean_absolute_RGB_error": 2.000778718171296,
+      "PSNR_dB": 39.505680150779895
+    },
+    {
+      "output_frame": 395,
+      "mean_absolute_RGB_error": 1.962978877314815,
+      "PSNR_dB": 39.64236447497635
+    },
+    {
+      "output_frame": 396,
+      "mean_absolute_RGB_error": 2.0020648871527778,
+      "PSNR_dB": 39.51778851997041
+    },
+    {
+      "output_frame": 397,
+      "mean_absolute_RGB_error": 1.9603927951388889,
+      "PSNR_dB": 39.65524736203659
+    },
+    {
+      "output_frame": 398,
+      "mean_absolute_RGB_error": 1.9724048755787038,
+      "PSNR_dB": 39.6543649408829
+    },
+    {
+      "output_frame": 399,
+      "mean_absolute_RGB_error": 1.9435536024305555,
+      "PSNR_dB": 39.74685984664348
+    },
+    {
+      "output_frame": 400,
+      "mean_absolute_RGB_error": 1.982021484375,
+      "PSNR_dB": 39.61410167041018
+    },
+    {
+      "output_frame": 401,
+      "mean_absolute_RGB_error": 1.958173828125,
+      "PSNR_dB": 39.69628856933139
+    },
+    {
+      "output_frame": 402,
+      "mean_absolute_RGB_error": 1.969551142939815,
+      "PSNR_dB": 39.690778643928184
+    },
+    {
+      "output_frame": 403,
+      "mean_absolute_RGB_error": 2.02037037037037,
+      "PSNR_dB": 39.37139534490124
+    },
+    {
+      "output_frame": 404,
+      "mean_absolute_RGB_error": 2.227464192708333,
+      "PSNR_dB": 38.24816582631249
+    },
+    {
+      "output_frame": 405,
+      "mean_absolute_RGB_error": 2.405362774884259,
+      "PSNR_dB": 37.37367531246046
+    },
+    {
+      "output_frame": 406,
+      "mean_absolute_RGB_error": 2.1831705729166666,
+      "PSNR_dB": 38.751255642392266
+    },
+    {
+      "output_frame": 407,
+      "mean_absolute_RGB_error": 2.3896983506944443,
+      "PSNR_dB": 37.5447991956309
+    },
+    {
+      "output_frame": 408,
+      "mean_absolute_RGB_error": 2.1303081597222224,
+      "PSNR_dB": 38.85046744746329
+    },
+    {
+      "output_frame": 409,
+      "mean_absolute_RGB_error": 2.1432609953703703,
+      "PSNR_dB": 38.859763052019375
+    },
+    {
+      "output_frame": 410,
+      "mean_absolute_RGB_error": 2.1313078703703705,
+      "PSNR_dB": 38.85258358473519
+    },
+    {
+      "output_frame": 411,
+      "mean_absolute_RGB_error": 2.1108506944444443,
+      "PSNR_dB": 38.955373177198325
+    },
+    {
+      "output_frame": 412,
+      "mean_absolute_RGB_error": 2.064820601851852,
+      "PSNR_dB": 39.22527301459287
+    },
+    {
+      "output_frame": 413,
+      "mean_absolute_RGB_error": 2.272277199074074,
+      "PSNR_dB": 38.07891627140258
+    },
+    {
+      "output_frame": 414,
+      "mean_absolute_RGB_error": 2.3026200810185187,
+      "PSNR_dB": 38.07105379815488
+    },
+    {
+      "output_frame": 415,
+      "mean_absolute_RGB_error": 2.5222200520833336,
+      "PSNR_dB": 36.92439043517182
+    },
+    {
+      "output_frame": 416,
+      "mean_absolute_RGB_error": 2.2084881365740743,
+      "PSNR_dB": 38.59396841720098
+    },
+    {
+      "output_frame": 417,
+      "mean_absolute_RGB_error": 2.5336997251157407,
+      "PSNR_dB": 36.8975593952277
+    },
+    {
+      "output_frame": 418,
+      "mean_absolute_RGB_error": 2.333929398148148,
+      "PSNR_dB": 37.97885961718632
+    },
+    {
+      "output_frame": 419,
+      "mean_absolute_RGB_error": 2.5503255208333333,
+      "PSNR_dB": 36.882956420150855
+    },
+    {
+      "output_frame": 420,
+      "mean_absolute_RGB_error": 2.259521122685185,
+      "PSNR_dB": 38.36752106721726
+    },
+    {
+      "output_frame": 421,
+      "mean_absolute_RGB_error": 2.2000965711805556,
+      "PSNR_dB": 38.53984473753241
+    },
+    {
+      "output_frame": 422,
+      "mean_absolute_RGB_error": 2.3541362847222222,
+      "PSNR_dB": 37.76618038630084
+    },
+    {
+      "output_frame": 423,
+      "mean_absolute_RGB_error": 2.1685185185185185,
+      "PSNR_dB": 38.690947860173196
+    },
+    {
+      "output_frame": 424,
+      "mean_absolute_RGB_error": 2.1910145399305554,
+      "PSNR_dB": 38.609437852786556
+    },
+    {
+      "output_frame": 425,
+      "mean_absolute_RGB_error": 2.095297309027778,
+      "PSNR_dB": 39.03442122512251
+    },
+    {
+      "output_frame": 426,
+      "mean_absolute_RGB_error": 2.0862196180555554,
+      "PSNR_dB": 39.093042649315464
+    },
+    {
+      "output_frame": 427,
+      "mean_absolute_RGB_error": 2.0787467447916668,
+      "PSNR_dB": 39.082500314220006
+    },
+    {
+      "output_frame": 428,
+      "mean_absolute_RGB_error": 2.1018489583333335,
+      "PSNR_dB": 38.998121080420034
+    },
+    {
+      "output_frame": 429,
+      "mean_absolute_RGB_error": 2.06595703125,
+      "PSNR_dB": 39.03983437809616
+    },
+    {
+      "output_frame": 430,
+      "mean_absolute_RGB_error": 2.057152054398148,
+      "PSNR_dB": 39.10202613010344
+    },
+    {
+      "output_frame": 431,
+      "mean_absolute_RGB_error": 2.0762905092592594,
+      "PSNR_dB": 39.008369076542444
+    },
+    {
+      "output_frame": 432,
+      "mean_absolute_RGB_error": 2.225865162037037,
+      "PSNR_dB": 38.23545838994179
+    },
+    {
+      "output_frame": 433,
+      "mean_absolute_RGB_error": 2.220419560185185,
+      "PSNR_dB": 38.18688315613149
+    },
+    {
+      "output_frame": 434,
+      "mean_absolute_RGB_error": 2.1416008391203705,
+      "PSNR_dB": 38.80904970822544
+    },
+    {
+      "output_frame": 435,
+      "mean_absolute_RGB_error": 2.4281828703703705,
+      "PSNR_dB": 37.24306470938846
+    },
+    {
+      "output_frame": 436,
+      "mean_absolute_RGB_error": 2.182767288773148,
+      "PSNR_dB": 38.500505144849505
+    },
+    {
+      "output_frame": 437,
+      "mean_absolute_RGB_error": 2.088275824652778,
+      "PSNR_dB": 38.9425093478542
+    },
+    {
+      "output_frame": 438,
+      "mean_absolute_RGB_error": 2.059582248263889,
+      "PSNR_dB": 39.15135330662087
+    },
+    {
+      "output_frame": 439,
+      "mean_absolute_RGB_error": 2.0562098524305554,
+      "PSNR_dB": 39.16171088599211
+    },
+    {
+      "output_frame": 440,
+      "mean_absolute_RGB_error": 2.0066474971064814,
+      "PSNR_dB": 39.39279576602201
+    },
+    {
+      "output_frame": 441,
+      "mean_absolute_RGB_error": 1.982882667824074,
+      "PSNR_dB": 39.56244652843145
+    },
+    {
+      "output_frame": 442,
+      "mean_absolute_RGB_error": 2.1652484809027777,
+      "PSNR_dB": 38.44781505571099
+    },
+    {
+      "output_frame": 443,
+      "mean_absolute_RGB_error": 2.1864384403935184,
+      "PSNR_dB": 38.557288383140225
+    },
+    {
+      "output_frame": 444,
+      "mean_absolute_RGB_error": 2.373564453125,
+      "PSNR_dB": 37.47037638993602
+    },
+    {
+      "output_frame": 445,
+      "mean_absolute_RGB_error": 2.1201537181712964,
+      "PSNR_dB": 38.914476868891434
+    },
+    {
+      "output_frame": 446,
+      "mean_absolute_RGB_error": 2.384732349537037,
+      "PSNR_dB": 37.42980566221074
+    },
+    {
+      "output_frame": 447,
+      "mean_absolute_RGB_error": 2.193967375578704,
+      "PSNR_dB": 38.46401472604504
+    },
+    {
+      "output_frame": 448,
+      "mean_absolute_RGB_error": 2.076293041087963,
+      "PSNR_dB": 39.04112334353347
+    },
+    {
+      "output_frame": 449,
+      "mean_absolute_RGB_error": 2.0739832899305557,
+      "PSNR_dB": 39.06415520136
+    },
+    {
+      "output_frame": 450,
+      "mean_absolute_RGB_error": 2.218794487847222,
+      "PSNR_dB": 38.44511904626692
+    },
+    {
+      "output_frame": 451,
+      "mean_absolute_RGB_error": 2.3776613136574074,
+      "PSNR_dB": 37.523249359309574
+    },
+    {
+      "output_frame": 452,
+      "mean_absolute_RGB_error": 2.1291767939814816,
+      "PSNR_dB": 38.90748529118726
+    },
+    {
+      "output_frame": 453,
+      "mean_absolute_RGB_error": 2.311639178240741,
+      "PSNR_dB": 37.83548480702234
+    },
+    {
+      "output_frame": 454,
+      "mean_absolute_RGB_error": 2.316853660300926,
+      "PSNR_dB": 37.77245782157352
+    },
+    {
+      "output_frame": 455,
+      "mean_absolute_RGB_error": 2.1084986255787035,
+      "PSNR_dB": 39.00447259659065
+    },
+    {
+      "output_frame": 456,
+      "mean_absolute_RGB_error": 2.280126953125,
+      "PSNR_dB": 37.99428128454199
+    },
+    {
+      "output_frame": 457,
+      "mean_absolute_RGB_error": 2.3157157841435185,
+      "PSNR_dB": 37.79881422794831
+    },
+    {
+      "output_frame": 458,
+      "mean_absolute_RGB_error": 2.080367115162037,
+      "PSNR_dB": 39.09167720862265
+    },
+    {
+      "output_frame": 459,
+      "mean_absolute_RGB_error": 2.2039189091435185,
+      "PSNR_dB": 38.381742465295744
+    },
+    {
+      "output_frame": 460,
+      "mean_absolute_RGB_error": 2.0419310619212965,
+      "PSNR_dB": 39.17087584094248
+    },
+    {
+      "output_frame": 461,
+      "mean_absolute_RGB_error": 2.0038816550925924,
+      "PSNR_dB": 39.42239693346243
+    },
+    {
+      "output_frame": 462,
+      "mean_absolute_RGB_error": 2.2646433738425924,
+      "PSNR_dB": 37.93944895905988
+    },
+    {
+      "output_frame": 463,
+      "mean_absolute_RGB_error": 2.1481051070601853,
+      "PSNR_dB": 38.68313450276633
+    },
+    {
+      "output_frame": 464,
+      "mean_absolute_RGB_error": 2.337093460648148,
+      "PSNR_dB": 37.63062023673915
+    },
+    {
+      "output_frame": 465,
+      "mean_absolute_RGB_error": 2.0595674189814814,
+      "PSNR_dB": 39.222828039392944
+    },
+    {
+      "output_frame": 466,
+      "mean_absolute_RGB_error": 2.067277199074074,
+      "PSNR_dB": 39.11389613592742
+    },
+    {
+      "output_frame": 467,
+      "mean_absolute_RGB_error": 2.0441203703703703,
+      "PSNR_dB": 39.26344733402695
+    },
+    {
+      "output_frame": 468,
+      "mean_absolute_RGB_error": 2.1760029658564815,
+      "PSNR_dB": 38.510463757268106
+    },
+    {
+      "output_frame": 469,
+      "mean_absolute_RGB_error": 2.001417824074074,
+      "PSNR_dB": 39.4681280686236
+    },
+    {
+      "output_frame": 470,
+      "mean_absolute_RGB_error": 1.9931007667824074,
+      "PSNR_dB": 39.52322412061504
+    },
+    {
+      "output_frame": 471,
+      "mean_absolute_RGB_error": 1.9756828703703704,
+      "PSNR_dB": 39.59848325748905
+    },
+    {
+      "output_frame": 472,
+      "mean_absolute_RGB_error": 1.9377000144675927,
+      "PSNR_dB": 39.750638040172134
+    },
+    {
+      "output_frame": 473,
+      "mean_absolute_RGB_error": 1.920990306712963,
+      "PSNR_dB": 39.88124604858851
+    },
+    {
+      "output_frame": 474,
+      "mean_absolute_RGB_error": 2.239931640625,
+      "PSNR_dB": 38.08886194496473
+    },
+    {
+      "output_frame": 475,
+      "mean_absolute_RGB_error": 2.1601048900462962,
+      "PSNR_dB": 38.702857085131804
+    },
+    {
+      "output_frame": 476,
+      "mean_absolute_RGB_error": 2.3171079282407407,
+      "PSNR_dB": 37.82297848809188
+    },
+    {
+      "output_frame": 477,
+      "mean_absolute_RGB_error": 2.067003761574074,
+      "PSNR_dB": 39.17535732421397
+    },
+    {
+      "output_frame": 478,
+      "mean_absolute_RGB_error": 2.2227607783564816,
+      "PSNR_dB": 38.326135249193825
+    },
+    {
+      "output_frame": 479,
+      "mean_absolute_RGB_error": 2.051894892939815,
+      "PSNR_dB": 39.223917573425815
+    },
+    {
+      "output_frame": 480,
+      "mean_absolute_RGB_error": 2.0534624565972224,
+      "PSNR_dB": 39.275235667736005
+    },
+    {
+      "output_frame": 481,
+      "mean_absolute_RGB_error": 2.0387901475694443,
+      "PSNR_dB": 39.32385020888819
+    },
+    {
+      "output_frame": 482,
+      "mean_absolute_RGB_error": 2.191340060763889,
+      "PSNR_dB": 38.50116903397609
+    },
+    {
+      "output_frame": 483,
+      "mean_absolute_RGB_error": 2.034175708912037,
+      "PSNR_dB": 39.3439711952997
+    },
+    {
+      "output_frame": 484,
+      "mean_absolute_RGB_error": 2.060500578703704,
+      "PSNR_dB": 39.231844693409045
+    },
+    {
+      "output_frame": 485,
+      "mean_absolute_RGB_error": 1.9539322916666666,
+      "PSNR_dB": 39.726267805496526
+    },
+    {
+      "output_frame": 486,
+      "mean_absolute_RGB_error": 1.9419444444444445,
+      "PSNR_dB": 39.80385310081663
+    },
+    {
+      "output_frame": 487,
+      "mean_absolute_RGB_error": 1.938717086226852,
+      "PSNR_dB": 39.814580058282715
+    },
+    {
+      "output_frame": 488,
+      "mean_absolute_RGB_error": 1.9849540653935185,
+      "PSNR_dB": 39.6015838541253
+    },
+    {
+      "output_frame": 489,
+      "mean_absolute_RGB_error": 1.9418019386574075,
+      "PSNR_dB": 39.716439369792084
+    },
+    {
+      "output_frame": 490,
+      "mean_absolute_RGB_error": 1.959541015625,
+      "PSNR_dB": 39.608137968306806
+    },
+    {
+      "output_frame": 491,
+      "mean_absolute_RGB_error": 1.9618663194444443,
+      "PSNR_dB": 39.61049684483589
+    },
+    {
+      "output_frame": 492,
+      "mean_absolute_RGB_error": 1.922160373263889,
+      "PSNR_dB": 39.7426340893705
+    },
+    {
+      "output_frame": 493,
+      "mean_absolute_RGB_error": 1.893485966435185,
+      "PSNR_dB": 39.97599076748848
+    },
+    {
+      "output_frame": 494,
+      "mean_absolute_RGB_error": 2.1640104166666667,
+      "PSNR_dB": 38.490801494494434
+    },
+    {
+      "output_frame": 495,
+      "mean_absolute_RGB_error": 2.011474971064815,
+      "PSNR_dB": 39.376941741274265
+    },
+    {
+      "output_frame": 496,
+      "mean_absolute_RGB_error": 2.0071726707175928,
+      "PSNR_dB": 39.41166195301787
+    },
+    {
+      "output_frame": 497,
+      "mean_absolute_RGB_error": 2.12421947337963,
+      "PSNR_dB": 38.87366376565765
+    },
+    {
+      "output_frame": 498,
+      "mean_absolute_RGB_error": 2.315383029513889,
+      "PSNR_dB": 37.79101841976993
+    },
+    {
+      "output_frame": 499,
+      "mean_absolute_RGB_error": 2.351763961226852,
+      "PSNR_dB": 37.81051731355418
+    },
+    {
+      "output_frame": 500,
+      "mean_absolute_RGB_error": 1.739808666087963,
+      "PSNR_dB": 40.84710445656106
+    },
+    {
+      "output_frame": 501,
+      "mean_absolute_RGB_error": 1.9639720775462963,
+      "PSNR_dB": 39.39440330457153
+    },
+    {
+      "output_frame": 502,
+      "mean_absolute_RGB_error": 2.0669270833333333,
+      "PSNR_dB": 39.082550848103054
+    },
+    {
+      "output_frame": 503,
+      "mean_absolute_RGB_error": 2.234581524884259,
+      "PSNR_dB": 38.08591856378738
+    },
+    {
+      "output_frame": 504,
+      "mean_absolute_RGB_error": 2.0121618200231484,
+      "PSNR_dB": 39.33594790728542
+    },
+    {
+      "output_frame": 505,
+      "mean_absolute_RGB_error": 1.9409205005787038,
+      "PSNR_dB": 39.700593999092916
+    },
+    {
+      "output_frame": 506,
+      "mean_absolute_RGB_error": 1.9977434172453703,
+      "PSNR_dB": 39.349153388852
+    },
+    {
+      "output_frame": 507,
+      "mean_absolute_RGB_error": 1.9357508680555555,
+      "PSNR_dB": 39.724733204930644
+    },
+    {
+      "output_frame": 508,
+      "mean_absolute_RGB_error": 1.985928096064815,
+      "PSNR_dB": 39.41779031218416
+    },
+    {
+      "output_frame": 509,
+      "mean_absolute_RGB_error": 2.0490874565972224,
+      "PSNR_dB": 39.0255771260182
+    },
+    {
+      "output_frame": 510,
+      "mean_absolute_RGB_error": 2.213464265046296,
+      "PSNR_dB": 38.345695333104544
+    }
+  ]
+}

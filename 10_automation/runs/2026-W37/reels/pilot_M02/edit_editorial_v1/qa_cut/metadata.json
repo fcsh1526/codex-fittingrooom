@@ -1,0 +1,29 @@
+{
+  "source": "10_automation\\runs\\2026-W37\\reels\\pilot_M02\\edit_editorial_v1\\M02_L01_S01_S02_clean_v1.mp4",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.5
+  },
+  "checkpoint_seconds": [
+    2.5,
+    2.75,
+    2.917,
+    3.0,
+    3.083,
+    3.25,
+    3.5
+  ],
+  "continuous_review": "pending"
+}

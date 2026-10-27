@@ -1,0 +1,10 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_planning_2026-10-07\\front_opening_gesture\\local_trial_2026-10-08\\review_deep_to_light_v1\\M02_front_opening_deep_to_light_review_v1.mp4",
+  "audio_stream_count": 0,
+  "audio_stream_lines": [],
+  "video_stream_lines": [
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 2510 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+  ],
+  "method": "ffmpeg input metadata inspection; no output requested",
+  "source_modified": false
+}

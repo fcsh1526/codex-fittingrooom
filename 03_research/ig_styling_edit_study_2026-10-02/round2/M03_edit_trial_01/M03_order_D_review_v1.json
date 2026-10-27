@@ -1,0 +1,235 @@
+{
+  "version": "D",
+  "date": "2026-10-02",
+  "status": "user_selected_picture_edit",
+  "output_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/M03_order_D_review_v1.mp4",
+  "sha256": "906dc03da54d619536e25aa49b1ecb9877f2ea430f0f893959e24f2f92f462a8",
+  "shot_order": [
+    "A2",
+    "A1",
+    "B1",
+    "B2"
+  ],
+  "sources": [
+    {
+      "shot_id": "A2",
+      "look_id": "2026-W37-005-L01",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A2_L01_motion_v1_01.mp4",
+      "source_sha256": "bc22fffeb3f6f498bfa487e48cd522dc5298c636561645482acd8981923592fc",
+      "start_frame": 6,
+      "end_frame_exclusive": 84,
+      "selected_frames": 78,
+      "selected_preview": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/A2_selected.mp4",
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M03_edit_trial_01\\A2_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 3.25
+        },
+        "decoded_frames": 78,
+        "decoded_seconds": 3.25,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/qa/A2/source_checkpoints.jpg",
+      "sampled_visual_review": "Six sampled checkpoints reviewed: no obvious sampled face/wardrobe/bag/hand/background jump. Continuous playback and user acceptance pending.",
+      "continuous_review": "pending"
+    },
+    {
+      "shot_id": "A1",
+      "look_id": "2026-W37-005-L01",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+      "source_sha256": "f30b6aa35633531f8c5f513382a69a5d0d5a067022f07a4c0101e895aaf56ec9",
+      "start_frame": 18,
+      "end_frame_exclusive": 96,
+      "selected_frames": 78,
+      "selected_preview": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/A1_selected.mp4",
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M03_edit_trial_01\\A1_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 3.25
+        },
+        "decoded_frames": 78,
+        "decoded_seconds": 3.25,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/qa/A1/source_checkpoints.jpg",
+      "sampled_visual_review": "Six sampled checkpoints reviewed: no obvious sampled face/wardrobe/bag/hand/background jump. Continuous playback and user acceptance pending.",
+      "continuous_review": "pending"
+    },
+    {
+      "shot_id": "B1",
+      "look_id": "2026-W37-005-L02",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_B1_L02_motion_v1_01.mp4",
+      "source_sha256": "615817bb0d56353830fa456e1d16e9af3682eaa64a1863a555756c42daa20988",
+      "start_frame": 18,
+      "end_frame_exclusive": 96,
+      "selected_frames": 78,
+      "selected_preview": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/B1_selected.mp4",
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M03_edit_trial_01\\B1_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 3.25
+        },
+        "decoded_frames": 78,
+        "decoded_seconds": 3.25,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/qa/B1/source_checkpoints.jpg",
+      "sampled_visual_review": "Six sampled checkpoints reviewed: no obvious sampled face/wardrobe/bag/hand/background jump. Continuous playback and user acceptance pending.",
+      "continuous_review": "pending"
+    },
+    {
+      "shot_id": "B2",
+      "look_id": "2026-W37-005-L02",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_B2_L02_motion_v1_01.mp4",
+      "source_sha256": "9701ce35046d31aa688f0ee97e06b8e268935afdbe8f308c00910c0538828984",
+      "start_frame": 6,
+      "end_frame_exclusive": 84,
+      "selected_frames": 78,
+      "selected_preview": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/B2_selected.mp4",
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M03_edit_trial_01\\B2_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 3.25
+        },
+        "decoded_frames": 78,
+        "decoded_seconds": 3.25,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/qa/B2/source_checkpoints.jpg",
+      "sampled_visual_review": "Six sampled checkpoints reviewed: no obvious sampled face/wardrobe/bag/hand/background jump. Continuous playback and user acceptance pending.",
+      "continuous_review": "pending"
+    }
+  ],
+  "theoretical_seconds": 10.75,
+  "actual_seconds": 10.75,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "audio": "none",
+  "baked_text": "none",
+  "character_speed": "unchanged",
+  "crop": "static cover-scale and center crop, no stretching",
+  "transitions": [
+    {
+      "start": 2.5,
+      "end": 3.25,
+      "duration": 0.75,
+      "type": "cross dissolve"
+    },
+    {
+      "start": 5,
+      "end": 5.75,
+      "duration": 0.75,
+      "type": "cross dissolve"
+    },
+    {
+      "start": 7.5,
+      "end": 8.25,
+      "duration": 0.75,
+      "type": "cross dissolve"
+    }
+  ],
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M03_edit_trial_01\\M03_order_D_review_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 10.75
+    },
+    "decoded_frames": 258,
+    "decoded_seconds": 10.75,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/qa/D/output_checkpoints.jpg",
+  "assistant_sampled_visual_review": "21 sampled checkpoints reviewed. Central full/full junction uses closer subject scale but poses/foot positions differ. First/last scale changes retain ghosting. No obvious sampled wardrobe or background jump outside the planned overlaps. Continuous comfort review pending.",
+  "assistant_continuous_review": false,
+  "user_approval": {
+    "date": "2026-10-02",
+    "response": "D版",
+    "selected": true,
+    "scope": "Selection of this edit in C/D comparison; no detailed rationale or explicit complete-playback self-report."
+  },
+  "audience_performance": null,
+  "time": {
+    "active_minutes": null,
+    "new_generation_wait_minutes": 0,
+    "successful_source_processing_seconds": 12.64,
+    "successful_two_version_processing_seconds": 21.77,
+    "note": "Tool wall time excludes troubleshooting; not total active work time."
+  }
+}

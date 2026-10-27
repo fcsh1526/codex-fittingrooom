@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-13",
+  "status": "user_approved_exact_seated_first_frame",
+  "model": "M02",
+  "look_id": "2026-W41-003-L02",
+  "tool_mode": "built_in_image_gen",
+  "prompt": "03_research/editorial_repeatability_m02_2026-10-13/L02_seated_prompt_v1.txt",
+  "initial_calls": 1,
+  "targeted_edits": 0,
+  "start": "2026-10-13T08:49:04.001Z",
+  "returned": "2026-10-13T08:50:14.853Z",
+  "reference_strategy": "Approved M02 v3 face/full identity pixels; own approved L02 full image inspected for written wardrobe authority. No L01 wardrobe pixel reference.",
+  "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/daily_coffee_v1/2026-W41-003-L02_M02_seated_candidate_v1.png",
+  "review": "Viewed native image: recognizable M02, complete head/below-knees, unprinted white short sleeve pointed-collar shirt tucked in, black belt, brown denim seams and waist, image-left black flap shoulder bag, relaxed hands on thighs. No gross hand anomaly or repeated decorative denim motif. Head/door/stool/plant locations approximately match L01 seated framing but not identical geometry; L02 is brighter, bag wider than original full view. New dynamic/cut QA not yet possible.",
+  "user_still_approval": "03_research/editorial_repeatability_m02_2026-10-13/L02_seated_user_approval.json",
+  "new_motion_submitted": 1,
+  "limits": "New derivative candidate only. One call does not establish repeatability, exact match to source scene, dynamic identity or complete film acceptance.",
+  "sha256": "9fa6242674504abe0ac9feabac8f902d04e60b1762b783f6fb87ac591f128a04",
+  "native_pixel_dimensions": [
+    941,
+    1672
+  ]
+}

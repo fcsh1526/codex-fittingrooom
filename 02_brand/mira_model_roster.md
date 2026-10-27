@@ -25,9 +25,9 @@ M05 true age 20 -> prompt visual age: around 20, youthful adult
 Every model prompt must follow:
 
 ```text
-Express age through styling and presence, NOT wrinkles.
-East Asian women look significantly younger than Western age norms.
-Skin is smooth and well-maintained.
+Use the approved prompt-age language only; never include numeric true age.
+Preserve recognizable adult identity, believable skin texture, and normal human variation.
+Do not use age caricature, smoothing instructions, or beauty retouching.
 ```
 
 ## Model Strategy
@@ -70,7 +70,7 @@ with any model when the content plan calls for that identity.
 - Prompt age language: mid 30s look, well-maintained.
 - Projection: a stylish adult reader who wants practical outfits with softness, confidence, and enough polish for work or weekend.
 - Fixed hair baseline: dark brown medium-to-long hair with polished natural movement.
-- Visual profile for prompts: East Asian woman with a well-maintained mid-30s look, softly defined oval face with gentle cheeks and balanced jawline, dark brown medium-to-long hair with polished natural movement, natural makeup, relaxed confident posture, healthy slim-to-average build, smooth well-maintained skin with realistic fine texture.
+- Visual profile for prompts: East Asian woman with a well-maintained mid-30s look, softly defined oval face with gentle cheeks and balanced jawline, dark brown medium-to-long hair with polished natural movement, natural makeup, relaxed confident posture, healthy slim-to-average build, believable skin texture with normal human tonal variation.
 - Style range: dresses, skirts, relaxed tailoring, cardigans, sheer layers, denim, trousers, soft blouses, ballet flats, Mary Janes, loafers, shoulder bags, restrained color palettes.
 - Scenes: cafe window, office-adjacent corridor, bookstore street, department store fitting area, quiet shopping street, neighborhood sidewalk, simple studio with natural shadows.
 - Avoid: making her look teen, making her look elderly, excessive sweetness, plastic skin, heavy filters, bridal styling, glamour model pose, luxury resort background, wrinkle-based age cues.
@@ -81,7 +81,7 @@ with any model when the content plan calls for that identity.
 - Prompt age language: early 40s look, elegant.
 - Projection: a polished mature reader who wants modern outfits that feel current, composed, elegant, and wearable without looking overly young or overly formal.
 - Fixed hair baseline: straight dark brown chin-to-shoulder bob with a clean side part.
-- Visual profile for prompts: East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with smooth well-maintained texture, calm intelligent expression, slightly taller average-slim healthy proportions, composed editorial presence.
+- Visual profile for prompts: East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with believable fine texture and tonal variation, calm intelligent expression, slightly taller average-slim healthy proportions, composed editorial presence.
 - Style range: button shirts, knit tops, blazers, sheer layers, tailored trousers, midi skirts, denim, dresses, loafers, low heels, refined flats, structured bags, quiet neutral layers, polished casual pieces.
 - Scenes: office lobby, cafe before work, shaded city sidewalk, bookstore street, covered walkway, quiet shopping street, simple studio with natural shadows.
 - Avoid: making her look teen, making her look elderly, overly smoothed skin, wrinkle-focused aging, plastic beauty lighting, hard power-suit stereotype, luxury hotel background, runway pose, visible logos.

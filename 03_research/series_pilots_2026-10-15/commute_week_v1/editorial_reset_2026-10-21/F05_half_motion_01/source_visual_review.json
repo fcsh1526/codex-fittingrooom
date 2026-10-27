@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "source": "F05_half_source.mp4",
+  "sha256": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+  "root_viewed": [
+    "QA_2026-10-22/checkpoints_25.jpg",
+    "QA_2026-10-22/pushin_dense_f060_to144.jpg",
+    "QA_2026-10-22/first18.jpg",
+    "QA_2026-10-22/frame_000090.png",
+    "QA_2026-10-22/frame_000128.png"
+  ],
+  "findings": [
+    "Full head/skirt hem/both shoes readable approximately source0–3s; by~3.25s shoe crop begins, earlier than requested constantfull to3.75s",
+    "Continuous tighter framing develops, about5.33s reaches approved head-to-thigh family with complete blue bag",
+    "Sampled face/hair/shirt/skirt/bag consistent, near hand waist and far arm swinging; no blocking still-visible anatomy issue observed",
+    "Additional short stairs reveal from right edge around1.5–1.75s then pass behind/toleft; relationship to initial left stairs unverified; no sampled central spontaneous growth shown"
+  ],
+  "independent_review": {
+    "agent": "/root/half_shot_reuse_audit_oct22",
+    "scope": "Named QA sheets plus native90/128, no complete normal-speed visual playback",
+    "eligible_for_research_append": true,
+    "limits": "No measured zero-slide, literal keyframe pin or exact world/route claim"
+  },
+  "source_eligible_for_research_append": true,
+  "source_eligible_is_user_approval": false,
+  "background_validated": false,
+  "measured_zero_slide": false,
+  "full_continuous_visual_review": false,
+  "browser_playback": "Original source UI loop-play observed muted at1x; screenshots/time metadata only, see browser_playback_observation.json",
+  "automatic_regeneration": false,
+  "user_video_approval": false,
+  "publishing_approval": false
+}

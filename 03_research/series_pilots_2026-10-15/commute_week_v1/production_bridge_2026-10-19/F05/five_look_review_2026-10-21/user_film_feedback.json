@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-21",
+  "preview": "v1/review.mp4",
+  "sha256": "be262d6771141eeda11d2671cc5c1a87b7a03d869aacf60c117e5d5bc8b38b03",
+  "initial_question": "請完整播放下方29.67秒五套研究預覽：能否看懂「同一人沿同一路線上班，提供五天穿搭靈感」？約23.6–24.4秒仍有短暫雙影；最後換裝、裙裝拉開及整支節奏是否可以保留？這次只確認研究片。",
+  "initial_user_answer": "整支觀看重點或節奏仍需調整",
+  "clarification_question": "這支最影響觀看的是哪一點？我正在核對時間分配，先不重生影片。",
+  "clarification_user_answer": "兩者都有，需一起調整",
+  "clarification_options": ["衣服變化不夠突出，不知道重點看哪裡", "走路停留太久，整體缺乏推進感", "兩者都有，需一起調整"],
+  "whole_film_accepted": false,
+  "F05_isolated_dynamic_verdict": null,
+  "prior_local_acceptances_revoked": false,
+  "normal_speed_complete_playback_self_report": null,
+  "next_action": "Whole-film paper-edit proposal before any new generation or video render",
+  "media_or_publishing_changes": false
+}

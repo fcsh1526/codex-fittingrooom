@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-16",
+  "recorded_timezone": "Asia/Taipei",
+  "event_at": null,
+  "event_local_date": null,
+  "event_time_limit": "Exact event date/time is not established by this receipt;2026-10-16 is the record date only.",
+  "status": "revision_requested_reference_led_shot_redesign",
+  "question": "請完整播放新的9.25秒都會通勤試片：正面倒退跟拍→側面過街、人流與步伐，是否更接近你要的俐落都會女性與廣告吸引力？約4.5秒仍有明顯正側臉重影。這是五套系列的前兩鏡方向測試。",
+  "question_record_type": "verbatim_exact_film_review_question",
+  "user_quote": "仍不夠俐落或吸引人",
+  "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+  "sha256": "5dbe1ac323511a7c5e6e2a6de7e81b42cf16af21098a162aad1602d58061c30e",
+  "pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "decoded_frames": 222,
+  "seconds": 9.25,
+  "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/edit_receipt.json",
+  "technical_binding": "Actual current film SHA verified; frame/raster/native timing facts checked against its edit receipt, not newly generated or retimed.",
+  "source_intervals": [
+    {
+      "shot": "U01",
+      "frames_half_open": [
+        48,
+        168
+      ],
+      "seconds_half_open": [
+        2,
+        7
+      ]
+    },
+    {
+      "shot": "U02",
+      "frames_half_open": [
+        0,
+        120
+      ],
+      "seconds_half_open": [
+        0,
+        5
+      ]
+    }
+  ],
+  "transition": {
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      102,
+      120
+    ],
+    "output_seconds_half_open": [
+      4.25,
+      5
+    ]
+  },
+  "scope": "Exact9.25second urban first-pair creative direction remains insufficiently decisive or attractive. This is a revision request, not film approval, and does not by itself revoke still approvals, the sameM03/five-outfit weekly-inspiration content direction or the0.75second transition preference.",
+  "creative_acceptance": "revision_requested",
+  "root_cause_status": "hypotheses_unvalidated",
+  "root_cause_assessment": null,
+  "reference_research_completed": false,
+  "new_storyboard_approved": false,
+  "next_gate": "Reference-led analysis and concrete shot redesign before further production; do not expand plannedU03-U05 under this rejected pair direction.",
+  "remaining_U03_U05_expansion_allowed": false,
+  "normal_speed_full_playback_user_self_report": null,
+  "assistant_continuous_playback": false,
+  "perceived_speed_improvement_verified": false,
+  "prompt_18_to_20_footfalls_goal_verified": false,
+  "join_comfort_separately_judged": null,
+  "transition_preference_revoked": false,
+  "exact_starting_still_approvals_preserved": true,
+  "previous_feedback_and_film_approvals_preserved": true,
+  "complete_five_look_film_approval": null,
+  "account_wide_adoption": null,
+  "publishable": false,
+  "publishing_files_replaced": []
+}

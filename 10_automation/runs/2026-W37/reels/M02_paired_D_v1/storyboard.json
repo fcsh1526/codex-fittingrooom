@@ -1,0 +1,182 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "week_id": "2026-W37",
+  "model_profile_id": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "status": "accepted_clean_picture_track",
+  "L01_full_approval_date": "2026-10-05",
+  "current_asset_candidates": {
+    "L01_full": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+    "L01_proof": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+    "L02_full": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+    "L02_proof": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png"
+  },
+  "audience_question": "兩套敞開襯衫配洋裝，內外配色與領口如何呈現不同層次？",
+  "visible_claim": "第一套霧灰前襟內的奶油白弧領；第二套霧藍前襟內的深藍方領。可見領口、前襟、腰線與兩層邊界。",
+  "not_claimed": [
+    "實穿舒適度",
+    "實際透氣性能",
+    "單品真實尺寸",
+    "剪輯導致曝光成長"
+  ],
+  "visual_theme": "同一個日常閱讀空間，兩套薄外層與內搭的色塊及領口關係；親切的服裝雜誌構圖。",
+  "source_change": "同場景配對來源，加上保留 D 順序的兩段原生連續運鏡。多個因素同時改變，屬技術及編輯試作，不是單因素曝光試驗。",
+  "scene": {
+    "purpose": "原週資料包含冷氣房閱讀；安靜的社區圖書館座位區讓兩套屬於同一穿衣情境。",
+    "central_background": "霧暖灰啞光牆",
+    "side_objects": "右側邊緣木書架；左側低木閱讀椅",
+    "floor": "低反光磨石地面",
+    "light": "画面左方柔和日光",
+    "camera": "full-frame mirrorless, 50mm, chest height, level axis",
+    "geometry_policy": "第一套核准全身作共同場景來源；第二套只引用其場景/构圖，不引用第一套衣服。中景保留實際可見的背景結構，不要求不同視點圖片假裝精確首尾幀。"
+  },
+  "shots": [
+    {
+      "id": "A",
+      "look_id": "2026-W37-001-L01",
+      "source_seconds_target": 6,
+      "first_frame": "第一套核准的領口/前襟中景",
+      "outfit_reference": "第一套核准全身master",
+      "identity_reference": "Mira M02 v3，須當次UI確認",
+      "camera_move": "單一原生拉遠：中景→全身，固定鏡高與角度",
+      "character_action": "自然重心微移，輕扶包帶；不新增轉身或走出；不後製改速",
+      "nodes": [
+        {
+          "start": 0,
+          "end": 1.5,
+          "framing": "中景",
+          "information": "霧灰前襟與奶油白弧領/腰線"
+        },
+        {
+          "start": 1.5,
+          "end": 3.75,
+          "framing": "中景連續拉遠至全身",
+          "information": "重點與裙長、鞋包的關係"
+        },
+        {
+          "start": 3.75,
+          "end": 6,
+          "framing": "全身；鏡位完成移動後保留可讀片段",
+          "information": "第一套完整比例，準備匹配第二套"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "look_id": "2026-W37-001-L02",
+      "source_seconds_target": 6,
+      "first_frame": "第二套核准的匹配全身master",
+      "outfit_reference": "第二套核准全身master；不得混用第一套衣服",
+      "identity_reference": "Mira M02 v3，須當次UI確認",
+      "camera_move": "單一原生推近：全身→領口/前襟中景，固定鏡高與角度",
+      "character_action": "自然重心微移，保留核准全身圖的輕扶灰托特包帶；不新增大動作；不後製改速",
+      "nodes": [
+        {
+          "start": 0,
+          "end": 2.25,
+          "framing": "全身",
+          "information": "第二套完整比例，相同觀看位置顯示配色差異"
+        },
+        {
+          "start": 2.25,
+          "end": 4.5,
+          "framing": "全身連續推近至中景",
+          "information": "整體配色帶至內搭方領"
+        },
+        {
+          "start": 4.5,
+          "end": 6,
+          "framing": "中景",
+          "information": "霧藍前襟、深藍方領與兩層邊界"
+        }
+      ]
+    }
+  ],
+  "transition": {
+    "count": 1,
+    "type": "cross_dissolve",
+    "seconds": 0.75,
+    "pair": "A 全身末段 / B 全身起段",
+    "source_ranges_target": {
+      "A": [
+        5.25,
+        6
+      ],
+      "B": [
+        0,
+        0.75
+      ]
+    },
+    "check_whole_overlap": true,
+    "matching_warning_values": {
+      "center_dx_fraction_of_width": 0.05,
+      "focus_dy_fraction_of_height": 0.05,
+      "relative_subject_scale_difference": 0.05
+    },
+    "warning_values_status": "待試工作值，不是通用驗收門檻"
+  },
+  "reading_time_target": {
+    "A_proof": 1.5,
+    "A_full_without_overlap": 1.5,
+    "B_full_without_overlap": 1.5,
+    "B_proof": 1.5,
+    "total_output_seconds": 11.25,
+    "note": "名義6s+6s-0.75s。實際UI時長/生成區間須重算；不能直接延長退件、降速、凍結或反播。"
+  },
+  "text": "none",
+  "audio": "clean master; chosen music verified separately",
+  "approval_gates": [
+    "L01 新全身 master 使用者視覺核准",
+    "L01 中景核准及場景/服裝匹配",
+    "L02 全身与中景核准及配對檢查",
+    "Grok當次First frame/Reference/人物實際選取證據",
+    "每段連續播放及關鍵時間QA",
+    "整段交疊與整片正常速度使用者核准"
+  ],
+  "dynamic_qa": "decode_and_sampled_QA_complete_user_exact_cut_accepted_assistant_continuous_review_not_claimed",
+  "actual_render": {
+    "review_path": "review/M02_paired_D_v1_review_v2_matched.mp4",
+    "receipt": "review/M02_paired_D_v1_review_v2_matched.json",
+    "output_sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989",
+    "source_attempts": [
+      "grok_A_attempt_02",
+      "grok_B_attempt_01"
+    ],
+    "selected_source_frames_each": [
+      0,
+      144
+    ],
+    "selected_range_convention": "start inclusive, end exclusive",
+    "frames": 270,
+    "fps": 24,
+    "seconds": 11.25,
+    "dimensions": [
+      720,
+      1280
+    ],
+    "cross_dissolve_output_seconds": [
+      5.25,
+      6
+    ],
+    "cross_dissolve_frames": 18,
+    "A_fixed_framing": "proportional scale 747x1328, fixed crop 720x1280 x14 y44; no moving crop window",
+    "B_fixed_framing": "original",
+    "speed": "unchanged",
+    "text": "none",
+    "audio": "none",
+    "observed_timing": "A approximately settled full view from3.5s; B full sampled through2.5s, ending medium continues pushing",
+    "remaining_limits": [
+      "Residual face/hand/bag double edges during dissolve",
+      "Bookcase vine/window/seat geometry differs across sources",
+      "A opening top margin reduced by fixed crop; platform-safe review pending"
+    ],
+    "assistant_continuous_review": false,
+    "user_approval": "user_video_approval_2026-10-05.json",
+    "publishable": false,
+    "status": "accepted_clean_picture_track"
+  },
+  "publication": "not_requested"
+}

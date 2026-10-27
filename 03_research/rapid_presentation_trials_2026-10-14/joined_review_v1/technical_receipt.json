@@ -1,0 +1,66 @@
+{
+  "source": "03_research/rapid_presentation_trials_2026-10-14/joined_review_v1/M04_blue_bag_viewing_route_v1.mp4",
+  "sha256": "f401145ed2de8add9505d34d175d638e73bfe6ab48c3de06dde10728cbd3e2a0",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\rapid_presentation_trials_2026-10-14\\joined_review_v1\\M04_blue_bag_viewing_route_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 15.5
+    },
+    "decoded_frames": 372,
+    "decoded_seconds": 15.5,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    15,
+    30,
+    46,
+    61,
+    77,
+    92,
+    108,
+    123,
+    139,
+    154,
+    170,
+    185,
+    200,
+    216,
+    231,
+    247,
+    262,
+    278,
+    293,
+    309,
+    324,
+    340,
+    355,
+    371
+  ],
+  "face_sample_frames": [
+    0,
+    92,
+    185,
+    278,
+    371
+  ],
+  "all_frame_thumbnails_exported": 372,
+  "visual_review": "pending",
+  "assistant_continuous_playback": false,
+  "user_film_approval": null
+}

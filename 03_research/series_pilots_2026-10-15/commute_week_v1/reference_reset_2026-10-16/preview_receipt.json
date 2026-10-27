@@ -1,0 +1,15 @@
+{
+  "source_sha256": "4bf0bdb9f4d547827fd36001da3c359eadcd2b7a2c053761b454effdc0ee4981",
+  "preview": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_walk_past_silent_review_v1.mp4",
+  "preview_sha256": "73db8969fad2b9c2bd53e0b5a62ebe0ae9a497de6adc97ec7a44768cf98633ec",
+  "transformation": "audio removed; video stream copied without trim/retime/crop/scale",
+  "source_frames": 145,
+  "size": [
+    720,
+    1280
+  ],
+  "fps": 24.0,
+  "duration_frames_over_fps": 6.041666666666667,
+  "assistant_continuous_playback": false,
+  "user_film_approval": null
+}

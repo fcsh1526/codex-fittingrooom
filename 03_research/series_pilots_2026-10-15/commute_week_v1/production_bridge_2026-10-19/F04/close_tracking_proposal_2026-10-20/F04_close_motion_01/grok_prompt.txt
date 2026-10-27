@@ -1,0 +1,14 @@
+執行一次「第四套格紋近景平行跟拍」6秒影片。精確首圖已由使用者核准並剛上傳，不新出照片、不合片、不換衣、不自行重試。不要使用畫布其他模特兒、其他服裝、舊過街片或未核准圖。
+
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "4bc73c9a-82ab-4b2b-af0f-bdbce6d11126"
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+本次不用last或keyframes。first是M03奶油白／海軍藍細格襯衫、尖領捲袖、紮入炭灰褲、黑肩包，頭至大腿中段向右行走，灰綠玻璃／原花台柔焦。兩張asset_ids只鎖M03 v3身份及普通身形，不複製參照衣服／站姿／背景。若首圖內容不符或必要參數被拒絕，停下回報，不自行替換。
+
+Generate one continuous six-second real-time close tracking shot, beginning from the exact approved first image. The same woman continues a purposeful natural commute walk toward image-right with an even ordinary cadence. The camera tracks parallel on the same side at approximately her walking speed, maintaining the approved complete-head-to-mid-thigh framing, right-facing profile, forward gaze, eye position and comparable subject scale. Keep her complete hair, both hands and the whole black shoulder bag within frame with room for natural swing. Feet, crossing paint and the road surface remain outside this shot. No pullback, additional push-in or camera orbit.
+
+Maintain her cream-white thin pointed-collar shirt with fine navy square checks, softly open top button, forearm rolled sleeves, tucked waist, charcoal straight trousers, black leather bag on the same near shoulder and exact face/hair/ordinary proportions. Allow natural arm movement, subtle walking weight transfer and fabric response, while keeping the check grid, collar, bag and fingers stable. Maintain the first frame's level chest-height full-frame mirrorless50mm photographic character, directional daylight and believable skin texture. The same grey-green company glass, existing pale stone planter and foliage remain softly optically defocused behind her; they move only through natural parallax. Preserve recognisable broad window rhythms and light direction without inventing new entrances, columns, trees, plant rows or street fixtures. No transformation, freeze, internal cut/dissolve, slow motion, speed ramp, text or logo. Disable audio only if a real option exists; otherwise report actual track.
+
+只生成這一次；完成後在原畫布保留，回報實際first/asset_ids、輸出asset UUID、實際時長／像素／音軌。把參數接受、抽樣觀察分開；不自行宣告無痕換裝或全片通過。

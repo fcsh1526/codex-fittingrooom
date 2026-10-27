@@ -1,0 +1,11 @@
+{
+  "record_date_local":"2026-10-20",
+  "event_timestamp":null,
+  "asset":{"file":"F01_F02_F03_phase_plus1_native_soft_review_v1.mp4","sha256":"f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33","frames":331,"fps":24,"seconds":13.791666666666666,"size":[720,1280]},
+  "question":"請播放這支新的13.79秒接點微調版，特別看第8–9秒：前後落腳已微調對齊，仍用原第三段與0.75秒柔接。飄移感是否減少到可保留？這次沒有採用新增柱子的重生版，也尚未判定原片滑步已解決。",
+  "user_answer":"可以保留，繼續第四套",
+  "status":"exact_three_shot_phase_plus1_accepted_continue_F04",
+  "scope":"Keep exact phase+1 three-shot candidate and proceed to fourthlook. This is a subjective acceptability response, not measured zero sliding, full-playback self-report, exact site geometry or whole-five-look approval.",
+  "preserve":["originalF03source26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5", "same13.79s picture/sourceintervals and18framejoins", "failedpillarretry excluded", "no burned text/audio"],
+  "next":"F04L02 wardrobe start from actualoriginalF03frame127, compatible crossing endpoint and separate exact still approvals before motion"
+}

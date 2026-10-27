@@ -1,0 +1,22 @@
+現在只執行一次「F04 新分鏡三圖控制試片」。三圖均由使用者精確視覺核准；新中途及新末幀剛各別上傳並目視核對。不要出新靜態圖、不合片、不改或刪任何舊資產、不自動重試。畫布目前選取狀態不作角色依據，請使用以下精確UUID；不要用舊中途90081...或舊末幀a06...，也不要用上一支失敗影片cb1...。
+
+只以你先前回報可並用的參數送一次；如果實際工具拒絕任一角色或錨點，停下回報，不丟參照、不改soft模式：
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "e008f6b5-efe9-40b4-be75-615af1be766c"
+keyframes: [{"asset_id":"a327fc83-6f91-4c9f-ab66-2e3e79c4ba19","timestamp_s":3}]
+last_frame_asset_id: "f000b887-f606-426c-90ec-4e3dbe5396d6"
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+
+角色核對：first為原M03格紋襯衫／灰褲、廣場短花台前向右跨步，大人物；新mid為同套小人物側走、六條直白帶朝景深，左側新增的成排樹／花台已移除，右為公司玻璃；新last為同套小人物淺側後視，兩鞋已上公司側鋪面、左下僅最後一白條。face/full兩張只鎖身份與正常比例，不複製中性衣服／背景。若看到內容不符，停止而非自行替換。
+
+Generate one continuous six-second real-time commute shot through the exact first, three-second middle and last frames. Preserve the same woman, ordinary proportions, cream/navy checked collared rolled-sleeve shirt, tucked charcoal straight trousers, plain black low heels and black leather bag on the same physical shoulder.
+
+She walks purposefully at a steady natural cadence toward image-right, across the one short crossing, then onto the company-side pavement. No hesitation at the middle anchor. In the first half, the level chest-height 50mm camera tracks on the same flank while smoothly moving farther away and around to the side, so her initially larger figure becomes the approved wider middle framing through real camera distance and parallax, never an instant shrink. In the second half, continue the same walk and let the camera fall only slightly behind pure side view, ending at the approved shallow rear-quarter composition with both shoes already inside the company-side paving. Complete head and shoes remain visible throughout.
+
+Keep ONE fixed road, both curbs and the same six independent straight paint rectangles in world space. Their image angle and visibility change only through camera motion; later bars leave the frame and only the final bar remains at lower-left. Never rotate, redraw, bend, branch or duplicate the road paint to meet an anchor. No second crossing or second road. The original short planting exits through natural parallax, never growing or fading into a new row. Preserve glass/stone facade structure as a rigid surface; distant frontage is background, not a new company entrance. Keep the final company-side landing open. No new planters, trees, columns, bollards or yellow strips.
+
+Grounded alternating steps with stable shoe-to-pavement contact, natural bag and fabric movement, coherent daylight. No slow motion, speed ramp, retiming, skating, teleporting, freezing, internal cut/dissolve, text or logo. Disable audio only if a real option exists; otherwise report the actual track.
+
+完成後在同一畫布保留唯一新影片，列出實際傳入first／keyframes及timestamp_s／last／asset_ids，輸出asset UUID、實際時長／像素／音軌。參數接受與實際畫面觀察分開回報，不自行宣告幾何或動態通過，不再生成第二版。

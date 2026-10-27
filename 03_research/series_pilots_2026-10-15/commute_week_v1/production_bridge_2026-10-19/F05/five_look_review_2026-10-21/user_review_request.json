@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-21",
+  "status": "feedback_received_whole_film_focus_and_pace_need_revision",
+  "preview": "v1/review.mp4",
+  "sha256": "be262d6771141eeda11d2671cc5c1a87b7a03d869aacf60c117e5d5bc8b38b03",
+  "question": "請完整播放下方29.67秒五套研究預覽：能否看懂「同一人沿同一路線上班，提供五天穿搭靈感」？約23.6–24.4秒仍有短暫雙影；最後換裝、裙裝拉開及整支節奏是否可以保留？這次只確認研究片。",
+  "options": ["可以保留這支研究版", "最後換裝或拉開仍需調整", "整支觀看重點或節奏仍需調整"],
+  "answer": "整支觀看重點或節奏仍需調整",
+  "clarification_answer": "兩者都有，需一起調整",
+  "exact_feedback_record": "user_film_feedback.json",
+  "new_generation_authorized_by_answer": false,
+  "publishing_approval_inferred": false
+}

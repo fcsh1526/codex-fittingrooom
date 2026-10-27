@@ -1,0 +1,77 @@
+{
+  "reel_id": "2026-W37-M03-reel",
+  "date": "2026-10-01",
+  "scope": "L01 full/detail transition experiment only",
+  "status": "user_reviewed_improved_but_transition_still_uncomfortable",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M03_L01_full_detail_review_v2_soft_01.mp4",
+  "sha256": "870a78fe4770d17a2f0d1f7c2e2b4be081f9da8c1cdfdd1c76dbab902a4cd107",
+  "duration_seconds": 4,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "speed": "source timing unchanged; generated slow-motion impression remains unresolved",
+  "transition": {
+    "type": "short cross dissolve",
+    "start_seconds": 2,
+    "end_seconds": 2.25,
+    "duration_seconds": 0.25,
+    "frame_intervals": 6,
+    "zoom_blur_morph": "none"
+  },
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 72
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A2_L01_motion_v1_01.mp4",
+      "start_frame": 6,
+      "end_frame_exclusive": 55
+    }
+  ],
+  "baseline": "10_automation/runs/2026-W37/reels/videos/M03_L01_full_detail_review_v1_01.mp4",
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M03_L01_full_detail_review_v2_soft_01.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 4.0
+    },
+    "decoded_frames": 96,
+    "decoded_seconds": 4.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "qa": {
+    "continuous_watch_done": false,
+    "user_approval": null,
+    "visual_sample_review": "Start, ending and transition frames inspected. Full hair/shoes preserved in full shot; face excluded in detail. Brief double-scale overlap visible inside the dissolve. Continuous comfort remains pending.",
+    "open_issues": [
+      "Different scales inevitably overlap briefly; check whether ghosting distracts.",
+      "Short dissolve can soften the discontinuity but does not fix source action pacing or spatial continuity."
+    ],
+    "user_feedback": "有好一點。不須改人物動作，就是轉場有突兀感。0.25秒可能太短，還是有一點閃眼睛"
+  },
+  "user_feedback": "Hard cuts feel uncomfortable against the slow-looking generated motion, across previous trials; user requests softer transition.",
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": 0
+  }
+}

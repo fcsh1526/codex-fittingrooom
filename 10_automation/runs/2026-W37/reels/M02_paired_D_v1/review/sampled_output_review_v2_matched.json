@@ -1,0 +1,62 @@
+{
+  "review_kind": "technical_decode_and_sampled_visual_review_only",
+  "reviewed_at_local_date": "2026-10-05",
+  "output": "M02_paired_D_v1_review_v2_matched.mp4",
+  "output_sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989",
+  "metadata": {"width": 720, "height": 1280, "fps": 24, "decoded_frames": 270, "seconds": 11.25},
+  "source_ranges": {
+    "A": {"source": "../grok_A_attempt_02/source.mp4", "start_frame": 0, "end_frame_exclusive": 144},
+    "B": {"source": "../grok_B_attempt_01/source.mp4", "start_frame": 0, "end_frame_exclusive": 144}
+  },
+  "fixed_framing": {
+    "A_scale_factor": 1.0375,
+    "A_intermediate_dimensions": [747, 1328],
+    "A_fixed_crop_dimensions": [720, 1280],
+    "A_crop_x": 14,
+    "A_crop_y": 44,
+    "A_scale_interpolation": "lanczos",
+    "B": "unchanged",
+    "animated_crop_window": "none",
+    "speed_or_source_frame_change": "none"
+  },
+  "source_frame_preservation": "Original and same24fps normalization selected-frame MD5 sequences identical144frames per source, before the fixed A spatial transformation. Pixel preservation of the transformed/encoded output is not claimed.",
+  "technical_signals": {"black_candidate_frames": [], "near_identical_frame_pairs": []},
+  "keypoint_frames_reviewed": [0, 12, 24, 36, 67, 84, 108, 125, 126, 134, 135, 143, 144, 145, 202, 269],
+  "complete_overlap_frames_reviewed": [126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143],
+  "overlap_boundary_frames_reviewed": [125, 144],
+  "evidence": [
+    "M02_paired_D_v1_review_v2_matched_qa/keypoints/keypoints.jpg",
+    "M02_paired_D_v1_review_v2_matched_qa/complete_overlap/complete_overlap_with_endpoints.jpg",
+    "Original-resolution output f12 at0.5s and f135 at5.625s"
+  ],
+  "observations": [
+    {
+      "output_seconds": [0, 1.5],
+      "observation": "Inspected opening checkpoints0,0.5,1.0,1.5s keep the complete hair/head and navy bag in frame after the fixed crop. The0.5s original-resolution check has only roughly25-30px top breathing room, about2%of1280px height, considerably below the planned8%margin. This is a safe-area/comfort review limitation, not a passed framing rule. Sampling does not guarantee hair remains complete between checkpoints."
+    },
+    {
+      "output_seconds": [2.7916666667, 5.25],
+      "observation": "Selected full-person checkpoints include complete shoes and bag with no observed crop of their outer boundaries. The fixed crop makes A's final head/shoe viewing positions closer to B's opening without moving the crop window or changing character motion."
+    },
+    {
+      "output_seconds": [5.25, 6],
+      "observation": "All18 dissolve frames plus two boundary frames were inspected. The large vertical double-face separation seen in v1 is visibly reduced, but close-up f135 still shows duplicated eye/mouth edges, hand/bag contours and differing feet positions. Window/bench/bookcase double edges and the different hanging-vine arrangement remain. It is an improvement in sampled spatial alignment, not elimination of ghosting or proof of normal-speed comfort."
+    },
+    {
+      "output_seconds": [6, 11.25],
+      "observation": "B source framing, timing and action are unchanged. The inspected final frame keeps hair/head complete and shows navy neckline, open shirt fronts, waist and gray tote; the previously recorded continuing late push-in remains."
+    }
+  ],
+  "prior_version_preserved": {
+    "output": "M02_paired_D_v1_review_v1.mp4",
+    "sha256_matches_prior_receipt": true
+  },
+  "audio": "none",
+  "baked_text": "none",
+  "assistant_continuous_review": false,
+  "user_visual_approval": "pending",
+  "dynamic_qa_pass": false,
+  "publishable": false,
+  "status": "review_candidate_with_reduced_transition_ghosting_and_reduced_opening_top_margin",
+  "conclusion": "Exact-frame technical build and decode completed. Fixed A framing improves sampled head/shoe alignment while retaining all144selected source frames at native speed; B is unchanged and v1 is preserved. Residual face/background ghosting and substantially reduced opening top margin require explicit normal-speed/safe-area review before acceptance."
+}

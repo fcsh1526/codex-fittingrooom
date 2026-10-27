@@ -1,0 +1,178 @@
+{
+  "post": "https://www.instagram.com/p/DcAodtyRNXg/",
+  "samples": [
+    {
+      "file": "sample_000.png",
+      "before": [
+        {
+          "duration": 12.608435,
+          "height": 1920,
+          "muted": true,
+          "paused": false,
+          "time": 5.490594,
+          "width": 1080
+        }
+      ],
+      "after": [
+        {
+          "duration": 12.608435,
+          "paused": false,
+          "time": 6.780594
+        }
+      ],
+      "captured_at": "2026-10-06T02:11:29.424Z",
+      "cycle_before": 0,
+      "cycle_after": 0,
+      "crosses_wrap": false
+    },
+    {
+      "file": "sample_001.png",
+      "before": [
+        {
+          "duration": 12.608435,
+          "height": 1920,
+          "muted": true,
+          "paused": false,
+          "time": 6.847236,
+          "width": 1080
+        }
+      ],
+      "after": [
+        {
+          "duration": 12.608435,
+          "paused": false,
+          "time": 8.109452
+        }
+      ],
+      "captured_at": "2026-10-06T02:11:30.758Z",
+      "cycle_before": 0,
+      "cycle_after": 0,
+      "crosses_wrap": false
+    },
+    {
+      "file": "sample_002.png",
+      "before": [
+        {
+          "duration": 12.608435,
+          "height": 1920,
+          "muted": true,
+          "paused": false,
+          "time": 8.139198,
+          "width": 1080
+        }
+      ],
+      "after": [
+        {
+          "duration": 12.608435,
+          "paused": false,
+          "time": 9.39229
+        }
+      ],
+      "captured_at": "2026-10-06T02:11:32.035Z",
+      "cycle_before": 0,
+      "cycle_after": 0,
+      "crosses_wrap": false
+    },
+    {
+      "file": "sample_003.png",
+      "before": [
+        {
+          "duration": 12.608435,
+          "height": 1920,
+          "muted": true,
+          "paused": false,
+          "time": 9.417131,
+          "width": 1080
+        }
+      ],
+      "after": [
+        {
+          "duration": 12.608435,
+          "paused": false,
+          "time": 10.636255
+        }
+      ],
+      "captured_at": "2026-10-06T02:11:33.291Z",
+      "cycle_before": 0,
+      "cycle_after": 0,
+      "crosses_wrap": false
+    },
+    {
+      "file": "sample_004.png",
+      "before": [
+        {
+          "duration": 12.608435,
+          "height": 1920,
+          "muted": true,
+          "paused": false,
+          "time": 10.697718,
+          "width": 1080
+        }
+      ],
+      "after": [
+        {
+          "duration": 12.608435,
+          "paused": false,
+          "time": 11.935845
+        }
+      ],
+      "captured_at": "2026-10-06T02:11:34.576Z",
+      "cycle_before": 0,
+      "cycle_after": 0,
+      "crosses_wrap": false
+    },
+    {
+      "file": "sample_005.png",
+      "before": [
+        {
+          "duration": 12.608435,
+          "height": 1920,
+          "muted": true,
+          "paused": false,
+          "time": 11.966117,
+          "width": 1080
+        }
+      ],
+      "after": [
+        {
+          "duration": 12.608435,
+          "paused": false,
+          "time": 0.459402
+        }
+      ],
+      "captured_at": "2026-10-06T02:11:35.832Z",
+      "cycle_before": 0,
+      "cycle_after": 1,
+      "crosses_wrap": true
+    },
+    {
+      "file": "sample_006.png",
+      "before": [
+        {
+          "duration": 12.608435,
+          "height": 1920,
+          "muted": true,
+          "paused": false,
+          "time": 0.485369,
+          "width": 1080
+        }
+      ],
+      "after": [
+        {
+          "duration": 12.608435,
+          "paused": false,
+          "time": 7.760646
+        }
+      ],
+      "captured_at": "2026-10-06T02:11:43.135Z",
+      "cycle_before": 1,
+      "cycle_after": 1,
+      "crosses_wrap": false
+    }
+  ],
+  "wraps": 1,
+  "elapsed_ms": 15092,
+  "muted": true,
+  "screenshot_mode": "full_page",
+  "continuous_full_watch_claimed": false
+}

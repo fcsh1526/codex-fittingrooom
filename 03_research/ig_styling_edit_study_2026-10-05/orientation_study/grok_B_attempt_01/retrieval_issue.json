@@ -1,0 +1,8 @@
+{
+  "status": "submitted_result_unavailable",
+  "post_url": "https://grok.com/imagine/post/e39a68b8-a4fd-4ab4-808d-09fa69f266f0?conversation=2c744500-c534-41d5-aa05-05ff8a6acb5d",
+  "observed": "After navigation during generation, result URL redirected to Imagine home; history contained prior sources only. No new source downloaded.",
+  "root_cause": "unknown; navigation during generation preceded issue",
+  "candidate_quality": "not_observed",
+  "retry_planned": 1
+}

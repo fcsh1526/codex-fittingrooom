@@ -1,0 +1,114 @@
+{
+  "status": "rejected_editorially_by_user",
+  "file": "03_research/reel_presentation_study_2026-10-12/E02_silhouette_2026-10-13/review_v1/M05_E02_silhouette_two_looks_v1.mp4",
+  "sha256": "2ae0fb878364b535e6aa40ac816e3a0b3c4b4d19c4599f838923f6e3f872c3f3",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_presentation_study_2026-10-12\\E02_silhouette_2026-10-13\\review_v1\\M05_E02_silhouette_two_looks_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.0
+    },
+    "decoded_frames": 192,
+    "decoded_seconds": 8.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "sources": [
+    {
+      "attempt": "B_attempt_02",
+      "look": "2026-W41-001-L02",
+      "sha256": "e30b68bcfc3230a24a95fd79e8a72d0e911baf4c6d8d4ab0270e42fd9b57149f",
+      "frames": [
+        0,
+        96
+      ],
+      "end_exclusive": true,
+      "purpose": "Front proportion, slight weight adjustment."
+    },
+    {
+      "attempt": "A_attempt_01",
+      "look": "2026-W41-001-L01",
+      "sha256": "eba18458169845f884bc6cea5e0cc9dd40bcf233df4dd385c33e5fdc0f344be1",
+      "frames": [
+        0,
+        114
+      ],
+      "end_exclusive": true,
+      "purpose": "Shallow turn reveals jacket edge and trouser silhouette, then returns front."
+    }
+  ],
+  "transition": {
+    "type": "cross_dissolve",
+    "seconds": 0.75,
+    "frames": 18,
+    "start_seconds": 3.25,
+    "end_seconds": 4.0
+  },
+  "replan": "A01 originally rejected for duplicate turn; B02 instead stayed frontal. Reassign B02 as front shot and A01 as turn shot, avoiding another generation. B01 back-facing source excluded. A02 retained as frontal alternate only. This does not validate exact requested motion control.",
+  "editing": "Tail holds shortened only; native source speed24fps, no crop/zoom/freeze/reverse/internal cuts/text/audio.",
+  "generation_count": 4,
+  "retries_by_look": {
+    "L01": 1,
+    "L02": 1
+  },
+  "assistant_continuous_playback": false,
+  "user_film_approval": false,
+  "protected_w41_originals": [
+    {
+      "model": "M01",
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+      "unchanged": true
+    },
+    {
+      "model": "M02",
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+      "unchanged": true
+    },
+    {
+      "model": "M03",
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+      "unchanged": true
+    },
+    {
+      "model": "M04",
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+      "unchanged": true
+    },
+    {
+      "model": "M05",
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd",
+      "unchanged": true
+    }
+  ],
+  "drive_uploaded": false,
+  "published": false,
+  "review": {
+    "method": "All192 film thumbnails,25 larger whole frames,5 face samples, all21 join/boundary samples and native turn/stance source frame36 viewed. No assistant continuous normal-speed watch claimed.",
+    "identity_clothing_background": "Recognizable M05 and respective short jackets, tee, high waist, straight trousers, belt, bag and loafers in retained views. Window/wall/bench/floor remain broadly fixed; no obvious architectural drift observed in sampled/thumbnail views.",
+    "transition": "3.25-4.00s,18frames cross dissolve. Small head/foot position differences create transient double outlines and face ghosting; not an invisible outfit morph. No black-frame signal or size jump by crop/zoom. Comfort requires user normal-speed playback.",
+    "editorial": "Charcoal/light gray front proportion then cream/cocoa shallow turn and return. Same short-jacket/high-waist/straight-leg theme. First shot quiet; viewer usefulness and magazine feeling remain unvalidated.",
+    "technical_limits": "Only four diagnostic generations. Exact angle/pose control did not consistently follow prompts, so repeatable production is not established. Native tiny hand/shoe/bag details not certified on every frame."
+  },
+  "user_feedback": {
+    "date": "2026-10-13",
+    "user_quote": "這種類型剪輯不要了，跟之前大同小異",
+    "decision": "rejected_editorially",
+    "scope": "Latest M05 E02 eight-second film and further minor variants of the same fixed full-person two-look dissolve display. Does not rescind historical accepted publishing files, the one-model/two-look contract, no-text rule or soft-transition preference.",
+    "reason": "Insufficient perceptual difference from previous experiments.",
+    "next_gate": "Before generating more media, compare the proposed whole-film experience with previous trials and an actually observed reference mechanism. A new name, different outfit or small pose change is insufficient.",
+    "new_generation_authorized_by_this_feedback": false
+  }
+}

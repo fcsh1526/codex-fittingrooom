@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-22",
+  "question_item_id": "[\"request_user_input_async\",\"call_5d3a3570c6aa4140bce9b917cc1962a4\",0]",
+  "artifact": "v1/review.mp4",
+  "sha256": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+  "question": "請完整播放21.29秒五套預覽：最後一套先全身、再推近半身的觀看重點與整體節奏是否可以保留？約15.3–16秒仍有臉、手臂與腿鞋重影，約17秒右側另露出台階；推近比草案稍早。這次只確認研究片，原發布影片保留。",
+  "answer": "運鏡及半身都可以，但是整體的走路步驟太慢，或這是各鏡的走路步驟不連續，忽快忽慢",
+  "status": "camera_and_half_direction_accepted_gait_revision_requested",
+  "camera_and_half_direction_accepted": true,
+  "whole_film_accepted": false,
+  "gait_or_transition_continuity_accepted": false,
+  "background_acceptance_inferred": false,
+  "normal_speed_full_playback_self_report": null,
+  "scope": "Keep camera/half-shot direction. Diagnose source cadence versus step-phase mismatch and overlapping feet, then a single bounded source-paced walking sample; no automatic redoing five shots, retiming, or public delivery."
+}

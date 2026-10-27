@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-19",
+  "role": "shared_site_geometry_reference_only",
+  "file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\environment\\E00_layout_reference.png",
+  "pixels": [
+    1536,
+    864
+  ],
+  "camera_position": [
+    -24.0,
+    15.0,
+    -26.0
+  ],
+  "camera_target": [
+    6.0,
+    0.5,
+    3.0
+  ],
+  "eye_height": 15.0,
+  "elevated_view_for_auxiliary_site_design_only": true,
+  "not_a_reel_start_image": true,
+  "not_a_new_model_identity": true,
+  "sha256": "d529cc4668f48969daf6a3cbb567ee9ed9879d60476ef7ce47a90abe6a287a85",
+  "planned_generated_asset": "one no-person photoreal environment master candidate, subject to visual review"
+}

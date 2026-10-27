@@ -1,0 +1,88 @@
+from pathlib import Path
+import json
+from xml.sax.saxutils import escape
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
+from pypdf import PdfReader
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+OUT = ROOT / 'output/pdf/Mira_Reel_六種分鏡與選用指南_2026-10-13.pdf'
+EXTRA = [
+ {'title':'E04 配色氣氛｜完整分鏡','subtitle':'米白、深藍與灰，形成安靜的通勤色彩。','fields':[
+ ('衣服鎖定', 'M03；2026-W41-004-L01米白無鋪棉輕薄西外，敞開、袖口已翻一折；白圓領棉T紮入深藍高腰直筒褲；黑低跟便鞋、深棕肩包、小銀耳針。L02深藍西外／淺灰棉T／奶油白直筒褲／黑肩包，其餘同樣保留定案細節。'),
+ ('A鏡：淺外層、深下身｜6.5秒候選', '從正面全身開始，左側自然光讓米白外套與深藍褲形成完整色塊。人物做一次輕微重心移動，手臂離腰線稍有空間，末段回到舒適正面。不加行走、手衣接觸或深側轉。'),
+ ('B鏡：深外層、淺下身｜6.5秒候選', '相近全身尺度及中央站位開始；人物做一次小幅斜站再回正，約15–25度即可。外套保持敞開，淺灰內搭與奶油白褲完整可讀。這是同一色彩專題的第二個畫面，不安排變裝驚喜或誰更好。'),
+ ('場景與攝影', '安靜有頂通勤走道，米灰牆、完整地面，少量固定建物細節。背景不加入亮紅招牌或彩色道具。全片幅無反、50mm視角、胸高水平固定鏡頭，同側自然日光；人物約占畫面高度76–82%，保留鞋與頭頂。'),
+ ('銜接與閱讀時間', 'A收束接B起點，約0.75秒柔和疊化，頭／腰／鞋落點及曝光相近。6.5＋6.5－0.75＝12.25秒，接點5.75–6.5秒；每套約5.75秒不受交疊覆蓋。實際依動作選段，不以預算冒充生成成果。'),
+ ('它與E01／E02的差別', 'E01以生活片刻引導觀看，E02以動作增加衣長與輪廓資訊。E04先用構圖、明暗面積與一致光線組織整套配色，姿態只讓色塊清楚。技術上仍可能同為兩個全身鏡頭，不因此宣稱新剪輯機制。') ]},
+ {'title':'E04 起始圖與失效條件','subtitle':'精緻感來自服裝與光線，而非濾鏡改色。','fields':[
+ ('四個可用畫面', '兩套各原生9:16全身起點＋領口／腰線中景。全身證明外套與褲的完整色塊，中景證明內搭與外層關係；這版不強制把中景剪入。必備proof與每套Carousel A/B/C仍獨立完成，不由影片構想推定已備齊。'),
+ ('既有素材重用條件', '核對M03已核准face/full參照與定案服裝，再檢查兩張全身圖的光向、背景明暗、人物尺度和完整鞋包。已核准圖片可能適合舊分鏡，不能直接推定適合本版。只有清晰度、直式構圖及焦點合格的中景才可作proof。'),
+ ('色彩鎖定', '奶油白、米白、灰、深藍皆以各套核准服色為準，不用調色把深藍改成黑色或把白色染黃。A/B亮度與光向優先在起始圖配好；後製只做必要一致性調整，不設一個濾鏡即可達成雜誌感的規則。'),
+ ('優先退件的缺陷', '外套和褲顏色逐幀漂移；B進來突然變暗、閃白；淺灰內搭消失；肩包遮住大面積衣服；人物長時間僵站、背景或腳部變形。交疊雙影可接受，但不能用疊化藏這些單鏡缺陷。'),
+ ('降階方案', '斜站若遮掉內搭，改成正面自然重心移動。兩張圖曝光差異太大，先修匹配起始構圖，不靠延長轉場。若整片只剩漂亮色調、看不出可採用的穿搭規則，改回E01或E02，保留配色作視覺基調。'),
+ ('整片驗收', '不看文案是否能辨識米白／深藍／灰共同色彩？兩套服裝是否清楚、生活中可想像，而非奢華品牌廣告？疊化後是否像同一光線環境？正常速度看整片，確認舒適度與色彩穩定。') ]},
+ {'title':'E06 明確比較｜完整分鏡','subtitle':'淺上深下，或深上淺下：看清差異再選擇。','fields':[
+ ('適用條件與衣服', '示例採M03同一組W41兩套西外：L01米白西外／白T／深藍褲／深棕包；L02深藍西外／淺灰T／奶油白褲／黑包。可比較的是整套明暗色塊分布。內搭、包等也不同，不能當成只改一件衣服的實驗，或宣稱哪套顯瘦。'),
+ ('主版面：左右同時全身｜8秒候選', '兩個獨立原生9:16来源排進直式左右面板，第一眼即見兩套。雙側相同人物高度、頭部與鞋底位置，中央站位且左右留動作空間。來源不是直接各裁掉一半；先測完整人物能否放入狹長面板，無法安全容納便改單畫面。'),
+ ('A／B鏡動作', '左右皆由正面全身起步，做一次小幅重心移動或約20–30度淺側轉，回正收束。每個來源只選一個主要動作，保持衣服色塊可見。不必同時開始或同步轉身，也不改速強制同步；原有錯開動作的自然感可以保留。'),
+ ('攝影、場景與觀看時間', '兩套同類米灰走道、相近左側自然光；全片幅無反、50mm、胸高水平固定鏡頭。約8秒全程兩套可見，沒有片內換鏡便不加入轉場。時間依兩段共同可用區間選取，不複製片段或定格來湊長度。'),
+ ('手機看不清時的替代版', '改兩個單畫面全身依序呈現，各6秒、一次0.75秒疊化，名義總長11.25秒。接在相近正面站姿，兩套各約5.25秒清楚。此版面可保住閱讀大小，但比較依賴觀眾短期記憶；與並排版分開記錄，不混成同一試驗。'),
+ ('觀看目的', '讓觀眾做一個有畫面依據的選擇。不同步的動作不是比較依據；重點是明暗位置。若沒有值得比較的具體差異，就選其他企劃，不能因並排容易生產而每週都用。') ]},
+ {'title':'E06 起始圖與失效條件','subtitle':'比較版面要公平，也要在手機上讀得清。','fields':[
+ ('四個可用畫面', '兩套各原生9:16完整人物起點＋領口到腰線proof。原圖須留窄面板容納空間；有些滿幅全身圖適合單畫面，未必適合並排。中景供搭配確認，不為增加比較效果而強制插鏡。Carousel仍按各套獨立A/B/C製作。'),
+ ('尺度與亮度對齊', '以人物高度及頭／腰／鞋位置對齊，不要求兩套肩寬或衣襬相同。不可拉伸人物來湊大小；放入面板不能裁掉鞋、包或頭頂。調整後若服裝太小，即選單畫面替代。更亮或更大的某一邊可能搶注意力，先修構圖再看偏好。'),
+ ('身份與动态查核', '兩個來源都是M03已核准參照，服裝依各look分別鎖定；一個來源合格不能代表另一個合格。轉側時檢查脸、腳掌、褲型、包與背景；每側完整播放，再看合成成片。新圖仍等使用者視覺核准。'),
+ ('主版與替代版的轉場', '並排主版無換鏡，不加疊化裝飾。單畫面替代版遵守一次約0.75秒柔和疊化；人物位置與光線先匹配，不追求零差異換裝。不得為比較更刺激而加閃白、快切或突然放大。'),
+ ('優先退件與降階', '某邊人更大、鞋被裁掉、布料顏色不穩，或狹長面板讓服裝無法辨識，先修素材或改单畫面。若差異在無字手機觀看時仍不明確，退回其他企劃；需要文字才能成立時另通知使用者在IG手動加入，不烙字。'),
+ ('整片驗收', '觀眾是否知道在比較明暗分布？每側完整衣服看得清嗎？兩邊尺度與光線是否造成不必要偏向？錯開動作是否自然而不搶焦點？沒有觀眾成效前，不把使用者接受一次並排等同全帳號最佳形式。') ]}
+]
+INTRO = {'title':'Mira Reel｜六種分鏡與選用指南','subtitle':'先決定觀眾要看什麼，再安排镜頭與起始圖。','fields':[
+ ('E01 日常片段｜第2–3頁', '想像穿出門的感覺。M03短走、停下與離開；適合生活情境可以增加穿搭理解的主題。'),
+ ('E02 動態輪廓｜第4–5頁', '看衣長、腰線、褲型與側面。M05換重心、淺轉身；適合需要動作證明比例的主題。'),
+ ('E03 細節帶出全身｜第6–7頁', '先注意服裝特色，再理解整體。M01中景退到全身／全身走近；適合圖案、領口或腰線。'),
+ ('E04 配色氣氛｜第8–9頁', '感受協調而可穿出門的配色。M03米白／深藍／灰；構圖與光線支持色彩，服裝仍是主體。'),
+ ('E05 配件串聯｜第10–11頁', '共同配件連回兩套完整衣服。M04鈷藍包，全身走近／中景退到全身；只有確實共用配件才採用。'),
+ ('E06 明確兩套比較｜第12–13頁', '比較一個可見且值得選擇的差異。M03明暗色塊；先規劃左右並排，手機可讀性不足改單畫面。'),
+ ('目前狀態', '六份都是規劃候選，未恢復圖像、Grok或影片剪輯。W41衣服只作示例，M03重複用於研究不等於每週可以交三支M03；正式每週仍五位各一支、每支同一人兩套。時長、尺度、角度是目標，未驗證本帳號曝光成效。') ]}
+END = {'title':'選用方式與恢復試作順序','subtitle':'每週五個主題，選合適形式；不用輪流湊齊六種。','fields':[
+ ('先寫一句觀眾能理解的重點', '例如：短外套與直筒褲的比例、格紋只放一件、亮色集中在包。接著指出哪個畫面能證明它。沒有可見證據時先改主題，不先套剪輯模板。'),
+ ('用六種觀看目的選擇', '需要生活感選E01；需要看輪廓選E02；必須近看特色選E03；整套配色是主體選E04；確有共同配件選E05；需要看清差異做選擇才選E06。一支以一個主要觀看目的為先，不為豐富而全塞進去。'),
+ ('技術負擔與試作次序', '建議E02先行：固定全身與小動作，較易隔離問題。E01再驗證位移的日常感；E03／E05需檢查近遠、圖案及包形。E04是否能提供足夠服裝資訊、E06窄面板可讀性另驗證。這是工程與編集判斷，並非成功率或流量排名。'),
+ ('兩種驗收分開', '技術：臉、衣服、手鞋包、背景在單鏡和接點穩定。觀看：無字能理解焦點，每段有新增資訊，人物大小／落點／亮度銜接舒適，完整衣服有足夠清楚時間。先抽查關鍵位置，再完整正常速度播放；單項參數合格不能取代整片判斷。'),
+ ('恢復製作後的製作單', '記錄主題、model與兩個look ID、形式ID、四個full/proof來源與缺圖、動作端點、鏡位及接點、提示詞／設定、連續可用區間、重試與耗時、成片及核准。發布後按相同天數回收洞察；缺少數據留空。新素材可審查重用，但新圖仍需使用者視覺核准。'),
+ ('共同規則與本輪終點', '無烙字、人物原速；有換鏡時約0.75秒柔和疊化，並排不額外加轉場。正式每套仍需全身／proof與Carousel A/B/C，proof不必全剪入。原W37／W41影片與Drive交付不覆蓋。六份企劃至此完整；實際製作仍暫停，待使用者明確要求恢復。') ]}
+
+first=json.loads((HERE/'storyboards_2026-10-13.json').read_text(encoding='utf-8'))['pages']
+focus=json.loads((HERE/'focus_storyboards_2026-10-13.json').read_text(encoding='utf-8'))['pages']
+PAGES=[INTRO]+first[1:5]+focus[1:3]+EXTRA[:2]+focus[3:5]+EXTRA[2:]+[END]
+pdfmetrics.registerFont(TTFont('MiraChinese','C:/Windows/Fonts/msjh.ttc',subfontIndex=0))
+styles={n:ParagraphStyle(n,fontName='MiraChinese',fontSize=s,leading=l,textColor=colors.HexColor(c),spaceAfter=a,wordWrap='CJK') for n,s,l,c,a in [('title',23,32,'#24363C',14),('h',16,24,'#276B70',10),('body',12,19,'#24363C',8),('label',10,15,'#276B70',3)]}
+def p(t,s='body'): return Paragraph(escape(t),styles[s])
+def footer(canvas,doc):
+    w,h=A4
+    canvas.setStrokeColor(colors.HexColor('#D8DFDC'));canvas.line(42,37,w-42,37)
+    canvas.setFont('MiraChinese',9);canvas.setFillColor(colors.HexColor('#53656A'))
+    canvas.drawString(42,22,'Mira / 2026-10-13 / 六種分鏡・只做規劃');canvas.drawRightString(w-42,22,str(doc.page))
+story=[]
+for i,page in enumerate(PAGES):
+    if i:story.append(PageBreak())
+    story.extend([p(page['title'],'title'),p(page['subtitle'],'h'),Spacer(1,5)])
+    for label,content in page['fields']:story.extend([p(label,'label'),p(content),Spacer(1,4)])
+OUT.parent.mkdir(parents=True,exist_ok=True)
+SimpleDocTemplate(str(OUT),pagesize=A4,leftMargin=42,rightMargin=42,topMargin=42,bottomMargin=48,title='Mira Reel 六種分鏡與選用指南',author='Mira').build(story,onFirstPage=footer,onLaterPages=footer)
+data={'date':'2026-10-13','status':'planning_only_media_execution_paused','wardrobe_week':'2026-W41','new_formats':[{'id':'E04','model':'M03','look_ids':['2026-W41-004-L01','2026-W41-004-L02'],'segments_seconds':[6.5,6.5],'dissolve_seconds':0.75,'total_budget_seconds':12.25},{'id':'E06','model':'M03','look_ids':['2026-W41-004-L01','2026-W41-004-L02'],'parallel_budget_seconds':8,'parallel_in_clip_transitions':0,'sequential_fallback_segments_seconds':[6,6],'sequential_fallback_dissolve_seconds':0.75,'sequential_fallback_total_budget_seconds':11.25}],'new_storyboard_pages':EXTRA,'all_guide_pages':PAGES,'media_created':False,'pdf':OUT.relative_to(ROOT).as_posix()}
+(HERE/'complete_guide_2026-10-13.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+md=['# Mira 配色氣氛與明確比較分鏡','','2026-10-13｜只做規劃，未恢復媒體製作。','']
+for page in EXTRA+[END]:
+    md.extend(['## '+page['title'],'',page['subtitle'],''])
+    for label,content in page['fields']:md.extend(['### '+label,'',content,''])
+(HERE/'COLOR_COMPARISON_STORYBOARDS_2026-10-13.md').write_text('\n'.join(md),encoding='utf-8')
+reader=PdfReader(OUT)
+assert len(reader.pages)==14, 'Recheck page map: unexpected overflow.'
+print('Complete guide created. Pages:',len(reader.pages))

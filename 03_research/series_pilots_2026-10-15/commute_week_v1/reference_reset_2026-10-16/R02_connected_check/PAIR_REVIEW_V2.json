@@ -1,0 +1,103 @@
+{
+  "recorded_date": "2026-10-16",
+  "status": "revision_requested_connected_sequence_direction",
+  "current_candidate": {
+    "file": "connected_review_v2/M03_R01_R02_connected_review.mp4",
+    "sha256": "33d657f9c21e2c99bf209ae359f63ffd1f918bbe8eb35c6d9098f67b08adee06",
+    "source_A_frames_half_open": [
+      48,
+      108
+    ],
+    "source_B_frames_half_open": [
+      0,
+      132
+    ],
+    "total_frames": 174,
+    "fps": 24,
+    "seconds": 7.25,
+    "pixels": [
+      720,
+      1280
+    ],
+    "audio": false,
+    "text": false,
+    "retime": false,
+    "scale": false,
+    "crop": false,
+    "dissolve_frames_half_open": [
+      42,
+      60
+    ],
+    "dissolve_seconds": [
+      1.75,
+      2.5
+    ],
+    "source_B_clear_whole_shoes_safe_frames_half_open": [
+      84,
+      132
+    ],
+    "source_B_clear_whole_shoes_safe_seconds": 2
+  },
+  "retained_first_edit": {
+    "file": "connected_review_v1/M03_R01_R02_connected_review.mp4",
+    "sha256": "3a1f0b53fa01d57ae38353d1b3602c8612a3dca2782f895b31f0743f11608a9e",
+    "source_A_frames_half_open": [
+      48,
+      120
+    ],
+    "source_B_frames_half_open": [
+      0,
+      120
+    ],
+    "reason_for_one_refinement": "Opposite growth/rightward travel in A and early retreat in B caused conspicuous separated double faces around2.5-2.75s. Move A join0.5s earlier and keep0.5s more complete B; no new generation or speed/framing transformation."
+  },
+  "scope": {
+    "accepted_R01_4s_original_preserved": true,
+    "new_pair_does_not_keep_complete_R01_exit": true,
+    "R01_direction_acceptance_transferred_to_pair": false,
+    "R02_exact_still_approval_transferred_to_film": false,
+    "one_model_five_outfit_goal_retained": true,
+    "remaining_three_shots_generated": false,
+    "account_style_adopted": null,
+    "publishing_replacement": false
+  },
+  "root_review": {
+    "viewed": [
+      "connected_review_v1/QA/full_25_checkpoints.jpg",
+      "connected_review_v1/QA/transition_all_boundary_head_windows.jpg",
+      "connected_review_v2/QA/full_25_checkpoints.jpg",
+      "connected_review_v2/QA/transition_all_boundary_head_windows.jpg"
+    ],
+    "findings": [
+      "Each look now has changing scale/information: A full outfit approaches; B starts on collar/check/tucked waist and opens to full trousers/shoes.",
+      "v2 sampled head separation is reduced relative to v1, but vertical double eyes/face outlines remain most apparent around2.0-2.2s; this is not an invisible match.",
+      "Dissolve still produces garment/bag/limb and building/commuter double outlines. Same rightward gaze at join is closer than frontal-to-profile trial, not exact continuity.",
+      "No sampled flash-to-black or obvious single-source protagonist swap/wardrobe switch outside intended dissolve.",
+      "Initial request to hold R02 medium for0.75s not fully achieved; camera view already retreats. Approximate2.5s full reveal target differs from comfortable full-shoe read around3.5s."
+    ],
+    "continuous_normal_speed_playback": false,
+    "comfortable_join_pass": null,
+    "ad_appeal_pass": null
+  },
+  "independent_review_pending": false,
+  "independent_review": {
+    "reviewer": "/root/commute_motion_review",
+    "scope": "Read-only comparison of v1/v2 boundary full/head boards, not normal-speed playback",
+    "finding": "v2 reduces horizontal/scale separation relative to v1, but clear vertical double eyes/mouth/hair remain about2.0-2.2s. Dissolve clears afterwards; no invisible join or comfort pass inferred."
+  },
+  "user_review": {
+    "recorded_date": "2026-10-16",
+    "status": "revision_requested",
+    "question": "請播放這支7.25秒前兩鏡試片：長西外走近→柔接格紋中景→拉開看全身。約1.75–2.5秒仍有短暫雙影；兩套的接續與觀看節奏是否可以沿用？這次只確認前兩鏡，五套整片尚未定案。",
+    "user_quote": "整體節奏或方向仍需調整",
+    "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/connected_review_v2/user_film_feedback_2026-10-16.json",
+    "scope": "Exact7.25second pair only; no separately confirmed transition cause or dissolve cancellation."
+  },
+  "publishing_files_replaced": [],
+  "drive_uploads": [],
+  "github_published": false,
+  "previous_status": "sampled_pair_review_pending_user_normal_speed_judgment",
+  "feedback_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/connected_review_v2/user_film_feedback_2026-10-16.json",
+  "root_cause_status": "hypotheses_unvalidated",
+  "remaining_three_expansion_allowed": false
+}

@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "S04",
+  "look_id": "ED-W42-COMMUTE-V1-L04",
+  "mode": "built_in_imagegen",
+  "use_case": "photorealistic-natural",
+  "generation": {
+    "prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S04_generation_prompt_v1.txt",
+    "prompt_word_count": 194,
+    "input_roles": [
+      {
+        "path": "02_brand/reference_models/M03_start_v3_face.png",
+        "role": "M03 face identity only"
+      },
+      {
+        "path": "02_brand/reference_models/M03_start_v3_full.png",
+        "role": "M03 normal proportions and hair only"
+      },
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+        "role": "approved S01 setting, scale, shoes only"
+      }
+    ],
+    "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-6474071f-aadc-4eb6-87f8-4dc0c4785cfa.png",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A.png",
+    "sha256": "e93d7bfb042b46b27afaa2f15321a7c50da7dfeb948b0293d06510e00f4b42e3",
+    "actual_pixels": [
+      941,
+      1672
+    ]
+  },
+  "targeted_edit": {
+    "use_case": "precise-object-edit",
+    "prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S04_edit_prompt_v2.txt",
+    "prompt_word_count": 172,
+    "input_roles": [
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A.png",
+        "role": "edit target; preserve identity, wardrobe, pose, framing and background geometry"
+      }
+    ],
+    "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-4e0e356c-6792-4c1a-a85c-7b33542e758b.png",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+    "sha256": "c1cc960b0a8f380e1a086907c7dad383c78af443a7f6dbec83a5020f796025cf",
+    "actual_pixels": [
+      941,
+      1672
+    ],
+    "intended_correction_achieved": false
+  },
+  "requested_aspect_ratio": "9:16",
+  "aspect_note": "Native vertical imagegen request; 941x1672 pixel rounding; no raster edit, crop or stretch performed.",
+  "assistant_review": {
+    "identity_and_proportions": "M03 recognizable, full-person scale and approved walking composition closely retained",
+    "wardrobe": "white short-sleeved pointed-collar shirt / black calf-length A-line skirt / cobalt bag / black shoes",
+    "unresolved_surface_issue": "Fine ornamental pattern remains on paving and faintly on skirt after one targeted correction; plain cotton surface not fully achieved.",
+    "whole_surface_texture_review": "The intended correction is not claimed successful; exact refined candidates displayed with disclosure before user visual decision.",
+    "motion_or_join_qa": null
+  },
+  "status": "user_approved",
+  "candidate_for_user_review": {
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+    "sha256": "c1cc960b0a8f380e1a086907c7dad383c78af443a7f6dbec83a5020f796025cf",
+    "actual_pixels": [
+      941,
+      1672
+    ]
+  },
+  "user_visual_approval": {
+    "schema_version": 1,
+    "date": "2026-10-15",
+    "shot_id": "S04",
+    "look_id": "ED-W42-COMMUTE-V1-L04",
+    "user_quote": "兩張可以，沿用修正版",
+    "question": "請確認剛顯示的S03短立領外套／白T／炭灰褲，以及S04白短袖襯衫／黑A字裙／藍包兩張refined_v2。兩張各做過一次局部修正，但灰褲、黑裙與地面仍有細紋，修正未完全成功且已披露；是否兩張都可沿用修正版，作後續影片起始圖？",
+    "question_record_type": "combined_visual_approval_context_summary_not_verbatim_question_transcript",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+    "sha256": "c1cc960b0a8f380e1a086907c7dad383c78af443a7f6dbec83a5020f796025cf",
+    "pixels": [
+      941,
+      1672
+    ],
+    "accepted_version": "refined_v2",
+    "disclosed_surface_issue": "Fine ornamental pattern remains on paving and faintly on skirt after one targeted correction; plain cotton surface not fully achieved.",
+    "intended_texture_correction_achieved": false,
+    "scope": "Exact S04 refined_v2 still visual approval after disclosure of residual surface texture and the unsuccessful targeted correction. May use this exact image as the shot first frame for motion. Does not certify the intended plain-fabric correction, approve generated motion/joins/the complete five-look film, adopt an account-wide series or replace publishing files.",
+    "video_approval": null,
+    "complete_film_approval": null,
+    "grok_generation_allowed_for_exact_still": true,
+    "publishing_files_replaced": []
+  },
+  "grok_generation_allowed": true,
+  "costs": {
+    "generation_calls": 1,
+    "targeted_edits": 1,
+    "observed_tool_wait_seconds": [
+      45.4,
+      46.2
+    ],
+    "active_minutes": null
+  },
+  "external_uploads": [],
+  "user_visual_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S04_user_still_approval_2026-10-15.json",
+  "approved_asset_path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+  "motion_approval": null
+}

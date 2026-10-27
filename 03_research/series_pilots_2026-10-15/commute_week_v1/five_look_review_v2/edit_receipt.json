@@ -1,0 +1,615 @@
+{
+  "date": "2026-10-15",
+  "created_at_utc": "2026-10-15T07:03:19.965075+00:00",
+  "status": "existing_source_order_dwell_trial_pending_visual_and_user_review",
+  "model": "M03",
+  "output": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2/M03_commute_week_inspiration_v2.mp4",
+  "sha256": "05cf662b8b6190d7318a298c596dca9df96c7e926df6256f1cb788d63e806839",
+  "native_size": [
+    720,
+    1280
+  ],
+  "native_fps": 24,
+  "decoded_frames": 474,
+  "seconds": 19.75,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 19.75
+  },
+  "sources": [
+    {
+      "shot": "S04",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S04_source.mp4",
+      "sha256": "11f8b99c5fcd72937df7b53361070e5b16729539f401f13e8c3f0b0b49baa39b",
+      "selected_frames_half_open": [
+        72,
+        180
+      ],
+      "seconds_half_open": [
+        3.0,
+        7.5
+      ],
+      "selected_frames": 108,
+      "clear_outfit_frames": 90,
+      "clear_outfit_seconds": 3.75
+    },
+    {
+      "shot": "S01",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S01_source.mp4",
+      "sha256": "499fa888e084649a4988ede3f0469619e2313456f4bd5035338f4d57bb9f3d04",
+      "selected_frames_half_open": [
+        42,
+        156
+      ],
+      "seconds_half_open": [
+        1.75,
+        6.5
+      ],
+      "selected_frames": 114,
+      "clear_outfit_frames": 78,
+      "clear_outfit_seconds": 3.25
+    },
+    {
+      "shot": "S05",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S05_source.mp4",
+      "sha256": "9a8f023e05c45bf18255dac53752bcad8eb28277e564962a8d04903fede7bcc0",
+      "selected_frames_half_open": [
+        84,
+        192
+      ],
+      "seconds_half_open": [
+        3.5,
+        8.0
+      ],
+      "selected_frames": 108,
+      "clear_outfit_frames": 72,
+      "clear_outfit_seconds": 3.0
+    },
+    {
+      "shot": "S02",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S02_source.mp4",
+      "sha256": "a8f9fc6e9019c23433c855e3d108d97d3236c05f76fa30b02b6b0fcdc97c6ec0",
+      "selected_frames_half_open": [
+        84,
+        180
+      ],
+      "seconds_half_open": [
+        3.5,
+        7.5
+      ],
+      "selected_frames": 96,
+      "clear_outfit_frames": 60,
+      "clear_outfit_seconds": 2.5
+    },
+    {
+      "shot": "S03",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S03_source.mp4",
+      "sha256": "7b679f0f7e962ee29622b970d9f39ee1c000d234ab476ace1da347c5719adfba",
+      "selected_frames_half_open": [
+        72,
+        192
+      ],
+      "seconds_half_open": [
+        3.0,
+        8.0
+      ],
+      "selected_frames": 120,
+      "clear_outfit_frames": 102,
+      "clear_outfit_seconds": 4.25
+    }
+  ],
+  "transitions": [
+    {
+      "join": "J12_S04_S01",
+      "from_shot": "S04",
+      "to_shot": "S01",
+      "type": "linear_cross_dissolve",
+      "frames": 18,
+      "seconds": 0.75,
+      "output_frames_half_open": [
+        90,
+        108
+      ],
+      "output_seconds_half_open": [
+        3.75,
+        4.5
+      ],
+      "new_shot_alpha": "(index+1)/18",
+      "sampled_visual_review": "pending",
+      "user_join_approval": null,
+      "QA_directory": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2/QA/J12_S04_S01",
+      "QA_samples": {
+        "full_checkpoint_indices": [
+          82,
+          83,
+          85,
+          86,
+          88,
+          89,
+          90,
+          92,
+          93,
+          94,
+          96,
+          97,
+          98,
+          100,
+          101,
+          103,
+          104,
+          105,
+          107,
+          108,
+          110,
+          111,
+          112,
+          114,
+          115
+        ],
+        "face_checkpoint_indices": [
+          82,
+          90,
+          98,
+          107,
+          115
+        ],
+        "transition_boundary_indices": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115
+        ],
+        "head_window_native_xyxy": [
+          158,
+          0,
+          562,
+          448
+        ],
+        "head_window_is_inspection_only": true
+      }
+    },
+    {
+      "join": "J23_S01_S05",
+      "from_shot": "S01",
+      "to_shot": "S05",
+      "type": "linear_cross_dissolve",
+      "frames": 18,
+      "seconds": 0.75,
+      "output_frames_half_open": [
+        186,
+        204
+      ],
+      "output_seconds_half_open": [
+        7.75,
+        8.5
+      ],
+      "new_shot_alpha": "(index+1)/18",
+      "sampled_visual_review": "pending",
+      "user_join_approval": null,
+      "QA_directory": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2/QA/J23_S01_S05",
+      "QA_samples": {
+        "full_checkpoint_indices": [
+          178,
+          179,
+          181,
+          182,
+          184,
+          185,
+          186,
+          188,
+          189,
+          190,
+          192,
+          193,
+          194,
+          196,
+          197,
+          199,
+          200,
+          201,
+          203,
+          204,
+          206,
+          207,
+          208,
+          210,
+          211
+        ],
+        "face_checkpoint_indices": [
+          178,
+          186,
+          194,
+          203,
+          211
+        ],
+        "transition_boundary_indices": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211
+        ],
+        "head_window_native_xyxy": [
+          158,
+          0,
+          562,
+          448
+        ],
+        "head_window_is_inspection_only": true
+      }
+    },
+    {
+      "join": "J34_S05_S02",
+      "from_shot": "S05",
+      "to_shot": "S02",
+      "type": "linear_cross_dissolve",
+      "frames": 18,
+      "seconds": 0.75,
+      "output_frames_half_open": [
+        276,
+        294
+      ],
+      "output_seconds_half_open": [
+        11.5,
+        12.25
+      ],
+      "new_shot_alpha": "(index+1)/18",
+      "sampled_visual_review": "pending",
+      "user_join_approval": null,
+      "QA_directory": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2/QA/J34_S05_S02",
+      "QA_samples": {
+        "full_checkpoint_indices": [
+          268,
+          269,
+          271,
+          272,
+          274,
+          275,
+          276,
+          278,
+          279,
+          280,
+          282,
+          283,
+          284,
+          286,
+          287,
+          289,
+          290,
+          291,
+          293,
+          294,
+          296,
+          297,
+          298,
+          300,
+          301
+        ],
+        "face_checkpoint_indices": [
+          268,
+          276,
+          284,
+          293,
+          301
+        ],
+        "transition_boundary_indices": [
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301
+        ],
+        "head_window_native_xyxy": [
+          158,
+          0,
+          562,
+          448
+        ],
+        "head_window_is_inspection_only": true
+      }
+    },
+    {
+      "join": "J45_S02_S03",
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "type": "linear_cross_dissolve",
+      "frames": 18,
+      "seconds": 0.75,
+      "output_frames_half_open": [
+        354,
+        372
+      ],
+      "output_seconds_half_open": [
+        14.75,
+        15.5
+      ],
+      "new_shot_alpha": "(index+1)/18",
+      "sampled_visual_review": "pending",
+      "user_join_approval": null,
+      "QA_directory": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2/QA/J45_S02_S03",
+      "QA_samples": {
+        "full_checkpoint_indices": [
+          346,
+          347,
+          349,
+          350,
+          352,
+          353,
+          354,
+          356,
+          357,
+          358,
+          360,
+          361,
+          362,
+          364,
+          365,
+          367,
+          368,
+          369,
+          371,
+          372,
+          374,
+          375,
+          376,
+          378,
+          379
+        ],
+        "face_checkpoint_indices": [
+          346,
+          354,
+          362,
+          371,
+          379
+        ],
+        "transition_boundary_indices": [
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "head_window_native_xyxy": [
+          158,
+          0,
+          562,
+          448
+        ],
+        "head_window_is_inspection_only": true
+      }
+    }
+  ],
+  "overall_QA_samples": {
+    "full_checkpoint_indices": [
+      0,
+      20,
+      39,
+      59,
+      79,
+      99,
+      118,
+      138,
+      158,
+      177,
+      197,
+      217,
+      236,
+      256,
+      276,
+      296,
+      315,
+      335,
+      355,
+      374,
+      394,
+      414,
+      434,
+      453,
+      473
+    ],
+    "face_checkpoint_indices": [
+      0,
+      118,
+      236,
+      355,
+      473
+    ],
+    "transition_boundary_indices": [],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "protected_inputs": [
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/edit_receipt.json",
+      "sha256": "c8d30483585244c8066ff795f5877593c64fb635311b5d168c00930a55344100"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/M03_commute_five_look_review_v1.mp4",
+      "sha256": "ccbbe61977fc61c7850ec994018411f5d5a463209916bd46a18ab5387e38c345"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/edit_receipt.json",
+      "sha256": "c83a17dc03572c4ce7eec0d9dee288a6a9970d92a2b3fca8989f53db912a85df"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/M03_commute_first_pair_review_v1.mp4",
+      "sha256": "d25ad7a1ecdc7fc9dcafa18295aa201e1e7ca466e09e763d7553bc943efacc8b"
+    },
+    {
+      "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/native_pair_tools.py",
+      "sha256": "5ff098a34fa9d1adf3912115b745d26af13ceba98281c0f8a38597a7a5fb3179"
+    }
+  ],
+  "source_hashes_preserved": true,
+  "protected_inputs_preserved": true,
+  "audio": false,
+  "baked_text": false,
+  "retiming": false,
+  "freeze": false,
+  "reverse": false,
+  "replay": false,
+  "crop": false,
+  "scaling": false,
+  "delivery_framing_transform": "none; entire native raster",
+  "image_operation": "Four 18-frame linear RGB cross dissolves, new alpha=(index+1)/18",
+  "encoding": "native RGB sequence, h264 CRF18, 24fps, no audio",
+  "streaming": "One source reader and 18 previous tail frames plus current blend",
+  "technical_checks_are_visual_approval": false,
+  "combined_sampled_visual_review": "pending",
+  "assistant_continuous_playback": false,
+  "user_film_approval": null,
+  "registry_acceptance": "pending",
+  "account_wide_adoption": null,
+  "publishable": false,
+  "publishing_files_replaced": [],
+  "publishing_changed": [],
+  "shared_state_changed": [],
+  "cloud_write": false,
+  "publication": false,
+  "scope": "Reorder and shorten existing five-look office inspiration material only.",
+  "new_motion_claimed": false,
+  "new_camera_language_claimed": false,
+  "viewer_purpose_feedback_resolved_claimed": false,
+  "pacing_feedback_resolved_claimed": false,
+  "limitations": [
+    "Existing source motion and camera framing remain unchanged.",
+    "Shorter dwell and new order require actual full-playback judgement.",
+    "Existing texture, source deviations and cross-dissolve double outlines are not corrected by this edit.",
+    "Re-encoding does not preserve historical decoded pixels bit-for-bit."
+  ],
+  "helper_note": "Used native read/encode/QA primitives only; did not execute prior study main or approval gates."
+}

@@ -1,0 +1,59 @@
+{
+  "look_id": "2026-W36-002-L02",
+  "design_id": "DAHUf_XMRI4",
+  "transaction_id": "6836979355534633873",
+  "status": "committed_exact_frame",
+  "edit_url": "https://www.canva.com/d/7GXpbtDnx5i6aH2",
+  "pages": [
+    {
+      "page_id": "PBG0szxkSTKqLWNX",
+      "page_number": 1,
+      "dimension": {
+        "width": 3240,
+        "height": 1350
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "assets": {
+    "A": "MAHUfzZEMnU",
+    "B": "MAHUf7Ah27Q",
+    "C": "MAHUf3fVmMA"
+  },
+  "operations": [
+    {
+      "type": "update_title",
+      "title": "Mira W36-002-L02｜短版西裝與垂墜寬褲"
+    },
+    {
+      "type": "replace_text",
+      "element_id": "PBG0szxkSTKqLWNX-LBVWRR3Zd24NWCYp",
+      "text": "短版西裝，遇上垂墜寬褲"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBbTnwkYDV7sQb2f",
+      "asset_id": "MAHUfzZEMnU",
+      "alt_text": "灰色短版西裝搭深藍寬褲全身",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBrNkdTtVWx2DSGy",
+      "asset_id": "MAHUf7Ah27Q",
+      "alt_text": "材質展示桌旁的穿搭場景",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBwCJ73MvWPDZBxt",
+      "asset_id": "MAHUf3fVmMA",
+      "alt_text": "西裝下襬、高腰寬褲與皮包細節",
+      "asset_type": "image"
+    }
+  ],
+  "preview_file": "002-L02_canva_draft_preview.png",
+  "upload_method": "authorized direct asset_file; no public GitHub publication"
+}

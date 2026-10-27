@@ -1,0 +1,68 @@
+{
+  "source": "03_research/reel_presentation_study_2026-10-12/continuous_distance_pose/A_attempt_02/source.mp4",
+  "sha256": "8e9deb287f3d0eef8055a0fd2e0bf3b05e51a04fdfb767e766ea5d2b084dfa20",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_presentation_study_2026-10-12\\continuous_distance_pose\\A_attempt_02\\source.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 10.04
+    },
+    "decoded_frames": 241,
+    "decoded_seconds": 10.041666666666666,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    210,
+    220,
+    230,
+    240
+  ],
+  "all_frame_thumbnails_exported": 241,
+  "visual_review": "sampled_review_candidate_usable_user_playback_pending",
+  "continuous_playback": false,
+  "user_film_approval": null,
+  "review_observations": {
+    "review_method": "All 241 whole-frame thumbnails covered; 25 larger whole-frame samples and five native face windows inspected. Not continuous normal-speed playback.",
+    "motion": "Near start; backward walking reveals shoes by about 2.5-3 seconds; full stance by about 3.3 seconds; turns toward side around 3.7-5 seconds; side hold through about 6.7 seconds; returns front around 7-8 seconds; front settle to end.",
+    "background": "Originally blank right wall stays blank in reviewed frames; no new window architecture detected. Left window, bench and floor broadly stable.",
+    "identity_and_clothes": "Recognizable face/hair and ivory blazer, white tee, navy trousers retained in reviewed views.",
+    "hands_feet_bag": "No obvious deformation seen at reviewed scales; far-side bag occlusion occurs during side stance and bag returns in front stance. Every frame was not separately reviewed as a native-resolution foot/bag crop.",
+    "framing": "Near start intentionally excludes lower legs; full outfit and shoes contained after retreat. No obvious source cut or zoom in reviewed geometry.",
+    "limits": "Actual side turn is deeper than planned oblique angle. Comfort, hold duration and normal-speed movement await user viewing; no success-rate claim."
+  }
+}

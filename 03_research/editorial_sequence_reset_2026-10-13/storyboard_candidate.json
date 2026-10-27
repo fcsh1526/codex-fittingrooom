@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-13",
+  "status": "exact_four_shot_picture_accepted_repeatability_plan_ready",
+  "working_title": "午休的小出走",
+  "model": "M03",
+  "look_ids": [
+    "2026-W41-004-L01",
+    "2026-W41-004-L02"
+  ],
+  "wardrobe_locked": [
+    {
+      "look_id": "2026-W41-004-L01",
+      "outfit": "米白無鋪棉輕薄單排扣西裝外套，敞開、袖口翻一折；白色圓領棉短袖紮入；深藍高腰直筒長褲；黑色低跟便鞋；深棕肩背包；小型銀耳針",
+      "dressing_decision": "用無鋪棉輕薄西外搭棉質短袖上衣和直筒褲，保留一件正式外層即可。",
+      "visual_proof": "外套翻領、棉T圓領、翻折袖口與直筒褲的正式／日常關係"
+    },
+    {
+      "look_id": "2026-W41-004-L02",
+      "outfit": "深藍無鋪棉輕薄單排扣西裝外套，敞開、袖口翻一折；淺灰圓領棉短袖紮入；奶油白高腰直筒長褲；黑色低跟便鞋；黑色肩背包；小型銀耳針",
+      "dressing_decision": "用無鋪棉輕薄西外搭棉質短袖上衣和直筒褲，保留一件正式外層即可。",
+      "visual_proof": "相同西外配圓領棉T的規則，以深外層和淺色直筒褲形成第二套"
+    }
+  ],
+  "identity_references": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "registry_status": "approved"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "registry_status": "approved"
+    }
+  ],
+  "prompt_age_language": "mid 30s look, well-maintained",
+  "original_goal": "Approachable refined everyday clothing magazine; clear outfits, comfortable whole-film viewing, sustainable weekly production; later validate account growth with publishing results.",
+  "actual_difference_to_E02": "Whole-film spatial/posture sequence: moving full outfit → same-look seated layer view → other-look seated layer view → moving full outfit. Cuts within one outfit establish an everyday moment. Not merely different standing poses or a concept rename.",
+  "history_caveat": "Full→medium→medium→full ordering already used in Mira v2/D-related studies. Four shots, close/full ordering and dissolve are not new techniques. Proposed new viewing experience comes from lateral travel, seated clothing context and same-occasion shot relationships; difference must be judged in actual film.",
+  "source_observations": [
+    {
+      "url": "https://www.instagram.com/fudge_magazine/reel/DdavjIjThdp/",
+      "account": "fudge_magazine",
+      "status": "new_browser_autoplay_samples_observed",
+      "evidence": "fudge_daily/samples.json",
+      "samples": 46,
+      "observed_mechanisms": [
+        "Same everyday outing links front walking, lateral travel, lower garment detail and a later seated rest.",
+        "Street/shop/tree locations have a role in the outing rather than arbitrary backgrounds."
+      ],
+      "representative_brackets": [
+        {
+          "indices": [
+            37,
+            38,
+            39
+          ],
+          "purpose": "Front walking with full outfit around12.9-14.9s"
+        },
+        {
+          "indices": [
+            40,
+            41,
+            42
+          ],
+          "purpose": "Lateral travel and garment side around15.7-17.6s"
+        },
+        {
+          "indices": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "purpose": "Lower body/shirt and moving garment detail around26.6-29.5s"
+        },
+        {
+          "indices": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "purpose": "Later seated outdoor rest around36.9-39.9s"
+        }
+      ],
+      "commercial_context": "Visible brand partnership and bicycle promotion; not a non-ad source.",
+      "limits": "Muted browser screenshots, roughly one persecond, spanning a playback wrap. Not exact cut times, original frames, uninterrupted audiovisual review or verified clothing-account performance."
+    },
+    {
+      "url": "https://www.instagram.com/pazzo/reel/DdYmOpBPfxs/",
+      "account": "pazzo",
+      "status": "new_browser_autoplay_samples_observed",
+      "evidence": "pazzo_daily/samples.json",
+      "samples": 20,
+      "observed_mechanisms": [
+        "Wall-side body angle, wider seated clothing views and an upper/lower simultaneous detail/full arrangement appear."
+      ],
+      "commercial_context": "Clothing product promotion with burned-in claims/words.",
+      "limits": "Not copied as Mira format. Reclining poses, large text, product performance claims, split layout and exact source rhythm are not adopted. Muted screenshot sampling only."
+    }
+  ],
+  "shots": [
+    {
+      "id": "A1",
+      "look_id": "2026-W41-004-L01",
+      "source_seconds_budget": 3.75,
+      "framing": "Native9:16 full person, visible head and shoes; camera chest-height/level/50mm view.",
+      "scene": "Quiet covered lunch-shop walkway by a plain window and fixed wooden bench; soft daylight from image-left.",
+      "start": "Model left of center in shallow front-three-quarter view, frontal readable face; front foot planted, trailing toe grounded; walking path remains inside frame.",
+      "action": "One or two ordinary steps diagonally toward image-right, no torso turn/cloth touch/camera approach.",
+      "camera": "Fixed; no zoom or simulated slowdown.",
+      "clothing_information": "Complete open cream blazer/white tee/navy straight trouser proportion and natural garment motion.",
+      "end": "Still moving slightly; do not wait for pose or look directly at viewer.",
+      "required_still": "New full-person movement-start image, not reuse the centered stance just for convenience."
+    },
+    {
+      "id": "A2",
+      "look_id": "2026-W41-004-L01",
+      "source_seconds_budget": 3.25,
+      "framing": "Head to knees, comfortable front-three-quarter seated view; lapels/tee waist and bent trouser line remain visible.",
+      "scene": "Same window/bench/light; physically consistent photographed angle change.",
+      "start": "Already seated upright, feet supported on ground outside or within frame; shoulders relaxed, hands resting simply on thighs away from lapel/waist.",
+      "action": "One small natural torso lean toward the daylight, then relaxed settle. No full sit-down choreography.",
+      "camera": "Fixed chest-height relative to seated subject, level50mm view; different viewpoint is a cut, not an implied camera move.",
+      "clothing_information": "How open lapels, cotton tee neckline and trouser folds relate in a everyday seated posture. No comfort or fabric-performance claim.",
+      "end": "Head and chest near planned B1 entry position.",
+      "required_still": "New seated image derived from visually approved A1 wardrobe/scene lock plus approved identity anchors."
+    },
+    {
+      "id": "B1",
+      "look_id": "2026-W41-004-L02",
+      "source_seconds_budget": 3.25,
+      "framing": "Same head-to-knees seated frame, scale and lapel/waist focus as A2.",
+      "scene": "Same bench/window/daylight; second outfit is another styling example, not literal instantaneous clothing change.",
+      "start": "Seated, front-three-quarter face visible; hands simply resting.",
+      "action": "Small upper-body change of attention toward the walkway, no touch/standing transition.",
+      "camera": "Fixed same seated chest-height level50mm viewpoint as A2.",
+      "clothing_information": "Navy lapels around gray tee, plus light straight trousers; theme remains blazer with everyday cottontee.",
+      "end": "Keep a readable shoulder direction suitable for B2 departure viewpoint.",
+      "required_still": "New seated L02 image; cannot use L01 approval for L02."
+    },
+    {
+      "id": "B2",
+      "look_id": "2026-W41-004-L02",
+      "source_seconds_budget": 4,
+      "framing": "Full person and shoes, head visually placed near B1 ending focus; no abrupt wide-angle perspective.",
+      "scene": "Same covered walkway/bench; departure into clear space on image-right.",
+      "start": "Already standing, shallow front-three-quarter walking start, face has sufficient identity information.",
+      "action": "One or two steps across clear walkway toward image-right; keeps head and shoes in frame through retained interval.",
+      "camera": "Fixed chest-height level50mm view; no camera approach/retreat.",
+      "clothing_information": "Return to complete navy-blazer/light-trouser outfit after the seated layer view.",
+      "end": "Natural mid-walk exit direction; retain whole outfit, no forced loop.",
+      "required_still": "New L02 full-person start; reused source requires geometry/framing review first."
+    }
+  ],
+  "planned_dissolves": [
+    {
+      "from": "A1",
+      "to": "A2",
+      "seconds": 0.75,
+      "check": "Scale changes plus seated height require joint storyboard review: face/lapel focus and light matched, not superimposed standing/seated bodies as a trick. If sustained double scale is uncomfortable, redesign adjacent view, do not shorten user dissolve or revert to rejected two-full version."
+    },
+    {
+      "from": "A2",
+      "to": "B1",
+      "seconds": 0.75,
+      "check": "Same seated scale, head/waist and bench geometry; outfit changes only here. Not a comparison hook."
+    },
+    {
+      "from": "B1",
+      "to": "B2",
+      "seconds": 0.75,
+      "check": "Maintain face/lapel viewing location and light; no jump in gaze direction. Standing/seated change must feel like montage, not magic standing-up."
+    }
+  ],
+  "duration_budget_seconds": 12,
+  "source_budgets_seconds": [
+    3.75,
+    3.25,
+    3.25,
+    4
+  ],
+  "unoverlapped_reading_seconds": [
+    3,
+    1.75,
+    1.75,
+    3.25
+  ],
+  "timing_note": "Planning budgets only, not exact source cutpoints, achieved media or IG-optimal length. Recompute after dynamic QA.",
+  "text": "none",
+  "music": "Optional manual IG addition later; no music/tempo conclusion from muted references.",
+  "control_and_risk": "Four shots cost more than two. First test A1+A2 as same-outfit sub-sequence; if new views cannot join comfortably, stop/replan rather than generating B or converting back into rejected fixed-full dissolve route. Each motion candidate has at most one retry.",
+  "still_gate": "Review new exact stills visually with user before Grok. Still approval is not film approval.",
+  "formal_asset_scope": "Each look still needs a native full9:16 plus useful proof and separate CarouselABC; this trial plan is not completed production.",
+  "accepted_weekly_files_changed": false,
+  "next_action": "M02 W41-003 transfer pilot: first visually inspect existing approved native full-person images/motion for actual reuse, then plan only missing seated styling-proof sources. Maintain original purpose, still gates, dynamic review and protected weekly files.",
+  "current_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v2.png",
+  "a1_generation_count": 2,
+  "a1_targeted_pose_edits": 1,
+  "a1_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用修正版",
+    "question_context": "Explicit reply identifying second displayed M03 L01 walk-start v2 for lunch-outing A1.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v2.png",
+    "sha256": "f8df74a64224495272dd1b85159c2af0d10f86fe383477c29266c052036c0990",
+    "scope": "Only this exact still as A1 source and L01 outfit/scene lock. No approval of A2, motion or whole film."
+  },
+  "a2_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用這張",
+    "question_context": "Exact last plain-fabric seated image, one hand on knee and one by bench; approved as second-shot start.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v4_clean.png",
+    "sha256": "bb62e95ad1b56e4391b3c5654ddbe835c7e196dc6601a6fa3d4a43282360d10c",
+    "scope": "Exact seated A2v4 still only; no motion or whole-film approval."
+  },
+  "a2_still_generation_count": 4,
+  "a1_motion_generation_count": 1,
+  "a2_motion_generation_count": 1,
+  "first_look_trial": {
+    "file": "03_research/editorial_sequence_reset_2026-10-13/first_look_review_v1/M03_L01_walk_to_seated_trial_v1.mp4",
+    "seconds": 5.5,
+    "source_intervals_seconds": [
+      [
+        0,
+        2.25
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "dissolve_seconds": 0.75,
+    "review": {
+      "status": "sampled_frame_review_complete_user_normal_speed_review_pending",
+      "method": "All132 output thumbnails,25 larger whole-frame samples,5 face samples;23 transition/boundary samples including all18 dissolve frames.",
+      "findings": "No black/decode failures; recognizable clothing and face in sampled single-source intervals. Standing-to-seated scale, face position and bench viewpoint differ; visible double heads/body outlines during overlap. Not an invisible match.",
+      "limits": "No assistant continuous normal-speed playback. User comfort, daily-magazine impression, originality and whole-film acceptance pending. No audience or sustainable-budget conclusions.",
+      "assistant_continuous_playback": false,
+      "user_film_approval": null
+    },
+    "formal_two_look_delivery": false
+  },
+  "active_production_minutes": null,
+  "generation_wait_minutes": null,
+  "first_look_direction_acceptance": {
+    "date": "2026-10-13",
+    "user_quote": "這個方向可以",
+    "context": "Direct reply after showing5.5s same-outfit A1→A2 trial and asking whether it approaches an approachable everyday magazine.",
+    "file": "03_research/editorial_sequence_reset_2026-10-13/first_look_review_v1/M03_L01_walk_to_seated_trial_v1.mp4",
+    "sha256": "65a4cd87b9ef6a0e7dd3c6f26612c2173d9d5cc2b673f8d3c460120a5387ed8c",
+    "scope": "Editorial direction accepted; continue second look within existing storyboard. Not final full-Reel approval, account-wide template adoption, audience success or a self-report of uninterrupted playback.",
+    "normal_speed_full_playback_user_self_report": null,
+    "assistant_continuous_playback": false
+  },
+  "second_look_image_order": [
+    "B2 full-person session lock",
+    "B1 seated styling-proof view"
+  ],
+  "second_look_screen_order": [
+    "B1 seated",
+    "B2 departure"
+  ],
+  "second_look_join_plan": {
+    "A2_to_B1": "Match seated framing, crossed-leg posture, face and waist position and left daylight. Navy blazer/gray tee/cream trousers/black bag remain the sole L02 wardrobe authority; no L01 clothing copied.",
+    "B1_to_B2": "Use same lunch-shop bench/window/warm-gray-wall scene. Full departure framing keeps readable face near viewing focus and leaves image-right walking space.0.75s independent-shot dissolve, not sit-to-stand keyframe morph.",
+    "risks": "Standing/seated scale change and reconstructing wider scene can still create visible overlap. Static candidates do not establish scene geometry matching or dynamic comfort.",
+    "scene_reference": "Approved clean A2v4 only for window, bench, light and photographic color; never its L01 wardrobe."
+  },
+  "b2_still_generation_count": 4,
+  "b2_candidate": {
+    "version": "v4",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png",
+    "sha256": "a5e578157109ed5204218e310f84a2586fa744076ddf69ca71e83708ab63a3d2",
+    "native_pixels": [
+      941,
+      1672
+    ],
+    "original_generated_name": "exec-9733e581-c0a5-4f74-8e81-638aebf5c98f.png",
+    "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/B2_identity_only_replan_v4.txt",
+    "status": "assistant_static_candidate_user_visual_approval_pending",
+    "framing_transform": "none"
+  },
+  "b2_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用最後這張",
+    "question_context": "Explicit answer to latest B2v4 full-person face/navy blazer/plain gray tee/cream trousers/one hand on black shoulder-bag question.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png",
+    "sha256": "a5e578157109ed5204218e310f84a2586fa744076ddf69ca71e83708ab63a3d2",
+    "scope": "Exact B2v4 still and its L02 wardrobe/bag as scene lock only. No B1 still, motion or whole-film approval."
+  },
+  "b1_candidate": {
+    "version": "v4",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v4_clean.png",
+    "sha256": "5d3933fc1ba8dce227c70e3ed3b625d7151fb26acdde5b7fbc3b6b5aea7655f1",
+    "native_pixels": [
+      941,
+      1672
+    ],
+    "original_generated_name": "exec-11d1a0f5-a77d-4236-a65d-15403e3a0b6c.png",
+    "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/B1_identity_only_replan_v4.txt",
+    "status": "assistant_static_candidate_user_visual_approval_pending",
+    "framing_transform": "none"
+  },
+  "b1_still_generation_count": 4,
+  "b2_confirmed_motion_result_count": 1,
+  "b2_motion_source": "03_research/editorial_sequence_reset_2026-10-13/B2_motion_attempt_01/source.mp4",
+  "b2_provisional_interval_seconds": [
+    0,
+    3
+  ],
+  "b2_actual_motion": "Short mainly forward step followed by settle, arm swing and a shallow body-angle change; later ankle-crossed pose. Not requested sustained diagonal departure. Prompt compliance partial.",
+  "b1_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用最後這張",
+    "question_context": "Explicit reply identifying final M03 L02 B1v4 seated still: face/navy blazer/plain gray tee/cream trousers/black bag/crossed-leg pose for third shot.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v4_clean.png",
+    "sha256": "5d3933fc1ba8dce227c70e3ed3b625d7151fb26acdde5b7fbc3b6b5aea7655f1",
+    "scope": "Exact B1v4 still only; authorizes next Grok First frame. No motion or whole-film approval."
+  },
+  "b1_confirmed_motion_result_count": 1,
+  "trial_file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+  "trial_sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+  "actual_trial_seconds": 10.75,
+  "actual_source_frames": [
+    54,
+    96,
+    90,
+    72
+  ],
+  "actual_dissolves": [
+    {
+      "from": "A1",
+      "to": "A2",
+      "type": "cross_dissolve",
+      "start_frame": 36,
+      "end_frame_exclusive": 54,
+      "start_seconds": 1.5,
+      "end_seconds": 2.25,
+      "seconds": 0.75,
+      "frames": 18
+    },
+    {
+      "from": "A2",
+      "to": "B1",
+      "type": "cross_dissolve",
+      "start_frame": 114,
+      "end_frame_exclusive": 132,
+      "start_seconds": 4.75,
+      "end_seconds": 5.5,
+      "seconds": 0.75,
+      "frames": 18
+    },
+    {
+      "from": "B1",
+      "to": "B2",
+      "type": "cross_dissolve",
+      "start_frame": 186,
+      "end_frame_exclusive": 204,
+      "start_seconds": 7.75,
+      "end_seconds": 8.5,
+      "seconds": 0.75,
+      "frames": 18
+    }
+  ],
+  "visual_review": {
+    "status": "sampled_frame_review_complete_user_whole_film_review_pending",
+    "method": "All258 output thumbnails,25 larger whole-frame samples,5 face samples and all23 boundary/overlap samples at each of3 joins (all18 dissolve frames per join) viewed. Native source spot checks recorded separately. No assistant continuous normal-speed playback.",
+    "single_source_findings": "Recognizable face and readable locked wardrobe in sampled intervals; no gross instantaneous face/clothing/hand/bag/background morph observed.0black candidates;258 frames decoded. Does not certify native contact or exact architecture every frame.",
+    "join_findings": {
+      "A1_A2": "Standing/seated body scale and position differ; visible double heads and bench outlines. Retains previously direction-accepted first-look cut.",
+      "A2_B1": "Seated head/waist focus closer than full→medium, but size, x-position and bench/window viewpoint differ; visible face/body overlap. Not an invisible change.",
+      "B1_B2": "Seated/standing scale differs and viewing direction changes; visible larger/smaller double head/body during0.75s overlap. Comfort requires whole-film viewing."
+    },
+    "assistant_continuous_playback": false,
+    "user_film_approval": null,
+    "limits": "Still approvals and first-look direction acceptance do not approve this full film, adopt a weekly template, prove production-time targets or establish IG performance."
+  },
+  "user_film_approval": {
+    "date": "2026-10-13",
+    "user_quote": "ok",
+    "question_context": "Direct reply after exact10.75s four-shot two-look trial was shown and assistant asked whether middle outfit switch and final return to full-person join felt comfortable.",
+    "file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+    "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+    "seconds": 10.75,
+    "scope": "Exact research film visual/editorial acceptance, including current0.75s dissolve joins. Not replacing weekly publishing files, adopting a mandatory account-wide format, confirming production-time targets or proving audience results.",
+    "normal_speed_full_playback_user_self_report": null,
+    "assistant_continuous_playback": false,
+    "drive_upload_authorized_by_this_reply": false
+  },
+  "repeatability_recipe": "REPEATABILITY_RECIPE.md"
+}

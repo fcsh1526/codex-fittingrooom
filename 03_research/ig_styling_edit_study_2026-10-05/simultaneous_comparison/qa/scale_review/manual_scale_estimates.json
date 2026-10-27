@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-05",
+  "reviewer": "parallel_scale_check_oct05",
+  "method": "Manual visual estimates from existing native 720x1280 PNG checkpoints; approximately +/-4px uncertainty. These are not segmentation results or exact pixel measurements.",
+  "source_frame_indices": [0,36,72,108,143],
+  "native_source_size": [720,1280],
+  "continuous_playback_review": false,
+  "measurements": [
+    {"frame":0,"A":{"head_top_y":105,"lowest_shoe_y":1192,"height":1087},"B":{"head_top_y":105,"lowest_shoe_y":1177,"height":1072},"note":"Opening hair tops match; distinct forward-foot stance gives differing lowest shoes. Overall ratio at opening differs from settled pose."},
+    {"frame":36,"A":{"head_top_y":74,"lowest_shoe_y":1206,"height":1132},"B":{"head_top_y":88,"lowest_shoe_y":1187,"height":1099},"note":"A has stepped into a larger, settled presentation. B retains staggered feet."},
+    {"frame":72,"A":{"head_top_y":74,"lowest_shoe_y":1204,"height":1130},"B":{"head_top_y":93,"lowest_shoe_y":1183,"height":1090},"note":"A visibly taller in frame with larger hair/face presentation; posture is also different."},
+    {"frame":108,"A":{"head_top_y":79,"lowest_shoe_y":1202,"height":1123},"B":{"head_top_y":94,"lowest_shoe_y":1184,"height":1090},"note":"Stable typical full-body phase; A remains taller, B stance is staggered."},
+    {"frame":143,"A":{"head_top_y":82,"lowest_shoe_y":1202,"height":1120},"B":{"head_top_y":95,"lowest_shoe_y":1184,"height":1089},"note":"Ending hair/foot positions stable within manual measurement uncertainty."}
+  ],
+  "recommendation": {
+    "method": "One constant, proportional wider crop for A with fixed placement. Keep B as previous version. Do not compensate per frame, retime, freeze, reverse or regenerate.",
+    "A_fixed_crop": [132,0,488,1280],
+    "A_nominal_scaled_image": [352,924],
+    "A_nominal_panel_position": [4,176],
+    "B_fixed_crop": [145,0,470,1280],
+    "B_nominal_scaled_image": [352,958],
+    "B_nominal_panel_position": [4,161],
+    "panel_size": [360,1280],
+    "relative_A_to_B_scale": 0.963115,
+    "nominal_A_shrink_percent": 3.6885,
+    "exact_dimensions_require_actual_output_receipt": true,
+    "selected_native_frames": [0,144],
+    "selected_native_frames_semantics": "start inclusive, end exclusive; all 144 selected frames preserved at 24fps",
+    "sampled_horizontal_boundary_result": "A wider132..620 window adds room around previously reviewed145..615 window; no new silhouette or bag crop visible in inspected5frames. B unchanged; its full selected sequence still requires output boundary check."
+  },
+  "nominal_transformed_y_estimates": [
+    {"frame":0,"A_head":251.8,"B_head":239.6,"A_shoe":1036.5,"B_shoe":1041.9},
+    {"frame":36,"A_head":229.4,"B_head":226.9,"A_shoe":1046.6,"B_shoe":1049.4},
+    {"frame":72,"A_head":229.4,"B_head":230.6,"A_shoe":1045.1,"B_shoe":1046.4},
+    {"frame":108,"A_head":233.0,"B_head":231.4,"A_shoe":1043.7,"B_shoe":1047.1},
+    {"frame":143,"A_head":235.2,"B_head":232.1,"A_shoe":1043.7,"B_shoe":1047.1}
+  ],
+  "residual_limit": "Fixed correction aligns typical settled phase rather than every pose. Opening A head is nominally12px lower than B and lowest shoe about5px higher; most sampled later head and foot differences are about1-4px. No exact match or continuous-video acceptance inferred.",
+  "writes": "This review JSON only; no video, source, publishing or cloud write."
+}

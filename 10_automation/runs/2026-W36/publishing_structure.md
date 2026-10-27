@@ -27,14 +27,18 @@ W36 scene rule: do not use access-control turnstiles, ticket gates, badge-scanni
 
 ## Reel compilation
 
-The ten accepted Reel A sources may become either:
+User-approved revision, 2026-09-09: W36 is packaged as five Reels, one theme and one model per Reel. Each Reel combines both looks and all approved surface images in this fixed order:
 
-1. One 10-look Reel in look-plan order.
-2. Two 5-look Reels:
-   - Reel 1: `L01` from each of the five themes.
-   - Reel 2: `L02` from each of the five themes.
+1. L01 Reel A
+2. L01 Carousel A
+3. L01 Carousel B
+4. L01 Carousel C
+5. L02 Reel A
+6. L02 Carousel A
+7. L02 Carousel B
+8. L02 Carousel C
 
-Each look contributes one full-person shot. The final edit does not create ten separate Reels by default.
+Do not return to the superseded L01/L02 cross-model grouping unless the user explicitly requests a new experiment.
 
 ## Carousel completion gate
 
@@ -47,3 +51,7 @@ All W36 Instagram copy follows `09_sops/mira_instagram_caption_sop.md`: one conc
 ## Manual boundary
 
 The user performs final Canva design decisions, Reel assembly, export and Instagram publishing. Codex records accepted assets and production status, and pauses for user visual approval at the required preview gates.
+
+## W36 batch-review authorization
+
+On 2026-09-03, the user authorized continuous production of the remaining W36 image assets before reviewing them one look at a time. During this run, Codex may generate and internally review Reel A and Carousel A/B/C for successive looks without pausing after each image. Keep rejected candidates out of Canva and collect completed look sets into a review queue. User approval is still required before a look is marked final for Canva, and each Canva editing transaction must be previewed and explicitly approved before commit.

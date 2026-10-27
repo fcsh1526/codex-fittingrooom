@@ -1,0 +1,59 @@
+{
+  "review_date_taipei": "2026-10-20",
+  "status": "spatial_FAIL_unapproved_added_architecture_and_street_fixtures",
+  "generation_requests": 1,
+  "actual_source": {
+    "asset_id": "c6004f06-33f4-4872-951f-7bfeef157683",
+    "download_path": "C:/Users/Brandon_ChangChien/Downloads/generated_video (54).mp4",
+    "project_path": "F04_source.mp4",
+    "sha256": "25252192b6ce6052d88bd645fba47496246be59b23c953e5b3ad68f29ef11739",
+    "bytes": 7080082,
+    "pixels": [720, 1280],
+    "fps": 24,
+    "decoded_frames": 145,
+    "seconds": 6.041666666666667,
+    "audio": "AAC retained in source",
+    "technical_scan": "source_inspection_v1/technical_scan.json",
+    "new_source_not_old_failed_source": true
+  },
+  "roles": {
+    "verification": "Exact new endpoint upload visually confirmed; First/Last/face/full use and excluded old assets are agent-reported, internal generation controls not independently inspected.",
+    "first": "e008f6b5-efe9-40b4-be75-615af1be766c",
+    "last": "331ad2df-c269-473c-97ce-4d7a989da5af",
+    "face": "6236309c-2343-41e6-985c-994239ff744a",
+    "full": "ac9ede4e-1715-4518-95b4-bda341a62061"
+  },
+  "review_evidence": [
+    "source_inspection_v1/full_25_checkpoints.jpg",
+    "source_inspection_v1/face_5_checkpoints.jpg",
+    "source_inspection_v1/dense_gait_turn_full_frames.jpg",
+    "source_inspection_v1/frames/frame_000030.png",
+    "source_inspection_v1/frames/frame_000072.png",
+    "source_inspection_v1/frames/frame_000075.png",
+    "source_inspection_v1/frames/frame_000096.png"
+  ],
+  "observations": {
+    "planting": "Improved in inspected samples: low planter/tree move toward left edge around2.5-4s; prior transparent expansion of a hedge across clear landing at3-3.25s not seen. This does not establish all-frame geometry.",
+    "blocking_architecture": "Large silver cylindrical column added around f24-f114 /1-4.75s, crossing frame-right to left. Coherent sampled parallax does not make this new building feature compatible with E00 and approved endpoint.",
+    "other_unapproved_additions": "Two gray/yellow-ring short bollards and yellow tactile strip appear around2-4.5s. These are also absent from approved scene/stills.",
+    "gait": "Alternating walking poses and gradual side-to-rear arc; no precise grounding/cadence measurement or complete normal-speed playback pass.",
+    "independent_audit": "f04_crossing_continuity_plan independently recommends spatialFAIL and no four-shot append; vegetation improvement must not be treated as whole-scene pass."
+  },
+  "continuous_normal_speed_visual_playback": null,
+  "dynamic_QA_pass": false,
+  "new_four_shot_composite_created": false,
+  "user_video_acceptance": null,
+  "F05": "hold",
+  "next": "Stop same-input prompt-only retries. Prepare one intermediate static scene key using sourcef72 only for pose/composition; remove new fixtures, compare approved first/mid/last, obtain exact new-still approval before further use. Confirm tool timing and reference roles before a new bounded generation.",
+  "duration_probe": {
+    "mode": "read-only question to existing Grok agent; no media generation requested",
+    "evidence": "duration_capability_dom.txt",
+    "reported_reference_to_video_duration_enum": [6, 10],
+    "reported_3_seconds_supported": false,
+    "verification_limit": "Grok agent reports its available tool schema; no direct inspection of internal controls or successful3s call.",
+    "two_native_3_second_segments_plan": "cancelled; do not stretch short routes into6s or retime to simulate3s",
+    "midpoint_future_role": "additional scene/layout reference if actual role support confirmed; not a guaranteed frame at an exact time"
+  },
+  "original_media_and_accepted_prefix_preserved": true,
+  "Drive_or_publication_write": false
+}

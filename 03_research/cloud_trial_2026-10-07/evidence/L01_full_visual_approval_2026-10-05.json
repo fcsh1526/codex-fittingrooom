@@ -1,0 +1,12 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "asset_id": "L01_full",
+  "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+  "sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e",
+  "approval_date": "2026-10-05",
+  "user_reply": "ok",
+  "context": "Direct reply after exact candidate display and approval question",
+  "approval_scope": "L01 full-person still and its scene/outfit baseline",
+  "dynamic_qa": "not_started",
+  "final_film_approval": "not_requested"
+}

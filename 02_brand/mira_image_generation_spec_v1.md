@@ -47,7 +47,7 @@ M03 true age 45 -> prompt visual age: mid 30s look, well-maintained
 M04 true age 55 -> prompt visual age: early 40s look, elegant
 ```
 
-True ages are roster metadata only. Image prompts must not include numeric true ages. Express age through styling and presence, not wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained.
+True ages are roster metadata only. Image prompts must not include numeric true ages. Use the approved prompt-age language and identity anchors; preserve believable skin texture and normal human variation without age caricature, smoothing instructions, or beauty retouching.
 
 The model profile controls identity and visual consistency. It is not a character story and it is not tied to one clothing occasion.
 
@@ -153,7 +153,7 @@ If candidate A is strong enough, stop and move to review. Do not over-generate j
 
 ## Prompt Template
 
-Use English for image prompts, with clothing details kept precise.
+The canonical prompt template now lives in `11_skills/mira-image-daily/scripts/prepare_daily_image_job.py`; do not copy the historical long template below into new work. Use English for structural instructions while keeping clothing details precise in their source language.
 
 ```text
 Create a realistic vertical lifestyle fashion image for Mira, an AI fashion magazine brand using global fashion trend research.
@@ -167,9 +167,7 @@ Prompt visual age language:
 {prompt_age_language}
 
 Age rendering:
-Express age through styling and presence, NOT wrinkles.
-East Asian women look significantly younger than Western age norms.
-Skin is smooth and well-maintained.
+Use the approved prompt-age language only; never include numeric true age. Preserve believable skin texture without age caricature or beauty retouching.
 
 Outfit:
 {clothing_item}. Palette: {color_palette}. Fabric: {fabric}. Fit: {fit}.

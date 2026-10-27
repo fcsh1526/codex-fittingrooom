@@ -1,0 +1,26 @@
+{
+  "status": "completed_downloaded",
+  "submitted_at": "2026-10-13T06:33:44.985Z",
+  "send_count": 1,
+  "reference": "Mira M03 v3",
+  "image_role": "First frame",
+  "approved_still": "M03_L02_B2_departure_candidate_v4_clean.png",
+  "settings": {
+    "resolution": "720p",
+    "seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "prompt": "B2_motion_prompt_v1.txt",
+  "generation_count": null,
+  "note": "Historical first locator send had no visible job confirmation; one reload and fresh accessibility-index submission produced one confirmed downloadable result. First action server billing/count unknown; only one result verified.",
+  "send_action_attempts": 2,
+  "verified_submit_action_at": "2026-10-13T06:49:43.716Z",
+  "ui_recovery": "One reload, unrelated Loop modal dismissed, rebuilt same authorized draft. Fresh accessibility-index send visibly cleared input, opened result post, and provided downloadable video. No private APIs or guessed downloads.",
+  "post_url": "https://grok.com/imagine/post/1787193e-0087-4742-a24e-f1ea2f33649a?conversation=211598c0-f6c1-4ec1-a7c1-f6cdc8f8ae48",
+  "confirmed_result_count": 1,
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-211598c0-f6c1-4ec1-a7c1-f6cdc8f8ae48.mp4",
+  "downloaded_at": "2026-10-13T06:52:20.292Z",
+  "submit_to_download_seconds": 156.576,
+  "elapsed_time_note": "Includes review/document work; not pure generation wait. First locator submit never produced visible job; only one confirmed result."
+}

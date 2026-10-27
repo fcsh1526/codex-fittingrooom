@@ -1,0 +1,59 @@
+{
+  "reel_id": "2026-W37-M04-reel",
+  "status": "user_visual_approved_clean_picture_track",
+  "date": "2026-10-01",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+  "sha256": "b01ce4a5b95a7cbc368312d0607a6155fad5c7f1918b1ed3272b4b75b247679b",
+  "duration_seconds": 8,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "speed": "unchanged",
+  "transitions": "one direct outfit cut at frame 90, 3.75s; no fades or effects",
+  "aspect_handling": "Uniformly scale both 720x1264 sources to cover 720x1280, then center-crop approximately five pixels per side; no stretching, no animated crop.",
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M04_A_L01_upload_trial_01.mp4",
+      "start_frame": 0,
+      "end_frame_exclusive": 90
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M04_B_L02_motion_v1_01.mp4",
+      "start_frame": 6,
+      "end_frame_exclusive": 108
+    }
+  ],
+  "technical_scan": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.0
+    },
+    "decoded_frames": 192,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": []
+  },
+  "qa": {
+    "continuous_watch_done": true,
+    "user_approval": "可以，沿用這版",
+    "visual_notes": "Output sampled at opening, midshot, cut frame89/90, B retreat and final frame191. Face scale close with modest residual difference; first B frame partly blinking. No obvious sampled wardrobe jump or room-object morph. Full user playback remains decisive, especially satin-hem silhouette, feet and background parallax.",
+    "approval_date": "2026-10-01",
+    "approval_scope": "User accepted the full eight-second preview for two-look cut, camera retreat and background. Music, caption and publication are separate.",
+    "continuous_review_basis": "User reply to explicit full-playback question; no claim of assistant full-playback observation."
+  }
+}

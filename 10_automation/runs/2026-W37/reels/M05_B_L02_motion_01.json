@@ -1,0 +1,28 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "look_id": "2026-W37-002-L02",
+  "shot_id": "B_full_fixed_v1",
+  "attempt_id": "01",
+  "submitted_at_local_date": "2026-09-29",
+  "source_first_frame": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/2026-W37-002-L02_M05_S02_storyboard_v1_full_candidate.png",
+  "first_frame_user_approval": "2026-09-29: 可以，沿用這張",
+  "saved_character_reference": "Mira M05 v1 face",
+  "input_role_verification": "Grok composer showed the uploaded L02 full image as First frame (first-frame control and add-middle/add-last-frame controls); the saved M05 face reference remained attached separately.",
+  "settings_observed": { "aspect_ratio": "9:16 selected", "resolution": "720p selected", "duration": "6s selected", "audio": "Second of two audio buttons selected before submission; output has no audio stream." },
+  "prompt_file": "10_automation/runs/2026-W37/reels/prompts/M05_B_L02_full_fixed_v1.md",
+  "source_url": "https://grok.com/imagine/post/0b0579f7-e91d-425a-994f-59a62e191285?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_B_L02_full_fixed_v1_01.mp4",
+  "output_sha256": "45FFE7B4EAC64F9D31A4073A6C20EB6AF7243378B9A20AA8201EA7B877DCBE30",
+  "output_metadata": { "duration_seconds": 6.041667, "resolution": "720x1280", "frame_rate": 24, "decoded_frames": 145, "audio_stream": false },
+  "status": "technical_source_segment_accepted_user_review_pending",
+  "qa": {
+    "continuous_watch_done": false,
+    "dynamic_identity": "Face and hair broadly stable in 2-fps samples; no obvious momentary swap in sampled frames.",
+    "wardrobe_continuity": "Sand jacket, white T-shirt, gray trousers, brown shoes and black bag remain consistent in 2-fps contact sheet.",
+    "motion_and_camera": "One small ordinary forward step, then a mostly held full-person framing. Use only the first 2.5 seconds for the two-look rough cut.",
+    "usable_interval_seconds": "0-2.5 provisionally",
+    "decode_and_scan": "Full 145-frame H.264 decode passed; blackdetect and freezedetect found no events.",
+    "contact_sheet": "10_automation/runs/2026-W37/reels/qa/M05_B_L02_full_fixed_v1_01/contact_2fps.jpg",
+    "decision": "provisional first-2.5-second source segment; user full-speed review needed"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "recorded_date":"2026-10-19",
+  "status":"single_gait_retry_pair_ready_exact_user_motion_review_pending",
+  "trigger":"../F02_pair_user_feedback_2026-10-19.json",
+  "submission":"submission_receipt.json",
+  "prompt":"F02_gait_retry_prompt.txt",
+  "grok_completion_text":"grok_completion_dom.txt",
+  "grok_completion_proof":"grok_result_screenshot.png",
+  "video_asset_id":"545538de-6a5d-4ba9-a283-d5d8530a1520",
+  "retry_count":1,
+  "new_stills":0,
+  "agent_reported_selected_roles":{"first_frame":"20c59fdd-4d3b-460c-8d0c-8b81be7b257f","last_frame":"85c20ca9-3c40-4c61-b747-1e9cf8b08178","face":"6236309c-2343-41e6-985c-994239ff744a","full_proportions":"ac9ede4e-1715-4518-95b4-bda341a62061"},
+  "actual_internal_role_controls_independently_visible":false,
+  "source":{"file":"F02_source.mp4","downloaded_file":"C:/Users/Brandon_ChangChien/Downloads/generated_video (50).mp4","sha256":"cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0","bytes":7996794,"pixels":[720,1280],"fps":24,"frames":145,"seconds":6.041666666666667,"audio_codec":"aac","scan":"technical_scan.json"},
+  "pair":{"file":"F01_F02_gait_fix_review_v1.mp4","sha256":"54da666276fd89fc93461fc25bbe2aa805e565beff8f708bf071b78118a462dd","pixels":[720,1280],"fps":24,"frames":205,"seconds":8.541666666666666,"F01_source_frames_half_open":[0,78],"new_F02_source_frames_half_open":[0,145],"dissolve_output_frames_half_open":[60,78],"dissolve_seconds":0.75,"speed_factors":[1,1],"framing_transform":"none","text":"none","audio":"none; output stream check confirmed","builder_receipt":"F01_F02_gait_fix_review_v1_receipt.json"},
+  "sampled_visual_review":{
+    "root_viewed":["QA_source/full_25_checkpoints.jpg","QA_pair/transition_all_boundary_frames.png"],
+    "independent_reviewer":"/root/f02_gait_failure_audit",
+    "observations":["New source reaches a passing/closed-leg phase around0.5seconds and another open step around0.75seconds; old source reaches passing phase later, around0.75seconds. This supports faster phase progression in sampled opening, not an exact cadence measurement.","Independent original-size f6/f12 inspection sees the supporting shoe and adjacent tile line move approximately together; no obvious sampled shoe-fixed-to-screen/ground-moving-alone failure.","No obvious sampled shoe-shape collapse, identity/outfit switch or recurrence of deep arched corridor; compact columns/planters continue toward plaza.","The0.75second dissolve still doubles some person and column edges; source walking/camera synchronization and zero sliding are not established from boards."],
+    "precise_ground_tracking_performed":false,
+    "assistant_continuous_normal_speed_playback":false,
+    "user_normal_speed_full_playback_self_report":null,
+    "slide_free_feet_pass":null,
+    "same_cadence_as_F01_pass":null,
+    "user_exact_pair_feedback":null
+  },
+  "next":"User compare sudden slowdown and sliding feet in exact new pair; retain accepted scene/editorial direction. If still failed, reassess endpoint distance/time compatibility before more prompt retries. Hold L03 until feedback.",
+  "old_media_overwritten":false,
+  "publication_or_drive_changes":false
+}

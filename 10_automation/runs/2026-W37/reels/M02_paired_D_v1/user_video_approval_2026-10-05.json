@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-05",
+  "user_reply": "ok",
+  "approval_source": "direct user reply to latest complete M02 v2 preview",
+  "output_path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+  "output_sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989",
+  "scope": "accepted_clean_picture_track_for_this_exact_cut",
+  "seconds": 11.25,
+  "frames": 270,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "transition": {
+    "type": "cross_dissolve",
+    "count": 1,
+    "seconds": 0.75,
+    "output_seconds": [
+      5.25,
+      6
+    ]
+  },
+  "text": "none",
+  "audio": "none",
+  "source_speed": "unchanged",
+  "A_framing": "fixed proportional scale747x1328; fixed crop720x1280x14y44",
+  "B_framing": "original",
+  "user_detailed_rationale": null,
+  "user_full_watch_self_report": null,
+  "assistant_continuous_review": false,
+  "sampled_limitations_preserved": [
+    "residual face/hand/bag and background double edges",
+    "opening top margin roughly2%at0.5s"
+  ],
+  "account_wide_format_adoption": "not_inferred",
+  "audience_performance": null,
+  "cloud_upload_authorized_by_this_reply": false,
+  "publication_authorized_by_this_reply": false,
+  "status": "accepted_clean_picture_track"
+}

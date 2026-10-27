@@ -1,0 +1,30 @@
+{
+  "look_id": "2026-W37-001-L01",
+  "model_profile_id": "M02",
+  "shot_id": "S01",
+  "storyboard": "storyboard_comparison_v2.md",
+  "tool": "built-in imagegen",
+  "date": "2026-09-22",
+  "prompt_file": "prompts/S01_comparison_v2_start.md",
+  "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S01_comparison_v2_start_candidate.png",
+  "source_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-2b6fcdfd-4b0e-4d92-a3e4-4c4f965d91d1.png",
+  "sha256": "87FF55A7EF8403D7F6ECC40495177E899F1FE9858B182A0D0B83A423B0D8AABD",
+  "actual_width": 941,
+  "actual_height": 1672,
+  "requested_width": 2160,
+  "requested_height": 3840,
+  "aspect_ratio_note": "Generated as a portrait approximately 9:16 (0.053% ratio difference); requested pixel size was not returned. Original output retained without resizing or cropping.",
+  "generation_wait_seconds": 52.6,
+  "active_minutes": null,
+  "generation_attempts": 1,
+  "user_visual_approval": "approved_by_user_ok_2026-09-22",
+  "dynamic_qa": "generated_review_candidate; see S01_comparison_v2_motion_01.json",
+  "review_observations": [
+    "Full head-to-shoe outfit visible with clear aisle space; short-step posture replaces the book/table gesture.",
+    "Mist-gray open shirt, cream calf-length dress and waist seam, navy shoulder bag, white low-top canvas sneakers retained.",
+    "Near-frontal face and both eyes visible; still resembles the approved identity to visual inspection, pending user confirmation.",
+    "Normal-speed motion and adjacent-shot continuity cannot be validated from this still.",
+    "No obvious hand/foot deformation at displayed size; exact requested output resolution was not met."
+  ],
+  "next_step": "S01 motion source generated; S02 and matched S03 starting stills are awaiting user visual approval. Full motion and adjacent-shot QA remain pending."
+}

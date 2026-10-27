@@ -1,0 +1,21 @@
+執行且只執行一次F02「白襯衫／可可棕丹寧」步態節拍修正版6秒影片。使用者已選192cccdc-1496-4803-95c2-99f6f38a64ac的較俐落原速步態作觀看基準；你剛確認生成工具沒有影片動作參照通道，所以不要將該影片UUID傳入任何圖片欄位，不可宣稱引擎收到動作參照。用以下已核准精確首尾圖／身份與文字節拍，實際生成後再驗證。不要新出圖、合片、改舊影片或自行重試。
+
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "20c59fdd-4d3b-460c-8d0c-8b81be7b257f"
+last_frame_asset_id: "85c20ca9-3c40-4c61-b747-1e9cf8b08178"
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+keyframes: 不傳、不設
+
+先核對內容：first與last都是M03白短袖尖領棉襯衫、可可棕直筒丹寧、窄黑皮帶、素黑低跟鞋與小黑肩包，完整頭鞋往右跨步，短矩形柱廊／花台樹。first上方方梁與右花台；last最後方柱在左後、右方小廣場。不沿用格紋衣服、黑裙藍包或母本的新門面。身份僅鎖M03v3臉與普通比例。必要輸入不能同時接受就停下回報，不能省略首尾或偷改軟參照。
+
+Generate ONE continuous six-second real-time commuting shot between these approved views. She is already mid-walk at the first frame and remains in a BRISK, assured urban walking rhythm through the last, with no easing into or out of the shot. Target alternating footfalls about every0.5–0.6seconds, around two quick grounded steps per second, consistent in the beginning, middle and end. Use the lively forward intent of the visually selected pace sample, as a directing benchmark only. Shorter clean support phases and natural responsive knees, torso and opposing arm swing; firm heel-to-toe weight transfer. Walk briskly, do not run, jog, march or perform a weightless fashion slow-motion walk. No lingering when the feet pass each other, no slow first0.75second for editing, no slowing to meet the final image.
+
+Do NOT retain the old F02 slow~0.75second step cycle. Create the brisk gait physically at native speed, without retiming. Let natural step length fit the continuous route rather than preserving the old video exact stride length as well as a new footfall count. Each planted shoe remains attached to its SAME paving point until heel lift and toe-off, pelvis travels over that support foot, opposite foot swings into its next landing. Camera tracking is not a reason for shoes to skate across tiles. No stationary marching with a moving-background loop.
+
+Preserve exact face, wavy brown hair, healthy ordinary proportions, plain white short-sleeve pointed shirt/turned cuffs tucked into cocoa denim with its approved surface, narrow black belt, same black leather shoulder bag and plain low heels. Continuous level chest-height50mm camera follows her physical rightward travel, slight front-side toward same-flank tracking as approved. Keep full head, trouser hems and BOTH shoes clearly inside frame at comparable size throughout. No zoom, across-axis orbit, clothing gesture, pose or internal cut.
+
+The compact beige rectangular colonnade, its final square column, pale stone planter/trees, paving and glass beyond remain ONE rigid coherent place. Finish near the approved last view through natural travel while still walking, never freeze or snap into the image. No extending deep arches or a long corridor, new doorway, road/crossing, plant row, stair row or extra people. Same integrated morning daylight and contact shadows. No dissolves, text, logos, slow motion, speed ramp, freeze or frame interpolation. Report actual audio; do not invent an audio-off option.
+
+只送這一次，完成留在原畫布。回報真正傳入first/last/identity與無keyframes、是否接受、新UUID及實際時長／像素／音軌；將參數與觀察分開。不因文字寫了0.5–0.6s就宣稱達標，不能說前後接點或五套片已修好。若失敗或控制不支援則停止，不自動第二版。

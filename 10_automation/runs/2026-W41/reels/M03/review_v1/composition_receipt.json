@@ -1,0 +1,162 @@
+{
+  "week": "2026-W41",
+  "model": "M03",
+  "look_ids": [
+    "2026-W41-004-L01",
+    "2026-W41-004-L02"
+  ],
+  "output_path": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+  "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+  "native_pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 270,
+  "duration_seconds": 11.25,
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W41/reels/M03/A_attempt_01/source.mp4",
+      "sha256": "c7be14f597876f403d78dbaae75bdb949cbe8b801e526f14379207e85d7a6f83",
+      "selected_frames_half_open": [
+        0,
+        144
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W41/reels/M03/B_attempt_01/source.mp4",
+      "sha256": "d45055c1c335c8f89cf7e6d7eeb0401989ab1c66df3658c681afb8f437282677",
+      "selected_frames_half_open": [
+        0,
+        144
+      ]
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      126,
+      144
+    ]
+  },
+  "source_speed": "unchanged",
+  "framing_transform": "none",
+  "freeze_reverse_replay": false,
+  "text": "none",
+  "audio": "none",
+  "interval_reason": "Retain actual cuff contact and complete release/return. A finishes both-cuff sequence near its native end; joining settled A to B's own relaxed start minimizes pose separation. B retains cuff settling, release and settled ending. No speed or framing transform.",
+  "technical_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 11.25
+    },
+    "decoded_frames": 270,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 11.25,
+    "individual_PTS_measured": false
+  },
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      11,
+      22,
+      34,
+      45,
+      56,
+      67,
+      78,
+      90,
+      101,
+      112,
+      123,
+      134,
+      146,
+      157,
+      168,
+      179,
+      191,
+      202,
+      213,
+      224,
+      235,
+      247,
+      258,
+      269
+    ],
+    "face_checkpoint_indices": [
+      0,
+      67,
+      134,
+      202,
+      269
+    ],
+    "transition_boundary_indices": [
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151
+    ],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "source_sampled_visual_review": {
+    "scope": "25 whole-frame and 5 face checkpoints per source; all145 consecutive hand/cloth windows per source. Normal-speed continuous playback not established.",
+    "A": "Visible right-hand contact with left folded cuff and small cloth settling, followed by an additional opposite-cuff adjustment and complete arm return. Actual two-cuff action differs from single-cuff prompt. No gross hand, outfit, shoe, face or architectural collapse seen in inspected windows.",
+    "B": "Visible left-hand contact with right folded cuff, small local cloth motion and release; opposite laterality to prompt and brief outward forearm presentation. No gross hand, outfit, shoe, face or architectural collapse seen in inspected windows.",
+    "limitations": "Fine fingertip mechanics and normal-speed comfort remain playback/user-review questions; generated action variation is recorded, not reported as exact prompt compliance."
+  },
+  "combined_visual_QA": "25 whole-frame/5 face checkpoints and all34 join full/head windows inspected. Complete outfits, consistent scale and fixed architectural anchors remain readable. Modest independent head-height/angle separation causes intentional ghosting during0.75s blend; playback comfort pending.",
+  "continuous_playback_review": false,
+  "user_approval": null,
+  "status": "sampled_QA_complete_user_playback_and_picture_approval_pending",
+  "prior_batch_write": false
+}

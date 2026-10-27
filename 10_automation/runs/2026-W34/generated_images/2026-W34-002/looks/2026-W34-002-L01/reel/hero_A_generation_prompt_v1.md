@@ -1,0 +1,9 @@
+# Hero A Generation Prompt v1
+
+Use case: photorealistic-natural. Create one native 9:16 Hero photograph for a practical daily-outfit fashion magazine. Image 1 is the strict face and hairstyle identity reference; Image 2 is the loose body-proportion reference. Preserve the same recognizable adult East Asian woman, her stable dark hairstyle, ordinary head-to-body scale, shoulder width, torso length and leg balance. Do not copy the studio pose, clothes, background or lighting.
+
+Photograph her stepping naturally through the open glass meeting-room doorway of a daylight-filled Taipei design studio. The real workplace has pale wood, concrete, glass partitions and a few material samples without readable text. One hand holds a slim charcoal document folder close against her side; the other adjusts the strap of a small dark-brown shoulder bag. Her gaze is directed slightly ahead, with an attentive relaxed expression.
+
+Exact outfit: a lightweight unlined charcoal blazer with a subtly relaxed fit and defined shoulders, worn fully open; one plain fitted black sleeveless top as the only inner layer; matching charcoal high-waisted straight-leg tailored trousers; black pointed-toe flat shoes; small matte dark-brown leather shoulder bag; slim understated silver earrings. Keep the black sleeveless top clearly visible. No blouse, shirt, necktie or additional layer.
+
+Unretouched documentary fashion editorial photographed with a full-frame mirrorless camera and natural 50mm perspective at chest height, level axis. Use soft window daylight with believable indoor ambient spill, honest skin texture, small flyaway hairs, lived-in fabric folds, restrained grain and slight optical softness. Show her complete hairstyle, full figure and both shoes with sufficient workplace context. No readable text, logos, watermark, catalog pose or luxury-office advertising.

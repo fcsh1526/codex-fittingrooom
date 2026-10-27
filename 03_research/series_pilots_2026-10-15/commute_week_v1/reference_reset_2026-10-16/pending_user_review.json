@@ -1,0 +1,14 @@
+{
+  "recorded_date": "2026-10-16",
+  "file": "R01_walk_past_4s_review_v2.mp4",
+  "sha256": "27fa4c9fcce685aaa247aa0f9dfb12fa4b311a26d56d81635c6254a8679be348",
+  "question": "請播放這支新的4秒單鏡：完整穿搭→走近→從鏡頭右側經過。這種畫面推進是否更接近你要的俐落都會感？這次只判斷單鏡，不代表五套影片或換裝接點已定案。",
+  "answer": "更接近，可以往這個方向做",
+  "scope": "Exact4second single-shot framing-progression direction accepted as closer; five-look film, future second source and switch/join not approved; original still approvals preserved.",
+  "user_full_playback_self_report": null,
+  "previous_status": "pending_user_review",
+  "status": "answered_partial_single_shot_direction_accepted",
+  "answer_received_date": "2026-10-16",
+  "answer_event_at": null,
+  "approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_user_single_shot_direction_approval_2026-10-16.json"
+}

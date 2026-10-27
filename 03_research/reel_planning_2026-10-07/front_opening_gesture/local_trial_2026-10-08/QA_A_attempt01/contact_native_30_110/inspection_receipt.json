@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-08",
+  "source": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/A_attempt_01/source.mp4",
+  "source_sha256": "5baaa223b437e6fde482545cc64a0d2b8c85dffec14df6397735b71c7e0b7d49",
+  "source_hash_matched_before_after": true,
+  "native_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames_inclusive": [
+    30,
+    110
+  ],
+  "number_of_consecutive_windows": 81,
+  "QA_crop_xyxy": [
+    80,
+    350,
+    460,
+    1180
+  ],
+  "boards": [
+    "contact_sequence_01.jpg",
+    "contact_sequence_02.jpg",
+    "contact_sequence_03.jpg",
+    "contact_sequence_04.jpg"
+  ],
+  "interpolation": false,
+  "video_rendered": false,
+  "delivery_transform": "none",
+  "continuous_playback_review": false
+}

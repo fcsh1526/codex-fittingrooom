@@ -1,0 +1,31 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "look_id": "2026-W37-002-L01",
+  "shot_id": "A_first_last_push_v1",
+  "attempt_id": "01",
+  "submitted_at_local_date": "2026-09-30",
+  "first_frame": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png",
+  "last_frame": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S02_storyboard_v1_medium_candidate.png",
+  "both_stills_user_approved": true,
+  "saved_character_reference": "Mira M05 v1 face",
+  "saved_character_reference_contents": ["02_brand/reference_models/M05_start_v1_face.png"],
+  "input_role_verification": "Grok UI showed the full still checked as First frame, the medium still selected as Last frame, and the saved M05 face reference separately selected.",
+  "settings_observed": {"aspect_ratio": "9:16", "resolution": "720p", "duration": "6s", "audio": "off"},
+  "prompt_file": "10_automation/runs/2026-W37/reels/prompts/M05_A_L01_first_last_push_v1.md",
+  "source_url": "https://grok.com/imagine/post/099469a4-016e-47ba-ae96-baa177df8d67?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_first_last_push_v1_01.mp4",
+  "output_sha256": "64B7F57BDD682353C96EE44E3A9A322F0AEEC70B45B6C075CBA4C118CF0F6D06",
+  "output_metadata": {"duration_seconds": 6.041667, "resolution": "720x1280", "frame_rate": 24, "decoded_frames": 145, "audio_stream": false},
+  "status": "provisional_source_for_review_cut_user_motion_review_pending",
+  "qa": {
+    "continuous_watch_done": false,
+    "sampled_frame_review": "Two frames per second plus frames 108, 125 and 144 inspected. Face, white cropped jacket, pale-blue shirt, deep-indigo trousers and caramel bag remain broadly consistent; no purple/magenta waistband seen.",
+    "motion_and_camera": "Framing moves from full person to a medium styling view; small natural body motion. Normal-speed subjective feel still requires user playback.",
+    "decode_and_scan": "All 145 frames decoded. No blackdetect or freezedetect events.",
+    "contact_sheet": "10_automation/runs/2026-W37/reels/qa/M05_A_L01_first_last_push_v1_01/contact_2fps.jpg",
+    "usable_interval_frames": "0-125 selected for the shorter review cut",
+    "retry_count_for_this_setting": 0
+  },
+  "time": {"active_minutes": null, "generation_wait_minutes": null, "upload_wait_minutes": null},
+  "user_visual_approval": null
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-08",
+  "status": "user_picture_accepted_with_dissolve_residuals",
+  "output_sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2",
+  "actual": {
+    "size": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "frames": 204,
+    "seconds": 8.5,
+    "audio_streams": 0
+  },
+  "look_order": [
+    "2026-W37-001-L02",
+    "2026-W37-001-L01"
+  ],
+  "selection": [
+    {
+      "original_role": "B",
+      "look_id": "2026-W37-001-L02",
+      "frames_half_open": [
+        24,
+        126
+      ]
+    },
+    {
+      "original_role": "A",
+      "look_id": "2026-W37-001-L01",
+      "frames_half_open": [
+        0,
+        120
+      ]
+    }
+  ],
+  "root_reviewed": {
+    "output_full_samples": 25,
+    "output_head_samples": 5,
+    "output_transition_and_boundary_frames": 34,
+    "pre_encode_native_pairs": 18,
+    "pre_encode_pure_boundary_frames": 16,
+    "native_half_blend_full": "QA_join_B126_A0_2026-10-08/native_pairs/blend_output_000092.png"
+  },
+  "finding": "Deep-to-light order has closer eye/head placement than the rejected light-to-deep joins. The central dissolve still has visible eyebrow/eye-edge, mouth-corner, cheek/hair and hand/bag/background double outlines; not a clean no-ghost pass. No major new discontinuity identified in inspected pure-output checkpoints.",
+  "decision": "Exact research picture accepted by user, explicitly valuing the dissolve's overlap and softened viewing feeling; preserve source speed/actions and media bytes.",
+  "independent_native_join_review": "../QA_join_B126_A0_2026-10-08/independent_review.md",
+  "independent_encoded_output_review": "independent_output_review.md",
+  "continuous_normal_speed_assistant_review": false,
+  "clean_transition_QA_pass": false,
+  "user_video_approval": {
+    "date": "2026-10-08",
+    "status": "accepted_as_research_picture_track",
+    "receipt": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/review_deep_to_light_v1/user_picture_approval_2026-10-08.json",
+    "sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2"
+  },
+  "publishable": false,
+  "retime_freeze_reverse_replay": false,
+  "framing_transform": "none",
+  "text": "none",
+  "formal_full_outfit_delivery": false,
+  "first_wave_modified": false,
+  "cloud_task_messaged": false,
+  "drive_write": false,
+  "instagram_publication": false,
+  "github_push": false,
+  "decision_before_user_approval": "Present a clearly labelled isolated diagnostic for normal-speed user comfort review; do not label accepted, ready or publishable. Source actions and native timing remain unchanged.",
+  "clean_transition_QA_pass_scope": "Historical no-visible-ghost diagnostic criterion remains unmet; separate from the user's positive aesthetic acceptance."
+}

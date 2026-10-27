@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "question_item_id": "[\"request_user_input_async\",\"call_50b27878807e4682b7139c2950cdfe1f\",0]",
+  "asset": "F05_M03_L04_half_late_candidate_A.png",
+  "sha256": "114300736fbcf321316d20ce992f968bcb39d9dcea0e85542f0491ee97539ab7",
+  "question": "請確認第五套半身收束圖：臉、白襯衫領口／黑裙腰線、完整鈷藍包與手部是否可以沿用？遠側手與背景樹、花台的角度有變化，連續推近仍待影片驗證。依你的新圖核准流程，確認後才送Grok做第五鏡。",
+  "answer": "可以，沿用這張半身圖",
+  "status": "user_visual_approved_exact_still",
+  "scope": "Exact new F05 half late still with disclosed arm/background differences; permits one six-second full-to-half trial after current controls checked. Does not establish motion path/gait/background/timing or final film approval.",
+  "F05_motion_approval": false,
+  "complete_film_approval": false
+}

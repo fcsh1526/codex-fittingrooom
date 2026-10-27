@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-20",
+  "mode": "built-in image_gen",
+  "intent": "identity-preserve camera-distance/framing derivative",
+  "storyboard_user_reply": "ok",
+  "storyboard_sha256": "94ea7bc2e4584c3f810d6711957142a43df560d20558ba7518da0fdfb25ee12c",
+  "inputs": [
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/F03/QA_source/frames/frame_000144.png",
+      "sha256": "c6fd85979ec086d3863d7b0123ace28a5bd66451eb1b0c80d93ecb8d97492ac9"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "prompt_path": "prompt.txt",
+  "prompt_sha256": "8afdd6ef80d0611d00ecd5b3f2f1af136df03b52d51566f6cac506135f27a1e7",
+  "original_generated_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-356603e4-e3ca-4a75-b9ef-3b7ece3540e9.png",
+  "candidate_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F03_pushin_endpoint_01\\F03_M03_L03_close_endpoint_candidate_A.png",
+  "candidate_sha256": "358225290a6b07ebb36628f4025b91260bb90e202fe1e8f8a4f2b8da70842ada",
+  "bytes": 2051049,
+  "generation_calls": 1,
+  "targeted_corrections": 0,
+  "tool_wall_seconds": 28.1,
+  "active_minutes": null,
+  "status": "exact still approved by user",
+  "root_review": "Head through mid-thigh framing; rightward side walking and open ivory short jacket, white crewneck T, charcoal waist and near-side black bag retained visually. Naturally soft grey-green glass, original pale planter and foliage; no new crossing paint in frame. Identity and background correspondence remain visual judgments, not measured pixel or geometric equivalence.",
+  "dynamic_acceptance": null,
+  "next_action": "Exact candidate user approval before deriving matched F04 close still or generating new bridge motion. Original accepted prefix and Drive unchanged.",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "approval_receipt": "user_still_approval.json"
+}

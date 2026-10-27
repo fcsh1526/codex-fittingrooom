@@ -1,0 +1,7 @@
+# S04 L02 full-person motion — prepared, not submitted
+
+Before submission, the S04 still must receive user visual approval. In Grok, select the saved `Mira M02 v3` identity reference and set the approved S04 image to **First frame**. Confirm both roles on screen. Proposed settings: 720p, 6 seconds, 9:16, audio off.
+
+One continuous full-person shot at ordinary real-time speed, starting from the supplied first frame. She takes one short, natural step toward the camera during the first two seconds, then gently settles her weight without taking another step. Her free hand swings only a little near her hip; her other hand lightly holds the gray tote strap on the viewer-right shoulder. Keep her face nearly frontal and both pale-blue shirt shoulders fully on her shoulders. Preserve the navy wide-strap square-neck dress, rolled shirt sleeves, off-white flat slip-ons, gray tote, hairstyle, flower-workshop aisle and window light from viewer-left. Keep the camera locked at chest height. No prolonged walking, exaggerated slow motion, pose change, garment pull, cut, text or outfit change.
+
+Selection target after generation: use only a clean 2.5–3.0 second full-body interval after checking face, shoulder placement, dress hem, shoes, tote and one-step motion at start/quarter/middle/three-quarter/end and through normal-speed playback. The six-second generation is source footage, not intended Reel duration.

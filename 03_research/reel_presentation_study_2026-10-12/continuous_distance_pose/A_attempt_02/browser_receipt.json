@@ -1,0 +1,17 @@
+{
+  "submitted_at": "2026-10-12T08:06:17.161Z",
+  "completion_observed_at": "2026-10-12T08:07:56.480Z",
+  "url": "https://grok.com/imagine/post/25a0c7d6-fa6e-45a2-87ff-361c0e7297c7?conversation=3597a4e9-d98f-40d2-83de-224f98a0ba96",
+  "download": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-3597a4e9-d98f-40d2-83de-224f98a0ba96.mp4",
+  "character_reference": "Mira M03 v3",
+  "first_frame": "same exact approved near candidate v1",
+  "last_frame": false,
+  "settings": {
+    "resolution": "720p",
+    "seconds": 10,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "retry_reason": "new windows developed on blank right wall in A1; prompt specifies continuous blank wall",
+  "actual_send_count_for_this_attempt": 1
+}

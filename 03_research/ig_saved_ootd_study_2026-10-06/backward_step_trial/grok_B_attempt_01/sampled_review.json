@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-06",
+  "source_sha256": "afa46cced85bf886029940f36b7bbbd0bf188b5ebe49d8ac5d7f5f278ea62e5b",
+  "qa": "qa/B1/",
+  "root_reviewed": "25 full checkpoints, 5 head windows, all145 consecutive native lower-body windows; B f0/f144 full native also viewed",
+  "mechanism": "whole_person_approach_observed",
+  "sampled_identity_wardrobe_background": "no obvious major jump seen",
+  "notes": "Shoes leave frame around3s as person approaches; later square neckline/waist readable, slight torso side angle and partial tote occlusion.",
+  "assistant_continuous_watch": false,
+  "user_video_approval": null,
+  "not_a_reliable_success_rate": true
+}

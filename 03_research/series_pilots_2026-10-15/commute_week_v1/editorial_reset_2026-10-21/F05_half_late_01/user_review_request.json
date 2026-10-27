@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-22",
+  "asset": "F05_M03_L04_half_late_candidate_A.png",
+  "sha256": "114300736fbcf321316d20ce992f968bcb39d9dcea0e85542f0491ee97539ab7",
+  "question": "請確認第五套半身收束圖：臉、白襯衫領口／黑裙腰線、完整鈷藍包與手部是否可以沿用？遠側手與背景樹、花台的角度有變化，連續推近仍待影片驗證。依你的新圖核准流程，確認後才送Grok做第五鏡。",
+  "options": [
+    "可以，沿用這張半身圖",
+    "臉或服裝需要修正",
+    "構圖或背景需要調整"
+  ],
+  "answer": "可以，沿用這張半身圖",
+  "status": "user_visual_approved_exact_still",
+  "F05_motion_approval": false,
+  "complete_film_approval": false,
+  "approval_receipt": "user_still_approval.json"
+}

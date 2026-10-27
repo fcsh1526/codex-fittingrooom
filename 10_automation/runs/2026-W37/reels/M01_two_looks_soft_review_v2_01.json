@@ -1,0 +1,80 @@
+{
+  "reel_id": "2026-W37-M01-reel",
+  "date": "2026-10-02",
+  "status": "user_accepted_clean_picture_track",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M01_two_looks_soft_review_v2_01.mp4",
+  "sha256": "5b26d515ced59949a81b0bce347884fa43d5557967dd3cb6fb8ef3c102d267a4",
+  "duration_seconds": 6.708333333333333,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "speed": "unchanged",
+  "transitions": [
+    {
+      "type": "cross_dissolve",
+      "duration_seconds": 0.75,
+      "start_seconds": 2.75,
+      "end_seconds": 3.5
+    }
+  ],
+  "aspect_handling": "A uniform cover scale and narrow side crop. B constant 642x1140 crop at x39,y20, uniform resize to720x1280; no animated zoom or stretching. Subject scale/head/shoe placement reviewed separately.",
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M01_A_L01_fixed_full_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 102,
+      "framing": "scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M01_B_L02_fixed_full_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 114,
+      "framing": "crop=642:1140:39:20,scale=720:1280"
+    }
+  ],
+  "qa": {
+    "continuous_watch_done": true,
+    "user_approval": "ok",
+    "sampled_review": "Twelve timepoints inspected including start/end and overlap. Full hair and shoes retained; no obvious sampled wardrobe or background drift outside intentional dissolve. During overlap two offset faces, shoes and window edges are briefly visible. Source speed unchanged. Continuous comfort review pending with user.",
+    "technical_scan": {
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M01_two_looks_soft_review_v2_01.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 6.71
+      },
+      "decoded_frames": 161,
+      "decoded_seconds": 6.708333333333333,
+      "black_candidate_frames": [],
+      "near_identical_frame_pairs": [],
+      "note": "Technical signals only. Continuous visual review and user approval remain separate."
+    },
+    "sample_sheet": "10_automation/runs/2026-W37/reels/qa/M01_two_looks_soft_review_v2_01/checkpoints.jpg",
+    "continuous_review_reviewer": "user",
+    "approval_date": "2026-10-02",
+    "approval_evidence": {
+      "date": "2026-10-02",
+      "reply": "ok",
+      "reviewer": "user",
+      "context": "Direct reply to embedded M01 soft-transition complete preview and explicit adoption question.",
+      "scope": "Complete clean picture track with0.75-second overlap; no music or publication approval."
+    }
+  },
+  "baseline": "10_automation/runs/2026-W37/reels/videos/M01_two_looks_review_v1_01.mp4",
+  "change_scope": "Only overlap changed; original selected source intervals, framing and source speed retained. Nominal duration6.75s, encoded duration measured separately; xfade endpoint omits one final frame at24fps. No added freeze or retiming."
+}

@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-13",
+  "status": "transfer_trial_transition_novelty_feedback_received",
+  "week": "2026-W41",
+  "model": "M02",
+  "theme_id": "2026-W41-003",
+  "working_title": "咖啡店外的短暫停留",
+  "purpose": "Transfer the accepted daily-magazine viewing structure while assessing reduced material retries and measured production effort. Not a new style claim or scheduled publishing batch.",
+  "look_plan_rows": [
+    {
+      "week_id": "2026-W41",
+      "carousel_id": "2026-W41-003",
+      "model_profile_id": "M02",
+      "look_id": "2026-W41-003-L01",
+      "look_order": "1",
+      "theme_name": "可可棕直筒丹寧",
+      "opening_hook": "棕色牛仔褲配白上衣",
+      "look_name": "奶油白棉T配可可棕丹寧",
+      "dressing_decision": "用可可棕直筒丹寧配奶油白棉上衣，鞋包固定黑色。",
+      "occasion": "通勤",
+      "clothing_item": "奶油白圓領棉短袖，整齊紮入；可可棕高腰直筒丹寧褲，無刷破、褲腳停在鞋面；米白薄短外套敞開；黑色低跟便鞋；黑色小方肩包；黑色窄皮帶",
+      "color_palette": "奶油白／可可棕／黑",
+      "fabric": "中薄棉／中薄丹寧／薄棉斜紋外套",
+      "fit": "自然健康比例；下身不拖地；外層可敞開；完整鞋包可讀",
+      "styling_rules": "可可棕直筒丹寧搭奶油白上衣，鞋包維持黑色，整套最多三種主色。",
+      "visual_proof": "白上衣、棕色丹寧和黑鞋包的三色分工，能辨認腰頭與直筒褲腳",
+      "practical_rule": "可可棕直筒丹寧搭奶油白上衣，鞋包維持黑色，整套最多三種主色。",
+      "scene": "街角咖啡店外的遮蔭步道，灰米色牆面與石地；短距離移重心展示牛仔褲腰線與褲腳，兩套保留同一光向",
+      "visible_action": "往前短跨一步後自然停住，褲腳與鞋子保持可見，手臂放鬆不插口袋",
+      "frame_plan": "carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16",
+      "required_frames": "3",
+      "status": "editorial_approved",
+      "next_action": "Prepare both surface jobs: Reel A, then Carousel A/B/C"
+    },
+    {
+      "week_id": "2026-W41",
+      "carousel_id": "2026-W41-003",
+      "model_profile_id": "M02",
+      "look_id": "2026-W41-003-L02",
+      "look_order": "2",
+      "theme_name": "可可棕直筒丹寧",
+      "opening_hook": "棕色牛仔褲配白上衣",
+      "look_name": "白短袖襯衫配可可棕丹寧",
+      "dressing_decision": "用可可棕直筒丹寧配奶油白棉上衣，鞋包固定黑色。",
+      "occasion": "通勤",
+      "clothing_item": "白色棉質短袖尖領襯衫，整齊紮入；可可棕高腰直筒丹寧褲，無刷破、褲腳停在鞋面；黑色低跟便鞋；黑色小方肩包；黑色窄皮帶",
+      "color_palette": "白／可可棕／黑",
+      "fabric": "薄棉府綢／中薄丹寧",
+      "fit": "自然健康比例；下身不拖地；外層可敞開；完整鞋包可讀",
+      "styling_rules": "可可棕直筒丹寧搭奶油白上衣，鞋包維持黑色，整套最多三種主色。",
+      "visual_proof": "相同棕色直筒丹寧，白棉T換成白襯衫，腰線和鞋包保持清楚",
+      "practical_rule": "可可棕直筒丹寧搭奶油白上衣，鞋包維持黑色，整套最多三種主色。",
+      "scene": "街角咖啡店外的遮蔭步道，灰米色牆面與石地；短距離移重心展示牛仔褲腰線與褲腳，兩套保留同一光向",
+      "visible_action": "往前短跨一步後自然停住，褲腳與鞋子保持可見，手臂放鬆不插口袋",
+      "frame_plan": "carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16",
+      "required_frames": "3",
+      "status": "editorial_approved",
+      "next_action": "Prepare both surface jobs: Reel A, then Carousel A/B/C"
+    }
+  ],
+  "identity_refs": [
+    {
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    }
+  ],
+  "prompt_age_language": "late 20s, youthful",
+  "first_action": "Create L01 seated proof candidate using its approved full-person wardrobe and observed cafe doorway/stool scene; inspect exact identity/material/framing, then user visual approval before Grok. Later create L02 proof under its own lock. Existing full clips are reuse candidates; no new full-person generation needed at this stage.",
+  "candidate_screen_order": [
+    "L01 full short-step/proportion",
+    "L01 seated waist/outer-layer view",
+    "L02 seated collar/waist view",
+    "L02 full proportion/short step"
+  ],
+  "scene_purpose": "Brief pause outside the existing cafe wood-framed doorway. The actual short wooden stool supports seated layer/waist views, and the same doorway links full-step clips. No added coffee-cup hand interaction or copied M03 bench.",
+  "reusable_source_files": {
+    "date": "2026-10-13",
+    "week": "2026-W41",
+    "model": "M02",
+    "look_ids": [
+      "2026-W41-003-L01",
+      "2026-W41-003-L02"
+    ],
+    "old_still_approval": "10_automation/runs/2026-W41/reels/M02_full_pair_user_approval_2026-10-08.json",
+    "image_reviews": [
+      {
+        "look_id": "2026-W41-003-L01",
+        "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/2026-W41-003-L01_M02_reel_candidate_A_v4.png",
+        "sha256": "1ba112fd6f23948f15b9e558afa945dd2e16ed2249e818e57d3320fe2890b912",
+        "approved_on": "2026-10-08",
+        "user_quote": "ok",
+        "context": "Response to displayed M02 L01 v4 / L02 v3 and pair visual approval request.",
+        "scope": "This exact full-person still as video first frame; not proof/Carousel/video acceptance.",
+        "reuse_status": "static_suitable_for_this_trial_full_view",
+        "review": "Viewed exact native full-person image against approved M02 face and weekly outfit. Full head/shoes, straight brown denim waist/hem and black shoes/bag readable. Same cafe wood-framed glass door at image-right, gray wall, left planter and short wooden stool; native vertical composition. New seated view still missing. Not new user approval or dynamic whole-film pass."
+      },
+      {
+        "look_id": "2026-W41-003-L02",
+        "file": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/2026-W41-003-L02_M02_reel_candidate_A_v3.png",
+        "sha256": "cb243dc67e57b95ad856d4e79d96423945aea0c0cdfc873bb22485627f4c9482",
+        "approved_on": "2026-10-08",
+        "user_quote": "ok",
+        "context": "Response to displayed M02 L01 v4 / L02 v3 and pair visual approval request.",
+        "scope": "This exact full-person still as video first frame; not proof/Carousel/video acceptance.",
+        "reuse_status": "static_suitable_for_this_trial_full_view",
+        "review": "Viewed exact native full-person image against approved M02 face and weekly outfit. Full head/shoes, straight brown denim waist/hem and black shoes/bag readable. Same cafe wood-framed glass door at image-right, gray wall, left planter and short wooden stool; native vertical composition. New seated view still missing. Not new user approval or dynamic whole-film pass."
+      }
+    ],
+    "motion_reviews": [
+      {
+        "role": "first_full",
+        "file": "10_automation/runs/2026-W41/reels/M02/A_attempt_01/source.mp4",
+        "sha256": "571c5ddc0ef77f47d21efabc385fdac0c405680dde8ad511c449ced50c36b437",
+        "reuse_status": "sampled_motion_candidate_join_review_required",
+        "candidate_frames_end_exclusive": [
+          0,
+          60
+        ],
+        "candidate_seconds": [
+          0.0,
+          2.5
+        ],
+        "review_method": "Viewed existing25 whole-frame and5 face checkpoint boards per source; read prior native145-lower-body review record. No new continuous assistant playback or all-native-frame inspection claimed.",
+        "actual_motion": "Short forward-step/catch-up then stance shifts; no sustained departure. Wardrobe and cafe context broadly stable in checkpoints. No fine hand-cloth action required.",
+        "user_accepted_previous_film": "10_automation/runs/2026-W41/reels/M02/review_v2/user_picture_approval_2026-10-08.json",
+        "new_combined_film_accepted": false
+      },
+      {
+        "role": "closing_full",
+        "file": "10_automation/runs/2026-W41/reels/M02/B_attempt_01/source.mp4",
+        "sha256": "7924c288d65aacf9ce831d14787e95c349441a5e4ae5229510dff3155125e0c5",
+        "reuse_status": "sampled_motion_candidate_join_review_required",
+        "candidate_frames_end_exclusive": [
+          24,
+          108
+        ],
+        "candidate_seconds": [
+          1.0,
+          4.5
+        ],
+        "review_method": "Viewed existing25 whole-frame and5 face checkpoint boards per source; read prior native145-lower-body review record. No new continuous assistant playback or all-native-frame inspection claimed.",
+        "actual_motion": "Short forward-step/catch-up then stance shifts; no sustained departure. Wardrobe and cafe context broadly stable in checkpoints. No fine hand-cloth action required.",
+        "user_accepted_previous_film": "10_automation/runs/2026-W41/reels/M02/review_v2/user_picture_approval_2026-10-08.json",
+        "new_combined_film_accepted": false
+      }
+    ],
+    "scene_lock_observed": "Cafe exterior: wood-framed glass door at image-right, gray plaster wall, left leafy planter and short wooden stool. Seated sources should derive this place; do not copy M03 window-left/long-bench geometry.",
+    "incremental_missing_sources": [
+      "L01 seated native9:16 styling-proof still + motion",
+      "L02 seated native9:16 styling-proof still + motion"
+    ],
+    "planning_reduction": "Two full-person stills and two original full-person clips can be proposed for reuse. Start by generating only two missing seated stills, each with its own exact wardrobe authority; static user approval and motion QA still required. Incremental cost is not from-zero production cost.",
+    "limits": "Reuse is a trial source choice. New join comfort, context consistency, complete production/Carousel package and actual reduced generation cost remain unverified."
+  },
+  "missing_images": [
+    "L01 seated native9:16 styling-proof still + motion",
+    "L02 seated native9:16 styling-proof still + motion"
+  ],
+  "new_stills_generated": 4,
+  "new_motion_submitted": 2,
+  "new_user_still_approval": [
+    "03_research/editorial_repeatability_m02_2026-10-13/L01_seated_user_approval.json",
+    "03_research/editorial_repeatability_m02_2026-10-13/L02_seated_user_approval.json"
+  ],
+  "controls": {
+    "one_model_two_looks": true,
+    "no_baked_text": true,
+    "source_speed_unchanged": true,
+    "dissolve_seconds": 0.75,
+    "initial_still_target_if_all_new": 4,
+    "reserved_corrections_target": 2,
+    "motion_retry_limit_per_candidate": 1,
+    "duration": "Derive from reviewed footage;10.75s is accepted reference, not forced timing."
+  },
+  "timing": {
+    "active_minutes": null,
+    "pure_generation_wait_minutes": null,
+    "user_approval_wait_minutes": null
+  },
+  "limits": "Both exact seated stills user approved and two motions downloaded. Complete12.75s four-shot trial sampled QA recorded; visible dissolve double outlines and source framing/scene differences. Continuous playback and exact whole-film user acceptance pending. Four new image calls with two reused full sources is incremental cost, not from-zero efficiency or IG success. Original publishing files unchanged.",
+  "candidate_source_time_budgets_seconds": [
+    2.5,
+    3.75,
+    3.75,
+    3.5
+  ],
+  "timing_note": "Provisional source budgets only; candidate11.25s after three0.75s overlaps. Recompute from new proof motion and whole-film review; not IG-optimal timing.",
+  "incremental_targets": {
+    "new_still_initial_calls": 2,
+    "new_motion_initial_calls": 2,
+    "reused_stills": 2,
+    "reused_original_clips": 2,
+    "source_reuse_qa": "Static/checkpoint review complete; new joins not reviewed."
+  },
+  "current_still_receipt": "03_research/editorial_repeatability_m02_2026-10-13/L01_still_generation_receipt.json",
+  "detailed_storyboard": "03_research/editorial_repeatability_m02_2026-10-13/STORYBOARD.md",
+  "trial_file": "03_research/editorial_repeatability_m02_2026-10-13/four_shot_review_v1/M02_cafe_pause_two_looks_trial_v1.mp4",
+  "actual_trial_seconds": 12.75,
+  "user_feedback": {
+    "date": "2026-10-13",
+    "file": "03_research/editorial_repeatability_m02_2026-10-13/four_shot_review_v1/M02_cafe_pause_two_looks_trial_v1.mp4",
+    "sha256": "ca5f34163cc871699a8fa71bd346a36296535415b09d2896c2450fbf633981ba",
+    "user_quote": "轉場手法與前面都差不多",
+    "context": "Response to exact12.75s film review asking about3x0.75s dissolve, rhythm and wardrobe readability.",
+    "interpretation": "User identifies similar transition method. This is novelty feedback, not explicit whole-film acceptance or blanket rejection of previous accepted movies.",
+    "user_film_approval": null,
+    "editorial_response": "Stop treating another model/scene on the same four-shot dissolves as a new transition experiment. Retain transfer-source/cost evidence. Next plan a visibly different camera/scene-based join; no new media or universal transition adoption in this feedback step.",
+    "next_hypothesis": "Physical foreground occlusion carrying a directional camera movement, under existing soft-switch preference; first examine an actual reference and test one join before complete film generation."
+  },
+  "next_research_draft": "03_research/editorial_repeatability_m02_2026-10-13/NEXT_TRANSITION_EXPERIMENT.md"
+}

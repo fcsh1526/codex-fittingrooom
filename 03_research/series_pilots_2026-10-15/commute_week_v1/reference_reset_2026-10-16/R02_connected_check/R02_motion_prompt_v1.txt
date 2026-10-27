@@ -1,0 +1,16 @@
+本次只生成 R02 一個獨立6秒、720p、原生9:16候選影片，放在目前Mira畫布；不要出新圖、不要重試、不要合片或改舊檔。這是同一M03原五套系列的第二鏡，非舊M02/M04/006-Mira。
+
+精確輸入，請先實際核對圖片內容，對不上或無法指定便停止：
+First frame ONLY：剛上傳且已獲使用者核准的5e0abb9a-4452-4826-9bb2-e1129b5aab21（M03近正面、右視、奶油白／海軍藍格紋襯衫捲袖紮入炭灰褲，小黑肩包，一手輕扶包帶，玻璃辦公街人流，中景）。
+完整服裝reference ONLY：51bc0ff8-a519-4247-a901-4c601f3b5421（同款格紋襯衫、炭灰直筒褲與素面黑圓方頭低跟鞋）。這張只鎖完整服裝/鞋型，不能帶入它的舊牆面、頭部朝左或空街。
+M03 face identity：6236309c-2343-41e6-985c-994239ff744a。
+M03 full normal proportions ONLY：ac9ede4e-1715-4518-95b4-bda341a62061。
+不設Last frame，不用舊西外衣服/影片當服裝來源。
+
+One uninterrupted six-second live-action urban workwear shot. Start from the exact approved medium first frame, already walking purposefully toward a destination just beyond camera-right. Keep the same near-frontal face and slight rightward gaze, ordinary healthy proportions, hair, cream/navy thin-check pointed-collar cotton shirt with the approved rolled sleeves and tucked waist, charcoal straight trousers, small black shoulder bag and plain black low heels. Strap hand keeps its existing light hold, free arm counter-swings; no new hand-clothing task, turn-back or posing pause.
+
+For roughly the first0.75seconds, track backward at matching walking speed, maintaining approximately the starting head/waist height and subject size with slight continuing rightward travel. This gives a compatible moving handle for an external soft join. Then smoothly increase the backward camera travel so the view physically opens out to the complete head-to-shoe outfit by roughly2.5seconds, with comfortable shoe and head margins. Keep the complete outfit clearly readable through the rest as she keeps moving, without stopping to smile. One level chest-height50mm backward camera movement, no pan, orbit or optical/digital zoom. Reveal the trouser cut, tucked waist, shoe silhouette and whole outfit through actual perspective change, not by shrinking the person.
+
+Keep glass architecture, trees and paving rigid with coherent perspective, the existing deeper commuters on separate paths, natural integrated daylight and grounded feet. Shirt checks stay attached to the same cloth through folds; no sliding grids, extra jacket, shoe bows or wardrobe change. No slow motion, retiming, freeze, cuts, internal transitions, text or logos. Audio off if actually supported; otherwise preserve/report the audio for local silent review.
+
+完成只交付這一段，列出實際使用的First frame/完整服裝/face/full IDs、影片ID、真正時長、解析度及音軌。抽樣觀察與請求分鏡分開回報，不把prompt目標當已達成。

@@ -4,7 +4,8 @@
   "look_id": "2026-W35-001-L01",
   "canva_template_key": "B",
   "canva_design_id": "DAHTL2iNCtg",
-  "canva_title": "Mira W35-001-L01｜外套先買薄",
+  "canva_title": "Mira W35-001-L01｜八月高領薄外套穿搭",
+  "canva_display_copy": "八月想穿高領外套，先選薄一點的",
   "canva_edit_url": "https://www.canva.com/d/G_oeHPa7gLKNPtt",
   "canva_view_url": "https://www.canva.com/d/g1XuxvN9k93VQAO",
   "asset_ids": {
@@ -14,6 +15,9 @@
   },
   "transaction_id": "3696843071690952901",
   "transaction_status": "committed",
+  "text_revision_transaction_id": "7499007135634750257",
+  "text_revision_status": "committed",
+  "text_revised_at": "2026-08-25",
   "status": "ready_for_manual_export",
   "committed_at": "2026-08-24"
 }

@@ -1,0 +1,43 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M02/B_attempt_01/source.mp4",
+  "source_sha256": "7924c288d65aacf9ce831d14787e95c349441a5e4ae5229510dff3155125e0c5",
+  "native_roi": [
+    160,
+    775,
+    560,
+    1280
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "lower_body_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "lower_body_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "lower_body_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "lower_body_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "lower_body_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "lower_body_visual_result": "All145 consecutive native windows viewed. Forward-foot movement, trailing-foot catch-up and later small stance opening occur. No apparent gross deformation, missing shoe or foot teleport in inspected windows. Normal-speed comfort remains unestablished.",
+  "continuous_playback_review": false
+}

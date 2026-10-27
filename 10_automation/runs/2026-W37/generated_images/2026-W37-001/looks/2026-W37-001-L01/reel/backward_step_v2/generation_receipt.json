@@ -1,0 +1,37 @@
+{
+  "created_on": "2026-10-06",
+  "model": "M02",
+  "look_id": "2026-W37-001-L01",
+  "candidate": "2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v1.png",
+  "dimensions": [941, 1672],
+  "mode": "RGB",
+  "sha256": "a04ca387c4ac1553857e9a63343f7977b7d8f81a25c830dd5394f638e48407c2",
+  "prompt": "prompt.txt",
+  "method": "built_in_image_gen",
+  "use_case": "identity-preserve",
+  "transparent_background": false,
+  "native_output_source": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-07f7ba34-d3d3-401b-b591-fafcd6af219f.png",
+  "references_in_order": [
+    {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+      "role": "approved exact wardrobe and library framing master"
+    },
+    {"path": "02_brand/reference_models/M02_start_v3_face.png", "role": "approved v3 face identity only"},
+    {"path": "02_brand/reference_models/M02_start_v3_full.png", "role": "approved v3 body identity and proportions only"}
+  ],
+  "generation_count": 1,
+  "post_generation_image_edits": false,
+  "requested_composition": "Complete hair through around knees, woman closer to same camera, original background framing retained",
+  "observed_composition": "Complete hair and face, shirt opening and waist seam, dress hem, partial calves; feet outside frame. Background landmarks appear largely preserved in root visual comparison; exact pixel/geometric equality not established.",
+  "visual_status": "retained_superseded_before_user_visual_approval",
+  "superseded_by": "2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v2.png",
+  "reason": "One targeted edit for headroom: v1 around6.5%, below8% review value",
+  "user_visual_approval": null,
+  "approval_rule": "AGENTS.md: new stills are candidates until user visual approval",
+  "dynamic_test_started": false,
+  "future_backward_step_success": null,
+  "original_assets_overwritten": false,
+  "first_wave_modified": false,
+  "cloud_write": false,
+  "publication": false
+}

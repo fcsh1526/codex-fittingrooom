@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-05",
+  "source": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/grok_A_attempt_01/source.mp4",
+  "source_sha256": "c59aa1653194a2a390fb085884d889f56e21f67bfb3c7bf139b37403ec10fe56",
+  "review_method": "Full technical decode; 25 still checkpoints at six-frame intervals from frame0 to138 plus143, full and proposed crop boards. Original-resolution crop frames0/12/36/48/60/143 and original full frame48 inspected. Alternative wider fixed crop board inspected at all25 checkpoints.",
+  "source_metadata": {"width":720,"height":1280,"fps":24,"decoded_frames":145,"decoded_seconds":6.041666666666667},
+  "technical_signals": {"black_candidate_frames":[],"near_identical_frame_pairs":[]},
+  "proposed_fixed_crop": {
+    "rect": [187,0,402,1280],
+    "status": "reject_for_full_outfit_safety",
+    "reason": "At approximately1.5–2.25s, the cream dress viewer-left hem expands beyond the crop's x187 left edge. Original frame48 clearly includes the dress edge aroundx168–175 while the crop omits it. These x coordinates are manual image estimates, not automated segmentation.",
+    "other_boundaries": "Hair, both shoes, bag and hands remain visible at inspected checkpoints, but this does not override the cropped skirt edge."
+  },
+  "alternative_fixed_crop": {
+    "rect": [145,0,445,1280],
+    "status": "sampled_boundary_candidate",
+    "evidence": "All25 wider-window checkpoints visibly retain complete head, shoes, bag, hands and both dress edges. Wider crop must be applied constantly and proportionally contained; no tracking crop or body deformation.",
+    "limits": "Not every source frame was visually inspected; output assembly and normal-speed viewing remain separate."
+  },
+  "observations": {
+    "identity": "Recognizable face and hairstyle remain broadly consistent at inspected checkpoints; expression/head angle change mildly. No obvious sampled instantaneous face substitution.",
+    "wardrobe": "Gray open shirt, cream curved neckline, waist seam, calf-length dress and white canvas shoes remain readable. No obvious sampled outfit mix or shoulder slip.",
+    "feet_and_action": "The opening includes a short forward foot movement and then feet draw together around1s; this exceeds pure fixed-feet weight shifting in the prompt. Preserve actual action and native timing if used; do not describe feet as stationary throughout. Fine foot contact and inter-frame morphology not certified from still samples.",
+    "bag_hands": "Bag and strap remain on the same side; hand adjusts/lifts the strap and bag silhouette changes with pose. No obvious sampled detached bag or hand penetration; fine fingers and seam continuity not certified.",
+    "camera_and_background": "Window, shelf, bench and table appear broadly stable in sampled full frames. The woman becomes larger as she moves forward; do not claim unchanged subject scale throughout, nor infer a camera zoom solely from this. No obvious sampled added objects or large geometry warp."
+  },
+  "assistant_continuous_review": false,
+  "user_video_approval": null,
+  "source_usable_interval_status": "candidate_only; no new interval approval",
+  "publication_or_cloud_write": false,
+  "first_wave_files_modified": false
+}

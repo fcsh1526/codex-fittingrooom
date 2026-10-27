@@ -1,0 +1,585 @@
+{
+  "date_taipei": "2026-10-22T11:50:28.189829+08:00",
+  "purpose": "read-only motion diagnostic; no movie creation or source mutation",
+  "crop_QA_only_xyxy": [
+    0,
+    740,
+    720,
+    1280
+  ],
+  "source_records": {
+    "F01": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4",
+      "sha256": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+      "fps": 24,
+      "decoded_frames": 145,
+      "PTS_measured": false
+    },
+    "F02": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4",
+      "sha256": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+      "fps": 24,
+      "decoded_frames": 145,
+      "PTS_measured": false
+    },
+    "F03": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4",
+      "sha256": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+      "fps": 24,
+      "decoded_frames": 145,
+      "PTS_measured": false
+    },
+    "F04": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F04_motion_01\\F04_source.mp4",
+      "sha256": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+      "fps": 24,
+      "decoded_frames": 145,
+      "PTS_measured": false
+    },
+    "F05": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\F05_half_source.mp4",
+      "sha256": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+      "fps": 24,
+      "decoded_frames": 145,
+      "PTS_measured": false
+    },
+    "film": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\five_look_review_2026-10-22\\v1\\review.mp4",
+      "sha256": "e4ed855809463e9c8421c5c7d4292f62bdf3f12f1c5f30af8f5c0e0a4edd32dc",
+      "fps": 24,
+      "decoded_frames": 511,
+      "PTS_measured": false
+    }
+  },
+  "source_selection_half_open": {
+    "F01": [
+      0,
+      78
+    ],
+    "F02": [
+      0,
+      145
+    ],
+    "F03": [
+      1,
+      109
+    ]
+  },
+  "boards": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\front_sources\\F01_every3_foot.png",
+      "sha256": "883125b6f758ea446aecfdb98685bd6d3d0b024709da95ca1ed11636e89c2064",
+      "labels": [
+        "F01 f0 / 0.000s",
+        "F01 f3 / 0.125s",
+        "F01 f6 / 0.250s",
+        "F01 f9 / 0.375s",
+        "F01 f12 / 0.500s",
+        "F01 f15 / 0.625s",
+        "F01 f18 / 0.750s",
+        "F01 f21 / 0.875s",
+        "F01 f24 / 1.000s",
+        "F01 f27 / 1.125s",
+        "F01 f30 / 1.250s",
+        "F01 f33 / 1.375s",
+        "F01 f36 / 1.500s",
+        "F01 f39 / 1.625s",
+        "F01 f42 / 1.750s",
+        "F01 f45 / 1.875s",
+        "F01 f48 / 2.000s",
+        "F01 f51 / 2.125s",
+        "F01 f54 / 2.250s",
+        "F01 f57 / 2.375s",
+        "F01 f60 / 2.500s",
+        "F01 f63 / 2.625s",
+        "F01 f66 / 2.750s",
+        "F01 f69 / 2.875s",
+        "F01 f72 / 3.000s",
+        "F01 f75 / 3.125s",
+        "F01 f77 / 3.208s"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\front_sources\\F02_every3_foot.png",
+      "sha256": "1356f2569b33a75b9c6608de2eb2245820a25094c874b8f71e95ca8fc59b017e",
+      "labels": [
+        "F02 f0 / 0.000s",
+        "F02 f3 / 0.125s",
+        "F02 f6 / 0.250s",
+        "F02 f9 / 0.375s",
+        "F02 f12 / 0.500s",
+        "F02 f15 / 0.625s",
+        "F02 f18 / 0.750s",
+        "F02 f21 / 0.875s",
+        "F02 f24 / 1.000s",
+        "F02 f27 / 1.125s",
+        "F02 f30 / 1.250s",
+        "F02 f33 / 1.375s",
+        "F02 f36 / 1.500s",
+        "F02 f39 / 1.625s",
+        "F02 f42 / 1.750s",
+        "F02 f45 / 1.875s",
+        "F02 f48 / 2.000s",
+        "F02 f51 / 2.125s",
+        "F02 f54 / 2.250s",
+        "F02 f57 / 2.375s",
+        "F02 f60 / 2.500s",
+        "F02 f63 / 2.625s",
+        "F02 f66 / 2.750s",
+        "F02 f69 / 2.875s",
+        "F02 f72 / 3.000s",
+        "F02 f75 / 3.125s",
+        "F02 f78 / 3.250s",
+        "F02 f81 / 3.375s",
+        "F02 f84 / 3.500s",
+        "F02 f87 / 3.625s",
+        "F02 f90 / 3.750s",
+        "F02 f93 / 3.875s",
+        "F02 f96 / 4.000s",
+        "F02 f99 / 4.125s",
+        "F02 f102 / 4.250s",
+        "F02 f105 / 4.375s",
+        "F02 f108 / 4.500s",
+        "F02 f111 / 4.625s",
+        "F02 f114 / 4.750s",
+        "F02 f117 / 4.875s",
+        "F02 f120 / 5.000s",
+        "F02 f123 / 5.125s",
+        "F02 f126 / 5.250s",
+        "F02 f129 / 5.375s",
+        "F02 f132 / 5.500s",
+        "F02 f135 / 5.625s",
+        "F02 f138 / 5.750s",
+        "F02 f141 / 5.875s",
+        "F02 f144 / 6.000s"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\front_sources\\F03_every3_foot.png",
+      "sha256": "f00bdee2613761861c0bf5611cf4de4d60815a853579d51e853efcf227755385",
+      "labels": [
+        "F03 f1 / 0.042s",
+        "F03 f4 / 0.167s",
+        "F03 f7 / 0.292s",
+        "F03 f10 / 0.417s",
+        "F03 f13 / 0.542s",
+        "F03 f16 / 0.667s",
+        "F03 f19 / 0.792s",
+        "F03 f22 / 0.917s",
+        "F03 f25 / 1.042s",
+        "F03 f28 / 1.167s",
+        "F03 f31 / 1.292s",
+        "F03 f34 / 1.417s",
+        "F03 f37 / 1.542s",
+        "F03 f40 / 1.667s",
+        "F03 f43 / 1.792s",
+        "F03 f46 / 1.917s",
+        "F03 f49 / 2.042s",
+        "F03 f52 / 2.167s",
+        "F03 f55 / 2.292s",
+        "F03 f58 / 2.417s",
+        "F03 f61 / 2.542s",
+        "F03 f64 / 2.667s",
+        "F03 f67 / 2.792s",
+        "F03 f70 / 2.917s",
+        "F03 f73 / 3.042s",
+        "F03 f76 / 3.167s",
+        "F03 f79 / 3.292s",
+        "F03 f82 / 3.417s",
+        "F03 f85 / 3.542s",
+        "F03 f88 / 3.667s",
+        "F03 f91 / 3.792s",
+        "F03 f94 / 3.917s",
+        "F03 f97 / 4.042s",
+        "F03 f100 / 4.167s",
+        "F03 f103 / 4.292s",
+        "F03 f106 / 4.417s",
+        "F03 f108 / 4.500s"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\joins\\J12_paired_foot.png",
+      "sha256": "f784180a397ab2f7f16f2896d93f90e746e88fdd22285845a56ba6bc72adb45a",
+      "labels": [
+        "OUT F01 f60/2.500s",
+        "IN F02 f0/0.000s",
+        "MIX f60/2.500s",
+        "OUT F01 f63/2.625s",
+        "IN F02 f3/0.125s",
+        "MIX f63/2.625s",
+        "OUT F01 f66/2.750s",
+        "IN F02 f6/0.250s",
+        "MIX f66/2.750s",
+        "OUT F01 f69/2.875s",
+        "IN F02 f9/0.375s",
+        "MIX f69/2.875s",
+        "OUT F01 f72/3.000s",
+        "IN F02 f12/0.500s",
+        "MIX f72/3.000s",
+        "OUT F01 f75/3.125s",
+        "IN F02 f15/0.625s",
+        "MIX f75/3.125s",
+        "OUT F01 f77/3.208s",
+        "IN F02 f17/0.708s",
+        "MIX f77/3.208s"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\joins\\J23_paired_foot.png",
+      "sha256": "bc109b10065186d031802f90832c4befff8cb3be93cc7accfe803c98006de50b",
+      "labels": [
+        "OUT F02 f127/5.292s",
+        "IN F03 f1/0.042s",
+        "MIX f187/7.792s",
+        "OUT F02 f130/5.417s",
+        "IN F03 f4/0.167s",
+        "MIX f190/7.917s",
+        "OUT F02 f133/5.542s",
+        "IN F03 f7/0.292s",
+        "MIX f193/8.042s",
+        "OUT F02 f136/5.667s",
+        "IN F03 f10/0.417s",
+        "MIX f196/8.167s",
+        "OUT F02 f139/5.792s",
+        "IN F03 f13/0.542s",
+        "MIX f199/8.292s",
+        "OUT F02 f142/5.917s",
+        "IN F03 f16/0.667s",
+        "MIX f202/8.417s",
+        "OUT F02 f144/6.000s",
+        "IN F03 f18/0.750s",
+        "MIX f204/8.500s"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\joins\\J34_paired_foot.png",
+      "sha256": "9394357194f13931ef2bf7f91cea03828e6dda3b66a9d0ba7a8a6e31f93520cf",
+      "labels": [
+        "OUT F03 f91/3.792s",
+        "IN F04 f0/0.000s",
+        "MIX f277/11.542s",
+        "OUT F03 f94/3.917s",
+        "IN F04 f3/0.125s",
+        "MIX f280/11.667s",
+        "OUT F03 f97/4.042s",
+        "IN F04 f6/0.250s",
+        "MIX f283/11.792s",
+        "OUT F03 f100/4.167s",
+        "IN F04 f9/0.375s",
+        "MIX f286/11.917s",
+        "OUT F03 f103/4.292s",
+        "IN F04 f12/0.500s",
+        "MIX f289/12.042s",
+        "OUT F03 f106/4.417s",
+        "IN F04 f15/0.625s",
+        "MIX f292/12.167s",
+        "OUT F03 f108/4.500s",
+        "IN F04 f17/0.708s",
+        "MIX f294/12.250s"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\joins\\J45_paired_foot.png",
+      "sha256": "2b620a6c0c70223cf5f81ca3df3e6c4f3ca0f6c18915901c935b02d4f2679b5e",
+      "labels": [
+        "OUT F04 f90/3.750s",
+        "IN F05 f0/0.000s",
+        "MIX f367/15.292s",
+        "OUT F04 f93/3.875s",
+        "IN F05 f3/0.125s",
+        "MIX f370/15.417s",
+        "OUT F04 f96/4.000s",
+        "IN F05 f6/0.250s",
+        "MIX f373/15.542s",
+        "OUT F04 f99/4.125s",
+        "IN F05 f9/0.375s",
+        "MIX f376/15.667s",
+        "OUT F04 f102/4.250s",
+        "IN F05 f12/0.500s",
+        "MIX f379/15.792s",
+        "OUT F04 f105/4.375s",
+        "IN F05 f15/0.625s",
+        "MIX f382/15.917s",
+        "OUT F04 f107/4.458s",
+        "IN F05 f17/0.708s",
+        "MIX f384/16.000s"
+      ]
+    }
+  ],
+  "join_mapping": [
+    {
+      "name": "J12",
+      "map": [
+        {
+          "overlap_offset": 0,
+          "outgoing_source": "F01",
+          "outgoing_frame": 60,
+          "incoming_source": "F02",
+          "incoming_frame": 0,
+          "film_frame": 60,
+          "film_second": 2.5
+        },
+        {
+          "overlap_offset": 3,
+          "outgoing_source": "F01",
+          "outgoing_frame": 63,
+          "incoming_source": "F02",
+          "incoming_frame": 3,
+          "film_frame": 63,
+          "film_second": 2.625
+        },
+        {
+          "overlap_offset": 6,
+          "outgoing_source": "F01",
+          "outgoing_frame": 66,
+          "incoming_source": "F02",
+          "incoming_frame": 6,
+          "film_frame": 66,
+          "film_second": 2.75
+        },
+        {
+          "overlap_offset": 9,
+          "outgoing_source": "F01",
+          "outgoing_frame": 69,
+          "incoming_source": "F02",
+          "incoming_frame": 9,
+          "film_frame": 69,
+          "film_second": 2.875
+        },
+        {
+          "overlap_offset": 12,
+          "outgoing_source": "F01",
+          "outgoing_frame": 72,
+          "incoming_source": "F02",
+          "incoming_frame": 12,
+          "film_frame": 72,
+          "film_second": 3.0
+        },
+        {
+          "overlap_offset": 15,
+          "outgoing_source": "F01",
+          "outgoing_frame": 75,
+          "incoming_source": "F02",
+          "incoming_frame": 15,
+          "film_frame": 75,
+          "film_second": 3.125
+        },
+        {
+          "overlap_offset": 17,
+          "outgoing_source": "F01",
+          "outgoing_frame": 77,
+          "incoming_source": "F02",
+          "incoming_frame": 17,
+          "film_frame": 77,
+          "film_second": 3.2083333333333335
+        }
+      ]
+    },
+    {
+      "name": "J23",
+      "map": [
+        {
+          "overlap_offset": 0,
+          "outgoing_source": "F02",
+          "outgoing_frame": 127,
+          "incoming_source": "F03",
+          "incoming_frame": 1,
+          "film_frame": 187,
+          "film_second": 7.791666666666667
+        },
+        {
+          "overlap_offset": 3,
+          "outgoing_source": "F02",
+          "outgoing_frame": 130,
+          "incoming_source": "F03",
+          "incoming_frame": 4,
+          "film_frame": 190,
+          "film_second": 7.916666666666667
+        },
+        {
+          "overlap_offset": 6,
+          "outgoing_source": "F02",
+          "outgoing_frame": 133,
+          "incoming_source": "F03",
+          "incoming_frame": 7,
+          "film_frame": 193,
+          "film_second": 8.041666666666666
+        },
+        {
+          "overlap_offset": 9,
+          "outgoing_source": "F02",
+          "outgoing_frame": 136,
+          "incoming_source": "F03",
+          "incoming_frame": 10,
+          "film_frame": 196,
+          "film_second": 8.166666666666666
+        },
+        {
+          "overlap_offset": 12,
+          "outgoing_source": "F02",
+          "outgoing_frame": 139,
+          "incoming_source": "F03",
+          "incoming_frame": 13,
+          "film_frame": 199,
+          "film_second": 8.291666666666666
+        },
+        {
+          "overlap_offset": 15,
+          "outgoing_source": "F02",
+          "outgoing_frame": 142,
+          "incoming_source": "F03",
+          "incoming_frame": 16,
+          "film_frame": 202,
+          "film_second": 8.416666666666666
+        },
+        {
+          "overlap_offset": 17,
+          "outgoing_source": "F02",
+          "outgoing_frame": 144,
+          "incoming_source": "F03",
+          "incoming_frame": 18,
+          "film_frame": 204,
+          "film_second": 8.5
+        }
+      ]
+    },
+    {
+      "name": "J34",
+      "map": [
+        {
+          "overlap_offset": 0,
+          "outgoing_source": "F03",
+          "outgoing_frame": 91,
+          "incoming_source": "F04",
+          "incoming_frame": 0,
+          "film_frame": 277,
+          "film_second": 11.541666666666666
+        },
+        {
+          "overlap_offset": 3,
+          "outgoing_source": "F03",
+          "outgoing_frame": 94,
+          "incoming_source": "F04",
+          "incoming_frame": 3,
+          "film_frame": 280,
+          "film_second": 11.666666666666666
+        },
+        {
+          "overlap_offset": 6,
+          "outgoing_source": "F03",
+          "outgoing_frame": 97,
+          "incoming_source": "F04",
+          "incoming_frame": 6,
+          "film_frame": 283,
+          "film_second": 11.791666666666666
+        },
+        {
+          "overlap_offset": 9,
+          "outgoing_source": "F03",
+          "outgoing_frame": 100,
+          "incoming_source": "F04",
+          "incoming_frame": 9,
+          "film_frame": 286,
+          "film_second": 11.916666666666666
+        },
+        {
+          "overlap_offset": 12,
+          "outgoing_source": "F03",
+          "outgoing_frame": 103,
+          "incoming_source": "F04",
+          "incoming_frame": 12,
+          "film_frame": 289,
+          "film_second": 12.041666666666666
+        },
+        {
+          "overlap_offset": 15,
+          "outgoing_source": "F03",
+          "outgoing_frame": 106,
+          "incoming_source": "F04",
+          "incoming_frame": 15,
+          "film_frame": 292,
+          "film_second": 12.166666666666666
+        },
+        {
+          "overlap_offset": 17,
+          "outgoing_source": "F03",
+          "outgoing_frame": 108,
+          "incoming_source": "F04",
+          "incoming_frame": 17,
+          "film_frame": 294,
+          "film_second": 12.25
+        }
+      ]
+    },
+    {
+      "name": "J45",
+      "map": [
+        {
+          "overlap_offset": 0,
+          "outgoing_source": "F04",
+          "outgoing_frame": 90,
+          "incoming_source": "F05",
+          "incoming_frame": 0,
+          "film_frame": 367,
+          "film_second": 15.291666666666666
+        },
+        {
+          "overlap_offset": 3,
+          "outgoing_source": "F04",
+          "outgoing_frame": 93,
+          "incoming_source": "F05",
+          "incoming_frame": 3,
+          "film_frame": 370,
+          "film_second": 15.416666666666666
+        },
+        {
+          "overlap_offset": 6,
+          "outgoing_source": "F04",
+          "outgoing_frame": 96,
+          "incoming_source": "F05",
+          "incoming_frame": 6,
+          "film_frame": 373,
+          "film_second": 15.541666666666666
+        },
+        {
+          "overlap_offset": 9,
+          "outgoing_source": "F04",
+          "outgoing_frame": 99,
+          "incoming_source": "F05",
+          "incoming_frame": 9,
+          "film_frame": 376,
+          "film_second": 15.666666666666666
+        },
+        {
+          "overlap_offset": 12,
+          "outgoing_source": "F04",
+          "outgoing_frame": 102,
+          "incoming_source": "F05",
+          "incoming_frame": 12,
+          "film_frame": 379,
+          "film_second": 15.791666666666666
+        },
+        {
+          "overlap_offset": 15,
+          "outgoing_source": "F04",
+          "outgoing_frame": 105,
+          "incoming_source": "F05",
+          "incoming_frame": 15,
+          "film_frame": 382,
+          "film_second": 15.916666666666666
+        },
+        {
+          "overlap_offset": 17,
+          "outgoing_source": "F04",
+          "outgoing_frame": 107,
+          "incoming_source": "F05",
+          "incoming_frame": 17,
+          "film_frame": 384,
+          "film_second": 16.0
+        }
+      ]
+    }
+  ],
+  "no_speed_change": true,
+  "visual_measurement_not_established": true
+}

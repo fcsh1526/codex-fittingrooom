@@ -1,0 +1,46 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\F05_half_source.mp4",
+  "sha256": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+  "bytes": 6284693,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "fully_decoded": true,
+  "decoded_frames": 145,
+  "derived_frame_duration_seconds": 6.041666666666667,
+  "selected_frames_if_eligible": [
+    0,
+    144
+  ],
+  "requested_half_keyframe_s": 5.333333333333333,
+  "nearest_half_frame": 128,
+  "silent": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\F05_half_motion_01\\QA_2026-10-22\\F05_half_silent.mp4",
+    "sha256": "fd5d5bc3cedac2cf30ba4df7f7b2a86d3dae82fd7aef77eba76fb937871d964f",
+    "bytes": 6081111,
+    "source_main_h264_annexb_sha256": "7a55382ec223cd3bd085d9c458f04aed253778b362a0be06aca7453f0e9dfe55",
+    "silent_main_h264_annexb_sha256": "7a55382ec223cd3bd085d9c458f04aed253778b362a0be06aca7453f0e9dfe55",
+    "identical": true,
+    "stream_copy_only": true,
+    "retimed": false,
+    "cropped": false,
+    "reencoded": false
+  },
+  "protected_hashes_unchanged": true,
+  "continuous_playback_performed": false,
+  "visual_review_pending": true
+}

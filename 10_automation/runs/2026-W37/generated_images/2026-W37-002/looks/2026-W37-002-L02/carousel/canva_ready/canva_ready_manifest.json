@@ -1,0 +1,62 @@
+{
+  "carousel_id": "2026-W37-002",
+  "look_id": "2026-W37-002-L02",
+  "model_profile_id": "M05",
+  "delivery_surface": "carousel",
+  "canva_template_key": "B",
+  "canva_template_name": "Mira Template Master v3 - B Cross-Boundary Symmetric",
+  "status": "needs_canva_frame_review",
+  "assets": {
+    "A": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-002\\looks\\2026-W37-002-L02\\carousel\\2026-W37-002-L02_M05_carousel_candidate_A_v1.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-002\\looks\\2026-W37-002-L02\\carousel\\canva_ready\\2026-W37-002-L02_M05_carousel_canva_A_1240x1350.png",
+      "source_size": [
+        1254,
+        1254
+      ],
+      "target_size": [
+        1240,
+        1350
+      ],
+      "target_aspect_ratio": 0.9185,
+      "center_crop_fraction": 0.0815,
+      "visual_status": "assistant_exact_crop_checked; needs_canva_frame_review",
+      "assistant_review": "Face, jacket, trouser legs and visible brown shoe remain in the 1240x1350 crop; the second shoe remains naturally partly occluded as approved by user.",
+      "slot_id": "cover_image"
+    },
+    "B": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-002\\looks\\2026-W37-002-L02\\carousel\\2026-W37-002-L02_M05_carousel_candidate_B.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-002\\looks\\2026-W37-002-L02\\carousel\\canva_ready\\2026-W37-002-L02_M05_carousel_canva_B_1140x560.png",
+      "source_size": [
+        1792,
+        878
+      ],
+      "target_size": [
+        1140,
+        560
+      ],
+      "target_aspect_ratio": 2.0357,
+      "center_crop_fraction": 0.0026,
+      "visual_status": "assistant_exact_crop_checked; needs_canva_frame_review",
+      "assistant_review": "Wide gallery view retains face, sand jacket hem, white inner layer, gray waist, black bag and ceramics display.",
+      "slot_id": "motion_crop"
+    },
+    "C": {
+      "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-002\\looks\\2026-W37-002-L02\\carousel\\2026-W37-002-L02_M05_carousel_candidate_C.png",
+      "output_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-002\\looks\\2026-W37-002-L02\\carousel\\canva_ready\\2026-W37-002-L02_M05_carousel_canva_C_1180x1350.png",
+      "source_size": [
+        1092,
+        1440
+      ],
+      "target_size": [
+        1180,
+        1350
+      ],
+      "target_aspect_ratio": 0.8741,
+      "center_crop_fraction": 0.1324,
+      "visual_status": "assistant_exact_crop_checked; needs_canva_frame_review",
+      "assistant_review": "Centered crop removes the partial mouth from the source upper edge; bag, strap, jacket hem, white tee, gray waist and hand remain clear.",
+      "slot_id": "detail_image"
+    }
+  }
+}

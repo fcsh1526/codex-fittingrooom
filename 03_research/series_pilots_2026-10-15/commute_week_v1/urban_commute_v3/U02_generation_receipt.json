@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "U02",
+  "look_id": "ED-W42-COMMUTE-V1-L04",
+  "model_id": "M03",
+  "mode": "built_in_imagegen",
+  "use_case": "photorealistic-natural",
+  "purpose": "New source for purposeful urban commute motion; still does not prove actual speed/camera/film appeal.",
+  "generation": {
+    "actual_prompt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_generation_prompt_v1.txt",
+    "word_count": 209,
+    "input_roles": [
+      {
+        "path": "02_brand/reference_models/M03_start_v3_face.png",
+        "role": "approved M03 v3 face identity only"
+      },
+      {
+        "path": "02_brand/reference_models/M03_start_v3_full.png",
+        "role": "approved normal proportions and hair only"
+      },
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+        "role": "exact wardrobe only; replace old empty-wall setting, walking pose and45degree camera"
+      }
+    ],
+    "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-eee7c0f4-bbb4-4529-9ca4-848032562ae7.png",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A.png",
+    "sha256": "4ff7e363fc41e87177c843743156590f1b3e8ee11def6505a2597399b6956123",
+    "pixels": [
+      941,
+      1672
+    ],
+    "tool_wait_seconds_observed": 57.5
+  },
+  "review_candidate": {
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+    "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+    "pixels": [
+      941,
+      1672
+    ]
+  },
+  "requested_aspect": "9:16",
+  "aspect_note": "Native imagegen vertical request yields941x1672 pixel rounding; no crop/stretch.",
+  "targeted_edit": {
+    "actual_prompt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_edit_prompt_v2.txt",
+    "input_roles": [
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A.png",
+        "role": "exact edit target, preserve everything except footwear"
+      },
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+        "role": "approved plain black slip-on shoe design only"
+      }
+    ],
+    "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-7af38e58-669c-42e5-8296-e7f682926129.png",
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+    "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+    "pixels": [
+      941,
+      1672
+    ],
+    "correction": "Remove generated decorative shoe bows; restore plain low-heeled slip-ons.",
+    "intended_correction_achieved": true,
+    "tool_wait_seconds_observed": 38.0
+  },
+  "assistant_still_review": {
+    "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+    "camera": "near-side-profile full person;90degree is intent, not a measured angle",
+    "scene": "street crossing with3 background commuters, trees and office corner",
+    "pose": "visible side stride and skirt motion; natural side-face identity and foot dynamics must be checked in generated video",
+    "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+    "proof_of_actual_speed_or_camera": false,
+    "film_or_join_qa": null
+  },
+  "user_visual_approval": {
+    "schema_version": 1,
+    "date": "2026-10-15",
+    "shot_id": "U02",
+    "look_id": "ED-W42-COMMUTE-V1-L04",
+    "model_id": "M03",
+    "question": "請確認兩張新起始圖：正面長西外版，以及最後一張已修回素面黑鞋的側面裙裝版，臉、原服裝、通勤人流與構圖是否可以沿用？依你設定的新圖視覺核准流程，確認後才送 Grok；快步、運鏡及廣告般吸引力會由動態試片再驗證。",
+    "question_record_type": "verbatim_combined_visual_approval_question",
+    "user_quote": "兩張可以，沿用",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+    "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+    "pixels": [
+      941,
+      1672
+    ],
+    "accepted_version": "plain_shoe_corrected_refined_v2",
+    "scope": "Exact U02 still visual approval only. This exact image may enter independent Grok motion. Brisk natural movement, actual camera behavior, side-profile identity stability, commuter trajectories, join comfort and advertising-like appeal remain to be verified in motion; no generated motion, pair or complete five-look film approval, account-wide adoption or publishing replacement inferred.",
+    "recorded_still_observations": {
+      "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+      "camera": "near-side-profile full person;90degree is intent, not a measured angle",
+      "scene": "street crossing with3 background commuters, trees and office corner",
+      "pose": "visible side stride and skirt motion; natural side-face identity and foot dynamics must be checked in generated video",
+      "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+      "proof_of_actual_speed_or_camera": false,
+      "film_or_join_qa": null
+    },
+    "shoe_correction_record": {
+      "original_candidate_with_bows_not_approved_by_this_reply": true,
+      "accepted_corrected_file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+      "correction": "Remove generated decorative bows and restore plain black low-heeled slip-ons.",
+      "intended_correction_achieved": true
+    },
+    "grok_generation_allowed_for_exact_still": true,
+    "motion_approval": null,
+    "join_approval": null,
+    "complete_five_look_film_approval": null,
+    "publishable": false,
+    "publishing_files_replaced": []
+  },
+  "grok_generation_allowed": true,
+  "status": "user_approved",
+  "costs": {
+    "generation_calls": 1,
+    "targeted_edits": 1,
+    "active_minutes": null,
+    "wait_seconds_observed": [
+      57.5,
+      38.0
+    ]
+  },
+  "user_visual_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json",
+  "approved_asset_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+  "motion_approval": null
+}

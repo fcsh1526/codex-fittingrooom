@@ -1,0 +1,34 @@
+{
+  "week_id": "2026-W37",
+  "carousel_id": "2026-W37-002",
+  "look_id": "2026-W37-002-L01",
+  "model_profile_id": "M05",
+  "surface": "carousel",
+  "slot": "A_cover_image",
+  "target_pixels": "1240x1350",
+  "target_aspect_ratio": 0.9185,
+  "tool": "built-in image_gen",
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/carousel/A_prompt_and_edit_v1_v2.md",
+  "references": [
+    "02_brand/reference_models/M05_start_v1_face.png",
+    "02_brand/reference_models/M05_start_v1_full.png",
+    "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png"
+  ],
+  "initial_candidate": {
+    "file": "2026-W37-002-L01_M05_carousel_candidate_A_v1.png",
+    "dimensions": "1092x1440",
+    "sha256": "B4C7E14379CC73E280BC6CB0DDB5A3ECA0CF89B75CCD8D1B2ADC929AEAE42A90",
+    "status": "rejected_for_canva_frame_fit",
+    "reason": "Source ratio 0.7583 would require 17.45% total vertical center crop to the 0.9185 slot and would clip head/shoes."
+  },
+  "targeted_edit": "Expand the canvas horizontally to square; keep identity, outfit and action while adding physically coherent studio space at left and right. This is the one targeted Hero correction for this session.",
+  "current_candidate": {
+    "file": "2026-W37-002-L01_M05_carousel_candidate_A_v2.png",
+    "dimensions": "1254x1254",
+    "sha256": "ED480B7AFECA5A3A6946ED2D15DDAC22A01335FB130A0A3092E94F51D77BEE88",
+    "assistant_visual_review": "Near-frontal M05 face, white cropped jacket, pale-blue tucked shirt, deep-indigo wide trousers, black loafers and caramel bag are visible. Window-side light, table contact and shoe shadows look coherent. Square source can be center-cropped to 0.9185 by removing about 8.15% total width; head, shoes, jacket hem and waist remain clear. The edit also broadened the room and modestly changed subject scale, so it is an edited candidate rather than pixel-preserved outpainting.",
+    "status": "approved_by_user_2026-09-30",
+    "user_approval": "可以，沿用這張"
+  },
+  "next_gate": "A is the approved session lock. Generate and review Carousel B/C from this image plus M05 face/full anchors."
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22",
+  "artifact": "QA_2026-10-22/original_used_left_trial_right_native_4p5s.mp4",
+  "sha256": "bb7cf0ec9cdb7bb5eb3e67aa0a5ff23c2d07768baa9c393f5eb121de74891d0a",
+  "bytes": 2803605,
+  "frames": 108,
+  "fps": 24,
+  "duration_seconds": 4.5,
+  "size": [
+    720,
+    640
+  ],
+  "left": "Original F04 used source[0,108)",
+  "right": "One new trial source[0,108)",
+  "question": "請播放4.5秒左右原速對照：左邊是原片實際採用的格紋段，右邊是新步態樣本。右邊的步伐是否更接近你要的俐落通勤感？這次只選步態方向，沒有換入五套片，場景與接點也尚未核准。",
+  "options": [
+    "右邊較合適，可作步態基準",
+    "右邊仍太慢",
+    "右邊太急或不自然"
+  ],
+  "answer": "右邊較合適，可作步態基準",
+  "status": "right_trial_selected_as_gait_pace_reference",
+  "whole_film_approval": false,
+  "approval_receipt": "user_pace_approval.json"
+}

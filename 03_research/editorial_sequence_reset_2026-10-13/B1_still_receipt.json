@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-13",
+  "look_id": "2026-W41-004-L02",
+  "model": "M03",
+  "shot": "B1",
+  "tool": "built-in image_gen",
+  "status": "v4_user_visual_approved",
+  "candidates": [
+    {
+      "version": "v1",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v1_material_failed.png",
+      "sha256": "7dbfa4f7e60bfc917c4ade42473e93dd6e6ff4a25a38ebe115bf947d01a95d1a",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-edd9a2fe-45c2-48e6-894c-ff505e13c770.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/B1_prompt_v1.txt",
+      "status": "ornamental_tee_deviation",
+      "framing_transform": "none"
+    },
+    {
+      "version": "v2",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v2_material_failed.png",
+      "sha256": "65dfdd2486ab1c9fdcf0ab433498bc3ab743999b8d6b549f7231ea876d2349c4",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-01fc3644-2253-411e-bf6b-bf5969a21591.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/B1_material_correction_v2.txt",
+      "status": "single_material_edit_failed",
+      "framing_transform": "none"
+    },
+    {
+      "version": "v3",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v3_material_framing_failed.png",
+      "sha256": "53092c97d57f1cc3d947991eb6168a7298e0450e2639c1d8aa68ab68398a6a97",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-33366858-6ef3-4432-879b-8af3e3af6697.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/B1_clean_inputs_replan_v3.txt",
+      "status": "material_and_full_seated_framing_deviation",
+      "framing_transform": "none"
+    },
+    {
+      "version": "v4",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v4_clean.png",
+      "sha256": "5d3933fc1ba8dce227c70e3ed3b625d7151fb26acdde5b7fbc3b6b5aea7655f1",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-11d1a0f5-a77d-4236-a65d-15403e3a0b6c.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/B1_identity_only_replan_v4.txt",
+      "status": "user_visual_approved",
+      "framing_transform": "none"
+    }
+  ],
+  "generation_count": 4,
+  "targeted_material_edits": 1,
+  "input_replans": 2,
+  "attempt_accounting": "Initial B1 uses approved B2 wardrobe and late A2 framing, but tee gains motif. One material-only edit fails. Rebuild excluding A2 pixels but retaining B2 still has motif and becomes full seated. Final rebuild uses only identity anchors and written approved B2 wardrobe plus head-through-knees scene. All4 calls retained; no one-retry production success claimed.",
+  "references_v1": [
+    "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png",
+    "03_research/editorial_sequence_reset_2026-10-13/A2_motion_attempt_01/qa/frame_090.png",
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png"
+  ],
+  "references_v2": [
+    "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v1_material_failed.png"
+  ],
+  "references_v3": [
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png",
+    "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png"
+  ],
+  "references_v4": [
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png"
+  ],
+  "wardrobe_authority": "B2_user_approval_2026-10-13.json; final prompt states approved navy blazer/plain gray tee/cream trousers/black tapered shoulder bag. Rebuilt written wardrobe is not pixel-identical garment certification.",
+  "assistant_static_review": "Clean v4 plain heather-gray cotton tee, open navy lapels/one-fold cuffs, cream trousers, silver studs and broad black shoulder bag visible. Recognizable M03/hair, natural seat support/crossed leg and near-knee/bench hands. Native vertical head-through-knees proof; shoes outside frame are not certified from this view. Actual head/upper body somewhat larger and slightly right of late A2 focus; bench/window geometry recreated, not exact match. A2→B1 and B1→B2 comfort require combined-film review, no two-keyframe scene morph.",
+  "user_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用最後這張",
+    "question_context": "Explicit reply identifying final M03 L02 B1v4 seated still: face/navy blazer/plain gray tee/cream trousers/black bag/crossed-leg pose for third shot.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B1_seated_candidate_v4_clean.png",
+    "sha256": "5d3933fc1ba8dce227c70e3ed3b625d7151fb26acdde5b7fbc3b6b5aea7655f1",
+    "scope": "Exact B1v4 still only; authorizes next Grok First frame. No motion or whole-film approval."
+  },
+  "grok_uploaded": true,
+  "video_generated": true,
+  "active_minutes": null,
+  "generation_wait_minutes": null,
+  "formal_full_proof_carousel_complete": false,
+  "confirmed_motion_result_count": 1,
+  "motion_source": "03_research/editorial_sequence_reset_2026-10-13/B1_motion_attempt_01/source.mp4",
+  "motion_source_sha256": "8366b427e320c37f712b03024d21e929aa3621427f2066d146c268a6148f8e0c",
+  "motion_review": "B1_motion_attempt_01/technical_receipt.json",
+  "user_film_approval": null
+}

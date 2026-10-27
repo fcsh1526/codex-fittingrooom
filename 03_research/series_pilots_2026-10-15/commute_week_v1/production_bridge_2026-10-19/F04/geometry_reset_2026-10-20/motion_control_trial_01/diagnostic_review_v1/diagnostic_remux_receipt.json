@@ -1,0 +1,134 @@
+{
+  "created_at_taipei": "2026-10-20T15:48:25.826045+08:00",
+  "status": "road_geometry_failed_diagnostic_viewing_only_not_publishable",
+  "purpose": "Deliver exact failed research motion for viewing; no four-shot composite",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\F04_source.mp4",
+  "source_sha256": "17618efc96ae2039a9c8e3d888e1ac225af769f1e7d45eec889a42b98e69e0b3",
+  "source_bytes": 8646672,
+  "output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\diagnostic_review_v1\\F04_diagnostic_silent.mp4",
+  "output_sha256": "3e8541e4b38bbe09f5bb8227de09f2225cd44929141316cdf0ea3147136a3cab",
+  "output_bytes": 8444390,
+  "exact_ffmpeg_argv": [
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\.video_dependencies\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-hide_banner",
+    "-nostdin",
+    "-n",
+    "-i",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\F04_source.mp4",
+    "-map",
+    "0:0",
+    "-c:v",
+    "copy",
+    "-an",
+    "-sn",
+    "-dn",
+    "-movflags",
+    "+faststart",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\diagnostic_review_v1\\F04_diagnostic_silent.mp4"
+  ],
+  "windows_command_display": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\.video_dependencies\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe -hide_banner -nostdin -n -i C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\F04_source.mp4 -map 0:0 -c:v copy -an -sn -dn -movflags +faststart C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\diagnostic_review_v1\\F04_diagnostic_silent.mp4",
+  "ffmpeg_stderr": "ffmpeg_remux_log.txt",
+  "remux_execution_count": 1,
+  "verification_note": "Initial post-remux check compared native tuple dimensions against a list and raised; corrected tuple comparison rechecked the same existing output without remuxing again.",
+  "stream_selection": "map0:0 primary H264 only; removed source AAC stream0:1 and attached MJPEG stream0:2",
+  "video_codec_operation": "copy; no decoding/re-encoding in remux",
+  "video_crop_scale_retime_text_transition": false,
+  "primary_elementary_stream_hash_algorithm": "SHA256 of FFmpeg H264 AnnexB elementary bitstream via stream copy",
+  "source_primary_h264_annexb_sha256": "dbe204b5493b201da10d09d3c9f0c31e6bf1df015f3a930213b3b7373c32108d",
+  "output_primary_h264_annexb_sha256": "dbe204b5493b201da10d09d3c9f0c31e6bf1df015f3a930213b3b7373c32108d",
+  "primary_h264_bitstream_hash_equal": true,
+  "source_primary_stream_hash_exact_argv": [
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\.video_dependencies\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-v",
+    "error",
+    "-i",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\F04_source.mp4",
+    "-map",
+    "0:0",
+    "-c:v",
+    "copy",
+    "-bsf:v",
+    "h264_mp4toannexb",
+    "-f",
+    "hash",
+    "-hash",
+    "sha256",
+    "pipe:1"
+  ],
+  "output_primary_stream_hash_exact_argv": [
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\.video_dependencies\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-v",
+    "error",
+    "-i",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\diagnostic_review_v1\\F04_diagnostic_silent.mp4",
+    "-map",
+    "0:0",
+    "-c:v",
+    "copy",
+    "-bsf:v",
+    "h264_mp4toannexb",
+    "-f",
+    "hash",
+    "-hash",
+    "sha256",
+    "pipe:1"
+  ],
+  "output_full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.04
+    },
+    "decoded_frames": 145,
+    "full_decode_completed": true,
+    "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+    "individual_source_PTS_measured": false
+  },
+  "output_stream_inventory": {
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 11177 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+    ],
+    "audio_stream_present": false
+  },
+  "protected_inputs_verified_before_and_after": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\phase_match_review_v1\\F01_F02_F03_phase_plus1_native_soft_review_v1.mp4",
+      "sha256": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_start_candidate_A.png",
+      "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\photographic_midpoint_01\\F04_M03_L02_mid_camera_no_planter_v3.png",
+      "sha256": "0a4fe3eb96bf2473cb441844e770ec1ed391718eceb997bcf38b50a886b5b22f"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\photographic_endpoint_01\\F04_M03_L02_end_camera_correction_v2.png",
+      "sha256": "e3117eef0d3854bb279d2070a08378b9eefacbabeae0889c057cbcf75e52e8e9"
+    }
+  ],
+  "source_verified_unchanged_after_remux": true,
+  "road_geometry_QA": "FAIL; white stripes develop disconnected/offset lengthening around4-5s",
+  "normal_speed_full_playback": null,
+  "user_film_approval": null,
+  "publishable": false,
+  "four_shot_composite_built": false,
+  "new_generation": false,
+  "limitations": [
+    "Bitstream equivalence establishes unchanged retained encoded video, not scene/gait correctness.",
+    "Metadata and full decode do not constitute normal-speed viewing or dynamic approval.",
+    "Individual frame PTS not separately measured; no retiming parameters or filters were used."
+  ]
+}

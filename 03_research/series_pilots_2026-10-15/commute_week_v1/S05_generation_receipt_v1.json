@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "S05",
+  "look_id": "ED-W42-COMMUTE-V1-L05",
+  "mode": "built_in_imagegen",
+  "use_case": "photorealistic-natural",
+  "generation": {
+    "prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S05_generation_prompt_v1.txt",
+    "prompt_word_count": 199,
+    "input_roles": [
+      {
+        "path": "02_brand/reference_models/M03_start_v3_face.png",
+        "role": "M03 face identity only",
+        "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+      },
+      {
+        "path": "02_brand/reference_models/M03_start_v3_full.png",
+        "role": "M03 normal proportions, hair and profile age language only",
+        "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+      },
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+        "role": "approved exact white shirt, black shoes, setting, walking pose and person scale only; not its black skirt or cobalt bag",
+        "sha256": "c1cc960b0a8f380e1a086907c7dad383c78af443a7f6dbec83a5020f796025cf"
+      },
+      {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+        "role": "approved small black shoulder bag only; not checked shirt or charcoal trousers",
+        "sha256": "6efa44841ae892ce1a82fd42fc046ae60e295c002b23834453d37b594342f2d1"
+      }
+    ],
+    "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-cb252a42-6387-41ec-952f-ea801f1aa41b.png",
+    "original_exists_and_SHA_matches_local_copy": true,
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+    "sha256": "15a168cc93ec379523aa27275d37051fcb32fd3eb7bd2d7f5b389b60b844142f",
+    "actual_pixels": [
+      941,
+      1672
+    ]
+  },
+  "targeted_edit": null,
+  "requested_aspect_ratio": "9:16",
+  "aspect_note": "Native vertical9:16 imagegen request, actual raster recorded separately; no crop/stretch/raster modification performed.",
+  "assistant_review": {
+    "identity_and_proportions": "M03 recognizable and head-to-shoe composition consistent with approved S04; no blocking non-texture defect observed in static review.",
+    "wardrobe": "Repeated white short-sleeved pointed-collar shirt / cocoa-brown high-waisted straight non-distressed denim / narrow black belt / black low-heeled shoes / black shoulder bag.",
+    "unresolved_surface_issue": "Fine ornamental surface pattern remains on cocoa denim and paving; the intended plain-denim/mineral-stone appearance is not fully achieved. Disclosed before exact user visual approval.",
+    "motion_or_join_qa": null
+  },
+  "status": "user_approved",
+  "candidate_for_user_review": {
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+    "sha256": "15a168cc93ec379523aa27275d37051fcb32fd3eb7bd2d7f5b389b60b844142f",
+    "actual_pixels": [
+      941,
+      1672
+    ]
+  },
+  "user_visual_approval": {
+    "schema_version": 1,
+    "date": "2026-10-15",
+    "shot_id": "S05",
+    "look_id": "ED-W42-COMMUTE-V1-L05",
+    "user_quote": "可以，沿用這張",
+    "question": "剛顯示的M03第五套起始圖，白短袖尖領襯衫是否延續核准S04，以及可可棕直筒丹寧／窄黑皮帶／黑鞋包、臉與完整行走構圖是否可以沿用？褲子及地面仍有先前類似細紋，已披露且本張未重複進行已失效的局部修正；確認後才送動態。",
+    "question_record_type": "visual_approval_context_summary_not_verbatim_question_transcript",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+    "sha256": "15a168cc93ec379523aa27275d37051fcb32fd3eb7bd2d7f5b389b60b844142f",
+    "pixels": [
+      941,
+      1672
+    ],
+    "accepted_version": "candidate_A_v1",
+    "disclosed_surface_issue": "Fine ornamental surface pattern remains on cocoa denim and paving; the intended plain-denim/mineral-stone appearance is not fully achieved. Disclosed before exact user visual approval.",
+    "scope": "Exact S05 still visual approval after disclosure of residual surface texture. This exact image may enter independent motion and its approved white shirt may retain S04 continuity. Does not certify a successful texture correction, approve any newly generated motion/remaining joins/complete five-look film, adopt an account-wide series or replace publishing files.",
+    "video_approval": null,
+    "complete_film_approval": null,
+    "grok_generation_allowed_for_exact_still": true,
+    "publishing_files_replaced": []
+  },
+  "user_visual_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S05_user_still_approval_2026-10-15.json",
+  "approved_asset_path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+  "grok_generation_allowed": true,
+  "motion_approval": null,
+  "costs": {
+    "generation_calls": 1,
+    "targeted_edits": 0,
+    "observed_tool_wait_seconds": [
+      47.4
+    ],
+    "active_minutes": null
+  },
+  "external_uploads": [],
+  "retry_policy": "No repeated local edit of the already unsuccessful surface-texture correction; residual texture disclosed for the exact user decision."
+}

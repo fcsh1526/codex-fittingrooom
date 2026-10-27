@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-14",
+  "status": "observed_physical_prop_cover_reference_architectural_adaptation_unverified",
+  "primary_reference": "https://www.instagram.com/jenaby.u/reel/DJnnv5OPD6k/",
+  "author": "jenaby.u",
+  "method": {
+    "original_video_downloaded": false,
+    "muted": true,
+    "whole_ui_samples": 80,
+    "detail_ui_samples": 20,
+    "video_native_pixels": [
+      720,
+      1280
+    ],
+    "duration_seconds": 25.633333,
+    "visible_ui_video_rect_pixels": [
+      337.3333,
+      599.6979
+    ],
+    "exact_cut_frame_known": false,
+    "audio_bpm_analyzed": false,
+    "continuous_uninterrupted_watch_claimed": false
+  },
+  "observations": [
+    {
+      "event": "cup_to_cup_change",
+      "sample_indices": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "detail_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "visible_times": "Approximately3.2–5.0s, using screenshot before/after time bounds.",
+      "finding": "White outfit approaches, raises cup toward lens; visible cup rim/body enlarges, nearly full-frame out-of-focus cup at3.92–4.01s; next blue-shirt look appears behind withdrawing cup around4.14–4.24s, resolves near4.88–5.0s. No exact original cut frame or compositor method inferred."
+    },
+    {
+      "event": "phone_to_phone_change",
+      "sample_indices": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "finding": "Around13.82–14.55s brown top model holds phone outward; large phone screen covers much of view, next striped shirt with phone visible14.89–14.98s. Dense follow-up capture did not cover this interval; exact full occlusion and cut timing unknown."
+    },
+    {
+      "event": "hand_at_loop",
+      "detail_indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "finding": "Palm enlarges near25.16–25.45s; capture25.586–0.024s crosses loop boundary and shows palm filling view. Next screenshot0.082–0.161s starts white-outfit wide view. Hand at source loop is observed; not claim seamless same-direction architectural wipe."
+    }
+  ],
+  "transfer": "Foreground filling the lens carries the transition; clothing is read before and after obstruction. Adapt solid wall/camera motion to reduce close hand-object contact. Architecture tracking is a design inference, not observed in this Reel.",
+  "limits": "No recent popularity claim, verified view count, causal reach claim or assertion all cuts use covering. Reference includes original text and7looks; these are not copied into Mira. UI sample timing has gaps and loop wraps. Search-discovered Adidas links and general tutorials not watched or used as evidence for Mira technique.",
+  "new_media": {
+    "still_calls": 1,
+    "grok_submissions": 0,
+    "production_replacements": 0,
+    "candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/foreground_transition_2026-10-14/2026-W41-003-L01_M02_foreground_start_candidate_v1.png",
+    "static_user_approval": null
+  }
+}

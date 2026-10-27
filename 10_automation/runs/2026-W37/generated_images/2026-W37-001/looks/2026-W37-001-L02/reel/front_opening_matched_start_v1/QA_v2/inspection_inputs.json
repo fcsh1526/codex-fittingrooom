@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-08",
+  "inputs": [
+    {
+      "role": "A native f116",
+      "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/QA_join_A126_B0_2026-10-08/native_pairs/A_000116.png",
+      "sha256": "e0dac7262aae4184accd5a5c4444657967e5e7082bdf7ecc67fdd4fba1887f2f",
+      "size": [
+        720,
+        1280
+      ]
+    },
+    {
+      "role": "New B still v2",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/front_opening_matched_start_v1/2026-W37-001-L02_M02_front_opening_matched_start_candidate_v2.png",
+      "sha256": "8437c07f6fbdabd9f45fbe1faac74b58a888cdb45a83c61a0fb851928c4fa0b4",
+      "size": [
+        941,
+        1672
+      ]
+    },
+    {
+      "role": "Approved B proof",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+      "sha256": "1ea5251c0346edc52e38d414c5c52156a4c41e0a74d08d05c3140b196994dd77",
+      "size": [
+        941,
+        1672
+      ]
+    },
+    {
+      "role": "Old B motion f8",
+      "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/QA_join_A126_B0_2026-10-08/native_pairs/B_000008.png",
+      "sha256": "ef818bfef89a9a55cf5dec0a625ecd25791344a6c42b8f6294638bb24be33563",
+      "size": [
+        720,
+        1280
+      ]
+    }
+  ],
+  "normalized_inspection_size": [
+    720,
+    1280
+  ],
+  "normalization_is_QA_only": true,
+  "delivery_asset_modified": false,
+  "static_visual_result": "pending",
+  "dynamic_join_result": "not_tested",
+  "user_approval": null
+}

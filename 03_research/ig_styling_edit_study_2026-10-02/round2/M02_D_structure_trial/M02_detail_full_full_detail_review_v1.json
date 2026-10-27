@@ -1,0 +1,250 @@
+{
+  "date": "2026-10-02",
+  "status": "user_accepted_clean_picture_track",
+  "output_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/M02_detail_full_full_detail_review_v1.mp4",
+  "sha256": "688d95d93c7705ac7500ada977c6ff2c97e649c175430487264b69ec8da28b56",
+  "sources": [
+    {
+      "shot_id": "A2",
+      "look_id": "2026-W37-001-L01",
+      "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/S02_comparison_v2_02.mp4",
+      "sha256": "4f2fef2e6a09f94d187d2d62f8ea86f21a66e83127139cbc398f3f23334d13a4",
+      "generation_record": "10_automation/runs/2026-W37/reels/pilot_M02/S02_comparison_v2_motion_02.json",
+      "start_frame": 6,
+      "end_frame_exclusive": 66,
+      "selected_frames": 60,
+      "selected_seconds": 2.5,
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M02_D_structure_trial\\A2_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 2.5
+        },
+        "decoded_frames": 60,
+        "decoded_seconds": 2.5,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/qa/A2/selected_checkpoints.jpg",
+      "checkpoint_count": 11,
+      "framing": "uniform cover scale, centered crop, no animated framing",
+      "assistant_sampled_visual_review": "11 sampled checkpoints inspected: face, neckline, shoulder sleeves and bag consistent; natural opening blink; light hem motion; no obvious sampled background jump.",
+      "assistant_continuous_review": false
+    },
+    {
+      "shot_id": "A1",
+      "look_id": "2026-W37-001-L01",
+      "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/S01_comparison_v2_01.mp4",
+      "sha256": "63ea61961f4e39e77585e3d1f8a165d7f15e2a7fde6d7e2dc007fa1996ce956e",
+      "generation_record": "10_automation/runs/2026-W37/reels/pilot_M02/S01_comparison_v2_motion_01.json",
+      "start_frame": 6,
+      "end_frame_exclusive": 84,
+      "selected_frames": 78,
+      "selected_seconds": 3.25,
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M02_D_structure_trial\\A1_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 3.25
+        },
+        "decoded_frames": 78,
+        "decoded_seconds": 3.25,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/qa/A1/selected_checkpoints.jpg",
+      "checkpoint_count": 14,
+      "framing": "uniform cover scale, centered crop, no animated framing",
+      "assistant_sampled_visual_review": "14 sampled checkpoints inspected: walking approach, complete head and shoes retained, no obvious sampled identity/wardrobe/background jump.",
+      "assistant_continuous_review": false
+    },
+    {
+      "shot_id": "B1",
+      "look_id": "2026-W37-001-L02",
+      "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/S04_comparison_v2_01.mp4",
+      "sha256": "c184574bb16f74cb997b3d23e789c7731664d203a822a3111c97649c08b2c331",
+      "generation_record": "10_automation/runs/2026-W37/reels/pilot_M02/S04_comparison_v2_motion_01.json",
+      "start_frame": 6,
+      "end_frame_exclusive": 84,
+      "selected_frames": 78,
+      "selected_seconds": 3.25,
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M02_D_structure_trial\\B1_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 3.25
+        },
+        "decoded_frames": 78,
+        "decoded_seconds": 3.25,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/qa/B1/selected_checkpoints.jpg",
+      "checkpoint_count": 14,
+      "framing": "uniform cover scale, centered crop, no animated framing",
+      "assistant_sampled_visual_review": "14 sampled checkpoints inspected: short step then settles, complete head and shoes retained, shoulder sleeves and bag consistent; no obvious sampled background jump.",
+      "assistant_continuous_review": false
+    },
+    {
+      "shot_id": "B2",
+      "look_id": "2026-W37-001-L02",
+      "path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/S03_comparison_v2_02.mp4",
+      "sha256": "c5f6b66663b69c36bf1b46286e4ae1bb7412054ca46489eb99fad458a6be134c",
+      "generation_record": "10_automation/runs/2026-W37/reels/pilot_M02/S03_comparison_v2_motion_02.json",
+      "start_frame": 6,
+      "end_frame_exclusive": 54,
+      "selected_frames": 48,
+      "selected_seconds": 2.0,
+      "technical_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M02_D_structure_trial\\B2_selected.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 2.0
+        },
+        "decoded_frames": 48,
+        "decoded_seconds": 2.0,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/qa/B2/selected_checkpoints.jpg",
+      "checkpoint_count": 9,
+      "framing": "uniform cover scale, centered crop, no animated framing",
+      "assistant_sampled_visual_review": "9 sampled checkpoints inspected in source 0.25-2.25s: neckline and both shoulder sleeves retained, natural opening blink, hem motion; no sampled shoulder slip. Late failed interval remains excluded.",
+      "assistant_continuous_review": false
+    }
+  ],
+  "shot_order": [
+    "A2",
+    "A1",
+    "B1",
+    "B2"
+  ],
+  "actual_seconds": 8.75,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "source_speed": "unchanged",
+  "transitions": [
+    {
+      "start": 1.75,
+      "end": 2.5,
+      "duration": 0.75,
+      "type": "cross dissolve"
+    },
+    {
+      "start": 4.25,
+      "end": 5.0,
+      "duration": 0.75,
+      "type": "cross dissolve"
+    },
+    {
+      "start": 6.75,
+      "end": 7.5,
+      "duration": 0.75,
+      "type": "cross dissolve"
+    }
+  ],
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M02_D_structure_trial\\M02_detail_full_full_detail_review_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.75
+    },
+    "decoded_frames": 210,
+    "decoded_seconds": 8.75,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/qa/output/output_checkpoints.jpg",
+  "assistant_sampled_visual_review": "21 output checkpoints inspected, including before/middle/after each junction. No obvious sampled instantaneous identity/wardrobe/background jump; medium/full double-scale dissolve overlap and library-to-floral-workshop scene change remain disclosed limits. User subsequently accepted the exact complete preview with ok; assistant continuous playback not claimed.",
+  "assistant_continuous_review": false,
+  "user_approval": {
+    "date": "2026-10-02",
+    "response": "ok",
+    "scope": "Exact complete 8.75s preview accepted as clean picture track after whole-film transition/background comfort question. No detailed rationale or full-watch self-report inferred."
+  },
+  "publication_url": null,
+  "time": {
+    "active_minutes": null,
+    "new_generation_wait_minutes": 0,
+    "tool_processing_wall_seconds": {
+      "prepare": 19.42,
+      "assemble": 8.95
+    }
+  },
+  "review_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/REVIEW.md",
+  "known_limits": [
+    "Scale-changing dissolves produce brief double-scale figure overlap.",
+    "Full/full outfit transition also changes library to floral workshop.",
+    "Source checkpoints are sampled visual evidence; assistant continuous visual review not claimed; user preview acceptance recorded separately."
+  ]
+}

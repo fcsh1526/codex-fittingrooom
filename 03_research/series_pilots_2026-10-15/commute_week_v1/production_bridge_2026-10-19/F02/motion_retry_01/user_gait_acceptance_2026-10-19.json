@@ -1,0 +1,12 @@
+{
+  "recorded_date":"2026-10-19",
+  "asset":"F01_F02_gait_fix_review_v1.mp4",
+  "sha256":"54da666276fd89fc93461fc25bbe2aa805e565beff8f708bf071b78118a462dd",
+  "seconds":8.541666666666666,
+  "question":"請播放這支 8.54 秒步態修正版：換成棕丹寧後，是否還突然變慢，或鞋底相對地磚滑動？這次第二鏡重新生成，沒有後製加速；仍保留約 0.75 秒柔接與部分雙影。腳步與節奏是否已可保留，繼續第三套？",
+  "user_answer":"腳步與節奏可以，繼續第三套",
+  "status":"exact_pair_gait_and_rhythm_accepted_continue_L03",
+  "scope":["retain gait and walking rhythm in exact new pair", "continue third outfit planning and production within existing still-approval workflow"],
+  "not_implied":["measured zero ground-relative foot drift", "exact gait tracking or all world geometry validated", "full normal-speed playback self-report", "all five outfits/final film/publishing approval"],
+  "next":"F03 L03 wardrobe edit from actual F02 frame127 overlap start, frame144 as overlap-end reference; bound plaza-to-near-curb end geometry before motion."
+}

@@ -1,0 +1,19 @@
+{
+  "submitted_at": "2026-10-06T02:38:44.544Z",
+  "look_id": "2026-W37-001-L01",
+  "character_reference": "Mira M02 v3",
+  "image_role": "First frame",
+  "last_frame": false,
+  "middle_frame": false,
+  "selected_duration": "6s",
+  "selected_resolution": "720p",
+  "selected_ratio": "9:16",
+  "audio": false,
+  "send_clicked": true,
+  "source_retrieved": false,
+  "retry_of": "grok_A_attempt_01",
+  "retry_reason": "A1 moved rear foot forward/closed stance instead of whole body retreat",
+  "generation_progress_observed": true,
+  "first_progress_display": "20%",
+  "post_url": "https://grok.com/imagine/post/26cd09a6-a5d6-403c-a360-85535c89cd6d?conversation=4878e8a0-e587-41a5-aa24-75954fbeb565"
+}

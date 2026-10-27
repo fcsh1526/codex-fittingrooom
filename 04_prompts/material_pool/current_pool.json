@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-16",
+  "planning_week": "2026-W42",
+  "window_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42"
+  ],
+  "meaning": "Priority editorial review window, not trend validity or production approval.",
+  "coverage": [
+    {
+      "week": "2026-W40",
+      "saved_source_rows": 0,
+      "receipt_state": null,
+      "status": "missing_original_csv"
+    },
+    {
+      "week": "2026-W41",
+      "saved_source_rows": 20,
+      "receipt_state": "matched",
+      "status": "saved_source_available_for_review"
+    },
+    {
+      "week": "2026-W42",
+      "saved_source_rows": 0,
+      "receipt_state": null,
+      "status": "missing_original_csv"
+    }
+  ],
+  "saved_source_candidates_for_review": [
+    "mi_132859673c7eb7d1b03e",
+    "mi_78ef1bffa54c582fa93a",
+    "mi_00e81f6167b3f020a1d6",
+    "mi_8611594dc3f17c973535",
+    "mi_cf78b0ed7cf1dff88725",
+    "mi_df9d6d62b6399d01f4a9",
+    "mi_df828e6009bdf60321e5",
+    "mi_f34fb2e558a98f541a3e",
+    "mi_b74605299216521e5b98",
+    "mi_b29bb173c69fdf3d157d",
+    "mi_748aade8536043cf9a72",
+    "mi_c5e19952610898d85f6c",
+    "mi_85f5a240adae8197cfa9",
+    "mi_68379696f88350c51301",
+    "mi_bdd455a7381021815ef0",
+    "mi_298fb6b14233b1ea1e02",
+    "mi_d748d421354d40a41f40",
+    "mi_1eb80684550c95b731fa",
+    "mi_3d6d88cad785ec2b0aed",
+    "mi_168d35d7d3ea5d648dc0"
+  ],
+  "legacy_candidates_needing_source_check": [],
+  "editorial_expansions_for_review": [],
+  "excluded_current_material_ids": [],
+  "older_materials_retained": 190,
+  "future_materials_excluded": 0,
+  "registry_path": "04_prompts/material_pool/series_registry.json",
+  "weather": {
+    "status": "not_checked_for_this_build",
+    "target_region": null,
+    "planned_publication_dates": [],
+    "source_url": null,
+    "checked_at": null
+  },
+  "media_authorization": "Read current canonical workflow and editorial handoff; index grants none.",
+  "production_quota": "Not assigned by material index."
+}

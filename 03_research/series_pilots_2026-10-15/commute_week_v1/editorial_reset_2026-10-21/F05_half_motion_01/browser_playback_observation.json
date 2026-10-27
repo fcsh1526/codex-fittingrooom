@@ -1,0 +1,14 @@
+{
+  "observed": {
+    "duration": 6.041667,
+    "ended": false,
+    "loop": true,
+    "muted": true,
+    "paused": false,
+    "playbackRate": 1,
+    "time": 3.489074
+  },
+  "ui_play_activated": true,
+  "full_continuous_visual_review": false,
+  "limit": "Browser loop playback observed at 1x with screenshots; no continuous visual perception or normal-speed full-film pass claimed."
+}

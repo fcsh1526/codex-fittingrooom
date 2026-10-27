@@ -1,0 +1,14 @@
+{
+  "date":"2026-10-22",
+  "film":"review.mp4",
+  "film_sha256":"e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+  "user_quote":"這個試作版可行。可以發佈。可以列為一個影像編輯類型，但是之後要在更優化。我預期的是人物要更快步，鏡頭運用也沒有照你一開始出的俯瞰圖一樣，像是電影工業一樣，攝影機在地上有軌道，攝影機是曲線軌跡行走，然後人物是另一條曲線，兩個結合起來拍出流暢的長鏡頭。中間轉場的疊影仍然有點傷眼，待有一點不舒服的閃爍感",
+  "status":"exact_trial_version_approved_for_publication_with_future_refinement",
+  "approved_scope":["publication of this exact trial film","register as an editing subtype with room for further improvement"],
+  "future_requirements":["brisker real-time walking","coordinated separate curved character path and curved ground-track camera path, as planned in the original overhead storyboard","smooth long-take feel from combined relative motion","reduce uncomfortable double-image flicker at transitions"],
+  "not_claimed":["original overhead camera choreography achieved","ghosting now comfortable or eliminated","fixed exact cadence or zero foot slip","new version already generated","Instagram post actually published"],
+  "current_delivery":"prepare unchanged approved film and native Google Docs caption under800.Codex IG/2026-W43 following existing delivery arrangement; no overwrite of earlier release packages",
+  "direct_IG_post_performed":false,
+  "type_record":"../TYPE_AND_NEXT_VERSION.md",
+  "future_generation_started":false
+}

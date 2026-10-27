@@ -1,0 +1,42 @@
+{
+  "model": "M03",
+  "date": "2026-10-14",
+  "route": "R1 longer clear outfit intervals across a corridor wall; visible ivory/navy color-block exchange",
+  "identity": [
+    "02_brand/reference_models/M03_start_v3_face.png",
+    "02_brand/reference_models/M03_start_v3_full.png"
+  ],
+  "A": {
+    "look_id": "2026-W41-004-L01",
+    "candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/foreground_long_2026-10-14/M03_L01_wall_start_v1.png",
+    "review": "Complete hair/shoes, ivory blazer/white plain tee/navy trousers/brown bag readable; fine plaster foreground right. Near-front identity and natural proportions visually checked.",
+    "pixels": [
+      941,
+      1672
+    ],
+    "sha256": "0738e4d94bbba062ba2ac3b5739805a522e1cc9d9713f6a44d8ca91e716fabb1"
+  },
+  "B": {
+    "look_id": "2026-W41-004-L02",
+    "candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/foreground_long_2026-10-14/M03_L02_wall_reveal_v3_clean.png",
+    "rejected_candidates": [
+      "M03_L02_wall_reveal_v1.png",
+      "M03_L02_wall_reveal_v2_failed_pattern.png"
+    ],
+    "review": "v1 and material-only edit v2 retained ornamental tee pattern; not selected. v3 rebuilt from approved face/full anchors plus exact text wardrobe; plain grey cotton restored, navy blazer/cream trousers/black bag/shoes complete. Frontal identity visually checked. Camera/background placement differs from A across corner; not identical geometry. B head margin smaller than preferred8%; complete hair visible; dynamic framing safety must be checked.",
+    "pixels": [
+      941,
+      1672
+    ],
+    "sha256": "6d138fe16d6dc921b5552dd11527d9eb874c725b98a9552281864f79fdb3d105"
+  },
+  "native_surface": "9:16 requested; actual pixels recorded after local inspection",
+  "built_in_imagegen_calls": 4,
+  "Grok_video_submissions_for_R1": 0,
+  "status": "editorial_pair_not_approved_wall_route_stopped",
+  "user_approval": null,
+  "active_minutes": null,
+  "generation_wait_minutes": null,
+  "no_publishing_replacement": true,
+  "user_feedback_record": "M03_user_editorial_feedback.json"
+}

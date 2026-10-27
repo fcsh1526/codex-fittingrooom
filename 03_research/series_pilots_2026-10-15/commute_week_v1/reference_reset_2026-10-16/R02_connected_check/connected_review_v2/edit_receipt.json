@@ -1,0 +1,337 @@
+{
+  "recorded_date": "2026-10-16",
+  "created_at_utc": "2026-10-16T02:55:54.404519+00:00",
+  "status": "new_connected_pair_pending_sampled_visual_and_user_review",
+  "model": "M03",
+  "output": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/connected_review_v2/M03_R01_R02_connected_review.mp4",
+  "sha256": "33d657f9c21e2c99bf209ae359f63ffd1f918bbe8eb35c6d9098f67b08adee06",
+  "native_size": [
+    720,
+    1280
+  ],
+  "native_fps": 24,
+  "decoded_frames": 174,
+  "seconds": 7.25,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 7.25
+  },
+  "command_line_arguments": [
+    "--a-end",
+    "108",
+    "--b-start",
+    "0",
+    "--b-end",
+    "132",
+    "--source-b-sha",
+    "a6ed7789501ea80753bd1819ffd37c2efa3576d3907fccc86c89f92e7a1482db",
+    "--output-dir",
+    "connected_review_v2"
+  ],
+  "source_validation": [
+    {
+      "shot": "R01",
+      "method": "reused_exact_SHA_locked_existing_technical_scan",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_technical_scan.json",
+      "scan_sha256": "38ed8a01c8976a17cae77cf97776dd0a54b7686f5b44a1679310d586421a66bb",
+      "source_sha256": "4bf0bdb9f4d547827fd36001da3c359eadcd2b7a2c053761b454effdc0ee4981",
+      "scan": {
+        "source": "03_research\\series_pilots_2026-10-15\\commute_week_v1\\reference_reset_2026-10-16\\R01_source.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "decoded_seconds": 6.041666666666667,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "fresh_full_decode_performed": false
+    },
+    {
+      "shot": "R02",
+      "method": "reused_existing_source_SHA_bound_technical_scan",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_technical_scan.json",
+      "scan_sha256": "11c85ea7b2c8bf12231a0490d1ade43a9274ed677b80546a48f44dc8a81d21bc",
+      "source_sha256": "a6ed7789501ea80753bd1819ffd37c2efa3576d3907fccc86c89f92e7a1482db",
+      "fresh_full_decode_performed": false,
+      "scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\reference_reset_2026-10-16\\R02_connected_check\\R02_source.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "decoded_seconds": 6.041666666666667,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate.",
+        "source_sha256": "a6ed7789501ea80753bd1819ffd37c2efa3576d3907fccc86c89f92e7a1482db"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "shot": "R01",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_source.mp4",
+      "sha256": "4bf0bdb9f4d547827fd36001da3c359eadcd2b7a2c053761b454effdc0ee4981",
+      "selected_frames_half_open": [
+        48,
+        108
+      ],
+      "selected_seconds_half_open": [
+        2.0,
+        4.5
+      ],
+      "clear_outfit_seconds": 1.75
+    },
+    {
+      "shot": "R02",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_source.mp4",
+      "sha256": "a6ed7789501ea80753bd1819ffd37c2efa3576d3907fccc86c89f92e7a1482db",
+      "selected_frames_half_open": [
+        0,
+        132
+      ],
+      "selected_seconds_half_open": [
+        0.0,
+        5.5
+      ],
+      "clear_outfit_seconds": 4.75
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      42,
+      60
+    ],
+    "output_seconds_half_open": [
+      1.75,
+      2.5
+    ],
+    "new_shot_alpha": "(index+1)/18",
+    "user_join_approval": null
+  },
+  "existing_approval_scopes": [
+    {
+      "shot": "R01",
+      "type": "partial_single_shot_direction_acceptance",
+      "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_user_single_shot_direction_approval_2026-10-16.json",
+      "receipt_sha256": "7b25c22ef293c0f7a42494b2056f497941df26c23ded5d41184239cd68ba89da",
+      "accepted_film": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_walk_past_4s_review_v2.mp4",
+      "accepted_film_sha256": "27fa4c9fcce685aaa247aa0f9dfb12fa4b311a26d56d81635c6254a8679be348",
+      "accepted_source_frames_half_open": [
+        48,
+        144
+      ],
+      "scope": "Exact4second single-shot full-outfit-to-near rightward pass is closer to the desired decisive urban feeling, and this framing-progression direction may be developed. This is partial direction acceptance, not evidence that the entire advertising-appeal target has been achieved, not a five-look-film or outfit-switch/join approval, not a new editing-category adoption.",
+      "new_pair_approval_inferred": false
+    },
+    {
+      "shot": "R02",
+      "type": "exact_still_only",
+      "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_user_still_approval_2026-10-16.json",
+      "receipt_sha256": "25a991cd671974cd087b441bf163683778aa477a05426c8345eef24578decc1d",
+      "still": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_M03_L02_medium_candidate_A.png",
+      "still_sha256": "97cbeb0b9b91a8b9b1b3070665578ed664e64b357d1f4cd1046a7966ae895594",
+      "scope": "Exact M03 L02 medium candidate visual approval only: cream/navy checked shirt, charcoal trouser waist, black shoulder bag and disclosed changed background commuter positions. Only this exact approved still may become the R02 first frame for its next independent motion. Approval does not establish exact geometry or dynamic background consistency, usable motion, R01-to-R02 join comfort, whole five-look film, account-wide adoption or publishing readiness.",
+      "motion_or_join_approval_inferred": false
+    }
+  ],
+  "QA_samples": {
+    "full_checkpoint_indices": [
+      0,
+      7,
+      14,
+      22,
+      29,
+      36,
+      43,
+      50,
+      58,
+      65,
+      72,
+      79,
+      86,
+      94,
+      101,
+      108,
+      115,
+      123,
+      130,
+      137,
+      144,
+      151,
+      159,
+      166,
+      173
+    ],
+    "face_checkpoint_indices": [
+      0,
+      43,
+      86,
+      130,
+      173
+    ],
+    "transition_boundary_indices": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "protected_inputs": [
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_source.mp4",
+      "sha256": "4bf0bdb9f4d547827fd36001da3c359eadcd2b7a2c053761b454effdc0ee4981"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_source.mp4",
+      "sha256": "a6ed7789501ea80753bd1819ffd37c2efa3576d3907fccc86c89f92e7a1482db"
+    },
+    {
+      "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/native_pair_tools.py",
+      "sha256": "5ff098a34fa9d1adf3912115b745d26af13ceba98281c0f8a38597a7a5fb3179"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_technical_scan.json",
+      "sha256": "38ed8a01c8976a17cae77cf97776dd0a54b7686f5b44a1679310d586421a66bb"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_user_single_shot_direction_approval_2026-10-16.json",
+      "sha256": "7b25c22ef293c0f7a42494b2056f497941df26c23ded5d41184239cd68ba89da"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/selected_4s_edit_receipt.json",
+      "sha256": "a65e45d59a71220a314dc0abf940a1974a5f5d4c98c69b24630162394cc32299"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_user_still_approval_2026-10-16.json",
+      "sha256": "25a991cd671974cd087b441bf163683778aa477a05426c8345eef24578decc1d"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_walk_past_4s_review_v2.mp4",
+      "sha256": "27fa4c9fcce685aaa247aa0f9dfb12fa4b311a26d56d81635c6254a8679be348"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_M03_L02_medium_candidate_A.png",
+      "sha256": "97cbeb0b9b91a8b9b1b3070665578ed664e64b357d1f4cd1046a7966ae895594"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_technical_scan.json",
+      "sha256": "11c85ea7b2c8bf12231a0490d1ade43a9274ed677b80546a48f44dc8a81d21bc"
+    }
+  ],
+  "protected_inputs_preserved": true,
+  "audio": false,
+  "baked_text": false,
+  "retiming": false,
+  "crop": false,
+  "scaling": false,
+  "freeze": false,
+  "reverse": false,
+  "replay": false,
+  "image_operation": "18 native RGB frame blends only",
+  "encoding": "h264 CRF18; native720x1280/24fps; no audio",
+  "streaming": "18 outgoing tail frames plus current incoming/blended image",
+  "technical_checks_are_visual_approval": false,
+  "sampled_visual_review": "pending",
+  "assistant_continuous_playback": false,
+  "normal_speed_full_playback_user_self_report": null,
+  "user_film_approval": null,
+  "complete_five_look_film_approval": null,
+  "publishable": false,
+  "account_wide_adoption": null,
+  "actual_UI_settings_verified_by_builder": null,
+  "source_B_motion_QA": "External root review required before execution; not inferred from still approval or decode.",
+  "publication": false,
+  "cloud_write": false,
+  "publishing_files_replaced": [],
+  "shared_state_changed": [],
+  "limitations": [
+    "R01 acceptance concerns exact4s single-shot direction, not this modified selection or a new join.",
+    "R02 approval concerns its exact still, not generated motion or background continuity.",
+    "Adaptive source selections and cross-dissolve require actual normal-speed judgement.",
+    "Re-encoding does not preserve historical decoded pixels bit-for-bit."
+  ],
+  "helper_note": "Reused read/encode/QA primitives only; did not invoke legacy main or protected_inputs."
+}

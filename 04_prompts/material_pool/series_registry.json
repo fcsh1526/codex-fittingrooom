@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "updated_date": "2026-10-22",
+  "series": [
+    {
+      "series_id": "SERIES_COMMUTE_WEEK",
+      "title": "一週通勤衣櫥",
+      "audience_question": "一週五天如何維持同種專業形象，或安排不同但適合工作的風格？",
+      "relationship": "共同工作形象與逐日服裝變化；維持同種形象和探索不同風格須分開企劃。",
+      "status": "publication_approved_trial_further_refinement_required",
+      "adopted_date": "2026-10-22",
+      "source_material_ids": [
+        "mi_132859673c7eb7d1b03e",
+        "mi_298fb6b14233b1ea1e02",
+        "mi_68379696f88350c51301",
+        "mi_85f5a240adae8197cfa9",
+        "mi_8611594dc3f17c973535",
+        "mi_b74605299216521e5b98",
+        "mi_bdd455a7381021815ef0",
+        "mi_cf78b0ed7cf1dff88725",
+        "mi_d748d421354d40a41f40",
+        "mi_df9d6d62b6399d01f4a9",
+        "mi_f34fb2e558a98f541a3e"
+      ],
+      "usage_ids": [
+        "USE_20261015_M03_COMMUTE_FIRST_PAIR_V1",
+        "USE_20261015_M03_COMMUTE_FIVE_LOOK_V1",
+        "USE_20261015_M03_COMMUTE_INSPIRATION_V2_REFINED",
+        "USE_20261015_M03_URBAN_COMMUTE_FIRST_PAIR_V1"
+      ],
+      "proposal_paths": [
+        "03_research/series_pilots_2026-10-15/commute_week_v1/series_proposal.json"
+      ],
+      "latest_proposal_status": "initial_editing_subtype_accepted_curve_camera_and_ghosting_refinement_pending",
+      "content_direction_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/user_content_direction_2026-10-15.json",
+      "storyboard_paths": [
+        "03_research/series_pilots_2026-10-15/commute_week_v1/shot_plan.json",
+        "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/shot_plan.json"
+      ],
+      "first_pair_still_assets": [
+        {
+          "shot_id": "S01",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+          "sha256": "e85bc259d141bc50baed97bfbcc5f638b210f6a9971ef91436c8d439b236bf6c",
+          "status": "user_approved",
+          "user_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S01_user_still_approval_2026-10-15.json"
+        },
+        {
+          "shot_id": "S02",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+          "sha256": "6efa44841ae892ce1a82fd42fc046ae60e295c002b23834453d37b594342f2d1",
+          "status": "user_approved",
+          "user_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S02_user_still_approval_2026-10-15.json"
+        }
+      ],
+      "first_pair_film_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/user_film_approval_2026-10-15.json",
+      "complete_five_look_film_approval": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/context_review_v2/user_publication_approval_2026-10-22.json",
+      "remaining_still_assets": [
+        {
+          "shot_id": "S03",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S03_M03_L03_candidate_A_refined_v2.png",
+          "sha256": "1c4ede1a903b78fc8c3bc50405c9b61f767d03f92eeed9386b7f1df122e3a78c",
+          "status": "user_approved",
+          "user_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S03_user_still_approval_2026-10-15.json"
+        },
+        {
+          "shot_id": "S04",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+          "sha256": "c1cc960b0a8f380e1a086907c7dad383c78af443a7f6dbec83a5020f796025cf",
+          "status": "user_approved",
+          "user_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S04_user_still_approval_2026-10-15.json"
+        },
+        {
+          "shot_id": "S05",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+          "sha256": "15a168cc93ec379523aa27275d37051fcb32fd3eb7bd2d7f5b389b60b844142f",
+          "status": "user_approved",
+          "user_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S05_user_still_approval_2026-10-15.json"
+        }
+      ],
+      "selected_pilot_editorial_direction": "weekly_outfit_inspiration_keep_existing_five_looks",
+      "editorial_direction_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/user_revision_direction_2026-10-15.json",
+      "latest_source_plan": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/context_review_v2/build_manifest.json",
+      "urban_v3_first_pair_still_assets": [
+        {
+          "shot_id": "U01",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+          "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+          "pixels": [
+            941,
+            1672
+          ],
+          "status": "user_approved",
+          "user_visual_approval": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json",
+          "scope": "Exact still approval retained; current joined film received revision request, not approval."
+        },
+        {
+          "shot_id": "U02",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+          "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+          "pixels": [
+            941,
+            1672
+          ],
+          "status": "user_approved",
+          "user_visual_approval": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json",
+          "scope": "Exact still approval retained; current joined film received revision request, not approval."
+        }
+      ],
+      "latest_usage_id": "USE_20261015_M03_URBAN_COMMUTE_FIRST_PAIR_V1",
+      "latest_film_preview": {
+        "status": "publication_approved_initial_version_refinement_pending",
+        "file": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/context_review_v2/review.mp4",
+        "sha256": "e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+        "frames": 511,
+        "seconds": 21.291666666666668,
+        "pixels": [
+          720,
+          1280
+        ],
+        "fps": 24,
+        "native_speed": true,
+        "baked_text": false,
+        "audio": false,
+        "user_film_approval": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/context_review_v2/user_publication_approval_2026-10-22.json",
+        "publishable": true,
+        "actually_published": false,
+        "instagram_url": null,
+        "full_continuous_playback_user_self_report": null,
+        "assistant_continuous_visual_playback": false,
+        "exact_world_or_camera_path_verified": false,
+        "ghosting_comfort_resolved": false,
+        "zero_sliding_verified": false,
+        "residual_user_requests": [
+          "brisker native walking",
+          "camera and character follow distinct coordinated curves",
+          "reduce uncomfortable ghosting flicker"
+        ],
+        "drive_delivery_receipt": "10_automation\\runs\\2026-W43\\reels\\series_delivery_2026-10-22\\google_drive_delivery_2026-10-22.json",
+        "drive_video": "https://drive.google.com/file/d/1i2GaUyORPcAuprpAUI0i5OH2gu88R3q9/view?usp=drivesdk",
+        "caption_document": "https://docs.google.com/document/d/1IWN8z6PPGFcfwFS4mKUuMyENDfRf5AdLALc7YYe3Y5k"
+      },
+      "latest_feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/context_review_v2/user_publication_approval_2026-10-22.json",
+      "root_cause_status": "cadence_partial_improvement_accepted_curved_camera_unachieved_ghosting_discomfort_remains",
+      "current_remaining_expansion_authorized": false,
+      "state_history": [
+        {
+          "archived_on": "2026-10-22",
+          "previous_registry_updated_date": "2026-10-16",
+          "reason": "Preserve previous urban_v3 rejected-state evidence before recording newly approved continuous-route film",
+          "state": {
+            "status": "planning_candidate",
+            "adopted_date": null,
+            "latest_proposal_status": "revision_requested_reference_led_shot_redesign",
+            "complete_five_look_film_approval": null,
+            "latest_source_plan": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/shot_plan.json",
+            "latest_film_preview": {
+              "status": "revision_requested_reference_led_shot_redesign",
+              "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+              "sha256": "5dbe1ac323511a7c5e6e2a6de7e81b42cf16af21098a162aad1602d58061c30e",
+              "frames": 222,
+              "seconds": 9.25,
+              "pixels": [
+                720,
+                1280
+              ],
+              "fps": 24,
+              "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/edit_receipt.json",
+              "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/pair_sampled_visual_review.json",
+              "generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/generation_receipt.json",
+              "source_QA": {
+                "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source_visual_review.json",
+                "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source_visual_review.json"
+              },
+              "native_speed": true,
+              "baked_text": false,
+              "audio": false,
+              "crop": false,
+              "scaling": false,
+              "selected_sources": [
+                {
+                  "shot_id": "U01",
+                  "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+                  "sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+                  "selected_frames_half_open": [
+                    48,
+                    168
+                  ],
+                  "selected_seconds_half_open": [
+                    2.0,
+                    7.0
+                  ],
+                  "clear_outfit_seconds": 4.25
+                },
+                {
+                  "shot_id": "U02",
+                  "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+                  "sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+                  "selected_frames_half_open": [
+                    0,
+                    120
+                  ],
+                  "selected_seconds_half_open": [
+                    0.0,
+                    5.0
+                  ],
+                  "clear_outfit_seconds": 4.25
+                }
+              ],
+              "transition": {
+                "type": "linear_cross_dissolve",
+                "frames": 18,
+                "seconds": 0.75,
+                "output_frames_half_open": [
+                  102,
+                  120
+                ],
+                "output_seconds_half_open": [
+                  4.25,
+                  5.0
+                ]
+              },
+              "residual_risks": [
+                "U01 narrow steps sometimes cross the centerline; composed upper body and strap hold retain some model-walk character.",
+                "U02 is near-side-profile, not a measured exact90degree camera angle; profile identity and parallel tracking require normal-speed viewing.",
+                "Background commuters can exceed requested count and distant faces/limbs can look synthetic; no exhaustive crowd-trajectory verification.",
+                "Front-to-profile, person scale/head-height, crowd flow and building lines can create dissolve double outlines; join comfort remains unapproved."
+              ],
+              "normal_speed_full_playback_user_self_report": null,
+              "assistant_continuous_playback": false,
+              "perceived_speed_improvement_verified": false,
+              "footfall_count": null,
+              "prompt_18_to_20_footfalls_goal_verified": false,
+              "advertising_attraction_accepted": false,
+              "join_comfort_accepted": null,
+              "user_film_approval": null,
+              "complete_five_look_film_approval": null,
+              "account_wide_adoption": null,
+              "publishable": false,
+              "publishing_files_replaced": [],
+              "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json",
+              "feedback_recorded_date": "2026-10-16",
+              "user_feedback_quote": "仍不夠俐落或吸引人",
+              "visual_acceptance": "revision_requested",
+              "root_cause_status": "hypotheses_unvalidated",
+              "remaining_U03_U05_expansion_allowed": false
+            },
+            "latest_feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json",
+            "root_cause_status": "hypotheses_unvalidated",
+            "current_remaining_expansion_authorized": false
+          }
+        }
+      ],
+      "editing_subtype": "同一路線・連續行進換裝",
+      "editing_type_record": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/TYPE_AND_NEXT_VERSION.md",
+      "accepted_recipe": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/ACCEPTED_RECIPE.md",
+      "current_film_usage_ledger_id": null,
+      "source_usage_trace_note": "Existing material-pool usage IDs retained as historical trace. Current five source clips and selected intervals are recorded in latest_source_plan; no invented new consumption record.",
+      "next_reviewable_artifact": "Shared-space overhead drawing with separate camera/character curves and synchronized camera-view previs, before new photography or footage."
+    },
+    {
+      "series_id": "SERIES_BUSINESS_TRIP_CAPSULE",
+      "title": "出差的小衣櫥",
+      "audience_question": "如何少帶幾件衣服，安排拜訪客戶、移動與現場行程？",
+      "relationship": "先核對具體行程與現場穿著要求，再規劃固定件、換搭件及完整組合。",
+      "status": "planning_candidate",
+      "adopted_date": null,
+      "source_material_ids": [],
+      "usage_ids": []
+    },
+    {
+      "series_id": "SERIES_AFTER_WORK_PLANS",
+      "title": "下班直接赴約",
+      "audience_question": "從白天工作到晚上聚餐，哪些穿搭可以沿用、哪些需要調整？",
+      "relationship": "保留基礎搭配，依目的調整必要的外層、鞋子或包款。",
+      "status": "planning_candidate",
+      "adopted_date": null,
+      "source_material_ids": [],
+      "usage_ids": []
+    },
+    {
+      "series_id": "SERIES_WEEKEND_DAY",
+      "title": "週末生活的一天",
+      "audience_question": "採買、辦事、咖啡與散步等普通生活行程，可以如何選衣？",
+      "relationship": "一套回應多個合理生活情境，或依不同穿著需求選兩三套；先說清楚場合與服裝的關係。",
+      "status": "planning_candidate",
+      "adopted_date": null,
+      "source_material_ids": [],
+      "usage_ids": []
+    },
+    {
+      "series_id": "SERIES_SOCIAL_DRESS_CODE",
+      "title": "聚會的穿衣分寸",
+      "audience_question": "朋友聚餐、家庭聚會與約會時，如何選擇適合的正式程度？",
+      "relationship": "明確連結場合條件、服裝輪廓與正式程度，讓觀眾能選擇。",
+      "status": "planning_candidate",
+      "adopted_date": null,
+      "source_material_ids": [],
+      "usage_ids": []
+    },
+    {
+      "series_id": "SERIES_ONE_ITEM_MANY_WAYS",
+      "title": "一件單品多種穿法",
+      "audience_question": "同一件衣櫥單品還可以和什麼搭配，各種搭法有什麼用途？",
+      "relationship": "清楚固定一件單品，其他單品依穿著目的替換，讓每套新增資訊可辨識。",
+      "status": "planning_candidate",
+      "adopted_date": null,
+      "source_material_ids": [],
+      "usage_ids": []
+    },
+    {
+      "series_id": "SERIES_COLOR_ROLES",
+      "title": "配色如何成立",
+      "audience_question": "主色、配色與點綴色可以如何安排，才能照著搭？",
+      "relationship": "展示服裝中可見的顏色分工與選擇理由；僅拍攝相近換色不算完成此主張。",
+      "status": "planning_candidate",
+      "adopted_date": null,
+      "source_material_ids": [],
+      "usage_ids": []
+    },
+    {
+      "series_id": "SERIES_TRANSITIONAL_LAYERS",
+      "title": "換季與室內外層次",
+      "audience_question": "進出冷氣房或遇到天氣變化時，外層與內搭可以如何安排？",
+      "relationship": "用同一搭配的層次與穿著狀態變化回應當週條件；天氣需另查當地最新資料。",
+      "status": "planning_candidate",
+      "adopted_date": null,
+      "source_material_ids": [],
+      "usage_ids": []
+    }
+  ],
+  "uses": [
+    {
+      "usage_id": "USE_20261013_M03_LUNCH_V1",
+      "series_id": null,
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-13",
+      "model_id": "M03",
+      "look_ids": [
+        "2026-W41-004-L01",
+        "2026-W41-004-L02"
+      ],
+      "film_path": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+      "feedback_path": "03_research/editorial_sequence_reset_2026-10-13/four_shot_user_approval_2026-10-13.json",
+      "feedback_summary": "10.75秒午休四鏡研究片；精確成片展示及接續問題後回覆「ok」，收據限定為該片畫面與約0.75秒疊化接受。未採納為全帳號系列、未確認製作效率或IG成效，也未與2026-10-14提出的八個系列正式建立對應。",
+      "visual_acceptance": "accepted_exact_film",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null
+    },
+    {
+      "usage_id": "USE_20261013_M02_CAFE_FOUR_SHOTS_V1",
+      "series_id": null,
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-13",
+      "model_id": "M02",
+      "look_ids": [
+        "2026-W41-003-L01",
+        "2026-W41-003-L02"
+      ],
+      "film_path": "03_research/editorial_repeatability_m02_2026-10-13/four_shot_review_v1/M02_cafe_pause_two_looks_trial_v1.mp4",
+      "feedback_path": "03_research/editorial_repeatability_m02_2026-10-13/user_transition_feedback_2026-10-13.json",
+      "feedback_summary": "12.75秒咖啡店四鏡轉用研究片；使用者回覆「轉場手法與前面都差不多」。這是新意不足的回饋，沒有明確整片接受，也未全面否決舊核准影片；不能把換人物、衣服或場所當新內容系列。",
+      "visual_acceptance": "not_explicit",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null
+    },
+    {
+      "usage_id": "USE_20261014_M02_CAFE_WALL_V1",
+      "series_id": null,
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-14",
+      "model_id": "M02",
+      "look_ids": [
+        "2026-W41-003-L01",
+        "2026-W41-003-L02"
+      ],
+      "film_path": "03_research/foreground_transition_study_2026-10-14/joined_review_v1/M02_cafe_wall_two_looks_trial_v1.mp4",
+      "feedback_path": "03_research/foreground_transition_study_2026-10-14/joined_review_v1/user_film_approval.json",
+      "feedback_summary": "11.33秒牆角遮鏡片以「可以，沿用這版」接受精確接續及已披露牆紋變化。後續同日回饋（03_research/foreground_transition_study_2026-10-14/editorial_feedback_after_approval.json）指出前後讀衣時間太短、兩套都是淺色上身配棕褲而差異不足、觀看目的不清楚；中間兩秒多遮鏡已足夠。後來進一步要求整體風格轉換，不能只換顏色（03_research/rapid_presentation_trials_2026-10-14/M03_user_editorial_feedback.json）。原片核准歷史保留，但這是轉場研究範例，並非已採納內容系列。",
+      "visual_acceptance": "accepted_exact_film",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null
+    },
+    {
+      "usage_id": "USE_20261013_M05_E02_V1",
+      "series_id": null,
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-13",
+      "model_id": "M05",
+      "look_ids": [
+        "2026-W41-001-L01",
+        "2026-W41-001-L02"
+      ],
+      "film_path": "03_research/reel_presentation_study_2026-10-12/E02_silhouette_2026-10-13/review_v1/M05_E02_silhouette_two_looks_v1.mp4",
+      "feedback_path": "03_research/reel_presentation_study_2026-10-12/E02_silhouette_2026-10-13/user_feedback_2026-10-13.json",
+      "feedback_summary": "8秒固定全身兩套疊化展示；使用者明確說「這種類型剪輯不要了，跟之前大同小異」，否決該研究片及同形式微調。E02為鏡頭呈現研究代號，不能當已採納內容系列；歷史正式交付影片核准不受此回饋撤銷。",
+      "visual_acceptance": "not_accepted",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null
+    },
+    {
+      "usage_id": "USE_20261014_M04_BLUE_BAG_V1",
+      "series_id": null,
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-14",
+      "model_id": "M04",
+      "look_ids": [
+        "2026-W41-005-L01",
+        "2026-W41-005-L02"
+      ],
+      "film_path": "03_research/rapid_presentation_trials_2026-10-14/joined_review_v1/M04_blue_bag_viewing_route_v1.mp4",
+      "feedback_path": "03_research/rapid_presentation_trials_2026-10-14/M04_user_content_feedback.json",
+      "feedback_summary": "15.5秒藍包觀看路線研究片；使用者回覆「觀看路線仍沒有明確看點」，內容目的未接受，轉場舒服度沒有單獨回答。先回到觀眾問題與服裝關係規劃；不能將同包串連或運鏡變化當已成立系列，亦不推定技術品質全部不合格。",
+      "visual_acceptance": "not_accepted",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null
+    },
+    {
+      "usage_id": "USE_20261015_M03_COMMUTE_FIRST_PAIR_V1",
+      "series_id": "SERIES_COMMUTE_WEEK",
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-15",
+      "model_id": "M03",
+      "look_ids": [
+        "ED-W42-COMMUTE-V1-L01",
+        "ED-W42-COMMUTE-V1-L02"
+      ],
+      "film_path": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/M03_commute_first_pair_review_v1.mp4",
+      "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/user_film_approval_2026-10-15.json",
+      "feedback_summary": "使用者對精確12.25秒前兩鏡回覆「可以，繼續後面三套」，接受本支西外→格紋及目前0.75秒柔和疊化，保留已披露的短暫雙影／頭高／表情與背景線條差，並授權擴做本案S03-S05新起始圖。後續每張新圖仍須逐圖視覺核准才進動態；完整五套成片、其餘接點、全帳號採納與IG成效未核准，完整正常播放自述未知。原發布包不替換。",
+      "visual_acceptance": "accepted_exact_first_pair_film",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null,
+      "status": "first_pair_accepted_extend_remaining_stills",
+      "film_sha256": "d25ad7a1ecdc7fc9dcafa18295aa201e1e7ca466e09e763d7553bc943efacc8b",
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "complete_five_look_film_approval": null
+    },
+    {
+      "usage_id": "USE_20261015_M03_COMMUTE_FIVE_LOOK_V1",
+      "series_id": "SERIES_COMMUTE_WEEK",
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-15",
+      "model_id": "M03",
+      "look_ids": [
+        "ED-W42-COMMUTE-V1-L01",
+        "ED-W42-COMMUTE-V1-L02",
+        "ED-W42-COMMUTE-V1-L03",
+        "ED-W42-COMMUTE-V1-L04",
+        "ED-W42-COMMUTE-V1-L05"
+      ],
+      "film_path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/M03_commute_five_look_review_v1.mp4",
+      "film_sha256": "ccbbe61977fc61c7850ec994018411f5d5a463209916bd46a18ab5387e38c345",
+      "seconds": 29.5,
+      "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/edit_receipt.json",
+      "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/sampled_visual_review.json",
+      "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/user_film_feedback_2026-10-15.json",
+      "feedback_summary": "使用者回覆「節奏或觀看重點仍需調整」，診斷追問回「兩者都有」。需改整片節奏與觀看重點，不推定拒絕五套系列、0.75秒偏好或原靜態／首兩鏡核准。",
+      "visual_acceptance": "revision_requested",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null,
+      "status": "revision_requested_pacing_and_viewer_purpose",
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false
+    },
+    {
+      "usage_id": "USE_20261015_M03_COMMUTE_INSPIRATION_V2_REFINED",
+      "series_id": "SERIES_COMMUTE_WEEK",
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-15",
+      "model_id": "M03",
+      "look_ids": [
+        "ED-W42-COMMUTE-V1-L04",
+        "ED-W42-COMMUTE-V1-L01",
+        "ED-W42-COMMUTE-V1-L05",
+        "ED-W42-COMMUTE-V1-L02",
+        "ED-W42-COMMUTE-V1-L03"
+      ],
+      "film_path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/M03_commute_week_inspiration_v2_refined.mp4",
+      "film_sha256": "fe796bb8aa71fbebda3af262b94fde868abf11be2bf6b048a2cda66bad66bb65",
+      "seconds": 19.75,
+      "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/edit_receipt.json",
+      "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/sampled_visual_review.json",
+      "editorial_direction_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/user_revision_direction_2026-10-15.json",
+      "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/user_film_feedback_2026-10-15.json",
+      "feedback_summary": "使用者對精確19.75秒v2_refined指出節奏太慢、同類45度人物角度及背景重複、缺少上班人潮、走路像普通散步；要求俐落灑脫的都會女性動勢與廣告影片般吸引力。需重新準備都會通勤來源，不能將原片重排縮短當成已解決。保留同一M03、原五套、無字、原速及約0.75秒柔接；不推定奢侈品疏離廣告、新片核准或全帳號採納。",
+      "visual_acceptance": "revision_requested",
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null,
+      "status": "revision_requested_new_urban_source_required",
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "intermediate_trial": {
+        "file": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2/M03_commute_week_inspiration_v2.mp4",
+        "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2/edit_receipt.json",
+        "user_shown": false,
+        "reason_for_refinement": "Initial first join has stronger gaze/expression reversal; only S01 selected interval changed in refined version."
+      },
+      "limitation": "No new source motion/camera; actual improvement of user feedback remains pending."
+    },
+    {
+      "usage_id": "USE_20261015_M03_URBAN_COMMUTE_FIRST_PAIR_V1",
+      "series_id": "SERIES_COMMUTE_WEEK",
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "production_week": "2026-W42",
+      "production_date": "2026-10-15",
+      "model_id": "M03",
+      "look_ids": [
+        "ED-W42-COMMUTE-V1-L01",
+        "ED-W42-COMMUTE-V1-L04"
+      ],
+      "shot_ids": [
+        "U01",
+        "U02"
+      ],
+      "film_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+      "film_sha256": "5dbe1ac323511a7c5e6e2a6de7e81b42cf16af21098a162aad1602d58061c30e",
+      "seconds": 9.25,
+      "frames": 222,
+      "pixels": [
+        720,
+        1280
+      ],
+      "fps": 24,
+      "status": "revision_requested_reference_led_shot_redesign",
+      "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/edit_receipt.json",
+      "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/pair_sampled_visual_review.json",
+      "generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/generation_receipt.json",
+      "source_visual_reviews": {
+        "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source_visual_review.json",
+        "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source_visual_review.json"
+      },
+      "selected_sources": [
+        {
+          "shot_id": "U01",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+          "sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+          "selected_frames_half_open": [
+            48,
+            168
+          ],
+          "selected_seconds_half_open": [
+            2.0,
+            7.0
+          ],
+          "clear_outfit_seconds": 4.25
+        },
+        {
+          "shot_id": "U02",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+          "sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+          "selected_frames_half_open": [
+            0,
+            120
+          ],
+          "selected_seconds_half_open": [
+            0.0,
+            5.0
+          ],
+          "clear_outfit_seconds": 4.25
+        }
+      ],
+      "transition": {
+        "type": "linear_cross_dissolve",
+        "frames": 18,
+        "seconds": 0.75,
+        "output_frames_half_open": [
+          102,
+          120
+        ],
+        "output_seconds_half_open": [
+          4.25,
+          5.0
+        ]
+      },
+      "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json",
+      "feedback_summary": "使用者對精確9.25秒新都會通勤首兩鏡回「仍不夠俐落或吸引人」；記錄日2026-10-16，事件具體時間未知。狀態revision_requested_reference_led_shot_redesign，停止擴U03–U05，先回到參考證據及具體鏡頭重設計；根因尚為假設，未完成新研究或核准新分鏡。原M03五套／一週穿搭靈感、逐張起始圖核准、原速無字及約0.75秒偏好保留；接點舒服度未單獨裁定，不推定整片接受、全帳號採納或發布替換。",
+      "visual_acceptance": "revision_requested",
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "footfall_count": null,
+      "perceived_speed_improvement_verified": false,
+      "advertising_attraction_accepted": false,
+      "complete_five_look_film_approval": null,
+      "account_adoption": null,
+      "published_at": null,
+      "post_url": null,
+      "metrics": null,
+      "publishing_files_replaced": [],
+      "pre_feedback_summary": "都會通勤新來源首兩鏡：正面長西外→近側面A字裙，背景有通勤人流。精確起始圖已核准，各生成一次；U01取f48–168、U02取f0–120，原生720×1280／24fps、原速無字無音，18幀／0.75秒柔接成222幀／9.25秒，每套純讀衣4.25秒。單源抽樣QA允許試接，但窄交叉步、近側臉與小通勤者細節仍在；尺度／疊影舒服度、速度改善、18–20步目標與廣告吸引力未通過。等待使用者正常播放精確候選後才擴U03–U05；完整五套／全帳號採納／發布替換未核准。",
+      "feedback_recorded_date": "2026-10-16",
+      "user_feedback_quote": "仍不夠俐落或吸引人",
+      "root_cause_status": "hypotheses_unvalidated",
+      "remaining_U03_U05_expansion_allowed": false
+    }
+  ],
+  "weather_checks": []
+}

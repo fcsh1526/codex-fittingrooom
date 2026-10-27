@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-02",
+  "method": "actual browser playback; full viewport screenshots with before/after time brackets; split cycles; offline representative boards",
+  "sources": [
+    {
+      "name": "kubo_autumn_live",
+      "url": "https://www.instagram.com/__iamkubo__/reel/DdsE1giygMt/",
+      "samples": 193,
+      "durations": [
+        14.812879
+      ],
+      "excluded_cross_wrap_or_invalid": [
+        76
+      ],
+      "wide_brackets_over_half_second": [],
+      "cycles": [
+        {
+          "board": "cycle_01_board.jpg",
+          "start": 5.867039,
+          "end": 14.761264
+        },
+        {
+          "board": "cycle_02_board.jpg",
+          "start": 0.042072,
+          "end": 13.898315
+        }
+      ]
+    },
+    {
+      "name": "kubo_color_live",
+      "url": "https://www.instagram.com/__iamkubo__/reel/DdyQ56qRXGA/",
+      "samples": 70,
+      "durations": [
+        8.543491
+      ],
+      "excluded_cross_wrap_or_invalid": [
+        43
+      ],
+      "wide_brackets_over_half_second": [],
+      "cycles": [
+        {
+          "board": "cycle_01_board.jpg",
+          "start": 0.47403,
+          "end": 8.505855
+        },
+        {
+          "board": "cycle_02_board.jpg",
+          "start": 0.03797,
+          "end": 4.808178
+        }
+      ]
+    },
+    {
+      "name": "kubo_trousers_live",
+      "url": "https://www.instagram.com/__iamkubo__/reel/DdvXHS7Rl86/",
+      "samples": 175,
+      "durations": [
+        33.249522
+      ],
+      "excluded_cross_wrap_or_invalid": [
+        101
+      ],
+      "wide_brackets_over_half_second": [
+        174
+      ],
+      "cycles": [
+        {
+          "board": "cycle_01_board.jpg",
+          "start": 13.286988,
+          "end": 33.112387
+        },
+        {
+          "board": "cycle_02_board.jpg",
+          "start": 0.028676,
+          "end": 21.398873
+        }
+      ]
+    },
+    {
+      "name": "missy_autumn_live",
+      "url": "https://www.instagram.com/missy_elz/reel/DdUFOPNo4vT/",
+      "samples": 111,
+      "durations": [
+        10.656507
+      ],
+      "excluded_cross_wrap_or_invalid": [
+        1,
+        56,
+        110
+      ],
+      "wide_brackets_over_half_second": [],
+      "cycles": [
+        {
+          "board": "cycle_01_board.jpg",
+          "start": 10.371186,
+          "end": 10.547662
+        },
+        {
+          "board": "cycle_02_board.jpg",
+          "start": 0.03334,
+          "end": 10.656507
+        },
+        {
+          "board": "cycle_03_board.jpg",
+          "start": 0.113449,
+          "end": 10.597952
+        }
+      ]
+    },
+    {
+      "name": "missy_relaxed_live",
+      "url": "https://www.instagram.com/missy_elz/reel/Dd6m1BVosla/",
+      "samples": 108,
+      "durations": [
+        10.261767,
+        10.266666
+      ],
+      "excluded_cross_wrap_or_invalid": [
+        9,
+        59
+      ],
+      "wide_brackets_over_half_second": [],
+      "cycles": [
+        {
+          "board": "cycle_01_board.jpg",
+          "start": 8.37051,
+          "end": 10.12541
+        },
+        {
+          "board": "cycle_02_board.jpg",
+          "start": 0.082225,
+          "end": 10.16336
+        },
+        {
+          "board": "cycle_03_board.jpg",
+          "start": 0.044661,
+          "end": 9.778946
+        }
+      ]
+    },
+    {
+      "name": "floral_waist_live",
+      "url": "https://www.instagram.com/go_floralway/reel/DbsxcfuhYbs/",
+      "samples": 127,
+      "durations": [
+        23.473922
+      ],
+      "excluded_cross_wrap_or_invalid": [
+        45
+      ],
+      "wide_brackets_over_half_second": [],
+      "cycles": [
+        {
+          "board": "cycle_01_board.jpg",
+          "start": 14.348353,
+          "end": 23.447301
+        },
+        {
+          "board": "cycle_02_board.jpg",
+          "start": 0.074049,
+          "end": 16.826525
+        }
+      ]
+    }
+  ],
+  "raw_screenshot_total": 784,
+  "missing_raw_files": [],
+  "audio_analysed": false,
+  "frame_exact_analysis": false,
+  "all_raw_images_visually_reviewed": false,
+  "new_mira_generation": false,
+  "instagram_publication": false
+}

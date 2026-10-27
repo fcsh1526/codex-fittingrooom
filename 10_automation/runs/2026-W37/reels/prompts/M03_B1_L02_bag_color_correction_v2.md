@@ -1,0 +1,3 @@
+# Single targeted correction — bag color only
+
+Edit this exact photograph. Change only the caramel-colored suede shoulder bag and its leather strap to a clearly deep chocolate brown. Keep the suede's short nap, seams, tapered shape, scale, location, strap buckle and the existing light and shadows. The broad bag panel must be noticeably dark brown, not tan, camel or orange. Preserve everything outside the bag and strap exactly: the same woman's face, hair, body, hands, light-blue short-sleeve shirt dress, same-fabric tied belt, silver earrings, black flat shoes, pose, crop, cafe window, wall, bench and paving. Keep the native vertical 9:16 photograph. No text or logos.

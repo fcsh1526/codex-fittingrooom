@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-06",
+  "source_sha256": "be49906fa1ec7397bb456acc1ce7947325e71b4ce5a0692d7235d878ad6017ea",
+  "qa": "qa/near_A1/",
+  "root_reviewed": "25 full checkpoints, 5 head windows, all145 consecutive native lower-body windows; B f0/f144 full native also viewed",
+  "mechanism": "whole_person_retreat_observed",
+  "sampled_identity_wardrobe_background": "no obvious major jump seen",
+  "notes": "Shoes fully visible around1.75s but near lower edge; multiple steps, not exactly two then hold.",
+  "assistant_continuous_watch": false,
+  "user_video_approval": null,
+  "not_a_reliable_success_rate": true
+}

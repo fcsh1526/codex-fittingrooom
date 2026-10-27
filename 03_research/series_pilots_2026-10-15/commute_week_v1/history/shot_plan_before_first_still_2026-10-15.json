@@ -1,0 +1,550 @@
+{
+  "schema_version": 1,
+  "storyboard_id": "STORYBOARD_20261015_COMMUTE_WEEK_V1",
+  "proposal_id": "PROPOSAL_20261015_COMMUTE_WEEK_V1",
+  "created_date": "2026-10-15",
+  "status": "working_storyboard_ready_for_first_pair_planning",
+  "content_direction_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/user_content_direction_2026-10-15.json",
+  "source_weeks": [
+    "2026-W41"
+  ],
+  "planning_week": "2026-W42",
+  "publication_dates": [],
+  "weather_status": "not_checked_target_location_and_dates_pending",
+  "media_execution_authorized": false,
+  "global_series_adoption": null,
+  "new_weekly_quota": null,
+  "shared_frame_review_targets": {
+    "top_of_head_y": 0.1,
+    "shoe_sole_y": 0.88,
+    "body_center_x_range": [
+      0.46,
+      0.48
+    ],
+    "coordinates": "normalized review goals; not anatomy modifications or proof of a comfortable cut"
+  },
+  "shots": [
+    {
+      "shot_id": "S01",
+      "look_id": "ED-W42-COMMUTE-V1-L01",
+      "model_id": "M03",
+      "garment_ids": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "viewer_information": "長西外與直筒褲；內搭棉T保留日常感",
+      "first_frame": {
+        "target_path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+        "status": "planned_not_generated",
+        "aspect_ratio": "9:16",
+        "target_delivery_pixels": [
+          1080,
+          1920
+        ],
+        "actual_pixels": null,
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "face_identity_only",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "normal_body_proportions_and_hair_only",
+            "approved_in_existing_registry": true
+          }
+        ],
+        "dependent_approved_stills": [],
+        "pose": "already mid-walk, one foot grounded, short natural stride; no stationary departure pose",
+        "hero_prompt": "Make a native 9:16 full-person opening photograph for an approachable everyday-office fashion Reel. Show a longer blazer with an everyday crewneck base. Approved face and full-body references fix identity, normal proportions and hair. Establish the shared sidewalk, lighting and framing for this sequence.\nA pale-grey wall borders a broad, pale stone walkway; distant office windows stay clear of her head and torso. She is already walking toward frame-right on a bright shaded office-neighborhood sidewalk, one foot grounded in a short natural step. Keep her face and garment fronts readable from a near-frontal three-quarter view. Her shoulder bag rests outside and slightly behind the near hip; arms swing naturally.\nOutfit: a hip-covering ivory lightweight single-breasted blazer worn open, a tucked white crewneck cotton tee, navy high-waisted straight trousers, black low-heeled round-square-toe slip-ons, and a dark-brown shoulder bag.\nUse a full-frame mirrorless, 50mm view at chest height with a level axis. Soft available daylight, real skin texture, fabric folds, ambient spill and shoe contact shadows form one scene. Show her head, complete shoes and walking space.\nNo text, logos, watermark, extra people or elongated anatomy.",
+        "prompt_word_count": 183,
+        "user_visual_approval": null
+      },
+      "motion": {
+        "status": "not_generated",
+        "primary_action": "continuous natural walking toward frame-right",
+        "camera_motion": "parallel tracking at matching speed, fixed distance and side-front angle",
+        "start_state": "already walking",
+        "end_state": "still walking",
+        "requested_source_seconds_if_supported": 10,
+        "interface_settings_verified": false,
+        "usable_native_seconds_target": 6.5,
+        "actual_usable_interval": null,
+        "prompt": "Use the exact user-approved starting image as the first frame. M03 is already walking at a natural everyday rhythm and continues walking through the ending. Track alongside her at matching speed, maintaining the same side-front angle, distance and complete head-to-shoe framing. Her face and garment fronts remain readable. The bag stays at the outer near hip; hands swing naturally. Preserve the approved identity, normal proportions, exact clothes, shoes, bag and light. Sidewalk and building geometry remain coherent while the background moves consistently. One continuous shot, no zoom, orbit, turn, pose-stop or outfit change.",
+        "actual_ui_settings": null,
+        "dynamic_qa": null
+      },
+      "timeline": {
+        "film_interval_seconds": [
+          0.0,
+          6.5
+        ],
+        "clear_outfit_interval_seconds": [
+          0,
+          5.75
+        ],
+        "clear_outfit_seconds": 5.75
+      },
+      "proof": {
+        "required": true,
+        "visual_target": "西外覆蓋臀部與白圓領T的關係",
+        "candidate_strategy": "review same-look approved still/video crop for vertical composition and clarity; create missing proof only if needed",
+        "status": "not_reviewed",
+        "approved_asset_path": null
+      },
+      "generation_gate": "Exact still visual approval required before this shot can enter video generation."
+    },
+    {
+      "shot_id": "S02",
+      "look_id": "ED-W42-COMMUTE-V1-L02",
+      "model_id": "M03",
+      "garment_ids": [
+        "G06",
+        "G07",
+        "G04",
+        "G08"
+      ],
+      "viewer_information": "格紋集中上身，素色下身",
+      "first_frame": {
+        "target_path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+        "status": "planned_not_generated",
+        "aspect_ratio": "9:16",
+        "target_delivery_pixels": [
+          1080,
+          1920
+        ],
+        "actual_pixels": null,
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "face_identity_only",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "normal_body_proportions_and_hair_only",
+            "approved_in_existing_registry": true
+          }
+        ],
+        "dependent_approved_stills": [
+          {
+            "shot_id": "S01",
+            "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+            "role": "setting_framing_G04",
+            "approval_required": true
+          }
+        ],
+        "pose": "already mid-walk, one foot grounded, short natural stride; no stationary departure pose",
+        "hero_prompt": "Make a native 9:16 full-person opening photograph for an approachable everyday-office fashion Reel. Show one patterned shirt balanced by plain trousers. Approved face and full-body references fix identity, normal proportions and hair. Approved S01 supplies setting, framing and shoes only; replace its other clothes.\nA pale-grey wall borders a broad, pale stone walkway; distant office windows stay clear of her head and torso. She is already walking toward frame-right on a bright shaded office-neighborhood sidewalk, one foot grounded in a short natural step. Keep her face and garment fronts readable from a near-frontal three-quarter view. Her shoulder bag rests outside and slightly behind the near hip; arms swing naturally.\nOutfit: a tucked cream-and-navy fine-check pointed-collar shirt, charcoal high-waisted straight trousers, the same black low-heeled round-square-toe slip-ons, and a small black square shoulder bag.\nUse a full-frame mirrorless, 50mm view at chest height with a level axis. Soft available daylight, real skin texture, fabric folds, ambient spill and shoe contact shadows form one scene. Show her head, complete shoes and walking space.\nNo text, logos, watermark, extra people or elongated anatomy.",
+        "prompt_word_count": 180,
+        "user_visual_approval": null
+      },
+      "motion": {
+        "status": "not_generated",
+        "primary_action": "continuous natural walking toward frame-right",
+        "camera_motion": "parallel tracking at matching speed, fixed distance and side-front angle",
+        "start_state": "already walking",
+        "end_state": "still walking",
+        "requested_source_seconds_if_supported": 10,
+        "interface_settings_verified": false,
+        "usable_native_seconds_target": 6.5,
+        "actual_usable_interval": null,
+        "prompt": "Use the exact user-approved starting image as the first frame. M03 is already walking at a natural everyday rhythm and continues walking through the ending. Track alongside her at matching speed, maintaining the same side-front angle, distance and complete head-to-shoe framing. Her face and garment fronts remain readable. The bag stays at the outer near hip; hands swing naturally. Preserve the approved identity, normal proportions, exact clothes, shoes, bag and light. Sidewalk and building geometry remain coherent while the background moves consistently. One continuous shot, no zoom, orbit, turn, pose-stop or outfit change.",
+        "actual_ui_settings": null,
+        "dynamic_qa": null
+      },
+      "timeline": {
+        "film_interval_seconds": [
+          5.75,
+          12.25
+        ],
+        "clear_outfit_interval_seconds": [
+          6.5,
+          11.5
+        ],
+        "clear_outfit_seconds": 5.0
+      },
+      "proof": {
+        "required": true,
+        "visual_target": "格紋上衣與素色灰褲／腰線",
+        "candidate_strategy": "review same-look approved still/video crop for vertical composition and clarity; create missing proof only if needed",
+        "status": "not_reviewed",
+        "approved_asset_path": null
+      },
+      "generation_gate": "Exact still visual approval required before this shot can enter video generation."
+    },
+    {
+      "shot_id": "S03",
+      "look_id": "ED-W42-COMMUTE-V1-L03",
+      "model_id": "M03",
+      "garment_ids": [
+        "G09",
+        "G02",
+        "G07",
+        "G04",
+        "G08"
+      ],
+      "viewer_information": "同條灰褲改搭短外層；腰胯附近衣長清楚",
+      "first_frame": {
+        "target_path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S03_M03_L03_candidate_A.png",
+        "status": "planned_not_generated",
+        "aspect_ratio": "9:16",
+        "target_delivery_pixels": [
+          1080,
+          1920
+        ],
+        "actual_pixels": null,
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "face_identity_only",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "normal_body_proportions_and_hair_only",
+            "approved_in_existing_registry": true
+          }
+        ],
+        "dependent_approved_stills": [
+          {
+            "shot_id": "S01",
+            "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+            "role": "setting_G02_G04",
+            "approval_required": true
+          },
+          {
+            "shot_id": "S02",
+            "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+            "role": "G07_G08",
+            "approval_required": true
+          }
+        ],
+        "pose": "already mid-walk, one foot grounded, short natural stride; no stationary departure pose",
+        "hero_prompt": "Make a native 9:16 full-person opening photograph for an approachable everyday-office fashion Reel. Show short outerwear changing the proportions above the repeated grey trousers. Approved face and full-body references fix identity, normal proportions and hair. Approved S01 supplies setting, white tee and shoes; S02 supplies grey trousers and black bag.\nA pale-grey wall borders a broad, pale stone walkway; distant office windows stay clear of her head and torso. She is already walking toward frame-right on a bright shaded office-neighborhood sidewalk, one foot grounded in a short natural step. Keep her face and garment fronts readable from a near-frontal three-quarter view. Her shoulder bag rests outside and slightly behind the near hip; arms swing naturally.\nOutfit: a cream unpadded short stand-collar jacket ending near the waist-to-hip line, worn open over the same white crewneck tee, the same charcoal straight trousers, black low-heeled slip-ons and small black square shoulder bag.\nUse a full-frame mirrorless, 50mm view at chest height with a level axis. Soft available daylight, real skin texture, fabric folds, ambient spill and shoe contact shadows form one scene. Show her head, complete shoes and walking space.\nNo text, logos, watermark, extra people or elongated anatomy.",
+        "prompt_word_count": 196,
+        "user_visual_approval": null
+      },
+      "motion": {
+        "status": "not_generated",
+        "primary_action": "continuous natural walking toward frame-right",
+        "camera_motion": "parallel tracking at matching speed, fixed distance and side-front angle",
+        "start_state": "already walking",
+        "end_state": "still walking",
+        "requested_source_seconds_if_supported": 10,
+        "interface_settings_verified": false,
+        "usable_native_seconds_target": 6.5,
+        "actual_usable_interval": null,
+        "prompt": "Use the exact user-approved starting image as the first frame. M03 is already walking at a natural everyday rhythm and continues walking through the ending. Track alongside her at matching speed, maintaining the same side-front angle, distance and complete head-to-shoe framing. Her face and garment fronts remain readable. The bag stays at the outer near hip; hands swing naturally. Preserve the approved identity, normal proportions, exact clothes, shoes, bag and light. Sidewalk and building geometry remain coherent while the background moves consistently. One continuous shot, no zoom, orbit, turn, pose-stop or outfit change.",
+        "actual_ui_settings": null,
+        "dynamic_qa": null
+      },
+      "timeline": {
+        "film_interval_seconds": [
+          11.5,
+          18.0
+        ],
+        "clear_outfit_interval_seconds": [
+          12.25,
+          17.25
+        ],
+        "clear_outfit_seconds": 5.0
+      },
+      "proof": {
+        "required": true,
+        "visual_target": "短外套衣長、白T與同條灰褲",
+        "candidate_strategy": "review same-look approved still/video crop for vertical composition and clarity; create missing proof only if needed",
+        "status": "not_reviewed",
+        "approved_asset_path": null
+      },
+      "generation_gate": "Exact still visual approval required before this shot can enter video generation."
+    },
+    {
+      "shot_id": "S04",
+      "look_id": "ED-W42-COMMUTE-V1-L04",
+      "model_id": "M03",
+      "garment_ids": [
+        "G10",
+        "G11",
+        "G04",
+        "G12"
+      ],
+      "viewer_information": "A字裙完整輪廓；亮色只留包款",
+      "first_frame": {
+        "target_path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A.png",
+        "status": "planned_not_generated",
+        "aspect_ratio": "9:16",
+        "target_delivery_pixels": [
+          1080,
+          1920
+        ],
+        "actual_pixels": null,
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "face_identity_only",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "normal_body_proportions_and_hair_only",
+            "approved_in_existing_registry": true
+          }
+        ],
+        "dependent_approved_stills": [
+          {
+            "shot_id": "S01",
+            "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+            "role": "setting_framing_G04",
+            "approval_required": true
+          }
+        ],
+        "pose": "already mid-walk, one foot grounded, short natural stride; no stationary departure pose",
+        "hero_prompt": "Make a native 9:16 full-person opening photograph for an approachable everyday-office fashion Reel. Show a readable A-line silhouette with one bright bag. Approved face and full-body references fix identity, normal proportions and hair. Approved S01 supplies setting, framing and shoes; define this new shirt, skirt and blue bag.\nA pale-grey wall borders a broad, pale stone walkway; distant office windows stay clear of her head and torso. She is already walking toward frame-right on a bright shaded office-neighborhood sidewalk, one foot grounded in a short natural step. Keep her face and garment fronts readable from a near-frontal three-quarter view. Her shoulder bag rests outside and slightly behind the near hip; arms swing naturally.\nOutfit: a tucked white short-sleeved pointed-collar cotton shirt, a black high-waisted calf-length A-line cotton skirt, the same black low-heeled slip-ons and a cobalt-blue small shoulder bag.\nUse a full-frame mirrorless, 50mm view at chest height with a level axis. Soft available daylight, real skin texture, fabric folds, ambient spill and shoe contact shadows form one scene. Show her head, complete shoes and walking space.\nNo text, logos, watermark, extra people or elongated anatomy.",
+        "prompt_word_count": 186,
+        "user_visual_approval": null
+      },
+      "motion": {
+        "status": "not_generated",
+        "primary_action": "continuous natural walking toward frame-right",
+        "camera_motion": "parallel tracking at matching speed, fixed distance and side-front angle",
+        "start_state": "already walking",
+        "end_state": "still walking",
+        "requested_source_seconds_if_supported": 10,
+        "interface_settings_verified": false,
+        "usable_native_seconds_target": 6.5,
+        "actual_usable_interval": null,
+        "prompt": "Use the exact user-approved starting image as the first frame. M03 is already walking at a natural everyday rhythm and continues walking through the ending. Track alongside her at matching speed, maintaining the same side-front angle, distance and complete head-to-shoe framing. Her face and garment fronts remain readable. The bag stays at the outer near hip; hands swing naturally. Preserve the approved identity, normal proportions, exact clothes, shoes, bag and light. Sidewalk and building geometry remain coherent while the background moves consistently. One continuous shot, no zoom, orbit, turn, pose-stop or outfit change.",
+        "actual_ui_settings": null,
+        "dynamic_qa": null
+      },
+      "timeline": {
+        "film_interval_seconds": [
+          17.25,
+          23.75
+        ],
+        "clear_outfit_interval_seconds": [
+          18.0,
+          23.0
+        ],
+        "clear_outfit_seconds": 5.0
+      },
+      "proof": {
+        "required": true,
+        "visual_target": "黑色A字裙的完整裙型及鞋",
+        "candidate_strategy": "review same-look approved still/video crop for vertical composition and clarity; create missing proof only if needed",
+        "status": "not_reviewed",
+        "approved_asset_path": null
+      },
+      "generation_gate": "Exact still visual approval required before this shot can enter video generation."
+    },
+    {
+      "shot_id": "S05",
+      "look_id": "ED-W42-COMMUTE-V1-L05",
+      "model_id": "M03",
+      "garment_ids": [
+        "G10",
+        "G13",
+        "G14",
+        "G04",
+        "G08"
+      ],
+      "viewer_information": "同件尖領襯衫換棕丹寧，保留整齊上身",
+      "first_frame": {
+        "target_path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+        "status": "planned_not_generated",
+        "aspect_ratio": "9:16",
+        "target_delivery_pixels": [
+          1080,
+          1920
+        ],
+        "actual_pixels": null,
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "face_identity_only",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "normal_body_proportions_and_hair_only",
+            "approved_in_existing_registry": true
+          }
+        ],
+        "dependent_approved_stills": [
+          {
+            "shot_id": "S01",
+            "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+            "role": "setting_G04",
+            "approval_required": true
+          },
+          {
+            "shot_id": "S04",
+            "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A.png",
+            "role": "G10",
+            "approval_required": true
+          },
+          {
+            "shot_id": "S02",
+            "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+            "role": "G08",
+            "approval_required": true
+          }
+        ],
+        "pose": "already mid-walk, one foot grounded, short natural stride; no stationary departure pose",
+        "hero_prompt": "Make a native 9:16 full-person opening photograph for an approachable everyday-office fashion Reel. Show the repeated white shirt paired with brown straight denim. Approved face and full-body references fix identity, normal proportions and hair. Approved S01 supplies setting and shoes; S04 supplies the white shirt; S02 supplies the black bag.\nA pale-grey wall borders a broad, pale stone walkway; distant office windows stay clear of her head and torso. She is already walking toward frame-right on a bright shaded office-neighborhood sidewalk, one foot grounded in a short natural step. Keep her face and garment fronts readable from a near-frontal three-quarter view. Her shoulder bag rests outside and slightly behind the near hip; arms swing naturally.\nOutfit: the same tucked white short-sleeved pointed-collar cotton shirt, cocoa-brown high-waisted straight jeans without distressing, a narrow black belt, the same black low-heeled slip-ons and small black square shoulder bag.\nUse a full-frame mirrorless, 50mm view at chest height with a level axis. Soft available daylight, real skin texture, fabric folds, ambient spill and shoe contact shadows form one scene. Show her head, complete shoes and walking space.\nNo text, logos, watermark, extra people or elongated anatomy.",
+        "prompt_word_count": 192,
+        "user_visual_approval": null
+      },
+      "motion": {
+        "status": "not_generated",
+        "primary_action": "continuous natural walking toward frame-right",
+        "camera_motion": "parallel tracking at matching speed, fixed distance and side-front angle",
+        "start_state": "already walking",
+        "end_state": "still walking",
+        "requested_source_seconds_if_supported": 10,
+        "interface_settings_verified": false,
+        "usable_native_seconds_target": 6.5,
+        "actual_usable_interval": null,
+        "prompt": "Use the exact user-approved starting image as the first frame. M03 is already walking at a natural everyday rhythm and continues walking through the ending. Track alongside her at matching speed, maintaining the same side-front angle, distance and complete head-to-shoe framing. Her face and garment fronts remain readable. The bag stays at the outer near hip; hands swing naturally. Preserve the approved identity, normal proportions, exact clothes, shoes, bag and light. Sidewalk and building geometry remain coherent while the background moves consistently. One continuous shot, no zoom, orbit, turn, pose-stop or outfit change.",
+        "actual_ui_settings": null,
+        "dynamic_qa": null
+      },
+      "timeline": {
+        "film_interval_seconds": [
+          23.0,
+          29.5
+        ],
+        "clear_outfit_interval_seconds": [
+          23.75,
+          29.5
+        ],
+        "clear_outfit_seconds": 5.75
+      },
+      "proof": {
+        "required": true,
+        "visual_target": "同件白襯衫、黑皮帶與可可棕丹寧腰線",
+        "candidate_strategy": "review same-look approved still/video crop for vertical composition and clarity; create missing proof only if needed",
+        "status": "not_reviewed",
+        "approved_asset_path": null
+      },
+      "generation_gate": "Exact still visual approval required before this shot can enter video generation."
+    }
+  ],
+  "joins": [
+    {
+      "join_id": "J12",
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "film_interval_seconds": [
+        5.75,
+        6.5
+      ],
+      "method": "cross_dissolve",
+      "duration_seconds": 0.75,
+      "common_checks": [
+        "head_waist_shoe_positions",
+        "full_person_scale",
+        "walking_direction_and_speed",
+        "gait_phase_and_arm_swing",
+        "background_major_geometry_and_drift_direction",
+        "exposure_and_light_direction"
+      ],
+      "specific_checks": [
+        "shoulder_position",
+        "long_layer_to_pattern_readability"
+      ],
+      "actual_source_cut_points": null,
+      "user_join_acceptance": null
+    },
+    {
+      "join_id": "J23",
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "film_interval_seconds": [
+        11.5,
+        12.25
+      ],
+      "method": "cross_dissolve",
+      "duration_seconds": 0.75,
+      "common_checks": [
+        "head_waist_shoe_positions",
+        "full_person_scale",
+        "walking_direction_and_speed",
+        "gait_phase_and_arm_swing",
+        "background_major_geometry_and_drift_direction",
+        "exposure_and_light_direction"
+      ],
+      "specific_checks": [
+        "same_G07_trouser_waist_knee_foot",
+        "same_G08_bag_outer_position"
+      ],
+      "actual_source_cut_points": null,
+      "user_join_acceptance": null
+    },
+    {
+      "join_id": "J34",
+      "from_shot": "S03",
+      "to_shot": "S04",
+      "film_interval_seconds": [
+        17.25,
+        18.0
+      ],
+      "method": "cross_dissolve",
+      "duration_seconds": 0.75,
+      "common_checks": [
+        "head_waist_shoe_positions",
+        "full_person_scale",
+        "walking_direction_and_speed",
+        "gait_phase_and_arm_swing",
+        "background_major_geometry_and_drift_direction",
+        "exposure_and_light_direction"
+      ],
+      "specific_checks": [
+        "full_A_line_skirt_silhouette",
+        "no_force_fit_skirt_to_trouser_outline"
+      ],
+      "actual_source_cut_points": null,
+      "user_join_acceptance": null
+    },
+    {
+      "join_id": "J45",
+      "from_shot": "S04",
+      "to_shot": "S05",
+      "film_interval_seconds": [
+        23.0,
+        23.75
+      ],
+      "method": "cross_dissolve",
+      "duration_seconds": 0.75,
+      "common_checks": [
+        "head_waist_shoe_positions",
+        "full_person_scale",
+        "walking_direction_and_speed",
+        "gait_phase_and_arm_swing",
+        "background_major_geometry_and_drift_direction",
+        "exposure_and_light_direction"
+      ],
+      "specific_checks": [
+        "same_G10_collar_sleeve_and_waist",
+        "bag_position_while_color_changes"
+      ],
+      "actual_source_cut_points": null,
+      "user_join_acceptance": null
+    }
+  ],
+  "estimated_total_seconds": 29.5,
+  "pilot_order": [
+    "S01 still exact visual approval",
+    "S02 still using approved S01 roles, exact visual approval",
+    "S01 and S02 independent dynamic QA",
+    "J12 two-shot normal-speed review",
+    "expand to S03-S05 after first pair passes"
+  ],
+  "publishing_files_to_replace": [],
+  "generated_media_paths": [],
+  "carousel_status": "Separate required A/B/C surface work remains outside this research storyboard completion."
+}

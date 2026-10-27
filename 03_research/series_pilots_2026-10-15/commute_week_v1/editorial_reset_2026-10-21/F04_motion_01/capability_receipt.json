@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21",
+  "evidence": "capability_dom.txt",
+  "source": "Grok agent UI report of its tool schema, not direct observation of internal call",
+  "requested_mode_reported_legal": true,
+  "duration": "6",
+  "resolution_name": "720p",
+  "aspect_ratio": "9:16",
+  "first_and_keyframes_and_identity_without_last_reported": true,
+  "keyframes": {"asset_id": "25165cba-ef4e-42ee-befe-4ca17b9cc715", "timestamp_s": 4.333333333333333},
+  "first_frame_asset_id": "b43b2900-fe9c-48f9-9193-fcd2e8d396f7",
+  "reported_grid_seconds": 0.3333333333333333,
+  "reported_max_mid_keyframes": 4,
+  "reported_duration_choices": ["6","10","15"],
+  "reported_audio_disable_option": false,
+  "actual_generation_parameter_acceptance": "Agent-reported all first/keyframes/identity accepted, last omitted; internal call not directly visible",
+  "literal_anchor_landing_independently_proven": false,
+  "new_motion_generated": true,
+  "source_asset_id": "3d274c53-ef45-4fa2-a652-5db267c24630",
+  "next": "Map approved uploads by actual UI asset IDs; then one bounded first+4⅓s keyframe+M03v3face/full trial; stop if rejected, no silent fallback"
+}

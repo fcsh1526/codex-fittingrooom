@@ -1,0 +1,52 @@
+{
+  "source": "F01_source.mp4",
+  "source_sha256": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+  "preview": "F01_prefix_3p25s_silent_review_v2.mp4",
+  "preview_sha256": "d789898f3765aba72f4a286e94b1d1122444f186320e8433fa4c324e0dea870c",
+  "selected_source_frames_half_open": [
+    0,
+    78
+  ],
+  "seconds": 3.25,
+  "decoded_frames": 78,
+  "fps": 24,
+  "pixels": [
+    720,
+    1280
+  ],
+  "stream_copy": false,
+  "reencoded_for_exact_frame_boundary": true,
+  "retime": false,
+  "crop": false,
+  "freeze": false,
+  "added_text": false,
+  "audio": "removed in preview only",
+  "cuts_inside_selected_interval": 0,
+  "preserved_failed_v1": "Packet-copy v1 duration metadata3.25 but decoded80frames; not the review deliverable.",
+  "selection_reason": "Later newly revealed deep arched corridor is incompatible with approved short rectangular colonnade. This prefix is only a walk/camera-direction candidate; no end-to-end spatial or dynamic pass.",
+  "assistant_continuous_playback": false,
+  "user_exact_prefix_motion_feedback": null,
+  "whole_route_or_five_look_film_approved": false,
+  "technical_scan": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 3.25
+    },
+    "decoded_frames": 78,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 3.25,
+    "individual_PTS_measured": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "file": "output/pdf/Mira_Reel_呈現企劃_2026-10-12.pdf",
+  "sha256": "d010e5325d57c3f99b8c97bedd064cd73462802a0e644c3b6c68757495df6143",
+  "pages": 8,
+  "page_text_counts": [
+    511,
+    544,
+    526,
+    557,
+    561,
+    559,
+    534,
+    857
+  ],
+  "render": "Poppler90dpi PNG; all eight final pages visually reviewed for legibility and clipping.",
+  "status": "planning_only_no_new_media",
+  "scope": "Six editorial concepts, no claim of six new editing technologies or verified IG performance."
+}

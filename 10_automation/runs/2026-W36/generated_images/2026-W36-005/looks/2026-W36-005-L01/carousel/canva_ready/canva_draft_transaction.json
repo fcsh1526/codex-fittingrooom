@@ -1,0 +1,58 @@
+{
+  "look_id": "2026-W36-005-L01",
+  "design_id": "DAHUllkwqQ0",
+  "transaction_id": "2120584742137611405",
+  "status": "committed_exact_frame",
+  "edit_url": "https://www.canva.com/d/WKLQH7goDF3Ty3b",
+  "pages": [
+    {
+      "page_id": "PBG0szxkSTKqLWNX",
+      "page_number": 1,
+      "dimension": {
+        "width": 3240,
+        "height": 1350
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "assets": {
+    "A": "MAHUliJ8Dwk",
+    "B": "MAHUlnHqpFU",
+    "C": "MAHUltUjSBU"
+  },
+  "operations": [
+    {
+      "type": "update_title",
+      "title": "Mira W36-005-L01｜炭灰與櫻桃紅"
+    },
+    {
+      "type": "replace_text",
+      "element_id": "PBG0szxkSTKqLWNX-LBVWRR3Zd24NWCYp",
+      "text": "炭灰與黑之間，一抹櫻桃紅"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBbTnwkYDV7sQb2f",
+      "asset_id": "MAHUliJ8Dwk",
+      "asset_type": "image",
+      "alt_text": "炭灰上衣黑褲與櫻桃紅包全身"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBrNkdTtVWx2DSGy",
+      "asset_id": "MAHUlnHqpFU",
+      "asset_type": "image",
+      "alt_text": "選品店坐姿與身邊紅色包包"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBG0szxkSTKqLWNX-LBwCJ73MvWPDZBxt",
+      "asset_id": "MAHUltUjSBU",
+      "asset_type": "image",
+      "alt_text": "炭灰針織與紅色肩背包細節"
+    }
+  ],
+  "preview_file": "C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/10_automation/runs/2026-W36/generated_images/2026-W36-005/looks/2026-W36-005-L01/carousel/canva_ready/005-L01_canva_draft_preview.png"
+}

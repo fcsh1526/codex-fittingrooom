@@ -14,7 +14,7 @@ Internal model M05 (M05 visual around-20): East Asian woman with an around-20 yo
 
 Dress the internal Mira magazine model in 薄身高領夾克, color palette 石墨黑、米灰、奶油白, fabric 薄尼龍混紡, fit 短版立領、微寬肩.
 
-Styling rules: 高領薄夾克配短袖與窄直筒褲，外層可脫，保留一個寬鬆點.
+Styling rules: 高領薄外套配短袖和直筒褲，全身不要同時穿得寬鬆.
 
 Scene: assigned_by_codex. Use a practical Taiwan daily-life setting, realistic natural light, no luxury logos, no brand signage.
 
@@ -29,7 +29,7 @@ Negative prompt:
 AI virtual outfit only; fictional person; no real person likeness; no celebrity; no childlike appearance; no school uniform; no nudity; no sexualized pose; no visible brand logos; no luxury logo; no fake endorsement; no distorted hands; no extra fingers; no unreadable text; no watermark.
 ```
 
-## 2026-W35-002 - 深棕麂皮觸感
+## 2026-W35-002 - 深棕麂皮配件
 
 Prompt ID: `W35-P005`
 Internal model: `M01`
@@ -41,7 +41,7 @@ Internal model M01 (M01 visual early-20s): East Asian woman with an early-20s yo
 
 Dress the internal Mira magazine model in 深棕麂皮肩背包, color palette 巧克力棕、奶油白、靛藍, fabric 霧面麂皮, fit 中小型柔軟方形.
 
-Styling rules: 麂皮只放在包，服裝用白上衣與深靛直筒丹寧.
+Styling rules: 麂皮只用在包包，衣服搭白 T 和深色直筒牛仔褲.
 
 Scene: assigned_by_codex. Use a practical Taiwan daily-life setting, realistic natural light, no luxury logos, no brand signage.
 
@@ -56,7 +56,7 @@ Negative prompt:
 AI virtual outfit only; fictional person; no real person likeness; no celebrity; no childlike appearance; no school uniform; no nudity; no sexualized pose; no visible brand logos; no luxury logo; no fake endorsement; no distorted hands; no extra fingers; no unreadable text; no watermark.
 ```
 
-## 2026-W35-003 - 運動外層配裙裝
+## 2026-W35-003 - 運動外套配長裙
 
 Prompt ID: `W35-P009`
 Internal model: `M03`
@@ -68,7 +68,7 @@ Internal model M03 (M03 visual mid-30s): East Asian woman with a well-maintained
 
 Dress the internal Mira magazine model in 深海軍藍輕量運動外套, color palette 海軍藍、灰白、深灰, fabric 薄尼龍, fit 短版立領、袖口微收.
 
-Styling rules: 運動外層配直筒中長裙與平底球鞋，運動語彙只留一件.
+Styling rules: 短版運動外套配直筒長裙和簡單的平底球鞋.
 
 Scene: assigned_by_codex. Use a practical Taiwan daily-life setting, realistic natural light, no luxury logos, no brand signage.
 
@@ -83,7 +83,7 @@ Negative prompt:
 AI virtual outfit only; fictional person; no real person likeness; no celebrity; no childlike appearance; no school uniform; no nudity; no sexualized pose; no visible brand logos; no luxury logo; no fake endorsement; no distorted hands; no extra fingers; no unreadable text; no watermark.
 ```
 
-## 2026-W35-004 - 窄領巾與蝴蝶結細節
+## 2026-W35-004 - 窄版絲巾的小結
 
 Prompt ID: `W35-P013`
 Internal model: `M02`
@@ -95,7 +95,7 @@ Internal model M02 (M02 visual late-20s): East Asian woman with a late-20s youth
 
 Dress the internal Mira magazine model in 黑白細窄絲巾, color palette 黑白、白、深藍, fabric 輕薄絲質, fit 窄長方形.
 
-Styling rules: 白襯衫領口只打一個小蝴蝶結，胸前不加項鍊.
+Styling rules: 白襯衫領口打一個小結，胸前不戴項鍊.
 
 Scene: assigned_by_codex. Use a practical Taiwan daily-life setting, realistic natural light, no luxury logos, no brand signage.
 
@@ -110,7 +110,7 @@ Negative prompt:
 AI virtual outfit only; fictional person; no real person likeness; no celebrity; no childlike appearance; no school uniform; no nudity; no sexualized pose; no visible brand logos; no luxury logo; no fake endorsement; no distorted hands; no extra fingers; no unreadable text; no watermark.
 ```
 
-## 2026-W35-005 - 深色直筒丹寧與柔和上衣
+## 2026-W35-005 - 深色直筒牛仔褲配柔色上衣
 
 Prompt ID: `W35-P017`
 Internal model: `M04`
@@ -122,7 +122,7 @@ Internal model M04 (M04 visual early-40s): East Asian woman with an elegant earl
 
 Dress the internal Mira magazine model in 深靛直筒丹寧褲, color palette 深靛藍、柔霧粉、米灰, fabric 薄身棉質丹寧, fit 中高腰直筒.
 
-Styling rules: 深靛丹寧配薄緞面柔色上衣與低跟鞋，避免運動圖案.
+Styling rules: 深色直筒牛仔褲配柔色緞面上衣和低跟鞋.
 
 Scene: assigned_by_codex. Use a practical Taiwan daily-life setting, realistic natural light, no luxury logos, no brand signage.
 

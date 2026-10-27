@@ -1,0 +1,71 @@
+{
+  "delivery_week": "2026-W43",
+  "content_pool_week": "2026-W41",
+  "date": "2026-10-22",
+  "series": "SERIES_COMMUTE_WEEK",
+  "editing_subtype": "同一路線・連續行進換裝",
+  "status": "verified_drive_delivery_ready_for_user_or_bot_posting_not_posted",
+  "model_internal": "M03",
+  "looks": 5,
+  "formal_weekly_contract_changed": false,
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\context_review_v2\\review.mp4",
+  "video": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W43\\reels\\series_delivery_2026-10-22\\01_同一路線五套通勤_Reel.mp4",
+  "sha256": "e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+  "md5": "4380426e9521297350bfbdc1be361b84",
+  "bytes": 19360340,
+  "frames": 511,
+  "fps": 24,
+  "pixels": [
+    720,
+    1280
+  ],
+  "duration_seconds": 21.291666666666668,
+  "caption": "一週通勤，先用幾個常穿的顏色安排五天穿搭。\n\n米白、深藍和灰色輪流出現，再換長短外套、襯衫或裙裝，保留熟悉的配色，每天也能有變化。",
+  "caption_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W43\\reels\\series_delivery_2026-10-22\\01_同一路線五套通勤_文案.txt",
+  "caption_Chinese_characters": 55,
+  "no_text": true,
+  "silent": true,
+  "native_speed": true,
+  "new_creative_export": false,
+  "approval": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\pace_rebuild_2026-10-22\\context_review_v2\\user_publication_approval_2026-10-22.json",
+  "IG_status": "not_posted",
+  "scheduled_at": null,
+  "posted_at": null,
+  "instagram_url": null,
+  "drive_folder": {
+    "id": "1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB",
+    "url": "https://drive.google.com/drive/folders/1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB"
+  },
+  "video_drive": {
+    "id": "1i2GaUyORPcAuprpAUI0i5OH2gu88R3q9",
+    "url": "https://drive.google.com/file/d/1i2GaUyORPcAuprpAUI0i5OH2gu88R3q9/view?usp=drivesdk",
+    "file_name": "01_同一路線五套通勤_Reel.mp4",
+    "bytes": 19360340,
+    "local_sha256": "e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+    "local_md5": "4380426e9521297350bfbdc1be361b84",
+    "remote_checksum_returned": false,
+    "verified_remote_metadata": [
+      "id",
+      "video/mp4",
+      "size19360340",
+      "expected parent folder"
+    ],
+    "new_export": false
+  },
+  "caption_doc": {
+    "id": "1IWN8z6PPGFcfwFS4mKUuMyENDfRf5AdLALc7YYe3Y5k",
+    "url": "https://docs.google.com/document/d/1IWN8z6PPGFcfwFS4mKUuMyENDfRf5AdLALc7YYe3Y5k",
+    "mime_type": "application/vnd.google-apps.document",
+    "tab_id": "t.0",
+    "native_text_heading_bullets_readback_verified": true,
+    "parent_folder_readback_verified": true
+  },
+  "future_refinements": [
+    "brisker walking",
+    "separate curved character and ground-track camera trajectories",
+    "reduce double-image flicker"
+  ],
+  "notes": "Delivery week is an archive/handoff label, not a claim of newly researchedW43 fashion. Prior files preserved. Music selected separately inIG. Missing performance metrics remain null.",
+  "editorial_content_week": "2026-W43",
+  "delivery_receipt": "10_automation\\runs\\2026-W43\\reels\\series_delivery_2026-10-22\\google_drive_delivery_2026-10-22.json"
+}

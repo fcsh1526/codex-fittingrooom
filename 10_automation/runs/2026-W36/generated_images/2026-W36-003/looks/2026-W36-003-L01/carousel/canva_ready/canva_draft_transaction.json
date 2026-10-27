@@ -1,0 +1,59 @@
+{
+  "look_id": "2026-W36-003-L01",
+  "design_id": "DAHUfx8Y0xA",
+  "transaction_id": "5268600784327167823",
+  "status": "committed_exact_frame",
+  "edit_url": "https://www.canva.com/d/uAEvItYDk_5xe0y",
+  "pages": [
+    {
+      "page_id": "PB2GyF34vKF1k1q4",
+      "page_number": 1,
+      "dimension": {
+        "width": 3240,
+        "height": 1350
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "assets": {
+    "A": "MAHUf1jpKHA",
+    "B": "MAHUf7tkKn4",
+    "C": "MAHUf-mUIR4"
+  },
+  "operations": [
+    {
+      "type": "update_title",
+      "title": "Mira W36-003-L01｜奶油白棉麻與焦糖腰帶"
+    },
+    {
+      "type": "replace_text",
+      "element_id": "PB2GyF34vKF1k1q4-LBtw5J9M05YrSM1k",
+      "text": "奶油白棉麻，繫上一筆焦糖"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PB2GyF34vKF1k1q4-LBtfx0hWS7Gnd4fW",
+      "asset_id": "MAHUf1jpKHA",
+      "alt_text": "奶油白棉麻套裝與焦糖腰帶全身",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PB2GyF34vKF1k1q4-LB7NyX60PQMJwTV1",
+      "asset_id": "MAHUf7tkKn4",
+      "alt_text": "花店桌旁擺放花束的坐姿場景",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PB2GyF34vKF1k1q4-LBN3VRtpTw2PkgYb",
+      "asset_id": "MAHUf-mUIR4",
+      "alt_text": "奶油白棉麻與焦糖腰帶細節",
+      "asset_type": "image"
+    }
+  ],
+  "preview_file": "003-L01_canva_draft_preview.png",
+  "upload_method": "authorized direct asset_file; no public GitHub publication"
+}

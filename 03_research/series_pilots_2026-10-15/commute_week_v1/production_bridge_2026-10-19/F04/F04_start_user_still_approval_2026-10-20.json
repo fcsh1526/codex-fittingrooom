@@ -1,0 +1,10 @@
+{
+  "record_date_local":"2026-10-20",
+  "event_timestamp":null,
+  "asset":{"path":"F04_M03_L02_start_candidate_A.png","sha256":"98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457","width":941,"height":1672},
+  "question":"剛顯示的 M03 第四套起始圖：臉、奶油白／海軍藍格紋襯衫、炭灰褲與黑鞋包，以及承接第三鏡的步姿和花台背景，是否可以沿用？依你在 AGENTS.md 設定的新圖視覺核准流程，確認後才會製作同一斑馬線公司側的末幀。",
+  "user_answer":"可以，沿用這張",
+  "status":"exact_F04_start_still_user_approved",
+  "scope":"Exact start-still appearance and preparation of compatible endpoint candidate; does not approve endpoint, motion, four-shot preview or full film.",
+  "next":"Endpoint on same crossing's company-side first paving, separate visual approval before Grok"
+}

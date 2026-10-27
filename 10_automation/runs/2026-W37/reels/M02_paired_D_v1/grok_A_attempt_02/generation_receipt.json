@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-05",
+  "attempt": 2,
+  "status": "downloaded_dynamic_QA_pending",
+  "post_url": "https://grok.com/imagine/post/0dc3780e-640f-4615-b5ec-c572c6e4f7dc?conversation=d5f58fa6-d5dd-4d6a-9967-b9dcd23124eb",
+  "downloaded_original_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\generated_video (17).mp4",
+  "project_source": "source.mp4",
+  "character_reference_ui": "Mira M02 v3",
+  "first_frame": "L01 approved medium",
+  "outfit_reference": "L01 approved full master",
+  "last_frame": null,
+  "requested_seconds": 6,
+  "requested_resolution": "720p",
+  "requested_aspect": "9:16",
+  "audio_setting": "off",
+  "model_version": "not_shown",
+  "observed_submit_to_completion_check_seconds": 75.718,
+  "timing_note": "Includes other work; not exact server generation duration.",
+  "prompt": "submitted_prompt.txt",
+  "before_submit_evidence": [
+    "before_submit.jpg",
+    "before_submit_dom.txt"
+  ],
+  "user_motion_approval": null
+}

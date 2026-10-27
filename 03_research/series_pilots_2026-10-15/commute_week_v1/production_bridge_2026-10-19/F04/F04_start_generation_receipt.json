@@ -1,0 +1,73 @@
+{
+  "record_date_local": "2026-10-20",
+  "method": "built_in_image_gen",
+  "use_case": "identity-preserve",
+  "original_output": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-30b7cdaa-72c2-4281-9a5c-a73fb6bb9661.png",
+  "candidate": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_start_candidate_A.png",
+    "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457",
+    "bytes": 2223700,
+    "width": 941,
+    "height": 1672
+  },
+  "prompt": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_start_candidate_A_prompt.txt",
+    "sha256": "05904e8e97d9bed5f989a57391f7acb2fbdc7179a67b4a7adbfd89a0722015c9",
+    "bytes": 1485
+  },
+  "inputs": [
+    {
+      "role": "edit_target_actual_originalF03_frame127",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F03_actual_frame_000127.png",
+      "sha256": "002a3794f27fd69449fe18b73da509cd0d99336e6e7464376682aa8e892d7fae",
+      "bytes": 1007496,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "role": "approvedL02_shirt_styling_only",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\starting_images\\S02_M03_L02_candidate_A.png",
+      "sha256": "6efa44841ae892ce1a82fd42fc046ae60e295c002b23834453d37b594342f2d1",
+      "bytes": 2106918,
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "role": "approvedM03v3_face_identity_only",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "bytes": 805262,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "role": "approvedM03v3_full_proportions_only",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "bytes": 2022770,
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "requested_aspect_ratio": "9:16",
+  "post_generation_crop_resize_stretch": false,
+  "assistant_sample_review": {
+    "observed": [
+      "full head and both shoes retained",
+      "same near-side profile and rightward passing step",
+      "cream/navy check pointed-collar shirt, rolled forearm sleeves and tucked waist visible",
+      "charcoal straight trousers, black shoes and shoulder bag retained",
+      "dominant stepped planter/tree/glass/paving arrangement remains similar"
+    ],
+    "limitations": [
+      "small regenerated face/hand/foot contours and framing differences possible",
+      "not exact pixel geometry",
+      "next crossing angle and all motion untested"
+    ],
+    "dynamic_qa_pass": null,
+    "publishable": false
+  },
+  "status": "candidate_pending_exact_user_visual_approval",
+  "Grok_F04_submissions": 0,
+  "next": "exact start visual approval before compatible crossing endpoint candidate; endpoint separately approved before Grok"
+}

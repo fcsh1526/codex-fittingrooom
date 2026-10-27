@@ -1,0 +1,520 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "首頁":
+  - /url: /
+  - img "首頁"
+- link "Reel":
+  - /url: /reels/
+  - img "Reel"
+- link "訊息":
+  - /url: /direct/inbox/
+  - img "訊息"
+- link "搜尋":
+  - /url: /explore/
+  - img "搜尋"
+- link "通知":
+  - /url: "#"
+  - img "通知"
+- link "新貼文":
+  - /url: "#"
+  - img "新貼文"
+- link "專業主控板":
+  - /url: "#"
+  - img "專業主控板"
+- link "mira.fitroom.ai的大頭貼照":
+  - /url: /mira.fitroom.ai/
+  - link "mira.fitroom.ai的大頭貼照":
+    - img "mira.fitroom.ai的大頭貼照"
+- link "設定":
+  - /url: "#"
+  - img "設定"
+- link "其他 Meta 旗下產品":
+  - /url: "#"
+  - img "其他 Meta 旗下產品"
+- main:
+  - group "Video player":
+    - slider "調整音量":
+      - button "已靜音":
+        - img "已靜音"
+    - button "標籤":
+      - img "標籤"
+  - button "missy_elz的大頭貼照":
+    - link "missy_elz的大頭貼照":
+      - img "missy_elz的大頭貼照"
+  - link "missy_elz":
+    - /url: /missy_elz/
+    - generic: missy_elz
+  - img "已驗證"
+  - link "Booker T. & The MG's • Green Onions":
+    - /url: /reels/audio/1716390161816213/
+    - text: Booker T. & The MG's
+    - generic: •
+    - text: Green Onions
+  - button "追蹤"
+  - button "更多選項":
+    - img "更多選項"
+  - separator
+  - link "missy_elz的大頭貼照":
+    - /url: /missy_elz/
+    - img "missy_elz的大頭貼照"
+  - link "missy_elz 已驗證":
+    - /url: /missy_elz/
+    - generic: missy_elz
+    - img "已驗證"
+  - time: 1 天
+  - text: No one talk to me about the make up on the collar 🫠
+  - text: Comment SHOP if you’d like me to dm you the links 🫶🏼 https://liketk.it/6oGy6
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - link "sarahrroberts_的大頭貼照":
+    - /url: /sarahrroberts_/
+    - img "sarahrroberts_的大頭貼照"
+  - link "sarahrroberts_":
+    - /url: /sarahrroberts_/
+    - generic: sarahrroberts_
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18117442264947365/
+    - time: 1 天
+  - generic: Gorgeous 😍
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "gemmatalbot的大頭貼照":
+    - /url: /gemmatalbot/
+    - img "gemmatalbot的大頭貼照"
+  - link "gemmatalbot":
+    - /url: /gemmatalbot/
+    - generic: gemmatalbot
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18103261157572275/
+    - time: 1 天
+  - generic: Oh I love 😍
+  - button "4個讚":
+    - generic: 4個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "thesecretstylist的大頭貼照":
+    - /url: /thesecretstylist/
+    - img "thesecretstylist的大頭貼照"
+  - link "thesecretstylist 已驗證":
+    - /url: /thesecretstylist/
+    - generic: thesecretstylist
+    - img "已驗證"
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18146062057559626/
+    - time: 1 天
+  - generic: I love this look ❤️
+  - button "2個讚":
+    - generic: 2個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "ineswinterwelt的大頭貼照":
+    - /url: /ineswinterwelt/
+    - img "ineswinterwelt的大頭貼照"
+  - link "ineswinterwelt":
+    - /url: /ineswinterwelt/
+    - generic: ineswinterwelt
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18166372198479672/
+    - time: 1 天
+  - generic: I love your look. You are an inspiration to me.👏
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "stylewithjess_x的大頭貼照":
+    - /url: /stylewithjess_x/
+    - img "stylewithjess_x的大頭貼照"
+  - link "stylewithjess_x":
+    - /url: /stylewithjess_x/
+    - generic: stylewithjess_x
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18129519379799292/
+    - time: 1 天
+  - generic: Love this 😍😍
+  - button "2個讚":
+    - generic: 2個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "bethsourcedit的大頭貼照":
+    - /url: /bethsourcedit/
+    - img "bethsourcedit的大頭貼照"
+  - link "bethsourcedit 已驗證":
+    - /url: /bethsourcedit/
+    - generic: bethsourcedit
+    - img "已驗證"
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18142805302565520/
+    - time: 1 天
+  - generic: Love the jacket!! The weather is really throwing me off 😂
+  - button "1 個讚":
+    - generic: 1 個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "voulakats的大頭貼照":
+    - /url: /voulakats/
+    - img "voulakats的大頭貼照"
+  - link "voulakats":
+    - /url: /voulakats/
+    - generic: voulakats
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18379198069238276/
+    - time: 1 天
+  - generic: Literal pefection❤️
+  - button "1 個讚":
+    - generic: 1 個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "sezzie777的大頭貼照":
+    - /url: /sezzie777/
+    - img "sezzie777的大頭貼照"
+  - link "sezzie777":
+    - /url: /sezzie777/
+    - generic: sezzie777
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18618296740043516/
+    - time: 1 天
+  - generic: Did you get your normal size in trainers please?
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "karlasayeik_的大頭貼照":
+    - /url: /karlasayeik_/
+    - img "karlasayeik_的大頭貼照"
+  - link "karlasayeik_":
+    - /url: /karlasayeik_/
+    - generic: karlasayeik_
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18133943638732438/
+    - time: 1 天
+  - generic: Marca de tu jeans
+  - button "1 個讚":
+    - generic: 1 個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "stylebyjjulia的大頭貼照":
+    - /url: /stylebyjjulia/
+    - img "stylebyjjulia的大頭貼照"
+  - link "stylebyjjulia 已驗證":
+    - /url: /stylebyjjulia/
+    - generic: stylebyjjulia
+    - img "已驗證"
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/17946584592303431/
+    - time: 1 天
+  - generic: Love 😍
+  - button "2個讚":
+    - generic: 2個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - link "gableendhouse的大頭貼照":
+    - /url: /gableendhouse/
+    - img "gableendhouse的大頭貼照"
+  - link "gableendhouse":
+    - /url: /gableendhouse/
+    - generic: gableendhouse
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18129394963788023/
+    - time: 1 天
+  - text: Looks amazing 🔥
+  - text: except the temperature is currently the same as the surface of the sun 😂
+  - button "8個讚":
+    - generic: 8個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "kristinas702的大頭貼照":
+    - /url: /kristinas702/
+    - img "kristinas702的大頭貼照"
+  - link "kristinas702":
+    - /url: /kristinas702/
+    - generic: kristinas702
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/17882253312526262/
+    - time: 1 天
+  - generic: What size are you in for the jacket please?
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "julesjv的大頭貼照":
+    - /url: /julesjv/
+    - img "julesjv的大頭貼照"
+  - link "julesjv":
+    - /url: /julesjv/
+    - generic: julesjv
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18068815742761979/
+    - time: 1 天
+  - generic: Do you have the jeans in “short”?
+  - button "1 個讚":
+    - generic: 1 個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "miss_h_melon的大頭貼照":
+    - /url: /miss_h_melon/
+    - img "miss_h_melon的大頭貼照"
+  - link "miss_h_melon":
+    - /url: /miss_h_melon/
+    - generic: miss_h_melon
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18022645808875864/
+    - time: 1 天
+  - generic: Is this def the Amazon bag? It looks totally different when I click the link- or is it the cos one?
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "fringequin的大頭貼照":
+    - /url: /fringequin/
+    - img "fringequin的大頭貼照"
+  - link "fringequin":
+    - /url: /fringequin/
+    - generic: fringequin
+  - link "1 天":
+    - /url: /p/Dd6m1BVosla/c/18166090096486005/
+    - time: 1 天
+  - generic: I really want these trainers and love this colour but worried about spending 165 on light trainers and them getting mucky so thinking of the coffee colour. Is the front leather or material? Xxx
+  - button "3個讚":
+    - generic: 3個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部4則回覆":
+    - generic: 查看全部4則回覆
+  - progressbar:
+    - img "載入中……"
+  - button "讚":
+    - img "讚"
+  - button "8,149"
+  - button "回應":
+    - img "回應"
+  - button "948"
+  - button "轉發":
+    - img "轉發"
+  - button "35"
+  - button "分享":
+    - img "分享"
+  - button "儲存":
+    - button "儲存":
+      - img "儲存"
+  - link "1 天前":
+    - /url: /missy_elz/reel/Dd6m1BVosla/
+    - time: 1 天前
+  - generic: 這則貼文設有留言數量上限。
+  - separator
+  - text: 更多「
+  - link "missy_elz":
+    - /url: /missy_elz/
+  - text: 」的貼文
+  - link "Outfit Round Up 👉🏼 49 transitional / early Autumn outfit ideas, for when you don’t know what to wear 📌 Which look is your favourite?!🫶🏼 *All of my outfits are linked to shop on my LTK, the link is in my bio or you can search MISSY ELZ on the LTK app- you can also follow & subscribe for exclusive / early access content 🥰 輪播廣告":
+    - /url: /missy_elz/p/Dc8A8yPCKw6/
+    - img "Outfit Round Up 👉🏼 49 transitional / early Autumn outfit ideas, for when you don’t know what to wear 📌 Which look is your favourite?!🫶🏼 *All of my outfits are linked to shop on my LTK, the link is in my bio or you can search MISSY ELZ on the LTK app- you can also follow & subscribe for exclusive / early access content 🥰"
+    - img "輪播廣告"
+  - link "Elasticated waist, pockets & under £25 👏🏻 comment SHOP & I will send you a dm with the links 🫶🏼 I got these in beige a couple of months ago and love them so much I had to get this olive colour for the new season! They’re the perfect ‘in between weather’ trouser- a great alternative to jeans, comfortable & great for styling casually or smarter (& a good option for the office 🙌🏻) I wear XS reg. https://liketk.it/6owFE 影片片段":
+    - /url: /missy_elz/reel/Dd1lMwFoHN-/
+    - img "Elasticated waist, pockets & under £25 👏🏻 comment SHOP & I will send you a dm with the links 🫶🏼 I got these in beige a couple of months ago and love them so much I had to get this olive colour for the new season! They’re the perfect ‘in between weather’ trouser- a great alternative to jeans, comfortable & great for styling casually or smarter (& a good option for the office 🙌🏻) I wear XS reg. https://liketk.it/6owFE"
+    - img "影片片段"
+  - link "🍂 56 new season outfit ideas, for when you don’t know what to wear 📌 Day to day casual & smart casual Autumn looks for feeling comfortable but still put together! Which look is your favourite?! All of my outfits are on my LTK- the link is in my bio or you can search MISSY ELZ on the LTK app + you can also follow me on there & subscribe for daily outfit inspo 🫶🏼 輪播廣告":
+    - /url: /missy_elz/p/DdyE3R8CHRD/
+    - img "🍂 56 new season outfit ideas, for when you don’t know what to wear 📌 Day to day casual & smart casual Autumn looks for feeling comfortable but still put together! Which look is your favourite?! All of my outfits are on my LTK- the link is in my bio or you can search MISSY ELZ on the LTK app + you can also follow me on there & subscribe for daily outfit inspo 🫶🏼"
+    - img "輪播廣告"
+  - 'link "15% off this weekend 🙌🏻 Comment SHOP & I’ll dm you the links 🫶🏼 Which look is your favourite? Also, which argyle knit should I keep- grey or navy? I can’t decide 😩 https://liketk.it/6okda #hmoutfit #autumnoutfitideas #zarajeans #autumnstyling #fallstyleinspo 影片片段"':
+    - /url: /missy_elz/reel/DdvblNbokh8/
+    - 'img "15% off this weekend 🙌🏻 Comment SHOP & I’ll dm you the links 🫶🏼 Which look is your favourite? Also, which argyle knit should I keep- grey or navy? I can’t decide 😩 https://liketk.it/6okda #hmoutfit #autumnoutfitideas #zarajeans #autumnstyling #fallstyleinspo"'
+    - img "影片片段"
+  - 'link "Styling the staples: Grey jumper edition 🧶 Comment SHOP if you’d like me to dm you the links 🫶🏼 A classic grey crew neck jumper is a real wardrobe staple for me- simple, timeless & incredibly versatile. Which look is your favourite? I wear a size small. https://liketk.it/6ocik 輪播廣告"':
+    - /url: /missy_elz/p/DdrTInECBon/
+    - 'img "Styling the staples: Grey jumper edition 🧶 Comment SHOP if you’d like me to dm you the links 🫶🏼 A classic grey crew neck jumper is a real wardrobe staple for me- simple, timeless & incredibly versatile. Which look is your favourite? I wear a size small. https://liketk.it/6ocik"'
+    - img "輪播廣告"
+  - 'link "ad @hm Autumn outfit idea 🍂 comment SHOP & I’ll dm you the links 🫶🏼 My FAVOURITE jumper now comes in grey- I’ve worn my other ones so much & so I couldn’t resist this one- such a staple piece! (It comes in grey, cream, navy, mole, camel & black!) Size details 👇🏼 Jumper: small Cargos: 8 Checked jacket: small Boots are true to size https://liketk.it/6o1oT 影片片段"':
+    - /url: /missy_elz/reel/DdmDlhMoCXc/
+    - 'img "ad @hm Autumn outfit idea 🍂 comment SHOP & I’ll dm you the links 🫶🏼 My FAVOURITE jumper now comes in grey- I’ve worn my other ones so much & so I couldn’t resist this one- such a staple piece! (It comes in grey, cream, navy, mole, camel & black!) Size details 👇🏼 Jumper: small Cargos: 8 Checked jacket: small Boots are true to size https://liketk.it/6o1oT"'
+    - img "影片片段"
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "關於":
+    - /url: https://about.instagram.com/
+    - generic: 關於
+  - link "部落格":
+    - /url: https://about.instagram.com/blog/
+    - generic: 部落格
+  - link "工作機會":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: 工作機會
+  - link "使用說明":
+    - /url: https://help.instagram.com/
+    - generic: 使用說明
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "隱私":
+    - /url: /legal/privacy/
+    - generic: 隱私
+  - link "使用條款":
+    - /url: /legal/terms/
+    - generic: 使用條款
+  - link "地點":
+    - /url: /explore/locations/
+    - generic: 地點
+  - link "熱門":
+    - /url: /popular/
+    - generic: 熱門
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "聯絡人上傳和非用戶":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: 聯絡人上傳和非用戶
+  - link "Meta 驗證":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta 驗證
+  - generic: 中文(台灣)
+  - img "向下雙箭頭圖示"
+  - combobox "切換顯示語言":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)" [selected]
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026Instagram from Meta
+- button "訊息":
+  - generic "訊息":
+    - img "訊息"
+    - generic: 訊息
+    - button "用戶虛擬替身 Víctor Sanchego":
+      - img "用戶虛擬替身"

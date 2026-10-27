@@ -1,0 +1,62 @@
+{
+  "purpose": "Primary current-film-used range diagnostic; not IG delivery or gait pass",
+  "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\editorial_reset_2026-10-21\\gait_continuity_2026-10-22\\cadence_master_trial_01\\QA_2026-10-22\\original_used_left_trial_right_native_4p5s.mp4",
+  "sha256": "bb7cf0ec9cdb7bb5eb3e67aa0a5ff23c2d07768baa9c393f5eb121de74891d0a",
+  "bytes": 2803605,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      640
+    ],
+    "size": [
+      720,
+      640
+    ],
+    "rotate": 0,
+    "duration": 4.5
+  },
+  "decoded_frames": 108,
+  "frame_derived_duration_seconds": 4.5,
+  "source_sha256": "9707b42d230466ef2c2088a926ec45745d546d717c0fa9756d1b8e52ac0ab21d",
+  "baseline_sha256": "e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+  "left": "Original F04 native[0,108), exact range used in21.29sfilm",
+  "right": "New trial native[0,108)",
+  "native_temporal_mapping": "outputi maps originali/triali at24fps",
+  "each_panel": [
+    360,
+    640
+  ],
+  "uniform_scale": 0.5,
+  "output_dimensions": [
+    720,
+    640
+  ],
+  "every_frame_compared": 108,
+  "mean_frame_MAE": 3.0466661710176615,
+  "worst_frame_MAE": 3.390297309027778,
+  "minimum_frame_PSNR_dB": 34.1380098803294,
+  "codec_tolerance": {
+    "worst_frame_MAE_max": 3.5,
+    "minimum_PSNR_dB_min": 32
+  },
+  "within_codec_tolerance": true,
+  "silent": true,
+  "text": false,
+  "crop": false,
+  "retime": false,
+  "freeze": false,
+  "duplicate_or_looped_frames": false,
+  "transitions": false,
+  "new_full_source_frames_preserved": 145,
+  "baseline_full_source_frames_preserved": 145,
+  "protected_sources_unchanged": true,
+  "previous_6s_diagnostic_preserved": true,
+  "previous_6s_diagnostic_internal_only_reason": "Original f108..143 not used in current film; not attribution evidence",
+  "continuous_visual_playback_performed": false,
+  "gait_target_met": null,
+  "dynamic_visual_QA_pass": null
+}

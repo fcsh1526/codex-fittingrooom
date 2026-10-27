@@ -1,0 +1,73 @@
+{
+  "reel_id": "2026-W37-M01-reel",
+  "look_id": "2026-W37-004-L01",
+  "trial_id": "M01_A_L01_fixed_full_v1_01",
+  "date": "2026-10-01",
+  "status": "decoded_sampled_review_complete_continuous_qa_pending",
+  "source_post_url": "https://grok.com/imagine/post/6ff969d3-1fb5-4c34-b459-852b355c6eb0?conversation=3b3e5491-81b8-4cb3-8337-019b36c8a6ce",
+  "input_still": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L01/reel/2026-W37-004-L01_M01_S01_full_start_candidate_v1.png",
+  "still_user_approval": "可以，沿用這張",
+  "input_role": "Single First frame, Add last frame control visible; no Last frame.",
+  "identity_reference": "No separate saved character reference attached. Approved near-frontal outfit still is identity input.",
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M01_A_L01_motion_v1.md",
+  "ui_settings": {
+    "resolution": "720p",
+    "duration": "6s",
+    "audio": "off (checkbox0 confirmed)",
+    "model": "unnamed in visible UI"
+  },
+  "video": {
+    "output_path": "10_automation/runs/2026-W37/reels/videos/M01_A_L01_fixed_full_v1_01.mp4",
+    "sha256": "7852c11ec77a336dab80ccc2bc5bcf9a37855f176e5e5cf7ee4afa614c31c5ae",
+    "resolution": [
+      720,
+      1264
+    ],
+    "fps": 24,
+    "duration_seconds": 6.041666666666667
+  },
+  "qa": {
+    "decode_scan": {
+      "source": "10_automation\\runs\\2026-W37\\reels\\videos\\M01_A_L01_fixed_full_v1_01.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1264
+        ],
+        "size": [
+          720,
+          1264
+        ],
+        "rotate": 0,
+        "duration": 6.04
+      },
+      "decoded_frames": 145,
+      "decoded_seconds": 6.041666666666667,
+      "black_candidate_frames": [],
+      "near_identical_frame_pairs": [],
+      "note": "Technical signals only. Continuous visual review and user approval remain separate."
+    },
+    "sample_sheet": "reels/qa/M01_A_L01_fixed_full_v1_01/checkpoints.jpg",
+    "sampled_review": "Nine timepoints inspected. Near-frontal face, gray ankle-clear trousers and burgundy T intersections remain readable; complete shoes remain in frame. Slight scale increase with the short approach; no obvious sampled background morph. Initial waiting may be trimmed. Full playback, foot/strap motion and eventual two-look cut still pending.",
+    "provisional_selection_seconds": [
+      0.75,
+      4.5
+    ],
+    "usable_seconds": null,
+    "continuous_watch_done": false,
+    "user_visual_approval": null
+  },
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": null
+  },
+  "upload": {
+    "status": "assistant_upload_success",
+    "method": "waitForEvent(filechooser) then tab.click(actual AX Upload media button) then chooser.setFiles; verify exact filename checkbox selected and First-frame attachment.",
+    "prior_failure_cause": "Unresolved; do not conclude permanent unavailable capability."
+  }
+}

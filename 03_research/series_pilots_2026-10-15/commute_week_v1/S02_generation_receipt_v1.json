@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "S02",
+  "look_id": "ED-W42-COMMUTE-V1-L02",
+  "mode": "built_in_imagegen",
+  "use_case": "photorealistic-natural",
+  "prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S02_generation_prompt_v1.txt",
+  "prompt_word_count": 196,
+  "input_roles": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "role": "identity"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "role": "normal body proportions and hair"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+      "role": "approved S01 scene, framing, person scale, walking direction and G04 shoes only",
+      "user_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S01_user_still_approval_2026-10-15.json"
+    }
+  ],
+  "generated_original_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-7bdd9df7-bfea-44f0-bdb1-5a6ebf378c57.png",
+  "project_asset": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+  "sha256": "6efa44841ae892ce1a82fd42fc046ae60e295c002b23834453d37b594342f2d1",
+  "actual_pixels": [
+    941,
+    1672
+  ],
+  "requested_aspect_ratio": "9:16",
+  "exact_integer_9_16": false,
+  "aspect_note": "Native9:16 generation request; raster rounding produces941x1672. No crop/stretch performed. Final video normalization remains to be recorded.",
+  "assistant_review": {
+    "identity_and_proportions": "M03 v3 face/body recognizable; scale comparable to approved S01",
+    "wardrobe": "cream/navy windowpane-check pointed-collar shirt tucked into charcoal straight trousers, same black low-heeled shoes, black shoulder bag",
+    "pose": "matches S01 forward-right walking pose and slightly frame-left gaze",
+    "scene": "wall, walkway, major geometry, light and ground shadows closely align with S01",
+    "join_readiness": "static pair only; gait/camera/background motion and0.75s join remain untested",
+    "blocking_static_defects_seen": []
+  },
+  "user_visual_approval": null,
+  "dynamic_qa": null,
+  "costs": {
+    "generation_calls": 1,
+    "targeted_edits": 0,
+    "active_minutes": null,
+    "wait_seconds_observed_tool": 52.8
+  },
+  "user_visual_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/S02_user_still_approval_2026-10-15.json"
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "file": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/M03_commute_week_inspiration_v2_refined.mp4",
+  "sha256": "fe796bb8aa71fbebda3af262b94fde868abf11be2bf6b048a2cda66bad66bb65",
+  "pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "decoded_frames": 474,
+  "seconds": 19.75,
+  "question_context": "使用者在精確19.75秒M03一週五套穿搭靈感v2_refined預覽後，對節奏、重複視角／背景、通勤人流及人物都會動勢提出以下完整回饋。此欄為上下文摘要，不冒充未提供的原問句逐字稿。",
+  "question_record_type": "context_summary_no_verbatim_question_asserted",
+  "user_quote": "節奏太慢，運鏡都維持在人物的45度角、背景大同小異沒有變換、沒有背景上班人潮、人物走路像普通散步、應該具備俐落灑脫的都會女性特色、應該具備廣告影片那樣吸引人。",
+  "visual_acceptance": "revision_requested",
+  "status": "revision_requested_new_urban_source_required",
+  "user_reported_points": [
+    "節奏太慢",
+    "運鏡都維持在人物的45度角",
+    "背景大同小異沒有變換",
+    "沒有背景上班人潮",
+    "人物走路像普通散步",
+    "應該具備俐落灑脫的都會女性特色",
+    "應該具備廣告影片那樣吸引人"
+  ],
+  "feedback_scope": "This exact refined recut requires revision. Requested appeal comes from a brisk, confident metropolitan commuting character, more purposeful camera/background variety and believable office-commute foot traffic. Reordering or trimming the same strolling sources alone is not accepted as resolving these source-level requirements.",
+  "evidence_boundary": "The45-degree statement is the user visual description, not a separately measured camera-angle value. Pacing, ordinary-stroll impression and attractiveness are recorded as user feedback, not universal viewer/IG conclusions.",
+  "retained_requirements": {
+    "model_id": "M03",
+    "existing_five_outfits_retained": true,
+    "viewer_takeaway": "挑選一週穿搭靈感",
+    "baked_text": false,
+    "postproduction_source_speed": "native unchanged; no synthetic speed-up inferred",
+    "soft_transition_seconds_approximately": 0.75,
+    "new_still_requires_exact_user_visual_approval_before_animation": true
+  },
+  "advertisement_reference_scope": "The new request concerns attraction, urban momentum and a poised metropolitan woman. It does not request an aloof luxury-brand or luxury-hotel advertising mood; the approachable everyday-fashion direction remains.",
+  "not_inferred": [
+    "Approval of this v2_refined film or a future film",
+    "Rejection of the five existing outfits or single-model concept",
+    "Adoption of grey-trouser multiway styling",
+    "Rejection of approximately0.75s soft transitions",
+    "A specific new target length or arbitrary postproduction acceleration",
+    "Account-wide fixed-series adoption or a new weekly production quota",
+    "Withdrawal of historical exact-still or first-pair acceptances",
+    "Publication, Drive replacement or audience-performance results"
+  ],
+  "normal_speed_full_playback_user_self_report": null,
+  "assistant_continuous_playback": false,
+  "new_complete_film_approval": null,
+  "prior_exact_approvals_rescinded": false,
+  "publishing_files_replaced": []
+}

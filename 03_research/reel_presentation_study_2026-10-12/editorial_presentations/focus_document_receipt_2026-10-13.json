@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13",
+  "status": "planning_only",
+  "pdf": "output/pdf/Mira_細節與配件觀看路線分鏡_2026-10-13.pdf",
+  "sha256": "7f6f694b470bf4896a9a18166a9690a59ec95e02ec42a57a941fc31facee42b2",
+  "pages": 6,
+  "visual_review": {
+    "all_pages_viewed": true,
+    "render_dpi": 80,
+    "clipping_or_overlap_observed": false,
+    "images": [
+      "tmp/pdfs/mira_focus_storyboards_2026-10-13/page-1.png",
+      "tmp/pdfs/mira_focus_storyboards_2026-10-13/page-2.png",
+      "tmp/pdfs/mira_focus_storyboards_2026-10-13/page-3.png",
+      "tmp/pdfs/mira_focus_storyboards_2026-10-13/page-4.png",
+      "tmp/pdfs/mira_focus_storyboards_2026-10-13/page-5.png",
+      "tmp/pdfs/mira_focus_storyboards_2026-10-13/page-6.png"
+    ]
+  },
+  "media_execution_resumed": false,
+  "external_writes": false
+}

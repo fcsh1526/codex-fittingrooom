@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-20",
+  "mode": "built-in image_gen",
+  "intent": "Upper wardrobe-only derivative from exact approved close L03 framing",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F03_pushin_endpoint_01\\F03_M03_L03_close_endpoint_candidate_A.png",
+      "sha256": "358225290a6b07ebb36628f4025b91260bb90e202fe1e8f8a4f2b8da70842ada"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/F04/F04_M03_L02_start_candidate_A.png",
+      "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "prompt": "prompt.txt",
+  "prompt_sha256": "ad4af347114ab5f0453f38f444371067e9bd5c5d2068ed939d57d12aaa42d5a4",
+  "generated_source": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-4d54c1c5-9351-4450-850f-eeb476048d7f.png",
+  "candidate": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F04_close_start_01\\F04_M03_L02_close_start_candidate_A.png",
+  "sha256": "40d15546e41699cc84787683b53a18e63ad074553e84eee1b193e20cd7ae3ce3",
+  "bytes": 2020551,
+  "dimensions": [
+    941,
+    1672
+  ],
+  "generation_calls": 1,
+  "targeted_edits": 0,
+  "tool_wait_seconds": 49.9,
+  "active_minutes": null,
+  "root_review": "Same close pose, head/eye placement, near-side black bag, charcoal trousers and soft background visually retained. Upper clothes now cream/navy check shirt, pointed open collar, rolled forearm sleeves, tucked waist. No feet or crossing paint in frame. Not a pixel identity or guaranteed seamless dynamic join.",
+  "status": "exact still approved by user",
+  "grok_uploaded": false,
+  "motion_acceptance": null,
+  "approval_receipt": "user_still_approval.json"
+}

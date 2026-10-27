@@ -1,0 +1,156 @@
+{
+  "trial_id": "M02_fixed_camera_backward_step_2026-10-06",
+  "status": "matched_B_v3_user_still_approved_grok_user_reported_recovered_new_source_not_submitted",
+  "authorization": "User ok to the proposed fixed-camera backward-step next trial",
+  "reference_source": "https://www.instagram.com/gaya_yaa/reel/DY6W8peI7LC/",
+  "model": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "source_assets": [
+    {
+      "look_id": "2026-W37-001-L01",
+      "role": "approved_full_first_frame",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+      "sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e"
+    },
+    {
+      "look_id": "2026-W37-001-L02",
+      "role": "approved_full_first_frame",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+      "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a"
+    }
+  ],
+  "identity_reference": {
+    "canonical_version": "v3",
+    "face_exists": true,
+    "full_exists": true,
+    "ui_name": "Mira M02 v3"
+  },
+  "editorial_limit": "New near A start already shows dress hem; the retreat adds shoes and complete proportion. A source is trimmed by actual join geometry, not assumed to match B full master at six seconds.",
+  "new_stills_generated": 5,
+  "attempts": [
+    {
+      "folder": "grok_A_attempt_01",
+      "source_retrieved": true,
+      "sha256": "e95bf0a66a22b22c600ee51c59226b51125f4456fc330fe3e35ea2365a7d7106",
+      "qa": "qa/A1/independent_review.md",
+      "mechanism_pass": false,
+      "reason": "Rear foot brought forward; stance closed rather than whole body retreat. No obvious major sampled wardrobe/face/background jump."
+    },
+    {
+      "folder": "grok_A_attempt_02",
+      "source_retrieved": true,
+      "retry_of": "grok_A_attempt_01",
+      "progress_observed": true,
+      "post_url": "https://grok.com/imagine/post/26cd09a6-a5d6-403c-a360-85535c89cd6d?conversation=4878e8a0-e587-41a5-aa24-75954fbeb565",
+      "sha256": "320a62ed7d4c59604b738b6b91d72d56df0cefe00bd1ba42acab51a6fd768d82",
+      "qa": "qa/A2/independent_review.md",
+      "mechanism_pass": false,
+      "reason": "Rear foot again moves forward/outward; whole body does not retreat/shrink. No obvious major sampled wardrobe/face/background jump. Same-setup single retry bound reached."
+    }
+  ],
+  "new_video_sources_retrieved": 4,
+  "full_start_attempt_bound_reached": true,
+  "revised_storyboard": "revised_storyboard_v3.md",
+  "near_start_candidate": {
+    "look_id": "2026-W37-001-L01",
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/backward_step_v2/2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v2.png",
+    "sha256": "e85778d9d38b7541cc5cf96fb73ea047c26da22c8179fe10b8c30f5c38356cb7",
+    "prompt_set": [
+      "near_start_v2_prompt.txt",
+      "near_start_v2_headroom_edit_prompt.txt"
+    ],
+    "generation_method": "built_in_image_gen",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "headroom_review": "v1 around6.5%; one targeted edit yields v2 around8.4%, manual visual estimate",
+    "previous_variant": {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/backward_step_v2/2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v1.png",
+      "sha256": "a04ca387c4ac1553857e9a63343f7977b7d8f81a25c830dd5394f638e48407c2",
+      "status": "retained_superseded_before_user_approval",
+      "review": "near_start_v2_independent_review.md"
+    },
+    "status": "user_visual_approved",
+    "user_visual_approval": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/backward_step_v2/visual_approval_v2_2026-10-06.json",
+    "dynamic_test_started": true,
+    "purpose": "Closer woman in the same library framing; approved near start already shows hem, retreat reveals shoes and complete proportion.",
+    "selected_variant_review": "near_start_v2_headroom_independent_review.md",
+    "review_summary": "Headroom around8.4%; major identity/wardrobe and background landmarks retained in root/independent visual review. Shoes/start feet invisible; future motion untested."
+  },
+  "output": "M02_body_distance_review_v1.mp4",
+  "dynamic_qa": {
+    "stage": "sources_sampled_pass_native_join_rejected",
+    "source_mechanism": "near_start_A1_retreat_observed_old_full_start_A1_A2_failed",
+    "review_method": "25_full_checkpoints_5_head_windows_145_consecutive_native_lower_body_windows",
+    "assistant_continuous_full_watch": false,
+    "new_composite": "8.25s diagnostic retained; visible double-face residual, not submitted for approval",
+    "near_start_source": "retrieved_reviewed"
+  },
+  "user_video_approval": null,
+  "active_minutes": null,
+  "source_speed_modified": false,
+  "forced_action_synchronization": false,
+  "planned_dissolve_seconds": 0.75,
+  "text": "none",
+  "audio": "none",
+  "first_wave_modified": false,
+  "cloud_write": false,
+  "publication": false,
+  "global_template_adopted": false,
+  "audience_performance": null,
+  "B_started": true,
+  "near_start_attempts": [
+    {
+      "folder": "near_start_A_attempt_01",
+      "input_receipt": "near_start_A_attempt_01/input_receipt.json",
+      "send_clicks": 1,
+      "generation_completion": true,
+      "source_retrieved": true,
+      "mechanism_pass": true,
+      "sha256": "be49906fa1ec7397bb456acc1ce7947325e71b4ce5a0692d7235d878ad6017ea",
+      "qa": "qa/near_A1/independent_review.md",
+      "quality_gate": "sampled_identity_wardrobe_background_and_continuous_lower_body_sequence_pass",
+      "actual_motion": "multiple backward steps over most of six seconds, no long final settled hold",
+      "information_gain": "shoes and complete proportion"
+    }
+  ],
+  "B_source_plan": "B_source_plan.md",
+  "B_attempts": [
+    {
+      "folder": "grok_B_attempt_01",
+      "send_clicks": 1,
+      "source_retrieved": true,
+      "sha256": "afa46cced85bf886029940f36b7bbbd0bf188b5ebe49d8ac5d7f5f278ea62e5b",
+      "mechanism_pass": true,
+      "quality_gate": "root_sampled_identity_wardrobe_background_and_all_lower_body_sequence",
+      "qa": "qa/B1/",
+      "root_review": "grok_B_attempt_01/sampled_review.json"
+    }
+  ],
+  "matched_second_start": {
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/2026-W37-001-L02_M02_body_distance_matched_start_candidate_v3.png",
+    "sha256": "f8098adfefc9be66ffcfea9bc3bad424e3f5e34a30a343d50dc4478f10af16e6",
+    "status": "user_visual_approved",
+    "generation_receipt": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/generation_receipt_v3.json",
+    "base_count": 1,
+    "uploaded_to_Grok": false,
+    "new_B_source_generated": false,
+    "targeted_edit_count": 2,
+    "additional_strap_correction": true,
+    "independent_static_QA": "v3_limited_static_pass_pending_user_approval",
+    "independent_review": "qa/matched_B_start_v2/independent_review_v3.md",
+    "user_visual_approval": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/body_distance_matched_start_v2/visual_approval_v3_2026-10-07.json"
+  },
+  "protected_media_hashes_matched": true,
+  "browser_cleanup": "After runtime bindings were discarded, reacquiring the known temporary tab6 returned Tab not found in browser2; no unknown user tab closed.",
+  "grok_current_gate": {
+    "date": "2026-10-07",
+    "status": "user_reported_recovered_not_yet_ui_rechecked",
+    "new_B_send_clicks": 0,
+    "new_B_source_retrieved": false
+  }
+}

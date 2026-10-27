@@ -1,0 +1,73 @@
+{
+  "recorded_date": "2026-10-16",
+  "model_id": "M03",
+  "look_id": "ED-W42-COMMUTE-V1-L02",
+  "shot_id": "R02",
+  "status": "user_approved",
+  "tool": "built_in_imagegen",
+  "generation_calls": 1,
+  "targeted_edits": 0,
+  "tool_wall_seconds_observed": 52.5,
+  "original_generated_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-94ed91ea-d028-4f2f-9a7c-84efcb6ea11f.png",
+  "asset": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_M03_L02_medium_candidate_A.png",
+  "sha256": "97cbeb0b9b91a8b9b1b3070665578ed664e64b357d1f4cd1046a7966ae895594",
+  "pixels": [
+    941,
+    1672
+  ],
+  "requested_aspect_ratio": "9:16",
+  "crop_or_stretch": false,
+  "input_roles": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "role": "identity only"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "role": "normal proportions and hair only"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+      "sha256": "6efa44841ae892ce1a82fd42fc046ae60e295c002b23834453d37b594342f2d1",
+      "role": "approved exact L02 wardrobe only"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/QA/frames/frame_000108.png",
+      "sha256": "d8b9ad7043589f4e394216882c6d93e00cc9d59b83324b5c121d7f5bf5e4ffe3",
+      "role": "actual R01 source-frame composition/scene/scale only"
+    }
+  ],
+  "prompt": {
+    "path": "R02_still_prompt.txt",
+    "sha256": "413a64791f4b7b0ed14c699f78fa850cb14e2986ee19ea9b8e1871a9e5e5b0e3",
+    "words": 204
+  },
+  "still_review": {
+    "identity": "recognizable M03 face/hair; new exact visual decision remains user gate",
+    "wardrobe": "cream/navy checked pointed-collar shirt, rolled sleeves, tucked charcoal trousers and small black shoulder bag retained; no blazer",
+    "framing": "native head-to-knee, near frontal with frame-right gaze and room at right; eyes/hair sit slightly lower than R01 frame108, not a proven exact match",
+    "scene": "glass office street/daylight/commuters continue visual context; people positions and building details differ, not certified identical geometry",
+    "texture": "fine ornamental surface texture remains on trousers similar to original approved wardrobe; no removal achieved or claimed",
+    "motion_or_join_proven": false
+  },
+  "user_approval": {
+    "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_user_still_approval_2026-10-16.json",
+    "status": "user_approved_exact_still",
+    "user_quote": "可以，沿用這張",
+    "sha256": "97cbeb0b9b91a8b9b1b3070665578ed664e64b357d1f4cd1046a7966ae895594",
+    "pixels": [
+      941,
+      1672
+    ],
+    "scope": "This exact still may enter its ownR02 motion; no motion/join/full-film/background dynamic approval."
+  },
+  "grok_generation_allowed": true,
+  "film_approval": null,
+  "publishing_files_replaced": [],
+  "previous_status": "candidate_pending_exact_user_visual_approval",
+  "user_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R02_connected_check/R02_user_still_approval_2026-10-16.json",
+  "motion_status": "not_generated_by_this_state_update",
+  "motion_or_join_approval": null
+}

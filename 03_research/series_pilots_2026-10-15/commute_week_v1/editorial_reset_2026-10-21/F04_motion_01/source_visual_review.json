@@ -1,0 +1,17 @@
+{
+ "date":"2026-10-21",
+ "source_asset_id":"3d274c53-ef45-4fa2-a652-5db267c24630",
+ "source_sha256":"e32ee2f282b80dec8b8666d6755c9d2e77e5def6850bc53c89b5333927cd2208",
+ "status":"eligible_for_explicitly_disclosed_research_viewing_only_not_full_scene_or_user_dynamic_pass",
+ "generation_count":1,
+ "actual_controls_evidence":"Grok agent UI reported first+4⅓s keyframe+M03v3face/full accepted, last omitted; internal call not directly visible",
+ "technical_report":"QA_2026-10-21/technical_report.json",
+ "inspected":["checkpoints_25.jpg","dense_frames080_to110.jpg","anchor_comparison.jpg","first18.jpg","frame_000024.png","frame_000090.png","frame_000104.png"],
+ "findings":["Complete head and both shoes remain in frame across samples; checked shirt, charcoal trousers and black bag remain readable","Same flank gradually shows more shirtfront; no observed abrupt crop or scale jump","Sourcef104 framing/pose broadly close to late guide, not proof of literal pixel pinning","Alternating strides visible without obvious sampled teleport, but no measured stance-foot tracking","Unseen short stairs appear from picture-right between planters around0.5–1s, pass behind subject and toleft; scene detail absent from both stills. It appears as an edge reveal rather than demonstrated central morph, but membership in shared route is unverified","Sourcef17 limb phase differs from originalF03f108, so actual18frame composite needs dense/user viewing before judging comfort"],
+ "root_continuous_normal_speed_playback_confirmed":false,
+ "source_background_pass":null,
+ "user_dynamic_approval":"Accepted within exact385frame four-look research preview, including disclosed stairs/double edges; no isolated-source or zero-slide/metric-site proof",
+ "user_acceptance_receipt":"../four_look_review/user_video_acceptance.json",
+ "next":"Separate385frame four-look work-in-progress review to judge new join and unexpected stairs; no blind retry, old sources preserved",
+ "F05_generation_started":false
+}

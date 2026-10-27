@@ -1,0 +1,157 @@
+{
+  "week": "2026-W41",
+  "model": "M02",
+  "look_ids": [
+    "2026-W41-003-L01",
+    "2026-W41-003-L02"
+  ],
+  "output_path": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+  "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+  "native_pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 216,
+  "duration_seconds": 9.0,
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W41/reels/M02/A_attempt_01/source.mp4",
+      "sha256": "571c5ddc0ef77f47d21efabc385fdac0c405680dde8ad511c449ced50c36b437",
+      "selected_frames_half_open": [
+        0,
+        114
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W41/reels/M02/B_attempt_01/source.mp4",
+      "sha256": "7924c288d65aacf9ce831d14787e95c349441a5e4ae5229510dff3155125e0c5",
+      "selected_frames_half_open": [
+        24,
+        144
+      ]
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      96,
+      114
+    ]
+  },
+  "source_speed": "unchanged",
+  "framing_transform": "none",
+  "freeze_reverse_replay": false,
+  "text": "none",
+  "audio": "none",
+  "interval_reason": "Keep A unchanged. V1 B0 entrance has a lower head position and wider face double image during the dissolve. Enter B at1s after its initial forward-foot motion, when face/shoe placement is nearer A's settled pose; retain B trailing-foot catch-up and later natural settle through6s. Native speed, one18-frame0.75s dissolve, no pixel framing adjustment. V1 remains preserved for comparison; neither version is user-approved.",
+  "technical_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 9.0
+    },
+    "decoded_frames": 216,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 9.0,
+    "individual_PTS_measured": false
+  },
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      9,
+      18,
+      27,
+      36,
+      45,
+      54,
+      63,
+      72,
+      81,
+      90,
+      99,
+      108,
+      116,
+      125,
+      134,
+      143,
+      152,
+      161,
+      170,
+      179,
+      188,
+      197,
+      206,
+      215
+    ],
+    "face_checkpoint_indices": [
+      0,
+      54,
+      108,
+      161,
+      215
+    ],
+    "transition_boundary_indices": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "source_sampled_visual_review": "Each source:25 full-frame and5 face checkpoints plus all145 consecutive native lower-body windows inspected. No apparent gross leg/shoe/pants collapse or foot teleport in inspected windows. Both contain catch-up and stance adjustments beyond an exact single step. Face/outfit/cafe broadly coherent in samples. Continuous normal-speed comfort remains pending.",
+  "combined_visual_QA": "25 whole-film and5 face checkpoints plus all34 transition-boundary full/head windows inspected. Both complete outfits are readable outside the dissolve. V2 enters B at1s, narrowing the vertical face separation versus B0 in v1; residual double-face/body and cafe-geometry overlap remains during the intended0.75s dissolve. No apparent gross face, hand, bag, shoe or background collapse in inspected source/checkpoint windows. This sampling does not establish full normal-speed comfort or a complete identity-stability pass; user playback review remains required.",
+  "continuous_playback_review": false,
+  "user_approval": "10_automation/runs/2026-W41/reels/M02/review_v2/user_picture_approval_2026-10-08.json",
+  "status": "user_picture_accepted",
+  "prior_batch_write": false
+}

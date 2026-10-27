@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-16",
+  "delivery_week": "2026-W42",
+  "status": "exact_approved_existing_picture_tracks_copied_for_delivery_preparation",
+  "authorization_context": "User asks to receive the two existing accepted candidates; root handles captions and Google Drive. This task only copies exact accepted files and writes this manifest.",
+  "items": [
+    {
+      "number": "01",
+      "model_id": "M03",
+      "filename": "01_午休也能穿的西外搭配_Reel.mp4",
+      "source_path": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+      "source_absolute_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\editorial_sequence_reset_2026-10-13\\four_shot_review_v1\\M03_lunch_outing_two_looks_trial_v1.mp4",
+      "local_path": "10_automation/runs/2026-W42/reels/delivery_existing_2026-10-16/01_午休也能穿的西外搭配_Reel.mp4",
+      "absolute_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W42\\reels\\delivery_existing_2026-10-16\\01_午休也能穿的西外搭配_Reel.mp4",
+      "look_ids": [
+        "2026-W41-004-L01",
+        "2026-W41-004-L02"
+      ],
+      "source_weeks": [
+        "2026-W41"
+      ],
+      "source_week_evidence": {
+        "path": "03_research/editorial_sequence_reset_2026-10-13/four_shot_edit_receipt.json",
+        "field": "sources[].look_id",
+        "note": "Source-week prefixes taken from documented exact look IDs, not delivery date."
+      },
+      "duration_seconds": 10.75,
+      "frames": 258,
+      "fps": 24.0,
+      "pixels": [
+        720,
+        1280
+      ],
+      "size_bytes": 4387713,
+      "md5": "de2d2a50e052f247825849e4bb1d4164",
+      "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+      "copy_verified_byte_identical": true,
+      "existing_destination_reused": false,
+      "approval_receipt": "03_research/editorial_sequence_reset_2026-10-13/four_shot_user_approval_2026-10-13.json",
+      "approval_receipt_absolute_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\editorial_sequence_reset_2026-10-13\\four_shot_user_approval_2026-10-13.json",
+      "approval_receipt_sha256": "02aebb368db36693bceecc0a36fb7756a5a768e6ac6bc7ed87c9e3f9f36543a6",
+      "approval_date": "2026-10-13",
+      "user_quote": "ok",
+      "approval_scope": "Exact research film visual/editorial acceptance, including current0.75s dissolve joins. Not replacing weekly publishing files, adopting a mandatory account-wide format, confirming production-time targets or proving audience results.",
+      "technical_evidence_path": "03_research/editorial_sequence_reset_2026-10-13/four_shot_edit_receipt.json",
+      "technical_evidence_reused_no_rescan": true,
+      "prior_QA_limits_preserved": {
+        "A1": "Initial one-step/settle, not sustained crossing.",
+        "A2": "Already seated torso adjustment; no sit-down action.",
+        "B1": "Looks toward image-left rather than prompted right.",
+        "B2": "Mainly forward step then posture change; not sustained departure."
+      },
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "baked_text": false,
+      "audio": false,
+      "generation_performed": false,
+      "encoding_or_media_edit_performed": false,
+      "published_at": null,
+      "post_url": null,
+      "current_publication_verification": "Handled by root live audit; no publishing check or claim by this copy task."
+    },
+    {
+      "number": "02",
+      "model_id": "M02",
+      "filename": "02_薄襯衫與洋裝_Reel.mp4",
+      "source_path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+      "source_absolute_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-05\\orientation_study\\M02_parallel_angle_review_v2.mp4",
+      "local_path": "10_automation/runs/2026-W42/reels/delivery_existing_2026-10-16/02_薄襯衫與洋裝_Reel.mp4",
+      "absolute_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W42\\reels\\delivery_existing_2026-10-16\\02_薄襯衫與洋裝_Reel.mp4",
+      "look_ids": [
+        "2026-W37-001-L01",
+        "2026-W37-001-L02"
+      ],
+      "source_weeks": [
+        "2026-W37"
+      ],
+      "source_week_evidence": {
+        "path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.json",
+        "field": "look_ids",
+        "note": "Source-week prefixes taken from documented exact look IDs, not delivery date."
+      },
+      "duration_seconds": 6,
+      "frames": 144,
+      "fps": 24.0,
+      "pixels": [
+        720,
+        1280
+      ],
+      "size_bytes": 1614800,
+      "md5": "cab353ea661cf65f33931628067e0c40",
+      "sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569",
+      "copy_verified_byte_identical": true,
+      "existing_destination_reused": false,
+      "approval_receipt": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/user_approval_angle_v2.json",
+      "approval_receipt_absolute_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-05\\orientation_study\\user_approval_angle_v2.json",
+      "approval_receipt_sha256": "95a8d894a59f7696ad056eeb5b914f3eb11781f0bdbe0b86a688005cee56c5f0",
+      "approval_date": "2026-10-05",
+      "user_quote": "恩 ，不錯。一開始兩邊沒有同步轉身，但是再看第二次後反而覺得不錯",
+      "approval_scope": "This exact independent research cut, including its native staggered turns.",
+      "technical_evidence_path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.json",
+      "technical_evidence_reused_no_rescan": true,
+      "prior_QA_limits_preserved": [
+        "B tote obscures lower shirt side; A bag partly obscures side.",
+        "Actual torso turn is more side-facing than nominal30degrees; exact angle not calibrated.",
+        "A turns around2.5–3s, B around4–4.5s; native phase difference retained.",
+        "New generated facial expressions differ; no sampled obvious identity swap; all-frame identity guarantee not claimed."
+      ],
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "baked_text": false,
+      "audio": false,
+      "generation_performed": false,
+      "encoding_or_media_edit_performed": false,
+      "published_at": null,
+      "post_url": null,
+      "current_publication_verification": "Handled by root live audit; no publishing check or claim by this copy task."
+    }
+  ],
+  "file_count": 2,
+  "verification": "Exact approved source SHA, existing technical facts and destination byte equality verified; no new scan, decode, render or encode.",
+  "source_files_modified": false,
+  "captions_written_by_this_task": false,
+  "shared_status_modified": false,
+  "external_uploads_by_this_task": [],
+  "publication_performed": false,
+  "research_generation_remains_paused": true
+}

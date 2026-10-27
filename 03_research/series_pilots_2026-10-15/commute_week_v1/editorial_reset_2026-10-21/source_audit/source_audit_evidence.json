@@ -1,0 +1,71 @@
+{
+  "purpose": "Read-only source trim feasibility; source frames copied without edits. No rendering or generation.",
+  "sources": {
+    "F01": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4",
+      "sha256": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+      "verified_unchanged_after": true,
+      "frames_inspected": [
+        0,
+        59,
+        60,
+        77
+      ],
+      "frame_hashes": {
+        "0": "6f5c07247df0cf1f0b232a256c7db976e5b5bd971adf90b5e5c4d5fa89bdd5b2",
+        "59": "43a065c49b72276f8842492665aa3ac95bbba87f229f712de99684c70f69c1d0",
+        "60": "334c6962a59e230d4a499e36d65d81aa112667bc052f4219cac6a2029426a93c",
+        "77": "b9bd09dd8e06879433d7d9687b9c0e228ac0796fe9f95551069395311e2ffa49"
+      }
+    },
+    "F02": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4",
+      "sha256": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+      "verified_unchanged_after": true,
+      "frames_inspected": [
+        0,
+        17,
+        37,
+        90,
+        107,
+        127,
+        144
+      ],
+      "frame_hashes": {
+        "0": "49e258a0f40e508d9b5c4204f05941f97e0d3ec557679472caa44f5fba3d2732",
+        "17": "743a7a2ecc5886872459c656a37a45c6b2242ca9bc1eafe800530b5d84fd0379",
+        "37": "4486815fa0888df9dfcafdc0094571ab057f6e77d4863642a743b2fc9158e025",
+        "90": "b23750d0930902ebc229c44ce55f097121929d6f57efabc61a98ca918bfa4b88",
+        "107": "dd9fecfd71af1e763ba1e22a74fc70cdd83b6e3781a788bead0a1b4059242be3",
+        "127": "7ace2500794245e6f04cbca3664086a9bec62bf14e64e3920ee4e74b3f3eabfc",
+        "144": "53e9ced8826f321008d2941be1e677d78affc60be716ca6ee4481e0f84a3da4b"
+      }
+    },
+    "F03": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4",
+      "sha256": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+      "verified_unchanged_after": true,
+      "frames_inspected": [
+        1,
+        18,
+        90,
+        91,
+        107,
+        108,
+        127,
+        144
+      ],
+      "frame_hashes": {
+        "1": "718dfdb55fe4d840e6cbea2c2d6b8c6485e5e329e650c591ba223429cda0cb32",
+        "18": "a3d9acc997ec709e8a36b68c80cbc5bd4836bb609e4cf122ec0e250f3d584808",
+        "90": "631c68dc9d0e77d5231c5d01260c060823e0ce18c48f0d24f9cfcd56b0dbf701",
+        "91": "915d8618c9dca7bd16482ec37ee8fca64aa6d3b6177f210de36a032f791e6526",
+        "107": "87072873105caa6612ffa0fdb44aeaee4910d232320a208fabb46fa9f1bbbd42",
+        "108": "62517bccb2d6d47c32666bcaab4734690eaf29567a9133f61c260cebd3861c44",
+        "127": "002a3794f27fd69449fe18b73da509cd0d99336e6e7464376682aa8e892d7fae",
+        "144": "c6fd85979ec086d3863d7b0123ace28a5bd66451eb1b0c80d93ecb8d97492ac9"
+      }
+    }
+  },
+  "assistant_continuous_playback": false
+}

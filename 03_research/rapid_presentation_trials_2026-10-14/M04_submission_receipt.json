@@ -1,0 +1,24 @@
+{
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "model": "M04",
+  "input_still_approval_record": "10_automation/runs/2026-W41/reels/M04/parallel_first_frame_user_approval_2026-10-08.json",
+  "asset_roles_agent_reported": {
+    "A_first_frame": "47b6bf83-510b-4ac3-ac63-51b9e5f6c32e",
+    "B_last_frame": "0c3f3221-77f3-4a56-a3f8-8c46e6cc017a",
+    "face": "a17c8ba2-3da1-46c4-a308-844387a0102a",
+    "full_proportion": "3e946490-8ff6-451f-897a-435e5ac9b675"
+  },
+  "raw_generation_parameters_independently_inspected": false,
+  "first_agent_request": "Stopped because upload filenames unavailable; no generated result",
+  "followup": "Observed canvas assetUUIDs supplied; agent reported visual match and generated A/B once each",
+  "confirmed_video_results": 2,
+  "downloads": [
+    "grok-d3e8573e-1b56-410b-9cf3-040d7502bea2-720p.mp4",
+    "grok-b55242db-a784-47a8-b044-7864093a3721-720p.mp4"
+  ],
+  "active_minutes": null,
+  "wait_minutes": null,
+  "output_user_approval": null,
+  "published": false,
+  "publishing_replacement": false
+}

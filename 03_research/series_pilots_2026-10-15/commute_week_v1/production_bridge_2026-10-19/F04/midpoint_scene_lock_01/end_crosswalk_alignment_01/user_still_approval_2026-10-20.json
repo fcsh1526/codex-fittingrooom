@@ -1,0 +1,14 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "approved_exact_aligned_endpoint_with_disclosed_texture",
+  "asset": "F04_M03_L02_end_crosswalk_candidate_A.png",
+  "sha256": "c7ceec64741262645fd5a59339d5cece3162fe8d928f7a0e0dd7521ace1b0d14",
+  "pixels": [941, 1672],
+  "question": "第四鏡末幀的斑馬線已配合核准中途圖改向，人物與路緣保留；這次褲面及地面的原有細紋較明顯。是否可以沿用這張末幀？依你設定的新圖視覺核准流程，確認後才送影片；我會先繼續確認 Grok 的參照角色能否並用。",
+  "user_answer": "可以，沿用這張末幀",
+  "disclosed_difference_accepted": "Higher contrast existing fine texture on trousers and paving; not a claim texture stayed unchanged.",
+  "scope": "Exact endpoint appearance/crosswalk alignment accepted; use alongside approved midpoint and original first for a bounded F04 trial only after checking reference-role coexistence.",
+  "dynamic_QA": null,
+  "prefix_or_whole_film_approval": null,
+  "originals_and_Drive_preserved": true
+}

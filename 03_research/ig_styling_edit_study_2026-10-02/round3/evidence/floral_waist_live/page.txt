@@ -1,0 +1,241 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "首頁":
+  - /url: /
+  - img "首頁"
+- link "Reel":
+  - /url: /reels/
+  - img "Reel"
+- link "訊息":
+  - /url: /direct/inbox/
+  - img "訊息"
+- link "搜尋":
+  - /url: /explore/
+  - img "搜尋"
+- link "通知":
+  - /url: "#"
+  - img "通知"
+- link "新貼文":
+  - /url: "#"
+  - img "新貼文"
+- link "專業主控板":
+  - /url: "#"
+  - img "專業主控板"
+- link "mira.fitroom.ai的大頭貼照":
+  - /url: /mira.fitroom.ai/
+  - link "mira.fitroom.ai的大頭貼照":
+    - img "mira.fitroom.ai的大頭貼照"
+- link "設定":
+  - /url: "#"
+  - img "設定"
+- link "其他 Meta 旗下產品":
+  - /url: "#"
+  - img "其他 Meta 旗下產品"
+- main:
+  - group "Video player":
+    - slider "調整音量":
+      - button "已靜音":
+        - img "已靜音"
+  - button "go_floralway的大頭貼照" [disabled]:
+    - link "go_floralway的大頭貼照" [disabled]:
+      - img "go_floralway的大頭貼照"
+  - link "go_floralway":
+    - /url: /go_floralway/
+    - generic: go_floralway
+  - link "桃園高鐵":
+    - /url: /explore/locations/311436772304759/
+  - button "追蹤"
+  - button "更多選項":
+    - img "更多選項"
+  - separator
+  - link "go_floralway的大頭貼照":
+    - /url: /go_floralway/
+    - img "go_floralway的大頭貼照"
+  - link "go_floralway":
+    - /url: /go_floralway/
+    - generic: go_floralway
+  - time: 8週
+  - text: 【 素面背心，也能一秒變設計款！✨】
+  - text: 素面背心很好搭，但是太素也會顯得沒亮點
+  - text: 再去買新的又怕版型沒那麼適合🥲
+  - text: 其實!!你不需要重新買衣服，只需要一個「調節扣」！
+  - text: 💡 三步驟神改造：
+  - text: 1️⃣ 把衣服抓起兩個小角
+  - text: 2️⃣ 向內折出自然抓皺
+  - text: 3️⃣ 穿過珍珠扣針固定
+  - text: （不管是垂墜在外面，還是紮進下半身裡都好看！）
+  - text: 這樣不僅腰線立刻跑出來，抓皺感還超有設計風格～
+  - text: 快把家裡被冷凍的素背心拿出來試試吧！
+  - text: 👇 留言直接有購買連結，快點揪朋友一起分
+  - text: 收藏這篇，明天出門就這樣試試看！❤️
+  - link "#穿搭技巧":
+    - /url: /explore/tags/%E7%A9%BF%E6%90%AD%E6%8A%80%E5%B7%A7/
+  - link "#個人穿搭風格分析":
+    - /url: /explore/tags/%E5%80%8B%E4%BA%BA%E7%A9%BF%E6%90%AD%E9%A2%A8%E6%A0%BC%E5%88%86%E6%9E%90/
+  - link "#背心改造":
+    - /url: /explore/tags/%E8%83%8C%E5%BF%83%E6%94%B9%E9%80%A0/
+  - link "#質穎形象顏究室":
+    - /url: /explore/tags/%E8%B3%AA%E7%A9%8E%E5%BD%A2%E8%B1%A1%E9%A1%8F%E7%A9%B6%E5%AE%A4/
+  - heading "尚無留言。" [level=2]
+  - generic: 開始對話。
+  - button "讚":
+    - img "讚"
+  - button "18"
+  - button "回應":
+    - img "回應"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - button "儲存":
+    - button "儲存":
+      - img "儲存"
+  - link "8月6日":
+    - /url: /go_floralway/reel/DbsxcfuhYbs/
+    - time: 8月6日
+  - link
+  - button "表情符號":
+    - img "表情符號"
+  - textbox "留言⋯⋯"
+  - separator
+  - text: 更多「
+  - link "go_floralway":
+    - /url: /go_floralway/
+  - text: 」的貼文
+  - 'link "About the Floralway 「老師，我到底適合什麼？」 這是我最常被問的一句話。 但做形象顧問越久，我越不想只給一個標準答案。 色彩、骨骼、臉型分析都有用， 它們能告訴你「適合什麼」， 卻不知道你喜歡什麼、過著什麼樣的生活、 希望別人怎麼看見你。 所以在質穎， 我想做的不是把你修正成某個樣子， 而是陪你透過外在，重新認識自己。 ※獻給第一次走進質穎的你。 如果你也曾經為了「符合分析結果」， 放棄過自己喜歡的衣服，歡迎留言跟我說說 🤍 #質穎形象顏究室 #穿搭 #個人色彩 #骨骼診斷 #臉型診斷 輪播廣告"':
+    - /url: /go_floralway/p/DdrTneln06v/
+    - 'img "About the Floralway 「老師，我到底適合什麼？」 這是我最常被問的一句話。 但做形象顧問越久，我越不想只給一個標準答案。 色彩、骨骼、臉型分析都有用， 它們能告訴你「適合什麼」， 卻不知道你喜歡什麼、過著什麼樣的生活、 希望別人怎麼看見你。 所以在質穎， 我想做的不是把你修正成某個樣子， 而是陪你透過外在，重新認識自己。 ※獻給第一次走進質穎的你。 如果你也曾經為了「符合分析結果」， 放棄過自己喜歡的衣服，歡迎留言跟我說說 🤍 #質穎形象顏究室 #穿搭 #個人色彩 #骨骼診斷 #臉型診斷"'
+    - img "輪播廣告"
+  - 'link "Floralway''s Thinking 「做完分析，還是不知道明天要穿什麼？」 這不是你的問題。 分析給你的是條件， 但從「知道」到「會用」，中間還差一段轉譯。 在質穎我會把 個人色彩、KPFA 骨骼 12 類、臉型 × 顏體平衡的結果， 放回你的身形、工作、生活場景、喜好與預算裡， 整合成一套你真的做得到的穿搭策略。 再透過陪購，把理論帶進試衣間， 一邊試，一邊告訴你我是怎麼判斷的。 因為我希望有一天， 你不用問我，也知道自己要什麼。 想知道你的分析結果可以怎麼用在生活裡？ 歡迎私訊聊聊。 #質穎形象顏究室 #個人色彩診斷 #骨骼診斷 #臉型診斷 #陪購 輪播廣告"':
+    - /url: /go_floralway/p/DdwF43gn-m8/
+    - 'img "Floralway''s Thinking 「做完分析，還是不知道明天要穿什麼？」 這不是你的問題。 分析給你的是條件， 但從「知道」到「會用」，中間還差一段轉譯。 在質穎我會把 個人色彩、KPFA 骨骼 12 類、臉型 × 顏體平衡的結果， 放回你的身形、工作、生活場景、喜好與預算裡， 整合成一套你真的做得到的穿搭策略。 再透過陪購，把理論帶進試衣間， 一邊試，一邊告訴你我是怎麼判斷的。 因為我希望有一天， 你不用問我，也知道自己要什麼。 想知道你的分析結果可以怎麼用在生活裡？ 歡迎私訊聊聊。 #質穎形象顏究室 #個人色彩診斷 #骨骼診斷 #臉型診斷 #陪購"'
+    - img "輪播廣告"
+  - 'link "「不好看，一定是我的身材有問題。」 這是很多人在心裡給自己的暗示。 但一起拆解之後常常發現， 卡住的不是身材， 而是版型、材質、尺寸， 或只是還沒有一套屬於自己的判斷標準。 這篇整理了幾種我很常陪客戶走過的改變， 還有幾段她們後來傳給我的訊息。 我最珍惜的不是一句「老師好專業」， 而是有人跟我說：「現在感覺全身都在發光。」 她們沒有變成另一個人， 而是，原來自己也可以那麼好看 如果你在某一頁看見了自己， 歡迎私訊我，我們從你現在的狀態開始聊。 #質穎形象顏究室 #穿搭陪跑 #客戶回饋 #陪購 #做自己 輪播廣告"':
+    - /url: /go_floralway/p/Dd1PjHYHx4P/
+    - 'img "「不好看，一定是我的身材有問題。」 這是很多人在心裡給自己的暗示。 但一起拆解之後常常發現， 卡住的不是身材， 而是版型、材質、尺寸， 或只是還沒有一套屬於自己的判斷標準。 這篇整理了幾種我很常陪客戶走過的改變， 還有幾段她們後來傳給我的訊息。 我最珍惜的不是一句「老師好專業」， 而是有人跟我說：「現在感覺全身都在發光。」 她們沒有變成另一個人， 而是，原來自己也可以那麼好看 如果你在某一頁看見了自己， 歡迎私訊我，我們從你現在的狀態開始聊。 #質穎形象顏究室 #穿搭陪跑 #客戶回饋 #陪購 #做自己"'
+    - img "輪播廣告"
+  - 'link "這位客人跟我說： 「我不想每次買衣服，都還要問老師。」 其實這句話，剛好說中了我一直在做的事。 我一直都和客戶說： 「我希望你來找我之後，帶走的不只是千篇一律的分析結果，告訴你『這件可以、那件不行』，而是能真正知道——我適合什麼、為什麼適合，還有可以怎麼選。」 分析給你的是方向， 而我想給你的是 「能怎麼在生活裡的運用。」 🌷 如果你也想先知道 「我的方式適不適合你」 私訊我「花路」｜免費 30 分鐘預諮詢 #質穎形象顏究室 #男士穿搭 #穿搭陪跑 #穿搭陪購 輪播廣告"':
+    - /url: /go_floralway/p/Dd6ZJ9tH-_M/
+    - 'img "這位客人跟我說： 「我不想每次買衣服，都還要問老師。」 其實這句話，剛好說中了我一直在做的事。 我一直都和客戶說： 「我希望你來找我之後，帶走的不只是千篇一律的分析結果，告訴你『這件可以、那件不行』，而是能真正知道——我適合什麼、為什麼適合，還有可以怎麼選。」 分析給你的是方向， 而我想給你的是 「能怎麼在生活裡的運用。」 🌷 如果你也想先知道 「我的方式適不適合你」 私訊我「花路」｜免費 30 分鐘預諮詢 #質穎形象顏究室 #男士穿搭 #穿搭陪跑 #穿搭陪購"'
+    - img "輪播廣告"
+  - 'link "「這個流程是不是可以再順一點？」 「這樣做效率是不是比較好？」 然後想著想著， 連流程怎麼優化、哪裡可以改進都想好了😂 同時又忍不住開始反推： 「為什麼他們會這樣做？」 「這樣做的原因是什麼？」 「長期下來會不會有什麼隱憂？」 完美體現 「領著打工仔的薪水，操著世界500強的心。」 突然覺得我可能很適合去做流水線 只要產線不停，我就沒空想東想西、整天想著怎麼優化了🙂 #打工日常 #職場日常 #打工仔 #工作腦 #創業人的職業病 影片片段"':
+    - /url: /go_floralway/reel/DclCQD7RxTn/
+    - 'img "「這個流程是不是可以再順一點？」 「這樣做效率是不是比較好？」 然後想著想著， 連流程怎麼優化、哪裡可以改進都想好了😂 同時又忍不住開始反推： 「為什麼他們會這樣做？」 「這樣做的原因是什麼？」 「長期下來會不會有什麼隱憂？」 完美體現 「領著打工仔的薪水，操著世界500強的心。」 突然覺得我可能很適合去做流水線 只要產線不停，我就沒空想東想西、整天想著怎麼優化了🙂 #打工日常 #職場日常 #打工仔 #工作腦 #創業人的職業病"'
+    - img "影片片段"
+  - link "【很多男生不是不想學穿搭，而是教學都隔靴搔癢】 ❌ 看網紅教學：人家身材本來就好，根本不適合自己 ❌ 問身邊朋友：只會得到對方的個人喜好（例如狂推韓系） ❌ 看服飾標籤：167cm / 62kg 穿 M 號依然不合身？ 👉 真正有效的穿搭，是先搞懂自己的「穿搭邏輯」 🙋🏻‍♂️🙋🏻‍♂️他是上什麼課? https://floralway.github.io/FWclass/26FW02.html 影片片段":
+    - /url: /go_floralway/reel/DcbH3Qtv87r/
+    - img "【很多男生不是不想學穿搭，而是教學都隔靴搔癢】 ❌ 看網紅教學：人家身材本來就好，根本不適合自己 ❌ 問身邊朋友：只會得到對方的個人喜好（例如狂推韓系） ❌ 看服飾標籤：167cm / 62kg 穿 M 號依然不合身？ 👉 真正有效的穿搭，是先搞懂自己的「穿搭邏輯」 🙋🏻‍♂️🙋🏻‍♂️他是上什麼課? https://floralway.github.io/FWclass/26FW02.html"
+    - img "影片片段"
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "關於":
+    - /url: https://about.instagram.com/
+    - generic: 關於
+  - link "部落格":
+    - /url: https://about.instagram.com/blog/
+    - generic: 部落格
+  - link "工作機會":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: 工作機會
+  - link "使用說明":
+    - /url: https://help.instagram.com/
+    - generic: 使用說明
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "隱私":
+    - /url: /legal/privacy/
+    - generic: 隱私
+  - link "使用條款":
+    - /url: /legal/terms/
+    - generic: 使用條款
+  - link "地點":
+    - /url: /explore/locations/
+    - generic: 地點
+  - link "熱門":
+    - /url: /popular/
+    - generic: 熱門
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "聯絡人上傳和非用戶":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: 聯絡人上傳和非用戶
+  - link "Meta 驗證":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta 驗證
+  - generic: 中文(台灣)
+  - img "向下雙箭頭圖示"
+  - combobox "切換顯示語言":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)" [selected]
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026Instagram from Meta
+- button "訊息":
+  - generic "訊息":
+    - img "訊息"
+    - generic: 訊息
+    - button "用戶虛擬替身 Víctor Sanchego":
+      - img "用戶虛擬替身"

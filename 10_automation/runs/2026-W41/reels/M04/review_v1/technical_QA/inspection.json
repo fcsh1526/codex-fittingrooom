@@ -1,0 +1,79 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+  "source_sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+  "technical": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W41\\reels\\M04\\review_v1\\2026-W41_M04_two_looks_parallel_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.0
+    },
+    "decoded_frames": 144,
+    "decoded_seconds": 6.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60,
+      66,
+      72,
+      77,
+      83,
+      89,
+      95,
+      101,
+      107,
+      113,
+      119,
+      125,
+      131,
+      137,
+      143
+    ],
+    "face_checkpoint_indices": [
+      0,
+      36,
+      72,
+      107,
+      143
+    ],
+    "transition_boundary_indices": [],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "audio_stream_count": 0,
+  "stream_declarations": [
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 2077 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+  ],
+  "assistant_static_dynamic_review": "25 whole-frame and five windows for each face inspected; all144 combined-frame thumbnails checked for panel bounds. Hair, hands, both shoes, bag and skirt remain contained. Close opening head/waist/shoe positions; independent head tilts and gesture timing preserved. Stable architectural anchors in inspected frames.",
+  "continuous_playback_review": false,
+  "user_video_approval": null
+}

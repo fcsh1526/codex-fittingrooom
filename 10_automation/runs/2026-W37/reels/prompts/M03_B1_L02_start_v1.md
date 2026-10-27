@@ -1,0 +1,7 @@
+# M03 L02 B1 full-person starting image — candidate
+
+Create a native vertical 9:16 full-person editorial photograph for a daily outfit Reel: one small suede bag adds texture to a light shirt dress. Image 1 locks the woman's face and hair; image 2 locks her ordinary body proportions. Image 3 supplies the existing cafe exterior, daylight, camera distance and bag placement, not its clothing. Preserve this same East Asian woman, mid 30s look, well-maintained.
+
+On the same shaded stone paving, beside the warm-gray plaster wall, cafe window and simple wooden bench, she begins a short natural step, near-frontal face clearly readable, arms relaxed without covering her bag. Dress her in a plain light-blue short-sleeve cotton-poplin shirt dress, naturally A-line to mid-calf, soft loose same-fabric tied belt, small chocolate-brown short-nap suede shoulder bag, black flat closed-toe shoes and silver stud earrings. The small bag hangs at her waist on the viewer-right, its broad panel visible, matching image 3's size and position.
+
+Use a full-frame mirrorless camera, 50mm lens and level chest-height view, available side daylight, real skin texture, flyaway hairs, plain fabric folds and grounded shoe shadows. Keep the entire hairstyle and both complete shoes in frame with step room, matching image 3's person scale. No text, logos, extra people, decorative fabric patterns or reference clothing.

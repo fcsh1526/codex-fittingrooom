@@ -1,0 +1,53 @@
+{
+  "source": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S02_source.mp4",
+  "source_sha256": "a8f9fc6e9019c23433c855e3d108d97d3236c05f76fa30b02b6b0fcdc97c6ec0",
+  "sample_assets": {
+    "full_checkpoint_indices": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200,
+      210,
+      220,
+      230,
+      240
+    ],
+    "face_checkpoint_indices": [
+      0,
+      60,
+      120,
+      180,
+      240
+    ],
+    "transition_boundary_indices": [],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "written_only_to": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/QA_S02",
+  "source_unchanged": true,
+  "visual_review": "pending",
+  "assistant_continuous_playback": false,
+  "user_approval": null
+}

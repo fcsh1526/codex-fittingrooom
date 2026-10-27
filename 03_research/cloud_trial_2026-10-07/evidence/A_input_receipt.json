@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-06",
+  "model": "M02",
+  "look_id": "2026-W37-001-L01",
+  "first_frame": {
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/backward_step_v2/2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v2.png",
+    "sha256": "e85778d9d38b7541cc5cf96fb73ea047c26da22c8179fe10b8c30f5c38356cb7",
+    "visual_approval": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/backward_step_v2/visual_approval_v2_2026-10-06.json"
+  },
+  "wardrobe_reference": {
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+    "sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e",
+    "role": "Reference; not middle/last frame; does not promise an exact endpoint"
+  },
+  "identity_reference": "Mira M02 v3 selected",
+  "ui_settings": {
+    "mode": "video",
+    "resolution": "720p",
+    "duration": "6s",
+    "aspect_ratio": "9:16",
+    "audio": "off"
+  },
+  "first_frame_role_observed": true,
+  "middle_frame": "empty",
+  "last_frame": "empty",
+  "input_evidence": [
+    "input_settings.png",
+    "input_dom.txt",
+    "submitted_prompt.txt"
+  ],
+  "source_dimensions": null,
+  "source_retrieved": true,
+  "video_approval": null,
+  "first_wave_modified": false,
+  "cloud_write": false,
+  "publication": false,
+  "source_sha256": "be49906fa1ec7397bb456acc1ce7947325e71b4ce5a0692d7235d878ad6017ea",
+  "observed_player_dimensions": [
+    720,
+    1280
+  ],
+  "post_url": "https://grok.com/imagine/post/f07a42ba-d33b-4d68-bbdf-8e743cb68516?conversation=9ac39d90-6889-4915-ae0a-23c50c254ed8"
+}

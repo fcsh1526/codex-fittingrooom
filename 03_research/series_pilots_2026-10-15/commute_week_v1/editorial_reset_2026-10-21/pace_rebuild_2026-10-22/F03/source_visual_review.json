@@ -1,0 +1,20 @@
+{
+  "date":"2026-10-22",
+  "source":"F03_pace_source.mp4",
+  "sha256":"6bdf5237c8e8b40772b91ddd76a3d99cf81c0f44f0aea6381a69a7eb21fc61c3",
+  "status":"eligible_for_context_only_pending_user_visual_feedback",
+  "root_reviewed":["QA_2026-10-22/checkpoints_25.jpg","QA_2026-10-22/new_F03_every3_foot.jpg","QA_2026-10-22/anchor_window_88_91_96.jpg","QA_2026-10-22/anchor_window_f080_f108_every1_foot.jpg","QA_2026-10-22/proposed_J34_foot.jpg"],
+  "independent_report":"QA_2026-10-22/INDEPENDENT_SOURCE_AND_JOIN_REVIEW.md",
+  "native_support_phase_centers_approximate":[12,27,42,57,72,87,105],
+  "sampling_uncertainty_frames":3,
+  "comparison":"New middle mostly15frame phase intervals, latest about18; original middle18 and late21. Improvement supports context test, not fixed cadence or physical velocity measurement.",
+  "identity_outfit":"Sampled face, short ivory jacket/whiteT/charcoal pants/black shoes/black bag readable; no blocking switch observed.",
+  "scene_camera":"Complete head and shoes retained at checkpoints. Final rectangular column recedes left, low stone planters/glass plaza plausible; no prior retry large-added-column failure apparent in selected samples. Exact geometric reconstruction not established.",
+  "anchor":"Newf91 composition closely resembles originalf91 at relevant join. f88/91/96 and everyframe80..108 inspected; no literal timestamp-snapping or exacthit guarantee. Endpoint f108 deliberately not pinned.",
+  "joins":"Independent J23 broadly same-phase; J34 starts compatible but new outgoing near end may lead incoming slightly. Residual spatial leg/shoe/body and background ghosts require native user playback; not called seamless.",
+  "technical_QA":"All145frames decoded,24fps720x1280;11 protected hashes unchanged; silent streamcopy preserves same H264 bitstream.",
+  "continuous_visual_review_claimed":false,
+  "decision":"Build context_review_v2 only swappingF03 in accepted-F02 context; preserve[1,109), other sources/intervals,18frame alpha and full-to-half design.",
+  "wholefilm_or_publication_approval":false,
+  "further_generation_count":0
+}

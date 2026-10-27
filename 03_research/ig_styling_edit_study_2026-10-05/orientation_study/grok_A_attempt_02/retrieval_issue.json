@@ -1,0 +1,11 @@
+{
+  "status": "send_clicked_but_no_new_result_observed",
+  "observed": "Stayed on same tab after Send. Page remained at Imagine home with prompt, no new result progress or new video. History still showed the existing older full/full videos.",
+  "post_url": null,
+  "observed_elapsed_seconds": 237.819,
+  "root_cause": "unknown",
+  "console_error_logs_observed": [],
+  "video_downloaded": false,
+  "qa": "not_possible_without_new_source",
+  "retry_bound_reached": true
+}

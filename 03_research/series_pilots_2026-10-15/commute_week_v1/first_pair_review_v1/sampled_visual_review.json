@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-15",
+  "type": "sampled visual and all selected-frame thumbnail review, with complete technical decode",
+  "source_S01": {
+    "selected_frames_half_open": [
+      0,
+      156
+    ],
+    "selected_seconds_half_open": [
+      0,
+      6.5
+    ],
+    "observations": "Identity/wardrobe/shoes/bag readable; continuous alternating steps in sampled/dense images. Head gradually turns toward movement and trousers brighten grey with lighting, despite requested steady head angle.",
+    "blocking_flaw_seen": false
+  },
+  "source_S02": {
+    "selected_frames_half_open": [
+      60,
+      216
+    ],
+    "selected_seconds_half_open": [
+      2.5,
+      9
+    ],
+    "observations": "Selected after early expression/head-angle settling; checked shirt/collar/rolled sleeves/trousers/bag/shoes readable. Narrow/crossing steps and slightly warmer/brighter later light remain for normal-speed judgement.",
+    "blocking_flaw_seen": false
+  },
+  "combined": {
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/M03_commute_first_pair_review_v1.mp4",
+    "sha256": "d25ad7a1ecdc7fc9dcafa18295aa201e1e7ca466e09e763d7553bc943efacc8b",
+    "technical": "720x1280,24fps,294frames,12.25seconds,no audio,no baked text,no crop/scale/retiming",
+    "sampled_visual_review": "25 full frames,5 face windows and every transition frame plus8 boundary frames each side inspected",
+    "join_observations": "Visible face/arm/leg double outlines and background double lines during5.75-6.5s; slight expression/head-height difference. Resolves to readable second outfit. This is not a seamless one-take claim.",
+    "blocking_flaw_seen_for_user_review": false,
+    "assistant_continuous_playback": false,
+    "user_full_playback_self_report": null,
+    "user_film_approval": null
+  },
+  "scope": "First two shots of a five-look wardrobe pilot; not final five-look delivery or publishing replacement."
+}

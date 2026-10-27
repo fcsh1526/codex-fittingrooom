@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "final_document_content_and_readback": "google_docs_content_final.json",
+  "date": "2026-10-22",
+  "editorial_content_week": "2026-W43",
+  "source_material_pool_weeks": [
+    "2026-W41"
+  ],
+  "status": "verified_drive_delivery_ready_for_user_or_bot_posting_not_posted",
+  "publication_approval": "03_research/series_pilots_2026-10-15/commute_week_v1/editorial_reset_2026-10-21/pace_rebuild_2026-10-22/context_review_v2/user_publication_approval_2026-10-22.json",
+  "drive_root": {
+    "id": "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_",
+    "url": "https://drive.google.com/drive/folders/1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_"
+  },
+  "drive_folder": {
+    "id": "1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB",
+    "url": "https://drive.google.com/drive/folders/1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB"
+  },
+  "video": {
+    "id": "1i2GaUyORPcAuprpAUI0i5OH2gu88R3q9",
+    "url": "https://drive.google.com/file/d/1i2GaUyORPcAuprpAUI0i5OH2gu88R3q9/view?usp=drivesdk",
+    "file_name": "01_同一路線五套通勤_Reel.mp4",
+    "bytes": 19360340,
+    "local_sha256": "e5e8a90878b00bab29ecf4da32a6fe5472e1376f1b835b999beaa9a812e225c2",
+    "local_md5": "4380426e9521297350bfbdc1be361b84",
+    "remote_checksum_returned": false,
+    "verified_remote_metadata": [
+      "id",
+      "video/mp4",
+      "size19360340",
+      "expected parent folder"
+    ],
+    "new_export": false
+  },
+  "caption_doc": {
+    "id": "1IWN8z6PPGFcfwFS4mKUuMyENDfRf5AdLALc7YYe3Y5k",
+    "url": "https://docs.google.com/document/d/1IWN8z6PPGFcfwFS4mKUuMyENDfRf5AdLALc7YYe3Y5k",
+    "mime_type": "application/vnd.google-apps.document",
+    "tab_id": "t.0",
+    "native_text_heading_bullets_readback_verified": true,
+    "parent_folder_readback_verified": true
+  },
+  "actual_IG_publication": {
+    "posted": false,
+    "scheduled_at": null,
+    "posted_at": null,
+    "url": null
+  },
+  "existing_media_overwritten": false,
+  "new_footage_generated": false,
+  "future_refinement": [
+    "brisker native walking",
+    "separate coordinated camera and character curved paths",
+    "reduce uncomfortable ghosting flicker"
+  ],
+  "folder_discovery_note": "Legacy Drive folder search returned nativeDoc; video placement separately verified through direct video metadata readback twice.",
+  "source_readbacks": {
+    "document": {
+      "documentId": "1IWN8z6PPGFcfwFS4mKUuMyENDfRf5AdLALc7YYe3Y5k",
+      "title": "01_同一路線五套通勤_文案與發布交接",
+      "revisionId": "AHj4eMTHZIe8b_6k7eH4i5rJ9ROj_p_Lcm-Iz7XKL80Irh56tKWmGkZcD-Md6WSF-DnQ3TxQl8uEUTYXBeI_bQ1jnlvhIloWJvJiQSe7HA",
+      "tabId": "t.0",
+      "paragraphs": [
+        {
+          "text": "同一路線・五套通勤｜發布交接",
+          "startIndex": 1,
+          "endIndex": 15,
+          "tabId": "t.0",
+          "namedStyleType": "TITLE",
+          "isListItem": false
+        },
+        {
+          "text": "可直接貼入 Instagram 的文案",
+          "startIndex": 16,
+          "endIndex": 35,
+          "tabId": "t.0",
+          "namedStyleType": "HEADING_1",
+          "isListItem": false
+        },
+        {
+          "text": "一週通勤，先用幾個常穿的顏色安排五天穿搭。",
+          "startIndex": 36,
+          "endIndex": 57,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "米白、深藍和灰色輪流出現，再換長短外套、襯衫或裙裝，保留熟悉的配色，每天也能有變化。",
+          "startIndex": 59,
+          "endIndex": 101,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "發布交接（以下不貼入 Instagram）",
+          "startIndex": 102,
+          "endIndex": 123,
+          "tabId": "t.0",
+          "namedStyleType": "HEADING_1",
+          "isListItem": false
+        },
+        {
+          "text": "影片：https://drive.google.com/file/d/1i2GaUyORPcAuprpAUI0i5OH2gu88R3q9/view?usp=drivesdk",
+          "startIndex": 124,
+          "endIndex": 210,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "狀態：2026/10/22 已核准可發布；目前尚未發布。",
+          "startIndex": 211,
+          "endIndex": 239,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "影片規格：21.29 秒，直式 720×1280，原速、無字、無音。使用核准原檔，沒有另行改速或重剪。",
+          "startIndex": 240,
+          "endIndex": 291,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "音樂於 Instagram 另選；本版不加畫面文字。",
+          "startIndex": 292,
+          "endIndex": 318,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "交付週別：2026-W43。服裝取自既有 W41 素材池，這是系列研究片，不冒稱本週全新趨勢或實際商品試穿。",
+          "startIndex": 319,
+          "endIndex": 373,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "發布日期：",
+          "startIndex": 374,
+          "endIndex": 379,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "Instagram 網址：",
+          "startIndex": 380,
+          "endIndex": 393,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "發布後追蹤：24 小時、72 小時、第 7 天記錄瀏覽、觸及、收藏、分享、帶來追蹤及介面有提供的觀看時間；未提供的資料留白。",
+          "startIndex": 394,
+          "endIndex": 456,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "影像類型與下一版方向",
+          "startIndex": 457,
+          "endIndex": 467,
+          "tabId": "t.0",
+          "namedStyleType": "HEADING_1",
+          "isListItem": false
+        },
+        {
+          "text": "類型：同一路線・連續行進換裝。屬單畫面依序展示的子型；五套是本片數量。",
+          "startIndex": 468,
+          "endIndex": 503,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "本版可發布，但曲線運鏡尚未達成，轉場疊影仍有不舒服的閃爍感。",
+          "startIndex": 504,
+          "endIndex": 534,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": false
+        },
+        {
+          "text": "人物步伐更俐落，保持全段連續的通勤動勢。",
+          "startIndex": 535,
+          "endIndex": 555,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": true
+        },
+        {
+          "text": "攝影機沿一條地面曲線移動，人物沿另一條曲線前進；先用同一場地的俯瞰圖與相機視角同步預演，再生成素材。",
+          "startIndex": 556,
+          "endIndex": 606,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": true
+        },
+        {
+          "text": "先減少人物、腳步與背景錯位，改善疊影閃爍；不以加長疊化代替連續的運鏡。",
+          "startIndex": 607,
+          "endIndex": 642,
+          "tabId": "t.0",
+          "namedStyleType": "NORMAL_TEXT",
+          "isListItem": true
+        }
+      ],
+      "document_url": "https://docs.google.com/document/d/1IWN8z6PPGFcfwFS4mKUuMyENDfRf5AdLALc7YYe3Y5k"
+    },
+    "folder": {
+      "id": "1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB",
+      "title": "2026-W43",
+      "mime_type": "application/vnd.google-apps.folder",
+      "size": null,
+      "url": "https://drive.google.com/drive/folders/1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB",
+      "display_url": "https://drive.google.com/drive/folders/1eZsL7PjRcf3FtvRq-DwiI3J5nCedWFBB",
+      "file_or_folder": "folder",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": null,
+      "source_visibility_status": "access_not_verified"
+    }
+  }
+}

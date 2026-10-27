@@ -1,0 +1,15 @@
+本次只針對F03開場步態重做一個6秒、720p、原生9:16候選影片，留在同一Mira畫布。使用者肯定第二鏡接第三鏡的柔和接法，但指出整片約8–9秒腳步飄移；這對應F03開場約0.2–1.2秒。原片與0.75秒後製疊化保留，不把原片加速、不合片、不出新圖、不自行多次重試。
+
+先查看精確輸入並同時指定；不支援便停下回報：
+First ONLY a7a33bb7-39ff-472d-b27d-53e50fe48c58；Last ONLY d3c047bd-a2e5-4def-adba-a4ffb7cdcaa4。
+Face identity ONLY 6236309c-2343-41e6-985c-994239ff744a；Full ordinary proportions ONLY ac9ede4e-1715-4518-95b4-bda341a62061。
+已接受F02影片545538de-6a5d-4ba9-a283-d5d8530a1520僅查看原生f127–144（5.2917–6.0秒）的腳步相位／鞋與地磚軌跡／地面流速，作動態接續參考；不要帶入白襯衫或棕褲。
+舊F03 cdd9871e-3ebe-47b6-96d2-6bc5aa81be89僅作早段飄移診斷，不能直接改速頂替新生成。
+
+Generate exactly one continuous six-second live-action shot between the same approved first and last images. Preserve M03 identity and body, ivory short stand-collar zip jacket open over the tucked white crew-neck T, charcoal straight trousers, black low heels and small black shoulder bag. Preserve the same compact colonnade-to-plaza route, light, large full-person framing and level chest-height50mm side-following camera. Both feet stay on paving, ending before the curb crossing.
+
+ONLY TARGETED CHANGE: synchronize the opening support and camera-ground motion with the accepted preceding clip's last eighteen native frames. Begin in the exact visible mid-stride. Complete the already-forward shoe's heel landing into firm flat sole contact; the body advances over that foot while the trailing heel releases, toes push off, and the rear leg passes forward to the next landing. Continue the NEXT support phase through0.75–1.5seconds without restarting, hesitating or changing cadence. Use clear weight-bearing rather than exaggerated toe-up shoe rocking. During stance the supporting sole and the SAME paving point travel together in the image until toe-off; do not drag or skate the sole, pin it to screen pixels, or march in place.
+
+The camera follows real forward travel at steady velocity; the paving flow, stride length and body displacement agree. Match the preceding clip's local ground-flow direction and step timing, without a camera acceleration at the start. Keep natural arm, bag and fabric response. The last square column and nearby planter retreat left with coherent parallax; the distant glass facade moves more slowly. Reach the approved endpoint while still walking.
+
+No slow motion, speed ramp, retiming, freeze, internal cut/dissolve, morph, extra person or text/logo. Audio off if possible, otherwise report it. Keep duration and scene settings unchanged. Generate once only and report actual first/last/face/full roles, new asset ID, duration, pixels and audio. Separate sampled observations from the requested correction; do not declare sliding eliminated or pace matched without evidence.

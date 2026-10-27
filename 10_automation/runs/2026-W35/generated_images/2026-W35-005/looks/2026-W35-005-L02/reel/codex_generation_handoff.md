@@ -27,7 +27,7 @@ Generate and review the native 9:16 full-person Reel A. This look needs no addit
 
 Use case: photorealistic-natural.
 
-Asset: Hero A for Mira, a daily-outfit fashion magazine. It should make one dressing decision immediately readable: 用淡紫灰垂墜上衣與結構包平衡深藍直筒丹寧，保留週末也能穿的俐落感.
+Asset: Hero A for Mira, a daily-outfit fashion magazine. It should make one dressing decision immediately readable: 深色直筒牛仔褲配淡紫灰垂墜上衣，再拿一個硬挺的小包.
 
 Input images: Image 1 is the model's identity and hairstyle reference. Image 2 is a loose body-proportion reference. Keep her recognizable, but do not copy either reference's studio pose, expression, lighting, background or clothes.
 
@@ -35,7 +35,7 @@ A candid real photograph of the same adult East Asian woman at 藝文園區的�
 
 Outfit, immediately readable: 淡紫灰短袖嫘縈垂墜上衣；深藍中高腰直筒薄丹寧褲；奶油白尖頭平底鞋；酒紅小型結構手提包. Palette: 淡紫灰／深藍／奶油白／酒紅. Materials: 嫘縈混紡／薄身無刷毛丹寧／霧面皮革. Fit: 上衣自然垂墜微鬆；丹寧中高腰直筒；包款小型結構方形. Styling direction: 上衣下擺只在前側局部收進；丹寧無破壞；酒紅包是唯一強色. Do not add or substitute garments.
 
-Visual proof to preserve: 柔和垂墜上衣與深藍直筒丹寧形成材質差，尖頭平底鞋和結構包把輪廓收乾淨. Practical styling rule: 深色直筒丹寧配一件柔色垂墜上衣，再用尖頭平底鞋或結構包完成場合轉換.
+Visual proof to preserve: 淡紫灰上衣搭深色牛仔褲，再配尖頭平底鞋和硬挺小包，整套俐落但不會太正式. Practical styling rule: 深色直筒牛仔褲搭柔色垂墜上衣，再配尖頭平底鞋或硬挺包款，上班、看展都合適.
 
 Photorealistic, unretouched documentary fashion editorial. Full-frame mirrorless look with a natural 50mm perspective at chest height. Use available natural light appropriate to the location, mixed with believable ambient light; realistic skin texture, flyaway hairs, lived-in fabric folds, restrained grain and slight optical softness. Honest and unposed; polished through framing, color and material detail rather than beauty retouching.
 

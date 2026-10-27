@@ -1,0 +1,72 @@
+{
+  "date_taipei": "2026-10-20",
+  "stage": "new_endpoint_v2_pending_exact_user_visual_approval",
+  "mode": "built_in_image_gen",
+  "asset_role": "same already-approved look's F04 motion-reference endpoint; original look Hero and old endpoint versions preserved",
+  "accepted_midpoint": {
+    "file": "../photographic_midpoint_01/F04_M03_L02_mid_camera_no_planter_v3.png",
+    "sha256": "0a4fe3eb96bf2473cb441844e770ec1ed391718eceb997bcf38b50a886b5b22f",
+    "approval": "../photographic_midpoint_01/user_still_approval_2026-10-20.json",
+    "user_answer": "可以，沿用這張中途圖"
+  },
+  "camera_guide": "../approved_camera_guides/F04_camera_end_guide.png",
+  "transparent_background": false,
+  "requests": [
+    {
+      "kind": "one_sketch_to_photograph_endpoint",
+      "prompt": "endpoint_prompt.txt",
+      "input_roles_in_order": [
+        "F04_camera_end_guide.png: approved end camera/person/curb/last-paint-bar projection",
+        "F04_M03_L02_mid_camera_no_planter_v3.png: approved exact woman/look/daylight/building materials; not camera viewpoint",
+        "02_brand/reference_models/M03_start_v3_face.png: approved identity only",
+        "02_brand/reference_models/M03_start_v3_full.png: approved ordinary proportions only"
+      ],
+      "tool_wait_ms": 47010,
+      "output": "F04_M03_L02_end_camera_candidate_A.png",
+      "sha256": "734a6037f20bb2ec17f6f4f999513888839c03fa28b11141d7397636381f68b1",
+      "pixels": [941, 1672],
+      "bytes": 2135826,
+      "outcome": "Company-side shoes and final cropped paint bar visible, but person much too large (roughly59% frame height) and viewpoint too front-side. Superseded candidate; not user approved."
+    },
+    {
+      "kind": "one_targeted_camera_and_framing_correction",
+      "prompt": "camera_correction_prompt.txt",
+      "input_roles_in_order": [
+        "F04_M03_L02_end_camera_candidate_A.png: correction target; preserve clothing and scene",
+        "F04_camera_end_guide.png: endpoint composition and shallow same-side rear angle",
+        "F04_M03_L02_mid_camera_no_planter_v3.png: accepted same woman/look and relative person scale"
+      ],
+      "tool_wait_ms": 43197,
+      "output": "F04_M03_L02_end_camera_correction_v2.png",
+      "sha256": "e3117eef0d3854bb279d2070a08378b9eefacbabeae0889c057cbcf75e52e8e9",
+      "pixels": [941, 1672],
+      "bytes": 2038114,
+      "outcome": "Shallow rear-quarter, smaller person, both shoes on company-side paving, one cropped straight paint remnant at lower-left. Exact current candidate; no further correction queued."
+    }
+  ],
+  "actual_generation_calls": 2,
+  "total_tool_wait_ms": 90207,
+  "active_work_minutes_measured": null,
+  "root_and_independent_still_review": {
+    "performed": true,
+    "identity_wardrobe": "No new obvious identity swap, mixed clothing, shoulder flip or reversed walk in visual still comparison; not biometric verification or dynamic QA.",
+    "clothing": "Same cream/navy checked rolled-sleeve shirt, charcoal straight trousers, plain black low heels and same-shoulder black bag.",
+    "pose_and_landing": "Shallow rear-side view and forward direction readable. Both shoes lie inside company-side pavement rather than touching the road-side curb.",
+    "road": "One straight white bar remnant at lower-left, no visible Y/branch or second road.",
+    "new_fixture_rows_or_doorway": "No new planter row or doorway observed in candidate.",
+    "remaining_differences_to_disclose": [
+      "Person appears about44% frame height, not guide40%; roughly top25-26% and soles69-70%, higher and slightly larger than the guide.",
+      "Last paint remnant is lower and closer to the left edge than guide.",
+      "Glass and stone mullion details are not verified shared-world reconstruction or exact matching to midpoint/prefix."
+    ],
+    "estimate_method": "Manual visual estimates only; not automated pose measurement or physical 50mm calibration."
+  },
+  "exact_user_endpoint_approval": null,
+  "uploaded_to_Grok": false,
+  "new_Grok_requests": 0,
+  "new_four_shot_composite": false,
+  "F05_started": false,
+  "Drive_GitHub_IG_writes": false,
+  "originals_and_accepted_prefix_preserved": true,
+  "next": "Exact user endpoint review with disclosed composition differences; then compare original accepted first, approved new midpoint and accepted new endpoint before deciding whether one bounded F04 motion test is spatially plausible. No automatic dynamic pass or batch retry."
+}

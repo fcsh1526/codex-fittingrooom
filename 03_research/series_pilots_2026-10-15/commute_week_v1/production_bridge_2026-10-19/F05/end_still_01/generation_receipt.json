@@ -1,0 +1,46 @@
+{
+  "date_client": "2026-10-21",
+  "mode": "built-in image_gen",
+  "intent": "Same-look pullback endpoint before office entry",
+  "inputs": [
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/F05/first_still_01/F05_M03_L04_start_candidate_A.png",
+      "sha256": "9bc90ffa51bdad22106401647fef10fbf20b2da6faf88192b1b6f8191aba97d2"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/environment/E00_shared_scene_candidate_A.png",
+      "sha256": "33192568eb30aef6fccf160a93bed33136a6fa906056baaad500f0b040170c40"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+      "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "prompt": "prompt.txt",
+  "prompt_sha256": "055eef8c8b7ce5166570586307baf340c6ced10a373f098e7b807269aab273fd",
+  "generated_source": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-29320342-d975-4040-a354-12df18cb1f1e.png",
+  "candidate": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F05\\end_still_01\\F05_M03_L04_end_candidate_A.png",
+  "sha256": "9af51b785d2bd104751cd2502deaa86f29cad217621643cef98c23d0ff1f16e7",
+  "bytes": 1931219,
+  "dimensions": [
+    941,
+    1672
+  ],
+  "generation_calls": 1,
+  "targeted_corrections": 0,
+  "tool_wait_seconds": 59.5,
+  "active_minutes": null,
+  "root_review": "Full head and shoes rather than planned lower-calf crop; full black A-line hem and blue bag readable. White short sleeves/pointed collar/tucked waist/black low heels consistent visually. Same-side rightward step; grey-green metal-framed office entry and rectangular canopy ahead at right, short planter behind left. New ground-level entrance angle, canopy thickness/window grid and exact site relation are not surveyed/matched. Skirt has inherited fine surface pattern, bag sits relatively high. No motion compatibility pass inferred.",
+  "status": "exact endpoint still approved by user",
+  "grok_uploaded": false,
+  "dynamic_acceptance": null,
+  "approval_receipt": "user_still_approval.json"
+}

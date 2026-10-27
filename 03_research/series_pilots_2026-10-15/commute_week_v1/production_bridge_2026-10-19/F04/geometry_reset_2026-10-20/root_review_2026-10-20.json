@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-20",
+  "current_storyboard": "geometry-fixed-lens.html",
+  "reviewed_image": "geometry-fixed-lens-three-views.png",
+  "root_visual_review": {
+    "performed": true,
+    "observations": [
+      "Start, middle and end projections are visible and labelled.",
+      "Middle white bars recede into depth; road paint remains six shared rectangles in the model.",
+      "Person marker becomes smaller in the middle and end; this is an editorial tradeoff requiring review.",
+      "Endpoint shows only a remnant of the final stripe; it does not show the whole crossing.",
+      "Stick person is a position and heading marker, not walking or identity QA."
+    ]
+  },
+  "actual_browser_review": {
+    "passed": false,
+    "localhost": "Timed out before page could be inspected.",
+    "file_scheme": "Denied by browser URL security policy; no further browser workaround attempted.",
+    "alternative": "Local non-browser raster rendering and simulated DOM checks are distinct from browser visual QA."
+  },
+  "user_storyboard_approval": null,
+  "photographic_match_to_accepted_prefix_proven": false,
+  "physical_50mm_calibration_proven": false,
+  "new_AI_stills_after_geometry_reset": 0,
+  "new_Grok_requests_after_geometry_reset": 0,
+  "new_four_shot_composite": false,
+  "F05_started": false,
+  "publishing_or_Drive_changes": false,
+  "next": "Review the new camera direction and smaller later framing before deriving compatible photographic candidates."
+}

@@ -1,0 +1,45 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "look_id": "2026-W37-001-L01",
+  "model_profile_id": "M02",
+  "asset_role": "full_person_master_and_wardrobe_reference_for_planned_A_pullback",
+  "tool": "Codex built-in imagegen",
+  "reference_images": [
+    "C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/02_brand/reference_models/M02_start_v3_face.png",
+    "C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/02_brand/reference_models/M02_start_v3_full.png",
+    "C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S01_comparison_v2_start_candidate.png"
+  ],
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/hero_A_prompt.md",
+  "source_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-8add438e-63f2-4530-b8f1-c9aaa5c603b3.png",
+  "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+  "sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e",
+  "requested_dimensions": [
+    1080,
+    1920
+  ],
+  "actual_dimensions": [
+    941,
+    1672
+  ],
+  "aspect_ratio_relative_error": 0.0005316321105794941,
+  "native_portrait_generation": true,
+  "exact_delivery_dimensions_met": false,
+  "resize_or_crop_applied": false,
+  "generation_attempts": 1,
+  "generation_wait_seconds": 40.358,
+  "active_minutes": null,
+  "assistant_static_observations": [
+    "Complete hair/head and both canvas shoes visible; breathing room around full person.",
+    "Near-frontal eyes/face; side-part tied-back hairstyle and visible facial features to compare against approved M02 v3.",
+    "Mist-gray open hip-length rolled-sleeve shirt, cream curved neckline and waist seam, calf-length dress, navy shoulder bag and white low canvas shoes visible.",
+    "Central matte wall, library bookcase at right and reading seat at left; soft/background directional daylight with visible window shadows. Extra small plants/books/cushion generated as scene details, not separate props held by character.",
+    "Approximate9:16 composition; actual941x1672, not1080x1920. Exact delivery normalization remains separate; source not stretched.",
+    "Static scene is simplified relative to receding library aisle but bookcase, window shadows and plant still require dynamic rigidity QA; no background stability guarantee."
+  ],
+  "user_visual_approval": "approved",
+  "user_visual_approval_date": "2026-10-05",
+  "user_visual_approval_evidence": "User replied ok to the displayed exact L01 full master candidate; approved still only, not animation or final film.",
+  "dynamic_qa": "not_started",
+  "publishable": false,
+  "next_after_approval": "Use this exact full master as L01 garment/scene lock, derive and approve matching neckline/front-opening medium, then match L02 full in the same scene before animation."
+}

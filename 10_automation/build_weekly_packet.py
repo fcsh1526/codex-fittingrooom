@@ -22,6 +22,14 @@ PACKET_FIELDS = [
     "content_bucket",
     "audience",
     "occasion",
+    "content_engine",
+    "dressing_decision",
+    "visible_action",
+    "audience_problem",
+    "editorial_answer",
+    "opening_hook",
+    "visual_proof",
+    "practical_rule",
     "prompt_id",
     "clothing_item",
     "color_palette",
@@ -79,10 +87,9 @@ IMAGE_REVIEW_FIELDS = [
 ]
 
 
-AGE_RENDERING_RULES = [
-    "Express age through styling and presence, NOT wrinkles.",
-    "East Asian women look significantly younger than Western age norms.",
-    "Skin is smooth and well-maintained.",
+AGE_PRESENTATION_RULES = [
+    "Use the profile's prompt-age language only; never include numeric true age.",
+    "Preserve believable skin texture and normal human variation without age caricature or beauty retouching.",
 ]
 
 
@@ -114,6 +121,51 @@ def clean(value):
     return (value or "").strip()
 
 
+def first_clause(value):
+    return re.split(r"[；;。.]", clean(value), maxsplit=1)[0].strip()
+
+
+def note_fields(value):
+    fields = {}
+    for part in clean(value).split(";"):
+        key, separator, item = part.partition("=")
+        if separator and clean(key) and clean(item):
+            fields[clean(key)] = clean(item)
+    return fields
+
+
+def dressing_decision_for(row):
+    explicit = clean(row.get("dressing_decision"))
+    if explicit:
+        return explicit
+    editorial = note_fields(row.get("notes"))
+    if editorial.get("editorial_answer"):
+        return editorial["editorial_answer"]
+    occasion = clean(row.get("occasion")) or "日常"
+    trend = clean(row.get("trend_name")) or "當週趨勢"
+    styling = first_clause(row.get("styling_rules"))
+    return f"{occasion}如何穿出{trend}" + (f"：{styling}" if styling else "")
+
+
+def visible_action_for(row):
+    explicit = clean(row.get("visible_action"))
+    if explicit:
+        return explicit
+    source_pose = clean(row.get("pose"))
+    action_tokens = ["walking", "holding", "adjusting", "looking", "reaching", "leaning", "seated", "sitting", "撐", "走", "邁", "拿", "看", "坐", "整理", "調整"]
+    generic_pose = bool(source_pose) and not any(token in source_pose.lower() for token in action_tokens)
+    if source_pose and not generic_pose:
+        return source_pose
+    context = " ".join([clean(row.get("occasion")), clean(row.get("background"))]).lower()
+    if any(token in context for token in ["通勤", "上班", "office", "mrt", "捷運", "walkway", "騎樓"]):
+        return "已經向目的地方向跨出一步，視線看向前方，一手自然整理肩背包或外套"
+    if any(token in context for token in ["咖啡", "cafe", "早午餐"]):
+        return "剛放下咖啡杯，視線自然看向窗外，另一手停在隨身包旁"
+    if any(token in context for token in ["市集", "展覽", "shopping", "逛街", "旅行", "travel"]):
+        return "行走中短暫轉頭看向周遭，一手自然拿著隨身包"
+    return "自然行走中，視線離開鏡頭，一手與包或衣物產生可信互動"
+
+
 def choose_rows(rows, week=None, limit=2):
     if week:
         matched = [row for row in rows if clean(row.get("week")) == week]
@@ -124,6 +176,18 @@ def choose_rows(rows, week=None, limit=2):
     for row in matched:
         if clean(row.get("clothing_item")) and clean(row.get("trend_name")):
             usable.append(row)
+
+    # When a week has passed the editorial gate, use only the explicitly
+    # approved rows. Raw Perplexity research remains in the database as source
+    # material but cannot silently re-enter the production packet.
+    approved = [
+        row
+        for row in usable
+        if clean(row.get("status")).casefold() == "editorial_approved"
+        or note_fields(row.get("notes")).get("editorial_status", "").casefold() == "approved"
+    ]
+    if approved:
+        usable = approved
 
     selected = []
     selected_indexes = set()
@@ -170,6 +234,7 @@ def infer_bucket(row):
 
 def to_packet_row(row, week_id, index):
     row = localize_packet_fields(row)
+    editorial = note_fields(row.get("notes"))
     prompt_id = clean(row.get("id") or row.get("prompt_id") or f"P{index:03d}")
     bucket = infer_bucket(row)
     model_profile_id = model_for_index(index, week_id=week_id)
@@ -185,6 +250,14 @@ def to_packet_row(row, week_id, index):
         "content_bucket": bucket,
         "audience": clean(row.get("audience")),
         "occasion": clean(row.get("occasion")),
+        "content_engine": clean(row.get("content_engine")) or "utility_with_immersion",
+        "dressing_decision": dressing_decision_for(row),
+        "visible_action": visible_action_for(row),
+        "audience_problem": editorial.get("audience_problem", ""),
+        "editorial_answer": editorial.get("editorial_answer", ""),
+        "opening_hook": editorial.get("opening_hook", ""),
+        "visual_proof": editorial.get("visual_proof", ""),
+        "practical_rule": editorial.get("practical_rule", ""),
         "prompt_id": prompt_id,
         "clothing_item": clean(row.get("clothing_item")),
         "color_palette": clean(row.get("color_palette")),
@@ -209,7 +282,7 @@ def model_context(packet, roster):
     return (
         f"Internal model {profile.get('model_profile_id')} ({profile.get('internal_label')}): "
         f"{profile.get('visual_profile')} Prompt visual age language: {profile.get('prompt_age_language')}. "
-        f"{' '.join(AGE_RENDERING_RULES)} Style range: {profile.get('style_range')} "
+        f"{' '.join(AGE_PRESENTATION_RULES)} Style range: {profile.get('style_range')} "
         f"Scenes: {profile.get('daily_scenes')} Avoid: {profile.get('avoid')}"
     )
 
@@ -289,7 +362,10 @@ def daily_queue_rows(week_id, packets, days=5):
                 "image_status": "needs_codex_image",
                 "canva_status": "not_started",
                 "publish_status": "not_published",
-                "notes": "Use Codex image brief, then review candidates before Canva.",
+                "notes": (
+                    f"Opening hook: {packet.get('opening_hook', '')}; "
+                    "Use Codex image brief, then review Hero A before Canva."
+                ),
             }
         )
     return rows
@@ -323,27 +399,23 @@ def write_image_generation_briefs(path, packets):
                 f"- Outfit: {packet['clothing_item']}",
                 f"- Palette / fabric / fit: {packet['color_palette']} / {packet['fabric']} / {packet['fit']}",
                 f"- Occasion: {packet['occasion']}",
+                f"- Content engine: {packet.get('content_engine', 'utility_with_immersion')}",
+                f"- Dressing decision: {packet.get('dressing_decision', '')}",
+                f"- One visible action: {packet.get('visible_action', '')}",
+                f"- Audience problem: {packet.get('audience_problem', '')}",
+                f"- Opening hook: {packet.get('opening_hook', '')}",
+                f"- Visual proof: {packet.get('visual_proof', '')}",
+                f"- Practical rule: {packet.get('practical_rule', '')}",
                 f"- Scene: {packet['scene']}",
                 f"- Canva master: v3-{template.get('key', 'A')} / {template.get('name', '')}",
                 f"- Exact slot targets: {target_line}",
                 "",
-                "### Image Prompt",
+                "### Production instruction",
                 "",
                 "```text",
-                "Create a realistic vertical lifestyle fashion image for Mira, an AI fashion magazine brand.",
-                f"Use internal model {packet['model_profile_id']} only as a private production profile; do not render or include the model ID or any text in the image.",
-                profile.get("visual_profile", ""),
-                f"Prompt visual age language: {profile.get('prompt_age_language', '')}.",
-                " ".join(AGE_RENDERING_RULES),
-                f"Outfit: {packet['clothing_item']}; palette {packet['color_palette']}; fabric {packet['fabric']}; fit {packet['fit']}.",
-                f"Styling rules: {packet['styling_rules']}.",
-                f"Scene: {packet['scene']}. Make it feel like a believable Taiwan daily-life moment, not a runway or brand advertisement.",
-                "Outfit continuity: A/B/C are the same outfit session. Lock every garment, layer, color, shoe, bag, jewelry item, and styling placement; vary only lateral position, body angle, pose, gaze, hand interaction, and expression.",
-                "Body proportion lock: match the approved full-body anchor's head-to-height ratio, shoulder width, torso length, natural waist and hip placement, crotch height, knee height, thigh length, lower-leg length, arm length, and hand size. Do not shrink the head, raise the crotch, narrow the torso, or lengthen the legs.",
-                "Camera geometry: use a 70mm full-frame-equivalent perspective, lower-chest-to-sternum camera height, and a level optical axis. Keep focal length, camera height, subject distance, horizon, and person scale fixed across A/B/C. No low angle, wide angle, phone-lens distortion, forced perspective, or leg elongation.",
-                "Lighting integration: use one scene-motivated directional source. Match its direction and color temperature on face, neck, arms, clothes, shoes, and bag; preserve visible light falloff, ambient color spill, and grounded contact shadows. Match subject contrast, grain, depth of field, and edge softness to the background.",
-                f"Composition: create A/B/C for the assigned v3-{template.get('key', 'A')} master at these exact target ratios: {target_line}. A must keep the full outfit readable; B follows its motion-frame orientation; C keeps the required outfit detail readable. Do not reuse one narrow portrait for all three slots. Keep the full hairstyle below an 8% top safe margin whenever the head appears, and keep face/outfit focus inside the central 70% so the untouched Canva fill remains publishable. No visible logos, no text, no watermark.",
-                "Avoid: tiny head, nine-head fashion elongation, inconsistent body-to-leg ratio, low-angle leg stretching, supermodel proportions, luxury hotel background, runway pose, plastic skin, flawless beauty render, pasted-on subject, frontal beauty light, shadowless face, halo edges, missing contact shadows, outfit drift across A/B/C, white border, letterboxing, sexualized pose, childlike styling, celebrity likeness, wrinkle-based age cues, numeric true-age labels.",
+                "Use 11_skills/mira-image-daily/scripts/prepare_daily_image_job.py as the only prompt generator.",
+                "Generate and approve one Hero A first. B Motion and C Detail are optional production derivatives, not A/B tests, and may be created only from the accepted Hero when the publishing format needs them.",
+                "Keep prompt-generation rules in the Mira skill and image standard; keep anatomy, contact-shadow, identity, crop-safety, and platform checks in the separate review sheet.",
                 "```",
                 "",
             ]

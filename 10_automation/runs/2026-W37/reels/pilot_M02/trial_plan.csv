@@ -1,0 +1,12 @@
+"trial_id","trial_name","look_inputs","identity_inputs","compare_to","changed_factor","planned_duration_seconds","planned_aspect_ratio","actual_settings_policy","prompt_file","execution_status"
+"T01","nonfront_baseline","LOOK1_START","none","T01","baseline","6","9:16","UI_verified_common_settings_required","prompts/T01_nonfront_baseline.md","not_run"
+"T02","nonfront_reference_a","LOOK1_START","FACE;BODY","T01","add_identity_reference","6","9:16","UI_verified_common_settings_required","prompts/T02_nonfront_reference_a.md","not_run"
+"T03","nonfront_reference_repeat","LOOK1_START","FACE;BODY","T02","exact_repeat","6","9:16","UI_verified_common_settings_required","prompts/T03_nonfront_reference_repeat.md","not_run"
+"T04","frontal_baseline","LOOK1_FRONT","none","T01","frontal_start_only","6","9:16","UI_verified_common_settings_required","prompts/T04_frontal_baseline.md","not_run"
+"T05","frontal_reference","LOOK1_FRONT","FACE;BODY","T04;T02","frontal_plus_reference","6","9:16","UI_verified_common_settings_required","prompts/T05_frontal_reference.md","not_run"
+"T06","small_head_turn","LOOK1_START","FACE;BODY","T02","small_head_turn_only","6","9:16","UI_verified_common_settings_required","prompts/T06_small_head_turn.md","not_run"
+"T07","lateral_camera","LOOK1_START","FACE;BODY","T02","lateral_camera_only","6","9:16","UI_verified_common_settings_required","prompts/T07_lateral_camera.md","not_run"
+"T08","look2_independent","LOOK2_START","FACE;BODY","T02","second_look_independent","6","9:16","UI_verified_common_settings_required","prompts/T08_look2_independent.md","not_run"
+"T09","two_looks_hard_cut_a","LOOK1_START;LOOK2_START","FACE;BODY","T02;T08","two_looks_one_generation","6","9:16","UI_verified_common_settings_required","prompts/T09_two_looks_hard_cut_a.md","not_run"
+"T10","two_looks_hard_cut_repeat","LOOK1_START;LOOK2_START","FACE;BODY","T09","exact_repeat","6","9:16","UI_verified_common_settings_required","prompts/T10_two_looks_hard_cut_repeat.md","not_run"
+

@@ -1,0 +1,70 @@
+{
+  "source": "03_research/rapid_presentation_trials_2026-10-14/A_motion_attempt_01/source.mp4",
+  "sha256": "84c518d07284ea81bbea02f37ff99be3f340d9294d4f909b61aecaf942a19f69",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\rapid_presentation_trials_2026-10-14\\A_motion_attempt_01\\source.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "audio_codec": "aac",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 10.04
+    },
+    "decoded_frames": 241,
+    "decoded_seconds": 10.041666666666666,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    210,
+    220,
+    230,
+    240
+  ],
+  "face_sample_frames": [
+    0,
+    60,
+    120,
+    180,
+    240
+  ],
+  "all_frame_thumbnails_exported": 241,
+  "visual_review": "25 whole/5 face/all241 thumbnail frames inspected; native endpoint crops checked. No gross identity/wardrobe/background jump seen in reviewed source frames. Whole normal-speed user viewing pending.",
+  "assistant_continuous_playback": false,
+  "user_film_approval": null,
+  "observed_motion": "Full outfit clear for about first6seconds; actual woman walks toward lens, not isolated camera push-in. Selected0–7.5s.",
+  "source_audio": "AAC observed in source; silent stream-copy review created separately",
+  "all_frame_thumbnails_viewed": 241
+}

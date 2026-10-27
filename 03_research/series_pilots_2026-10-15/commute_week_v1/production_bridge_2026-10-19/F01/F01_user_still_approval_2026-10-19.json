@@ -1,0 +1,12 @@
+{
+  "recorded_date": "2026-10-19",
+  "asset_id": "F01",
+  "asset": "F01_M03_L01_candidate_A_composition_edit.png",
+  "sha256": "781d078884d3ee0a096be6ffd000c9d7681e40e65ed804cdff264a7489b760fa",
+  "question": "請確認最後這張 M03 長西外修正版：臉、米白西外／白T／偏灰深藍褲、黑鞋與深棕肩包是否可沿用為第一鏡起始圖？這版人物比線稿大，背景新增花台與樹影；公司入口與斑馬線已留在畫外。依你訂的「新圖先視覺核准」規則，接受這些差異後才送 Grok，先測走入柱廊的一段。",
+  "user_answer": "可以，沿用修正版",
+  "status": "user_approved_F01_exact_still_for_first_segment_motion",
+  "accepted_disclosed_differences": ["person larger than t0 line sketch", "additional planter and tree-shadow street-corner background", "company entrance and zebra crossing out of frame"],
+  "scope": "Exact F01 face, wardrobe and composition, including disclosed differences; authorized for its first motion segment toward the colonnade.",
+  "not_implied": ["exact schematic camera geometry preserved", "all site perspectives reconstructible", "motion continuity or final-film approval", "publishing or replacement of old deliveries"]
+}

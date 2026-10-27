@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-08",
+  "original_planned_storyboard": "../storyboard.json",
+  "execution_environment": "user_local_in_app_browser",
+  "purpose": "Fixed-medium diagnostic of visible curved/square necklines and inner/outer colour relationship through a small shirt-front gesture.",
+  "diagnostic_only": true,
+  "model": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "new_stills": 2,
+  "new_sources": [
+    {
+      "role": "A",
+      "path": "A_attempt_01/source.mp4",
+      "sha256": "5baaa223b437e6fde482545cc64a0d2b8c85dffec14df6397735b71c7e0b7d49",
+      "size": [
+        720,
+        1280
+      ],
+      "fps": 24,
+      "frames": 145,
+      "actual_audio_streams": 0,
+      "attempts": 1,
+      "observed_action": "Upper-chest front edge touch, small cloth-edge movement, slide toward waist and return around f102."
+    },
+    {
+      "role": "B",
+      "path": "B_attempt_01/source.mp4",
+      "sha256": "25b8bd59b95c46dcef8c30ca9847ca4fcdc892581899aea0f804c8375d388a54",
+      "size": [
+        720,
+        1280
+      ],
+      "fps": 24,
+      "frames": 145,
+      "actual_audio_streams": 0,
+      "attempts": 1,
+      "observed_action": "Upper-chest front edge touch, slight lifting/opening of shirt edge and return around f98."
+    }
+  ],
+  "source_QA": "Limited sampled source gate passes for each:25 full/5 face and81 consecutive hand-cloth windows f30-110; normal full playback and editorial effectiveness remain unverified.",
+  "native_join_first": {
+    "A": [
+      108,
+      126
+    ],
+    "B": [
+      0,
+      18
+    ],
+    "seconds": 0.75,
+    "result": "rejected",
+    "reason": "mid-overlap duplicated facial features; shoulder/hand and minor background double edges"
+  },
+  "native_join_second": {
+    "A": [
+      96,
+      114
+    ],
+    "B": [
+      0,
+      18
+    ],
+    "seconds": 0.75,
+    "result": "rejected",
+    "reason_to_test": "Earlier A return has less final head turn; select actual native frames without speed/pose changes.",
+    "reason": "Independent all18-pair/16-boundary QA finds clear separated eye and mouth features in central five overlaps."
+  },
+  "nominal_source_time_seconds": 6,
+  "actual_selection_and_output": {
+    "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/review_deep_to_light_v1/M02_front_opening_deep_to_light_review_v1.mp4",
+    "sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2",
+    "size": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "frames": 204,
+    "seconds": 8.5,
+    "look_order": [
+      "2026-W37-001-L02",
+      "2026-W37-001-L01"
+    ],
+    "selection": [
+      {
+        "original_role": "B",
+        "look_id": "2026-W37-001-L02",
+        "frames_half_open": [
+          24,
+          126
+        ]
+      },
+      {
+        "original_role": "A",
+        "look_id": "2026-W37-001-L01",
+        "frames_half_open": [
+          0,
+          120
+        ]
+      }
+    ],
+    "status": "user_picture_accepted_with_dissolve_residuals",
+    "user_approval": {
+      "date": "2026-10-08",
+      "status": "accepted_as_research_picture_track",
+      "receipt": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/review_deep_to_light_v1/user_picture_approval_2026-10-08.json",
+      "sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2"
+    },
+    "publishable": false
+  },
+  "clear_full_outfit_delivery": false,
+  "text": "none",
+  "retime_freeze_reverse_replay": false,
+  "forced_action_synchronization": false,
+  "new_camera_or_edit_type": false,
+  "first_wave_modified": false,
+  "cloud_task_updated": false,
+  "drive_uploaded": false,
+  "instagram_published": false,
+  "user_video_approval": {
+    "date": "2026-10-08",
+    "status": "accepted_as_research_picture_track",
+    "receipt": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/review_deep_to_light_v1/user_picture_approval_2026-10-08.json",
+    "sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2"
+  },
+  "audience_performance": null,
+  "limitations": [
+    "Original request for one waist-only touch/no fabric pull was not literally followed.",
+    "The gestures do not demonstrate material breathability, indoor/outdoor comfort or full shoulder-strap widths.",
+    "Two usable sources do not establish a smooth combined cut or repeatable production success rate."
+  ],
+  "new_still_requirement_count": 1,
+  "new_still_generation": {
+    "base_count": 1,
+    "targeted_edit_count": 1,
+    "selected": null,
+    "status": "both_rejected_for_continuity_purpose",
+    "folder": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/front_opening_matched_start_v1",
+    "Grok_submitted": false,
+    "user_approval": null
+  },
+  "native_join_third": {
+    "first_role": "B",
+    "second_role": "A",
+    "first": [
+      108,
+      126
+    ],
+    "second": [
+      0,
+      18
+    ],
+    "seconds": 0.75,
+    "result": "user_accepted_dissolve_residuals_for_exact_research_cut",
+    "purpose": "One reordered deep-to-light gesture comparison using actual relaxed B ending and A beginning; no source reversal or speed change.",
+    "reason": "Closer overall eye/head placement; still visible eyebrow/eye, mouth-corner, cheek/hair outlines in central overlap. Normal-speed user comfort pending.",
+    "pre_approval_result": "diagnostic_with_known_residuals_not_clean_QA_pass",
+    "user_feedback": "這個很好，尤其重影更寫得專業影像編輯與柔化眼睛的感受"
+  }
+}

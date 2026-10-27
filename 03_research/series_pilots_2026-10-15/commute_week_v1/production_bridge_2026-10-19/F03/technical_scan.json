@@ -1,0 +1,122 @@
+{
+  "recorded_at_utc": "2026-10-19T07:47:00.961927+00:00",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4",
+  "source_sha256": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+  "bytes": 6355796,
+  "full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "audio_codec": "aac",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.04
+    },
+    "decoded_frames": 145,
+    "full_decode_completed": true,
+    "frame_count_over_fps_seconds": 6.041666666666667,
+    "individual_PTS_measured": false
+  },
+  "stream_inventory": {
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 8145 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)",
+      "Stream #0:2[0x0]: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x1280 [SAR 1:1 DAR 9:16], 90k tbr, 90k tbn (attached pic)"
+    ],
+    "audio_stream_present": true
+  },
+  "sample_extraction": {
+    "full_checkpoint_indices": [
+      0,
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      54,
+      60,
+      66,
+      72,
+      78,
+      84,
+      90,
+      96,
+      102,
+      108,
+      114,
+      120,
+      126,
+      132,
+      138,
+      144
+    ],
+    "face_checkpoint_indices": [
+      0,
+      36,
+      72,
+      108,
+      144
+    ],
+    "transition_boundary_indices": [],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "gait_window_native_xyxy": [
+    80,
+    820,
+    650,
+    1230
+  ],
+  "gait_indices": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    60,
+    63,
+    66,
+    69,
+    72,
+    75,
+    78,
+    81,
+    84,
+    120,
+    123,
+    126,
+    129,
+    132,
+    135,
+    138,
+    141,
+    144
+  ],
+  "gait_windows_inspection_only": true,
+  "visual_qa_pass": null,
+  "assistant_continuous_visual_playback": false,
+  "user_video_approval": null,
+  "publishable": false,
+  "requested_settings_are_not_actual_settings": true
+}

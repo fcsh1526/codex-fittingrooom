@@ -1,0 +1,16 @@
+{
+  "status": "user_still_approved",
+  "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/continuous_distance_pose_v1/2026-W41-004-L02_M03_matched_start_candidate_v2.png",
+  "sha256": "540f2a538bef16db1f07c5c91866e557d42d20306dfa7da9150a605eb1ae0e4a",
+  "native_pixels": [
+    941,
+    1672
+  ],
+  "tool": "built-in image_gen",
+  "generation_original": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a0a39c-4727-7593-ac24-1a8727f9ff61\\exec-6c71ad9a-e8a9-4383-8449-802026fd738d.png",
+  "prompt": "B_matched_start_correction_prompt.txt",
+  "parent": "B_still_receipt_v1.json",
+  "correction_count": 1,
+  "review": "Subject moved lower and slightly left; full hair and both shoes retained, relaxed front stance, recognizable identity and second-look navy blazer/gray tee/cream straight trousers/black shoulder bag. Left sunlight and grounded shoes; blank wall retained. Framing closer to actual A endpoint but not exact; scene/face matching and transition comfort remain film-review tasks. Gray tee has visible subtle fabric texture in generated candidate. No dynamic pass or user still approval inferred.",
+  "user_approval": "B_still_user_approval.json"
+}

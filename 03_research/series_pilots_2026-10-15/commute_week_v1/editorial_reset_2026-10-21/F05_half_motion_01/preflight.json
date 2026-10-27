@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-22",
+  "status": "single_trial_completed_source_inspected_five_look_review_ready",
+  "first_sha256": "ac588ec1674df43923140e17f46c4734706cf834f2b7f5599aeeec60376f9c82",
+  "half_sha256": "114300736fbcf321316d20ce992f968bcb39d9dcea0e85542f0491ee97539ab7",
+  "first_approval": "../F05_full_start_01/user_still_approval.json",
+  "half_approval": "../F05_half_late_01/user_still_approval.json",
+  "storyboard_approval": "../half_integration_2026-10-22/user_storyboard_approval.json",
+  "allowed_generations": 1,
+  "automatic_retry": false,
+  "duration": "6",
+  "resolution_name": "720p",
+  "aspect_ratio": "9:16",
+  "intended_keyframe_timestamp_s": 5.333333333333333,
+  "actual_parameter_acceptance": "See submission_receipt.json; UI agent-reported, not internal-call observation",
+  "F05_motion_generated": true,
+  "complete_film_approval": false,
+  "submission_receipt": "submission_receipt.json"
+}

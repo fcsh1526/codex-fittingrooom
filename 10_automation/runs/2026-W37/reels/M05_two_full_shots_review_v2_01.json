@@ -1,0 +1,23 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "version": "two_full_shots_v2_scale_match",
+  "status": "technical_review_ready_user_motion_review_pending",
+  "storyboard": "10_automation/runs/2026-W37/reels/M05_short_jacket_fallback_two_full_shots_v1.md",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_two_full_shots_review_v2_scale_match_01.mp4",
+  "output_sha256": "5A763EE29147FCBF9352F1EDB044DA17E1BDA9E16E58D463DF2A6188FAEFD24A",
+  "output_metadata": { "duration_seconds": 4.291667, "resolution": "720x1280", "frame_rate": 24, "decoded_frames": 103, "audio_stream": false, "embedded_text": false },
+  "segments": [
+    { "look_id": "2026-W37-002-L01", "source_record": "10_automation/runs/2026-W37/reels/M05_A_L01_motion_02.json", "source_frames": "0-42 inclusive", "duration_seconds": 1.791667, "selection_reason": "Stops before the purple-magenta waistband appears." },
+    { "look_id": "2026-W37-002-L02", "source_record": "10_automation/runs/2026-W37/reels/M05_B_L02_motion_01.json", "source_frames": "0-59 inclusive", "duration_seconds": 2.5, "spatial_edit": "Static crop x=40,y=40,w=640,h=1138, then scale to 720x1280 to match A subject size; no animated zoom." }
+  ],
+  "cut_frame": 43,
+  "cut_seconds": 1.791667,
+  "qa": {
+    "full_decode": "Passed; 103 frames.",
+    "black_or_frozen_frames": "No blackdetect/freezedetect events.",
+    "cut_neighborhood": "10_automation/runs/2026-W37/reels/qa/M05_two_full_shots_review_v2_01/cut_neighborhood.jpg",
+    "assistant_visual_review": "At the single cut, both subjects are near frontal and of similar size, with head and shoes visible. Outfit and gallery setting change together; subjective comfort needs user playback.",
+    "limitation": "Only a 4.29-second technical two-look preview. No styling-proof medium shot appears in this cut; approved L02 medium still is a separate asset. The cut is not a published or final Reel."
+  },
+  "user_visual_review": null
+}

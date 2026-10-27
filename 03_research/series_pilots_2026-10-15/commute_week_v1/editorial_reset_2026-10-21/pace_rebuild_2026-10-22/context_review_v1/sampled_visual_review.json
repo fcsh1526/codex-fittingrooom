@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22",
+  "reviewer": "pace_context_builder_oct22 subagent",
+  "exact_movie_sha256": "799911d2a7637c7920c0d2ecec47cc36bea670142a57c9c947dacd256b24d819",
+  "status": "sampled_QA_only_NOT_dynamic_or_user_acceptance",
+  "viewed_with_view_image": [
+    "QA/full25.png",
+    "QA/J12_every3_full.png",
+    "QA/J23_every3_full.png",
+    "QA/J12_every3_feet.png",
+    "QA/J23_every3_feet.png"
+  ],
+  "observations": [
+    "25-point sheet preserves all five wardrobe looks and the final full-to-half camera arrangement.",
+    "J12 sampled f66-f72 retains visible double face/body/leg edges and different positions during the prescribed 18-frame dissolve.",
+    "J23 sampled middle dissolve retains ghosted body/leg edges and tree/column background double lines; the candidate has not established seamless phase or scene continuity.",
+    "F03 late cadence and J34 remain unchanged by design. They cannot be called repaired based on this F02-only context.",
+    "Fixed foot crops are QA derivatives only. The movie remains the full native 720x1280 raster."
+  ],
+  "continuous_normal_speed_visual_review": null,
+  "measured_ground_relative_slip_free": null,
+  "whole_film_cadence_pass": null,
+  "user_approval": null,
+  "publication_approval": null
+}

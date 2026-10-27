@@ -1,0 +1,11 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_planning_2026-10-07\\front_opening_gesture\\local_trial_2026-10-08\\B_attempt_01\\source.mp4",
+  "audio_stream_count": 0,
+  "audio_stream_lines": [],
+  "video_stream_lines": [
+    "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 3068 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+    "Stream #0:1[0x0]: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x1280 [SAR 1:1 DAR 9:16], 90k tbr, 90k tbn (attached pic)"
+  ],
+  "method": "ffmpeg input metadata inspection; no output requested",
+  "source_modified": false
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-08",
+  "local_commit": "0c1f93b",
+  "repository": "https://github.com/fcsh1526/codex-fittingrooom",
+  "verified_visibility": "public",
+  "verification": "Connected GitHub repository metadata reports admin/push access and public visibility.",
+  "checkpoint_files": 328,
+  "checkpoint_total_megabytes": 78.7,
+  "scope": "W41 planning, production media including rejected candidates, prompt/QA/approval/browser receipts, current status and workflow documents, directly used production helpers. Individually extracted QA PNG frames are local only.",
+  "status": "authorized_checkpoint_public_sync_completed",
+  "rejection_summary": "Automatic review rejected push because the checkpoint includes generated media, browser receipts and local records sent to a repository not verified private/trusted, without explicit authorization to publish these particular records. Subsequent read-only verification confirms the repository is public, so no retry or workaround attempted.",
+  "user_approval": {
+    "date": "2026-10-08",
+    "user_quote": "同意公開上述 W41 檢查點",
+    "context": "Standalone GitHub-publication question identifying exact328-file78.7MB scope and public destination, answered via user input tool.",
+    "scope": "Only the previously saved W41 checkpoint0c1f93b; unrelated records excluded."
+  },
+  "production_blocked": false,
+  "prior_staged_work": "Commit used exact listed pathspecs only; prior unrelated staged changes were retained.",
+  "pushed_commit": "0c1f93b12dafd7f16a2cecedac20f4ab50f9186b",
+  "push_evidence": "git push completed exit0; origin main a1ee60c..0c1f93b"
+}

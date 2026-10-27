@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-14",
+  "model": "M02",
+  "look_ids": [
+    "2026-W41-003-L01",
+    "2026-W41-003-L02"
+  ],
+  "concept": "camera passes cafe wall corner between two everyday looks; physical occlusion plus default soft join",
+  "source_a": "03_research/foreground_transition_study_2026-10-14/A_motion_attempt_01/source.mp4",
+  "source_b": "03_research/foreground_transition_study_2026-10-14/B_motion_attempt_01/source.mp4",
+  "source_a_sha256": "e96aef689297e93223b1a462497e6b687d33f8a6482f0c76a6feeda7db8327df",
+  "source_b_sha256": "62b179980b53ceb123bb364f6b0f2dfd8ad068ce603ba3c52d843d6f2f48aab8",
+  "output": "03_research/foreground_transition_study_2026-10-14/joined_review_v1/M02_cafe_wall_two_looks_trial_v1.mp4",
+  "sha256": "31a9af4f730672f4173397597b1d40864fae6d055351410220597e966f2de4b3",
+  "speed": "original 1x for both",
+  "text": false,
+  "audio": false,
+  "join_seconds": [
+    5.291666667,
+    6.041666667
+  ],
+  "join_duration": 0.75,
+  "framing": "A 720x1264 proportionally scaled to cover 720x1280 and centre-cropped about 8px total horizontal; B native720x1280 unchanged. No stretch or letterbox.",
+  "endpoint_comparison": {
+    "method": "A last decoded frame resized to B first frame dimensions for comparison only",
+    "mean_absolute_rgb_difference_0_to_255": 1.4009819878472223,
+    "not_pixel_identical": true
+  },
+  "B_review": {
+    "samples_viewed": [
+      "whole_25.jpg",
+      "face_5.jpg",
+      "all_00.jpg",
+      "all_01.jpg",
+      "all_02.jpg",
+      "all_03.jpg"
+    ],
+    "findings": [
+      "Starts on opaque wall; reveal edge moves left and figure emerges on right.",
+      "Face and shirt/denim/shoes/bag readable in samples.",
+      "Wall becomes coarser/sharper before revealing, then settles toward finer plaster; exact fixed material continuity is not proven.",
+      "Subject changes weight and makes a short forward step near ending; not perfectly standing still."
+    ],
+    "assistant_continuous_playback": false,
+    "user_dynamic_approval": "accepted within exact full-film approval; not separate B-only review"
+  },
+  "full_film_user_approval": "user_film_approval.json",
+  "published": false,
+  "publishing_replacement": false,
+  "status": "user_approved_exact_full_film"
+}

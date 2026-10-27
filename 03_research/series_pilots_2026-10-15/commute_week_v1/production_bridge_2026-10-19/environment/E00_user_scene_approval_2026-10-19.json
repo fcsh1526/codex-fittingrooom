@@ -1,0 +1,12 @@
+{
+  "recorded_date": "2026-10-19",
+  "asset_id": "E00",
+  "asset": "E00_shared_scene_candidate_A.png",
+  "sha256": "33192568eb30aef6fccf160a93bed33136a6fa906056baaad500f0b040170c40",
+  "question": "剛生成的街景基準：灰綠玻璃公司與入口、斑馬線、小廣場，以及近側的半開放柱廊，是否可以沿用？這張只核准場地外觀；依你訂的新圖先核准流程，確認後才會用它製作人物起始圖。",
+  "user_answer": "可以，沿用街景基準",
+  "status": "user_approved_shared_scene_appearance",
+  "scope": ["visible office facade and entrance", "crossing and small plaza", "near-side semi-open colonnade", "shared visual materials and daylight"],
+  "not_implied": ["metric geometry or all unseen viewpoints verified", "F01 or any new model still approval", "Grok dynamic continuity", "final film or publishing approval"],
+  "authorized_next_step": "Generate F01 candidate from this scene design, true t0 composition, approved M03 v3 face/full anchors and approved L01 clothing. Obtain exact F01 visual approval before Grok."
+}

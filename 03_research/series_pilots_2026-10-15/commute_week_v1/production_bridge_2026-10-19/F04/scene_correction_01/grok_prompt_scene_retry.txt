@@ -1,0 +1,14 @@
+只生成一次 F04 背景修正版：6秒、720p、原生9:16，留原Mira畫布。不出新圖、不換裝、不合片、不自動重試。原首幀與新末幀均經使用者核准。
+
+請先查看圖像，再指定以下角色，不能同時使用便停下回報：
+First frame ONLY = e008f6b5-efe9-40b4-be75-615af1be766c（原格紋襯衫、炭灰褲、黑低跟鞋／黑肩包，向右側面跨步，原廣場花台在後）。
+Last frame ONLY = 331ad2df-c269-473c-97ce-4d7a989da5af（新上傳公司側空鋪面版，同人同套側後方，前腳承重、後腳抬過路緣，後方左下斑馬線，玻璃牆前是開放灰色鋪面，沒有整排花台／綠籬／樹）。
+Face identity ONLY = 6236309c-2343-41e6-985c-994239ff744a。
+Full ordinary proportions ONLY = ac9ede4e-1715-4518-95b4-bda341a62061。
+不要使用舊末幀936d6b16-20ac-4fdb-baa0-723df9542f0e；失敗F04影片b3587cc9-a204-4855-af8c-5076234a56ea只供理解錯誤，不能作新的場地或畫面參照。它在3.0–3.25秒把公司側空鋪面變出長綠籬，已不通過。失敗F03新增柱體版bcb58740-fac2-486e-9f5e-ca635a4c29c7也完全不用。
+
+Generate one continuous six-second real-time commute shot from the exact approved first to the NEW clear-pavement last image. Keep the same M03 identity, wavy hair, ordinary proportions, cream/navy fine-check pointed shirt, forearm sleeves, tucked charcoal straight trousers, black low heels and black bag on the SAME physical shoulder.
+
+The single correction is persistent scene geometry. Original plaza-side planters and trees remain fixed in their original positions and leave view through actual camera travel and parallax. They do not spread across the street, dissolve, shrink, duplicate or migrate onto the company side. On arriving at the far curb, the landing directly against the glass facade is open gray paving exactly as the NEW last image. Show a coherent transition between those two real areas. No hedge, raised planter or tree row may appear across previously empty company-side paving. Window grid and curb edges remain continuous. Do not add bollards, tactile strips, pillars, a second road or doorway.
+
+Start already mid-stride toward frame-right, continuing the preceding F03 momentum through the opening0.75s. Follow one curved path onto the existing single zebra crossing, across the narrow asphalt lane, up the company-side curb, ending still walking on its paving. Use a level chest-height50mm full-person camera on the same flank, gradually falling behind to rear three-quarter. Keep head and shoes visible and comparable scale; no axis reversal, sudden pivot or zoom. Supporting soles stay with the same ground point until toe-off; stride, body travel and camera/ground flow agree. Keep natural cadence, arm counter-swing, fabric and bag response. No ease-in, pause, skating, slow motion, speed ramp, retiming, internal cut/dissolve, text or logo. Audio off if supported; otherwise report actual audio. Generate once only. Report actual reference roles, new asset ID, duration, resolution and audio; distinguish sampled scene observations from requested corrections, and do not declare all-frame continuity or zero sliding merely because requested.

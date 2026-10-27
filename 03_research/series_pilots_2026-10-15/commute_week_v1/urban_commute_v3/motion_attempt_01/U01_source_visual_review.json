@@ -1,0 +1,102 @@
+{
+  "created_at_utc": "2026-10-15T07:50:43.275743+00:00",
+  "date": "2026-10-15",
+  "reviewer": "commute_motion_review subagent",
+  "shot_id": "U01",
+  "status": "sampled_source_QA_complete_5second_interval_candidate_for_join_trial_user_normal_speed_review_pending",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\urban_commute_v3\\motion_attempt_01\\U01_source.mp4",
+  "source_sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+  "file_bytes": 9171172,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 10.04
+  },
+  "decoded_frames": 241,
+  "decoded_seconds": 10.041666666666666,
+  "technical_scan": "U01_technical_scan.json",
+  "media_original_unchanged": true,
+  "method": "All241 frames technically decoded by scan_reel_video.py; read-only native extraction primitives. Actually viewed25 full-source checkpoints,5 head windows,15 hand/bag windows,61 foot-timing crops at4-frame spacing,15 full crowd/architecture checkpoints, and all120 selected-frame thumbnails across2 sheets. No normal-speed continuous playback.",
+  "viewed_QA_assets": [
+    "QA_U01/full_25_checkpoints.jpg",
+    "QA_U01/face_5_checkpoints.jpg",
+    "QA_U01/feet_timing_1.jpg",
+    "QA_U01/feet_timing_2.jpg",
+    "QA_U01/hands_bag_15_checkpoints.jpg",
+    "QA_U01/background_15_checkpoints.jpg",
+    "QA_U01/selected_all_frames_1.jpg",
+    "QA_U01/selected_all_frames_2.jpg"
+  ],
+  "full_source_quarter_indices": [
+    0,
+    60,
+    120,
+    180,
+    240
+  ],
+  "recommended_native_frames_half_open": [
+    48,
+    168
+  ],
+  "recommended_seconds_half_open": [
+    2.0,
+    7.0
+  ],
+  "selected_frame_count": 120,
+  "recommended_selection_reason": "Continuous full-person front walking with settled expression, leg alternation and visible commuters; avoids initial smile settling. This is a source candidate, not acceptance of a specific cut.",
+  "sampled_review_no_blocking_defect_for_join_trial": true,
+  "approved_sampled_dynamic_qa": true,
+  "approval_scope": "Assistant sampled U01 source QA permits an isolated join trial/user preview; does not approve perceived pace, audience appeal, identity consistency at every instant, joined film or publishing.",
+  "observations": {
+    "walk_and_native_timing": {
+      "assessment": "Continuous ordinary-to-somewhat-brisk walking candidate at the decoded native24fps; not running or stationary posing in the inspected gait sequence.",
+      "evidence": "Every4-frame foot sequence shows repeated alternating swing, heel presentation and planted-foot phases rather than held poses. Coarse visible leading-foot changes are roughly0.5–0.7 seconds apart. No conspicuous prolonged double-foot airborne phase or static stop appears in these samples.",
+      "residual": "Steps are narrow and sometimes cross the centerline; upper body is relatively composed and one hand holds the bag strap. This retains some posed/model-walk character. Exact world speed and improvement versus previous videos were not measured.",
+      "footfall_count": null,
+      "footfall_times_seconds": null,
+      "footfall_count_status": "unknown; overlapping frontal ankles, shoe contact ambiguity and moving camera do not support an exact reliable count from sampled windows",
+      "rough_leading_foot_alternation_seconds": [
+        0.5,
+        0.7
+      ],
+      "rough_alternation_measurement_status": "manual coarse observation from4-frame-spaced crops, not exact touchdown measurement",
+      "prompt_18_to_20_footfalls_goal_verified": false,
+      "no_retime_or_post_acceleration_applied_by_reviewer": true
+    },
+    "camera": "Subject remains near-frontal, centered and broadly similar head-to-shoe scale while pavement/background perspective changes and commuters move. This supports the intended front reverse-tracking appearance. It does not independently identify actual50mm optics or a physically measured camera speed.",
+    "identity": "M03 is recognizable and face remains readable in5 checkpoints; initial broad smile becomes a restrained closed-mouth expression. No abrupt sampled face substitution. Fine face fidelity at every instant is not established.",
+    "outfit": "Ivory long blazer worn open, white crewneck tee, navy/dark trousers, brown shoulder bag and black low-heeled shoes remain identifiable. Sleeves/hems and major garment contours remain coherent in inspected samples. No abrupt outfit swap or missing bag observed.",
+    "hands_bag": "Near hand consistently holds the bag strap; opposite arm makes a small natural swing. Bag stays at same side with modest flex. No conspicuous duplicated hand or severe strap/body penetration in15 detailed windows, but exact fingers are not exhaustively resolved.",
+    "feet_contact": "Alternating foot progression and shoe lifts are visible; no sampled severe teleport or gross slide requires rejecting this source. Plantar-lock/ground-slip of every stance cannot be certified from a moving-camera crop sequence. Narrow crossing steps remain a visible concern for commuter naturalness.",
+    "crowd": "Background is visibly populated and people change leg poses/positions; one back-facing commuter enters on frame-right and moves away. They do not occlude the main outfit in selected samples. Visible density is greater than a strict3–6 people at some checkpoints. Distant limbs/faces are small and synthetic-looking in places; no severe crowd merge/collapse or conspicuous main-person intersection in inspected boards.",
+    "rigid_geometry": "Building edges, window grids and pavement remain substantially straight in inspected checkpoints. No gross flowing wall/window or sudden geometric collapse. Perspective/background motion is compatible with reverse tracking but is not a full physical reconstruction.",
+    "purpose_and_advertising": "The front view, active pedestrian context and repeated forward steps are visible differences from the old three-quarter empty-background setup. Whether this reads as sufficiently decisive urban commuting or an attractive fashion advertisement requires actual normal-speed user review; it is not passed by the prompt wording."
+  },
+  "join_risks": [
+    "U01 remains frontal; switching to a90degree U02 profile can generate two facial/limb outlines even at similar person size. Match head/shoe positions and active stride phase before the requested18-frame overlap.",
+    "Background people and building lines will double in dissolve; do not treat population as inherently successful motion or conceal severe geometry errors with the transition.",
+    "Each retained120-frame source is5seconds, but a0.75second overlap consumes readable time. Keep the resulting pure-outfit duration explicit."
+  ],
+  "assistant_continuous_visual_review": false,
+  "user_video_approval": null,
+  "publishable": false,
+  "comparison_with_old_pace_verified": false,
+  "limitations": [
+    "Sampled frames and chronological thumbnail sheets do not replace normal-speed continuous review.",
+    "All source frames decoded, but not all full-resolution frames manually inspected.",
+    "No exact step count, ground speed, specified lens or future IG performance was verified.",
+    "This report only reviews U01; U02 and their joined presentation remain separate gates."
+  ]
+}

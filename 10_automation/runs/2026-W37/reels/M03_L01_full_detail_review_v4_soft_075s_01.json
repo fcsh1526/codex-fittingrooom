@@ -1,0 +1,80 @@
+{
+  "reel_id": "2026-W37-M03-reel",
+  "date": "2026-10-01",
+  "scope": "L01 full/detail transition experiment only",
+  "status": "user_visual_accepted_for_L01_transition_only",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M03_L01_full_detail_review_v4_soft_075s_01.mp4",
+  "sha256": "f2d451d8d510a73fd6576a3211c424b2d591d7d6c13cd12f3d5dd35169154ddc",
+  "duration_seconds": 3.5,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "speed": "same exact source intervals as v2, unchanged timing; user explicitly requests no action changes",
+  "transition": {
+    "type": "cross dissolve",
+    "start_seconds": 1.5,
+    "end_seconds": 2.25,
+    "duration_seconds": 0.75,
+    "frame_intervals": 18,
+    "zoom_blur_morph": "none"
+  },
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 72
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A2_L01_motion_v1_01.mp4",
+      "start_frame": 6,
+      "end_frame_exclusive": 55
+    }
+  ],
+  "baseline": "10_automation/runs/2026-W37/reels/videos/M03_L01_full_detail_review_v3_soft_05s_01.mp4",
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M03_L01_full_detail_review_v4_soft_075s_01.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 3.5
+    },
+    "decoded_frames": 84,
+    "decoded_seconds": 3.5,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "qa": {
+    "continuous_watch_done": true,
+    "user_approval": {
+      "date": "2026-10-01",
+      "reply": "更舒服",
+      "scope": "Preference/acceptance of displayed 0.75s L01 junction versus 0.5s. No approval of complete Reel, other tracks or publication."
+    },
+    "visual_sample_review": "Inspected start, ending and every overlap interval. Full shot retains hair/shoes; detail excludes face. Longer two-scale overlap remains visible. Continuous comfort and duration choice pending.",
+    "open_issues": [
+      "Longer double-scale overlap; subjective comfort and duration preference pending."
+    ],
+    "continuous_watch_evidence": "User comfort assessment after displayed full preview; no independent assistant continuous playback claim."
+  },
+  "user_feedback": "User: 好多了，0.75秒呢. Requests longer comparison, same source action and timing.",
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": 0
+  }
+}

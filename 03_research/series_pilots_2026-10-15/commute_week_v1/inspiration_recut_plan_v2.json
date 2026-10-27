@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-15",
+  "editorial_direction": "weekly_outfit_inspiration_keep_existing_five_looks",
+  "direction_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/user_revision_direction_2026-10-15.json",
+  "viewer_takeaway": "Pick an outfit she would wear from five approachable office combinations.",
+  "not_a_shared_piece_tutorial": true,
+  "type": "existing_source_order_and_dwell_trial",
+  "status": "refined_preview_pending_user_review",
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "aspect_ratio": "9:16",
+  "pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "estimated_frames": 474,
+  "estimated_seconds": 19.75,
+  "transition_seconds": 0.75,
+  "shots": [
+    {
+      "shot_id": "S04",
+      "viewer_information": "裙裝與藍包先建立明顯輪廓",
+      "source_frames_half_open": [
+        72,
+        180
+      ],
+      "film_seconds_half_open": [
+        0,
+        4.5
+      ],
+      "clear_outfit_seconds": 3.75
+    },
+    {
+      "shot_id": "S01",
+      "viewer_information": "長西外提供另一種俐落外輪廓",
+      "source_frames_half_open": [
+        120,
+        234
+      ],
+      "film_seconds_half_open": [
+        3.75,
+        8.5
+      ],
+      "clear_outfit_seconds": 3.25
+    },
+    {
+      "shot_id": "S05",
+      "viewer_information": "棕丹寧帶入較日常的材質與配色",
+      "source_frames_half_open": [
+        84,
+        192
+      ],
+      "film_seconds_half_open": [
+        7.75,
+        12.25
+      ],
+      "clear_outfit_seconds": 3
+    },
+    {
+      "shot_id": "S02",
+      "viewer_information": "格紋上身提供圖案選項",
+      "source_frames_half_open": [
+        84,
+        180
+      ],
+      "film_seconds_half_open": [
+        11.5,
+        15.5
+      ],
+      "clear_outfit_seconds": 2.5
+    },
+    {
+      "shot_id": "S03",
+      "viewer_information": "短外套比例收束另一種外層選項",
+      "source_frames_half_open": [
+        72,
+        192
+      ],
+      "film_seconds_half_open": [
+        14.75,
+        19.75
+      ],
+      "clear_outfit_seconds": 4.25
+    }
+  ],
+  "specific_editorial_changes": [
+    "A-line skirt is shown immediately instead of after17seconds of light tops and dark trousers.",
+    "Long outerwear, brown denim, patterned blouse and short outerwear alternate visible features.",
+    "Different dwell times replace equal6.5second source portions; opening remains a continuous3.75clearseconds without a first-second image flash."
+  ],
+  "same_source_limit": "All five motion sources remain walking shots. No new pose, camera angle, proof view or scene was made. Reordering and shorter dwell do not establish that pacing or viewer-purpose feedback is solved.",
+  "refinement": "Initialv2 first join showed a right-facing neutral S04 to left-gazing smiling S01 change. One refinement selects S01[120,234) with right-facing gaze; its exit remains more side-on than incoming S05. Must review actual joins.",
+  "known_source_deviation": "S01 trouser tone becomes greyer later in the source; do not claim exact navy preservation.",
+  "preserve": [
+    "first_pair_review_v1",
+    "five_look_review_v1",
+    "five_look_review_v2",
+    "W37/W41 publishing media and Drive delivery"
+  ],
+  "next_gate": "Normal-speed user review of the refined whole film: compare willingness to finish and ability to pick an outfit; no approval transferred from earlier cuts.",
+  "actual_preview": {
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/M03_commute_week_inspiration_v2_refined.mp4",
+    "sha256": "fe796bb8aa71fbebda3af262b94fde868abf11be2bf6b048a2cda66bad66bb65",
+    "frames": 474,
+    "seconds": 19.75,
+    "pixels": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/edit_receipt.json",
+    "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/sampled_visual_review.json",
+    "user_film_approval": null
+  }
+}

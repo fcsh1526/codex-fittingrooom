@@ -1,0 +1,60 @@
+{
+  "look_id": "2026-W36-003-L02",
+  "design_id": "DAHUgDCZQhM",
+  "transaction_id": "545450757218635483",
+  "expired_transaction_id": "8897376185398622114",
+  "status": "committed_exact_frame",
+  "edit_url": "https://www.canva.com/d/k8jDbfVhW5Ficgy",
+  "pages": [
+    {
+      "page_id": "PB2GyF34vKF1k1q4",
+      "page_number": 1,
+      "dimension": {
+        "width": 3240,
+        "height": 1350
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "assets": {
+    "A": "MAHUgBtdYu0",
+    "B": "MAHUgJdJ8QQ",
+    "C": "MAHUgMEyQ0k"
+  },
+  "operations": [
+    {
+      "type": "update_title",
+      "title": "Mira W36-003-L02｜黑色棉麻與焦糖麂皮"
+    },
+    {
+      "type": "replace_text",
+      "element_id": "PB2GyF34vKF1k1q4-LBtw5J9M05YrSM1k",
+      "text": "黑色棉麻，襯一抹焦糖麂皮"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PB2GyF34vKF1k1q4-LBtfx0hWS7Gnd4fW",
+      "asset_id": "MAHUgBtdYu0",
+      "alt_text": "黑色棉麻洋裝與焦糖麂皮包全身",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PB2GyF34vKF1k1q4-LB7NyX60PQMJwTV1",
+      "asset_id": "MAHUgJdJ8QQ",
+      "alt_text": "書店坐姿與身旁肩背包",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PB2GyF34vKF1k1q4-LBN3VRtpTw2PkgYb",
+      "asset_id": "MAHUgMEyQ0k",
+      "alt_text": "焦糖麂皮包與黑色棉麻細節",
+      "asset_type": "image"
+    }
+  ],
+  "preview_file": "003-L02_canva_draft_preview.png",
+  "date": "2026-09-08"
+}

@@ -1,0 +1,14 @@
+{
+  "record_date_local":"2026-10-20",
+  "status":"single_same_input_F03_gait_retry_submitted_agent_thinking",
+  "canvas_url":"https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "prompt":"F03_gait_retry_prompt.txt",
+  "input_scope":"pre_submission_scope.json",
+  "ui_observation":"Saved exact prompt submitted; 正在思考 and Stop control visible.",
+  "agent_submission_count":1,
+  "confirmed_generated_video_count_at_submission":0,
+  "new_stills_generated":0,
+  "actual_settings_independently_visible":null,
+  "source_retiming_or_overwrite":false,
+  "publishing_drive_github_changes":false
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mira M02｜W37 動作銜接試剪 v2</title>
+<style>
+  * { box-sizing:border-box }
+  body { margin:0; background:#f4f2ed; color:#202923; font:16px/1.6 system-ui,"Microsoft JhengHei",sans-serif }
+  main { max-width:1060px; margin:auto; padding:24px }
+  h1 { font-size:25px; margin:0 0 8px }
+  p { margin:8px 0 16px }
+  .layout { display:flex; flex-wrap:wrap; gap:24px; align-items:flex-start }
+  canvas,video#result { width:min(100%,360px); aspect-ratio:9/16; background:#232323; border-radius:8px }
+  .side { flex:1; min-width:290px }
+  button,a.download { font:inherit; border:0; border-radius:8px; padding:10px 16px; margin:0 8px 8px 0; background:#355548; color:white; cursor:pointer; text-decoration:none; display:inline-block }
+  button:disabled { background:#a6aaa7; cursor:wait }
+  .note { color:#5d665f; font-size:14px }
+  ol { padding-left:22px }
+  li { margin:8px 0 }
+  #status { min-height:30px; font-weight:600 }
+  #result { display:none }
+  a.download { display:none }
+  video.source { position:absolute; width:1px; height:1px; left:-9999px; opacity:0 }
+</style>
+<main>
+  <h1>M02｜薄襯衫與洋裝，兩組配色</h1>
+  <p>無字幕、無音樂的四鏡動作銜接試剪。剪掉停住的尾段，下一鏡在切入前先開始播放；畫面維持正常速度與直接切鏡。這不是發布成片。</p>
+  <div class="layout">
+    <canvas id="screen" width="720" height="1280" aria-label="四鏡試剪畫面"></canvas>
+    <div class="side">
+      <button id="preview">正常速度試看</button>
+      <button id="record">輸出無聲試剪</button>
+      <div id="status">載入四段原片中…</div>
+      <ol>
+        <li>S01，L01 全身：0.05–2.55 秒</li>
+        <li>S02，L01 搭配重點：0.35–2.35 秒</li>
+        <li>S03，L02 搭配重點：0.35–2.15 秒；避開停住與滑肩</li>
+        <li>S04，L02 全身：0.35–2.50 秒</li>
+      </ol>
+      <p class="note">預計約 8.45 秒。下一鏡提前 0.35 秒在背景正常播放，切入時不會卡在未開始播放的第一幀。沒有加速、補幀或轉場特效；實際輸出仍需完整觀看。</p>
+      <video id="result" controls muted playsinline></video>
+      <p><a id="download" class="download">下載 v2 試剪 WebM</a></p>
+    </div>
+  </div>
+  <div id="sources" aria-hidden="true"></div>
+</main>
+<script>
+const plan = [
+  {id:'S01',file:'videos/S01_comparison_v2_01.mp4',start:0.05,end:2.55},
+  {id:'S02',file:'videos/S02_comparison_v2_02.mp4',start:0.35,end:2.35},
+  {id:'S03',file:'videos/S03_comparison_v2_02.mp4',start:0.35,end:2.15},
+  {id:'S04',file:'videos/S04_comparison_v2_01.mp4',start:0.35,end:2.50}
+];
+const preroll=0.35;
+const canvas=document.getElementById('screen'), ctx=canvas.getContext('2d',{alpha:false});
+const status=document.getElementById('status'), preview=document.getElementById('preview'), record=document.getElementById('record');
+const result=document.getElementById('result'), download=document.getElementById('download');
+const videos=plan.map(shot=>{const v=document.createElement('video');v.src=shot.file;v.muted=true;v.preload='auto';v.playsInline=true;v.className='source';document.getElementById('sources').append(v);return v});
+let running=false, outputUrl=null;
+function waitFor(v,event){return new Promise((resolve,reject)=>{const done=()=>{v.removeEventListener(event,done);v.removeEventListener('error',fail);resolve()};const fail=()=>{v.removeEventListener(event,done);reject(new Error('影片無法載入：'+v.currentSrc))};v.addEventListener(event,done,{once:true});v.addEventListener('error',fail,{once:true})})}
+async function seek(v,t){if(v.readyState<1) await waitFor(v,'loadedmetadata');if(Math.abs(v.currentTime-t)>0.02){const done=waitFor(v,'seeked');v.currentTime=t;await done}if(v.readyState<2) await waitFor(v,'loadeddata')}
+async function prepare(){await Promise.all(videos.map((v,i)=>seek(v,i===0?plan[i].start:Math.max(0,plan[i].start-preroll))));ctx.drawImage(videos[0],0,0,720,1280);status.textContent='四段原片已就緒。'}
+prepare().catch(e=>{status.textContent=e.message;console.error(e)});
+async function run(shouldRecord){
+  if(running)return;running=true;preview.disabled=record.disabled=true;download.style.display='none';
+  let recorder=null,chunks=[];
+  try{
+    await prepare();
+    if(shouldRecord){
+      const options=['video/webm;codecs=vp9','video/webm;codecs=vp8','video/webm'].find(t=>MediaRecorder.isTypeSupported(t));
+      if(!options)throw new Error('這個瀏覽器無法輸出 WebM');
+      recorder=new MediaRecorder(canvas.captureStream(30),{mimeType:options,videoBitsPerSecond:5000000});
+      recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
+    }
+    const lengths=plan.map(x=>x.end-x.start), total=lengths.reduce((a,b)=>a+b,0);
+    const cutStarts=lengths.map((_,i)=>lengths.slice(0,i).reduce((a,b)=>a+b,0));
+    const started=plan.map((_,i)=>i===0);
+    let active=0;await videos[0].play();
+    if(recorder)recorder.start(250);
+    const mark=performance.now();
+    await new Promise(resolve=>{
+      function frame(now){
+        let elapsed=(now-mark)/1000, next=0, offset=0;
+        for(let i=1;i<plan.length;i++){
+          if(!started[i] && elapsed>=cutStarts[i]-preroll){started[i]=true;videos[i].play().catch(console.error)}
+        }
+        while(next<plan.length-1 && elapsed>=offset+lengths[next]){offset+=lengths[next];next++}
+        if(elapsed>=total){videos[active].pause();ctx.drawImage(videos[active],0,0,720,1280);resolve();return}
+        if(next!==active){videos[active].pause();active=next}
+        if(videos[active].readyState>=2)ctx.drawImage(videos[active],0,0,720,1280);
+        status.textContent=plan[active].id+'｜'+elapsed.toFixed(1)+' / '+total.toFixed(1)+' 秒'+(shouldRecord?'｜輸出中':'｜試看中');
+        requestAnimationFrame(frame)
+      }
+      requestAnimationFrame(frame)
+    });
+    if(recorder){
+      const stopped=new Promise(resolve=>recorder.onstop=resolve);recorder.stop();await stopped;
+      if(outputUrl)URL.revokeObjectURL(outputUrl);
+      outputUrl=URL.createObjectURL(new Blob(chunks,{type:recorder.mimeType}));
+      download.href=outputUrl;download.download='M02_comparison_v2_roughcut_02.webm';download.style.display='inline-block';
+    }
+    status.textContent=shouldRecord?'試剪已輸出；請下載後獨立完整播放。':'試看結束。';
+  }catch(e){status.textContent='試剪未完成：'+e.message;console.error(e);if(recorder?.state==='recording')recorder.stop()}
+  finally{videos.forEach(v=>v.pause());running=false;preview.disabled=record.disabled=false}
+}
+preview.onclick=()=>run(false);record.onclick=()=>run(true);
+</script>
+</html>

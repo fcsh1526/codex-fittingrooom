@@ -1,0 +1,67 @@
+{
+  "source": "03_research/editorial_sequence_reset_2026-10-13/../editorial_repeatability_m02_2026-10-13/first_look_review_v1/M02_L01_cafe_pause_trial_v1.mp4",
+  "sha256": "4d62425d80c66a14f1b6f3e6f172e9edadedcc5b1e603736c31d314e37bc67e4",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\editorial_sequence_reset_2026-10-13\\..\\editorial_repeatability_m02_2026-10-13\\first_look_review_v1\\M02_L01_cafe_pause_trial_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.25
+    },
+    "decoded_frames": 150,
+    "decoded_seconds": 6.25,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    31,
+    37,
+    43,
+    49,
+    55,
+    62,
+    68,
+    74,
+    80,
+    86,
+    93,
+    99,
+    105,
+    111,
+    117,
+    124,
+    130,
+    136,
+    142,
+    149
+  ],
+  "face_sample_frames": [
+    0,
+    37,
+    74,
+    111,
+    149
+  ],
+  "all_frame_thumbnails_exported": 150,
+  "visual_review": "sampled_review_recorded_continuous_playback_and_user_film_approval_pending",
+  "assistant_continuous_playback": false,
+  "user_film_approval": null,
+  "visual_review_receipt": "03_research/editorial_repeatability_m02_2026-10-13/L01_motion_and_join_review.json"
+}

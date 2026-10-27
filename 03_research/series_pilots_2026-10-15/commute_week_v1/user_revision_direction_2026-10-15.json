@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "question": "下一版要讓觀眾帶走哪一種收穫？兩條方向的具體草案已整理：前者保留現有五套、重做鏡頭與節奏；後者先把同一單品固定下來，需重配部分服裝。",
+  "question_record_type": "verbatim_question_provided_by_operating_parent_agent",
+  "choices": [
+    "挑選一週穿搭靈感，保留這五套",
+    "學同件單品多搭，先試一條灰褲"
+  ],
+  "user_quote": "挑選一週穿搭靈感，保留這五套",
+  "selected_choice": "挑選一週穿搭靈感，保留這五套",
+  "selected_direction": "A_weekly_outfit_inspiration_keep_existing_five_looks",
+  "scope": "選擇本支下一版的觀眾收穫為一週穿搭靈感，保留同一M03既有五套完整衣服，調整觀看順序、鏡頭與節奏。這是本案修訂方向，不是任何新影片視覺核准、灰褲多搭方案採納或全帳號固定系列採納。",
+  "retained_look_ids": [
+    "ED-W42-COMMUTE-V1-L01",
+    "ED-W42-COMMUTE-V1-L02",
+    "ED-W42-COMMUTE-V1-L03",
+    "ED-W42-COMMUTE-V1-L04",
+    "ED-W42-COMMUTE-V1-L05"
+  ],
+  "retained_model_id": "M03",
+  "revision_scope": [
+    "viewing_order",
+    "shot_presentation",
+    "pacing"
+  ],
+  "existing_media_reedit_candidate_allowed": true,
+  "wardrobe_recomposition_for_grey_trouser_series_selected": false,
+  "new_video_visual_approval": null,
+  "complete_five_look_film_approval": null,
+  "account_wide_adoption": null,
+  "new_weekly_production_quota": null,
+  "normal_speed_full_playback_user_self_report": null,
+  "audience_performance_result": null,
+  "retained_production_rules": {
+    "baked_text": false,
+    "source_action_speed": "unchanged native source speed; no slow motion or acceleration inferred",
+    "shot_switch_transition_seconds_approximately": 0.75,
+    "exact_new_still_visual_approval_gate_unchanged": true
+  },
+  "evidence_context": {
+    "previous_five_look_film_feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/user_film_feedback_2026-10-15.json",
+    "previous29_5_second_film_approval": null,
+    "accepted_first_pair_film_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/user_film_approval_2026-10-15.json",
+    "historical_still_and_exact_first_pair_acceptances_rescinded": false
+  },
+  "limits": [
+    "This direction choice does not approve a proposed new shot order or any future completed export.",
+    "An existing-source reedit can test ordering and dwell time; it does not establish that repeated walking-action limits are solved.",
+    "New media generation or new still visual acceptance is not inferred from selecting this option."
+  ],
+  "publishing_files_replaced": [],
+  "external_upload_or_publication_authorized_by_this_reply": false
+}

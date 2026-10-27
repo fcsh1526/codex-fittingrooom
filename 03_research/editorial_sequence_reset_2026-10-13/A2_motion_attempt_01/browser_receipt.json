@@ -1,0 +1,20 @@
+{
+  "status": "completed_downloaded",
+  "submitted_at": "2026-10-13T05:37:52.644Z",
+  "send_count": 1,
+  "reference": "Mira M03 v3",
+  "image_role": "First frame",
+  "approved_still": "M03_L01_A2_seated_candidate_v4_clean.png",
+  "settings": {
+    "resolution": "720p",
+    "seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "prompt": "A2_motion_prompt_v1.txt",
+  "post_url": "https://grok.com/imagine/post/d0ca30b3-12ac-4a2f-b7ec-972322d61dd0?conversation=9bb360ec-1667-416e-b4ec-3de81747ad09",
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-9bb360ec-1667-416e-b4ec-3de81747ad09.mp4",
+  "downloaded_at": "2026-10-13T05:40:37.008Z",
+  "submission_to_download_seconds": 164.364,
+  "elapsed_time_note": "Includes other review/preparation; not pure generation wait."
+}

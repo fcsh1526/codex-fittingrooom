@@ -1,0 +1,12 @@
+{
+  "date":"2026-10-21",
+  "preview":"v1/review.mp4",
+  "sha256":"3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+  "question":"請播放下方16.04秒前四套試接：第三套已縮短，格紋改回全身。約11.5–12.3秒仍有臉、身體與腿部雙影；格紋段另多出核准圖未見的短階梯，從右側入鏡。這次節奏、接續與階梯是否可保留，再繼續第五套？第五套尚未加入。",
+  "options":["可以保留，繼續第五套","接續或步態仍需調整","新階梯或背景不能接受"],
+  "answer":"可以保留，繼續第五套",
+  "status":"exact_four_look_research_video_accepted_F05_continuation_authorized",
+  "approval_receipt":"user_video_acceptance.json",
+  "not_complete_five_look_film":true,
+  "publishing_approval_inferred":false
+}

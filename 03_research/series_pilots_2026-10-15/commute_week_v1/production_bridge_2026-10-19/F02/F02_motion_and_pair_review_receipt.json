@@ -1,0 +1,28 @@
+{
+  "recorded_date":"2026-10-19",
+  "status":"bounded_second_segment_and_pair_candidate_ready_user_review_pending",
+  "submission":"F02_grok_submission_receipt.json",
+  "completion_dom":"F02_grok_completion_dom.txt",
+  "completion_screenshot":"F02_grok_result_screenshot.png",
+  "video_asset_id":"1db1763a-c32b-4ffc-92c2-7367910b8d2b",
+  "generation_calls_observed":1,
+  "agent_reported_selected_roles":{"first_frame":"20c59fdd-4d3b-460c-8d0c-8b81be7b257f","last_frame":"85c20ca9-3c40-4c61-b747-1e9cf8b08178","face":"6236309c-2343-41e6-985c-994239ff744a","full_proportions":"ac9ede4e-1715-4518-95b4-bda341a62061"},
+  "internal_reference_controls_independently_visible":false,
+  "source":{"file":"F02_source.mp4","downloaded_file":"C:/Users/Brandon_ChangChien/Downloads/generated_video (49).mp4","sha256":"56d8598ad761f94ca8391961ac6ae64b5316d5722045a15d7c79c454166ab4dc","bytes":6058045,"pixels":[720,1280],"fps":24,"decoded_frames":145,"seconds":6.041666666666667,"audio_codec":"aac","scan":"F02_technical_scan.json"},
+  "pair":{"file":"F01_F02_soft_join_review_v1.mp4","sha256":"a6aa239c75663ccfd39f4c438f86db7f82cdaf375239a641ca110bee133daca2","pixels":[720,1280],"fps":24,"frames":205,"seconds":8.541666666666666,"frame_formula":"78+145-18=205","F01_source_frames_half_open":[0,78],"F02_source_frames_half_open":[0,145],"dissolve_output_frames_half_open":[60,78],"dissolve_seconds":0.75,"dissolve_interval_seconds":[2.5,3.25],"source_speed_factors":[1,1],"framing_transform":"none","added_text":false,"audio_stream_present":false,"builder_receipt":"F01_F02_soft_join_review_v1_receipt.json"},
+  "assistant_sampled_observations":{
+    "root_viewed":["QA_source/full_25_checkpoints.jpg","QA_pair/full_25_checkpoints.png","QA_pair/transition_all_boundary_frames.png"],
+    "independent_source_review_agent":"/root/f02_bounded_spatial_plan",
+    "source":["No sampled recurrence of a deep repetitive arched corridor; finite rectangular columns and flat beams remain, with an open area appearing at right near the end.","White pointed-collar shirt, cocoa denim, black belt/shoes/bag and M03-like face/hair remain visually consistent in samples; no obvious identity or outfit switch.","Exact column count, distances and all occluded geometry are not verified from samples."],
+    "join":["First still aligns the overlap-start pose/scene, but subsequent camera and step rates differ.","During2.5–3.25seconds, person head/shoulder/legs and column edges are visibly doubled by the dissolve.","This remains a user-review candidate; no zero-ghosting, synchronized-step or continuous-world technical pass is claimed."],
+    "assistant_continuous_playback":false,
+    "normal_speed_user_full_playback_self_report":null,
+    "join_visual_approval":null,
+    "whole_five_look_film_approval":null
+  },
+  "next":"Exact pair user viewing/feedback before using the F02 actual endpoint for L03. Preserve roughly0.75second soft joins and unchanged native movement speed.",
+  "new_stills_this_stage":2,
+  "later_three_looks_generated":false,
+  "publication_or_old_delivery_changes":[],
+  "public_sync":false
+}

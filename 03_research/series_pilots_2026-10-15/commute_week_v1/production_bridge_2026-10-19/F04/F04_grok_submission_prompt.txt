@@ -1,0 +1,17 @@
+本次只生成F04格紋襯衫的一個6秒、720p、原生9:16候選影片，留在目前Mira畫布；不出新圖、不換裝、不合片、不重做舊片、不自行重試。首尾兩張已由使用者分別視覺核准。
+
+先實際查看以下兩張新上傳圖片再指定角色；不能同時指定便停下回報：
+First frame ONLY = e008f6b5-efe9-40b4-be75-615af1be766c（M03奶油白／海軍藍細方格尖領襯衫、袖口至前臂、紮炭灰褲、黑低跟鞋／黑肩包，向右側面跨步，廣場花台在後）。
+Last frame ONLY = 936d6b16-20ac-4fdb-baa0-723df9542f0e（同一套，側後方，剛到公司側鋪面；前腳承重、後腳已抬過路緣，單一斑馬線在後方左下、玻璃外牆在前，尚未到門口；不可用未修後腳的舊末幀）。
+Face identity ONLY = 6236309c-2343-41e6-985c-994239ff744a；Full ordinary proportions ONLY = ac9ede4e-1715-4518-95b4-bda341a62061。
+若需比對前段動勢，只看原F03影片cdd9871e-3ebe-47b6-96d2-6bc5aa81be89的原生f127–144（5.2917–6.0秒）；僅動態參考，不帶入短外套。失敗新增柱體版bcb58740-fac2-486e-9f5e-ca635a4c29c7完全不用。其他畫布選取殘留也不用。
+
+Generate one continuous six-second real-time commuting shot from the exact approved first image to the corrected last image. Preserve the same M03 face, wavy hair, ordinary proportions, cream-white fine navy square-check pointed-collar shirt with rolled forearm sleeves, tucked charcoal straight trousers, black low heels and small black shoulder bag. The bag stays on the SAME physical shoulder through the camera arc; it may change screen side naturally.
+
+Begin already mid-stride toward frame-right, continuing the preceding clip's cadence, support-foot phase and actual forward momentum through the opening0.75seconds, without easing in, posing or slowing for the outfit change. Then follow one smooth curved walking path toward the SINGLE existing zebra crossing ahead/right, across the narrow asphalt access lane, onto the company-side gray pavement. End one step beyond that curb, still walking in the approved rear-three-quarter view. The glass office facade is now ahead; the crossing trails behind toward the original plaza. Do not arrive at a doorway yet.
+
+The level chest-height50mm camera follows from the same initial visible flank, gradually falling behind into rear-three-quarter as she turns. Keep complete head and both shoes and comparable person scale. No camera-side reversal, sudden90/180degree pivot, zoom or view reset. Curbs, zebra stripes, planters, trees and window grid reveal through actual camera travel/parallax, not by dissolving or materializing beneath her. Preserve one road and one crossing; no added pillars, long colonnade, new intersection or extra road between her endpoint and the glass facade.
+
+Keep grounded ordinary steps: each supporting sole and its paving/asphalt point move together through the image until toe-off; her pelvis advances over that foot while the other swings into a clear next landing. No screen-pinned feet, skating, stationary marching or exaggerated toe-up rocking. Stride, body displacement and camera/ground flow agree; no abrupt pace change before or after the turn. Step naturally up the curb, supporting on company-side paving as the trailing knee flexes and clears it. Keep arm counter-swing, bag and fabric response natural, identity and plaid pattern stable.
+
+No internal cut, dissolve, outfit morph, slow motion, speed ramp, retiming, freeze, extra person or text/logo. Audio off if supported; otherwise report the actual audio for a local silent review. Generate exactly once and report actual first/last/face/full roles, new asset ID, duration, pixels and audio. Separate requested motion from sampled observations; do not declare zero foot sliding or exact same-site geometry merely because requested.

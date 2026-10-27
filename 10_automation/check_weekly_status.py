@@ -393,10 +393,16 @@ def check_status(run_dir):
     assets = asset_status(run_dir)
     publishing = publish_status(run_dir)
     packet = packet_status(run_dir)
-    if clean(run_state.get("status")).lower() == "archived":
+    run_state_status = clean(run_state.get("status")).lower()
+    if run_state_status in {"archived", "completed"}:
         stage = {
-            "stage": "archived",
-            "next_action": clean(run_state.get("reason")) or "This historical run is archived and excluded from production queues.",
+            "stage": run_state_status,
+            "next_action": clean(run_state.get("reason"))
+            or (
+                "This run is complete and excluded from production queues."
+                if run_state_status == "completed"
+                else "This historical run is archived and excluded from production queues."
+            ),
             "blocking_items": [],
         }
     else:

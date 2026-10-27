@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="760" viewBox="0 0 1120 760" style="color:CanvasText;background:Canvas">
+<title>F04 proposed camera, same fixed crossing</title><rect width="1120" height="760" fill="Canvas"/>
+<defs><clipPath id="proposal-panel"><rect width="340" height="604"/></clipPath></defs>
+<g transform="translate(20,40)"><text x="0" y="-15" fill="currentColor" font-size="18">Start — camera proposal</text><g clip-path="url(#proposal-panel)"><rect width="340" height="604" fill="Canvas" stroke="currentColor" opacity=".2"/>
+<polygon points="85.46,442.47 434.87,448.89 422.44,438.33 91.73,432.57" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="97.38,423.66 411.28,428.85 401.21,420.29 102.49,415.59" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="107.14,408.26 392.08,412.54 383.76,405.47 111.38,401.56" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="115.27,395.42 376.15,399.01 369.16,393.07 118.86,389.76" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="122.16,384.54 362.72,387.60 356.77,382.54 125.23,379.71" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="128.07,375.22 351.24,377.85 346.11,373.49 130.72,371.04" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<path d="M-395.36,440.45L1178.60,470.48" fill="none" stroke="currentColor"/>
+<path d="M-150.18,364.18L745.57,374.05" fill="none" stroke="currentColor"/>
+<path d="M151.53,190.15L151.53,468.90m0,-70l-22,70m22,-70l22,70" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="151.53" cy="182.15" r="9" fill="currentColor"/></g></g>
+<g transform="translate(390,40)"><text x="0" y="-15" fill="currentColor" font-size="18">Mid — camera proposal</text><g clip-path="url(#proposal-panel)"><rect width="340" height="604" fill="Canvas" stroke="currentColor" opacity=".2"/>
+<polygon points="-29.29,468.58 -188.16,639.90 -119.83,639.90 8.73,468.58" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="46.75,468.58 -51.50,639.90 16.83,639.90 84.77,468.58" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="122.79,468.58 85.16,639.90 153.49,639.90 160.81,468.58" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="198.84,468.58 221.82,639.90 290.15,639.90 236.86,468.58" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="274.88,468.58 358.48,639.90 426.82,639.90 312.90,468.58" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="350.92,468.58 495.15,639.90 563.48,639.90 388.94,468.58" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<path d="M170.00,181.10L170.00,498.31m0,-70l-22,70m22,-70l22,70" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="170.00" cy="173.10" r="9" fill="currentColor"/></g></g>
+<g transform="translate(760,40)"><text x="0" y="-15" fill="currentColor" font-size="18">End — camera proposal</text><g clip-path="url(#proposal-panel)"><rect width="340" height="604" fill="Canvas" stroke="currentColor" opacity=".2"/>
+<polygon points="-433.69,465.97 -852.15,701.01 -744.67,685.80 -388.64,462.48" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="-345.04,459.10 -644.26,671.58 -550.25,658.27 -302.83,455.83" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="-261.94,452.67 -462.04,645.78 -379.12,634.04 -222.31,449.60" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="-183.89,446.62 -301.01,622.98 -227.32,612.54 -146.61,443.74" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="-110.44,440.93 -157.68,602.68 -91.77,593.35 -75.31,438.21" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<polygon points="-41.20,435.57 -29.29,584.50 30.03,576.11 -8.04,433.00" fill="GrayText" fill-opacity=".3" stroke="currentColor"/>
+<path d="M170.00,202.62L170.00,428.37m0,-70l-22,70m22,-70l22,70" fill="none" stroke="currentColor" stroke-width="4"/><circle cx="170.00" cy="194.62" r="9" fill="currentColor"/></g></g>
+<text x="20" y="710" fill="currentColor" font-size="18">Same six world rectangles; camera moves to side, then slightly behind. New proposal, not an image match.</text></svg>

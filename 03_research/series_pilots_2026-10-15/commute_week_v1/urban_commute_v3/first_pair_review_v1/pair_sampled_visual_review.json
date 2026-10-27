@@ -1,0 +1,94 @@
+{
+  "created_at_utc": "2026-10-15T07:55:54.429898+00:00",
+  "date": "2026-10-15",
+  "reviewer": "commute_motion_review subagent",
+  "status": "urban_pair_boundary_checkpoint_review_complete_user_normal_speed_direction_review_pending",
+  "output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\urban_commute_v3\\first_pair_review_v1\\M03_urban_commute_first_pair_review_v1.mp4",
+  "output_sha256": "5dbe1ac323511a7c5e6e2a6de7e81b42cf16af21098a162aad1602d58061c30e",
+  "reported_duration_seconds_from_edit_receipt": 9.25,
+  "reported_native_frames_from_edit_receipt": 222,
+  "scope": "Single new U01-to-U02 transition and its displayed context only; root separately reviews whole-film checkpoints. This file does not approve the whole film.",
+  "media_and_edit_receipt_unchanged": true,
+  "method": "Actually viewed existing34-frame full boundary board and34 head-window board (all18 dissolve frames plus8 frames each side) and native output f110 PNG. No continuous playback, source scan or media edit.",
+  "viewed_assets": [
+    "QA/transition_all_boundary_frames.jpg",
+    "QA/transition_all_boundary_head_windows.jpg",
+    "QA/frames/frame_000110.png"
+  ],
+  "source_intervals_from_edit_receipt": [
+    {
+      "shot": "U01",
+      "sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+      "selected_frames_half_open": [
+        48,
+        168
+      ],
+      "seconds_half_open": [
+        2.0,
+        7.0
+      ],
+      "clear_outfit_seconds": 4.25
+    },
+    {
+      "shot": "U02",
+      "sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+      "selected_frames_half_open": [
+        0,
+        120
+      ],
+      "seconds_half_open": [
+        0.0,
+        5.0
+      ],
+      "clear_outfit_seconds": 4.25
+    }
+  ],
+  "transition": {
+    "from_shot": "U01",
+    "to_shot": "U02",
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      102,
+      120
+    ],
+    "output_seconds_half_open": [
+      4.25,
+      5.0
+    ],
+    "reviewed_context_frames_half_open": [
+      94,
+      128
+    ],
+    "user_join_approval": null
+  },
+  "observations": {
+    "viewpoint_and_movement": "U01 is a centered frontal approach/reverse-track view; U02 becomes a clear right-facing profile moving across a crosswalk. The directional/camera change is intentionally large and visible. Chronological boundary samples show the linear superimposition evolving across18frames, not an extra one-frame switch; whether it feels abrupt at speed is unverified.",
+    "head_scale": "Broad head-to-shoe size and head height are reasonably close. Face orientation differs by approximately a frontal-to-side view, so eye/nose/mouth contours cannot line up despite similar scale.",
+    "face_double_exposure": "The middle overlap, approximately4.5–4.8seconds, visibly combines a front face and a right-facing profile, producing two facial outlines/eyes and layered hair. Native f110 at4.583seconds clearly shows this. It is a conspicuous crossfade, not a seamless turn or exact matched-face outfit switch.",
+    "body_and_gait": "Front torso and profile torso, held bag-strap hand and lower swinging arm occupy different positions. Different foot phases and black skirt/navy-trouser contours overlap. Pure-source context frames before and after show a coherent full person with complete shoes; no additional main-body collapse outside the fade is visible in this context.",
+    "outfit_readability": "Ivory blazer/white tee/dark trousers/brown bag are legible before the overlap; white short-sleeve shirt/black A-line skirt/blue bag are legible after. Transition frames temporarily obscure exact silhouette through garment overlap. Edit receipt reports4.25seconds of clear non-overlapped outfit per source; this arithmetic is not an audience-readability pass.",
+    "crowd": "Front-depth commuters in U01 blend into lateral-crosswalk commuters in U02. Several background heads/limbs are doubled during the fade; the figures do not conspicuously occlude the principal outfit in the displayed pure-source context. Fine distant-person anatomy is not certified.",
+    "rigid_background": "Building/window grids, trees, paving and crosswalk stripes occupy distinct perspectives and visibly double. Pure-source boundary context restores one rigid scene; no unexpected black frame, geometric melting or lingering double exposure beyond the intended fade is observed.",
+    "subjective_style": "Advertising attraction, decisive urban pace, normal-speed eye comfort and success against the user feedback are deliberately unassessed by this still-boundary review."
+  },
+  "no_additional_blocking_defect_for_user_normal_speed_direction_preview": true,
+  "visible_residual_double_exposure": true,
+  "seamless_transition": false,
+  "unexpected_black_flash_or_main_collapse_outside_fade_observed_in_context": false,
+  "assistant_continuous_visual_review": false,
+  "user_video_approval": null,
+  "normal_speed_comfort_verified": false,
+  "advertising_appeal_verified": false,
+  "pace_improvement_verified": false,
+  "user_feedback_resolved": null,
+  "publishable": false,
+  "conclusion": "This source pair can be shown as a direction test with the frontal-to-profile face/body/crowd double exposure disclosed. No additional checkpoint defect requires a trial-and-error re-edit before the user sees it. The visible angle transition is substantial, and comfort/pace/advertising impact require normal-speed user playback.",
+  "limitations": [
+    "This reviewer inspected the join context, not a complete normal-speed playback.",
+    "A technical decode and18-frame transition do not establish pleasant perception.",
+    "Full-film source QA and whole-film checkpoints remain separate records.",
+    "The fade is not used here to declare identity, anatomy, crowds or background universally error-free."
+  ]
+}

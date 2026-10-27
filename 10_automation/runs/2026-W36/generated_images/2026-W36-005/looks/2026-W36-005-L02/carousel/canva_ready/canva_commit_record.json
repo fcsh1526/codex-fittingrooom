@@ -1,0 +1,17 @@
+{
+  "look_id": "2026-W36-005-L02",
+  "design_id": "DAHUlpuvOHc",
+  "transaction_id": "4997259004119778727",
+  "status": "committed_exact_frame",
+  "review": "canva_frame_approved",
+  "production_status": "ready_for_manual_export",
+  "approved_on": "2026-09-08",
+  "edit_url": "https://www.canva.com/d/zAvaGAkOq-m8K7h",
+  "copy": "黑色裙襬下，酒紅隨步伐閃現",
+  "result": {
+    "transaction": {
+      "id": "4997259004119778727",
+      "status": "committed"
+    }
+  }
+}

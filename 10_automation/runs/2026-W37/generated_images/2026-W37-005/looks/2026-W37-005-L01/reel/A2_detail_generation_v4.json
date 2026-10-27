@@ -1,0 +1,94 @@
+{
+  "look_id": "2026-W37-005-L01",
+  "shot_id": "A2",
+  "model_profile_id": "M03",
+  "date": "2026-10-01",
+  "status": "user_visual_approved_for_motion_2026-10-01",
+  "provider": "built_in_imagegen",
+  "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A2_detail_start_candidate_v4.png",
+  "approved_parent": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A1_full_start_candidate_v2.png",
+  "parent_approval": {
+    "reply": "ok",
+    "date": "2026-10-01"
+  },
+  "history": [
+    {
+      "version": 1,
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A2_detail_start_candidate_v1.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "sha256": "74e7e11816ed5f881427f42736258686c4b0f8d55de3c9e858202c55632c4ab2",
+      "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A2_L01_detail_start_v1.md",
+      "status": "rejected_material_fidelity",
+      "review": "Invented ornamental/scribbled texture on plain clothing."
+    },
+    {
+      "version": 2,
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A2_detail_start_candidate_v2.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "sha256": "eb6858e8dab3076ae9ee03ee263bd9a4ffc9dfaee477ead84db54a48457b39bf",
+      "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A2_L01_fabric_correction_v2.md",
+      "status": "rejected_material_fidelity",
+      "review": "First local material correction retained visible unwanted texture."
+    },
+    {
+      "version": 3,
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A2_detail_start_candidate_v3.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "sha256": "3b19d85f14a38c268d00d95c062f0afedc18706f0d5fd90a0c1ee84a6414cb7d",
+      "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A2_L01_plain_fabric_correction_v3.md",
+      "status": "rejected_material_fidelity",
+      "review": "Second local correction still retained the unwanted source texture."
+    },
+    {
+      "version": 4,
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A2_detail_start_candidate_v4.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "sha256": "4595195234c298f3429b80aee29320163c6d3ddfbbd3d1a2054616d117f37b2a",
+      "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A2_L01_rebuild_v4.md",
+      "status": "user_visual_approved_for_motion_2026-10-01",
+      "review": "Rebuilt from approved full image; ornament reduced to finer cloth surface. Retained as candidate for user review."
+    }
+  ],
+  "assistant_review": {
+    "framing": "Native941x1672 vertical detail, no face/chin/mouth; complete bag panel, strap/buckle, cream shirt, waist and relaxed hands visible. Actual framing extends toward knees despite upper-thigh request.",
+    "outfit": "Cream sleeveless collared shirt tucked into dark-coffee trousers; small caramel tapered bag on viewer-right. V4 rebuilding reduced the obvious decorative markings seen in rejected derivatives; fine cloth appearance still subject to user review.",
+    "evidence": "Bag panel is larger than full source and visibly contrasts with the light shirt; actual product/material performance cannot be inferred.",
+    "cut_continuity": "Bag center is about76% width/38% height versus approved full about63%/36%. Horizontal shift remains; no successful full-to-detail cut claimed. Must inspect actual A1 ending and A2 starting frames and test framing before accepting edit.",
+    "identity": "No face is visible by design. Motion must stay a fixed faceless detail, never reveal an unprovided face."
+  },
+  "user_visual_approval": {
+    "reply": "ok",
+    "date": "2026-10-01",
+    "scope": "Displayed A2 v4 still only; motion and cut remain unverified"
+  },
+  "grok_submitted": true,
+  "production_cost": {
+    "built_in_calls": 4,
+    "initial_generation": 1,
+    "derivative_local_corrections": 2,
+    "rebuild_from_approved_parent": 1,
+    "observed_tool_wall_seconds": [
+      45.6,
+      41.2,
+      43.1,
+      36.8
+    ],
+    "active_minutes": null,
+    "generation_wait_minutes": null,
+    "note": "Wall times include tool overhead, not measured active work or pure generation wait. The approved full Hero was not repeatedly edited."
+  },
+  "motion_prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_A2_L01_motion_v1.md",
+  "motion_record_path": "10_automation/runs/2026-W37/reels/M03_A2_L01_motion_v1_01.json"
+}

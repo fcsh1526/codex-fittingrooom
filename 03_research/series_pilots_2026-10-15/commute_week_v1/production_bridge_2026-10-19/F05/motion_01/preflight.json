@@ -1,0 +1,14 @@
+{
+  "date_client": "2026-10-21",
+  "first": "../first_still_01/F05_M03_L04_start_candidate_A.png",
+  "first_sha256": "9bc90ffa51bdad22106401647fef10fbf20b2da6faf88192b1b6f8191aba97d2",
+  "last": "../end_still_01/F05_M03_L04_end_candidate_A.png",
+  "last_sha256": "9af51b785d2bd104751cd2502deaa86f29cad217621643cef98c23d0ff1f16e7",
+  "user_approved_both": true,
+  "look": "M03 L04,white short sleeve pointed shirt/black calf-length A-line skirt/cobalt shoulderbag/plain black lowheel shoes",
+  "continuity": "Both rightward same-flank walk with bag on near shoulder. First close field leaves canopy and full hem outside view; wider final field may plausibly reveal entrance ahead/right, full hem and shoe contact. Short planter stays behind/left, grey-green glass family/daylight consistent. No demonstrated hard mirror/road/curb contradiction in still comparison.",
+  "limits": "Door/world position and repeated window divisions are not measured; endpoint differs from E00 as disclosed/accepted. Pullback amplitude is large and must be continuous. User approval of photographs does not prove physical interpolation.",
+  "trial": "One6s720p9:16 first/last +M03v3 identity diagnostic. Keep first.75s near framing; smoothly widen thereafter, no cut/freeze/speedchange. If tool rejects necessary roles,stop. If scene grows/morphs or subject instantly changes scale,do not auto-retry or hide in edit.",
+  "next_join": "Working context frames567-584 map to originalF04close127-144; newfirst wardrobe edit uses exact127,not144.",
+  "dynamic_acceptance": null
+}

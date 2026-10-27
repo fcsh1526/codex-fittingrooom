@@ -1,0 +1,1 @@
+只讀核對工具能力，不生成照片或影片、不修改舊資產。現在準備新的M03格紋全身試片（與先前近景片不同）。請根據你目前實際可用的imagine_reference_to_video參數，回答：1）duration=6、720p、9:16時，是否可同時指定first_frame_asset_id、keyframes:[{asset_id:...,timestamp_s:4.333333333333333}]、asset_ids(M03 face/full)，並省略last_frame_asset_id？2）若timestamp必須三分之一秒格點，上述13/3秒數值是否有效、需要如何表示？3）請列出真實限制或拒絕條件。不要呼叫生成工具，不要自行出測試片。先只回答參數能力，不依目前選取影片猜新輸入。

@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-20",
+  "user_reply": "可以，沿用這張",
+  "question": "剛顯示的 M03 格紋近景，臉、奶油白／海軍藍格紋襯衫、炭灰褲腰、黑肩包與背景柔焦是否可以沿用為第四鏡起始圖？依你在 AGENTS.md 設定的「新圖先視覺核准」流程，確認後才會送入 Grok。",
+  "asset": "F04_M03_L02_close_start_candidate_A.png",
+  "sha256": "40d15546e41699cc84787683b53a18e63ad074553e84eee1b193e20cd7ae3ce3",
+  "scope": "Exact native close L02 photograph approved as F04 video start. No new motion, transition or whole film acceptance inferred."
+}

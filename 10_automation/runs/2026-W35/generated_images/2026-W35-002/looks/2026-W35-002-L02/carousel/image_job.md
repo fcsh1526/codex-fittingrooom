@@ -8,7 +8,7 @@
 - reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_face.png`
 - reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_full.png`
 - attach_reference_images: `required`
-- trend: 深棕麂皮觸感
+- trend: 深棕麂皮配件
 - clothing_item: 奶油白無袖薄棉直身中長洋裝；巧克力棕方頭麂皮低跟鞋；黑色小型光滑皮革肩背包；細版銀色耳環
 - occasion: 週末逛街／午餐
 - frame_plan: carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16

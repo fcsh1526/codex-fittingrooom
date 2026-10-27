@@ -1,0 +1,16 @@
+{
+  "post_url": "https://grok.com/imagine/post/f07a42ba-d33b-4d68-bbdf-8e743cb68516?conversation=9ac39d90-6889-4915-ae0a-23c50c254ed8",
+  "media": {
+    "duration": 6.041667,
+    "height": 1280,
+    "id": "sd-video",
+    "muted": false,
+    "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/f07a42ba-d33b-4d68-bbdf-8e743cb68516/generated_video.mp4?cache=1",
+    "width": 720
+  },
+  "retrieved_at_ms": 1791257672490,
+  "method": "documented_downloadMedia_on_observed_active_video_id",
+  "source_path": "source.mp4",
+  "submission_to_retrieval_s": 75.446,
+  "timing_limit": "Includes model/tool observation intervals; not exact server generation duration"
+}

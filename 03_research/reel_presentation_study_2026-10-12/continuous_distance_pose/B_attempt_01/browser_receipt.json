@@ -1,0 +1,18 @@
+{
+  "submitted_at": "2026-10-12T08:47:20.285Z",
+  "url": "https://grok.com/imagine/post/bcf869f4-3f2c-474b-9fa1-ea2cbbedc2ec?conversation=5e834aad-a840-41e2-b3d7-3d80b60e46fe",
+  "status": "completed_downloaded",
+  "character_reference": "Mira M03 v3",
+  "first_frame": "exact user-approved matched second-look candidate v2",
+  "first_frame_sha256": "540f2a538bef16db1f07c5c91866e557d42d20306dfa7da9150a605eb1ae0e4a",
+  "last_frame": false,
+  "settings": {
+    "resolution": "720p",
+    "seconds": 10,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "actual_send_count_for_this_attempt": 1,
+  "completion_observed_at": "2026-10-12T08:49:32.826Z",
+  "download": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-5e834aad-a840-41e2-b3d7-3d80b60e46fe.mp4"
+}

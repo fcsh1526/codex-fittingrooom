@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-16",
+  "stage": "continuous_route_previsualization_only",
+  "title": "同一條上班路，五天的穿搭",
+  "viewer_takeaway": "她每天走同一段到公司的路，穿搭隨日子變化。",
+  "direction_source": "User asks for a continuous short route from the street corner opposite the company, through colonnade, plaza and crossing, into the company; tracking camera curves around the model. Clothes change while space and movement continue.",
+  "model_id": "M03",
+  "wardrobe_source": "../series_proposal.json",
+  "look_order": ["L01", "L03", "L02", "L04", "L05"],
+  "total_seconds": 19.5,
+  "fps": 24,
+  "text_in_animatic": false,
+  "audio": false,
+  "space": {
+    "type": "one fictional company-front site, not a real mapped address",
+    "coordinate_units": "schematic relative units; not surveyed distances",
+    "company": {"x_range": [-6.0, 20.0], "front_z": 8.8, "door_center_x": 12.5, "height": 6.5},
+    "road_z_range": [2.5, 5.4],
+    "crosswalk_x_range": [11.5, 13.5],
+    "opposite_arcade": {"x_range": [-4.1, 4.0], "building_front_z": -4.5, "covered_front_z": 1.55},
+    "small_plaza": {"x_range": [4.0, 11.0], "z_range": [-0.8, 2.4]},
+    "fixed_anchors": ["same company entrance and canopy", "same crosswalk", "same arcade columns", "same plaza paving"]
+  },
+  "path_keyframes": [
+    {"t": 0.0, "x": -5.0, "z": -1.8, "label": "公司對面街角"},
+    {"t": 3.75, "x": -1.0, "z": 0.6, "label": "騎樓"},
+    {"t": 7.5, "x": 4.2, "z": 1.0, "label": "退縮小廣場"},
+    {"t": 11.25, "x": 11.9, "z": 1.6, "label": "路口前"},
+    {"t": 15.0, "x": 12.5, "z": 5.5, "label": "公司側人行道"},
+    {"t": 19.5, "x": 12.5, "z": 9.05, "label": "公司入口門檻"}
+  ],
+  "camera": {
+    "type": "one continuous follow path with a gradual arc relative to walking direction",
+    "relative_angle_degrees": [32, 145],
+    "distance_units": 3.65,
+    "height_units": 1.05,
+    "framing": "full outfit; constant camera distance, continuous camera position and yaw",
+    "angle_changes_at_wardrobe_joins": false,
+    "note": "Angle follows a whole-route curve, not a new angle prescribed independently for each outfit. Camera moves from front three-quarter to side to rear three-quarter as she nears the doorway."
+  },
+  "segments": [
+    {"id":"C01","look":"L01","wardrobe":"long_blazer","label":"街角走出","window":[0.0,4.5],"purpose":"用長西外與深藍褲建立人物與通勤方向。","location":"公司對面街角轉入騎樓；遠處保留同一棟公司。"},
+    {"id":"C02","look":"L03","wardrobe":"short_jacket","label":"沿騎樓前行","window":[3.75,8.25],"purpose":"步伐延續，外層改短版；公司與柱列位置不重設。","location":"同一排騎樓，接到旁邊退縮的小廣場。"},
+    {"id":"C03","look":"L02","wardrobe":"plaid_shirt","label":"走過小廣場","window":[7.5,12.0],"purpose":"灰褲保留，改成格紋上身；鏡頭弧形跟到側面。","location":"騎樓旁的小廣場，前方已能辨認同一條斑馬線。"},
+    {"id":"C04","look":"L04","wardrobe":"a_skirt","label":"過街走向公司","window":[11.25,15.75],"purpose":"轉向公司；白襯衫與黑裙的輪廓在步行中可讀。","location":"同一路口的短斑馬線；公司入口就在對面。"},
+    {"id":"C05","look":"L05","wardrobe":"brown_denim","label":"抵達公司門口","window":[15.0,19.5],"purpose":"保留白襯衫，換棕丹寧；鏡頭逐漸落到斜後方，跟到門檻收束。","location":"過街後接同一公司入口，不再換另一棟樓。"}
+  ],
+  "joins": [
+    {"interval":[3.75,4.5],"outfit":"L01 to L03"},
+    {"interval":[7.5,8.25],"outfit":"L03 to L02"},
+    {"interval":[11.25,12.0],"outfit":"L02 to L04"},
+    {"interval":[15.0,15.75],"outfit":"L04 to L05"}
+  ],
+  "continuity_contract": [
+    "Wardrobe changes never reset the world position, camera position, viewpoint, step phase, direction, light or background pedestrians.",
+    "All five places belong to the same compact company-front area; no jump to distant locations.",
+    "If generated separately, next segment uses the same endpoint geometry and continuing camera path, with a new approved outfit-specific starting image.",
+    "Retain around0.75s soft changes; do not infer that this authorizes hard cuts or mask/wipe alternatives.",
+    "The shared environment is designed before outfit stills; separate text prompts alone cannot guarantee it."
+  ],
+  "open_editorial_limits": [
+    "The no-text film may communicate a stylish commuting sequence without making five distinct weekdays explicit; do not claim that interpretation is verified. Caption can name same-route/five-days when copy is requested.",
+    "19.5s and the exact geometry/camera arc are drafts, not user-specified exact timings or proven IG rules.",
+    "Rear three-quarter ending adds garment/back-identity information requirements before production.",
+    "Line figures are only spatial markers; their limb errors are outside this review per user."
+  ],
+  "production_stage": "No photoreal still/Grok generation. Confirm whole-route spatial logic first, then derive a shared environment and compatible starting frames. Existing source/approval scopes retained.",
+  "approval_status": "user provided concept; this exact route drawing and animatic pending review"
+}

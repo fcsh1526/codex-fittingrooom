@@ -1,0 +1,43 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M02/A_attempt_01/source.mp4",
+  "source_sha256": "571c5ddc0ef77f47d21efabc385fdac0c405680dde8ad511c449ced50c36b437",
+  "native_roi": [
+    160,
+    775,
+    560,
+    1280
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "lower_body_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "lower_body_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "lower_body_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "lower_body_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "lower_body_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "lower_body_visual_result": "All145 consecutive native windows viewed; forward toe/heel movement followed by trailing-foot catch-up, later small stance adjustments. Source has more than one foot placement. No apparent gross deformation, missing shoe or foot teleport in inspected windows. Continuous-speed comfort not established.",
+  "continuous_playback_review": false
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-14",
+  "user_quote": "下次類似的剪輯，前後兩套的時間可以再長一點。中間的牆面遮鏡只有2秒多差不多，但是前後的衣服卻顯得影片長度太短，不知道要看甚麼就結束了。而且前後套衣服最好差異很大，此次片前後差異不大，影片關看起來有點不知所謂。",
+  "reference_file": "03_research/foreground_transition_study_2026-10-14/joined_review_v1/M02_cafe_wall_two_looks_trial_v1.mp4",
+  "reference_sha256": "31a9af4f730672f4173397597b1d40864fae6d055351410220597e966f2de4b3",
+  "scope": "Future similar foreground-occlusion edits. Extend clear outfit reading before and after, keep middle occlusion around a little over two seconds, prefer a visibly different two-look pair so the reveal has an understandable payoff.",
+  "diagnosis": ["Clear outfit reading intervals too short", "This white/cream upper and cocoa-denim pair changes too little for a prominent outfit reveal", "Viewer lacks a clear clothing point despite accepted transition comfort"],
+  "next_trial_editorial_defaults": {
+    "clear_full_outfit_seconds_per_look": [5,6],
+    "reading_time_excludes": ["foreground hiding outfit", "face-only or detail-only framing", "unreadable mixed dissolve imagery"],
+    "middle_occlusion": "about two-plus seconds total, including any 0.75-second soft join",
+    "difference_review": "Prefer an immediately visible dominant-color, silhouette or layering change grounded in the same model's actual weekly looks",
+    "content_review": "Name the clothing point and demonstrate it visually before choosing the transition",
+    "status": "Assistant proposed first trial ranges derived from user feedback; not a user-specified exact timing or IG performance rule"
+  },
+  "historical_approval_retained": true,
+  "current_film_modified": false,
+  "new_media_generation_requested": false,
+  "original_speed_no_text_and_soft_join_preference_retained": true
+}

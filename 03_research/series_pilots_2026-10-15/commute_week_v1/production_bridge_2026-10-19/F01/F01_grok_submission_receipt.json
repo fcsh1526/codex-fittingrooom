@@ -1,0 +1,18 @@
+{
+  "recorded_date": "2026-10-19",
+  "status": "submitted_agent_thinking_generation_not_yet_confirmed",
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "new_upload": {"local_file": "F01_M03_L01_candidate_A_composition_edit.png", "sha256": "781d078884d3ee0a096be6ffd000c9d7681e40e65ed804cdff264a7489b760fa", "asset_id_from_canvas_img_src": "525cb906-2d48-4bda-9b75-86d7a1ca592c", "decoded_browser_img_size": [941, 1672], "selected_in_canvas": true},
+  "requested_input_roles": {"first_frame": "525cb906-2d48-4bda-9b75-86d7a1ca592c", "face": "6236309c-2343-41e6-985c-994239ff744a", "full_proportions_only": "ac9ede4e-1715-4518-95b4-bda341a62061", "last_frame": null},
+  "requested_output": {"count": 1, "seconds": 6, "resolution_label": "720p", "aspect": "9:16", "audio": "off if supported, otherwise preserve and report"},
+  "prompt_file": "F01_grok_submission_prompt.txt",
+  "user_still_approval": "F01_user_still_approval_2026-10-19.json",
+  "source_frame_is_user_approved": true,
+  "interface_observation": "Submitted message visibly present; agent displays 正在思考 with stop control. No generated video observed yet.",
+  "connection_recovery": "Initial canvas navigation returned Cloudflare504 host timeout. One reload recovered original logged-in canvas; no login or CAPTCHA needed.",
+  "agent_submission_count": 1,
+  "generated_video_count_confirmed": 0,
+  "grok_render_settings_actually_verified": null,
+  "next": "Wait for the single result; read exact asset roles/settings, download source, inspect timing/scene/outfit and complete playback before choosing a join endpoint.",
+  "old_media_and_deliveries_modified": false
+}

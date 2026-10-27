@@ -1,0 +1,33 @@
+{
+  "record_date_local":"2026-10-20",
+  "status":"failed_spatial_continuity_do_not_use_in_composite",
+  "new_video_asset":"bcb58740-fac2-486e-9f5e-ca635a4c29c7",
+  "source":"F03_source.mp4",
+  "source_sha256":"828ce1a288f32b75708e1bac0ad6594be0fc16ce4e09222d7c5cb58502f5bac9",
+  "download_source":"C:/Users/Brandon_ChangChien/Downloads/generated_video (52).mp4",
+  "actual_decoded_frames":145,
+  "actual_fps":24,
+  "actual_size":[720,1280],
+  "actual_seconds":6.041666666666667,
+  "input_role_confirmation":"Grok agent reports same first/last/face/full simultaneous; internal controls not independently inspected",
+  "technical_scan":"technical_scan.json",
+  "completion_text":"grok_completion_dom.txt",
+  "completion_proof":"grok_completion_roles_screenshot.png",
+  "source_review":{
+    "method":"root image inspection plus independent agent of full25 and dense early foot windows",
+    "blocking_failure":"Original final square column recedes left by about1.5s, but a new large column enters fromright around2-2.25s, reaches behindperson around3s, exitsleft around4s. Original accepted still/site and originalF03 have openplaza here.",
+    "key_native_frames":[36,48,54,72,96],
+    "early_gait_improvement_proven":false,
+    "measured_ground_relative_sliding":null,
+    "assistant_full_continuous_visual_playback":false,
+    "spatial_qa_pass":false,
+    "gait_qa_pass":null,
+    "publishable":false
+  },
+  "new_image_calls":0,
+  "retry_generation_calls":1,
+  "retry_composite_created":false,
+  "next":"Stop repeated regeneration; preserve original F03, evaluate one +1nativeframe trim of originalF03 with unchanged0.75s dissolve/native speed.",
+  "original_media_and_deliveries_preserved":true,
+  "publishing_changes":false
+}

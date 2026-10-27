@@ -1,0 +1,336 @@
+{
+  "date": "2026-10-02",
+  "folder": {
+    "success": true,
+    "id": "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+    "url": "https://drive.google.com/drive/folders/1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK",
+    "title": "Mira W37 Reels",
+    "parent_id": "root"
+  },
+  "files": [
+    {
+      "model": "M02",
+      "kind": "video",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\pilot_M02\\videos\\M02_scale_continuity_v4_review_01.mp4",
+      "name": "M02_scale_continuity_v4_review_01.mp4",
+      "size": 3366883,
+      "id": "1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y",
+      "url": "https://drive.google.com/file/d/1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y/view?usp=drivesdk",
+      "metadata": {
+        "id": "1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y",
+        "title": "M02_scale_continuity_v4_review_01.mp4",
+        "mime_type": "video/mp4",
+        "size": "3366883",
+        "url": "https://drive.google.com/file/d/1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M02",
+      "kind": "caption",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\pilot_M02\\M02_instagram_caption_draft.md",
+      "name": "M02_instagram_caption_draft.md",
+      "size": 689,
+      "id": "150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg",
+      "url": "https://drive.google.com/file/d/150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg/view?usp=drivesdk",
+      "metadata": {
+        "id": "150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg",
+        "title": "M02_instagram_caption_draft.md",
+        "mime_type": "text/markdown",
+        "size": "689",
+        "url": "https://drive.google.com/file/d/150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/150QsxgF2Ldjw2ww-uVM6yqZP3f7ewzEg/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M05",
+      "kind": "video",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "name": "M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "size": 2329327,
+      "id": "1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB",
+      "url": "https://drive.google.com/file/d/1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB/view?usp=drivesdk",
+      "metadata": {
+        "id": "1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB",
+        "title": "M05_two_looks_fixed_environment_review_v2_01.mp4",
+        "mime_type": "video/mp4",
+        "size": "2329327",
+        "url": "https://drive.google.com/file/d/1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M05",
+      "kind": "caption",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\M05_instagram_caption_draft.md",
+      "name": "M05_instagram_caption_draft.md",
+      "size": 683,
+      "id": "1S-K45957m6N4nNy6QbdnT6FopIkprq5-",
+      "url": "https://drive.google.com/file/d/1S-K45957m6N4nNy6QbdnT6FopIkprq5-/view?usp=drivesdk",
+      "metadata": {
+        "id": "1S-K45957m6N4nNy6QbdnT6FopIkprq5-",
+        "title": "M05_instagram_caption_draft.md",
+        "mime_type": "text/markdown",
+        "size": "683",
+        "url": "https://drive.google.com/file/d/1S-K45957m6N4nNy6QbdnT6FopIkprq5-/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1S-K45957m6N4nNy6QbdnT6FopIkprq5-/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M04",
+      "kind": "video",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M04_two_looks_review_v1_01.mp4",
+      "name": "M04_two_looks_review_v1_01.mp4",
+      "size": 2835208,
+      "id": "1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1",
+      "url": "https://drive.google.com/file/d/1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1/view?usp=drivesdk",
+      "metadata": {
+        "id": "1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1",
+        "title": "M04_two_looks_review_v1_01.mp4",
+        "mime_type": "video/mp4",
+        "size": "2835208",
+        "url": "https://drive.google.com/file/d/1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M04",
+      "kind": "caption",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\M04_instagram_caption_draft.md",
+      "name": "M04_instagram_caption_draft.md",
+      "size": 541,
+      "id": "1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw",
+      "url": "https://drive.google.com/file/d/1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw/view?usp=drivesdk",
+      "metadata": {
+        "id": "1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw",
+        "title": "M04_instagram_caption_draft.md",
+        "mime_type": "text/markdown",
+        "size": "541",
+        "url": "https://drive.google.com/file/d/1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1a3zNA2uQyHvDqnzZmjVpDU9SHlkaLIsw/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M01",
+      "kind": "video",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M01_two_looks_soft_review_v2_01.mp4",
+      "name": "M01_two_looks_soft_review_v2_01.mp4",
+      "size": 2381598,
+      "id": "1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI",
+      "url": "https://drive.google.com/file/d/1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI/view?usp=drivesdk",
+      "metadata": {
+        "id": "1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI",
+        "title": "M01_two_looks_soft_review_v2_01.mp4",
+        "mime_type": "video/mp4",
+        "size": "2381598",
+        "url": "https://drive.google.com/file/d/1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M01",
+      "kind": "caption",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\M01_instagram_caption_draft.md",
+      "name": "M01_instagram_caption_draft.md",
+      "size": 773,
+      "id": "1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX",
+      "url": "https://drive.google.com/file/d/1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX/view?usp=drivesdk",
+      "metadata": {
+        "id": "1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX",
+        "title": "M01_instagram_caption_draft.md",
+        "mime_type": "text/markdown",
+        "size": "773",
+        "url": "https://drive.google.com/file/d/1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1jlW-3Ih3Ukl0L967OcEXREFic4h_N0mX/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M03",
+      "kind": "video",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M03_two_looks_soft_review_v1_01.mp4",
+      "name": "M03_two_looks_soft_review_v1_01.mp4",
+      "size": 4280287,
+      "id": "1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe",
+      "url": "https://drive.google.com/file/d/1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe/view?usp=drivesdk",
+      "metadata": {
+        "id": "1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe",
+        "title": "M03_two_looks_soft_review_v1_01.mp4",
+        "mime_type": "video/mp4",
+        "size": "4280287",
+        "url": "https://drive.google.com/file/d/1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "model": "M03",
+      "kind": "caption",
+      "local_path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\M03_instagram_caption_draft.md",
+      "name": "M03_instagram_caption_draft.md",
+      "size": 673,
+      "id": "1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E",
+      "url": "https://drive.google.com/file/d/1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E/view?usp=drivesdk",
+      "metadata": {
+        "id": "1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E",
+        "title": "M03_instagram_caption_draft.md",
+        "mime_type": "text/markdown",
+        "size": "673",
+        "url": "https://drive.google.com/file/d/1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1EutJxDu6Cv_4xBp7Z-dJkIblbfgqHR2E/view?usp=drivesdk",
+        "file_or_folder": "file",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1_8YdyNeRMzEWYomVYuqrT5roxCXuYNMK"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    }
+  ],
+  "scope": "Five approved Reel picture tracks, five caption drafts and Drive-linked handoff; music absent.",
+  "handoff": {
+    "id": "13TKzfbSea5VTpMEpe80wr7r9uKraMX2r",
+    "name": "W37_REEL_HANDOFF.md",
+    "size": 2751,
+    "url": "https://drive.google.com/file/d/13TKzfbSea5VTpMEpe80wr7r9uKraMX2r/view?usp=drivesdk"
+  },
+  "verification": {
+    "file_count": 11,
+    "folder_list_verified": true,
+    "all_file_sizes_verified": true
+  },
+  "superseded_by": "google_drive_update_2026-10-02.json",
+  "history_note": "M01/M02/M03 original Drive IDs now contain newer accepted cuts. Exact earlier video copies are retained at historical_video_backups. Markdown files moved to the archive subfolder. Original upload metadata above is historical.",
+  "historical_video_backups": [
+    {
+      "model": "M01",
+      "id": "18sXoNgUkKv0uj4wZpx0VOlf93vK9Mf_Y",
+      "url": "https://drive.google.com/file/d/18sXoNgUkKv0uj4wZpx0VOlf93vK9Mf_Y/view?usp=drivesdk",
+      "size": "2381598"
+    },
+    {
+      "model": "M02",
+      "id": "1NV3toflm5mlG5jkt3luDRqbnaxSwqmi4",
+      "url": "https://drive.google.com/file/d/1NV3toflm5mlG5jkt3luDRqbnaxSwqmi4/view?usp=drivesdk",
+      "size": "3366883"
+    },
+    {
+      "model": "M03",
+      "id": "1M-bqO6Ghfs7zi0UJ9j-V2cENeNfN_g0e",
+      "url": "https://drive.google.com/file/d/1M-bqO6Ghfs7zi0UJ9j-V2cENeNfN_g0e/view?usp=drivesdk",
+      "size": "4280287"
+    }
+  ]
+}

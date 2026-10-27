@@ -1,0 +1,21 @@
+{
+  "status": "completed_downloaded",
+  "submitted_at": "2026-10-13T02:10:48.090Z",
+  "send_count": 1,
+  "retry_of": "B_attempt_01",
+  "prompt_version": "B_prompt_v2.txt",
+  "settings": {
+    "resolution": "720p",
+    "seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "saved_reference": "Mira M05 v1 face",
+  "image_role": "First frame",
+  "source": "approved W41 M05 L02",
+  "post_url": "https://grok.com/imagine/post/5b93e146-da90-490f-bdde-e0ee13363aeb?conversation=d7e88528-fbc2-425c-9591-1b39b126d475",
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-d7e88528-fbc2-425c-9591-1b39b126d475.mp4",
+  "downloaded_at": "2026-10-13T02:12:36.715Z",
+  "submission_to_download_seconds": 108.625,
+  "elapsed_time_note": "Includes other QA work; not pure generation wait."
+}

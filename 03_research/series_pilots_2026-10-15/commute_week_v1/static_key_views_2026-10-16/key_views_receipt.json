@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-16",
+  "stage": "static_spatial_key_views_pending_review",
+  "view_count": 4,
+  "views": [
+    {
+      "id": "K1",
+      "title": "街角走出，往騎樓前進",
+      "short_title": "街角走出",
+      "t": 3.2,
+      "angle_deg": 40,
+      "aim_to_door": 0,
+      "camera_note": "鏡頭在人物前側方，朝她拍攝；沿騎樓方向開始跟行。",
+      "person_note": "身體朝行走方向；從對面街角走出，接向右邊的騎樓。",
+      "landmarks": "畫內保留A柱列；B公司與D入口位於畫外右前方。",
+      "continuity": "下一格延續同一排柱列；人物沒有跳到另一條街。",
+      "person_position": [
+        -1.6507463111111105,
+        0.3547994074074078
+      ],
+      "camera_position": [
+        2.4376729208127617,
+        -0.8059452604825671
+      ],
+      "camera_look_target": [
+        -1.6507463111111105,
+        0.3547994074074078
+      ],
+      "camera_forward": [
+        -0.9619809957467936,
+        0.27311639244470004
+      ],
+      "screen_right": [
+        0.27311639244470004,
+        0.9619809957467936
+      ],
+      "focal_ratio": 1.2,
+      "person_feet_pixel": [
+        269.99999999999994,
+        755.5764705882355
+      ],
+      "person_top_pixel": [
+        269.99999999999994,
+        300.1976470588235
+      ],
+      "view_and_map_share_camera": true
+    },
+    {
+      "id": "K2",
+      "title": "走過騎樓，接到旁邊小廣場",
+      "short_title": "騎樓接小廣場",
+      "t": 8.6,
+      "angle_deg": 80,
+      "aim_to_door": 0,
+      "camera_note": "鏡頭漸移到側面，與人物平行前行；視角轉變由前段接來。",
+      "person_note": "繼續沿同一側人行空間走；尚未轉向公司過街。",
+      "landmarks": "A柱列已退到畫外左後方；畫內保留B公司外牆。",
+      "continuity": "下一格才向公司轉彎；C斑馬線保持在同一路口。",
+      "person_position": [
+        6.49141831111111,
+        1.0610237629629629
+      ],
+      "camera_position": [
+        7.25308021666964,
+        -3.120168787209888
+      ],
+      "camera_look_target": [
+        6.49141831111111,
+        1.0610237629629629
+      ],
+      "camera_forward": [
+        -0.1792145660137719,
+        0.9838100118053766
+      ],
+      "screen_right": [
+        0.9838100118053766,
+        0.1792145660137719
+      ],
+      "focal_ratio": 1.2,
+      "person_feet_pixel": [
+        270.0,
+        755.5764705882353
+      ],
+      "person_top_pixel": [
+        270.0,
+        300.1976470588236
+      ],
+      "view_and_map_share_camera": true
+    },
+    {
+      "id": "K3",
+      "title": "到同一路口，轉向公司過街",
+      "short_title": "同一路口過街",
+      "t": 13.4,
+      "angle_deg": 145,
+      "aim_to_door": 0.16,
+      "focal_ratio": 0.85,
+      "camera_note": "鏡頭在斜後方；過街這格放寬環境構圖，同時看人物與公司入口。",
+      "person_note": "沿C斑馬線走向公司，不在路口突然換一條行進方向。",
+      "landmarks": "畫內C斑馬線通向D公司入口；B玻璃外牆仍相同。",
+      "continuity": "下一格延續同一斑馬線到入口；不更換公司門面。",
+      "person_position": [
+        12.66042115016835,
+        3.7358234936026946
+      ],
+      "camera_position": [
+        15.42453508123613,
+        0.5074842648231312
+      ],
+      "camera_look_target": [
+        12.634753766141413,
+        4.5460917346262635
+      ],
+      "camera_forward": [
+        -0.5683588766471405,
+        0.8227807650500835
+      ],
+      "screen_right": [
+        0.8227807650500835,
+        0.5683588766471405
+      ],
+      "person_feet_pixel": [
+        185.17977828561925,
+        654.1448216077589
+      ],
+      "person_top_pixel": [
+        185.17977828561925,
+        329.8468982992705
+      ],
+      "view_and_map_share_camera": true
+    },
+    {
+      "id": "K4",
+      "title": "過街後，跟到同一公司入口",
+      "short_title": "同一公司入口",
+      "t": 18.4,
+      "angle_deg": 155,
+      "aim_to_door": 0.15,
+      "camera_note": "鏡頭在斜後方跟到門口；可用背影收束，不突然轉回正面。",
+      "person_note": "穿過公司側人行道，沿D入口進門；這格先停在門檻前。",
+      "landmarks": "D雙門框接續上一格同一入口；雨棚近緣已在畫外上方。",
+      "continuity": "精確進門動作與尾幀，待這四格空間讀得懂後再設計。",
+      "person_position": [
+        12.514775308641974,
+        8.205411248285321
+      ],
+      "camera_position": [
+        14.425138009437289,
+        4.408963651990854
+      ],
+      "camera_look_target": [
+        12.512559012345678,
+        8.294599561042522
+      ],
+      "camera_forward": [
+        -0.44161907621038243,
+        0.8972026479715095
+      ],
+      "screen_right": [
+        0.8972026479715095,
+        0.44161907621038243
+      ],
+      "focal_ratio": 1.2,
+      "person_feet_pixel": [
+        259.8623345515421,
+        755.590114517204
+      ],
+      "person_top_pixel": [
+        259.8623345515421,
+        300.19365883343266
+      ],
+      "view_and_map_share_camera": true
+    }
+  ],
+  "animation_generated": false,
+  "photoreal_stills_generated": 0,
+  "grok_calls": 0,
+  "existing_files_replaced": false,
+  "fixes": [
+    "Camera screen-right orientation derived from the plan view instead of mirrored projection.",
+    "Human marker points use actual world walking direction instead of independently switching front/side sprite.",
+    "Each view shares its exact camera point, field of view and route position with an accompanying plan."
+  ],
+  "limits": [
+    "Static key frames cannot validate the intervening camera motion or continuous transitions.",
+    "Simplified human/garment geometry is a position marker, not a new M03 identity or wardrobe approval.",
+    "The exact four views and production feasibility remain pending user review."
+  ],
+  "files": {
+    "four_key_views_overview.png": {
+      "bytes": 221556,
+      "sha256": "fc3c01662adedf295ce1d44179ea0eb331ae6dbd21b43a0c24788ad69a10872a"
+    },
+    "key_views_01.png": {
+      "bytes": 225337,
+      "sha256": "6c7763868207dc121d64a8e5c6c622fa64e4a09b66794d26c66b7b75edc76ab5"
+    },
+    "key_views_02.png": {
+      "bytes": 248222,
+      "sha256": "75b43cba394bdd5aaf2443ef32616a3dc37d1dac95d1ba858d3ff4b4c69a4d86"
+    }
+  }
+}

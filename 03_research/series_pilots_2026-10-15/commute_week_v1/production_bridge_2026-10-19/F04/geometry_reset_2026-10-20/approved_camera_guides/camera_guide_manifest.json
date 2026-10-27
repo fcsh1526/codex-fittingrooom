@@ -1,0 +1,106 @@
+{
+  "created_at_taipei": "2026-10-20T14:58:01.448776+08:00",
+  "stage": "deterministic_guides_derived_from_user_accepted_camera_plan",
+  "user_acceptance_supplied_by_root": "可以，沿這個分鏡繼續",
+  "acceptance_scope": "camera storyboard only; not new photoreal still or video approval",
+  "protected_inputs_unchanged": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry-fixed-lens-plan.json": "a5e397851437f66d842cee1df94826277f6fa773cdf40b4db3c8f3d02754d603",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry-fixed-lens-receipt.json": "62fa6ea94055cdec7b014a566890c96c01e66852ff9f03520fd4a23570968109",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry-fixed-lens-three-views.png": "69a890b2f96ceca9c07772dd2a69a508a84c072507c6281abb95f933c18922a6"
+  },
+  "outputs": [
+    {
+      "role": "start",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\approved_camera_guides\\F04_camera_start_guide.png",
+      "sha256": "e6da5716c013289b37e38a3e207df92e9c40a520dabab02a6caa6941fca25677",
+      "pixels": [
+        720,
+        1280
+      ],
+      "route_percentage": 0,
+      "source_schematic_t": 11.25,
+      "camera": [
+        12.172239681712547,
+        -1.4589572331794147
+      ],
+      "forward": [
+        -0.0580998760011763,
+        0.9983107754645584
+      ],
+      "person": [
+        11.9,
+        1.6
+      ],
+      "focal_ratio": 0.9977551495587385,
+      "text": "none",
+      "photo_crop_or_edit": false,
+      "world_paint_vertices_sha256": "e0c0753fead44d9ebc29d1e098bd0246e20e1115ba98ec1fca462ca090fc4731"
+    },
+    {
+      "role": "mid",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\approved_camera_guides\\F04_camera_mid_guide.png",
+      "sha256": "ca9784a44f2bf6f7f583225fdb51cc09070bfe45e7a69c540446f0aca37a129f",
+      "pixels": [
+        720,
+        1280
+      ],
+      "route_percentage": 50,
+      "source_schematic_t": 13.5,
+      "camera": [
+        16.647927272727273,
+        3.8555636363636365
+      ],
+      "forward": [
+        -1.0,
+        0.0
+      ],
+      "person": [
+        12.647927272727273,
+        3.8555636363636365
+      ],
+      "focal_ratio": 0.9977551495587385,
+      "text": "none",
+      "photo_crop_or_edit": false,
+      "world_paint_vertices_sha256": "e0c0753fead44d9ebc29d1e098bd0246e20e1115ba98ec1fca462ca090fc4731"
+    },
+    {
+      "role": "end",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\approved_camera_guides\\F04_camera_end_guide.png",
+      "sha256": "26cabd5ff5eb9fe6c000279e92219b2c5291361b7d43d1d80bf70ad5c42cb4fc",
+      "pixels": [
+        720,
+        1280
+      ],
+      "route_percentage": 100,
+      "source_schematic_t": 15.75,
+      "camera": [
+        16.53787878787879,
+        4.85111531986532
+      ],
+      "forward": [
+        -0.9510340687309481,
+        0.30908607233755797
+      ],
+      "person": [
+        12.537878787878787,
+        6.15111531986532
+      ],
+      "focal_ratio": 0.9977551495587385,
+      "text": "none",
+      "photo_crop_or_edit": false,
+      "world_paint_vertices_sha256": "e0c0753fead44d9ebc29d1e098bd0246e20e1115ba98ec1fca462ca090fc4731"
+    }
+  ],
+  "same_world_and_stripes_for_all_guides": true,
+  "AI_calls": 0,
+  "Grok_calls": 0,
+  "normal_speed_video_QA": null,
+  "publishable": false,
+  "limits": [
+    "Direct schematic projections, not photographic calibration or50mm lens certification.",
+    "Person is only a world-position/heading marker, not body, identity, pose or wardrobe reference.",
+    "Planters/trees/material texture/background people are omitted, not determined by these guides.",
+    "Static projected edges do not guarantee motion interpolation or prevent generator paint morph.",
+    "Endpoint intentionally retains only part of final stripe; no need to invent a second crossing."
+  ]
+}

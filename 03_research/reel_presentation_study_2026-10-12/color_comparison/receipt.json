@@ -1,0 +1,102 @@
+{
+  "status": "sampled_review_complete_user_visual_approval_pending",
+  "output": "03_research/reel_presentation_study_2026-10-12/color_comparison/M03_light_dark_parallel_trial_v2.mp4",
+  "sha256": "fc7672ea8239c7cde5f204eedc0c014a809bdc503e8ba9afa4cee865c08c01d5",
+  "source_records": [
+    {
+      "path": "10_automation/runs/2026-W41/reels/M03/A_attempt_01/source.mp4",
+      "sha256": "c7be14f597876f403d78dbaae75bdb949cbe8b801e526f14379207e85d7a6f83",
+      "selected_frames_half_open": [
+        0,
+        144
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W41/reels/M03/B_attempt_01/source.mp4",
+      "sha256": "d45055c1c335c8f89cf7e6d7eeb0401989ab1c66df3658c681afb8f437282677",
+      "selected_frames_half_open": [
+        0,
+        144
+      ]
+    }
+  ],
+  "composition": {
+    "date": "2026-10-12",
+    "content_week": "2026-W41",
+    "model": "M03",
+    "experiment": "two_look_light_dark_color_comparison",
+    "intent": "兩套完整造型同時可見：淺色西外配深褲，深色西外配淺褲。袖口動作僅是自然活動，不當成教學主張。",
+    "viewing_question": "不用字幕，能否一眼看出兩套上下身明暗配色互換？",
+    "method": "reuse previously tested equal full-person parallel presentation for this specific visible color relationship",
+    "novelty_limit": "editorial application of existing format, not new camera language or an audience-performance claim",
+    "look_ids": [
+      "2026-W41-004-L01",
+      "2026-W41-004-L02"
+    ],
+    "frames": [
+      0,
+      144
+    ],
+    "fps": 24,
+    "seconds": 6,
+    "source_action_speed": "unchanged; natural timing differences retained",
+    "main_crop_xywh": [
+      170,
+      90,
+      408,
+      1120
+    ],
+    "panel_wh": [
+      344,
+      944
+    ],
+    "left_xy": [
+      12,
+      168
+    ],
+    "right_xy": [
+      364,
+      168
+    ],
+    "background": "#eee9e1",
+    "transition": "none; both looks visible throughout with no internal cut; later switches default0.75s",
+    "text": "none",
+    "audio": "none",
+    "new_generation": false,
+    "comparison_limit": "6s simultaneous view vs original11.25s sequential view differs in duration and layout; not a controlled performance test",
+    "new_still_approval_needed": false,
+    "trial_user_approval": null
+  },
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_presentation_study_2026-10-12\\color_comparison\\M03_light_dark_parallel_trial_v2.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.0
+    },
+    "decoded_frames": 144,
+    "decoded_seconds": 6.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "source_timing": "output frame n reads frame n from each original source; no forced gesture synchronization",
+  "protected_five_films_sha256_match": true,
+  "new_generation": false,
+  "assistant_continuous_playback": false,
+  "user_trial_approval": null,
+  "drive_write": false,
+  "published": false,
+  "sampled_visual_review": "25 whole-film samples plus native first frame inspected. Comparable apparent head/waist/shoe scale, full-person and hand/bag bounds retained in samples; color reversal visible simultaneously. No continuous-playback or audience-comprehension claim."
+}

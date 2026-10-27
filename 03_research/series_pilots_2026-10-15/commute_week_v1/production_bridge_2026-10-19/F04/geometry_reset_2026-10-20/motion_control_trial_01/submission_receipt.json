@@ -1,0 +1,27 @@
+{
+  "observed_at_utc": "2026-10-20T07:39:11.777Z",
+  "stage_at_observation": "one_request_sent_UI_thinking_output_pending",
+  "canvas": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "exact_prompt_file": "grok_prompt.txt",
+  "new_uploaded_mid": "a327fc83-6f91-4c9f-ab66-2e3e79c4ba19",
+  "new_uploaded_last": "f000b887-f606-426c-90ec-4e3dbe5396d6",
+  "each_upload_contents_and_941x1672_pixels_checked": true,
+  "requested_parameters": {
+    "duration": "6",
+    "resolution_name": "720p",
+    "aspect_ratio": "9:16",
+    "first_frame_asset_id": "e008f6b5-efe9-40b4-be75-615af1be766c",
+    "keyframes": [{"asset_id":"a327fc83-6f91-4c9f-ab66-2e3e79c4ba19","timestamp_s":3}],
+    "last_frame_asset_id": "f000b887-f606-426c-90ec-4e3dbe5396d6",
+    "asset_ids": ["6236309c-2343-41e6-985c-994239ff744a", "ac9ede4e-1715-4518-95b4-bda341a62061"]
+  },
+  "UI_send_actions": 1,
+  "actual_internal_parameters_at_this_observation": null,
+  "actual_new_output_at_this_observation": null,
+  "control_change": "New user-approved camera-planned midpoint/endpoint; original accepted opening retained. Smooth camera retreat required for the larger opening person.",
+  "retry_or_silent_fallback_allowed": false,
+  "new_still_generation_allowed": false,
+  "proof": ["submission_dom.txt", "grok_submission.png"],
+  "dynamic_or_full_film_acceptance": null,
+  "accepted_prefix_older_sources_publishing_preserved": true
+}

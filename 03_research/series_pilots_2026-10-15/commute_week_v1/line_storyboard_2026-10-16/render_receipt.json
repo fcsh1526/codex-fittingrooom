@@ -1,0 +1,59 @@
+{
+  "stage": "line_storyboard_not_generated_footage",
+  "seconds": 19.5,
+  "frames": 468,
+  "fps": 24,
+  "pixels": [
+    540,
+    960
+  ],
+  "audio": false,
+  "baked_text": false,
+  "arrows_in_video": false,
+  "timing_match": true,
+  "joins": [
+    [
+      3.75,
+      4.5
+    ],
+    [
+      7.5,
+      8.25
+    ],
+    [
+      11.25,
+      12.0
+    ],
+    [
+      15.0,
+      15.75
+    ]
+  ],
+  "photoreal_assets_generated": 0,
+  "grok_calls": 0,
+  "existing_media_modified": false,
+  "full_film_user_approval": null,
+  "actual_gait_or_dynamic_quality_verified": false,
+  "files": {
+    "overview.png": {
+      "bytes": 250091,
+      "sha256": "6b1389c0e12a9dc629812e1171b8be3172a1719b88405d5fb9a5a523f88c8e15"
+    },
+    "detailed_board_01.png": {
+      "bytes": 380762,
+      "sha256": "16259a90c9b87e7f8e97ff6de6a87ad73fc16e4658cc44ff12c54c33531990e8"
+    },
+    "detailed_board_02.png": {
+      "bytes": 257622,
+      "sha256": "53fffecb8eb85cfb191c49ea6da42664454b67fedca8224044f8674ed4a0ea63"
+    },
+    "sketch_animatic.mp4": {
+      "bytes": 2260874,
+      "sha256": "cc71ce53dea973cf81562de3ee447f62a5752f8f726623b88fc9152e03ee5bfa"
+    },
+    "storyboard_plan.json": {
+      "bytes": 7331,
+      "sha256": "247936858123f4c6a9b4036e3a8abe3909eb46c7df9cc83dcec1671e3a02399a"
+    }
+  }
+}

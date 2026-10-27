@@ -1,0 +1,31 @@
+{
+  "source": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S02_source.mp4",
+  "source_sha256": "a8f9fc6e9019c23433c855e3d108d97d3236c05f76fa30b02b6b0fcdc97c6ec0",
+  "review_method": "25 full-body checkpoints, 5 face windows, 25 foot windows, 5 clothing windows, plus all 156 selected-frame thumbnails viewed as contact sheets",
+  "reviewed_selected_frames_half_open": [
+    60,
+    216
+  ],
+  "candidate_interval_seconds_half_open": [
+    2.5,
+    9.0
+  ],
+  "candidate_seconds": 6.5,
+  "candidate_frames": 156,
+  "sampled_visual_result": "No blocking identity, wardrobe, hand-bag, foot or background defect observed at inspection scale. Candidate may enter paired-cut review.",
+  "observations": {
+    "face": "Opening smiling leftward face gradually becomes a more forward/forward-right neutral expression around 2-3 seconds. Selected interval has relatively consistent appearance; no abrupt identity jump observed.",
+    "clothes": "Checked shirt, collar, sleeve rolls, charcoal trouser waistband and hems remain readable. Pattern deforms with folds rather than visibly changing to a different print.",
+    "hands_bag": "Black shoulder bag stays at outer hip; no visible crossing through torso or major hand deformity in samples. Bag-side arm has restrained swing.",
+    "feet": "Continuous alternating short steps, intact low-heeled shoes, heel lift and contact. Some narrow/crossing steps; normal-speed naturalness not established by still inspection.",
+    "background": "Columns, window bays, steps and paving pass in a consistent direction. Hair/face illumination becomes somewhat warmer/brighter as the walk advances; no abrupt object pop or wall warp observed in selected thumbnails."
+  },
+  "limits": [
+    "Contact sheets do not establish complete normal-speed playback or subjective walking-speed comfort.",
+    "Source inspection does not approve the J12 dissolve, complete film, audience usefulness or production efficiency.",
+    "Cut point may be adjusted only after reviewing S01-S02 gait, subject scale, major background lines and exposure together."
+  ],
+  "assistant_continuous_playback": false,
+  "user_film_approval": null,
+  "publishing_ready": false
+}

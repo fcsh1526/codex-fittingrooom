@@ -1,0 +1,16 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "approved_exact_still_only",
+  "asset": "F04_M03_L02_end_scene_correction_v3.png",
+  "sha256": "fe97ba462401f7df3ef286a348853b65f54c51703980b402174c0a59ed605139",
+  "pixels": [941, 1672],
+  "question": "請確認這張第四鏡末幀修正版：公司側已移除整排花台、綠籬與樹，人物、服裝、跨步、路緣和斑馬線維持原構圖。是否可以沿用？依 AGENTS.md「new stills are candidates until user visual approval」的規則，這張新圖確認後才會重做第四段影片。",
+  "user_answer": "可以，沿用背景修正版",
+  "scope": "Exact corrected endpoint appearance and authority to use original approved first plus this endpoint for one bounded F04 video retry.",
+  "dynamic_QA": null,
+  "F04_video_acceptance": null,
+  "five_look_film_approval": null,
+  "full_playback_self_report": null,
+  "old_endpoint_and_failed_video_preserved": true,
+  "publish_or_public_sync_authorized": false
+}

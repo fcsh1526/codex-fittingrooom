@@ -56,10 +56,22 @@
       },
       "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change.",
       "carousel_status": "separate A/B/C assets required; not generated or approved",
-      "output_status": "planned_only",
+      "output_status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
       "actual_duration": null,
-      "output_path": null,
-      "user_video_approval": null
+      "output_path": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "user_video_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1wl9LBA0JW04N9JFh-SpkTao2XTLRRl-m",
+        "url": "https://drive.google.com/file/d/1wl9LBA0JW04N9JFh-SpkTao2XTLRRl-m/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc",
+        "url": "https://docs.google.com/document/d/1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "reel_id": "2026-W41-M01-reel",
@@ -116,10 +128,22 @@
       },
       "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change.",
       "carousel_status": "separate A/B/C assets required; not generated or approved",
-      "output_status": "planned_only",
+      "output_status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
       "actual_duration": null,
-      "output_path": null,
-      "user_video_approval": null
+      "output_path": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "user_video_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1FO1qSbxgfGz7Hje0VidsgK7Kjx7aybpx",
+        "url": "https://drive.google.com/file/d/1FO1qSbxgfGz7Hje0VidsgK7Kjx7aybpx/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU",
+        "url": "https://docs.google.com/document/d/1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "reel_id": "2026-W41-M02-reel",
@@ -176,10 +200,33 @@
       },
       "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change.",
       "carousel_status": "separate A/B/C assets required; not generated or approved",
-      "output_status": "planned_only",
-      "actual_duration": null,
-      "output_path": null,
-      "user_video_approval": null
+      "output_status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
+      "actual_duration": 9,
+      "output_path": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "user_video_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "research_lineage": {
+        "source": "03_research/ig_saved_ootd_study_2026-10-06/independent_review.md",
+        "observed_references": [
+          "jenaby.u DJnnv5OPD6k",
+          "gaya_yaa DY6W8peI7LC"
+        ],
+        "borrowed_principle": "Subject distance/scale changes can structure clothing viewing, with a readable settle.",
+        "editorial_adaptation": "Fixed full-person camera and brief forward approach, rather than the references full near/far/side/back sequence. Actual output includes catch-up and stance adjustments.",
+        "transition_origin": "User decision:0.75s soft cross dissolve; not attributed to the reference accounts.",
+        "performance": "No causal reach or retention conclusion; references were screenshot samples and page like counts."
+      },
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1o7q1eATsBJqZcBwCuRRYxpaIjKA_qBhj",
+        "url": "https://drive.google.com/file/d/1o7q1eATsBJqZcBwCuRRYxpaIjKA_qBhj/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0",
+        "url": "https://docs.google.com/document/d/1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "reel_id": "2026-W41-M03-reel",
@@ -236,10 +283,22 @@
       },
       "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change.",
       "carousel_status": "separate A/B/C assets required; not generated or approved",
-      "output_status": "planned_only",
+      "output_status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
       "actual_duration": null,
-      "output_path": null,
-      "user_video_approval": null
+      "output_path": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "user_video_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1xm14COZEhiAJQ77pyqb1hMYv4yrEJ1WM",
+        "url": "https://drive.google.com/file/d/1xm14COZEhiAJQ77pyqb1hMYv4yrEJ1WM/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4",
+        "url": "https://docs.google.com/document/d/1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4/edit"
+      },
+      "publication_status": "not_published"
     },
     {
       "reel_id": "2026-W41-M04-reel",
@@ -250,56 +309,90 @@
       "audience_problem": "整身都穿黑白灰，拍照時常覺得沒有一個明確焦點。",
       "visual_theme": "中性色只亮一個配件",
       "scene_purpose": "週末書店旁的淡灰門廊，背景少量木框且沒有彩色物；中性色背景讓鈷藍包成唯一亮色，兩套維持同一機位",
-      "format_variant": "A",
-      "nominal_output_seconds": 11.25,
+      "format_variant": "parallel_two_looks",
+      "nominal_output_seconds": 6,
       "shots": [
         {
           "shot_id": "A",
           "look_id": "2026-W41-005-L01",
           "starting_view": "native_9x16_full_person",
           "framing": "full_person",
-          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "person_position": "Centered in own native frame; full hair/shoes and bag remain inside a narrow central motion envelope for later full-height side-by-side panel.",
           "face": "front or slight three-quarter; readable at opening; no large turn",
           "light": "soft daylight from camera left; similar exposure in both looks",
-          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action_start": "ActualL01v2: right arm relaxed; left hand in trouser pocket, left shoulder bag at image-right. Extract hand naturally before touching short strap.",
           "action": "空手輕扶肩包短帶一次後放下，鈷藍包仍停在腰胯旁、不跨到衣服中央",
           "action_end": "hand relaxed; clothes unobscured; brief natural settle",
           "camera": "fixed level 50mm view",
           "generation_budget_seconds": 6,
           "source_speed": "unchanged",
           "outfit_information": "鈷藍包為唯一亮色；白灰黑衣服和小銀耳針不搶焦點",
-          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+          "ending_handle": "No temporal join; retain clean same-duration portions of independent natural motion without freezing, reversing or retiming."
         },
         {
           "shot_id": "B",
           "look_id": "2026-W41-005-L02",
           "starting_view": "native_9x16_full_person",
           "framing": "full_person",
-          "person_position": "same image center; head and shoe bounds matched across both looks",
+          "person_position": "Centered in own native frame; full hair/shoes and bag remain inside a narrow central motion envelope for later full-height side-by-side panel.",
           "face": "front or slight three-quarter; readable at opening; no large turn",
           "light": "soft daylight from camera left; similar exposure in both looks",
-          "action_start": "feet grounded; free hand relaxed before the gesture or short step",
+          "action_start": "Feet grounded with small natural stance offset; arms relaxed, bag on image-right/left shoulder, hand not yet touching short strap.",
           "action": "空手輕扶肩包短帶一次後放下，鈷藍包仍停在腰胯旁、不跨到衣服中央",
           "action_end": "hand relaxed; clothes unobscured; brief natural settle",
           "camera": "fixed level 50mm view",
           "generation_budget_seconds": 6,
           "source_speed": "unchanged",
           "outfit_information": "褲裝改裙裝，唯一鈷藍包焦點保留；裙長與完整鞋包可見",
-          "ending_handle": "reserve readable late frames; select actual clean interval after generation"
+          "ending_handle": "No temporal join; retain clean same-duration portions of independent natural motion without freezing, reversing or retiming."
         }
       ],
       "join": {
-        "type": "cross_dissolve",
-        "seconds": 0.75,
-        "basis": "similar full-person scale, face/waist/shoe position, light and settled gesture phase",
-        "note": "Actual cut timing chosen from motion sources; overlap is intentional. No speed change, freeze or reverse."
+        "type": "none_simultaneous_panels",
+        "seconds": 0,
+        "basis": "Both complete outfits visible together throughout; no within-film shot switch. If later adding a switch, use0.75s dissolve."
       },
       "proof_policy": "Prepare one reviewed vertical proof per look after full-image approval; use separately unless it adds visible information without a disruptive scene/scale change.",
       "carousel_status": "separate A/B/C assets required; not generated or approved",
-      "output_status": "planned_only",
+      "output_status": "film_user_approved_drive_delivered_proof_and_carousel_incomplete",
       "actual_duration": null,
-      "output_path": null,
-      "user_video_approval": null
+      "output_path": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "user_video_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "format_user_instruction": "之前還有一個是左右的，最後一支可以做成左右的嗎?",
+      "previous_format_preserved": {
+        "format_variant": "A",
+        "nominal_output_seconds": 11.25,
+        "join": {
+          "type": "cross_dissolve",
+          "seconds": 0.75,
+          "basis": "similar full-person scale, face/waist/shoe position, light and settled gesture phase",
+          "note": "Actual cut timing chosen from motion sources; overlap is intentional. No speed change, freeze or reverse."
+        }
+      },
+      "parallel_layout": {
+        "left": "2026-W41-005-L01",
+        "right": "2026-W41-005-L02",
+        "output": "portrait9:16",
+        "source_policy": "Separate native9:16 full-person sources; fixed proportional panel crops chosen after actual motion bounds QA, never stretch.",
+        "size_match": "Measure full hair, face, waist and shoe landmarks at opening and throughout; measure bag/skirt widest boundary. Same person height and panel image rectangle. Do not copy historical3.69% correction.",
+        "motion": "Independent ordinary-speed short same-side strap touch, settle and hand return; no forced timing synchronization or retiming.",
+        "reading_check": "Full outfit and cobalt bag readable at phone size; fine earrings detail belongs to proof asset.",
+        "identity": "Approved M04 v3 face/full anchors. Actual reference hair overrides conflicting general roster hairstyle."
+      },
+      "first_frame_static_review": "10_automation/runs/2026-W41/reels/M04/parallel_first_frame_static_review_2026-10-08.json",
+      "first_frame_user_approval": "10_automation/runs/2026-W41/reels/M04/parallel_first_frame_user_approval_2026-10-08.json",
+      "film_user_approval": "10_automation/runs/2026-W41/reels/delivery/batch_film_user_approval_2026-10-08.json",
+      "accepted_picture_file": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "drive_delivery_receipt": "10_automation/runs/2026-W41/reels/delivery/google_drive_delivery_2026-10-08.json",
+      "video_drive": {
+        "id": "1o_rtSa98FLdVcssVmer2REW3SgQYi6GU",
+        "url": "https://drive.google.com/file/d/1o_rtSa98FLdVcssVmer2REW3SgQYi6GU/view?usp=drivesdk"
+      },
+      "caption_doc": {
+        "id": "1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo",
+        "url": "https://docs.google.com/document/d/1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo/edit"
+      },
+      "publication_status": "not_published"
     }
   ]
 }

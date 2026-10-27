@@ -1,0 +1,17 @@
+只執行一次「第三套同服裝連續推近」6秒診斷，不生成新照片、不換裝、不合片、不自動重試。兩張精確首尾圖均已核准：剛上傳的第一張720x1280為已接受F03實際frame127；第二張941x1672是使用者剛核准的L03近景終點。不要誤用格紋圖或先前失敗過街影片。
+
+以以下精確UUID和已確認可並用的參數只送一次。若任何必要參數被拒絕，停止並如實回報，不移除身份參照、不另生第二支：
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "25ee03e8-b85a-46eb-a4bb-2b77cc38d084"
+last_frame_asset_id: "7645814d-7c26-4ada-b01f-9d5fff4f97a8"
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+
+First/last分別只作精確首尾構圖；asset_ids只鎖M03 v3身份／普通身形，不複製中性衣服、站姿、背景。
+
+Generate one continuous real-time six-second camera push-in of the SAME woman in the SAME outfit throughout. She continues a purposeful natural commute walk toward image-right at an even ordinary cadence, from the exact full-body first frame. The camera tracks parallel on the same side and moves smoothly physically closer during the first four seconds, arriving at the approved head-to-mid-thigh last composition. For the final two seconds, continue walking with the camera tracking at this closer distance and steady scale. Keep the existing rightward side profile and forward gaze; no orbit to her back or turn toward camera. Complete head, hands and the black bag stay inside the frame as feet naturally pass outside the closer framing.
+
+Preserve the open ivory SHORT stand-collar jacket with rolled sleeves, plain white crewneck cotton T-shirt tucked into charcoal straight trousers, and black leather bag on the same near shoulder. No outfit transformation anywhere. Preserve M03 face/hair/ordinary head-shoulder proportions and naturally responsive expression. Same level chest-height full-frame mirrorless50mm photographic character, coherent daylight and skin/fabric texture. The original grey-green glass grid, pale stone planter and foliage remain rigid in the same location and change only through physically plausible parallax, field of view and optical defocus as the camera approaches. Do not invent extra streets, doorways, columns, plant rows or fixtures. Show natural walking weight transfer and arm/bag swing; avoid skating, hesitation, mannequin motion, slow motion or speed ramps. No internal cut, dissolve, freeze, text or logo. Disable audio only if a real option exists; otherwise report actual audio.
+
+完成後留在同一畫布，回報實際傳入first/last/asset_ids、輸出asset UUID、實際時長／像素／音軌；參數接受與實際畫面觀察分開。不得自行宣告推近／步態／場景已通過，也不生成第二版。

@@ -1,0 +1,1218 @@
+{
+  "schema_version": 1,
+  "storyboard_id": "STORYBOARD_20261015_URBAN_COMMUTE_V3",
+  "created_date": "2026-10-15",
+  "status": "revision_requested_reference_led_shot_redesign",
+  "scope": "Same M03 and five complete looks retained. U01/U02 exact still approvals remain valid; their current9.25second joined film is revision-requested as insufficiently decisive or attractive. Stop expansion intoU03-U05 pending reference-led shot redesign; no new research result or storyboard approval asserted.",
+  "source_feedback": {
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v2_refined/user_film_feedback_2026-10-15.json",
+    "user_quote": "節奏太慢，運鏡都維持在人物的45度角、背景大同小異沒有變換、沒有背景上班人潮、人物走路像普通散步、應該具備俐落灑脫的都會女性特色、應該具備廣告影片那樣吸引人。",
+    "interpretation": "Replace strolling one-angle sources with purposeful metropolitan commuting, three camera-language families, visibly different city corners and believable separated commuter foot traffic. Preserve approachable wearable wardrobe and five-look weekly inspiration."
+  },
+  "viewer_takeaway": "挑選一週穿搭靈感",
+  "model_id": "M03",
+  "order": [
+    "U01:L01",
+    "U02:L04",
+    "U03:L05",
+    "U04:L02",
+    "U05:L03"
+  ],
+  "wardrobe_source_plan": "03_research/series_pilots_2026-10-15/commute_week_v1/series_proposal.json",
+  "wardrobe_identity": "same virtual editorial wardrobe definitions; not verified real-product try-on",
+  "source_weeks": [
+    "2026-W41"
+  ],
+  "planning_week": "2026-W42",
+  "publication_dates": [],
+  "weather_status": "not_checked_target_location_dates_pending; shared morning light is visual design only",
+  "common_direction": {
+    "visual_character": "有目的、俐落灑脫、親近日常的都會通勤；廣告吸引力是創作目標，不是已驗證成效",
+    "camera_families": [
+      "frontal view (backward tracking or locked approach)",
+      "true 90-degree side tracking",
+      "locked diagonal pass"
+    ],
+    "light": "different everyday city corners, same bright soft morning palette and coherent natural contact shadows",
+    "action_speed": "purposeful normal-to-brisk real walking; not running, runway strutting, stretching, slow motion or postproduction acceleration",
+    "arms": "natural swing, no cuff adjustment, bag grab or intricate hand-cloth task",
+    "background_people": {
+      "count_target": [
+        3,
+        4
+      ],
+      "role": "separate ordinary commuters at deeper distances",
+      "must_not_occlude": [
+        "main head",
+        "main clothing",
+        "main feet"
+      ],
+      "QA": "plausible trajectories and scale; no merging, multiplying, sudden vanishing or protagonist replacement"
+    },
+    "geometry": "rigid architecture and street markings with coherent perspective/parallax; moving cameras do not require a frozen background",
+    "output": {
+      "aspect_ratio_request": "9:16",
+      "target_delivery_pixels": [
+        1080,
+        1920
+      ],
+      "actual_source_pixels": [
+        720,
+        1280
+      ],
+      "actual_source_fps": 24,
+      "no_stretch_crop_or_speed_manufacture": true,
+      "baked_text": false,
+      "silent_master": true,
+      "actual_current_pair_pixels": [
+        720,
+        1280
+      ],
+      "delivery_target_status": "1080x1920 remains planning target; actual preview preserves native720x1280 without scaling."
+    }
+  },
+  "shots": [
+    {
+      "shot_id": "U01",
+      "look_id": "ED-W42-COMMUTE-V1-L01",
+      "model_id": "M03",
+      "title": "長西外：辦公街正面前進",
+      "status": "generated_source_retained_current_pair_revision_requested",
+      "viewer_information": "第一眼讀到長西外、白T與直筒褲的完整通勤輪廓；由有目的的步伐建立俐落都會性格",
+      "garment_ids": [
+        "G01",
+        "G02",
+        "G03",
+        "G04",
+        "G05"
+      ],
+      "exact_wardrobe_english": "an open hip-covering ivory single-breasted blazer, tucked white crewneck cotton tee, grey-cast dark-navy straight trousers, black round-square-toe low-heeled slip-ons and dark-brown shoulder bag",
+      "wardrobe_reference": {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+        "role": "approved_same_look_wardrobe_only_not_new_pose_scene_or_film_approval",
+        "new_still_approval_inherited": false
+      },
+      "scene_purpose": "明亮辦公街人行道；不同深度的玻璃辦公立面與樹列，主要人物前方路徑寬而平整",
+      "destination_intention": "前方辦公區；以專注行進表達目的，不表演開門或找路",
+      "first_frame": {
+        "target_path": "U01_M03_L01_candidate_A.png",
+        "path_base": "this urban_commute_v3/starting_images directory",
+        "status": "user_approved",
+        "first_trial_batch": true,
+        "new_user_visual_approval_required": true,
+        "user_visual_approval": {
+          "schema_version": 1,
+          "date": "2026-10-15",
+          "shot_id": "U01",
+          "look_id": "ED-W42-COMMUTE-V1-L01",
+          "model_id": "M03",
+          "question": "請確認兩張新起始圖：正面長西外版，以及最後一張已修回素面黑鞋的側面裙裝版，臉、原服裝、通勤人流與構圖是否可以沿用？依你設定的新圖視覺核准流程，確認後才送 Grok；快步、運鏡及廣告般吸引力會由動態試片再驗證。",
+          "question_record_type": "verbatim_combined_visual_approval_question",
+          "user_quote": "兩張可以，沿用",
+          "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+          "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+          "pixels": [
+            941,
+            1672
+          ],
+          "accepted_version": "original_candidate_A",
+          "scope": "Exact U01 still visual approval only. This exact image may enter independent Grok motion. Brisk natural movement, actual camera behavior, side-profile identity stability, commuter trajectories, join comfort and advertising-like appeal remain to be verified in motion; no generated motion, pair or complete five-look film approval, account-wide adoption or publishing replacement inferred.",
+          "recorded_still_observations": {
+            "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+            "camera": "front-facing full person",
+            "scene": "glassy business district with multiple background commuters separated from primary torso; U01 renders more than requested3-4",
+            "pose": "one hand now holds bag strap rather than both arms swinging; free arm relaxed; no claim that this still proves brisk pace",
+            "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+            "proof_of_actual_speed_or_camera": false,
+            "film_or_join_qa": null
+          },
+          "shoe_correction_record": null,
+          "grok_generation_allowed_for_exact_still": true,
+          "motion_approval": null,
+          "join_approval": null,
+          "complete_five_look_film_approval": null,
+          "publishable": false,
+          "publishing_files_replaced": []
+        },
+        "asset_sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+        "actual_pixels": [
+          941,
+          1672
+        ],
+        "aspect_ratio_request": "9:16",
+        "delivery_target_pixels": [
+          1080,
+          1920
+        ],
+        "composition": "近正面全身、完整頭鞋；一腳承重、另一腳自然向前；長西外敞開露白T，包留身體外側",
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "approved_face_identity_and_hair_only",
+            "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "approved_normal_body_proportions_and_identity_only",
+            "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+            "approved_in_existing_registry": true
+          }
+        ],
+        "project_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+        "actual_generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_generation_receipt.json",
+        "actual_prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_generation_prompt_v1.txt",
+        "user_visual_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json",
+        "approved_asset_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+        "visual_approval_gate": "passed_for_this_exact_asset"
+      },
+      "motion": {
+        "status": "generated_source_retained_current_pair_revision_requested",
+        "primary_action": "已在正常偏快步行中，朝鏡頭前進；肩頸自然、視線專注前方，手臂有實際擺動，片尾仍繼續走",
+        "camera_class": "front_backward_track",
+        "camera_motion": "front-facing backward tracking at her walking speed; fixed distance and chest-height level axis",
+        "camera_body": "full-frame mirrorless",
+        "lens_view": "50mm",
+        "camera_height": "chest height",
+        "optical_axis": "level",
+        "requested_source_seconds_if_UI_supports": 10,
+        "requested_candidates_first_test": 1,
+        "actual_UI_support_verified": false,
+        "actual_settings": {
+          "requested_and_agent_reported": "See exact generation receipt",
+          "independent_file_output_verified": true,
+          "raw_generation_tool_parameter_payload_independently_inspected": false,
+          "actual_model": null,
+          "specified_lens_and_exact_camera_angle_measured": false
+        },
+        "actual_source": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+        "start_state": "already purposeful normal-to-brisk walking",
+        "end_state": "still walking; no manufactured stop or turn",
+        "prompt_english": "Use only the exact user-approved U01 image as the first frame. The approved M03 face and full-body references identify the same woman; they do not supply clothes. She is already commuting with purpose and continues a brisk, ordinary walking rhythm toward the camera, with grounded alternating steps, natural swing of her free arm while her other hand retains its approved relaxed bag-strap hold without adjustment and relaxed shoulders. She is neither running nor performing a catwalk. Track backward in front of her at matching speed and fixed distance, keeping her face, open long blazer, white tee, trousers, bag and complete shoes readable. Maintain a full-frame mirrorless 50mm view at chest height and a level axis. Three or four separate commuters walk plausibly behind her without crossing her head, clothing or feet. Preserve rigid building geometry, coherent parallax, morning light, identity and exact wardrobe. One continuous shot; no pose-stop, outfit change, zoom or orbit.",
+        "QA_status": "sampled_source_candidate_for_join_trial; not continuous normal-speed acceptance",
+        "exact_first_frame_gate_passed": true,
+        "exact_first_frame_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json",
+        "actual_source_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+        "actual_source_sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+        "actual_source_metadata": {
+          "pixels": [
+            720,
+            1280
+          ],
+          "fps": 24,
+          "decoded_frames": 241,
+          "decoded_seconds": 10.041666666666666,
+          "audio_codec": "aac"
+        },
+        "actual_selected_frames_half_open": [
+          48,
+          168
+        ],
+        "actual_selected_seconds_half_open": [
+          2.0,
+          7.0
+        ],
+        "generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/generation_receipt.json",
+        "source_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source_visual_review.json",
+        "QA_residuals": [
+          "U01 narrow steps sometimes cross the centerline; composed upper body and strap hold retain some model-walk character.",
+          "U02 is near-side-profile, not a measured exact90degree camera angle; profile identity and parallel tracking require normal-speed viewing.",
+          "Background commuters can exceed requested count and distant faces/limbs can look synthetic; no exhaustive crowd-trajectory verification.",
+          "Front-to-profile, person scale/head-height, crowd flow and building lines can create dissolve double outlines; join comfort remains unapproved."
+        ],
+        "first_pair_preview": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+        "user_motion_approval": null,
+        "footfall_count": null,
+        "prompt_18_to_20_footfalls_goal_verified": false,
+        "perceived_speed_improvement_verified": false,
+        "current_pair_feedback": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json"
+      },
+      "draft_timeline": {
+        "selected_source_seconds": 4.5,
+        "film_interval_seconds": [
+          0.0,
+          4.5
+        ],
+        "clear_outfit_interval_seconds": [
+          0.0,
+          3.75
+        ],
+        "clear_outfit_seconds": 3.75,
+        "actual_selected_native_interval": {
+          "context": "isolated first-pair preview only; full-film draft timing not recomputed",
+          "frames_half_open": [
+            48,
+            168
+          ],
+          "seconds_half_open": [
+            2.0,
+            7.0
+          ],
+          "first_pair_film_interval_seconds": [
+            0,
+            5
+          ],
+          "first_pair_clear_outfit_seconds": 4.25
+        }
+      },
+      "risks_to_verify": [
+        "Backward tracking must be actual camera-relative motion with coherent parallax, not a frozen walking cutout.",
+        "Reject casual drifting, cross-over runway steps or an exaggerated stride; normal-speed energy requires actual viewing."
+      ],
+      "proof": {
+        "required": true,
+        "visible_target": "長西外與直筒褲；內搭棉T保留日常感",
+        "status": "not_reviewed",
+        "strategy": "Review usable vertical same-look material first; generate a separate missing proof view only if necessary, then obtain new visual approval. Proof need not be a forced cut in this film."
+      },
+      "actual_still_observation": {
+        "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+        "camera": "front-facing full person",
+        "scene": "glassy business district with multiple background commuters separated from primary torso; U01 renders more than requested3-4",
+        "pose": "one hand now holds bag strap rather than both arms swinging; free arm relaxed; no claim that this still proves brisk pace",
+        "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+        "proof_of_actual_speed_or_camera": false,
+        "film_or_join_qa": null
+      }
+    },
+    {
+      "shot_id": "U02",
+      "look_id": "ED-W42-COMMUTE-V1-L04",
+      "model_id": "M03",
+      "title": "A字裙：商業街90度側跟",
+      "status": "generated_source_retained_current_pair_revision_requested",
+      "viewer_information": "用真正不同的觀看角度看裙型與走路時的垂墜；與第一套褲裝產生可見輪廓變化",
+      "garment_ids": [
+        "G10",
+        "G11",
+        "G04",
+        "G12"
+      ],
+      "exact_wardrobe_english": "a tucked white short-sleeved pointed-collar cotton shirt, black high-waisted calf-length A-line cotton skirt, black round-square-toe low-heeled slip-ons and small cobalt-blue shoulder bag",
+      "wardrobe_reference": {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+        "role": "approved_same_look_wardrobe_only_not_new_pose_scene_or_film_approval",
+        "new_still_approval_inherited": false
+      },
+      "scene_purpose": "有商辦與日常店面的商業街，平坦行穿線／行人優先鋪面；不穿車流、不上落路緣",
+      "destination_intention": "街道另一側的上班路線；連續向右通過平坦行人鋪面",
+      "first_frame": {
+        "target_path": "U02_M03_L04_candidate_A_refined_v2.png",
+        "path_base": "this urban_commute_v3/starting_images directory",
+        "status": "user_approved",
+        "first_trial_batch": true,
+        "new_user_visual_approval_required": true,
+        "user_visual_approval": {
+          "schema_version": 1,
+          "date": "2026-10-15",
+          "shot_id": "U02",
+          "look_id": "ED-W42-COMMUTE-V1-L04",
+          "model_id": "M03",
+          "question": "請確認兩張新起始圖：正面長西外版，以及最後一張已修回素面黑鞋的側面裙裝版，臉、原服裝、通勤人流與構圖是否可以沿用？依你設定的新圖視覺核准流程，確認後才送 Grok；快步、運鏡及廣告般吸引力會由動態試片再驗證。",
+          "question_record_type": "verbatim_combined_visual_approval_question",
+          "user_quote": "兩張可以，沿用",
+          "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+          "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+          "pixels": [
+            941,
+            1672
+          ],
+          "accepted_version": "plain_shoe_corrected_refined_v2",
+          "scope": "Exact U02 still visual approval only. This exact image may enter independent Grok motion. Brisk natural movement, actual camera behavior, side-profile identity stability, commuter trajectories, join comfort and advertising-like appeal remain to be verified in motion; no generated motion, pair or complete five-look film approval, account-wide adoption or publishing replacement inferred.",
+          "recorded_still_observations": {
+            "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+            "camera": "near-side-profile full person;90degree is intent, not a measured angle",
+            "scene": "street crossing with3 background commuters, trees and office corner",
+            "pose": "visible side stride and skirt motion; natural side-face identity and foot dynamics must be checked in generated video",
+            "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+            "proof_of_actual_speed_or_camera": false,
+            "film_or_join_qa": null
+          },
+          "shoe_correction_record": {
+            "original_candidate_with_bows_not_approved_by_this_reply": true,
+            "accepted_corrected_file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+            "correction": "Remove generated decorative bows and restore plain black low-heeled slip-ons.",
+            "intended_correction_achieved": true
+          },
+          "grok_generation_allowed_for_exact_still": true,
+          "motion_approval": null,
+          "join_approval": null,
+          "complete_five_look_film_approval": null,
+          "publishable": false,
+          "publishing_files_replaced": []
+        },
+        "asset_sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+        "actual_pixels": [
+          941,
+          1672
+        ],
+        "aspect_ratio_request": "9:16",
+        "delivery_target_pixels": [
+          1080,
+          1920
+        ],
+        "composition": "真正側面全身、完整頭鞋；可辨識M03自然側臉；白襯衫領與紮入腰線、A字裙輪廓、鈷藍包外側均清楚",
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "approved_face_identity_and_hair_only",
+            "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "approved_normal_body_proportions_and_identity_only",
+            "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+            "approved_in_existing_registry": true
+          }
+        ],
+        "project_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+        "actual_generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_generation_receipt.json",
+        "actual_prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_generation_prompt_v1.txt",
+        "user_visual_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json",
+        "approved_asset_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+        "visual_approval_gate": "passed_for_this_exact_asset"
+      },
+      "motion": {
+        "status": "generated_source_retained_current_pair_revision_requested",
+        "primary_action": "由畫面左向右俐落步行；自然側臉朝行進方向，裙襬隨實際步伐擺動，片尾不停止",
+        "camera_class": "ninety_degree_side_track",
+        "camera_motion": "true 90-degree side tracking, parallel to the route at matching speed; no orbit",
+        "camera_body": "full-frame mirrorless",
+        "lens_view": "50mm",
+        "camera_height": "chest height",
+        "optical_axis": "level",
+        "requested_source_seconds_if_UI_supports": 10,
+        "requested_candidates_first_test": 1,
+        "actual_UI_support_verified": false,
+        "actual_settings": {
+          "requested_and_agent_reported": "See exact generation receipt",
+          "independent_file_output_verified": true,
+          "raw_generation_tool_parameter_payload_independently_inspected": false,
+          "actual_model": null,
+          "specified_lens_and_exact_camera_angle_measured": false
+        },
+        "actual_source": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+        "start_state": "already purposeful normal-to-brisk walking",
+        "end_state": "still walking; no manufactured stop or turn",
+        "prompt_english": "Use the exact user-approved U02 image as the first frame and the approved M03 face/full-body references for identity only. Keep a true approved near-side-profile side view as she walks purposefully from frame-left to frame-right across the flat pedestrian surface. Track parallel at the same speed and distance; do not drift into a front three-quarter view or orbit her. Her natural profile faces the route, arms swing freely, and grounded normal-to-brisk steps give the A-line skirt a small believable sway. Keep the exact white pointed-collar shirt, black skirt, cobalt bag, complete shoes and normal proportions. Use one chest-height level 50mm full-frame mirrorless shot. Three or four distinct commuters continue plausible separate paths deeper in the scene without occluding her. Street markings, buildings and pavement remain rigid with coherent parallax and consistent morning light. No running, posing, zoom, costume change or protagonist replacement.",
+        "QA_status": "sampled_source_candidate_for_join_trial; not continuous normal-speed acceptance",
+        "extra_identity_constraint": "Maintain the exact approved side-profile head direction; do not turn her face toward camera or behind.",
+        "exact_first_frame_gate_passed": true,
+        "exact_first_frame_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json",
+        "actual_source_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+        "actual_source_sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+        "actual_source_metadata": {
+          "pixels": [
+            720,
+            1280
+          ],
+          "fps": 24,
+          "decoded_frames": 241,
+          "decoded_seconds": 10.041666666666666,
+          "audio_codec": "aac"
+        },
+        "actual_selected_frames_half_open": [
+          0,
+          120
+        ],
+        "actual_selected_seconds_half_open": [
+          0.0,
+          5.0
+        ],
+        "generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/generation_receipt.json",
+        "source_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source_visual_review.json",
+        "QA_residuals": [
+          "U01 narrow steps sometimes cross the centerline; composed upper body and strap hold retain some model-walk character.",
+          "U02 is near-side-profile, not a measured exact90degree camera angle; profile identity and parallel tracking require normal-speed viewing.",
+          "Background commuters can exceed requested count and distant faces/limbs can look synthetic; no exhaustive crowd-trajectory verification.",
+          "Front-to-profile, person scale/head-height, crowd flow and building lines can create dissolve double outlines; join comfort remains unapproved."
+        ],
+        "first_pair_preview": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+        "user_motion_approval": null,
+        "footfall_count": null,
+        "prompt_18_to_20_footfalls_goal_verified": false,
+        "perceived_speed_improvement_verified": false,
+        "current_pair_feedback": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json"
+      },
+      "draft_timeline": {
+        "selected_source_seconds": 5.0,
+        "film_interval_seconds": [
+          3.75,
+          8.75
+        ],
+        "clear_outfit_interval_seconds": [
+          4.5,
+          8.0
+        ],
+        "clear_outfit_seconds": 3.5,
+        "actual_selected_native_interval": {
+          "context": "isolated first-pair preview only; full-film draft timing not recomputed",
+          "frames_half_open": [
+            0,
+            120
+          ],
+          "seconds_half_open": [
+            0.0,
+            5.0
+          ],
+          "first_pair_film_interval_seconds": [
+            4.25,
+            9.25
+          ],
+          "first_pair_clear_outfit_seconds": 4.25
+        }
+      },
+      "risks_to_verify": [
+        "A true profile contains less facial information than the old near-frontal sources; still approval alone cannot establish dynamic identity.",
+        "Track must remain genuinely lateral, with stable skirt geometry, shoes and pedestrian markings; a three-quarter fallback is not a successful 90-degree test."
+      ],
+      "proof": {
+        "required": true,
+        "visible_target": "A字裙完整輪廓；亮色只留包款",
+        "status": "not_reviewed",
+        "strategy": "Review usable vertical same-look material first; generate a separate missing proof view only if necessary, then obtain new visual approval. Proof need not be a forced cut in this film."
+      },
+      "actual_still_observation": {
+        "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+        "camera": "near-side-profile full person;90degree is intent, not a measured angle",
+        "scene": "street crossing with3 background commuters, trees and office corner",
+        "pose": "visible side stride and skirt motion; natural side-face identity and foot dynamics must be checked in generated video",
+        "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+        "proof_of_actual_speed_or_camera": false,
+        "film_or_join_qa": null
+      }
+    },
+    {
+      "shot_id": "U03",
+      "look_id": "ED-W42-COMMUTE-V1-L05",
+      "model_id": "M03",
+      "title": "棕丹寧：固定街角斜穿",
+      "status": "planned_hold_reference_led_redesign",
+      "viewer_information": "相同白襯衫換成棕丹寧的可穿日常選擇；固定街角讓人與城市有實際相對位移",
+      "garment_ids": [
+        "G10",
+        "G13",
+        "G14",
+        "G04",
+        "G08"
+      ],
+      "exact_wardrobe_english": "the same tucked white short-sleeved pointed-collar cotton shirt, cocoa-brown undistressed high-waisted straight jeans, narrow black belt, black low-heeled slip-ons and small black square shoulder bag",
+      "wardrobe_reference": {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+        "role": "approved_same_look_wardrobe_only_not_new_pose_scene_or_film_approval",
+        "new_still_approval_inherited": false
+      },
+      "scene_purpose": "街角寬人行道、日常咖啡外帶店與辦公樓轉角；不是僻靜牆邊，路徑無階梯",
+      "destination_intention": "斜向前方的上班街道；不是走向鏡頭擺拍",
+      "first_frame": {
+        "target_path": "starting_images/U03_M03_L05_candidate_A.png",
+        "path_base": "this urban_commute_v3 directory",
+        "status": "planned",
+        "first_trial_batch": false,
+        "new_user_visual_approval_required": true,
+        "user_visual_approval": null,
+        "asset_sha256": null,
+        "actual_pixels": null,
+        "aspect_ratio_request": "9:16",
+        "delivery_target_pixels": [
+          1080,
+          1920
+        ],
+        "composition": "較寬全身、左側起步留右前方空間；白襯衫、棕丹寧、窄黑皮帶、黑包與黑鞋清楚",
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "approved_face_identity_and_hair_only",
+            "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "approved_normal_body_proportions_and_identity_only",
+            "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+            "approved_in_existing_registry": true
+          }
+        ]
+      },
+      "motion": {
+        "status": "planned_hold_reference_led_redesign",
+        "primary_action": "從畫面左側稍遠處斜向右前方穿過構圖，自然三分之四臉朝路徑；始終保留完整造型的可用中段",
+        "camera_class": "locked_diagonal_pass",
+        "camera_motion": "locked-off camera; no pan, tilt, tracking or zoom",
+        "camera_body": "full-frame mirrorless",
+        "lens_view": "50mm",
+        "camera_height": "chest height",
+        "optical_axis": "level",
+        "requested_source_seconds_if_UI_supports": 10,
+        "requested_candidates_first_test": null,
+        "actual_UI_support_verified": false,
+        "actual_settings": null,
+        "actual_source": null,
+        "start_state": "already purposeful normal-to-brisk walking",
+        "end_state": "still walking; no manufactured stop or turn",
+        "prompt_english": "Begin from the exact user-approved U03 first frame, preserving M03 from the approved face/full-body identity references. Lock the full-frame mirrorless camera at chest height with a level 50mm view. She is already walking with a clear destination, crossing diagonally from the farther left side toward the nearer right side of this broad street-corner sidewalk. Keep her natural three-quarter face oriented along her route, her arms swinging, and her grounded steps brisk and ordinary. Do not pan or track after her. The white shirt, cocoa straight denim, narrow black belt, black bag and shoes remain exact; choose a continuous section with her complete head and shoes still in frame. Three or four background commuters use separate plausible paths and never replace or cover her. Buildings and street furniture stay rigid and the morning light consistent. No turn-back, pose-stop, runway stride or outfit change.",
+        "QA_status": "not_started"
+      },
+      "draft_timeline": {
+        "selected_source_seconds": 4.75,
+        "film_interval_seconds": [
+          8.0,
+          12.75
+        ],
+        "clear_outfit_interval_seconds": [
+          8.75,
+          12.0
+        ],
+        "clear_outfit_seconds": 3.25,
+        "actual_selected_native_interval": null
+      },
+      "risks_to_verify": [
+        "Fixed camera intentionally permits perspective/position change; usable interval must be chosen before any head, shoe or bag exits.",
+        "Do not digital-track or scale her afterwards to hide a framing failure."
+      ],
+      "proof": {
+        "required": true,
+        "visible_target": "同件尖領襯衫換棕丹寧，保留整齊上身",
+        "status": "not_reviewed",
+        "strategy": "Review usable vertical same-look material first; generate a separate missing proof view only if necessary, then obtain new visual approval. Proof need not be a forced cut in this film."
+      }
+    },
+    {
+      "shot_id": "U04",
+      "look_id": "ED-W42-COMMUTE-V1-L02",
+      "model_id": "M03",
+      "title": "格紋：朝辦公入口前進的固定正面",
+      "status": "planned_hold_reference_led_redesign",
+      "viewer_information": "格紋上身與素灰褲的另一種通勤選擇；用接近入口的目的性取代漫無目的散步",
+      "garment_ids": [
+        "G06",
+        "G07",
+        "G04",
+        "G08"
+      ],
+      "exact_wardrobe_english": "a tucked cream-and-navy fine-check pointed-collar shirt with its approved rolled sleeves, charcoal high-waisted straight trousers, black low-heeled slip-ons and small black square shoulder bag",
+      "wardrobe_reference": {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+        "role": "approved_same_look_wardrobe_only_not_new_pose_scene_or_film_approval",
+        "new_still_approval_inherited": false
+      },
+      "scene_purpose": "辦公入口外的開闊前院與行人路徑；實際目的入口在攝影機後方畫外，畫面可見辦公立面但不假稱看得到該入口",
+      "destination_intention": "攝影機後方畫外的辦公入口；不停下開門、不轉背、不走入門內",
+      "first_frame": {
+        "target_path": "starting_images/U04_M03_L02_candidate_A.png",
+        "path_base": "this urban_commute_v3 directory",
+        "status": "planned",
+        "first_trial_batch": false,
+        "new_user_visual_approval_required": true,
+        "user_visual_approval": null,
+        "asset_sha256": null,
+        "actual_pixels": null,
+        "aspect_ratio_request": "9:16",
+        "delivery_target_pixels": [
+          1080,
+          1920
+        ],
+        "composition": "較寬正面全身、留走近空間；藍白格紋襯衫領／袖與炭灰褲腰線明確；黑鞋包完整",
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "approved_face_identity_and_hair_only",
+            "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "approved_normal_body_proportions_and_identity_only",
+            "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+            "approved_in_existing_registry": true
+          }
+        ]
+      },
+      "motion": {
+        "status": "planned_hold_reference_led_redesign",
+        "primary_action": "由較遠位置直向鏡頭自然偏快走近；攝影機固定、人物略變大；剪在完整頭鞋仍清楚時，人物不刻意煞停",
+        "camera_class": "locked_frontal_approach",
+        "camera_motion": "locked-off frontal camera; no tracking, pan or zoom",
+        "camera_body": "full-frame mirrorless",
+        "lens_view": "50mm",
+        "camera_height": "chest height",
+        "optical_axis": "level",
+        "requested_source_seconds_if_UI_supports": 10,
+        "requested_candidates_first_test": null,
+        "actual_UI_support_verified": false,
+        "actual_settings": null,
+        "actual_source": null,
+        "start_state": "already purposeful normal-to-brisk walking",
+        "end_state": "still walking; no manufactured stop or turn",
+        "prompt_english": "Use the exact user-approved U04 image as the first frame and M03 face/full-body references only for the same identity and normal proportions. Keep the camera entirely fixed, chest-height and level, using a full-frame mirrorless 50mm view. From her farther starting position she walks briskly toward an office entrance off-screen behind the camera, remaining frontal and focused along that route. Her arms swing naturally and her shoes make grounded alternating steps. She grows modestly in frame because the camera is stationary; retain an uninterrupted section before any head or shoe is cropped. Preserve the exact fine-check shirt, approved rolled sleeves, charcoal trousers, black bag and shoes. Three or four background commuters continue separate reasonable paths without intersecting her silhouette; architecture stays rigid under the same morning light. No door opening, turn-back, posing, camera tracking or outfit change.",
+        "QA_status": "not_started"
+      },
+      "draft_timeline": {
+        "selected_source_seconds": 4.5,
+        "film_interval_seconds": [
+          12.0,
+          16.5
+        ],
+        "clear_outfit_interval_seconds": [
+          12.75,
+          15.75
+        ],
+        "clear_outfit_seconds": 3.0,
+        "actual_selected_native_interval": null
+      },
+      "risks_to_verify": [
+        "Approach to a fixed camera changes person scale; use actual source/adjacent join review rather than promising constant size.",
+        "The destination behind the camera is an editorial action intention, not a visible geographic fact or a new prop interaction."
+      ],
+      "proof": {
+        "required": true,
+        "visible_target": "格紋集中上身，素色下身",
+        "status": "not_reviewed",
+        "strategy": "Review usable vertical same-look material first; generate a separate missing proof view only if necessary, then obtain new visual approval. Proof need not be a forced cut in this film."
+      }
+    },
+    {
+      "shot_id": "U05",
+      "look_id": "ED-W42-COMMUTE-V1-L03",
+      "model_id": "M03",
+      "title": "短外套：站外廣場較寬正面跟拍",
+      "status": "planned_hold_reference_led_redesign",
+      "viewer_information": "以短外層與直筒灰褲收束五套，留下日常可穿又有目的感的都市造型",
+      "garment_ids": [
+        "G09",
+        "G02",
+        "G07",
+        "G04",
+        "G08"
+      ],
+      "exact_wardrobe_english": "an open cream unpadded short stand-collar jacket ending near the waist-to-hip line, the same white crewneck tee, charcoal straight trousers, black low-heeled slip-ons and small black square shoulder bag",
+      "wardrobe_reference": {
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S03_M03_L03_candidate_A_refined_v2.png",
+        "role": "approved_same_look_wardrobe_only_not_new_pose_scene_or_film_approval",
+        "new_still_approval_inherited": false
+      },
+      "scene_purpose": "捷運或車站外開放廣場的寬人行路徑，可見站外建築與城市人流；不是閘門、月台或上下樓梯",
+      "destination_intention": "站外廣場另一端的辦公區；不過閘門、不刷卡、不操作手機",
+      "first_frame": {
+        "target_path": "starting_images/U05_M03_L03_candidate_A.png",
+        "path_base": "this urban_commute_v3 directory",
+        "status": "planned",
+        "first_trial_batch": false,
+        "new_user_visual_approval_required": true,
+        "user_visual_approval": null,
+        "asset_sha256": null,
+        "actual_pixels": null,
+        "aspect_ratio_request": "9:16",
+        "delivery_target_pixels": [
+          1080,
+          1920
+        ],
+        "composition": "比U01稍寬的正面全身，保留廣場脈絡和走路空間；短立領外套腰胯衣長與白T、灰褲清楚",
+        "identity_references": [
+          {
+            "path": "02_brand/reference_models/M03_start_v3_face.png",
+            "role": "approved_face_identity_and_hair_only",
+            "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+            "approved_in_existing_registry": true
+          },
+          {
+            "path": "02_brand/reference_models/M03_start_v3_full.png",
+            "role": "approved_normal_body_proportions_and_identity_only",
+            "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+            "approved_in_existing_registry": true
+          }
+        ]
+      },
+      "motion": {
+        "status": "planned_hold_reference_led_redesign",
+        "primary_action": "已在正常偏快走向前方，腳步俐落、肩頸放鬆，鏡頭同步倒退；片尾仍走，剪在完整衣著清楚的位置",
+        "camera_class": "front_backward_track_wider",
+        "camera_motion": "front-facing backward tracking at matching walking speed, a little wider than U01; level chest-height axis",
+        "camera_body": "full-frame mirrorless",
+        "lens_view": "50mm",
+        "camera_height": "chest height",
+        "optical_axis": "level",
+        "requested_source_seconds_if_UI_supports": 10,
+        "requested_candidates_first_test": null,
+        "actual_UI_support_verified": false,
+        "actual_settings": null,
+        "actual_source": null,
+        "start_state": "already purposeful normal-to-brisk walking",
+        "end_state": "still walking; no manufactured stop or turn",
+        "prompt_english": "Use only the exact user-approved U05 image as the first frame, with the approved M03 face/full-body references identifying the same woman. She continues purposeful, normal-to-brisk commuting steps across the open plaza outside a station, looking naturally ahead with relaxed shoulders and an easy arm swing. Track backward in front at matching speed and a fixed, slightly wider head-to-shoe distance than U01. Use a chest-height level 50mm full-frame mirrorless view, without zooming or orbiting. Keep the short cream stand-collar jacket open so its waist-to-hip length, white tee and charcoal trousers stay readable; preserve her black shoes, bag, face and proportions. Three or four separate commuters move plausibly deeper in the plaza without covering her silhouette. Station architecture remains rigid with coherent parallax and the same morning-light palette. No gates, stairs, running, posing or outfit change.",
+        "QA_status": "not_started"
+      },
+      "draft_timeline": {
+        "selected_source_seconds": 4.75,
+        "film_interval_seconds": [
+          15.75,
+          20.5
+        ],
+        "clear_outfit_interval_seconds": [
+          16.5,
+          20.5
+        ],
+        "clear_outfit_seconds": 4.0,
+        "actual_selected_native_interval": null
+      },
+      "risks_to_verify": [
+        "Wider plaza context cannot make the model too small for clothing on a phone.",
+        "Do not substitute a station gate/card swipe or staircase interaction for the simple walk."
+      ],
+      "proof": {
+        "required": true,
+        "visible_target": "同條灰褲改搭短外層；腰胯附近衣長清楚",
+        "status": "not_reviewed",
+        "strategy": "Review usable vertical same-look material first; generate a separate missing proof view only if necessary, then obtain new visual approval. Proof need not be a forced cut in this film."
+      }
+    }
+  ],
+  "joins": [
+    {
+      "join_id": "UJ12",
+      "from_shot": "U01",
+      "to_shot": "U02",
+      "transition": "soft linear cross dissolve",
+      "seconds_target": 0.75,
+      "draft_output_seconds": [
+        3.75,
+        4.5
+      ],
+      "review_before_cut": [
+        "person scale",
+        "head height",
+        "waist position",
+        "complete shoe positions",
+        "movement direction",
+        "grounded step/arm phase",
+        "background pedestrian flow direction",
+        "building large lines",
+        "exposure/light color"
+      ],
+      "direction_change": "Intentional camera-angle/route change; compatibility not established.",
+      "user_join_approval": null,
+      "status": "assembled_current_film_revision_requested_join_not_separately_judged",
+      "actual_preview_output_frames_half_open": [
+        102,
+        120
+      ],
+      "actual_preview_output_seconds_half_open": [
+        4.25,
+        5.0
+      ],
+      "first_pair_preview": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+      "film_feedback": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json"
+    },
+    {
+      "join_id": "UJ23",
+      "from_shot": "U02",
+      "to_shot": "U03",
+      "transition": "soft linear cross dissolve",
+      "seconds_target": 0.75,
+      "draft_output_seconds": [
+        8.0,
+        8.75
+      ],
+      "review_before_cut": [
+        "person scale",
+        "head height",
+        "waist position",
+        "complete shoe positions",
+        "movement direction",
+        "grounded step/arm phase",
+        "background pedestrian flow direction",
+        "building large lines",
+        "exposure/light color"
+      ],
+      "direction_change": "Intentional camera-angle/route change; compatibility not established.",
+      "user_join_approval": null,
+      "status": "planned_unvalidated",
+      "execution_hold": "Do not expand before reference-led redesign."
+    },
+    {
+      "join_id": "UJ34",
+      "from_shot": "U03",
+      "to_shot": "U04",
+      "transition": "soft linear cross dissolve",
+      "seconds_target": 0.75,
+      "draft_output_seconds": [
+        12.0,
+        12.75
+      ],
+      "review_before_cut": [
+        "person scale",
+        "head height",
+        "waist position",
+        "complete shoe positions",
+        "movement direction",
+        "grounded step/arm phase",
+        "background pedestrian flow direction",
+        "building large lines",
+        "exposure/light color"
+      ],
+      "direction_change": "Intentional camera-angle/route change; compatibility not established.",
+      "user_join_approval": null,
+      "status": "planned_unvalidated",
+      "execution_hold": "Do not expand before reference-led redesign."
+    },
+    {
+      "join_id": "UJ45",
+      "from_shot": "U04",
+      "to_shot": "U05",
+      "transition": "soft linear cross dissolve",
+      "seconds_target": 0.75,
+      "draft_output_seconds": [
+        15.75,
+        16.5
+      ],
+      "review_before_cut": [
+        "person scale",
+        "head height",
+        "waist position",
+        "complete shoe positions",
+        "movement direction",
+        "grounded step/arm phase",
+        "background pedestrian flow direction",
+        "building large lines",
+        "exposure/light color"
+      ],
+      "direction_change": "Intentional camera-angle/route change; compatibility not established.",
+      "user_join_approval": null,
+      "status": "planned_unvalidated",
+      "execution_hold": "Do not expand before reference-led redesign."
+    }
+  ],
+  "draft_full_film": {
+    "seconds_target_range": [
+      20,
+      24
+    ],
+    "example_seconds": 20.5,
+    "selected_segment_seconds": [
+      4.5,
+      5.0,
+      4.75,
+      4.5,
+      4.75
+    ],
+    "selected_sum_seconds": 23.5,
+    "overlap_sum_seconds": 3.0,
+    "clear_outfit_seconds_by_order": [
+      3.75,
+      3.5,
+      3.25,
+      3.0,
+      4.0
+    ],
+    "is_IG_optimal_length_rule": false,
+    "status": "draft_subject_to_actual_motion_and_full_film_review"
+  },
+  "first_test": {
+    "shots": [
+      "U01",
+      "U02"
+    ],
+    "new_first_frames_each_require_visual_approval": true,
+    "planned_Hero_target_paths": [
+      "starting_images/U01_M03_L01_candidate_A.png",
+      "starting_images/U02_M03_L04_candidate_A.png"
+    ],
+    "actual_Hero_generation_results": {
+      "U01": {
+        "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+        "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+        "approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json"
+      },
+      "U02": {
+        "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+        "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+        "approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json"
+      }
+    },
+    "requested_motion_candidates_each": 1,
+    "source_seconds_if_UI_supports": 10,
+    "actual_UI_support_verified": false,
+    "tentative_selected_seconds_each": 5,
+    "overlap_seconds": 0.75,
+    "tentative_pair_seconds": 9.25,
+    "generation_order": "Each exact approved Hero may enter its independent first motion once; no automatic still-to-motion bypass.",
+    "gate_before_assembly": "Verify the new purposeful gait, genuinely frontal/backward versus true side tracking, identity, outfit, full framing, people and rigid background first. Only if motion is usable choose actual 5-second intervals and assemble a pair; 9.25 seconds is not a guaranteed deliverable.",
+    "gate_before_remaining_three": "Use existing reference evidence to analyze viewing structure and propose specific shot redesign; causes unvalidated, research/redesign not completed or approved. Do not expandU03-U05 or assume another walking-source variation will resolve feedback.",
+    "film_approval": null,
+    "status": "revision_requested_reference_led_shot_redesign",
+    "actual_motion_sources": {
+      "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+      "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4"
+    },
+    "actual_pair_preview": {
+      "status": "revision_requested_reference_led_shot_redesign",
+      "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+      "sha256": "5dbe1ac323511a7c5e6e2a6de7e81b42cf16af21098a162aad1602d58061c30e",
+      "frames": 222,
+      "seconds": 9.25,
+      "pixels": [
+        720,
+        1280
+      ],
+      "fps": 24,
+      "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/edit_receipt.json",
+      "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/pair_sampled_visual_review.json",
+      "generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/generation_receipt.json",
+      "source_QA": {
+        "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source_visual_review.json",
+        "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source_visual_review.json"
+      },
+      "native_speed": true,
+      "baked_text": false,
+      "audio": false,
+      "crop": false,
+      "scaling": false,
+      "selected_sources": [
+        {
+          "shot_id": "U01",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+          "sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+          "selected_frames_half_open": [
+            48,
+            168
+          ],
+          "selected_seconds_half_open": [
+            2.0,
+            7.0
+          ],
+          "clear_outfit_seconds": 4.25
+        },
+        {
+          "shot_id": "U02",
+          "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+          "sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+          "selected_frames_half_open": [
+            0,
+            120
+          ],
+          "selected_seconds_half_open": [
+            0.0,
+            5.0
+          ],
+          "clear_outfit_seconds": 4.25
+        }
+      ],
+      "transition": {
+        "type": "linear_cross_dissolve",
+        "frames": 18,
+        "seconds": 0.75,
+        "output_frames_half_open": [
+          102,
+          120
+        ],
+        "output_seconds_half_open": [
+          4.25,
+          5.0
+        ]
+      },
+      "residual_risks": [
+        "U01 narrow steps sometimes cross the centerline; composed upper body and strap hold retain some model-walk character.",
+        "U02 is near-side-profile, not a measured exact90degree camera angle; profile identity and parallel tracking require normal-speed viewing.",
+        "Background commuters can exceed requested count and distant faces/limbs can look synthetic; no exhaustive crowd-trajectory verification.",
+        "Front-to-profile, person scale/head-height, crowd flow and building lines can create dissolve double outlines; join comfort remains unapproved."
+      ],
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "perceived_speed_improvement_verified": false,
+      "footfall_count": null,
+      "prompt_18_to_20_footfalls_goal_verified": false,
+      "advertising_attraction_accepted": false,
+      "join_comfort_accepted": null,
+      "user_film_approval": null,
+      "complete_five_look_film_approval": null,
+      "account_wide_adoption": null,
+      "publishable": false,
+      "publishing_files_replaced": [],
+      "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json",
+      "feedback_recorded_date": "2026-10-16",
+      "user_feedback_quote": "仍不夠俐落或吸引人",
+      "visual_acceptance": "revision_requested",
+      "root_cause_status": "hypotheses_unvalidated",
+      "remaining_U03_U05_expansion_allowed": false
+    },
+    "actual_gate_before_assembly": "Historical sampled source QA allowed this completed trial; user creative feedback now requests revision. Technical/source sample findings remain unchanged.",
+    "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json"
+  },
+  "unresolved_QA": [
+    "User says the exact urban first pair remains insufficiently decisive or attractive. Causal explanations are hypotheses; reference-led redesign has not been completed or approved.",
+    "ExactU01/U02 stills user-approved; two sources and9.25second pair exist. Raw tool payload, measured cadence, normal-speed creative acceptance and complete-film result unverified.",
+    "Static reference detail cannot guarantee profile identity through true 90-degree motion.",
+    "Normal-to-brisk intention must be visible in grounded purposeful strides; no postproduction speed-up substitute.",
+    "Three or four commuters increase occlusion, identity and geometry complexity; source-level flaws cannot be hidden with dissolves.",
+    "Frontal/side/diagonal direction and scale changes may conflict even if individual parameters look correct.",
+    "0.75-second overlap can produce double contours; complete normal-speed comfort still needs actual review.",
+    "Attraction and advertising-like momentum are goals, not accepted creative results or audience-performance evidence."
+  ],
+  "acceptance": {
+    "new_stills": {
+      "U01": {
+        "status": "user_approved_exact_still",
+        "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json"
+      },
+      "U02": {
+        "status": "user_approved_exact_still",
+        "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json"
+      }
+    },
+    "new_dynamic_QA": {
+      "status": "sampled_source_candidates_for_join_trial",
+      "receipts": {
+        "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source_visual_review.json",
+        "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source_visual_review.json"
+      },
+      "continuous_normal_speed_approval": false
+    },
+    "first_pair": {
+      "status": "revision_requested",
+      "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json",
+      "user_quote": "仍不夠俐落或吸引人",
+      "recorded_date": "2026-10-16",
+      "scope": "Exact urban9.25second pair only; no whole-film acceptance."
+    },
+    "complete_film": null,
+    "normal_speed_full_playback_user_self_report": null,
+    "assistant_continuous_playback": false,
+    "account_wide_adoption": null,
+    "new_weekly_quota": null
+  },
+  "production_boundaries": {
+    "generation_by_this_planning_task": false,
+    "previous_artifacts_changed": [],
+    "publishing_files_replaced": [],
+    "Drive_changes": [],
+    "publication": false,
+    "Carousel_A_B_C_requirement_canceled": false,
+    "styling_proof_requirement_canceled": false
+  },
+  "actual_first_pair_still_review": {
+    "independent_review_date": "2026-10-15",
+    "blocking_static_defects_for_user_review": [],
+    "U01_observations": "Front face identity information, exact outfit and office commuters readable. One hand holds bag strap.",
+    "U02_observations": "Near-side-profile face and purposeful skirt stride; plain shoes corrected.90degrees is camera intent, not measured exact angle.",
+    "join_risks": [
+      "U01 person larger and head higher than U02; compare full-body scale and head/waist/shoe positions in source selection.",
+      "Frontal depth motion to side tracking is an intentional angle change, not a seamless single take.",
+      "Different street markings and commuter trajectories can add double outlines during0.75s overlap."
+    ],
+    "normal_speed_motion_proven": false,
+    "user_visual_approval": {
+      "receipts": {
+        "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json",
+        "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json"
+      },
+      "scope": "Exact stills only; motion/join/full-film separate."
+    }
+  },
+  "approved_still_receipts": {
+    "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json",
+    "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U02_user_still_approval_2026-10-15.json"
+  },
+  "first_pair_preview": {
+    "status": "revision_requested_reference_led_shot_redesign",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/M03_urban_commute_first_pair_review_v1.mp4",
+    "sha256": "5dbe1ac323511a7c5e6e2a6de7e81b42cf16af21098a162aad1602d58061c30e",
+    "frames": 222,
+    "seconds": 9.25,
+    "pixels": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/edit_receipt.json",
+    "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/pair_sampled_visual_review.json",
+    "generation_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/generation_receipt.json",
+    "source_QA": {
+      "U01": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source_visual_review.json",
+      "U02": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source_visual_review.json"
+    },
+    "native_speed": true,
+    "baked_text": false,
+    "audio": false,
+    "crop": false,
+    "scaling": false,
+    "selected_sources": [
+      {
+        "shot_id": "U01",
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U01_source.mp4",
+        "sha256": "c08f0bd2d3967a6cbc8fd285e101facdd38565e89e0081281a949a8367f539ff",
+        "selected_frames_half_open": [
+          48,
+          168
+        ],
+        "selected_seconds_half_open": [
+          2.0,
+          7.0
+        ],
+        "clear_outfit_seconds": 4.25
+      },
+      {
+        "shot_id": "U02",
+        "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/motion_attempt_01/U02_source.mp4",
+        "sha256": "714182139b039e3edee675d960255606059de3ae299dfca7ae3eafe29abd8969",
+        "selected_frames_half_open": [
+          0,
+          120
+        ],
+        "selected_seconds_half_open": [
+          0.0,
+          5.0
+        ],
+        "clear_outfit_seconds": 4.25
+      }
+    ],
+    "transition": {
+      "type": "linear_cross_dissolve",
+      "frames": 18,
+      "seconds": 0.75,
+      "output_frames_half_open": [
+        102,
+        120
+      ],
+      "output_seconds_half_open": [
+        4.25,
+        5.0
+      ]
+    },
+    "residual_risks": [
+      "U01 narrow steps sometimes cross the centerline; composed upper body and strap hold retain some model-walk character.",
+      "U02 is near-side-profile, not a measured exact90degree camera angle; profile identity and parallel tracking require normal-speed viewing.",
+      "Background commuters can exceed requested count and distant faces/limbs can look synthetic; no exhaustive crowd-trajectory verification.",
+      "Front-to-profile, person scale/head-height, crowd flow and building lines can create dissolve double outlines; join comfort remains unapproved."
+    ],
+    "normal_speed_full_playback_user_self_report": null,
+    "assistant_continuous_playback": false,
+    "perceived_speed_improvement_verified": false,
+    "footfall_count": null,
+    "prompt_18_to_20_footfalls_goal_verified": false,
+    "advertising_attraction_accepted": false,
+    "join_comfort_accepted": null,
+    "user_film_approval": null,
+    "complete_five_look_film_approval": null,
+    "account_wide_adoption": null,
+    "publishable": false,
+    "publishing_files_replaced": [],
+    "feedback_path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json",
+    "feedback_recorded_date": "2026-10-16",
+    "user_feedback_quote": "仍不夠俐落或吸引人",
+    "visual_acceptance": "revision_requested",
+    "root_cause_status": "hypotheses_unvalidated",
+    "remaining_U03_U05_expansion_allowed": false
+  },
+  "remaining_urban_sources": {
+    "U03": "planned_not_generated_hold_reference_led_redesign",
+    "U04": "planned_not_generated_hold_reference_led_redesign",
+    "U05": "planned_not_generated_hold_reference_led_redesign"
+  },
+  "latest_film_feedback": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/first_pair_review_v1/user_film_feedback_2026-10-16.json",
+  "feedback_recorded_date": "2026-10-16",
+  "root_cause_status": "hypotheses_unvalidated",
+  "current_remaining_expansion_authorized": false,
+  "current_new_media_execution_authorized": false,
+  "current_stage_scope": "Exact urban9.25second pair received insufficient decisiveness/appeal feedback; reference-led shot redesign is next, not yet completed or approved. Preserve sameM03/five looks/weekly inspiration, native speed/no text/0.75second preference and all earlier scoped approvals. NoU03-U05 expansion or publishing replacement."
+}

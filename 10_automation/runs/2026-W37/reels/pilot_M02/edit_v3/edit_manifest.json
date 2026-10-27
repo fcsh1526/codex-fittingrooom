@@ -1,0 +1,41 @@
+{
+  "status": "review_only_pending_dynamic_QA",
+  "duration_seconds": 15,
+  "actual_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "music": null,
+  "note": "V3 responds to user discomfort: four ordered shots; no rapid opening or closing recaps; 0.5s horizontal pushes without superimposed faces at4,7,11s. Captions fade separately. No music. Full dynamic review pending.",
+  "segments": [
+    {
+      "source": "10_automation\\runs\\2026-W37\\reels\\pilot_M02\\videos\\T07_01.mp4",
+      "source_start": 0,
+      "source_end": 4.5,
+      "subtitle": "冷氣房的兩套薄襯衫穿搭",
+      "qa": "pending"
+    },
+    {
+      "source": "10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L01\\reel\\2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+      "source_start": 0,
+      "source_end": 3.5,
+      "subtitle": "敞開襯衫，保留內搭層次",
+      "qa": "pending"
+    },
+    {
+      "source": "10_automation\\runs\\2026-W37\\reels\\pilot_M02\\videos\\T08_01.mp4",
+      "source_start": 0,
+      "source_end": 4.5,
+      "subtitle": "霧藍襯衫搭深藍洋裝",
+      "qa": "pending"
+    },
+    {
+      "source": "10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L02\\reel\\2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+      "source_start": 0,
+      "source_end": 4,
+      "subtitle": "進室內加薄襯衫，外出可脫",
+      "qa": "pending"
+    }
+  ]
+}

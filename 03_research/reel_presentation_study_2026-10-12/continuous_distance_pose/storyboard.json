@@ -1,0 +1,47 @@
+{
+  "week": "2026-W41",
+  "model": "M03",
+  "looks": [
+    "2026-W41-004-L01",
+    "2026-W41-004-L02"
+  ],
+  "visual_theme": "continuous near-to-full outfit silhouette reading with stationary camera",
+  "first_trial_seconds": 10,
+  "duration_menu_observed": [
+    6,
+    10,
+    15
+  ],
+  "first_frame_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/continuous_distance_pose_v1/2026-W41-004-L01_M03_near_start_candidate_v1.png",
+  "identity": "Mira M03 v3",
+  "second_look_start_basis": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/2026-W41-004-L02_M03_reel_candidate_A.png",
+  "transition_seconds": 0.75,
+  "text": false,
+  "retime": false,
+  "status": "two_look_trial_ready_user_playback_pending",
+  "grok_submission": true,
+  "user_film_approval": null,
+  "first_frame_approval": "A_still_user_approval.json",
+  "attempts": [
+    {
+      "id": "A_attempt_01",
+      "result": "rejected_new_windows_on_blank_right_wall"
+    },
+    {
+      "id": "A_attempt_02",
+      "result": "sampled_candidate_usable_user_playback_pending"
+    }
+  ],
+  "preview": "03_research/reel_presentation_study_2026-10-12/continuous_distance_pose/M03_continuous_distance_pose_A_v1.mp4",
+  "second_look_status": "generated_sampled_review_used_in_provisional_edit",
+  "user_feedback": "A_user_feedback.json",
+  "second_look_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/continuous_distance_pose_v1/2026-W41-004-L02_M03_matched_start_candidate_v2.png",
+  "second_look_still_receipt": "B_still_receipt_v2.json",
+  "second_look_still_approval": "B_still_user_approval.json",
+  "second_look_video": "B_attempt_01/source.mp4",
+  "combined_preview": "03_research/reel_presentation_study_2026-10-12/continuous_distance_pose/M03_continuous_distance_pose_two_looks_v1.mp4",
+  "combined_receipt": "two_looks_receipt.json",
+  "actual_combined_seconds": 17.75,
+  "execution_hold": "user_requests_presentation_planning_only",
+  "latest_user_feedback": "Dissolve appears hard to make difference-free; asks why all concepts compare outfits. No rejection of all dissolves or approval of final film inferred."
+}

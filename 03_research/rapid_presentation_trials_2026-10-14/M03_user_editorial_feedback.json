@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-14",
+  "user_quote": "這是要以中間過場有遮鏡的手法嗎，前一個影片? 如果是，這種手法的衣服差距要更大，是整個風格都要變，現在這兩張都是上班套裝，只是顏色搭配變換",
+  "scope": "Editorial mismatch for proposed M03 occlusion pair, not still approval",
+  "decision": "Stop proposed M03 wall route; no video submissions for this route",
+  "criterion": "Foreground outfit-reveal transition needs an understandable whole-style shift. Light/dark color exchange within two business outfits is insufficient.",
+  "still_user_approval": null,
+  "R2": "M04 accessory viewing route proceeds from existing approved inputs; does not claim whole-style surprise.",
+  "publishing_replacement": false
+}

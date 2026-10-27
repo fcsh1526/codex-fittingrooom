@@ -1,0 +1,20 @@
+{
+  "status": "completed_downloaded",
+  "submitted_at": "2026-10-13T05:22:39.739Z",
+  "send_count": 1,
+  "reference": "Mira M03 v3",
+  "image_role": "First frame",
+  "approved_still": "M03_L01_A1_walk_start_candidate_v2.png",
+  "settings": {
+    "resolution": "720p",
+    "seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "prompt": "A1_motion_prompt_v1.txt",
+  "post_url": "https://grok.com/imagine/post/7955558a-5452-4ad2-af28-7d3345789781?conversation=84ffafc7-38b8-4a61-b674-ca85e81c0287",
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-84ffafc7-38b8-4a61-b674-ca85e81c0287.mp4",
+  "downloaded_at": "2026-10-13T05:26:42.035Z",
+  "submission_to_download_seconds": 242.296,
+  "elapsed_time_note": "Includes still generation and other work; not pure generation wait."
+}

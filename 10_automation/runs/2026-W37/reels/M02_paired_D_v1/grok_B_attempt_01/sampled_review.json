@@ -1,0 +1,88 @@
+{
+  "review_kind": "technical_decode_and_sampled_visual_review_only",
+  "reviewed_at_local_date": "2026-10-05",
+  "source": "source.mp4",
+  "tools": [
+    "10_automation/scan_reel_video.py",
+    "10_automation/review_reel_frames.py",
+    "view_image of checkpoint boards and selected original-resolution checkpoints"
+  ],
+  "execution_note": "Reused the existing local decoding scripts through the previously successful read-only sandbox escalation. No package installation, permission change or source-video modification.",
+  "metadata": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "decoded_frames": 145,
+    "decoded_seconds": 6.041666666666667,
+    "metadata_duration_rounded_seconds": 6.04,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": []
+  },
+  "primary_checkpoint_seconds": [0, 0.75, 1.5, 2.25, 3, 3.75, 4.5, 5.25, 5.75, 6],
+  "additional_checkpoint_seconds": [0.25, 0.5, 1, 1.75, 2, 2.5, 2.75, 4.75, 5, 5.5],
+  "evidence": [
+    "qa/decode_scan.json",
+    "qa/checkpoints/metadata.json",
+    "qa/checkpoints/checkpoints.jpg",
+    "qa/timing_dense/metadata.json",
+    "qa/timing_dense/checkpoints.jpg"
+  ],
+  "approved_comparison_stills": [
+    "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+    "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png"
+  ],
+  "observations": [
+    {
+      "time_range_seconds": [0, 2.5],
+      "observation": "The full-person opening matches the approved L02 source. Complete head, calf-length navy A-line skirt, both ivory slip-on shoes and gray tote remain visible through the 2.5s checkpoint. Her feet move from the staggered source stance toward a closer stance; the resulting short-step/foot-placement change exceeds a strictly stationary weight shift. No obvious shoe collapse was identified at these checkpoints, but contact must be checked continuously."
+    },
+    {
+      "time_range_seconds": [2.5, 2.75],
+      "observation": "Both shoes are fully inside the image at 2.5s; a shoe meets/is cut by the lower boundary at 2.75s. By 3.0s feet are outside the frame during the intended push-in. The last complete-shoe frame has not been identified frame-exactly."
+    },
+    {
+      "time_range_seconds": [3, 6],
+      "observation": "The image moves from a wider body view toward a face-included medium proof. Navy straight square-neck boundary, open mist-blue shirt fronts and waist seam remain recognizable; shoulders stay covered without sampled slipping. Gray tote, ivory shoes while visible and silver ear ornaments remain consistent with the main outfit at inspected checkpoints. No sampled outfit switch or obvious identity replacement was seen."
+    },
+    {
+      "time_range_seconds": [4.5, 6],
+      "observation": "The push-in continues visibly after the planned 4.5s stop: face/shoulder scale increases between 4.5, 5.0, 5.5 and 6.0s. The ending proof is readable but there is no verified fixed medium ending interval. Head remains complete, with visually limited top margin near the end that warrants platform-safe-area review."
+    },
+    {
+      "time_range_seconds": [0, 6],
+      "observation": "Window, reading bench, tabletop plant and bookcase remain recognizable during sampled perspective changes. No floor-standing plant like A attempt 01's new lower-left object is visible in the full opening. No gross sampled window/bookcase/seat bending or object disappearance was identified; fine book-spine content, terrazzo pattern and lighting continuity remain unverified between checkpoints."
+    }
+  ],
+  "pairing_observation_against_A_attempt_01": {
+    "closest_reviewed_scale_pair_seconds": {
+      "A": 3.75,
+      "B": 0
+    },
+    "basis": "Visual comparison of original-resolution checkpoints: A3.75 head-to-shoe extent and vertical placement approximately match B0. B0-0.75 remains a full-person view but moves slightly as her foot stance changes. This is not a calibrated scale-tracking measurement.",
+    "A_original_tail_B_opening_match": "not_confirmed",
+    "reason": "A continues shrinking through5.25-6.0s and includes an unmatched lower-left floor plant; B opening lacks that plant. Endpoint resemblance does not validate the entire 0.75s overlap.",
+    "A_retry_pending": true
+  },
+  "motion_timing_assessment": {
+    "complete_shoes_sampled_through_seconds": 2.5,
+    "first_checked_cropped_shoe_seconds": 2.75,
+    "medium_camera_stop_confirmed": false,
+    "reason": "The image continues enlarging through the final checkpoints rather than fixing the camera by4.5s.",
+    "opening_overlap_handle_target_seconds": [0, 0.75],
+    "opening_overlap_handle_accepted": false,
+    "full_node_unobscured_budget_potential_seconds": 1.75,
+    "budget_note": "The sampled0-2.5s full-person interval could leave approximately1.75s after a0.75s opening overlap, subject to actual continuous framing and paired QA. It is not an accepted trim."
+  },
+  "selection_suggestions": {
+    "approved_source_interval": null,
+    "full_person_component_for_further_review_seconds": [0, 2.5],
+    "proof_component_for_further_review_seconds": [4.5, 6],
+    "entire_source_for_normal_speed_review_seconds": [0, 6],
+    "note": "Keep this source as a candidate for normal-speed review. Its readable opening and ending may be usable with an explicit revised actual-timing record, but do not claim the original fixed-ending-camera timing passed. Evaluate the A retry and the entire full/full overlap before assembly. Do not change source speed, freeze or use transitions to conceal foot, identity, wardrobe or geometry errors."
+  },
+  "continuous_playback_review": "not_performed_by_this_review",
+  "paired_full_full_transition_review": "pending_A_retry_and_complete_overlap",
+  "user_motion_approval": "pending",
+  "publishable": false,
+  "conclusion": "Technical decode completed. Sampled main outfit and identity remain recognizable, full-person opening is readable, and no gross sampled background distortion was identified. The ending camera stop is not demonstrated; continuous review and pairing approval remain pending."
+}

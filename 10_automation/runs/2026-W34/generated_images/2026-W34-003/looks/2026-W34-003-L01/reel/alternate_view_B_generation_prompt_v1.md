@@ -1,0 +1,9 @@
+# Alternate View B Generation Prompt v1
+
+Use case: identity-preserve. Create one native 9:16 Alternate View B for the same practical commuter-outfit editorial. Image 1 is the accepted Hero A and session lock: preserve the exact woman, low pinned dark-brown hairstyle, structured white T-shirt, deep-navy trousers, deep-brown loafers, deep-brown shoulder bag, body build and documentary photographic treatment. Image 2 reinforces face identity; Image 3 reinforces ordinary body proportions. Change only the location corner, camera angle, pose, gaze and hand interaction.
+
+Place her beneath the canopy of the same contemporary Taipei office complex, in its outdoor entrance forecourt with pale stone paving, one shallow step, a simple brushed-metal handrail and softly visible street trees. Do not show access gates or the indoor lobby. Photograph her from the right-front walkway in a natural three-quarter side view. She stands beside the shallow step with a relaxed weight shift, one hand resting lightly on the handrail, the other hanging naturally. The same shoulder bag remains worn on her shoulder. She looks toward the street, not the camera. This is an independent outfit photograph, not the next action after tapping the access card.
+
+Keep exactly: one structured white cotton crew-neck short-sleeve T-shirt; deep-navy high-waisted straight-leg trousers; deep-brown matte-leather square-toe loafers; one small deep-brown matte-leather shoulder bag. No jacket, jewelry or added accessories. Show the complete hairstyle, full figure and both shoes.
+
+Full-frame mirrorless documentary fashion photograph, natural 50mm perspective at chest height with a level axis, believable canopy shade and outdoor ambient spill, realistic skin texture, flyaway hairs, lived-in fabric folds, restrained grain and slight optical softness. No readable text, logos or watermark.

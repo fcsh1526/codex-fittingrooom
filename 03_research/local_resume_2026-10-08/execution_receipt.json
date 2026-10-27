@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-08",
+  "recorded_at_utc": "2026-10-08T02:21:23.654231+00:00",
+  "environment": "user_local_in_app_browser",
+  "human_verification": "user_replied_completed",
+  "new_motion_sources": [
+    {
+      "role": "distance_matched_B",
+      "path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/matched_B_attempt_01/source.mp4",
+      "sha256": "ee829f278e30de0a0e0db1d8aa8bc11d258c50a8475044d5320e1cdae07673c8"
+    },
+    {
+      "role": "gesture_A",
+      "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/A_attempt_01/source.mp4",
+      "sha256": "5baaa223b437e6fde482545cc64a0d2b8c85dffec14df6397735b71c7e0b7d49"
+    },
+    {
+      "role": "gesture_B",
+      "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/B_attempt_01/source.mp4",
+      "sha256": "25b8bd59b95c46dcef8c30ca9847ca4fcdc892581899aea0f804c8375d388a54"
+    }
+  ],
+  "distance_native_joins_rejected": 3,
+  "gesture_light_to_deep_joins_rejected": 2,
+  "new_still_generations": {
+    "base": 1,
+    "targeted_edit": 1,
+    "both_continuity_purpose_rejected": true,
+    "Grok_submitted": false
+  },
+  "new_composite": {
+    "path": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/review_deep_to_light_v1/M02_front_opening_deep_to_light_review_v1.mp4",
+    "sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2",
+    "size": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "frames": 204,
+    "seconds": 8.5,
+    "look_order": [
+      "2026-W37-001-L02",
+      "2026-W37-001-L01"
+    ],
+    "selection": [
+      {
+        "original_role": "B",
+        "look_id": "2026-W37-001-L02",
+        "frames_half_open": [
+          24,
+          126
+        ]
+      },
+      {
+        "original_role": "A",
+        "look_id": "2026-W37-001-L01",
+        "frames_half_open": [
+          0,
+          120
+        ]
+      }
+    ],
+    "status": "user_picture_accepted_with_dissolve_residuals",
+    "user_approval": {
+      "date": "2026-10-08",
+      "status": "accepted_as_research_picture_track",
+      "receipt": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/review_deep_to_light_v1/user_picture_approval_2026-10-08.json",
+      "sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2"
+    },
+    "publishable": false
+  },
+  "protected_inputs_verified": [
+    {
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5",
+      "role": "identity_face"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4",
+      "role": "identity_full"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+      "sha256": "6c3c36d53e894f4be8aa1de1f7eef70749f15e0e906421d26bb838c74bed18bf",
+      "role": "first_frame_A"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+      "sha256": "1ea5251c0346edc52e38d414c5c52156a4c41e0a74d08d05c3140b196994dd77",
+      "role": "first_frame_B"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_detail_full_full_detail_review_v1.mp4",
+      "sha256": "eb99760cd7d5df8fdc2dda66148ef90218b639f5ad0920dfd6dd5b1615f8a426",
+      "role": "protected_historical_media"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/M02_detail_full_full_detail_review_v1.mp4",
+      "sha256": "688d95d93c7705ac7500ada977c6ff2c97e649c175430487264b69ec8da28b56",
+      "role": "protected_historical_media"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/M03_order_D_review_v1.mp4",
+      "sha256": "906dc03da54d619536e25aa49b1ecb9877f2ea430f0f893959e24f2f92f462a8",
+      "role": "protected_historical_media"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+      "sha256": "b01ce4a5b95a7cbc368312d0607a6155fad5c7f1918b1ed3272b4b75b247679b",
+      "role": "protected_historical_media"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "sha256": "ae7ced47b34732083ef112461597a2745697818872103ff3f095763c11b4bc1e",
+      "role": "protected_historical_media"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+      "sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569",
+      "role": "protected_historical_media"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+      "sha256": "a383ea81ef1eb8e4b27993954aafe11376b80183bfc4634242370a7e0bdf9499",
+      "role": "protected_historical_media"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+      "sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989",
+      "role": "protected_historical_media"
+    }
+  ],
+  "first_wave_modified": false,
+  "cloud_packet_modified": false,
+  "cloud_task_messaged": false,
+  "Drive_write": false,
+  "Instagram_publication": false,
+  "GitHub_push": false,
+  "user_video_approval": {
+    "date": "2026-10-08",
+    "status": "accepted_as_research_picture_track",
+    "receipt": "03_research/reel_planning_2026-10-07/front_opening_gesture/local_trial_2026-10-08/review_deep_to_light_v1/user_picture_approval_2026-10-08.json",
+    "sha256": "568515694b7078f566a967c681aec5bd28d03d78d2038f2f2e7092fbab847df2"
+  },
+  "audience_performance": null,
+  "next_gate": "Exact research picture accepted; preserve it as a soft-transition reference. Future storyboard and any separate delivery/publication remain their own decisions."
+}

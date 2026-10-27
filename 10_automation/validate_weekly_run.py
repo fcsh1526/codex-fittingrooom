@@ -32,6 +32,9 @@ PACKET_REQUIRED_FIELDS = [
     "trend_name",
     "audience",
     "occasion",
+    "content_engine",
+    "dressing_decision",
+    "visible_action",
     "prompt_id",
     "clothing_item",
     "color_palette",
@@ -39,6 +42,33 @@ PACKET_REQUIRED_FIELDS = [
     "fit",
     "styling_rules",
     "scene",
+]
+
+
+LOOK_REQUIRED_FIELDS = [
+    "week_id",
+    "carousel_id",
+    "model_profile_id",
+    "look_id",
+    "look_order",
+    "theme_name",
+    "opening_hook",
+    "look_name",
+    "dressing_decision",
+    "occasion",
+    "clothing_item",
+    "color_palette",
+    "fabric",
+    "fit",
+    "styling_rules",
+    "visual_proof",
+    "practical_rule",
+    "scene",
+    "visible_action",
+    "frame_plan",
+    "required_frames",
+    "status",
+    "next_action",
 ]
 
 
@@ -61,16 +91,36 @@ DISCLOSURE_TERMS = [
 
 
 IMAGE_BRIEF_REQUIRED_TERMS = [
-    "full outfit",
-    "no visible logos",
-    "no text",
-    "no watermark",
-    "sexualized pose",
-    "childlike styling",
-    "celebrity likeness",
-    "Body proportion lock",
-    "70mm full-frame-equivalent",
-    "No low angle",
+    "Dressing decision",
+    "One visible action",
+    "only prompt generator",
+    "Hero A first",
+    "optional production derivatives",
+    "not A/B tests",
+    "review sheet",
+]
+
+
+HERO_PROMPT_REQUIRED_TERMS = [
+    "one dressing decision",
+    "identity and hairstyle reference",
+    "loose body-proportion reference",
+    "one clear action",
+    "Full-frame mirrorless",
+    "50mm",
+    "realistic skin texture",
+    "No readable text",
+]
+
+
+HERO_PROMPT_FORBIDDEN_TERMS = [
+    "f/4",
+    "1/250",
+    "ISO 200",
+    "5200 K",
+    "central 70",
+    "8% top",
+    "smooth and well-maintained",
 ]
 
 
@@ -222,6 +272,57 @@ def validate_daily_queue(run_dir, packet_rows, issues):
     return rows
 
 
+def validate_weekly_look_plan(run_dir, packet_rows, issues):
+    path = run_dir / "weekly_look_plan.csv"
+    if not path.exists():
+        return []
+
+    rows = read_csv(path)
+    packet_by_id = {clean(row.get("carousel_id")): row for row in packet_rows}
+    counts = {}
+    seen_look_ids = set()
+    seen_orders = set()
+    for index, row in enumerate(rows, start=1):
+        look_id = clean(row.get("look_id")) or f"look row {index}"
+        for field in LOOK_REQUIRED_FIELDS:
+            if not clean(row.get(field)):
+                add_issue(issues, "error", "look_required_field", f"{look_id}: missing {field}.")
+
+        carousel_id = clean(row.get("carousel_id"))
+        packet = packet_by_id.get(carousel_id)
+        if not packet:
+            add_issue(issues, "error", "look_carousel_id", f"{look_id}: unknown carousel_id `{carousel_id}`.")
+            continue
+        counts[carousel_id] = counts.get(carousel_id, 0) + 1
+
+        if look_id in seen_look_ids:
+            add_issue(issues, "error", "duplicate_look_id", f"Duplicate look_id: {look_id}.")
+        seen_look_ids.add(look_id)
+
+        look_order = clean(row.get("look_order"))
+        order_key = (carousel_id, look_order)
+        if order_key in seen_orders:
+            add_issue(issues, "error", "duplicate_look_order", f"{carousel_id}: duplicate look_order `{look_order}`.")
+        seen_orders.add(order_key)
+
+        if clean(row.get("week_id")) != clean(packet.get("week_id")):
+            add_issue(issues, "error", "look_week_id", f"{look_id}: week_id does not match its theme packet.")
+        if clean(row.get("model_profile_id")) != clean(packet.get("model_profile_id")):
+            add_issue(issues, "error", "look_model_lock", f"{look_id}: model must match its theme packet.")
+        if clean(row.get("theme_name")) != clean(packet.get("trend_name")):
+            add_issue(issues, "error", "look_theme_name", f"{look_id}: theme_name does not match its theme packet.")
+        if clean(row.get("required_frames")) != "3":
+            add_issue(issues, "error", "look_required_frames", f"{look_id}: Carousel required_frames must be 3.")
+
+    missing = sorted(set(packet_by_id) - set(counts))
+    for carousel_id in missing:
+        add_issue(issues, "error", "look_theme_missing", f"{carousel_id}: no approved looks in weekly_look_plan.csv.")
+    for carousel_id, count in sorted(counts.items()):
+        if count != 2:
+            add_issue(issues, "error", "look_count", f"{carousel_id}: expected exactly 2 looks, got {count}.")
+    return rows
+
+
 def validate_image_generation_files(run_dir, packet_rows, issues):
     brief_path = run_dir / "image_generation_briefs.md"
     review_path = run_dir / "image_review_template.csv"
@@ -238,6 +339,51 @@ def validate_image_generation_files(run_dir, packet_rows, issues):
         for term in IMAGE_BRIEF_REQUIRED_TERMS:
             if term.lower() not in text_lower:
                 add_issue(issues, "error", "image_brief_required_term", f"image_generation_briefs.md missing `{term}`.")
+    def validate_hero(row, hero_path, row_label):
+        if not hero_path.exists():
+            add_issue(issues, "error", "hero_prompt_missing", f"Missing Hero prompt: {hero_path}.")
+            return
+        hero_doc = read_text(hero_path)
+        match = re.search(r"```text\s+(.*?)```", hero_doc, re.DOTALL | re.IGNORECASE)
+        hero_prompt = match.group(1).strip() if match else hero_doc
+        hero_prompt_lower = hero_prompt.lower()
+        for term in HERO_PROMPT_REQUIRED_TERMS:
+            if term.lower() not in hero_prompt_lower:
+                add_issue(issues, "error", "hero_prompt_required_term", f"{row_label}: Hero prompt missing `{term}`.")
+        for term in HERO_PROMPT_FORBIDDEN_TERMS:
+            if term.lower() in hero_prompt_lower:
+                add_issue(issues, "error", "hero_prompt_forbidden_term", f"{row_label}: Hero prompt contains forbidden `{term}`.")
+        english_word_count = len(re.findall(r"\b[A-Za-z][A-Za-z'-]*\b", hero_prompt))
+        if not 120 <= english_word_count <= 220:
+            add_issue(
+                issues,
+                "error",
+                "hero_prompt_word_count",
+                f"{row_label}: Hero prompt has {english_word_count} English words; expected 120-220.",
+            )
+        for field in ["dressing_decision", "visible_action"]:
+            expected = clean(row.get(field))
+            if expected and expected not in hero_prompt:
+                add_issue(issues, "error", "hero_prompt_packet_mismatch", f"{row_label}: Hero prompt missing packet {field}.")
+
+    look_path = run_dir / "weekly_look_plan.csv"
+    if look_path.exists():
+        for look in read_csv(look_path):
+            carousel_id = clean(look.get("carousel_id"))
+            look_id = clean(look.get("look_id"))
+            look_root = run_dir / "generated_images" / carousel_id / "looks" / look_id
+            plan_path = look_root / "look_plan.md"
+            if not plan_path.exists():
+                add_issue(issues, "error", "look_image_job_missing", f"Missing look image job: {plan_path}.")
+            for surface in ["carousel", "reel"]:
+                hero_path = look_root / surface / "hero_A_prompt.md"
+                if hero_path.exists():
+                    validate_hero(look, hero_path, f"{look_id}/{surface}")
+    else:
+        for row in packet_rows:
+            carousel_id = clean(row.get("carousel_id"))
+            hero_path = run_dir / "generated_images" / carousel_id / "hero_A_prompt.md"
+            validate_hero(row, hero_path, carousel_id)
     if review_path.exists():
         rows = read_csv(review_path)
         review_ids = {clean(row.get("carousel_id")) for row in rows}
@@ -444,6 +590,7 @@ def validate_run(run_dir, min_rows=1, require_assets=False, carousel_id=""):
     validate_required_files(run_dir, issues)
     packet_rows = validate_packet_rows(run_dir, min_rows=min_rows, issues=issues)
     validate_daily_queue(run_dir, packet_rows=packet_rows, issues=issues)
+    validate_weekly_look_plan(run_dir, packet_rows=packet_rows, issues=issues)
     validate_image_generation_files(run_dir, packet_rows=packet_rows, issues=issues)
     validate_canva_rows(run_dir, packet_rows=packet_rows, issues=issues)
     validate_post_drafts(run_dir, packet_rows=packet_rows, issues=issues)

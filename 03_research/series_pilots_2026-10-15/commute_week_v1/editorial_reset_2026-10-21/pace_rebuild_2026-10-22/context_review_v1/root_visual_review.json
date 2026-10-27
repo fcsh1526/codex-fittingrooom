@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-22",
+  "film": "review.mp4",
+  "sha256": "799911d2a7637c7920c0d2ecec47cc36bea670142a57c9c947dacd256b24d819",
+  "status": "F02_only_context_candidate_pending_user_visual_feedback",
+  "frames": 511,
+  "fps": 24,
+  "pixels": [720,1280],
+  "duration_seconds": 21.291666666666668,
+  "bytes": 19585501,
+  "root_viewed": ["QA/full25.png", "QA/J12_every3_full.png", "QA/J23_every3_feet.png"],
+  "other_visual_review": "Builder sampled five QA sheets; source/boundary audit independently completed. Additional second-agent whole-context visual review unavailable; no such review claimed.",
+  "continuous_native_visual_playback_claimed": false,
+  "technical_validation": "Builder fully decoded and compared all511 frames to intended raw-frame composition. meanMAE2.11564/worst2.54868/minPSNR36.87894dB; eight protected hashes unchanged.",
+  "observations": [
+    "J12 newF02 leg progression closer to outgoingF01 than old F02, but face/arm/leg and column double outlines remain during18frame dissolve.",
+    "J23 newF02 ending and F03 opening have broadly corresponding leg progression; spatial shoe/body/column double images remain. Native-speed comfort requires user viewing.",
+    "F03 late and J34 retain original source and slower-to-faster cadence relation; this one-source substitution cannot establish uniform wholefilm walking.",
+    "F04/F05 and full-to-half camera arrangement remain intact, including previously disclosed stairs and J45 ghosting. No new background approval inferred."
+  ],
+  "decision": "Deliver this exact separately named context candidate for second-look pace and both boundary review. Do not silently regenerate F03 or overwrite source/publishing versions.",
+  "next_if_F02_kept": "Plan F03 native gait repair together with its incoming and f91 outgoing boundary; preserve camera and half-shot design.",
+  "retiming_crop_text_audio": false,
+  "publish_approval": false,
+  "external_files_changed": false
+}

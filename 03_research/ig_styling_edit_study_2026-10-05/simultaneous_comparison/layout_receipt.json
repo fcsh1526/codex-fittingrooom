@@ -1,0 +1,62 @@
+{
+  "status": "layout_diagnostic_only",
+  "sources": [
+    {
+      "look_id": "2026-W37-001-L01",
+      "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+      "source_sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e",
+      "source_size": [
+        941,
+        1672
+      ],
+      "fixed_window": [
+        245,
+        0,
+        770,
+        1672
+      ],
+      "output_position": [
+        4,
+        79
+      ],
+      "output_size": [
+        352,
+        1121
+      ]
+    },
+    {
+      "look_id": "2026-W37-001-L02",
+      "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+      "source_sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a",
+      "source_size": [
+        941,
+        1672
+      ],
+      "fixed_window": [
+        245,
+        0,
+        770,
+        1672
+      ],
+      "output_position": [
+        364,
+        79
+      ],
+      "output_size": [
+        352,
+        1121
+      ]
+    }
+  ],
+  "output_path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_layout_diagnostic_v1.png",
+  "output_sha256": "703d489005911b2fd85a11c5b7d98329143fe135792fdab377a07ee3af824cdc",
+  "output_size": [
+    720,
+    1280
+  ],
+  "source_images_changed": false,
+  "generated_stills": false,
+  "dynamic_crop_qa": "not_started",
+  "user_layout_approval": null,
+  "publishable": false
+}

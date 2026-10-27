@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-23",
+  "shot": "S02",
+  "attempt": 1,
+  "status": "downloaded_rejected_for_styling_action",
+  "url": "https://grok.com/imagine/post/3686029e-88ed-4476-8ea9-be0248004fda?conversation=89b4f9be-afb7-4688-8cbc-e5b85d2cbfad",
+  "first_frame": "generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S02_comparison_v2_start_candidate.png",
+  "first_frame_sha256": "962EDD2413B9A99ED90B7226F3DF1E93226D91E1AB0EA1BBE13FAA051CF0DF2A",
+  "identity_reference": "Mira M02 v3",
+  "first_frame_role_verified": true,
+  "prompt_file": "prompts/S02_comparison_v2_motion_v1.md",
+  "settings": {"resolution": "720p", "duration_seconds": 6, "aspect_ratio": "9:16", "audio": false},
+  "browser_video_metadata": {"width": 720, "height": 1280, "duration_seconds": 6.041667, "playback_rate": 1},
+  "local_file": "videos/S02_comparison_v2_01.mp4",
+  "local_bytes": 1857474,
+  "sha256": "37B1C9B84A89BE87C43415A398730DDC9EBF23F7A1CE4C0FCF7A58C6C3FF8A65",
+  "dynamic_qa": "Browser player checkpoints approximately 0.25, 1.55, 3.0, 5.65s. At about 1.55s the free arm extends and cream dress/skirt swings widely instead of a small gray-shirt hem reveal. Main candidate rejected for intended styling proof; full continuous QA not passed.",
+  "user_video_approval": null,
+  "notes": "Recovered by reloading existing tab and correctly reuploading S02. Correct starting outfit and browser playback observed. Local download was recovered via Grok's Download button on revisiting the post. One narrower garment-action retry is specified in prompts/S02_comparison_v2_motion_v2.md."
+}

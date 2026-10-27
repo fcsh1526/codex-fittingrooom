@@ -1,0 +1,75 @@
+{
+  "date_taipei": "2026-10-20",
+  "stage": "motion_trial_complete_road_paint_continuity_FAIL_no_append_no_retry",
+  "canvas_output_asset": "ab8cfd23-640a-4925-a49b-71896b5c605a",
+  "source": "F04_source.mp4",
+  "source_sha256": "17618efc96ae2039a9c8e3d888e1ac225af769f1e7d45eec889a42b98e69e0b3",
+  "source_bytes": 8646672,
+  "download": "C:/Users/Brandon_ChangChien/Downloads/generated_video (56).mp4",
+  "actual_local_media": {
+    "video_codec": "h264",
+    "pixels": [720, 1280],
+    "fps": 24,
+    "fully_decoded_frames": 145,
+    "frame_count_over_fps_seconds": 6.041666666666667,
+    "audio": "AAC, 48000Hz, stereo",
+    "attached_cover": "MJPEG",
+    "full_decode_completed": true
+  },
+  "agent_reported_accepted_parameters": {
+    "duration": "6",
+    "resolution_name": "720p",
+    "aspect_ratio": "9:16",
+    "first_frame_asset_id": "e008f6b5-efe9-40b4-be75-615af1be766c",
+    "keyframes": [{"asset_id":"a327fc83-6f91-4c9f-ab66-2e3e79c4ba19","timestamp_s":3}],
+    "last_frame_asset_id": "f000b887-f606-426c-90ec-4e3dbe5396d6",
+    "asset_ids": ["6236309c-2343-41e6-985c-994239ff744a", "ac9ede4e-1715-4518-95b4-bda341a62061"]
+  },
+  "parameter_evidence_limit": "Agent completion report and resulting media verified; internal tool call/settings not independently exposed. Repeated DOM video elements share one asset UUID and do not mean three outputs.",
+  "observed_unique_new_video_assets": 1,
+  "additional_generation_requests": 0,
+  "root_and_independent_source_review": {
+    "reviewed": [
+      "full_25_checkpoints.jpg",
+      "gait_road_2p5_to_3p5s_full_frames.jpg",
+      "gait_road_4_to_5s_full_frames.jpg",
+      "native source frames96,104,120; root additionally checked frame24"
+    ],
+    "positive_limited_observations": [
+      "Larger opening figure progresses toward wider middle framing in sampled sequence; same forward route is readable.",
+      "Same checked outfit/bag and alternating step phases remain readable; last section reaches company-side curb/paving.",
+      "No repeated new large silver column or growing planter row seen in the inspected sample set.",
+      "Previous clear Y-shaped paint branching was not seen in the selected late samples."
+    ],
+    "blocking_failure": {
+      "category": "fixed_road_paint_shape_and_connectivity",
+      "window_seconds": [4.0, 5.0],
+      "native_evidence": [
+        {"frame":96,"seconds":4.0,"observation":"Right/lower long white bar develops a transverse seam near y1058; an extended lower segment has a separate boundary."},
+        {"frame":104,"seconds":4.333333333333333,"observation":"Edges above and below the seam are visibly offset, creating a mismatched two-part extension rather than one straight rectangle."},
+        {"frame":120,"seconds":5.0,"observation":"Short upper and longer lower paint parts remain distinguishable; the split persists while the camera moves."}
+      ],
+      "conclusion": "No Y shape is insufficient for a pass. A fixed, continuous straight rectangle from the approved layout cannot gain offset joined segments from camera perspective alone. New camera-planned anchors still did not preserve road-paint continuity."
+    },
+    "extra_unverified_scene_details": "A road drain grate and projecting pavement section near company curb appear in late samples; they are not validated shared-site reconstruction. They are not needed to establish the paint failure.",
+    "exact_shoe_sliding_measurement": null,
+    "complete_normal_speed_continuous_playback_verified": null,
+    "user_motion_acceptance": null,
+    "geometry_pass": false
+  },
+  "diagnostic_silent_preview": {
+    "file": "diagnostic_review_v1/F04_diagnostic_silent.mp4",
+    "sha256": "3e8541e4b38bbe09f5bb8227de09f2225cd44929141316cdf0ea3147136a3cab",
+    "bytes": 8444390,
+    "purpose": "Show this failed research result only; not publishable or appended.",
+    "method": "Original main H264 video stream copied; AAC and attached cover removed. No re-encoding, crop, text, speed change or transition.",
+    "main_video_annexb_sha256_before_and_after": "dbe204b5493b201da10d09d3c9f0c31e6bf1df015f3a930213b3b7373c32108d",
+    "receipt": "diagnostic_review_v1/diagnostic_remux_receipt.json"
+  },
+  "proof": ["grok_completion_dom.txt", "grok_result_screenshot.png", "source_inspection_v1/technical_scan.json"],
+  "accepted_three_shot_prefix_and_three_input_hashes_unchanged": true,
+  "four_shot_append_performed": false,
+  "F05_started": false,
+  "Drive_GitHub_IG_writes": false,
+  "decision": "Stop this recipe after the promised one diagnostic. Do not generate again with the same frame/camera setup or hide the defect with dissolve, crop or retiming. Keep the accepted prefix and all research originals. Any future shot redesign must first be a concrete storyboard/control change."
+}

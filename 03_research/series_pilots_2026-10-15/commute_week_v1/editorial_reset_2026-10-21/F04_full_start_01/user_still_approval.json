@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-21",
+  "asset": "F04_M03_L02_full_start_candidate_A.png",
+  "sha256": "03b45655b7bef2b97b3ef19de6cc9b864b86341d908114e149f0653c8dfd36f0",
+  "question": "請確認剛顯示的第四套全身起始圖：臉、奶油白／海軍藍格紋、灰褲、黑鞋包與行走構圖是否可以沿用？這版臉略柔、包稍飽滿，仍在廣場花台旁。依你訂的新圖先視覺核准流程，確認後才準備相容末幀與影片。",
+  "user_answer": "可以，沿用這張",
+  "status": "exact_still_user_approved",
+  "scope": "Appearance of exact full-person first still with disclosed smoother face/fuller bag; permits compatible late-frame preparation, not a new late-frame, motion or complete-film approval",
+  "motion_approval": null,
+  "publish_approval": false
+}

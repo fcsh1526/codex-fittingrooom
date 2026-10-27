@@ -1,0 +1,105 @@
+{
+  "status": "retained_diagnostic_join_rejected_before_user_review",
+  "date": "2026-10-06",
+  "model": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "output": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/M02_body_distance_review_v1.mp4",
+  "output_sha256": "170caa07b1f385562c93151ce1d03c3689504be8503dfb701d79d7c48c70acc6",
+  "native_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 198,
+  "seconds": 8.25,
+  "sources": [
+    {
+      "role": "A_near_to_full",
+      "path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/near_start_A_attempt_01/source.mp4",
+      "sha256": "be49906fa1ec7397bb456acc1ce7947325e71b4ce5a0692d7235d878ad6017ea",
+      "selected_native_frames_half_open": [
+        0,
+        72
+      ]
+    },
+    {
+      "role": "B_full_to_near",
+      "path": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/grok_B_attempt_01/source.mp4",
+      "sha256": "afa46cced85bf886029940f36b7bbbd0bf188b5ebe49d8ac5d7f5f278ea62e5b",
+      "selected_native_frames_half_open": [
+        0,
+        144
+      ]
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "seconds": 0.75,
+    "frames": 18,
+    "output_frames_half_open": [
+      54,
+      72
+    ],
+    "B_weight": "(overlap_index+1)/18"
+  },
+  "frame_mapping": "qa/output_v1/frame_mapping.json",
+  "framing_transform": "none; native full raster both inputs",
+  "retime_freeze_reverse_replay": false,
+  "forced_action_synchronization": false,
+  "text": "none",
+  "audio": "none; frame-only encode",
+  "technical_scan": "qa/output_v1/decode_scan.json",
+  "assistant_sampled_review": "root viewed25 checkpoints and all27 consecutive transition/boundary frames; visible double-face residual",
+  "assistant_continuous_review": false,
+  "user_approval": null,
+  "publishable": false,
+  "limitations": [
+    "A pure full-shoe read before dissolve is short (~0.5s, from about1.75 to2.25); overlap visibility must be judged.",
+    "Native head/waist/proportion differ at transition; no exact subject registration or natural-speed comfort claim.",
+    "Both clips perform more walking steps than nominal two-step prompt; source speed unchanged."
+  ],
+  "protected_media_hashes_matched": true,
+  "protected_media": [
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_detail_full_full_detail_review_v1.mp4",
+      "sha256": "eb99760cd7d5df8fdc2dda66148ef90218b639f5ad0920dfd6dd5b1615f8a426"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/M02_detail_full_full_detail_review_v1.mp4",
+      "sha256": "688d95d93c7705ac7500ada977c6ff2c97e649c175430487264b69ec8da28b56"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/M03_order_D_review_v1.mp4",
+      "sha256": "906dc03da54d619536e25aa49b1ecb9877f2ea430f0f893959e24f2f92f462a8"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+      "sha256": "b01ce4a5b95a7cbc368312d0607a6155fad5c7f1918b1ed3272b4b75b247679b"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "sha256": "ae7ced47b34732083ef112461597a2745697818872103ff3f095763c11b4bc1e"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+      "sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+      "sha256": "a383ea81ef1eb8e4b27993954aafe11376b80183bfc4634242370a7e0bdf9499"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+      "sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989"
+    }
+  ],
+  "cloud_write": false,
+  "publication": false,
+  "global_template_adopted": false,
+  "audience_performance": null,
+  "join_gate": "failed: head location/proportion mismatch produces obvious double faces during dissolve",
+  "next_plan": "revised_storyboard_v3.md"
+}

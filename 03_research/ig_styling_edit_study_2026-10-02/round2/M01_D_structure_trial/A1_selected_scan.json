@@ -1,0 +1,24 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-02\\round2\\M01_D_structure_trial\\A1_selected.mp4",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 3.25
+  },
+  "decoded_frames": 78,
+  "decoded_seconds": 3.25,
+  "black_candidate_frames": [],
+  "near_identical_frame_pairs": [],
+  "note": "Technical signals only. Continuous visual review and user approval remain separate."
+}

@@ -1,0 +1,39 @@
+{
+  "review_cut_id": "M02_scale_continuity_v4_review_01",
+  "date": "2026-09-29",
+  "purpose": "silent_two_look_same_scale_cut_review",
+  "model": "M02",
+  "looks": ["2026-W37-001-L01", "2026-W37-001-L02"],
+  "source_segments": [
+    {"video_file": "videos/A_scale_push_v4_01.mp4", "shot_id": "A_scale_push_v4", "start_frame": 0, "end_frame_exclusive": 60, "frame_rate": 24, "duration_seconds": 2.5},
+    {"video_file": "videos/B_scale_pull_v4_01.mp4", "shot_id": "B_scale_pull_v4", "start_frame": 0, "end_frame_exclusive": 108, "frame_rate": 24, "duration_seconds": 4.5}
+  ],
+  "edit": "one_direct_cut_at_2.5_seconds; native_source_camera_moves; normal_speed; no_digital_zoom; no_transitions; no_captions; no_audio",
+  "output_file": "videos/M02_scale_continuity_v4_review_01.mp4",
+  "output_sha256": "4DDD8759F88710C1016B1F4C568330D4BEE7AE83B2E919B40E961BCD05EF2EF0",
+  "output_width": 720,
+  "output_height": 1280,
+  "output_frame_rate": 24,
+  "output_duration_seconds": 7.0,
+  "qa": "technical_checks_passed; user_clean_visual_approved",
+  "qa_contact_sheets": ["qa/v4_B/cut_contact_0p125s.jpg", "qa/v4_B/review_contact_0p5s.jpg", "qa/v4_full/contact_6fps.jpg"],
+  "technical_qa": {
+    "decoded_frames": 168,
+    "full_decode": "pass",
+    "black_frame_scan": "no_event_reported",
+    "freeze_scan_over_0p35_seconds": "no_event_reported",
+    "face_and_wardrobe_sampling": "no_obvious_identity_replacement_or_outfit_jump_in_sampled_frames",
+    "cut_sampling": "face_and_shoulder_scale_close; no_black_interruption",
+    "scope_limit": "Contact sheets and automated scans cannot prove subjective normal-speed motion quality. The user described the clean cut as 還可以, without explicit final approval."
+  },
+  "qa_notes": [
+    "At the only outfit cut, the model's face and shoulders are close in apparent size and position; both frames retain a visible shirt opening and distinct dress neckline.",
+    "Frame samples show no black frame, abrupt zoom, face replacement or wardrobe blend at the cut. The two backgrounds differ as an intentional location change.",
+    "The B segment reaches a readable full-person view with dress hem, tote and shoes before the 4.5-second trim.",
+    "The full output decodes without errors. Frame samples cannot substitute for watching the seven-second clip at normal speed."
+  ],
+  "user_feedback": "2026-09-29: user first said 還可以, then replied ok when explicitly asked whether the clean seven-second picture could be finalized",
+  "preferred_over_text_preview": true,
+  "user_video_approval": "accepted_2026-09-29_clean_visual",
+  "w37_mass_production": "pilot_gate_passed; subsequent stills remain individual visual candidates"
+}

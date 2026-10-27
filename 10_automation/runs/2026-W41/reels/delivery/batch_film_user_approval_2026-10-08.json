@@ -1,0 +1,38 @@
+{
+  "approved_on": "2026-10-08",
+  "user_approval_quote": "全部核准，然後像上一批一樣將影片跟文案放入google drive，我要讓後面grok bot接手發文",
+  "approval_scope": "exact five current film versions; no inferred continuous playback",
+  "continuous_watch_done": false,
+  "films": [
+    {
+      "model": "M01",
+      "source_path": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+      "size_bytes": 3384132
+    },
+    {
+      "model": "M02",
+      "source_path": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+      "size_bytes": 3795943
+    },
+    {
+      "model": "M03",
+      "source_path": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+      "size_bytes": 3829259
+    },
+    {
+      "model": "M04",
+      "source_path": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+      "size_bytes": 1560464
+    },
+    {
+      "model": "M05",
+      "source_path": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd",
+      "size_bytes": 2395711
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "week": "2026-W41",
+  "model": "M04",
+  "sources": [
+    {
+      "look_id": "2026-W41-005-L01",
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-005/looks/2026-W41-005-L01/reel/2026-W41-005-L01_M04_reel_candidate_A_v2.png",
+      "sha256": "ec42f1d390e1c11e0328e0a663293c3b54c038698da695a816a0974101d4bbf7",
+      "pixels": [
+        941,
+        1672
+      ],
+      "static_review": "L01v1 head margin below8%; single framing edit selectedv2. V2 full hair/shoes, complete outfit and cobalt bag clear. Actual left hand is in trouser pocket; animation must extract it naturally before same-side strap touch. No still approval inferred.",
+      "status": "candidate_pending_user_visual_approval",
+      "user_approval": null
+    },
+    {
+      "look_id": "2026-W41-005-L02",
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-005/looks/2026-W41-005-L02/reel/2026-W41-005-L02_M04_reel_candidate_A_v2.png",
+      "sha256": "9a3a3d91496469f9295bd6bec9d19b0f1d2afc8a55f8cd46272bb8aa36ac61ff",
+      "pixels": [
+        941,
+        1672
+      ],
+      "static_review": "L02v1 faint ornamental skirt surface; single material-only edit selectedv2 plain matte cotton. White shirt/black A-line calf skirt, cobalt bag, complete hair/shoes and coherent scene clear. No still approval inferred.",
+      "status": "candidate_pending_user_visual_approval",
+      "user_approval": null
+    }
+  ],
+  "identity_anchors": [
+    "02_brand/reference_models/M04_start_v3_face.png",
+    "02_brand/reference_models/M04_start_v3_full.png"
+  ],
+  "generation": {
+    "tool": "Codex built-in imagegen",
+    "calls": 4,
+    "observed_call_seconds": [
+      52.7,
+      73.6,
+      56.5,
+      42.7
+    ],
+    "active_minutes": null,
+    "selected": "Bothv2",
+    "preserved_prior_variants": true
+  },
+  "layout": {
+    "output": "10_automation/runs/2026-W41/reels/M04/parallel_layout_static_candidate_v1.png",
+    "size": [
+      720,
+      1280
+    ],
+    "left": "2026-W41-005-L01",
+    "right": "2026-W41-005-L02",
+    "fixed_background_only_crop": [
+      220,
+      150,
+      720,
+      1535
+    ],
+    "panel_size": [
+      352,
+      975
+    ],
+    "panel_positions": [
+      [
+        4,
+        152
+      ],
+      [
+        364,
+        152
+      ]
+    ],
+    "approximate_source_landmarks": {
+      "A": {
+        "hair_top": 254,
+        "waist": 662,
+        "shoe_bottom": 1445
+      },
+      "B": {
+        "hair_top": 253,
+        "waist": 662,
+        "shoe_bottom": 1445
+      }
+    },
+    "landmarks_method": "manual visual estimates, not automated exact measurements",
+    "source_files_changed": false,
+    "aspect_note": "352/500*1385=975.04px, rounded975; proportional layout to pixel rounding.",
+    "dynamic_safety": "not_started",
+    "user_approval": null
+  },
+  "proof_and_carousel": "incomplete",
+  "film": "not_generated"
+}

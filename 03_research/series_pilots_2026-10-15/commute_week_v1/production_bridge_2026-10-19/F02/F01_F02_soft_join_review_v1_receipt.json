@@ -1,0 +1,474 @@
+{
+  "created_at_taipei": "2026-10-19T14:41:09.930797+08:00",
+  "status": "research_pair_candidate_pending_visual_review",
+  "execution": "local",
+  "model": "M03",
+  "look_ids": [
+    "L01",
+    "L05"
+  ],
+  "purpose": "First two segments of the continuous company-front commute research pilot",
+  "builder_sha256": "b86dee666b84fcb38777379919f5ef3d15568fb228840007b8ff29cf031455b5",
+  "sources": [
+    {
+      "role": "F01_L01",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F01\\F01_source.mp4",
+      "sha256": "6a9bf3204aadad28dc710aa914592e26851a03e47209c5bd9b682286b184fa50",
+      "selected_native_frames_half_open": [
+        0,
+        78
+      ],
+      "full_decode": {
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "full_decode_completed": true,
+        "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+        "individual_source_PTS_measured": false
+      }
+    },
+    {
+      "role": "F02_L05",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\F02_source.mp4",
+      "sha256": "56d8598ad761f94ca8391961ac6ae64b5316d5722045a15d7c79c454166ab4dc",
+      "selected_native_frames_half_open": [
+        0,
+        145
+      ],
+      "full_decode": {
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "full_decode_completed": true,
+        "decoded_frames_over_native_fps_seconds": 6.041666666666667,
+        "individual_source_PTS_measured": false
+      }
+    }
+  ],
+  "output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\F01_F02_soft_join_review_v1.mp4",
+  "output_sha256": "a6aa239c75663ccfd39f4c438f86db7f82cdaf375239a641ca110bee133daca2",
+  "native_size": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 205,
+  "seconds": 8.541666666666666,
+  "frame_count_formula": "78 + F02_decoded_frames - 18",
+  "output_full_decode": {
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.54
+    },
+    "decoded_frames": 205,
+    "full_decode_completed": true,
+    "decoded_frames_over_native_fps_seconds": 8.541666666666666,
+    "individual_source_PTS_measured": false
+  },
+  "output_stream_inventory": {
+    "streams": [
+      "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 720x1280, 6901 kb/s, 24 fps, 24 tbr, 12288 tbn (default)"
+    ],
+    "audio_stream_present": false
+  },
+  "transition": {
+    "type": "single_linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      60,
+      78
+    ],
+    "output_seconds_half_open": [
+      2.5,
+      3.25
+    ],
+    "F01_native_frames_half_open": [
+      60,
+      78
+    ],
+    "F02_native_frames_half_open": [
+      0,
+      18
+    ],
+    "F02_weight": "(overlap_index + 1) / 18; overlap_index = 0..17"
+  },
+  "speed": {
+    "F01_factor": 1.0,
+    "F02_factor": 1.0,
+    "output_clock_fps": 24,
+    "native_frame_order_preserved": true,
+    "retime": false,
+    "freeze_reverse_repeat_interpolation": false,
+    "individual_source_PTS_measured": false
+  },
+  "framing_transform": "none; complete native 720x1280 raster",
+  "text": "none",
+  "audio": "none; output stream inspection confirms no Audio stream",
+  "sample_assets": {
+    "full_checkpoint_indices": [
+      0,
+      8,
+      17,
+      26,
+      34,
+      42,
+      51,
+      60,
+      68,
+      76,
+      85,
+      94,
+      102,
+      110,
+      119,
+      128,
+      136,
+      144,
+      153,
+      162,
+      170,
+      178,
+      187,
+      196,
+      204
+    ],
+    "transition_boundary_indices": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ],
+    "all_18_transition_frames_extracted": true,
+    "individual_QA_frames_size": [
+      720,
+      1280
+    ],
+    "QA_contact_sheets_are_reduced_full_raster_thumbnails": true,
+    "QA_frame_crop": false
+  },
+  "QA_artifacts": [
+    {
+      "path": "QA_pair\\frame_mapping.json",
+      "sha256": "e1cb72e4b161f24012e9402c5eeef194631fe22e78f44b0afd613a9e24b3df49"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000000.png",
+      "sha256": "8ba6288e80f655b70e5a2c9bd673d6a9dc9759c5e22f9f72861e3bacf0d8b716"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000008.png",
+      "sha256": "2ca923798895199ba173e1edee116037faddabbf04610211d504aa98c223571b"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000017.png",
+      "sha256": "4f7829ef76309cd50748ae3c8ab4d3ee5c34b504b8e638f4b8b3de7c5671e525"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000026.png",
+      "sha256": "af785883ed4402a1a06f68be1f5f91ddd5007ca9f7764809a0642c1342307650"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000034.png",
+      "sha256": "b3048c004cb64875b0121f12ce5c0fb8acad97e17f499a315eaae668cfdf372a"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000042.png",
+      "sha256": "2872638571b74dc6257a2f294f8b0dd5fb7c11180a19ab5cea8b0efcb6202d6e"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000051.png",
+      "sha256": "af91910595cab7d0d058b3acbf997aaf13aa1986d782e26028abd2dc2d0e6764"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000052.png",
+      "sha256": "440eade0d81a4c45c9a67a6c4c7e4c7caa2a19a54277f59deb4521157fd12879"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000053.png",
+      "sha256": "7dba61d78fc82f3e1b9f43b83adc1df1957a6edc9a1c7353edb0f8f7c36003af"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000054.png",
+      "sha256": "aa930fe60e816f9217c1015de5163c47766b10c238c360125088997251c30a4b"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000055.png",
+      "sha256": "6c128c66842113c5ef594d4926e81887fb508cd96335a1f7f2d7c79eb6912dd5"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000056.png",
+      "sha256": "87358d3bee47b9e11f0e150a66799b876134911ad9e9867ba0745bce2d7f02ce"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000057.png",
+      "sha256": "782b545114906b0f9594e53bad676d4b39429aa8cf131bd6745113a4df97e218"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000058.png",
+      "sha256": "72fb33d51dc96569ff630c094f3e3aa69b6ea9d2bee95abee4d2ff0a0e06bc7e"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000059.png",
+      "sha256": "855c9caae8566e82753ccdd89e4ecbe424cf079390e5f2acc72caa8e13d79073"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000060.png",
+      "sha256": "9ddcb2c4c7157b227fdcad131d96dc8b84c9239fd7defb602da59e84d68a2c6a"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000061.png",
+      "sha256": "6e10c83a6ef854950bdb0786d5a153cfc2551c766d1886623a0d2a0e774e0bca"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000062.png",
+      "sha256": "060a27da4af0984d9fab5451c9ec169955417576e3e2a5216783cfa5026c93a5"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000063.png",
+      "sha256": "c31fe0815a728d5c069ed762f38e155384b67e103b0eda9febb0c5bf20f1fc72"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000064.png",
+      "sha256": "9f71280bf9940b49a8f316074b823dd3705cc99690f9b25234d1dcdfb4d7bb9a"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000065.png",
+      "sha256": "aabd19fe2daebf2ef5276c607ebc6efac5cf0b7655fdc63eadb9dde289b52f79"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000066.png",
+      "sha256": "398140385dbc1fcb655e2e8dcb9dddcf03a005727956f2e867a7e85b77bf8540"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000067.png",
+      "sha256": "4346ae15235ed5e0d9833c565044d390df5d4c75d1d7bc3243de13e943dcb292"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000068.png",
+      "sha256": "91aa6fe9f36eab64fcc6f193a1d39f022f1aadb7040ba6b72506465d48cf9ac3"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000069.png",
+      "sha256": "e7791b43fbaaf5c1a4c60e6031824199e22d498834ceb5ad8b923768db8402e3"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000070.png",
+      "sha256": "e637b08106300ee20b90b68979db6840b66b0c07396b695bda69372ae1e44a62"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000071.png",
+      "sha256": "096a6863ade7b745b53c6186ec73b031754fb0b49ec9d9c336394b7a3675d15e"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000072.png",
+      "sha256": "ff6efa1233ca166d1525765daa0f4f95d77807409e3374126dd95d30c77dbab9"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000073.png",
+      "sha256": "defdf10957382309a686d5d77f4d1406fde052a4e5aa132bbf055e600045b2e5"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000074.png",
+      "sha256": "24d2e440eb007cc6aa667bebf0c7ad80972548ad9b21a08ba8c1c439956588a9"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000075.png",
+      "sha256": "b9f8c9dacdb03fae819b085cebee01d2a00baeba2cc327e3ee0c99fe86122838"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000076.png",
+      "sha256": "50368c1c7e8ed72c9f200db0625ee4f1ea8d176d55280e0844b3e5f2c174aeca"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000077.png",
+      "sha256": "cad9c0dbcc7b4aa6040cd926eb92eb2fda06422e3e76ac85c337dfd8073442b2"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000078.png",
+      "sha256": "46dc85c1d42a6c431f457a5001973652974fb81efd11679d11c749d64201010a"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000079.png",
+      "sha256": "e6ac0f3b6f8732bdf4696387f6142d6807d5d61f980167062a8646333123b149"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000080.png",
+      "sha256": "3ae983a9f496dc44ee9409f3d68ec169c8e605d1d6a69164061817440020a8b4"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000081.png",
+      "sha256": "de254f3c4b8ce9ef2e2a122fa3196ba2da4699c653f0c7d0d383f38d145aab96"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000082.png",
+      "sha256": "f4926ed6fe1f5894fef481eca601e4a879a5f078c9a37fcc188095142e3675fd"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000083.png",
+      "sha256": "e47086ee18c432ccfceadab143a012b07ff4ba34069decb39bc1d70503c03ccc"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000084.png",
+      "sha256": "23cff76b6e9c419202ae5a18a701378330cde9665b5bb40dbfcdf8ae616cf0d5"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000085.png",
+      "sha256": "a255e7c6b8bbd4073735d77779ddbd49cebfccdb76ae00b553d89819727c92fc"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000094.png",
+      "sha256": "e0029400185435ef358fa19a50bcd8980fbd71b35e83448807e14836509da0b8"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000102.png",
+      "sha256": "ad1224212d6d5a4e444807056e3b0f89823693b3765022596d240bf3587e8082"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000110.png",
+      "sha256": "64a9b2ab20dda02ba82e91f86b109256e21e24745160526ecbcdae54efb45dbb"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000119.png",
+      "sha256": "be9a6d4b94306417d30ee368d96f821b91fc3efa45aa3f36cfdcfa4512e0a7a8"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000128.png",
+      "sha256": "f971721d44ac5e91aec9d11b4b2d9cf1c8ae4e89e7e587316903845b1afcf8f1"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000136.png",
+      "sha256": "c6fc7c237f863906221fa5dc2a7aff25d14597b4b15f2244ffbaaaefacb9138d"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000144.png",
+      "sha256": "3ad73f22cff6c8a27d6c055c073bc9530b7fb64c024ce97f27ef1de6da866726"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000153.png",
+      "sha256": "44226e2d7811e1c19feee10986668cc27ef0c62208883261b58f91e2d0201def"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000162.png",
+      "sha256": "1b1c3039f72aa2ae821c4eb48ddcf0e2b88ffdecbf3160cfd291588aa916da74"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000170.png",
+      "sha256": "c6e597e121f930bd03c6b76c146591296f9da2d35dc867bda79b8c7206982971"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000178.png",
+      "sha256": "338801b923bc3c5a18e49df12d42d43c54b065af480d59e8a0840dc7d057e980"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000187.png",
+      "sha256": "417e0b18fe57c0691b49b021393a4dadbb3dd3cd1bebef7e7348aa7e58d91cdb"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000196.png",
+      "sha256": "7c0cc730903c63b124f2d0683f44254c46ed58b0b5c525b4ed8fb73a5b79766d"
+    },
+    {
+      "path": "QA_pair\\frames\\frame_000204.png",
+      "sha256": "14e7251f8a6c934f7c3a4afc540da4a03b084cf380f98f5d277d2bbb27e1dff3"
+    },
+    {
+      "path": "QA_pair\\full_25_checkpoints.png",
+      "sha256": "09a2ef24bc684d8cc8521e291c295c9a479ab5bf5db06d9462606d22088e3bec"
+    },
+    {
+      "path": "QA_pair\\full_decode.json",
+      "sha256": "b4b3eef1909ee706fc6a911abfe808d1d02232868541602d14ef8b3a65d84e48"
+    },
+    {
+      "path": "QA_pair\\transition_all_boundary_frames.png",
+      "sha256": "be17446f2a6838a49cb6b6ada76a6faeab92ad52cc832eba343172f08eeb178d"
+    }
+  ],
+  "sources_verified_unchanged_after_encode": true,
+  "technical_checks_are_visual_approval": false,
+  "assistant_continuous_visual_review": null,
+  "combined_dynamic_QA": "pending",
+  "user_video_approval": null,
+  "publishable": false,
+  "cloud_write": false,
+  "publication": false,
+  "limitations": [
+    "Invocation is for the root-reviewed exact F02 source; this builder does not perform visual source QA.",
+    "Full decode, checkpoints and exact frame mapping do not approve identity, clothing, gait, scene continuity or the dissolve.",
+    "Normal-speed complete playback and user review remain separate; no final five-look film acceptance is inferred.",
+    "Decoded native frame order is retained on a 24fps output clock; individual source presentation timestamps were not measured."
+  ]
+}

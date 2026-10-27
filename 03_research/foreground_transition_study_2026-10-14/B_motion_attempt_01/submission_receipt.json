@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "agent_instruction_submissions": 1,
+  "confirmed_video_outputs": 1,
+  "prompt_file": "B_motion_agent_prompt_v1.txt",
+  "requested_settings": {
+    "duration": 6,
+    "resolution": "720p",
+    "aspect": "9:16",
+    "audio": false
+  },
+  "requested_input_roles": {
+    "first": "extract last decoded frame of approved canvas A video",
+    "last": "approved B plaster-corrected v2",
+    "identity": "M02_start_v3_face.png"
+  },
+  "actual_input_roles_verified": "agent reports roles; no independent raw tool call inspection; validate decoded endpoints",
+  "status": "downloaded_dynamic_QA_pending",
+  "user_still_approval": "B_start_user_approval.json",
+  "download_name": "grok-37437cb0-487e-4cb0-bc7e-2cfb31084e3d-720p.mp4",
+  "agent_reported_assets": {
+    "first": "f0a989db-1e62-4609-80c9-fdeb37a7fcaf",
+    "last": "24a1b901-8206-4e0b-9706-e380ba23a93a",
+    "identity": "539840d8-dc19-488c-a8f1-f60a5905d67d"
+  }
+}

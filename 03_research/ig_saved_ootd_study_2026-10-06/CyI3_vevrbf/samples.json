@@ -1,0 +1,1549 @@
+{
+  "post": "https://www.instagram.com/p/CyI3_vevrbf/",
+  "samples": [
+    {
+      "file": "sample_000.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.083735,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.22735
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:42.522Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_001.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.261028,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.391481
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:42.686Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_002.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.42811,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.553427
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:42.847Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_003.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.587264,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.719852
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:43.016Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_004.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.75685,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.883364
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:43.180Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_005.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.922183,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.057956
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:43.356Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_006.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.098612,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.223266
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:43.560Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_007.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.295943,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.422079
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:43.760Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_008.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.491464,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.697483
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:44.035Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_009.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.765063,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.872883
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:44.211Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_010.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.90456,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.061298
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:44.396Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_011.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.099072,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.244299
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:44.577Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_012.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.285109,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.452123
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:44.789Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_013.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.488979,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.72301
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:45.052Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_014.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.757184,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.887087
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:45.225Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_015.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.932729,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.071835
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:45.404Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_016.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.110499,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.250058
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:45.580Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_017.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.284972,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.441175
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:45.771Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_018.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.474256,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.587382
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:45.919Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_019.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.640975,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.746122
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:46.080Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_020.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.778708,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.970012
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:46.300Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_021.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.99612,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.093847
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:46.425Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_022.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.120461,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.250745
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:46.579Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_023.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.31232,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.437507
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:46.767Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_024.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.46076,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.602946
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:46.939Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_025.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.634323,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.759325
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:47.087Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_026.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.798931,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.968338
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:47.295Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_027.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.985919,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 5.093027
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:47.424Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_028.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 5.112523,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.03675
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:47.589Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_029.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.03675,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.120897
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:47.741Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_030.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.149719,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.25849
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:47.877Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_031.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.285955,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.420278
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:48.038Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_032.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.442318,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.590662
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:48.206Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_033.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.625659,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.751409
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:48.374Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_034.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.780382,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.879855
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:48.499Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_035.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.910205,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.080865
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:48.702Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_036.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.112208,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.23488
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:48.863Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_037.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.276708,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.380969
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:49.012Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_038.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.413406,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.529788
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:49.150Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_039.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.572523,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.672665
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:49.300Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_040.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.710502,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.821392
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:49.444Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_041.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.855008,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.985118
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:49.606Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_042.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.013531,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.132205
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:49.755Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_043.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.183215,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.283644
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:49.908Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_044.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.319385,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.52547
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:50.152Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_045.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.56309,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.672412
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:50.292Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_046.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.696858,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 2.845281
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:50.473Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_047.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 2.888657,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.015476
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:50.635Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_048.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.063299,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.158822
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:50.777Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_049.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.179392,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.30625
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:50.925Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_050.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.336304,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.481724
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:51.107Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_051.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.520212,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.643514
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:51.266Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_052.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.680143,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 3.808031
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:51.430Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_053.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 3.839304,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.05561
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:51.676Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_054.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.083677,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.18744
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:51.804Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_055.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.215483,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.337325
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:51.961Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_056.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.38697,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.527981
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:52.150Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_057.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.563356,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.710903
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:52.335Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_058.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.744064,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 4.864525
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:52.484Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_059.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 4.891472,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 5.01163
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:52.636Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_060.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 5.040417,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 5.146255
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:52.773Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_061.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 5.153174,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.054665
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:52.958Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_062.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.082389,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.295816
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:53.199Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_063.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.33575,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.431767
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:53.341Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_064.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.466231,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.579178
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:53.477Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_065.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.60674,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.713375
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:53.612Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_066.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.73548,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.848104
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:53.749Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_067.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 0.878474,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 0.966367
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:53.873Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_068.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.010446,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.114758
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:54.025Z",
+      "wraps": 0
+    },
+    {
+      "file": "sample_069.png",
+      "before": [
+        {
+          "duration": 5.153174,
+          "height": 1280,
+          "muted": true,
+          "paused": false,
+          "time": 1.152655,
+          "width": 720
+        }
+      ],
+      "after": [
+        {
+          "duration": 5.153174,
+          "paused": false,
+          "time": 1.261137
+        }
+      ],
+      "captured_at": "2026-10-06T02:07:54.160Z",
+      "wraps": 0
+    }
+  ],
+  "wraps": 0,
+  "elapsed_ms": 11867,
+  "muted": true,
+  "continuous_full_watch_claimed": false
+}

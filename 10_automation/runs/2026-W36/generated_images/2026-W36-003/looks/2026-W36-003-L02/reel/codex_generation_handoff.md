@@ -1,0 +1,53 @@
+# Codex Generation Handoff - 2026-W36-003-L02 / M01
+
+Use this file to generate the reel image candidates inside Codex.
+
+## Reference Images
+
+For Hero A, attach the approved references in this order: Image 1 = face/hairstyle identity; Image 2 = loose body proportion.
+
+```text
+C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_face.png
+C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_full.png
+```
+
+No additional Reel still is required after accepted Reel A.
+
+## Output Filenames
+
+Save generated candidates as:
+
+```text
+2026-W36-003-L02_M01_reel_candidate_A.png
+```
+
+## Candidate Prompts
+
+Generate and review the native 9:16 full-person Reel A. This look needs no additional Reel stills; its A becomes one shot in a weekly compilation.
+
+Use case: photorealistic-natural.
+
+Asset: Hero A for Mira, a daily-outfit fashion magazine. It should make one dressing decision immediately readable: 黑色棉麻洋裝保持透氣，焦糖麂皮只放在貼身的扁平肩背包，其他配件維持光滑材質.
+
+Input images: Image 1 is the model's identity and hairstyle reference. Image 2 is a loose body-proportion reference. Keep her recognizable, but do not copy either reference's studio pose, expression, lighting, background or clothes.
+
+A candid real photograph of the same adult East Asian woman at 獨立書店的木質新書桌與街窗午後光, for 週末逛書店／咖啡. She is 從展示桌拿起一本薄雜誌翻看，麂皮包自然貼在身側且背帶受力可信. Show one clear action and natural hand-object interaction.
+
+Outfit, immediately readable: 黑色無袖棉麻直身中長洋裝；焦糖棕扁平半月形麂皮肩背包；奶油白方頭平底鞋；銀色細耳環. Palette: 黑色／焦糖棕／奶油白／銀色. Materials: 棉麻混紡／霧面麂皮／光滑皮革. Fit: 洋裝自然直身至小腿中段；包款小型扁平貼身；鞋型薄底方頭. Styling direction: 麂皮只出現在包包；洋裝無厚重疊穿；鞋面無麂皮或金屬裝飾. Do not add or substitute garments.
+
+Visual proof to preserve: 黑色棉麻洋裝的乾爽紋理與焦糖麂皮扁包形成唯一明顯的材質對比. Practical styling rule: 麂皮包選小型貼身款，衣服維持棉麻，鞋子改用光滑皮革.
+
+Photorealistic, unretouched documentary fashion editorial. Full-frame mirrorless look with a natural 50mm perspective at chest height. Use available natural light appropriate to the location, mixed with believable ambient light; realistic skin texture, flyaway hairs, lived-in fabric folds, restrained grain and slight optical softness. Honest and unposed; polished through framing, color and material detail rather than beauty retouching.
+
+Composition: native 9:16 vertical frame for 1080x1920 delivery. Keep the full figure, complete hairstyle and both shoes visible with enough real environment to establish the location.
+
+No readable text, logos or watermark. Avoid studio polish and catalog posing.
+
+
+## After Generation
+
+Update:
+
+```text
+C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\10_automation\runs\2026-W36\generated_images\2026-W36-003\looks\2026-W36-003-L02\reel\review_sheet.csv
+```

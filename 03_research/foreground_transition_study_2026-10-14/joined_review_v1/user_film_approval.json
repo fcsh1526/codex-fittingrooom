@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-14",
+  "user_quote": "可以，沿用這版",
+  "question": "請完整播放剛交付的 M02 11.33 秒兩套試片：第一套 → 牆面遮鏡 → 第二套露出。接續是否舒服？揭鏡時牆紋由模糊變清楚的變化是否可接受？",
+  "file": "03_research/foreground_transition_study_2026-10-14/joined_review_v1/M02_cafe_wall_two_looks_trial_v1.mp4",
+  "sha256": "31a9af4f730672f4173397597b1d40864fae6d055351410220597e966f2de4b3",
+  "model": "M02",
+  "look_ids": [
+    "2026-W41-003-L01",
+    "2026-W41-003-L02"
+  ],
+  "scope": "User accepts the exact complete two-look research film, its 0.75-second soft join and the disclosed wall texture/focus change. Retain actual source deviations; do not reinterpret acceptance as zero material drift.",
+  "duration_seconds": 11.333333333333334,
+  "frames": 272,
+  "fps": 24,
+  "pixels": [
+    720,
+    1280
+  ],
+  "text": false,
+  "audio": false,
+  "speed": "original 1x",
+  "user_uninterrupted_playback_self_report": null,
+  "assistant_uninterrupted_playback_verified": false,
+  "weekly_publishing_replacement_authorized": false,
+  "drive_uploaded": false,
+  "ig_performance": null,
+  "cross_model_repeatability_verified": false,
+  "approved_copy": "03_research/foreground_transition_study_2026-10-14/approved/M02_cafe_wall_two_looks_approved_v1.mp4",
+  "approved_copy_sha256": "31a9af4f730672f4173397597b1d40864fae6d055351410220597e966f2de4b3"
+}

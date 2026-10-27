@@ -8,7 +8,7 @@
 - reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M04_start_v3_face.png`
 - reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M04_start_v3_full.png`
 - attach_reference_images: `required`
-- trend: 深色直筒丹寧與柔和上衣
+- trend: 深色直筒牛仔褲配柔色上衣
 - clothing_item: 柔霧粉短袖薄緞面垂墜上衣；深靛藍中高腰直筒薄丹寧褲；深棕方頭低跟鞋；深棕結構小型肩背包；細版銀色耳環
 - occasion: 通勤／簡報
 - frame_plan: carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16

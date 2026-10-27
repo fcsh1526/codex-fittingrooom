@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-13",
+  "status": "planning_only",
+  "pdf": "output/pdf/Mira_日常片段與動態輪廓分鏡_2026-10-13.pdf",
+  "sha256": "a168e4ecd3d4d58f3f01eb56dcb624ed34112e7f3d9fbe5731a9bae6d71f5e96",
+  "pages": 6,
+  "visual_review": {
+    "all_pages_viewed": true,
+    "render_dpi": 80,
+    "clipping_or_overlap_observed": false,
+    "images": [
+      "tmp/pdfs/mira_storyboards_2026-10-13/page-1.png",
+      "tmp/pdfs/mira_storyboards_2026-10-13/page-2.png",
+      "tmp/pdfs/mira_storyboards_2026-10-13/page-3.png",
+      "tmp/pdfs/mira_storyboards_2026-10-13/page-4.png",
+      "tmp/pdfs/mira_storyboards_2026-10-13/page-5.png",
+      "tmp/pdfs/mira_storyboards_2026-10-13/page-6.png"
+    ]
+  },
+  "media_execution_resumed": false,
+  "external_writes": false
+}

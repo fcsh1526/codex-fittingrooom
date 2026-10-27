@@ -1,0 +1,4 @@
+carousel_id,prompt_id,model_profile_id,candidate_file,tool,model_consistency,body_proportion_consistency,reader_relatability,outfit_clarity,ai_realism,scene_lighting_integration,outfit_continuity,expression_liveliness,pose_variation,canva_frame_fit,commerce_value,publishable,status,notes
+2026-W33-002,W33-P002,M02,2026-W33-002_M02_reel_candidate_A.png,Codex,4,4,5,5,4,5,5,4,4,5,5,yes,selected,"User approved Hero A; identity, summer outfit, leg-lengthening styling, natural café lighting, full-body readability, and direct 9:16 Reel framing passed review."
+2026-W33-002,W33-P002,M02,2026-W33-002_M02_reel_candidate_B.png,Codex,,,,,,,,,,,,no,not_required,"Skipped: one accepted Hero is sufficient as the source image for the planned image-to-video Reel."
+2026-W33-002,W33-P002,M02,2026-W33-002_M02_reel_candidate_C.png,Codex,,,,,,,,,,,,no,not_required,"Skipped: no additional still-image detail frame is required for this Reel."

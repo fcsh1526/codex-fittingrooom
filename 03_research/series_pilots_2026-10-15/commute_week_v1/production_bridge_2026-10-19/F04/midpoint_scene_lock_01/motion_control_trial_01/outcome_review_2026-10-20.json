@@ -1,0 +1,63 @@
+{
+  "review_date_taipei": "2026-10-20",
+  "status": "FAIL_road_paint_bends_and_branches_no_four_shot_append",
+  "actual_source": {
+    "asset_id": "cb1dd495-dbbb-48ca-aff7-d415ee15ddd6",
+    "download_path": "C:/Users/Brandon_ChangChien/Downloads/generated_video (55).mp4",
+    "project_path": "F04_source.mp4",
+    "sha256": "619053fe0270f2f506a633eb7a1efd0a06aac3b2c8cb2d8016f9730784e0d706",
+    "bytes": 8779400,
+    "pixels": [720, 1280],
+    "fps": 24,
+    "decoded_frames": 145,
+    "seconds": 6.041666666666667,
+    "audio": "AAC retained in original source",
+    "full_decode": true,
+    "technical_evidence": "source_inspection_v1/technical_scan.json"
+  },
+  "parameter_evidence": {
+    "completion_dom": "grok_completion_dom.txt",
+    "screenshot": "grok_result_screenshot.png",
+    "agent_reports_accepted_first_last_and_mid_timestamp3": true,
+    "agent_reports_actual_keyframes": [{"asset_id": "90081a23-1319-4ce4-9076-a72c8d26a332", "timestamp_s": 3}],
+    "verification_limit": "Agent reports actual passed parameters; internal invocation/controls not directly inspected. Generated result checked independently below.",
+    "requests": 1,
+    "automatic_retry": false
+  },
+  "midpoint_check": {
+    "source_frame_72_seconds": 3,
+    "visual_observation": "Rear-quarter body phase, bounded left planter, glass grid and long stripe direction are close to the approved midpoint.",
+    "comparison_file": "midpoint_frame_comparison.json",
+    "mean_absolute_RGB_difference_0_255_after_resize": {"frame66": 48.7868, "frame69": 51.7063, "frame72": 24.3878, "frame75": 28.4836, "frame78": 49.3825},
+    "comparison_limit": "Image resized to720x1280 using Lanczos, no registration, no perceptual threshold. Lower local difference at3s supports correspondence only, not literal pixel identity, hard-pin proof or continuity pass.",
+    "literal_pixel_identity": false
+  },
+  "visual_evidence": [
+    "source_inspection_v1/full_25_checkpoints.jpg",
+    "source_inspection_v1/dense_gait_turn_full_frames.jpg",
+    "source_inspection_v1/frames/frame_000072.png",
+    "source_inspection_v1/frames/frame_000096.png",
+    "source_inspection_v1/frames/frame_000108.png",
+    "source_inspection_v1/frames/frame_000120.png",
+    "source_inspection_v1/frames/frame_000144.png"
+  ],
+  "failure": {
+    "interval_seconds": [4, 5],
+    "frame96": "Short diagonal white bars enter at image-right alongside the main receding stripe set.",
+    "frame108": "Lower-right white stripe boundary has a visible elbow and pointed wedge; straight main and diagonal side sets coexist.",
+    "frame120": "A Y/triangular junction develops between the white stripe groups as the shot approaches the endpoint.",
+    "geometry_reason": "Perspective of a fixed flat road may change direction and convergence of straight edges, but cannot turn an originally straight paint boundary into an elbow or add a branch. Approved scene uses one set of straight crossing bars, not a junction of markings.",
+    "root_decision": "Do not append; this is an actual source scene failure, not acceptable cross-dissolve ghosting.",
+    "independent_audit_correction": "Builder agent initially inspected around3s and considered source eligible, then after root flagged nativef96/108/120 explicitly revised that judgment and agrees paint-shape/connectivityFAIL. Initial sampling eligibility is superseded, not a full-source pass."
+  },
+  "other_observations": "No sampled recurrence of the long hedge, tall silver column or yellow strip. A small dark bench is revealed by frontage; not a declared exact-site pass. Alternating gait is visible, not measured slide-free or normal-speed continuous QA.",
+  "dynamic_QA_pass": false,
+  "assistant_full_normal_speed_visual_playback": null,
+  "user_video_approval": null,
+  "new_four_shot_composite": null,
+  "next": "Honor stop condition: no further prompt-only/video retry. Return to fixed ground-plane/shared-camera storyboard for F04; one world-space crosswalk and curb geometry projected into all views, then review camera/route and derive consistent stills. Geometry preview does not prove old photoreal images match it.",
+  "F05": "hold",
+  "accepted_three_shot_prefix_and_all_old_media_preserved": true,
+  "Drive_write": false,
+  "publication": false
+}

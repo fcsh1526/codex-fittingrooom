@@ -1,0 +1,79 @@
+{
+  "review_kind": "technical_decode_and_sampled_visual_review_only",
+  "reviewed_at_local_date": "2026-10-05",
+  "source": "source.mp4",
+  "tools": [
+    "10_automation/scan_reel_video.py",
+    "10_automation/review_reel_frames.py",
+    "view_image of checkpoint boards and selected original-resolution checkpoints"
+  ],
+  "execution_note": "Existing local imageio_ffmpeg package was unreadable inside the normal sandbox. The same existing scripts succeeded with a read-only sandbox escalation; no package was installed and no file permissions or source video were changed.",
+  "metadata": {
+    "width": 720,
+    "height": 1280,
+    "fps": 24,
+    "decoded_frames": 145,
+    "decoded_seconds": 6.041666666666667,
+    "metadata_duration_rounded_seconds": 6.04,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": []
+  },
+  "primary_checkpoint_seconds": [0, 0.75, 1.5, 2.25, 3, 3.75, 4.5, 5.25, 5.75, 6],
+  "additional_checkpoint_seconds": [3.25, 3.5, 4, 4.25, 4.75, 5, 5.5],
+  "evidence": [
+    "qa/decode_scan.json",
+    "qa/checkpoints/metadata.json",
+    "qa/checkpoints/checkpoints.jpg",
+    "qa/full_interval_dense/metadata.json",
+    "qa/full_interval_dense/checkpoints.jpg"
+  ],
+  "approved_comparison_stills": [
+    "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+    "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png"
+  ],
+  "observations": [
+    {
+      "time_range_seconds": [0, 1.5],
+      "observation": "The opening matches the approved medium source closely. Cream curved neckline, open mist-gray shirt fronts, rolled sleeves, waist seam and navy bag are readable. The camera already begins withdrawing within the opening interval; the proposed static reading beat is not exactly reproduced."
+    },
+    {
+      "time_range_seconds": [2.25, 3],
+      "observation": "At 2.25s the nearer shoe is cut by the lower frame edge. Both complete white lace-up canvas shoes are visible at 3.0s. Calf-length cream skirt, shirt and navy bag remain recognizable; no obvious sampled outfit switch or face replacement was seen."
+    },
+    {
+      "time_range_seconds": [3.0, 6.0],
+      "observation": "Full-person views are available at sampled checkpoints, with complete head and both shoes. However, the subject continues becoming smaller after the planned 3.75s camera-move finish. At 3.75s head-to-shoe framing approximately resembles the approved full-person master; by 6.0s the visible body extent is about 8% smaller than the master. These are visual estimates, not calibrated tracking measurements."
+    },
+    {
+      "time_range_seconds": [2.25, 6.0],
+      "observation": "The pullback reveals a floor-standing plant at image-left beside the reading bench. That object is absent from the comparable area of the approved full-person master. It can be a generated extension of the medium view rather than an instantaneous within-source change, but it is a concrete background-matching risk at the later A/B dissolve."
+    },
+    {
+      "time_range_seconds": [0, 6.0],
+      "observation": "Bookcase uprights, window frame and reading-seat structure remain recognizable in sampled views; no gross sampled bending or disappearance was identified. Fine book-spine details, terrazzo pattern, sun patches and bag front-panel/hardware changes need continuous review while the perspective and bag angle change. Sampling cannot rule out short morphs between checkpoints."
+    },
+    {
+      "time_range_seconds": [5.25, 6.0],
+      "observation": "The lower feet change angle with the small weight shift while the face turns slightly. No obvious sampled extra digit or collapsed shoe was identified, but foot contact and continuity require normal-speed playback. The intended matching overlap handle is still changing scale."
+    }
+  ],
+  "motion_timing_assessment": {
+    "first_sample_with_both_complete_shoes_seconds": 3.0,
+    "full_person_camera_stop_confirmed": false,
+    "reason": "Visible subject scale continues declining across 3.75-6.0s checkpoints; there is no verified settled full-person ending interval yet.",
+    "dissolve_handle_target_seconds": [5.25, 6.0],
+    "dissolve_handle_accepted": false
+  },
+  "selection_suggestions": {
+    "approved_source_interval": null,
+    "proof_component_for_further_review_seconds": [0, 1.5],
+    "full_person_component_for_further_review_seconds": [3.0, 4.5],
+    "entire_source_for_normal_speed_review_seconds": [0, 6.0],
+    "note": "These ranges identify sampled readable components only, not accepted usable footage. Trimming A to about 4.5s would shorten the required full-person reading time after a 0.75s overlap and must not be presented as meeting the original storyboard. Evaluate actual B full footage and the entire overlap before selecting final ranges; if matching cannot retain the planned information-reading time, use the single permitted lower-complexity retry rather than changing source speed, freezing frames or concealing geometry errors."
+  },
+  "continuous_playback_review": "not_performed_by_this_review",
+  "paired_full_full_transition_review": "pending_actual_B_source",
+  "user_motion_approval": "pending",
+  "publishable": false,
+  "conclusion": "Technical decode completed. Sampled face and main clothing remain recognizable, but the source is not approved: camera settling and newly revealed background content create specific paired-transition risks."
+}

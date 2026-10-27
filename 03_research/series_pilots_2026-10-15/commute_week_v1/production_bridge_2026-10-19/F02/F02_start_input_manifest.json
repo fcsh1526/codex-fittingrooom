@@ -1,0 +1,40 @@
+{
+  "F01_overlap_source_frames_half_open": [
+    60,
+    78
+  ],
+  "recorded_date": "2026-10-19",
+  "tool": "built_in_image_gen",
+  "asset_id": "F02_start",
+  "native_format_intent": "9:16",
+  "path_base": "inputs paths relative to project root; other file links relative to this manifest",
+  "grok_submitted": false,
+  "new_still_approval_required": true,
+  "inputs": [
+    {
+      "role": "edit target: exact overlap-start camera, person pose, scene, light",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/F01/QA_source/frames/frame_000060.png",
+      "sha256": "334c6962a59e230d4a499e36d65d81aa112667bc052f4219cac6a2029426a93c"
+    },
+    {
+      "role": "approved L05 clothing, shoes and small black bag only",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+      "sha256": "15a168cc93ec379523aa27275d37051fcb32fd3eb7bd2d7f5b389b60b844142f"
+    },
+    {
+      "role": "approved M03 v3 face and hair only",
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "role": "approved M03 v3 body proportions only",
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "overlap_seconds": 0.75,
+  "prompt_sha256": "fdd22a09a65ef62c2b7de95f24d5e3c1c8f52985dd8c5cddbd856701e7db9147",
+  "prompt": "F02_start_prompt.txt",
+  "intent": "identity-preserve wardrobe edit",
+  "status": "prepared_before_generation"
+}

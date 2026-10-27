@@ -1,0 +1,22 @@
+{
+  "recorded_date":"2026-10-19",
+  "asset_id":"F02_start",
+  "status":"exact_start_still_user_approved_end_still_next",
+  "tool":"built_in_image_gen",
+  "generation_calls":1,
+  "targeted_edits":0,
+  "waiting_seconds":51.491,
+  "actual_prompt":"F02_start_prompt.txt",
+  "input_manifest":"F02_start_input_manifest.json",
+  "output":"F02_M03_L05_start_candidate_A.png",
+  "original":"C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-aae671dd-4e93-4f70-941b-74095646a7b0.png",
+  "sha256":"99aadb4495132c29d816b51e6bd17238b827b9975746802cadb96d37cabce987",
+  "pixels":[941,1672],
+  "bytes":2184682,
+  "format":"Native vertical9:16 intent, rounded actual pixels recorded; no crop/stretch/normalization.",
+  "assistant_visual_observations":["White short-sleeve pointed-collar shirt, cocoa denim, black belt/shoes and small black shoulder bag replace prior blazer/tee/navy trousers/brown bag.","Beam, columns, planter, tree trunk, paving and approximate head/shoe placement visually align with actual frame60.","Fine ornamental denim texture remains from approved wardrobe reference and was disclosed.","Minor hand/clothing silhouettes and perspective reconstruction are not pixel-identical; a matching first frame alone does not prove moving overlap continuity."],
+  "user_approval":"F02_start_user_still_approval_2026-10-19.json",
+  "grok_calls":0,
+  "dynamic_qa":"not_started",
+  "publication_or_delivery_changes":false
+}

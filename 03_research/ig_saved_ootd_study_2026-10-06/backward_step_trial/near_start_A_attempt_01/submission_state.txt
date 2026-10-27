@@ -1,0 +1,26 @@
+Browser tab: 6, Title: "Grok Imagine", URL: "https://grok.com/imagine".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 250-251, 254-268, 270-306
++					250 button 新增中間影格
++					251 button 新增最後幀
++					252 container
++						253 button Remove image
++					254 container
++						255 button Remove reference
++					256 text entry area (settable) Description: Ask Grok anything, Value: 
+
++						257 container
++							258 text 輸入以想像
++					259 button 上傳
++					260 button 語音輸入
++					261 生成模式
++						262 radio button Description: 圖片, Value: 0
++						263 radio button Description: 影片, Value: 1
++							264 text 影片
++						265 radio button Description: 代理, Value: 0
++					266 checkbox Description: 影片音訊, Value: 0
++					267 button 增強提示
++					268 pop up button (collapsed) Description: 影片解析度, ID: radix-_r_m2_, Secondary Actions: Expand
+~					269 pop up button (collapsed) Description: 影片時長, ID: radix-_r_m5_, Secondary Actions: Expand
++					270 pop up button (collapsed) Description: 長寬比, ID: radix-_r_m8_, Secondary Actions: Expand
+The focused UI element is 260 button 語音輸入

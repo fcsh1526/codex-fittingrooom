@@ -1,0 +1,75 @@
+{
+  "recorded_at_utc": "2026-10-19T07:26:03.945660+00:00",
+  "record_date_local": "2026-10-19",
+  "use_case": "identity-preserve",
+  "method": "built_in_image_gen",
+  "original_output": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-907ade50-7544-40b4-b8d7-8130386aa6e8.png",
+  "project_copy": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_M03_L03_start_candidate_A.png",
+    "sha256": "a7b6e33248b5e90c9c63ba0cda1264f23b8ebe8a3dabcb5baeab017c0b30db9e",
+    "bytes": 2292926,
+    "width": 941,
+    "height": 1672
+  },
+  "prompt": {
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_start_candidate_A_prompt.txt",
+    "sha256": "d0d60c7c7982724556437a979faef9a756b0c8e29b9759fef8c0d638bf007e4a",
+    "bytes": 1414
+  },
+  "requested_aspect_ratio": "9:16",
+  "post_generation_crop_resize_stretch": false,
+  "generation_wait_seconds": 49.024,
+  "inputs": [
+    {
+      "role": "edit_target_actual_corrected_F02_frame127",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F02_actual_frame_000127.png",
+      "sha256": "7ace2500794245e6f04cbca3664086a9bec62bf14e64e3920ee4e74b3f3eabfc",
+      "bytes": 1028312,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "role": "approved_L03_wardrobe_only",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\starting_images\\S03_M03_L03_candidate_A_refined_v2.png",
+      "sha256": "1c4ede1a903b78fc8c3bc50405c9b61f767d03f92eeed9386b7f1df122e3a78c",
+      "bytes": 2040718,
+      "width": 941,
+      "height": 1672
+    },
+    {
+      "role": "approved_M03_v3_face_identity_only",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "bytes": 805262,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "role": "approved_M03_v3_body_proportions_only",
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "bytes": 2022770,
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "visual_review": {
+    "scope": "assistant inspection of generated still only; not motion or measured pixel geometry",
+    "observed": [
+      "full head and both shoes visible",
+      "similar large person scale and rightward stride as frame127",
+      "ivory short stand-collar open jacket, white crew T and charcoal trousers visible",
+      "black shoulder bag and low heels visible",
+      "same dominant square-column, tree, planter, glass-grid and paving arrangement retained"
+    ],
+    "remaining_limits": [
+      "fabric and shoe contours regenerated",
+      "small pose/edge differences possible",
+      "native aspect-ratio raster rounding recorded without normalization",
+      "motion, scene progression and neighboring dissolve not yet tested"
+    ],
+    "dynamic_qa_pass": null,
+    "publishable": false
+  },
+  "generation_status": "candidate_pending_exact_user_visual_approval_at_generation_time"
+}

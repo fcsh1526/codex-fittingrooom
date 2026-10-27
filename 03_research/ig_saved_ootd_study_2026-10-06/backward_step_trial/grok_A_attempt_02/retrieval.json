@@ -1,0 +1,16 @@
+{
+  "post_url": "https://grok.com/imagine/post/26cd09a6-a5d6-403c-a360-85535c89cd6d?conversation=4878e8a0-e587-41a5-aa24-75954fbeb565",
+  "retrieved_at": "2026-10-06T02:40:37.822Z",
+  "source_retrieved": true,
+  "source_file": "source.mp4",
+  "submitted_to_retrieved_seconds": 113.278,
+  "pure_generation_wait_seconds": null,
+  "download_method": "documented locator.downloadMedia on current active video ID",
+  "ui_metadata": {
+    "duration": 6.041667,
+    "height": 1280,
+    "id": "sd-video",
+    "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/26cd09a6-a5d6-403c-a360-85535c89cd6d/generated_video.mp4?cache=1",
+    "width": 720
+  }
+}

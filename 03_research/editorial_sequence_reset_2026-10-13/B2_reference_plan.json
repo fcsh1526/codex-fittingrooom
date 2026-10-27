@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-13",
+  "shot": "B2",
+  "look_id": "2026-W41-004-L02",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    },
+    {
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/2026-W41-004-L02_M03_reel_candidate_A.png",
+      "sha256": "0b3233467f983d6d7119cef1aaf7632ce337775eeac9a3c339c50c9661915d4e"
+    },
+    {
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A2_seated_candidate_v4_clean.png",
+      "sha256": "bb62e95ad1b56e4391b3c5654ddbe835c7e196dc6601a6fa3d4a43282360d10c"
+    }
+  ],
+  "prompt": "B2_prompt_v1.txt",
+  "status": "v4_user_visual_approved",
+  "new_still_approved": true,
+  "grok_uploaded": false,
+  "generated_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png",
+  "generation_count": 4,
+  "user_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用最後這張",
+    "question_context": "Explicit answer to latest B2v4 full-person face/navy blazer/plain gray tee/cream trousers/one hand on black shoulder-bag question.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/lunch_outing_v1/M03_L02_B2_departure_candidate_v4_clean.png",
+    "sha256": "a5e578157109ed5204218e310f84a2586fa744076ddf69ca71e83708ab63a3d2",
+    "scope": "Exact B2v4 still and its L02 wardrobe/bag as scene lock only. No B1 still, motion or whole-film approval."
+  }
+}

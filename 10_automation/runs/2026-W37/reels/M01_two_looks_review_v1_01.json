@@ -1,0 +1,62 @@
+{
+  "reel_id": "2026-W37-M01-reel",
+  "date": "2026-10-01",
+  "status": "review_candidate_pending_continuous_visual_approval",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M01_two_looks_review_v1_01.mp4",
+  "sha256": "330e265025f78c1c0fada7c15feee26b83d768de095302ca33a6b3ec43d77fed",
+  "duration_seconds": 7.5,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "speed": "unchanged",
+  "transitions": "one direct outfit cut at frame84 / 3.5s; no effects",
+  "aspect_handling": "A uniform cover scale and narrow side crop. B constant 642x1140 crop at x39,y20, uniform resize to720x1280; no animated zoom or stretching. Subject scale/head/shoe placement reviewed separately.",
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M01_A_L01_fixed_full_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 102,
+      "framing": "scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M01_B_L02_fixed_full_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 114,
+      "framing": "crop=642:1140:39:20,scale=720:1280"
+    }
+  ],
+  "qa": {
+    "continuous_watch_done": false,
+    "user_approval": null,
+    "sampled_review": "Output start, during step, cut-adjacent frames83/84, later weight shift and final frame inspected. Full hair and shoes retained. Subject centers and eye/shoe heights approximately matched; one visible intentional outfit cut remains. No obvious sampled face/wardrobe jump or background morph; normal-speed user review pending.",
+    "technical_scan": {
+      "source": "10_automation\\runs\\2026-W37\\reels\\videos\\M01_two_looks_review_v1_01.mp4",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 7.5
+      },
+      "decoded_frames": 180,
+      "decoded_seconds": 7.5,
+      "black_candidate_frames": [],
+      "near_identical_frame_pairs": [],
+      "note": "Technical signals only. Continuous visual review and user approval remain separate."
+    },
+    "sample_sheet": "10_automation/runs/2026-W37/reels/qa/M01_two_looks_review_v1_01/checkpoints.jpg"
+  }
+}

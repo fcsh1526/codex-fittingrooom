@@ -1,0 +1,18 @@
+{
+  "date":"2026-10-21",
+  "preview":"v1/review.mp4",
+  "sha256":"3c0f3fa5bb0c90d0d9b5d434ada37cd5dbe130658d5bff24c01143feb77f1f94",
+  "status":"research_work_in_progress_ready_for_explicit_user_review_not_complete_five_look_film",
+  "frames":385,
+  "fps":24,
+  "duration_seconds":16.041666666666668,
+  "root_viewed":["v1/QA/join.png","v1/QA/full25.png","v1/QA/f285.png"],
+  "findings":["Third outfit appears without redundant same-look push-in, approximately3s pure before new join","Fourth outfit remains whole-person with readable trousers and shoes","New join11.5417–12.2917s has noticeable face/body/arm/leg and glass/tree double edges, clearest nearf285; not seamless","Source has previously unseen short stairs from right edge, moving behind and toleft; this is a disclosed scene uncertainty rather than accepted world continuity","No further regeneration or fifth still started before user decides this new join/background"],
+  "technical_receipt":"v1/edit_receipt.json",
+  "technical_summary":{"complete_decode":true,"silent":true,"all385frames_compared":true,"codec_tolerance_passed":true,"mean_RGB_MAE":1.943261900064634,"worst_frame_MAE":2.5801027199074076,"minimum_PSNR_db":37.05307826527261,"protected_media_hashes_unchanged":true},
+  "root_continuous_full_speed_visual_playback_confirmed":false,
+  "user_dynamic_approval":"User accepted exact four-look research preview with disclosed stairs/double edges; see user_video_acceptance.json",
+  "user_acceptance_record":"user_video_acceptance.json",
+  "publishing_pass":false,
+  "F05_not_included":true
+}

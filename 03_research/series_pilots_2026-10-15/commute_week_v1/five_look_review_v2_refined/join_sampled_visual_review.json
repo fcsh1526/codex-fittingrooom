@@ -1,0 +1,211 @@
+{
+  "created_at_utc": "2026-10-15T07:12:53.875095+00:00",
+  "date": "2026-10-15",
+  "reviewer": "commute_motion_review subagent",
+  "status": "single_interval_refinement_checkpoint_review_complete_user_normal_speed_review_pending",
+  "output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\five_look_review_v2_refined\\M03_commute_week_inspiration_v2_refined.mp4",
+  "output_sha256": "fe796bb8aa71fbebda3af262b94fde868abf11be2bf6b048a2cda66bad66bb65",
+  "reported_duration_seconds_from_edit_receipt": 19.75,
+  "changed_interval": {
+    "shot": "S01",
+    "previous_frames_half_open": [
+      42,
+      156
+    ],
+    "refined_frames_half_open": [
+      120,
+      234
+    ],
+    "selected_frame_count_unchanged": 114
+  },
+  "scope": "Read-only media/boundary QA; only this new review JSON written. No video, edit receipt or shared state changes.",
+  "method": "Actually viewed refined first two34-frame full/head boundary sheets and native f98/f194. Last two joins inherit previously viewed v2 QA after exact34-frame source mapping/alpha and source-SHA equality checks. No re-scan or normal-speed continuous playback.",
+  "assistant_continuous_visual_review": false,
+  "user_video_approval": null,
+  "original_user_feedback_resolved": null,
+  "publishable": false,
+  "no_blocking_defect_for_user_normal_speed_preview": true,
+  "summary": "The first join now keeps a generally matching gaze direction and removes the prior right-to-left gaze flip. Prominent head-height/eye double exposure, arm/leg overlap and rigid background double lines remain; no claim that ghosting is smaller overall. The second join trades a more side-on S01 for the more frontal S05, but inspected midpoint does not reveal a newly blocking breakdown. Last two source mappings are unchanged. This final research version can be handed to the user for actual normal-speed comfort and pacing assessment, with residual ghosting explicitly disclosed.",
+  "joins": [
+    {
+      "join": "J12_S04_S01",
+      "from_shot": "S04",
+      "to_shot": "S01",
+      "review_type": "new refined boundary QA actually viewed",
+      "output_frames_half_open": [
+        90,
+        108
+      ],
+      "output_seconds_half_open": [
+        3.75,
+        4.5
+      ],
+      "viewed_assets": [
+        "QA/J12_S04_S01/transition_all_boundary_frames.jpg",
+        "QA/J12_S04_S01/transition_all_boundary_head_windows.jpg",
+        "QA/J12_S04_S01/frames/frame_000098.png"
+      ],
+      "viewed_context": "34 full frames and34 head windows per boundary, plus native midpoint PNG; no continuous playback.",
+      "observations": {
+        "native_frame": 98,
+        "severity": "conspicuous face/limb/background double contours remain; strongest concern still the first join",
+        "comparison_to_v2": "The directional contrast is visibly smaller: incoming S01 now faces generally frame-right/near-front, matching outgoing S04 better than the earlier frame-left smiling S01. This is a specific gaze-direction improvement, not proof of overall smoother playback.",
+        "face": "Eye/nose/mouth positions still differ, with a conspicuous vertical head/eye offset around the center of the dissolve. The heads form two levels of eye contours. Smile/face shape and head pose are still not identical.",
+        "body_scale_feet": "Broad full-person scale remains similar, but head height, arm position and step phase differ. Black skirt, grey-cast trousers, ivory long blazer, sleeves and shoes visibly superimpose during the18-frame overlap. No sampled extreme scale jump or extra-source anatomy defect beyond double exposure.",
+        "background": "Window mullion and pale-wall/paving positions remain mismatched and form conspicuous rigid double lines during the overlap. The edit does not establish one continuous real location.",
+        "residual_tradeoff": "Head-height separation remains prominent even though opposite gaze direction was removed. Do not equate this one interval change with elimination of ghosting or resolution of user feedback."
+      },
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+      "user_join_approval": null,
+      "continuous_playback_comfort_verified": false
+    },
+    {
+      "join": "J23_S01_S05",
+      "from_shot": "S01",
+      "to_shot": "S05",
+      "review_type": "new refined boundary QA actually viewed",
+      "output_frames_half_open": [
+        186,
+        204
+      ],
+      "output_seconds_half_open": [
+        7.75,
+        8.5
+      ],
+      "viewed_assets": [
+        "QA/J23_S01_S05/transition_all_boundary_frames.jpg",
+        "QA/J23_S01_S05/transition_all_boundary_head_windows.jpg",
+        "QA/J23_S01_S05/frames/frame_000194.png"
+      ],
+      "viewed_context": "34 full frames and34 head windows per boundary, plus native midpoint PNG; no continuous playback.",
+      "observations": {
+        "native_frame": 194,
+        "severity": "moderate face/limb/background overlap; no newly blocking defect observed",
+        "comparison_to_v2": "Later S01 is more side-on and changes to the more frontal three-quarter S05. This predicted angle tradeoff is visible. In the actual midpoint sample, the face outlines are still reasonably close in position, so checkpoint evidence does not show a new severe breakdown or justify claiming an overall improvement.",
+        "face": "Both faces look generally frame-right, but the outgoing is more profile and lightly smiling. Double eyes/nose/mouth remain through the overlap; actual normal-speed comfort is unverified.",
+        "body_scale_feet": "Full-person scale broadly comparable. Long blazer and grey-cast trousers fade into the white shirt/brown jeans, with different arm/leg phases. Shoes and trouser seams double; clear sides still show readable full outfits.",
+        "background": "Outgoing window/column view and incoming masonry positions differ. Some major vertical edges are relatively near each other, but duplicated background edges and ground seams remain.",
+        "residual_tradeoff": "No opposite-direction face flip, but side-on-to-more-frontal change and existing grey-cast S01 trousers remain. No new clothing-type/color switch inside a pure-source segment was established by these boundary views."
+      },
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+      "user_join_approval": null,
+      "continuous_playback_comfort_verified": false
+    },
+    {
+      "join": "J34_S05_S02",
+      "from_shot": "S05",
+      "to_shot": "S02",
+      "review_type": "inherited prior v2 sampled visual observations after exact boundary source mapping/alpha and source SHA equality check",
+      "output_frames_half_open": [
+        276,
+        294
+      ],
+      "output_seconds_half_open": [
+        11.5,
+        12.25
+      ],
+      "source_mapping_and_alpha_equal_for_all_34_context_frames": true,
+      "source_sha_equal": true,
+      "prior_visual_review": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\five_look_review_v2\\join_sampled_visual_review.json",
+      "prior_record": {
+        "join": "J34_S05_S02",
+        "from_shot": "S05",
+        "to_shot": "S02",
+        "output_frames_half_open": [
+          276,
+          294
+        ],
+        "output_seconds_half_open": [
+          11.5,
+          12.25
+        ],
+        "requested_overlap_frames": 18,
+        "requested_overlap_seconds": 0.75,
+        "viewed_assets": [
+          "QA/J34_S05_S02/transition_all_boundary_frames.jpg",
+          "QA/J34_S05_S02/transition_all_boundary_head_windows.jpg",
+          "QA/J34_S05_S02/frames/frame_000284.png"
+        ],
+        "viewed_boundary_context": "All18 cross-dissolve frames plus eight existing context frames on each side, displayed in full-frame and head-window boards; one native midpoint PNG separately viewed.",
+        "observations": {
+          "native_frame": 284,
+          "severity": "moderate-to-strong face and gait misalignment",
+          "face": "Brown-trouser source is more side-on and lightly smiling; check-shirt source is more frontal/neutral. Distinct eye/nose/mouth contours overlap during the transition.",
+          "body_scale_feet": "Comparable broad full-person size, but torso/near arm positions and gait phases differ. Two trousers silhouettes, foot placements and shoulder-bag outlines are visible together. No sampled extreme resize or retained malformed single-source frame after dissolve.",
+          "background": "Blanker masonry/door-edge view changes to windowed architecture. Doubled column edges, wall joints and ground lines are conspicuous in the overlap.",
+          "most_visible_time": "Approximately11.75–11.95seconds; native f284 at11.833seconds inspected."
+        },
+        "no_blocking_defect_for_user_normal_speed_preview": true,
+        "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+        "continuous_playback_comfort_verified": false,
+        "user_join_approval": null
+      },
+      "refined_boards_not_reviewed_again": true,
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "user_join_approval": null,
+      "continuous_playback_comfort_verified": false
+    },
+    {
+      "join": "J45_S02_S03",
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "review_type": "inherited prior v2 sampled visual observations after exact boundary source mapping/alpha and source SHA equality check",
+      "output_frames_half_open": [
+        354,
+        372
+      ],
+      "output_seconds_half_open": [
+        14.75,
+        15.5
+      ],
+      "source_mapping_and_alpha_equal_for_all_34_context_frames": true,
+      "source_sha_equal": true,
+      "prior_visual_review": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\five_look_review_v2\\join_sampled_visual_review.json",
+      "prior_record": {
+        "join": "J45_S02_S03",
+        "from_shot": "S02",
+        "to_shot": "S03",
+        "output_frames_half_open": [
+          354,
+          372
+        ],
+        "output_seconds_half_open": [
+          14.75,
+          15.5
+        ],
+        "requested_overlap_frames": 18,
+        "requested_overlap_seconds": 0.75,
+        "viewed_assets": [
+          "QA/J45_S02_S03/transition_all_boundary_frames.jpg",
+          "QA/J45_S02_S03/transition_all_boundary_head_windows.jpg",
+          "QA/J45_S02_S03/frames/frame_000362.png"
+        ],
+        "viewed_boundary_context": "All18 cross-dissolve frames plus eight existing context frames on each side, displayed in full-frame and head-window boards; one native midpoint PNG separately viewed.",
+        "observations": {
+          "native_frame": 362,
+          "severity": "moderate-to-strong face double image; legs overlap despite shared grey-trouser cue",
+          "face": "Incoming short-jacket face is shifted horizontally relative to outgoing check-shirt face; double eyes, nose and mouth are apparent at mid-overlap.",
+          "body_scale_feet": "Similar full-person scale and grey trousers offer a common cue, but near hand and heel/foot phases differ. Check shirt changes to short cream jacket and tee; these garment contours overlap rather than transform seamlessly.",
+          "background": "Large mullions and stone-joint positions are mismatched. Double background edges remain visible during18-frame overlap and clear in the pure-source frames.",
+          "most_visible_time": "Approximately15.0–15.2seconds; native f362 at15.083seconds inspected."
+        },
+        "no_blocking_defect_for_user_normal_speed_preview": true,
+        "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+        "continuous_playback_comfort_verified": false,
+        "user_join_approval": null
+      },
+      "refined_boards_not_reviewed_again": true,
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "user_join_approval": null,
+      "continuous_playback_comfort_verified": false
+    }
+  ],
+  "limitations": [
+    "Checkpoint comparisons cannot decide overall viewing comfort or whether the original two feedback items have been solved.",
+    "The first join remains visibly double-exposed; matching gaze direction is only one factor.",
+    "No seamless continuity, exact facial geometry, user acceptance or publication readiness is inferred.",
+    "Original v2 review remains its exact historical measurement; it was not overwritten."
+  ]
+}

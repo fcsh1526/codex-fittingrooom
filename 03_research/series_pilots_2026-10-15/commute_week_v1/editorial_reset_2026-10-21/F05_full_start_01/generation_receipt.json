@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-21",
+  "mode": "built-in image_gen",
+  "intent": "Wardrobe-only full-person F05 first from actual user-accepted F04 outgoing overlap frame90",
+  "input_roles": [
+    {
+      "path": "../F04_motion_01/QA_2026-10-21/frame_000090.png",
+      "sha256": "a4fd25e4bddae16428ed8e70cda30dc603285025b42746a9b530c3fe26fe5cf4",
+      "role": "Actual new F04f90 edit target: framing/pose/scene/light; not107 or late planning guide"
+    },
+    {
+      "path": "../../urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+      "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e",
+      "role": "Exact approved L04 white short-sleeve pointed shirt/black calf A-line skirt/cobalt bag/plain shoes design only; do not copy crosswalk/people"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "role": "Approved identity face only, project-root relative"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "role": "Approved ordinary body proportion only, project-root relative"
+    }
+  ],
+  "prompt": "prompt.txt",
+  "prompt_sha256": "1bdcc6431a1d7ae8289279322a409c9e3b032a98511746b04ec3586b6813c8ff",
+  "generation_calls": 1,
+  "targeted_edits": 0,
+  "tool_wait_seconds": 45.751,
+  "active_minutes": null,
+  "generated_source": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-dcf409f6-162e-47c3-979a-592c7a6f5987.png",
+  "workspace_copy": "F05_M03_L04_full_start_candidate_A.png",
+  "sha256": "ac588ec1674df43923140e17f46c4734706cf834f2b7f5599aeeec60376f9c82",
+  "bytes": 2219048,
+  "dimensions": [
+    941,
+    1672
+  ],
+  "root_review": {
+    "viewed": [
+      "generated native image",
+      "boundary_comparison.jpg"
+    ],
+    "findings": [
+      "Whole calf-length A-line skirt, both plain black low heels and cobalt bag immediately readable",
+      "Same rightward front-side direction and raised-rear-foot pose family; similar head/eye placement",
+      "White short pointed-collar shirt with turned short cuffs, tucked black high waist, cobalt shoulder bag with metal adjustment present",
+      "Same broad glass/planter/tree/paving view and left-edge stair remnant retained"
+    ],
+    "differences_to_disclose": [
+      "Shoe placement and some hand/waist/background details differ; not pixel-identical pose or geometry",
+      "Fine skirt texture inherited from approved wardrobe reference remains"
+    ],
+    "new_motion_or_join_pass": false
+  },
+  "status": "user_visual_approved_exact_still",
+  "four_look_acceptance_receipt": "../four_look_review/user_video_acceptance.json",
+  "Grok_uploaded": true,
+  "F05_motion_generated": true,
+  "F05_late_still_generated": false,
+  "next": "Prepare one compatible full-outfit late candidate on same visible facade walkway; separate new-still approval before Grok motion. No hard jump to old doorway.",
+  "approval_receipt": "user_still_approval.json",
+  "motion_receipt": "../F05_half_motion_01/submission_receipt.json"
+}

@@ -1,0 +1,66 @@
+trial_id,attempt_id,checkpoint,normalized_time,actual_time_seconds,identity_result,wardrobe_result,hands_contact_result,scene_result,motion_frame_result,observations
+T01,01,start,0,0,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T01,01,quarter,0.25,1.51,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T01,01,mid,0.5,3.02,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T01,01,three_quarters,0.75,4.53,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T01,01,end,1,5.998333333333333,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed. Book lifted at end despite keep-book-position instruction; contact requires closer continuous review.
+T02,01,start,0,0,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed. Source pose recomposed; first-frame pin not active in this attempt.
+T02,01,quarter,0.25,1.51,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T02,01,mid,0.5,3.02,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T02,01,three_quarters,0.75,4.53,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T02,01,end,1,5.998333333333333,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: shirt/dress/shoes/bag remain visually present; low head angle and limited face pixels prevent firm identity judgment. Continuous motion not reviewed.
+T03,01,start,0,,,,,,,
+T03,01,quarter,0.25,,,,,,,
+T03,01,mid,0.5,,,,,,,
+T03,01,three_quarters,0.75,,,,,,,
+T03,01,end,1,,,,,,,
+T04,01,start,0,,,,,,,
+T04,01,quarter,0.25,,,,,,,
+T04,01,mid,0.5,,,,,,,
+T04,01,three_quarters,0.75,,,,,,,
+T04,01,end,1,,,,,,,
+T05,01,start,0,,,,,,,
+T05,01,quarter,0.25,,,,,,,
+T05,01,mid,0.5,,,,,,,
+T05,01,three_quarters,0.75,,,,,,,
+T05,01,end,1,,,,,,,
+T06,01,start,0,,,,,,,
+T06,01,quarter,0.25,,,,,,,
+T06,01,mid,0.5,,,,,,,
+T06,01,three_quarters,0.75,,,,,,,
+T06,01,end,1,,,,,,,
+T06,01,max_head_turn,,,,,,,,
+T07,01,start,0,,,,,,,
+T07,01,quarter,0.25,,,,,,,
+T07,01,mid,0.5,,,,,,,
+T07,01,three_quarters,0.75,,,,,,,
+T07,01,end,1,,,,,,,
+T08,01,start,0,,,,,,,
+T08,01,quarter,0.25,,,,,,,
+T08,01,mid,0.5,,,,,,,
+T08,01,three_quarters,0.75,,,,,,,
+T08,01,end,1,,,,,,,
+T09,01,start,0,,,,,,,
+T09,01,quarter,0.25,,,,,,,
+T09,01,mid,0.5,,,,,,,
+T09,01,three_quarters,0.75,,,,,,,
+T09,01,end,1,,,,,,,
+T09,01,pre_cut,,,,,,,,
+T09,01,post_cut,,,,,,,,
+T10,01,start,0,,,,,,,
+T10,01,quarter,0.25,,,,,,,
+T10,01,mid,0.5,,,,,,,
+T10,01,three_quarters,0.75,,,,,,,
+T10,01,end,1,,,,,,,
+T10,01,pre_cut,,,,,,,,
+T10,01,post_cut,,,,,,,,
+T02,02,start,0,0,unscorable,pass,unscorable,pass,unscorable,Source composition restored at first checkpoint. Head turns toward camera by 4.53s contrary to fixed gaze instruction. Identity user review and continuous playback pending.
+T02,02,quarter,0.25,1.51,unscorable,pass,unscorable,pass,unscorable,Source composition restored at first checkpoint. Head turns toward camera by 4.53s contrary to fixed gaze instruction. Identity user review and continuous playback pending.
+T02,02,mid,0.5,3.02,unscorable,pass,unscorable,pass,unscorable,Source composition restored at first checkpoint. Head turns toward camera by 4.53s contrary to fixed gaze instruction. Identity user review and continuous playback pending.
+T02,02,three_quarters,0.75,4.53,unscorable,pass,unscorable,pass,fail,Source composition restored at first checkpoint. Head turns toward camera by 4.53s contrary to fixed gaze instruction. Identity user review and continuous playback pending.
+T02,02,end,1,5.998333333333333,unscorable,pass,unscorable,pass,fail,Source composition restored at first checkpoint. Head turns toward camera by 4.53s contrary to fixed gaze instruction. Identity user review and continuous playback pending.
+T10,02,start,0,0,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: outfit/scene readable. Identity and continuous motion not approved.
+T10,02,quarter,0.25,1.51,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: outfit/scene readable. Identity and continuous motion not approved.
+T10,02,mid,0.5,3.02,unscorable,unscorable,unscorable,fail,fail,Dissolve overlap: two scenes/outfits visible; violates hard cut. Continuous QA pending.
+T10,02,three_quarters,0.75,4.53,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: outfit/scene readable. Identity and continuous motion not approved.
+T10,02,end,1,5.998333333333333,unscorable,pass,unscorable,pass,unscorable,Checkpoint only: outfit/scene readable. Identity and continuous motion not approved.

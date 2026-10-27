@@ -1,0 +1,390 @@
+- link "跳至主要內容":
+  - /url: "#grok-content-area"
+- link "主頁":
+  - /url: /
+- list:
+  - button "搜尋":
+  - link "對話":
+    - /url: /
+  - link "Imagine":
+    - /url: /imagine
+  - link "程式庫":
+    - /url: /library
+  - link "自動化":
+    - /url: /automations
+- list:
+  - button "聊天":
+- list:
+  - link "專案":
+    - /url: /project
+- button "Account menu, Brandon Chang Chien"
+- main:
+  - generic: Codex IG Mira時尚雜誌專用畫布
+  - paragraph:
+    - strong: 總指揮已接手｜006-Mira 工單確認
+  - paragraph:
+    - text: 收到工單關鍵詞：
+    - strong: Codex · IG · Mira · 時尚雜誌專用畫布
+  - heading "目前解讀" [level=3]
+  - list:
+    - text: 角色：
+    - strong: 006-Mira
+    - text: （Type A，預設生活線）
+    - text: 感覺方向：
+    - strong: IG 時尚雜誌／Lookbook 風
+    - text: （高級、極簡、低飽和、真實生活感 + 雜誌構圖）
+    - text: 產線傾向：生活線
+    - code: lifestyle-line
+    - text: （非常規機位、無偷窺味、韓系／法式／Old Money 私服風）
+    - listitem: 專用畫布：建立一組可重複使用的「時尚雜誌感」基準圖池（臉錨 + 全身比例 + 服裝風格鎖定用）
+  - heading "必要確認（只問一次）" [level=3]
+  - paragraph: 依 Anchor 政策與 Bot 交貨契約：
+  - list:
+    - paragraph:
+      - strong: 臉錨尚未核定
+      - text: 目前對話中沒有可用的白名單臉錨圖。
+      - text: 請直接上傳
+      - strong: 3 張候選臉圖
+      - text: （亮、清楚、半身或 3/4、無黑痕無斑、年齡對），或告訴我「用之前哪一張」／「從畫布挑這幾張」。
+      - text: → 我不會自選畫布第一張／最新一張／暗沉老臉。
+    - paragraph: 其他參數我先用預設補完（你可改）：
+    - list:
+      - listitem: 張數：8 張（可 4–10）
+      - listitem: 鎖場景：否（先建通用雜誌感場景池）
+      - listitem: 尺度：第 1 級（完整穿著）
+      - listitem: 服裝風格鎖定：時尚雜誌向（韓系輕熟／法式慵懶／極簡冷淡／Old Money 選 1–2 個）
+      - listitem: 硬符號：無（若有請補）
+  - paragraph: 請回覆：
+  - list:
+    - listitem: 臉錨候選（上傳圖 or 指定）
+    - listitem: 或直接說「用預設 8 張生活線時尚雜誌感，開始」
+  - paragraph:
+    - text: 確認臉錨後，立即出正式批次（生活線提示詞 + 回報格式）。
+    - text: 待命。
+  - generic: 本次只生成一張新候選靜態圖，放在這張畫布；不要生成影片，不要修改或刪除原圖與已核准影片，出圖後等待我的視覺核准。角色為M02，使用已選取的M02 v3臉孔圖及白短袖襯衫全身圖，不沿用先前006-Mira／八張預設。已選取的短外套影片僅參考咖啡店日光、灰米色近牆材質與攝影風格，不複製它的外套。 Create one native vertical 9:16 photoreal fashion-editorial still for the clear second-look reveal after the camera has passed a cafe wall corner. Use the selected M02 face portrait strictly for identity and low brown bun; the selected approved white-short-sleeve-shirt full-person image locks her exact outfit and healthy proportions. Use the selected outgoing video only for natural daylight, cafe atmosphere and warm-grey plaster-wall texture. The same approachable woman, late twenties and youthful, stands naturally in the right two-thirds of the frame, nearly frontal with a quiet friendly expression and relaxed hands. She wears a plain white short-sleeve pointed-collar cotton button shirt tucked into cocoa-brown straight denim, a narrow black belt with small metal buckle, black low-heel loafers and the same small rectangular black shoulder bag. No outer jacket. A close fixed plaster wall occupies the leftmost 15 percent, running from top to bottom, without hiding her face or outfit. Behind her is the quieter adjoining cafe facade with wood-framed glass and grey paving. Photograph as one coherent scene with a full-frame mirrorless camera, 50mm lens, level chest-height view, natural skin, soft daylight and believable shoe contact shadows. Show complete head and both shoes with comfortable margins. No text, logos, extra people, elongated anatomy or collage. 出圖後另外簡短說明：你是否能在畫布影片生成中明確指定「A影片最後牆面影格為首幀、這張待核准第二套圖為末幀、M02臉孔圖為人物參照」？只能回報實際可用輸入，若不支援就說明；不要先執行影片。
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 一張新候選靜態圖已產出
+    - text: （9:16 垂直時尚編輯風，第二眼揭示角度）
+  - list:
+    - listitem: 角色：M02
+    - listitem: 臉錨：已選 M02 v3 臉孔圖（身份 + 低棕髮髻）
+    - listitem: 服裝／比例：已選白短袖襯衫全身圖（白短袖尖領棉襯衫 + 可可棕直筒牛仔褲 + 窄黑皮帶 + 黑低跟樂福鞋 + 小方黑肩包，無外套）
+    - listitem: 環境參考：僅取短外套影片的咖啡店日光、灰米色近牆材質與攝影風格（未複製外套）
+    - listitem: 構圖：近牆佔左約 15%、人物在右 2/3、完整頭到雙鞋、胸部高度 50mm 平視、自然皮膚與鞋影
+  - paragraph:
+    - strong: 等待你的視覺核准。
+    - text: 原圖與已核准影片均未修改或刪除。
+  - separator
+  - heading "關於後續影片生成是否支援指定輸入" [level=3]
+  - paragraph:
+    - strong: 可以。
+    - text: 實際可用輸入如下（
+    - code: imagine_reference_to_video
+    - text: ）：
+  - table:
+    - rowgroup:
+      - row "指定需求 實際支援方式":
+        - columnheader "指定需求"
+        - columnheader "實際支援方式"
+    - rowgroup:
+      - row "A影片最後牆面影格為首幀 抽出該影格註冊為 image asset，設為 first_frame_asset_id":
+        - cell "A影片最後牆面影格為首幀"
+        - cell "抽出該影格註冊為 image asset，設為 first_frame_asset_id":
+          - text: 抽出該影格註冊為 image asset，設為
+          - code: first_frame_asset_id
+      - row "這張待核准第二套圖為末幀 設為 last_frame_asset_id":
+        - cell "這張待核准第二套圖為末幀"
+        - cell "設為 last_frame_asset_id":
+          - text: 設為
+          - code: last_frame_asset_id
+      - row "M02 臉孔圖為人物參照 把臉孔 asset 放進 asset_ids，並在 prompt 內用 @asset_id 綁定身份":
+        - cell "M02 臉孔圖為人物參照"
+        - cell "把臉孔 asset 放進 asset_ids，並在 prompt 內用 @asset_id 綁定身份":
+          - text: 把臉孔 asset 放進
+          - code: asset_ids
+          - text: ，並在 prompt 內用
+          - code: "@asset_id"
+          - text: 綁定身份
+  - paragraph:
+    - text: 以上三項可同時使用。目前
+    - strong: 不會
+    - text: 先執行任何影片，等你核准這張靜態圖後再談。
+  - generic: 只對目前選取、剛生成的M02白短袖襯衫第二套候選圖做一次局部材質修正，出一張靜態候選放在同一畫布，不生成影片、不刪除舊版本。左側近牆現在是粗顆粒斑駁石材；請只把這塊牆的表面改為前面已核准六秒短外套遮鏡影片中的細緻、柔焦、暖灰米色粉刷灰泥牆面，低對比細顆粒，不要石塊接縫、黑斑或裂紋。保留牆占畫面左側約30%的現有尺寸、邊界、透視與光線，不移動人物。臉孔、低棕髮髻、白短袖尖領襯衫、棕丹寧、黑皮帶、黑小肩包、兩隻黑鞋、整個咖啡店背景、人物站位、頭鞋留白及9:16構圖均保持原樣。No text or logos. 只做上述一個牆材質修正，完成後等我的視覺核准，不要自動接影片。
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 局部材質修正完成
+    - text: （僅左側近牆）
+  - list:
+    - listitem: 牆面：已改為與六秒短外套影片一致的細緻、柔焦、暖灰米色粉刷灰泥（低對比細顆粒）
+    - listitem: 已去除：粗顆粒石材、接縫、黑斑、裂紋
+    - listitem: 保留：牆占左側尺寸／邊界／透視／光線、人物位置與全身、臉孔與低棕髮髻、白短袖尖領襯衫、棕丹寧、黑皮帶、黑小肩包、雙黑鞋、咖啡店背景、頭鞋留白、9:16 構圖
+  - paragraph: 舊版本未刪除。靜態候選已放上畫布，等待你的視覺核准。
+  - generic: "第二套修正版已由使用者視覺核准，可以開始本次單一影片測試。請在同一畫布生成且只生成一個6秒、720p、直式9:16候選影片。不要重新出圖、不要改原圖、不要刪除或改動任何舊影片。 精確輸入角色：1）從此畫布已核准的六秒M02米白短外套影片抽出最後一個實際解碼影格（完全灰米色近牆畫面）作First frame；不要另合成牆面。2）目前選取且剛修正左牆材質的M02第二套圖（白短袖襯衫、可可棕直筒丹寧、黑皮帶、黑小肩包、黑鞋，左側細粉刷牆；不要使用粗石材v1）作Last frame。3）先前提供的M02_start_v3_face.png作人物identity reference，必要時以核准第二套全身圖作服裝參照。請實際設定你剛說的first_frame_asset_id、last_frame_asset_id及人物asset_ids。如果不能同時指定以上角色，先回報缺少哪項，不要只用無臉牆面猜人、不要默默改成單圖生成，也不要改以第一套外套服裝。 One continuous six-second real-camera reveal shot, continuing the previous camera movement to its right. Start on the exact opaque warm-grey plaster wall frame. Hold the wall briefly, then smoothly translate the level chest-height camera rightward past the fixed wall corner, without pan, orbit or zoom. The wall right edge moves toward image-left through foreground parallax and reveals the cafe and the same M02 woman on the right. By about three seconds her complete head-to-shoe second outfit is clearly readable; the final composition settles into the approved second-look image with the wall occupying the leftmost portion. Maintain the portrait-reference identity, low brown bun, white short-sleeve pointed-collar tucked shirt, cocoa straight denim, narrow black belt, small rectangular black shoulder bag and black loafers, with no outer jacket. She stays naturally relaxed with subtle weight shift only. Keep coherent daylight, realistic foreground depth, stable cafe architecture and wardrobe, and allow enough clear outfit reading time. Physical wall occlusion only: no dissolving person, graphic wipe, cut, outfit morph, extra person, text or audio. Normal real-time motion. 完成後保留影片在此畫布，列出實際使用的首幀／末幀／人物參照名稱或asset IDs、實際解析度與時長，是否有音訊。不要自動把兩段合片；我會先驗收這一鏡再剪接。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 單一 6 秒候選影片已生成並保留在此畫布
+    - text: （未合片、未改舊圖／舊影片）
+  - heading "實際使用輸入" [level=3]
+  - table:
+    - rowgroup:
+      - row "角色 名稱／來源 Asset ID":
+        - columnheader "角色"
+        - columnheader "名稱／來源"
+        - columnheader "Asset ID"
+    - rowgroup:
+      - row "First frame 六秒米白短外套影片實際解碼末幀（全灰米色近牆） f0a989db-1e62-4609-80c9-fdeb37a7fcaf":
+        - cell "First frame":
+          - strong: First frame
+        - cell "六秒米白短外套影片實際解碼末幀（全灰米色近牆）"
+        - cell "f0a989db-1e62-4609-80c9-fdeb37a7fcaf":
+          - code: f0a989db-1e62-4609-80c9-fdeb37a7fcaf
+      - row "Last frame 已核准第二套修正版（白短袖＋細粉刷牆） 24a1b901-8206-4e0b-9706-e380ba23a93a":
+        - cell "Last frame":
+          - strong: Last frame
+        - cell "已核准第二套修正版（白短袖＋細粉刷牆）"
+        - cell "24a1b901-8206-4e0b-9706-e380ba23a93a":
+          - code: 24a1b901-8206-4e0b-9706-e380ba23a93a
+      - row "人物 identity M02_start_v3_face.png 539840d8-dc19-488c-a8f1-f60a5905d67d":
+        - cell "人物 identity":
+          - strong: 人物 identity
+        - cell "M02_start_v3_face.png"
+        - cell "539840d8-dc19-488c-a8f1-f60a5905d67d":
+          - code: 539840d8-dc19-488c-a8f1-f60a5905d67d
+      - row "服裝參照 同上第二套全身圖 24a1b901-8206-4e0b-9706-e380ba23a93a":
+        - cell "服裝參照":
+          - strong: 服裝參照
+        - cell "同上第二套全身圖"
+        - cell "24a1b901-8206-4e0b-9706-e380ba23a93a":
+          - code: 24a1b901-8206-4e0b-9706-e380ba23a93a
+  - heading "實際輸出規格" [level=3]
+  - list:
+    - strong: 解析度
+    - text: ：720×1280（9:16 直式，720p）
+    - strong: 時長
+    - text: ：6.04 秒
+    - strong: 音訊
+    - text: ：有（AAC 音軌，時長 6.0s；內容為環境／無對白）
+    - strong: 設定
+    - text: ：已實際使用
+    - code: first_frame_asset_id
+    - text: +
+    - code: last_frame_asset_id
+    - text: + 人物
+    - code: asset_ids
+    - text: （臉＋第二套服裝），未用第一套外套服裝、未單圖猜人
+  - paragraph: 等待你的驗收；確認後再剪接。
+  - generic: "本輪已核准的角色是M04，與前面M02無關。剛上傳四個核准輸入：2026-W41-005-L01_M04_reel_candidate_A_v2.png（黑短外套／白T／炭灰褲／鈷藍包），2026-W41-005-L02_M04_reel_candidate_A_v2.png（白短袖尖領襯衫／黑A字中長裙／鈷藍包），M04_start_v3_face.png（身分）及M04_start_v3_full.png（只鎖比例）。請從畫布/已上傳資產精確找這四份，列出對應asset IDs；找不到或無法辨識便停下回報，不可用M02或006-Mira。舊影片被選取只是介面殘留，不作本輪輸入。 這次只生成兩個獨立影片，各10秒、720p、9:16，完成放同一畫布，不出任何新靜態圖、不合片、不改舊圖舊片。A以L01核准圖為First frame，M04臉／比例為reference；B以L02核准圖為Last frame兼服裝reference、M04臉／比例為reference，不設L01末幀為B首幀，避免混衣。B僅末幀角色若不支援，先回報，不要默默改成從全身開始或生成新圖。 A: One continuous ten-second real-time fashion shot. Start at the exact approved full-person black-jacket/trouser outfit. Keep complete head and shoes and clear silhouette readable for the first six seconds with natural small weight shift only. From six to nine seconds make one smooth physical camera push-in, level chest-height50mm view, into a head-to-upper-thigh medium frame that clearly shows the cobalt-blue shoulder bag at image-right and tucked waist. Settle for the last second. No hand adjustment, walking toward lens, turn, cut or clothing change. B: One continuous ten-second real-time shot of the same M04 woman in the exact approved white short-sleeve shirt and black A-line calf skirt. Begin in a head-to-upper-thigh medium frame, cobalt-blue bag on image-right, comparable subject scale to A endpoint. In the first three seconds move the camera smoothly backward with a level50mm view to reveal complete head and both shoes. Keep her full skirt outfit clearly readable for the remaining seven seconds, with a small natural weight shift only. End in the approved L02 full frame. Both: preserve exact identity, healthy proportions, current tied-back hair, outfit, bag size/strap, footwear, bookshop door/wall geometry and coherent daylight. Clothing and natural movement matter; no slow motion, morphing outfits, extra person, text, logos, dissolve, graphic transition or audio. Actual camera movement should reveal the blue bag linking a trousers outfit to a skirt outfit. Keep each look separate and native speed. 生成後列出每段真正使用的參照/首末幀asset IDs、時長、解析度和有無音軌。只各一次，不自行重試。"
+  - button "顯示更多"
+  - paragraph:
+    - strong: 已停下｜找不到本輪 M04 四份核准輸入
+  - paragraph:
+    - text: 依你指示：本輪角色是
+    - strong: M04
+    - text: ，與前面 M02／006-Mira 無關；舊影片
+    - code: "@37437cb0…"
+    - text: 僅介面殘留，
+    - strong: 不作為本輪輸入
+    - text: 。
+  - heading "搜尋結果" [level=3]
+  - paragraph:
+    - text: 已在畫布／sandbox 資產中精確查找下列檔名，
+    - strong: 均未找到
+    - text: ：
+  - table:
+    - rowgroup:
+      - row "預期檔名 用途 結果":
+        - columnheader "預期檔名"
+        - columnheader "用途"
+        - columnheader "結果"
+    - rowgroup:
+      - row "2026-W41-005-L01_M04_reel_candidate_A_v2.png L01 黑短外套／白T／炭灰褲／鈷藍包（A 首幀） 未找到":
+        - cell "2026-W41-005-L01_M04_reel_candidate_A_v2.png":
+          - code: 2026-W41-005-L01_M04_reel_candidate_A_v2.png
+        - cell "L01 黑短外套／白T／炭灰褲／鈷藍包（A 首幀）"
+        - cell "未找到":
+          - strong: 未找到
+      - row "2026-W41-005-L02_M04_reel_candidate_A_v2.png L02 白短袖尖領襯衫／黑A字中長裙／鈷藍包（B 末幀＋服裝） 未找到":
+        - cell "2026-W41-005-L02_M04_reel_candidate_A_v2.png":
+          - code: 2026-W41-005-L02_M04_reel_candidate_A_v2.png
+        - cell "L02 白短袖尖領襯衫／黑A字中長裙／鈷藍包（B 末幀＋服裝）"
+        - cell "未找到":
+          - strong: 未找到
+      - row "M04_start_v3_face.png 身分 未找到":
+        - cell "M04_start_v3_face.png":
+          - code: M04_start_v3_face.png
+        - cell "身分"
+        - cell "未找到":
+          - strong: 未找到
+      - row "M04_start_v3_full.png 只鎖比例 未找到":
+        - cell "M04_start_v3_full.png":
+          - code: M04_start_v3_full.png
+        - cell "只鎖比例"
+        - cell "未找到":
+          - strong: 未找到
+  - paragraph:
+    - text: 目前畫布可見資產仍為先前 M02 系列（臉孔、白襯衫全身、修正牆面靜態圖、短外套影片、第二套揭示影片等），
+    - strong: 沒有任何可辨識的 M04 資產
+    - text: 。
+  - paragraph:
+    - text: 本則訊息的
+    - code: references
+    - text: 也只有舊 M02 影片 UUID，未帶入上述四張。
+  - heading "因此未執行" [level=3]
+  - list:
+    - listitem: 未生成 A／B 任何影片
+    - listitem: 未改舊圖、未出新靜態圖、未用 M02 或 Mira 頂替
+  - heading "請你補一次" [level=3]
+  - paragraph:
+    - text: 請把這四張
+    - strong: 用 @ 重新選取／上傳並出現在訊息 references 裡
+    - text: （或直接貼出四個 asset UUID），例如：
+  - code: "@L01圖 @L02圖 @M04_face @M04_full"
+  - paragraph: 收到可辨識的四個 asset ID 後，會依你規格：
+  - list:
+    - strong: 只各生成一次
+    - text: 兩個獨立 10 秒、720p、9:16 影片
+    - listitem: A：L01 為 first frame + M04 臉／比例
+    - listitem: B：L02 為 last frame 兼服裝 + M04 臉／比例（不設 L01 末幀為 B 首幀）
+    - text: 若
+    - code: last_frame
+    - text: 角色不支援會先回報，不會默默改成從全身開始
+  - paragraph: 等待你補上四份 M04 資產。
+  - generic: 四張已存在畫布但上傳後檔名沒有保留。請以以下精確asset UUID選取，而不是只搜檔名： A核准黑短外套／白T／炭灰褲／鈷藍包：47b6bf83-510b-4ac3-ac63-51b9e5f6c32e B核准白短袖襯衫／黑A字裙／鈷藍包：0c3f3221-77f3-4a56-a3f8-8c46e6cc017a M04 v3臉孔（刚單獨上傳）：a17c8ba2-3da1-46c4-a308-844387a0102a M04 v3全身比例（刚單獨上傳）：3e946490-8ff6-451f-897a-435e5ac9b675 以上是已核准原圖的上傳，不是待核准新圖。先實際看這四個UUID的圖，確認內容對應，若不對停止回報。對應無誤則依上一則完整分鏡，只生成A/B各一次10秒720p9:16影片。B若不支援Last frame without First frame便停下回報該限制，可先完成A。不要使用選取殘留的M02影片，不產生新圖、不自动重試。
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - button "在畫布上顯示"
+  - paragraph: 四張內容已核對無誤，開始只各生成一次 A／B 影片。
+  - paragraph:
+    - strong: 四張 UUID 內容已核對無誤
+  - table:
+    - rowgroup:
+      - row "用途 內容確認 Asset ID":
+        - columnheader "用途"
+        - columnheader "內容確認"
+        - columnheader "Asset ID"
+    - rowgroup:
+      - row "L01 黑短外套／白T／炭灰褲／鈷藍包 ✓ 47b6bf83-510b-4ac3-ac63-51b9e5f6c32e":
+        - cell "L01 黑短外套／白T／炭灰褲／鈷藍包"
+        - cell "✓"
+        - cell "47b6bf83-510b-4ac3-ac63-51b9e5f6c32e":
+          - code: 47b6bf83-510b-4ac3-ac63-51b9e5f6c32e
+      - row "L02 白短袖襯衫／黑A字裙／鈷藍包 ✓ 0c3f3221-77f3-4a56-a3f8-8c46e6cc017a":
+        - cell "L02 白短袖襯衫／黑A字裙／鈷藍包"
+        - cell "✓"
+        - cell "0c3f3221-77f3-4a56-a3f8-8c46e6cc017a":
+          - code: 0c3f3221-77f3-4a56-a3f8-8c46e6cc017a
+      - row "M04 v3 臉孔 ✓ a17c8ba2-3da1-46c4-a308-844387a0102a":
+        - cell "M04 v3 臉孔"
+        - cell "✓"
+        - cell "a17c8ba2-3da1-46c4-a308-844387a0102a":
+          - code: a17c8ba2-3da1-46c4-a308-844387a0102a
+      - row "M04 v3 全身比例 ✓ 3e946490-8ff6-451f-897a-435e5ac9b675":
+        - cell "M04 v3 全身比例"
+        - cell "✓"
+        - cell "3e946490-8ff6-451f-897a-435e5ac9b675":
+          - code: 3e946490-8ff6-451f-897a-435e5ac9b675
+  - paragraph:
+    - strong: B 支援僅 Last frame（無 First frame）
+    - text: ，已依規格執行。各只生成一次，未合片、未出新靜態圖、未用 M02。
+  - separator
+  - heading "A｜黑外套長褲 look（10s push-in）" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際使用":
+        - columnheader "項目"
+        - columnheader "實際使用"
+    - rowgroup:
+      - row "First frame L01 47b6bf83-510b-4ac3-ac63-51b9e5f6c32e":
+        - cell "First frame"
+        - cell "L01 47b6bf83-510b-4ac3-ac63-51b9e5f6c32e":
+          - text: L01
+          - code: 47b6bf83-510b-4ac3-ac63-51b9e5f6c32e
+      - row "Last frame 無":
+        - cell "Last frame"
+        - cell "無"
+      - row "人物 identity M04 face a17c8ba2-3da1-46c4-a308-844387a0102a":
+        - cell "人物 identity"
+        - cell "M04 face a17c8ba2-3da1-46c4-a308-844387a0102a":
+          - text: M04 face
+          - code: a17c8ba2-3da1-46c4-a308-844387a0102a
+      - row "比例 M04 full 3e946490-8ff6-451f-897a-435e5ac9b675":
+        - cell "比例"
+        - cell "M04 full 3e946490-8ff6-451f-897a-435e5ac9b675":
+          - text: M04 full
+          - code: 3e946490-8ff6-451f-897a-435e5ac9b675
+      - row "服裝／場景 同 L01":
+        - cell "服裝／場景"
+        - cell "同 L01"
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "解析度 720×1280（9:16，720p）":
+        - cell "解析度"
+        - cell "720×1280（9:16，720p）"
+      - row "音軌 有（AAC，10.0s）":
+        - cell "音軌"
+        - cell "有（AAC，10.0s）"
+  - separator
+  - heading "B｜白襯衫黑裙 look（10s pull-back）" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際使用":
+        - columnheader "項目"
+        - columnheader "實際使用"
+    - rowgroup:
+      - row "First frame 無（僅 Last frame 角色）":
+        - cell "First frame"
+        - cell "無（僅 Last frame 角色）"
+      - row "Last frame L02 0c3f3221-77f3-4a56-a3f8-8c46e6cc017a":
+        - cell "Last frame"
+        - cell "L02 0c3f3221-77f3-4a56-a3f8-8c46e6cc017a":
+          - text: L02
+          - code: 0c3f3221-77f3-4a56-a3f8-8c46e6cc017a
+      - row "人物 identity M04 face a17c8ba2-3da1-46c4-a308-844387a0102a":
+        - cell "人物 identity"
+        - cell "M04 face a17c8ba2-3da1-46c4-a308-844387a0102a":
+          - text: M04 face
+          - code: a17c8ba2-3da1-46c4-a308-844387a0102a
+      - row "比例 M04 full 3e946490-8ff6-451f-897a-435e5ac9b675":
+        - cell "比例"
+        - cell "M04 full 3e946490-8ff6-451f-897a-435e5ac9b675":
+          - text: M04 full
+          - code: 3e946490-8ff6-451f-897a-435e5ac9b675
+      - row "服裝 L02 兼 reference":
+        - cell "服裝"
+        - cell "L02 兼 reference"
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "解析度 720×1280（9:16，720p）":
+        - cell "解析度"
+        - cell "720×1280（9:16，720p）"
+      - row "音軌 有（AAC，10.0s）":
+        - cell "音軌"
+        - cell "有（AAC，10.0s）"
+  - paragraph: 兩段已獨立放在同一畫布，等待驗收。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "Ask Grok anything":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+- region "Notifications alt+T"
+- alert: Imagine 代理模式 - Grok

@@ -1,0 +1,12 @@
+{
+  "record_date_local": "2026-10-20",
+  "status": "same_inputs_single_targeted_retry_prepared",
+  "trigger": "../gait_diagnostic_2026-10-20/user_feedback_and_mapping.json",
+  "diagnosis": "../GAIT_REVISION_2026-10-20.md",
+  "requested_roles": {"first":"a7a33bb7-39ff-472d-b27d-53e50fe48c58","last":"d3c047bd-a2e5-4def-adba-a4ffb7cdcaa4","face":"6236309c-2343-41e6-985c-994239ff744a","full":"ac9ede4e-1715-4518-95b4-bda341a62061"},
+  "changed_factor": "Early weight-bearing/step phase and camera-ground flow continuity; no wardrobe, scene or duration change.",
+  "preserved": ["same approved start/end", "same identity anchors", "6s720p9:16", "compact site and camera side", "native source speed", "subsequent two18frame0.75s dissolves"],
+  "new_stills": 0,
+  "publishing_changes": false,
+  "technical_or_user_gait_approval": null
+}

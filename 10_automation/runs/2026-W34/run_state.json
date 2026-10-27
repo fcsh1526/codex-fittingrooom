@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "completed_at": "2026-08-24",
+  "reason": "W34 completed by user decision. Start 2026-W35 in a new conversation; do not backfill W34 unless explicitly reopened.",
+  "next_week": "2026-W35"
+}

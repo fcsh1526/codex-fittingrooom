@@ -1,0 +1,12 @@
+{
+  "recorded_date": "2026-10-16",
+  "asset": "R02_M03_L02_medium_candidate_A.png",
+  "sha256": "97cbeb0b9b91a8b9b1b3070665578ed664e64b357d1f4cd1046a7966ae895594",
+  "browser_asset_id": "5e0abb9a-4452-4826-9bb2-e1129b5aab21",
+  "observed_image_pixels": [
+    941,
+    1672
+  ],
+  "observed_via": "rendered img DOM currentSrc/naturalWidth/naturalHeight after actual filechooser upload",
+  "still_approval_receipt": "R02_user_still_approval_2026-10-16.json"
+}

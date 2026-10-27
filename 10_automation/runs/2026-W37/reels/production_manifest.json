@@ -1,0 +1,1000 @@
+{
+  "schema_version": 1,
+  "week_id": "2026-W37",
+  "mass_production_gate": "M02_pilot_passed_2026-09-29",
+  "reels": [
+    {
+      "reel_id": "2026-W37-M02-reel",
+      "week_id": "2026-W37",
+      "theme_id": "2026-W37-001",
+      "model_profile_id": "M02",
+      "look_ids": [
+        "2026-W37-001-L01",
+        "2026-W37-001-L02"
+      ],
+      "theme": "可拆式輕薄疊穿",
+      "audience_problem": "冷氣房如何用可脫薄襯衫搭配洋裝？",
+      "editorial_candidates": [
+        "冷氣房用可脫薄襯衫罩住肩臂，洋裝本身可以單穿",
+        "以可脫襯衫調節室內外溫差，避免外套與內搭都厚重"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M02_start_v3_face.png",
+        "full": "02_brand/reference_models/M02_start_v3_full.png",
+        "saved_reference_name": "Mira M02 v3"
+      },
+      "views": [
+        {
+          "slot_id": "2026-W37-001-L01_full",
+          "look_id": "2026-W37-001-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S01_comparison_v2_start_candidate.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion",
+          "framing_review": "full_person_9x16",
+          "clarity_review": "Grok First frame A",
+          "evidence": "霧灰無內裡棉質薄襯衫；奶油白不透膚細肩帶小腿中長洋裝；白色低筒帆布鞋；深海軍藍小肩包；細銀耳環"
+        },
+        {
+          "slot_id": "2026-W37-001-L01_proof",
+          "look_id": "2026-W37-001-L01",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S02_comparison_v2_start_candidate.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion",
+          "framing_review": "vertical_upper_body",
+          "clarity_review": "framing comparison only",
+          "evidence": "敞開襯衫、內搭領口與明暗層次清楚；肩帶仍被外搭遮住",
+          "approval_evidence": "User replied ok after previews and adoption question; accepted for pilot assembly. Does not certify continuous video QA."
+        },
+        {
+          "slot_id": "2026-W37-001-L02_full",
+          "look_id": "2026-W37-001-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S04_comparison_v2_start_candidate.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion",
+          "framing_review": "full_person_9x16",
+          "clarity_review": "Grok Reference B",
+          "evidence": "霧藍無內裡亞麻混紡薄襯衫；深海軍藍方領寬肩帶中長洋裝；米白帆布便鞋；灰色帆布小托特包；銀色耳釘"
+        },
+        {
+          "slot_id": "2026-W37-001-L02_proof",
+          "look_id": "2026-W37-001-L02",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S03_comparison_v2_start_candidate.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion",
+          "framing_review": "vertical_upper_body",
+          "clarity_review": "Grok First frame B",
+          "evidence": "敞開襯衫、內搭領口與明暗層次清楚；肩帶仍被外搭遮住",
+          "approval_evidence": "User replied ok after previews and adoption question; accepted for pilot assembly. Does not certify continuous video QA."
+        }
+      ],
+      "storyboard": [
+        {
+          "start": 0.0,
+          "end": 2.5,
+          "look_id": "2026-W37-001-L01",
+          "shot_id": "A_scale_push_v4",
+          "source_video": "10_automation/runs/2026-W37/reels/pilot_M02/videos/A_scale_push_v4_01.mp4",
+          "framing": "full_to_medium",
+          "camera_motion": "source_push_in",
+          "outfit_evidence": "霧灰襯衫敞開，奶油白洋裝與白鞋由全身到領口可見",
+          "next_cut": "same_subject_scale_direct_outfit_change"
+        },
+        {
+          "start": 2.5,
+          "end": 7.0,
+          "look_id": "2026-W37-001-L02",
+          "shot_id": "B_scale_pull_v4",
+          "source_video": "10_automation/runs/2026-W37/reels/pilot_M02/videos/B_scale_pull_v4_01.mp4",
+          "framing": "medium_to_full",
+          "camera_motion": "source_pull_back",
+          "outfit_evidence": "霧藍襯衫與深藍方領先可見，再露出完整裙長、灰托特及米白鞋",
+          "next_cut": null
+        }
+      ],
+      "generation": {
+        "settings": null,
+        "prompt_version": "scale_continuity_v4",
+        "trials": [
+          {
+            "trial_id": "T01",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T01_01.mp4",
+            "source_url": "https://grok.com/imagine/post/355bb7fc-0b21-499a-af09-3baecfcfa589?conversation=f50c2ee7-629d-4460-91ea-d5cd3a75db6d",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T02",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T02_01.mp4",
+            "source_url": "https://grok.com/imagine/post/0bbc1679-bdb5-4eaf-a112-50a358d00ea9?conversation=2e9e778c-d70b-46fa-95d7-54dab4032c99",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T02",
+            "attempt_id": "02",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T02_02.mp4",
+            "source_url": "https://grok.com/imagine/post/fa440f1a-62ce-443f-97ac-0b196ffd87ce?conversation=871c0666-2b45-46ec-a9b5-4bbb614de9a9",
+            "qa": "pending",
+            "motion_result": "fail"
+          },
+          {
+            "trial_id": "T03",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T03_01.mp4",
+            "source_url": "https://grok.com/imagine/post/62c7abce-1b60-4541-b5d8-e52f243986b7?conversation=3be821fc-8a32-4f79-b9ec-6ccb15bc12b8",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T04",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T04_01.mp4",
+            "source_url": "https://grok.com/imagine/post/df55358c-9103-4880-8e61-16a832b92523?conversation=d1295587-d4c5-4991-bcb7-470cd99e112f",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T05",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T05_01.mp4",
+            "source_url": "https://grok.com/imagine/post/8b9c08ed-8e5a-4684-8ebb-2a183adab1f2?conversation=10fe18f8-c06c-4ab8-9a0b-ae4a280dfb13",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T06",
+            "attempt_id": "01",
+            "output_path": null,
+            "source_url": "https://grok.com/imagine/post/ffefeeaa-3c89-4706-afe3-ef7e44b0219a?conversation=64baf4cd-c1a0-406c-800c-b26e55b6f417",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T07",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T07_01.mp4",
+            "source_url": "https://grok.com/imagine/post/e4c735ff-8f3a-4881-a7d2-89726f634263?conversation=757a84e6-8d8f-4810-81c3-b82debc51f55",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T08",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T08_01.mp4",
+            "source_url": "https://grok.com/imagine/post/05802349-f4b4-4953-a52f-6d2537a96cb5?conversation=6eba5bd5-a829-423a-8181-26f1bc513186",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T09",
+            "attempt_id": "01",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T09_01.mp4",
+            "source_url": "https://grok.com/imagine/post/c9d75df8-ea6b-497d-a026-be4cefaa8d8a?conversation=586a7030-0cac-4235-8af6-879c461056a2",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T10",
+            "attempt_id": "01",
+            "output_path": null,
+            "source_url": "https://grok.com/imagine/post/d105f2fb-a4ee-4c79-8a30-96924639668f?conversation=586a7030-0cac-4235-8af6-879c461056a2",
+            "qa": "pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "T10",
+            "attempt_id": "02",
+            "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/T10_02.mp4",
+            "source_url": "https://grok.com/imagine/post/d8b9d24f-a60c-4cd7-9052-172b34bf8c6d?conversation=c2f1508b-5dee-494a-a5f9-872408a32813",
+            "qa": "pending",
+            "motion_result": "fail"
+          }
+        ],
+        "provisional_route": "independent_look_clips_then_editor_hard_cut",
+        "decision_evidence": "10_automation/runs/2026-W37/reels/pilot_M02/diagnostic_findings_2026-09-18.md",
+        "selected_shot_records": [
+          "10_automation/runs/2026-W37/reels/pilot_M02/A_scale_push_v4_motion_01.json",
+          "10_automation/runs/2026-W37/reels/pilot_M02/B_scale_pull_v4_motion_01.json"
+        ]
+      },
+      "output_path": "10_automation/runs/2026-W37/reels/pilot_M02/videos/M02_scale_continuity_v4_review_01.mp4",
+      "qa": {
+        "status": "technical_and_user_visual_approved",
+        "continuous_watch_done": true,
+        "user_approval": "accepted_2026-09-29_clean_visual",
+        "technical_evidence": "10_automation/runs/2026-W37/reels/pilot_M02/qa/v4_full/contact_6fps.jpg",
+        "user_feedback": "2026-09-29: 還可以; direction acceptable, final approval not stated",
+        "continuous_watch_evidence": "User reviewed the embedded clean seven-second clip, first replied 還可以, then replied ok when asked if the picture could be finalized; assistant local browser replay was blocked, so human subjective judgment rests on the user."
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": 2.96,
+        "notes": "Known T02 upload only; incomplete session total. Download wait 204.5s recorded separately in trial notes."
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": "10_automation/runs/2026-W37/reels/pilot_M02/videos/M02_scale_continuity_v4_review_01.mp4"
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "pilot_visual_approved_pending_music_and_publication",
+      "review_output_path": "10_automation/runs/2026-W37/reels/pilot_M02/edit_v3/M02_two_looks_captioned_review_v3.mp4",
+      "edit_feedback": {
+        "date": "2026-09-21",
+        "v1": "User rejected rapid opening switches and disconnected hard cuts as flickering/uncomfortable.",
+        "v2": "Inspection showed superimposed faces during dissolves; not selected.",
+        "v3": "Four ordered shots; no opening/closing recaps;0.5s smooth horizontal pushes; user comfort and continuous QA pending."
+      },
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "visual_theme": "親切的日常穿搭雜誌：圖書館走近，花藝工作坊拉遠；同一位人物呈現兩套敞開薄襯衫與洋裝。",
+      "edit_record": "10_automation/runs/2026-W37/reels/pilot_M02/M02_scale_continuity_v4_review_01.json",
+      "instagram_post_caption_draft": "10_automation/runs/2026-W37/reels/pilot_M02/M02_instagram_caption_draft.md",
+      "caption_path": "10_automation/runs/2026-W37/reels/pilot_M02/M02_instagram_caption_draft.md"
+    },
+    {
+      "reel_id": "2026-W37-M05-reel",
+      "week_id": "2026-W37",
+      "theme_id": "2026-W37-002",
+      "model_profile_id": "M05",
+      "look_ids": [
+        "2026-W37-002-L01",
+        "2026-W37-002-L02"
+      ],
+      "theme": "短外層配長流動下身",
+      "audience_problem": "寬褲搭短外套時，怎麼保留腰線又讓褲管自然垂墜？",
+      "editorial_candidates": [
+        "上身用腰骨長度的短外套，讓寬褲腰線與垂墜清楚可見",
+        "寬褲配短外套時讓腰頭露出，避免上下兩件都蓋住腰線"
+      ],
+      "format_variant": "A_same_problem_two_looks",
+      "identity": {
+        "face": "02_brand/reference_models/M05_start_v1_face.png",
+        "full": "02_brand/reference_models/M05_start_v1_full.png",
+        "saved_reference_name": "Mira M05 v1 face"
+      },
+      "views": [
+        {
+          "slot_id": "2026-W37-002-L01_full",
+          "look_id": "2026-W37-002-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png",
+          "source_type": "native_vertical_still_candidate",
+          "approval": "user_visual_approved_for_motion_2026-09-29",
+          "framing_review": "941x1672 approximately 9:16; full head and both shoes visible; near-frontal face; table clear of waistband",
+          "clarity_review": "White jacket hem, pale-blue tucked shirt and high-waisted deep-indigo wide trousers visible. Small caramel bag reads somewhat rectangular; user visual review pending.",
+          "evidence": "光學白無鋪棉短版薄斜紋夾克；淡藍短袖棉襯衫紮入腰頭；深靛藍高腰薄料長寬褲；黑色平底樂福鞋；焦糖棕小方包"
+        },
+        {
+          "slot_id": "2026-W37-002-L01_proof",
+          "look_id": "2026-W37-002-L01",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S02_storyboard_v1_medium_candidate.png",
+          "source_type": "native_vertical_still_candidate",
+          "approval": "user_visual_approved_as_L01_styling_proof_2026-09-29",
+          "framing_review": "941x1672 approximately 9:16; head-to-leg medium styling view",
+          "clarity_review": "White cropped-jacket hem, tucked pale-blue shirt and deep-indigo high waistband clear; user replied 可以，沿用這張.",
+          "evidence": "白夾克下襬與高腰深藍褲形成清楚長短差，褲管不堆地"
+        },
+        {
+          "slot_id": "2026-W37-002-L02_full",
+          "look_id": "2026-W37-002-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/2026-W37-002-L02_M05_S02_storyboard_v1_full_candidate.png",
+          "source_type": "native_vertical_still_candidate",
+          "approval": "user_visual_approved_as_B_wardrobe_reference_2026-09-29",
+          "framing_review": "941x1672 approximately 9:16; near-frontal full person",
+          "clarity_review": "Jacket-to-waistband border, trouser length and black bag visible. One brown shoe partly behind trouser hem/other leg; user replied 可以，沿用這張.",
+          "evidence": "沙色腰骨長度薄棉短夾克；白色圓領短袖上衣紮入腰頭；霧灰高腰薄料長寬褲；深棕低跟包鞋；黑色小肩包"
+        },
+        {
+          "slot_id": "2026-W37-002-L02_proof",
+          "look_id": "2026-W37-002-L02",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/2026-W37-002-L02_M05_S03_storyboard_v1_medium_candidate.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_as_B_medium_first_frame_2026-09-29",
+          "framing_review": "941x1672 approximately 9:16; head-to-upper-leg medium composition",
+          "clarity_review": "Sand jacket hem, white tee and gray waistband clear; user replied 可以，沿用這張.",
+          "evidence": "沙色短下襬、白色內搭與灰褲腰頭的邊界清楚"
+        }
+      ],
+      "storyboard": [
+        {
+          "look_id": "2026-W37-002-L01",
+          "shot_id": "A",
+          "sequence": "fixed_full_person_normal_speed",
+          "source_still_status": "user_visual_approved_for_motion",
+          "camera_motion": "locked_camera_single_first_frame; short jacket hem and waistband stay visible",
+          "outfit_evidence": "白短夾克下襬、靛藍高腰寬褲與黑樂福鞋"
+        },
+        {
+          "look_id": "2026-W37-002-L02",
+          "shot_id": "B",
+          "sequence": "fixed_full_person_normal_speed",
+          "source_still_status": "full_and_medium_user_visual_approved",
+          "camera_motion": "locked_camera_single_first_frame; direct cut at similar full-person scale",
+          "outfit_evidence": "沙色短夾克、霧灰高腰寬褲、深棕低跟鞋"
+        }
+      ],
+      "generation": {
+        "settings": "Selected A/B fixed-camera sources: 9:16, 720p, 6s, audio off; earlier failed first/last tests retained below",
+        "prompt_version": "M05_A_full_fixed_environment_v1_and_B_full_fixed_v1",
+        "trials": [
+          {
+            "trial_id": "A_scale_push_v1",
+            "attempt_id": "01",
+            "record_path": "10_automation/runs/2026-W37/reels/M05_A_L01_motion_01.json",
+            "source_url": "https://grok.com/imagine/post/5a497cf5-2788-423a-9e39-cb3b427793aa?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_scale_push_v1_01.mp4",
+            "qa": "rejected_trouser_hue_drift"
+          },
+          {
+            "trial_id": "A_scale_push_v1",
+            "attempt_id": "02",
+            "record_path": "10_automation/runs/2026-W37/reels/M05_A_L01_motion_02.json",
+            "source_url": "https://grok.com/imagine/post/c9328e94-80a9-4e4c-be00-4094ef7d61c5?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_scale_push_v2_02.mp4",
+            "qa": "full_shot_rejected_magenta_waistband; first_43_frames_provisional_only"
+          },
+          {
+            "trial_id": "B_full_fixed_v1",
+            "attempt_id": "01",
+            "record_path": "10_automation/runs/2026-W37/reels/M05_B_L02_motion_01.json",
+            "source_url": "https://grok.com/imagine/post/0b0579f7-e91d-425a-994f-59a62e191285?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M05_B_L02_full_fixed_v1_01.mp4",
+            "qa": "first_60_frames_provisional_technical_pass"
+          },
+          {
+            "trial_id": "A_first_last_push_v1",
+            "attempt_id": "01",
+            "record_path": "10_automation/runs/2026-W37/reels/M05_A_L01_first_last_push_v1_01.json",
+            "source_url": "https://grok.com/imagine/post/099469a4-016e-47ba-ae96-baa177df8d67?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_first_last_push_v1_01.mp4",
+            "qa": "user_rejected_environment_drift; retain_as_failed_first_last_test"
+          },
+          {
+            "trial_id": "B_first_last_pull_v1",
+            "attempt_id": "01",
+            "record_path": "10_automation/runs/2026-W37/reels/M05_B_L02_first_last_pull_v1_01.json",
+            "source_url": "https://grok.com/imagine/post/cef45787-39b7-483f-9650-1d9a1d84f48a?conversation=d2a04a18-a1c1-4a4d-a2d0-c2d8c53fbe8c",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M05_B_L02_first_last_pull_v1_01.mp4",
+            "qa": "user_rejected_environment_drift; retain_as_failed_first_last_test"
+          },
+          {
+            "trial_id": "A_full_fixed_environment_v1",
+            "attempt_id": "01",
+            "record_path": "10_automation/runs/2026-W37/reels/M05_A_L01_full_fixed_environment_v1_01.json",
+            "source_url": "https://grok.com/imagine/post/5373b1b8-94c3-4aa7-82ea-6b160e77e60a?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_full_fixed_environment_v1_01.mp4",
+            "qa": "sampled_environment_and_color_stable; selected_frames_0_to_95; user_motion_review_pending"
+          }
+        ]
+      },
+      "output_path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "qa": {
+        "status": "picture_track_technical_and_user_visual_approved_clean_unpublished",
+        "continuous_watch_done": "user_normal_speed_review_2026-09-30",
+        "user_approval": "2026-09-30: ok after explicit background-stability and outfit-cut review question"
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4"
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "picture_track_user_visual_approved_clean_unpublished",
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "visual_theme": "建築事務所到陶藝展廊：兩套短外套配寬褲，腰線與褲管垂墜清楚可見",
+      "storyboard_file": "10_automation/runs/2026-W37/reels/M05_short_jacket_visual_story_v1.md",
+      "technical_fallback_storyboard_file": "10_automation/runs/2026-W37/reels/M05_short_jacket_fallback_two_full_shots_v1.md",
+      "review_cut_record": "10_automation/runs/2026-W37/reels/M05_two_looks_fixed_environment_review_v2_01.json",
+      "rejected_keyframe_review_cut_record": "10_automation/runs/2026-W37/reels/M05_two_looks_first_last_review_v2_01.json",
+      "fallback_review_cut_record": "10_automation/runs/2026-W37/reels/M05_two_full_shots_review_v2_01.json",
+      "keyframe_test_file": "10_automation/runs/2026-W37/reels/M05_keyframe_continuity_test_v1.md",
+      "instagram_post_caption_draft": "10_automation/runs/2026-W37/reels/M05_instagram_caption_draft.md",
+      "still_generation_records": [
+        "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/S01_storyboard_v1_generation.json",
+        "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/S02_storyboard_v1_generation.json",
+        "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/S02_storyboard_v1_generation.json",
+        "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/S03_storyboard_v1_generation.json"
+      ],
+      "caption_path": "10_automation/runs/2026-W37/reels/M05_instagram_caption_draft.md"
+    },
+    {
+      "reel_id": "2026-W37-M04-reel",
+      "week_id": "2026-W37",
+      "theme_id": "2026-W37-003",
+      "model_profile_id": "M04",
+      "look_ids": [
+        "2026-W37-003-L01",
+        "2026-W37-003-L02"
+      ],
+      "theme": "柔軟材質配結構輪廓",
+      "audience_problem": "想穿有垂墜感的柔軟衣料，怎樣保留一個清楚的輪廓？",
+      "editorial_candidates": [
+        "只用肩線明確的外套增加結構，洋裝保留柔軟垂墜",
+        "天熱時把結構放在薄上衣的立領，其餘用柔軟裙身平衡"
+      ],
+      "format_variant": "A_same_problem_two_looks",
+      "identity": {
+        "face": "02_brand/reference_models/M04_start_v3_face.png",
+        "full": "02_brand/reference_models/M04_start_v3_full.png",
+        "saved_reference_name": null
+      },
+      "views": [
+        {
+          "slot_id": "2026-W37-003-L01_full",
+          "look_id": "2026-W37-003-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L01/reel/2026-W37-003-L01_M04_S01_storyboard_v1_start_candidate.png",
+          "source_type": "native_vertical_still_candidate",
+          "approval": "user_visual_approved_for_motion_2026-09-30",
+          "framing_review": "941x1672 approximately 9:16; full head and both shoes visible; near-frontal face; space for first step",
+          "clarity_review": "Assistant initial review: navy shoulder structure, ivory straight satin dress and black loafers readable; identity and outfit still await user visual approval",
+          "evidence": "深海軍藍無內裡肩線清楚的輕薄外套；米白圓領無袖緞面中長洋裝；黑色低跟樂福鞋；黑色小腋下包；細銀耳環"
+        },
+        {
+          "slot_id": "2026-W37-003-L01_proof",
+          "look_id": "2026-W37-003-L01",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/reels/qa/M04_A_L01_upload_trial_01/checkpoint_5_3.750s.png",
+          "source_type": "source_video_checkpoint",
+          "approval": "selected_video_interval_user_visual_approved_2026-10-01",
+          "framing_review": "720x1264 near-knee portrait; full shoulder line and jacket hem visible",
+          "clarity_review": "Navy shoulder structure and ivory drape readable in native source frame; continuous acceptance pending",
+          "evidence": "深色肩線與米白緞面柔軟折光形成對比"
+        },
+        {
+          "slot_id": "2026-W37-003-L02_full",
+          "look_id": "2026-W37-003-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L02/reel/2026-W37-003-L02_M04_S02_storyboard_v1_full_candidate.png",
+          "source_type": "native_vertical_still_candidate",
+          "approval": "user_visual_approved_for_motion_2026-09-30",
+          "framing_review": "941x1672 approximately 9:16; full head and both shoes visible; near-frontal face; matches L01 light and subject placement",
+          "clarity_review": "Assistant initial review: ivory stand collar, dark ink-navy straight satin skirt and black low-heel squared-point shoes visible; one targeted shoe correction made; user visual approval pending",
+          "evidence": "米白無袖立領棉府綢上衣；墨藍高腰緞面中長直裙；黑色低跟尖方頭鞋；黑色小肩包；銀色耳釘"
+        },
+        {
+          "slot_id": "2026-W37-003-L02_proof",
+          "look_id": "2026-W37-003-L02",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L02/reel/2026-W37-003-L02_M04_S03_medium_start_candidate_v1.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion_2026-10-01",
+          "framing_review": "Native vertical head-to-knees; eyes near 13% height; face and shoulder scale close to A 3.75s sample; exact moving cut still requires validation.",
+          "clarity_review": "Ivory sleeveless standing collar, concealed placket, tucked navy waistband and straight satin skirt remain visible; black shoulder bag and silver studs present.",
+          "evidence": "米白立領有明確形狀，墨藍裙身自然垂墜而不蓬起"
+        }
+      ],
+      "storyboard": [
+        {
+          "shot_id": "A",
+          "look_id": "2026-W37-003-L01",
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M04_A_L01_upload_trial_01.mp4",
+          "start_frame": 0,
+          "end_frame_exclusive": 90,
+          "plan": "Normal-speed approach full to near-knee",
+          "qa": "selected_interval_user_visual_approved_2026-10-01"
+        },
+        {
+          "shot_id": "B",
+          "look_id": "2026-W37-003-L02",
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M04_B_L02_motion_v1_01.mp4",
+          "start_frame": 6,
+          "end_frame_exclusive": 108,
+          "plan": "Direct matched-scale outfit cut, source camera retreat to full person",
+          "qa": "selected_interval_user_visual_approved_2026-10-01"
+        }
+      ],
+      "generation": {
+        "settings": "A upload trial input settings unknown. B confirmed single First frame, no saved character reference, 720p,6s,audio off; both actual 720x1264 at24fps. Review export720x1280 normal speed, uniform scale and narrow center side crop, silent.",
+        "prompt_version": "B_L02_motion_v1",
+        "trials": [
+          {
+            "trial_id": "M04_A_L01_upload_trial_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M04_A_L01_upload_trial_01.mp4",
+            "source_url": "https://grok.com/imagine/post/3e7564af-3149-4773-a1de-f080a38b3f5b?conversation=b7a6dff7-527f-40e2-a8e8-6034b92b5a89",
+            "record_path": "10_automation/runs/2026-W37/reels/M04_A_L01_upload_trial_01.json",
+            "qa": "technical_decode_complete_sampled_visual_review_continuous_qa_pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "M04_B_L02_motion_v1_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M04_B_L02_motion_v1_01.mp4",
+            "source_url": "https://grok.com/imagine/post/483eca50-0208-40a1-a340-895a4e0c5e63?conversation=fcdcd8cf-1fc9-44bc-a33c-6d86fa2aebad",
+            "record_path": "10_automation/runs/2026-W37/reels/M04_B_L02_motion_v1_01.json",
+            "qa": "decoded_sampled_review_complete_continuous_qa_pending",
+            "motion_result": null
+          }
+        ]
+      },
+      "output_path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+      "qa": {
+        "status": "technical_decode_and_user_visual_approved",
+        "continuous_watch_done": true,
+        "user_approval": "可以，沿用這版",
+        "approval_date": "2026-10-01",
+        "continuous_review_reviewer": "user"
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4"
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "user_visual_approved_clean_picture_track_music_publication_pending",
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "visual_theme": "同一藝文中心的前廳與設計書店：結構焦點由第一套深藍外套肩線移到第二套米白上衣立領，柔軟緞面下身保持直落。詳見 M04_storyboard_v1.md。",
+      "caption_path": "10_automation/runs/2026-W37/reels/M04_instagram_caption_draft.md",
+      "cover_candidate_path": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L01/reel/2026-W37-003-L01_M04_S01_storyboard_v1_start_candidate.png"
+    },
+    {
+      "reel_id": "2026-W37-M01-reel",
+      "week_id": "2026-W37",
+      "theme_id": "2026-W37-004",
+      "model_profile_id": "M01",
+      "look_ids": [
+        "2026-W37-004-L01",
+        "2026-W37-004-L02"
+      ],
+      "theme": "復古 T 字帶鞋日常化",
+      "audience_problem": "T字帶鞋配日常衣服，褲腳與裙襬怎樣安排才看得到鞋帶？",
+      "editorial_candidates": [
+        "基本款配T字帶鞋時縮短褲長，露出腳背的T字結構",
+        "中長裙用單色簡潔剪裁，讓淺色T字帶鞋清楚呈現"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M01_start_v4_face.png",
+        "full": "02_brand/reference_models/M01_start_v4_full.png",
+        "saved_reference_name": null
+      },
+      "views": [
+        {
+          "slot_id": "2026-W37-004-L01_full",
+          "look_id": "2026-W37-004-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L01/reel/2026-W37-004-L01_M01_S01_full_start_candidate_v1.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion_2026-10-01",
+          "framing_review": "Native vertical9:16 composition; full hair and both shoes visible, forward floor space.",
+          "clarity_review": "White short-sleeved collar shirt, high-waisted dark-gray ankle-clear straight trousers, black belt and shoulder bag; burgundy closed-toe low broad heels with one vertical instep strap joining ankle-front strap.",
+          "evidence": "白色短袖棉府綢襯衫；深灰高腰及踝直筒褲；酒紅色低粗跟T字帶鞋，腳背中央直帶連接踝前橫帶、包頭；黑色小肩包；黑色窄皮帶"
+        },
+        {
+          "slot_id": "2026-W37-004-L01_proof",
+          "look_id": "2026-W37-004-L01",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L01/reel/2026-W37-004-L01_M01_shoe_proof_crop_v1.png",
+          "source_type": "exact_crop_from_approved_native_vertical_still",
+          "approval": "reused_from_user_approved_source_after_vertical_clarity_review",
+          "framing_review": "450x800 exact9:16 crop; entire paired shoes, contact shadows and hem-to-instep space retained. No stretching or resampling.",
+          "clarity_review": "Burgundy T intersections on both shoes clearly visible; trouser hems above instep.",
+          "evidence": "白襯衫與灰褲保持簡潔，酒紅鞋的直帶與橫帶完整可見",
+          "review_record_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L01/reel/shoe_proof_crop_review_v1.json"
+        },
+        {
+          "slot_id": "2026-W37-004-L02_full",
+          "look_id": "2026-W37-004-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L02/reel/2026-W37-004-L02_M01_S02_full_start_candidate_v1.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion_2026-10-01",
+          "framing_review": "Native941x1672 full hair/both shoes; source cut scale still requires matching",
+          "clarity_review": "Cream square-toe T intersection visible below black midi skirt",
+          "evidence": "黑色短袖棉質上衣；黑色高腰中長A字裙；奶油白方頭低粗跟T字帶鞋，腳背直帶連接橫帶；黑色小肩包；細銀耳釘"
+        },
+        {
+          "slot_id": "2026-W37-004-L02_proof",
+          "look_id": "2026-W37-004-L02",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L02/reel/2026-W37-004-L02_M01_shoe_proof_crop_v1.png",
+          "source_type": "exact_crop_from_approved_native_vertical_still",
+          "approval": "reused_from_user_approved_source_after_vertical_clarity_review",
+          "framing_review": "450x800 exact9:16 crop; entire paired shoes, contact shadows and hem-to-instep space retained. No stretching or resampling.",
+          "clarity_review": "Cream T intersections on both shoes clearly visible; black midi hem and lower-leg gap retained.",
+          "evidence": "黑裙下露出奶油白鞋面與T字交叉結構，不加其他復古裝飾",
+          "review_record_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L02/reel/shoe_proof_crop_review_v1.json"
+        }
+      ],
+      "storyboard": [
+        {
+          "shot_id": "A",
+          "look_id": "2026-W37-004-L01",
+          "plan": "Fixed full-person, near frontal; ordinary one short step; preserve entire shoes and T intersection; provisional3.5-4s",
+          "source_still_status": "user_visual_approved_for_motion_2026-10-01",
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M01_A_L01_fixed_full_v1_01.mp4",
+          "dynamic_status": "selected_interval_pending_user_continuous_review",
+          "source_start_frame": 18,
+          "source_end_frame_exclusive": 102,
+          "framing_filter": "scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280"
+        },
+        {
+          "shot_id": "B",
+          "look_id": "2026-W37-004-L02",
+          "plan": "Matched full-person scale, eye/shoe positions and left daylight; natural weight shift and one very short planting step, avoiding forward approach that might crop shoes.",
+          "source_still_status": "user_visual_approved_for_motion_2026-10-01",
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M01_B_L02_fixed_full_v1_01.mp4",
+          "source_start_frame": 18,
+          "source_end_frame_exclusive": 114,
+          "framing_filter": "crop=642:1140:39:20,scale=720:1280",
+          "dynamic_status": "selected_interval_pending_user_continuous_review"
+        }
+      ],
+      "generation": {
+        "settings": "Single First frame, no saved character;720p,6s,audiooff;actual720x1264/24fps/145frames.",
+        "prompt_version": "M01_A_L01_motion_v1 + M01_B_L02_motion_v1",
+        "trials": [
+          {
+            "trial_id": "M01_A_L01_fixed_full_v1_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M01_A_L01_fixed_full_v1_01.mp4",
+            "source_url": "https://grok.com/imagine/post/6ff969d3-1fb5-4c34-b459-852b355c6eb0?conversation=3b3e5491-81b8-4cb3-8337-019b36c8a6ce",
+            "record_path": "10_automation/runs/2026-W37/reels/M01_A_L01_fixed_full_v1_01.json",
+            "qa": "decoded_sampled_review_complete_continuous_qa_pending",
+            "motion_result": null
+          },
+          {
+            "trial_id": "M01_B_L02_fixed_full_v1_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M01_B_L02_fixed_full_v1_01.mp4",
+            "source_url": "https://grok.com/imagine/post/c8638cbf-890f-4da7-8419-5bdc3daf0ef6?conversation=fad61295-df9b-401e-a17b-64172f9360cb",
+            "record_path": "10_automation/runs/2026-W37/reels/M01_B_L02_fixed_full_v1_01.json",
+            "qa": "decoded_sampled_review_complete_continuous_qa_pending",
+            "motion_result": null
+          }
+        ]
+      },
+      "output_path": "10_automation/runs/2026-W37/reels/videos/M01_two_looks_soft_review_v2_01.mp4",
+      "qa": {
+        "status": "user_accepted_complete_picture_track",
+        "continuous_watch_done": true,
+        "user_approval": "ok",
+        "continuous_review_reviewer": "user",
+        "approval_date": "2026-10-02",
+        "approval_evidence": {
+          "date": "2026-10-02",
+          "reply": "ok",
+          "reviewer": "user",
+          "context": "Direct reply to embedded M01 soft-transition complete preview and explicit adoption question.",
+          "scope": "Complete clean picture track with0.75-second overlap; no music or publication approval."
+        }
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": "10_automation/runs/2026-W37/reels/videos/M01_two_looks_soft_review_v2_01.mp4"
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "user_accepted_clean_picture_track",
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "visual_theme": "同一街區步行廊：白襯衫踝上灰褲配酒紅T字帶鞋，黑色中長裙配奶油白T字帶鞋；完整鞋面與褲／裙長共同比較。詳見M01_storyboard_v1.md。",
+      "output_record_path": "10_automation/runs/2026-W37/reels/M01_two_looks_soft_review_v2_01.json",
+      "caption_path": "10_automation/runs/2026-W37/reels/M01_instagram_caption_draft.md",
+      "cover_candidate_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L01/reel/2026-W37-004-L01_M01_S01_full_start_candidate_v1.png",
+      "prior_output_path": "10_automation/runs/2026-W37/reels/videos/M01_two_looks_review_v1_01.mp4",
+      "edit": {
+        "transition": "cross_dissolve",
+        "duration_seconds": 0.75,
+        "start_seconds": 2.75,
+        "end_seconds": 3.5,
+        "actual_duration_seconds": 6.708333333333333,
+        "source_speed": "unchanged",
+        "character_action": "unchanged",
+        "decision_date": "2026-10-02"
+      }
+    },
+    {
+      "reel_id": "2026-W37-M03-reel",
+      "week_id": "2026-W37",
+      "theme_id": "2026-W37-005",
+      "model_profile_id": "M03",
+      "look_ids": [
+        "2026-W37-005-L01",
+        "2026-W37-005-L02"
+      ],
+      "theme": "麂皮與皮革一件亮點",
+      "audience_problem": "換季仍穿薄衣服，如何用一個麂皮包增加材質差異？",
+      "editorial_candidates": [
+        "入秋先用麂皮小包，衣服保留薄棉麻",
+        "薄襯衫裙搭一個深棕麂皮包，以小面積換材質"
+      ],
+      "format_variant": "A",
+      "identity": {
+        "face": "02_brand/reference_models/M03_start_v3_face.png",
+        "full": "02_brand/reference_models/M03_start_v3_full.png",
+        "saved_reference_name": null
+      },
+      "views": [
+        {
+          "slot_id": "2026-W37-005-L01_full",
+          "look_id": "2026-W37-005-L01",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A1_full_start_candidate_v2.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion_2026-10-01",
+          "framing_review": "941x1672 native vertical composition; full hair and both shoes visible, free arms do not cover bag. Bag center approximately x63%,y36%.",
+          "clarity_review": "Cream sleeveless collared shirt tucked into dark-coffee straight trousers, full black low-heel loafers, silver earrings; caramel suede small shoulder bag beside waistband.",
+          "evidence": "奶油白無袖棉麻襯衫；深咖啡高腰薄棉麻直筒褲；焦糖色短毛麂皮小肩包；黑色低跟樂福鞋；細銀耳環"
+        },
+        {
+          "slot_id": "2026-W37-005-L01_proof",
+          "look_id": "2026-W37-005-L01",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A2_detail_start_candidate_v4.png",
+          "source_type": "native_vertical_generated_detail",
+          "approval": "user_visual_approved_for_motion_2026-10-01",
+          "framing_review": "Native941x1672 vertical detail, no face/chin/mouth; complete bag panel, strap/buckle, cream shirt, waist and relaxed hands visible. Actual framing extends toward knees despite upper-thigh request.",
+          "clarity_review": "Cream sleeveless collared shirt tucked into dark-coffee trousers; small caramel tapered bag on viewer-right. V4 rebuilding reduced the obvious decorative markings seen in rejected derivatives; fine cloth appearance still subject to user review.",
+          "evidence": "焦糖麂皮絨面貼近奶油白棉麻，黑鞋低調不搶材質對比",
+          "review_record_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/A2_detail_generation_v4.json"
+        },
+        {
+          "slot_id": "2026-W37-005-L02_full",
+          "look_id": "2026-W37-005-L02",
+          "role": "full",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/2026-W37-005-L02_M03_B1_full_start_candidate_v2.png",
+          "source_type": "native_vertical_still",
+          "approval": "user_visual_approved_for_motion_2026-10-01",
+          "framing_review": "Full hair and both shoes; native941x1672",
+          "clarity_review": "Plain light-blue short-sleeve collared shirt dress, same-fabric tied belt, calf-length A-line hem; small dark chocolate-brown suede bag at viewer-right waist after one color correction.",
+          "evidence": "淺藍短袖棉質襯衫中長洋裝，配同布腰帶；巧克力棕短毛麂皮小肩包；黑色平底包鞋；銀色耳釘",
+          "review_record_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/B1_full_start_generation_v2.json",
+          "approval_evidence": "User ok after full v2 preview and explicit loop-earring disclosure."
+        },
+        {
+          "slot_id": "2026-W37-005-L02_proof",
+          "look_id": "2026-W37-005-L02",
+          "role": "proof",
+          "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/2026-W37-005-L02_M03_B2_detail_start_candidate_v1.png",
+          "source_type": "native_vertical_generated_detail",
+          "approval": "user_visual_approved_for_motion_2026-10-01",
+          "framing_review": "Faceless native941x1672 vertical, complete bag and belt knot; lower hem partly visible",
+          "clarity_review": "Blue plain poplin and dark-brown bag panel visible",
+          "evidence": "淺藍棉質裙身與深棕絨面包在腰側相鄰，厚材質只用在小包",
+          "review_record_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/B2_detail_generation_v1.json"
+        }
+      ],
+      "storyboard": [
+        {
+          "shot_id": "A1",
+          "look_id": "2026-W37-005-L01",
+          "start": 0,
+          "end": 2.25,
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+          "framing": "full_person",
+          "status": "motion_sampled_pending_full_review"
+        },
+        {
+          "shot_id": "A2",
+          "look_id": "2026-W37-005-L01",
+          "start": 1.5,
+          "end": 4.25,
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M03_A2_L01_motion_v1_01.mp4",
+          "framing": "faceless_bag_and_cloth_detail",
+          "status": "motion_sampled_pending_full_review"
+        },
+        {
+          "shot_id": "B2",
+          "look_id": "2026-W37-005-L02",
+          "start": 3.5,
+          "end": 6.5,
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M03_B2_L02_motion_v1_01.mp4",
+          "framing": "faceless_bag_and_cloth_detail",
+          "status": "motion_sampled_pending_full_review"
+        },
+        {
+          "shot_id": "B1",
+          "look_id": "2026-W37-005-L02",
+          "start": 5.75,
+          "end": 8.75,
+          "source_video": "10_automation/runs/2026-W37/reels/videos/M03_B1_L02_motion_v1_01.mp4",
+          "framing": "full_person",
+          "status": "motion_sampled_pending_full_review"
+        }
+      ],
+      "generation": {
+        "settings": {
+          "resolution": "720p",
+          "duration": "6s",
+          "audio": "off",
+          "input": "single First frame per shot",
+          "saved_character_selected": false
+        },
+        "prompt_version": "M03_A1_A2_motion_v1",
+        "trials": [
+          {
+            "trial_id": "M03_A1_L01_motion_v1_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+            "source_url": "https://grok.com/imagine/post/75e7eda5-4051-4798-a909-fec73ef69006?conversation=a5650c8a-b2ab-4401-a857-2906812df204",
+            "qa": "sampled_only_continuous_pending",
+            "record_path": "10_automation/runs/2026-W37/reels/M03_A1_L01_motion_v1_01.json"
+          },
+          {
+            "trial_id": "M03_A2_L01_motion_v1_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M03_A2_L01_motion_v1_01.mp4",
+            "source_url": "https://grok.com/imagine/post/eceec701-1dc9-4c90-9a71-c9f9e0662be3?conversation=292e6d74-de12-4fe9-9421-1304cc4e0520",
+            "qa": "sampled_only_continuous_pending",
+            "record_path": "10_automation/runs/2026-W37/reels/M03_A2_L01_motion_v1_01.json"
+          },
+          {
+            "trial_id": "M03_B1_L02_motion_v1_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M03_B1_L02_motion_v1_01.mp4",
+            "source_url": "https://grok.com/imagine/post/b051813d-738d-4595-ab64-71ffe52aab8a?conversation=4ac374b2-aa1a-4eb9-a459-b946e109762e",
+            "qa": "sampled_only_continuous_pending",
+            "record_path": "10_automation/runs/2026-W37/reels/M03_B1_L02_motion_v1_01.json"
+          },
+          {
+            "trial_id": "M03_B2_L02_motion_v1_01",
+            "output_path": "10_automation/runs/2026-W37/reels/videos/M03_B2_L02_motion_v1_01.mp4",
+            "source_url": "https://grok.com/imagine/post/57c71868-a4bd-4f8f-9f92-234222bcd1b9?conversation=a54c2efd-8a25-43b5-a05e-dea8c41e669d",
+            "qa": "sampled_only_continuous_pending",
+            "record_path": "10_automation/runs/2026-W37/reels/M03_B2_L02_motion_v1_01.json"
+          }
+        ]
+      },
+      "output_path": "10_automation/runs/2026-W37/reels/videos/M03_two_looks_soft_review_v1_01.mp4",
+      "qa": {
+        "status": "user_accepted_complete_picture_track",
+        "continuous_watch_done": true,
+        "user_approval": "還ok",
+        "L01_transition_approval": {
+          "record_path": "10_automation/runs/2026-W37/reels/M03_L01_full_detail_review_v4_soft_075s_01.json",
+          "reply": "更舒服",
+          "duration_seconds": 0.75,
+          "scope": "L01 full-to-detail junction only"
+        },
+        "continuous_review_reviewer": "user",
+        "approval_date": "2026-10-02",
+        "approval_evidence": {
+          "date": "2026-10-02",
+          "reply": "還ok",
+          "reviewer": "user",
+          "context": "Reply after embedded complete 8.75-second video and request to review all three transitions, person and background.",
+          "scope": "Selected complete two-look picture track; no music, publication, account-wide style or audience-performance approval."
+        }
+      },
+      "time": {
+        "active_minutes": null,
+        "generation_wait_minutes": null,
+        "upload_wait_minutes": null
+      },
+      "music": {
+        "source": null,
+        "license_evidence": null,
+        "clean_master": "10_automation/runs/2026-W37/reels/videos/M03_two_looks_soft_review_v1_01.mp4"
+      },
+      "commerce": {
+        "kind": "similar_style_inspiration",
+        "products": [],
+        "tracked_links": []
+      },
+      "publication": {
+        "url": null,
+        "published_at": null,
+        "metrics_checkpoints": [
+          "24h",
+          "72h",
+          "7d"
+        ]
+      },
+      "status": "user_accepted_clean_picture_track",
+      "delivered_video_text": "none",
+      "instagram_editor_text_note": null,
+      "visual_theme": "同一咖啡店外廊，先看完整薄衣服，再比較焦糖／奶油白與深棕／淺藍的材質關係，最後回到完整裙裝。",
+      "storyboard_path": "10_automation/runs/2026-W37/reels/M03_storyboard_v1.md",
+      "partial_review_output_path": "10_automation/runs/2026-W37/reels/videos/M03_L01_full_detail_review_v4_soft_075s_01.mp4",
+      "edit_feedback_2026_10_01": {
+        "user_feedback": "User: 好多了，0.75秒呢. Requests longer comparison, same source action and timing.",
+        "test": "10_automation/runs/2026-W37/reels/M03_L01_full_detail_review_v4_soft_075s_01.json",
+        "adopted_globally": false,
+        "slow_motion_impression": "User clarified no action adjustment is needed; revise transition only.",
+        "selected_transition_seconds": 0.75
+      },
+      "caption_path": "10_automation/runs/2026-W37/reels/M03_instagram_caption_draft.md",
+      "delivery_record_path": "10_automation/runs/2026-W37/reels/M03_delivery.md"
+    }
+  ],
+  "editorial_review_2026_10_01": {
+    "report_path": "10_automation/runs/2026-W37/reels/EDITORIAL_REVIEW_2026-10-01.md",
+    "evidence": "24 sampled frames from four cuts plus existing user feedback; no new continuous playback or audience-performance claim",
+    "decision": "Two-shot format is not a mandatory template. M03 proposes four shots for material evidence; hypothesis unvalidated.",
+    "latest_ok_scope": "Acknowledgment to perform editorial review, not M01 video acceptance"
+  },
+  "editing_defaults": {
+    "transition": "cross_dissolve",
+    "duration_seconds": 0.75,
+    "character_action": "unchanged",
+    "source_speed": "unchanged",
+    "decision_date": "2026-10-02",
+    "applies_to": "subsequent_edits",
+    "historical_exports": "preserved",
+    "evidence": "User: 之後所有的切換都要柔和一點，約0.75秒疊加"
+  },
+  "picture_delivery": {
+    "status": "five_user_accepted_clean_picture_tracks",
+    "date": "2026-10-02",
+    "handoff_path": "10_automation/runs/2026-W37/reels/W37_REEL_HANDOFF.md",
+    "music_complete": false,
+    "published": false,
+    "carousel_complete": "not_asserted"
+  }
+}

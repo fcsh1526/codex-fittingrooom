@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-22",
+  "status": "user_selected_exact_storyboard_direction",
+  "artifact": "half_shot_board.png",
+  "sha256": "32901080f8ffcf66e40a940921d9cc5addffdc8057df68f6903375d8a69dad58",
+  "plan": "SHOT_PLAN.md",
+  "source_audit": "SOURCE_AUDIT.md",
+  "question": "建議保留已接受的前四套，第五套先完整展示裙裝約3秒，再於同一鏡推近白襯衫與藍包，以半身收尾；整片預計約21.3秒。是否照這份線稿分鏡準備新的半身收束圖？這尚未改動影片，原全身收束圖仍保留待審。",
+  "options": [
+    "採用第五套全身推近半身",
+    "維持原全身收束",
+    "半身改放其他位置"
+  ],
+  "answer": "採用第五套全身推近半身",
+  "new_photographs_generated": 0,
+  "new_videos_generated": 0,
+  "four_look_accepted_preview_modified": false,
+  "prior_F05_late_still_approval": false,
+  "noteworthy_budget": "proposed511f at24fps ~21.2917s vs prior469f~19.5417s; no source feasibility pass",
+  "independent_audit": "/root/half_shot_reuse_audit_oct22: read-only receipts and QA images, no continuous playback",
+  "user_continue_scope": "Source audit and concrete storyboard preparation; not exact prior-late photo approval or automatic selection of new edit",
+  "approval_receipt": "user_storyboard_approval.json"
+}

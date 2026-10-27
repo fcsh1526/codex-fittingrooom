@@ -1,0 +1,104 @@
+{
+  "review_record_date_local": "2026-10-20",
+  "date_authority": "Asia/Taipei client date; original generation/build receipts retain their recorded date",
+  "status": "three_shot_candidate_ready_for_user_viewing_not_approved",
+  "canvas": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "generation": {
+    "new_asset_id": "cdd9871e-3ebe-47b6-96d2-6bc5aa81be89",
+    "submission_count": 1,
+    "source_download": "C:/Users/Brandon_ChangChien/Downloads/generated_video (51).mp4",
+    "source": "F03_source.mp4",
+    "sha256": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+    "bytes": 6355796,
+    "actual_decoded_frames": 145,
+    "actual_fps": 24,
+    "actual_size": [
+      720,
+      1280
+    ],
+    "actual_seconds_frame_count_over_fps": 6.041666666666667,
+    "actual_audio": "AAC; retained in source, removed only in clean local review",
+    "requested_first": "a7a33bb7-39ff-472d-b27d-53e50fe48c58",
+    "requested_last": "d3c047bd-a2e5-4def-adba-a4ffb7cdcaa4",
+    "face_identity": "6236309c-2343-41e6-985c-994239ff744a",
+    "full_proportions": "ac9ede4e-1715-4518-95b4-bda341a62061",
+    "input_role_confirmation": "Grok agent reports content checked and simultaneous first/last/face/full assignment; internal controls not independently inspected",
+    "grok_completion_record": "grok_completion_dom.txt",
+    "canvas_proof": "grok_result_screenshot.png",
+    "generation_wait_seconds_measured": null,
+    "active_minutes_measured": null
+  },
+  "source_sample_review": {
+    "method": "assistant image inspection plus independent read-only agent of full25, head5 and early/mid/late0.125s foot windows",
+    "observations": [
+      "last square column shifts left and leaves the view around1.5s; no sampled new deep arched corridor",
+      "near planter becomes prominent as camera follows; glass grid, trees and dappled paving remain readable",
+      "outfit remains ivory short stand-collar jacket, white crew T, charcoal trousers and black bag/shoes in viewed samples",
+      "early/mid/late step phases alternate; no obvious sampled end freeze",
+      "no obvious face/outfit collapse in viewed samples"
+    ],
+    "limits": [
+      "not full normal-speed visual playback",
+      "shoe-on-tile sliding, pace match and exact topology not measured",
+      "curb/crossing hints appear at the right late in source, but their same-site geometry is not validated",
+      "generated endpoint has more prominent planter than starting view"
+    ],
+    "eligible_for_research_preview": true,
+    "dynamic_qa_pass": null
+  },
+  "three_shot": {
+    "file": "three_shot_review_v1/F01_F02_F03_native_soft_review_v1.mp4",
+    "sha256": "9bb9bf741f307df29c98be414ba3597606877a01236af7dc43acb43321a4c03e",
+    "frames": 332,
+    "fps": 24,
+    "seconds": 13.833333333333334,
+    "size": [
+      720,
+      1280
+    ],
+    "source_intervals_half_open": {
+      "F01": [
+        0,
+        78
+      ],
+      "F02_corrected": [
+        0,
+        145
+      ],
+      "F03": [
+        0,
+        145
+      ]
+    },
+    "joins_seconds_half_open": [
+      [
+        2.5,
+        3.25
+      ],
+      [
+        7.791666666666667,
+        8.541666666666666
+      ]
+    ],
+    "join_frames": 18,
+    "join_seconds": 0.75,
+    "native_speed": true,
+    "crop_resize_freeze_reverse": false,
+    "text": "none",
+    "audio": "none",
+    "sample_observations": [
+      "large person scale, full shoes and rightward direction remain readable",
+      "newJ23 at7.79-8.54s has visible face/arm/trouser/shoe and column/paving double edges, clearest around8.04s",
+      "column-to-plaza progression is readable in samples, not exact measured site proof"
+    ],
+    "assistant_continuous_visual_playback": false,
+    "user_normal_speed_playback_self_report": null,
+    "user_video_approval": null,
+    "full_five_look_film_approved": false,
+    "publishable": false
+  },
+  "protected_media_hashes_rechecked": true,
+  "accepted_pair_modified": false,
+  "publishing_drive_github_changes": false,
+  "next": "Exact13.83s three-shot user review of gait/cadence, new join and scene progression before F04 still planning"
+}

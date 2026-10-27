@@ -1,0 +1,30 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-002-L01",
+  "model_profile_id": "M05",
+  "created_at": "2026-09-29",
+  "purpose": "Reel A first-frame candidate for full-to-medium shot",
+  "storyboard": "10_automation/runs/2026-W37/reels/M05_short_jacket_visual_story_v1.md",
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/hero_A_prompt_m05_storyboard_v1.md",
+  "tool": "built-in image_gen",
+  "identity_references": [
+    "02_brand/reference_models/M05_start_v1_face.png",
+    "02_brand/reference_models/M05_start_v1_full.png"
+  ],
+  "output_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png",
+  "dimensions": {
+    "width": 941,
+    "height": 1672,
+    "aspect_ratio": 0.562799
+  },
+  "sha256": "6267AF83FFEE4FB656C382BE1E801E3E53FF924D82372D16E65C436B1FABB3F2",
+  "assistant_visual_review": {
+    "identity": "Face shape, eyes, hair length and side part are visually close to approved M05 references; dynamic identity remains untested.",
+    "wardrobe": "White cropped jacket, pale-blue tucked shirt, deep-indigo high-waisted wide trousers and black loafers are legible. The caramel bag is visible but reads more rectangular than square; shirt sleeve length is hidden under jacket.",
+    "framing": "Near-frontal head and both shoes fully visible; vertical ratio approximates 9:16; table does not cover jacket hem or waistband; left window daylight.",
+    "technical_limits": "Still review only; this does not establish Grok motion stability or outfit continuity."
+  },
+  "status": "user_visual_approved_for_motion",
+  "grok_submission": null,
+  "user_visual_approval": "2026-09-29: User replied 好 to the displayed M05 L01 first-frame candidate and explicit adoption question."
+}

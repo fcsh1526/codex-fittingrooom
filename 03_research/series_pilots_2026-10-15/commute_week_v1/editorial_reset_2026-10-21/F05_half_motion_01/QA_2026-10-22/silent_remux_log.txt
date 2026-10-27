@@ -1,0 +1,37 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000019475b55380] stream 0, timescale not set
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\03_research\series_pilots_2026-10-15\commute_week_v1\editorial_reset_2026-10-21\F05_half_motion_01\F05_half_source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Signature: /Wa2dvZjW69rK0UnduHveB9eCt0nr85yFtx6QRCLAtMVk5LFzU6SruqMy9NwkTBmImJC3907MVbusLQAPSGXIUOOkVZjYAJMpSh2RAwGSkxeIcZ3k9n6bXY3fjSfhKnLxtXm/m/1YJP89jcVWeHiWbgjsIENJklQ/RY6k9jwH4Q=
+  Duration: 00:00:06.04, start: 0.000000, bitrate: 8321 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 8048 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc62.34.102 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x0]: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x1280 [SAR 1:1 DAR 9:16], 90k tbr, 90k tbn (attached pic)
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Output #0, mp4, to 'C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\03_research\series_pilots_2026-10-15\commute_week_v1\editorial_reset_2026-10-21\F05_half_motion_01\QA_2026-10-22\F05_half_silent.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Signature: /Wa2dvZjW69rK0UnduHveB9eCt0nr85yFtx6QRCLAtMVk5LFzU6SruqMy9NwkTBmImJC3907MVbusLQAPSGXIUOOkVZjYAJMpSh2RAwGSkxeIcZ3k9n6bXY3fjSfhKnLxtXm/m/1YJP89jcVWeHiWbgjsIENJklQ/RY6k9jwH4Q=
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, q=2-31, 8048 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc62.34.102 libx264
+Press [q] to stop, [?] for help
+[mp4 @ 0000019475e1e8c0] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0000019475e1e780] video:5936KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.045440%
+frame=  145 fps=0.0 q=-1.0 Lsize=    5939KiB time=00:00:05.95 bitrate=8164.8kbits/s speed= 466x    

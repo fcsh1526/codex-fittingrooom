@@ -1,0 +1,30 @@
+[
+  {
+    "look_id": "2026-W37-001-L01",
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+    "actual_pixels": [
+      941,
+      1672
+    ],
+    "sha256": "94aab76b1045be93550e99641ba541894709b2c42e322a1188f2a940c5a68739",
+    "provider": "built-in image_gen",
+    "generated_at": "2026-09-18",
+    "status": "user_adoption_approved",
+    "review": "Open shirt and underlying neckline readable; shoulder straps remain covered. No claim of visible strap width.",
+    "approval_evidence": "User ok following proof previews; adopted for review cut."
+  },
+  {
+    "look_id": "2026-W37-001-L02",
+    "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+    "actual_pixels": [
+      941,
+      1672
+    ],
+    "sha256": "8c8a1e0f2821da002942927a6fefcece86fcf797c2417b8414f16543f6ac10be",
+    "provider": "built-in image_gen",
+    "generated_at": "2026-09-18",
+    "status": "user_adoption_approved",
+    "review": "Open shirt and underlying neckline readable; shoulder straps remain covered. No claim of visible strap width.",
+    "approval_evidence": "User ok following proof previews; adopted for review cut."
+  }
+]

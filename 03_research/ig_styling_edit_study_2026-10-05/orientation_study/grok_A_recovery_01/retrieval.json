@@ -1,0 +1,14 @@
+{
+  "status": "new_source_downloaded",
+  "post_url": "https://grok.com/imagine/post/a720b96e-1dd6-4bbe-935c-a6f737114f57?conversation=685c6276-f7a8-4e66-99f6-d687d7c244d6",
+  "local_source": "source.mp4",
+  "media_selector": "#sd-video",
+  "progress_observed": 20,
+  "stayed_on_result_until_download": true,
+  "source_pixels": [
+    720,
+    1280
+  ],
+  "duration_media_seconds": 6.041667,
+  "root_cause_of_earlier_failures": "unknown"
+}

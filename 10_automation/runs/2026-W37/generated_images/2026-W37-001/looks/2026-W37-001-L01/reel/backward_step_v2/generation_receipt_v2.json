@@ -1,0 +1,50 @@
+{
+  "created_on": "2026-10-06",
+  "model": "M02",
+  "look_id": "2026-W37-001-L01",
+  "candidate": "2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v2.png",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "mode": "RGB",
+  "sha256": "e85778d9d38b7541cc5cf96fb73ea047c26da22c8179fe10b8c30f5c38356cb7",
+  "prompt_set": [
+    "prompt.txt",
+    "headroom_edit_prompt.txt"
+  ],
+  "method": "built_in_image_gen",
+  "use_case": "identity-preserve",
+  "transparent_background": false,
+  "native_output_source": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-197fd744-3f37-4c04-87db-2154fb6060fd.png",
+  "edit_references_in_order": [
+    {
+      "path": "2026-W37-001-L01_M02_fixed_camera_near_start_candidate_v1.png",
+      "role": "near-start image to edit"
+    },
+    {
+      "path": "../paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+      "role": "approved exact wardrobe and library framing master"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "role": "approved v3 face identity only"
+    }
+  ],
+  "generation_count_in_set": 2,
+  "targeted_edit_count": 1,
+  "edit_purpose": "Increase headroom from around6.5% to8–9% while holding wardrobe/identity/background",
+  "observed_headroom": "around8.4%, manual visual estimate",
+  "observed_composition": "Complete hair and face, shirt opening and waist seam, dress hem, partial calves; feet outside frame. Background landmarks appear largely preserved; exact pixel/geometric equality not established.",
+  "visual_status": "user_visual_approved",
+  "user_visual_approval": "visual_approval_v2_2026-10-06.json",
+  "approval_rule": "AGENTS.md: new stills are candidates until user visual approval",
+  "dynamic_test_started": false,
+  "future_backward_step_success": null,
+  "original_assets_overwritten": false,
+  "first_wave_modified": false,
+  "cloud_write": false,
+  "publication": false,
+  "independent_review": "03_research/ig_saved_ootd_study_2026-10-06/backward_step_trial/near_start_v2_headroom_independent_review.md",
+  "root_and_independent_static_review": "No obvious material identity/wardrobe/background change; around8.4% headroom. Approximate visual matching, not calibrated geometry."
+}

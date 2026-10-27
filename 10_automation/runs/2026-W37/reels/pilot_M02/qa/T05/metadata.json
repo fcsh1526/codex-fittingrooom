@@ -1,0 +1,28 @@
+{
+  "source": "10_automation\\runs\\2026-W37\\reels\\pilot_M02\\videos\\T05_01.mp4",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "checkpoint_seconds": [
+    0,
+    1.51,
+    3.02,
+    4.53,
+    5.998333333333333
+  ],
+  "continuous_review": "pending"
+}

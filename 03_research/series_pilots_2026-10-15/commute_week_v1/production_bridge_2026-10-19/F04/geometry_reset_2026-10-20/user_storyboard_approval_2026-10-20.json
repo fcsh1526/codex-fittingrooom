@@ -1,0 +1,16 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "approved_camera_direction_and_smaller_later_framing",
+  "html": "geometry-fixed-lens.html",
+  "html_sha256": "bc3b725e9f1309d64cbca5821bdf715cb9999926608c24a4dbfda8cee4425475",
+  "companion_png": "geometry-fixed-lens-three-views.png",
+  "companion_png_sha256": "69a890b2f96ceca9c07772dd2a69a508a84c072507c6281abb95f933c18922a6",
+  "question": "請看第四鏡分鏡：接續原起點，移到人物側面跟拍過街，再略落後到公司側；後半人物會稍微變小。這次調整了拍攝角度與人物尺度，是否可以沿這個方向準備相容的新圖？",
+  "user_answer": "可以，沿這個分鏡繼續",
+  "scope": "New camera direction and smaller later person framing approved; prepare compatible photographic candidates. Original start planning retained, shared paint and route fixed.",
+  "new_photographs_approved": false,
+  "dynamic_QA": null,
+  "photographic_match_to_existing_prefix_proven": false,
+  "new_video_authorized_before_still_approval": false,
+  "accepted_prefix_and_publishing_packages_preserved": true
+}

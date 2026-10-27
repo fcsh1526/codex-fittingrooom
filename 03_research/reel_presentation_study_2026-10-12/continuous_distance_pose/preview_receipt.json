@@ -1,0 +1,83 @@
+{
+  "status": "single_look_motion_preview_ready_user_review_pending",
+  "source": "03_research/reel_presentation_study_2026-10-12/continuous_distance_pose/A_attempt_02/source.mp4",
+  "source_sha256": "8e9deb287f3d0eef8055a0fd2e0bf3b05e51a04fdfb767e766ea5d2b084dfa20",
+  "preview": "03_research/reel_presentation_study_2026-10-12/continuous_distance_pose/M03_continuous_distance_pose_A_v1.mp4",
+  "preview_sha256": "96b65c733d45c3947f2ca3a05b3e7c60564b4b4dda4b261e35b7cb32073837ab",
+  "processing": "Video stream copy; remove all audio; faststart. No retime, crop, freeze, reverse, added text or transition.",
+  "audio_streams_verified": 0,
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_presentation_study_2026-10-12\\continuous_distance_pose\\M03_continuous_distance_pose_A_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 10.04
+    },
+    "decoded_frames": 241,
+    "decoded_seconds": 10.041666666666666,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "review_observations": {
+    "review_method": "All 241 whole-frame thumbnails covered; 25 larger whole-frame samples and five native face windows inspected. Not continuous normal-speed playback.",
+    "motion": "Near start; backward walking reveals shoes by about 2.5-3 seconds; full stance by about 3.3 seconds; turns toward side around 3.7-5 seconds; side hold through about 6.7 seconds; returns front around 7-8 seconds; front settle to end.",
+    "background": "Originally blank right wall stays blank in reviewed frames; no new window architecture detected. Left window, bench and floor broadly stable.",
+    "identity_and_clothes": "Recognizable face/hair and ivory blazer, white tee, navy trousers retained in reviewed views.",
+    "hands_feet_bag": "No obvious deformation seen at reviewed scales; far-side bag occlusion occurs during side stance and bag returns in front stance. Every frame was not separately reviewed as a native-resolution foot/bag crop.",
+    "framing": "Near start intentionally excludes lower legs; full outfit and shoes contained after retreat. No obvious source cut or zoom in reviewed geometry.",
+    "limits": "Actual side turn is deeper than planned oblique angle. Comfort, hold duration and normal-speed movement await user viewing; no success-rate claim."
+  },
+  "user_film_approval": null,
+  "second_look": "Matching first-frame candidate generated, one framing correction; not uploaded to Grok or animated.",
+  "original_five_w41_reels": [
+    {
+      "model": "M01",
+      "source_path": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+      "unchanged": true
+    },
+    {
+      "model": "M02",
+      "source_path": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+      "unchanged": true
+    },
+    {
+      "model": "M03",
+      "source_path": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+      "unchanged": true
+    },
+    {
+      "model": "M04",
+      "source_path": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+      "unchanged": true
+    },
+    {
+      "model": "M05",
+      "source_path": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd",
+      "unchanged": true
+    }
+  ],
+  "external_mutations": {
+    "drive": false,
+    "github": false,
+    "instagram": false
+  },
+  "user_feedback": "A_user_feedback.json",
+  "second_look_status": "matched_start_v2_user_still_approval_pending"
+}

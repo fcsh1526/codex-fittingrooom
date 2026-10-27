@@ -1,0 +1,29 @@
+{
+  "week": "2026-W41",
+  "model": "M02",
+  "shot": "B",
+  "attempt": 1,
+  "first_frame": "2026-W41-003-L02_M02_reel_candidate_A_v3.png",
+  "saved_reference_name": "Mira M02 v3",
+  "mode": "Video",
+  "ui_resolution": "720p",
+  "ui_duration": "6s",
+  "ui_aspect": "9:16",
+  "ui_audio": false,
+  "submitted_at": "2026-10-08T08:11:51.775Z",
+  "submission_evidence": "Timestamp captured immediately before fresh AX Send; form cleared. Result page displays exact prompt and M02 saved-reference chip.",
+  "result_url": "https://grok.com/imagine/post/be4dc480-d7dd-4dc8-84dc-058505d94959?conversation=61863cf1-b489-42e6-ab5e-d0d9779acb21",
+  "sha256": "7924c288d65aacf9ce831d14787e95c349441a5e4ae5229510dff3155125e0c5",
+  "observed_pixels": [
+    720,
+    1280
+  ],
+  "observed_seconds": 6.041667,
+  "actual_fps": 24,
+  "actual_frames": 145,
+  "actual_audio_streams": 0,
+  "sampled_review": "25 full-frame and5 face checkpoints plus all145 consecutive lower-body windows inspected. Short approach, trailing-foot catch-up, followed by small stance opening; not exact single foot placement. No apparent gross shoe/pants collapse or foot teleport. Face, outfit and cafe broadly coherent in inspected samples; continuous normal-speed review pending.",
+  "continuous_playback_review": false,
+  "user_approval": null,
+  "status": "downloaded_sampled_source_review_complete"
+}

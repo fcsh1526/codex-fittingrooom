@@ -1,0 +1,20 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000020a94d64bc0] stream 0, timescale not set
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\03_research\series_pilots_2026-10-15\commute_week_v1\production_bridge_2026-10-19\F05\motion_01\F05_source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Signature: oLCx1FvpMG6oHHqSg807WA6S8kh+VlnHy41stFV/LojcCOs69h0OwmYIYM4W9gKbkNurGS9KHnrINEfmKbfx9zB8Atwro+BWjwmeZYudySWqxphPWSzVbQaFiraRpuqF9tZIZzocJA75Sum8uX+F7GNd2+KyqoiLXTvAst/fLtg=
+  Duration: 00:00:06.04, start: 0.000000, bitrate: 6252 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 6032 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc62.34.102 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 126 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+  Stream #0:2[0x0]: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x1280 [SAR 1:1 DAR 9:16], 90k tbr, 90k tbn (attached pic)
+At least one output file must be specified

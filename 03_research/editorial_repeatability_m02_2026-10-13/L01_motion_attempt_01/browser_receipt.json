@@ -1,0 +1,18 @@
+{
+  "reference": "Mira M02 v3",
+  "first_frame": "2026-W41-003-L01_M02_seated_candidate_v3.png",
+  "image_role": "single First frame, no middle/last",
+  "settings": {
+    "resolution": "720p",
+    "duration": "6s",
+    "aspect_ratio": "9:16",
+    "audio": false
+  },
+  "prompt": "Use the selected Mira M02 v3 identity reference and only the approved seated First frame. Keep the exact cream crewneck cotton tee, open ivory short zip-front jacket and rolled sleeves, cocoa-brown straight denim, narrow black belt, black shoulder bag and low brown bun visible in that frame. Already seated on the wooden stool with one hand on each thigh, she makes one small natural change of attention toward the walkway at image-right, then settles with a quiet smile. Only a slight head turn, face remains nearly frontal; hands stay supported on the thighs, legs and torso remain comfortably seated. Fixed camera, original head-through-knees framing, normal everyday movement. Preserve the wooden stool, gray wall, left planter, right wood-framed glass door, paving and soft left daylight without geometric shifts. No standing, sitting-down action, clothing adjustment, zoom, outfit change, decorative cloth motifs, text or audio.",
+  "submitted_at": "2026-10-13T08:44:09.618Z",
+  "downloaded_at": "2026-10-13T08:45:37.779Z",
+  "post": "https://grok.com/imagine/post/19dfe39b-7b61-4778-a3c7-9702653e33a6?conversation=7317448c-bb23-49f8-afe3-672f776a4112",
+  "confirmed_generation_count": 1,
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-7317448c-bb23-49f8-afe3-672f776a4112.mp4",
+  "scope": "New source only, dynamic and joins pending"
+}

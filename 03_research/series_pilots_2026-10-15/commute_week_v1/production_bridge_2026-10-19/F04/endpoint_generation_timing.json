@@ -1,0 +1,7 @@
+{
+  "record_date_local": "2026-10-20",
+  "method": "functions.exec wall-clock measurement around built-in calls",
+  "base_generation_wait_seconds": 46.395,
+  "single_edit_generation_wait_seconds": 29.198,
+  "active_minutes_measured": null
+}

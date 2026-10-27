@@ -1,6 +1,7 @@
 tmp/
 __pycache__/
 *.pyc
+10_automation/.video_dependencies/
 
 # Local/private source material and draft anchor explorations.
 10_automation/runs/*/reference_anchor_sources/

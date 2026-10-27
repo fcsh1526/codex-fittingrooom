@@ -1,0 +1,7 @@
+{
+  "original_framemd5": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/preservation_B/original_selection.framemd5",
+  "same_rate_framemd5": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/preservation_B/same_rate_selection.framemd5",
+  "selected_frames": 144,
+  "identical_frame_hash_sequence": true,
+  "note": "This verifies decoded source frames before the dissolve and output encoding, not final encoded-video pixels."
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-12",
+  "week": "2026-W41",
+  "model": "M03",
+  "user_direction": "人物慢慢轉圈或改變姿勢，讓觀眾看整體與衣服在不同動作下的表現；避免依賴容易出錯的細微袖口互動。",
+  "visual_theme": "全身正面—斜側面—回正，觀察西外輪廓、褲型與布料動態",
+  "scope": "first test shallow body turn for both already approved looks; not a 360-degree turn or newly inferred back garment design",
+  "stills": [
+    "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/2026-W41-004-L01_M03_reel_candidate_A_v2.png",
+    "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/2026-W41-004-L02_M03_reel_candidate_A.png"
+  ],
+  "approval_receipt": "10_automation/runs/2026-W41/reels/M03_full_pair_user_approval_2026-10-08.json",
+  "identity": "Mira M03 v3",
+  "settings_requested": {
+    "resolution": "720p",
+    "duration_seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "storyboard": {
+    "start": "both complete outfits front-facing, fixed camera, matching head/waist/shoe positions",
+    "action": "weight transfer + shallow whole-body pivot + settle facing front",
+    "end": "relaxed front-facing stance",
+    "clothing_evidence": "front/oblique blazer hem and open lapels, straight-trouser side contour and movement",
+    "edit": "compare both full-person sources at fixed equal scale if moving bounds allow; no forced synchronization; any shot switch0.75s",
+    "retry_limit": "one targeted retry per source"
+  },
+  "new_stills": false,
+  "status": "trial_exported_sampled_QA_complete_user_approval_pending",
+  "user_film_approval": null,
+  "actual_motion": "opposing deeper turns and front return; exact requested35 degree direction not achieved"
+}

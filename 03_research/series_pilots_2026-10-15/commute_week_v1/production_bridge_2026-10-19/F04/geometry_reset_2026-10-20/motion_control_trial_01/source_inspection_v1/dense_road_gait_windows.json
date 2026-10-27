@@ -1,0 +1,62 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\motion_control_trial_01\\F04_source.mp4",
+  "source_sha256": "17618efc96ae2039a9c8e3d888e1ac225af769f1e7d45eec889a42b98e69e0b3",
+  "fps": 24,
+  "windows_native_indices": {
+    "2p5_to_3p5s": [
+      60,
+      62,
+      64,
+      66,
+      68,
+      70,
+      72,
+      74,
+      76,
+      78,
+      80,
+      82,
+      84
+    ],
+    "4_to_5s": [
+      96,
+      98,
+      100,
+      102,
+      104,
+      106,
+      108,
+      110,
+      112,
+      114,
+      116,
+      118,
+      120
+    ]
+  },
+  "native_interval_frames": 2,
+  "native_interval_seconds": 0.08333333333333333,
+  "requested_seconds_inclusive": [
+    [
+      2.5,
+      3.5
+    ],
+    [
+      4.0,
+      5.0
+    ]
+  ],
+  "actual_window_reaches_both_requested_endpoints": true,
+  "full_resolution_counterparts": "frames/frame_NNNNNN.png",
+  "foot_road_window_native_xyxy": [
+    0,
+    700,
+    720,
+    1280
+  ],
+  "window_crops_are_inspection_only": true,
+  "retiming_or_media_edit": false,
+  "gait_or_geometry_automatic_pass": false,
+  "visual_qa_pass": null,
+  "normal_speed_full_playback": null
+}

@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-15",
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "status": "originals_downloaded_first_pair_preview_pending_user_review",
+  "inputs": [
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S01_M03_L01_candidate_A.png",
+      "sha256": "e85bc259d141bc50baed97bfbcc5f638b210f6a9971ef91436c8d439b236bf6c",
+      "canvas_asset_id": "b958d6c4-9b48-4f3f-b846-6066c848f6ce",
+      "role": "S01 first frame",
+      "registration_evidence": "Single-file chooser upload followed by new rendered img src and matching natural raster dimensions; input roles also explicitly sent to agent."
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S02_M03_L02_candidate_A.png",
+      "sha256": "6efa44841ae892ce1a82fd42fc046ae60e295c002b23834453d37b594342f2d1",
+      "canvas_asset_id": "51bc0ff8-a519-4247-a901-4c601f3b5421",
+      "role": "S02 first frame",
+      "registration_evidence": "Single-file chooser upload followed by new rendered img src and matching natural raster dimensions; input roles also explicitly sent to agent."
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "canvas_asset_id": "6236309c-2343-41e6-985c-994239ff744a",
+      "role": "M03 face identity",
+      "registration_evidence": "Single-file chooser upload followed by new rendered img src and matching natural raster dimensions; input roles also explicitly sent to agent."
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "canvas_asset_id": "ac9ede4e-1715-4518-95b4-bda341a62061",
+      "role": "M03 body proportions",
+      "registration_evidence": "Single-file chooser upload followed by new rendered img src and matching natural raster dimensions; input roles also explicitly sent to agent."
+    }
+  ],
+  "requested": {
+    "count": 2,
+    "seconds_each": 10,
+    "resolution": "720p",
+    "aspect": "9:16",
+    "last_frame": null,
+    "native_speed": true,
+    "automatic_retries": false
+  },
+  "actual_output": [
+    {
+      "shot_id": "S01",
+      "video_asset_id": "e40a3cf1-b29c-4820-bd32-03035e3a24d7",
+      "local_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S01_source.mp4",
+      "sha256": "499fa888e084649a4988ede3f0469619e2313456f4bd5035338f4d57bb9f3d04",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "decoded_seconds": 10.041666666666666,
+      "black_candidate_frames": [],
+      "near_identical_pairs": []
+    },
+    {
+      "shot_id": "S02",
+      "video_asset_id": "ffcdaa59-aea9-422e-b2da-c80516d5bfc1",
+      "local_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S02_source.mp4",
+      "sha256": "a8f9fc6e9019c23433c855e3d108d97d3236c05f76fa30b02b6b0fcdc97c6ec0",
+      "metadata": {
+        "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+        "codec": "h264",
+        "pix_fmt": "yuv420p(tv, bt709, progressive)",
+        "audio_codec": "aac",
+        "fps": 24.0,
+        "source_size": [
+          720,
+          1280
+        ],
+        "size": [
+          720,
+          1280
+        ],
+        "rotate": 0,
+        "duration": 10.04
+      },
+      "decoded_frames": 241,
+      "decoded_seconds": 10.041666666666666,
+      "black_candidate_frames": [],
+      "near_identical_pairs": []
+    }
+  ],
+  "agent_claims": {
+    "input_content_checked": true,
+    "ten_second_supported": true,
+    "last_frame": null,
+    "audio_could_not_be_disabled": true,
+    "tool_parameter_payload_independently_inspected": false,
+    "face_asset_id": "6236309c-2343-41e6-985c-994239ff744a",
+    "full_asset_id": "ac9ede4e-1715-4518-95b4-bda341a62061"
+  },
+  "independent_dynamic_qa": {
+    "type": "sampled images, dense selected-frame thumbnails and complete technical decode; not continuous playback",
+    "S01": "No clear blocking flaw in selected0-6.5s; head turns gradually toward movement despite steady-head request and trousers brighten grey as light changes.",
+    "S02": "No clear blocking flaw in selected2.5-9s; early expression/head-angle change excluded as practical; rolled sleeves/checks/waist/bag/shoes readable.",
+    "join_qa": "sampled boundary checked; visible expected dissolve overlap; full-playback user review pending",
+    "assistant_continuous_playback": false,
+    "user_video_approval": null
+  },
+  "full_film_approval": null,
+  "upload_note": "Initial multi-file attempt had no clearly verified new assets; subsequent single-file uploads identified the four exact input IDs. Unverified initial uploads were not used or deleted.",
+  "first_pair_preview": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/M03_commute_first_pair_review_v1.mp4"
+}

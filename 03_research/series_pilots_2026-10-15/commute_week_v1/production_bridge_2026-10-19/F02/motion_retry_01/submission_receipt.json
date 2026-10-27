@@ -1,0 +1,19 @@
+{
+  "recorded_date":"2026-10-19",
+  "status":"single_targeted_gait_retry_submitted_agent_thinking",
+  "canvas_url":"https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "prompt":"F02_gait_retry_prompt.txt",
+  "trigger":"../F02_pair_user_feedback_2026-10-19.json",
+  "requested_roles":{"first_frame":"20c59fdd-4d3b-460c-8d0c-8b81be7b257f","last_frame":"85c20ca9-3c40-4c61-b747-1e9cf8b08178","face":"6236309c-2343-41e6-985c-994239ff744a","full_proportions":"ac9ede4e-1715-4518-95b4-bda341a62061"},
+  "source_still_approvals":["../F02_start_user_still_approval_2026-10-19.json","../F02_end_user_still_approval_2026-10-19.json"],
+  "requested_output":{"count":1,"seconds":6,"resolution":"720p9:16","audio":"off if supported, otherwise preserve/report"},
+  "changed_factor":"Walking/ground motion instruction: remove advance-only-a-little cue and require immediate continuous cadence, ground-relative stance and body weight transfer.",
+  "preserved":["exact approved first/last and identity references", "duration6seconds", "wardrobe and compact scene", "continuous side-tracking camera route", "native source speed and subsequent0.75second soft join"],
+  "new_stills_generated":0,
+  "agent_submission_count":1,
+  "generated_video_count_confirmed":0,
+  "actual_settings_independently_visible":null,
+  "observed_ui":"Exact prompt submitted; 正在思考 and Stop control visible.",
+  "previous_media_retimed_or_overwritten":false,
+  "publication_changes":false
+}

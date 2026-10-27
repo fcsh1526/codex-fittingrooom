@@ -1,0 +1,48 @@
+{
+  "date_client": "2026-10-21",
+  "mode": "built-in image_gen",
+  "intent": "F05 first wardrobe edit of actual F04 close frame127",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F05\\F04_actual_f127.png",
+      "sha256": "846848947bcb499114158c6208f68dee528032f062d44ddb00dc9cec2afd976e"
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U02_M03_L04_candidate_A_refined_v2.png",
+      "sha256": "99beee1fe695fa295db579e43320964133ebeb6d7c5eca2862640d4344dfdd1e"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "prompt": "prompt.txt",
+  "prompt_sha256": "c334a5d15dfa31b11cc2c047d36757a37efd1562bf8ccf7e2725ea54a108a455",
+  "generated_source": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-76e48142-ebb0-4f61-a634-4a193b8bda6e.png",
+  "candidate": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F05\\first_still_01\\F05_M03_L04_start_candidate_A.png",
+  "sha256": "9bc90ffa51bdad22106401647fef10fbf20b2da6faf88192b1b6f8191aba97d2",
+  "bytes": 1884125,
+  "dimensions": [
+    941,
+    1672
+  ],
+  "generation_calls": 1,
+  "targeted_corrections": 0,
+  "tool_wait_seconds": 40.9,
+  "active_minutes": null,
+  "status": "exact still approved by user",
+  "root_review": "Same tight right-facing close walk, eye/head/hand placement, natural daylight and soft facade visually match actual127. White short sleeve pointed-collar shirt, black high-waist skirt and cobalt bag replace approved L02 garments. Near-side blue bag remains partly outside left edge to preserve source framing. Black skirt has faint inherited fabric surface detail. This still shows waist/upper skirt, not full hem or company arrival.",
+  "not_inferred": [
+    "exact pixel identity",
+    "dynamic comfort",
+    "full skirt shape validation in this close still",
+    "company entrance end frame approval"
+  ],
+  "grok_uploaded": false,
+  "dynamic_acceptance": null,
+  "approval_receipt": "user_still_approval.json"
+}

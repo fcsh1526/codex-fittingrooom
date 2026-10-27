@@ -1,0 +1,41 @@
+{
+  "source": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/grok_B_attempt_01/source.mp4",
+  "fps": 24,
+  "frame_indices": [
+    0,
+    36,
+    72,
+    107,
+    143
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "seconds": 0.0,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_000.png"
+    },
+    {
+      "frame": 36,
+      "seconds": 1.5,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_001.png"
+    },
+    {
+      "frame": 72,
+      "seconds": 3.0,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_002.png"
+    },
+    {
+      "frame": 107,
+      "seconds": 4.458333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_003.png"
+    },
+    {
+      "frame": 143,
+      "seconds": 5.958333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_004.png"
+    }
+  ],
+  "board": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/selected_source_checkpoints.jpg",
+  "sampled_visual_review": "pending",
+  "continuous_review": "pending"
+}

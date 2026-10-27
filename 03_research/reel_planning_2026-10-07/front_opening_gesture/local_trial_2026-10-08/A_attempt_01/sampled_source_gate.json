@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-08",
+  "source_sha256": "5baaa223b437e6fde482545cc64a0d2b8c85dffec14df6397735b71c7e0b7d49",
+  "approved_sampled_dynamic_qa": true,
+  "reviewed_native_frames_half_open": [0, 145],
+  "reviewer": "root 25 full/5 face; independent reviewer 25 full/5 face plus all81 native hand-cloth contact windows f30-110",
+  "findings": "Limited sampled source gate passes: principal identity/wardrobe/room stable, neckline remains visible; no major hand-cloth discontinuity in reviewed contact windows. Actual gesture touches upper-chest shirt edge, slides down toward waist and returns by about f102, rather than a strict single waist-level touch.",
+  "continuous_visual_review": false,
+  "user_approval": null,
+  "editorial_effectiveness": "unverified",
+  "publishable": false,
+  "independent_report": "../QA_A_attempt01/independent_review.md"
+}

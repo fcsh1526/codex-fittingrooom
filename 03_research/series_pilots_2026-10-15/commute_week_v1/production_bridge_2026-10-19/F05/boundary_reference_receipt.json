@@ -1,0 +1,26 @@
+{
+  "date_client": "2026-10-21",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\close_tracking_proposal_2026-10-20\\F04_close_motion_01\\F04_close_source.mp4",
+  "source_sha256": "502951d7b908e24c7d5c21f60f9a2e0d369e9fc05f012cb9a1bb0fee16b73145",
+  "fps": 24.0,
+  "dimensions": [
+    720,
+    1280
+  ],
+  "outputs": [
+    {
+      "frame": 127,
+      "seconds": 5.291666666666667,
+      "path": "F04_actual_f127.png",
+      "sha256": "846848947bcb499114158c6208f68dee528032f062d44ddb00dc9cec2afd976e"
+    },
+    {
+      "frame": 144,
+      "seconds": 6.0,
+      "path": "F04_actual_f144.png",
+      "sha256": "cc6434d2d2c5afd10e7b2453b04426769975a3fd1b4a69c417acb623a96bc782"
+    }
+  ],
+  "decoded_frames": 145,
+  "role": "frame127 is F05-first edit target for18frame overlap;144 is overlap-end reference only"
+}

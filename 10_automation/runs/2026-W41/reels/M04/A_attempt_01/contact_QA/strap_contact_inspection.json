@@ -1,0 +1,43 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M04/A_attempt_01/source.mp4",
+  "source_sha256": "da776b7e2d870338db83a46addbbec983b6a5acee5cdc80728c1d21152a150a6",
+  "native_roi": [
+    200,
+    260,
+    590,
+    720
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "strap_contact_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "strap_contact_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "strap_contact_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "strap_contact_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "strap_contact_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "hand_strap_visual_result": "Both hands adjust the shoulder strap; right hand crosses the chest and left hand supports the lower strap, then both return. Visible strap contact and small bag response; not exact planned single-left-hand action.",
+  "continuous_playback_review": false
+}

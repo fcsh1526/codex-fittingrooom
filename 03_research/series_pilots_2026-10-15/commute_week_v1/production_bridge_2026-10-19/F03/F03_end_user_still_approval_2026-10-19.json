@@ -1,0 +1,17 @@
+{
+  "record_date_local": "2026-10-19",
+  "event_timestamp": null,
+  "asset": {
+    "path": "F03_M03_L03_end_candidate_A.png",
+    "width": 941,
+    "height": 1672,
+    "sha256": "e6442c7a17951eb536e88175285cad52dd8bc32c9732980741afee976d871c70"
+  },
+  "question": "請確認剛顯示的 M03 第三套末幀：臉、米白短外套／灰褲、黑鞋包，以及走到路緣前的構圖是否可以沿用？這個新角度的花台較突出，路緣與斑馬線位置仍須動態檢查。依你在 AGENTS.md 設定的新圖視覺核准流程，確認後才會送 Grok 生成第三段。",
+  "user_answer": "可以，沿用這張末幀",
+  "status": "exact_F03_endpoint_still_user_approved",
+  "scope": "Exact endpoint still appearance and authority to submit one F03 bounded motion candidate to Grok. Does not approve motion, measured geometry, gait, neighboring dissolve or full five-look film.",
+  "disclosed_limitations": ["more prominent planter", "new curb/crossing visibility requires dynamic continuity inspection"],
+  "start_approval": "F03_start_user_still_approval_2026-10-19.json",
+  "next": "upload approved start/end to existing Mira canvas, verify asset roles, generate one native-speed 6s motion candidate"
+}

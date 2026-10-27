@@ -1,0 +1,53 @@
+{
+  "recorded_date": "2026-10-16",
+  "created_at_utc": "2026-10-16T02:25:42.068647+00:00",
+  "shot_id": "R01",
+  "model_id": "M03",
+  "look_id": "ED-W42-COMMUTE-V1-L01",
+  "status": "submitted_generation_pending",
+  "generation_count_requested": 1,
+  "still_approval": {
+    "receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/U01_user_still_approval_2026-10-15.json",
+    "receipt_sha256": "bbe9fb065b16b615af57e9761e2ed4a05ba18cd5ef315d718987a46d5c61f3e3",
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+    "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+    "pixels": [
+      941,
+      1672
+    ],
+    "user_quote": "兩張可以，沿用",
+    "asset_id": "34793323-1f6a-4db7-ab21-5c2c9d5fd44b",
+    "input_role": "first frame and wardrobe/scene"
+  },
+  "identity_references": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "asset_id": "6236309c-2343-41e6-985c-994239ff744a",
+      "role": "face identity"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "asset_id": "ac9ede4e-1715-4518-95b4-bda341a62061",
+      "role": "body proportions only"
+    }
+  ],
+  "prompt": {
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_motion_prompt.txt",
+    "sha256": "df39e110d819353bca4d157d5a757125ea9f0029f3497d400aade21bddd5e762"
+  },
+  "requested_settings": {
+    "seconds": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "last_frame": null,
+    "audio": "off if exposed; otherwise preserve and locally strip"
+  },
+  "actual_selected_settings": null,
+  "source_motion_approval": null,
+  "single_shot_preview_only": true,
+  "whole_five_look_approval": null,
+  "new_stills_generated": 0,
+  "publishing_files_replaced": []
+}

@@ -1,0 +1,99 @@
+{
+  "review_date_taipei": "2026-10-20",
+  "status": "four_shot_research_preview_ready_for_exact_user_feedback",
+  "model": "M03_v3",
+  "look_order": ["L01", "L05", "L03", "L02"],
+  "approved_start": {
+    "path": "F04_M03_L02_start_candidate_A.png",
+    "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457",
+    "receipt": "F04_start_user_still_approval_2026-10-20.json"
+  },
+  "approved_corrected_end": {
+    "path": "F04_M03_L02_end_candidate_A_footfix_v2.png",
+    "sha256": "78b0322f697806c8cf436a221a631e39e5d2f57a7e65df4044a2a27309a673ed",
+    "user_answer": "可以，沿用修正版末幀",
+    "receipt": "F04_end_user_still_approval_2026-10-20.json"
+  },
+  "generation": {
+    "surface": "existing_Mira_Grok_canvas",
+    "source_asset_id": "b3587cc9-a204-4855-af8c-5076234a56ea",
+    "first_asset_id": "e008f6b5-efe9-40b4-be75-615af1be766c",
+    "last_asset_id": "936d6b16-20ac-4fdb-baa0-723df9542f0e",
+    "face_asset_id": "6236309c-2343-41e6-985c-994239ff744a",
+    "full_proportions_asset_id": "ac9ede4e-1715-4518-95b4-bda341a62061",
+    "roles": "agent_reported; uploaded exact stills visually confirmed; internal controls not independently inspected",
+    "requests": 1,
+    "retries": 0,
+    "prompt": "F04_grok_submission_prompt.txt",
+    "initial_submission_receipt": "submission_receipt.json",
+    "completion_DOM": "grok_completion_dom.txt",
+    "completion_screenshot": "grok_result_screenshot.png"
+  },
+  "actual_source": {
+    "path": "F04_source.mp4",
+    "sha256": "d83c6c18fa7d058c3eb3b374afad70db0a51cf0c561ba2c6bd4a255041d0bb50",
+    "bytes": 8743520,
+    "size": [720, 1280],
+    "fps": 24,
+    "decoded_frames": 145,
+    "seconds_from_frames_over_fps": 6.041666666666667,
+    "audio": "AAC retained in original source; removed from review export",
+    "technical_scan": "source_inspection_v1/technical_scan.json"
+  },
+  "source_sample_review": {
+    "evidence": ["source_inspection_v1/full_25_checkpoints.jpg", "source_inspection_v1/face_5_checkpoints.jpg", "source_inspection_v1/gait_first_1p5s_ground_windows.jpg", "source_inspection_v1/gait_early_mid_late_ground_windows.jpg"],
+    "observations": [
+      "One crossing, departure curb, company-side curb and gray-green glass frontage remain readable in samples; gradual side-to-rear camera arc, without sampled new corridor, second road or instant axis reversal.",
+      "Alternating steps continue in dense early samples; no sampled hold or structural collapse. Ground-relative zero sliding and exact cadence were not measured.",
+      "Bag strap/body-side relationship is compatible with remaining on the same physical shoulder through the camera arc.",
+      "Rear head view predominates around source 3.5-5.25s, with profile visible again around 5.75-6s."
+    ],
+    "disclosed_differences": [
+      "Black/yellow bollard added around source 0.625-0.75s at frame-right, passes behind and exits left around 2.5-3s. Sampled motion is compatible with a revealed fixed fixture, but fixture was not established by approved stills.",
+      "Yellow tactile strip added around source 1.5-3s; sampled frames60/72 extend across asphalt near crossing. Unsupported and unusual street detail compared with approved stills; exact site fidelity is not established."
+    ],
+    "eligible_for_research_preview": true,
+    "dynamic_QA_pass": null
+  },
+  "four_shot_preview": {
+    "path": "four_shot_review_v1/F01_F02_F03_F04_native_soft_review_v1.mp4",
+    "sha256": "ace98a7a170d74241b43a30f1e94f4ce75c8dff5ce47a7548c72f1da88795114",
+    "edit_receipt": "four_shot_review_v1/edit_receipt.json",
+    "frames": 458,
+    "fps": 24,
+    "seconds": 19.083333333333332,
+    "size": [720, 1280],
+    "text": "none",
+    "audio": "none",
+    "speed_factor": 1,
+    "framing": "complete native raster; no crop or stretch",
+    "accepted_prefix_sha256": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+    "earlier_joins_rebuilt": false,
+    "reencoded_prefix_pixel_identity_claimed": false,
+    "J34_output_frames_half_open": [313, 331],
+    "J34_F04_frames_half_open": [0, 18],
+    "J34_seconds": [13.041666666666666, 13.791666666666666],
+    "dissolve_seconds": 0.75,
+    "protected_input_hashes_verified": true
+  },
+  "new_join_review": {
+    "evidence": ["four_shot_review_v1/QA_four_shot/J34_all_boundary_frames.png", "four_shot_review_v1/QA_four_shot/full_25_checkpoints.png", "four_shot_review_v1/QA_four_shot/frames/frame_000324.png", "four_shot_review_v1/QA_four_shot/frames/frame_000457.png"],
+    "observations": [
+      "Around output13.29-13.63s face, arms, trouser legs and shoes show doubled contours, clearest near f321/13.375s and f324/13.5s.",
+      "Body position and gait phase remain offset within the dissolve; planter and window lines also briefly double. Not a seamless wardrobe-only change or proof of resolved sliding.",
+      "Person size, forward direction and overall composition show no sampled abrupt jump; a clear single silhouette returns after the overlap."
+    ],
+    "independent_read_only_audit": "f04_append_preview_builder: actual458-frame file/hash, four protected inputs,458 mappings and61QA artifact hashes verified; no blocking issue identified for user research viewing",
+    "assistant_complete_normal_speed_visual_playback": null,
+    "user_complete_playback_self_report": null,
+    "user_exact_video_feedback": null,
+    "combined_dynamic_QA_pass": null
+  },
+  "next": "User reviews exact19.0833s film: J34 around13-14s, F04 turn/crossing/curb gait and disclosed street details. Do not begin F05 before feedback.",
+  "five_look_film_approval": null,
+  "publishable": false,
+  "Drive_write": false,
+  "GitHub_public_sync": false,
+  "IG_publication": false,
+  "historical_receipts_overwritten": false
+}

@@ -1,0 +1,21 @@
+{
+  "recorded_date":"2026-10-19",
+  "asset_id":"F02_end",
+  "status":"exact_end_still_user_approved_motion_next",
+  "tool":"built_in_image_gen",
+  "generation_calls":1,
+  "targeted_edits":0,
+  "waiting_seconds":26.776,
+  "actual_prompt":"F02_end_prompt.txt",
+  "input_manifest":"F02_end_input_manifest.json",
+  "output":"F02_M03_L05_end_candidate_A.png",
+  "original":"C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-0e940a6d-f9ca-4e33-b8a8-b97b55c6158a.png",
+  "sha256":"10b9a0fd248ae13c1a4409cb9ed3d322c2ea00cc9eb49d7d4cfd052789cb47c7",
+  "pixels":[941,1672],
+  "bytes":2397825,
+  "format":"Native vertical9:16 intent; rounded actual dimensions, no cropping/stretching.",
+  "assistant_visual_observations":["Same shirt, cocoa patterned denim, narrow belt and black shoes/bag are visible, with complete head/shoes and similar person size.","One final rectangular beige column and flat beam are behind-left, with open paving extending right; no deep repeated corridor/arches visible.","New viewpoint includes planters, trees and glass facade; exact multi-view geometry and road separation are not proved by this still and were explicitly left for motion checking."],
+  "user_visual_approval":"F02_end_user_still_approval_2026-10-19.json",
+  "grok_calls":0,
+  "dynamic_qa":"not_started"
+}

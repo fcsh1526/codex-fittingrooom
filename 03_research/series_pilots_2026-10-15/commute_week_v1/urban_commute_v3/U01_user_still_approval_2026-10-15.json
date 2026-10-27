@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "shot_id": "U01",
+  "look_id": "ED-W42-COMMUTE-V1-L01",
+  "model_id": "M03",
+  "question": "請確認兩張新起始圖：正面長西外版，以及最後一張已修回素面黑鞋的側面裙裝版，臉、原服裝、通勤人流與構圖是否可以沿用？依你設定的新圖視覺核准流程，確認後才送 Grok；快步、運鏡及廣告般吸引力會由動態試片再驗證。",
+  "question_record_type": "verbatim_combined_visual_approval_question",
+  "user_quote": "兩張可以，沿用",
+  "file": "03_research/series_pilots_2026-10-15/commute_week_v1/urban_commute_v3/starting_images/U01_M03_L01_candidate_A.png",
+  "sha256": "8fdead57f123626181cc67d74eeee3dfabc175fe641afefd917e27498048656e",
+  "pixels": [
+    941,
+    1672
+  ],
+  "accepted_version": "original_candidate_A",
+  "scope": "Exact U01 still visual approval only. This exact image may enter independent Grok motion. Brisk natural movement, actual camera behavior, side-profile identity stability, commuter trajectories, join comfort and advertising-like appeal remain to be verified in motion; no generated motion, pair or complete five-look film approval, account-wide adoption or publishing replacement inferred.",
+  "recorded_still_observations": {
+    "outfit": "Original five-look wardrobe preserved, with corrected plain shoes in U02.",
+    "camera": "front-facing full person",
+    "scene": "glassy business district with multiple background commuters separated from primary torso; U01 renders more than requested3-4",
+    "pose": "one hand now holds bag strap rather than both arms swinging; free arm relaxed; no claim that this still proves brisk pace",
+    "residual_texture": "Fine ornamental/fiber-like surface texture inherited on garments/paving remains; no new texture correction claimed.",
+    "proof_of_actual_speed_or_camera": false,
+    "film_or_join_qa": null
+  },
+  "shoe_correction_record": null,
+  "grok_generation_allowed_for_exact_still": true,
+  "motion_approval": null,
+  "join_approval": null,
+  "complete_five_look_film_approval": null,
+  "publishable": false,
+  "publishing_files_replaced": []
+}

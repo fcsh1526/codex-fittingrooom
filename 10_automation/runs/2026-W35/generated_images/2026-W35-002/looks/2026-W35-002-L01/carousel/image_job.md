@@ -8,7 +8,7 @@
 - reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_face.png`
 - reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M01_start_v4_full.png`
 - attach_reference_images: `required`
-- trend: 深棕麂皮觸感
+- trend: 深棕麂皮配件
 - clothing_item: 挺度適中的白色棉質圓領短袖；深靛藍高腰直筒薄丹寧褲；深棕皮革樂福鞋；巧克力棕中小型柔軟方形麂皮肩背包
 - occasion: 咖啡廳／週末
 - frame_plan: carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16

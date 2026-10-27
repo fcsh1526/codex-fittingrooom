@@ -38,12 +38,15 @@ Each reference start pair must include:
 - one full-body anchor: head-to-shoe visible
 - neutral simple outfit, not trend-specific
 - natural skin texture
+- honest skin tonal variation and small natural asymmetry; no beauty retouching, plastic smoothing, glamour light, or AI-perfect facial finish
 - ordinary healthy body proportions
 - no logos, no text, no watermark
 - neutral background
 - stable hairstyle and face
 - age and body type matching `mira_model_roster.json`
 - prompt visual age language, not numeric true age, when generating anchors
+
+The face anchor may be front or slight three-quarter for identity readability, but it must not become a polished campaign portrait. The full-body anchor may be neutral, but avoid a rigid perfectly symmetrical mannequin stance. Reference images are processed strongly by current GPT Image workflows, so a sterile studio finish can leak into every daily scene even when the prompt asks for documentary realism.
 
 ## What Can Change Later
 

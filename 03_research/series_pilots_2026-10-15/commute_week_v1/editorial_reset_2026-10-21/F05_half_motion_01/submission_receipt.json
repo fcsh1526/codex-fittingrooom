@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-22",
+  "status": "unique_source_downloaded_sampled_review_and_five_look_append_done_pending_user_visual_review",
+  "mode": "original Grok canvas left agent",
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "first_frame_asset_id": "f5116434-8cbe-440f-934f-584053a8b243",
+  "keyframes": [
+    {
+      "asset_id": "c52cfeba-1216-4860-8580-0ab399600c40",
+      "timestamp_s": 5.333333333333333
+    }
+  ],
+  "last_frame_asset_id": null,
+  "asset_ids": [
+    "6236309c-2343-41e6-985c-994239ff744a",
+    "ac9ede4e-1715-4518-95b4-bda341a62061"
+  ],
+  "duration": "6",
+  "resolution_name": "720p",
+  "aspect_ratio": "9:16",
+  "prompt": "grok_prompt.txt",
+  "prompt_sha256": "ad4cc03ed6e09005b1868bd747af3db9362dce064a6bfd015a68e0357ad93262",
+  "UI_evidence": [
+    "uploaded_approved_stills.png",
+    "submission_dom.txt",
+    "submission.png"
+  ],
+  "actual_parameter_acceptance": "Grok agent UI reports all requested first/5⅓skeyframe/M03v3identity controls accepted, last absent, no fallback. Internal model call not directly observed.",
+  "allowed_generations": 1,
+  "submitted_requests": 1,
+  "automatic_retry": false,
+  "browser_note": "No tabs at turn start; reopened original saved canvas, no other tabs. Narrow pane initially covered agent chat; first click left draft unsent. Hid canvas, checked visible editor/button, sent once; Thinking and cleared editor confirmed. No duplicate model request.",
+  "next": "Exact21.2917s final preview user visual feedback on five-look focus/rhythm/new J45 ghosting, early tightening and additional right-side stairs; no automatic retry or publishing.",
+  "no_drive_github_or_publishing_changes": true,
+  "source_asset_id": "e785251a-279e-4c71-8538-1f45d5ef0c47",
+  "source_sha256": "c2d9f0442ea0d9b9c50674fb959b96ae53a8264c3947c509aa91f05e4bec9aa9",
+  "source_bytes": 6284693,
+  "fully_decoded_frames": 145,
+  "actual_fps": 24,
+  "actual_pixel_dimensions": [
+    720,
+    1280
+  ],
+  "actual_audio_track": "AAC, approximately6s; source retained, separate stream-copy silent preview",
+  "downloaded_via_UI_media_to": "C:/Users/Brandon_ChangChien/Downloads/generated_video (61).mp4",
+  "workspace_source": "F05_half_source.mp4",
+  "outcome": "source_visual_review.json",
+  "completion_evidence": [
+    "completion_dom.txt",
+    "completion_loaded.png",
+    "browser_playback_observation.json"
+  ]
+}

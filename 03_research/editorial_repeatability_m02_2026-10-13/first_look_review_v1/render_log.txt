@@ -1,0 +1,73 @@
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000026469270e80] stream 0, timescale not set
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\10_automation\runs\2026-W41\reels\M02\A_attempt_01\source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Signature: 4dUIb7Gy36v68OiApmpFbdIyBp86OLR6m7fLeGa230rS0LezlLnyR09urlttg9QSvByApeIdr8Sb+cXSYB5mx1YHcHxj5ICbQVtX9FeuTO4K8yDsafgjy0v4xBLnSMmLMUlwKmnvMrAe0B+avP7OhB0+pS3vdhkwaodZ4eBEJO6Hgvq/foreMa6a/xEANqqWIorFmU51ClazgHbM+pNuwzuefCrA9Hbyag6tmYM6nd+orcQixqEL
+  Duration: 00:00:06.04, start: 0.000000, bitrate: 3908 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 3787 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc62.34.102 libx264
+  Stream #0:1[0x0]: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x1280 [SAR 1:1 DAR 9:16], 90k tbr, 90k tbn (attached pic)
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000002646927c900] stream 0, timescale not set
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\03_research\editorial_repeatability_m02_2026-10-13\L01_motion_attempt_01\source.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+    comment         : Signature: /t6aNbOLexdn+NzRptgC2P6F+baZGskzz69JSTcjSuo8YXvAzxIVAJ6P56t0vOAjHP9qDJByp8LWKbI9VgGy+amTXXlpAbrp5rbmQDVfhv5qIb/7n15i+ogtwWp9s8S8/Q760GfiMhYg9w5r8FNneBLvaukoS2VZtn+OHVNUfsLxn7m27S0lYrbuB3kBDmeV2loWXKjQL/VNUbAx6eRF1zkowj0r1dOwPWsiPWcCgJ/15vhsxjSr
+  Duration: 00:00:06.04, start: 0.000000, bitrate: 3218 kb/s
+  Stream #1:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, 3089 kb/s, 24 fps, 24 tbr, 12288 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc62.34.102 libx264
+  Stream #1:1[0x0]: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 720x1280 [SAR 1:1 DAR 9:16], 90k tbr, 90k tbn (attached pic)
+Stream mapping:
+  Stream #0:0 (h264) -> trim:default
+  Stream #1:0 (h264) -> trim:default
+  format:default -> Stream #0:0 (libx264)
+Press [q] to stop, [?] for help
+[libx264 @ 0000026469dd0080] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0000026469dd0080] profile High, level 3.1, 4:2:0, 8-bit
+[libx264 @ 0000026469dd0080] 264 - core 164 r3192 c24e06c - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=18 lookahead_threads=3 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=24 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=18.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\03_research\editorial_repeatability_m02_2026-10-13\first_look_review_v1\M02_L01_cafe_pause_trial_v1.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    comment         : Signature: 4dUIb7Gy36v68OiApmpFbdIyBp86OLR6m7fLeGa230rS0LezlLnyR09urlttg9QSvByApeIdr8Sb+cXSYB5mx1YHcHxj5ICbQVtX9FeuTO4K8yDsafgjy0v4xBLnSMmLMUlwKmnvMrAe0B+avP7OhB0+pS3vdhkwaodZ4eBEJO6Hgvq/foreMa6a/xEANqqWIorFmU51ClazgHbM+pNuwzuefCrA9Hbyag6tmYM6nd+orcQixqEL
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 720x1280, q=2-31, 24 fps, 12288 tbn
+      Metadata:
+        encoder         : Lavc61.19.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   25 fps=0.0 q=23.0 size=     512KiB time=00:00:00.95 bitrate=4377.1kbits/s speed=1.85x    
+frame=   93 fps= 90 q=23.0 size=    1792KiB time=N/A bitrate=N/A speed=N/A    
+[mp4 @ 0000026469900b00] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 00000264692bef80] video:2453KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.149794%
+frame=  150 fps=118 q=-1.0 Lsize=    2457KiB time=00:00:06.16 bitrate=3263.8kbits/s speed=4.86x    
+[libx264 @ 0000026469dd0080] frame I:1     Avg QP:16.52  size:156390
+[libx264 @ 0000026469dd0080] frame P:49    Avg QP:16.97  size: 40982
+[libx264 @ 0000026469dd0080] frame B:100   Avg QP:22.15  size:  3469
+[libx264 @ 0000026469dd0080] consecutive B-frames:  2.0% 26.7%  2.0% 69.3%
+[libx264 @ 0000026469dd0080] mb I  I16..4:  2.6% 71.3% 26.1%
+[libx264 @ 0000026469dd0080] mb P  I16..4:  0.2%  4.9%  1.6%  P16..4: 35.5% 23.8% 19.6%  0.0%  0.0%    skip:14.5%
+[libx264 @ 0000026469dd0080] mb B  I16..4:  0.0%  0.1%  0.0%  B16..8: 31.1%  2.3%  0.6%  direct: 2.6%  skip:63.3%  L0:32.5% L1:55.3% BI:12.3%
+[libx264 @ 0000026469dd0080] 8x8 transform intra:72.8% inter:62.3%
+[libx264 @ 0000026469dd0080] coded y,uvDC,uvAC intra: 94.9% 82.1% 46.0% inter: 19.3% 16.2% 1.9%
+[libx264 @ 0000026469dd0080] i16 v,h,dc,p: 67%  0%  1% 31%
+[libx264 @ 0000026469dd0080] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 29% 15% 11%  5%  6%  8%  8%  9%  9%
+[libx264 @ 0000026469dd0080] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 28% 12%  9%  7%  9% 11%  8%  9%  8%
+[libx264 @ 0000026469dd0080] i8c dc,h,v,p: 42% 19% 34%  5%
+[libx264 @ 0000026469dd0080] Weighted P-Frames: Y:8.2% UV:8.2%
+[libx264 @ 0000026469dd0080] ref P L0: 67.0% 17.4% 12.5%  3.0%  0.1%
+[libx264 @ 0000026469dd0080] ref B L0: 93.1%  5.7%  1.2%
+[libx264 @ 0000026469dd0080] ref B L1: 97.0%  3.0%
+[libx264 @ 0000026469dd0080] kb/s:3214.62

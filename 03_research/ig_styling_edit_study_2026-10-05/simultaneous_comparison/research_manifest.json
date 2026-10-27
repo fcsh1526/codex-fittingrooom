@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-05",
+  "updated_at_local": "2026-10-05T16:07:59.248285+08:00",
+  "model": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "audience_problem": "Compare two thin-shirt/dress layering palettes and whole-outfit proportions in the same reading situation.",
+  "reference_url": "https://www.instagram.com/__iamkubo__/reel/DdyQ56qRXGA/",
+  "reference_evidence": "reference_live.json",
+  "source_assets": [
+    {
+      "role": "L01_full",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+      "sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e",
+      "approval_basis": "Previously individually approved paired-scene stills; see M02_paired_D_v1 records. No new still generation or approval inferred."
+    },
+    {
+      "role": "L01_proof",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+      "sha256": "6c3c36d53e894f4be8aa1de1f7eef70749f15e0e906421d26bb838c74bed18bf",
+      "approval_basis": "Previously individually approved paired-scene stills; see M02_paired_D_v1 records. No new still generation or approval inferred."
+    },
+    {
+      "role": "L02_full",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+      "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a",
+      "approval_basis": "Previously individually approved paired-scene stills; see M02_paired_D_v1 records. No new still generation or approval inferred."
+    },
+    {
+      "role": "L02_proof",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_proof_candidate_v1.png",
+      "sha256": "1ea5251c0346edc52e38d414c5c52156a4c41e0a74d08d05c3140b196994dd77",
+      "approval_basis": "Previously individually approved paired-scene stills; see M02_paired_D_v1 records. No new still generation or approval inferred."
+    }
+  ],
+  "output": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+  "output_sha256": "a383ea81ef1eb8e4b27993954aafe11376b80183bfc4634242370a7e0bdf9499",
+  "review": "REVIEW.md",
+  "generation_attempts": 2,
+  "retries": 0,
+  "active_minutes": null,
+  "observed_wait_seconds_including_other_work": [
+    166.22,
+    75.5
+  ],
+  "status": "accepted_research_clean_picture_track",
+  "user_approval": {
+    "decision": "accepted_clean_picture_track",
+    "user_reply": "ok",
+    "recorded_at_local": "2026-10-05T16:07:59.248285+08:00",
+    "context": "Direct reply to the complete six-second v4 size-corrected video preview, followed by continue.",
+    "output_path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+    "output_sha256": "a383ea81ef1eb8e4b27993954aafe11376b80183bfc4634242370a7e0bdf9499",
+    "scope": "This exact research picture cut, including the displayed size correction; no detailed rationale or full-watch self-report inferred.",
+    "assistant_continuous_review_claimed": false,
+    "account_wide_style_adoption": false,
+    "first_wave_replacement_authorized": false,
+    "cloud_upload_performed": false,
+    "publication_performed": false,
+    "audience_performance": null
+  },
+  "publication_url": null,
+  "audience_metrics": null,
+  "cloud_writes": false,
+  "protected_first_wave": [
+    {
+      "model": "M01",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_detail_full_full_detail_review_v1.mp4",
+      "sha256": "eb99760cd7d5df8fdc2dda66148ef90218b639f5ad0920dfd6dd5b1615f8a426",
+      "drive_id": "1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI",
+      "matched": true
+    },
+    {
+      "model": "M02",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/M02_detail_full_full_detail_review_v1.mp4",
+      "sha256": "688d95d93c7705ac7500ada977c6ff2c97e649c175430487264b69ec8da28b56",
+      "drive_id": "1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y",
+      "matched": true
+    },
+    {
+      "model": "M03",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/M03_order_D_review_v1.mp4",
+      "sha256": "906dc03da54d619536e25aa49b1ecb9877f2ea430f0f893959e24f2f92f462a8",
+      "drive_id": "1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe",
+      "matched": true
+    },
+    {
+      "model": "M04",
+      "path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+      "sha256": "b01ce4a5b95a7cbc368312d0607a6155fad5c7f1918b1ed3272b4b75b247679b",
+      "drive_id": "1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1",
+      "matched": true
+    },
+    {
+      "model": "M05",
+      "path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "sha256": "ae7ced47b34732083ef112461597a2745697818872103ff3f095763c11b4bc1e",
+      "drive_id": "1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB",
+      "matched": true
+    }
+  ],
+  "previous_accepted_paired_cut_unchanged": true,
+  "historical_candidates": [
+    {
+      "output": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v2.mp4",
+      "output_sha256": "1425a09a0476e821617253aa7881feee5bcbce06de0cc377e774482f5cedd812",
+      "status": "revision_requested_by_user_size_mismatch",
+      "feedback": "左右人物大小有點不一致"
+    }
+  ],
+  "latest_user_feedback": "ok",
+  "size_revision": {
+    "user_feedback": "左右人物大小有點不一致",
+    "relative_A_scale_to_B": 0.9631147540983607,
+    "A_reduction_percent": 3.688524590163933,
+    "method": "Constant proportional scaling via wider A source window. Common352x924 image panels at y176; B trims15px top/19px bottom of scaled ambient background, retaining the same subject position as B y161 without trim. No tracking, retime, pose edit or body deformation.",
+    "limitation": "Opening A is slightly smaller/lower after fixed correction because A moves forward; later sampled head/shoe positions match more closely. Not exact per-frame normalization."
+  },
+  "previous_size_feedback": "左右人物大小有點不一致"
+}

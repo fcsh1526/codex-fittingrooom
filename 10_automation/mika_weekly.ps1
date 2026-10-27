@@ -6,6 +6,8 @@ param(
     [string]$Week = "",
     [string]$PerplexitySource = "",
     [string]$PerplexityIndex = "",
+    [string]$EditorialSource = "",
+    [string]$LookSource = "",
     [switch]$UsePerplexityIndex,
     [string]$RunDir = "",
     [string]$RunsDir = "10_automation\runs",
@@ -28,7 +30,10 @@ param(
     [string]$AssetProvider = "Codex",
     [switch]$SkipImageJobs,
     [string]$DailyId = "",
+    [string]$LookId = "",
     [string]$VersionTag = "",
+    [ValidateSet("Carousel", "Reel")]
+    [string]$ImageSurface = "Carousel",
     [string]$SourceA = "",
     [string]$SourceB = "",
     [string]$SourceC = "",
@@ -118,6 +123,12 @@ switch ($Action) {
 
         if ($PerplexitySource) {
             $argsList += @("--perplexity-source", $PerplexitySource)
+        }
+        if ($EditorialSource) {
+            $argsList += @("--editorial-source", $EditorialSource)
+        }
+        if ($LookSource) {
+            $argsList += @("--look-source", $LookSource)
         }
         if ($UsePerplexityIndex) {
             $argsList += "--use-perplexity-index"
@@ -216,13 +227,17 @@ switch ($Action) {
         $argsList = @(
             "--project-root", ".",
             "--run-dir", $resolvedRunDir,
-            "--tool", $AssetProvider
+            "--tool", $AssetProvider,
+            "--surface", $ImageSurface.ToLowerInvariant()
         )
         if ($CarouselId) {
             $argsList += @("--carousel-id", $CarouselId)
         }
         if ($DailyId) {
             $argsList += @("--daily-id", $DailyId)
+        }
+        if ($LookId) {
+            $argsList += @("--look-id", $LookId)
         }
         if ($VersionTag) {
             $argsList += @("--version-tag", $VersionTag)
@@ -241,6 +256,9 @@ switch ($Action) {
             "--carousel-id", $CarouselId,
             "--max-crop-fraction", "$MaxCropFraction"
         )
+        if ($LookId) {
+            $argsList += @("--look-id", $LookId)
+        }
         if ($SourceA) {
             $argsList += @("--source-a", $SourceA)
         }

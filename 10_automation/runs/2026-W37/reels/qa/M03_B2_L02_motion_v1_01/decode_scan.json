@@ -1,0 +1,24 @@
+{
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M03_B2_L02_motion_v1_01.mp4",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1264
+    ],
+    "size": [
+      720,
+      1264
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "decoded_frames": 145,
+  "decoded_seconds": 6.041666666666667,
+  "black_candidate_frames": [],
+  "near_identical_frame_pairs": [],
+  "note": "Technical signals only. Continuous visual review and user approval remain separate."
+}

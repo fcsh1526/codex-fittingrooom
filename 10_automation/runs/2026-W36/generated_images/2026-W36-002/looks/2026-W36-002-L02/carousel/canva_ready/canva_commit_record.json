@@ -1,0 +1,14 @@
+{
+  "look_id": "2026-W36-002-L02",
+  "design_id": "DAHUf_XMRI4",
+  "transaction_id": "6836979355534633873",
+  "status": "committed_exact_frame",
+  "review": "canva_frame_approved",
+  "production_status": "ready_for_manual_export",
+  "approved_on": "2026-09-07",
+  "approval": "User replied ok after the displayed Canva preview and explicit save question.",
+  "commit_result": "committed",
+  "edit_url": "https://www.canva.com/d/7GXpbtDnx5i6aH2",
+  "display_copy": "短版西裝，遇上垂墜寬褲",
+  "next_manual_step": "User slices 3240x1350 into three 1080x1350 images and exports."
+}

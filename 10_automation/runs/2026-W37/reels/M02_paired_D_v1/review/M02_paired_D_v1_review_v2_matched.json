@@ -1,0 +1,682 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "created_at_local": "2026-10-05T12:00:41.368447+08:00",
+  "status": "accepted_clean_picture_track",
+  "output_path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+  "output_sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989",
+  "sources": [
+    {
+      "label": "A",
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/grok_A_attempt_02/source.mp4",
+      "sha256": "5e334aa0cff5eedf4b535479248387162c3749a6a6bfdffd026a71e81cf9b656",
+      "look_id": "2026-W37-001-L01",
+      "start_frame": 0,
+      "end_frame_exclusive": 144,
+      "selected_frames": 144,
+      "unused_before_frames": 0,
+      "unused_after_frames": 1,
+      "start_seconds": 0.0,
+      "end_seconds_exclusive": 6.0,
+      "speed": "unchanged",
+      "resize": "fixed1.0375proportional scale to747x1328",
+      "crop": "fixed720x1280atx14y44",
+      "decode": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\M02_paired_D_v1\\grok_A_attempt_02\\source.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "decoded_seconds": 6.041666666666667,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "selected_interval_visual_approval": "pending",
+      "selected_frame_preservation": {
+        "original_framemd5": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/preservation_A/original_selection.framemd5",
+        "same_rate_framemd5": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/preservation_A/same_rate_selection.framemd5",
+        "selected_frames": 144,
+        "identical_frame_hash_sequence": true,
+        "note": "This verifies decoded source frames before the dissolve and output encoding, not final encoded-video pixels."
+      },
+      "fixed_framing": {
+        "type": "fixed_proportional_scale_and_fixed_crop",
+        "scale_factor": 1.0375,
+        "intermediate_dimensions": [
+          747,
+          1328
+        ],
+        "crop_dimensions": [
+          720,
+          1280
+        ],
+        "crop_x": 14,
+        "crop_y": 44,
+        "scale_interpolation": "lanczos",
+        "camera_window_motion": "none",
+        "source_speed": "unchanged",
+        "source_frame_range": "unchanged",
+        "top_margin_note": "Opening top margin is reduced; every selected head/shoe/bag safety check remains pending."
+      },
+      "selected_source_checkpoints": {
+        "source": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/grok_A_attempt_02/source.mp4",
+        "fps": 24,
+        "frame_indices": [
+          0,
+          36,
+          72,
+          107,
+          143
+        ],
+        "frames": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_A/checkpoint_000.png"
+          },
+          {
+            "frame": 36,
+            "seconds": 1.5,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_A/checkpoint_001.png"
+          },
+          {
+            "frame": 72,
+            "seconds": 3.0,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_A/checkpoint_002.png"
+          },
+          {
+            "frame": 107,
+            "seconds": 4.458333333333333,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_A/checkpoint_003.png"
+          },
+          {
+            "frame": 143,
+            "seconds": 5.958333333333333,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_A/checkpoint_004.png"
+          }
+        ],
+        "board": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_A/selected_source_checkpoints.jpg",
+        "sampled_visual_review": "pending",
+        "continuous_review": "pending"
+      }
+    },
+    {
+      "label": "B",
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/grok_B_attempt_01/source.mp4",
+      "sha256": "6b1d04ce8264c3316dcd64c962820217139a1c747374a3453e89c358529cc347",
+      "look_id": "2026-W37-001-L02",
+      "start_frame": 0,
+      "end_frame_exclusive": 144,
+      "selected_frames": 144,
+      "unused_before_frames": 0,
+      "unused_after_frames": 1,
+      "start_seconds": 0.0,
+      "end_seconds_exclusive": 6.0,
+      "speed": "unchanged",
+      "resize": "none",
+      "crop": "none",
+      "decode": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\M02_paired_D_v1\\grok_B_attempt_01\\source.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "decoded_seconds": 6.041666666666667,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "selected_interval_visual_approval": "pending",
+      "selected_frame_preservation": {
+        "original_framemd5": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/preservation_B/original_selection.framemd5",
+        "same_rate_framemd5": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/preservation_B/same_rate_selection.framemd5",
+        "selected_frames": 144,
+        "identical_frame_hash_sequence": true,
+        "note": "This verifies decoded source frames before the dissolve and output encoding, not final encoded-video pixels."
+      },
+      "selected_source_checkpoints": {
+        "source": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/grok_B_attempt_01/source.mp4",
+        "fps": 24,
+        "frame_indices": [
+          0,
+          36,
+          72,
+          107,
+          143
+        ],
+        "frames": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_000.png"
+          },
+          {
+            "frame": 36,
+            "seconds": 1.5,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_001.png"
+          },
+          {
+            "frame": 72,
+            "seconds": 3.0,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_002.png"
+          },
+          {
+            "frame": 107,
+            "seconds": 4.458333333333333,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_003.png"
+          },
+          {
+            "frame": 143,
+            "seconds": 5.958333333333333,
+            "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/checkpoint_004.png"
+          }
+        ],
+        "board": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/source_B/selected_source_checkpoints.jpg",
+        "sampled_visual_review": "pending",
+        "continuous_review": "pending"
+      }
+    }
+  ],
+  "information_order": [
+    "L01_proof",
+    "L01_full",
+    "L02_full",
+    "L02_proof"
+  ],
+  "theoretical_frames": 270,
+  "theoretical_seconds": 11.25,
+  "actual_frames": 270,
+  "actual_seconds": 11.25,
+  "fps": 24,
+  "resolution": [
+    720,
+    1280
+  ],
+  "audio": "none",
+  "baked_text": "none",
+  "timing_marker": "same24fps CFR; selected decoded frame hashes verified identical",
+  "character_speed": "unchanged",
+  "resize": "A fixed1.0375proportional scale; B none",
+  "crop": "A fixed720x1280atx14y44; B none",
+  "fixed_a_framing": {
+    "type": "fixed_proportional_scale_and_fixed_crop",
+    "scale_factor": 1.0375,
+    "intermediate_dimensions": [
+      747,
+      1328
+    ],
+    "crop_dimensions": [
+      720,
+      1280
+    ],
+    "crop_x": 14,
+    "crop_y": 44,
+    "scale_interpolation": "lanczos",
+    "camera_window_motion": "none",
+    "source_speed": "unchanged",
+    "source_frame_range": "unchanged",
+    "top_margin_note": "Opening top margin is reduced; every selected head/shoe/bag safety check remains pending."
+  },
+  "freeze_frames": "none",
+  "source_extension": "none",
+  "default_frame_ranges_used": true,
+  "final_source_frame_removed_only": true,
+  "transition": {
+    "type": "cross_dissolve",
+    "count": 1,
+    "frames": 18,
+    "seconds": 0.75,
+    "start_output_frame": 126,
+    "end_output_frame_exclusive": 144,
+    "start_output_seconds": 5.25,
+    "end_output_seconds_exclusive": 6.0,
+    "source_frame_pairs": [
+      {
+        "output_frame": 126,
+        "output_seconds": 5.25,
+        "a_source_frame": 126,
+        "b_source_frame": 0
+      },
+      {
+        "output_frame": 127,
+        "output_seconds": 5.291666666666667,
+        "a_source_frame": 127,
+        "b_source_frame": 1
+      },
+      {
+        "output_frame": 128,
+        "output_seconds": 5.333333333333333,
+        "a_source_frame": 128,
+        "b_source_frame": 2
+      },
+      {
+        "output_frame": 129,
+        "output_seconds": 5.375,
+        "a_source_frame": 129,
+        "b_source_frame": 3
+      },
+      {
+        "output_frame": 130,
+        "output_seconds": 5.416666666666667,
+        "a_source_frame": 130,
+        "b_source_frame": 4
+      },
+      {
+        "output_frame": 131,
+        "output_seconds": 5.458333333333333,
+        "a_source_frame": 131,
+        "b_source_frame": 5
+      },
+      {
+        "output_frame": 132,
+        "output_seconds": 5.5,
+        "a_source_frame": 132,
+        "b_source_frame": 6
+      },
+      {
+        "output_frame": 133,
+        "output_seconds": 5.541666666666667,
+        "a_source_frame": 133,
+        "b_source_frame": 7
+      },
+      {
+        "output_frame": 134,
+        "output_seconds": 5.583333333333333,
+        "a_source_frame": 134,
+        "b_source_frame": 8
+      },
+      {
+        "output_frame": 135,
+        "output_seconds": 5.625,
+        "a_source_frame": 135,
+        "b_source_frame": 9
+      },
+      {
+        "output_frame": 136,
+        "output_seconds": 5.666666666666667,
+        "a_source_frame": 136,
+        "b_source_frame": 10
+      },
+      {
+        "output_frame": 137,
+        "output_seconds": 5.708333333333333,
+        "a_source_frame": 137,
+        "b_source_frame": 11
+      },
+      {
+        "output_frame": 138,
+        "output_seconds": 5.75,
+        "a_source_frame": 138,
+        "b_source_frame": 12
+      },
+      {
+        "output_frame": 139,
+        "output_seconds": 5.791666666666667,
+        "a_source_frame": 139,
+        "b_source_frame": 13
+      },
+      {
+        "output_frame": 140,
+        "output_seconds": 5.833333333333333,
+        "a_source_frame": 140,
+        "b_source_frame": 14
+      },
+      {
+        "output_frame": 141,
+        "output_seconds": 5.875,
+        "a_source_frame": 141,
+        "b_source_frame": 15
+      },
+      {
+        "output_frame": 142,
+        "output_seconds": 5.916666666666667,
+        "a_source_frame": 142,
+        "b_source_frame": 16
+      },
+      {
+        "output_frame": 143,
+        "output_seconds": 5.958333333333333,
+        "a_source_frame": 143,
+        "b_source_frame": 17
+      }
+    ]
+  },
+  "filter_graph": "[0:v]trim=start_frame=0:end_frame=145,setpts=PTS-STARTPTS,fps=24,settb=expr=1/24,setsar=1,trim=end_frame=144,scale=747:1328:flags=lanczos,crop=720:1280:14:44,setsar=1[a];[1:v]trim=start_frame=0:end_frame=145,setpts=PTS-STARTPTS,fps=24,settb=expr=1/24,setsar=1,trim=end_frame=144[b];[a][b]xfade=transition=fade:duration=0.750000000:offset=5.250000000,format=yuv420p[v]",
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\M02_paired_D_v1\\review\\M02_paired_D_v1_review_v2_matched.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 11.25
+    },
+    "decoded_frames": 270,
+    "decoded_seconds": 11.25,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "keypoints": {
+    "source": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+    "fps": 24,
+    "frame_indices": [
+      0,
+      12,
+      24,
+      36,
+      67,
+      84,
+      108,
+      125,
+      126,
+      134,
+      135,
+      143,
+      144,
+      145,
+      202,
+      269
+    ],
+    "frames": [
+      {
+        "frame": 0,
+        "seconds": 0.0,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_000.png"
+      },
+      {
+        "frame": 12,
+        "seconds": 0.5,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_001.png"
+      },
+      {
+        "frame": 24,
+        "seconds": 1.0,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_002.png"
+      },
+      {
+        "frame": 36,
+        "seconds": 1.5,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_003.png"
+      },
+      {
+        "frame": 67,
+        "seconds": 2.7916666666666665,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_004.png"
+      },
+      {
+        "frame": 84,
+        "seconds": 3.5,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_005.png"
+      },
+      {
+        "frame": 108,
+        "seconds": 4.5,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_006.png"
+      },
+      {
+        "frame": 125,
+        "seconds": 5.208333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_007.png"
+      },
+      {
+        "frame": 126,
+        "seconds": 5.25,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_008.png"
+      },
+      {
+        "frame": 134,
+        "seconds": 5.583333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_009.png"
+      },
+      {
+        "frame": 135,
+        "seconds": 5.625,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_010.png"
+      },
+      {
+        "frame": 143,
+        "seconds": 5.958333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_011.png"
+      },
+      {
+        "frame": 144,
+        "seconds": 6.0,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_012.png"
+      },
+      {
+        "frame": 145,
+        "seconds": 6.041666666666667,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_013.png"
+      },
+      {
+        "frame": 202,
+        "seconds": 8.416666666666666,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_014.png"
+      },
+      {
+        "frame": 269,
+        "seconds": 11.208333333333334,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/checkpoint_015.png"
+      }
+    ],
+    "board": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/keypoints/keypoints.jpg",
+    "sampled_visual_review": "pending",
+    "continuous_review": "pending"
+  },
+  "complete_overlap": {
+    "source": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+    "fps": 24,
+    "frame_indices": [
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144
+    ],
+    "frames": [
+      {
+        "frame": 125,
+        "seconds": 5.208333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_000.png"
+      },
+      {
+        "frame": 126,
+        "seconds": 5.25,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_001.png"
+      },
+      {
+        "frame": 127,
+        "seconds": 5.291666666666667,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_002.png"
+      },
+      {
+        "frame": 128,
+        "seconds": 5.333333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_003.png"
+      },
+      {
+        "frame": 129,
+        "seconds": 5.375,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_004.png"
+      },
+      {
+        "frame": 130,
+        "seconds": 5.416666666666667,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_005.png"
+      },
+      {
+        "frame": 131,
+        "seconds": 5.458333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_006.png"
+      },
+      {
+        "frame": 132,
+        "seconds": 5.5,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_007.png"
+      },
+      {
+        "frame": 133,
+        "seconds": 5.541666666666667,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_008.png"
+      },
+      {
+        "frame": 134,
+        "seconds": 5.583333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_009.png"
+      },
+      {
+        "frame": 135,
+        "seconds": 5.625,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_010.png"
+      },
+      {
+        "frame": 136,
+        "seconds": 5.666666666666667,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_011.png"
+      },
+      {
+        "frame": 137,
+        "seconds": 5.708333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_012.png"
+      },
+      {
+        "frame": 138,
+        "seconds": 5.75,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_013.png"
+      },
+      {
+        "frame": 139,
+        "seconds": 5.791666666666667,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_014.png"
+      },
+      {
+        "frame": 140,
+        "seconds": 5.833333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_015.png"
+      },
+      {
+        "frame": 141,
+        "seconds": 5.875,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_016.png"
+      },
+      {
+        "frame": 142,
+        "seconds": 5.916666666666667,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_017.png"
+      },
+      {
+        "frame": 143,
+        "seconds": 5.958333333333333,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_018.png"
+      },
+      {
+        "frame": 144,
+        "seconds": 6.0,
+        "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/checkpoint_019.png"
+      }
+    ],
+    "board": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched_qa/complete_overlap/complete_overlap_with_endpoints.jpg",
+    "sampled_visual_review": "pending",
+    "continuous_review": "pending"
+  },
+  "sampled_visual_review": "pending",
+  "assistant_continuous_review": false,
+  "user_visual_approval": {
+    "date": "2026-10-05",
+    "user_reply": "ok",
+    "approval_source": "direct user reply to latest complete M02 v2 preview",
+    "output_path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+    "output_sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989",
+    "scope": "accepted_clean_picture_track_for_this_exact_cut",
+    "seconds": 11.25,
+    "frames": 270,
+    "fps": 24,
+    "resolution": [
+      720,
+      1280
+    ],
+    "transition": {
+      "type": "cross_dissolve",
+      "count": 1,
+      "seconds": 0.75,
+      "output_seconds": [
+        5.25,
+        6
+      ]
+    },
+    "text": "none",
+    "audio": "none",
+    "source_speed": "unchanged",
+    "A_framing": "fixed proportional scale747x1328; fixed crop720x1280x14y44",
+    "B_framing": "original",
+    "user_detailed_rationale": null,
+    "user_full_watch_self_report": null,
+    "assistant_continuous_review": false,
+    "sampled_limitations_preserved": [
+      "residual face/hand/bag and background double edges",
+      "opening top margin roughly2%at0.5s"
+    ],
+    "account_wide_format_adoption": "not_inferred",
+    "audience_performance": null,
+    "cloud_upload_authorized_by_this_reply": false,
+    "publication_authorized_by_this_reply": false,
+    "status": "accepted_clean_picture_track"
+  },
+  "global_format_adoption": "not_inferred",
+  "audience_performance": null,
+  "publishable": false,
+  "processing_wall_seconds": 10.203000000001339,
+  "approval_record": "../user_video_approval_2026-10-05.json",
+  "release_status": "clean_picture_accepted_IG_music_cover_safe_area_and_final_assembly_separate"
+}

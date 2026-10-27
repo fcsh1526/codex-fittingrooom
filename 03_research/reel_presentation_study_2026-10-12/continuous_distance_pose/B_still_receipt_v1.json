@@ -1,0 +1,14 @@
+{
+  "status": "assistant_framing_correction_needed_not_user_approved",
+  "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L02/reel/continuous_distance_pose_v1/2026-W41-004-L02_M03_matched_start_candidate_v1.png",
+  "sha256": "3327d45fd5efa594e2f2bf840e1caadf52d8c80ca27010d82f2b7f03a1175300",
+  "native_pixels": [
+    941,
+    1672
+  ],
+  "tool": "built-in image_gen",
+  "generation_original": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a0a39c-4727-7593-ac24-1a8727f9ff61\\exec-1601e2cf-f885-42a4-b88b-a9f372c5a248.png",
+  "prompt": "B_matched_start_prompt.txt",
+  "review": "Recognizable face and planned wardrobe; full head/shoes visible, integrated left light and blank wall. Subject remains slightly higher than A endpoint; one targeted positioning correction planned. Background broadly similar, not a pixel-perfect lock.",
+  "user_approval": null
+}

@@ -5,7 +5,15 @@
   "delivery_surface": "carousel",
   "canva_template_key": "E",
   "canva_template_name": "Mira Template Master v3 - E Cross-Boundary Weekend Air",
-  "status": "needs_canva_frame_review",
+  "canva_design_id": "DAHTQZm-p8g",
+  "canva_edit_url": "https://www.canva.com/d/s-1Tn7KDLNAktpu",
+  "canva_view_url": "https://www.canva.com/d/JPUYfjdhN2HPgTf",
+  "canva_title": "Mira W35-002-L01｜八月的麂皮包穿搭",
+  "canva_display_copy": "八月想搭麂皮，先從包包下手",
+  "canva_preview_file": "2026-W35-002-L01_canva_preview_2026-08-25.png",
+  "transaction_id": "7843532509469680359",
+  "committed_at": "2026-08-25",
+  "status": "committed_exact_frame",
   "assets": {
     "A": {
       "source_file": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W35\\generated_images\\2026-W35-002\\looks\\2026-W35-002-L01\\carousel\\2026-W35-002-L01_M01_carousel_candidate_A.png",
@@ -20,7 +28,7 @@
       ],
       "target_aspect_ratio": 1.0667,
       "center_crop_fraction": 0.0001,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "cover_image"
     },
     "B": {
@@ -36,7 +44,7 @@
       ],
       "target_aspect_ratio": 2.7317,
       "center_crop_fraction": 0.0011,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "motion_crop"
     },
     "C": {
@@ -52,7 +60,7 @@
       ],
       "target_aspect_ratio": 1.0495,
       "center_crop_fraction": 0.0003,
-      "visual_status": "needs_canva_frame_review",
+      "visual_status": "canva_frame_approved",
       "slot_id": "detail_image"
     }
   }

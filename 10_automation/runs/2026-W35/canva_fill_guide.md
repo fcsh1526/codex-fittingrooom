@@ -31,7 +31,7 @@ Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
 ### Instagram Caption
 
 ```text
-薄身高領夾克，給通勤一點生活感。 方向：輕量高領外套。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。
+八月想穿高領外套，先選薄一點的。 裡面搭短袖，進出冷氣房方便。
 
 #穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira
 ```
@@ -63,7 +63,7 @@ Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
 ### Instagram Caption
 
 ```text
-深棕麂皮肩背包，給咖啡廳一點生活感。 方向：深棕麂皮觸感。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。
+八月想搭麂皮，先從包包下手。 白 T 配深色直筒牛仔褲，八月穿也不會太厚。
 
 #穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira
 ```
@@ -95,7 +95,7 @@ Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
 ### Instagram Caption
 
 ```text
-深海軍藍輕量運動外套，給上班一點生活感。 方向：運動外層配裙裝。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。
+運動外套改搭直筒裙，上班也合適。 保留好活動的優點，也不會顯得太休閒。
 
 #穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira
 ```
@@ -127,7 +127,7 @@ Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
 ### Instagram Caption
 
 ```text
-黑白細窄絲巾，給辦公室一點生活感。 方向：窄領巾與蝴蝶結細節。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。
+黑白穿搭想有變化，加一條窄版絲巾就好。 結打小一點，才不會搶走整套穿搭。
 
 #穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira
 ```
@@ -159,7 +159,7 @@ Use this file after duplicating the 3240 x 1350 minimal panorama Canva template.
 ### Instagram Caption
 
 ```text
-深靛直筒丹寧褲，給通勤一點生活感。 方向：深色直筒丹寧與柔和上衣。 相似單品放在個人頁連結。 AI 生成虛擬造型影像。
+深色直筒牛仔褲搭垂墜上衣，上班穿也不會太休閒。 換上有垂墜感的上衣，看展或吃飯都合適。
 
 #穿搭靈感 #女生穿搭 #日常穿搭 #AI造型 #虛擬造型 #Mira
 ```

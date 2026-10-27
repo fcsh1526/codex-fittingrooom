@@ -1,0 +1,25 @@
+{
+  "look_id": "2026-W37-004-L02",
+  "role": "proof",
+  "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L02/reel/2026-W37-004-L02_M01_shoe_proof_crop_v1.png",
+  "source_type": "exact_crop_from_approved_native_vertical_still",
+  "parent_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L02/reel/2026-W37-004-L02_M01_S02_full_start_candidate_v1.png",
+  "parent_user_approval": "可以，沿用這張",
+  "crop_xyxy": [
+    245,
+    872,
+    695,
+    1672
+  ],
+  "pixels": [
+    450,
+    800
+  ],
+  "resampling": "none; no generative edit or upscale",
+  "framing_review": "450x800 exact9:16 crop; entire paired shoes, contact shadows and hem-to-instep space retained. No stretching or resampling.",
+  "clarity_review": "Cream T intersections on both shoes clearly visible; black midi hem and lower-leg gap retained.",
+  "status": "approved_source_reuse_framing_and_clarity_reviewed",
+  "motion_use": "Independent styling-proof asset; not inserted as another hard cut or used as a face-reveal First frame.",
+  "limitations": "450x800 independent proof asset at original crop resolution, not a newly generated full-HD detail shot. Not inserted in the video; no face-reveal motion.",
+  "assistant_review_date": "2026-10-01"
+}

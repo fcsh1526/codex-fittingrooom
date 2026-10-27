@@ -1,0 +1,116 @@
+{
+  "reel_id": "2026-W37-M03-reel",
+  "date": "2026-10-01",
+  "status": "user_accepted_clean_picture_track",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M03_two_looks_soft_review_v1_01.mp4",
+  "sha256": "19aebf58ca2ac0d373f624be662fad397d66956c55aaa7d36c9977cb02999b1d",
+  "duration_seconds": 8.75,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "speed": "source timing unchanged",
+  "sources": [
+    {
+      "shot_id": "A1",
+      "look_id": "2026-W37-005-L01",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 72
+    },
+    {
+      "shot_id": "A2",
+      "look_id": "2026-W37-005-L01",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A2_L01_motion_v1_01.mp4",
+      "start_frame": 6,
+      "end_frame_exclusive": 72
+    },
+    {
+      "shot_id": "B2",
+      "look_id": "2026-W37-005-L02",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_B2_L02_motion_v1_01.mp4",
+      "start_frame": 6,
+      "end_frame_exclusive": 78
+    },
+    {
+      "shot_id": "B1",
+      "look_id": "2026-W37-005-L02",
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_B1_L02_motion_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 91
+    }
+  ],
+  "transitions": [
+    {
+      "start": 1.5,
+      "end": 2.25,
+      "type": "cross dissolve",
+      "duration_seconds": 0.75
+    },
+    {
+      "start": 3.5,
+      "end": 4.25,
+      "type": "cross dissolve",
+      "duration_seconds": 0.75
+    },
+    {
+      "start": 5.75,
+      "end": 6.5,
+      "type": "cross dissolve",
+      "duration_seconds": 0.75
+    }
+  ],
+  "first_transition_basis": "User accepted L01 0.75s junction as 更舒服; same first full-shot source interval retained. Additional two junctions are unapproved candidates. Complete three-transition picture track subsequently accepted by user on2026-10-02 (還ok).",
+  "aspect_handling": "Uniform cover-scale and narrow center side crop to720x1280, no stretching or animated framing.",
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M03_two_looks_soft_review_v1_01.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 8.75
+    },
+    "decoded_frames": 210,
+    "decoded_seconds": 8.75,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "qa": {
+    "continuous_watch_done": true,
+    "user_approval": "還ok",
+    "sampled_visual_review": "Sixteen output checkpoints inspected including all three overlap regions. Full views retain hair and shoes, details remain faceless; colors, belt and bag readable outside overlap. No obvious sampled background morph. Double-scale overlap persists; bag position/size differs between detail views. Full user comfort approval pending.",
+    "continuous_review_reviewer": "user",
+    "approval_date": "2026-10-02",
+    "approval_evidence": {
+      "date": "2026-10-02",
+      "reply": "還ok",
+      "reviewer": "user",
+      "context": "Reply after embedded complete 8.75-second video and request to review all three transitions, person and background.",
+      "scope": "Selected complete two-look picture track; no music, publication, account-wide style or audience-performance approval."
+    },
+    "open_issues_at_review_request": [
+      "Normal-speed comfort across all three dissolves.",
+      "Ghosting, bag position/scale and clothing readability during overlap.",
+      "Full two-look theme and sufficient viewing time."
+    ],
+    "open_issues": [],
+    "remaining_delivery_steps": [
+      "Music selection and usage evidence",
+      "Final Instagram assembly and publication"
+    ]
+  }
+}

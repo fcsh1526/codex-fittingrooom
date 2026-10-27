@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-13",
+  "user_instruction": "恢復試作，繼續實驗，注意原始目標",
+  "status": "rejected_editorially_by_user",
+  "format_id": "E02",
+  "model": "M05",
+  "look_ids": [
+    "2026-W41-001-L01",
+    "2026-W41-001-L02"
+  ],
+  "original_goal": "Approachable daily-fashion magazine; movements reveal clothing information, comfortable readable edit, repeatable weekly production, later evaluate account growth with publication insights.",
+  "viewer_takeaway": "Short jacket hem plus high waist and straight trouser line, seen frontally and at a shallow side angle.",
+  "assets": [
+    {
+      "look_id": "2026-W41-001-L01",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_candidate_A.png",
+      "sha256": "a6f81b73b32cb3132d2856753c2bbb9138c220fb7f4869e6abd131ae1af3a499",
+      "approved_on": "2026-10-08",
+      "user_quote": "兩張都可以，沿用",
+      "scope": "this exact full-person still as video first-frame; no video approval",
+      "actual_pixels": [
+        941,
+        1672
+      ],
+      "reuse_review": {
+        "head_and_shoes_visible": true,
+        "frontal_identity_information": true,
+        "waist_and_short_hem_readable": true,
+        "background_and_scale_matched": true,
+        "motion_space": "Suitable for small weight shift and shallow turn; no walking or full spin. Figure roughly85% height, larger than planning target but complete shoe/ground margins retained."
+      },
+      "proof_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L01/reel/2026-W41-001-L01_M05_reel_proof_candidate_v1.png",
+      "proof_candidate_sha256": "6b72ce9ad42961f1d152fce7d9de2df27c64bdf89e48abacee194d8d4b654809",
+      "proof_review": "Vertical, face/collar/short hem/belt/trouser waist clear; candidate still awaits user approval, not sent to Grok or treated as completed delivery."
+    },
+    {
+      "look_id": "2026-W41-001-L02",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L02/reel/2026-W41-001-L02_M05_reel_candidate_A.png",
+      "sha256": "39e649c463d627ab6923269bbff11c0bcd833c4ba34e769d3b98f5c305a417e8",
+      "approved_on": "2026-10-08",
+      "user_quote": "兩張都可以，沿用",
+      "scope": "this exact full-person still as video first-frame; no video approval",
+      "actual_pixels": [
+        941,
+        1672
+      ],
+      "reuse_review": {
+        "head_and_shoes_visible": true,
+        "frontal_identity_information": true,
+        "waist_and_short_hem_readable": true,
+        "background_and_scale_matched": true,
+        "motion_space": "Suitable for small weight shift and shallow turn; no walking or full spin. Figure roughly85% height, larger than planning target but complete shoe/ground margins retained."
+      },
+      "proof_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-001/looks/2026-W41-001-L02/reel/2026-W41-001-L02_M05_reel_proof_candidate_v1.png",
+      "proof_candidate_sha256": "11669764b92ba128fe25c9c2fdce44529921dd4a770ecd8afb5ff4ed75f516dd",
+      "proof_review": "Vertical, face/collar/short hem/belt/trouser waist clear; candidate still awaits user approval, not sent to Grok or treated as completed delivery."
+    }
+  ],
+  "identity_references": [
+    {
+      "role": "face",
+      "path": "02_brand/reference_models/M05_start_v1_face.png",
+      "sha256": "aab41b639568698a3630819201bcdd6a80e2dcd0248f682abc389dbe7a2b838b",
+      "registry_status": "approved"
+    },
+    {
+      "role": "full",
+      "path": "02_brand/reference_models/M05_start_v1_full.png",
+      "sha256": "06cd9d7868f38c650662c448318da1a536aec51e68ee19bbb0768a9605da2d8a",
+      "registry_status": "approved"
+    }
+  ],
+  "selected_grok_character_target": "Mira M05 v1 face",
+  "planned_settings": {
+    "seconds_per_source": 6,
+    "resolution": "720p",
+    "aspect": "9:16",
+    "audio": false
+  },
+  "planned_join": {
+    "type": "cross_dissolve",
+    "seconds": 0.75,
+    "nominal_total_seconds": 11.25,
+    "frontal_A_end_to_frontal_B_start": true,
+    "actual_interval_selection_pending": false,
+    "superseded_by": "Actual retained B02 0-4s then A01 0-4.75s;0.75s overlap;8s total. Planning11.25s is not claimed achieved."
+  },
+  "max_retry_per_main_shot": 1,
+  "source_speed": "unchanged",
+  "text": "none",
+  "not_new_editing_technology": true,
+  "protected_w41_originals_before": [
+    {
+      "model": "M01",
+      "source_path": "10_automation/runs/2026-W41/reels/M01/review_v2/2026-W41_M01_two_looks_soft_v2.mp4",
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839"
+    },
+    {
+      "model": "M02",
+      "source_path": "10_automation/runs/2026-W41/reels/M02/review_v2/2026-W41_M02_two_looks_soft_v2.mp4",
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24"
+    },
+    {
+      "model": "M03",
+      "source_path": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596"
+    },
+    {
+      "model": "M04",
+      "source_path": "10_automation/runs/2026-W41/reels/M04/review_v1/2026-W41_M04_two_looks_parallel_v1.mp4",
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4"
+    },
+    {
+      "model": "M05",
+      "source_path": "10_automation/runs/2026-W41/reels/M05/review_v1/2026-W41_M05_two_looks_soft_v1.mp4",
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd"
+    }
+  ],
+  "final_user_approval": false,
+  "instagram_performance": null,
+  "active_minutes": null,
+  "generation_wait_minutes": null,
+  "formal_full_proof_carousel_delivery_complete": false,
+  "actual_generation_count": 4,
+  "actual_retries_by_look": {
+    "L01": 1,
+    "L02": 1
+  },
+  "selected_attempts_in_screen_order": [
+    "B_attempt_02",
+    "A_attempt_01"
+  ],
+  "actual_seconds": 8.0,
+  "final_file": "03_research/reel_presentation_study_2026-10-12/E02_silhouette_2026-10-13/review_v1/M05_E02_silhouette_two_looks_v1.mp4",
+  "edit_receipt": "edit_receipt.json",
+  "editorial_replan": "A01 originally rejected for duplicate turn; B02 instead stayed frontal. Reassign B02 as front shot and A01 as turn shot, avoiding another generation. B01 back-facing source excluded. A02 retained as frontal alternate only. This does not validate exact requested motion control.",
+  "repeatability_validated": false,
+  "time_measurement_note": "Browser receipts contain submission-to-download elapsed wall time, which includes parallel QA/editorial work. Active production minutes and pure generation wait were not measured independently; remain null.",
+  "protected_w41_originals_after": [
+    {
+      "model": "M01",
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839",
+      "unchanged": true
+    },
+    {
+      "model": "M02",
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24",
+      "unchanged": true
+    },
+    {
+      "model": "M03",
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+      "unchanged": true
+    },
+    {
+      "model": "M04",
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4",
+      "unchanged": true
+    },
+    {
+      "model": "M05",
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd",
+      "unchanged": true
+    }
+  ],
+  "user_feedback": {
+    "date": "2026-10-13",
+    "user_quote": "這種類型剪輯不要了，跟之前大同小異",
+    "decision": "rejected_editorially",
+    "scope": "Latest M05 E02 eight-second film and further minor variants of the same fixed full-person two-look dissolve display. Does not rescind historical accepted publishing files, the one-model/two-look contract, no-text rule or soft-transition preference.",
+    "reason": "Insufficient perceptual difference from previous experiments.",
+    "next_gate": "Before generating more media, compare the proposed whole-film experience with previous trials and an actually observed reference mechanism. A new name, different outfit or small pose change is insufficient.",
+    "new_generation_authorized_by_this_feedback": false
+  },
+  "user_film_approval": false
+}

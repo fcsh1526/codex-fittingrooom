@@ -1,0 +1,36 @@
+{
+  "requested_at_utc": "2026-10-07 07:28:18 UTC",
+  "user_authorization": "幫我建立新的 ChatGPT Work 雲端工作，開始 M02 試作。",
+  "requested_target": "chatgptWorkCloud",
+  "requested_title": "M02 雲端試作",
+  "status": "creation_queued_runtime_unverified",
+  "creation_tool": "mcp__codex_app__create_thread",
+  "creation_tool_response": {
+    "kind": "chatgpt",
+    "clientThreadId": "local-chatgpt:98fa2401-49c1-42ab-abd5-bef57e8637d3"
+  },
+  "clientThreadId": "local-chatgpt:98fa2401-49c1-42ab-abd5-bef57e8637d3",
+  "threadId": null,
+  "list_threads_checks": 2,
+  "list_threads_found": false,
+  "followup_status_note": "Only a clientThreadId was returned. No formal threadId is available for read_thread or wait_threads; the temporary ID was not passed to those tools. Cloud progress remains unverified.",
+  "packet": {
+    "filename": "M02_cloud_trial_packet_v1.zip",
+    "drive_id": "1qBVTqaSHDXQWIXwsv7zDU-bkNTXzTk2-",
+    "sha256": "051a5c61fff60594cfa4d454e9be9862d66442d471cac8d77ae5a830dc11029b",
+    "size_bytes": 18448040
+  },
+  "trial_folder": {
+    "drive_id": "1ZMrwm9ny4YgS2YIsvl-yNqJau5ez95wR",
+    "path": "800.Codex IG/2026-W37/影片剪輯研究/M02_雲端試作_2026-10-07"
+  },
+  "handoff_prompt_file": "cloud_creation_prompt_2026-10-07.txt",
+  "cloud_execution_verified": false,
+  "cloud_browser_verified": false,
+  "cloud_assets_read_verified": false,
+  "new_B_submission_verified": false,
+  "new_combined_candidate_verified": false,
+  "first_wave_modified": false,
+  "instagram_publication": false,
+  "frozen_packet_and_prior_receipts_modified": false
+}

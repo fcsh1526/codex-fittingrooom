@@ -1,0 +1,12 @@
+{
+  "week": "2026-W41",
+  "model": "M02",
+  "version": "review_v1",
+  "output_filename": "2026-W41_M02_two_looks_soft_v1.mp4",
+  "look_ids": ["2026-W41-003-L01", "2026-W41-003-L02"],
+  "saved_reference_name": "Mira M02 v3",
+  "A_frames": [0,114],
+  "B_frames": [0,114],
+  "interval_reason": "Retain both original approaches, catch-up foot placement and brief settle at native speed. Join A4.0–4.75s to B0–0.75s, with comparable full-person size and broadly similar three-quarter head direction. Both independent cafe sources differ slightly; inspect every join frame rather than assuming seamless geometry. Trim only the late residual pose holds; no retiming, freeze or framing transform.",
+  "source_sampled_visual_review": "Each source:25 full-frame and5 face checkpoints plus all145 consecutive native lower-body windows inspected. No apparent gross leg/shoe/pants collapse or foot teleport in those windows. Both contain catch-up and stance adjustments beyond an exact single step. Face/outfit/cafe are broadly coherent in samples. Continuous normal-speed comfort and user acceptance remain pending."
+}

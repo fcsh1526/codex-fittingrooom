@@ -1,0 +1,119 @@
+{
+  "schema_version": "2.0",
+  "week_id": "2026-W36",
+  "updated_at": "2026-09-09",
+  "status": "uploaded_private_to_google_drive",
+  "packaging": "five theme/model reels; two looks and eight approved images per reel",
+  "drive_root": {
+    "id": "1gKWzdYH5Retnrqwa_tV9eCinfIAAw12r",
+    "url": "https://drive.google.com/drive/folders/1gKWzdYH5Retnrqwa_tV9eCinfIAAw12r",
+    "shared": false
+  },
+  "groups": [
+    {
+      "order": 1,
+      "theme": "輕薄機能疊穿",
+      "looks": [
+        "2026-W36-001-L01",
+        "2026-W36-001-L02"
+      ],
+      "folder_id": "1ceH324NniegouEkro8EMJIsPN-kIWVIy",
+      "folder_url": "https://drive.google.com/drive/folders/1ceH324NniegouEkro8EMJIsPN-kIWVIy",
+      "file_count": 8,
+      "files": [
+        "01_L01_reel_A.png",
+        "02_L01_carousel_A.png",
+        "03_L01_carousel_B.png",
+        "04_L01_carousel_C.png",
+        "05_L02_reel_A.png",
+        "06_L02_carousel_A.png",
+        "07_L02_carousel_B.png",
+        "08_L02_carousel_C.png"
+      ]
+    },
+    {
+      "order": 2,
+      "theme": "短外套與流動下身",
+      "looks": [
+        "2026-W36-002-L01",
+        "2026-W36-002-L02"
+      ],
+      "folder_id": "1Ry2Q5D0qDoNs6-EhirbQ8MPeG37YbPu6",
+      "folder_url": "https://drive.google.com/drive/folders/1Ry2Q5D0qDoNs6-EhirbQ8MPeG37YbPu6",
+      "file_count": 8,
+      "files": [
+        "01_L01_reel_A.png",
+        "02_L01_carousel_A.png",
+        "03_L01_carousel_B.png",
+        "04_L01_carousel_C.png",
+        "05_L02_reel_A.png",
+        "06_L02_carousel_A.png",
+        "07_L02_carousel_B.png",
+        "08_L02_carousel_C.png"
+      ]
+    },
+    {
+      "order": 3,
+      "theme": "麂皮質感",
+      "looks": [
+        "2026-W36-003-L01",
+        "2026-W36-003-L02"
+      ],
+      "folder_id": "1k9og8JPNRsfk9oSQZleDePwz2m8fbEOl",
+      "folder_url": "https://drive.google.com/drive/folders/1k9og8JPNRsfk9oSQZleDePwz2m8fbEOl",
+      "file_count": 8,
+      "files": [
+        "01_L01_reel_A.png",
+        "02_L01_carousel_A.png",
+        "03_L01_carousel_B.png",
+        "04_L01_carousel_C.png",
+        "05_L02_reel_A.png",
+        "06_L02_carousel_A.png",
+        "07_L02_carousel_B.png",
+        "08_L02_carousel_C.png"
+      ]
+    },
+    {
+      "order": 4,
+      "theme": "絲巾與緞面",
+      "looks": [
+        "2026-W36-004-L01",
+        "2026-W36-004-L02"
+      ],
+      "folder_id": "1q3i34KiClsz46i2xxeQPbPlK-6DbYHQW",
+      "folder_url": "https://drive.google.com/drive/folders/1q3i34KiClsz46i2xxeQPbPlK-6DbYHQW",
+      "file_count": 8,
+      "files": [
+        "01_L01_reel_A.png",
+        "02_L01_carousel_A.png",
+        "03_L01_carousel_B.png",
+        "04_L01_carousel_C.png",
+        "05_L02_reel_A.png",
+        "06_L02_carousel_A.png",
+        "07_L02_carousel_B.png",
+        "08_L02_carousel_C.png"
+      ]
+    },
+    {
+      "order": 5,
+      "theme": "深紅色亮點",
+      "looks": [
+        "2026-W36-005-L01",
+        "2026-W36-005-L02"
+      ],
+      "folder_id": "1RRz7EWW0tx94nhiVLDORXk_X-gACoP2V",
+      "folder_url": "https://drive.google.com/drive/folders/1RRz7EWW0tx94nhiVLDORXk_X-gACoP2V",
+      "file_count": 8,
+      "files": [
+        "01_L01_reel_A.png",
+        "02_L01_carousel_A.png",
+        "03_L01_carousel_B.png",
+        "04_L01_carousel_C.png",
+        "05_L02_reel_A.png",
+        "06_L02_carousel_A.png",
+        "07_L02_carousel_B.png",
+        "08_L02_carousel_C.png"
+      ]
+    }
+  ]
+}

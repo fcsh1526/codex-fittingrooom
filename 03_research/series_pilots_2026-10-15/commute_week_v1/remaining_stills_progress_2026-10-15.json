@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "first_pair": "accepted_exact_first_pair_film",
+  "first_pair_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/user_film_approval_2026-10-15.json",
+  "S03": "refined_v2_user_approved_with_disclosed_residual_surface_texture",
+  "S04": "refined_v2_user_approved_with_disclosed_residual_surface_texture",
+  "S05": "candidate_A_user_approved_with_disclosed_residual_surface_texture",
+  "new_motion_generated_after_first_pair": 3,
+  "complete_five_look_film": {
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/M03_commute_five_look_review_v1.mp4",
+    "sha256": "ccbbe61977fc61c7850ec994018411f5d5a463209916bd46a18ab5387e38c345",
+    "seconds": 29.5,
+    "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/edit_receipt.json",
+    "sampled_visual_review": "03_research/series_pilots_2026-10-15/commute_week_v1/five_look_review_v1/sampled_visual_review.json",
+    "user_film_approval": null
+  },
+  "grok_upload_gate": "All five exact stills approved; S03-S05 generated once each, combined preview not yet user approved.",
+  "publishing_files_changed": false,
+  "retry_policy": "One targeted edit used per S03/S04 Hero; unresolved texture is disclosed rather than hidden or treated as a success.",
+  "S03_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/S03_user_still_approval_2026-10-15.json",
+  "S04_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/S04_user_still_approval_2026-10-15.json",
+  "status": "five_look_preview_pending_user_review",
+  "S05_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/S05_user_still_approval_2026-10-15.json",
+  "remaining_motion_approval": null
+}

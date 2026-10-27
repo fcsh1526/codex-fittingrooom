@@ -1,0 +1,130 @@
+{
+  "record_date_local": "2026-10-20",
+  "method": "built_in_image_gen",
+  "base": {
+    "asset": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_end_candidate_A.png",
+      "sha256": "5ffdf7708c6daba3e399499554dced7d381260f083c8920e1b32837e42ef8283",
+      "bytes": 2423922,
+      "width": 941,
+      "height": 1672
+    },
+    "original_output": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-655156e4-ed6d-40c3-8180-cd57964169f6.png",
+    "prompt": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_end_candidate_A_prompt.txt",
+      "sha256": "20a463e17accb71042d41173c0050f379179c0570400e9a171e4852a625c109f",
+      "bytes": 1593
+    },
+    "inputs": [
+      {
+        "role": "approved_start_identity_exact_outfit_scale",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_start_candidate_A.png",
+        "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457",
+        "bytes": 2223700,
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "role": "site_topology_materials_not_camera",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\environment\\E00_shared_scene_candidate_A.png",
+        "sha256": "33192568eb30aef6fccf160a93bed33136a6fa906056baaad500f0b040170c40",
+        "bytes": 2725354,
+        "width": 1672,
+        "height": 940
+      },
+      {
+        "role": "crossing_direction_only_not_figure_bag_side_labels",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\static_key_views_2026-10-16\\K3_view.png",
+        "sha256": "d6aa88e566c85a0812993e02cc3374aa9ba7f8ce589d5b17a9ba1bc4e4c5e41c",
+        "bytes": 15279,
+        "width": 540,
+        "height": 960
+      },
+      {
+        "role": "M03v3_face_identity_only",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_face.png",
+        "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+        "bytes": 805262,
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "role": "M03v3_body_proportions_only",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_full.png",
+        "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+        "bytes": 2022770,
+        "width": 1024,
+        "height": 1536
+      }
+    ],
+    "review": "Crossing behindlowerleft, glassfacade ahead, nosecondroad/doorway. Trailing shoe still touches road/curbedge, so one targeted correction used.",
+    "status": "base_preserved_superseded_by_single_foot_correction"
+  },
+  "single_correction": {
+    "asset": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_end_candidate_A_footfix_v2.png",
+      "sha256": "78b0322f697806c8cf436a221a631e39e5d2f57a7e65df4044a2a27309a673ed",
+      "bytes": 2411376,
+      "width": 941,
+      "height": 1672
+    },
+    "original_output": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-5146235c-5091-4e10-8f0c-544092264dbc.png",
+    "prompt": {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_end_foot_correction_prompt.txt",
+      "sha256": "54c2dc5b86f9e8da8c87dcee629ed21dc9cbb9144b3c9a758789ef453a7dcd57",
+      "bytes": 1122
+    },
+    "inputs": [
+      {
+        "role": "edit_target_base_endpoint",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_end_candidate_A.png",
+        "sha256": "5ffdf7708c6daba3e399499554dced7d381260f083c8920e1b32837e42ef8283",
+        "bytes": 2423922,
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "role": "approved_start_wardrobe_identity",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F04_M03_L02_start_candidate_A.png",
+        "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457",
+        "bytes": 2223700,
+        "width": 941,
+        "height": 1672
+      },
+      {
+        "role": "M03v3_face_identity_only",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_face.png",
+        "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+        "bytes": 805262,
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "role": "M03v3_body_proportions_only",
+        "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\02_brand\\reference_models\\M03_start_v3_full.png",
+        "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+        "bytes": 2022770,
+        "width": 1024,
+        "height": 1536
+      }
+    ],
+    "changed_factor": "Trailing knee/lowerleg/shoe clears curb into swing over companyside pavement; supportfoot/hip/torso/camera/background held.",
+    "observed": "Trailing shoe now raised above companyside paving instead of touching roadside edge; forwardshoe remains planted, scene/crosswalk/glass/bag arrangement visually similar.",
+    "intended_correction_observed_in_still": true
+  },
+  "requested_aspect_ratio": "9:16",
+  "post_generation_crop_resize_stretch": false,
+  "base_calls": 1,
+  "targeted_edit_calls": 1,
+  "status": "corrected_endpoint_candidate_pending_exact_user_visual_approval",
+  "limitations": [
+    "rearquarter new angle is inferred from site references; exact geometry not reconstructed or measured",
+    "black bag changes screen side duringrearwardcamera arc, but visually stays on same physicalshoulder; not flipped to matchdiagram",
+    "minor generated fabric/face/shoe/scenecontours may differ",
+    "no motion, turn, foot-ground tracking or crossing continuity pass from still approval"
+  ],
+  "dynamic_qa_pass": null,
+  "publishable": false,
+  "F04_Grok_submissions": 0,
+  "next": "Exact correctedendpoint approval before one F04 motion between approvedstart and this endpoint"
+}

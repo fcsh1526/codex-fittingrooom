@@ -1,0 +1,113 @@
+<div id="mira-f04-fixed-crosswalk-20261020">
+  <style>
+    #mira-f04-fixed-crosswalk-20261020 { color:var(--foreground); width:100%; }
+    #mira-f04-fixed-crosswalk-20261020 .geometry-views { display:flex; gap:20px; flex-wrap:wrap; align-items:center; justify-content:center; }
+    #mira-f04-fixed-crosswalk-20261020 .perspective { width:min(100%,310px); aspect-ratio:9/16; }
+    #mira-f04-fixed-crosswalk-20261020 .plan { width:min(100%,270px); height:270px; }
+    #mira-f04-fixed-crosswalk-20261020 .geometry-controls { margin-top:12px; }
+    #mira-f04-fixed-crosswalk-20261020 .slider-label { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+    #mira-f04-fixed-crosswalk-20261020 .scene-line { fill:none; stroke:var(--border); stroke-width:1.2; }
+    #mira-f04-fixed-crosswalk-20261020 .ground { fill:var(--muted); stroke:var(--border); stroke-width:1; }
+    #mira-f04-fixed-crosswalk-20261020 .paint { fill:var(--background); stroke:var(--foreground); stroke-width:1; }
+    #mira-f04-fixed-crosswalk-20261020 .actor { fill:none; stroke:var(--viz-series-1); stroke-width:3; stroke-linecap:round; stroke-linejoin:round; }
+    #mira-f04-fixed-crosswalk-20261020 .actor-dot { fill:var(--viz-series-1); }
+    #mira-f04-fixed-crosswalk-20261020 .camera { fill:var(--foreground); }
+    #mira-f04-fixed-crosswalk-20261020 .route { fill:none; stroke:var(--viz-series-1); stroke-width:2; }
+    #mira-f04-fixed-crosswalk-20261020 .camera-ray { fill:none; stroke:var(--foreground); stroke-width:1; stroke-dasharray:4 4; }
+    #mira-f04-fixed-crosswalk-20261020 .diagram-label { fill:var(--foreground); font-size:12px; }
+  </style>
+  <h3>第四段：同一組白線，鏡頭持續移動</h3>
+  <div class="geometry-views">
+    <svg class="perspective" role="img" aria-label="由同一地面六條固定白線與原分鏡相機計算的透視圖"></svg>
+    <svg class="plan" role="img" aria-label="固定斑馬線、人物與相機位置的俯視圖"></svg>
+  </div>
+  <div class="geometry-controls">
+    <div class="slider-label"><label for="mira-f04-progress">過街段位置</label><output class="tabular-nums" data-position></output></div>
+    <input class="form-range" id="mira-f04-progress" type="range" min="0" max="100" step="1" value="50">
+    <div class="viz-row">
+      <button class="btn btn-ghost" type="button" data-at="0" aria-pressed="false">首幀</button>
+      <button class="btn btn-ghost" type="button" data-at="50" aria-pressed="true">中景</button>
+      <button class="btn btn-ghost" type="button" data-at="100" aria-pressed="false">末幀</button>
+    </div>
+  </div>
+  <div class="text-small" aria-live="polite" data-detail></div>
+  <script type="application/json" data-model>__MODEL_DATA__</script>
+  <script>
+    (() => {
+      const root = document.getElementById('mira-f04-fixed-crosswalk-20261020');
+      const data = JSON.parse(root.querySelector('[data-model]').textContent);
+      const view = root.querySelector('.perspective');
+      const plan = root.querySelector('.plan');
+      const slider = root.querySelector('input');
+      const ns = 'http://www.w3.org/2000/svg';
+      let progress = 50;
+      const saved = window.openai?.widgetState?.privateContent?.progress;
+      if (Number.isFinite(saved)) progress = Math.max(0,Math.min(100,Math.round(saved)));
+      function element(parent,name,attributes={}) {
+        const node=document.createElementNS(ns,name);
+        Object.entries(attributes).forEach(([key,value])=>node.setAttribute(key,String(value)));
+        parent.appendChild(node); return node;
+      }
+      function project(point,frame,w,h) {
+        const dx=point[0]-frame.camera[0], dz=point[2]-frame.camera[1];
+        const depth=dx*frame.forward[0]+dz*frame.forward[1];
+        if(depth<=.16) return null;
+        return [w*.5+(dx*frame.forward[1]-dz*frame.forward[0])*h*frame.focal/depth,
+          h*data.horizon-(point[1]-data.eye_height)*h*frame.focal/depth];
+      }
+      function clip(points,frame) {
+        const depth=p=>(p[0]-frame.camera[0])*frame.forward[0]+(p[2]-frame.camera[1])*frame.forward[1]-.17;
+        const out=[];
+        points.forEach((b,i)=>{
+          const a=points[(i+points.length-1)%points.length], da=depth(a), db=depth(b);
+          if((da>=0)!==(db>=0)) {const u=da/(da-db);out.push(a.map((v,k)=>v+(b[k]-v)*u));}
+          if(db>=0)out.push(b);
+        }); return out;
+      }
+      function polygon(points,frame,w,h,kind) {
+        const values=clip(points,frame).map(p=>project(p,frame,w,h)).filter(Boolean);
+        if(values.length>2)element(view,'polygon',{points:values.map(p=>p.join(',')).join(' '),class:kind});
+      }
+      function line(points,frame,w,h,kind) {
+        const values=points.map(p=>project(p,frame,w,h));
+        if(values.every(Boolean))element(view,'polyline',{points:values.map(p=>p.join(',')).join(' '),class:kind});
+      }
+      function draw() {
+        const frame=data.frames[progress], w=view.clientWidth||300, h=w*16/9;
+        view.setAttribute('viewBox',`0 0 ${w} ${h}`); view.replaceChildren();
+        polygon([[-6,0,8.8],[20,0,8.8],[20,6.5,8.8],[-6,6.5,8.8]],frame,w,h,'ground');
+        for(let x=6;x<=20;x+=2)line([[x,0,8.8],[x,6.5,8.8]],frame,w,h,'scene-line');
+        for(const y of [2.8,4.5,6.5])line([[-6,y,8.8],[20,y,8.8]],frame,w,h,'scene-line');
+        polygon([[-6,0,2.5],[20,0,2.5],[20,0,5.4],[-6,0,5.4]],frame,w,h,'ground');
+        data.stripes.forEach(stripe=>polygon(stripe.points,frame,w,h,'paint'));
+        for(const z of data.road_z)line([[8,0,z],[18,0,z]],frame,w,h,'scene-line');
+        const p=frame.person, f=frame.heading, side=[f[1],-f[0]];
+        const world=(l,y,a=0)=>[p[0]+side[0]*l+f[0]*a,y,p[1]+side[1]*l+f[1]*a];
+        line([world(0,1.48),world(0,.86),world(-.11,.06,-.1)],frame,w,h,'actor');
+        line([world(0,.86),world(.11,.06,.1)],frame,w,h,'actor');
+        line([world(-.24,1.0),world(-.18,1.36),world(.18,1.36),world(.24,1.0)],frame,w,h,'actor');
+        const head=project(world(0,1.58),frame,w,h), top=project(world(0,1.70),frame,w,h), low=project(world(0,1.48),frame,w,h);
+        if(head&&top&&low)element(view,'ellipse',{cx:head[0],cy:head[1],rx:Math.abs(low[1]-top[1])*.33,ry:Math.abs(low[1]-top[1])*.5,class:'actor-dot'});
+        const mw=plan.clientWidth||270,mh=270;
+        plan.setAttribute('viewBox',`0 0 ${mw} ${mh}`);plan.replaceChildren();
+        const q=(x,z)=>[20+(x-8)/10*(mw-40),240-(z+1)/11*210];
+        const rect=(x0,z0,x1,z1,kind)=>{const a=q(x0,z0),b=q(x1,z1);element(plan,'rect',{x:Math.min(a[0],b[0]),y:Math.min(a[1],b[1]),width:Math.abs(b[0]-a[0]),height:Math.abs(b[1]-a[1]),class:kind});};
+        rect(8,2.5,18,5.4,'ground');rect(8,8.8,18,9.3,'ground');
+        data.stripes.forEach((s,i)=>{rect(s.points[0][0],s.points[0][2],s.points[2][0],s.points[2][2],'paint');const a=q(14.1,s.points[0][2]);const label=element(plan,'text',{x:a[0],y:a[1],class:'diagram-label'});label.textContent=String(i+1);});
+        element(plan,'polyline',{points:data.frames.map(f=>q(...f.person).join(',')).join(' '),class:'route'});
+        const a=q(...frame.person),b=q(...frame.camera);element(plan,'line',{x1:a[0],y1:a[1],x2:b[0],y2:b[1],class:'camera-ray'});
+        element(plan,'circle',{cx:a[0],cy:a[1],r:5,class:'actor-dot'});element(plan,'rect',{x:b[0]-5,y:b[1]-4,width:10,height:8,class:'camera'});
+        const company=element(plan,'text',{x:20,y:24,class:'diagram-label'});company.textContent='同一公司';
+        const legend=element(plan,'text',{x:12,y:264,class:'diagram-label'});legend.textContent='● 人物　■ 相機　1–6 固定白線';
+        slider.value=String(progress); root.querySelector('[data-position]').textContent=`${progress}%`;
+        root.querySelectorAll('[data-at]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.at)===progress)));
+        root.querySelector('[data-detail]').textContent=progress===50?'原分鏡中景：白條接近橫向；與核准中景的朝遠處方向不同。':'固定6條白線；只有人物與相機沿原路徑移動。';
+      }
+      function change(value) {progress=Math.max(0,Math.min(100,Math.round(value)));draw();window.openai?.setWidgetState?.({modelContent:{F04_route_progress:progress},privateContent:{progress}})?.catch(()=>{});}
+      slider.addEventListener('input',e=>change(Number(e.target.value)));
+      root.querySelectorAll('[data-at]').forEach(b=>b.addEventListener('click',()=>change(Number(b.dataset.at))));
+      window.addEventListener('openai:set_globals',event=>{const value=event.detail?.globals?.widgetState?.privateContent?.progress;if(Number.isFinite(value)){progress=Math.max(0,Math.min(100,Math.round(value)));draw();}});
+      new ResizeObserver(draw).observe(root);draw();
+    })();
+  </script>
+</div>

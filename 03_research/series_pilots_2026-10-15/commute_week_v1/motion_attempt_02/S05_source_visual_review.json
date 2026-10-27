@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-15",
+  "shot_id": "S05",
+  "source": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S05_source.mp4",
+  "sha256": "9a8f023e05c45bf18255dac53752bcad8eb28277e564962a8d04903fede7bcc0",
+  "reviewed_assets": [
+    "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/QA_S05/full_25_checkpoints.jpg",
+    "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/QA_S05/face_5_checkpoints.jpg"
+  ],
+  "method": "25 full-person checkpoints and5 face checkpoints plus resulting full-film checkpoint board; not continuous playback.",
+  "observations": {
+    "motion": "Continuous narrow crossing steps, whole head and shoes remain visible; bag and garment silhouettes readable.",
+    "head_expression": "Early smile relaxes and head turns gradually toward frame-right; contradicts requested steady head angle. Selected interval retains readable three-quarter face but becomes more side-on.",
+    "outfit": "White short-sleeve pointed-collar shirt, narrow belt, cocoa jeans, black shoes/bag remain recognizable in samples; known fine surface pattern approved in the starting image.",
+    "background": "Window/wall seams translate with camera; no sampled abrupt independent geometry collapse.",
+    "blocking_single_source_defects_seen": []
+  },
+  "selected_frames_half_open": [
+    72,
+    228
+  ],
+  "selected_seconds_half_open": [
+    3,
+    9.5
+  ],
+  "assistant_continuous_playback": false,
+  "user_motion_approval": null
+}

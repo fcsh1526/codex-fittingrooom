@@ -1,0 +1,36 @@
+{
+  "date_taipei": "2026-10-20",
+  "state_at_submission": "Grok agent thinking; output pending",
+  "request_count": 1,
+  "control_trial": "First + middle timestamp3 + last anchors with face/full references",
+  "supersedes_unexecuted_soft_reference_draft": "grok_prompt.txt was prepared but never submitted; actual request is grok_keyframe_trial_prompt.txt",
+  "actual_prompt": "grok_keyframe_trial_prompt.txt",
+  "requested_parameters": {
+    "duration": "6",
+    "resolution_name": "720p",
+    "aspect_ratio": "9:16",
+    "first_frame_asset_id": "e008f6b5-efe9-40b4-be75-615af1be766c",
+    "last_frame_asset_id": "a06e27e3-5f21-4875-805d-27e34796dd42",
+    "keyframes": [{"asset_id": "90081a23-1319-4ce4-9076-a72c8d26a332", "timestamp_s": 3}],
+    "asset_ids": ["6236309c-2343-41e6-985c-994239ff744a", "ac9ede4e-1715-4518-95b4-bda341a62061"]
+  },
+  "input_sha256": {
+    "first": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457",
+    "middle": "25606eaac1e1bbd7f8e53873de07d2a2b99c87ace88924f1917cd94dae55175b",
+    "last": "c7ceec64741262645fd5a59339d5cece3162fe8d928f7a0e0dd7521ace1b0d14",
+    "accepted_prefix": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33"
+  },
+  "input_approval_receipts": ["../../F04_start_user_still_approval_2026-10-20.json", "../crosswalk90_v2_user_approval_2026-10-20.json", "../end_crosswalk_alignment_01/user_still_approval_2026-10-20.json"],
+  "capability_evidence": ["reference_capability_dom.txt", "keyframe_capability_dom.txt"],
+  "capability_verification_limit": "Grok agent supplies exact schema/parameter report, not independent inspection of internal controls. Requires actual tool/result verification; no hard-anchor success inferred from prose.",
+  "new_information": "Agent reports keyframes array with asset_id/string and timestamp_s/number, up to4 strictly interior anchors on1/3s grid, coexists with first/last/asset_ids. Previous no-hard-mid-control assumption is superseded as an unverified planning assumption.",
+  "stop_conditions": "If actual call rejects combination, stop and report; no silent soft-reference substitution, dropped image, changed mode, or automatic second generation.",
+  "actual_output": null,
+  "actual_parameter_acceptance": null,
+  "source_frame_at_3seconds_matches_middle": null,
+  "dynamic_QA": null,
+  "user_video_approval": null,
+  "normal_speed_full_playback": null,
+  "F05": "hold",
+  "old_media_and_Drive_preserved": true
+}

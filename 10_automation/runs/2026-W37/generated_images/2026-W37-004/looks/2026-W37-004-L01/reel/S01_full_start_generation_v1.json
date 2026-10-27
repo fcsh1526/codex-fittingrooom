@@ -1,0 +1,29 @@
+{
+  "look_id": "2026-W37-004-L01",
+  "model_profile_id": "M01",
+  "date": "2026-10-01",
+  "status": "user_visual_approved_for_motion_2026-10-01",
+  "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-004/looks/2026-W37-004-L01/reel/2026-W37-004-L01_M01_S01_full_start_candidate_v1.png",
+  "pixels": [
+    941,
+    1672
+  ],
+  "sha256": "c2f37a53121fb49ffc8347182e1f6d62aff1801ff436325bbe4da76a746d2ac3",
+  "provider": "built_in_imagegen",
+  "references": [
+    "02_brand/reference_models/M01_start_v4_face.png",
+    "02_brand/reference_models/M01_start_v4_full.png"
+  ],
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M01_A_L01_start_v1.md",
+  "storyboard_path": "10_automation/runs/2026-W37/reels/M01_storyboard_v1.md",
+  "assistant_review": {
+    "identity": "Face/hair consistent with v4 anchors on visual comparison; user confirmation pending.",
+    "framing": "Native vertical9:16 composition; full hair and both shoes visible, forward floor space.",
+    "wardrobe": "White short-sleeved collar shirt, high-waisted dark-gray ankle-clear straight trousers, black belt and shoulder bag; burgundy closed-toe low broad heels with one vertical instep strap joining ankle-front strap.",
+    "realism": "Light and contact shadows coherent; near-frontal face, front foot planted, back foot position needs normal-speed dynamic validation.",
+    "proof": "T intersection visible in full native source; larger lower-body proof still required clarity review.",
+    "text": "none"
+  },
+  "user_visual_approval": "可以，沿用這張",
+  "grok_submitted": true
+}

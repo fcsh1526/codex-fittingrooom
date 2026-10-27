@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "entrypoint": "Existing Grok Imagine canvas agent prompt composer",
+  "status": "three_originals_downloaded_independent_file_facts_verified",
+  "shots": [
+    "S03",
+    "S04",
+    "S05"
+  ],
+  "inputs": [
+    {
+      "shot_id": "S03",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S03_M03_L03_candidate_A_refined_v2.png",
+      "sha256": "1c4ede1a903b78fc8c3bc50405c9b61f767d03f92eeed9386b7f1df122e3a78c",
+      "canvas_asset_id": "f331ab7e-497e-476b-acb9-370568cc41ba",
+      "role": "Exact user-approved S03 first frame and own wardrobe/scene",
+      "user_visual_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/S03_user_still_approval_2026-10-15.json",
+      "registration_evidence": "New upload UUID recorded by operating agent and included in submitted prompt; canvas-agent completion reports matching content/role. Internal generation tool payload not independently inspected."
+    },
+    {
+      "shot_id": "S04",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S04_M03_L04_candidate_A_refined_v2.png",
+      "sha256": "c1cc960b0a8f380e1a086907c7dad383c78af443a7f6dbec83a5020f796025cf",
+      "canvas_asset_id": "0c3cc854-b706-44ad-adc9-528d980f73ad",
+      "role": "Exact user-approved S04 first frame and own wardrobe/scene",
+      "user_visual_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/S04_user_still_approval_2026-10-15.json",
+      "registration_evidence": "New upload UUID recorded by operating agent and included in submitted prompt; canvas-agent completion reports matching content/role. Internal generation tool payload not independently inspected."
+    },
+    {
+      "shot_id": "S05",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/starting_images/S05_M03_L05_candidate_A.png",
+      "sha256": "15a168cc93ec379523aa27275d37051fcb32fd3eb7bd2d7f5b389b60b844142f",
+      "canvas_asset_id": "a576077b-a30b-4de2-8aa3-3c7182040eaf",
+      "role": "Exact user-approved S05 first frame and own wardrobe/scene",
+      "user_visual_approval_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/S05_user_still_approval_2026-10-15.json",
+      "registration_evidence": "New upload UUID recorded by operating agent and included in submitted prompt; canvas-agent completion reports matching content/role. Internal generation tool payload not independently inspected."
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "canvas_asset_id": "6236309c-2343-41e6-985c-994239ff744a",
+      "role": "M03 v3 face identity only",
+      "registration_evidence": "Reused earlier recorded same-canvas upload UUID; newly submitted prompts and current agent completion report this UUID. Internal generation tool payload not independently inspected."
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "canvas_asset_id": "ac9ede4e-1715-4518-95b4-bda341a62061",
+      "role": "M03 v3 normal body proportions only; not wardrobe, pose or scene",
+      "registration_evidence": "Reused earlier recorded same-canvas upload UUID; newly submitted prompts and current agent completion report this UUID. Internal generation tool payload not independently inspected."
+    }
+  ],
+  "submitted_prompt_documents": [
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/agent_generation_prompt.txt",
+      "sha256": "54a46c9f07d8880057a4ce290f525ff4b4b43cd74a2fc18eea406456108332c7",
+      "applies_to_shots": [
+        "S03",
+        "S04"
+      ],
+      "verbatim_submitted_text": "繼續同一M03五套通勤衣櫥系列，這次只生成第三、四鏡，沿用上次S01/S02的正常速度跟走語言。不要使用舊M02/M04/006-Mira或目前選取殘留影片。使用者已核准以下兩張refined_v2，包括已披露細紋，不需重新修圖。先實際查看UUID是否內容相符；不符或找不到就停止回報。\nS03核准First frame：f331ab7e-497e-476b-acb9-370568cc41ba，M03奶油白短立領外套敞開、白圓領T、炭灰直筒褲、黑低跟鞋、小黑肩包。\nS04核准First frame：0c3cc854-b706-44ad-adc9-528d980f73ad，M03白短袖尖領襯衫紮入、黑色高腰及小腿A字裙、鈷藍肩包、同黑低跟鞋。\nM03 v3 face身份參照：6236309c-2343-41e6-985c-994239ff744a。M03 v3 full只鎖正常身體比例：ac9ede4e-1715-4518-95b4-bda341a62061；勿複製參照圖衣服、姿態或場景。\n請只各生成一次，兩個獨立10秒720p原生9:16候選影片，放同一畫布；各以自身核准圖作First frame及服裝場景基準，兩者都加入上述M03 face/full；不設Last frame，不把另一套作服裝參照，不單段換衣。不要出新靜態圖、不合片、不自動重試、不改刪舊媒體。\nBoth shots: One continuous ten-second real-time fashion shot. Begin at the exact approved first frame, already mid-walk. The same M03 woman continues forward-right at a natural everyday walking rhythm throughout and through the ending. Track parallel alongside her at matching speed, maintaining the approved side-front angle, distance and full head-to-shoe framing, with the waist and garment fronts clearly readable. Maintain her approved slight frame-left gaze and a steady head angle. Let her arms swing naturally; the bag stays outside and slightly behind the near hip. Preserve face identity, normal anatomy, hairstyle, exact garments, bag, footwear and their material details. Keep grounded feet, contact shadows and coherent daylight. Architecture, windows, wall seams and paving must translate coherently as rigid background geometry. No zoom, orbit, pose stop, extra head turn, slow motion, cut, dissolve, outfit morph, extra person, text or logos.\nS03: Keep the short cream stand-collar jacket open, hem at the approved waist-to-hip height; white crewneck cotton tee, charcoal straight trousers, black shoes and small black shoulder bag remain unchanged.\nS04: Keep the white short-sleeved pointed-collar cotton shirt tucked; black calf-length A-line cotton skirt keeps its shape and modest hem during natural short steps; cobalt-blue small shoulder bag and black shoes remain unchanged. No skirt slit or extra accessory.\n音訊可關則關；若此模式仍帶音軌，如實回報即可，不因音軌重生。完成各列真正使用First frame/face/full IDs、影片asset ID、實際時長/解析度/音軌。保留獨立原片供下載，我會檢查動態並在本機安排0.75秒柔接。",
+      "role": "User-visible prompt submitted to canvas agent, not proof of its internal generation tool argument payload."
+    },
+    {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S05_agent_generation_prompt.txt",
+      "sha256": "6572c5fc9de6d09270570b7fd0e996c3c0ad299df02d3d2869ad585260b0f04f",
+      "applies_to_shots": [
+        "S05"
+      ],
+      "verbatim_submitted_text": "現在只完成同一M03五套通勤衣櫥系列的第五鏡，使用者剛核准這張新首幀：a576077b-a30b-4de2-8aa3-3c7182040eaf（白短袖尖領棉襯衫紮入／可可棕高腰直筒丹寧無刷破／窄黑皮帶／黑低跟鞋／小黑肩包）。先實際核對內容；不符或找不到就停止，不用舊M02/M04或其他衣服猜。First frame與服裝場景基準只用上述第五套；M03 v3 face 6236309c-2343-41e6-985c-994239ff744a作身份，full ac9ede4e-1715-4518-95b4-bda341a62061只鎖正常比例。不設Last frame。只生成一次、獨立10秒720p原生9:16影片，放同一畫布；不出新圖、不改舊媒體、不自動重試或合片。\nOne continuous ten-second real-time fashion shot. Begin at the exact approved first frame, already mid-walk. The same M03 woman continues forward-right at a natural everyday walking rhythm throughout and through the ending. Track parallel alongside her at matching speed, maintaining the approved side-front angle, distance and full head-to-shoe framing, with waist and garment fronts clearly readable. Maintain the approved slight frame-left gaze and a steady head angle. Her arms swing naturally; the small black bag stays outside and slightly behind the near hip. Preserve exact face, normal anatomy, hairstyle, tucked white short-sleeved pointed-collar cotton shirt, cocoa-brown undistressed straight jeans, narrow black belt and black low-heeled shoes. Keep grounded feet, contact shadows and coherent daylight; walls, windows, seams and paving translate coherently as rigid background geometry. No zoom, orbit, pose stop, extra head turn, slow motion, cut, dissolve, outfit morph, extra person, text or logos.\n音訊可關則關，無法關就回報不重生。完成列出First frame/face/full IDs、影片ID、實際時長/解析度/音軌，保留獨立原片供下載。",
+      "role": "User-visible prompt submitted to canvas agent, not proof of its internal generation tool argument payload."
+    }
+  ],
+  "requested": {
+    "independent_output_count": 3,
+    "seconds_each": 10,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "first_frame": "Each shot own exact approved still only",
+    "face_asset_id": "6236309c-2343-41e6-985c-994239ff744a",
+    "full_asset_id": "ac9ede4e-1715-4518-95b4-bda341a62061",
+    "last_frame": null,
+    "natural_real_time_walking": true,
+    "camera": "parallel tracking at matching speed; fixed full-person distance/angle",
+    "audio": "disable if available; otherwise preserve/report source audio without regeneration",
+    "workflow_attempts_per_shot": 1,
+    "automatic_retries": false,
+    "new_still_generation": false,
+    "composition": false
+  },
+  "agent_reported_completion": {
+    "evidence_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/grok_completion_dom.txt",
+    "evidence_sha256": "1fa7e08a2b695ca032082bb4de5252f4ffc7ae5c79f246a27041743b70557d8d",
+    "input_content_checked": true,
+    "reported_first_frame_asset_ids": {
+      "S03": "f331ab7e-497e-476b-acb9-370568cc41ba",
+      "S04": "0c3cc854-b706-44ad-adc9-528d980f73ad",
+      "S05": "a576077b-a30b-4de2-8aa3-3c7182040eaf"
+    },
+    "reported_face_asset_id": "6236309c-2343-41e6-985c-994239ff744a",
+    "reported_full_asset_id": "ac9ede4e-1715-4518-95b4-bda341a62061",
+    "reported_last_frame": null,
+    "reported_video_asset_ids": {
+      "S03": "59fd54be-5404-475f-8358-c684de330f0d",
+      "S04": "b3087cb7-ca56-4309-8056-43f5ac3351e3",
+      "S05": "65636d14-3718-4eeb-8183-3c5297be1ada"
+    },
+    "reported_seconds_each": 10.04,
+    "reported_pixels_each": [
+      720,
+      1280
+    ],
+    "reported_audio": "AAC,10.0s",
+    "reported_audio_could_not_be_disabled": true,
+    "limit": "These are canvas-agent statements shown in the saved visible DOM text. They are not independent inspection of generation tool arguments or audio-disable capability."
+  },
+  "completion_DOM_capture_check": {
+    "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/grok_completion_dom.txt",
+    "sha256": "1fa7e08a2b695ca032082bb4de5252f4ffc7ae5c79f246a27041743b70557d8d",
+    "character_count": 10110,
+    "required_input_and_output_UUIDs_present": true,
+    "S03_S04_and_S05_completion_tables_present": true,
+    "appears_to_be_last_character_only": false,
+    "capture_scope": "Re-captured this-run S03/S04 request and completion through S05 request and completion; inspected for actual text/UUIDs rather than assuming a slice start succeeded.",
+    "limitations": "Accessibility text includes agent completion tables and playback UI; it does not expose internal generation parameter payloads."
+  },
+  "operator_reported_media_element_observation": {
+    "pixels": [
+      720,
+      1280
+    ],
+    "duration_seconds": 10.041667,
+    "evidence_level": "Operating root agent reports DOM media-element observations; not independently reacquired by this receipt writer and raw per-asset property snapshot is not separately saved here.",
+    "independent_support": "Exact downloaded-file metadata and decoded frame clocks below match these values."
+  },
+  "actual_output": [
+    {
+      "shot_id": "S03",
+      "video_asset_id": "59fd54be-5404-475f-8358-c684de330f0d",
+      "local_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S03_source.mp4",
+      "sha256": "7b679f0f7e962ee29622b970d9f39ee1c000d234ab476ace1da347c5719adfba",
+      "file_bytes": 7659868,
+      "download_sequence_label_reported_by_operator": "(41).mp4",
+      "download_label_limit": "Operator-provided numbered download label; the unrecorded full basename/path is not reconstructed.",
+      "submitted_prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/agent_generation_prompt.txt",
+      "first_frame_asset_id_requested": "f331ab7e-497e-476b-acb9-370568cc41ba",
+      "face_asset_id_requested": "6236309c-2343-41e6-985c-994239ff744a",
+      "full_asset_id_requested": "ac9ede4e-1715-4518-95b4-bda341a62061",
+      "technical_scan_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S03_technical_scan.json",
+      "technical_scan_sha256": "9ce0db408941ca1ae283aa8eb47d00cc8812eea676b70ac8e1cce8e2a928276f",
+      "independent_file_facts": {
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 10.04
+        },
+        "decoded_frames": 241,
+        "decoded_seconds": 10.041666666666666,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "sha_binding": "Existing scan SHA verified against exact file.",
+        "receipt_creation_metadata_reread": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 10.04
+        },
+        "receipt_creation_extra_full_decode_frames": null,
+        "original_audio_codec": "aac"
+      },
+      "workflow_generation_attempts": 1,
+      "workflow_retries": 0,
+      "motion_user_approval": null
+    },
+    {
+      "shot_id": "S04",
+      "video_asset_id": "b3087cb7-ca56-4309-8056-43f5ac3351e3",
+      "local_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S04_source.mp4",
+      "sha256": "11f8b99c5fcd72937df7b53361070e5b16729539f401f13e8c3f0b0b49baa39b",
+      "file_bytes": 9272581,
+      "download_sequence_label_reported_by_operator": "(42).mp4",
+      "download_label_limit": "Operator-provided numbered download label; the unrecorded full basename/path is not reconstructed.",
+      "submitted_prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/agent_generation_prompt.txt",
+      "first_frame_asset_id_requested": "0c3cc854-b706-44ad-adc9-528d980f73ad",
+      "face_asset_id_requested": "6236309c-2343-41e6-985c-994239ff744a",
+      "full_asset_id_requested": "ac9ede4e-1715-4518-95b4-bda341a62061",
+      "technical_scan_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S04_technical_scan.json",
+      "technical_scan_sha256": "6f7d34e4ec02516323b592da72080bc5edb189a6ae883afe86b63b411facc9f5",
+      "independent_file_facts": {
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 10.04
+        },
+        "decoded_frames": 241,
+        "decoded_seconds": 10.041666666666666,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "sha_binding": "Existing scan SHA verified against exact file.",
+        "receipt_creation_metadata_reread": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 10.04
+        },
+        "receipt_creation_extra_full_decode_frames": null,
+        "original_audio_codec": "aac"
+      },
+      "workflow_generation_attempts": 1,
+      "workflow_retries": 0,
+      "motion_user_approval": null
+    },
+    {
+      "shot_id": "S05",
+      "video_asset_id": "65636d14-3718-4eeb-8183-3c5297be1ada",
+      "local_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S05_source.mp4",
+      "sha256": "9a8f023e05c45bf18255dac53752bcad8eb28277e564962a8d04903fede7bcc0",
+      "file_bytes": 8798940,
+      "download_sequence_label_reported_by_operator": "(43).mp4",
+      "download_label_limit": "Operator-provided numbered download label; the unrecorded full basename/path is not reconstructed.",
+      "submitted_prompt_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S05_agent_generation_prompt.txt",
+      "first_frame_asset_id_requested": "a576077b-a30b-4de2-8aa3-3c7182040eaf",
+      "face_asset_id_requested": "6236309c-2343-41e6-985c-994239ff744a",
+      "full_asset_id_requested": "ac9ede4e-1715-4518-95b4-bda341a62061",
+      "technical_scan_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/S05_technical_scan.json",
+      "technical_scan_sha256": "f6e679ebba182641a54f610767f88ed16ef13da88c3fafbdc9366ed71cd038e1",
+      "independent_file_facts": {
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 10.04
+        },
+        "decoded_frames": 241,
+        "decoded_seconds": 10.041666666666666,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "sha_binding": "Scan has no stored source SHA; receipt hashes current file and independently redecodes all241 frames and reads matching metadata.",
+        "receipt_creation_metadata_reread": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "audio_codec": "aac",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 10.04
+        },
+        "receipt_creation_extra_full_decode_frames": 241,
+        "original_audio_codec": "aac"
+      },
+      "workflow_generation_attempts": 1,
+      "workflow_retries": 0,
+      "motion_user_approval": null
+    }
+  ],
+  "tool_parameter_payload_independently_inspected": false,
+  "audio_evidence_boundary": "All downloaded originals independently contain AAC. The inability to disable audio is only agent-reported; no setting/control capability is inferred from the existence of an audio stream.",
+  "costs": {
+    "workflow_generation_attempts_total": 3,
+    "workflow_retries_total": 0,
+    "active_minutes": null,
+    "generation_wait_seconds": null,
+    "timing_limit": "Exact active/wait times unavailable because the preceding generation turn was interrupted; no values estimated from elapsed wall time."
+  },
+  "evidence_files": {
+    "completion_DOM": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/grok_completion_dom.txt",
+    "canvas_result_screenshot": {
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/grok_generation_result.jpg",
+      "sha256": "b24c7652c3e44944a7bffb90a8952c37ae712f1b3bd876329de07b5b53f9138b"
+    },
+    "source_visual_review_path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_02/source_visual_review.json"
+  },
+  "QA_boundary": {
+    "generation_receipt_grants_visual_approval": false,
+    "source_QA": "See separate source_visual_review.json and per-source QA; generation completion and technical scans do not approve movement or joins.",
+    "assistant_continuous_playback": false,
+    "new_motion_user_approval": null,
+    "remaining_join_user_approval": null,
+    "complete_five_look_film_approval": null,
+    "retiming_or_edit_of_originals": false,
+    "publishing_files_replaced": []
+  },
+  "audit_limits": [
+    "Requested and agent-reported first-frame/face/full/last-frame settings remain distinct from independently measured output files.",
+    "Reported one attempt per shot records this workflow; unexposed vendor-internal retries are not audited.",
+    "No successful plain-surface correction is implied by animation of stills already approved with residual texture.",
+    "These are native downloaded originals with AAC, not the later silent combined review film."
+  ]
+}

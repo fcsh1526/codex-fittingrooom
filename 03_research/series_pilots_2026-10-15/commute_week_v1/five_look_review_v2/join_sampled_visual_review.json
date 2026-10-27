@@ -1,0 +1,163 @@
+{
+  "created_at_utc": "2026-10-15T07:06:16.021754+00:00",
+  "date": "2026-10-15",
+  "reviewer": "commute_motion_review subagent",
+  "status": "four_new_join_checkpoint_reviews_complete_user_normal_speed_preview_pending",
+  "output": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\five_look_review_v2\\M03_commute_week_inspiration_v2.mp4",
+  "output_sha256": "05cf662b8b6190d7318a298c596dca9df96c7e926df6256f1cb788d63e806839",
+  "source_order": [
+    "S04",
+    "S01",
+    "S05",
+    "S02",
+    "S03"
+  ],
+  "reported_duration_seconds_from_edit_receipt": 19.75,
+  "scope": "Existing v2 join QA assets only. No source re-scan, motion generation, media edit, edit-receipt update or shared-state mutation.",
+  "method": "Used view_image to inspect all eight existing34-frame full/head boundary boards and four native midpoint PNGs. Actual normal-speed continuous playback was not performed.",
+  "assistant_continuous_visual_review": false,
+  "user_video_approval": null,
+  "original_user_feedback_resolved": null,
+  "publishable": false,
+  "summary": "Checkpoint review found no additional defect that blocks showing this research version to the user for normal-speed playback. All four joins still visibly superimpose faces, limbs and rigid architecture. The first S04-to-S01 join has the strongest face-angle/expression contrast and conspicuous skirt-to-long-blazer/trousers overlap. Person scale is broadly comparable but not identically aligned. Existing clear frames before/after overlaps retain readable outfits, and no context sample shows unexpected black flash or extended residual ghosting. This does not establish viewing comfort, improved rhythm or resolution of the original feedback.",
+  "joins": [
+    {
+      "join": "J12_S04_S01",
+      "from_shot": "S04",
+      "to_shot": "S01",
+      "output_frames_half_open": [
+        90,
+        108
+      ],
+      "output_seconds_half_open": [
+        3.75,
+        4.5
+      ],
+      "requested_overlap_frames": 18,
+      "requested_overlap_seconds": 0.75,
+      "viewed_assets": [
+        "QA/J12_S04_S01/transition_all_boundary_frames.jpg",
+        "QA/J12_S04_S01/transition_all_boundary_head_windows.jpg",
+        "QA/J12_S04_S01/frames/frame_000098.png"
+      ],
+      "viewed_boundary_context": "All18 cross-dissolve frames plus eight existing context frames on each side, displayed in full-frame and head-window boards; one native midpoint PNG separately viewed.",
+      "observations": {
+        "native_frame": 98,
+        "severity": "strong face-angle and expression double image; most conspicuous of the four at checkpoint scale",
+        "face": "Outgoing slightly frame-right neutral face changes to incoming frame-left smiling face. Mid-overlap displays separated eyes, mouth and hair outlines; this is a substantial gaze/expression reset rather than a matched facial pose.",
+        "body_scale_feet": "Full-person scale remains broadly comparable, but shoulders, arms, shoes and leg phase are offset. Black skirt fades through long ivory blazer plus dark trousers, creating a visible combined skirt/trouser silhouette. No abrupt extreme zoom in displayed context.",
+        "background": "Window mullions, large pale wall panels and paving positions do not align. Strong duplicated vertical and horizontal lines accompany the changing architecture position.",
+        "most_visible_time": "Approximately4.0–4.2seconds; native f98 at4.083seconds inspected."
+      },
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+      "continuous_playback_comfort_verified": false,
+      "user_join_approval": null
+    },
+    {
+      "join": "J23_S01_S05",
+      "from_shot": "S01",
+      "to_shot": "S05",
+      "output_frames_half_open": [
+        186,
+        204
+      ],
+      "output_seconds_half_open": [
+        7.75,
+        8.5
+      ],
+      "requested_overlap_frames": 18,
+      "requested_overlap_seconds": 0.75,
+      "viewed_assets": [
+        "QA/J23_S01_S05/transition_all_boundary_frames.jpg",
+        "QA/J23_S01_S05/transition_all_boundary_head_windows.jpg",
+        "QA/J23_S01_S05/frames/frame_000194.png"
+      ],
+      "viewed_boundary_context": "All18 cross-dissolve frames plus eight existing context frames on each side, displayed in full-frame and head-window boards; one native midpoint PNG separately viewed.",
+      "observations": {
+        "native_frame": 194,
+        "severity": "moderate face ghosting and strong lower-body/background overlap; head poses closer than first join",
+        "face": "Both faces are closer to front three-quarter than at J12, but eye/mouth placement and smile differ. Mid-overlap still clearly doubles eyes and mouth; it is not a zero-difference soft swap.",
+        "body_scale_feet": "Broad head-to-shoe size is comparable. Long ivory blazer fades out while white pointed-collar shirt and brown trousers emerge; jacket sleeves, hands, shoes and different stride phases coexist during dissolve. Full outfit remains visible on clear sides.",
+        "background": "Windowed outgoing area fades to a plainer masonry view. Parallel columns/window edges and ground seams are clearly doubled.",
+        "most_visible_time": "Approximately8.0–8.2seconds; native f194 at8.083seconds inspected."
+      },
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+      "continuous_playback_comfort_verified": false,
+      "user_join_approval": null
+    },
+    {
+      "join": "J34_S05_S02",
+      "from_shot": "S05",
+      "to_shot": "S02",
+      "output_frames_half_open": [
+        276,
+        294
+      ],
+      "output_seconds_half_open": [
+        11.5,
+        12.25
+      ],
+      "requested_overlap_frames": 18,
+      "requested_overlap_seconds": 0.75,
+      "viewed_assets": [
+        "QA/J34_S05_S02/transition_all_boundary_frames.jpg",
+        "QA/J34_S05_S02/transition_all_boundary_head_windows.jpg",
+        "QA/J34_S05_S02/frames/frame_000284.png"
+      ],
+      "viewed_boundary_context": "All18 cross-dissolve frames plus eight existing context frames on each side, displayed in full-frame and head-window boards; one native midpoint PNG separately viewed.",
+      "observations": {
+        "native_frame": 284,
+        "severity": "moderate-to-strong face and gait misalignment",
+        "face": "Brown-trouser source is more side-on and lightly smiling; check-shirt source is more frontal/neutral. Distinct eye/nose/mouth contours overlap during the transition.",
+        "body_scale_feet": "Comparable broad full-person size, but torso/near arm positions and gait phases differ. Two trousers silhouettes, foot placements and shoulder-bag outlines are visible together. No sampled extreme resize or retained malformed single-source frame after dissolve.",
+        "background": "Blanker masonry/door-edge view changes to windowed architecture. Doubled column edges, wall joints and ground lines are conspicuous in the overlap.",
+        "most_visible_time": "Approximately11.75–11.95seconds; native f284 at11.833seconds inspected."
+      },
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+      "continuous_playback_comfort_verified": false,
+      "user_join_approval": null
+    },
+    {
+      "join": "J45_S02_S03",
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "output_frames_half_open": [
+        354,
+        372
+      ],
+      "output_seconds_half_open": [
+        14.75,
+        15.5
+      ],
+      "requested_overlap_frames": 18,
+      "requested_overlap_seconds": 0.75,
+      "viewed_assets": [
+        "QA/J45_S02_S03/transition_all_boundary_frames.jpg",
+        "QA/J45_S02_S03/transition_all_boundary_head_windows.jpg",
+        "QA/J45_S02_S03/frames/frame_000362.png"
+      ],
+      "viewed_boundary_context": "All18 cross-dissolve frames plus eight existing context frames on each side, displayed in full-frame and head-window boards; one native midpoint PNG separately viewed.",
+      "observations": {
+        "native_frame": 362,
+        "severity": "moderate-to-strong face double image; legs overlap despite shared grey-trouser cue",
+        "face": "Incoming short-jacket face is shifted horizontally relative to outgoing check-shirt face; double eyes, nose and mouth are apparent at mid-overlap.",
+        "body_scale_feet": "Similar full-person scale and grey trousers offer a common cue, but near hand and heel/foot phases differ. Check shirt changes to short cream jacket and tee; these garment contours overlap rather than transform seamlessly.",
+        "background": "Large mullions and stone-joint positions are mismatched. Double background edges remain visible during18-frame overlap and clear in the pure-source frames.",
+        "most_visible_time": "Approximately15.0–15.2seconds; native f362 at15.083seconds inspected."
+      },
+      "no_blocking_defect_for_user_normal_speed_preview": true,
+      "unexpected_black_flash_or_ghost_after_overlap_observed_in_context": false,
+      "continuous_playback_comfort_verified": false,
+      "user_join_approval": null
+    }
+  ],
+  "limitations": [
+    "Static boundary sampling cannot determine normal-speed eye comfort or overall19.75second pacing.",
+    "Every overlap is an intentional visible cross-dissolve; no seamless matched-gait or exact identity/geometry claim is made.",
+    "Broadly comparable person scale does not remove head-angle, arm/leg-phase or architectural-position differences.",
+    "No change to original source QA, accepted still texture, user approvals or previous film versions."
+  ]
+}

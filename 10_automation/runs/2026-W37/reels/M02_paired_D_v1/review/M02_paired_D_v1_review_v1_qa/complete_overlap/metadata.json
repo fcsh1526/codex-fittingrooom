@@ -1,0 +1,131 @@
+{
+  "source": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1.mp4",
+  "fps": 24,
+  "frame_indices": [
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144
+  ],
+  "frames": [
+    {
+      "frame": 125,
+      "seconds": 5.208333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_000.png"
+    },
+    {
+      "frame": 126,
+      "seconds": 5.25,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_001.png"
+    },
+    {
+      "frame": 127,
+      "seconds": 5.291666666666667,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_002.png"
+    },
+    {
+      "frame": 128,
+      "seconds": 5.333333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_003.png"
+    },
+    {
+      "frame": 129,
+      "seconds": 5.375,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_004.png"
+    },
+    {
+      "frame": 130,
+      "seconds": 5.416666666666667,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_005.png"
+    },
+    {
+      "frame": 131,
+      "seconds": 5.458333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_006.png"
+    },
+    {
+      "frame": 132,
+      "seconds": 5.5,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_007.png"
+    },
+    {
+      "frame": 133,
+      "seconds": 5.541666666666667,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_008.png"
+    },
+    {
+      "frame": 134,
+      "seconds": 5.583333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_009.png"
+    },
+    {
+      "frame": 135,
+      "seconds": 5.625,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_010.png"
+    },
+    {
+      "frame": 136,
+      "seconds": 5.666666666666667,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_011.png"
+    },
+    {
+      "frame": 137,
+      "seconds": 5.708333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_012.png"
+    },
+    {
+      "frame": 138,
+      "seconds": 5.75,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_013.png"
+    },
+    {
+      "frame": 139,
+      "seconds": 5.791666666666667,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_014.png"
+    },
+    {
+      "frame": 140,
+      "seconds": 5.833333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_015.png"
+    },
+    {
+      "frame": 141,
+      "seconds": 5.875,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_016.png"
+    },
+    {
+      "frame": 142,
+      "seconds": 5.916666666666667,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_017.png"
+    },
+    {
+      "frame": 143,
+      "seconds": 5.958333333333333,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_018.png"
+    },
+    {
+      "frame": 144,
+      "seconds": 6.0,
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/checkpoint_019.png"
+    }
+  ],
+  "board": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v1_qa/complete_overlap/complete_overlap_with_endpoints.jpg",
+  "sampled_visual_review": "pending",
+  "continuous_review": "pending"
+}

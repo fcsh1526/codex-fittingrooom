@@ -1,0 +1,22 @@
+{
+  "all_decoded_frames_compared": 712,
+  "mean_absolute_RGB_error_0_to_255": 1.724155562484556,
+  "worst_frame_MAE": 2.4876920572916665,
+  "minimum_frame_PSNR_dB": 37.423841900401584,
+  "thresholds": {
+    "worst_frame_MAE_max": 3.0,
+    "minimum_frame_PSNR_dB_min": 32.0
+  },
+  "within_codec_tolerance": true,
+  "unblended_working_context": {
+    "frames_compared": 567,
+    "half_open_frames": [
+      0,
+      567
+    ],
+    "mean_absolute_RGB_error": 1.7263932132191435,
+    "worst_frame_MAE": 2.4876920572916665,
+    "minimum_frame_PSNR_dB": 37.423841900401584
+  },
+  "byte_identical_or_pixel_identical_claim": false
+}

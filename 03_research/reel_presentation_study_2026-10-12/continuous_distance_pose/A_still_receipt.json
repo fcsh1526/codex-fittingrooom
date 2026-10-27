@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-12",
+  "tool": "built-in image_gen",
+  "output": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/continuous_distance_pose_v1/2026-W41-004-L01_M03_near_start_candidate_v1.png",
+  "sha256": "bfd1ba832a65091ec15a433fc2a3eef8bdc44a69a020ad7c4dbaf0fac35b56d7",
+  "pixels": [
+    941,
+    1672
+  ],
+  "original_generated_path": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-a0bac5d9-4ae3-4f3b-95ff-397f8c4389ae.png",
+  "inputs": [
+    {
+      "role": "approved wardrobe and fixed scene",
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/2026-W41-004-L01_M03_reel_candidate_A_v2.png",
+      "sha256": "5e2027ae6cadcdec0e54eb88daf21929af3c5e3f20b4c0a6f6c18221a76d575f"
+    },
+    {
+      "role": "approved identity anchor",
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "role": "approved identity anchor",
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "prompt": "A_near_prompt.txt",
+  "framing_transform": "none; direct native9:16 image generation",
+  "assistant_static_review": "face recognizable; ivory blazer/white crewneck/navy trousers/brown bag retained; full hair/hands/waist/knees visible; bench/window screen geometry broadly retained; no pixel-level background lock claimed",
+  "status": "user_still_approved",
+  "user_approval": "A_still_user_approval.json",
+  "grok_submission": false,
+  "protected_publishing_hashes_match": true,
+  "generation_calls": 1,
+  "targeted_edits": 0,
+  "active_minutes": null,
+  "waiting_minutes": null
+}

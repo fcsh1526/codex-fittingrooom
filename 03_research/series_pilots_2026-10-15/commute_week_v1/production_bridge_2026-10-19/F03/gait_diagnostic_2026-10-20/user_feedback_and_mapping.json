@@ -1,0 +1,297 @@
+{
+  "record_date_local": "2026-10-20",
+  "user_quote": "第二鏡切第三鏡時，比第一鏡切第三鏡更無痕跡更順暢。但約8-9秒之間，人物有腳步飄移現象",
+  "interpretation": "New F02-to-F03 join is positively received; exact8-9s gait needs correction. First-to-third comparison wording retained verbatim, not silently rewritten.",
+  "status": "revision_requested_gait_8_to_9s_preserve_join_direction",
+  "film_sha256": "9bb9bf741f307df29c98be414ba3597606877a01236af7dc43acb43321a4c03e",
+  "report_interval_seconds_approx": [
+    8,
+    9
+  ],
+  "join_seconds_half_open": [
+    7.791666666666667,
+    8.541666666666666
+  ],
+  "composite_frames_around_report": [
+    {
+      "output_frame": 192,
+      "F01_native_frame": null,
+      "F02_native_frame": 132,
+      "F03_native_frame": 5,
+      "join": "J23",
+      "incoming_alpha": 0.3333333333333333
+    },
+    {
+      "output_frame": 193,
+      "F01_native_frame": null,
+      "F02_native_frame": 133,
+      "F03_native_frame": 6,
+      "join": "J23",
+      "incoming_alpha": 0.3888888888888889
+    },
+    {
+      "output_frame": 194,
+      "F01_native_frame": null,
+      "F02_native_frame": 134,
+      "F03_native_frame": 7,
+      "join": "J23",
+      "incoming_alpha": 0.4444444444444444
+    },
+    {
+      "output_frame": 195,
+      "F01_native_frame": null,
+      "F02_native_frame": 135,
+      "F03_native_frame": 8,
+      "join": "J23",
+      "incoming_alpha": 0.5
+    },
+    {
+      "output_frame": 196,
+      "F01_native_frame": null,
+      "F02_native_frame": 136,
+      "F03_native_frame": 9,
+      "join": "J23",
+      "incoming_alpha": 0.5555555555555556
+    },
+    {
+      "output_frame": 197,
+      "F01_native_frame": null,
+      "F02_native_frame": 137,
+      "F03_native_frame": 10,
+      "join": "J23",
+      "incoming_alpha": 0.6111111111111112
+    },
+    {
+      "output_frame": 198,
+      "F01_native_frame": null,
+      "F02_native_frame": 138,
+      "F03_native_frame": 11,
+      "join": "J23",
+      "incoming_alpha": 0.6666666666666666
+    },
+    {
+      "output_frame": 199,
+      "F01_native_frame": null,
+      "F02_native_frame": 139,
+      "F03_native_frame": 12,
+      "join": "J23",
+      "incoming_alpha": 0.7222222222222222
+    },
+    {
+      "output_frame": 200,
+      "F01_native_frame": null,
+      "F02_native_frame": 140,
+      "F03_native_frame": 13,
+      "join": "J23",
+      "incoming_alpha": 0.7777777777777778
+    },
+    {
+      "output_frame": 201,
+      "F01_native_frame": null,
+      "F02_native_frame": 141,
+      "F03_native_frame": 14,
+      "join": "J23",
+      "incoming_alpha": 0.8333333333333334
+    },
+    {
+      "output_frame": 202,
+      "F01_native_frame": null,
+      "F02_native_frame": 142,
+      "F03_native_frame": 15,
+      "join": "J23",
+      "incoming_alpha": 0.8888888888888888
+    },
+    {
+      "output_frame": 203,
+      "F01_native_frame": null,
+      "F02_native_frame": 143,
+      "F03_native_frame": 16,
+      "join": "J23",
+      "incoming_alpha": 0.9444444444444444
+    },
+    {
+      "output_frame": 204,
+      "F01_native_frame": null,
+      "F02_native_frame": 144,
+      "F03_native_frame": 17,
+      "join": "J23",
+      "incoming_alpha": 1.0
+    },
+    {
+      "output_frame": 205,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 18,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 206,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 19,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 207,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 20,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 208,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 21,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 209,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 22,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 210,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 23,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 211,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 24,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 212,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 25,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 213,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 26,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 214,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 27,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 215,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 28,
+      "join": null,
+      "incoming_alpha": null
+    },
+    {
+      "output_frame": 216,
+      "F01_native_frame": null,
+      "F02_native_frame": null,
+      "F03_native_frame": 29,
+      "join": null,
+      "incoming_alpha": null
+    }
+  ],
+  "inspection_only_crop_xyxy": [
+    60,
+    800,
+    660,
+    1240
+  ],
+  "sources": [
+    {
+      "role": "F03_first_1p5s",
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4",
+      "sha256": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+      "native_indices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36
+      ]
+    },
+    {
+      "role": "F02_last_overlap",
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F02\\motion_retry_01\\F02_source.mp4",
+      "sha256": "cc23a3e22b5d51b2db42cc87b33371f73189b25b101cc37fff3a070dd68800b0",
+      "native_indices": [
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142,
+        144
+      ]
+    },
+    {
+      "role": "composite_J23_and_after",
+      "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\three_shot_review_v1\\F01_F02_F03_native_soft_review_v1.mp4",
+      "sha256": "9bb9bf741f307df29c98be414ba3597606877a01236af7dc43acb43321a4c03e",
+      "native_indices": [
+        186,
+        188,
+        190,
+        192,
+        194,
+        196,
+        198,
+        200,
+        202,
+        204,
+        206,
+        208,
+        210,
+        212,
+        214,
+        216,
+        218,
+        220,
+        222
+      ]
+    }
+  ],
+  "cause_not_yet_established": true,
+  "normal_speed_full_playback_self_report": null,
+  "next": "Inspect F03 source f5..29 versus composite and accepted F02 tail before a targeted correction; no F04 expansion"
+}

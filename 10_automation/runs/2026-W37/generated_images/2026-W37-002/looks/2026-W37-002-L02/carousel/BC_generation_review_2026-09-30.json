@@ -1,0 +1,37 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-002-L02",
+  "surface": "carousel",
+  "session_lock": "2026-W37-002-L02_M05_carousel_candidate_A_v1.png",
+  "session_lock_user_approval": "2026-09-30: ok",
+  "identity_references": [
+    "02_brand/reference_models/M05_start_v1_face.png",
+    "02_brand/reference_models/M05_start_v1_full.png"
+  ],
+  "tool": "built-in image_gen",
+  "B_scene_application": {
+    "file": "2026-W37-002-L02_M05_carousel_candidate_B.png",
+    "dimensions": "1792x878",
+    "source_ratio": 2.041,
+    "target_ratio": 2.0357,
+    "center_crop_fraction_estimate": 0.0026,
+    "sha256": "7A51E65C1D9297924CBDC44CE4A679AE7D7533336119F1F3E34FB2A6723C712B",
+    "prompt_intent": "Different ceramics-gallery corner with stone display and pottery; woman slightly right of center; sand jacket hem, white tee, gray high waist and black bag visible in a genuine wide scene.",
+    "assistant_review": "Face and wardrobe are close to approved A; gallery daylight and stone display are coherent, with no hard crop needed.",
+    "status": "user_visual_approved_2026-09-30",
+    "user_approval": "兩張都可以，沿用"
+  },
+  "C_accessory_detail": {
+    "file": "2026-W37-002-L02_M05_carousel_candidate_C.png",
+    "dimensions": "1092x1440",
+    "source_ratio": 0.7583,
+    "target_ratio": 0.8741,
+    "center_crop_fraction_estimate": 0.1325,
+    "sha256": "359D44986E20A2A0AFB3A5CBF9CFA57D871BFD3C5EB181A39BC15F10C8104FF9",
+    "prompt_intent": "Shoulder-to-thigh detail of the original small black shoulder bag, sand jacket hem, white tee and gray waist in the same gallery.",
+    "assistant_review": "Bag and short-jacket/waist proportion are clear. The upper source edge contains part of the mouth; the planned 13.25% centered vertical crop for the detail slot should remove it. Inspect the exact normalized output after user approval.",
+    "status": "user_visual_approved_2026-09-30",
+    "user_approval": "兩張都可以，沿用"
+  },
+  "next_gate": "All A/B/C sources are user-approved. Normalize to v3-B exact Canva pixels and inspect the output, especially C's upper edge."
+}

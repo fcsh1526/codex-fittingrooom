@@ -1,0 +1,100 @@
+{
+  "source": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+  "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\editorial_sequence_reset_2026-10-13\\four_shot_review_v1\\M03_lunch_outing_two_looks_trial_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 10.75
+    },
+    "decoded_frames": 258,
+    "decoded_seconds": 10.75,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "whole_sample_frames": [
+    0,
+    10,
+    21,
+    32,
+    42,
+    53,
+    64,
+    74,
+    85,
+    96,
+    107,
+    117,
+    128,
+    139,
+    149,
+    160,
+    171,
+    182,
+    192,
+    203,
+    214,
+    224,
+    235,
+    246,
+    257
+  ],
+  "face_sample_frames": [
+    0,
+    64,
+    128,
+    192,
+    257
+  ],
+  "all_frame_thumbnails_exported": 258,
+  "visual_review": {
+    "status": "sampled_review_complete_exact_picture_user_accepted",
+    "method": "All258 output thumbnails,25 larger whole-frame samples,5 face samples and all23 boundary/overlap samples at each of3 joins (all18 dissolve frames per join) viewed. Native source spot checks recorded separately. No assistant continuous normal-speed playback.",
+    "single_source_findings": "Recognizable face and readable locked wardrobe in sampled intervals; no gross instantaneous face/clothing/hand/bag/background morph observed.0black candidates;258 frames decoded. Does not certify native contact or exact architecture every frame.",
+    "join_findings": {
+      "A1_A2": "Standing/seated body scale and position differ; visible double heads and bench outlines. Retains previously direction-accepted first-look cut.",
+      "A2_B1": "Seated head/waist focus closer than full→medium, but size, x-position and bench/window viewpoint differ; visible face/body overlap. Not an invisible change.",
+      "B1_B2": "Seated/standing scale differs and viewing direction changes; visible larger/smaller double head/body during0.75s overlap. Comfort requires whole-film viewing."
+    },
+    "assistant_continuous_playback": false,
+    "user_film_approval": {
+      "date": "2026-10-13",
+      "user_quote": "ok",
+      "question_context": "Direct reply after exact10.75s four-shot two-look trial was shown and assistant asked whether middle outfit switch and final return to full-person join felt comfortable.",
+      "file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+      "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+      "seconds": 10.75,
+      "scope": "Exact research film visual/editorial acceptance, including current0.75s dissolve joins. Not replacing weekly publishing files, adopting a mandatory account-wide format, confirming production-time targets or proving audience results.",
+      "normal_speed_full_playback_user_self_report": null,
+      "assistant_continuous_playback": false,
+      "drive_upload_authorized_by_this_reply": false
+    },
+    "limits": "User accepts this exact full film. Does not infer uninterrupted playback self-report, assistant continuous playback, geometric match, production-time targets, mandatory weekly template or IG success."
+  },
+  "assistant_continuous_playback": false,
+  "user_film_approval": {
+    "date": "2026-10-13",
+    "user_quote": "ok",
+    "question_context": "Direct reply after exact10.75s four-shot two-look trial was shown and assistant asked whether middle outfit switch and final return to full-person join felt comfortable.",
+    "file": "03_research/editorial_sequence_reset_2026-10-13/four_shot_review_v1/M03_lunch_outing_two_looks_trial_v1.mp4",
+    "sha256": "f8e71d360d020c9d2234ada522ab0791d8d59286c777e8fbe9d14da9a51812c9",
+    "seconds": 10.75,
+    "scope": "Exact research film visual/editorial acceptance, including current0.75s dissolve joins. Not replacing weekly publishing files, adopting a mandatory account-wide format, confirming production-time targets or proving audience results.",
+    "normal_speed_full_playback_user_self_report": null,
+    "assistant_continuous_playback": false,
+    "drive_upload_authorized_by_this_reply": false
+  }
+}

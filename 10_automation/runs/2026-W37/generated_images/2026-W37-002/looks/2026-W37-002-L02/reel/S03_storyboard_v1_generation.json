@@ -1,0 +1,28 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-002-L02",
+  "model_profile_id": "M05",
+  "created_at": "2026-09-29",
+  "purpose": "B-shot medium first-frame candidate aligned to the user-approved L02 full-person wardrobe image",
+  "storyboard": "10_automation/runs/2026-W37/reels/M05_short_jacket_visual_story_v1.md",
+  "prompt_file": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/proof_B_medium_prompt_m05_storyboard_v1.md",
+  "tool": "built-in image_gen",
+  "generation_candidates_count": 3,
+  "candidate_selection_note": "Three ImageGen calls were made; the third output is the saved and user-approved candidate. The first two outputs were displayed neither as final candidates nor copied into the weekly run.",
+  "identity_references": [
+    "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/2026-W37-002-L02_M05_S02_storyboard_v1_full_candidate.png",
+    "02_brand/reference_models/M05_start_v1_face.png"
+  ],
+  "output_path": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L02/reel/2026-W37-002-L02_M05_S03_storyboard_v1_medium_candidate.png",
+  "dimensions": { "width": 941, "height": 1672, "aspect_ratio": 0.562799 },
+  "sha256": "DCCDDDD4F287DF901239FFD1D18B67D291043798BB38336DF02C847B840461A6",
+  "assistant_visual_review": {
+    "identity": "Near-frontal face and side-parted shoulder-length hair visually consistent with the approved M05 L02 full image; dynamic identity untested.",
+    "wardrobe": "Sand jacket, white crew-neck tee, mist-gray high-waisted trousers and same-side black shoulder bag visible; jacket hem and trouser waistband unobstructed.",
+    "framing": "Vertical head-to-lower-thigh/upper-leg medium view, level camera and viewer-left daylight in same ceramics gallery. Final cut-scale match depends on usable A-shot end frame.",
+    "technical_limits": "Still only; Grok motion and user approval pending."
+  },
+  "status": "user_visual_approved_as_B_medium_first_frame",
+  "grok_submission": null,
+  "user_visual_approval": "2026-09-29: 可以，沿用這張. Approved as a B-shot medium first-frame candidate; no Grok medium-shot motion submitted yet."
+}

@@ -1,0 +1,1040 @@
+[
+  {
+    "account": "go_floralway",
+    "kind": "grid",
+    "observed_date": "2026-10-02",
+    "followers_display": "2700",
+    "links": [
+      {
+        "pinned": true,
+        "text": "13.7萬",
+        "url": "https://www.instagram.com/go_floralway/reel/DYR2a2SBY5H/"
+      },
+      {
+        "pinned": true,
+        "text": "1538",
+        "url": "https://www.instagram.com/go_floralway/reel/DV_ILPvkYlK/"
+      },
+      {
+        "pinned": false,
+        "text": "1377",
+        "url": "https://www.instagram.com/go_floralway/reel/DclCQD7RxTn/"
+      },
+      {
+        "pinned": false,
+        "text": "1229",
+        "url": "https://www.instagram.com/go_floralway/reel/DcbH3Qtv87r/"
+      },
+      {
+        "pinned": false,
+        "text": "2.1萬",
+        "url": "https://www.instagram.com/go_floralway/reel/DcLqV07hgxx/"
+      },
+      {
+        "pinned": false,
+        "text": "1268",
+        "url": "https://www.instagram.com/go_floralway/reel/DbsxcfuhYbs/"
+      },
+      {
+        "pinned": false,
+        "text": "3982",
+        "url": "https://www.instagram.com/go_floralway/reel/DbavIJFOyc_/"
+      },
+      {
+        "pinned": false,
+        "text": "1165",
+        "url": "https://www.instagram.com/go_floralway/reel/DbQW1SNhzT7/"
+      },
+      {
+        "pinned": false,
+        "text": "4937",
+        "url": "https://www.instagram.com/go_floralway/reel/DbLiddTzJIx/"
+      },
+      {
+        "pinned": false,
+        "text": "3313",
+        "url": "https://www.instagram.com/go_floralway/reel/DbJJjGpPS4T/"
+      },
+      {
+        "pinned": false,
+        "text": "1萬",
+        "url": "https://www.instagram.com/go_floralway/reel/Da5VHM0sEXZ/"
+      },
+      {
+        "pinned": false,
+        "text": "4601",
+        "url": "https://www.instagram.com/go_floralway/reel/DanQjfjBgcR/"
+      }
+    ]
+  },
+  {
+    "account": "go_floralway",
+    "kind": "screened_excluded",
+    "url": "https://www.instagram.com/go_floralway/reel/DYR2a2SBY5H/",
+    "duration": 32.2666666667,
+    "grid_views": "13.7萬",
+    "display_date": "5月13日",
+    "reason": "Pinned talking-head styling self-assessment service; not outfit montage"
+  },
+  {
+    "account": "go_floralway",
+    "kind": "playback_sampled",
+    "url": "https://www.instagram.com/go_floralway/reel/DbLiddTzJIx/",
+    "slug": "floral_cuff",
+    "duration": 53.27586206896552,
+    "grid_views": "4937",
+    "display_date": "7月24日",
+    "caption_summary": "Responds to viewer question; folds cuff/button then turns cuff over",
+    "samples": [
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 17.64657,
+        "file": "floral_cuff_00.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 19.137087,
+        "file": "floral_cuff_01.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 20.645322,
+        "file": "floral_cuff_02.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 22.171694,
+        "file": "floral_cuff_03.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 23.733604,
+        "file": "floral_cuff_04.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 25.220329,
+        "file": "floral_cuff_05.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 26.731205,
+        "file": "floral_cuff_06.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 28.236694,
+        "file": "floral_cuff_07.png"
+      },
+      {
+        "duration": 53.27586206896552,
+        "paused": false,
+        "time": 29.707269,
+        "file": "floral_cuff_08.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 31.203999,
+        "file": "floral_cuff_09.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 32.737167,
+        "file": "floral_cuff_10.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 34.279814,
+        "file": "floral_cuff_11.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 35.784369,
+        "file": "floral_cuff_12.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 37.339535,
+        "file": "floral_cuff_13.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 38.85862,
+        "file": "floral_cuff_14.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 40.36436,
+        "file": "floral_cuff_15.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 41.872606,
+        "file": "floral_cuff_16.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 43.381013,
+        "file": "floral_cuff_17.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 44.898971,
+        "file": "floral_cuff_18.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 46.393194,
+        "file": "floral_cuff_19.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 11.166465,
+        "file": "floral_cuff_20.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 12.656054,
+        "file": "floral_cuff_21.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 14.178669,
+        "file": "floral_cuff_22.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 15.664499,
+        "file": "floral_cuff_23.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 17.189952,
+        "file": "floral_cuff_24.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 18.682741,
+        "file": "floral_cuff_25.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 20.187561,
+        "file": "floral_cuff_26.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 21.718746,
+        "file": "floral_cuff_27.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 23.212311,
+        "file": "floral_cuff_28.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 24.725447,
+        "file": "floral_cuff_29.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 26.233674,
+        "file": "floral_cuff_30.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 27.760661,
+        "file": "floral_cuff_31.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 29.271182,
+        "file": "floral_cuff_32.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 30.861098,
+        "file": "floral_cuff_33.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 32.355722,
+        "file": "floral_cuff_34.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 33.879134,
+        "file": "floral_cuff_35.png"
+      },
+      {
+        "duration": 53.27408,
+        "paused": false,
+        "time": 35.413701,
+        "file": "floral_cuff_36.png"
+      }
+    ]
+  },
+  {
+    "account": "go_floralway",
+    "kind": "playback_sampled",
+    "url": "https://www.instagram.com/go_floralway/reel/DbsxcfuhYbs/",
+    "slug": "floral_waist",
+    "duration": 23.473922,
+    "grid_views": "1268",
+    "display_date": "8月6日",
+    "caption_summary": "Creates gathers and waist detail on plain sleeveless top with buckle; product link available",
+    "samples": [
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 0.03675,
+        "file": "floral_waist_00.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 0.910053,
+        "file": "floral_waist_01.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 1.905197,
+        "file": "floral_waist_02.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 2.882168,
+        "file": "floral_waist_03.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 3.899595,
+        "file": "floral_waist_04.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 4.892748,
+        "file": "floral_waist_05.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 5.880152,
+        "file": "floral_waist_06.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 6.844465,
+        "file": "floral_waist_07.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 7.852912,
+        "file": "floral_waist_08.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 8.815438,
+        "file": "floral_waist_09.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 9.831966,
+        "file": "floral_waist_10.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 10.796315,
+        "file": "floral_waist_11.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 11.785266,
+        "file": "floral_waist_12.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 12.746498,
+        "file": "floral_waist_13.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 13.760797,
+        "file": "floral_waist_14.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 14.730556,
+        "file": "floral_waist_15.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 15.734633,
+        "file": "floral_waist_16.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 16.70361,
+        "file": "floral_waist_17.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 17.717922,
+        "file": "floral_waist_18.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 18.670532,
+        "file": "floral_waist_19.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 19.700158,
+        "file": "floral_waist_20.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 20.662197,
+        "file": "floral_waist_21.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 21.660746,
+        "file": "floral_waist_22.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 22.633299,
+        "file": "floral_waist_23.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 0.085182,
+        "file": "floral_waist_24.png"
+      },
+      {
+        "duration": 23.473922,
+        "paused": false,
+        "time": 1.023007,
+        "file": "floral_waist_25.png"
+      }
+    ]
+  },
+  {
+    "account": "__iamkubo__",
+    "kind": "grid",
+    "observed_date": "2026-10-02",
+    "followers_display": "1萬",
+    "account_context": "Osaka kagure shop staff, profile describes everyday clothing decisions",
+    "links": [
+      {
+        "pinned": false,
+        "text": "8376",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DdyQ56qRXGA/"
+      },
+      {
+        "pinned": false,
+        "text": "1萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DdvXHS7Rl86/"
+      },
+      {
+        "pinned": false,
+        "text": "1.4萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DdsE1giygMt/"
+      },
+      {
+        "pinned": false,
+        "text": "1.5萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/Ddn-Iwsxz7H/"
+      },
+      {
+        "pinned": false,
+        "text": "1.1萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DdgPPNHx0AQ/"
+      },
+      {
+        "pinned": false,
+        "text": "2.6萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DdYSJXpxrY2/"
+      },
+      {
+        "pinned": false,
+        "text": "1.6萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DdGrBViR-vH/"
+      },
+      {
+        "pinned": false,
+        "text": "2.5萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/Dc7ZqmpyFWQ/"
+      },
+      {
+        "pinned": false,
+        "text": "1.4萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DcvgTj7RqBQ/"
+      },
+      {
+        "pinned": false,
+        "text": "1.3萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DcuqXY_xCG2/"
+      },
+      {
+        "pinned": false,
+        "text": "1.3萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/Dcmx-lYSCRA/"
+      },
+      {
+        "pinned": false,
+        "text": "1.9萬",
+        "url": "https://www.instagram.com/__iamkubo__/reel/DclEJqFx5ao/"
+      }
+    ]
+  },
+  {
+    "account": "__iamkubo__",
+    "kind": "playback_sampled",
+    "url": "https://www.instagram.com/__iamkubo__/reel/DdyQ56qRXGA/",
+    "slug": "kubo_color",
+    "duration": 8.543491,
+    "grid_views": "8376",
+    "display_date": "4天前",
+    "caption_summary": "Grey/black wool camisole dress comparison with same checked shirt and utility trousers",
+    "music_label": "demon gummies / is it still raining?",
+    "samples": [
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 0.853886,
+        "file": "kubo_color_00.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 1.462673,
+        "file": "kubo_color_01.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 2.070494,
+        "file": "kubo_color_02.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 2.686436,
+        "file": "kubo_color_03.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 3.299087,
+        "file": "kubo_color_04.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 3.89904,
+        "file": "kubo_color_05.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 4.512522,
+        "file": "kubo_color_06.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 5.099404,
+        "file": "kubo_color_07.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 5.685733,
+        "file": "kubo_color_08.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 6.274412,
+        "file": "kubo_color_09.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 6.901471,
+        "file": "kubo_color_10.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 7.488086,
+        "file": "kubo_color_11.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 8.09755,
+        "file": "kubo_color_12.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 0.036625,
+        "file": "kubo_color_13.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 0.59992,
+        "file": "kubo_color_14.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 1.223682,
+        "file": "kubo_color_15.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 1.795102,
+        "file": "kubo_color_16.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 2.403066,
+        "file": "kubo_color_17.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 3.004507,
+        "file": "kubo_color_18.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 3.578403,
+        "file": "kubo_color_19.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 4.165282,
+        "file": "kubo_color_20.png"
+      },
+      {
+        "duration": 8.543491,
+        "paused": false,
+        "time": 4.768802,
+        "file": "kubo_color_21.png"
+      }
+    ]
+  },
+  {
+    "account": "__iamkubo__",
+    "kind": "playback_sampled",
+    "url": "https://www.instagram.com/__iamkubo__/reel/DdvXHS7Rl86/",
+    "slug": "kubo_trousers",
+    "duration": 33.249522,
+    "grid_views": "1萬",
+    "display_date": "5天前",
+    "caption_summary": "Requested chinos size0/size1 comparison; employee product demonstration with model/item identifiers",
+    "music_label": "Sugartapes / Bling (Instrumental)",
+    "samples": [
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 18.819224,
+        "file": "kubo_trousers_00.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 20.003272,
+        "file": "kubo_trousers_01.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 21.233471,
+        "file": "kubo_trousers_02.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 22.448586,
+        "file": "kubo_trousers_03.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 23.646434,
+        "file": "kubo_trousers_04.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 24.837966,
+        "file": "kubo_trousers_05.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 26.047997,
+        "file": "kubo_trousers_06.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 27.245275,
+        "file": "kubo_trousers_07.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 28.467168,
+        "file": "kubo_trousers_08.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 29.666364,
+        "file": "kubo_trousers_09.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 30.887879,
+        "file": "kubo_trousers_10.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 32.086278,
+        "file": "kubo_trousers_11.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 33.249522,
+        "file": "kubo_trousers_12.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 1.114599,
+        "file": "kubo_trousers_13.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 2.310269,
+        "file": "kubo_trousers_14.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 3.557911,
+        "file": "kubo_trousers_15.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 4.753505,
+        "file": "kubo_trousers_16.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 5.959615,
+        "file": "kubo_trousers_17.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 7.20576,
+        "file": "kubo_trousers_18.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 8.411736,
+        "file": "kubo_trousers_19.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 9.603843,
+        "file": "kubo_trousers_20.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 10.794485,
+        "file": "kubo_trousers_21.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 11.996812,
+        "file": "kubo_trousers_22.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 13.211334,
+        "file": "kubo_trousers_23.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 14.397971,
+        "file": "kubo_trousers_24.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 15.596686,
+        "file": "kubo_trousers_25.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 16.808215,
+        "file": "kubo_trousers_26.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 18.000494,
+        "file": "kubo_trousers_27.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 19.213785,
+        "file": "kubo_trousers_28.png"
+      },
+      {
+        "duration": 33.249522,
+        "paused": false,
+        "time": 20.411755,
+        "file": "kubo_trousers_29.png"
+      }
+    ]
+  },
+  {
+    "account": "__iamkubo__",
+    "kind": "playback_sampled",
+    "url": "https://www.instagram.com/__iamkubo__/reel/DdsE1giygMt/",
+    "slug": "kubo_autumn",
+    "duration": 14.812879,
+    "grid_views": "1.4萬",
+    "display_date": "7天前",
+    "collaborator": "ur_online_store_net",
+    "caption_summary": "Multiple autumn outfits; collaboration with online store",
+    "music_label": "Sugartapes / Die 4 U",
+    "samples": [
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 1.886631,
+        "file": "kubo_autumn_00.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 2.640203,
+        "file": "kubo_autumn_01.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 3.373928,
+        "file": "kubo_autumn_02.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 4.114047,
+        "file": "kubo_autumn_03.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 4.861573,
+        "file": "kubo_autumn_04.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 5.616208,
+        "file": "kubo_autumn_05.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 6.350793,
+        "file": "kubo_autumn_06.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 7.123606,
+        "file": "kubo_autumn_07.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 7.903203,
+        "file": "kubo_autumn_08.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 8.648012,
+        "file": "kubo_autumn_09.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 9.385739,
+        "file": "kubo_autumn_10.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 10.13926,
+        "file": "kubo_autumn_11.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 10.89135,
+        "file": "kubo_autumn_12.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 11.657354,
+        "file": "kubo_autumn_13.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 12.402902,
+        "file": "kubo_autumn_14.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 13.171022,
+        "file": "kubo_autumn_15.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 13.929331,
+        "file": "kubo_autumn_16.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 14.69935,
+        "file": "kubo_autumn_17.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 0.556015,
+        "file": "kubo_autumn_18.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 1.295672,
+        "file": "kubo_autumn_19.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 2.037715,
+        "file": "kubo_autumn_20.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 2.807298,
+        "file": "kubo_autumn_21.png"
+      },
+      {
+        "duration": 14.812879,
+        "paused": false,
+        "time": 3.579339,
+        "file": "kubo_autumn_22.png"
+      }
+    ]
+  }
+]

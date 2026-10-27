@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "scope": "Isolated M02 cloud-trial preparation, not cloud execution",
+  "folder": {
+    "id": "1ZMrwm9ny4YgS2YIsvl-yNqJau5ez95wR",
+    "url": "https://drive.google.com/drive/folders/1ZMrwm9ny4YgS2YIsvl-yNqJau5ez95wR",
+    "parent_id": "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO"
+  },
+  "packet": {
+    "id": "1qBVTqaSHDXQWIXwsv7zDU-bkNTXzTk2-",
+    "url": "https://drive.google.com/file/d/1qBVTqaSHDXQWIXwsv7zDU-bkNTXzTk2-/view?usp=drivesdk",
+    "size_bytes": 18448040,
+    "local_sha256": "051a5c61fff60594cfa4d454e9be9862d66442d471cac8d77ae5a830dc11029b",
+    "verification": "ZIP CRC and all archived bytes/hash locally verified; connector metadata readback confirms Drive size/MIME/parent. Remote byte hash not asserted."
+  },
+  "google_doc": {
+    "id": "1yibqbGZJ8s_Z-z253xfjk6RlXEy0S-iNG8TC7qcXkG8",
+    "url": "https://docs.google.com/document/d/1yibqbGZJ8s_Z-z253xfjk6RlXEy0S-iNG8TC7qcXkG8/edit?usp=drivesdk",
+    "title": "M02 雲端試作｜啟動說明",
+    "scope": "Basic native document; no supplied template",
+    "created_with": "Google Drive and Google Docs skills, direct native connector",
+    "readback_verified": true,
+    "verification": "One tab; full text matches; TITLE and eight HEADING_1 sections; ZIP hyperlink and folder membership confirmed."
+  },
+  "local_verification": {
+    "manifest_files": 36,
+    "A_full_decode_frames": 145,
+    "A_roundtrip_test_frames": 24,
+    "native_size": [720, 1280],
+    "fps": 24,
+    "missing_new_B_composition": "correctly refused; no candidate produced",
+    "prior_output_overwrite": "correctly refused",
+    "protected_historical_originals_verified_count": 8
+  },
+  "cloud_task_id": null,
+  "cloud_execution_verified": false,
+  "cloud_browser_tested": false,
+  "new_B_submitted": false,
+  "new_B_retrieved": false,
+  "new_combined_candidate_rendered": false,
+  "first_wave_modified": false,
+  "instagram_publication": false
+}

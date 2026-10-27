@@ -1,0 +1,17 @@
+{
+  "status": "completed_downloaded",
+  "submitted_at": "2026-10-13T01:51:12.976Z",
+  "character_reference": "Mira M05 v1 face",
+  "first_frame": "2026-W41-001-L01_M05_reel_candidate_A.png",
+  "settings": {
+    "resolution": "720p",
+    "seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "send_count": 1,
+  "url": "https://grok.com/imagine/post/811414ce-0aa7-45e7-ba93-a58e16d56aeb?conversation=57b53fba-432c-4936-ae65-62467e1a4117",
+  "completed_at": "2026-10-13T01:53:00.875Z",
+  "elapsed_submission_to_download_seconds": 107.899,
+  "download": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-video-57b53fba-432c-4936-ae65-62467e1a4117.mp4"
+}

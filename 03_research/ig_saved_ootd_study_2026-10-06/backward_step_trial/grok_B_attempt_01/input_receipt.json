@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-06",
+  "model": "M02",
+  "look_id": "2026-W37-001-L02",
+  "approved_first_frame": "C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+  "approved_first_frame_sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a",
+  "reference_ui_name": "Mira M02 v3",
+  "first_frame": true,
+  "middle_frame": false,
+  "last_frame": false,
+  "settings": {
+    "mode": "video",
+    "resolution": "720p",
+    "duration_seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "prompt_file": "prompt.txt",
+  "actual_submitted_prompt_file": "submitted_prompt.txt",
+  "dom": "input_dom.txt",
+  "screenshot": "input_settings.png",
+  "source_retrieved": true,
+  "sha256": "afa46cced85bf886029940f36b7bbbd0bf188b5ebe49d8ac5d7f5f278ea62e5b",
+  "post_url": "https://grok.com/imagine/post/d99c9b39-6acd-4a31-9146-fd091895b163?conversation=7769ce18-2c38-4f59-a3f2-0ee9e475550b",
+  "observed_player": {
+    "duration": 6.041667,
+    "height": 1280,
+    "id": "sd-video",
+    "muted": true,
+    "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/d99c9b39-6acd-4a31-9146-fd091895b163/generated_video.mp4?cache=1",
+    "width": 720
+  }
+}

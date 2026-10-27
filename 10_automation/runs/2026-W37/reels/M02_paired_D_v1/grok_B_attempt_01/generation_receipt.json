@@ -1,0 +1,18 @@
+{
+  "shot": "B",
+  "post_url": "https://grok.com/imagine/post/837f5195-aeb0-4e4b-be12-57c2283d7f2b?conversation=51b8289f-23c5-4ee9-b1ba-a65ae453b1cb",
+  "first_frame": "2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+  "ui_saved_character_reference": "Mira M02 v3",
+  "ui_duration_seconds": 6,
+  "ui_resolution": "720p",
+  "ui_aspect_ratio": "9:16",
+  "ui_audio": false,
+  "ui_mode": "video",
+  "model_version": "unknown",
+  "generation_observed_seconds": 102.491,
+  "source_file": "source.mp4",
+  "download_method": "visible #sd-video downloadMedia",
+  "attempt": 1,
+  "dynamic_qa": "pending",
+  "user_video_approval": "pending"
+}

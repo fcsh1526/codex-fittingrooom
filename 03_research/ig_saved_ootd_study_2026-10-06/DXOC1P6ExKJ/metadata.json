@@ -1,0 +1,30 @@
+{
+  "id": "DXOC1P6ExKJ",
+  "url": "https://www.instagram.com/p/DXOC1P6ExKJ/",
+  "author": "c_eeeun",
+  "date": [
+    {
+      "datetime": "2026-04-17T04:37:45.000Z",
+      "text": "4月17日"
+    }
+  ],
+  "likes_display": "2.2萬",
+  "views": null,
+  "comments_display": "123",
+  "reposts_display": "381",
+  "audio_label": "原始音訊",
+  "duration": 11.033333,
+  "native_pixels": [
+    720,
+    1280
+  ],
+  "video_region_css": {
+    "height": 811.84375,
+    "width": 456.6666870117187,
+    "x": 0,
+    "y": 115
+  },
+  "muted": true,
+  "recorded_at": "2026-10-06T02:18:37.570Z",
+  "screenshot_mode": "viewport_top_only"
+}

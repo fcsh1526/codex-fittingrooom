@@ -1,0 +1,59 @@
+{
+  "look_id": "2026-W36-004-L01",
+  "design_id": "DAHUlVetykI",
+  "transaction_id": "3515574722247097341",
+  "status": "committed_exact_frame",
+  "edit_url": "https://www.canva.com/d/D0t7jTCMNfXRnK6",
+  "pages": [
+    {
+      "page_id": "PBH0W52WPN6tdDhr",
+      "page_number": 1,
+      "dimension": {
+        "width": 3240,
+        "height": 1350
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "assets": {
+    "A": "MAHUlV3oVIo",
+    "B": "MAHUlbDLyoo",
+    "C": "MAHUlX20b8w"
+  },
+  "operations": [
+    {
+      "type": "update_title",
+      "title": "Mira W36-004-L01｜霧面黑與香檳緞光"
+    },
+    {
+      "type": "replace_text",
+      "element_id": "PBH0W52WPN6tdDhr-LB5hWffmvLB1f95y",
+      "text": "霧面黑，映出香檳色的緞光"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBH0W52WPN6tdDhr-LBly7B8SRQCHnnxF",
+      "asset_id": "MAHUlV3oVIo",
+      "alt_text": "黑色針織與香檳色緞裙全身",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBH0W52WPN6tdDhr-LBRtGM3vzhrlNXpW",
+      "asset_id": "MAHUlbDLyoo",
+      "alt_text": "餐廳坐姿與手提包場景",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBH0W52WPN6tdDhr-LBRvB9j0scjc1tfY",
+      "asset_id": "MAHUlX20b8w",
+      "alt_text": "方領針織及緞面垂墜細節",
+      "asset_type": "image"
+    }
+  ],
+  "preview_file": "004-L01_canva_draft_preview.png",
+  "upload_authorization": "User explicitly approved this look's A/B/C uploads on 2026-09-08."
+}

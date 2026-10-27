@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-22",
+  "status": "answered_F02_retained_continue_F03",
+  "answer": "第二套接續可保留，續修第三套",
+  "approval_receipt": "user_F02_approval.json",
+  "film": "review.mp4",
+  "sha256": "799911d2a7637c7920c0d2ecec47cc36bea670142a57c9c947dacd256b24d819",
+  "question": "請播放這支21.29秒檢查版，特別看2.5–8.5秒的第二套棕褲：從第一套接入、走路、再接到第三套，是否比舊版少了突然變慢的感覺，可以保留這次第二套修正？其他四套仍沿用原片，第三套後半的步頻差尚未修，這次不核准整片。",
+  "scope": "second look native gait and both transitions only; not wholefilm or publication approval",
+  "options": ["第二套接續可保留，續修第三套", "第二套仍慢或接續不順"]
+}

@@ -1,0 +1,27 @@
+{
+  "storyboard": "storyboard_comparison_v2.md",
+  "date": "2026-09-23",
+  "tool": "Codex built-in imagegen",
+  "user_visual_approval": "approved_for_both_by_user_可以_2026-09-23",
+  "S02": {
+    "look_id": "2026-W37-001-L01",
+    "prompt_file": "prompts/S02_comparison_v2_start.md",
+    "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S02_comparison_v2_start_candidate.png",
+    "source_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-13fcf114-6567-40ae-8181-8636e06fc9a6.png",
+    "sha256": "962EDD2413B9A99ED90B7226F3DF1E93226D91E1AB0EA1BBE13FAA051CF0DF2A",
+    "width": 941,
+    "height": 1672,
+    "inspection": "Near-frontal upper-body view with the L01 gray open shirt, cream dress neckline and waist seam, navy shoulder bag, left window and right bookshelves. Intended match to S01 around 2.8s. Video motion and user visual approval pending."
+  },
+  "S03": {
+    "look_id": "2026-W37-001-L02",
+    "prompt_file": "prompts/S03_comparison_v2_start.md",
+    "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S03_comparison_v2_start_candidate.png",
+    "source_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-aabab626-4594-4213-a06d-98efa0a4408d.png",
+    "sha256": "8BFD39709EDD8E35B585B678205F46EC3A4C28E49C6E70446567943FEDB07651",
+    "width": 941,
+    "height": 1672,
+    "inspection": "Matched near-frontal size and viewer-left daylight with L02 mist-blue open shirt, dark navy square neckline and gray tote. Flower workshop remains in background. Compare against S02 together for cut comfort before animation."
+  },
+  "next_gate": "Both new starting stills are approved for Grok motion testing. Dynamic QA and final Reel approval remain separate."
+}

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-15",
+  "output": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/M03_commute_first_pair_review_v1.mp4",
+  "sha256": "d25ad7a1ecdc7fc9dcafa18295aa201e1e7ca466e09e763d7553bc943efacc8b",
+  "native_size": [
+    720,
+    1280
+  ],
+  "native_fps": 24,
+  "decoded_frames": 294,
+  "seconds": 12.25,
+  "sources": [
+    {
+      "shot": "S01",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S01_source.mp4",
+      "sha256": "499fa888e084649a4988ede3f0469619e2313456f4bd5035338f4d57bb9f3d04",
+      "selected_frames_half_open": [
+        0,
+        156
+      ],
+      "seconds_half_open": [
+        0,
+        6.5
+      ]
+    },
+    {
+      "shot": "S02",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/motion_attempt_01/S02_source.mp4",
+      "sha256": "a8f9fc6e9019c23433c855e3d108d97d3236c05f76fa30b02b6b0fcdc97c6ec0",
+      "selected_frames_half_open": [
+        60,
+        216
+      ],
+      "seconds_half_open": [
+        2.5,
+        9
+      ]
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      138,
+      156
+    ],
+    "output_seconds_half_open": [
+      5.75,
+      6.5
+    ],
+    "B_alpha": "(index+1)/18"
+  },
+  "clear_outfit_seconds_each": 5.75,
+  "audio": false,
+  "baked_text": false,
+  "retiming": false,
+  "crop": false,
+  "scaling": false,
+  "image_operation": "PIL blend of18 corresponding native RGB frames only",
+  "encoding": "native RGB frame sequence encoded h264 CRF18, no audio",
+  "source_hashes_preserved": true,
+  "combined_sampled_visual_review": "suitable_for_user_normal_speed_review_with_disclosed_overlap",
+  "assistant_continuous_playback": false,
+  "user_film_approval": null,
+  "publishing_files_replaced": [],
+  "helper_note": "Reused native read/encode/QA primitives only; did not execute prior study main or approval gates.",
+  "sampled_visual_review_path": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/sampled_visual_review.json",
+  "exact_user_film_approval_path": "03_research/series_pilots_2026-10-15/commute_week_v1/first_pair_review_v1/user_film_approval_2026-10-15.json"
+}

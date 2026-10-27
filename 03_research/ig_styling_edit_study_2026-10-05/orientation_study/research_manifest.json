@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-05",
+  "recorded_at_local": "2026-10-05T17:11:07.348716+08:00",
+  "model": "M02",
+  "look_ids": [
+    "2026-W37-001-L01",
+    "2026-W37-001-L02"
+  ],
+  "status": "accepted_research_clean_picture_track",
+  "audience_problem": "Compare open-shirt side drape, sleeve outline and dress silhouette in the same shallow viewing direction.",
+  "source_assets": [
+    {
+      "role": "L01_full",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_full_master_candidate_v1.png",
+      "sha256": "adf1d4fb2e55262b53d7763a65d5406edd92efe01f3b48ff2170f3d000fb071e",
+      "approval_basis": "Previously individually approved paired-scene stills; see M02_paired_D_v1 records. No new still generation or approval inferred."
+    },
+    {
+      "role": "L02_full",
+      "path": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+      "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a",
+      "approval_basis": "Previously individually approved paired-scene stills; see M02_paired_D_v1 records. No new still generation or approval inferred."
+    }
+  ],
+  "identity_reference": {
+    "ui_name": "Mira M02 v3",
+    "canonical_csv_status": "approved",
+    "face_file_exists": true,
+    "full_file_exists": true,
+    "actual_selection_screenshots": true
+  },
+  "new_stills_generated": 0,
+  "reference_observation": {
+    "url": "https://www.instagram.com/reel/Dd60yYTMtJ1/",
+    "evidence": "evidence/lydia_jackets/",
+    "samples": 52,
+    "boards_inspected": 4,
+    "muted": true,
+    "source_duration_seconds": 37.707754,
+    "exact_cuts_or_audio_analysis": false,
+    "continuous_full_watch_claimed": false,
+    "independent_review": "evidence/lydia_jackets/source_visual_review.md"
+  },
+  "storyboard": "README.md",
+  "prompts": [
+    "prompt_A.txt",
+    "prompt_B.txt"
+  ],
+  "send_clicks_observed": 5,
+  "generation_progress_observed_attempts": 4,
+  "attempts": [
+    {
+      "folder": "grok_A_attempt_01",
+      "settings": "settings.json",
+      "issue": {
+        "status": "submitted_result_unavailable",
+        "post_url": "https://grok.com/imagine/post/b06fab60-c38b-4ff1-b5a1-03b38578671f?conversation=e55174b8-bb79-4f81-93a3-1204b7a608c0",
+        "observed": "After navigation during generation, result URL redirected to Imagine home; history contained prior sources only. No new source downloaded.",
+        "root_cause": "unknown; navigation during generation preceded issue",
+        "candidate_quality": "not_observed",
+        "retry_planned": 1
+      },
+      "source_downloaded": false,
+      "source_quality": null
+    },
+    {
+      "folder": "grok_B_attempt_01",
+      "settings": "settings.json",
+      "issue": {
+        "status": "submitted_result_unavailable",
+        "post_url": "https://grok.com/imagine/post/e39a68b8-a4fd-4ab4-808d-09fa69f266f0?conversation=2c744500-c534-41d5-aa05-05ff8a6acb5d",
+        "observed": "After navigation during generation, result URL redirected to Imagine home; history contained prior sources only. No new source downloaded.",
+        "root_cause": "unknown; navigation during generation preceded issue",
+        "candidate_quality": "not_observed",
+        "retry_planned": 1
+      },
+      "source_downloaded": false,
+      "source_quality": null
+    },
+    {
+      "folder": "grok_A_attempt_02",
+      "settings": "settings.json",
+      "issue": {
+        "status": "send_clicked_but_no_new_result_observed",
+        "observed": "Stayed on same tab after Send. Page remained at Imagine home with prompt, no new result progress or new video. History still showed the existing older full/full videos.",
+        "post_url": null,
+        "observed_elapsed_seconds": 237.819,
+        "root_cause": "unknown",
+        "console_error_logs_observed": [],
+        "video_downloaded": false,
+        "qa": "not_possible_without_new_source",
+        "retry_bound_reached": true
+      },
+      "source_downloaded": false,
+      "source_quality": null
+    }
+  ],
+  "new_video_sources_retrieved": 2,
+  "output": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+  "output_sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569",
+  "usable_seconds": null,
+  "dynamic_qa": {
+    "complete_technical_decode": true,
+    "source_checkpoints_per_look": 25,
+    "face_checkpoints_per_look": 5,
+    "output_checkpoints": 5,
+    "critical_output_checks": [
+      24,
+      84,
+      143
+    ],
+    "independent_review": "qa/recovery_01/independent_source_review.md",
+    "assistant_continuous_playback": false,
+    "user_visual_approval": "user_approval_angle_v2.json",
+    "sampled_result": "No obvious sampled identity/wardrobe jump or major library warp; full normal-playback comfort pending.",
+    "user_reported_second_viewing": true,
+    "user_explicit_full_duration_speed_confirmation": false
+  },
+  "user_video_approval": {
+    "decision": "accepted_clean_picture_track",
+    "user_reply": "恩 ，不錯。一開始兩邊沒有同步轉身，但是再看第二次後反而覺得不錯",
+    "recorded_at_local": "2026-10-05T17:17:07.042500+08:00",
+    "context": "Direct feedback on the complete6s angle-v2 preview. User explicitly mentions a second viewing.",
+    "output_path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+    "output_sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569",
+    "scope": "This exact independent research cut, including its native staggered turns.",
+    "user_feedback": {
+      "first_impression": "Noticed the sides did not turn synchronously.",
+      "second_impression": "Felt the result was good after looking again.",
+      "reported_second_viewing": true,
+      "full_duration_and_playback_speed_explicitly_confirmed": false
+    },
+    "action_timing_decision": "Retain the native A-earlier/B-later turns; do not retime to synchronize this accepted cut.",
+    "assistant_continuous_review_claimed": false,
+    "account_wide_style_adoption": false,
+    "first_wave_replacement_authorized": false,
+    "cloud_upload_performed": false,
+    "publication_performed": false,
+    "audience_performance": null
+  },
+  "active_minutes": null,
+  "failure_cause": null,
+  "next_operational_gate": "Preserve this accepted cut; continue comparative camera/edit research from each clothing topic. Publication/music/interface assembly and IG metrics remain separate.",
+  "B_retry_not_started_reason": null,
+  "protected_first_wave": [
+    {
+      "model": "M01",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_detail_full_full_detail_review_v1.mp4",
+      "sha256": "eb99760cd7d5df8fdc2dda66148ef90218b639f5ad0920dfd6dd5b1615f8a426",
+      "drive_id": "1c36KtanzBqGbfJFI-p8ed2wXngsbIFcI",
+      "matched": true
+    },
+    {
+      "model": "M02",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/M02_detail_full_full_detail_review_v1.mp4",
+      "sha256": "688d95d93c7705ac7500ada977c6ff2c97e649c175430487264b69ec8da28b56",
+      "drive_id": "1kBy5Kw8y4a9N7oPF5FUrz5VC1UMFvb8Y",
+      "matched": true
+    },
+    {
+      "model": "M03",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/M03_order_D_review_v1.mp4",
+      "sha256": "906dc03da54d619536e25aa49b1ecb9877f2ea430f0f893959e24f2f92f462a8",
+      "drive_id": "1rs15gDgApLhJogGiPu4S9bK4iB61Fqwe",
+      "matched": true
+    },
+    {
+      "model": "M04",
+      "path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+      "sha256": "b01ce4a5b95a7cbc368312d0607a6155fad5c7f1918b1ed3272b4b75b247679b",
+      "drive_id": "1GgKrqbhnKSfVWIgub1zCTwJK-Uazq8p1",
+      "matched": true
+    },
+    {
+      "model": "M05",
+      "path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "sha256": "ae7ced47b34732083ef112461597a2745697818872103ff3f095763c11b4bc1e",
+      "drive_id": "1hm-H0eg6xsxXFGQAGE5daB-D4a108yZB",
+      "matched": true
+    }
+  ],
+  "accepted_parallel_v4_unchanged": true,
+  "accepted_paired_11_25s_unchanged": true,
+  "cloud_writes": false,
+  "publication": false,
+  "audience_metrics": null,
+  "recovery_authority": "User ok after proposal to diagnose submission/output before continuing trial.",
+  "recovery_attempts": [
+    {
+      "folder": "grok_A_recovery_01",
+      "submission": {
+        "submitted_at": "2026-10-05T08:55:51.935Z",
+        "post_url": "https://grok.com/imagine/post/a720b96e-1dd6-4bbe-935c-a6f737114f57?conversation=685c6276-f7a8-4e66-99f6-d687d7c244d6",
+        "progress_observed": 20,
+        "prompt_variant": "unchanged prompt_A.txt",
+        "uploaded_asset": "approved L01 full master",
+        "character_reference": "Mira M02 v3",
+        "first_frame_role_verified": true,
+        "audio": false,
+        "resolution_ui": "720p",
+        "duration_ui": "6s",
+        "aspect_ui": "9:16",
+        "navigation_during_generation": false
+      },
+      "retrieval": {
+        "status": "new_source_downloaded",
+        "post_url": "https://grok.com/imagine/post/a720b96e-1dd6-4bbe-935c-a6f737114f57?conversation=685c6276-f7a8-4e66-99f6-d687d7c244d6",
+        "local_source": "source.mp4",
+        "media_selector": "#sd-video",
+        "progress_observed": 20,
+        "stayed_on_result_until_download": true,
+        "source_pixels": [
+          720,
+          1280
+        ],
+        "duration_media_seconds": 6.041667,
+        "root_cause_of_earlier_failures": "unknown"
+      },
+      "source_sha256": "9e62f66f6562c9a059600f03e5cd3fcc313df00b77ac71915e41d1801353eb83",
+      "source_size": [
+        720,
+        1280
+      ],
+      "native_fps": 24.0,
+      "native_frames": 145,
+      "qa_receipt": "qa/recovery_01/A/inspection_receipt.json"
+    },
+    {
+      "folder": "grok_B_recovery_01",
+      "submission": {
+        "submitted_at": "2026-10-05T08:59:15.001Z",
+        "post_url": "https://grok.com/imagine/post/40176b8d-5bef-4711-a606-edf85d93a9d9?conversation=89a47876-65bd-415e-b287-a6beb9168bac",
+        "prompt_variant": "unchanged prompt_B.txt",
+        "uploaded_asset": "approved L02 full master",
+        "character_reference": "Mira M02 v3",
+        "first_frame_role_verified": true,
+        "audio": false,
+        "resolution_ui": "720p",
+        "duration_ui": "6s",
+        "aspect_ui": "9:16",
+        "navigation_during_generation": false
+      },
+      "retrieval": {
+        "status": "new_source_downloaded",
+        "post_url": "https://grok.com/imagine/post/40176b8d-5bef-4711-a606-edf85d93a9d9?conversation=89a47876-65bd-415e-b287-a6beb9168bac",
+        "local_source": "source.mp4",
+        "media_selector": "#sd-video",
+        "progress_observed": 16,
+        "stayed_on_result_until_download": true,
+        "source_pixels": [
+          720,
+          1280
+        ],
+        "duration_media_seconds": 6.041667,
+        "root_cause_of_earlier_failures": "unknown"
+      },
+      "source_sha256": "db36cdaca6158eb2b6ac0755ceb1603a7b52bff0f5ced1673d3d4b61a339cfce",
+      "source_size": [
+        720,
+        1280
+      ],
+      "native_fps": 24.0,
+      "native_frames": 145,
+      "qa_receipt": "qa/recovery_01/B/inspection_receipt.json"
+    }
+  ],
+  "candidate_selected_seconds": 6,
+  "source_retrieval_current": "Both new result IDs progressed to completed main players and downloaded before navigation.",
+  "earlier_failure_cause": "unknown; recovery succeeded without changing approved stills or prompts. Causes such as prompt length or page navigation not proven.",
+  "protected_first_wave_unchanged": true,
+  "global_format_adoption": false,
+  "accepted_picture_seconds": 6
+}

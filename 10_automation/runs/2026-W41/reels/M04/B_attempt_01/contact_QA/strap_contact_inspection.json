@@ -1,0 +1,43 @@
+{
+  "source": "10_automation/runs/2026-W41/reels/M04/B_attempt_01/source.mp4",
+  "source_sha256": "9e881699ee6689cfe7afc6134da22e34e4a735e5974ce11d8555a999dcf76d6f",
+  "native_roi": [
+    200,
+    260,
+    590,
+    720
+  ],
+  "inspection_only": true,
+  "delivered_video_transform": "none",
+  "fps": 24,
+  "frames": 145,
+  "boards": [
+    {
+      "file": "strap_contact_00.jpg",
+      "first_frame": 0,
+      "last_frame": 35
+    },
+    {
+      "file": "strap_contact_01.jpg",
+      "first_frame": 36,
+      "last_frame": 71
+    },
+    {
+      "file": "strap_contact_02.jpg",
+      "first_frame": 72,
+      "last_frame": 107
+    },
+    {
+      "file": "strap_contact_03.jpg",
+      "first_frame": 108,
+      "last_frame": 143
+    },
+    {
+      "file": "strap_contact_04.jpg",
+      "first_frame": 144,
+      "last_frame": 144
+    }
+  ],
+  "hand_strap_visual_result": "Right hand crosses the chest to hold and settle the strap; left arm stays relaxed. Small head tilt and later shoe pivot. Visible contact and bag response; opposite hand from planned single-left-hand action.",
+  "continuous_playback_review": false
+}

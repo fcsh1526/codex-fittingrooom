@@ -1,0 +1,49 @@
+{
+  "source_sha256": "7b679f0f7e962ee29622b970d9f39ee1c000d234ab476ace1da347c5719adfba",
+  "samples": {
+    "full_checkpoint_indices": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200,
+      210,
+      220,
+      230,
+      240
+    ],
+    "face_checkpoint_indices": [
+      0,
+      60,
+      120,
+      180,
+      240
+    ],
+    "transition_boundary_indices": [],
+    "head_window_native_xyxy": [
+      158,
+      0,
+      562,
+      448
+    ],
+    "head_window_is_inspection_only": true
+  },
+  "assistant_continuous_visual_review": false,
+  "user_video_approval": null
+}

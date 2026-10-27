@@ -1,0 +1,41 @@
+[
+  {
+    "label": "A native f96",
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_saved_ootd_study_2026-10-06\\backward_step_trial\\qa\\near_A1\\full\\frame_000096.png",
+    "native_size": [
+      720,
+      1280
+    ],
+    "qa_contained_size": [
+      720,
+      1280
+    ],
+    "sha256": "97c56067756b45642075532405a084263b42f76bf46815dc65a9ba6861b710cf"
+  },
+  {
+    "label": "New B candidate v2",
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L02\\reel\\body_distance_matched_start_v2\\2026-W37-001-L02_M02_body_distance_matched_start_candidate_v2.png",
+    "native_size": [
+      941,
+      1672
+    ],
+    "qa_contained_size": [
+      720,
+      1279
+    ],
+    "sha256": "27298b46bcc0aeb18928dc540d6ee94e64be7287de2c39f2ba8a2f6e7ba32fa5"
+  },
+  {
+    "label": "Approved B wardrobe master",
+    "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\generated_images\\2026-W37-001\\looks\\2026-W37-001-L02\\reel\\paired_scene_v1\\2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+    "native_size": [
+      941,
+      1672
+    ],
+    "qa_contained_size": [
+      720,
+      1279
+    ],
+    "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a"
+  }
+]

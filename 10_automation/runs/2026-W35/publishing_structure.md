@@ -7,10 +7,10 @@ W35 uses the active dual-surface production contract: five themes, one locked mo
 | Theme | Model | Looks |
 | --- | --- | --- |
 | 輕量高領外套 | M05 | `2026-W35-001-L01`, `2026-W35-001-L02` |
-| 深棕麂皮觸感 | M01 | `2026-W35-002-L01`, `2026-W35-002-L02` |
-| 運動外層配裙裝 | M03 | `2026-W35-003-L01`, `2026-W35-003-L02` |
-| 窄領巾與蝴蝶結細節 | M02 | `2026-W35-004-L01`, `2026-W35-004-L02` |
-| 深色直筒丹寧與柔和上衣 | M04 | `2026-W35-005-L01`, `2026-W35-005-L02` |
+| 深棕麂皮配件 | M01 | `2026-W35-002-L01`, `2026-W35-002-L02` |
+| 運動外套配長裙 | M03 | `2026-W35-003-L01`, `2026-W35-003-L02` |
+| 窄版絲巾的小結 | M02 | `2026-W35-004-L01`, `2026-W35-004-L02` |
+| 深色直筒牛仔褲配柔色上衣 | M04 | `2026-W35-005-L01`, `2026-W35-005-L02` |
 
 Model ids are private production identifiers and must never appear in published copy or images.
 

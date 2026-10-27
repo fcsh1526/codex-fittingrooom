@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-15",
+  "user_quote": "ok",
+  "reply_context": "Assistant stated first pilot pair is blazer→check shirt, prepare and visually approve starting images before motion and expand only after pair QA.",
+  "scope": "Begin first-pair starting-image candidates; exact visual approval remains per still. No approval of motion, complete five-look film, account-wide adoption or publishing replacement.",
+  "first_pair": [
+    "S01",
+    "S02"
+  ],
+  "new_weekly_quota": null
+}

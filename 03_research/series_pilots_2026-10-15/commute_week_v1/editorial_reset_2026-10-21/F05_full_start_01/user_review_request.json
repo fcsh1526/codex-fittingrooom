@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-21",
+  "asset": "F05_M03_L04_full_start_candidate_A.png",
+  "sha256": "ac588ec1674df43923140e17f46c4734706cf834f2b7f5599aeeec60376f9c82",
+  "question": "第五套新起始圖的臉、白襯衫／黑A字裙、鈷藍包、黑鞋與抬腳姿勢是否可以沿用？裙面保留原參照細紋，鞋位與背景細節略有變化。依你訂的新圖核准流程，確認後才做後段圖與影片。",
+  "options": [
+    "可以，沿用這張",
+    "臉或服裝需要修正",
+    "姿勢或背景需要調整"
+  ],
+  "answer": "可以，沿用這張",
+  "status": "user_visual_approved_exact_still",
+  "F05_motion_approval": false,
+  "complete_film_approval": false,
+  "approval_receipt": "user_still_approval.json"
+}

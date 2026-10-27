@@ -1,0 +1,19 @@
+{
+  "submitted_at": "2026-10-06T02:31:37.894Z",
+  "look_id": "2026-W37-001-L01",
+  "character_reference": "Mira M02 v3",
+  "image_role": "First frame",
+  "last_frame": false,
+  "middle_frame": false,
+  "video_mode": true,
+  "selected_duration": "6s",
+  "selected_resolution": "720p",
+  "selected_ratio": "9:16",
+  "audio": false,
+  "ui_settings_evidence": "input_settings.png",
+  "send_clicked": true,
+  "source_retrieved": false,
+  "generation_progress_observed": true,
+  "first_progress_display": "16%",
+  "post_url": "https://grok.com/imagine/post/2f7f8c77-46f4-45f5-be7d-545de1214613?conversation=98fabc1b-30ef-4349-aebe-230c66d7b0b1"
+}

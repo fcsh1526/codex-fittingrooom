@@ -1,0 +1,2003 @@
+{
+  "stage": "fixed_projection_camera_proposal_pending_user_review",
+  "fixed_focal_ratio": 0.9977551495587385,
+  "focal_ratio_varies": false,
+  "physical_50mm_calibration_proven": false,
+  "camera_offset_knots": [
+    [
+      0.27223968171254675,
+      -3.058957233179415
+    ],
+    [
+      4.0,
+      0.0
+    ],
+    [
+      4.0,
+      -1.3
+    ]
+  ],
+  "camera_motion_reused_from_proposal": true,
+  "same_six_world_stripes": true,
+  "same101_person_positions": true,
+  "all101_head_and_feet_fit": true,
+  "all101_at_least_one_paint_polygon_visible": true,
+  "start_mid_end_checks": [
+    {
+      "percentage": 0,
+      "head_top": [
+        160.43400216639048,
+        185.58892009593015
+      ],
+      "feet": [
+        160.43400216639048,
+        539.2360096882271
+      ],
+      "body_height_fraction": 0.5525735774879641,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 50,
+      "head_top": [
+        180.0,
+        204.94367042824075
+      ],
+      "feet": [
+        180.0,
+        476.3330711082176
+      ],
+      "body_height_fraction": 0.42404593856246386,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 100,
+      "head_top": [
+        180.0,
+        208.07045507314547
+      ],
+      "feet": [
+        180.0,
+        466.1710210122773
+      ],
+      "body_height_fraction": 0.4032821342798935,
+      "visible_stripes": [
+        "C6"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "percentage": 0,
+      "head_top": [
+        160.43400216639048,
+        185.58892009593015
+      ],
+      "feet": [
+        160.43400216639048,
+        539.2360096882271
+      ],
+      "body_height_fraction": 0.5525735774879641,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 1,
+      "head_top": [
+        157.07376993526893,
+        184.07635169896298
+      ],
+      "feet": [
+        157.07376993526893,
+        544.1518569783705
+      ],
+      "body_height_fraction": 0.5626179769990742,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 2,
+      "head_top": [
+        153.4457070593237,
+        182.51593312444052
+      ],
+      "feet": [
+        153.4457070593237,
+        549.2232173455684
+      ],
+      "body_height_fraction": 0.5729801315955123,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 3,
+      "head_top": [
+        149.55906331578834,
+        180.92067403013817
+      ],
+      "feet": [
+        149.55906331578834,
+        554.407809402051
+      ],
+      "body_height_fraction": 0.5835736490186139,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 4,
+      "head_top": [
+        145.43025974199665,
+        179.3063088009597
+      ],
+      "feet": [
+        145.43025974199665,
+        559.6544963968811
+      ],
+      "body_height_fraction": 0.5942940431186272,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 5,
+      "head_top": [
+        141.08443156228506,
+        177.69152449917354
+      ],
+      "feet": [
+        141.08443156228506,
+        564.902545377686
+      ],
+      "body_height_fraction": 0.6050172201226758,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 6,
+      "head_top": [
+        136.55697360590372,
+        176.09808260949745
+      ],
+      "feet": [
+        136.55697360590372,
+        570.0812315191333
+      ],
+      "body_height_fraction": 0.6155986701713061,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 7,
+      "head_top": [
+        131.89494034714778,
+        174.5507813804961
+      ],
+      "feet": [
+        131.89494034714778,
+        575.1099605133878
+      ],
+      "body_height_fraction": 0.6258737173951433,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 8,
+      "head_top": [
+        127.15809829314414,
+        173.07720045712492
+      ],
+      "feet": [
+        127.15809829314414,
+        579.8990985143441
+      ],
+      "body_height_fraction": 0.635659215714405,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 9,
+      "head_top": [
+        122.41937924956818,
+        171.70717168792683
+      ],
+      "feet": [
+        122.41937924956818,
+        584.3516920142379
+      ],
+      "body_height_fraction": 0.644757063009861,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 10,
+      "head_top": [
+        117.76445373096094,
+        170.47193337193193
+      ],
+      "feet": [
+        117.76445373096094,
+        588.3662165412213
+      ],
+      "body_height_fraction": 0.6529598174520147,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 11,
+      "head_top": [
+        113.29015341217725,
+        169.40295304286124
+      ],
+      "feet": [
+        113.29015341217725,
+        591.8404026107011
+      ],
+      "body_height_fraction": 0.6600585149497498,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 12,
+      "head_top": [
+        109.1015394859516,
+        168.53044716721735
+      ],
+      "feet": [
+        109.1015394859516,
+        594.6760467065437
+      ],
+      "body_height_fraction": 0.6658524992801975,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 13,
+      "head_top": [
+        105.30755310426163,
+        167.88168171477434
+      ],
+      "feet": [
+        105.30755310426163,
+        596.7845344269836
+      ],
+      "body_height_fraction": 0.6701607073628268,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 14,
+      "head_top": [
+        102.01539225053929,
+        167.47919680794197
+      ],
+      "feet": [
+        102.01539225053929,
+        598.0926103741888
+      ],
+      "body_height_fraction": 0.6728334586972606,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 15,
+      "head_top": [
+        99.32401047617549,
+        167.339147707795
+      ],
+      "feet": [
+        99.32401047617549,
+        598.5477699496664
+      ],
+      "body_height_fraction": 0.6737634722529241,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 16,
+      "head_top": [
+        97.3173757171187,
+        167.46997697567497
+      ],
+      "feet": [
+        97.3173757171187,
+        598.1225748290565
+      ],
+      "body_height_fraction": 0.6728946841459086,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 17,
+      "head_top": [
+        96.05829433766722,
+        167.8716153953438
+      ],
+      "feet": [
+        96.05829433766722,
+        596.8172499651328
+      ],
+      "body_height_fraction": 0.6702275540152952,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 18,
+      "head_top": [
+        95.58363319967748,
+        168.5353478950595
+      ],
+      "feet": [
+        95.58363319967748,
+        594.6601193410568
+      ],
+      "body_height_fraction": 0.6658199553843708,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 19,
+      "head_top": [
+        95.90162749536954,
+        169.44438424703475
+      ],
+      "feet": [
+        95.90162749536954,
+        591.7057511971373
+      ],
+      "body_height_fraction": 0.6597833858595352,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 20,
+      "head_top": [
+        96.99166035714764,
+        170.57506415373808
+      ],
+      "feet": [
+        96.99166035714764,
+        588.0310415003514
+      ],
+      "body_height_fraction": 0.6522749646040833,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 21,
+      "head_top": [
+        98.8065087370843,
+        171.89852983984855
+      ],
+      "feet": [
+        98.8065087370843,
+        583.7297780204924
+      ],
+      "body_height_fraction": 0.643486325282256,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 22,
+      "head_top": [
+        101.27666587158464,
+        173.38264010671483
+      ],
+      "feet": [
+        101.27666587158464,
+        578.906419653177
+      ],
+      "body_height_fraction": 0.6336309055413472,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 23,
+      "head_top": [
+        104.31606692694535,
+        174.99388950250236
+      ],
+      "feet": [
+        104.31606692694535,
+        573.6698591168674
+      ],
+      "body_height_fraction": 0.6229312025224454,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 24,
+      "head_top": [
+        107.82841833474008,
+        176.6991311523742
+      ],
+      "feet": [
+        107.82841833474008,
+        568.1278237547839
+      ],
+      "body_height_fraction": 0.6116073321912652,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 25,
+      "head_top": [
+        111.71336906271445,
+        178.4669662788457
+      ],
+      "feet": [
+        111.71336906271445,
+        562.3823595937515
+      ],
+      "body_height_fraction": 0.5998678020545404,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 26,
+      "head_top": [
+        115.87192519158377,
+        180.2687372277323
+      ],
+      "feet": [
+        115.87192519158377,
+        556.5266040098702
+      ],
+      "body_height_fraction": 0.5879029168470905,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 27,
+      "head_top": [
+        120.21073580252796,
+        182.07912625507535
+      ],
+      "feet": [
+        120.21073580252796,
+        550.6428396710053
+      ],
+      "body_height_fraction": 0.5758808022123905,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 28,
+      "head_top": [
+        124.6451070074425,
+        183.87640886806466
+      ],
+      "feet": [
+        124.6451070074425,
+        544.80167117879
+      ],
+      "body_height_fraction": 0.5639457223605083,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 29,
+      "head_top": [
+        129.10078806253676,
+        185.64243537146018
+      ],
+      "feet": [
+        129.10078806253676,
+        539.0620850427545
+      ],
+      "body_height_fraction": 0.5522182026113973,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 30,
+      "head_top": [
+        133.51469827907428,
+        187.36242044271492
+      ],
+      "feet": [
+        133.51469827907428,
+        533.4721335611766
+      ],
+      "body_height_fraction": 0.5407964267475964,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 31,
+      "head_top": [
+        137.834825430904,
+        189.02461383509947
+      ],
+      "feet": [
+        137.834825430904,
+        528.0700050359269
+      ],
+      "body_height_fraction": 0.5297584237512929,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 32,
+      "head_top": [
+        142.01953769737423,
+        190.61991173978043
+      ],
+      "feet": [
+        142.01953769737423,
+        522.8852868457137
+      ],
+      "body_height_fraction": 0.5191646486030208,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 33,
+      "head_top": [
+        146.0365288117159,
+        192.14145274170792
+      ],
+      "feet": [
+        146.0365288117159,
+        517.9402785894493
+      ],
+      "body_height_fraction": 0.509060665387096,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 34,
+      "head_top": [
+        149.86157612231108,
+        193.58422777314445
+      ],
+      "feet": [
+        149.86157612231108,
+        513.2512597372806
+      ],
+      "body_height_fraction": 0.4994797374439628,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 35,
+      "head_top": [
+        153.47724610896165,
+        194.94472153619688
+      ],
+      "feet": [
+        153.47724610896165,
+        508.8296550073603
+      ],
+      "body_height_fraction": 0.4904452085486929,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 36,
+      "head_top": [
+        156.871639486964,
+        196.2205939497295
+      ],
+      "feet": [
+        156.871639486964,
+        504.68306966337923
+      ],
+      "body_height_fraction": 0.4819726183025777,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 37,
+      "head_top": [
+        160.03723247951,
+        197.41040404339174
+      ],
+      "feet": [
+        160.03723247951,
+        500.81618685897695
+      ],
+      "body_height_fraction": 0.4740715356493519,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 38,
+      "head_top": [
+        162.96984346598123,
+        198.5133748492322
+      ],
+      "feet": [
+        162.96984346598123,
+        497.2315317399955
+      ],
+      "body_height_fraction": 0.46674712014181763,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 39,
+      "head_top": [
+        165.66773464717508,
+        199.52919564709646
+      ],
+      "feet": [
+        165.66773464717508,
+        493.9301141469366
+      ],
+      "body_height_fraction": 0.4600014351560002,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "percentage": 40,
+      "head_top": [
+        168.13084539585853,
+        200.45785688245468
+      ],
+      "feet": [
+        168.13084539585853,
+        490.9119651320224
+      ],
+      "body_height_fraction": 0.4538345441399495,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 41,
+      "head_top": [
+        170.3601461043497,
+        201.2995127804021
+      ],
+      "feet": [
+        170.3601461043497,
+        488.1765834636933
+      ],
+      "body_height_fraction": 0.4482454229426425,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 42,
+      "head_top": [
+        172.3570971872909,
+        202.05436682425676
+      ],
+      "feet": [
+        172.3570971872909,
+        485.7233078211657
+      ],
+      "body_height_fraction": 0.4432327203076702,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 43,
+      "head_top": [
+        174.1231962549288,
+        202.7225756436189
+      ],
+      "feet": [
+        174.1231962549288,
+        483.5516291582386
+      ],
+      "body_height_fraction": 0.43879539611659324,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 44,
+      "head_top": [
+        175.65959641328575,
+        203.30416733079224
+      ],
+      "feet": [
+        175.65959641328575,
+        481.6614561749253
+      ],
+      "body_height_fraction": 0.43493326381895797,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 45,
+      "head_top": [
+        176.9667794977992,
+        203.79897069505228
+      ],
+      "feet": [
+        176.9667794977992,
+        480.05334524108025
+      ],
+      "body_height_fraction": 0.4316474602281687,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 46,
+      "head_top": [
+        178.04426934435503,
+        204.20655242679197
+      ],
+      "feet": [
+        178.04426934435503,
+        478.7287046129262
+      ],
+      "body_height_fraction": 0.42894086279083476,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 47,
+      "head_top": [
+        178.89037165241686,
+        204.52615955765572
+      ],
+      "feet": [
+        178.89037165241686,
+        477.689981437619
+      ],
+      "body_height_fraction": 0.42681847168744264,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 48,
+      "head_top": [
+        179.50192843442824,
+        204.75666496386305
+      ],
+      "feet": [
+        179.50192843442824,
+        476.94083886744517
+      ],
+      "body_height_fraction": 0.42528777172434706,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 49,
+      "head_top": [
+        179.87407640891453,
+        204.89651397437018
+      ],
+      "feet": [
+        179.87407640891453,
+        476.486329583297
+      ],
+      "body_height_fraction": 0.42435908688894813,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 50,
+      "head_top": [
+        180.0,
+        204.94367042824075
+      ],
+      "feet": [
+        180.0,
+        476.3330711082176
+      ],
+      "body_height_fraction": 0.42404593856246386,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 51,
+      "head_top": [
+        180.0,
+        204.94367254363357
+      ],
+      "feet": [
+        180.0,
+        476.33306423319107
+      ],
+      "body_height_fraction": 0.4240459245149336,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 52,
+      "head_top": [
+        180.0,
+        204.94370359419122
+      ],
+      "feet": [
+        180.0,
+        476.33296331887857
+      ],
+      "body_height_fraction": 0.42404571831982396,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 53,
+      "head_top": [
+        180.0,
+        204.94383492125598
+      ],
+      "feet": [
+        180.0,
+        476.3325365059181
+      ],
+      "body_height_fraction": 0.42404484622603456,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 54,
+      "head_top": [
+        180.0,
+        204.94417963937207
+      ],
+      "feet": [
+        180.0,
+        476.33141617204086
+      ],
+      "body_height_fraction": 0.424042557082295,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 55,
+      "head_top": [
+        180.0,
+        204.94488783430393
+      ],
+      "feet": [
+        180.0,
+        476.3291145385124
+      ],
+      "body_height_fraction": 0.4240378542253257,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 56,
+      "head_top": [
+        180.0,
+        204.94614190281627
+      ],
+      "feet": [
+        180.0,
+        476.32503881584717
+      ],
+      "body_height_fraction": 0.42402952642661074,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 57,
+      "head_top": [
+        180.0,
+        204.94815202716921
+      ],
+      "feet": [
+        180.0,
+        476.31850591170013
+      ],
+      "body_height_fraction": 0.4240161779445796,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 58,
+      "head_top": [
+        180.0,
+        204.95115177745674
+      ],
+      "feet": [
+        180.0,
+        476.3087567232657
+      ],
+      "body_height_fraction": 0.42399625772782645,
+      "visible_stripes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 59,
+      "head_top": [
+        180.0,
+        204.95539383580078
+      ],
+      "feet": [
+        180.0,
+        476.29497003364753
+      ],
+      "body_height_fraction": 0.4239680878091356,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 60,
+      "head_top": [
+        180.0,
+        204.96114583785186
+      ],
+      "feet": [
+        180.0,
+        476.2762760269815
+      ],
+      "body_height_fraction": 0.4239298909205151,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 61,
+      "head_top": [
+        180.0,
+        204.9686863288994
+      ],
+      "feet": [
+        180.0,
+        476.25176943107704
+      ],
+      "body_height_fraction": 0.42387981734715263,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 62,
+      "head_top": [
+        180.0,
+        204.97830083403727
+      ],
+      "feet": [
+        180.0,
+        476.2205222893789
+      ],
+      "body_height_fraction": 0.4238159710239713,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 63,
+      "head_top": [
+        180.0,
+        204.9902780441392
+      ],
+      "feet": [
+        180.0,
+        476.18159635654774
+      ],
+      "body_height_fraction": 0.4237364348631384,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 64,
+      "head_top": [
+        180.0,
+        205.00490612177094
+      ],
+      "feet": [
+        180.0,
+        476.13405510424457
+      ],
+      "body_height_fraction": 0.423639295285115,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 65,
+      "head_top": [
+        180.0,
+        205.02246913349487
+      ],
+      "feet": [
+        180.0,
+        476.0769753161418
+      ],
+      "body_height_fraction": 0.42352266591038584,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 66,
+      "head_top": [
+        180.0,
+        205.0432436172197
+      ],
+      "feet": [
+        180.0,
+        476.00945824403607
+      ],
+      "body_height_fraction": 0.4233847103544006,
+      "visible_stripes": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 67,
+      "head_top": [
+        180.0,
+        205.0674952952257
+      ],
+      "feet": [
+        180.0,
+        475.9306402905165
+      ],
+      "body_height_fraction": 0.42322366405514183,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 68,
+      "head_top": [
+        180.0,
+        205.09547594518253
+      ],
+      "feet": [
+        180.0,
+        475.83970317815687
+      ],
+      "body_height_fraction": 0.42303785505152247,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 69,
+      "head_top": [
+        180.0,
+        205.12742044280242
+      ],
+      "feet": [
+        180.0,
+        475.7358835608922
+      ],
+      "body_height_fraction": 0.4228257236220153,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 70,
+      "head_top": [
+        180.0,
+        205.16354399068788
+      ],
+      "feet": [
+        180.0,
+        475.61848203026443
+      ],
+      "body_height_fraction": 0.4225858406868383,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 71,
+      "head_top": [
+        180.0,
+        205.20403954839253
+      ],
+      "feet": [
+        180.0,
+        475.48687146772437
+      ],
+      "body_height_fraction": 0.422316924873956,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 72,
+      "head_top": [
+        180.0,
+        205.24907547869566
+      ],
+      "feet": [
+        180.0,
+        475.3405046942392
+      ],
+      "body_height_fraction": 0.4220178581492868,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 73,
+      "head_top": [
+        180.0,
+        205.298793424574
+      ],
+      "feet": [
+        180.0,
+        475.1789213701346
+      ],
+      "body_height_fraction": 0.4216876999149385,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 74,
+      "head_top": [
+        180.0,
+        205.3533064303466
+      ],
+      "feet": [
+        180.0,
+        475.00175410137365
+      ],
+      "body_height_fraction": 0.42132569948597975,
+      "visible_stripes": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 75,
+      "head_top": [
+        180.0,
+        205.4126973189841
+      ],
+      "feet": [
+        180.0,
+        474.8087337133017
+      ],
+      "body_height_fraction": 0.42093130686612124,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 76,
+      "head_top": [
+        180.0,
+        205.47701733564466
+      ],
+      "feet": [
+        180.0,
+        474.5996936591549
+      ],
+      "body_height_fraction": 0.4205041817554848,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 77,
+      "head_top": [
+        180.00000000000003,
+        205.54628506517372
+      ],
+      "feet": [
+        180.00000000000003,
+        474.3745735381855
+      ],
+      "body_height_fraction": 0.4200442007390809,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 78,
+      "head_top": [
+        180.0,
+        205.62048562864118
+      ],
+      "feet": [
+        180.0,
+        474.1334217069163
+      ],
+      "body_height_fraction": 0.41955146262230486,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 79,
+      "head_top": [
+        180.0,
+        205.69957016106036
+      ],
+      "feet": [
+        180.0,
+        473.8763969765539
+      ],
+      "body_height_fraction": 0.41902629189920865,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 80,
+      "head_top": [
+        180.0,
+        205.78345556931538
+      ],
+      "feet": [
+        180.0,
+        473.60376939972514
+      ],
+      "body_height_fraction": 0.41846924036001526,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 81,
+      "head_top": [
+        180.00000000000003,
+        205.87202456610646
+      ],
+      "feet": [
+        180.00000000000003,
+        473.31592016015406
+      ],
+      "body_height_fraction": 0.41788108686569936,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 82,
+      "head_top": [
+        180.00000000000003,
+        205.96512597249205
+      ],
+      "feet": [
+        180.00000000000003,
+        473.01334058940085
+      ],
+      "body_height_fraction": 0.41726283533892,
+      "visible_stripes": [
+        "C4",
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 83,
+      "head_top": [
+        180.0,
+        206.0625752784534
+      ],
+      "feet": [
+        180.0,
+        472.6966303450265
+      ],
+      "body_height_fraction": 0.4166157110415204,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 84,
+      "head_top": [
+        180.0,
+        206.16415544791602
+      ],
+      "feet": [
+        180.0,
+        472.3664947942731
+      ],
+      "body_height_fraction": 0.4159411552286829,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 85,
+      "head_top": [
+        180.0,
+        206.26961795191363
+      ],
+      "feet": [
+        180.0,
+        472.0237416562808
+      ],
+      "body_height_fraction": 0.4152408182880737,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 86,
+      "head_top": [
+        180.00000000000003,
+        206.37868401114423
+      ],
+      "feet": [
+        180.00000000000003,
+        471.66927696378133
+      ],
+      "body_height_fraction": 0.4145165514884955,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 87,
+      "head_top": [
+        179.99999999999997,
+        206.4910460271065
+      ],
+      "feet": [
+        179.99999999999997,
+        471.30410041190396
+      ],
+      "body_height_fraction": 0.413770397476246,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 88,
+      "head_top": [
+        180.0,
+        206.606369179363
+      ],
+      "feet": [
+        180.0,
+        470.9293001670703
+      ],
+      "body_height_fraction": 0.4130045796682927,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 89,
+      "head_top": [
+        180.0,
+        206.72429316528928
+      ],
+      "feet": [
+        180.0,
+        470.5460472128099
+      ],
+      "body_height_fraction": 0.412221490699251,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 90,
+      "head_top": [
+        180.0,
+        206.84443405795804
+      ],
+      "feet": [
+        180.0,
+        470.1555893116364
+      ],
+      "body_height_fraction": 0.4114236800838724,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 91,
+      "head_top": [
+        180.0,
+        206.96638625757373
+      ],
+      "feet": [
+        180.0,
+        469.7592446628855
+      ],
+      "body_height_fraction": 0.4106138412582997,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 92,
+      "head_top": [
+        180.0,
+        207.089724512115
+      ],
+      "feet": [
+        180.0,
+        469.35839533562637
+      ],
+      "body_height_fraction": 0.4097947981617365,
+      "visible_stripes": [
+        "C5",
+        "C6"
+      ]
+    },
+    {
+      "percentage": 93,
+      "head_top": [
+        180.0,
+        207.2140059835365
+      ],
+      "feet": [
+        180.0,
+        468.9544805535064
+      ],
+      "body_height_fraction": 0.40896949151557804,
+      "visible_stripes": [
+        "C6"
+      ]
+    },
+    {
+      "percentage": 94,
+      "head_top": [
+        180.0,
+        207.338772336998
+      ],
+      "feet": [
+        180.0,
+        468.5489899047566
+      ],
+      "body_height_fraction": 0.4081409649496228,
+      "visible_stripes": [
+        "C6"
+      ]
+    },
+    {
+      "percentage": 95,
+      "head_top": [
+        180.0,
+        207.46355183208982
+      ],
+      "feet": [
+        180.0,
+        468.1434565457082
+      ],
+      "body_height_fraction": 0.4073123511150287,
+      "visible_stripes": [
+        "C6"
+      ]
+    },
+    {
+      "percentage": 96,
+      "head_top": [
+        180.0,
+        207.58786139686524
+      ],
+      "feet": [
+        180.0,
+        467.7394504601881
+      ],
+      "body_height_fraction": 0.4064868579114419,
+      "visible_stripes": [
+        "C6"
+      ]
+    },
+    {
+      "percentage": 97,
+      "head_top": [
+        179.99999999999997,
+        207.71120866762038
+      ],
+      "feet": [
+        179.99999999999997,
+        467.33857183023383
+      ],
+      "body_height_fraction": 0.4056677549415835,
+      "visible_stripes": [
+        "C6"
+      ]
+    },
+    {
+      "percentage": 98,
+      "head_top": [
+        180.0,
+        207.83309397973596
+      ],
+      "feet": [
+        180.0,
+        466.9424445658582
+      ],
+      "body_height_fraction": 0.40485836029081596,
+      "visible_stripes": [
+        "C6"
+      ]
+    },
+    {
+      "percentage": 99,
+      "head_top": [
+        180.0,
+        207.95301229745098
+      ],
+      "feet": [
+        180.0,
+        466.55271003328437
+      ],
+      "body_height_fraction": 0.40406202771223965,
+      "visible_stripes": [
+        "C6"
+      ]
+    },
+    {
+      "percentage": 100,
+      "head_top": [
+        180.0,
+        208.07045507314547
+      ],
+      "feet": [
+        180.0,
+        466.1710210122773
+      ],
+      "body_height_fraction": 0.4032821342798935,
+      "visible_stripes": [
+        "C6"
+      ]
+    }
+  ],
+  "protected_files_unchanged": {
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry-proposal-plan.json": "b31a89dfba3eaa5a493fdb206f4bddd4a23aed87220622d0db1dab36eb2cbb58",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry-proposal.html": "25b99fb4a7974a5e4fdb0e1275b38da7162aae29a3a79533266d2aceb9705093",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry-proposal-receipt.json": "e6fc46fcd8d1734ee2a7cb923257527c2c3dcd527a097b77efe36235dd326c08",
+    "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry_plan.json": "953a3874338984393c613f3bded514ee8d7d15841fee41ddd8b5607a900782eb"
+  },
+  "AI_calls": 0,
+  "Grok_calls": 0,
+  "browser_visual_QA": false,
+  "user_approval": null,
+  "limitations": [
+    "No zoom/FOV change; original abstract projection retained, not physical lens certification.",
+    "Person occupies about55%/42%/40% of frame height at start/mid/end; garment details are smaller.",
+    "Only final stripe remains visible at endpoint; not all6 stay on screen.",
+    "Marker head/feet checks do not validate all body/bag contours, real reconstruction or walking.",
+    "This is a new camera proposal; does not match approved photos or replace accepted sources."
+  ],
+  "files": {
+    "geometry-fixed-lens-three-views.png": {
+      "sha256": "69a890b2f96ceca9c07772dd2a69a508a84c072507c6281abb95f933c18922a6",
+      "bytes": 47308
+    },
+    "geometry-fixed-lens.html": {
+      "sha256": "bc3b725e9f1309d64cbca5821bdf715cb9999926608c24a4dbfda8cee4425475",
+      "bytes": 59348
+    },
+    "geometry-fixed-lens-plan.json": {
+      "sha256": "a5e397851437f66d842cee1df94826277f6fa773cdf40b4db3c8f3d02754d603",
+      "bytes": 80478
+    }
+  },
+  "title_revision_preserved_original": {
+    "path": "03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\geometry_reset_2026-10-20\\geometry-fixed-lens-three-views-before-title-fix.png",
+    "sha256": "255299563ccb8905dcd7e807691dada308f4a0a4a4e366be7f5b280b1d440294"
+  }
+}

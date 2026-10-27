@@ -1,0 +1,16 @@
+{
+  "stage": "image_uploaded_reference_selected_before_first_frame_role",
+  "url": "https://grok.com/imagine",
+  "character_reference_selected": "Mira M03 v3",
+  "duration_seconds_selected": 10,
+  "audio_selected": false,
+  "input": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/continuous_distance_pose_v1/2026-W41-004-L01_M03_near_start_candidate_v1.png",
+  "input_sha256": "bfd1ba832a65091ec15a433fc2a3eef8bdc44a69a020ad7c4dbaf0fac35b56d7",
+  "first_frame_role_confirmed": false,
+  "send_clicked": false,
+  "generated_source": null,
+  "last_action": "click uploaded-image thumbnail to choose First frame; not executed",
+  "review_failure": "automatic approval exceeded retry limit; last status429 Too Many Requests",
+  "screenshot_after_upload": null,
+  "recovery_policy": "same tab only after bounded backoff; no alternate browser/network bypass"
+}

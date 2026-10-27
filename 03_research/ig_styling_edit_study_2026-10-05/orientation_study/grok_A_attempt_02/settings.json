@@ -1,0 +1,14 @@
+{
+  "look_id": "2026-W37-001-L01",
+  "character_ui_name": "Mira M02 v3",
+  "character_checked_observed": true,
+  "first_frame_selected_observed": true,
+  "last_frame": "none",
+  "duration_ui": "6s",
+  "resolution_ui": "720p",
+  "aspect_ui": "9:16",
+  "audio_ui": false,
+  "model_version_ui": "not_displayed",
+  "retry_reason": "Prior submitted result unavailable after navigation during generation; root cause unknown",
+  "status": "send_clicked_but_no_new_result_observed"
+}

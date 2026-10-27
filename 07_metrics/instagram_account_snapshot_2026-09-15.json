@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-09-15",
+  "observation_precision": "date_only",
+  "source": "authenticated_instagram_web",
+  "recorded_on": "2026-09-16",
+  "profile_at_observation": {
+    "posts": 24,
+    "followers": 0,
+    "following": 212
+  },
+  "account_insights": {
+    "scope": "instagram_account",
+    "period_label": "last_30_days",
+    "period_start": null,
+    "period_end": null,
+    "views": 116,
+    "reach": 112,
+    "interactions": 0,
+    "profile_views": 3,
+    "follower_views_percent": 0,
+    "non_follower_views_percent": 100
+  },
+  "account_status": {
+    "recommendation_eligible": true,
+    "reach_limitation_shown": false,
+    "source": "authenticated_instagram_account_status",
+    "notes": "No reach restriction shown at the observation; eligibility does not guarantee distribution."
+  },
+  "limitations": [
+    "Observation time and timezone were not captured; do not invent a clock time.",
+    "Exact start/end of the displayed last-30-days window were not captured.",
+    "The profile follower count is a point-in-time count, not attributed Reel follows.",
+    "Account-period totals must not be compared as equal-scope totals with Reel lifetime snapshots.",
+    "Follower split is a percentage of views, not a percentage of reach.",
+    "The UI did not expose watch time, retention, skip rate, or an organic/paid breakdown in the inspected views."
+  ]
+}

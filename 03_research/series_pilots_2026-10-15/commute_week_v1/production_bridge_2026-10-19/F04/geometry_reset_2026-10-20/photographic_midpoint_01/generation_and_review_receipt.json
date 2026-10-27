@@ -1,0 +1,76 @@
+{
+  "date_taipei": "2026-10-20",
+  "stage": "new_midpoint_candidate_pending_exact_user_visual_approval",
+  "user_storyboard_approval": "../user_storyboard_approval_2026-10-20.json",
+  "mode": "built_in_image_gen",
+  "asset_role": "F04 motion-control midpoint derivative, same already-approved look; not a new outfit Hero or an A/B campaign test",
+  "transparent_background": false,
+  "requests": [
+    {
+      "kind": "initial_sketch_to_photograph",
+      "prompt": "midpoint_prompt.txt",
+      "input_roles": [
+        "../approved_camera_guides/F04_camera_mid_guide.png: camera, road, six paint rectangles, marker placement",
+        "../../F04_M03_L02_start_candidate_A.png: exact clothing, hair, bag shoulder and daylight; not camera",
+        "02_brand/reference_models/M03_start_v3_face.png: approved identity only",
+        "02_brand/reference_models/M03_start_v3_full.png: approved ordinary proportions only",
+        "environment/E00_shared_scene_candidate_A.png: same building/road materials, not elevated viewpoint"
+      ],
+      "tool_wait_ms": 30125,
+      "output": "F04_M03_L02_mid_camera_candidate_A.png",
+      "sha256": "fef2c184a148fda91762e1b8b9481a873e03df96540a6cb9bd302741b81f9b35",
+      "pixels": [941, 1672],
+      "bytes": 2383558,
+      "outcome": "Person about 60% frame height rather than guide42%; company facade occupies too much of right side. Straight separate white bars, not a dynamic continuity pass. Superseded candidate, not user approved."
+    },
+    {
+      "kind": "one_targeted_camera_composition_correction",
+      "prompt": "composition_correction_prompt.txt",
+      "inputs": ["F04_M03_L02_mid_camera_candidate_A.png", "../approved_camera_guides/F04_camera_mid_guide.png", "M03_start_v3_face.png", "M03_start_v3_full.png"],
+      "tool_wait_ms": 43763,
+      "output": "F04_M03_L02_mid_camera_composition_v2.png",
+      "sha256": "8938c7fe593b4f6c1ef7d8e8fbfcb17f0a3a1161f761cb345b93213402a9de5c",
+      "pixels": [941, 1672],
+      "bytes": 2604035,
+      "outcome": "Person closer to guide, roughly44% frame height; introduced repeated left-side trees/raised planters. Not adopted as final candidate."
+    },
+    {
+      "kind": "localized_cleanup_of_background_defect_introduced_by_composition_edit",
+      "prompt": "introduced_planter_correction_prompt.txt",
+      "inputs": ["F04_M03_L02_mid_camera_composition_v2.png"],
+      "tool_wait_ms": 60069,
+      "output": "F04_M03_L02_mid_camera_no_planter_v3.png",
+      "sha256": "0a4fe3eb96bf2473cb441844e770ec1ed391718eceb997bcf38b50a886b5b22f",
+      "pixels": [941, 1672],
+      "bytes": 2374254,
+      "outcome": "Left repeated planter/tree row visibly removed. Exact current candidate for user review; no further image correction queued."
+    }
+  ],
+  "actual_generation_calls": 3,
+  "total_tool_wait_ms": 133957,
+  "active_work_minutes_measured": null,
+  "root_and_independent_visual_review": {
+    "performed": true,
+    "person_frame_estimate": "Head near29%, shoes near73%, body about44%; manual visual estimate, not automated measurement. Guide about32%-74% /42%.",
+    "identity_and_wardrobe": "Visually continues same woman, cream/navy checked rolled-sleeve shirt, charcoal trousers, black low heels and same-shoulder black bag; not pixel invariance or dynamic identity QA.",
+    "paint": "Six visible separate straight white bars receding into depth; no visible branching/elbows in this still.",
+    "removed": "New repeated left-side raised planter/tree row.",
+    "remaining_plants": "Distant central tree and limited right-side greenery remain; not an all-vegetation removal.",
+    "limitations": [
+      "Right glass facade is still wider than the guide.",
+      "Left wall and far frontal building/doorway are newly filled background without shared world coordinates.",
+      "Far doorway is not the validated final company entrance.",
+      "Existing tree shadows may come from off-frame trees; source consistency is not proven by this still.",
+      "No full geometric match to accepted prefix, physical 50mm calibration or generated-motion continuity is established."
+    ]
+  },
+  "exact_user_still_approval": null,
+  "uploaded_to_Grok": false,
+  "new_Grok_requests": 0,
+  "new_endpoint_generated": false,
+  "new_four_shot_composite": false,
+  "F05_started": false,
+  "Drive_GitHub_IG_writes": false,
+  "original_images_sources_and_accepted_prefix_preserved": true,
+  "next": "Ask exact visual approval of v3 with the remaining scene differences disclosed; only after approval derive a compatible endpoint and check all three views before a motion request."
+}

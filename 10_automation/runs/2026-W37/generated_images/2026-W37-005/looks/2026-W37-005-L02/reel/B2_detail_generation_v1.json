@@ -1,0 +1,33 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-005-L02",
+  "model_profile_id": "M03",
+  "shot_id": "B2",
+  "date": "2026-10-01",
+  "status": "user_visual_approved_for_motion",
+  "tool": "built-in image_gen",
+  "selected_path": "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/2026-W37-005-L02_M03_B2_detail_start_candidate_v1.png",
+  "sha256": "f0fc4259df73eb3c72ca85c581fd4e402a071b10e543f21c51e32ea5316a7149",
+  "resolution": [
+    941,
+    1672
+  ],
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M03_B2_L02_detail_start_v1.md",
+  "references": [
+    "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L02/reel/2026-W37-005-L02_M03_B1_full_start_candidate_v2.png",
+    "10_automation/runs/2026-W37/generated_images/2026-W37-005/looks/2026-W37-005-L01/reel/2026-W37-005-L01_M03_A2_detail_start_candidate_v4.png"
+  ],
+  "assistant_review": "No face/chin/mouth, collar/short sleeves, plain blue cloth, belt knot, complete chocolate-brown bag/strap and relaxed hands visible. Actual framing extends to below knees. Bag lies somewhat higher/smaller than A2; actual motion/edit matching remains unverified.",
+  "user_approval": {
+    "reply": "可以，沿用這張",
+    "date": "2026-10-01",
+    "scope": "Displayed B2 v1 still only; no motion approval"
+  },
+  "grok_submitted": true,
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": null,
+    "observed_tool_wall_seconds": 48.4
+  },
+  "motion_record_path": "10_automation/runs/2026-W37/reels/M03_B2_L02_motion_v1_01.json"
+}

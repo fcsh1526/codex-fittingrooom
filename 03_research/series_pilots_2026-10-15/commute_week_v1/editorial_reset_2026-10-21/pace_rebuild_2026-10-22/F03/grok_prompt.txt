@@ -1,0 +1,18 @@
+只執行一次 F03 第三套「米白短外套／白T／炭灰褲」原速步態修正。使用者已接受新版F02與兩側接續，要求續修第三套；本次不要改F02/F04/F05、生成新圖、合片或自動重試。
+
+精確輸入角色：
+duration:"6"; resolution_name:"720p"; aspect_ratio:"9:16"。
+first_frame_asset_id:"a7a33bb7-39ff-472d-b27d-53e50fe48c58"：既有核准F03首圖，米白短立領外套敞開／素白圓領T／炭灰直筒褲／素黑低跟鞋／小黑肩包，往右跨步，最後方柱在後。
+keyframes:[{"asset_id":"e0c03421-c8a7-431c-b305-f72b232c6c7f","timestamp_s":3.7916666666666665}]：剛上傳原已接受F03影片實際第91幀，非新AI照片，人物同套走到玻璃與低花台前，完整頭鞋；只釘這一時點的構圖／場景／姿態。先查看確認這個上傳媒體UUID與內容，別用畫布node UUID代替。
+asset_ids:["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]：M03v3 face/full身份與普通比例。
+last_frame_asset_id:不傳、不設。不要加舊6秒路緣末圖、不要再釘第108幀；不能由此引入道路／斑馬線。上述控制不能同時用就停止回報，不可省略或降成不確定軟參照。
+
+Native walking benchmark: user-selected192cccdc-1496-4803-95c2-99f6f38a64ac and accepted F02 0f264112-59ad-4d6b-b7d3-b1b8e2dff488 are DIRECTING/LOCAL-QA benchmarks only, NOT engine video motion inputs. Never place those video UUIDs in image-reference fields or claim motion conditioning.
+
+Generate ONE continuous six-second real-time near-side commuting shot. She is already walking briskly and decisively toward image-right from the first instant. Keep an even businesslike forward pulse through the opening, middle, keyframe and beyond4.5seconds. Target alternating steps about0.55–0.65seconds apart, roughly the accepted F02 middle pulse, without the old F03 late0.875second support lingering. Let her natural stride length adapt; do not preserve old slow gait timing. No easing toward the3.791667second guide, no posing on it, no speeding away afterward. Maintain forward momentum, grounded heel-to-toe weight transfer, responsive knees/hips and opposing arm swing. Planted shoes travel with their same paving point until toe-off; do not pin soles to screen coordinates, slide, march in place or move a looping background. This is physically brisk native movement, never postproduction retiming.
+
+Preserve exact M03v3 face, wavy brown hair and ordinary proportions; open waist-length ivory stand-collar jacket with pushed sleeves, plain white crew-neck T tucked into charcoal straight trousers, plain black low heels and same small black shoulder bag. No dressing gesture. Keep complete head and BOTH shoes visible, comparable person size, level chest-height50mm near-side camera tracking her real rightward travel. Only gradually fall slightly behind as in the accepted camera direction, no orbit/side reversal/zoom/internal cut.
+
+Use ONE compact coherent company plaza: original final square column recedes off left, approved low pale stone planter/tree, gray-green glass grid and pale paving keep rigid shapes with plausible parallax and consistent daylight/contact shadows. At3.791667seconds match the uploaded frame's position/scale/heading/background and continue walking through it at the same pulse. Finish beyond4.5seconds within this same immediate plaza; no added pillar, column row, long corridor, arch, new doorway, stairs, road, zebra paint or extra people. No outfit change, dissolve, text, logo, freeze, slow motion, speed ramp or interpolation. Report actual audio; do not invent an audio-off setting.
+
+完成回報實際接受first／3.791667秒keyframe／identity／last未設、新assetUUID、實際時長／像素／音軌。參數接受與抽樣觀察分開，不能憑提示寫了步頻就宣稱達標；不能說前後接點或五套片已修好。原畫布保留。若生成或角色控制失敗則停止，不能自行第二次。

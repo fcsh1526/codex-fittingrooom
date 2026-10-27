@@ -1,0 +1,607 @@
+{
+  "status": "qa_assets_ready_independent_visual_review_pending",
+  "label": "A2",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_saved_ootd_study_2026-10-06\\backward_step_trial\\grok_A_attempt_02\\source.mp4",
+  "source_sha256": "320a62ed7d4c59604b738b6b91d72d56df0cefe00bd1ba42acab51a6fd768d82",
+  "native_size": [
+    720,
+    1280
+  ],
+  "observed_fps": 24.0,
+  "decoded_frames": 145,
+  "decoded_seconds": 6.041666666666667,
+  "full_checkpoint_indices": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    30,
+    36,
+    42,
+    48,
+    54,
+    60,
+    66,
+    72,
+    78,
+    84,
+    90,
+    96,
+    102,
+    108,
+    114,
+    120,
+    126,
+    132,
+    138,
+    144
+  ],
+  "face_checkpoint_indices": [
+    0,
+    36,
+    72,
+    108,
+    144
+  ],
+  "contact_consecutive_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "contact_requested_end_seconds": 3.0,
+  "contact_actual_last_nominal_seconds": 3.0,
+  "face_roi_native_xywh": [
+    158,
+    0,
+    403,
+    410
+  ],
+  "contact_roi_native_xywh": [
+    94,
+    768,
+    533,
+    512
+  ],
+  "roi_method": "explicit or broad fixed native-pixel QA windows; no face/body detection",
+  "boards": {
+    "full": "full_25_checkpoints.jpg",
+    "face": "face_5_checkpoints.jpg",
+    "contact": [
+      "contact_sequence_01.jpg",
+      "contact_sequence_02.jpg",
+      "contact_sequence_03.jpg"
+    ]
+  },
+  "images": [
+    {
+      "native_frame_index": 0,
+      "nominal_seconds_from_fps": 0.0,
+      "native_full_image": "full/frame_000000.png",
+      "face_inspection_image": "face/window_000000.png",
+      "contact_inspection_image": "contact/window_000000.png"
+    },
+    {
+      "native_frame_index": 1,
+      "nominal_seconds_from_fps": 0.041666666666666664,
+      "contact_inspection_image": "contact/window_000001.png"
+    },
+    {
+      "native_frame_index": 2,
+      "nominal_seconds_from_fps": 0.08333333333333333,
+      "contact_inspection_image": "contact/window_000002.png"
+    },
+    {
+      "native_frame_index": 3,
+      "nominal_seconds_from_fps": 0.125,
+      "contact_inspection_image": "contact/window_000003.png"
+    },
+    {
+      "native_frame_index": 4,
+      "nominal_seconds_from_fps": 0.16666666666666666,
+      "contact_inspection_image": "contact/window_000004.png"
+    },
+    {
+      "native_frame_index": 5,
+      "nominal_seconds_from_fps": 0.20833333333333334,
+      "contact_inspection_image": "contact/window_000005.png"
+    },
+    {
+      "native_frame_index": 6,
+      "nominal_seconds_from_fps": 0.25,
+      "native_full_image": "full/frame_000006.png",
+      "contact_inspection_image": "contact/window_000006.png"
+    },
+    {
+      "native_frame_index": 7,
+      "nominal_seconds_from_fps": 0.2916666666666667,
+      "contact_inspection_image": "contact/window_000007.png"
+    },
+    {
+      "native_frame_index": 8,
+      "nominal_seconds_from_fps": 0.3333333333333333,
+      "contact_inspection_image": "contact/window_000008.png"
+    },
+    {
+      "native_frame_index": 9,
+      "nominal_seconds_from_fps": 0.375,
+      "contact_inspection_image": "contact/window_000009.png"
+    },
+    {
+      "native_frame_index": 10,
+      "nominal_seconds_from_fps": 0.4166666666666667,
+      "contact_inspection_image": "contact/window_000010.png"
+    },
+    {
+      "native_frame_index": 11,
+      "nominal_seconds_from_fps": 0.4583333333333333,
+      "contact_inspection_image": "contact/window_000011.png"
+    },
+    {
+      "native_frame_index": 12,
+      "nominal_seconds_from_fps": 0.5,
+      "native_full_image": "full/frame_000012.png",
+      "contact_inspection_image": "contact/window_000012.png"
+    },
+    {
+      "native_frame_index": 13,
+      "nominal_seconds_from_fps": 0.5416666666666666,
+      "contact_inspection_image": "contact/window_000013.png"
+    },
+    {
+      "native_frame_index": 14,
+      "nominal_seconds_from_fps": 0.5833333333333334,
+      "contact_inspection_image": "contact/window_000014.png"
+    },
+    {
+      "native_frame_index": 15,
+      "nominal_seconds_from_fps": 0.625,
+      "contact_inspection_image": "contact/window_000015.png"
+    },
+    {
+      "native_frame_index": 16,
+      "nominal_seconds_from_fps": 0.6666666666666666,
+      "contact_inspection_image": "contact/window_000016.png"
+    },
+    {
+      "native_frame_index": 17,
+      "nominal_seconds_from_fps": 0.7083333333333334,
+      "contact_inspection_image": "contact/window_000017.png"
+    },
+    {
+      "native_frame_index": 18,
+      "nominal_seconds_from_fps": 0.75,
+      "native_full_image": "full/frame_000018.png",
+      "contact_inspection_image": "contact/window_000018.png"
+    },
+    {
+      "native_frame_index": 19,
+      "nominal_seconds_from_fps": 0.7916666666666666,
+      "contact_inspection_image": "contact/window_000019.png"
+    },
+    {
+      "native_frame_index": 20,
+      "nominal_seconds_from_fps": 0.8333333333333334,
+      "contact_inspection_image": "contact/window_000020.png"
+    },
+    {
+      "native_frame_index": 21,
+      "nominal_seconds_from_fps": 0.875,
+      "contact_inspection_image": "contact/window_000021.png"
+    },
+    {
+      "native_frame_index": 22,
+      "nominal_seconds_from_fps": 0.9166666666666666,
+      "contact_inspection_image": "contact/window_000022.png"
+    },
+    {
+      "native_frame_index": 23,
+      "nominal_seconds_from_fps": 0.9583333333333334,
+      "contact_inspection_image": "contact/window_000023.png"
+    },
+    {
+      "native_frame_index": 24,
+      "nominal_seconds_from_fps": 1.0,
+      "native_full_image": "full/frame_000024.png",
+      "contact_inspection_image": "contact/window_000024.png"
+    },
+    {
+      "native_frame_index": 25,
+      "nominal_seconds_from_fps": 1.0416666666666667,
+      "contact_inspection_image": "contact/window_000025.png"
+    },
+    {
+      "native_frame_index": 26,
+      "nominal_seconds_from_fps": 1.0833333333333333,
+      "contact_inspection_image": "contact/window_000026.png"
+    },
+    {
+      "native_frame_index": 27,
+      "nominal_seconds_from_fps": 1.125,
+      "contact_inspection_image": "contact/window_000027.png"
+    },
+    {
+      "native_frame_index": 28,
+      "nominal_seconds_from_fps": 1.1666666666666667,
+      "contact_inspection_image": "contact/window_000028.png"
+    },
+    {
+      "native_frame_index": 29,
+      "nominal_seconds_from_fps": 1.2083333333333333,
+      "contact_inspection_image": "contact/window_000029.png"
+    },
+    {
+      "native_frame_index": 30,
+      "nominal_seconds_from_fps": 1.25,
+      "native_full_image": "full/frame_000030.png",
+      "contact_inspection_image": "contact/window_000030.png"
+    },
+    {
+      "native_frame_index": 31,
+      "nominal_seconds_from_fps": 1.2916666666666667,
+      "contact_inspection_image": "contact/window_000031.png"
+    },
+    {
+      "native_frame_index": 32,
+      "nominal_seconds_from_fps": 1.3333333333333333,
+      "contact_inspection_image": "contact/window_000032.png"
+    },
+    {
+      "native_frame_index": 33,
+      "nominal_seconds_from_fps": 1.375,
+      "contact_inspection_image": "contact/window_000033.png"
+    },
+    {
+      "native_frame_index": 34,
+      "nominal_seconds_from_fps": 1.4166666666666667,
+      "contact_inspection_image": "contact/window_000034.png"
+    },
+    {
+      "native_frame_index": 35,
+      "nominal_seconds_from_fps": 1.4583333333333333,
+      "contact_inspection_image": "contact/window_000035.png"
+    },
+    {
+      "native_frame_index": 36,
+      "nominal_seconds_from_fps": 1.5,
+      "native_full_image": "full/frame_000036.png",
+      "face_inspection_image": "face/window_000036.png",
+      "contact_inspection_image": "contact/window_000036.png"
+    },
+    {
+      "native_frame_index": 37,
+      "nominal_seconds_from_fps": 1.5416666666666667,
+      "contact_inspection_image": "contact/window_000037.png"
+    },
+    {
+      "native_frame_index": 38,
+      "nominal_seconds_from_fps": 1.5833333333333333,
+      "contact_inspection_image": "contact/window_000038.png"
+    },
+    {
+      "native_frame_index": 39,
+      "nominal_seconds_from_fps": 1.625,
+      "contact_inspection_image": "contact/window_000039.png"
+    },
+    {
+      "native_frame_index": 40,
+      "nominal_seconds_from_fps": 1.6666666666666667,
+      "contact_inspection_image": "contact/window_000040.png"
+    },
+    {
+      "native_frame_index": 41,
+      "nominal_seconds_from_fps": 1.7083333333333333,
+      "contact_inspection_image": "contact/window_000041.png"
+    },
+    {
+      "native_frame_index": 42,
+      "nominal_seconds_from_fps": 1.75,
+      "native_full_image": "full/frame_000042.png",
+      "contact_inspection_image": "contact/window_000042.png"
+    },
+    {
+      "native_frame_index": 43,
+      "nominal_seconds_from_fps": 1.7916666666666667,
+      "contact_inspection_image": "contact/window_000043.png"
+    },
+    {
+      "native_frame_index": 44,
+      "nominal_seconds_from_fps": 1.8333333333333333,
+      "contact_inspection_image": "contact/window_000044.png"
+    },
+    {
+      "native_frame_index": 45,
+      "nominal_seconds_from_fps": 1.875,
+      "contact_inspection_image": "contact/window_000045.png"
+    },
+    {
+      "native_frame_index": 46,
+      "nominal_seconds_from_fps": 1.9166666666666667,
+      "contact_inspection_image": "contact/window_000046.png"
+    },
+    {
+      "native_frame_index": 47,
+      "nominal_seconds_from_fps": 1.9583333333333333,
+      "contact_inspection_image": "contact/window_000047.png"
+    },
+    {
+      "native_frame_index": 48,
+      "nominal_seconds_from_fps": 2.0,
+      "native_full_image": "full/frame_000048.png",
+      "contact_inspection_image": "contact/window_000048.png"
+    },
+    {
+      "native_frame_index": 49,
+      "nominal_seconds_from_fps": 2.0416666666666665,
+      "contact_inspection_image": "contact/window_000049.png"
+    },
+    {
+      "native_frame_index": 50,
+      "nominal_seconds_from_fps": 2.0833333333333335,
+      "contact_inspection_image": "contact/window_000050.png"
+    },
+    {
+      "native_frame_index": 51,
+      "nominal_seconds_from_fps": 2.125,
+      "contact_inspection_image": "contact/window_000051.png"
+    },
+    {
+      "native_frame_index": 52,
+      "nominal_seconds_from_fps": 2.1666666666666665,
+      "contact_inspection_image": "contact/window_000052.png"
+    },
+    {
+      "native_frame_index": 53,
+      "nominal_seconds_from_fps": 2.2083333333333335,
+      "contact_inspection_image": "contact/window_000053.png"
+    },
+    {
+      "native_frame_index": 54,
+      "nominal_seconds_from_fps": 2.25,
+      "native_full_image": "full/frame_000054.png",
+      "contact_inspection_image": "contact/window_000054.png"
+    },
+    {
+      "native_frame_index": 55,
+      "nominal_seconds_from_fps": 2.2916666666666665,
+      "contact_inspection_image": "contact/window_000055.png"
+    },
+    {
+      "native_frame_index": 56,
+      "nominal_seconds_from_fps": 2.3333333333333335,
+      "contact_inspection_image": "contact/window_000056.png"
+    },
+    {
+      "native_frame_index": 57,
+      "nominal_seconds_from_fps": 2.375,
+      "contact_inspection_image": "contact/window_000057.png"
+    },
+    {
+      "native_frame_index": 58,
+      "nominal_seconds_from_fps": 2.4166666666666665,
+      "contact_inspection_image": "contact/window_000058.png"
+    },
+    {
+      "native_frame_index": 59,
+      "nominal_seconds_from_fps": 2.4583333333333335,
+      "contact_inspection_image": "contact/window_000059.png"
+    },
+    {
+      "native_frame_index": 60,
+      "nominal_seconds_from_fps": 2.5,
+      "native_full_image": "full/frame_000060.png",
+      "contact_inspection_image": "contact/window_000060.png"
+    },
+    {
+      "native_frame_index": 61,
+      "nominal_seconds_from_fps": 2.5416666666666665,
+      "contact_inspection_image": "contact/window_000061.png"
+    },
+    {
+      "native_frame_index": 62,
+      "nominal_seconds_from_fps": 2.5833333333333335,
+      "contact_inspection_image": "contact/window_000062.png"
+    },
+    {
+      "native_frame_index": 63,
+      "nominal_seconds_from_fps": 2.625,
+      "contact_inspection_image": "contact/window_000063.png"
+    },
+    {
+      "native_frame_index": 64,
+      "nominal_seconds_from_fps": 2.6666666666666665,
+      "contact_inspection_image": "contact/window_000064.png"
+    },
+    {
+      "native_frame_index": 65,
+      "nominal_seconds_from_fps": 2.7083333333333335,
+      "contact_inspection_image": "contact/window_000065.png"
+    },
+    {
+      "native_frame_index": 66,
+      "nominal_seconds_from_fps": 2.75,
+      "native_full_image": "full/frame_000066.png",
+      "contact_inspection_image": "contact/window_000066.png"
+    },
+    {
+      "native_frame_index": 67,
+      "nominal_seconds_from_fps": 2.7916666666666665,
+      "contact_inspection_image": "contact/window_000067.png"
+    },
+    {
+      "native_frame_index": 68,
+      "nominal_seconds_from_fps": 2.8333333333333335,
+      "contact_inspection_image": "contact/window_000068.png"
+    },
+    {
+      "native_frame_index": 69,
+      "nominal_seconds_from_fps": 2.875,
+      "contact_inspection_image": "contact/window_000069.png"
+    },
+    {
+      "native_frame_index": 70,
+      "nominal_seconds_from_fps": 2.9166666666666665,
+      "contact_inspection_image": "contact/window_000070.png"
+    },
+    {
+      "native_frame_index": 71,
+      "nominal_seconds_from_fps": 2.9583333333333335,
+      "contact_inspection_image": "contact/window_000071.png"
+    },
+    {
+      "native_frame_index": 72,
+      "nominal_seconds_from_fps": 3.0,
+      "native_full_image": "full/frame_000072.png",
+      "face_inspection_image": "face/window_000072.png",
+      "contact_inspection_image": "contact/window_000072.png"
+    },
+    {
+      "native_frame_index": 78,
+      "nominal_seconds_from_fps": 3.25,
+      "native_full_image": "full/frame_000078.png"
+    },
+    {
+      "native_frame_index": 84,
+      "nominal_seconds_from_fps": 3.5,
+      "native_full_image": "full/frame_000084.png"
+    },
+    {
+      "native_frame_index": 90,
+      "nominal_seconds_from_fps": 3.75,
+      "native_full_image": "full/frame_000090.png"
+    },
+    {
+      "native_frame_index": 96,
+      "nominal_seconds_from_fps": 4.0,
+      "native_full_image": "full/frame_000096.png"
+    },
+    {
+      "native_frame_index": 102,
+      "nominal_seconds_from_fps": 4.25,
+      "native_full_image": "full/frame_000102.png"
+    },
+    {
+      "native_frame_index": 108,
+      "nominal_seconds_from_fps": 4.5,
+      "native_full_image": "full/frame_000108.png",
+      "face_inspection_image": "face/window_000108.png"
+    },
+    {
+      "native_frame_index": 114,
+      "nominal_seconds_from_fps": 4.75,
+      "native_full_image": "full/frame_000114.png"
+    },
+    {
+      "native_frame_index": 120,
+      "nominal_seconds_from_fps": 5.0,
+      "native_full_image": "full/frame_000120.png"
+    },
+    {
+      "native_frame_index": 126,
+      "nominal_seconds_from_fps": 5.25,
+      "native_full_image": "full/frame_000126.png"
+    },
+    {
+      "native_frame_index": 132,
+      "nominal_seconds_from_fps": 5.5,
+      "native_full_image": "full/frame_000132.png"
+    },
+    {
+      "native_frame_index": 138,
+      "nominal_seconds_from_fps": 5.75,
+      "native_full_image": "full/frame_000138.png"
+    },
+    {
+      "native_frame_index": 144,
+      "nominal_seconds_from_fps": 6.0,
+      "native_full_image": "full/frame_000144.png",
+      "face_inspection_image": "face/window_000144.png"
+    }
+  ],
+  "source_mutated": false,
+  "video_rendered": false,
+  "native_speed_changed": false,
+  "native_frame_extraction": true,
+  "camera_fixed_observed": null,
+  "backward_step_observed": null,
+  "cloth_information_gain": null,
+  "continuous_visual_review": "not_claimed",
+  "user_approval": null,
+  "limits": [
+    "Complete decode only confirms decoding and technical signals, not visual quality.",
+    "25 full frames and 5 head windows are samples, not a normal-speed complete watch.",
+    "The early contact sequence covers consecutive native frames only through the selected endpoint.",
+    "Nominal labels are native frame index / observed fps, not measured individual PTS.",
+    "Prompts/settings do not establish that the camera stayed fixed or a step occurred."
+  ]
+}

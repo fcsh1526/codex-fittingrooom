@@ -5,11 +5,13 @@ import sys
 from pathlib import Path
 
 from build_weekly_packet import main as build_main
+from build_weekly_look_plan import build_look_plan
 from check_weekly_status import check_status
 from import_perplexity_export import import_rows
 from resolve_perplexity_source import DEFAULT_INDEX_URL, resolve_source
 from select_codex_assets import select_assets
 from validate_weekly_run import validate_run
+from prepare_reel_production import build as build_reel_production
 
 
 def run_build_weekly_packet(week, limit, output_dir, source_database):
@@ -37,6 +39,14 @@ def read_packets(run_dir):
         return list(csv.DictReader(handle))
 
 
+def read_look_plan(run_dir):
+    path = Path(run_dir) / "weekly_look_plan.csv"
+    if not path.exists():
+        return []
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
 def clean(value):
     return " ".join(str(value or "").split()).strip()
 
@@ -47,6 +57,31 @@ def prepare_codex_image_jobs(run_dir, provider):
         raise FileNotFoundError(f"Missing image job script: {script}")
 
     prepared = []
+    looks = read_look_plan(run_dir)
+    if looks:
+        for look in looks:
+            look_id = clean(look.get("look_id"))
+            if not look_id:
+                continue
+            subprocess.run(
+                [
+                    sys.executable,
+                    str(script),
+                    "--project-root",
+                    ".",
+                    "--run-dir",
+                    str(run_dir),
+                    "--look-id",
+                    look_id,
+                    "--tool",
+                    provider,
+                    "--plan-only",
+                ],
+                check=True,
+            )
+            prepared.append(look_id)
+        return prepared
+
     for packet in read_packets(run_dir):
         carousel_id = clean(packet.get("carousel_id"))
         if not carousel_id:
@@ -63,6 +98,8 @@ def prepare_codex_image_jobs(run_dir, provider):
                 carousel_id,
                 "--tool",
                 provider,
+                "--surface",
+                "carousel",
             ],
             check=True,
         )
@@ -74,6 +111,14 @@ def main():
     parser = argparse.ArgumentParser(description="Run the weekly Mira automation pipeline.")
     parser.add_argument("--week", default="", help="Week id, e.g. 2026-W25. Optional with --use-perplexity-index; the latest index week will be used.")
     parser.add_argument("--perplexity-source", help="Optional CSV/Markdown file path or direct CSV URL.")
+    parser.add_argument(
+        "--editorial-source",
+        help="Optional editor-approved CSV. Approved rows override raw Perplexity rows for packet selection.",
+    )
+    parser.add_argument(
+        "--look-source",
+        help="Optional editor-approved 2-3-look-per-theme CSV used to create weekly_look_plan.csv.",
+    )
     parser.add_argument("--perplexity-index", default="", help="Optional Perplexity public index URL. Defaults to the saved Mira index when --use-perplexity-index is set.")
     parser.add_argument("--use-perplexity-index", action="store_true", help="Resolve the CSV URL from the Perplexity public index.")
     parser.add_argument("--database", default="04_prompts/item_prompt_database.csv")
@@ -100,6 +145,7 @@ def main():
     if not args.week:
         parser.error("--week is required unless --use-perplexity-index resolves a week.")
 
+    imported_any = False
     if source:
         result = import_rows(
             source=source,
@@ -109,9 +155,25 @@ def main():
         )
         action = "Would import" if args.dry_run_import else "Imported"
         print(f"{action} {result['imported_rows']} row(s) for {args.week}.")
-        if args.dry_run_import:
-            print("Dry run ended before packet build.")
-            return
+        imported_any = True
+
+    if args.editorial_source:
+        editorial_result = import_rows(
+            source=args.editorial_source,
+            database_path=args.database,
+            week=args.week,
+            dry_run=args.dry_run_import,
+        )
+        action = "Would import" if args.dry_run_import else "Imported"
+        print(
+            f"{action} {editorial_result['imported_rows']} editor-approved row(s) "
+            f"for {args.week}."
+        )
+        imported_any = True
+
+    if args.dry_run_import and imported_any:
+        print("Dry run ended before packet build.")
+        return
 
     output_dir = args.output_dir or str(Path("10_automation") / "runs" / args.week)
     run_build_weekly_packet(
@@ -120,6 +182,13 @@ def main():
         output_dir=output_dir,
         source_database=args.database,
     )
+    if args.look_source:
+        looks = build_look_plan(
+            packet_path=Path(output_dir) / "weekly_content_packet.csv",
+            source_path=args.look_source,
+            output_path=Path(output_dir) / "weekly_look_plan.csv",
+        )
+        print(f"Prepared weekly look plan: {len(looks)} look(s).")
     if not args.skip_image_jobs:
         prepared = prepare_codex_image_jobs(output_dir, args.asset_provider)
         print(f"Prepared Codex image job(s): {len(prepared)}.")
@@ -150,6 +219,10 @@ def main():
             )
             if report["status"] != "pass":
                 raise SystemExit(1)
+
+    if (Path(output_dir) / "weekly_look_plan.csv").exists() and len(read_packets(output_dir)) == 5:
+        build_reel_production(Path(__file__).resolve().parents[1], Path(output_dir))
+        print("Prepared five two-look Reel production records (existing editorial fields preserved).")
 
     if not args.skip_status:
         status = check_status(output_dir)

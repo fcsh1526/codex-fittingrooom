@@ -1,0 +1,9 @@
+# Alternate View B Generation Prompt v1
+
+Use case: identity-preserve. Create one native 9:16 Alternate View B for the same daily-outfit editorial. Image 1 is the edit target and session lock: preserve the exact woman, hairstyle, outfit construction, garment colors, fabric character, shoes, tote, body build and documentary photographic treatment. Image 2 reinforces face identity and hair; Image 3 reinforces ordinary body proportions. Change only the location, camera angle, pose, gaze and hand interaction.
+
+Place her at a shaded outdoor reading platform beside a Taipei campus library, with a low concrete bench, simple planting and quiet late-summer greenery. Do not reproduce the covered colonnade from Image 1. Photograph her from the left walkway in a natural three-quarter side view. She stands beside the bench with a relaxed weight shift, one hand naturally holding the strap of the same plain black canvas tote and the other holding one slim closed book lightly against her side, looking outward beyond the shade rather than at the camera. This is an independent outfit photograph, not the next action after Image 1.
+
+Keep exactly: light-blue-and-white fine-stripe oversized cotton Oxford shirt with button-down collar, dropped shoulders, sleeves rolled to the elbows and fully untucked hem; deep-navy high-waisted straight tailored Bermuda shorts ending just above the knees; black matte-leather low-heel loafers; plain black canvas tote. Show full hairstyle, full figure and both shoes.
+
+Full-frame mirrorless documentary fashion photograph, natural 50mm perspective at chest height with a level axis, believable afternoon shade and ambient spill, honest skin texture, flyaway hair, lived-in folds, restrained grain and slight optical softness. No text, logos, watermark, added garments or accessories.

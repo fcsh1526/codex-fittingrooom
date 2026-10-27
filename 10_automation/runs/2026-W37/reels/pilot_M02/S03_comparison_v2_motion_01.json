@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-23",
+  "shot": "S03",
+  "attempt": 1,
+  "status": "downloaded_rejected_for_styling_action",
+  "url": "https://grok.com/imagine/post/3b8551e7-86f2-4b11-9f4c-01310dedfa47?conversation=ec40a7b6-8360-4865-af22-1084ef6acb71",
+  "first_frame": "generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S03_comparison_v2_start_candidate.png",
+  "first_frame_sha256": "8BFD39709EDD8E35B585B678205F46EC3A4C28E49C6E70446567943FEDB07651",
+  "identity_reference": "Mira M02 v3",
+  "first_frame_role_verified": true,
+  "prompt_file": "prompts/S03_comparison_v2_motion_v1.md",
+  "settings": {"resolution": "720p", "duration_seconds": 6, "aspect_ratio": "9:16", "audio": false},
+  "browser_video_metadata": {"width": 720, "height": 1280, "duration_seconds": 6.041667, "playback_rate": 1},
+  "local_file": "videos/S03_comparison_v2_01.mp4",
+  "local_bytes": 2067011,
+  "sha256": "BD342EA3C7E0A471B8DAAB9693AFA6D49D2D1DB0082554A189502A0D29448726",
+  "qa": "Browser player checkpoints approximately 0.25, 1.55, 3.0, 5.65s. Shirt is pulled off viewer-left shoulder; broad dress strap becomes exposed by about 3s. This conflicts with intended layering. Full continuous QA not passed.",
+  "retry_prompt": "prompts/S03_comparison_v2_motion_v2.md"
+}

@@ -1,8 +1,8 @@
 {
-  "version": "Mira model roster v6 - adds M05 true age metadata with prompt-safe visual ages",
-  "public_rule": "Do not publish model names or model IDs. These profiles are internal production controls for consistent outfit imagery across age cohorts.",
-  "assignment_rule": "M01, M02, M03, M04, and M05 represent fixed internal model identities, not fixed outfit occasions. Any weekly trend can be styled for work, weekend, date, travel, rainy day, or casual use with any model when the content plan calls for it.",
-  "age_prompt_policy": "True ages are roster metadata only. Image prompts must use prompt_age_language and visual_profile, never the numeric true_age. Express age through styling and presence, NOT wrinkles. East Asian women look significantly younger than Western age norms. Skin is smooth and well-maintained.",
+  "version": "Mira model roster v10 - keeps M01-M05 active and adds M06-M09 reserve identities",
+  "public_rule": "Do not publish model names or model IDs. Active profiles and reserve identities are internal production controls for consistent outfit imagery across age cohorts.",
+  "assignment_rule": "M01, M02, M03, M04, and M05 are the five active fixed internal model identities and remain the only weekly rotation. M06 is a face-only reserve without an approved full-body anchor. M07, M08, and M09 each retain a face/full-body reserve pair. M09 also requires age calibration. M06, M07, M08, and M09 must not enter production unless the user explicitly activates them after all required anchors and metadata are approved. Active identities are not tied to fixed outfit occasions; any weekly trend can be styled for work, weekend, date, travel, rainy day, or casual use with any active model when the content plan calls for it.",
+  "age_prompt_policy": "True ages are roster metadata only. Image prompts may use prompt_age_language, never numeric true_age. Preserve recognizable adult identity, believable skin texture and normal human variation without age caricature, smoothing instructions or beauty retouching.",
   "profiles": [
     {
       "model_profile_id": "M01",
@@ -38,7 +38,7 @@
       "content_buckets": ["all"],
       "reader_projection": "A stylish adult reader who wants practical outfits with softness, confidence, and enough polish for work or weekend.",
       "fixed_hair_baseline": "dark brown medium-to-long hair with polished natural movement",
-      "visual_profile": "East Asian woman with a well-maintained mid-30s look, softly defined oval face with gentle cheeks and balanced jawline, dark brown medium-to-long hair with polished natural movement, natural makeup, relaxed confident posture, healthy slim-to-average build, smooth well-maintained skin with realistic fine texture.",
+      "visual_profile": "East Asian woman with a well-maintained mid-30s look, softly defined oval face with gentle cheeks and balanced jawline, dark brown medium-to-long hair with polished natural movement, natural makeup, relaxed confident posture, healthy slim-to-average build, believable skin texture with normal human tonal variation.",
       "style_range": "dresses, skirts, relaxed tailoring, cardigans, sheer layers, denim, trousers, soft blouses, ballet flats, Mary Janes, loafers, shoulder bags, restrained color palettes.",
       "daily_scenes": "cafe window, office-adjacent corridor, bookstore street, department store fitting area, quiet shopping street, neighborhood sidewalk, simple studio with natural shadows.",
       "avoid": "making her look teen, making her look elderly, excessive sweetness, plastic skin, heavy filters, bridal styling, glamour model pose, luxury resort background, wrinkle-based age cues"
@@ -51,7 +51,7 @@
       "content_buckets": ["all"],
       "reader_projection": "A polished mature reader who wants modern outfits that feel current, composed, elegant, and wearable without looking overly young or overly formal.",
       "fixed_hair_baseline": "straight dark brown chin-to-shoulder bob with a clean side part",
-      "visual_profile": "East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with smooth well-maintained texture, attentive intelligent eyes with naturally responsive subtle expressions, slightly taller average-slim healthy proportions, composed but not rigid editorial presence.",
+      "visual_profile": "East Asian woman with an elegant early-40s look, longer narrow oval face with defined cheekbones and a slightly sharper jawline, straight dark brown chin-to-shoulder bob with a clean side part, natural warm fair skin with believable fine texture and tonal variation, attentive intelligent eyes with naturally responsive subtle expressions, slightly taller average-slim healthy proportions, composed but not rigid editorial presence.",
       "style_range": "button shirts, knit tops, blazers, sheer layers, tailored trousers, midi skirts, denim, dresses, loafers, low heels, refined flats, structured bags, quiet neutral layers, polished casual pieces.",
       "daily_scenes": "office lobby, cafe before work, shaded city sidewalk, bookstore street, covered walkway, quiet shopping street, simple studio with natural shadows.",
       "avoid": "making her look teen, making her look elderly, overly smoothed skin, wrinkle-focused aging, plastic beauty lighting, hard power-suit stereotype, luxury hotel background, runway pose, visible logos"
@@ -68,6 +68,62 @@
       "style_range": "simple shirts, T-shirts, denim, relaxed trousers, short jackets, clean cardigans, simple skirts, easy dresses, sneakers, loafers, ballet flats, canvas or nylon bags, practical youthful basics.",
       "daily_scenes": "neighborhood street, casual cafe, bookstore street, covered sidewalk, simple studio with natural shadows, rainy MRT exit, department store fitting area.",
       "avoid": "teen styling, childlike styling, school-uniform look, over-cute idol styling, excessive sweetness, luxury styling, mature-elegant styling, hard executive styling, obvious AI smoothness, wrinkle-based age cues"
+    },
+    {
+      "model_profile_id": "M06",
+      "internal_label": "M06 visual early-20s reserve",
+      "production_status": "backup_face_only",
+      "true_age": 25,
+      "prompt_age_language": "early 20s",
+      "content_buckets": ["backup"],
+      "reader_projection": "Reserve young-adult identity retained for possible future evaluation; not part of the active weekly production roster.",
+      "fixed_hair_baseline": "jaw-length dark brown bob with loose natural movement",
+      "visual_profile": "East Asian woman with an early-20s youthful adult look, a softly angular face, jaw-length dark brown bob with loose natural movement, understated natural makeup, healthy petite-to-medium proportions, and a quiet approachable editorial presence.",
+      "style_range": "Not active. Define only after a matching full-body anchor is approved and the user explicitly promotes M06 into production.",
+      "daily_scenes": "Not active; reserve identity only.",
+      "avoid": "production use before full-body approval, weekly rotation assignment, teen or childlike styling, plastic skin, wrinkle-based age cues"
+    },
+    {
+      "model_profile_id": "M07",
+      "internal_label": "M07 visual late-20s reserve",
+      "production_status": "backup_inactive",
+      "true_age": 35,
+      "prompt_age_language": "late 20s, youthful",
+      "content_buckets": ["backup"],
+      "reader_projection": "Reserve adult identity retained for possible future evaluation; not part of the active weekly production roster.",
+      "fixed_hair_baseline": "dark brown medium-to-long hair with loose natural movement",
+      "visual_profile": "East Asian woman with a youthful late-20s adult look, softly defined oval face, dark brown medium-to-long hair with loose natural movement, understated makeup, healthy slim-to-average proportions, and a calm approachable presence.",
+      "style_range": "Not active. Define only if the user explicitly promotes M07 into production.",
+      "daily_scenes": "Not active; reserve identity only.",
+      "avoid": "production use before explicit activation, weekly rotation assignment, making her look teen, plastic skin, heavy filters, wrinkle-based age cues"
+    },
+    {
+      "model_profile_id": "M08",
+      "internal_label": "M08 visual mid-30s reserve",
+      "production_status": "backup_inactive",
+      "true_age": 45,
+      "prompt_age_language": "mid 30s look, well-maintained",
+      "content_buckets": ["backup"],
+      "reader_projection": "Reserve adult identity retained for possible future evaluation; not part of the active weekly production roster.",
+      "fixed_hair_baseline": "dark brown medium-to-long hair with polished natural movement",
+      "visual_profile": "East Asian woman with a composed mid-30s adult look, softly defined oval face, dark brown medium-to-long hair with polished natural movement, understated makeup, healthy average proportions, and an approachable confident presence.",
+      "style_range": "Not active. Define only if the user explicitly promotes M08 into production.",
+      "daily_scenes": "Not active; reserve identity only.",
+      "avoid": "production use before explicit activation, weekly rotation assignment, making her look elderly, plastic skin, heavy filters, wrinkle-based age cues"
+    },
+    {
+      "model_profile_id": "M09",
+      "internal_label": "M09 adult reserve - age calibration pending",
+      "production_status": "backup_inactive",
+      "true_age": null,
+      "prompt_age_language": "adult; age calibration pending",
+      "content_buckets": ["backup"],
+      "reader_projection": "Reserve adult identity retained for future evaluation; not part of the active weekly production roster.",
+      "fixed_hair_baseline": "straight dark brown medium-to-long hair with a natural center part",
+      "visual_profile": "East Asian adult woman with a softly defined oval face, straight dark brown medium-to-long hair with a natural center part, light everyday makeup, approachable expression, and healthy average proportions.",
+      "style_range": "Not active. Calibrate age and define only if the user explicitly promotes M09 into production.",
+      "daily_scenes": "Not active; reserve identity only.",
+      "avoid": "production use before age calibration and explicit activation, weekly rotation assignment, childlike styling, plastic skin, heavy filters, wrinkle-based age cues"
     }
   ]
 }

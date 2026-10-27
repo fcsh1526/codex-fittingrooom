@@ -1,0 +1,17 @@
+{
+  "record_date_local":"2026-10-20",
+  "status":"one_F04_crossing_candidate_submitted_agent_thinking",
+  "canvas_url":"https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "prompt":"F04_grok_submission_prompt.txt",
+  "requested_roles":{"first":"e008f6b5-efe9-40b4-be75-615af1be766c","last":"936d6b16-20ac-4fdb-baa0-723df9542f0e","face":"6236309c-2343-41e6-985c-994239ff744a","full":"ac9ede4e-1715-4518-95b4-bda341a62061"},
+  "approved_input_sha256":{"first":"98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457","last_corrected":"78b0322f697806c8cf436a221a631e39e5d2f57a7e65df4044a2a27309a673ed"},
+  "approval_receipts":["F04_start_user_still_approval_2026-10-20.json","F04_end_user_still_approval_2026-10-20.json"],
+  "upload_observations":"Batch showed only start after uploads settled; corrected end uploaded separately and both visually confirmed in canvas, each941x1672. UUIDroles identified by visible content, not assumed order.",
+  "requested_output":{"count":1,"seconds":6,"resolution":"720p9:16","audio":"off if supported; otherwise preserve/report sourceAAC"},
+  "confirmed_generated_video_count_at_submission":0,
+  "actual_settings_independently_visible":null,
+  "ui_observation":"Saved exact prompt submitted; 正在思考 and Stop control visible.",
+  "new_stills_generated_this_submission":0,
+  "original_media_modified":false,
+  "publishing_changes":false
+}

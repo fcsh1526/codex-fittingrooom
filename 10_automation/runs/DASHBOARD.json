@@ -1,10 +1,12 @@
 {
   "runs_dir": "10_automation\\runs",
-  "run_count": 5,
+  "run_count": 7,
   "stage_counts": {
     "missing_weekly_packet_files": 1,
     "archived": 2,
-    "ready_for_manual_export": 2
+    "ready_for_manual_export": 2,
+    "needs_image_asset_selection": 1,
+    "completed": 1
   },
   "runs": [
     {
@@ -58,6 +60,28 @@
       "packet_rows": 5,
       "quality": "pass",
       "cover_assets": "5/5",
+      "published": false,
+      "metric_checkpoints": 0,
+      "latest_decision": ""
+    },
+    {
+      "run_dir": "10_automation\\runs\\2026-W33",
+      "stage": "needs_image_asset_selection",
+      "next_action": "Continue generating and scoring the remaining Codex image jobs, then rerun select_codex_assets.py. Canva work for already selected carousels can proceed in parallel.",
+      "packet_rows": 5,
+      "quality": "pass",
+      "cover_assets": "0/5",
+      "published": false,
+      "metric_checkpoints": 0,
+      "latest_decision": ""
+    },
+    {
+      "run_dir": "10_automation\\runs\\2026-W34",
+      "stage": "completed",
+      "next_action": "W34 completed by user decision. Start 2026-W35 in a new conversation; do not backfill W34 unless explicitly reopened.",
+      "packet_rows": 5,
+      "quality": "pass",
+      "cover_assets": "0/5",
       "published": false,
       "metric_checkpoints": 0,
       "latest_decision": ""

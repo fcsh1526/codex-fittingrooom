@@ -1,0 +1,27 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "look_id": "2026-W37-002-L01",
+  "shot_id": "A_full_fixed_environment_v1",
+  "attempt_id": "01",
+  "submitted_at_local_date": "2026-09-30",
+  "first_frame": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png",
+  "last_frame": null,
+  "saved_character_reference": "Mira M05 v1 face",
+  "input_role_verification": "Grok composer showed one uploaded full-person image as First frame, an empty Add last frame control, and the saved M05 face reference as a separate chip. The prior medium Last frame was removed before submission.",
+  "settings_observed": {"aspect_ratio": "9:16", "resolution": "720p", "duration": "6s", "audio": "off"},
+  "prompt_file": "10_automation/runs/2026-W37/reels/prompts/M05_A_L01_full_fixed_environment_v1.md",
+  "source_url": "https://grok.com/imagine/post/5373b1b8-94c3-4aa7-82ea-6b160e77e60a?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_full_fixed_environment_v1_01.mp4",
+  "output_sha256": "399CD9474171D6E43DA5EB17E8DBEAD85AE6D33B0B760BFFF057F91A2BD48DA5",
+  "output_metadata": {"duration_seconds": 6.041667, "resolution": "720x1280", "frame_rate": 24, "audio_stream": false},
+  "status": "provisional_fixed_camera_source_user_motion_review_pending",
+  "qa": {
+    "user_reported_prior_failure": "The first/last-keyframe edit's pace was acceptable, but environment drifted.",
+    "current_test": "One-frame fixed-camera shot to isolate scene stability.",
+    "full_decode": "Passed.",
+    "sampled_review": "At 2 fps and full-resolution frames 0, 48, 96 and 144, window frame, table edge/legs, plant, pinned image grid and shelving keep their position; no prominent room morph or magenta trouser shift seen.",
+    "contact_sheet": "10_automation/runs/2026-W37/reels/qa/M05_A_L01_full_fixed_environment_v1_01/contact_2fps.jpg",
+    "usable_interval_frames": "0-95 selected for the 8-second review cut; later held section excluded",
+    "limitation": "Assistant sampled review does not replace user normal-speed assessment. Styling-proof medium view is not included in this fixed-camera test."
+  }
+}

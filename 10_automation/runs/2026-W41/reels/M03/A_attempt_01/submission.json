@@ -1,0 +1,12 @@
+{
+  "submitted_at": "2026-10-08T08:49:22.308Z",
+  "first_frame": "2026-W41-004-L01_M03_reel_candidate_A_v2.png",
+  "reference": "Mira M03 v3",
+  "settings": {
+    "mode": "video",
+    "resolution": "720p",
+    "seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  }
+}

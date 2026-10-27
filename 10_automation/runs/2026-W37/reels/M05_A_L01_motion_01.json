@@ -1,0 +1,43 @@
+{
+  "reel_id": "2026-W37-M05-reel",
+  "look_id": "2026-W37-002-L01",
+  "shot_id": "A_scale_push_v1",
+  "attempt_id": "01",
+  "submitted_at_local_date": "2026-09-29",
+  "source_first_frame": "10_automation/runs/2026-W37/generated_images/2026-W37-002/looks/2026-W37-002-L01/reel/2026-W37-002-L01_M05_S01_storyboard_v1_start_candidate.png",
+  "first_frame_user_approval": "2026-09-29: 好",
+  "saved_character_reference": "Mira M05 v1 face",
+  "saved_character_reference_contents": [
+    "02_brand/reference_models/M05_start_v1_face.png"
+  ],
+  "reference_limit": "The saved Grok character reference currently contains the approved face anchor only; the approved full-body anchor was not confirmed as part of this Grok reference. The first frame supplies the outfit and body pose.",
+  "input_role_verification": "Grok composer displayed the L01 uploaded still as First frame after its thumbnail role was changed from Reference; the saved Mira M05 v1 face chip and face thumbnail remained attached separately.",
+  "settings_observed": {
+    "aspect_ratio": "9:16 selected",
+    "resolution": "720p selected",
+    "duration": "6s selected",
+    "audio": "Second option selected in Grok audio group; its option labels did not render. Prompt requests no generated speech or music; actual output audio must be inspected."
+  },
+  "prompt_file": "10_automation/runs/2026-W37/reels/prompts/M05_A_L01_scale_push_v1.md",
+  "source_url": "https://grok.com/imagine/post/5a497cf5-2788-423a-9e39-cb3b427793aa?conversation=62388982-593b-4152-95d7-79cff36d89ac",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M05_A_L01_scale_push_v1_01.mp4",
+  "output_sha256": "A025AFAA16FADFB06C3FB3E9CADB38C6725142D657EA412829C9DA553F21FD7B",
+  "output_metadata": {
+    "duration_seconds": 6.041667,
+    "resolution": "720x1280",
+    "frame_rate": 24,
+    "decoded_frames": 145,
+    "audio_stream": false
+  },
+  "status": "technical_rejected_retry_planned",
+  "qa": {
+    "continuous_watch_done": false,
+    "dynamic_identity": "Face and hair appear broadly stable in 2-fps contact sheet; user full-speed review pending.",
+    "wardrobe_continuity": "FAIL: deep-indigo trousers become conspicuously purple by approximately 2.5-3 seconds and remain purple through the push-in.",
+    "motion_and_camera": "Natural short forward walk; scale reaches a closer waist view, but wardrobe changes before the useful medium composition.",
+    "usable_interval_seconds": "Approximately 0-2 seconds only, insufficient as a full-to-medium connected shot.",
+    "decode_and_scan": "Full 145-frame H.264 decode passed; blackdetect and freezedetect found no events.",
+    "contact_sheet": "10_automation/runs/2026-W37/reels/qa/M05_A_L01_scale_push_v1_01/contact_2fps.jpg",
+    "decision": "reject_for_wardrobe_hue_drift; one targeted retry allowed"
+  }
+}

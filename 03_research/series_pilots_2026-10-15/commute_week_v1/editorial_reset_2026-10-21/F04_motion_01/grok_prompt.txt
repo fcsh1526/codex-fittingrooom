@@ -1,0 +1,21 @@
+執行且只執行一次「第四套格紋全身，同側略移前方」6秒動態測試。兩張新照片均已逐張獲使用者核准；不得新出照片、改服裝、合片、自行重試或使用選取殘留的近景／第五套影片。請先核對下列精確UUID內容，內容不符或必要參數被拒絕就停止回報，不可省略錨點或默默改成last/純文字參照模式。
+
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+first_frame_asset_id: "b43b2900-fe9c-48f9-9193-fcd2e8d396f7"
+keyframes: [{"asset_id":"25165cba-ef4e-42ee-befe-4ca17b9cc715","timestamp_s":4.333333333333333}]
+last_frame_asset_id: 不傳，不設
+asset_ids: ["6236309c-2343-41e6-985c-994239ff744a","ac9ede4e-1715-4518-95b4-bda341a62061"]
+
+first是M03奶油白／海軍藍細格尖領捲袖襯衫、炭灰高腰直筒褲、黑肩包與素面黑低跟鞋，完整頭鞋向右走，玻璃／石花台／樹與地磚背景。keyframe是同套略偏前側全身圖，人物稍大、自然擺臂／不同跨步，仍同路段；它是第4又1/3秒的片內錨，不能當6秒尾幀。兩個asset_ids僅鎖M03 v3身份與普通身形，不複製參照衣服、站姿或背景。舊近景片不是本輪來源。
+
+Generate one continuous six-second real-time fashion commute shot. From the first frame the same woman walks purposefully toward image-right at a steady, confident ordinary commuting cadence, with grounded alternating steps and natural opposing arm movement. Keep the complete head, trouser hems and BOTH shoes visible throughout the intended first4.5 seconds, with readable shirt, high waist and bag. During the first three-quarter second continue walking at the existing pace and comparable camera scale; do not hesitate, pose, freeze or slow down to wait for a change.
+
+The level chest-height50mm camera tracks with her on the SAME flank and gradually moves a little ahead to the approved modest front-side view by the exact4.333333333333333-second image anchor. Show more of the checked shirt front and trouser shape without turning her toward the lens, crossing the camera axis, jumping size or pushing into a crop. Her gaze follows the route. After the anchor keep walking at the same cadence and comparable full-person framing for the remaining time; no extra action. This is a short local segment beside the existing planter, not a road crossing or entry into a company.
+
+Maintain exact M03 face/hair/healthy proportions, cream cotton shirt with fine navy windowpane checks and pointed open collar, rolled forearm sleeves, tucked charcoal straight trousers, plain black low-heeled shoes and the same near-side black leather shoulder bag. Shoes stay planted relative to the SAME paving location until lifting, pelvis progresses over each support foot; camera tracking must not drag planted feet across tiles. No slow motion, speed ramp, floating gait, changing checks or bag inflation.
+
+The existing grey-green glass, single pale stepped planter, existing trees and grey paving form one rigid environment. Connect the changed camera angle through plausible camera translation and parallax; do not grow/morph window grids, branches, planter walls or duplicate objects to reach the guide. No new doorway, canopy, road paint, column row or plant row. Preserve coherent sunlight, integrated contact shadows and natural skin/fabric texture. No internal cuts, dissolves, text or logos. The tool reportedly has no audio-off option: do not invent an audio switch; report the actual track.
+
+只送這一次，完成保留在同一畫布。回報真正傳入first/keyframes(timestamp_s)/asset_ids與last未設、是否全數接受、輸出asset UUID、實際時長／像素／音軌。請把參數回報與抽樣畫面觀察分開，不宣告步態、背景、換裝或整支五套影片已通過。若工具拒絕參數，停止，不追加替代模式或第二支。

@@ -8,7 +8,7 @@
 - reference_face_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_face.png`
 - reference_full_image: `C:\Users\Brandon_ChangChien\Documents\Codex\人物試衣間\02_brand\reference_models\M02_start_v3_full.png`
 - attach_reference_images: `required`
-- trend: 窄領巾與蝴蝶結細節
+- trend: 窄版絲巾的小結
 - clothing_item: 奶油白合身無袖立領上衣；酒紅窄版絲巾在頸側打小單結並留短邊；深棕高腰直筒長褲；酒紅尖頭低跟鞋；深棕小型手提包
 - occasion: 晚餐／約會
 - frame_plan: carousel:hero_full+scene_application+accessory_detail;reel:hero_full_9x16

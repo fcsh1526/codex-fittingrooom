@@ -1,0 +1,13 @@
+{
+  "post_url": "https://grok.com/imagine/post/2f7f8c77-46f4-45f5-be7d-545de1214613?conversation=98fabc1b-30ef-4349-aebe-230c66d7b0b1",
+  "retrieved_at": "2026-10-06T02:34:11.088Z",
+  "source_file": "source.mp4",
+  "source_retrieved": true,
+  "completed_output_observed": true,
+  "submitted_to_retrieved_seconds": 153.194,
+  "waiting_seconds_exact": null,
+  "timing_note": "Elapsed includes checking/download diagnosis; pure generation waiting not measured",
+  "download_method": "documented locator.downloadMedia on observed #sd-video",
+  "download_button_issue": "click gave no download event within20s; cause unknown",
+  "original_download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\generated_video (22).mp4"
+}

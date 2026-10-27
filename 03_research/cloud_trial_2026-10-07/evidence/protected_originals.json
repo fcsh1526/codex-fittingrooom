@@ -1,0 +1,38 @@
+{
+  "verified_on_local_date": "2026-10-07",
+  "policy": "Originals stay outside packet. Do not overwrite, move, rename or replace their Drive IDs.",
+  "records": [
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_detail_full_full_detail_review_v1.mp4",
+      "sha256": "eb99760cd7d5df8fdc2dda66148ef90218b639f5ad0920dfd6dd5b1615f8a426"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M02_D_structure_trial/M02_detail_full_full_detail_review_v1.mp4",
+      "sha256": "688d95d93c7705ac7500ada977c6ff2c97e649c175430487264b69ec8da28b56"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M03_edit_trial_01/M03_order_D_review_v1.mp4",
+      "sha256": "906dc03da54d619536e25aa49b1ecb9877f2ea430f0f893959e24f2f92f462a8"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M04_two_looks_review_v1_01.mp4",
+      "sha256": "b01ce4a5b95a7cbc368312d0607a6155fad5c7f1918b1ed3272b4b75b247679b"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M05_two_looks_fixed_environment_review_v2_01.mp4",
+      "sha256": "ae7ced47b34732083ef112461597a2745697818872103ff3f095763c11b4bc1e"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-05/orientation_study/M02_parallel_angle_review_v2.mp4",
+      "sha256": "9831b95eb5e88b1f13295a650c9a7faaf18fe3223f3cfb9a3336cde4ef26c569"
+    },
+    {
+      "path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+      "sha256": "a383ea81ef1eb8e4b27993954aafe11376b80183bfc4634242370a7e0bdf9499"
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/M02_paired_D_v1/review/M02_paired_D_v1_review_v2_matched.mp4",
+      "sha256": "3c077e1e05d31db0e92176ec49313ff051ddddfd8e3affb9b431ec88c6b27989"
+    }
+  ]
+}

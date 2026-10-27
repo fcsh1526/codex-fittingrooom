@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-24",
+  "title": "M02 W37 four-shot motion-matched rough cut v2",
+  "status": "technical_review_candidate_user_video_approval_pending",
+  "reason_for_revision": "User judged v1 overall acceptable but found the four cut points too hard, with a brief pause before the next shot. Source review also found held poses near the ends of both styling shots.",
+  "model": "M02",
+  "look_ids": ["2026-W37-001-L01", "2026-W37-001-L02"],
+  "sequence": [
+    {"shot": "S01", "look_id": "2026-W37-001-L01", "source": "videos/S01_comparison_v2_01.mp4", "source_record": "S01_comparison_v2_motion_01.json", "in_seconds": 0.05, "out_seconds": 2.55},
+    {"shot": "S02", "look_id": "2026-W37-001-L01", "source": "videos/S02_comparison_v2_02.mp4", "source_record": "S02_comparison_v2_motion_02.json", "in_seconds": 0.35, "out_seconds": 2.35},
+    {"shot": "S03", "look_id": "2026-W37-001-L02", "source": "videos/S03_comparison_v2_02.mp4", "source_record": "S03_comparison_v2_motion_02.json", "in_seconds": 0.35, "out_seconds": 2.15, "known_defect_outside_selection": "blue shirt slips off shoulder after about 3.47s in source"},
+    {"shot": "S04", "look_id": "2026-W37-001-L02", "source": "videos/S04_comparison_v2_01.mp4", "source_record": "S04_comparison_v2_motion_01.json", "in_seconds": 0.35, "out_seconds": 2.50}
+  ],
+  "estimated_cut_times_seconds": [2.50, 4.50, 6.30],
+  "output": {
+    "file": "videos/M02_comparison_v2_roughcut_02.webm",
+    "bytes": 4835114,
+    "sha256": "8A75DB19AA46D6E1A3A734C2E6FD01D0E491296D0A7249A19012D990CDE6B242",
+    "video_width": 720,
+    "video_height": 1280,
+    "duration_seconds_browser_after_playback": 8.449,
+    "audio": false,
+    "captions": false,
+    "format": "WebM MediaRecorder browser canvas technical review output; cue-based seeking is unreliable"
+  },
+  "edit_method": "Same four Grok source clips at normal speed. S02/S03 held tails trimmed; each next muted source starts 0.35s before its direct cut and is already moving when shown. No dissolve, wipe, speed change, music, or caption.",
+  "review": {
+    "normal_speed_replay": true,
+    "sampled_output_times_seconds": [0.0, 2.40, 2.98, 4.55, 5.10, 6.39, 6.97, 8.449],
+    "observed": "The three reviewed cut neighborhoods show moving subjects immediately after each cut, with no black frame or held first frame in the visible samples. Both looks remain readable; S03 is limited to the pre-slip interval.",
+    "limits": "Sampled replay is not proof of every frame, identity continuity, or user editorial approval. This is a silent, caption-free technical preview, not a publication master.",
+    "full_dynamic_qa_passed": false,
+    "user_video_approval": false
+  },
+  "active_production_minutes": null,
+  "generation_wait_minutes": 0,
+  "publication_url": null
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-22",
+  "status": "one_trial_downloaded_sampled_and_used_interval_comparison_ready",
+  "first_frame_asset_id": "b43b2900-fe9c-48f9-9193-fcd2e8d396f7",
+  "asset_ids": [
+    "6236309c-2343-41e6-985c-994239ff744a",
+    "ac9ede4e-1715-4518-95b4-bda341a62061"
+  ],
+  "last_frame_asset_id": null,
+  "keyframes": null,
+  "duration": "6",
+  "resolution_name": "720p",
+  "aspect_ratio": "9:16",
+  "target_not_measured_result": "Brisk uniform alternating footfalls around0.5–0.6s, full person constant scale; no retiming",
+  "prompt": "grok_prompt.txt",
+  "prompt_sha256": "272897dcd99b65b056d5888209a23368b3f3ac9fb58bbfcc643d183a7c737241",
+  "first_still_user_approval": "../../F04_full_start_01/user_still_approval.json",
+  "allowed_generations": 1,
+  "submitted_requests": 1,
+  "automatic_retry": false,
+  "actual_parameter_acceptance": "Grok agent UI reports requested first/identity accepted, no last or keyframes; internal call not directly observed",
+  "source": "cadence_source.mp4",
+  "full_film_modified": false,
+  "UI_evidence": [
+    "submission_dom.txt",
+    "submission.png"
+  ],
+  "next": "Exact native-speed comparison pace feedback before selecting gait master or rebuilding necessary original shots; do not insert unmatched sample into five-look film.",
+  "source_asset_id": "192cccdc-1496-4803-95c2-99f6f38a64ac",
+  "source_sha256": "9707b42d230466ef2c2088a926ec45745d546d717c0fa9756d1b8e52ac0ab21d",
+  "source_bytes": 6449465,
+  "actual_fps": 24,
+  "actual_pixel_dimensions": [
+    720,
+    1280
+  ],
+  "decoded_source_frames": 145,
+  "derived_source_duration_seconds": 6.041666666666667,
+  "actual_audio": "AAC; silent stream-copy derivative preserved",
+  "downloaded_via_UI_media_to": "C:/Users/Brandon_ChangChien/Downloads/generated_video (62).mp4",
+  "source_review": "source_visual_review.json",
+  "comparison": "QA_2026-10-22/original_used_left_trial_right_native_4p5s.mp4",
+  "completion_evidence": [
+    "completion_dom.txt",
+    "completion_loaded.png",
+    "browser_playback_observation.json"
+  ]
+}

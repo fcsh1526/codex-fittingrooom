@@ -1,0 +1,26 @@
+{
+  "trial_id": "M02_paired_D_v1",
+  "context": "Direct reply to two displayed candidates and approval question",
+  "assets": [
+    {
+      "asset_id": "L01_proof",
+      "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/paired_scene_v1/2026-W37-001-L01_M02_reel_proof_candidate_v1.png",
+      "sha256": "6c3c36d53e894f4be8aa1de1f7eef70749f15e0e906421d26bb838c74bed18bf",
+      "approval": "approved",
+      "approval_date": "2026-10-05",
+      "user_reply": "ok",
+      "scope": "exact displayed still only"
+    },
+    {
+      "asset_id": "L02_full",
+      "candidate_file": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/paired_scene_v1/2026-W37-001-L02_M02_reel_full_master_candidate_v1.png",
+      "sha256": "48a85af156bfadf00afdc217a4e13fbb51750540a638290f2108bd1cc0b36b0a",
+      "approval": "approved",
+      "approval_date": "2026-10-05",
+      "user_reply": "ok",
+      "scope": "exact displayed still only"
+    }
+  ],
+  "dynamic_qa": "not_started",
+  "final_film_approval": "not_requested"
+}

@@ -1,0 +1,30 @@
+{
+  "shot_id": "A_scale_push_v4",
+  "look_id": "2026-W37-001-L01",
+  "date": "2026-09-24",
+  "storyboard": "storyboard_scale_continuity_v4.md",
+  "source_still": "10_automation/runs/2026-W37/generated_images/2026-W37-001/looks/2026-W37-001-L01/reel/2026-W37-001-L01_M02_S01_comparison_v2_start_candidate.png",
+  "source_still_user_approval": "approved_by_user_ok_2026-09-22",
+  "identity_reference_ui_name": "Mira M02 v3",
+  "source_still_ui_role": "First frame",
+  "prompt_file": "prompts/A_scale_push_v4_motion_v1.md",
+  "grok_post_url": "https://grok.com/imagine/post/88e08f15-9ec6-47ae-a17f-2adbad7c62a6?conversation=60bd2ef6-e671-4f15-8f7c-00211b5618c5",
+  "requested_settings": {"mode": "video", "resolution": "720p", "duration": "6s", "aspect_ratio": "9:16", "audio": "unverified"},
+  "generation_attempt": 1,
+  "generation_state": "downloaded_review_candidate",
+  "video_file": "10_automation/runs/2026-W37/reels/pilot_M02/videos/A_scale_push_v4_01.mp4",
+  "sha256": "BC0A98E9801E387F52DB42A10E3F1C82A6B4AE6F668415B9B373E287EF0C9CFD",
+  "actual_width": 720,
+  "actual_height": 1280,
+  "actual_duration_seconds": 6.041667,
+  "actual_frame_rate": 24,
+  "actual_audio_stream": "aac_stereo_present",
+  "qa_contact_sheet": "qa/v4_A/contact_0p5s.jpg",
+  "qa": "sampled_frames_and_full_decode_passed; selected_0_to_2p5_seconds_for_v4_review; user_full_speed_visual_review_pending",
+  "qa_notes": [
+    "The 0.5-second contact sheet shows a continuous progression from full person toward medium framing with no obvious face or wardrobe switch in the sampled frames.",
+    "A frame near 2.5 seconds closely matches B's first-frame face and shoulder scale; the later A frames would be too close for this outfit cut.",
+    "The downloaded file contains an AAC stream; it was removed from the silent review cut."
+  ],
+  "user_video_approval": "pending"
+}

@@ -1,0 +1,22 @@
+{
+  "all_output_frames_compared_to_intended_native_composite": 585,
+  "mean_absolute_RGB_error_0_to_255": 1.865898934591643,
+  "worst_frame_mean_absolute_RGB_error": 2.4798527922453704,
+  "minimum_frame_PSNR_dB": 37.42497076961568,
+  "codec_tolerance": {
+    "worst_frame_MAE_max": 3.0,
+    "minimum_frame_PSNR_dB_min": 32.0
+  },
+  "within_codec_tolerance": true,
+  "byte_identical_or_pixel_identical_claim": false,
+  "protected_prefix_pure_frames": {
+    "frames_compared": 313,
+    "output_half_open": [
+      0,
+      313
+    ],
+    "mean_absolute_RGB_error": 1.8487491194644132,
+    "worst_frame_mean_absolute_RGB_error": 2.4798527922453704,
+    "minimum_frame_PSNR_dB": 37.42497076961568
+  }
+}

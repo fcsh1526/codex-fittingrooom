@@ -1,0 +1,39 @@
+{
+  "status": "prepared_before_generation",
+  "prompt_sha256": "e4004087cc2e268dc776886f1cc533c1b655c8634e913f5093df26e01f5bb1df",
+  "path_base": "inputs relative to project root",
+  "tool": "built_in_image_gen",
+  "format_intent": "native9:16",
+  "new_still_visual_approval_required": true,
+  "inputs": [
+    {
+      "sha256": "99aadb4495132c29d816b51e6bd17238b827b9975746802cadb96d37cabce987",
+      "role": "approved F02 start: exact identity, wardrobe, proportions and photographic continuity",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/F02/F02_M03_L05_start_candidate_A.png"
+    },
+    {
+      "sha256": "33192568eb30aef6fccf160a93bed33136a6fa906056baaad500f0b040170c40",
+      "role": "approved shared short-colonnade and adjacent-plaza topology, materials only",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/production_bridge_2026-10-19/environment/E00_shared_scene_candidate_A.png"
+    },
+    {
+      "sha256": "d1043286c9fa8f4f72934fbfe5a66e7a9d1d155c56b23008b1b35abc5fd18789",
+      "role": "accepted colonnade-to-plaza relation only; not figure size/wardrobe",
+      "path": "03_research/series_pilots_2026-10-15/commute_week_v1/static_key_views_2026-10-16/K2_view.png"
+    },
+    {
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "role": "approved M03 v3 face/hair identity only",
+      "path": "02_brand/reference_models/M03_start_v3_face.png"
+    },
+    {
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "role": "approved M03 v3 proportions only",
+      "path": "02_brand/reference_models/M03_start_v3_full.png"
+    }
+  ],
+  "prompt": "F02_end_prompt.txt",
+  "recorded_date": "2026-10-19",
+  "grok_calls": 0,
+  "asset_id": "F02_end"
+}

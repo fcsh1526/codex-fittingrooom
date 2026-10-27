@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "canvas_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "submission_count": 1,
+  "mode": "left agent composer; one still only; video explicitly prohibited until approval",
+  "selected_input_labels": [
+    "M02_start_v3_face.png",
+    "2026-W41-003-L02_M02_reel_candidate_A_v3.png",
+    "approved canvas A six-second video"
+  ],
+  "reference_role_authority": "prompt roles only; agent actual tool call not yet verified",
+  "failed_picker_attempts": "upload toolbox actions twice landed on audio panel and rejected image files; no successful new reference upload claimed; existing image assets selected instead",
+  "prompt_file": "B_agent_image_prompt_v1.txt",
+  "output": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L02/reel/foreground_transition_2026-10-14/2026-W41-003-L02_M02_reveal_candidate_v1.jpg",
+  "user_visual_approval": null,
+  "video_submissions_for_B": 0,
+  "sha256": "39e68524e585f1c2fb06a4f5d2c913a6864eab8c86a931bf32070d947d943d89",
+  "native_pixels": [
+    1008,
+    1792
+  ],
+  "status": "one_targeted_wall_material_correction_pending",
+  "visual_findings": [
+    "Face, white pointed-collar short-sleeve shirt, brown denim, black belt, small shoulder bag and complete shoes readable.",
+    "Wall occupies about 30 percent rather than requested 15 percent; does not hide the person.",
+    "Near wall is coarsely mottled stone rather than A fine plaster; one material-only correction requested."
+  ],
+  "agent_claimed_keyframe_support": {
+    "tool_name": "imagine_reference_to_video",
+    "first": "first_frame_asset_id",
+    "last": "last_frame_asset_id",
+    "identity": "asset_ids plus @asset_id in prompt",
+    "verified_by_execution": false
+  },
+  "additional_agent_correction_submissions": 1
+}

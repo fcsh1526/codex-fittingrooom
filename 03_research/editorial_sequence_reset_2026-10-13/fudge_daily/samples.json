@@ -1,0 +1,1202 @@
+{
+  "source_url": "https://www.instagram.com/fudge_magazine/reel/DdavjIjThdp/",
+  "method": "Full page browser screenshots during muted autoplay; bracketed DOM time before/after; not original-video frame analysis or audio review.",
+  "samples": [
+    {
+      "index": 0,
+      "file": "sample_000.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 21.028302
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 21.121544
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "file": "sample_001.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 21.969613
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 22.05475
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "file": "sample_002.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 22.888099
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 23.034661
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "file": "sample_003.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 23.863897
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 23.935669
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "file": "sample_004.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 24.779479
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 24.855115
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "file": "sample_005.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 25.702275
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 25.782038
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "file": "sample_006.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 26.616286
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 26.691223
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "file": "sample_007.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 27.533319
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 27.645339
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "file": "sample_008.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 28.491185
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 28.556885
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "file": "sample_009.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 29.405599
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 29.523828
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "file": "sample_010.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 30.365921
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 30.441266
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "file": "sample_011.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 31.360408
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 31.441867
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "file": "sample_012.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 32.277139
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 32.350868
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "file": "sample_013.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 33.192575
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 33.32134
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "file": "sample_014.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 34.150363
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 34.240755
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "file": "sample_015.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 35.13105
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 35.201891
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "file": "sample_016.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 36.043419
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 36.115161
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "file": "sample_017.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 36.941606
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 37.091073
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "file": "sample_018.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 37.917249
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 38.006955
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "file": "sample_019.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 38.883496
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 38.956086
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "file": "sample_020.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 39.790991
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 39.867762
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "file": "sample_021.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 40.773728
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 40.870093
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "file": "sample_022.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 41.702191
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 41.79373
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "file": "sample_023.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 42.674066
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 42.757107
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "file": "sample_024.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 0.594905
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 0.67641
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "file": "sample_025.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 1.574936
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 1.657618
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "file": "sample_026.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 2.488793
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 2.559416
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "file": "sample_027.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 3.404644
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 3.553736
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "file": "sample_028.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 4.381777
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 4.458915
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "file": "sample_029.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 5.361007
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 5.410359
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "file": "sample_030.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 6.258807
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 6.326302
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "file": "sample_031.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 7.228028
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 7.303913
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "file": "sample_032.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 8.14938
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 8.233298
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "file": "sample_033.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 9.067907
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 9.206258
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "file": "sample_034.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 10.062482
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 10.134351
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "file": "sample_035.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 11.014324
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 11.089052
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "file": "sample_036.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 11.914555
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 12.006568
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "file": "sample_037.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 12.907972
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 12.961136
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "file": "sample_038.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 13.805998
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 13.881407
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "file": "sample_039.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 14.778515
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 14.851604
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "file": "sample_040.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 15.682812
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 15.761328
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "file": "sample_041.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 16.600912
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 16.713834
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "file": "sample_042.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 17.557983
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 17.632475
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "file": "sample_043.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 18.5225
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 18.597162
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "file": "sample_044.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 19.431135
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 19.506233
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "file": "sample_045.png",
+      "before": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "rect": {
+            "height": 599.6979370117188,
+            "width": 337.3333435058594,
+            "x": 295.8333435058594,
+            "y": 29.45833396911621
+          },
+          "time": 20.387236
+        }
+      ],
+      "after": [
+        {
+          "duration": 42.885804,
+          "muted": true,
+          "paused": false,
+          "time": 20.469221
+        }
+      ]
+    }
+  ]
+}

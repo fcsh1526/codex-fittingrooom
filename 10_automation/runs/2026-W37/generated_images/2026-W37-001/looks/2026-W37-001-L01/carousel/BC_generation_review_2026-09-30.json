@@ -1,0 +1,36 @@
+{
+  "week_id": "2026-W37",
+  "look_id": "2026-W37-001-L01",
+  "surface": "carousel",
+  "session_lock": "2026-W37-001-L01_M02_carousel_candidate_A.png",
+  "session_lock_user_approval": "2026-09-30: 可以，沿用這張",
+  "identity_references": [
+    "02_brand/reference_models/M02_start_v3_face.png",
+    "02_brand/reference_models/M02_start_v3_full.png"
+  ],
+  "tool": "built-in image_gen",
+  "B_scene_application": {
+    "file": "2026-W37-001-L01_M02_carousel_candidate_B.png",
+    "dimensions": "1792x878",
+    "source_ratio": 2.041,
+    "target_ratio": 2.0357,
+    "center_crop_fraction_estimate": 0.0026,
+    "sha256": "FEE0AD4D3254EA695019A336370A4FC0874FA20820A2A7B4ABC7BC03F403582B",
+    "prompt_intent": "Wide window-side library reading nook, same M02 low bun and complete mist-gray shirt over cream dress, plain book and small navy shoulder bag.",
+    "assistant_review": "Face, open shirt, dress, bag and natural library light look close to user-approved A; near-exact wide slot ratio.",
+    "status": "candidate_pending_user_visual_approval"
+  },
+  "C_accessory_detail": {
+    "file": "2026-W37-001-L01_M02_carousel_candidate_C.png",
+    "dimensions": "1092x1440",
+    "source_ratio": 0.7583,
+    "target_ratio": 0.8741,
+    "center_crop_fraction_estimate": 0.1324,
+    "sha256": "20285C1278CF701AF2058D82BC2B3A418EA6D7DC4753D98FDD3BEE5BD5F3A091",
+    "prompt_intent": "Close open-shirt, dress-strap and navy-bag detail in the same library; keep shoulder straps and waist seam visible.",
+    "assistant_review": "One targeted edit restored the two thin cream spaghetti straps missing in C v1. Navy bag and rolled shirt sleeves remain clear. Planned center crop is within 15% and should remove the partial mouth at the upper edge; inspect exact output after approval.",
+    "status": "candidate_pending_user_visual_approval",
+    "discarded_iteration": "2026-W37-001-L01_M02_carousel_candidate_C_v1.png: apparent strapless dress; rejected for wardrobe-construction drift."
+  },
+  "next_gate": "Ask user for B/C visual approval, then normalize all three approved sources to exact v3-B Canva pixels and inspect crops."
+}

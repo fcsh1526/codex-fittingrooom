@@ -1,0 +1,43 @@
+{
+  "reel_id": "2026-W37-M04-reel",
+  "look_id": "2026-W37-003-L01",
+  "trial_id": "M04_A_L01_upload_trial_01",
+  "date": "2026-09-30",
+  "status": "technical_decode_complete_sampled_visual_review_continuous_qa_pending",
+  "source_post_url": "https://grok.com/imagine/post/3e7564af-3149-4773-a1de-f080a38b3f5b?conversation=b7a6dff7-527f-40e2-a8e8-6034b92b5a89",
+  "observed_page": "Grok Imagine page displayed the approved M04 L01 navy-jacket/ivory-dress image as Thumbnail 1 and a six-second video as Thumbnail 2. Thus the user uploaded to a Grok Imagine post, not to a different website or account surface.",
+  "input_still": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L01/reel/2026-W37-003-L01_M04_S01_storyboard_v1_start_candidate.png",
+  "input_role": "Image 1 visible in the Grok post; whether it was assigned to First frame rather than general Reference is not yet verified",
+  "identity_reference": "Unknown; no saved M04 character selection was visible in the post snapshot",
+  "submitted_prompt": "Unknown; the prepared prompt at reels/prompts/M04_A_L01_motion_v1.md was not submitted by the assistant",
+  "video": {
+    "output_path": "10_automation/runs/2026-W37/reels/videos/M04_A_L01_upload_trial_01.mp4",
+    "sha256": "C953306FCD2CB9F98379FF722A152C1D80EAB22F58D376330F6F0E6E79E69803",
+    "duration_seconds": 6.041667,
+    "resolution": "720x1264",
+    "browser_video_src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/3e7564af-3149-4773-a1de-f080a38b3f5b/generated_video.mp4?cache=1"
+  },
+  "qa": {
+    "browser_preview": "Initial and mid-clip browser screenshots showed a near-frontal M04-like face, deep-navy jacket and ivory dress in the arts-center setting; this is insufficient to certify face identity, garment stability, shoes, background or normal-speed full-watch quality.",
+    "dynamic_acceptance": false,
+    "usable_seconds": null,
+    "continuous_watch_done": false,
+    "user_visual_approval": null,
+    "decode_scan": "reels/qa/M04_A_L01_upload_trial_01/decode_scan.json",
+    "sample_sheet": "reels/qa/M04_A_L01_upload_trial_01/checkpoints.jpg",
+    "decoded_frames": 145,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "sampled_visual_review": "Nine checkpoints from 0 to 6s inspected. Face and navy jacket/ivory dress show no obvious sampled jump; left window and right shelves retain coherent scene layout. Shoes leave frame as she approaches; ordinary perspective movement must still be assessed in continuous playback.",
+    "provisional_cut_time_seconds": 3.75,
+    "aspect_ratio_note": "720x1264 source, not exact 9:16. Do not stretch; final export framing still unresolved.",
+    "audio_note": "AAC stream present; remove generated audio from clean assembly.",
+    "selected_interval_approval": {
+      "start_frame": 0,
+      "end_frame_exclusive": 90,
+      "approval": "可以，沿用這版",
+      "date": "2026-10-01",
+      "source": "User accepted assembled eight-second preview; whole source outside selected interval remains unapproved."
+    }
+  }
+}

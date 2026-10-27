@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-02",
+  "records": [
+    {
+      "shot": "A2_v1",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_A2_shoe_motion_v1.mp4",
+      "sha256": "f03406020e0b6ffb08ddd36fda0adf439f95ed7a5328799be841c9c0331c05a5",
+      "bytes": 2452347,
+      "source_post_url": "https://grok.com/imagine/post/1615d6b4-6b2f-40cc-8166-263924a868b8?conversation=a533913a-7f52-4ed1-a448-ce5c330c370f",
+      "prompt_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/A2_prompt_v1.md",
+      "input_role": "Existing approved full image exact450x800 proof crop as single First frame; no Last frame or separate saved character reference",
+      "ui": {
+        "duration": "6s",
+        "resolution": "720p observed for first upload; actual video metadata authoritative",
+        "audio": "off confirmed before intended submission; extra B2_v1 not independently confirmed",
+        "model": "not named in visible UI"
+      },
+      "notes": "Late lift/cross-foot ghosting; selected only frames0-41. Original motion not fully compliant with planted-feet prompt."
+    },
+    {
+      "shot": "B2_v1",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_B2_shoe_motion_v1.mp4",
+      "sha256": "daa6df198276cc096d2e58dc79775a3bb1296258997b613a6462193db3cb40cc",
+      "bytes": 1444774,
+      "source_post_url": "https://grok.com/imagine/post/fa273314-975e-4721-85ea-fa835ea52353?conversation=8d5478ac-712a-4ed0-9f4a-df87b23497b5",
+      "prompt_path": null,
+      "input_role": "Existing approved full image exact450x800 proof crop as single First frame; no Last frame or separate saved character reference",
+      "ui": {
+        "duration": "6s",
+        "resolution": "720p observed for first upload; actual video metadata authoritative",
+        "audio": "off confirmed before intended submission; extra B2_v1 not independently confirmed",
+        "model": "not named in visible UI"
+      },
+      "notes": "Extra observed candidate retained; prompt/settings not independently confirmed; not selected."
+    },
+    {
+      "shot": "B2_v2",
+      "path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/M01_B2_shoe_motion_v2.mp4",
+      "sha256": "d345d02d23e1d90e9594e2cf8e51013c133a1938c60f9fbe314ef7aac1bedf0d",
+      "bytes": 1386959,
+      "source_post_url": "https://grok.com/imagine/post/e1064167-79da-43f7-9d95-536e606bd6a9?conversation=8d5478ac-712a-4ed0-9f4a-df87b23497b5",
+      "prompt_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/B2_prompt_v1.md",
+      "input_role": "Existing approved full image exact450x800 proof crop as single First frame; no Last frame or separate saved character reference",
+      "ui": {
+        "duration": "6s",
+        "resolution": "720p observed for first upload; actual video metadata authoritative",
+        "audio": "off confirmed before intended submission; extra B2_v1 not independently confirmed",
+        "model": "not named in visible UI"
+      },
+      "notes": "Selected frames6-83, sampled fixed shoes and skirt motion; user visual review pending."
+    },
+    {
+      "shot": "A2_v2_attempt",
+      "prompt_path": "03_research/ig_styling_edit_study_2026-10-02/round2/M01_D_structure_trial/A2_prompt_v2.md",
+      "source_post_url": "https://grok.com/imagine/post/e2bf6060-1dc0-46bc-9cb1-071e0d6ad21e?conversation=a533913a-7f52-4ed1-a448-ce5c330c370f",
+      "status": "submission_observed_1_percent_but_no_retrievable_saved_output",
+      "output_path": null,
+      "reason": "Two later visits redirected to old A2v1; cause unknown; no further submission."
+    }
+  ],
+  "download_method": "Bound visible #sd-video downloadMedia after download-button event timeout",
+  "ui_issue": "AX click timeout during B2 setup; subsequent state inspection showed two video candidates; exact extra trigger not determined.",
+  "page_evidence": "qa/B2_generation_complete.jpg",
+  "active_minutes": null,
+  "generation_wait_minutes": null
+}

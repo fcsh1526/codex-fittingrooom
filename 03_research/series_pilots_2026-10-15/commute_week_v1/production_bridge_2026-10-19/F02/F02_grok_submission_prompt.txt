@@ -1,0 +1,16 @@
+本輪只生成F02一個獨立6秒、720p、原生9:16影片，放在目前Mira專用畫布。不生成新圖、不重試、不換裝、不合片、不改動舊圖舊片。首尾兩張剛經使用者逐一核准。
+
+先實際查看並核對下列UUID內容，對不上或不能同時指定First frame、Last frame及身份參照，就停止回報，不默默改單張生成：
+First frame ONLY = 20c59fdd-4d3b-460c-8d0c-8b81be7b257f，白短袖尖領襯衫／可可棕丹寧／黑皮帶／黑低跟鞋／黑小肩包，前側三分面向右跨步，上方方梁、右側花台樹幹；這張是上一段可用末端的0.75秒交疊起點，不是公司門口。
+Last frame ONLY = 85c20ca9-3c40-4c61-b747-1e9cf8b08178，同一M03、同套衣服與相近尺度，最後一根米色方柱留在身後左側，右側接開放小廣場。
+M03 face identity ONLY = 6236309c-2343-41e6-985c-994239ff744a。
+M03 full normal body proportions ONLY = ac9ede4e-1715-4518-95b4-bda341a62061。
+臉與比例圖不能帶入其衣服或站姿；不使用舊F01西外原片的長拱廊後半，或其他選取殘留當來源。
+
+One uninterrupted six-second real-time commuting shot between the exact approved first and last frames. The same woman continues walking purposefully toward image-right throughout, with natural grounded alternating steps, about10–12 ordinary footfalls over six seconds, relaxed shoulders and responsive cloth and bag movement. Keep the exact white short-sleeve pointed-collar shirt tucked into cocoa-brown straight denim with its approved subtle texture, narrow black belt, plain black low-heel shoes and small black shoulder bag. Keep her face, hairstyle and ordinary proportions recognizable. Arms continue the existing natural carrying/walking gesture, without a new hand-clothing task.
+
+Use one continuous level chest-height50mm side-tracking camera movement at her walking speed. During the first0.75seconds, advance only a little along the existing planter and square columns, with a small continuation from front-three-quarter toward side profile; do not reveal the exit immediately. Then continue near-side tracking without further orbit toward her back. Keep the complete head-to-shoe outfit readable and approximately the starting subject size throughout, not a zoom or a stationary walking loop.
+
+Move past this SHORT rectangular beige colonnade to its final column. The nearby columns, planter and tree pass gradually toward image-left with physically coherent parallax; the modest gray-paved plaza opens to the right on the same side of the street. Reach the exact approved last-frame geometry at the end while she is still walking. There is no turn into the depth of a corridor. Do not add more column bays, arches or an endless arcade. Existing paving lines and architectural edges remain rigid; retain coherent daylight and contact shadows. Do not visit the road, crossing or company entrance in this segment.
+
+No slow motion, speed ramp, freeze, pose-stop, internal cut, dissolve, outfit morph, added person, text or logo. Audio off if actually supported; if this mode still generates AAC, preserve and report it for local silent review. Generate once only. Report the exact first/last/face/full asset IDs, resulting video asset ID, real duration, pixels and audio. Keep requested motion separate from actual sampled observations; do not declare the transition or whole route passed.

@@ -1,0 +1,133 @@
+{
+  "status": "technical_decode_complete_visual_review_pending",
+  "experiment": "full_person_and_synchronized_detail",
+  "output": "03_research/reel_presentation_study_2026-10-12/full_and_detail/M03_full_and_detail_trial_v1.mp4",
+  "sha256": "8792407d4103d3c24c3a1a4051e21ce895cd0f11b9a0f25b4a81f14cc384801b",
+  "scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\reel_presentation_study_2026-10-12\\full_and_detail\\M03_full_and_detail_trial_v1.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 11.25
+    },
+    "decoded_frames": 270,
+    "decoded_seconds": 11.25,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [
+      [
+        1,
+        2
+      ]
+    ],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "source_path": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+  "source_sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+  "composition": {
+    "date": "2026-10-12",
+    "content_week": "2026-W41",
+    "experiment": "full_person_and_synchronized_detail",
+    "model": "M03",
+    "look_ids": [
+      "2026-W41-004-L01",
+      "2026-W41-004-L02"
+    ],
+    "visual_theme": "同時看整套比例與西外袖口／圓領內搭；親近日常的雜誌雙畫面",
+    "audience_question": "西裝外套搭棉T時，內搭與袖口如何露出？",
+    "source": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+    "source_sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+    "variable_changed": "spatial presentation only; original accepted film timing/action/transition unchanged",
+    "main": {
+      "fixed_crop_xywh": [
+        144,
+        72,
+        432,
+        1136
+      ],
+      "destination_xy": [
+        16,
+        72
+      ],
+      "scale": 1,
+      "purpose": "continuous full-person reading; head/hair/shoes retained"
+    },
+    "detail": {
+      "fixed_crop_xywh": [
+        220,
+        330,
+        320,
+        520
+      ],
+      "destination_xy": [
+        464,
+        340
+      ],
+      "destination_wh": [
+        240,
+        390
+      ],
+      "purpose": "synchronized collar/waist/sleeve evidence; no portrait-size shot switch"
+    },
+    "timeline": [
+      {
+        "frames": [
+          0,
+          126
+        ],
+        "look": "L01",
+        "content": "米白西外／白棉T／深藍褲；原生整理袖口"
+      },
+      {
+        "frames": [
+          126,
+          144
+        ],
+        "content": "原片0.75秒疊化，雙區一起換裝"
+      },
+      {
+        "frames": [
+          144,
+          270
+        ],
+        "look": "L02",
+        "content": "深藍西外／淺灰棉T／奶油白褲；原生整理袖口"
+      }
+    ],
+    "background": "#eee9e1",
+    "text": "none",
+    "audio": "none",
+    "new_generation": false,
+    "detail_provenance": "diagnostic crop of accepted moving full-person source; not a newly generated native proof asset",
+    "new_still_needed": false,
+    "review_requirements": [
+      "hair/head/shoes/hand/bag boundaries throughout main panel",
+      "shirt collar/waist/cuff readability in detail",
+      "face and wardrobe residuals during original dissolve",
+      "phone-size full-body readability vs attention divided between panels"
+    ],
+    "status": "planned_before_assembly",
+    "user_trial_approval": null,
+    "continuous_playback_done": false,
+    "production_and_drive_preserved": true
+  },
+  "source_action_and_speed": "unchanged",
+  "source_time_mapping": "output frame n uses original accepted film frame n in both panels",
+  "cropped_detail_not_native_proof": true,
+  "new_generation": false,
+  "assistant_continuous_playback": false,
+  "user_trial_approval": null,
+  "protected_five_films_sha256_match": true,
+  "drive_write": false,
+  "instagram_posted": false
+}

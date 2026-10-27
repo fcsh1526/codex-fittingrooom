@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-16",
+  "user_answer_received_local_date": "2026-10-16",
+  "event_at": null,
+  "timezone": "Asia/Taipei",
+  "timestamp_limit": "Received local date provided by operating root; exact event time not recorded.",
+  "shot_id": "R01",
+  "model_id": "M03",
+  "look_id": "ED-W42-COMMUTE-V1-L01",
+  "status": "accepted_exact_single_shot_direction",
+  "acceptance_level": "partial_direction_acceptance",
+  "question": "請播放這支新的4秒單鏡：完整穿搭→走近→從鏡頭右側經過。這種畫面推進是否更接近你要的俐落都會感？這次只判斷單鏡，不代表五套影片或換裝接點已定案。",
+  "user_quote": "更接近，可以往這個方向做",
+  "file": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_walk_past_4s_review_v2.mp4",
+  "sha256": "27fa4c9fcce685aaa247aa0f9dfb12fa4b311a26d56d81635c6254a8679be348",
+  "pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "frames": 96,
+  "seconds": 4,
+  "source": {
+    "file": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/R01_source.mp4",
+    "sha256": "4bf0bdb9f4d547827fd36001da3c359eadcd2b7a2c053761b454effdc0ee4981",
+    "frames": 145,
+    "seconds": 6.041666666666667,
+    "selected_frames_half_open": [
+      48,
+      144
+    ],
+    "selected_seconds_half_open": [
+      2,
+      6
+    ]
+  },
+  "edit_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/selected_4s_edit_receipt.json",
+  "generation_and_review_receipt": "03_research/series_pilots_2026-10-15/commute_week_v1/reference_reset_2026-10-16/generation_and_review_receipt.json",
+  "scope": "Exact4second single-shot full-outfit-to-near rightward pass is closer to the desired decisive urban feeling, and this framing-progression direction may be developed. This is partial direction acceptance, not evidence that the entire advertising-appeal target has been achieved, not a five-look-film or outfit-switch/join approval, not a new editing-category adoption.",
+  "retained_deviations": [
+    "Source remains centred full-person for approximately first2.5seconds before growth/rightward pass.",
+    "Precise requested camera stop at1.5seconds was not established; acceptance does not rewrite this as achieved.",
+    "Existing sampled source/crowd/narrow-walk risks and assistant continuous-playback limits remain unchanged."
+  ],
+  "baked_text": false,
+  "audio": false,
+  "native_speed": true,
+  "crop": false,
+  "scale": false,
+  "internal_joins": 0,
+  "normal_speed_full_playback_user_self_report": null,
+  "assistant_continuous_playback": false,
+  "single_shot_direction_accepted": true,
+  "complete_advertising_target_achieved": null,
+  "complete_five_look_film_approval": null,
+  "outfit_switch_join_approval": null,
+  "account_wide_adoption": null,
+  "IG_performance": null,
+  "new_edit_type_adopted": false,
+  "transition_preference_0_75seconds_preserved": true,
+  "next_authorized_scope": "Plan a connected second-look source and test its approximately0.75second join; future media/plans/joins are not marked completed or approved. Any new still requires its own exact user visual approval before animation.",
+  "publishable": false,
+  "publishing_files_replaced": []
+}

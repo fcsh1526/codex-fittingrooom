@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-08",
+  "execution_environment": "user_local_in_app_browser",
+  "source_sha256": "ee829f278e30de0a0e0db1d8aa8bc11d258c50a8475044d5320e1cdae07673c8",
+  "source": "matched_B_attempt_01/source.mp4",
+  "actual": {"size": [720, 1280], "fps": 24, "decoded_frames": 145, "seconds": 6.041667, "audio_streams": 0},
+  "reviewed": {"full_checkpoints": 25, "head_checkpoints": 5, "consecutive_lower_body_frames_half_open": [0, 145]},
+  "source_status": "useful_motion_limited_sampled_pass_with_accessory_deviation",
+  "observations": [
+    "Whole-person approach is visible after the early standstill; library landmarks remain broadly fixed in reviewed images.",
+    "Face, principal shirt/dress, grey bag and strap and unlaced cream shoes remain broadly stable in sampled views.",
+    "Actual movement exceeds the requested two steps and ends with a shallow side turn and more bag occlusion.",
+    "Later visible silver earring is more complex than the small stud in the starting still; exact accessory lock is not established."
+  ],
+  "native_join_trials": [
+    {"qa_folder": "qa/join_review_oct07/new_B_A96_oct08", "A_interval": [0,96], "B_overlap": [0,18], "result": "rejected", "reason": "double facial features and separate legs/shoes during overlap", "independent_review": true},
+    {"qa_folder": "qa/join_review_oct07/new_B_A102_oct08", "A_interval": [0,102], "B_overlap": [0,18], "result": "rejected", "reason": "double facial features, hands and legs/shoes persist", "independent_review": true},
+    {"qa_folder": "qa/join_review_oct07/new_B18_A102_oct08", "A_interval": [0,102], "B_overlap": [18,36], "result": "rejected", "reason": "cutting B standstill increases sideways facial separation in the central blend", "independent_review": false}
+  ],
+  "assistant_continuous_review": false,
+  "user_video_approval": null,
+  "new_composite_created": false,
+  "publishable": false,
+  "decision": "Preserve useful source and all failed join evidence; distance experiment has no accepted new two-look composite. Execute separately planned front-edge gesture diagnostic locally next.",
+  "first_wave_modified": false,
+  "cloud_packet_modified": false,
+  "cloud_task_messaged": false,
+  "drive_write": false,
+  "publication": false
+}

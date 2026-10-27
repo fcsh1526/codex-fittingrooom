@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-24",
+  "shot": "S04",
+  "look_id": "2026-W37-001-L02",
+  "status": "user_visual_approved_for_motion_test",
+  "selected_file": "generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S04_comparison_v2_start_candidate.png",
+  "selected_sha256": "EEC97051F4D9C5670664B33C8D97D681BB04B7767ED8B754D87ABD1B1A5B9B77",
+  "actual_pixels": [941, 1672],
+  "requested_aspect_ratio": "9:16",
+  "source_output": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-bb16f678-80d5-44b9-8d93-2928e7b456db.png",
+  "prompt_file": "prompts/S04_comparison_v2_start.md",
+  "reference_files": [
+    "02_brand/reference_models/M02_start_v3_face.png",
+    "02_brand/reference_models/M02_start_v3_full.png",
+    "generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_S03_comparison_v2_start_candidate.png",
+    "generated_images/2026-W37-001/looks/2026-W37-001-L02/reel/2026-W37-001-L02_M02_reel_candidate_A.png"
+  ],
+  "visual_review": "Full hair, calf-length dress, both off-white shoes and gray tote are visible in direct 9:16 composition. Near-frontal face, both pale-blue shirt shoulders, square navy neckline and left-window workshop light appear consistent with S03. The advancing shoe and free hand provide a short-step start. Dynamic suitability and user visual approval remain pending.",
+  "user_still_approval": true,
+  "user_still_approval_record": "2026-09-24: user replied ok to the displayed S04 candidate",
+  "video_generated": true,
+  "video_record": "S04_comparison_v2_motion_01.json"
+}

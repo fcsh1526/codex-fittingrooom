@@ -1,0 +1,19 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "approved_exact_midpoint_still",
+  "asset": "F04_M03_L02_midpoint_crosswalk90_v2.png",
+  "sha256": "25606eaac1e1bbd7f8e53873de07d2a2b99c87ace88924f1917cd94dae55175b",
+  "pixels": [941, 1672],
+  "question": "這張修正版已把白條改成由畫面下緣朝遠處延伸、左右並列，人物與其餘場景保留。斑馬線方向是否正確？依你在 AGENTS.md 設定的新圖視覺核准流程，確認這張後才會核對首尾方向、準備影片。",
+  "user_answer": "方向正確，沿用修正版",
+  "scope": "Exact midpoint image/crosswalk direction accepted; proceed with first-mid-last orientation audit and necessary versioned endpoint corrections. Not a video or first/end change approval.",
+  "three_view_audit": {
+    "first": "Keep exact approved F04 start for now; only small white/asphalt corners visible, insufficient stripe long-axis information to prove direction. No silent correction of accepted source.",
+    "end": "Existing approved clear-pavement endv3 lower-left white stripes retain old direction, incompatible with accepted midpoint at a similar rear-quarter view. Correct only endpoint crossing paint using midpoint as ground-direction reference, then obtain new still approval.",
+    "accepted_prefix": "Original F03f126 shows a right-edge white trace and f144 has2-3 clearer stripes. Preserve accepted three-shot media; cannot claim no crossing information. New F04 opening0.75s must retain visible road-paint cues and change only perspective through camera motion, not rotate/morph paint on the ground.",
+    "independent_review": "f04_crossing_continuity_plan agrees minimal first-retain/end-edit; full spatial/temporal compatibility not established."
+  },
+  "dynamic_QA": null,
+  "new_Grok_request": false,
+  "originals_and_Drive_preserved": true
+}

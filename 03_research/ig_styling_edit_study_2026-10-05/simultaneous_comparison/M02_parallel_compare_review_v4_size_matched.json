@@ -1,0 +1,229 @@
+{
+  "status": "accepted_research_clean_picture_track",
+  "model_id": "M02",
+  "output_path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+  "output_sha256": "a383ea81ef1eb8e4b27993954aafe11376b80183bfc4634242370a7e0bdf9499",
+  "actual_seconds": 6.0,
+  "frames": 144,
+  "fps": 24,
+  "output_size": [
+    720,
+    1280
+  ],
+  "sources": [
+    {
+      "look_id": "2026-W37-001-L01",
+      "source_path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/grok_A_attempt_01/source.mp4",
+      "source_sha256": "c59aa1653194a2a390fb085884d889f56e21f67bfb3c7bf139b37403ec10fe56",
+      "native_size": [
+        720,
+        1280
+      ],
+      "start_frame": 0,
+      "end_frame_exclusive": 144,
+      "native_fps": 24,
+      "speed": "unchanged",
+      "fixed_crop": [
+        132,
+        0,
+        488,
+        1280
+      ],
+      "fixed_proportional_contain": true,
+      "source_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-05\\simultaneous_comparison\\grok_A_attempt_01\\source.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "decoded_seconds": 6.041666666666667,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/qa/source_A/checkpoints.jpg",
+      "sampled_qa": "Root5 plus independent25 checkpoints reviewed; actual short steps, weight/size change and bag motion recorded; no continuous pass inferred.",
+      "continuous_qa": "not_claimed",
+      "fixed_panel_position": [
+        4,
+        176
+      ],
+      "proportional_scale": 0.7213114754098361,
+      "post_scale_background_crop": [
+        0,
+        0,
+        352,
+        924
+      ],
+      "shared_visible_panel_bounds": [
+        4,
+        176,
+        352,
+        924
+      ],
+      "temporal_selection_unchanged": true,
+      "animated_crop_or_zoom": false
+    },
+    {
+      "look_id": "2026-W37-001-L02",
+      "source_path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/grok_B_attempt_01/source.mp4",
+      "source_sha256": "5d06f07631fef2dcc695af2101dfb42aad7fe75b5b6bd440e075c302a46fd654",
+      "native_size": [
+        720,
+        1280
+      ],
+      "start_frame": 0,
+      "end_frame_exclusive": 144,
+      "native_fps": 24,
+      "speed": "unchanged",
+      "fixed_crop": [
+        145,
+        0,
+        470,
+        1280
+      ],
+      "fixed_proportional_contain": true,
+      "source_scan": {
+        "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-05\\simultaneous_comparison\\grok_B_attempt_01\\source.mp4",
+        "metadata": {
+          "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+          "codec": "h264",
+          "pix_fmt": "yuv420p(tv, bt709, progressive)",
+          "fps": 24.0,
+          "source_size": [
+            720,
+            1280
+          ],
+          "size": [
+            720,
+            1280
+          ],
+          "rotate": 0,
+          "duration": 6.04
+        },
+        "decoded_frames": 145,
+        "decoded_seconds": 6.041666666666667,
+        "black_candidate_frames": [],
+        "near_identical_frame_pairs": [],
+        "note": "Technical signals only. Continuous visual review and user approval remain separate."
+      },
+      "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/qa/source_B/checkpoints.jpg",
+      "sampled_qa": "Root5 plus independent25 checkpoints reviewed; actual short steps, weight/size change and bag motion recorded; no continuous pass inferred.",
+      "continuous_qa": "not_claimed",
+      "fixed_panel_position": [
+        4,
+        176
+      ],
+      "proportional_scale": 0.7489361702127659,
+      "post_scale_background_crop": [
+        0,
+        15,
+        352,
+        924
+      ],
+      "shared_visible_panel_bounds": [
+        4,
+        176,
+        352,
+        924
+      ],
+      "temporal_selection_unchanged": true,
+      "animated_crop_or_zoom": false
+    }
+  ],
+  "composition": "same identity, two weekly looks simultaneously in separate panels",
+  "character_actions": "native generated actions unchanged in editing",
+  "synchronization": "common playback start only; gestures are not forced into phase",
+  "transitions": [],
+  "transition_rule": "No interior shot/outfit switches; any later switch must use approximately0.75s dissolve and be reviewed.",
+  "baked_text": "none",
+  "audio": "none",
+  "no_freeze_reverse_retime": true,
+  "checkpoint_board": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/qa/output_v4/checkpoints.jpg",
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\ig_styling_edit_study_2026-10-05\\simultaneous_comparison\\M02_parallel_compare_review_v4_size_matched.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709/unknown/unknown, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 6.0
+    },
+    "decoded_frames": 144,
+    "decoded_seconds": 6.0,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "assistant_sampled_visual_review": "Root and independent reviewer inspected5 combined checkpoints after constant scale/position correction, plus B critical tote position. Complete head/shoes/hem/hands/bags remain visible at inspected points. Most later head/sole positions close; opening residual recorded. No normal-speed continuous playback pass or exact per-frame size match claimed.",
+  "assistant_continuous_review": false,
+  "user_video_approval": {
+    "decision": "accepted_clean_picture_track",
+    "user_reply": "ok",
+    "recorded_at_local": "2026-10-05T16:07:59.248285+08:00",
+    "context": "Direct reply to the complete six-second v4 size-corrected video preview, followed by continue.",
+    "output_path": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/M02_parallel_compare_review_v4_size_matched.mp4",
+    "output_sha256": "a383ea81ef1eb8e4b27993954aafe11376b80183bfc4634242370a7e0bdf9499",
+    "scope": "This exact research picture cut, including the displayed size correction; no detailed rationale or full-watch self-report inferred.",
+    "assistant_continuous_review_claimed": false,
+    "account_wide_style_adoption": false,
+    "first_wave_replacement_authorized": false,
+    "cloud_upload_performed": false,
+    "publication_performed": false,
+    "audience_performance": null
+  },
+  "cloud_upload": false,
+  "publication": false,
+  "audience_performance": null,
+  "protected_first_wave_local_hashes_match": true,
+  "publishable": false,
+  "independent_source_reviews": [
+    "qa/A_independent/visual_review.json",
+    "qa/B_independent/visual_review.json"
+  ],
+  "correction": {
+    "user_feedback": "左右人物大小有點不一致",
+    "relative_A_scale_to_B": 0.9631147540983607,
+    "A_reduction_percent": 3.688524590163933,
+    "method": "Constant proportional scaling via wider A source window. Common352x924 image panels at y176; B trims15px top/19px bottom of scaled ambient background, retaining the same subject position as B y161 without trim. No tracking, retime, pose edit or body deformation.",
+    "limitation": "Opening A is slightly smaller/lower after fixed correction because A moves forward; later sampled head/shoe positions match more closely. Not exact per-frame normalization."
+  },
+  "scale_review_evidence": "qa/scale_review/manual_scale_estimates.json",
+  "original_timing_verified": {
+    "native_fps": 24,
+    "A_frame_range": [
+      0,
+      144
+    ],
+    "B_frame_range": [
+      0,
+      144
+    ],
+    "output_frames": 144,
+    "output_seconds": 6,
+    "source_hashes_unchanged": true,
+    "no_freeze_reverse_repeat_retime": true
+  }
+}

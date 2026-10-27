@@ -1,0 +1,12 @@
+{
+  "recorded_date": "2026-10-19",
+  "user_reply": "有",
+  "question_context": "這次先看：人物轉彎時，鏡頭是否自然接續，並一路跟到同一公司入口。",
+  "file": "accepted_keys_five_outfits_animatic.mp4",
+  "sha256": "b10d8df45560165aec160a45588677a45dd24ac198aeb9f0f64212c8ebcb07a0",
+  "status": "route_and_camera_continuation_direction_accepted",
+  "scope": "Accept the illustrated turning/continued-camera/one-company route direction and advance to shared-environment and missing-start-frame preparation.",
+  "not_established": ["explicit full normal-speed playback self-report", "complete outfit presentation acceptance", "photoreal still approval", "Grok continuous-scene feasibility", "final production-film acceptance", "account-wide format adoption or audience success", "posting or replacement"],
+  "full_playback_self_report": null,
+  "new_still_visual_approval_retained": true
+}

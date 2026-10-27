@@ -1,0 +1,43 @@
+{
+  "record_date_local": "2026-10-20",
+  "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F03\\F03_source.mp4",
+  "source_sha256": "26087d5c7f4fd7dd8153b9c0c5a70fcdeea0429c0e8def12dc672632a9b499d5",
+  "accepted_three_shot_sha256": "f36b079261d6ba43bc1bf17f9504b4a1424efc393c24e5d53d9f4075165eaa33",
+  "outgoing_source_frames_half_open": [
+    127,
+    145
+  ],
+  "accepted_composite_outgoing_frames_half_open": [
+    313,
+    331
+  ],
+  "dissolve_frames": 18,
+  "fps": 24,
+  "seconds": 0.75,
+  "assets": [
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F03_actual_frame_000127.png",
+      "frame": 127,
+      "seconds": 5.291666666666667,
+      "size": [
+        720,
+        1280
+      ],
+      "sha256": "002a3794f27fd69449fe18b73da509cd0d99336e6e7464376682aa8e892d7fae",
+      "role": "overlap_start_edit_target"
+    },
+    {
+      "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\03_research\\series_pilots_2026-10-15\\commute_week_v1\\production_bridge_2026-10-19\\F04\\F03_actual_frame_000144.png",
+      "frame": 144,
+      "seconds": 6.0,
+      "size": [
+        720,
+        1280
+      ],
+      "sha256": "c6fd85979ec086d3863d7b0123ace28a5bd66451eb1b0c80d93ecb8d97492ac9",
+      "role": "overlap_end_direction_reference_only"
+    }
+  ],
+  "generated_stills": false,
+  "failed_retry_used": false
+}

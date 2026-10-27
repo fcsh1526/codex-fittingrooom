@@ -1,0 +1,58 @@
+{
+  "look_id": "2026-W36-004-L02",
+  "design_id": "DAHUlnM9lQc",
+  "transaction_id": "7601465489573441366",
+  "status": "committed_exact_frame",
+  "edit_url": "https://www.canva.com/d/xgOFVHd2FfB7QET",
+  "pages": [
+    {
+      "page_id": "PBH0W52WPN6tdDhr",
+      "page_number": 1,
+      "dimension": {
+        "width": 3240,
+        "height": 1350
+      },
+      "is_responsive": false,
+      "is_empty": false,
+      "is_editable": true
+    }
+  ],
+  "assets": {
+    "A": "MAHUljJwPrA",
+    "B": "MAHUlrkasr8",
+    "C": "MAHUluJxrPo"
+  },
+  "operations": [
+    {
+      "type": "update_title",
+      "title": "Mira W36-004-L02｜奶油白與酒紅緞光"
+    },
+    {
+      "type": "replace_text",
+      "element_id": "PBH0W52WPN6tdDhr-LB5hWffmvLB1f95y",
+      "text": "奶油白之下，酒紅緞光流動"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBH0W52WPN6tdDhr-LBly7B8SRQCHnnxF",
+      "asset_id": "MAHUljJwPrA",
+      "alt_text": "奶油白針織與酒紅緞裙全身",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBH0W52WPN6tdDhr-LBRtGM3vzhrlNXpW",
+      "asset_id": "MAHUlrkasr8",
+      "alt_text": "藝文空間坐姿場景",
+      "asset_type": "image"
+    },
+    {
+      "type": "update_fill",
+      "element_id": "PBH0W52WPN6tdDhr-LBRvB9j0scjc1tfY",
+      "asset_id": "MAHUluJxrPo",
+      "alt_text": "針織緞裙與肩背包細節",
+      "asset_type": "image"
+    }
+  ],
+  "preview_file": "C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/10_automation/runs/2026-W36/generated_images/2026-W36-004/looks/2026-W36-004-L02/carousel/canva_ready/004-L02_canva_draft_preview.png"
+}

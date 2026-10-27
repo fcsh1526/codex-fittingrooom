@@ -1,0 +1,17 @@
+{
+  "look_id": "2026-W36-004-L02",
+  "design_id": "DAHUlnM9lQc",
+  "transaction_id": "7601465489573441366",
+  "status": "committed_exact_frame",
+  "review": "canva_frame_approved",
+  "production_status": "ready_for_manual_export",
+  "approved_on": "2026-09-08",
+  "edit_url": "https://www.canva.com/d/xgOFVHd2FfB7QET",
+  "copy": "奶油白之下，酒紅緞光流動",
+  "result": {
+    "transaction": {
+      "id": "7601465489573441366",
+      "status": "committed"
+    }
+  }
+}

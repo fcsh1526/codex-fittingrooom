@@ -1,0 +1,45 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "new_intermediate_still_pending_exact_user_visual_approval",
+  "purpose": "Lock the intermediate crossing composition before another motion attempt after two F04 scene failures; not a competing outfit Hero or proof that video geometry is solved.",
+  "mode": "built-in image_gen precise-object-edit",
+  "calls": 1,
+  "edits_after_candidate": 0,
+  "tool_wait_ms": 50574,
+  "active_work_minutes": null,
+  "inputs": {
+    "edit_target": "../scene_correction_01/source_inspection_v1/frames/frame_000072.png",
+    "target_role": "Pose, person, stride, native composition and existing left planting only; new silver column/bollards/yellow strip are failed scene details to remove.",
+    "company_landing_reference": "../scene_correction_01/F04_M03_L02_end_scene_correction_v3.png",
+    "company_landing_reference_sha256": "fe97ba462401f7df3ef286a348853b65f54c51703980b402174c0a59ed605139",
+    "layout_reference_only": "../../environment/E00_shared_scene_candidate_A.png",
+    "identity_manifest_check": "M03 approvedv3 face/full pair exists; no v4 use"
+  },
+  "prompt": "midpoint_background_prompt.txt",
+  "output": {
+    "path": "F04_M03_L02_midpoint_scene_candidate_A.png",
+    "sha256": "6d273cf277773416ce10dd7a9a0d9c27f8358378c18275e629b8ed1cb193387f",
+    "pixels": [941, 1672],
+    "default_tool_file": "C:/Users/Brandon_ChangChien/.codex/generated_images/01a0a39c-4727-7593-ac24-1a8727f9ff61/exec-386d9ea8-963d-4e35-9cfe-a35c75c775d0.png"
+  },
+  "visual_review": {
+    "round_column_removed": true,
+    "short_bollards_and_yellow_strip_removed": true,
+    "foreground_crossing_and_curbs_readable": true,
+    "original_left_planter_retained_without_long_extension": true,
+    "person_outfit_stride_and_shoulder_bag_held_visually": true,
+    "pixel_identity_or_measured_3D_claimed": false,
+    "independent_review": "Continuity agent compared first/mid/newend: fixtures removed, no obvious person/outfit/stride/curb/crossing displacement; eligible for exact still review. Existing left-rear planter topology is inferred, do not label it near-side. Static review does not establish motion continuity.",
+    "user_approval": null
+  },
+  "future_motion_plan": {
+    "same_model_look_route": "M03 L02 mid-crossing toward same company-side landing",
+    "three_still_purpose": "Check static landmark continuation first; intermediate guide is not a supported hard-timed third keyframe.",
+    "duration_probe_result": "Grok agent reports first+last+references duration only6/10s, not3s. Two native3s plan cancelled; no forced two6s slow walks or retiming.",
+    "next_after_still_approval": "Confirm extra scene/layout reference can coexist with first+last+face/full, then use the existing6s shot budget for one bounded reference-control experiment; do not silently replace approved endpoint or claim hard midpoint timing.",
+    "additional_motion_requests_so_far": 0
+  },
+  "new_four_shot_film": null,
+  "F05": "hold",
+  "Drive_and_old_media_preserved": true
+}

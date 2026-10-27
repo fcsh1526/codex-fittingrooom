@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-12",
+  "content_week": "2026-W41",
+  "experiment": "full_person_and_synchronized_detail",
+  "model": "M03",
+  "look_ids": [
+    "2026-W41-004-L01",
+    "2026-W41-004-L02"
+  ],
+  "visual_theme": "同時看整套比例與西外袖口／圓領內搭；親近日常的雜誌雙畫面",
+  "audience_question": "西裝外套搭棉T時，內搭與袖口如何露出？",
+  "source": "10_automation/runs/2026-W41/reels/M03/review_v1/2026-W41_M03_two_looks_soft_v1.mp4",
+  "source_sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596",
+  "variable_changed": "spatial presentation only; original accepted film timing/action/transition unchanged",
+  "main": {
+    "fixed_crop_xywh": [
+      160,
+      96,
+      440,
+      1132
+    ],
+    "destination_xy": [
+      12,
+      140
+    ],
+    "destination_wh": [
+      388,
+      998
+    ],
+    "scale": 0.8818181818181818,
+    "purpose": "full person continuously visible with background-only crop and proportional reduction"
+  },
+  "detail": {
+    "fixed_crop_xywh": [
+      244,
+      330,
+      268,
+      480
+    ],
+    "destination_xy": [
+      408,
+      348
+    ],
+    "destination_wh": [
+      300,
+      538
+    ],
+    "purpose": "collar/cuffs/waist visible together at about27% larger garment scale than main; diagnostic source enlargement 12% remains to check"
+  },
+  "timeline": [
+    {
+      "frames": [
+        0,
+        126
+      ],
+      "look": "L01",
+      "content": "米白西外／白棉T／深藍褲；原生整理袖口"
+    },
+    {
+      "frames": [
+        126,
+        144
+      ],
+      "content": "原片0.75秒疊化，雙區一起換裝"
+    },
+    {
+      "frames": [
+        144,
+        270
+      ],
+      "look": "L02",
+      "content": "深藍西外／淺灰棉T／奶油白褲；原生整理袖口"
+    }
+  ],
+  "background": "#eee9e1",
+  "text": "none",
+  "audio": "none",
+  "new_generation": false,
+  "detail_provenance": "diagnostic crop of accepted moving full-person source; not a newly generated native proof asset",
+  "new_still_needed": false,
+  "review_requirements": [
+    "hair/head/shoes/hand/bag boundaries throughout main panel",
+    "shirt collar/waist/cuff readability in detail",
+    "face and wardrobe residuals during original dissolve",
+    "phone-size full-body readability vs attention divided between panels"
+  ],
+  "status": "planned_before_assembly",
+  "user_trial_approval": null,
+  "continuous_playback_done": false,
+  "production_and_drive_preserved": true,
+  "version": "v2",
+  "parent": "v1 preserved; detail occupied smaller garment pixels than main and did not add useful magnification"
+}

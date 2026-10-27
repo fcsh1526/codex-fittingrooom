@@ -1,0 +1,47 @@
+{
+  "date_taipei": "2026-10-20",
+  "status": "eligible_for_one_bounded_motion_diagnostic_only",
+  "first": {
+    "file": "../../F04_M03_L02_start_candidate_A.png",
+    "sha256": "98687eb8365828d67850ddc03d57e48d9d28ad4628f9f62c727bcb166e002457",
+    "canvas_asset": "e008f6b5-efe9-40b4-be75-615af1be766c",
+    "previous_exact_user_approval": true
+  },
+  "middle": {
+    "file": "../photographic_midpoint_01/F04_M03_L02_mid_camera_no_planter_v3.png",
+    "sha256": "0a4fe3eb96bf2473cb441844e770ec1ed391718eceb997bcf38b50a886b5b22f",
+    "canvas_asset": "a327fc83-6f91-4c9f-ab66-2e3e79c4ba19",
+    "exact_user_approval": "../photographic_midpoint_01/user_still_approval_2026-10-20.json",
+    "new_upload_contents_visually_checked": true
+  },
+  "last": {
+    "file": "../photographic_endpoint_01/F04_M03_L02_end_camera_correction_v2.png",
+    "sha256": "e3117eef0d3854bb279d2070a08378b9eefacbabeae0889c057cbcf75e52e8e9",
+    "canvas_asset": "f000b887-f606-426c-90ec-4e3dbe5396d6",
+    "exact_user_approval": "../photographic_endpoint_01/user_still_approval_2026-10-20.json",
+    "new_upload_contents_visually_checked": true
+  },
+  "independent_review": {
+    "hard_impossible_static_conflict_proven": false,
+    "same_direction_outfit_and_bag_shoulder": true,
+    "plausible_not_proven": [
+      "Original planting can exit through camera orbit/parallax.",
+      "Glass can move from background to right-side plane and then fill the near rear-side view.",
+      "Six straight middle bars can leave the view until the final lower-left remnant."
+    ],
+    "largest_risk": "Actual start person about71% frame height versus new middle/end about44%; requires smooth physical camera retreat, unlike schematic55/42/40 progression.",
+    "unknowns": "Distant frontage, left wall, window/mullion details have not been rebuilt as one validated world. Static acceptance is not a spatial or dynamic pass."
+  },
+  "settings_requested": {"duration":"6","resolution_name":"720p","aspect_ratio":"9:16","middle_timestamp_s":3},
+  "maximum_generation_calls_this_diagnostic": 1,
+  "no_silent_mode_or_reference_fallback": true,
+  "stop_and_no_append_if": [
+    "Paint bends, branches, creates Y junctions or adds a new stripe group.",
+    "Curb swaps sides or a second road appears.",
+    "Planting, facade or person scale jumps/morphs instead of continuous parallax.",
+    "Bag switches shoulder or feet slide/teleport conspicuously."
+  ],
+  "no_retime_crop_or_dissolve_to_hide_failure": true,
+  "accepted_three_shot_prefix_preserved": true,
+  "F05_and_publishing_untouched": true
+}

@@ -1,0 +1,30 @@
+{
+  "look_id": "2026-W37-003-L02",
+  "model_profile_id": "M04",
+  "date": "2026-10-01",
+  "status": "user_visual_approved_for_motion_2026-10-01",
+  "provider": "built_in_imagegen",
+  "source_path": "10_automation/runs/2026-W37/generated_images/2026-W37-003/looks/2026-W37-003-L02/reel/2026-W37-003-L02_M04_S03_medium_start_candidate_v1.png",
+  "pixels": [
+    941,
+    1672
+  ],
+  "sha256": "572b4fa251fe3d3c8fd2197b7be0c684f3c02aadcb3e9b6d0aa42111d9a5bf02",
+  "prompt_path": "10_automation/runs/2026-W37/reels/prompts/M04_B_L02_medium_start_v1.md",
+  "references": [
+    "approved L02 full still (exact wardrobe and scene)",
+    "02_brand/reference_models/M04_start_v3_face.png (identity)",
+    "02_brand/reference_models/M04_start_v3_full.png (identity/proportion)",
+    "reels/qa/M04_A_L01_upload_trial_01/checkpoint_5_3.750s.png (framing only)"
+  ],
+  "assistant_still_review": {
+    "framing": "Native vertical head-to-knees; eyes near 13% height; face and shoulder scale close to A 3.75s sample; exact moving cut still requires validation.",
+    "wardrobe": "Ivory sleeveless standing collar, concealed placket, tucked navy waistband and straight satin skirt remain visible; black shoulder bag and silver studs present.",
+    "scene": "Left daylight, pale wall, wooden displays preserved in scene logic; not certified geometrically compatible as Last frame with separate full still.",
+    "identity": "No obvious departure from approved L02 still; user confirmation pending.",
+    "text": "none"
+  },
+  "user_visual_approval": "可以，沿用這張",
+  "grok_submitted": false,
+  "planned_motion": "One short smooth camera retreat; ordinary weight shift; no independently generated Last frame."
+}

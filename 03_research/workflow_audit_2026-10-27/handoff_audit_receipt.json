@@ -1,0 +1,9 @@
+{
+  "audit_date": "2026-10-27",
+  "last_approved_decision_date": "2026-10-22",
+  "prior_handoff_snapshot": "10_automation\\history\\MIRA_EDITORIAL_HANDOFF_before_2026-10-27.md",
+  "prior_bytes_preserved": true,
+  "prior_sha256": "df25f01743b2230a1c37d25a16a457747539a1c187828a424b4543f783f9a7bd",
+  "current_handoff_sha256": "6b006f584bcd1292bfed32fcf2a82775b519851607dcebf2c65770d25a7e53b8",
+  "new_media_or_external_sync": false
+}

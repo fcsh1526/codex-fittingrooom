@@ -1,0 +1,76 @@
+{
+  "reel_id": "2026-W37-M03-reel",
+  "date": "2026-10-01",
+  "scope": "L01 full/detail transition experiment only",
+  "status": "user_reviewed_positive_comparing_longer_transition",
+  "output_path": "10_automation/runs/2026-W37/reels/videos/M03_L01_full_detail_review_v3_soft_05s_01.mp4",
+  "sha256": "5a9c91fa9aed99b4efea5f92a65a52e674c67c912b728849bee52bc4815a16bb",
+  "duration_seconds": 3.75,
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "text": "none",
+  "audio": "none",
+  "speed": "same exact source intervals as v2, unchanged timing; user explicitly requests no action changes",
+  "transition": {
+    "type": "cross dissolve",
+    "start_seconds": 1.75,
+    "end_seconds": 2.25,
+    "duration_seconds": 0.5,
+    "frame_intervals": 12,
+    "zoom_blur_morph": "none"
+  },
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A1_L01_motion_v1_01.mp4",
+      "start_frame": 18,
+      "end_frame_exclusive": 72
+    },
+    {
+      "path": "10_automation/runs/2026-W37/reels/videos/M03_A2_L01_motion_v1_01.mp4",
+      "start_frame": 6,
+      "end_frame_exclusive": 55
+    }
+  ],
+  "baseline": "10_automation/runs/2026-W37/reels/videos/M03_L01_full_detail_review_v2_soft_01.mp4",
+  "technical_scan": {
+    "source": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W37\\reels\\videos\\M03_L01_full_detail_review_v3_soft_05s_01.mp4",
+    "metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(tv, bt709, progressive)",
+      "fps": 24.0,
+      "source_size": [
+        720,
+        1280
+      ],
+      "size": [
+        720,
+        1280
+      ],
+      "rotate": 0,
+      "duration": 3.75
+    },
+    "decoded_frames": 90,
+    "decoded_seconds": 3.75,
+    "black_candidate_frames": [],
+    "near_identical_frame_pairs": [],
+    "note": "Technical signals only. Continuous visual review and user approval remain separate."
+  },
+  "qa": {
+    "continuous_watch_done": false,
+    "user_approval": null,
+    "visual_sample_review": "Start, ending and all overlap-frame intervals inspected. Full shot retains hair and shoes; detail remains faceless. The longer dissolve visibly overlaps two scales briefly. No claim of continuous playback or user comfort acceptance.",
+    "open_issues": [
+      "Longer overlap may soften the change but increase visible double-scale ghosting; user comfort review pending."
+    ],
+    "user_feedback": "好多了，0.75秒呢"
+  },
+  "user_feedback": "0.25s improved but still flashes; user requests longer transition and explicitly says character action needs no change.",
+  "time": {
+    "active_minutes": null,
+    "generation_wait_minutes": 0
+  }
+}

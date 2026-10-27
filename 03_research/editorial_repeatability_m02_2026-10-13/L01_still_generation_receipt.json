@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-13",
+  "status": "L01_seated_v3_user_approved",
+  "week": "2026-W41",
+  "model": "M02",
+  "look_id": "2026-W41-003-L01",
+  "tool_mode": "built_in_image_gen",
+  "new_image_calls": 3,
+  "new_motion_submitted": 1,
+  "calls": [
+    {
+      "version": 1,
+      "intent": "generate_derivative",
+      "reference_roles": [
+        "M02 v3 face identity",
+        "M02 v3 full identity/proportions only",
+        "approved L01 full wardrobe hair scene"
+      ],
+      "start": "2026-10-13T08:11:57.861Z",
+      "end": "2026-10-13T08:12:47.283Z",
+      "review": "Face/pose/layering/scene broadly suitable; unnatural all-over crackle denim texture; do not send to Grok.",
+      "sha256": "f9c8257fd2a1da463a144b9a66ce6446cac715a118b1d944dab221ec8b33d26a"
+    },
+    {
+      "version": 2,
+      "intent": "single_target_denim_edit",
+      "start": "2026-10-13T08:13:31.532Z",
+      "end": "2026-10-13T08:14:15.54Z",
+      "review": "Targeted edit did not remove fine branching denim marks. Not selected.",
+      "sha256": "656192165c75a18bb0c4636d933c0fe576f5c054808920b04256e82059daffc2"
+    },
+    {
+      "version": 3,
+      "intent": "replanned_clean_generate",
+      "reference_roles": [
+        "M02 v3 face identity",
+        "M02 v3 full identity/proportions only"
+      ],
+      "start": "2026-10-13T08:14:47.11Z",
+      "end": "2026-10-13T08:15:24.328Z",
+      "review": "Exact native still viewed: recognizable M02 low-bun face, full head/knees, clear cream tee/ivory open zip short jacket/belt/brown denim waist. Hands on thighs; no gross hand anomaly. Denim branching pattern substantially reduced to subdued fabric grain. Bag shape and size changed from small flap bag to larger plain rectangular bag; zipper/hem placement and cafe door/interior geometry are not exact matched continuations. New user gate must disclose bag and exact new composition; new joins and dynamic stability unverified.",
+      "sha256": "ede84d8fd163be4963ae85ac6a3bd207161e332748ba8f81052365b738876473"
+    }
+  ],
+  "selected_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-003/looks/2026-W41-003-L01/reel/daily_coffee_v1/2026-W41-003-L01_M02_seated_candidate_v3.png",
+  "static_user_approval": "03_research/editorial_repeatability_m02_2026-10-13/L01_seated_user_approval.json",
+  "timing": {
+    "active_minutes": null,
+    "user_approval_wait_minutes": null,
+    "explanation": "Request/return timestamps recorded separately per call; durations include tool orchestration, not established pure GPU generation or complete active production time."
+  },
+  "limits": "Three calls for one still exceed the initial one-call-per-proof target. Existing full-image pixels versus written wardrobe changes were not a controlled causal test. No claim of production efficiency, seamless matching, dynamic QA, complete proof pair or final film acceptance. Existing publishing files untouched.",
+  "storyboard": "03_research/editorial_repeatability_m02_2026-10-13/STORYBOARD.md",
+  "native_pixel_dimensions": [
+    941,
+    1672
+  ]
+}

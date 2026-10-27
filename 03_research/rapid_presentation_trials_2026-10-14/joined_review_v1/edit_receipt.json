@@ -1,0 +1,57 @@
+{
+  "model": "M04",
+  "look_ids": [
+    "2026-W41-005-L01",
+    "2026-W41-005-L02"
+  ],
+  "sources": [
+    {
+      "path": "03_research/rapid_presentation_trials_2026-10-14/A_motion_attempt_01/source.mp4",
+      "sha256": "84c518d07284ea81bbea02f37ff99be3f340d9294d4f909b61aecaf942a19f69"
+    },
+    {
+      "path": "03_research/rapid_presentation_trials_2026-10-14/B_motion_attempt_01/source.mp4",
+      "sha256": "94d5c1405c1550a859e5fa998f1d7fc02a097fb07f98e960bdcba286f952c843"
+    }
+  ],
+  "intervals_seconds": [
+    [
+      0,
+      7.5
+    ],
+    [
+      1.25,
+      10.041666667
+    ]
+  ],
+  "join_seconds": [
+    6.75,
+    7.5
+  ],
+  "join_duration": 0.75,
+  "speed": "1x, no reverse/freeze/duplicate",
+  "output": "03_research/rapid_presentation_trials_2026-10-14/joined_review_v1/M04_blue_bag_viewing_route_v1.mp4",
+  "sha256": "f401145ed2de8add9505d34d175d638e73bfe6ab48c3de06dde10728cbd3e2a0",
+  "audio": false,
+  "text": false,
+  "framing": "Proportional cover and center crop; no stretch",
+  "visual_review": "25 whole-film samples and25 consecutive join frames159–183 viewed. Source faces/outfits/bag broadly retained. Join has visible vertical/scale offset and double outlines, not a seamless bag match. User comfort remains pending.",
+  "assistant_continuous_playback": false,
+  "user_approval": null,
+  "publishing_replacement": false,
+  "actual_output": {
+    "pixels": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "decoded_frames": 372,
+    "seconds": 15.5,
+    "audio": false
+  },
+  "readable_full_outfit_seconds": {
+    "A": "approximately0–6; no occlusion",
+    "B": "source approximately2.5–10.04, output approximately8–15.5",
+    "method": "visual sample estimate, not measured eye-tracking or retention"
+  }
+}

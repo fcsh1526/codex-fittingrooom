@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-21",
+  "status": "ready_for_user_research_viewing_pending_visual_acceptance",
+  "preview": "v1/review.mp4",
+  "sha256": "be262d6771141eeda11d2671cc5c1a87b7a03d869aacf60c117e5d5bc8b38b03",
+  "bytes": 23181973,
+  "frames": 712,
+  "fps": 24,
+  "duration_seconds": 29.666666666666668,
+  "size": [720,1280],
+  "audio": false,
+  "burned_text": false,
+  "retime_or_crop": false,
+  "new_dissolve": {"seconds": 0.75, "frames": 18, "output_frames_inclusive": [567,584], "time_start_seconds": 23.625, "time_end_seconds": 24.375},
+  "viewed_by_root": ["v1/QA/join_1_dense.png", "v1/QA/full_25_checkpoints.png", "../motion_01/QA_2026-10-21/checkpoints_25.jpg", "../motion_01/QA_2026-10-21/dense_late_background.jpg", "../motion_01/QA_2026-10-21/overlap_phase_pairs.jpg"],
+  "findings": [
+    "Five outfits appear in intended order along a visually related commute route",
+    "New same-scale change has visible face/hair/arm double edges, most pronounced around frames 572-580; not seamless",
+    "F05 progressively pulls back to readable whole skirt/blue bag/shoes and ends outside company doorway",
+    "Earlier accepted local joins are carried forward, not newly claimed faultless",
+    "No new sampled defect requires automatic regeneration before user viewing"
+  ],
+  "technical_receipt": "v1/edit_receipt.json",
+  "technical_summary": {"complete_decode": "pass", "intended_composite_all_712_frames": "pass within codec tolerance", "mean_rgb_error_255": 1.724, "worst_frame_mae_255": 2.488, "minimum_psnr_db": 37.424, "protected_source_hashes_unchanged": true},
+  "continuous_normal_speed_visual_playback_confirmed": false,
+  "user_dynamic_acceptance": null,
+  "publishing_pass": false,
+  "external_mutations": false
+}

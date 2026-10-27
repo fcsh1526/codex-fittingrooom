@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-13",
+  "status": "A1_v2_user_approved",
+  "format": "午休的小出走",
+  "model": "M03",
+  "look_id": "2026-W41-004-L01",
+  "shot": "A1",
+  "user_direction": "ok after proposed walk→same-look seated→other-look seated→departure storyboard",
+  "storyboard": "03_research/editorial_sequence_reset_2026-10-13/storyboard_candidate.json",
+  "identity_references": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d",
+      "registry_status": "approved"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890",
+      "registry_status": "approved"
+    }
+  ],
+  "approved_wardrobe_source": {
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/2026-W41-004-L01_M03_reel_candidate_A_v2.png",
+    "sha256": "5e2027ae6cadcdec0e54eb88daf21929af3c5e3f20b4c0a6f6c18221a76d575f",
+    "approval_date": "2026-10-08",
+    "user_quote": "兩張都可以，沿用",
+    "role": "Exact wardrobe/hair/shoe/bag reference only; its original static pose is not copied."
+  },
+  "generation_count": 2,
+  "targeted_edits": 1,
+  "edit_reason": "v1 walks toward viewer and adds bag-strap grip; correct subject walking-start pose only.",
+  "candidates": [
+    {
+      "version": "v1",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v1.png",
+      "sha256": "6da57569b651bd12419d6ee300163a3949de5a5539333859aad3aefedf892b20",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-a6a18f18-92f0-4a96-aa97-de7f451dc637.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/A1_prompt_v1.txt",
+      "tool": "built-in image_gen",
+      "framing_transform": "none",
+      "status": "superseded_pose_deviation",
+      "user_approval": null
+    },
+    {
+      "version": "v2",
+      "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v2.png",
+      "sha256": "f8df74a64224495272dd1b85159c2af0d10f86fe383477c29266c052036c0990",
+      "native_pixels": [
+        941,
+        1672
+      ],
+      "original_generated_name": "exec-bb082e31-a11e-4eae-a999-7746b63d289b.png",
+      "prompt": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/A1_pose_correction_v2.txt",
+      "tool": "built-in image_gen",
+      "framing_transform": "none",
+      "status": "user_visual_approved",
+      "user_approval": {
+        "date": "2026-10-13",
+        "user_quote": "可以，沿用修正版",
+        "question_context": "Explicit reply identifying second displayed M03 L01 walk-start v2 for lunch-outing A1.",
+        "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v2.png",
+        "sha256": "f8df74a64224495272dd1b85159c2af0d10f86fe383477c29266c052036c0990",
+        "scope": "Only this exact still as A1 source and L01 outfit/scene lock. No approval of A2, motion or whole film."
+      }
+    }
+  ],
+  "selected_candidate": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v2.png",
+  "assistant_static_review": {
+    "identity": "Recognizable approved M03 face/long wavy hair; near-frontal readable face. Actual likeness subject to user visual approval.",
+    "outfit": "Open cream blazer, white crew tee tucked into navy straight trousers, cuff fold, small dark-brown shoulder bag, black low-heel shoes and silver studs readable. Fabric texture is visible; not proof of actual textile performance.",
+    "framing": "Native9:16-like canvas941x1672; whole head and both shoes present, no crop/rescale applied. Subject near middle rather than planned just-left center; usable clear floor remains on image-right.",
+    "pose": "v2 toes/stride now diagonal toward image-right and both arms relaxed, no strap grip. Body remains fairly frontal, helpful for identity/lapel visibility. Feet appear grounded in still; real foot contact and natural walking require dynamic QA.",
+    "scene": "Lunch-shop window and wooden bench on image-left, warm-gray wall, floor and clear rightward path; shared natural daylight/contact shadows. A2 must derive from this actual image, not from a separately invented bench scene.",
+    "limitations": "A1 only; no seated candidate, motion, transition or whole-film approval. No certification of exact prompt angle/position. New scene geometry must be reviewed before using paired start/end keys."
+  },
+  "user_visual_approval": {
+    "date": "2026-10-13",
+    "user_quote": "可以，沿用修正版",
+    "question_context": "Explicit reply identifying second displayed M03 L01 walk-start v2 for lunch-outing A1.",
+    "file": "10_automation/runs/2026-W41/generated_images/2026-W41-004/looks/2026-W41-004-L01/reel/lunch_outing_v1/M03_L01_A1_walk_start_candidate_v2.png",
+    "sha256": "f8df74a64224495272dd1b85159c2af0d10f86fe383477c29266c052036c0990",
+    "scope": "Only this exact still as A1 source and L01 outfit/scene lock. No approval of A2, motion or whole film."
+  },
+  "grok_uploaded": true,
+  "video_generated": true,
+  "a2_generated": false,
+  "active_minutes": null,
+  "generation_wait_minutes": null,
+  "protected_w41_delivery": [
+    {
+      "model": "M01",
+      "unchanged": true,
+      "sha256": "936b8794070eeb32c411bb38f5ea1b902eb6f7aad4f2d86c0366c56f441a3839"
+    },
+    {
+      "model": "M02",
+      "unchanged": true,
+      "sha256": "d33dac1868d9e78faf63556fb7df6bf647252e255b8ff940920c63af0cb82b24"
+    },
+    {
+      "model": "M03",
+      "unchanged": true,
+      "sha256": "50cc8d825229d8456b9d54d34b00c041625e313c18b37cec3691a9e5bbfaf596"
+    },
+    {
+      "model": "M04",
+      "unchanged": true,
+      "sha256": "e413e9ff4639275f2f9bbc5312075c3fc7e970aaa224afa7d0c588939594c7d4"
+    },
+    {
+      "model": "M05",
+      "unchanged": true,
+      "sha256": "a9019e325232a59bef1d2bec09d634a070ec0c9d401d5ac6622c18dec6c3fadd"
+    }
+  ],
+  "formal_full_proof_carousel_complete": false,
+  "motion_generation_count": 1,
+  "browser_receipt": "03_research/editorial_sequence_reset_2026-10-13/A1_motion_attempt_01/browser_receipt.json",
+  "motion_source_sha256": "826dcddb4dca44a604f4b25bbc68cee52d3f2d5e2ead84031dc356edfa1e234d",
+  "user_film_approval": null
+}

@@ -1,0 +1,272 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "首頁":
+  - /url: /
+  - img "首頁"
+- link "Reel":
+  - /url: /reels/
+  - img "Reel"
+- link "訊息":
+  - /url: /direct/inbox/
+  - img "訊息"
+- link "搜尋":
+  - /url: /explore/
+  - img "搜尋"
+- link "通知":
+  - /url: "#"
+  - img "通知"
+- link "新貼文":
+  - /url: "#"
+  - img "新貼文"
+- link "專業主控板":
+  - /url: "#"
+  - img "專業主控板"
+- link "mira.fitroom.ai的大頭貼照":
+  - /url: /mira.fitroom.ai/
+  - link "mira.fitroom.ai的大頭貼照":
+    - img "mira.fitroom.ai的大頭貼照"
+- link "設定":
+  - /url: "#"
+  - img "設定"
+- link "其他 Meta 旗下產品":
+  - /url: "#"
+  - img "其他 Meta 旗下產品"
+- main:
+  - group "Video player":
+    - slider "調整音量":
+      - button "已靜音":
+        - img "已靜音"
+    - button "標籤":
+      - img "標籤"
+  - button "__iamkubo__的大頭貼照":
+    - link "__iamkubo__的大頭貼照":
+      - img "__iamkubo__的大頭貼照"
+  - link "__iamkubo__":
+    - /url: /__iamkubo__/
+    - generic: __iamkubo__
+  - link "demon gummies • is it still raining?":
+    - /url: /reels/audio/897263034177713/
+    - text: demon gummies
+    - generic: •
+    - text: is it still raining?
+  - button "追蹤"
+  - button "更多選項":
+    - img "更多選項"
+  - separator
+  - link "__iamkubo__的大頭貼照":
+    - /url: /__iamkubo__/
+    - img "__iamkubo__的大頭貼照"
+  - link "__iamkubo__":
+    - /url: /__iamkubo__/
+    - generic: __iamkubo__
+  - time: 4天
+  - text: 🩶🖤
+  - text: "\"Which one do you like?\""
+  - text: 入荷を楽しみにしてた
+  - text: ウールロングキャミワンピース☺️
+  - text: 同じチェックシャツとユーティリティパンツで
+  - text: カラー比較コーデにしました🩶🖤
+  - text: どっちのカラーがお好きですか？？
+  - text: ぜひコメントで🩶or🖤教えてくださいね💬
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - link "_.yrlily._的大頭貼照":
+    - /url: /_.yrlily._/
+    - img "_.yrlily._的大頭貼照"
+  - link "_.yrlily._":
+    - /url: /_.yrlily._/
+    - generic: _.yrlily._
+  - link "4天":
+    - /url: /p/DdyQ56qRXGA/c/18104363429213781/
+    - time: 4天
+  - generic: 🖤
+  - button "1 個讚":
+    - generic: 1 個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - link "myusotetu0314的大頭貼照":
+    - /url: /myusotetu0314/
+    - img "myusotetu0314的大頭貼照"
+  - link "myusotetu0314":
+    - /url: /myusotetu0314/
+    - generic: myusotetu0314
+  - link "4天":
+    - /url: /p/DdyQ56qRXGA/c/18119261017790123/
+    - time: 4天
+  - generic: 黒が良いです🙌
+  - button "1 個讚":
+    - generic: 1 個讚
+  - button "回覆":
+    - generic: 回覆
+  - button "翻譯年糕":
+    - generic: 翻譯年糕
+  - button "讚":
+    - img "讚"
+  - button "查看全部1則回覆":
+    - generic: 查看全部1則回覆
+  - button "讚":
+    - img "讚"
+  - button "52"
+  - button "回應":
+    - img "回應"
+  - button "4"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - button "儲存":
+    - button "儲存":
+      - img "儲存"
+  - link "4天前":
+    - /url: /__iamkubo__/reel/DdyQ56qRXGA/
+    - time: 4天前
+  - link
+  - button "表情符號":
+    - img "表情符號"
+  - textbox "留言⋯⋯"
+  - separator
+  - text: 更多「
+  - link "__iamkubo__":
+    - /url: /__iamkubo__/
+  - text: 」的貼文
+  - link "🍂🍂🍂 秋物買いましたか？？ シャツやニットなど今から着れるものから 少し先のアイテム、 またアウターまで出てきて 何を買うか迷いますよね💭💭 とりあえず、 今すぐ着たい(夏から脱出したい)なら、 このマストハブ、チェックしてみてください🔍 コーディネート詳細は プロフィールURLから 公式スタイリングページでみてくださいね (ちなみに、フォローしてくれるとさらに喜びます💓) 質問など、お気軽にコメント欄でもどうぞ💬💕 ✔️Cotton-knit なんといっても、真夏意外着れる 優秀ニット 家で洗えるのも嬉しい！！！ ✔️Blue shirts ベーシックなブルーシャツって、 ずっと好き🩵💙 柔らかい配色のストライプが嬉しい☺️ カジュアルなスタイリングにも きちんと感がでるから大人にちょうどいい💯 ✔️Sweat かぐれの大人気ロングセラースウェットが 今年形が新しくなって登場です^^ 私も今年は買い足し予定❤️‍🔥 ✔️Loose knit 実はサンプルを見た6月 まだ夏も来ていない時期から狙っていた ペルーアルパカルーズニットが ついに入荷しました❣️ 早速チャコールをリアルバイしました✌🏻 ✔️Check shirts ほんのりシアー感あるチェックシャツ ブラックをリアルバイ🐦‍⬛ 腰に巻いたりアレンジしやすい 薄さで、オールシーズン使えそうな１枚👏🏻 輪播廣告":
+    - /url: /__iamkubo__/p/DddsHzvmvuU/
+    - img "🍂🍂🍂 秋物買いましたか？？ シャツやニットなど今から着れるものから 少し先のアイテム、 またアウターまで出てきて 何を買うか迷いますよね💭💭 とりあえず、 今すぐ着たい(夏から脱出したい)なら、 このマストハブ、チェックしてみてください🔍 コーディネート詳細は プロフィールURLから 公式スタイリングページでみてくださいね (ちなみに、フォローしてくれるとさらに喜びます💓) 質問など、お気軽にコメント欄でもどうぞ💬💕 ✔️Cotton-knit なんといっても、真夏意外着れる 優秀ニット 家で洗えるのも嬉しい！！！ ✔️Blue shirts ベーシックなブルーシャツって、 ずっと好き🩵💙 柔らかい配色のストライプが嬉しい☺️ カジュアルなスタイリングにも きちんと感がでるから大人にちょうどいい💯 ✔️Sweat かぐれの大人気ロングセラースウェットが 今年形が新しくなって登場です^^ 私も今年は買い足し予定❤️‍🔥 ✔️Loose knit 実はサンプルを見た6月 まだ夏も来ていない時期から狙っていた ペルーアルパカルーズニットが ついに入荷しました❣️ 早速チャコールをリアルバイしました✌🏻 ✔️Check shirts ほんのりシアー感あるチェックシャツ ブラックをリアルバイ🐦‍⬛ 腰に巻いたりアレンジしやすい 薄さで、オールシーズン使えそうな１枚👏🏻"
+    - img "輪播廣告"
+  - link "🌷🌷🌷 改めまして… 自己紹介🤗 直接お会いしたことある方もいますが Instagramで見つけてくださったり、 遠方でお会いできていない方も多いので 改めて自己紹介作ってみました🤗 いろんなクボが見えましたでしょうか^^ これからもよろしくお願いします 質問や、ツッコミもお待ちしています🥰 輪播廣告":
+    - /url: /__iamkubo__/p/DTueU77Ehcs/
+    - img "🌷🌷🌷 改めまして… 自己紹介🤗 直接お会いしたことある方もいますが Instagramで見つけてくださったり、 遠方でお会いできていない方も多いので 改めて自己紹介作ってみました🤗 いろんなクボが見えましたでしょうか^^ これからもよろしくお願いします 質問や、ツッコミもお待ちしています🥰"
+    - img "輪播廣告"
+  - link "🍂🍂🍂 9月の人気コーデまとめました🤗 暑かったけど、 昨年よりは秋を感じることも多かったように思います! 気温が落ちて、早くニットやアウターが着たいですよね。 10月に使えるリアルコーデが多いラインナップです✔️ ぜひ買い足しアイテムの参考に👀 難しい気温のコーデの参考に👀 保存してチェックしてくださいね💾 また、好きなコーデがあったらコメントもお待ちしてます🤍🤍 10月も毎日コーデ更新しているので、 アーバンリサーチ公式スタイリングページも ぜひチェックしてくださいね🥳 輪播廣告":
+    - /url: /__iamkubo__/p/Dd8hDbLmjjg/
+    - img "🍂🍂🍂 9月の人気コーデまとめました🤗 暑かったけど、 昨年よりは秋を感じることも多かったように思います! 気温が落ちて、早くニットやアウターが着たいですよね。 10月に使えるリアルコーデが多いラインナップです✔️ ぜひ買い足しアイテムの参考に👀 難しい気温のコーデの参考に👀 保存してチェックしてくださいね💾 また、好きなコーデがあったらコメントもお待ちしてます🤍🤍 10月も毎日コーデ更新しているので、 アーバンリサーチ公式スタイリングページも ぜひチェックしてくださいね🥳"
+    - img "輪播廣告"
+  - link "📔📔📔 かぐれの新作チノパンツ リクエストいただいたのでサイズ履き比べ🔍 DATA/// 161cm 骨格ナチュラル 【サイズ:0】 丈感少し短め、キレイなシルエットではける◎ 【サイズ:1】 丈感いい感じ、ウエストはボタンかベルトで調整。 たっぷり太めなシルエット。 検証結果… チノパンめちゃくちゃ良いです！ 私はサイズ1がしっくりきました^^ サイズ選びの参考にしてくださいね♡ ご質問や、欲しい😍！かわいい！などなど、 コメント欄にいっぱい書いてくださいね🥳💬 🏷️GA26330-2040105 コットンワイドチノパンツ 影片片段":
+    - /url: /__iamkubo__/reel/DdvXHS7Rl86/
+    - img "📔📔📔 かぐれの新作チノパンツ リクエストいただいたのでサイズ履き比べ🔍 DATA/// 161cm 骨格ナチュラル 【サイズ:0】 丈感少し短め、キレイなシルエットではける◎ 【サイズ:1】 丈感いい感じ、ウエストはボタンかベルトで調整。 たっぷり太めなシルエット。 検証結果… チノパンめちゃくちゃ良いです！ 私はサイズ1がしっくりきました^^ サイズ選びの参考にしてくださいね♡ ご質問や、欲しい😍！かわいい！などなど、 コメント欄にいっぱい書いてくださいね🥳💬 🏷️GA26330-2040105 コットンワイドチノパンツ"
+    - img "影片片段"
+  - link "🩶🩶🩶 秋、何着る？ 私が今年着たい秋のスタイリング🧑🏻‍🩰 どれが好きですが☺️？ よかったらコメントで教えてくださいね💡 質問もお気軽にどうぞ〜😚 影片片段":
+    - /url: /__iamkubo__/reel/DdsE1giygMt/
+    - img "🩶🩶🩶 秋、何着る？ 私が今年着たい秋のスタイリング🧑🏻‍🩰 どれが好きですが☺️？ よかったらコメントで教えてくださいね💡 質問もお気軽にどうぞ〜😚"
+    - img "影片片段"
+  - link "👖👖👖 かぐれの新作デニム エイジドデニムイージーパンツ もうチェックされましたか？？ サイズの参考にしてくださいね🤗 影片片段":
+    - /url: /__iamkubo__/reel/Ddn-Iwsxz7H/
+    - img "👖👖👖 かぐれの新作デニム エイジドデニムイージーパンツ もうチェックされましたか？？ サイズの参考にしてくださいね🤗"
+    - img "影片片段"
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "關於":
+    - /url: https://about.instagram.com/
+    - generic: 關於
+  - link "部落格":
+    - /url: https://about.instagram.com/blog/
+    - generic: 部落格
+  - link "工作機會":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: 工作機會
+  - link "使用說明":
+    - /url: https://help.instagram.com/
+    - generic: 使用說明
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "隱私":
+    - /url: /legal/privacy/
+    - generic: 隱私
+  - link "使用條款":
+    - /url: /legal/terms/
+    - generic: 使用條款
+  - link "地點":
+    - /url: /explore/locations/
+    - generic: 地點
+  - link "熱門":
+    - /url: /popular/
+    - generic: 熱門
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "聯絡人上傳和非用戶":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: 聯絡人上傳和非用戶
+  - link "Meta 驗證":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta 驗證
+  - generic: 中文(台灣)
+  - img "向下雙箭頭圖示"
+  - combobox "切換顯示語言":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)" [selected]
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026Instagram from Meta
+- button "訊息":
+  - generic "訊息":
+    - img "訊息"
+    - generic: 訊息
+    - button "用戶虛擬替身 Víctor Sanchego":
+      - img "用戶虛擬替身"

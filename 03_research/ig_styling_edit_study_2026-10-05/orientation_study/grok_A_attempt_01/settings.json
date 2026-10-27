@@ -1,0 +1,14 @@
+{
+  "look_id": "2026-W37-001-L01",
+  "character_ui_name": "Mira M02 v3",
+  "character_checked_observed": true,
+  "first_frame_selected_observed": true,
+  "last_frame": "none",
+  "duration_ui": "6s",
+  "resolution_ui": "720p",
+  "aspect_ui": "9:16",
+  "audio_ui": false,
+  "model_version_ui": "not_displayed",
+  "status": "submitted_result_unavailable",
+  "post_url": "https://grok.com/imagine/post/b06fab60-c38b-4ff1-b5a1-03b38578671f?conversation=e55174b8-bb79-4f81-93a3-1204b7a608c0"
+}

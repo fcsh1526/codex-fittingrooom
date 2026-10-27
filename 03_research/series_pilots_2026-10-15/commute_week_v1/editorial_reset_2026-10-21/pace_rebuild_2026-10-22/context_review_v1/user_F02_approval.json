@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-22",
+  "question_item_id": "[\"request_user_input_async\",\"call_db2546a83c0647bdaf889cab5c13111e\",0]",
+  "question": "請播放下方21.29秒檢查版，特別看2.5–8.5秒的第二套棕褲：從第一套接入、走路、再接第三套，是否比舊版少了突然變慢的感覺，可以保留這次修正？其他四套沿用原片，第三套後半尚未修；這次只確認第二套與兩側接續。",
+  "answer": "第二套接續可保留，續修第三套",
+  "film": "review.mp4",
+  "film_sha256": "799911d2a7637c7920c0d2ecec47cc36bea670142a57c9c947dacd256b24d819",
+  "F02_source": "../F02/F02_pace_source.mp4",
+  "F02_source_sha256": "f6fcd8e02e99a6dd1b6282d5b5eb5e2b0eeca0bacc10c54d83940cfa4a0bbdf6",
+  "accepted_scope": "new F02 gait and both neighboring transitions in this exact context",
+  "authorized_next": "repair F03 native walking cadence and check both neighboring boundaries",
+  "not_implied": ["zero ghosting or zero slip", "full-film acceptance", "new scene/still approval", "publication", "Drive or GitHub changes", "user's continuous full-speed playback self-report"]
+}

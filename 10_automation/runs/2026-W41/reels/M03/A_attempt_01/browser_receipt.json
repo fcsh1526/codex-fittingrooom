@@ -1,0 +1,24 @@
+{
+  "post_url": "https://grok.com/imagine/post/e14a19d6-325a-4277-9b99-31b13e03f39a?conversation=a4d2ee3b-b6c2-46f5-9ee6-eddbb9c1fe5b",
+  "submitted_at": "2026-10-08T08:49:22.308Z",
+  "completed_observed_at": "2026-10-08T08:50:53.076Z",
+  "reference": "Mira M03 v3",
+  "first_frame": "2026-W41-004-L01_M03_reel_candidate_A_v2.png",
+  "settings": {
+    "resolution": "720p",
+    "seconds": 6,
+    "aspect": "9:16",
+    "audio": false
+  },
+  "downloaded_file": "source.mp4",
+  "source_sha256": "c7be14f597876f403d78dbaae75bdb949cbe8b801e526f14379207e85d7a6f83",
+  "measured_native": {
+    "size": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "frames": 145,
+    "audio_streams": 0
+  }
+}

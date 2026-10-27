@@ -1,0 +1,33 @@
+{
+  "user_quote": "ok",
+  "scope": "M04 exact two selectedv2 native full-person starting stills and displayed static side-by-side layout. No video approval inferred.",
+  "sources": [
+    {
+      "look_id": "2026-W41-005-L01",
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-005/looks/2026-W41-005-L01/reel/2026-W41-005-L01_M04_reel_candidate_A_v2.png",
+      "sha256": "ec42f1d390e1c11e0328e0a663293c3b54c038698da695a816a0974101d4bbf7",
+      "pixels": [
+        941,
+        1672
+      ],
+      "static_review": "L01v1 head margin below8%; single framing edit selectedv2. V2 full hair/shoes, complete outfit and cobalt bag clear. Actual left hand is in trouser pocket; animation must extract it naturally before same-side strap touch. No still approval inferred.",
+      "status": "candidate_pending_user_visual_approval",
+      "user_approval": null
+    },
+    {
+      "look_id": "2026-W41-005-L02",
+      "path": "10_automation/runs/2026-W41/generated_images/2026-W41-005/looks/2026-W41-005-L02/reel/2026-W41-005-L02_M04_reel_candidate_A_v2.png",
+      "sha256": "9a3a3d91496469f9295bd6bec9d19b0f1d2afc8a55f8cd46272bb8aa36ac61ff",
+      "pixels": [
+        941,
+        1672
+      ],
+      "static_review": "L02v1 faint ornamental skirt surface; single material-only edit selectedv2 plain matte cotton. White shirt/black A-line calf skirt, cobalt bag, complete hair/shoes and coherent scene clear. No still approval inferred.",
+      "status": "candidate_pending_user_visual_approval",
+      "user_approval": null
+    }
+  ],
+  "layout": "10_automation/runs/2026-W41/reels/M04/parallel_layout_static_candidate_v1.png",
+  "approved_date": "2026-10-08",
+  "video_user_approval": null
+}

@@ -1,0 +1,223 @@
+- link "跳至主要內容":
+  - /url: "#grok-content-area"
+- link "主頁":
+  - /url: /
+- list:
+  - button "搜尋":
+  - link "對話":
+    - /url: /
+  - link "Imagine":
+    - /url: /imagine
+  - link "程式庫":
+    - /url: /library
+  - link "自動化":
+    - /url: /automations
+- list:
+  - button "聊天":
+- list:
+  - link "專案":
+    - /url: /project
+- button "Account menu, Brandon Chang Chien"
+- main:
+  - generic: Codex IG Mira時尚雜誌專用畫布
+  - paragraph:
+    - strong: 總指揮已接手｜006-Mira 工單確認
+  - paragraph:
+    - text: 收到工單關鍵詞：
+    - strong: Codex · IG · Mira · 時尚雜誌專用畫布
+  - heading "目前解讀" [level=3]
+  - list:
+    - text: 角色：
+    - strong: 006-Mira
+    - text: （Type A，預設生活線）
+    - text: 感覺方向：
+    - strong: IG 時尚雜誌／Lookbook 風
+    - text: （高級、極簡、低飽和、真實生活感 + 雜誌構圖）
+    - text: 產線傾向：生活線
+    - code: lifestyle-line
+    - text: （非常規機位、無偷窺味、韓系／法式／Old Money 私服風）
+    - listitem: 專用畫布：建立一組可重複使用的「時尚雜誌感」基準圖池（臉錨 + 全身比例 + 服裝風格鎖定用）
+  - heading "必要確認（只問一次）" [level=3]
+  - paragraph: 依 Anchor 政策與 Bot 交貨契約：
+  - list:
+    - paragraph:
+      - strong: 臉錨尚未核定
+      - text: 目前對話中沒有可用的白名單臉錨圖。
+      - text: 請直接上傳
+      - strong: 3 張候選臉圖
+      - text: （亮、清楚、半身或 3/4、無黑痕無斑、年齡對），或告訴我「用之前哪一張」／「從畫布挑這幾張」。
+      - text: → 我不會自選畫布第一張／最新一張／暗沉老臉。
+    - paragraph: 其他參數我先用預設補完（你可改）：
+    - list:
+      - listitem: 張數：8 張（可 4–10）
+      - listitem: 鎖場景：否（先建通用雜誌感場景池）
+      - listitem: 尺度：第 1 級（完整穿著）
+      - listitem: 服裝風格鎖定：時尚雜誌向（韓系輕熟／法式慵懶／極簡冷淡／Old Money 選 1–2 個）
+      - listitem: 硬符號：無（若有請補）
+  - paragraph: 請回覆：
+  - list:
+    - listitem: 臉錨候選（上傳圖 or 指定）
+    - listitem: 或直接說「用預設 8 張生活線時尚雜誌感，開始」
+  - paragraph:
+    - text: 確認臉錨後，立即出正式批次（生活線提示詞 + 回報格式）。
+    - text: 待命。
+  - generic: 本次只生成一張新候選靜態圖，放在這張畫布；不要生成影片，不要修改或刪除原圖與已核准影片，出圖後等待我的視覺核准。角色為M02，使用已選取的M02 v3臉孔圖及白短袖襯衫全身圖，不沿用先前006-Mira／八張預設。已選取的短外套影片僅參考咖啡店日光、灰米色近牆材質與攝影風格，不複製它的外套。 Create one native vertical 9:16 photoreal fashion-editorial still for the clear second-look reveal after the camera has passed a cafe wall corner. Use the selected M02 face portrait strictly for identity and low brown bun; the selected approved white-short-sleeve-shirt full-person image locks her exact outfit and healthy proportions. Use the selected outgoing video only for natural daylight, cafe atmosphere and warm-grey plaster-wall texture. The same approachable woman, late twenties and youthful, stands naturally in the right two-thirds of the frame, nearly frontal with a quiet friendly expression and relaxed hands. She wears a plain white short-sleeve pointed-collar cotton button shirt tucked into cocoa-brown straight denim, a narrow black belt with small metal buckle, black low-heel loafers and the same small rectangular black shoulder bag. No outer jacket. A close fixed plaster wall occupies the leftmost 15 percent, running from top to bottom, without hiding her face or outfit. Behind her is the quieter adjoining cafe facade with wood-framed glass and grey paving. Photograph as one coherent scene with a full-frame mirrorless camera, 50mm lens, level chest-height view, natural skin, soft daylight and believable shoe contact shadows. Show complete head and both shoes with comfortable margins. No text, logos, extra people, elongated anatomy or collage. 出圖後另外簡短說明：你是否能在畫布影片生成中明確指定「A影片最後牆面影格為首幀、這張待核准第二套圖為末幀、M02臉孔圖為人物參照」？只能回報實際可用輸入，若不支援就說明；不要先執行影片。
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 一張新候選靜態圖已產出
+    - text: （9:16 垂直時尚編輯風，第二眼揭示角度）
+  - list:
+    - listitem: 角色：M02
+    - listitem: 臉錨：已選 M02 v3 臉孔圖（身份 + 低棕髮髻）
+    - listitem: 服裝／比例：已選白短袖襯衫全身圖（白短袖尖領棉襯衫 + 可可棕直筒牛仔褲 + 窄黑皮帶 + 黑低跟樂福鞋 + 小方黑肩包，無外套）
+    - listitem: 環境參考：僅取短外套影片的咖啡店日光、灰米色近牆材質與攝影風格（未複製外套）
+    - listitem: 構圖：近牆佔左約 15%、人物在右 2/3、完整頭到雙鞋、胸部高度 50mm 平視、自然皮膚與鞋影
+  - paragraph:
+    - strong: 等待你的視覺核准。
+    - text: 原圖與已核准影片均未修改或刪除。
+  - separator
+  - heading "關於後續影片生成是否支援指定輸入" [level=3]
+  - paragraph:
+    - strong: 可以。
+    - text: 實際可用輸入如下（
+    - code: imagine_reference_to_video
+    - text: ）：
+  - table:
+    - rowgroup:
+      - row "指定需求 實際支援方式":
+        - columnheader "指定需求"
+        - columnheader "實際支援方式"
+    - rowgroup:
+      - row "A影片最後牆面影格為首幀 抽出該影格註冊為 image asset，設為 first_frame_asset_id":
+        - cell "A影片最後牆面影格為首幀"
+        - cell "抽出該影格註冊為 image asset，設為 first_frame_asset_id":
+          - text: 抽出該影格註冊為 image asset，設為
+          - code: first_frame_asset_id
+      - row "這張待核准第二套圖為末幀 設為 last_frame_asset_id":
+        - cell "這張待核准第二套圖為末幀"
+        - cell "設為 last_frame_asset_id":
+          - text: 設為
+          - code: last_frame_asset_id
+      - row "M02 臉孔圖為人物參照 把臉孔 asset 放進 asset_ids，並在 prompt 內用 @asset_id 綁定身份":
+        - cell "M02 臉孔圖為人物參照"
+        - cell "把臉孔 asset 放進 asset_ids，並在 prompt 內用 @asset_id 綁定身份":
+          - text: 把臉孔 asset 放進
+          - code: asset_ids
+          - text: ，並在 prompt 內用
+          - code: "@asset_id"
+          - text: 綁定身份
+  - paragraph:
+    - text: 以上三項可同時使用。目前
+    - strong: 不會
+    - text: 先執行任何影片，等你核准這張靜態圖後再談。
+  - generic: 只對目前選取、剛生成的M02白短袖襯衫第二套候選圖做一次局部材質修正，出一張靜態候選放在同一畫布，不生成影片、不刪除舊版本。左側近牆現在是粗顆粒斑駁石材；請只把這塊牆的表面改為前面已核准六秒短外套遮鏡影片中的細緻、柔焦、暖灰米色粉刷灰泥牆面，低對比細顆粒，不要石塊接縫、黑斑或裂紋。保留牆占畫面左側約30%的現有尺寸、邊界、透視與光線，不移動人物。臉孔、低棕髮髻、白短袖尖領襯衫、棕丹寧、黑皮帶、黑小肩包、兩隻黑鞋、整個咖啡店背景、人物站位、頭鞋留白及9:16構圖均保持原樣。No text or logos. 只做上述一個牆材質修正，完成後等我的視覺核准，不要自動接影片。
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 局部材質修正完成
+    - text: （僅左側近牆）
+  - list:
+    - listitem: 牆面：已改為與六秒短外套影片一致的細緻、柔焦、暖灰米色粉刷灰泥（低對比細顆粒）
+    - listitem: 已去除：粗顆粒石材、接縫、黑斑、裂紋
+    - listitem: 保留：牆占左側尺寸／邊界／透視／光線、人物位置與全身、臉孔與低棕髮髻、白短袖尖領襯衫、棕丹寧、黑皮帶、黑小肩包、雙黑鞋、咖啡店背景、頭鞋留白、9:16 構圖
+  - paragraph: 舊版本未刪除。靜態候選已放上畫布，等待你的視覺核准。
+  - generic: "第二套修正版已由使用者視覺核准，可以開始本次單一影片測試。請在同一畫布生成且只生成一個6秒、720p、直式9:16候選影片。不要重新出圖、不要改原圖、不要刪除或改動任何舊影片。 精確輸入角色：1）從此畫布已核准的六秒M02米白短外套影片抽出最後一個實際解碼影格（完全灰米色近牆畫面）作First frame；不要另合成牆面。2）目前選取且剛修正左牆材質的M02第二套圖（白短袖襯衫、可可棕直筒丹寧、黑皮帶、黑小肩包、黑鞋，左側細粉刷牆；不要使用粗石材v1）作Last frame。3）先前提供的M02_start_v3_face.png作人物identity reference，必要時以核准第二套全身圖作服裝參照。請實際設定你剛說的first_frame_asset_id、last_frame_asset_id及人物asset_ids。如果不能同時指定以上角色，先回報缺少哪項，不要只用無臉牆面猜人、不要默默改成單圖生成，也不要改以第一套外套服裝。 One continuous six-second real-camera reveal shot, continuing the previous camera movement to its right. Start on the exact opaque warm-grey plaster wall frame. Hold the wall briefly, then smoothly translate the level chest-height camera rightward past the fixed wall corner, without pan, orbit or zoom. The wall right edge moves toward image-left through foreground parallax and reveals the cafe and the same M02 woman on the right. By about three seconds her complete head-to-shoe second outfit is clearly readable; the final composition settles into the approved second-look image with the wall occupying the leftmost portion. Maintain the portrait-reference identity, low brown bun, white short-sleeve pointed-collar tucked shirt, cocoa straight denim, narrow black belt, small rectangular black shoulder bag and black loafers, with no outer jacket. She stays naturally relaxed with subtle weight shift only. Keep coherent daylight, realistic foreground depth, stable cafe architecture and wardrobe, and allow enough clear outfit reading time. Physical wall occlusion only: no dissolving person, graphic wipe, cut, outfit morph, extra person, text or audio. Normal real-time motion. 完成後保留影片在此畫布，列出實際使用的首幀／末幀／人物參照名稱或asset IDs、實際解析度與時長，是否有音訊。不要自動把兩段合片；我會先驗收這一鏡再剪接。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 單一 6 秒候選影片已生成並保留在此畫布
+    - text: （未合片、未改舊圖／舊影片）
+  - heading "實際使用輸入" [level=3]
+  - table:
+    - rowgroup:
+      - row "角色 名稱／來源 Asset ID":
+        - columnheader "角色"
+        - columnheader "名稱／來源"
+        - columnheader "Asset ID"
+    - rowgroup:
+      - row "First frame 六秒米白短外套影片實際解碼末幀（全灰米色近牆） f0a989db-1e62-4609-80c9-fdeb37a7fcaf":
+        - cell "First frame":
+          - strong: First frame
+        - cell "六秒米白短外套影片實際解碼末幀（全灰米色近牆）"
+        - cell "f0a989db-1e62-4609-80c9-fdeb37a7fcaf":
+          - code: f0a989db-1e62-4609-80c9-fdeb37a7fcaf
+      - row "Last frame 已核准第二套修正版（白短袖＋細粉刷牆） 24a1b901-8206-4e0b-9706-e380ba23a93a":
+        - cell "Last frame":
+          - strong: Last frame
+        - cell "已核准第二套修正版（白短袖＋細粉刷牆）"
+        - cell "24a1b901-8206-4e0b-9706-e380ba23a93a":
+          - code: 24a1b901-8206-4e0b-9706-e380ba23a93a
+      - row "人物 identity M02_start_v3_face.png 539840d8-dc19-488c-a8f1-f60a5905d67d":
+        - cell "人物 identity":
+          - strong: 人物 identity
+        - cell "M02_start_v3_face.png"
+        - cell "539840d8-dc19-488c-a8f1-f60a5905d67d":
+          - code: 539840d8-dc19-488c-a8f1-f60a5905d67d
+      - row "服裝參照 同上第二套全身圖 24a1b901-8206-4e0b-9706-e380ba23a93a":
+        - cell "服裝參照":
+          - strong: 服裝參照
+        - cell "同上第二套全身圖"
+        - cell "24a1b901-8206-4e0b-9706-e380ba23a93a":
+          - code: 24a1b901-8206-4e0b-9706-e380ba23a93a
+  - heading "實際輸出規格" [level=3]
+  - list:
+    - strong: 解析度
+    - text: ：720×1280（9:16 直式，720p）
+    - strong: 時長
+    - text: ：6.04 秒
+    - strong: 音訊
+    - text: ：有（AAC 音軌，時長 6.0s；內容為環境／無對白）
+    - strong: 設定
+    - text: ：已實際使用
+    - code: first_frame_asset_id
+    - text: +
+    - code: last_frame_asset_id
+    - text: + 人物
+    - code: asset_ids
+    - text: （臉＋第二套服裝），未用第一套外套服裝、未單圖猜人
+  - paragraph: 等待你的驗收；確認後再剪接。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button:
+  - button "新增圖像":
+  - textbox "Ask Grok anything":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開" [active]:
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - button "Play":
+      - generic: 0:00 / 0:06
+      - button "Mute":
+      - generic: HD
+      - button "Play":
+      - generic: 0:00 / 0:06
+      - button "Mute":
+      - button:
+      - button "修剪":
+      - button "擷取影格":
+      - button "拼接":
+      - button "全螢幕":
+      - button:
+      - button "下載":
+      - button "Share":
+      - button "良好結果":
+      - button "不良結果":
+      - button "刪除":
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "81%, 適合視圖": 81%
+    - button "放大":
+- region "Notifications alt+T"
+- alert: Imagine 代理模式 - Grok

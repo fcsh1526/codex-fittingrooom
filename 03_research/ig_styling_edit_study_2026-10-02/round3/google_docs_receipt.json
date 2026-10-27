@@ -1,0 +1,19 @@
+{
+  "document_url": "https://docs.google.com/document/d/1qVcbsDcQEu4RdvtZi-iYuHTPdhzVUuPNB62xIul7qe0/edit",
+  "folder_url": "https://drive.google.com/drive/folders/1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO",
+  "verification": {
+    "id": "1qVcbsDcQEu4RdvtZi-iYuHTPdhzVUuPNB62xIul7qe0",
+    "tabCount": 1,
+    "bodyMatches": true,
+    "nativeHeadings": 8,
+    "nativeBullets": 5,
+    "sixLinksComplete": true,
+    "linksPreserveTypography": true,
+    "parents": [
+      "1IhpRcARKKGmWTFlLUtbH2wohpopoFbRO"
+    ],
+    "mime": "application/vnd.google-apps.document",
+    "listedInResearchFolder": true,
+    "typographyReadback": "Link text inherits unchanged native NORMAL_TEXT (Arial11, black, bold/italic/underline false); Google Docs omits redundant run overrides."
+  }
+}

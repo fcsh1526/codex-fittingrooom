@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-05",
+  "source": "03_research/ig_styling_edit_study_2026-10-05/simultaneous_comparison/grok_B_attempt_01/source.mp4",
+  "source_sha256": "5d06f07631fef2dcc695af2101dfb42aad7fe75b5b6bd440e075c302a46fd654",
+  "review_method": "Complete technical decode plus25 still checkpoints at six-frame spacing throughframe138 and frame143. Full/crop/wider crop boards inspected; original-resolution crops0/42/48/143, full frame42 and wider crop42 inspected. No continuous playback pass.",
+  "source_metadata": {"width":720,"height":1280,"fps":24,"decoded_frames":145,"decoded_seconds":6.041666666666667},
+  "technical_signals": {"black_candidate_frames":[],"near_identical_frame_pairs":[]},
+  "proposed_common_crop": {
+    "rect": [145,0,445,1280],
+    "status": "too_tight_at_tote_edge",
+    "reason": "At1.75s/frame42 the tote's outermost viewer-right corner is around sourcex590–593, at/just beyond the crop right bound590; there is no useful breathing room. Coordinates are manual estimates from original-size images, not automated segmentation.",
+    "other_boundaries": "Full hair, shoes, hands and navy skirt are retained in the25 sampled crops."
+  },
+  "alternative_common_crop": {
+    "rect": [145,0,470,1280],
+    "status": "sampled_boundary_candidate",
+    "evidence": "All25 wider-window checkpoints and original-size wider frame42 retain full head, shoes, hands, skirt and tote with visible space right of the tote. Applying same rect to A/B preserves common proportional panel scale; constant crop only.",
+    "limits": "Individual frames between checkpoints not visually inspected; assembled film and normal-speed viewing need separate review."
+  },
+  "observations": {
+    "identity": "Broadly stable recognizable face/hair with smile and small head-angle change; no obvious sampled instantaneous face substitution.",
+    "wardrobe": "Mist-blue open shirt, navy square neckline, waist seam and calf-length skirt remain clear; no obvious sampled outfit mixture or shoulder slip. Dress straps are partially covered and no strap-width claim is added.",
+    "feet_and_action": "Opening includes small foot/stance changes and mild body angle/weight shift; not stationary feet or exact choreography matching A. Both shoes remain visible in sampled crops; ground contact/fine morphing not certified by stills.",
+    "bag_hands": "Gray tote swings/lifts outward around1.25–2s as the bag hand adjusts the strap; the outer bag silhouette changes with pose. Larger outward movement than A, causing the narrow-window problem. Fine fingers, strap contacts and seams remain unverified between samples.",
+    "camera_and_background": "Window/shelf/bench/table appear broadly stable in sampled full frames. Mild subject size/position changes can follow stance/action; no claim of exactly constant human scale. No obvious sampled additional object or major scene warp."
+  },
+  "assistant_continuous_review": false,
+  "user_video_approval": null,
+  "source_usable_interval_status": "candidate_only; no new interval approval",
+  "publication_or_cloud_write": false,
+  "first_wave_files_modified": false
+}
