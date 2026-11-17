@@ -1,0 +1,496 @@
+{
+  "rate": 1,
+  "samples": [
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.822692
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.891841
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.953122
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.014231
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.088927
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.175222
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.237587
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.303577
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.363136
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.426063
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.501103
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.571699
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.633165
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.719254
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.792131
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.846124
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.91409
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.974273
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.037218
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.10218
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.156744
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.232239
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.280237
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.34402
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.416337
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.520821
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.594911
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.656905
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.723985
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.787872
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.84888
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.904909
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 4.966488
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.046891
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.120213
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.187119
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.244551
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.309096
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.363174
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.427515
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.497907
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.552029
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.636019
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.702092
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.766036
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.832151
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.895
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 5.969934
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 6.024602
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.002562
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.063979
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.122653
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.176765
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.245346
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.317922
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.388341
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.445824
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.51037
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.594599
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.65377
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.718416
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.77833
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.846634
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.906296
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 0.967603
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.047049
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.124082
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.188255
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.250854
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.308406
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.366108
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.429707
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.499686
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.562088
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.630912
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.705928
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.77245
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.830549
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.901317
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 1.970361
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.040652
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.102137
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.16259
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.230503
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.280648
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.348785
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.403
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.469906
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.534514
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.599802
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.653278
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.72775
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.786259
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.854023
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.909085
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 2.973507
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.042947
+    },
+    {
+      "loop": true,
+      "rate": 1,
+      "time": 3.122432
+    }
+  ],
+  "scope": "Timed screenshots during native-rate browser playback; not a claim of continuous human visual certification."
+}

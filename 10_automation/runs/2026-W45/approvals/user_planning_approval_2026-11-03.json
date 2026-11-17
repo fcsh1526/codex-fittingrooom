@@ -1,0 +1,103 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "W45 source-backed v2 editorial proposal, ten complete looks, five connected storyboards and necessary schematic previs; proceed to first M02 L01 starting-image candidate",
+  "quote": "ok",
+  "recorded_at": "2026-11-03",
+  "timezone": "Asia/Taipei",
+  "context": "Direct reply to updated W45 source-backed v2 proposal, five revised viewer purposes and explicit next step: M02 moss-green top + cocoa-brown straight trousers starting image.",
+  "artifacts": [
+    {
+      "path": "10_automation/runs/2026-W45/planning/EDITORIAL_PROPOSAL.md",
+      "sha256": "0dc08f5a1e46ca2d70d1b3f88ea8aaf0967fdf82b8942cb6d46ab3f940e7f8b7",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/EDITORIAL_PROPOSAL.md"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/editorial_plan.json",
+      "sha256": "1af7de4ddf1f2638ef096911e5acde056f5f70007d34ded74ad61458d35a965b",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/editorial_plan.json"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/weekly_look_plan.csv",
+      "sha256": "943c160431edb149a82887b2b7a57bece8b0647f76d0405e226749c45395a796",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/weekly_look_plan.csv"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/weekly_content_packet.csv",
+      "sha256": "bef9bc2e3504ec88e24c5b8a1d334a430046962c2422ea0c5794ab4a2b0723e1",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/weekly_content_packet.csv"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/W45_overview.png",
+      "sha256": "4a57b4f04747731bc01a895d64988fbac403832854f11d8b233658211fe12b05",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/W45_overview.png"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M01/production_plan.json",
+      "sha256": "7b3ddaa3182fdbd82665b7750bc6fb0916067344b31442c3ab3dac360ddec33c",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M01/production_plan.json"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M02/production_plan.json",
+      "sha256": "86f8a3b93c6da6364e1f8a39b38fd4246a0919c33ebaa15175cc82a974a8b35c",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M02/production_plan.json"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M03/production_plan.json",
+      "sha256": "07ceda8ce40285c23a7b4c4e5ff37f161acca54f3dd0fda0cb40b670afefd607",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M03/production_plan.json"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M04/production_plan.json",
+      "sha256": "71f990135e730c1599f7042f0b64589eb2832b1e851a969f767a577de86cd44d",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M04/production_plan.json"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M05/production_plan.json",
+      "sha256": "63b8ed0ab2c7e0489c24e6a3297adf3f22bc99d365c8984f42d0178ee291e92c",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M05/production_plan.json"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M01/storyboard.png",
+      "sha256": "5e20f17c5715e441237c99f70d8cca18d01b8795a0f1bb98dbabfe1728651f92",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M01/storyboard.png"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M02/storyboard.png",
+      "sha256": "165e070b952361e1efcf130ed89ff7c1fc997d10336e0d740c8f3552a1d2eafe",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M02/storyboard.png"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M03/storyboard.png",
+      "sha256": "a5404e230afea41735f1d782c55b1a259d2e64aa6d7a34fc5c99f2a5a85adc26",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M03/storyboard.png"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M04/storyboard.png",
+      "sha256": "5df31462260b9cddff6d48358b36bff23c7173cf6bc58935a5c535770154325e",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M04/storyboard.png"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M05/storyboard.png",
+      "sha256": "e844d9373e5912190d0d5806cc5f18fc78204d667eae542a1c8b70aba5fd0221",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M05/storyboard.png"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M02/space.json",
+      "sha256": "be7427240b0938592a526a4044c452c8b51ee287ab8a9649153ea53b36bcf35f",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M02/space.json"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M02/previs.gif",
+      "sha256": "91ef8966c3f052b4b9c304bd0fe0d80b5cd76920523cacb259e08e85d136c700",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M02/previs.gif"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M02/overhead_and_view.png",
+      "sha256": "0bc96cd75ae8e0e0f5f6b1f0ae75370cafd111f7b0bcbb07a733997ce1eedf85",
+      "snapshot_path": "10_automation/runs/2026-W45/approvals/v2_approved_snapshot/planning/M02/overhead_and_view.png"
+    }
+  ],
+  "limits": "Not approval of an unseen still, actual camera or route reproduction, dynamic QA, finished video, publication or any paid provider change.",
+  "snapshot_note": "Exact approved bytes preserved before subsequent production metadata changes; snapshot hashes verified."
+}

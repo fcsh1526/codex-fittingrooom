@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-29",
+  "account": "mika.dono3",
+  "scope": "Six additional Reels opened, captions and time-tagged screenshot samples inspected; not continuous whole-film viewing, audio analysis, exact cut counting or causal engagement analysis. Screenshot may follow timestamp by a short delay. Blurred samples retained without attributing blur to creator.",
+  "samples": [
+    {
+      "id": "DfCdKjozPd7",
+      "sample": {
+        "duration": 10.145668,
+        "paused": false,
+        "time": 4.037225
+      },
+      "file": "picnic_1.png"
+    },
+    {
+      "id": "DfCdKjozPd7",
+      "sample": {
+        "paused": false,
+        "time": 4.919445
+      },
+      "file": "picnic_2.png"
+    },
+    {
+      "id": "Db8AXqwpkef",
+      "sample": {
+        "duration": 7.219953,
+        "time": 1.843254
+      },
+      "file": "street_1.png"
+    },
+    {
+      "id": "Db8AXqwpkef",
+      "sample": {
+        "time": 1.075192
+      },
+      "file": "street_2.png"
+    },
+    {
+      "id": "DbkpMwbxH9S",
+      "sample": {
+        "duration": 18.644171,
+        "time": 15.63462
+      },
+      "file": "seated_1.png"
+    },
+    {
+      "id": "DbkpMwbxH9S",
+      "sample": {
+        "time": 10.558928
+      },
+      "file": "seated_2.png"
+    },
+    {
+      "id": "DfEHpr7JRv_",
+      "sample": {
+        "duration": 5.599999,
+        "time": 3.465224
+      },
+      "file": "indoor_1.png"
+    },
+    {
+      "id": "DfEHpr7JRv_",
+      "sample": {
+        "time": 4.838924
+      },
+      "file": "indoor_2.png"
+    },
+    {
+      "id": "De6ANElJR6X",
+      "sample": {
+        "duration": 9.00789,
+        "paused": false,
+        "time": 1.355951
+      },
+      "file": "blackdress_1.png"
+    },
+    {
+      "id": "De6ANElJR6X",
+      "sample": {
+        "time": 5.116052
+      },
+      "file": "blackdress_2.png"
+    },
+    {
+      "id": "De55SK8x19T",
+      "sample": {
+        "duration": 14.650339,
+        "time": 13.178258
+      },
+      "file": "casual_1.png"
+    },
+    {
+      "id": "De55SK8x19T",
+      "sample": {
+        "time": 0.724187
+      },
+      "file": "stretch_2.png"
+    },
+    {
+      "id": "Db8AXqwpkef",
+      "sample": {
+        "time": 5.538332
+      },
+      "file": "street_3.png"
+    }
+  ],
+  "additional_reels": [
+    "DfCdKjozPd7",
+    "Db8AXqwpkef",
+    "DbkpMwbxH9S",
+    "DfEHpr7JRv_",
+    "De6ANElJR6X",
+    "De55SK8x19T"
+  ]
+}

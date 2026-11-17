@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-12",
+  "provider": "Codex built-in imagegen",
+  "film_look_id": "W46-M02-COMMUTE-F02",
+  "model": "M02",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-002/series/five_look_commute/F02/reel/2026-W46_M02_commute_F02_start_candidate_A.png",
+  "sha256": "0951ef72c984b48e1a2b9f4a99c5767fa6fd03c3d8c3d2b59d77c97a17d6a9a4",
+  "size": [
+    941,
+    1672
+  ],
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-e28b88b7-a6fa-4bde-9491-c02073201dc8.png",
+  "edit_target": "10_automation/runs/2026-W46/reels/M02/five_look_commute_2026-11-12/F01_trial_01/overlap_start_f087.png",
+  "edit_target_sha256": "9608825bb1a162232951c6cf52c2821da6ed0d76c26d2bcab6b7765957155c07",
+  "target_lineage": "10_automation/runs/2026-W46/reels/M02/five_look_commute_2026-11-12/F01_trial_01/frame087_lineage.json",
+  "identity_references": [
+    "02_brand/reference_models/M02_start_v3_face.png",
+    "02_brand/reference_models/M02_start_v3_full.png"
+  ],
+  "requested_changes": [
+    "pale blue/white fine vertical-striped shirt",
+    "coffee-brown penny loafers",
+    "gray-taupe bag"
+  ],
+  "requested_invariants": [
+    "same indigo jeans",
+    "face and expression",
+    "walking phase, feet and hands",
+    "image framing",
+    "background and light"
+  ],
+  "review": "Fine stripes, blue collar, brown loafers and gray-taupe bag visible. Head and shoes complete. After normalized-size comparison, head/shoe locations and background landmarks appear closely matched to sourcef87. Identity, shirt fit, denim preservation and subtle shape differences await user visual review; no pixel-identical claim.",
+  "status": "withdrawn_pending_F01_identity_repair",
+  "motion": "not submitted",
+  "preceding_motion_status": "F01 trial pending user acceptance; planned more side-facing camera motion not clearly achieved.",
+  "dependency_reason": "Actual F01f87 used as edit target belongs to identity-rejected motion. No new F02 motion authorized from this stale continuation."
+}

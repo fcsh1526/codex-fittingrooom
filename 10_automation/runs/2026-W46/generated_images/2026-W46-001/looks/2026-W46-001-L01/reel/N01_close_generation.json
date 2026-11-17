@@ -1,0 +1,29 @@
+{
+  "week": "2026-W46",
+  "model": "M01",
+  "look_id": "2026-W46-001-L01",
+  "shot": "N01",
+  "date": "2026-11-11",
+  "provider": "Codex built-in image generation",
+  "attempt": 1,
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_close_candidate_A.png",
+  "sha256": "75db946b5bde7d49965df3639cd34853560bfc879b28095337f63c628e2aef96",
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-cdf6c692-bef2-4cc8-bc76-e22b17b9ab99.png",
+  "width": 941,
+  "height": 1672,
+  "exact_9_16": false,
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/submitted_N01_close_prompt.txt",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A_front_v3.png",
+      "sha256": "b013414b18add2e5cf22f24abae89acbb7094efe83199ae1f8b526242a178966"
+    }
+  ],
+  "planning_approval": "10_automation/runs/2026-W46/planning/M01/editorial_reset_2026-11-11/user_storyboard_approval.json",
+  "status": "pending_user_visual_approval",
+  "review": "完整頭髮與雙肩可見，視線朝畫面右側，嘴角已微笑且略露齒，表情較預期起始更展開。米白針織、左側棕包帶、咖啡店窗框與柱面吻合。構圖比頭肩更寬，含胸口至腰上，可供手部和肩膀反應；臉部身份待使用者審查。"
+}

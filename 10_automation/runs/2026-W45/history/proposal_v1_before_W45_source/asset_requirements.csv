@@ -1,0 +1,53 @@
+look_id,model,surface,role,reel_used,status,reuse_candidate,plan
+2026-W45-001-L01,M01,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L01,M01,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L01,M01,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L01,M01,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L01,M01,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L02,M01,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L02,M01,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L02,M01,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L02,M01,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-001-L02,M01,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L01,M02,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L01,M02,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L01,M02,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L01,M02,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L01,M02,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L02,M02,reel,A_full_9x16,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L02,M02,reel,styling_proof,False,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L02,M02,carousel,A_full,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L02,M02,carousel,B_scene,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-002-L02,M02,carousel,C_accessory,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L01,M03,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L01,M03,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L01,M03,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L01,M03,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L01,M03,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L02,M03,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L02,M03,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L02,M03,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L02,M03,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L02,M03,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L01,M04,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L01,M04,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L01,M04,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L01,M04,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L01,M04,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L02,M04,reel,A_full_9x16,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L02,M04,reel,styling_proof,False,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L02,M04,carousel,A_full,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L02,M04,carousel,B_scene,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-004-L02,M04,carousel,C_accessory,False,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L01,M05,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L01,M05,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L01,M05,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L01,M05,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L01,M05,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L02,M05,reel,A_full_9x16,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L02,M05,reel,styling_proof,True,missing_not_generated,proof may reuse an exact-outfit approved view only after vertical/clarity review,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L02,M05,carousel,A_full,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L02,M05,carousel,B_scene,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-005-L02,M05,carousel,C_accessory,True,missing_not_generated,,No W44 outfit is asserted to match this new complete outfit; identity refs reuse only.
+2026-W45-003-L02,M03,reel,medium_S03,True,missing_or_exact_frame_lineage_needed,Review same-outfit footage after generation,May be fulfilled by reviewed same-outfit proof if composition supports it.
+2026-W45-004-L01,M04,reel,bag_detail_S02,True,missing_or_reviewed_proof_needed,Review same-outfit proof,May be fulfilled by clear vertical styling-proof; no automatic crop approval.

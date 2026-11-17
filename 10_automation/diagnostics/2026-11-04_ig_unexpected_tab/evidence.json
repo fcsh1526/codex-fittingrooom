@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "scope": "Single observed duplicate IG tab5 event in current Mira conversation",
+  "session_source": "C:\\Users\\Brandon_ChangChien\\.codex\\sessions\\2026\\10\\27\\rollout-2026-10-27T15-17-31-01a17c38-aa07-76f2-a857-3127abcc97fb.jsonl",
+  "desktop_log_source": "C:\\Users\\Brandon_ChangChien\\AppData\\Local\\Codex\\Logs\\2026\\11\\04\\codex-desktop-8675d432-8a75-4e12-8a39-6067c2a5933b-18884-t0-i1-014205-0.log",
+  "events": [
+    {
+      "timestamp_utc": "2026-11-04T07:43:59.822Z",
+      "timestamp_taipei": "2026-11-04T15:43:59.822000+08:00",
+      "source_line": 10368,
+      "type": "function_call",
+      "call_id": "call_b79f7845b01c4e16a7d0c658d60ce28d",
+      "arguments": {
+        "code": "await cua.getState();",
+        "title": "查看目前開啟的 IG 分頁"
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-04T07:44:05.551Z",
+      "timestamp_taipei": "2026-11-04T15:44:05.551000+08:00",
+      "source_line": 10371,
+      "type": "function_call_output",
+      "call_id": "call_b79f7845b01c4e16a7d0c658d60ce28d",
+      "observed_IG_tabs": [
+        {
+          "id": "4",
+          "providerTabId": "561741f2-8832-46c8-a117-784397797c49",
+          "title": "Instagram",
+          "url": "https://www.instagram.com/"
+        }
+      ]
+    },
+    {
+      "timestamp_utc": "2026-11-04T07:47:59.352Z",
+      "timestamp_taipei": "2026-11-04T15:47:59.352000+08:00",
+      "source_line": 10429,
+      "type": "function_call",
+      "call_id": "call_cdbbc52441fe48c281a6e1be0a2fe517",
+      "arguments": {
+        "code": "var igFs=await import('node:fs/promises');var igStudy='C:/Users/Brandon_ChangChien/Documents/Codex/人物試衣間/03_research/ig_feed_study_2026-11-04';await igFs.mkdir(igStudy+'/01_momoko',{recursive:true});await igFs.writeFile(igStudy+'/01_momoko/page.png',await miraIg.screenshot({fullPage:false}));var igFirstDL=await miraIg.playwright.locator('video[src=\"blob:https://www.instagram.com/2f21e589-efe4-4f72-ac78-c53be5be0923\"]').downloadMedia({timeoutMs:20000});nodeRepl.write(igFirstDL);",
+        "title": "保留第一篇可見影片供逐段核對"
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-04T07:47:59.741Z",
+      "timestamp_taipei": "2026-11-04T15:47:59.741000+08:00",
+      "source_line": 10432,
+      "type": "function_call_output",
+      "call_id": "call_cdbbc52441fe48c281a6e1be0a2fe517",
+      "text": "Wall time: 0.3261 seconds\nOutput:\nError: Download 62e4099b-4079-4076-adcb-f142765df520 failed.\nlocator.downloadMedia failed for selector video[src=\"blob:https://www.instagram.com/2f21e589-efe4-4f72-ac78-c53be5be0923\"]\nLocator diagnostics: {\"kind\":\"action_failed\",\"action\":\"downloadMedia\",\"locator\":\"video[src=\\\"blob:https://www.instagram.com/2f21e589-efe4-4f72-ac78-c53be5be0923\\\"]\",\"matchCount\":1,\"matches\":[{\"ariaLabel\":null,\"disabled\":false,\"role\":null,\"tag\":\"video\",\"text\":\"\",\"type\":null,\"visible\":true}],\"visibleCount\":1,\"truncated\":false}"
+    },
+    {
+      "timestamp_utc": "2026-11-04T08:09:25.191Z",
+      "timestamp_taipei": "2026-11-04T16:09:25.191000+08:00",
+      "source_line": 10621,
+      "type": "function_call",
+      "call_id": "call_9b6a1d9df87348d399c2947d49c0588a",
+      "arguments": {
+        "code": "await miraIg.playwright.getByRole('link',{name:'返回',exact:true}).click();nodeRepl.write((await miraIg.playwright.domSnapshot()).slice(0,1100));await igFs.writeFile(igStudy+'/feed_after_review.png',await miraIg.screenshot({fullPage:false}));await miraIg.markDeliverable();",
+        "title": "回到原 IG 首頁並保留研究入口"
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-04T08:09:30.528Z",
+      "timestamp_taipei": "2026-11-04T16:09:30.528000+08:00",
+      "source_line": 10624,
+      "type": "function_call_output",
+      "call_id": "call_9b6a1d9df87348d399c2947d49c0588a",
+      "tool_returned": true
+    },
+    {
+      "timestamp_utc": "2026-11-04T08:13:28.213Z",
+      "timestamp_taipei": "2026-11-04T16:13:28.213000+08:00",
+      "source_line": 10663,
+      "type": "function_call",
+      "call_id": "call_920b3b73eeaa40f29fbfea36cddc4f04",
+      "arguments": {
+        "code": "await cua.listTabs({browser:'iab'});",
+        "title": "核對是否出現重複 IG 分頁"
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-04T08:13:33.049Z",
+      "timestamp_taipei": "2026-11-04T16:13:33.049000+08:00",
+      "source_line": 10666,
+      "type": "function_call_output",
+      "call_id": "call_920b3b73eeaa40f29fbfea36cddc4f04",
+      "text": "Wall time: 4.8168 seconds\nOutput:\n[{\"id\":\"2\",\"providerTabId\":\"f9dfeebe-465b-47ec-880a-56e8a04cbb1e\",\"title\":\"Mira W44 待審企劃\",\"url\":\"file:///C:/Users/Brandon_ChangChien/Documents/Codex/%E4%BA%BA%E7%89%A9%E8%A9%A6%E8%A1%A3%E9%96%93/10_automation/runs/2026-W44/planning/review.html\",\"browserId\":\"2\"},{\"id\":\"1\",\"providerTabId\":\"browser-use:fd1d56b4-3635-403d-aff2-7f9a7bb3fc98\",\"title\":\"Imagine - Grok\",\"url\":\"https://grok.com/imagine/post/1f291b40-ddb4-423e-ac9a-daf8ea5ca766?canvas_id=f040d332-48df-47c4-86d4-28e85c97d5b5\",\"browserId\":\"2\"},{\"id\":\"3\",\"providerTabId\":\"browser-use:89d22014-90e1-4368-adb6-1655a61cd9e8\",\"title\":\"Imagine 代理模式 - Grok\",\"url\":\"https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95\",\"browserId\":\"2\"},{\"id\":\"4\",\"providerTabId\":\"561741f2-8832-46c8-a117-784397797c49\",\"title\":\"Instagram\",\"url\":\"https://www.instagram.com/\",\"browserId\":\"2\"},{\"id\":\"5\",\"providerTabId\":\"336411fe-0829-4185-947d-c4e0ae72239b\",\"title\":\"Instagram\",\"url\":\"https://www.instagram.com/\",\"browserId\":\"2\"}]"
+    },
+    {
+      "timestamp_utc": "2026-11-04T08:15:24.984Z",
+      "timestamp_taipei": "2026-11-04T16:15:24.984000+08:00",
+      "source_line": 10679,
+      "type": "function_call",
+      "call_id": "call_f1663e7ea6864dbb92494b8d8e2ce52b",
+      "arguments": {
+        "code": "await miraDuplicateIg.close();await cua.listTabs({browser:'iab'});",
+        "title": "關閉重複 IG 首頁，保留原分頁"
+      }
+    },
+    {
+      "timestamp_utc": "2026-11-04T08:15:25.126Z",
+      "timestamp_taipei": "2026-11-04T16:15:25.126000+08:00",
+      "source_line": 10682,
+      "type": "function_call_output",
+      "call_id": "call_f1663e7ea6864dbb92494b8d8e2ce52b",
+      "text": "Wall time: 0.0587 seconds\nOutput:\n[{\"id\":\"2\",\"providerTabId\":\"f9dfeebe-465b-47ec-880a-56e8a04cbb1e\",\"title\":\"Mira W44 待審企劃\",\"url\":\"file:///C:/Users/Brandon_ChangChien/Documents/Codex/%E4%BA%BA%E7%89%A9%E8%A9%A6%E8%A1%A3%E9%96%93/10_automation/runs/2026-W44/planning/review.html\",\"browserId\":\"2\"},{\"id\":\"1\",\"providerTabId\":\"browser-use:fd1d56b4-3635-403d-aff2-7f9a7bb3fc98\",\"title\":\"Imagine - Grok\",\"url\":\"https://grok.com/imagine/post/1f291b40-ddb4-423e-ac9a-daf8ea5ca766?canvas_id=f040d332-48df-47c4-86d4-28e85c97d5b5\",\"browserId\":\"2\"},{\"id\":\"3\",\"providerTabId\":\"browser-use:89d22014-90e1-4368-adb6-1655a61cd9e8\",\"title\":\"Imagine 代理模式 - Grok\",\"url\":\"https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95\",\"browserId\":\"2\"},{\"id\":\"4\",\"providerTabId\":\"561741f2-8832-46c8-a117-784397797c49\",\"title\":\"Instagram\",\"url\":\"https://www.instagram.com/\",\"browserId\":\"2\"}]"
+    }
+  ],
+  "desktop_log_excerpts": [
+    {
+      "source_line": 5998,
+      "line": "2026-11-04T07:48:04.795Z info [browser-sidebar-manager] IAB_TAB_ANALYTICS browser tab lifecycle action=opened appBrowserTabCount=5 appBrowserUseTabCount=1 browserTabId=336411fe-0829-4185-947d-c4e0ae72239b conversationId=client-new-thread:4ca6131b-1149-48bd-801e-d4a052c465f1 isBrowserUseTab=false ownerWebContentsId=1 threadBrowserTabCount=5 threadBrowserUseTabCount=1"
+    },
+    {
+      "source_line": 5999,
+      "line": "2026-11-04T07:48:04.839Z info [electron-message-handler] IAB_LIFECYCLE renderer created browser sidebar webview browserTabId=336411fe-0829-4185-947d-c4e0ae72239b conversationId=client-new-thread:4ca6131b-1149-48bd-801e-d4a052c465f1 hostKind=right-panel initialUrl=https://www.instagram.com/ rendererWebContentsId=1 rendererWindowAppearance=primary rendererWindowFocused=false rendererWindowId=1 rendererWindowVisible=true"
+    },
+    {
+      "source_line": 6000,
+      "line": "2026-11-04T07:48:04.839Z info [electron-message-handler] IAB_ADOPTION renderer created adopted webview adoptedWebContentsId=10 browserTabId=336411fe-0829-4185-947d-c4e0ae72239b conversationId=client-new-thread:4ca6131b-1149-48bd-801e-d4a052c465f1 hasInitialUrl=true rendererWebContentsId=1 rendererWindowAppearance=primary rendererWindowFocused=false rendererWindowId=1 rendererWindowVisible=true"
+    }
+  ],
+  "ui_calls_checked": 30,
+  "explicit_createBrowserTab_calls_in_research_interval": 0,
+  "local_automation_config_files": [],
+  "finding": "Duplicate IG created at 15:48:04, before later markDeliverable and user notification report. Download failure preceded creation by about5seconds. Causal provenance remains unproven.",
+  "causal_status": "narrowed_not_reproduced_not_root_cause_confirmed",
+  "current_UI_mutations_during_investigation": 0,
+  "global_notification_settings_changed": false,
+  "new_Mira_media": 0,
+  "database_read_limit": "Supplementary immutable main DB read excludes uncheckpointed WAL; zero results are not used to rule out events."
+}

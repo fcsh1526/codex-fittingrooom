@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M05_L02_exhibit_entry_v1",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W44",
+      "2026-W45"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "進冷氣展館時，白T加一件敞開的灰藍薄襯衫，白色內搭和深藍直褲仍清楚。",
+    "visual_theme": "高雄展館入口的自然招呼與轉身",
+    "selection_rationale": "沿用已確認的W45 M05 L02搭配與展館情境。單畫幅讓觀眾先讀前襟再讀側線，對應目前續做非並排的指示。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "single_shot_performance"
+  },
+  "models": [
+    {
+      "id": "M05",
+      "identity_asset_ids": [
+        "M05_face",
+        "M05_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-005-L02",
+      "model_id": "M05",
+      "wardrobe_summary": "同款白棉短袖T、灰藍薄棉平織長袖襯衫外套敞開、同款深藍直筒長褲、同款白灰低筒球鞋、同款深棕小肩包、細銀耳環",
+      "source_asset_ids": [
+        "L02_first_candidate"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 144,
+    "duration_seconds": 6,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W45-005-L02"
+      ],
+      "frames": [
+        0,
+        144
+      ],
+      "clothing_purpose": "先讀敞開的灰藍前襟與白T，再看轉身時的襯衫側線。保留可讀的完整直褲與鞋包比例。",
+      "clear_read_intervals": [
+        [
+          0,
+          125
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [
+        "L02_first_candidate"
+      ],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "execution_mode": "generate",
+      "camera": "固定；全片幅無反50mm，胸高、水平，單一9:16全身畫幅",
+      "performance": "入口前一腳穩定承重，回應鏡頭旁的同伴。笑意展開，肩膀放鬆，轉向展場入口至多一步並自然收尾。手不整理衣服，包與襯衫跟隨身體。",
+      "source_duration_note": "6秒為編輯目標。實際設定與可用原速時間在執行時記錄。固定機位與一步內動作使用線稿，無跨鏡路徑。"
+    }
+  ],
+  "transitions": [],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M05_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M05_start_v1_face.png",
+      "sha256": "aab41b639568698a3630819201bcdd6a80e2dcd0248f682abc389dbe7a2b838b"
+    },
+    {
+      "id": "M05_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M05_start_v1_full.png",
+      "sha256": "06cd9d7868f38c650662c448318da1a536aec51e68ee19bbb0768a9605da2d8a"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/storyboard.png",
+      "sha256": "d2e423e9f765b3224b7697856781728fc94d92a0995f80f9626b652f8793c6af"
+    },
+    {
+      "id": "L02_first_candidate",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-005/looks/2026-W45-005-L02/reel/2026-W45-005-L02_M05_reel_candidate_A.png",
+      "sha256": "852901fd46e82791751244ae0b166add8b3fd2b3d67d4f3bbfebcd4a9693604d"
+    }
+  ],
+  "approvals": [
+    {
+      "asset_id": "L02_first_candidate",
+      "decision": "approved",
+      "scope": "still",
+      "target_sha256": "852901fd46e82791751244ae0b166add8b3fd2b3d67d4f3bbfebcd4a9693604d",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/user_still_approval.json"
+    },
+    {
+      "asset_id": "board",
+      "decision": "approved",
+      "scope": "storyboard",
+      "target_sha256": "d2e423e9f765b3224b7697856781728fc94d92a0995f80f9626b652f8793c6af",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/user_storyboard_approval.json"
+    }
+  ],
+  "missing_assets": [],
+  "wardrobe_plan_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+  "observed_still_fit": {
+    "width": 941,
+    "height": 1672,
+    "head_top_fraction_approx": 0.067,
+    "shoe_bottom_margin_fraction_approx": 0.039,
+    "adjustment": "固定畫幅且不朝鏡頭靠近，原地轉重心或同深度側移半步，保留頭和鞋。"
+  },
+  "identity_approval_provenance": {
+    "manifest": "02_brand/mira_reference_images.csv",
+    "model": "M05",
+    "status": "approved",
+    "reference_version": "v1",
+    "historical_record": "02_brand/reference_models/reference_start_image_review.md",
+    "note": "Existing production identity pair. Exact original July user wording is unavailable in this record, so no transcript-based receipt is asserted."
+  }
+}

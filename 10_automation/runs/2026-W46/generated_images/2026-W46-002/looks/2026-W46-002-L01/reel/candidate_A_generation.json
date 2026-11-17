@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-12",
+  "week": "2026-W46",
+  "model": "M02",
+  "look_id": "2026-W46-002-L01",
+  "provider": "Codex built-in imagegen",
+  "attempt": 1,
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/2026-W46-002-L01_M02_reel_candidate_A.png",
+  "sha256": "88e56de905dd6fd36a9f517ac8af6d9ea120c165511aefa37bcfd9a841112e5f",
+  "size": [
+    941,
+    1672
+  ],
+  "references": [
+    {
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "role": "exact face and hairstyle",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "role": "body proportions",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    }
+  ],
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/submitted_hero_A_prompt.txt",
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-4c127f90-add0-4096-a557-e8151bbc7dbf.png",
+  "status": "superseded_scene_by_user_2026-11-12",
+  "review": {
+    "identity": "Visually resembles approved M02 v3, tied-back brown hair and recognizable facial features; user final likeness check pending",
+    "framing": "full hair and both loafers visible; person approximately86% image height vs planned74%, closer framing. Fixed camera/no approach in motion; small sideways step must retain shoe safety.",
+    "wardrobe": "white pointed collar cotton shirt, single-fold cuffs, dark indigo straight ankle jeans, black penny loafers, burgundy shoulder bag and silver studs readable. Denim has realistic textile texture without large washed patches.",
+    "scene": "sheltered arcade with glass doorway at screen right; laptop user inside suggests shared workspace, café-like furnishings also present.",
+    "contact": "both shoes grounded in sampled still, shared daylight and shadows",
+    "new_motion": "not submitted; awaiting exact still approval"
+  },
+  "film_plan": "10_automation/runs/2026-W46/planning/M02/editorial_update_2026-11-12/STORYBOARD.md",
+  "supersession": "User requested different walking-to-work scene and overhead planning first; no motion authority for this candidate."
+}

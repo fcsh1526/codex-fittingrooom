@@ -1,0 +1,37 @@
+{
+  "week": "2026-W46",
+  "model": "M01",
+  "look_id": "2026-W46-001-L01",
+  "date": "2026-11-10",
+  "provider": "Codex built-in image generation",
+  "attempt": 2,
+  "operation": "single targeted edit of original candidate for facial identity",
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-8b0a9713-d2ca-46a8-8ae9-36719143d332.png",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A_face_v2.png",
+  "sha256": "c67350ee93034dc742bce52834ddeaa1bb2d30638989190dcb04b3744dceefa5",
+  "width": 941,
+  "height": 1672,
+  "exact_9_16": false,
+  "delivery_target": [
+    1080,
+    1920
+  ],
+  "review": "眉眼、鼻口與下顎輪廓已調整。微笑幅度較小，視線比原圖略朝鏡頭。頭髮、姿勢、服裝、雙鞋及褲腳留白、右側長椅與全身構圖目視大致一致。身份待使用者審查。",
+  "status": "pending_user_visual_approval",
+  "edit_target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A.png",
+  "edit_target_sha256": "ae81ee9389d5dd305bbaa79ed63f3db3918f86bdda49d8b939977eb9abeaf70b",
+  "original_rejection": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/user_candidate_A_rejection_2026-11-10.json",
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/submitted_hero_A_face_v2_prompt.txt",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846",
+      "role": "identity and hairstyle"
+    },
+    {
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4",
+      "role": "body proportion"
+    }
+  ]
+}

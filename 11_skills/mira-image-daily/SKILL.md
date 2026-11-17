@@ -6,7 +6,17 @@ description: >-
 
 # Mira Image Daily
 
+Viewer-first rule: derive missing stills from the selected film plan, not from a fixed two-look edit or a closed method list. Use the versioned project skill as authority over older installed copies. New AI stills still require individual visual approval.
+
+The directing catalog has six editing methods plus two research candidates (user clarification 2026-11-06). Performance improvements belong within those methods. Derive the starting pose, gaze, expression, framing and usable movement space from the intended performance; do not reduce all sources to neutral standing or constrain the whole video to the still's full-person framing. Full-person source and styling-proof inventory requirements remain in force.
+
+For motivated performance/reference work, read the project's `11_skills/mira-reel-director/references/performance-and-reference.md`. The starting photo must support the intended action (for example, pavement/curb/lane relationships for crossing). Review actual subject scale, initial gaze/expression and occupied hands against the film plan, disclose deviations, and use the same exact approved image/settings for a prompt comparison. Film-test A/B conditions are distinct from Carousel A/B/C surface roles.
+
+For Reel still planning after 2026-10-30, also read the project's `11_skills/mira-reel-director/references/production-checkpoints.md`. Derive framing from the selected viewer purpose and actual edit layout; compare subject scale and head/shoe/bag safety across panels or joins before generating motion. Current explicit user authorization governs review scope; waived routine approvals do not waive image or motion quality checks.
+
 Use this skill for Mira image generation and Reel source planning, not for Canva layout. Mira is a fast-updating AI fashion magazine brand using global fashion trends, then translating them into wearable daily outfit images. Read `10_automation/CANONICAL_WORKFLOW.md`, `CURRENT_STATUS.md`, and the active week's `publishing_structure.md` before production; read `09_sops/mira_reel_production_sop.md` for video work.
+
+For whole-Reel editorial planning, connected storyboards and camera/character route previs, first use the project's `11_skills/mira-reel-director/SKILL.md`. Its approved film plan determines missing image requirements; this skill handles the identity/outfit/surface execution. Explicitly approved series exceptions follow the canonical scope rather than being forced into the standard two-look template.
 
 ## Required Project Context
 
@@ -42,7 +52,7 @@ references/reference-start-images.md
 8. If A has only one correctable defect, make one targeted edit to the same Hero. Do not create a competing A/B version. The accepted A becomes the session lock.
 9. Carousel always requires B Scene Application and C Accessory Detail after A passes. B shows how the exact outfit works in its intended occasion through another corner, wider environmental view, or suitable setting. C focuses on the styling accessory while retaining enough garment context. Reel also needs one usable styling-proof view per look; review existing material for vertical composition and clarity before generating a missing view.
 10. Save accepted outputs under the surface-specific job folder and fill the review sheet.
-11. For `reel`, read `reel_frame_targets.json` and generate A directly at 9:16 for 1080x1920 delivery with the complete outfit readable. Record actual pixel dimensions separately. Final packaging creates five theme/model Reels; each keeps one model across two looks and uses four full/proof views. Do not require all Carousel frames in a Reel or compile different models together. Prepare linked records with `10_automation/prepare_reel_production.py`; static approval does not establish dynamic identity consistency.
+11. For `reel`, read `reel_frame_targets.json` and generate A directly at 9:16 for 1080x1920 delivery with the complete outfit readable. Record actual pixel dimensions separately. Final packaging follows each approved film plan: one model with one, two or multiple looks, using only the full/proof views the film needs. Weekly five-Reel/ten-look inventory is a separate production baseline. Do not require all Carousel frames in a Reel or compile different models together. Prepare linked records with `10_automation/prepare_reel_production.py`; static approval does not establish dynamic identity consistency.
 12. For `carousel`, read `canva_slot_targets.json`, prepare all three accepted assets for the assigned Canva master, and run `prepare_canva_ready_assets.py` after A/B/C pass.
 13. If the same scene is needed on both surfaces, keep identity, outfit, scene, and photographic treatment consistent but create a separate surface-specific composition.
 
@@ -95,7 +105,7 @@ For current-contract weeks with `weekly_look_plan.csv`, always pass `--look-id`;
 ## Generation Rules
 
 - Use global trend input, but translate it into a wearable daily outfit image.
-- One theme keeps one assigned model across exactly two looks. Each changed outfit starts a separate look-specific Hero; never treat another look's Hero as its session lock.
+- The weekly inventory baseline is two looks per assigned model; a film may use one, two or multiple looks according to its approved viewer purpose. Do not force all inventory views into every film. Each changed outfit starts a separate look-specific Hero; never treat another look's Hero as its session lock.
 - Use the assigned internal model only: `M01`, `M02`, `M03`, `M04`, or `M05`.
 - Use the model's approved face and full-body reference start images as identity anchors.
 - Do not publish or render model IDs, names, labels, prompt notes, reference-image metadata, or numeric true ages.

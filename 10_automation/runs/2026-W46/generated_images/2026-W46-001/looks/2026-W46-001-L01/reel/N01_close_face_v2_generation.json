@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "shot": "N01",
+  "look_id": "2026-W46-001-L01",
+  "provider": "Codex built-in image generation",
+  "attempt": 2,
+  "operation": "one facial identity correction",
+  "edit_target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_close_candidate_A.png",
+  "edit_target_sha256": "75db946b5bde7d49965df3639cd34853560bfc879b28095337f63c628e2aef96",
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-ec397f2a-ff18-4128-aa50-f15f3c87e157.png",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_close_face_v2.png",
+  "sha256": "c5f488605d13b1d2c52afc0bca9b3155e8a915f951e21bddc81acb7a5e82ba3e",
+  "width": 941,
+  "height": 1671,
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/submitted_N01_close_face_v2_prompt.txt",
+  "reference_order": [
+    "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_close_candidate_A.png",
+    "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A_front_v3.png",
+    "02_brand/reference_models/M01_start_v4_face.png"
+  ],
+  "review": "一次針對身份的局部修正。嘴唇已閉合，眼神、鼻口和下顎有調整，視線略更靠近正面。構圖、衣物、手包及環境目視近似原圖。身份是否回到 M01 待使用者確認。",
+  "status": "pending_user_visual_approval"
+}

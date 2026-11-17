@@ -1,0 +1,52 @@
+{
+  "video_asset_id": "f6443725-886b-410e-8c73-b929e8f73b56",
+  "source_sha256": "2f6638a568ae8537399305df7969e42837c138f4248bb0b16ede779f485942ee",
+  "silent_review_sha256": "222b57b640c84eb7fcbe2f5811859726728241b97a49d324e1c7dafb229c4eba",
+  "width": 720,
+  "height": 1280,
+  "fps": "24/1",
+  "frame_count": 145,
+  "duration_seconds": 6.041667,
+  "audio_present_in_source": true,
+  "silent_review_audio": false,
+  "full_file_decode": "completed",
+  "silent_remux_frame_and_timing_hashes_identical": true,
+  "retiming": false,
+  "cuts": false,
+  "baked_text_added": false,
+  "sampled_seconds": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0
+  ],
+  "continuous_human_visual_review": false,
+  "user_clip_acceptance": null,
+  "publication_approval": null,
+  "limits": "Technical decode and sampled stills only; not physical gait/hand/identity or appeal certification.",
+  "native_playback_observation": {
+    "rate": 1,
+    "loop": true,
+    "timed_screenshot_samples": 98,
+    "sample_time_min": 0.002562,
+    "sample_time_max": 6.024602,
+    "continuous_human_visual_review": false
+  },
+  "assistant_sampled_observations": {
+    "performance": "Recognizes friend, opens right arm/palm around2–3s, small step/turn then lowers hand; lively smile is visible.",
+    "wardrobe": "Moss-green top, cocoa-brown trousers, cream shoes and brown bag retained in sampled frames.",
+    "framing": "Complete head and shoes remain visible in inspected samples; no distant-to-large-head approach observed.",
+    "movement_variant": "Movement is mostly a small step and turn toward camera-left, rather than a sustained approach.",
+    "known_deviation": "Diagonal pavement sun patches become more pronounced in the middle; retain for user judgment, not hidden with edits.",
+    "limits": "No certification of every support-foot contact, wrist trajectory, exact scale or continuous visual comfort."
+  }
+}

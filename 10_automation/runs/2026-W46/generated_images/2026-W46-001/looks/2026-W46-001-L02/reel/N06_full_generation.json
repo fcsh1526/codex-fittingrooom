@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "model": "M01",
+  "look_id": "2026-W46-001-L02",
+  "shot": "N06",
+  "provider": "Codex built-in image generation",
+  "attempt": 1,
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L02/reel/2026-W46-001-L02_M01_N06_full_candidate_A.png",
+  "sha256": "4a1691e40d864c628448b420ea7edc0d169ce5c9f3c01f3096ff1284567d1a49",
+  "width": 941,
+  "height": 1672,
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-3932bf06-b155-4be7-be9d-755d2a8f5822.png",
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L02/reel/submitted_N06_full_prompt.txt",
+  "references": [
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_user_selected.png",
+      "role": "user-selected identity for current film"
+    },
+    {
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "role": "body proportions"
+    }
+  ],
+  "status": "pending_user_visual_approval",
+  "review": "全身頭髮與鞋完整，深灰藍短袖、米白小腿中段A字裙與酒紅丁字鞋可辨。暗灰包在畫面右側，書店窗景可辨。畫高約84%，較原定75%近，轉身時需保留鞋與裙擺邊界。身份依使用者選定半身參照，待個別視覺審查。"
+}

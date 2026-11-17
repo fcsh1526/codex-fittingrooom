@@ -1,0 +1,11 @@
+{
+  "actor": "user",
+  "context": "Direct reply to the displayed framing_v2 full-person candidate and question whether identity, outfit and proportions may be retained.",
+  "recorded_at": "2026-10-28",
+  "decision": "approved",
+  "quote": "ok",
+  "limits": "Exact full-person still only, including disclosed framing/light deviations. Not motion, exact-world/camera adherence, any future derivative or publication approval.",
+  "target_sha256": "e4f2e8b1e4aba05d295d21f3987d01d65ccdf94a263de096317732ae7a55a3c7",
+  "asset_path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_candidate_A_framing_v2.png",
+  "scope": "still"
+}

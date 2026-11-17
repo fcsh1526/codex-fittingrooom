@@ -1,0 +1,12 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "ok",
+  "recorded_at": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "context": "Direct reply to M02 trial03 video preview plus M01 L01 still link and explicit request to confirm new still before video. Accepted both displayed scoped items.",
+  "scope": "exact M02 trial03 video acceptance",
+  "asset_path": "10_automation/runs/2026-W45/reels/M02/trial_03/M02_W45_trial03_silent_review.mp4",
+  "target_sha256": "bf1828d34ce61ac76e82d1573a49e85d8403d5a5ae9be9bb8be46c16fa114b67",
+  "limits": "No IG publication or external delivery request; not proof of continuous normal-speed viewing self-report, zero physical errors, exact path compliance or repeatability."
+}

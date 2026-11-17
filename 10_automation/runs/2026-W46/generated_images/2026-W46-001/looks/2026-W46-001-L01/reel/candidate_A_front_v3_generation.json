@@ -1,0 +1,35 @@
+{
+  "week": "2026-W46",
+  "model": "M01",
+  "look_id": "2026-W46-001-L01",
+  "date": "2026-11-10",
+  "provider": "Codex built-in image generation",
+  "attempt": 3,
+  "operation": "redesigned frontal opening using approved v4 full-body reference as edit base",
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-5d226ceb-b0fc-47ac-858d-151bc3871921.png",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A_front_v3.png",
+  "sha256": "b013414b18add2e5cf22f24abae89acbb7094efe83199ae1f8b526242a178966",
+  "width": 941,
+  "height": 1672,
+  "exact_9_16": false,
+  "delivery_target": [
+    1080,
+    1920
+  ],
+  "review": "與核准 v4 全身參照同為正面、表情平靜，整體更接近原參照，身份仍由使用者目視確認。頭髮與雙鞋完整，兩鞋丁字扣帶及褲腳留白可辨，右側長椅有座位。站姿較直，包改到畫面左側，窗框和背景重新生成。轉頭微笑排在動態內，尚未製作。",
+  "status": "pending_user_visual_approval",
+  "prior_rejection": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/user_candidate_A_face_v2_rejection_2026-11-10.json",
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/submitted_hero_A_front_v3_prompt.txt",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4",
+      "role": "approved frontal full-body edit base for identity, head pose and proportions"
+    },
+    {
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846",
+      "role": "approved close-up facial identity reference"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+l: /c/1796751d-241a-41e8-b09a-1a2b6ca35119
+    - generic: Grok Heavy NSFW Scale Comparison
+  - link "全文翻译推文":
+    - /url: /c/25f5ba32-74d6-44c8-94d9-b480d1371a8a
+    - generic: 全文翻译推文
+  - link "Translate full text from X post":
+    - /url: /c/fa82df71-c0e1-43e4-9203-766a5844f306
+    - generic: Translate full text from X post
+  - link "Capturing Skills Consolidation":
+    - /url: /c/ac1f5d95-0abb-40e0-9c40-80a230ecda44
+    - generic: Capturing Skills Consolidation
+  - link "006-Mira (長期）":
+    - /url: /c/6b6344c4-cdf3-45f9-8faf-7a1a6ab4862e
+    - generic: 006-Mira (長期）
+  - link "翻譯 X 推文全文":
+    - /url: /c/7b97a4d5-19a3-479c-a4be-1f0a3d20108c
+    - generic: 翻譯 X 推文全文
+  - link "讀取 Git repository":
+    - /url: /c/b4bc8a90-13a2-44b7-b8b4-0440081f32e4
+    - generic: 讀取 Git repository
+  - link "Professional Portrait Photographer Skill":
+    - /url: /c/b7c49623-ae9f-4297-adf0-a1e35f511a3c
+    - generic: Professional Portrait Photographer Skill
+  - button "查看全部"
+- button "專案" [expanded]:
+  - generic: 專案
+- button "所有專案":
+- button "新增專案":
+- list:
+  - button "ChatGPT Mira IG 時尚雜誌":
+    - generic: ChatGPT Mira IG 時尚雜誌
+  - list:
+    - link "W45 M02 L01 trial03 修正版影片製作":
+      - /url: /imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=0b3034f4-abed-4c70-bcc4-d228fccb423a
+      - generic: W45 M02 L01 trial03 修正版影片製作
+    - link "Mira IG 時尚雜誌專用畫布確認":
+      - /url: /imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95
+      - generic: Mira IG 時尚雜誌專用畫布確認
+  - button "006-Mira":
+    - generic: 006-Mira
+  - button "Role 201畫布":
+    - generic: Role 201畫布
+  - button "虛擬網紅":
+    - generic: 虛擬網紅
+  - button "未命名專案":
+    - generic: 未命名專案
+  - button "更多":
+    - generic: 更多
+- button "只製作W45 M02 L01 trial03這一支修正版候選影片，在同一Mira畫布；使用者已核准較"
+- button "Mira IG 時尚雜誌專用畫布確認"
+- button "主工作區"
+- button "Video Prompt for Static Woman with Mug"
+- button "Video Prompt for Woman Turning with Mug"
+- button "所有媒體":
+- button "關閉":
+- paragraph: 為您的團隊引入 Grok
+- paragraph: 邀請隊友在 Grok 中分享專案並共同合作。
+- button "邀請隊友":
+  - generic: 邀請隊友
+- button "帳號選單，Brandon Chang Chien":
+  - generic: Brandon Chang Chien
+- main:
+  - alert:
+    - generic: 無法載入聊天記錄。 hydrateCanvasChat timed out after 15000ms
+    - button "重試"
+  - generic: "只製作W45 M02 L01 trial03這一支修正版候選影片，在同一Mira畫布；使用者已核准較近原圖及縮短走近幅度；現改成認出鏡頭前的你、笑開並短步靠近；取消前兩支的外伸迎接手臂。這是新表演設計，只做一次。不要沿用舊prompt或選取殘留。先實際核對三張圖和目前工具支援，內容不符、額度不足或參數不支援就停止回報，不替換圖、不加購或改用其他服務。僅執行一次，不自行重試、不出新照片、不改刪舊媒體、不合片。 精確輸入： first_frame_asset_id: \"124e6ebc-f0aa-4d0a-bf05-4cfca6e884be\" asset_ids: [\"9db0bc5b-49ff-4357-a832-6c73a4d9ba8e\",\"6d1e317a-1ee3-4512-a308-c1fd4147aef5\"] duration: \"6\" resolution_name: \"720p\" aspect_ratio: \"9:16\" 不設last_frame_asset_id，不設keyframes。 first為剛上傳的苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕肩包，M02低棕髮髻，咖啡店騎樓木長凳旁，人物約81%畫高。不是遠景58%修正版，不是舊紫色過街圖。face/full只鎖已核准M02身份與普通比例，不複製棚拍服裝、站姿或背景。不要以畫布殘留的紫外搭影片作輸入。 請將PROMPT_BEGIN到PROMPT_END英文逐字傳作影片prompt，不自行擴寫或另加手勢／走路。標記不要傳入。 PROMPT_BEGIN The viewer is the friend she has come to meet at this cafe. Begin from the exact approved first image. She naturally finds the camera lens with her eyes and turns her face squarely toward it. Recognition brightens her smile into a spontaneous happy laugh. In one continuous six-second real-time shot, her upper body responds with a lively, easy forward inclination. She takes one short, comfortable half-step toward the lens and settles into grounded balance, still smiling directly at the viewer. Her arms make only a natural low counter-swing beside her hips; this greeting is carried by eye contact, expression and her small approach. Keep her chest facing the camera and let her breathing and smile remain alive after she settles. Keep her complete head and both shoes visible, with only a slight distance change and normal head-to-body proportions. Preserve the exact M02 face, low brown bun, moss-green fine-knit top, cocoa-brown straight trousers, cream shoes and dark-brown left-shoulder bag. Locked chest-height 50mm view; preserve the cafe, bench, paving and original daylight. No outstretched greeting arm, wave, side turn, camera move or cut. PROMPT_END 音訊僅在真有控制時關閉；若仍帶AAC如實回報，不因音訊重生。完成保留唯一原片，列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、模型版本、剩餘額度無可讀欄位就寫unknown。代理回報與抽樣動作分開，不宣告步態、手部、尺度或成片通過。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 核對結果（執行前）
+  - list:
+    - text: first_frame
+    - code: 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be
+    - text: ：苔綠圓領薄長袖、可可棕直褲、米白鞋、深棕左肩包、M02低棕髮髻、咖啡店騎樓木長凳旁、人物約八成畫高。符合核准近景描述，非遠景58%、非舊紫色過街圖。
+    - text: face
+    - code: 9db0bc5b-49ff-4357-a832-6c73a4d9ba8e
+    - text: ：M02身份鎖（低棕髻、笑臉），棚拍灰底，僅作身份。
+    - text: full
+    - code: 6d1e317a-1ee3-4512-a308-c1fd4147aef5
+    - text: ：M02普通比例鎖，棚拍白上衣深灰褲，僅作身份／比例，不複製服裝站姿背景。
+    - text: 工具支援：
+    - code: imagine_reference_to_video
+    - text: 接受 first_frame_asset_id、asset_ids×2、duration=6、resolution_name=720p、aspect_ratio=9:16；不設 last_frame／keyframes 可執行。內容與參數相符，執行一次。
+  - separator
+  - paragraph:
+    - strong: 執行報告（W45 M02 L01 trial03 修正版候選・唯一原片）
+  - table:
+    - rowgroup:
+      - row "項目 實際值":
+        - columnheader "項目"
+        - columnheader "實際值"
+    - rowgroup:
+      - row "first_frame_asset_id 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be":
+        - cell "first_frame_asset_id"
+        - cell "124e6ebc-f0aa-4d0a-bf05-4cfca6e884be":
+          - code: 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be
+      - row "asset_ids [\"9db0bc5b-49ff-4357-a832-6c73a4d9ba8e\",\"6d1e317a-1ee3-4512-a308-c1fd4147aef5\"]":
+        - cell "asset_ids"
+        - cell "[\"9db0bc5b-49ff-4357-a832-6c73a4d9ba8e\",\"6d1e317a-1ee3-4512-a308-c1fd4147aef5\"]":
+          - code: "[\"9db0bc5b-49ff-4357-a832-6c73a4d9ba8e\",\"6d1e317a-1ee3-4512-a308-c1fd4147aef5\"]"
+      - row "duration 請求／接受 \"6\" → 接受":
+        - cell "duration 請求／接受"
+        - cell "\"6\" → 接受":
+          - code: "\"6\""
+          - text: → 接受
+      - row "resolution_name \"720p\" → 接受":
+        - cell "resolution_name"
+        - cell "\"720p\" → 接受":
+          - code: "\"720p\""
+          - text: → 接受
+      - row "aspect_ratio \"9:16\" → 接受":
+        - cell "aspect_ratio"
+        - cell "\"9:16\" → 接受":
+          - code: "\"9:16\""
+          - text: → 接受
+      - row "last_frame_asset_id 未設":
+        - cell "last_frame_asset_id"
+        - cell "未設"
+      - row "keyframes 未設":
+        - cell "keyframes"
+        - cell "未設"
+      - row "影片 UUID 96c27877-bb44-4bb5-b66a-1fd78bcda5d6":
+        - cell "影片 UUID"
+        - cell "96c27877-bb44-4bb5-b66a-1fd78bcda5d6":
+          - code: 96c27877-bb44-4bb5-b66a-1fd78bcda5d6
+      - row "實際時長 6.041667 s":
+        - cell "實際時長"
+        - cell "6.041667 s"
+      - row "實際像素 720 × 1280":
+        - cell "實際像素"
+        - cell "720 × 1280"
+      - row "音軌 有 AAC（無音訊控制參數，未關閉，如實保留）":
+        - cell "音軌"
+        - cell "有 AAC（無音訊控制參數，未關閉，如實保留）"
+      - row "是否原文傳入 是（PROMPT_BEGIN–END 英文逐字，無擴寫、無加手勢／走路、無標記）":
+        - cell "是否原文傳入"
+        - cell "是（PROMPT_BEGIN–END 英文逐字，無擴寫、無加手勢／走路、無標記）"
+      - row "seed unknown":
+        - cell "seed"
+        - cell "unknown"
+      - row "模型版本 unknown":
+        - cell "模型版本"
+        - cell "unknown"
+      - row "剩餘額度 unknown":
+        - cell "剩餘額度"
+        - cell "unknown"
+  - paragraph: 唯一原片已保留，未重試、未出新照片、未改動舊媒體、未合片。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

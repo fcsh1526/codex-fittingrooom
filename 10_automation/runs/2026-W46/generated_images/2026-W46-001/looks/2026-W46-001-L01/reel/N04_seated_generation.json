@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "model": "M01",
+  "look_id": "2026-W46-001-L01",
+  "shot": "N04",
+  "provider": "Codex built-in image generation",
+  "operations": [
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N04_seated_candidate_A.png",
+      "sha256": "a0bdc9777a9681e58b115ed823988f879a7ebdcac6e0f959a2c819e4b01dd371",
+      "width": 941,
+      "height": 1672,
+      "status": "qa_rejected_bag_side",
+      "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-3782ae32-60be-4dea-97ff-8122c826ccff.png"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N04_seated_bag_v2.png",
+      "sha256": "8116bee0d610fc54fbd488a50e2934415f42169a8ac278b859fe5ea3c76f2dfc",
+      "width": 941,
+      "height": 1672,
+      "status": "pending_user_visual_approval",
+      "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-4081dbbc-4eae-4e1d-a2d4-606b9eca4e8f.png"
+    }
+  ],
+  "references": [
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_user_selected.png",
+      "role": "user-selected current identity and wardrobe lock"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/seated_reference_f132.png",
+      "role": "preceding seated pose, scene and lighting"
+    }
+  ],
+  "review": "坐姿到腿上，頭髮、雙肩、雙手與衣物可讀。原圖肩包在畫面右側，被 QA 退回；已作一次修正移至左肩／身側，和 S01 接續。身份以使用者選定 N01 圖為參照，臉部與坐姿仍待個別審查。此鏡準備讓她坐穩後稍前傾、笑著回應朋友。",
+  "current_candidate": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N04_seated_bag_v2.png",
+  "status": "pending_user_visual_approval"
+}

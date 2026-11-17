@@ -1,0 +1,67 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "好",
+  "recorded_at": "2026-11-10",
+  "timezone": "Asia/Taipei",
+  "scope": "W46 v1 企劃與五支分鏡，接續第一張 M01 L01 Reel 全身候選圖",
+  "approval_limits": "候選圖仍須逐圖視覺審查；未取得動態或發布核准",
+  "artifacts": [
+    {
+      "path": "10_automation/runs/2026-W46/publishing_structure.md",
+      "sha256": "ca881d9e9b177ed023323e2f5c299aa8082ed23fc4791698aa61c051c4eeb072"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/weekly_content_packet.csv",
+      "sha256": "023a5b2ba37917807c0e962aa970eb6e0b0b3baeaa848a3818f8fb6f8af144e0"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/weekly_look_plan.csv",
+      "sha256": "8254eec38caa854ba307024743ed9fb3e0063dfa4acd4f114b7cedc1f9abd096"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/asset_requirements.csv",
+      "sha256": "7380f75f1eb75879b06ac2d3b358f377a02722e51038cb38acb2b2b82ee4ebec"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M01/production_plan.json",
+      "sha256": "9269e830d3e2d856e74ff2beff619f4dcad008a46268eeebad72070124ffadb1"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/production_plan.json",
+      "sha256": "587460e067b7b42e9f6719dec9c3a43c8c62ffc5e782be1d62696593ed890f3a"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M03/production_plan.json",
+      "sha256": "aec897fb5847602979fd2dfa428a0ae73d01469c7e6e1968446811c6f73e23af"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M04/production_plan.json",
+      "sha256": "906ebcf2852a81336689c6b2051cda0b2705c0de27a8edb97146ff97f18ce10e"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M05/production_plan.json",
+      "sha256": "2c8aa88384d991e4d66031b69bd1473f5fda104ffb0c5cb2482aa8c96c1d837e"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M01/storyboard.png",
+      "sha256": "8255eec0e87904d1ce186a66b7ef77c3100ae3473388beb8dfbc28f6e80481fe"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/storyboard.png",
+      "sha256": "acb0af693d3bd12cd5479fcd693b77e7ccbeee455ffe4449c0dab5e1c1d10b9b"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M03/storyboard.png",
+      "sha256": "db4652d5db516eeedd9530cea5e37e37aefc322e6ef68efa1bb2eb332e6d35ee"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M04/storyboard.png",
+      "sha256": "21efe503cbea6650c74faf20f96286d9956503df4915b5ad982ec816ed0e369d"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M05/storyboard.png",
+      "sha256": "da7b8f739a61cd7d660cc8cd48c4b6871f360bf812dcf51d5905c2ef88b67aaf"
+    }
+  ]
+}

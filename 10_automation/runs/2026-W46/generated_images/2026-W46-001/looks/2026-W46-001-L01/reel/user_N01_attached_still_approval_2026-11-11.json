@@ -1,0 +1,18 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "still",
+  "quote": "由這張開始好了",
+  "recorded_at": "2026-11-11",
+  "target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_user_selected.png",
+  "target_sha256": "055468bada65947dd046b80d58e94d2d329ce099f5f3232b9b8ca7f7f02183f2",
+  "attached_source_name": "codex-clipboard-507b5a04-6221-4929-ba2e-3f04bf65d4c4.png",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "pixel_identical_to_original_N01": true,
+  "original_N01": "2026-W46-001-L01_M01_N01_close_candidate_A.png",
+  "context": "使用者隨附精確圖片選作 N01 開場，優先於此圖較早的身份退件；其他版本回饋保留。",
+  "limits": "Exact N01 starting still selection; motion and full-film acceptance remain separate."
+}

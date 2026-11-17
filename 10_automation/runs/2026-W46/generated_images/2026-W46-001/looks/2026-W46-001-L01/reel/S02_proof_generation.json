@@ -1,0 +1,30 @@
+{
+  "week": "2026-W46",
+  "model": "M01",
+  "look_id": "2026-W46-001-L01",
+  "shot": "S02",
+  "date": "2026-11-10",
+  "provider": "Codex built-in image generation",
+  "authorization_quote": "繼續",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_S02_proof_candidate.png",
+  "sha256": "d1afa3335a5aa30c20855b1afbda1fb5e0769e5e6b56f4d4da7c26564e0754db",
+  "width": 941,
+  "height": 1672,
+  "exact_9_16": false,
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-3016f352-e1a0-4ea1-a111-3211716cfc3e.png",
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/submitted_S02_proof_prompt.txt",
+  "source_clip": {
+    "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/source.mp4",
+    "sha256": "ba30f3caa2a6e759c8b83a83f11def52b8306623c31968988d40d0bee35ee33f"
+  },
+  "continuity_reference": {
+    "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/seated_reference_f132.png",
+    "scope": "S02 continuity reference only",
+    "time_seconds": 5.5,
+    "frame_index": 132,
+    "sha256": "8e58e6236daec786708fbe710d621f1ec82299b32be60e6a29922c212f482226"
+  },
+  "role": "S02 starting still and Reel styling proof candidate",
+  "status": "pending_user_visual_approval",
+  "review": "依 S01 5.50 秒影格重構膝至地面近景。兩腳順同一斜向接地，近腳略前，兩鞋直帶與橫帶清楚，近側外扣清楚，遠側外扣受角度遮住。褲腳、木椅與磨石地面接近參照，近鞋鞋跟輪廓比來源更方，接點需檢查。S01 抽格可見後段多出細項鍊，S02 景別不含上半身；S01 仍待原速目視。"
+}

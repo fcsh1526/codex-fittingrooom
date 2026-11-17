@@ -1,0 +1,37 @@
+{
+  "week": "2026-W46",
+  "model": "M01",
+  "look_id": "2026-W46-001-L01",
+  "date": "2026-11-10",
+  "provider": "Codex built-in image generation",
+  "attempt": 1,
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-aef78a67-2028-4301-b0ad-2274602734af.png",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A.png",
+  "sha256": "ae81ee9389d5dd305bbaa79ed63f3db3918f86bdda49d8b939977eb9abeaf70b",
+  "size_bytes": 2280099,
+  "width": 941,
+  "height": 1672,
+  "exact_9_16": false,
+  "aspect_deviation_percent": 0.0532,
+  "delivery_target": [
+    1080,
+    1920
+  ],
+  "framing": "composed directly as vertical 9:16, original bytes retained",
+  "review": "頭髮、雙腳完整。鞋背直帶、橫帶、外側扣和褲腳留白均可辨認。右側長椅清楚，臉已轉向畫面右側、微笑已可見，起始表情較線稿更進一步。人物約佔畫高 83%，較約 74% 線稿近，鞋底下方約留 6%，坐下時的頭腳與手包空間需實際驗證。",
+  "status": "pending_user_visual_approval",
+  "authorization": "10_automation/runs/2026-W46/approvals/user_planning_approval_2026-11-10.json",
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/submitted_hero_A_prompt.txt",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846",
+      "role": "identity and hairstyle"
+    },
+    {
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4",
+      "role": "body proportion"
+    }
+  ]
+}

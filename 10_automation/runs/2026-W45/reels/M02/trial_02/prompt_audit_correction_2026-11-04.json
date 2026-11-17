@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "expected_video_asset_id": "7c57fa0e-aa5c-4c36-84fa-c84cba31c58a",
+  "observed_post_url": "https://grok.com/imagine/post/7c57fa0e-aa5c-4c36-84fa-c84cba31c58a?canvas_id=f040d332-48df-47c4-86d4-28e85c97d5b5",
+  "visible_prompt": "The camera is the friend she has come to meet. She recognizes the viewer directly through the lens, and her existing smile brightens into a spontaneous, happy laugh. One continuous six-second real-time shot, starting from the exact approved first image.\n\n\n\n\nKeep her face and chest oriented toward the camera, with her eyes meeting the lens throughout the greeting. Her shoulders move easily while remaining front-oriented. She opens her free right arm in a relaxed welcome addressed to the viewer, with an easy elbow and open palm. Her bag stays on her left shoulder. She takes just one small, relaxed half-step forward toward the viewer, then settles with a natural weight transfer. The greeting hand lowers comfortably while she keeps smiling at the lens. There is no friend or attention target beside the camera; she does not turn or step sideways.\n\n\n\n\nKeep her distance change slight, her complete head and both shoes inside the frame, and normal consistent head-to-body proportions. Locked chest-height 50mm camera, no zoom, pan or orbit. Preserve the exact face, low brown bun, moss-green fine-knit long-sleeve top, cocoa-brown straight trousers, cream shoes and dark-brown shoulder bag. Preserve the cafe windows, bench, rigid paving and existing daylight. Grounded shoe contacts, responsive cloth and ordinary live-action tempo. No continuous walking, repeated wave, clothing-touch gesture, internal cut, slow motion, text or logos.",
+  "matches_frozen_trial02": true,
+  "media": [
+    {
+      "duration": 6.041667,
+      "rate": 1,
+      "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/7c57fa0e-aa5c-4c36-84fa-c84cba31c58a/generated_video.mp4?cache=1"
+    },
+    {
+      "duration": 6.041667,
+      "rate": 1,
+      "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/7c57fa0e-aa5c-4c36-84fa-c84cba31c58a/generated_video.mp4?cache=1"
+    },
+    {
+      "duration": 6.041667,
+      "rate": 1,
+      "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/7c57fa0e-aa5c-4c36-84fa-c84cba31c58a/generated_video.mp4?cache=1#t=0.001"
+    }
+  ],
+  "previous_audit_actual_post_url": "https://grok.com/imagine/post/f6443725-886b-410e-8c73-b929e8f73b56?canvas_id=f040d332-48df-47c4-86d4-28e85c97d5b5",
+  "correction": "Prior audit captured trial01 URL and prompt, not trial02. Withdraw claimed trial02 prompt mismatch; current exact trial02 URL, media and visible prompt agree. This does not expose internal engine processing or approve the film."
+}

@@ -1,0 +1,44 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "W44 v2 editorial series, ten complete looks, line storyboards and necessary schematic previs; proceed to first starting-image candidate",
+  "quote": "ok",
+  "recorded_at": "2026-10-28",
+  "timezone": "Asia/Taipei",
+  "context": "Direct reply to the source-corrected v2 proposal and review.html; original request required confirmation before generating starting images.",
+  "artifacts": [
+    {
+      "path": "10_automation/runs/2026-W44/planning/review.html",
+      "sha256": "f73d9532f39e6b53ac7dde5834b5ceb72cf0c5b9e2838edb0f24e442513688ab"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/planning/series_proposals.json",
+      "sha256": "ffc4a05c1ef13f3602bf1a5ea0c531c973fbb0b5cbc738e96518d2c2e31375e9"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/planning/shared_space.json",
+      "sha256": "610597d9dc2cf50ce0b3e4105161829a79e2641b138deb1284489a5a062f84ae"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/planning/series_01_storyboard.png",
+      "sha256": "745ea40e4da1eab02554a45178f974124fcfb12471187fd42b8b9c82334b0379"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/planning/series_02_storyboard.png",
+      "sha256": "6c1e996b2bdecef9a8c4b7e864f336c3a6d2acc968c996f0807e36ea98da93c0"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/planning/series_03_storyboard.png",
+      "sha256": "aa4b52f91a7a4c64d794c33e97f4bd071a042658adf49ed36c696471cdd6d20b"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/planning/series_04_storyboard.png",
+      "sha256": "ffc751a39f080c7251d1c2f506d910d199c1a725faec34fd8a7de2a479f2525a"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/planning/series_05_storyboard.png",
+      "sha256": "9045470f32d1d57047ce0da23b89c70505fe2babb177e0c4bbf236b1ac91bf97"
+    }
+  ],
+  "limits": "Not approval of ungenerated stills, actual camera-path reproduction, dynamic QA, finished films or publication. User continuous-playback self-report unknown."
+}

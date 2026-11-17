@@ -1,0 +1,15 @@
+{
+  "unblended_output_frames_checked": 228,
+  "scale_for_comparison": [
+    180,
+    320
+  ],
+  "A_source_frame_mapping": "output[0,114)=A[12,126)",
+  "B_source_frame_mapping": "output[132,246)=B[18,132)",
+  "A_mean_MAD": 0.531339704990387,
+  "A_max_MAD": 0.6097627282142639,
+  "B_mean_MAD": 0.5750619173049927,
+  "B_max_MAD": 0.7607060074806213,
+  "outside_join_mapping_check": "passed within encoder-loss tolerance",
+  "does_not_certify": "Full-resolution identity, hand/foot physics, continuous visual QA or viewing comfort."
+}

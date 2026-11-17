@@ -1,0 +1,67 @@
+{
+  "M01": {
+    "status": "incomplete",
+    "ready_for_generation": false,
+    "errors": [],
+    "timeline": {
+      "frame_count": 246,
+      "overlap_frames": 18,
+      "clear_read_frames_by_shot": {
+        "S01": 114,
+        "S02": 114
+      }
+    }
+  },
+  "M02": {
+    "status": "incomplete",
+    "ready_for_generation": false,
+    "errors": [],
+    "timeline": {
+      "frame_count": 192,
+      "overlap_frames": 0,
+      "clear_read_frames_by_shot": {
+        "S01": 192
+      }
+    }
+  },
+  "M03": {
+    "status": "incomplete",
+    "ready_for_generation": false,
+    "errors": [],
+    "timeline": {
+      "frame_count": 252,
+      "overlap_frames": 36,
+      "clear_read_frames_by_shot": {
+        "S01": 78,
+        "S02": 72,
+        "S03": 66
+      }
+    }
+  },
+  "M04": {
+    "status": "incomplete",
+    "ready_for_generation": false,
+    "errors": [],
+    "timeline": {
+      "frame_count": 240,
+      "overlap_frames": 36,
+      "clear_read_frames_by_shot": {
+        "S01": 78,
+        "S02": 60,
+        "S03": 66
+      }
+    }
+  },
+  "M05": {
+    "status": "incomplete",
+    "ready_for_generation": false,
+    "errors": [],
+    "timeline": {
+      "frame_count": 192,
+      "overlap_frames": 0,
+      "clear_read_frames_by_shot": {
+        "S01": 192
+      }
+    }
+  }
+}

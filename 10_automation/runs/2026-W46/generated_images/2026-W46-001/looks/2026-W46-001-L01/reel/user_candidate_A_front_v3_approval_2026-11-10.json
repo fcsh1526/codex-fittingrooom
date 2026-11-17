@@ -1,0 +1,12 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "still",
+  "quote": "起始圖可以。",
+  "recorded_at": "2026-11-10",
+  "timezone": "Asia/Taipei",
+  "target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A_front_v3.png",
+  "target_sha256": "b013414b18add2e5cf22f24abae89acbb7094efe83199ae1f8b526242a178966",
+  "applies_to": "W46 M01 L01 front_v3，Reel S01 全身起始圖",
+  "limits": "動態、S02 鞋面來源、成片及發布各自審查。"
+}

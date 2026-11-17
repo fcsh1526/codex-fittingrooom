@@ -1,0 +1,36 @@
+{
+  "week": "2026-W45",
+  "model": "M02",
+  "recorded_at": "2026-11-10",
+  "timezone": "Asia/Taipei",
+  "upload_approval": "10_automation/runs/2026-W45/approvals/M01_M02_drive_upload_approval_2026-11-10.json",
+  "folder_url": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "assets": {
+    "video": {
+      "id": "1hSgYSaPKp0fq6cPEYpTJsPXy2nr7r9Wx",
+      "url": "https://drive.google.com/file/d/1hSgYSaPKp0fq6cPEYpTJsPXy2nr7r9Wx/view?usp=drivesdk",
+      "bytes": 2797967,
+      "local_name": "W45_M02_苔綠配可可棕.mp4",
+      "local_sha256": "bf1828d34ce61ac76e82d1573a49e85d8403d5a5ae9be9bb8be46c16fa114b67"
+    },
+    "cover": {
+      "id": "140gh2VF4I-2JmBx9m3wG4brK4wajWV4V",
+      "url": "https://drive.google.com/file/d/140gh2VF4I-2JmBx9m3wG4brK4wajWV4V/view?usp=drivesdk",
+      "bytes": 1471025,
+      "local_name": "W45_M02_Cover.png",
+      "local_sha256": "3f3084a778ff609d6bfb9fa000ee41d8cc6600dcd277380a5675e14076968b1f"
+    }
+  },
+  "native_doc": {
+    "id": "121ZzY_9TJXIUZWny9HTHJbBePKO3nouE4ybylusGxJk",
+    "url": "https://docs.google.com/document/d/121ZzY_9TJXIUZWny9HTHJbBePKO3nouE4ybylusGxJk/edit?usp=drivesdk"
+  },
+  "verification": {
+    "folder_contains_all_three": true,
+    "media_sizes_match_local": true,
+    "caption_and_both_links_read_back": true,
+    "w45_reels_in_folder": 5
+  },
+  "external_handoff_performed": true,
+  "instagram_post_recorded": false
+}

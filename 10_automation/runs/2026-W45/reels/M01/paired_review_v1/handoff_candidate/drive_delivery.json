@@ -1,0 +1,36 @@
+{
+  "week": "2026-W45",
+  "model": "M01",
+  "recorded_at": "2026-11-10",
+  "timezone": "Asia/Taipei",
+  "upload_approval": "10_automation/runs/2026-W45/approvals/M01_M02_drive_upload_approval_2026-11-10.json",
+  "folder_url": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "assets": {
+    "video": {
+      "id": "1F8xx0GIhuaJSka42SaUXi3AwYnmA6CW8",
+      "url": "https://drive.google.com/file/d/1F8xx0GIhuaJSka42SaUXi3AwYnmA6CW8/view?usp=drivesdk",
+      "bytes": 3706010,
+      "local_name": "W45_M01_短工裝兩套.mp4",
+      "local_sha256": "aa1a657e88480a966226bdbf72ea3e5c46346290df154408d376ebcc2b27a2fb"
+    },
+    "cover": {
+      "id": "1JpBiHizGZPewBOonS5fCaXd_WVY_q9mj",
+      "url": "https://drive.google.com/file/d/1JpBiHizGZPewBOonS5fCaXd_WVY_q9mj/view?usp=drivesdk",
+      "bytes": 1299966,
+      "local_name": "W45_M01_Cover.png",
+      "local_sha256": "bf52f8d379b432b70ea58b25efaafb26fb736f5dbe9d839d1e3b040405d03bfa"
+    }
+  },
+  "native_doc": {
+    "id": "1w4qevTIt3iY90ypwCLNJoujPe1h-Foz--HAxtWdRpxc",
+    "url": "https://docs.google.com/document/d/1w4qevTIt3iY90ypwCLNJoujPe1h-Foz--HAxtWdRpxc/edit?usp=drivesdk"
+  },
+  "verification": {
+    "folder_contains_all_three": true,
+    "media_sizes_match_local": true,
+    "caption_and_both_links_read_back": true,
+    "w45_reels_in_folder": 5
+  },
+  "external_handoff_performed": true,
+  "instagram_post_recorded": false
+}

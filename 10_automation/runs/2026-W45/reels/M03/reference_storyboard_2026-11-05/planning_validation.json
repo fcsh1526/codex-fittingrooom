@@ -1,0 +1,22 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: 新連接線稿／構圖節奏示意尚未取得視覺回饋；此前ok授權製作分鏡，不補寫為新圖或成片接受。",
+    "declared missing asset: 生成當下可用控制、額度、單側表演與末段構圖尚待實測。",
+    "M03_face: user identity approval evidence required",
+    "M03_full: user identity approval evidence required",
+    "board: user storyboard approval evidence required",
+    "animatic: user previs approval evidence required"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 216,
+    "overlap_frames": 0,
+    "clear_read_frames_by_shot": {
+      "P01": 168
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

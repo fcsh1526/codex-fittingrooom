@@ -1,12 +1,55 @@
 # Mira Canonical Production Workflow
 
-Updated: 2026-10-27 (workflow audit; latest approved creative/delivery decision: 2026-10-22)
+2026-11-11 使用者明確修正整片導演方向。整體分鏡要有多個有趣、活潑、節奏快且功能不同的鏡頭，連續安排人物反應、動作、景別與服裝看點的發展。三層觀看目的須落實到整片的節拍、期待與回收，逐鏡自然是其中一項檢查。六種既有剪輯方法都可依內容選用及組合，包含左右並排；本次指示取代較早左右比較暫停的範圍。鏡數與秒數依當片設計，保留必要讀衣時間與自然動作因果。
+
+2026-11-10 Reel 觀看目的：分鏡前先寫「停下來、繼續看、記住我們」三層。第一眼要讓陌生人立刻感到值得看，前 3–5 秒要讓人期待一個具體的下一瞬間，後段要兌現期待並留下一個能記住、能和 Mira 連在一起的要素。企劃和原速成片都用這三層核對。跨專業參考及具體做法見[持續研究與製作](../11_skills/mira-reel-director/references/research-and-production.md)及[製作檢查](../11_skills/mira-reel-director/references/production-checkpoints.md)。
+
+2026-11-10 週別例外：使用者澄清只有 W45 不製作 Carousel。W46 起沿用原流程，每套穿搭規劃 Reel 素材與 Carousel 三張圖（A 全身、B 情境、C 配件細節）。W45 既有輪播製作單保留作為該週紀錄。
+
+2026-11-09最新回饋：使用者對M04五秒A開場回覆「有，可以」，確認看到第三秒仍願意繼續看。精確版本已鎖定，開場吸引力已接受；不重開同項偏好確認。接續完整動態／收尾檢查，尚未推定成片發布核准。收據：`10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_opening_acceptance.json`。以下較早的開場待回饋狀態僅在本範圍被取代。
+
+2026-11-09接續紀錄：W45 M04第18支原片已下載，完成本機解碼與抽格，尚未原速全片視覺通過或獲使用者接受。依使用者同意，製作三組開場提案及一個沿用該原片的5秒草剪；當前為開場觀看理由研究，無新生成、無發布、未啟動W46。詳 `10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/REVIEW.md` 及 CURRENT_STATUS；下方11/6的17支摘要為舊檢查點。六種方法與兩種研究分類維持，吸引力假說不等於已驗證成效。
+
+2026-11-06使用者確認：六種剪輯方法為依序穿搭展示、左右並排比較、日常片段敘事、前景遮鏡揭裝、連續行進換裝、單鏡頭互動表演；另兩種待研究為主次雙畫面／子母畫面、俯拍扇葉換裝。動作豐富左右比較仍屬第二種。當前優化重點為各方法內的人物動作、表情、情緒等細節，詳 `09_sops/mira_reel_method_catalog.md` 與導演技能 `references/performance-and-reference.md`；不新增生成前必須對照已接受片段的門檻。左右比較暫停及既有圖／片核准範圍保持。
+
+2026-11-05表演偏好：使用者明確表示「我不喜歡搖擺跳舞」。後續以有情境目的的自然動作設計，停止用連續擺臀、搖肩或舞蹈式換姿增加活力；動作幅度可以明顯，單次轉身、短步、自然笑容與入出畫依內容選用。此最新偏好優先於10/29列舉擺臀等舊候選，不否定A並排或所有大幅動作。精確回饋：`10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/user_performance_feedback_2026-11-05.json`。
+
+## 2026-11-03 現行補充：情境表演、參考證據與狀態整理
+
+人物真實感從「觀眾看點 → 情境／人物目的 → 注意對象 → 關鍵可見反應 → 身體與情緒發展」設計，再決定鏡頭與素材。簡短動機＋必要動作是可試用策略；保留符合場景因果的自然變體，不要求每片走路、動作一律小或逐秒仿拍。詳細執行為 `11_skills/mira-reel-director/references/performance-and-reference.md`，接入導演／圖像技能及Reel SOP。
+
+工具抽格、可見行為、助理推論與使用者澄清分開。過街A/B各一次，使用者較偏好B，也確認A先看一側、途中看另一側合理；不列A失敗，不推論原因句已證明提升品質、跨情境穩定或可發布。OpenMontage已驗證的本案角色為抽格／規格與製作輔助，不是新生成模型或自動語意／肢體修復器；新服務、金鑰與付費變更依授權說明。
+
+現況與交接採短版有效摘要，歷史備份於 `10_automation/history/`。W45現況：左右比較剪輯仍暫停，記得的優秀雙欄參考不是Kubo，確切帳號未識別。M03的8秒v2退回，9秒v1僅相對較好。11/6使用者否決M04的8.54秒全身→細節→全身初剪，指出反覆沿用舊做法、W44曾有更驚豔成果；M04退回看點與表演企劃，停止同案微調。已回查W44明確肯定的M02第二鏡及M04日常片段，詳 `10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/REVIEW.md`。M04 face_v2精確首圖核准保留，原片／初剪留存，沒有新生成。累計九次靜態／十七支原片，M01／M02兩支已接受；M05及十套proof／Carousel未完成，無本週新交接或發布。
+
+## 2026-10-30 製作檢討已落實
+
+新製與重做依 `11_skills/mira-reel-director/references/production-checkpoints.md` 執行：看點與表演動機先定、實際版面尺度檢查、同路線先測接點、曲線依弧長配置步速、遮擋按秒剪輯、同機制兩次失敗後改設計、核對UUID及既有生成結果、技術檢查與原速動態審查分開、交接資料齊備。約5%尺度差與約1秒遮擋是比較提示，非全部影片硬規格。使用者免逐步核准授權保留，品質檢查仍須執行。
+
+## 現行最高原則：開放方法庫、研究與製作並行 — 2026-10-29
+
+先定觀眾看點，再定套數、服裝資訊、人物表演、鏡頭與方法；最後推導素材。一支可單套、兩套或多套，不以舊五種方法限制創作。單一模特兒一致性保留；週五主題／十套素材／五支Reel仍作產量基準，單片如何取用依企劃，不再要求每支恰好兩套或兩套都入片。新方案的額外素材需求須明列。
+
+逐步觀察其他IG帳號並擴充方法庫，同時持續推進具體Reel；小批參考研究不能阻塞製作。既有素材先評估再補圖；固定鏡頭活潑表演、走近、入出畫都可選，行走與複雜曲線非預設。單片接受、重複成功、觀眾成效分別記錄。導演技能的 references/research-and-production.md 定義執行節奏。此原則優先於下方歷史兩套／五方法固定敘述；原影像核准、原速與逐圖審查仍有效。
+
+
+## 內容目的先於套數；固定鏡頭與活潑表演納入選項 — 2026-10-29
+
+使用者進一步澄清：單支影片不必固定比較兩套，可多套比較或單套重點，核心是觀眾看什麼。此明確指示優先於舊有每支恰兩套限制；週總產量未因此自動變更，具體系列套數於企劃確定。減少行走依賴不等於只做靜態站姿。使用者提供兩組構想：固定背景／鏡頭，人物靠牆或站遠景，開心舉手、轉肩、插腰擺臀，再走近成近景；固定鏡頭，人物從右側入畫、大擺手走路、開心回看鏡頭、從左側出畫。這些是可選的表演與分鏡方向，不是要求每支串接全部動作，也不是已驗證引擎可穩定執行。行走可在具有內容用途時保留，需檢查步態；固定鏡頭不保證消除滑步。下一步先定每支觀看目的，再定套數、表演與鏡頭，不生成新影像。
+
+## 源頭企劃修正：服裝看點優先、減少連續行走依賴 — 2026-10-29
+
+使用者認為右側6秒控制片較好，但要求從源頭改善五種方法共同的平淡問題：服裝差異不足、生成步態常見飄移／換腳跳，不能只逐鏡修運鏡。下一步改為先檢查觀眾收穫及兩套服裝的可見差異，再依實測能力安排低行走依賴的動作，最後選方法與必要運鏡。長距離步行與複雜曲線不再作預設。右片僅獲相對改善回饋，非步態完全通過。暫不接續原S02或重試步態；先修企劃，保留原素材與各項核准。具體新分鏡／新圖仍須依原流程審查；正式五主題十套契約不變。詳細原則見 `10_automation/runs/2026-W44/source_first_revision_2026-10-29.md`。
+
+Updated: 2026-11-03 (performance/reference integration and current-state reconciliation; historical receipts retained below)
 
 This is the single source of truth for computer A, computer B, and every Codex task working on this repository. When another document conflicts with this file, follow this file and `10_automation/canva_template_registry.json`.
 
 ## Start Here: Current Operating Workflow
 
-Read `CURRENT_STATUS.md`, the relevant content week's `publishing_structure.md`, then `10_automation/MIRA_EDITORIAL_HANDOFF.md` as the compact cross-week entry. The handoff was reconciled on 2026-10-27; its old10/16 paused/pending content is preserved in `10_automation/history/MIRA_EDITORIAL_HANDOFF_before_2026-10-27.md` and is not the current execution state.
+Reel directing now has a reusable project entry: `11_skills/mira-reel-director/SKILL.md`, with the production system, shared-scene/dual-route previs guidance, and planning template/checker. Select from `09_sops/mira_reel_method_catalog.md`: six editing methods and two research candidates, as confirmed by the user on 2026-11-06. Layout descriptions do not add to that count; performance is optimized within each method. This is a workflow/tooling consolidation, not a newly approved film, new renderer, or proof of reproducible precise camera control. New system files postdate the Git checkpoint described below until separately synchronized.
+
+Read `CURRENT_STATUS.md`, the relevant content week's `publishing_structure.md`, then `10_automation/MIRA_EDITORIAL_HANDOFF.md` as the compact cross-week entry. These current summaries were reconciled on 2026-11-03; earlier dated pending/paused entries are archived under `10_automation/history/` and are not automatically current tasks.
 
 ```text
 Source-backed weekly Perplexity research
@@ -23,10 +66,14 @@ Source-backed weekly Perplexity research
 
 - Perplexity supplies sourced trend facts; this project develops contextual combinations and series. Do not revive the withdrawn upstream series-card request.
 - Formal weekly output below remains the standard contract. The explicitly approved M03 five-look commute film is a single-series exception, using its own approved look list and storyboard. Do not force it back to two looks or infer a new universal five-look quota.
-- Latest approved film is the21.2917s commute `context_review_v2` recorded in CURRENT_STATUS and the W43 handoff. Publication is approved; faster walking, coordinated separate character/camera curves and uncomfortable dissolve flicker remain refinement items. The next research artifact is dual-route overhead plus synchronized camera-view previs, not another blind generation.
+- Current delivery/approval state is in CURRENT_STATUS and the W44 handoff: five single-look films and four accepted additional-method films were delivered; the new M02 11s restart was separately approved/delivered. The W43 21.2917s commute `context_review_v2` retains its scoped publication approval and unresolved faster gait/dual routes/dissolve discomfort. Its older next-step research is not the automatic active task for every new Reel.
 - Existing0.75s soft transitions remain the comparison baseline. The latest flicker feedback must be retained; publication approval is not a claim of solved ghosting or exact camera-path reproduction.
-- 2026-10-27 isW44; latest delivery batch isW43, source clothing poolW41. CURRENT_POOL is still a10/16/W42 snapshot. This audit neither refreshed source data nor opened a newW44 production run. Refresh/check missing sources and current Taiwan weather when new planning actually begins.
+- Historical 2026-10-27 audit used W43 delivery/W41 clothing and an older pool snapshot; subsequent W44 source retrieval and delivery supersede that active-state description. W45 was missing at the workflow-maintenance checkpoint. After the user's 2026-11-03 instruction to continue W45, its proposal structure, boards and necessary schematic previs were created. After the user reported W45 publication, its original report and 20 CSV rows were retrieved and matched to the embedded export; the W43–W45 pool now has 60 rows and no missing weeks. The source-backed v2 proposal/boards supersede the archived missing-source draft. This is proposed planning, not image, film or publication approval.
 - Git synchronization checkpoint2026-10-27 includes the workflow, code, pool/source indexes and approval/delivery metadata; see `10_automation/GITHUB_SYNC_SCOPE.md`, with exact commit identity verified through Git history and remote main. Large generated media/browser captures/cache remain outside this synchronization. Re-cutting the approved film in another checkout requires the original five source videos separately; the Drive final film is not a complete source-media backup.
+
+- W44 source correction and planning v2,2026-10-27: the user-provided W44 report loads in the browser. Public index plus W42/W43/W44 original CSV/report files are now saved and verified at20 rows each,60 current material candidates,no missing weeks. Earlier web-reader/restricted-shell DNS failure did not prove missing publication; use browser verification and an authorized direct retrieval before declaring a source absent. W44 publishing_structure and source-backed v2 boards/previs are proposed,not approved; no new AI stills or motion. See runs/2026-W44/source_retrieval_correction.json. Earlier audit statements about the10/16 pool snapshot/no W44 run are superseded by this scoped planning checkpoint.
+
+- W44 planning approved / first still gate,2026-10-28: user reply "ok" accepts source-backed v2 editorial/looks/storyboards/necessary schematic previs and authorizes the first starting-image candidate. Exact scope/hashes in runs/2026-W44/approvals/user_planning_approval_2026-10-28.json. M02 L01 native portrait generated once, then one framing-only correction; latest framing_v2 remains pending individual user still approval. No dynamic generation/publication authority inferred. Earlier proposed/pending-plan wording is superseded within this scope.
 
 ## Standard Weekly Production Contract
 
@@ -36,14 +83,14 @@ Perplexity public weekly CSV
 -> M01-M05 used exactly once each week
 -> one model is locked to each theme
 -> expand each theme into exactly two editor-approved complete looks (ten looks total)
--> define one Reel-wide visual theme from the model's two weekly looks
+-> define the viewer purpose and one Reel-wide visual theme; select one, two or multiple looks as the film requires
 -> storyboard connected shots: scene purpose, action start/end, framing, light and identity visibility
 -> derive required starting images and styling-proof views from that storyboard
 -> prepare both surface jobs for every look
 -> Reel: native 9:16 full-person A plus a reviewed styling-proof view per look
 -> Carousel: A full-person Hero + B scene application + C accessory detail
 -> normalize Carousel A/B/C without stretching and review in the connected three-image Canva template
--> compile five theme/model Reels; each keeps one model, two looks, four usable full/proof views and one audience problem
+-> compile five theme/model Reels; each keeps one model, its planned look count and necessary reviewed source views; the weekly inventory remains ten looks
 -> user designs, edits, exports, and posts manually
 -> link production records to post URL and 24h / 72h / 7d metric snapshots
 ```

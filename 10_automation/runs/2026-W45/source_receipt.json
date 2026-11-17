@@ -1,0 +1,31 @@
+{
+  "week": "2026-W45",
+  "report_url": "https://mika-lin-weekly.pplx.app/weeks/2026-W45.html",
+  "csv_url": "https://mika-lin-weekly.pplx.app/data/2026-W45.csv",
+  "retrieved_date": "2026-11-03",
+  "method": "User reported upstream publication; original report and its linked CSV retrieved directly; public index now includes W45.",
+  "sha256": "d05255f0b8d7ea22401c7d6e374000917daf1b77d703d978ad470a1e7c5be3e6",
+  "report_sha256": "2e86f6c83a7b91c9b9e5e8c165b399871a5fcb2fffe410154cd11892ef7231bf",
+  "rows": 20,
+  "themes": 5,
+  "csv_matches_embedded_report_rows": true,
+  "external_claims_verified": false,
+  "evidence_limit": "Original weekly input verified, not independent validation of every external claim, product function, or user visual approval.",
+  "source_anomalies": [
+    {
+      "rows": "W45-P005–P008",
+      "issue": "trend_name says soft tailoring, but clothing_item describes utility jackets/trousers",
+      "handling": "Original rows preserved; editorial classification follows actual item fields and report theme overview."
+    },
+    {
+      "rows": "W45-P009–P012",
+      "issue": "trend_name says utility outerwear, but clothing_item describes blazers/tailoring",
+      "handling": "Original rows preserved; editorial classification follows actual item fields and report theme overview."
+    },
+    {
+      "scope": "Vogue fall-2026-fashion-forecast date",
+      "issue": "Upstream cites 2026-10-31; linked article body was observed as September 8, 2026 in this session",
+      "handling": "Treat as seasonal background, not new publication-date evidence; preserve original source."
+    }
+  ]
+}

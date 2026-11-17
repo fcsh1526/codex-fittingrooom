@@ -1,0 +1,25 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "opening_appeal_and_continued_viewing",
+  "recorded_at": "2026-11-09",
+  "quote": "有，可以",
+  "preceding_question": "不靠上面的情節說明，你看到第三秒時，還想繼續看她嗎？",
+  "asset": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/A_existing_source_opening_rough_v1.mp4",
+  "target_sha256": "6dfed7f49c19afbf5f7899051295730464b1692d37a4c89ffeeacd04643064b7",
+  "seconds": 5,
+  "source_frames_half_open": [
+    18,
+    138
+  ],
+  "interpretation": "User confirms the displayed A opening makes them want to continue watching; adopt this exact opening.",
+  "not_inferred": [
+    "IG audience retention results",
+    "Cause attributable separately to crop or start time",
+    "General repeatability",
+    "Full native-speed physical QA",
+    "Publication/handoff authorization for this version",
+    "Approval of B or C concepts"
+  ],
+  "preserve_exact_edit": true
+}

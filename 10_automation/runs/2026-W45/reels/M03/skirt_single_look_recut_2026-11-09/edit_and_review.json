@@ -1,0 +1,71 @@
+{
+  "content_week": "2026-W45",
+  "look": "2026-W45-003-L02",
+  "editorial_goal": "看海軍藍西外搭奶油A字裙和球鞋時的正面層次、側面線條與裙擺。",
+  "method": "single_shot_performance",
+  "source": {
+    "path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/L02_trial_01/source.mp4",
+    "sha256": "6ce2f27eaf5db550e27da1da1a7a8284ce4b347670e1cc2d6ef37b13a520d1e0",
+    "grok_uuid": "d8318fa2-0d21-41fc-b94f-cfffd8111538",
+    "still_approval": "10_automation/runs/2026-W45/approvals/M03_L02_still_approval_2026-11-04.json"
+  },
+  "source_frames_half_open": [
+    18,
+    136
+  ],
+  "source_seconds_half_open": [
+    0.75,
+    5.666666666666667
+  ],
+  "output": {
+    "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/W45_M03_L02_Skirt_Styling_v1.mp4",
+    "sha256": "d08cf7c7a41b2d964c1c02711e456e03842c547a489de1fbe5c32f7be4105963",
+    "frames": 118,
+    "fps": 24,
+    "duration_seconds": 4.916666666666667,
+    "size": [
+      720,
+      1280
+    ],
+    "audio": false,
+    "text": false
+  },
+  "edit": {
+    "joins": 0,
+    "crop": null,
+    "generation_calls": 0,
+    "retimed": false,
+    "freeze_frames": false
+  },
+  "review": {
+    "full_decode": true,
+    "ordered_frames_sampled": 24,
+    "native_ui_playback_from_start_to_end": true,
+    "native_ui_samples": 10,
+    "native_ui_sample_times": [
+      0.2475,
+      0.8305,
+      1.3876,
+      1.9599,
+      2.5063,
+      3.0654,
+      3.6259,
+      4.1807,
+      4.7385,
+      4.916667
+    ],
+    "continuous_visual_qa": "unverified",
+    "notes": "正面微笑、單次轉側、停留讀側線、回正裙擺收回；雙鞋全程在框。抽格未見明顯跳位，無法認證逐瞬接地。"
+  },
+  "cover": {
+    "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/W45_M03_L02_Cover.png",
+    "sha256": "d244210122385869063b5bd3a1538c37a7163c3da059bd49921f65b0c5fde0d6",
+    "frame_index": 106,
+    "seconds": 4.416666666666667
+  },
+  "release_approved": true,
+  "external_handoff_performed": true,
+  "upload_authorized": true,
+  "release_approval_receipt": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/user_release_and_upload_approval.json",
+  "drive_delivery_receipt": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/drive_delivery.json"
+}

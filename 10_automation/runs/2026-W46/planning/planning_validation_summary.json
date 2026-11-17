@@ -1,0 +1,43 @@
+{
+  "week": "2026-W46",
+  "state": "proposal",
+  "themes": 5,
+  "looks": 10,
+  "look_count_in_reels": 8,
+  "asset_roles": {
+    "reel": 20,
+    "carousel": 30
+  },
+  "plans": {
+    "M01": {
+      "shots": 2,
+      "duration": 6.5,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    "M02": {
+      "shots": 2,
+      "duration": 8.0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    "M03": {
+      "shots": 2,
+      "duration": 8.0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    "M04": {
+      "shots": 1,
+      "duration": 6.0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    "M05": {
+      "shots": 2,
+      "duration": 8.5,
+      "status": "incomplete",
+      "ready_for_generation": false
+    }
+  }
+}

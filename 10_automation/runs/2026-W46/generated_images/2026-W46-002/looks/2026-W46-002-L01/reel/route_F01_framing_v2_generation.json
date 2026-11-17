@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-12",
+  "provider": "Codex built-in imagegen",
+  "look_id": "2026-W46-002-L01",
+  "film_look": "M02 five-look commute F01",
+  "generation": "one new route first-view photograph followed by one framing-only correction",
+  "original": "2026-W46-002-L01_M02_route_F01_start_candidate_A.png",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/2026-W46-002-L01_M02_route_F01_start_framing_v2.png",
+  "sha256": "c0a8194a638553a0f67a6f8894ad9f9adb28682cbcb77f3fef3ae05b01bed631",
+  "size": [
+    941,
+    1672
+  ],
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-03826f5e-03fc-4229-96df-c60286db2b8f.png",
+  "original_generation_refs": [
+    {
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "role": "face/hairstyle",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "role": "body proportions",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/five_look_commute_2026-11-12/F01_start_layout.png",
+      "role": "planned first composition",
+      "sha256": "274d118a388934ae259b97c6415b916c0205f605c353d5a4156d9d2657117c1c"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/five_look_commute_2026-11-12/overhead_routes.png",
+      "role": "spatial orientation only",
+      "sha256": "7f4f62354d4506279f95c8f75ee38e0caf1fe51e2e674134baa92fc0908cdb0b"
+    }
+  ],
+  "correction_input": "2026-W46-002-L01_M02_route_F01_start_candidate_A.png",
+  "status": "pending_user_visual_and_framing_review",
+  "observed_review": {
+    "identity": "M02 v3 facial features, hairstyle and expression generally preserved through correction; user likeness review pending",
+    "wardrobe": "white pointed-collar shirt tucked into indigo ankle jeans, black penny loafers, burgundy shoulder bag and silver studs remain readable",
+    "contact_and_pose": "mid-stride with one supporting shoe and other behind; still image does not prove motion gait/foot contact",
+    "scene": "outdoor tree-lined office walkway, no café doorway; fixed frontage and planting need later shared-scene continuity review",
+    "framing": "correction overshot requested scale. Figure is approximately55% of image height, vs initial ~90% and planned76%. Hair and shoes have generous margins. This is a wider establishing-view candidate, not a confirmed match to approved camera distance.",
+    "production_limit": "Do not animate or claim exact route projection at this scale before user visual/framing selection. If accepted as wider opening, revise first camera key and dependent previs before motion. No further automatic same-framing edits."
+  },
+  "motion_status": "not submitted",
+  "approval_scope": "User approved simpler five-look trial while explicitly finding outfit variation too small; not this still or motion."
+}

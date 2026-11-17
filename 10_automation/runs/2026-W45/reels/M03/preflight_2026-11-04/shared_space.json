@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-04",
+  "units": "unmeasured_relative_units",
+  "unit_note": "A simple projection illustration calibrated to source image bounds, not surveyed office geometry or exact Grok controls.",
+  "subject_height_assumption": 1.68,
+  "camera_focal_normalized": 1.5313496810207339,
+  "principal_uv": [
+    0.5,
+    0.338
+  ],
+  "character_route": "stationary; no walk",
+  "camera_route": "one straight forward/slightly upward approach, eased over source3.25-5.25s; level optical axis, no orbit or zoom",
+  "fixed_scene": {
+    "right_wall_x": 1.0,
+    "bench_x": 0.7,
+    "bench_z_range": [
+      2.5,
+      5.0
+    ],
+    "rear_wall_z": 5.5
+  },
+  "key_views": [
+    {
+      "seconds": 0,
+      "camera_position": [
+        0.0,
+        1.2328165337672905,
+        0.0
+      ],
+      "character_position": [
+        0.03599765663140767,
+        0,
+        3.5
+      ],
+      "projection": {
+        "height_fraction": 0.7350478468899523,
+        "top": 0.1423444976076555,
+        "bottom": 0.8773923444976077,
+        "center_uv": [
+          0.528,
+          0.5098684210526316
+        ]
+      }
+    },
+    {
+      "seconds": 3.25,
+      "camera_position": [
+        0.0,
+        1.2328165337672905,
+        0.0
+      ],
+      "character_position": [
+        0.03599765663140767,
+        0,
+        3.5
+      ],
+      "projection": {
+        "height_fraction": 0.7350478468899523,
+        "top": 0.1423444976076555,
+        "bottom": 0.8773923444976077,
+        "center_uv": [
+          0.528,
+          0.5098684210526316
+        ]
+      }
+    },
+    {
+      "seconds": 4.25,
+      "camera_position": [
+        0.008681926907253123,
+        1.303788548573786,
+        0.8441311746074532
+      ],
+      "character_position": [
+        0.03599765663140767,
+        0,
+        3.5
+      ],
+      "projection": {
+        "height_fraction": 0.9686726390692822,
+        "top": 0.12107991696362158,
+        "bottom": 1.0897525560329038,
+        "center_uv": [
+          0.528,
+          0.6054162364982627
+        ]
+      }
+    },
+    {
+      "seconds": 5.25,
+      "camera_position": [
+        0.017363853814506246,
+        1.3747605633802815,
+        1.6882623492149065
+      ],
+      "character_position": [
+        0.03599765663140767,
+        0,
+        3.5
+      ],
+      "projection": {
+        "height_fraction": 1.42,
+        "top": 0.07999999999999996,
+        "bottom": 1.5,
+        "center_uv": [
+          0.528,
+          0.7899999999999999
+        ]
+      }
+    },
+    {
+      "seconds": 7.25,
+      "camera_position": [
+        0.017363853814506246,
+        1.3747605633802815,
+        1.6882623492149065
+      ],
+      "character_position": [
+        0.03599765663140767,
+        0,
+        3.5
+      ],
+      "projection": {
+        "height_fraction": 1.42,
+        "top": 0.07999999999999996,
+        "bottom": 1.5,
+        "center_uv": [
+          0.528,
+          0.7899999999999999
+        ]
+      }
+    }
+  ],
+  "limits": "No gait, expression or generated-identity simulation. Target final medium deliberately omits lower legs; not foot-contact certification."
+}

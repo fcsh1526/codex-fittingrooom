@@ -1,0 +1,41 @@
+{
+  "content_week": "2026-W45",
+  "shot": "S01",
+  "provider": "Grok Imagine",
+  "source_uuid": "2c0ebf8b-0515-4b63-832c-158c5b511792",
+  "verified_result_url": "https://grok.com/imagine/post/2c0ebf8b-0515-4b63-832c-158c5b511792?canvas_id=f040d332-48df-47c4-86d4-28e85c97d5b5",
+  "first_uuid_reported": "23f9fa86-c540-4c0b-9fef-232f353a4d3b",
+  "identity_uuids_reported": [
+    "0cca4769-6066-4619-aa63-c0aabf0a9a66",
+    "d87130ac-c61c-4e00-97e2-a6dfc8677786"
+  ],
+  "request_path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/S01_request.txt",
+  "provider_report": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/provider_report.txt",
+  "provider_settings_reported": {
+    "seconds": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "audio_disable_available": false
+  },
+  "verified_page_prompt_and_main_video_uuid": true,
+  "engine_call_directly_observed": false,
+  "jobs_this_pass": 1,
+  "downloaded_source": {
+    "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/S01_source.mp4",
+    "sha256": "32eafc400a7a7400266ce5fc440c5a9b614625634fb96d08859540e9a82a3828",
+    "duration_seconds": 6.041667,
+    "frames": 145,
+    "audio": "AAC",
+    "full_decode_completed": true
+  },
+  "review_video": {
+    "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/W45_M05_L02_Reel_motion_trial_v1.mp4",
+    "sha256": "b9f6288409faebf3f491c0484833db79701101b4305db1a335ccc913f97c6db2",
+    "duration_seconds": 6.041667,
+    "frames": 145,
+    "audio": false,
+    "video_stream_copy": true
+  },
+  "user_motion_acceptance": "rejected_for_missing_recognition_smile_then_turn",
+  "user_feedback_receipt": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/user_feedback_and_retry.json"
+}

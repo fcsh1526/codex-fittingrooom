@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-03",
+  "actor": "user",
+  "verbatim": "B比較像，但A得先查看一邊，過馬路到一半時查看另一邊來車也是符合",
+  "reviewed_presentation": "review_side_by_side.mp4; left A, right B",
+  "preferred_condition": "B",
+  "preference_scope": "Relative likeness to the desired natural/live-action impression in this pair; not a quantified score or general causal result.",
+  "A_interpretation": "The user finds checking one side first and checking the other side midway through crossing plausible. Preserve A as a reasonable acting variation, not a failed traffic-check sequence merely because its order differs from B or the reference.",
+  "B_video_asset_id": "99d7a06e-eb06-442f-b090-c151fecc27cf",
+  "A_video_asset_id": "e512b975-e9fe-4399-9a49-bc1116650108",
+  "full_native_speed_viewing_attested": false,
+  "physical_QA_pass_inferred": false,
+  "publication_approval": false,
+  "repeatability_or_prompt_causality_proven": false,
+  "new_generation_requested": false
+}

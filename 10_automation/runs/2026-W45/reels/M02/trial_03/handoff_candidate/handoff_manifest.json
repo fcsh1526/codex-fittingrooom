@@ -1,0 +1,23 @@
+{
+  "week_id": "2026-W45",
+  "look_ids": [
+    "2026-W45-002-L01"
+  ],
+  "film_acceptance": "10_automation/runs/2026-W45/approvals/M02_trial03_video_acceptance_2026-11-04.json",
+  "local_video": "10_automation/runs/2026-W45/reels/M02/trial_03/handoff_candidate/W45_M02_苔綠配可可棕.mp4",
+  "video_sha256": "bf1828d34ce61ac76e82d1573a49e85d8403d5a5ae9be9bb8be46c16fa114b67",
+  "cover_path": "10_automation/runs/2026-W45/reels/M02/trial_03/handoff_candidate/W45_M02_Cover.png",
+  "cover_sha256": "3f3084a778ff609d6bfb9fa000ee41d8cc6600dcd277380a5675e14076968b1f",
+  "cover_frame_zero_based": 52,
+  "cover_seconds": 2.1666666666666665,
+  "frame_count": 145,
+  "fps": 24,
+  "duration_seconds": 6.041666666666667,
+  "width": 720,
+  "height": 1280,
+  "caption_path": "10_automation/runs/2026-W45/reels/M02/trial_03/handoff_candidate/instagram_caption.txt",
+  "audio": "silent",
+  "decode": "pass",
+  "release_approved": false,
+  "upload_authorized": true
+}

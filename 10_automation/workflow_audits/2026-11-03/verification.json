@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-03",
+  "scope": "Local workflow files and two installed Mira skill packages; not GitHub push or new media production.",
+  "baseline_issue_fixed": "mira-image-daily had an unsupported frontmatter key; moved the viewer-first instruction into the body.",
+  "skills": {
+    "mira-reel-director": {
+      "source_validation": {
+        "passed": true,
+        "message": "Skill is valid!"
+      },
+      "installed_validation": {
+        "passed": true,
+        "message": "Skill is valid!"
+      },
+      "files": [
+        {
+          "file": "SKILL.md",
+          "source_sha256": "cfa3255480c3d937d2a345bec85277b1a2094159fa78632778559e8354a45c6f",
+          "installed_sha256": "cfa3255480c3d937d2a345bec85277b1a2094159fa78632778559e8354a45c6f",
+          "match": true
+        },
+        {
+          "file": "agents/openai.yaml",
+          "source_sha256": "af5c9068e2ab58012487c008a5b754f67c8e0ec1e018ace0e137ef85f45bd5e8",
+          "installed_sha256": "af5c9068e2ab58012487c008a5b754f67c8e0ec1e018ace0e137ef85f45bd5e8",
+          "match": true
+        },
+        {
+          "file": "assets/production_plan.template.json",
+          "source_sha256": "3579a1f4a8fbcc585a9c61f402f789f23a731e4c135d99ab895260adcc9ef1e1",
+          "installed_sha256": "3579a1f4a8fbcc585a9c61f402f789f23a731e4c135d99ab895260adcc9ef1e1",
+          "match": true
+        },
+        {
+          "file": "references/performance-and-reference.md",
+          "source_sha256": "60566bbf3a06d08fd731540b1a61ba70b63ece133c2c9adee8415016f94e9116",
+          "installed_sha256": "60566bbf3a06d08fd731540b1a61ba70b63ece133c2c9adee8415016f94e9116",
+          "match": true
+        },
+        {
+          "file": "references/plan-contract.md",
+          "source_sha256": "4f6e6315c534d9adcda54ab86042ce31d9f3cfb72e49eeccae71d12f522d24aa",
+          "installed_sha256": "4f6e6315c534d9adcda54ab86042ce31d9f3cfb72e49eeccae71d12f522d24aa",
+          "match": true
+        },
+        {
+          "file": "references/production-checkpoints.md",
+          "source_sha256": "50986b910500684115f047a8e4ce2bb7e736f7e3880865a3a05a066665fe98d6",
+          "installed_sha256": "50986b910500684115f047a8e4ce2bb7e736f7e3880865a3a05a066665fe98d6",
+          "match": true
+        },
+        {
+          "file": "references/production-system.md",
+          "source_sha256": "aa1e4e137d97aa2d340f00047626589d46aca952b524eac84d346a1a3ee6d096",
+          "installed_sha256": "aa1e4e137d97aa2d340f00047626589d46aca952b524eac84d346a1a3ee6d096",
+          "match": true
+        },
+        {
+          "file": "references/research-and-production.md",
+          "source_sha256": "1b7ced64df69b6581473927b2244f9d31c456e189c83652f9c3306328c68cffa",
+          "installed_sha256": "1b7ced64df69b6581473927b2244f9d31c456e189c83652f9c3306328c68cffa",
+          "match": true
+        },
+        {
+          "file": "references/route-previs.md",
+          "source_sha256": "7e72d6cf3ceb60fdc9bb0c0d1a96e80b7fce85cfbc54f7534a46acbfdb560ad7",
+          "installed_sha256": "7e72d6cf3ceb60fdc9bb0c0d1a96e80b7fce85cfbc54f7534a46acbfdb560ad7",
+          "match": true
+        },
+        {
+          "file": "scripts/plan.py",
+          "source_sha256": "242ee1ebf87a73a2473238ee7c8d34a8e9e5bd56244b926896cadf6329e4c28e",
+          "installed_sha256": "242ee1ebf87a73a2473238ee7c8d34a8e9e5bd56244b926896cadf6329e4c28e",
+          "match": true
+        }
+      ],
+      "package_files_match": true
+    },
+    "mira-image-daily": {
+      "source_validation": {
+        "passed": true,
+        "message": "Skill is valid!"
+      },
+      "installed_validation": {
+        "passed": true,
+        "message": "Skill is valid!"
+      },
+      "files": [
+        {
+          "file": "SKILL.md",
+          "source_sha256": "3e971a74eada897c6708c72d7c92620a9cb2070f0b83dc154f069d3c252b1ef2",
+          "installed_sha256": "3e971a74eada897c6708c72d7c92620a9cb2070f0b83dc154f069d3c252b1ef2",
+          "match": true
+        },
+        {
+          "file": "agents/openai.yaml",
+          "source_sha256": "0257069994839d925ca3fa00cfb6f82e19805d09f0660783619bbd99efed8212",
+          "installed_sha256": "0257069994839d925ca3fa00cfb6f82e19805d09f0660783619bbd99efed8212",
+          "match": true
+        },
+        {
+          "file": "references/image-standard.md",
+          "source_sha256": "95196fdeba02167a76f3260c22b7e887e3917196f8146abb36cdddc03dc2e7f6",
+          "installed_sha256": "95196fdeba02167a76f3260c22b7e887e3917196f8146abb36cdddc03dc2e7f6",
+          "match": true
+        },
+        {
+          "file": "references/reference-start-images.md",
+          "source_sha256": "f353b75a12cb2d58e55cf647b960a8c5b8076705c144d5d2027c3bcfb8ee8dde",
+          "installed_sha256": "f353b75a12cb2d58e55cf647b960a8c5b8076705c144d5d2027c3bcfb8ee8dde",
+          "match": true
+        },
+        {
+          "file": "scripts/prepare_canva_ready_assets.py",
+          "source_sha256": "8d8c6431ea419403ff960e9b9915b1ba9ea95e3c9683e1b95276a16d496f6e7a",
+          "installed_sha256": "8d8c6431ea419403ff960e9b9915b1ba9ea95e3c9683e1b95276a16d496f6e7a",
+          "match": true
+        },
+        {
+          "file": "scripts/prepare_daily_image_job.py",
+          "source_sha256": "ec59bae1ff61cd72f46ca62117eec5ab8517ed2395034e51a4a636c53382fb3e",
+          "installed_sha256": "ec59bae1ff61cd72f46ca62117eec5ab8517ed2395034e51a4a636c53382fb3e",
+          "match": true
+        },
+        {
+          "file": "scripts/test_prepare_daily_image_job.py",
+          "source_sha256": "66b950f11954d8dff774cab8ce3bd8e04edfadf2380d95dea374085a3ae15d9e",
+          "installed_sha256": "66b950f11954d8dff774cab8ce3bd8e04edfadf2380d95dea374085a3ae15d9e",
+          "match": true
+        }
+      ],
+      "package_files_match": true
+    }
+  },
+  "local_markdown_links": {
+    "checked": 58,
+    "missing": []
+  },
+  "archives": [
+    {
+      "source": "CURRENT_STATUS.md",
+      "archive": "10_automation/history/CURRENT_STATUS_before_2026-11-03_workflow_audit.md",
+      "match": true
+    },
+    {
+      "source": "10_automation/MIRA_EDITORIAL_HANDOFF.md",
+      "archive": "10_automation/history/MIRA_EDITORIAL_HANDOFF_before_2026-11-03_workflow_audit.md",
+      "match": true
+    },
+    {
+      "source": "10_automation/runs/2026-W44/publishing_structure.md",
+      "archive": "10_automation/history/W44_publishing_structure_before_2026-11-03_workflow_audit.md",
+      "match": true
+    }
+  ],
+  "current_entry_lines": {
+    "AGENTS.md": 35,
+    "CURRENT_STATUS.md": 36,
+    "10_automation/CANONICAL_WORKFLOW.md": 626,
+    "10_automation/MIRA_EDITORIAL_HANDOFF.md": 37,
+    "10_automation/runs/2026-W44/publishing_structure.md": 25
+  },
+  "W45_publishing_structure_exists": false,
+  "manual_review_scope": [
+    "A/B preference is not publication or causal proof",
+    "A remains a plausible acting variant",
+    "M01 duplicate review withdrawn without inventing a new publication approval",
+    "Historical W37 pause not reactivated",
+    "Weekly inventory and one-model rule preserved",
+    "OpenMontage semantic and motion-repair limits explicit"
+  ],
+  "passed": true,
+  "additional_checks": {
+    "existing_image_workflow_tests": {
+      "passed": true,
+      "tests": 4
+    },
+    "installed_canva_tool_cli": {
+      "passed": true,
+      "look_id_argument_present": true,
+      "scope": "CLI startup/argument inspection only"
+    }
+  },
+  "report": "10_automation/workflow_audits/2026-11-03/REPORT.md"
+}

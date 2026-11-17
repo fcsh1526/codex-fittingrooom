@@ -1,0 +1,33 @@
+{
+  "url": "https://www.instagram.com/reel/De-0E2dzoNE/",
+  "account": "mika.dono3",
+  "date": "2026-10-29",
+  "duration_seconds": 19.43365,
+  "review_scope": "Browser playback with time-tagged screenshot samples, not continuous full-frame viewing or audio analysis.",
+  "samples": [
+    {
+      "file": "sample_01.png",
+      "approx_time": 3.931772
+    },
+    {
+      "file": "sample_02.png",
+      "paused": true,
+      "time": 14.351179
+    },
+    {
+      "file": "sample_03.png",
+      "approx_time": 5.064025
+    },
+    {
+      "file": "sample_04.png",
+      "approx_time": 17.304212
+    }
+  ],
+  "observations": [
+    "Single cream outfit, flowers, brick storefront and teddy bears.",
+    "Earlier sampled full-person views include hand near hair, gaze and body-pose changes.",
+    "14.35s holds flowers near face; 17.30s visibly closer head-to-thigh framing."
+  ],
+  "inference": "Viewer intimacy comes from expressive posing and progression toward camera; exact camera trajectory and cut count not established.",
+  "user_feedback": "剛的試片不錯，但是鏡頭太遠。這個IG例子可以表達我的期望"
+}

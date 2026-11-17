@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "expected_asset_id": "96c27877-bb44-4bb5-b66a-1fd78bcda5d6",
+  "post_url": "https://grok.com/imagine/post/96c27877-bb44-4bb5-b66a-1fd78bcda5d6?canvas_id=f040d332-48df-47c4-86d4-28e85c97d5b5",
+  "visible_prompt": "The viewer is the friend she has come to meet at this cafe. Begin from the exact approved first image. She naturally finds the camera lens with her eyes and turns her face squarely toward it. Recognition brightens her smile into a spontaneous happy laugh.\n\n\n\n\nIn one continuous six-second real-time shot, her upper body responds with a lively, easy forward inclination. She takes one short, comfortable half-step toward the lens and settles into grounded balance, still smiling directly at the viewer. Her arms make only a natural low counter-swing beside her hips; this greeting is carried by eye contact, expression and her small approach. Keep her chest facing the camera and let her breathing and smile remain alive after she settles.\n\n\n\n\nKeep her complete head and both shoes visible, with only a slight distance change and normal head-to-body proportions. Preserve the exact M02 face, low brown bun, moss-green fine-knit top, cocoa-brown straight trousers, cream shoes and dark-brown left-shoulder bag. Locked chest-height 50mm view; preserve the cafe, bench, paving and original daylight. No outstretched greeting arm, wave, side turn, camera move or cut.",
+  "matches_frozen": true,
+  "media": [
+    {
+      "duration": 6.041667,
+      "paused": true,
+      "rate": 1,
+      "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/96c27877-bb44-4bb5-b66a-1fd78bcda5d6/generated_video.mp4?cache=1",
+      "time": 0
+    },
+    {
+      "duration": 6.041667,
+      "paused": false,
+      "rate": 1,
+      "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/96c27877-bb44-4bb5-b66a-1fd78bcda5d6/generated_video.mp4?cache=1",
+      "time": 1.791824
+    },
+    {
+      "duration": 6.041667,
+      "paused": true,
+      "rate": 1,
+      "src": "https://assets.grok.com/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/96c27877-bb44-4bb5-b66a-1fd78bcda5d6/generated_video.mp4?cache=1#t=0.001",
+      "time": 0.001
+    }
+  ],
+  "internal_tool_call_directly_visible": false
+}

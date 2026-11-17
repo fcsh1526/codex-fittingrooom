@@ -1,0 +1,14 @@
+{
+  "week": "2026-W46",
+  "report_url": "https://mika-lin-weekly.pplx.app/weeks/2026-W46.html",
+  "csv_url": "https://mika-lin-weekly.pplx.app/data/2026-W46.csv",
+  "index_url": "https://mika-lin-weekly.pplx.app/data/index.json",
+  "retrieved_date": "2026-11-10",
+  "method": "公開索引確認 W46 已上線，在報告頁點選該週原始 CSV 下載。",
+  "sha256": "37d41dad2bb70e1dacbe544e574cc8448fe0f5e8c5c5d038ca87981a5e7646b7",
+  "rows": 20,
+  "themes": 5,
+  "embedded_report_row_count": 20,
+  "external_claims_verified": false,
+  "evidence_limit": "原始 CSV 驗證欄位、週別、連號及五主題，頁內另核對內嵌筆數。未逐列比對兩份內容或獨立驗證每項外部趨勢主張。"
+}

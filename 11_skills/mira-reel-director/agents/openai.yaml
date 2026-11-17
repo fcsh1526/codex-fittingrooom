@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mira Reel 導演與分鏡"
+  short_description: "將穿搭目的、線稿分鏡、雙路徑預演與影片驗收整合為可重用製作流程"
+  default_prompt: "使用 $mira-reel-director，依目前素材與觀眾目的建立分鏡及必要的雙路徑預演，再列出缺少的起始圖。"

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Taipei",
+  "actor": "user",
+  "quote": "我不喜歡搖擺跳舞",
+  "decision": "not_accepted_performance_direction",
+  "target_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/M03_W45_parallel_selected_review_v4.mp4",
+  "target_sha256": "522ff32bb389abee138b79c88601b5b23fd96d88de96f83134d7862301576106",
+  "context": "Direct feedback to displayed4s M03 A parallel v4.",
+  "explicit_preference": "Does not like swaying/dance performance.",
+  "assistant_interpretation": "Stop using repeated hip/shoulder sways and dance-like chains of poses to satisfy the request for larger movement. Keep distinct motivated natural actions and meaningful clothing views.",
+  "limits": "Not a rejection of parallel layout A or all larger movements, turns or walking. Preserve prior exact source-performance acceptance as historical evidence; it does not authorize continued use of the disliked performance in a new film. No claim user identified an exact gesture/timecode.",
+  "new_generation": false
+}

@@ -1,0 +1,74 @@
+{
+  "check_id": "WX_W45_20261103",
+  "checked_date": "2026-11-03",
+  "timezone": "Asia/Taipei",
+  "regions": [
+    "台北",
+    "中部",
+    "南部"
+  ],
+  "source": "https://www.cwa.gov.tw/Data/fcst_pdf/W11.pdf",
+  "issued_at": "2026-11-03T11:00:00+08:00",
+  "valid_from": "2026-11-03T12:00:00+08:00",
+  "valid_to": "2026-11-10T00:00:00+08:00",
+  "target_dates": [
+    "2026-11-03",
+    "2026-11-08"
+  ],
+  "receipt_path": "10_automation/runs/2026-W45/sources/weather_check.json",
+  "source_pdf_path": "10_automation/runs/2026-W45/sources/cwa_weekly_2026-11-03.pdf",
+  "source_pdf_sha256": "6734057833b318ddccc6aa5abf43b12bc9ef502c770de1afa0da7fba3c56723b",
+  "status": "checked_for_planning_recheck_before_publication",
+  "actual_publication_dates": null,
+  "Taipei_forecast": [
+    {
+      "date": "2026-11-03",
+      "range_celsius": [
+        23,
+        26
+      ],
+      "weather": "陰時多雲"
+    },
+    {
+      "date": "2026-11-04",
+      "range_celsius": [
+        23,
+        30
+      ],
+      "weather": "晴時多雲"
+    },
+    {
+      "date": "2026-11-05",
+      "range_celsius": [
+        22,
+        29
+      ],
+      "weather": "晴時多雲"
+    },
+    {
+      "date": "2026-11-06",
+      "range_celsius": [
+        23,
+        25
+      ],
+      "weather": "陰短暫雨"
+    },
+    {
+      "date": "2026-11-07",
+      "range_celsius": [
+        23,
+        25
+      ],
+      "weather": "多雲時陰短暫雨"
+    },
+    {
+      "date": "2026-11-08",
+      "range_celsius": [
+        23,
+        26
+      ],
+      "weather": "多雲短暫雨"
+    }
+  ],
+  "editorial_decision": "台北用薄層次與有遮簷外景，中南部不直接搬厚冬裝；實際發文前重查。這是編輯判斷，非衣物機能證明。"
+}

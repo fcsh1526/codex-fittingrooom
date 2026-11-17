@@ -48,7 +48,7 @@ single virtual influencer, selfie diary, runway editorial, luxury ad campaign, p
 ## Delivery Surface Policy
 
 - Every approved look requires both a `reel` job and a `carousel` job.
-- Reel: create one full-person A directly for a 9:16 frame intended for 1080x1920 delivery, and one usable styling-proof view per look. Record actual source pixels. Five weekly Reels each keep one model and its two looks. Select proof imagery only after vertical framing and clarity review; generate the missing view if necessary. Do not use Canva slot geometry or its 15% crop allowance for native Reel generation. See `09_sops/mira_reel_production_sop.md` in the project for dynamic QA and reference tests.
+- Reel: create one full-person A directly for a 9:16 frame intended for 1080x1920 delivery, and one usable styling-proof view per look. Record actual source pixels. Five weekly Reels each keep one model; one, two or multiple looks are selected by the viewer purpose. The weekly inventory remains ten looks. Select proof imagery only after vertical framing and clarity review; generate the missing view if necessary. Do not use Canva slot geometry or its 15% crop allowance for native Reel generation. See `09_sops/mira_reel_production_sop.md` in the project for dynamic QA and reference tests.
 - Carousel: always create three exact-role images for the connected Canva template: A full-person Hero, B scene application, and C accessory detail. The 15% center-crop ceiling applies only when normalizing approved Carousel sources to those exact Canva pixels.
 - Preserve identity, exact outfit, scene logic, and camera treatment across both surfaces, but create separate compositions for each target geometry.
 

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-09",
+  "user_response": "可發布",
+  "asset": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/handoff_candidate/W45_M04_L01_Reel_A.mp4",
+  "sha256": "6dfed7f49c19afbf5f7899051295730464b1692d37a4c89ffeeacd04643064b7",
+  "duration_seconds": 4.958333,
+  "scope": "Exact M04 A cut accepted for release in response to the request for whole-film review.",
+  "review_basis": "User's release acceptance in response to a request to watch at native speed and assess the ending. No separate playback instrumentation for the user's viewing.",
+  "assistant_review": "1x playback ran to the end, 11 visual observations during playback, 120 ordered frame checks. Continuous assistant visual observation unverified.",
+  "instagram_published": false
+}

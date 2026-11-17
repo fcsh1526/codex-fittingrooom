@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "model": "M01",
+  "shot": "N01",
+  "attempt": 3,
+  "provider": "Codex built-in image generation",
+  "operation": "identity-anchor based extension, following rejection of two close-up face results",
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_face_anchor_extension_v3.png",
+  "sha256": "ed11685a0f741283ff375f5854f017d34c555d7dd4170a847fe2f9eee0ac8c10",
+  "width": 941,
+  "height": 1672,
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-1294ccaf-f927-45b3-b4b9-cb628458133d.png",
+  "submitted_prompt": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/submitted_N01_face_anchor_extension_v3_prompt.txt",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846",
+      "role": "edit base; sole authority for facial identity, head angle, gaze and expression"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A_front_v3.png",
+      "sha256": "b013414b18add2e5cf22f24abae89acbb7094efe83199ae1f8b526242a178966",
+      "role": "wardrobe, bag, ordinary proportions and scene"
+    }
+  ],
+  "status": "pending_user_visual_approval",
+  "review": "改變製作機制，以 canonical v4 臉錨作編輯底圖延展半身。臉朝向右側三分之四、嘴唇微開，接近臉錨原表情，未先做笑開。完整頭髮與上半身、手包、米白針織、窗邊光線可見。較原定頭肩構圖寬，含腰與褲頭。身份是否吻合由使用者審查。"
+}

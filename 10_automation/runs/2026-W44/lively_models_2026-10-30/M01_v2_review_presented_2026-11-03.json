@@ -1,0 +1,14 @@
+{
+ "date":"2026-11-03",
+ "action":"Return from completed A/B comparison to existing M01 repair; present the already-generated v2 for native-speed user review.",
+ "file":"M01_lively_review_v2.mp4",
+ "sha256":"5fb03d8b3f3d2a563137ecc7e6688fdef939f1693e8ae981111468374d3bc22b",
+ "duration_seconds_approx":9.04,
+ "known_limitation":"Later gesture is higher and more wave-like than planned; hand continuity and overall acting still require review.",
+ "new_generation_count":0,
+ "user_visual_acceptance":"No new acceptance inferred; user identifies this as previously completed work.",
+ "publication_approved":false,
+ "reopened_review_request":"withdrawn",
+ "user_correction":"這不是之前已經完成的嗎?",
+ "correction_reason":"Assistant unnecessarily resurfaced previously produced material after the A/B study; this is not a newly requested review or new production. Preserve historical approval scopes without blocking current work."
+}

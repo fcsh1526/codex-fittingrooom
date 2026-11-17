@@ -1,0 +1,24 @@
+{
+  "week_id": "2026-W45",
+  "look_ids": [
+    "2026-W45-001-L01",
+    "2026-W45-001-L02"
+  ],
+  "film_acceptance": "10_automation/runs/2026-W45/approvals/M01_paired_v1_video_acceptance_2026-11-04.json",
+  "local_video": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/handoff_candidate/W45_M01_短工裝兩套.mp4",
+  "video_sha256": "aa1a657e88480a966226bdbf72ea3e5c46346290df154408d376ebcc2b27a2fb",
+  "cover_path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/handoff_candidate/W45_M01_Cover.png",
+  "cover_sha256": "bf52f8d379b432b70ea58b25efaafb26fb736f5dbe9d839d1e3b040405d03bfa",
+  "cover_frame_zero_based": 18,
+  "cover_seconds": 0.75,
+  "frame_count": 246,
+  "fps": 24,
+  "duration_seconds": 10.25,
+  "width": 720,
+  "height": 1280,
+  "caption_path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/handoff_candidate/instagram_caption.txt",
+  "audio": "silent",
+  "decode": "pass",
+  "release_approved": false,
+  "upload_authorized": true
+}

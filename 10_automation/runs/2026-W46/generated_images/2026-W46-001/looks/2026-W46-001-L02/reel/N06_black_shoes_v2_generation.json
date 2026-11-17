@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "provider": "Codex built-in imagegen",
+  "edit_target": "2026-W46-001-L02_M01_N06_full_candidate_A.png",
+  "edit_target_sha256": "4a1691e40d864c628448b420ea7edc0d169ce5c9f3c01f3096ff1284567d1a49",
+  "reference": "../2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_S02_proof_candidate.png",
+  "reference_role": "exact black T-strap low block-heel shoes only",
+  "output": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L02/reel/2026-W46-001-L02_M01_N06_black_shoes_v2.png",
+  "sha256": "1e886c6fe3647484cc9157231c69a3b00f2d33d6c6446f54edc85c63fea5e29f",
+  "size": [
+    941,
+    1671
+  ],
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-8bb9c3b5-c50f-4609-a81e-fe3f1f1c808d.png",
+  "status": "pending_user_visual_approval",
+  "observed_review": "Both shoes now black with straight T-straps and small warm metal buckles. Full hair and shoes visible. Face, pose, navy top, ivory skirt, bag and scene visually closely preserved; user identity acceptance pending. No motion generated from this new still.",
+  "dependent_shots": [
+    "N06 full-body skirt",
+    "N07 right comparison panel"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-03",
+  "video_asset_id": "f6443725-886b-410e-8c73-b929e8f73b56",
+  "user_quotes": [
+    "這個影片是要呈現甚麼?",
+    "而且人物不是朝向鏡頭，而是看旁邊"
+  ],
+  "scope": "Viewer-purpose and subject attention-direction feedback; not approval for publication or a statement about all limb physics.",
+  "assistant_assessment": "The prompt put the friend beside the camera, directed the small step toward camera-left, and turned her shoulders toward that friend. This guided an offscreen interaction and conflicts with treating the viewer as the meeting partner.",
+  "current_decision": "Keep trial01 as a performance diagnostic; no accepted final Reel. Preserve approved starting still.",
+  "repair_intent": "Camera is the meeting partner. Face, chest, gaze and welcoming response address the lens; short step goes toward viewer, not sideways. Retain exact identity/outfit/source, fixed camera, native speed and bounded single trial.",
+  "limits": "This does not prohibit side glances in other motivated scenes such as traffic checks; no new still or paid service change authorized by inference."
+}
