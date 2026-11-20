@@ -1,0 +1,700 @@
+{
+  "id": "M02_five_look_office_route_v1",
+  "units": "schematic",
+  "unit_note": "Fictional blockout, not a measured location; adult height1.68 schematic units.",
+  "axes": "x_right_y_up_z_forward",
+  "geometry": [
+    {
+      "id": "office",
+      "vertices": [
+        [
+          1.4,
+          0,
+          21.8
+        ],
+        [
+          1.4,
+          0,
+          26
+        ],
+        [
+          1.4,
+          4.2,
+          21.8
+        ],
+        [
+          1.4,
+          4.2,
+          26
+        ],
+        [
+          6,
+          0,
+          21.8
+        ],
+        [
+          6,
+          0,
+          26
+        ],
+        [
+          6,
+          4.2,
+          21.8
+        ],
+        [
+          6,
+          4.2,
+          26
+        ]
+      ]
+    },
+    {
+      "id": "tree_planters",
+      "vertices": [
+        [
+          4,
+          0,
+          4
+        ],
+        [
+          4,
+          2.9,
+          4
+        ],
+        [
+          4.5,
+          0,
+          11
+        ],
+        [
+          4.5,
+          2.9,
+          11
+        ],
+        [
+          -5,
+          0,
+          6
+        ],
+        [
+          -5,
+          2.9,
+          6
+        ],
+        [
+          -5,
+          0,
+          14
+        ],
+        [
+          -5,
+          2.9,
+          14
+        ]
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "shot_id": "F01",
+      "character_samples": [
+        {
+          "frame": 0,
+          "position": [
+            -0.8,
+            0,
+            0.0
+          ],
+          "heading_degrees": 1.0205603771778948,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 52,
+          "position": [
+            -0.7982986202568333,
+            0,
+            2.4270594573104507
+          ],
+          "heading_degrees": 0.46759971180367327,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 105,
+          "position": [
+            -0.7083839072790299,
+            0,
+            4.898685423697446
+          ],
+          "heading_degrees": 4.569115130982904,
+          "gait_phase": "shared global phase, not measured real gait"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 0,
+          "position": [
+            -3.46,
+            1.35,
+            4.2
+          ],
+          "target": [
+            -0.8,
+            0.9,
+            0.0
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 52,
+          "position": [
+            -3.1561422077414676,
+            1.35,
+            6.312700977190725
+          ],
+          "target": [
+            -0.7982986202568333,
+            0.9,
+            2.4270594573104507
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 105,
+          "position": [
+            -2.888378161965293,
+            1.35,
+            8.49506633324845
+          ],
+          "target": [
+            -0.7083839072790299,
+            0.9,
+            4.898685423697446
+          ],
+          "vertical_fov_degrees": 34
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 0,
+          "person_center_uv": [
+            0.5,
+            0.5154109038084628
+          ],
+          "person_height_fraction": 0.5471041403804154,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "原定挺薄白棉小尖領襯衫、深靛無刷破中高腰直筒九分丹寧、黑便士樂福鞋、酒紅扁方肩包、銀耳釘"
+        },
+        {
+          "frame": 52,
+          "person_center_uv": [
+            0.5,
+            0.5159476309262219
+          ],
+          "person_height_fraction": 0.5972857780177951,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "原定挺薄白棉小尖領襯衫、深靛無刷破中高腰直筒九分丹寧、黑便士樂福鞋、酒紅扁方肩包、銀耳釘"
+        },
+        {
+          "frame": 105,
+          "person_center_uv": [
+            0.5,
+            0.5162372221963326
+          ],
+          "person_height_fraction": 0.6442590955341922,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "原定挺薄白棉小尖領襯衫、深靛無刷破中高腰直筒九分丹寧、黑便士樂福鞋、酒紅扁方肩包、銀耳釘"
+        }
+      ]
+    },
+    {
+      "shot_id": "F02",
+      "character_samples": [
+        {
+          "frame": 87,
+          "position": [
+            -0.7592148967590309,
+            0,
+            4.0601214941425585
+          ],
+          "heading_degrees": 2.5451384719097376,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 144,
+          "position": [
+            -0.5192913144125934,
+            0,
+            6.7090240267249515
+          ],
+          "heading_degrees": 7.098262926801776,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 201,
+          "position": [
+            -0.12132007226101757,
+            0,
+            9.339249475933947
+          ],
+          "heading_degrees": 10.098794484861733,
+          "gait_phase": "shared global phase, not measured real gait"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 87,
+          "position": [
+            -2.9702385122973425,
+            1.35,
+            7.748749372215592
+          ],
+          "target": [
+            -0.7592148967590309,
+            0.9,
+            4.0601214941425585
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 144,
+          "position": [
+            -2.720853220345603,
+            1.35,
+            10.131826400506968
+          ],
+          "target": [
+            -0.5192913144125934,
+            0.9,
+            6.7090240267249515
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 201,
+          "position": [
+            -2.4234846495075537,
+            1.35,
+            12.574378336354844
+          ],
+          "target": [
+            -0.12132007226101757,
+            0.9,
+            9.339249475933947
+          ],
+          "vertical_fov_degrees": 34
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 87,
+          "person_center_uv": [
+            0.5,
+            0.5161742348611316
+          ],
+          "person_height_fraction": 0.6303940440276747,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "淺藍白細直條襯衫紮入、同件深靛直褲、咖棕皮便士樂福鞋、灰褐小肩包、銀耳釘"
+        },
+        {
+          "frame": 144,
+          "person_center_uv": [
+            0.5,
+            0.5162951489718903
+          ],
+          "person_height_fraction": 0.6651547029257671,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "淺藍白細直條襯衫紮入、同件深靛直褲、咖棕皮便士樂福鞋、灰褐小肩包、銀耳釘"
+        },
+        {
+          "frame": 201,
+          "person_center_uv": [
+            0.5,
+            0.5163085656595061
+          ],
+          "person_height_fraction": 0.6812583416082487,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "淺藍白細直條襯衫紮入、同件深靛直褲、咖棕皮便士樂福鞋、灰褐小肩包、銀耳釘"
+        }
+      ]
+    },
+    {
+      "shot_id": "F03",
+      "character_samples": [
+        {
+          "frame": 183,
+          "position": [
+            -0.26176211968909846,
+            0,
+            8.510934343085367
+          ],
+          "heading_degrees": 9.152294093251328,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 240,
+          "position": [
+            0.23964205397339117,
+            0,
+            11.123133626827139
+          ],
+          "heading_degrees": 13.649681335207799,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 297,
+          "position": [
+            0.9646399217142729,
+            0,
+            13.682598805416587
+          ],
+          "heading_degrees": 16.33026051799556,
+          "gait_phase": "shared global phase, not measured real gait"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 183,
+          "position": [
+            -2.5273445047980982,
+            1.35,
+            11.79633085616615
+          ],
+          "target": [
+            -0.26176211968909846,
+            0.9,
+            8.510934343085367
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 240,
+          "position": [
+            -2.1949373397509406,
+            1.35,
+            14.286297778725835
+          ],
+          "target": [
+            0.23964205397339117,
+            0.9,
+            11.123133626827139
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 297,
+          "position": [
+            -1.7366734858011212,
+            1.35,
+            16.833819791711818
+          ],
+          "target": [
+            0.9646399217142729,
+            0.9,
+            13.682598805416587
+          ],
+          "vertical_fov_degrees": 34
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 183,
+          "person_center_uv": [
+            0.5,
+            0.5163080577217432
+          ],
+          "person_height_fraction": 0.6779152871585631,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "燕麥薄短版圓領針織外衫扣合、白內搭僅露少量領口、同件深靛直褲、黑樂福鞋、灰褐小肩包、銀耳釘"
+        },
+        {
+          "frame": 240,
+          "person_center_uv": [
+            0.5,
+            0.5163080151675645
+          ],
+          "person_height_fraction": 0.6777895326977831,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "燕麥薄短版圓領針織外衫扣合、白內搭僅露少量領口、同件深靛直褲、黑樂福鞋、灰褐小肩包、銀耳釘"
+        },
+        {
+          "frame": 297,
+          "person_center_uv": [
+            0.5,
+            0.516265605449059
+          ],
+          "person_height_fraction": 0.652553054292173,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "燕麥薄短版圓領針織外衫扣合、白內搭僅露少量領口、同件深靛直褲、黑樂福鞋、灰褐小肩包、銀耳釘"
+        }
+      ]
+    },
+    {
+      "shot_id": "F04",
+      "character_samples": [
+        {
+          "frame": 279,
+          "position": [
+            0.7256774189610421,
+            0,
+            12.877153753676968
+          ],
+          "heading_degrees": 16.552359437635864,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 336,
+          "position": [
+            1.4270909414946649,
+            0,
+            15.442787964001678
+          ],
+          "heading_degrees": 12.248515848380025,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 393,
+          "position": [
+            1.819496810112747,
+            0,
+            18.072953177642585
+          ],
+          "heading_degrees": 6.203036970203653,
+          "gait_phase": "shared global phase, not measured real gait"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 279,
+          "position": [
+            -1.903202416327503,
+            1.35,
+            16.02520229611974
+          ],
+          "target": [
+            0.7256774189610421,
+            0.9,
+            12.877153753676968
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 336,
+          "position": [
+            -1.3096383398676392,
+            1.35,
+            18.594557169599774
+          ],
+          "target": [
+            1.4270909414946649,
+            0.9,
+            15.442787964001678
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 393,
+          "position": [
+            -0.607864319025468,
+            1.35,
+            21.195805247376267
+          ],
+          "target": [
+            1.819496810112747,
+            0.9,
+            18.072953177642585
+          ],
+          "vertical_fov_degrees": 34
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 279,
+          "person_center_uv": [
+            0.5,
+            0.5162854242426057
+          ],
+          "person_height_fraction": 0.6601635474779972,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "淺灰無內裡薄西外敞開、白圓領T紮入、同件深靛直褲、黑樂福鞋、深灰小肩包、銀耳釘"
+        },
+        {
+          "frame": 336,
+          "person_center_uv": [
+            0.5,
+            0.5162542125255717
+          ],
+          "person_height_fraction": 0.6489718255919333,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "淺灰無內裡薄西外敞開、白圓領T紮入、同件深靛直褲、黑樂福鞋、深灰小肩包、銀耳釘"
+        },
+        {
+          "frame": 393,
+          "person_center_uv": [
+            0.5,
+            0.5163081378316385
+          ],
+          "person_height_fraction": 0.6838244241254008,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "淺灰無內裡薄西外敞開、白圓領T紮入、同件深靛直褲、黑樂福鞋、深灰小肩包、銀耳釘"
+        }
+      ]
+    },
+    {
+      "shot_id": "F05",
+      "character_samples": [
+        {
+          "frame": 375,
+          "position": [
+            1.7215414599310797,
+            0,
+            17.23854874811536
+          ],
+          "heading_degrees": 7.259776885869476,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 427,
+          "position": [
+            1.973785638914746,
+            0,
+            19.652355098188686
+          ],
+          "heading_degrees": 5.145722562371974,
+          "gait_phase": "shared global phase, not measured real gait"
+        },
+        {
+          "frame": 480,
+          "position": [
+            2.1,
+            0,
+            21.0
+          ],
+          "heading_degrees": 6.452370819172288,
+          "gait_phase": "shared global phase, not measured real gait"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 375,
+          "position": [
+            -0.8350110121399,
+            1.35,
+            20.370886523885062
+          ],
+          "target": [
+            1.7215414599310797,
+            0.9,
+            17.23854874811536
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 427,
+          "position": [
+            -0.17127253583907842,
+            1.35,
+            22.760412664965287
+          ],
+          "target": [
+            1.973785638914746,
+            0.9,
+            19.652355098188686
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 480,
+          "position": [
+            0.2,
+            1.35,
+            24.1
+          ],
+          "target": [
+            2.1,
+            0.9,
+            21.0
+          ],
+          "vertical_fov_degrees": 34
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 375,
+          "person_center_uv": [
+            0.5,
+            0.5163013460544469
+          ],
+          "person_height_fraction": 0.6693880069623313,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "原定白透氣短袖圓領T、同件深靛直褲、灰白低筒帆布鞋、灰藍棉帆布托特、銀耳釘"
+        },
+        {
+          "frame": 427,
+          "person_center_uv": [
+            0.5,
+            0.5162444065187319
+          ],
+          "person_height_fraction": 0.7151763980485665,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "原定白透氣短袖圓領T、同件深靛直褲、灰白低筒帆布鞋、灰藍棉帆布托特、銀耳釘"
+        },
+        {
+          "frame": 480,
+          "person_center_uv": [
+            0.5,
+            0.5161022270466081
+          ],
+          "person_height_fraction": 0.7418571855258037,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "原定白透氣短袖圓領T、同件深靛直褲、灰白低筒帆布鞋、灰藍棉帆布托特、銀耳釘"
+        }
+      ]
+    }
+  ]
+}

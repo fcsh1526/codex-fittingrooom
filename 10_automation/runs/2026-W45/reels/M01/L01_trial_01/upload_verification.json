@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "approved_source_sha256": "ead6fbc6a18450afe8e09b814ef99fc2a322c3aba655b40cfc3f2735ffd0ebb9",
+  "first": {
+    "asset_id": "52712daf-fde5-49fd-8ed2-a59010a25fde",
+    "sha256": "ead6fbc6a18450afe8e09b814ef99fc2a322c3aba655b40cfc3f2735ffd0ebb9"
+  },
+  "face": {
+    "asset_id": "a3306f94-b579-4498-9a01-a1717fe12c62",
+    "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+  },
+  "full": {
+    "asset_id": "61671532-de26-495b-b7f5-5331a1570fa3",
+    "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4"
+  },
+  "all_three_downloaded_hashes_match_local_approved_files": true,
+  "excluded_wrong_full_candidate": {
+    "asset_id": "1152e2b3-fb44-4961-a253-65a2458c3878",
+    "reason": "hash differs; excluded before generation"
+  },
+  "L02_unapproved_still_uploaded": false
+}

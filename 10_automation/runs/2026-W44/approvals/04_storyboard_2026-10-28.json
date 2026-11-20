@@ -1,0 +1,10 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "storyboard",
+  "target_sha256": "ffc751a39f080c7251d1c2f506d910d199c1a725faec34fd8a7de2a479f2525a",
+  "quote": "ok",
+  "recorded_at": "2026-10-28",
+  "source_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+  "limits": "Schematic design only, not actual generated media or physical/camera adherence."
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-04",
+  "source": "L01",
+  "sampled_full_frames_viewed": 13,
+  "additional_endpoint_frame_viewed": true,
+  "Grok_native_playback_rate_observed": 1,
+  "continuous_human_visual_review": false,
+  "physical_QA_pass": null,
+  "user_video_acceptance": null,
+  "publication_approval": null
+}

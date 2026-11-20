@@ -1,0 +1,85 @@
+{
+  "version": "v2_source_verified",
+  "sources": [
+    {"id":"W44","url":"https://mika-lin-weekly.pplx.app/weeks/2026-W44.html","publisher":"Mira Perplexity W44","finding":"五個來源方向：紫色薄針織、細肩帶洋裝內搭、低筒球鞋、紅色配件、腰間絲巾；20筆原始單品列已保存，並與頁面內CSV逐列一致。","limit":"研究輸入，不自動採納上游系列卡、指定完整搭配或宣稱商品功能。"},
+    {"id":"WX","url":"https://www.cwa.gov.tw/Data/fcst_pdf/W53.pdf","publisher":"中央氣象署","issued_at":"2026-10-27 11:00 +08:00","finding":"台北10/28白天22–24°C且有短暫雨，後段回暖；台中與高雄白天高溫多29–31°C。採短袖打底、可脫薄外層，場景有遮蔭或室內。","limit":"規劃日已查的逐日預報；發布前重查，不以AI圖證明舒適、防水或止滑。"},
+    {"id":"PURPLE","url":"https://www.whowhatwear.com/fashion/fall/autumn-2026-cult-buys","publisher":"Who What Wear","finding":"原文有Purple Knits段，包含以細針織披肩的穿法。","limit":"本次直接讀取；薄棉混紡與台灣場合為編輯轉譯，不是商品實穿驗證。"},
+    {"id":"PURPLE_KR","url":"https://www.koreaherald.com/article/10898587","publisher":"The Korea Herald","issued_at":"2026-10-11","finding":"原文討論紫色與針織，並引用Zigzag平台搜尋變化。","limit":"單一平台訊號，不推為全球市場普查；本案不重複數字作成效承諾。"},
+    {"id":"DRESS","url":"https://www.harpersbazaar.com/fashion/trends/a74198279/fall-dress-trends-2026/","publisher":"Harper’s Bazaar 洋裝","finding":"Supermodel Slip段提及九〇年代細肩帶洋裝、流動布料與疊穿。","limit":"白短袖內搭＋薄襯衫是本專案與週報的台灣轉譯，不能當原文直接指定的辦公室穿法。"},
+    {"id":"SHOE","url":"https://www.harpersbazaar.com/fashion/trends/a74056564/how-to-style-low-profile-sneakers/","publisher":"Harper’s Bazaar 低筒鞋","issued_at":"2026-10-22","finding":"原文整理低筒球鞋與日常搭配。","limit":"僅採鞋型與比例；不採好走一整天、防滑等未經實穿驗證的功能主張。"},
+    {"id":"RED","url":"https://www.harpersbazaar.com/fashion/trends/a73961176/red-color-trend-2026/","publisher":"Harper’s Bazaar 紅色","issued_at":"2026-10-14","finding":"原文包括腰帶、包等紅色配件與中性色搭配。","limit":"只留一件紅色是編輯選擇，原文亦有多處紅色搭法；不把本案規則推為唯一正確穿法。"},
+    {"id":"SCARF","url":"https://www.harpersbazaar.com/fashion/trends/a74170659/fall-trends-2026/","publisher":"Harper’s Bazaar 腰間細節","finding":"原文提出以絲質長巾繫腰，搭黑褲與襯衫。","limit":"方巾穿一至兩個褲耳、平整側結是本案可視覺查核的編輯設計，非原文機能或固定方式驗證。"}
+  ],
+  "series": [
+    {
+      "id":"01","model":"M02","title":"一件紫色薄針織，工作日到週末",
+      "question":"同一件亮色外搭，搭工作褲或舊牛仔褲時，怎麼保留清楚的色塊？",
+      "answer":"同一件皇家紫薄開襟衫與白短袖，工作日配炭灰直筒褲，週末換W43巧克力棕丹寧；兩套都只讓紫色做唯一亮色。",
+      "recipe":"continuous_route","layout":"single_sequential","master":"B",
+      "region":"台北，有遮簷的辦公街廓；週末造型同路段示意另一日，不冒稱同日現場變裝",
+      "source_rows":["W44-P001","W43-P001","W43-P009","W44-P009"],
+      "looks":["皇家紫細針織V領薄開襟衫（敞開）、白圓領短袖T、炭灰高腰直筒褲、白灰低筒球鞋、黑小肩包、細銀耳環","同款皇家紫薄開襟衫（敞開）、白圓領短袖T、巧克力棕直筒丹寧褲、白灰低筒球鞋、黑小肩包、細銀耳環"],
+      "proofs":["紫色門襟、白T與炭灰腰線","同款紫外搭接棕色丹寧腰線"],
+      "beats":["工作日褲裝全身，持續前進","淺側仍見紫外搭與灰褲","同世界時間接入週末棕丹寧","全身收束，保留紫色單點"],
+      "colors":["#7445ad","#7445ad"],
+      "render":{"upper":["#7445ad","#7445ad"],"lower":["#5d626b","#624536"],"bag":["#30343a","#30343a"],"layer":[true,true],"inner":["#ffffff","#ffffff"],"skirt":[false,false]},
+      "gaps":["新週服裝需重審連續路線的衣服閱讀價值；沿用幾何不是新企劃核准","本案只有兩套，不移轉M03五套舊案的視覺或動態核准；兩套各需full/proof"]
+    },
+    {
+      "id":"02","model":"M01","title":"夏天的細肩帶洋裝，白天繼續穿",
+      "question":"如何讓細肩帶洋裝的肩帶與短袖層次清楚，又能分出上班和週末？",
+      "answer":"左側黑色洋裝內搭白T並加薄灰藍襯衫；右側可可棕洋裝配白T與奶油白平底鞋。比較內搭遮覆和外層有無，不以露膚差或換色當大變裝。",
+      "recipe":"parallel_comparison","layout":"parallel_comparison","master":"D",
+      "region":"台中，室內採光休息區；兩側是同一人物不同場合的編輯比較",
+      "source_rows":["W44-P005","W44-P007","W42-P016","W44-P009"],
+      "looks":["白圓領棉短袖T、黑色不透霧面細肩帶及小腿直身洋裝、灰藍薄棉襯衫敞開、白灰低筒球鞋、深棕小肩包、細銀耳環","白圓領棉短袖T、可可棕不透霧面細肩帶及小腿直身洋裝、奶油白尖頭平底鞋、黑小肩包、細銀耳環"],
+      "proofs":["白T袖口／領口、黑肩帶及灰藍門襟三層","白T與棕色肩帶、無外層時的遮覆"],
+      "beats":["兩套全身同時出現，讀洋裝長度","左側淺側轉，右側自然換重心","兩側肩帶與白T袖口同時可見","完整鞋與裙襬收束"],
+      "colors":["#6f8b9d","#775541"],
+      "render":{"upper":["#ffffff","#ffffff"],"lower":["#262b31","#775541"],"bag":["#49372d","#30343a"],"layer":[false,false],"inner":["#ffffff","#ffffff"],"skirt":[true,true],"slip":[true,true],"overshirt":["#91a8b7",null]},
+      "gaps":["並排手機尺寸須能分辨肩帶／短袖；不清楚則改依序呈現，不用畫面字補救","8秒每側都需8秒可用原速來源，不能6秒循環或慢放；先核對引擎可用時長"]
+    },
+    {
+      "id":"03","model":"M04","title":"短程出差，同雙低筒鞋搭裙或褲",
+      "question":"少帶一雙鞋，裙裝與褲裝各要留出多少鞋面？",
+      "answer":"同雙白灰低筒球鞋，第一套配W42炭灰膝長直筒裙，第二套配深藍九分直筒褲；整片看鞋口、下襬間距與完整比例，不聲稱實穿舒適。",
+      "recipe":"everyday_sequence","layout":"single_sequential","master":"B",
+      "region":"台中，車站室內休息區／共享辦公室；獨立生活片段，不宣稱連續同場地運鏡",
+      "source_rows":["W44-P009","W44-P010","W42-P005","W43-P017"],
+      "looks":["白圓領短袖T、淺灰無內裡薄襯衫敞開、炭灰膝長直筒裙、白灰低筒球鞋、黑中型柔軟月牙肩包、銀耳釘","白圓領短袖T、同款淺灰薄襯衫敞開、深藍高腰九分直筒褲、同雙白灰低筒球鞋、同款黑月牙包、銀耳釘"],
+      "proofs":["含裙襬與鞋口的膝下直式proof","褲腳不蓋鞋面、完整鞋口的膝下proof"],
+      "beats":["裙裝全身短步，鞋面不被裙襬遮","裙襬到鞋面中近景，正常步幅","褲腳到鞋面相近位置接入","褲裝全身，讀九分長度"],
+      "colors":["#d7dadd","#d7dadd"],
+      "render":{"upper":["#d7dadd","#d7dadd"],"lower":["#59616b","#263e59"],"bag":["#30343a","#30343a"],"layer":[true,true],"inner":["#ffffff","#ffffff"],"skirt":[true,false],"lower_proof":[true,true]},
+      "gaps":["這是鞋型與比例示意，不採週報的好走一整天／止滑功能主張","單鏡驗收鞋面與腳步；proof要同時留裙／褲上下文，不用鞋特寫替代全身"]
+    },
+    {
+      "id":"04","model":"M03","title":"下班赴約，一抹紅放包或腰間",
+      "question":"不換成整套紅，紅色小包與窄皮帶各如何放進中性色穿搭？",
+      "answer":"第一套白短袖＋炭灰褲只加正紅小包；第二套白襯衫＋黑褲只加酒紅窄皮帶、包回黑色。兩套各只有一個紅色部位。",
+      "recipe":"sequential_lookbook","layout":"single_sequential","master":"C",
+      "region":"台北，室內餐館入口固定採光區；原速小幅自然動作",
+      "source_rows":["W44-P013","W44-P014","W43-P017"],
+      "looks":["奶油白圓領短袖上衣、炭灰直筒褲、淺灰薄襯衫敞開、白灰低筒球鞋、正紅小型肩包、細銀耳環","白色薄棉尖領長袖襯衫（袖口預先翻折、紮入）、黑高腰直筒長褲、酒紅窄皮帶、黑低跟包鞋、黑小肩包、細銀耳環"],
+      "proofs":["完整正紅小包及白／灰衣服上下文","酒紅窄皮帶與白襯衫／黑褲腰線，黑包不遮皮帶"],
+      "beats":["含臉與完整紅包中景提出色點","第一套全身，看紅包面積","第二套相近全身接入","腰線中近景收束，讀酒紅皮帶"],
+      "colors":["#d7dadd","#ffffff"],
+      "render":{"upper":["#d7dadd","#ffffff"],"lower":["#59616b","#262b31"],"bag":["#bd283c","#30343a"],"layer":[true,false],"inner":["#fffaf0","#ffffff"],"skirt":[false,false],"belt":[null,"#7a3044"]},
+      "gaps":["窄皮帶在手機全身中可能太小，proof須保持服裝上下文並另作直式清晰度審查","不用拿包遮鏡或在鏡內換配件；該系列屬依序展示方法的主題變體"]
+    },
+    {
+      "id":"05","model":"M05","title":"襯衫長褲，腰間加一條方巾",
+      "question":"既有襯衫長褲，方巾如何在腰間成為清楚、平整的小重點？",
+      "answer":"第一套白襯衫黑褲配海軍藍米白方巾；第二套灰藍襯衫米白褲配棕米小方巾。兩套都窄折穿一至兩個褲耳、預先側結，其餘素色。",
+      "recipe":"everyday_sequence","layout":"single_sequential","master":"E",
+      "region":"高雄，遮蔭藝文走廊／室內書架旁；薄襯衫與輕薄方巾",
+      "source_rows":["W44-P017","W44-P020","W43-P018"],
+      "looks":["白色薄棉長袖襯衫（預先翻袖、紮入）、黑高腰直筒褲、海軍藍米白印花薄方巾穿一至兩個褲耳並在左側打平整小結、白灰低筒球鞋、黑小肩包、銀耳釘","灰藍薄棉長袖襯衫（預先翻袖、紮入）、米白高腰直筒褲、棕米印花薄小方巾穿一至兩個褲耳並左側平整小結、白灰低筒球鞋、深棕輕量半月斜背包、銀耳釘"],
+      "proofs":["海軍藍方巾穿過實際褲耳、左側結及襯衫腰線","棕米方巾穿褲耳、左側結與米白褲上下文"],
+      "beats":["第一套全身，手臂離開腰間","含臉到腰下中景，側結已固定","第二套相近腰線接入，雙手不擋結","第二套全身，短步後自然收束"],
+      "colors":["#ffffff","#91a8b7"],
+      "render":{"upper":["#ffffff","#91a8b7"],"lower":["#262b31","#e7decb"],"bag":["#30343a","#49372d"],"layer":[false,false],"inner":["#ffffff","#ffffff"],"skirt":[false,false],"scarf":["#344e6d","#84694f"]},
+      "gaps":["穿褲耳與側結是編輯轉譯，首圖即需畫清楚；不要求生成打結或手指操作","方巾位置與尾長逐鏡鎖定；不得自行漂移、穿身或在後鏡換結"]
+    }
+  ]
+}

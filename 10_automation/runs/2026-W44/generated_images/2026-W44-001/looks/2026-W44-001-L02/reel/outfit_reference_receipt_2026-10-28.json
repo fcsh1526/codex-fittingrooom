@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-28",
+  "look_id": "2026-W44-001-L02",
+  "role": "outfit_reference_only_not_S02_entry",
+  "provider": "built-in image_gen",
+  "runtime_model": "not surfaced",
+  "total_generation_calls": 3,
+  "sequence": [
+    {
+      "call": 1,
+      "purpose": "New L02 outfit lock using accepted L01 full photo for upper wardrobe/scene plus identity pair",
+      "prompt": "hero_A_prompt.md",
+      "tool_wall_seconds": 31.9,
+      "outcome": "Unwanted ornamental trouser texture; rejected"
+    },
+    {
+      "call": 2,
+      "purpose": "One targeted correction to remove trouser ornament",
+      "prompt": "denim_surface_correction_prompt.md",
+      "tool_wall_seconds": 29.9,
+      "outcome": "Pattern retained; rejected, not used for derivatives"
+    },
+    {
+      "call": 3,
+      "purpose": "Source reset after failure diagnosis; identity pair only, explicit plain-denim textual outfit specification",
+      "prompt": "outfit_source_reset_prompt.md",
+      "tool_wall_seconds": 57.6,
+      "outcome": "New outfit-direction candidate; not exact shared-world entry"
+    }
+  ],
+  "diagnosis": "Possible inherited texture from outfit/photo reference; not established as causal. Source role changed rather than repeating another correction on failed pixels.",
+  "actual_inputs": {
+    "calls_1": [
+      "L01 accepted full-person framing_v2",
+      "M02 v3 face",
+      "M02 v3 full"
+    ],
+    "call_2": [
+      "L02 initial pattern-failed image"
+    ],
+    "call_3": [
+      "M02 v3 face",
+      "M02 v3 full"
+    ]
+  },
+  "outputs": [
+    {
+      "file": "2026-W44-001-L02_M02_outfit_lock_initial_pattern_failed.png",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L02/reel/2026-W44-001-L02_M02_outfit_lock_initial_pattern_failed.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2256334,
+      "sha256": "9ab1c2e38b14f8b62b612062f91a5ec8b64c9649e0020c65d1cdcab8667e39e9",
+      "status": "rejected_unwanted_trouser_pattern"
+    },
+    {
+      "file": "2026-W44-001-L02_M02_outfit_lock_correction_pattern_failed.png",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L02/reel/2026-W44-001-L02_M02_outfit_lock_correction_pattern_failed.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2223150,
+      "sha256": "f08e5e9d316c2353d08ee27de5d34c4bd020425c81d69a4bfe50942c3ce2daa1",
+      "status": "correction_failed_pattern_retained"
+    },
+    {
+      "file": "2026-W44-001-L02_M02_outfit_reference_reset_candidate_A.png",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L02/reel/2026-W44-001-L02_M02_outfit_reference_reset_candidate_A.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2218083,
+      "sha256": "7d5716e96738916843720deb2f908790752c4574d42d44d38fde36fc7f62254c",
+      "status": "outfit_direction_candidate_pending_user_review"
+    }
+  ],
+  "current_review_candidate": "2026-W44-001-L02_M02_outfit_reference_reset_candidate_A.png",
+  "review": {
+    "viewed": "Full displayed outputs and accepted L01 full source",
+    "identity": "Recognizable M02 face, gathered hairstyle and adult proportions; exact identity judgement pending user",
+    "outfit_direction": "Purple/white upper layers with chocolate-brown five-pocket straight denim, white-gray sneakers and black bag readable; denim surface still visibly mottled, not a fabric-quality claim",
+    "deviations": "Bag switches shoulder; apparent cardigan length/button arrangement, person scale and architecture differ from accepted L01 photo. Not marked exact wardrobe or scene continuity pass.",
+    "role_limit": "Candidate may establish L02 dressing direction only after explicit user acceptance. It is not the actual S02 global f150 entry, a verified later-frame projection or a completed connected source."
+  },
+  "new_still_approved": false,
+  "motion_generated": false,
+  "next": "User review of L02 outfit direction. Build actual entry using an approved/measured S01 boundary or a validated calibrated scene before motion; no unapproved substitution of this reference into S02."
+}

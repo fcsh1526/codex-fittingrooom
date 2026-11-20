@@ -1,0 +1,21 @@
+本次只做W45 M03 L01，只生成一支6秒720p原生9:16候選。使用者已核准兩套各自精確首圖；本次只用以下這一套，不混衣、不出新照片、不重試、不改刪舊媒體、不合片、不加購或換服務。不是舊W43／W44系列，也不是M01或M02。本鏡固定相機、看完整褲裝，不做第二套或運鏡。
+
+精確輸入：
+first_frame_asset_id: "2e8df556-7034-4788-92d8-3a769fcdfed3"
+asset_ids: ["26e03f42-2907-488c-b75c-239a2a19b9c8","15c720b2-46b6-45e0-a150-60290e3290e6"]
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+不設last_frame_asset_id或keyframes。
+
+first內容：M03長棕捲髮，深海軍藍薄西外／白圓領T／炭灰直褲／黑低跟樂福鞋／黑小肩包，約74%畫高、辦公樓遮簷休息凳旁；必須用framing_v2，不能用約95%滿框原圖。三份圖片已實際下載SHA核對為核准原檔。face/full只鎖M03 v3身份、髮型與普通比例，不複製白襯衫／炭灰褲的棚拍造型、表情或站姿。先實際看這三個UUID；找不到、內容不符、額度不足或設定不支援便停下回報，不替換圖或參數。
+
+把以下英文逐字傳入prompt，不擴寫動作或加走路；標記不傳入。
+PROMPT_BEGIN
+Her friend directly behind the camera has called to her after work. Begin from the exact approved first image. She meets the lens, releases her workday tension through her shoulders and lets her warm smile open into a spontaneous happy laugh.
+
+One continuous six-second real-time shot. Keep her comfortably in the same place, with a natural weight shift and a relaxed, responsive upper body. A small forward inclination accompanies the laugh, then she returns comfortably upright, still engaged with the viewer. Her hands remain low, relaxed and visible beside the torso; the bag stays on her left shoulder. Preserve the open blazer front, white neckline, waist and straight-trouser silhouette throughout.
+
+Keep the exact M03 identity and long wavy brown hair, deep-navy lightweight soft-shouldered blazer, white crewneck cotton tee, charcoal straight trousers, black low-heeled loafers, small black shoulder bag and fine silver necklace. Locked level chest-height 50mm camera; complete hair and both shoes remain visible with normal head-to-body proportions. Keep coherent shaded daylight and rigid office windows, stone wall, bench and paving. Ordinary live-action tempo, grounded balance and responsive fabric. No walking, large arm gesture, spin, camera move, cut or text.
+PROMPT_END
+音訊只有真有開關才關；無法關就保留AAC如實回報，不因音訊重生。完成列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、明確模型版本、剩餘額度無欄位就unknown。代理回報、抽樣與QA分開，不宣告物理／身份／接點或成片通過。

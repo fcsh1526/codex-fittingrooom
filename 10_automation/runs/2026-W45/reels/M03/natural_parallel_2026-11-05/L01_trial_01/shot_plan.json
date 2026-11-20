@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "status": "prepared_not_submitted",
+  "look": "L01",
+  "source_still": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+  "source_still_sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+  "first_frame_asset_id": "2e8df556-7034-4788-92d8-3a769fcdfed3",
+  "identity_asset_ids": [
+    "26e03f42-2907-488c-b75c-239a2a19b9c8",
+    "15c720b2-46b6-45e0-a150-60290e3290e6"
+  ],
+  "duration_requested": 6,
+  "resolution_requested": "720p",
+  "aspect_requested": "9:16",
+  "last_frame_asset_id": null,
+  "keyframes": null,
+  "prompt_sha256": "877da7519c5f57ba51ebe20c06ad64f36f7a3aa9b18a66dac990565149b859df",
+  "max_new_jobs": 1,
+  "new_jobs_submitted": 0,
+  "new_still_calls": 0,
+  "user_authorization": "Latest ok continues natural motivated performance correction within M03, A layout already selected; not a new still or film/publication approval.",
+  "remaining_quota": "unknown",
+  "seed": "unknown",
+  "model_version": "unknown"
+}

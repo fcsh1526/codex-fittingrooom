@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-04",
+  "rejected_v2_hash_verified": true,
+  "snapshot_count": 18,
+  "approved_snapshot_hashes_unchanged": true,
+  "new_still_calls": 0,
+  "new_video_jobs": 0,
+  "new_edit_outputs": 0,
+  "current_M03_film_accepted": false,
+  "pending_film_reviews": 0,
+  "M01_M02_acceptance_retained": true,
+  "cause_is_hypothesis_not_established": true
+}

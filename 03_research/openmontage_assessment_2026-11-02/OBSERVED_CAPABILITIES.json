@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-02",
+  "repository_commit": "08e2151fa02de28a5d6a312b3d575692bf147ad7",
+  "evidence_type": "registry availability queries only; no media tool execution",
+  "available": ["frame_sampler", "scene_detect", "visual_qa", "video_analyzer", "video_trimmer", "video_stitch", "video_compose"],
+  "unavailable": ["video_understand", "face_tracker", "ltx_video_local", "grok_video", "seedance_video", "kling_video", "hyperframes_compose"],
+  "render_engines": {"ffmpeg": true, "remotion": true, "hyperframes": false},
+  "hyperframes_diagnostic": {"node_major": 24, "ffmpeg_available": true, "npx_available": true, "npm_resolve_error": "timeout (5s) — offline or slow registry", "cli_probe_status": null},
+  "backlot_health": "read blocked by current socket permissions; running state unverified",
+  "new_paid_generation_calls": 0,
+  "minimal_test_executed": false,
+  "approved_media_modified": false
+}

@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "scenes": [
+    {
+      "id": "S1",
+      "type": "character_scene",
+      "description": "畫面只有可可、燕麥、暖白三個色面；前兩塊邊緣齊整，第三塊延伸到畫外。",
+      "start_seconds": 0,
+      "end_seconds": 2,
+      "script_section_id": "B1",
+      "framing": "俯視近距，桌在左、坐者右膝在右，兩張布樣固定於矮台；桌沿與膝面等高。",
+      "movement": "靜止，看清纖維；畫外不露手臉和縫線。",
+      "shot_intent": "先相信看到的是三張色票。"
+    },
+    {
+      "id": "S2",
+      "type": "character_scene",
+      "description": "暖白色面起一道斜褶，褶線滑向右邊緣；旁邊的兩張色票紋絲不動。",
+      "start_seconds": 2,
+      "end_seconds": 5,
+      "script_section_id": "B2",
+      "framing": "延續同一俯視構圖、同一窗光；M02 彎右膝並將右腳略收。",
+      "movement": "先定機，折線出現才沿褲面短移到外側縫。",
+      "shot_intent": "讓觀眾自己辨出這是丹寧。"
+    },
+    {
+      "id": "S3",
+      "type": "character_scene",
+      "description": "鏡頭外的她早知道答案。M02 從膝頭抬眼，嘴角動一下，手撐椅面準備起身。",
+      "start_seconds": 5,
+      "end_seconds": 8,
+      "script_section_id": "B3",
+      "framing": "從桌子同側切前方三分之四中景；膝頭留在畫面下方，桌上的布樣仍在左。",
+      "movement": "眼平定機，同時看得到臉、燕麥外套與可可針織。",
+      "shot_intent": "用人物的反應兌現玩笑。"
+    },
+    {
+      "id": "S4",
+      "type": "character_scene",
+      "description": "她站起，離開矮台半步，在窗邊停住；可可、燕麥、暖白完整落在她一人身上。",
+      "start_seconds": 8,
+      "end_seconds": 12,
+      "script_section_id": "B4",
+      "framing": "同側全身，托特掛在椅背、不遮褲線，黑樂福鞋至褲腰完整；末兩秒站穩讀衣。",
+      "movement": "定機保留腳下空間，順起身接全身。",
+      "shot_intent": "記住棕與白可以是同一套秋裝。"
+    }
+  ],
+  "metadata": {
+    "mode": "text_only_preproduction",
+    "human_approved": false,
+    "external_generation_calls": 0,
+    "hero_frames": [
+      "三個色面",
+      "白丹寧的褶和側縫",
+      "人物離開色票桌、完整服裝入畫"
+    ],
+    "subject": "同一 M02 v3，W47 L01，四拍衣料色溫不變。",
+    "future_motion_briefs": [
+      "G1：同一俯視源連拍 B1/B2，只有右膝彎、布起褶，布樣靜止；近拍要保留丹寧斜紋。",
+      "G2：B3 中景，先看膝部再抬眼輕笑，手落到椅面，停在起身前。",
+      "G3：B4 以上一段的支撐側與身體方向起身，半步離桌停住；完整露鞋與直筒線。"
+    ],
+    "risk": "桌沿和膝面需等高。若不可能隱藏尺度，可從無法辨識的丹寧斜紋開場，稍後用布樣做對照；玩笑將變弱，需重審概念。",
+    "audio": "音樂及擬音均為創作規格；無聲亦靠折線與表情讀出揭曉。"
+  }
+}

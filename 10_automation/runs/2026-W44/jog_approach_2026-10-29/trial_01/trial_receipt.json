@@ -1,0 +1,28 @@
+{
+  "asset_id": "4d407fa5-483f-4861-a320-cb40d78a3d58",
+  "sha256": "73cd5e6f572769322b9521dc23429d50f6f8fc033fcc37d665ae9370935a0bf5",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "decoded_frames": 145,
+  "first_frame_asset_id": "77ed722c-d3db-4208-8635-e460784e5fe9",
+  "continuous_manual_playback": false,
+  "user_approval": "rejected",
+  "review_date": "2026-10-30",
+  "submission": "once in previous turn; recovered existing result, no retry",
+  "user_feedback": "沒有符合。人物太刻意小跑步了，靠近鏡頭後的最後幾感覺頭部與身體比例變怪，頭好像變得比較大"
+}

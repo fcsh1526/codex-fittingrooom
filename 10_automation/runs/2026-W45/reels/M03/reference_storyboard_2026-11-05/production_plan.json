@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M03_reference_storyboard_v1_20261105",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W44",
+      "2026-W45"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "同件海軍藍西外，直褲的俐落直線與A字裙的展幅；再近看表情、領片與內搭。",
+    "visual_theme": "直接對鏡頭展示造型：完整輪廓、連貫的大動作、較近的閱讀收尾",
+    "selection_rationale": "保留已選A並排，把11/4參考中的表演連動／角度資訊／靠近轉成三段可見發展；不為禁止舞蹈而凍結人物。"
+  },
+  "presentation": {
+    "layout_id": "parallel_comparison",
+    "recipe_id": "parallel_comparison",
+    "variant": "front-to-angled-to-near direct outfit presentation",
+    "evidence_status": "proposal; not a new mature method"
+  },
+  "models": [
+    {
+      "id": "M03",
+      "identity_asset_ids": [
+        "M03_face",
+        "M03_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-003-L01",
+      "model_id": "M03",
+      "wardrobe_summary": "深海軍藍薄料柔肩單排扣西裝外套敞開、白棉圓領短袖T、炭灰高腰直筒長褲、黑低跟樂福鞋、黑小肩包、細銀項鍊",
+      "source_asset_ids": [
+        "L01_first"
+      ]
+    },
+    {
+      "id": "2026-W45-003-L02",
+      "model_id": "M03",
+      "wardrobe_summary": "同款深海軍藍柔肩薄西外敞開、奶油白薄棉短袖針織上衣、奶油白小腿中段A字裙、白灰低筒球鞋、同款黑小肩包、細銀項鍊",
+      "source_asset_ids": [
+        "L02_first"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 216,
+    "duration_seconds": 9,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "P01",
+      "look_ids": [
+        "2026-W45-003-L01",
+        "2026-W45-003-L02"
+      ],
+      "frames": [
+        0,
+        216
+      ],
+      "clothing_purpose": "0–5秒完整輪廓與角度，5–9秒連續靠近讀表情、西外領片與內搭。",
+      "clear_read_intervals": [
+        [
+          0,
+          120
+        ],
+        [
+          168,
+          216
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": "animatic",
+      "input_asset_ids": [
+        "L01_first",
+        "L02_first"
+      ],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "execution_mode": "generate",
+      "camera": "fixed position; slight upward re-aim during approach to retain complete head; no zoom/dolly proposed",
+      "panels": [
+        {
+          "id": "left",
+          "look_id": "2026-W45-003-L01",
+          "input_asset_id": "L01_first"
+        },
+        {
+          "id": "right",
+          "look_id": "2026-W45-003-L02",
+          "input_asset_id": "L02_first"
+        }
+      ],
+      "performance_beats": [
+        {
+          "t": 0.0,
+          "title": "01  開場就看見兩種輪廓",
+          "detail": [
+            "同件西外；直褲／淺裙同時可讀。",
+            "從已核准首圖起勢，不先演等待。"
+          ],
+          "l": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "r": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "t": 1.5,
+          "title": "02  主動展示，視線留給鏡頭",
+          "detail": [
+            "左側一手到腰，肩與下巴一起轉向。",
+            "右側一腳斜開，裙身自然展開。"
+          ],
+          "l": [
+            -5,
+            0.25,
+            1,
+            0
+          ],
+          "r": [
+            0,
+            -0.2,
+            0,
+            1
+          ],
+          "size": 1.0
+        },
+        {
+          "t": 3.2,
+          "title": "03  短步與側角，各自給新資訊",
+          "detail": [
+            "左：斜向落步，讀直褲與西外側線。",
+            "右：一次轉成斜側面，讀裙幅。"
+          ],
+          "l": [
+            -3,
+            0.95,
+            0,
+            1
+          ],
+          "r": [
+            3,
+            -0.95,
+            0,
+            1
+          ],
+          "size": 1.0
+        },
+        {
+          "t": 5.0,
+          "title": "04  帶著動勢回到正面",
+          "detail": [
+            "手臂隨身體回落，沒有重複搖擺。",
+            "完整鞋型最後讀清，再開始走近。"
+          ],
+          "l": [
+            -2,
+            0.1,
+            0,
+            0
+          ],
+          "r": [
+            2,
+            -0.12,
+            1,
+            0
+          ],
+          "size": 1.0
+        },
+        {
+          "t": 6.8,
+          "title": "05  兩步靠近，畫面開始推進",
+          "detail": [
+            "放下手，短程向拍攝者靠近。",
+            "鏡頭末段輕抬，持續保留頭頂。"
+          ],
+          "l": [
+            0,
+            0.05,
+            0,
+            0.5
+          ],
+          "r": [
+            0,
+            -0.05,
+            0,
+            0.4
+          ],
+          "size": 1.3
+        },
+        {
+          "t": 9.0,
+          "title": "06  更近地讀表情與西外",
+          "detail": [
+            "以頭至膝附近收尾，笑容有起落。",
+            "下腿出畫是預定景別，並非藏滑步。"
+          ],
+          "l": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "r": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "size": 1.52
+        }
+      ],
+      "source_duration_note": "Request10s per source if currently available; editorial target9s depends on actual useful footage. No stretch, freeze, retime or repeated raw intervals."
+    }
+  ],
+  "transitions": [],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M03_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "id": "M03_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    },
+    {
+      "id": "L01_first",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+      "sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd"
+    },
+    {
+      "id": "L02_first",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L02/reel/2026-W45-003-L02_M03_reel_candidate_A.png",
+      "sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/storyboard.png",
+      "sha256": "62af2712880c267d7f53c6e2be4064f1b8957fda604f5b4232aba596fc193ae5"
+    },
+    {
+      "id": "animatic",
+      "kind": "previs",
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/timing_animatic.gif",
+      "sha256": "715cdf9eb9731385cdb688ee08b267ec949e6e5f44326cd2b77f9193e4254edc"
+    },
+    {
+      "id": "targets",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/screen_targets.json",
+      "sha256": "bae169378d29efbcd4952c0595f8cd75cd024a9bdb565c5a1ad8b53a3d8be6b5"
+    }
+  ],
+  "approvals": [
+    {
+      "asset_id": "L01_first",
+      "scope": "still",
+      "decision": "approved",
+      "target_sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_existing_still_approval.json"
+    },
+    {
+      "asset_id": "L02_first",
+      "scope": "still",
+      "decision": "approved",
+      "target_sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L02_existing_still_approval.json"
+    },
+    {
+      "asset_id": "board",
+      "scope": "storyboard",
+      "decision": "approved",
+      "target_sha256": "62af2712880c267d7f53c6e2be4064f1b8957fda604f5b4232aba596fc193ae5",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/user_storyboard_approval_2026-11-05.json"
+    },
+    {
+      "asset_id": "animatic",
+      "scope": "previs",
+      "decision": "approved",
+      "target_sha256": "715cdf9eb9731385cdb688ee08b267ec949e6e5f44326cd2b77f9193e4254edc",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/user_previs_approval_2026-11-05.json"
+    }
+  ],
+  "missing_assets": [
+    "重新設計有共同觀看節奏的動作並評估素材，完整動態審查及成片接受尚待完成。"
+  ],
+  "existing_identity_authority": {
+    "path": "02_brand/mira_reference_images.csv",
+    "status": "approved M03v3 face/full retained",
+    "note": "Legacy exact identity receipts are not normalized into this checker; do not request identity approval again solely for schema."
+  },
+  "reference_mapping": [
+    {
+      "reference": "03_research/ig_feed_study_2026-11-04/REVIEW.md",
+      "account": "leeharin.xoxo",
+      "url": "https://www.instagram.com/reels/Del9QXDzMdn/",
+      "observed_seconds": "approx0–2.8",
+      "mapped_film_frames": [
+        0,
+        120
+      ],
+      "borrow": "head/gaze/arms/body acting together; changing expression",
+      "exclude": "lip-contact and hip-sway choreography"
+    },
+    {
+      "reference": "03_research/ig_feed_study_2026-11-04/REVIEW.md",
+      "account": "momoko_takasaki",
+      "url": "https://www.instagram.com/reels/DfKLi-huVMY/",
+      "observed_seconds": "approx3.6–9;9–11.4",
+      "mapped_film_frames": [
+        36,
+        216
+      ],
+      "borrow": "angle adds garment information; approach adds reading scale",
+      "exclude": "two different people, product overlays and exact costume"
+    },
+    {
+      "reference": "03_research/ig_reference_Db8AXqwpkef_2026-11-02/REFERENCE_STUDY.md",
+      "account": "mika.dono3",
+      "url": "https://www.instagram.com/mika.dono3/reel/Db8AXqwpkef/",
+      "mapped_film_frames": [
+        120,
+        216
+      ],
+      "borrow": "camera-directed attention and an approach with a response",
+      "exclude": "crossing story and looking for traffic, which this office setting does not require"
+    }
+  ],
+  "generation_scope": {
+    "submitted": 2,
+    "first_test": "Completed exact L01 once; L02 and retries not submitted.",
+    "new_stills_planned": 0,
+    "total_sources_if_successful": 2,
+    "service": "existing Grok; no new service or purchase",
+    "retries": "no automatic retries; same mechanism failure twice requires redesign",
+    "status": "two_sources_combined_rough_cut",
+    "completed": 2
+  },
+  "latest_trial": {
+    "review_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/REVIEW.md",
+    "feedback_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/user_feedback.json",
+    "status": "M03_user_rejected_v2_preferred_v1_editorial_reassessment"
+  }
+}

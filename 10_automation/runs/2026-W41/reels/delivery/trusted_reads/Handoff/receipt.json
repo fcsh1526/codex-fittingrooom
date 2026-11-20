@@ -1,0 +1,31 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1KnN0c7g4mbRwn3_R-Y_XaK9J-l5MZulKjqfDbZpGSts",
+    "title": "00_先看這份_W41_Grok_bot發布交接清單",
+    "revisionId": "AHj4eMS3JuAvaBP5ZNX-FB3IZz9G0CJlMuP3SgPQviK4vIoc9fQAILQQeTKx0igRWpi4GDigM9FTW_9PtvM8PIfRkJc6sJbhQzpORMR8qA",
+    "documentUrl": "https://docs.google.com/document/d/1KnN0c7g4mbRwn3_R-Y_XaK9J-l5MZulKjqfDbZpGSts",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "richLink": 5
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

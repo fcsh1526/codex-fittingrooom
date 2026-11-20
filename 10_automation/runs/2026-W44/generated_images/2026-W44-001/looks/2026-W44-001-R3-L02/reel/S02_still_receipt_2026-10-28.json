@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "first_still_approval": {
+    "reply": "ok",
+    "question": "請確認上方這張是否可作為起始圖。尚未送影片。",
+    "file": "framing_direction_v2_candidate.png",
+    "sha256": "d3f6f1682cc5bbca61089d843f1cc08c60dce179f1c87c177d8d3d1c492b0cbb",
+    "scope": "First-look start still accepted including disclosed approx68% height vs62% previs. No motion/publication approval."
+  },
+  "second_look": {
+    "status": "pending_user_visual_approval",
+    "tool": "built-in image_gen",
+    "calls": 2,
+    "look": "White crewneck short sleeve tee under matte opaque navy calf slip dress, white-grey sneakers, dark brown bag, silver earrings",
+    "purpose": "Provisional S02 start near global7.5s / frame180; foreground column partial occlusion",
+    "manual_review": "Latest head about33.5%, soles80%, person46.5% vs schematic about35%,80%,45%; left-facing, column edge about41% vs43%; face/outfit readable. Toe near column, not an independent complete styling-proof image. Materials similar; exact shared-world geometry and actual outgoing S01 join not verified.",
+    "limits": "No motion generated. New still is not a verified join, precise camera track or full-person proof approval.",
+    "initial_prompt": "Create one photorealistic native vertical 9:16 fashion Reel second-shot starting candidate, the SAME M02 woman further along the SAME covered walkway, now in a distinctly different skirt outfit. Input1 locks face and low gathered brown hair. Input2 locks healthy ordinary body proportions only. Input3 supplies approved photographic light, plaster/window/paving materials and identity, NOT its purple outfit or starting camera position. Input4 is the composition blueprint at the later route point, NOT an illustration style.\nMatch input4: a fixed close pale rectangular column runs full height near image-left, its right edge around43% of frame width, partially concealing her left side. Behind it the woman is just right of centre, head around35% down and shoes around80% down; person about45% of image height. Her face, outfit front and shoes remain visible to the RIGHT of the column edge. Blue-grey glazing and pale plaster facade recede behind her. She continues a natural ordinary step, three-quarter front view facing IMAGE-LEFT, gaze along route. Dress her in a plain white short-sleeve crewneck tee UNDER an opaque matte navy spaghetti-strap straight calf-length slip dress, white-grey low-profile sneakers, small DARK BROWN shoulder bag at image-right hip, small silver earrings. NO purple cardigan, NO trousers. Soft coherent natural daylight, natural skin and cotton fabric, realistic foot contact shadows, level chest-height full-frame mirrorless normal50mm look. One coherent photograph, no labels/logos, other people or elongated anatomy.",
+    "edit_prompt": "Edit photo1 ONLY for person scale and location to match block figure in layout2. Keep ALL the photographed architecture unchanged, especially foreground column covering left41% of image, glazing, plaster, canopy, paving and light. The woman is currently much too large. Reduce her head-to-shoe height to TWO THIRDS of its present size, and place her farther back behind the column. Final crown y=580 pixels and soles y=1340 pixels in 941x1672 portrait (figure760px high), centre x=500. The fixed column partly hides her left side exactly as in layout2. Keep the same face, gathered hair, left-facing three-quarter angle, natural step, white short sleeve crewneck tee underneath the opaque matte navy thin-strap calf slip dress, white-grey sneakers, small dark brown shoulder bag at image-right, silver earrings. Same natural daylight, healthy body proportions and realistic contact shadow at the farther paving location. Do NOT alter outfit or generate purple cardigan/trousers. No text or borders. This must remain a real photograph, not the block drawing.",
+    "assets": [
+      {
+        "file": "10_automation\\runs\\2026-W44\\generated_images\\2026-W44-001\\looks\\2026-W44-001-R3-L02\\reel\\S02_start_initial_scale_failed.png",
+        "sha256": "e073c103d6722a38b6736c32261dace33c64387fd2e27745b9ac9b80f905bb1d",
+        "pixels": [
+          941,
+          1672
+        ]
+      },
+      {
+        "file": "10_automation\\runs\\2026-W44\\generated_images\\2026-W44-001\\looks\\2026-W44-001-R3-L02\\reel\\S02_start_candidate_A_scale_v2.png",
+        "sha256": "9100f719f4d8c3a9b52636e3d42a6ebe1f68ff94dde62ee7feb192c44f171dbe",
+        "pixels": [
+          941,
+          1671
+        ]
+      }
+    ]
+  }
+}

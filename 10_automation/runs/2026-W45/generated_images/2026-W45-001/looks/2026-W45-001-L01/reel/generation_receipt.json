@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-04",
+  "status": "user_still_approved",
+  "model": "M01",
+  "look_id": "2026-W45-001-L01",
+  "surface": "reel",
+  "request_count": 1,
+  "reference_version": "v4",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+    },
+    {
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4"
+    }
+  ],
+  "reference_reconciliation": "Current approved manifest v4 and its actual tied-back hair take precedence over generic roster jaw-length-bob description. Preserve accepted v4 identity/hair, no invented haircut.",
+  "planned_subject_height_fraction": 0.75,
+  "delivery_target": [
+    1080,
+    1920
+  ],
+  "actual_source_pixels": [
+    941,
+    1672
+  ],
+  "provider": "builtin_image_gen",
+  "user_approval": "10_automation/runs/2026-W45/approvals/M01_L01_still_approval_2026-11-04.json",
+  "prompt_file": "submitted_prompt_A.txt",
+  "source_tool_output": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a17c38-aa07-76f2-a857-3127abcc97fb\\exec-cf35bd0b-4116-440b-bade-91b5bfd88a9d.png",
+  "saved_output": "2026-W45-001-L01_M01_reel_candidate_A.png",
+  "output_sha256": "ead6fbc6a18450afe8e09b814ef99fc2a322c3aba655b40cfc3f2735ffd0ebb9",
+  "actual_source_ratio": 0.562799043062201,
+  "manual_subject_bounds": {
+    "top_px": 160,
+    "bottom_px": 1608,
+    "height_fraction": 0.8660287081339713,
+    "method": "assistant approximate visual bounds, not automated anatomy measurement"
+  },
+  "framing_deviation": "Closer than original roughly75% board: about86.6% head-to-shoe. Whole head/shoes and both hands visible. Candidate kept for close clothing/face readability, not claimed as original framing compliance. If accepted, reconcile M01 second-look scale and arm safety before motion; no substantial approach.",
+  "correction_calls": 0,
+  "prompt_sha256": "b12e8c423ee0d502b331ff97a01f2dbc6589fe85beb952f0af228ee1647bf6ac",
+  "video_generation_authorized_from_this_approved_still": true
+}

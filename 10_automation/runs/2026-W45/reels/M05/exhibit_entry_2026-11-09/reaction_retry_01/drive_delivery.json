@@ -1,0 +1,35 @@
+{
+  "content_week": "2026-W45",
+  "look": "2026-W45-005-L02",
+  "release": "expressive_single_look_styling_v2",
+  "approval_receipt": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/user_release_and_upload_approval.json",
+  "folder_url": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "assets": {
+    "video": {
+      "id": "1DRUGp7ORYpDvzceQjGlWVMh5g4padzRL",
+      "url": "https://drive.google.com/file/d/1DRUGp7ORYpDvzceQjGlWVMh5g4padzRL/view?usp=drivesdk",
+      "local": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/W45_M05_L02_Reel_v2.mp4",
+      "bytes": 2708770,
+      "local_sha256": "c961c2c9dd1a2bb697077b081059ca3122ffaafb2ad0241a5646c8ca04d74160"
+    },
+    "cover": {
+      "id": "1SOjV1jRnJlWgeO7xHY99VooM_gadIVc3",
+      "url": "https://drive.google.com/file/d/1SOjV1jRnJlWgeO7xHY99VooM_gadIVc3/view?usp=drivesdk",
+      "local": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/W45_M05_L02_Cover.png",
+      "bytes": 1336301,
+      "local_sha256": "95f6282dbc5e99ef48582583f4235a36a3081ee1c739c3c28757bcc8c3568084"
+    }
+  },
+  "native_doc": {
+    "id": "1zTN3khPIz_bLI1w5KamolEF_EKwO0gzUuVLTncygwEg",
+    "url": "https://docs.google.com/document/d/1zTN3khPIz_bLI1w5KamolEF_EKwO0gzUuVLTncygwEg"
+  },
+  "verification": {
+    "all_three_in_week_folder": true,
+    "media_sizes_match_local": true,
+    "caption_and_both_links_read_back": true
+  },
+  "external_handoff_performed": true,
+  "instagram_published": false,
+  "instagram_url": null
+}

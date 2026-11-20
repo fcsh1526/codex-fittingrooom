@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M03_v1",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W43",
+      "2026-W44"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "以明確的褲／裙、深／淺及直線／柔軟材質差異，呈現兩種下班赴約提案。",
+    "visual_theme": "薄層次、生活中的表情與清楚服裝輪廓",
+    "selection_rationale": "灰色褲裝，換成梅紫與淺色裙擺；W45上游週報缺，近週來源與11/3補充查核分開記錄。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "everyday_sequence"
+  },
+  "models": [
+    {
+      "id": "M03",
+      "identity_asset_ids": [
+        "M03_face",
+        "M03_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-003-L01",
+      "model_id": "M03",
+      "wardrobe_summary": "淺灰無內裡薄西外、白棉圓領T、炭灰高腰直筒九分褲、酒紅窄版皮帶、黑低跟包鞋、黑小肩包",
+      "source_asset_ids": []
+    },
+    {
+      "id": "2026-W45-003-L02",
+      "model_id": "M03",
+      "wardrobe_summary": "梅紫細針織圓領短袖上衣、奶油白小腿中段百褶裙、暗紅小肩包、黑低跟包鞋、細銀耳環",
+      "source_asset_ids": []
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 252,
+    "duration_seconds": 10.5,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W45-003-L01"
+      ],
+      "frames": [
+        0,
+        96
+      ],
+      "clothing_purpose": "以明確的褲／裙、深／淺及直線／柔軟材質差異，呈現兩種下班赴約提案。",
+      "clear_read_intervals": [
+        [
+          0,
+          78
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "等待同伴，聽見招呼後從工作狀態放鬆",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W45-003-L02"
+      ],
+      "frames": [
+        78,
+        186
+      ],
+      "clothing_purpose": "以明確的褲／裙、深／淺及直線／柔軟材質差異，呈現兩種下班赴約提案。",
+      "clear_read_intervals": [
+        [
+          96,
+          168
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "換一套赴約提案；看見朋友，肩膀轉向對方、笑容展開",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    },
+    {
+      "id": "S03",
+      "look_ids": [
+        "2026-W45-003-L02"
+      ],
+      "frames": [
+        168,
+        252
+      ],
+      "clothing_purpose": "以明確的褲／裙、深／淺及直線／柔軟材質差異，呈現兩種下班赴約提案。",
+      "clear_read_intervals": [
+        [
+          186,
+          252
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "中景收回笑意再笑出來，視線仍有對象，雙手不突然入畫",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes.",
+      "framing": "same-look medium shot; new approved source or exact approved-footage lineage required"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        78,
+        96
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    },
+    {
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "frames": [
+        168,
+        186
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M03_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "id": "M03_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/planning/M03/storyboard.png",
+      "sha256": "77652b09d6a96b99c1c3a7a31a3aa9a9a832b067e3ba8e6527bffc26bf4d8a78"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "使用者對W45具體企劃與線稿的確認；不從「繼續W45」推定新圖核准",
+    "各鏡全新、逐張核准的原生9:16起始圖；現有身份參照不等於新造型圖",
+    "W45上游週報／原始CSV尚未取得；可評估本提案但必須保留此來源缺口",
+    "正式生成當下的Grok額度、可用片長與設定尚待核對；未送工作",
+    "額外同套中景／細節構圖來源，或有精確來源與適用核准範圍的影片影格"
+  ]
+}

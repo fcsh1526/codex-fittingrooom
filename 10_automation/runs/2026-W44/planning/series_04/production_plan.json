@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "plan_id": "2026-W44-04-v2",
+  "status": "design_approved_stills_pending",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W43",
+      "2026-W44"
+    ],
+    "content": "2026-W44",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣成年女性日常穿搭",
+    "takeaway": "第一套白短袖＋炭灰褲只加正紅小包；第二套白襯衫＋黑褲只加酒紅窄皮帶、包回黑色。兩套各只有一個紅色部位。",
+    "visual_theme": "下班赴約，一抹紅放包或腰間",
+    "selection_rationale": "不換成整套紅，紅色小包與窄皮帶各如何放進中性色穿搭？"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "sequential_lookbook"
+  },
+  "models": [
+    {
+      "id": "M03",
+      "identity_asset_ids": [
+        "M03_face",
+        "M03_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W44-004-L01",
+      "model_id": "M03",
+      "wardrobe_summary": "奶油白圓領短袖上衣、炭灰直筒褲、淺灰薄襯衫敞開、白灰低筒球鞋、正紅小型肩包、細銀耳環",
+      "source_asset_ids": [
+        "source_2026-W43",
+        "source_2026-W44",
+        "research_receipt"
+      ]
+    },
+    {
+      "id": "2026-W44-004-L02",
+      "model_id": "M03",
+      "wardrobe_summary": "白色薄棉尖領長袖襯衫（袖口預先翻折、紮入）、黑高腰直筒長褲、酒紅窄皮帶、黑低跟包鞋、黑小肩包、細銀耳環",
+      "source_asset_ids": [
+        "source_2026-W43",
+        "source_2026-W44",
+        "research_receipt"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 330,
+    "duration_seconds": 13.75,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W44-004-L01"
+      ],
+      "frames": [
+        0,
+        96
+      ],
+      "clothing_purpose": "含臉與完整紅包中景提出色點",
+      "clear_read_intervals": [
+        [
+          0,
+          78
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "含臉與完整紅包中景提出色點",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W44-004-L01"
+      ],
+      "frames": [
+        78,
+        174
+      ],
+      "clothing_purpose": "第一套全身，看紅包面積",
+      "clear_read_intervals": [
+        [
+          96,
+          156
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "第一套全身，看紅包面積",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    },
+    {
+      "id": "S03",
+      "look_ids": [
+        "2026-W44-004-L02"
+      ],
+      "frames": [
+        156,
+        252
+      ],
+      "clothing_purpose": "第二套相近全身接入",
+      "clear_read_intervals": [
+        [
+          174,
+          234
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "第二套相近全身接入",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    },
+    {
+      "id": "S04",
+      "look_ids": [
+        "2026-W44-004-L02"
+      ],
+      "frames": [
+        234,
+        330
+      ],
+      "clothing_purpose": "腰線中近景收束，讀酒紅皮帶",
+      "clear_read_intervals": [
+        [
+          252,
+          330
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "腰線中近景收束，讀酒紅皮帶",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        78,
+        96
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    },
+    {
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "frames": [
+        156,
+        174
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    },
+    {
+      "from_shot": "S03",
+      "to_shot": "S04",
+      "frames": [
+        234,
+        252
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M03_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "id": "M03_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W44/planning/series_04_storyboard.png",
+      "sha256": "ffc751a39f080c7251d1c2f506d910d199c1a725faec34fd8a7de2a479f2525a"
+    },
+    {
+      "id": "source_2026-W43",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W43/source_perplexity.csv",
+      "sha256": "bfbcbfed72cd206d244e7060ec696a4eedbaeab6c86f53a8e63bd7bb30dcf592"
+    },
+    {
+      "id": "source_2026-W44",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/source_perplexity.csv",
+      "sha256": "e748d14c130def173affb0dbab800e95ba4ff097d5c18455efc6e999d67962ab"
+    },
+    {
+      "id": "research_receipt",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/planning/research_receipt.json",
+      "sha256": "114ace984bd93c8cd3a599345cb0578cc8fdd0cfd12933d3862c67158fddcb3f"
+    }
+  ],
+  "approvals": [
+    {
+      "asset_id": "board",
+      "scope": "storyboard",
+      "decision": "approved",
+      "target_sha256": "ffc751a39f080c7251d1c2f506d910d199c1a725faec34fd8a7de2a479f2525a",
+      "receipt_path": "10_automation/runs/2026-W44/approvals/04_storyboard_2026-10-28.json"
+    }
+  ],
+  "missing_assets": [
+    "新全身圖與proof尚未生成／逐張核准",
+    "既有身份核准沿用manifest；尚未把歷史收據轉為本檢查器格式，不重問身份核准",
+    "窄皮帶在手機全身中可能太小，proof須保持服裝上下文並另作直式清晰度審查",
+    "不用拿包遮鏡或在鏡內換配件；該系列屬依序展示方法的主題變體"
+  ],
+  "design_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json"
+}

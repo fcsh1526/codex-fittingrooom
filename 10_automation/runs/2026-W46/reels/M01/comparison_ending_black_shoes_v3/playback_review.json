@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-12",
+  "reviewed_file": "10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/M01_W46_comparison_ending_black_shoes_v3.mp4",
+  "sha256": "b23e8efd4b5110c8c8d091124682fdc7226abd39032f0d4abaa44f1e3df3b982",
+  "played_start_to_end": true,
+  "playback_rate": 1,
+  "browser_duration": 10.75,
+  "browser_end_time": 10.75,
+  "browser_ended": true,
+  "sample_times_seconds": [
+    9.3373,
+    10.75
+  ],
+  "evidence_limits": "UI screenshots sampled, not continuous human observation. Whole playback completion does not certify identity/gait/appeal.",
+  "technical_checks": {
+    "decoded_frames": 258,
+    "fps": 24,
+    "duration_seconds": 10.75,
+    "resolution": [
+      720,
+      1280
+    ],
+    "decode_error_log_empty": true,
+    "audio": false,
+    "text_overlay": false
+  },
+  "user_acceptance": "accepted exact film on2026-11-12, quote ok",
+  "publication_approval": false,
+  "acceptance_receipt": "user_full_film_acceptance_2026-11-12.json"
+}

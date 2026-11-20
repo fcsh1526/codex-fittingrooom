@@ -1,0 +1,57 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/workspace/10_automation/runs/2026-W41/reels/delivery/trusted_reads/M01_retry",
+  "target": {
+    "documentId": "1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU",
+    "title": "01_格紋襯衫配素色褲_貼文文字",
+    "revisionId": "ANLCKQkPDv0J1ER13gCtgiI6ufPdIWACNfeO7hMj_3951m65887MiBFSBULfLESZx-WtMvAG8CRqsXqPr5aWmsQRKP-6Nox_XeVoR18KPQ",
+    "documentUrl": "https://docs.google.com/document/d/1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/workspace/10_automation/runs/2026-W41/reels/delivery/trusted_reads/M01_retry/document-result.json",
+      "bytes": 25132,
+      "sha256": "ab86a842780003d63c74564353595a9f5ffcf222063526e67c11393e9f21ab27"
+    },
+    "control_inventory": {
+      "path": "/workspace/10_automation/runs/2026-W41/reels/delivery/trusted_reads/M01_retry/control-inventory.json",
+      "bytes": 1044,
+      "sha256": "677e8ab9ec3846588ddf3290a7c268a9d1a1159247c02456aaac0fc6b6914465"
+    },
+    "document_outline": {
+      "path": "/workspace/10_automation/runs/2026-W41/reels/delivery/trusted_reads/M01_retry/document-outline.json",
+      "bytes": 8410,
+      "sha256": "42dd79362fc98bc76bf081eb27bccd8d2d742b5dda9f73a5b530e040cc8beade"
+    },
+    "document_text": {
+      "path": "/workspace/10_automation/runs/2026-W41/reels/delivery/trusted_reads/M01_retry/document-text.md",
+      "bytes": 1937,
+      "sha256": "d329a1a6624eb2bc04b92f9266ac06769a2d4c135165144a5f3d0884c388ac51"
+    },
+    "receipt": {
+      "path": "/workspace/10_automation/runs/2026-W41/reels/delivery/trusted_reads/M01_retry/receipt.json",
+      "bytes": 975,
+      "sha256": "1f2ea98c9c6f350abbc3e5916281d09c0edc85b4e09c7172de5b493f5f45df8a"
+    }
+  },
+  "error": null
+}

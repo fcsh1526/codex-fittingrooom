@@ -1,0 +1,750 @@
+{
+  "schema_version": 1,
+  "plan_id": "2026-W44-01-v2",
+  "status": "editorial_revision_requested_generation_hold",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W43",
+      "2026-W44"
+    ],
+    "content": "2026-W44",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣成年女性日常穿搭",
+    "takeaway": "同一件皇家紫薄開襟衫與白短袖，工作日配炭灰直筒褲，週末換W43巧克力棕丹寧；兩套都只讓紫色做唯一亮色。",
+    "visual_theme": "一件紫色薄針織，工作日到週末",
+    "selection_rationale": "同一件亮色外搭，搭工作褲或舊牛仔褲時，怎麼保留清楚的色塊？"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "continuous_route"
+  },
+  "models": [
+    {
+      "id": "M02",
+      "identity_asset_ids": [
+        "M02_face",
+        "M02_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W44-001-L01",
+      "model_id": "M02",
+      "wardrobe_summary": "皇家紫細針織V領薄開襟衫（敞開）、白圓領短袖T、炭灰高腰直筒褲、白灰低筒球鞋、黑小肩包、細銀耳環",
+      "source_asset_ids": [
+        "source_2026-W43",
+        "source_2026-W44",
+        "research_receipt"
+      ]
+    },
+    {
+      "id": "2026-W44-001-L02",
+      "model_id": "M02",
+      "wardrobe_summary": "同款皇家紫薄開襟衫（敞開）、白圓領短袖T、巧克力棕直筒丹寧褲、白灰低筒球鞋、黑小肩包、細銀耳環",
+      "source_asset_ids": [
+        "source_2026-W43",
+        "source_2026-W44",
+        "research_receipt"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 318,
+    "duration_seconds": 13.25,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W44-001-L01"
+      ],
+      "frames": [
+        0,
+        168
+      ],
+      "clothing_purpose": "同一件皇家紫薄開襟衫與白短袖，工作日配炭灰直筒褲，週末換W43巧克力棕丹寧；兩套都只讓紫色做唯一亮色。",
+      "clear_read_intervals": [
+        [
+          0,
+          150
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": "route_previs",
+      "input_asset_ids": [
+        "L01_reel_A_candidate"
+      ],
+      "scene_reference_asset_ids": [],
+      "space_mode": "shared_world",
+      "action_start": "工作日褲裝全身，持續前進",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "依同步曲線",
+      "missing_input_note": "企劃未核准，尚未生成新圖",
+      "overhead_asset_id": "route_overhead"
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W44-001-L02"
+      ],
+      "frames": [
+        150,
+        318
+      ],
+      "clothing_purpose": "同一件皇家紫薄開襟衫與白短袖，工作日配炭灰直筒褲，週末換W43巧克力棕丹寧；兩套都只讓紫色做唯一亮色。",
+      "clear_read_intervals": [
+        [
+          168,
+          318
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": "route_previs",
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "shared_world",
+      "action_start": "同世界時間接入週末棕丹寧",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "依同步曲線",
+      "missing_input_note": "企劃未核准，尚未生成新圖",
+      "overhead_asset_id": "route_overhead"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        150,
+        168
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": {
+    "id": "W44_arcade_schematic_v1",
+    "units": "schematic",
+    "unit_note": "Unmeasured relative scale; stature 1.65 is a schematic unit, not a measured model height. No claim of real site geometry.",
+    "axes": "x_right_y_up_z_forward",
+    "geometry": [
+      {
+        "id": "office_wall",
+        "vertices": [
+          [
+            -2,
+            0,
+            -1
+          ],
+          [
+            -2,
+            3,
+            -1
+          ],
+          [
+            -2,
+            3,
+            13
+          ],
+          [
+            -2,
+            0,
+            13
+          ]
+        ]
+      },
+      {
+        "id": "window_A",
+        "vertices": [
+          [
+            -1.99,
+            0.5,
+            2
+          ],
+          [
+            -1.99,
+            2.5,
+            2
+          ],
+          [
+            -1.99,
+            2.5,
+            4
+          ],
+          [
+            -1.99,
+            0.5,
+            4
+          ]
+        ]
+      },
+      {
+        "id": "window_B",
+        "vertices": [
+          [
+            -1.99,
+            0.5,
+            7
+          ],
+          [
+            -1.99,
+            2.5,
+            7
+          ],
+          [
+            -1.99,
+            2.5,
+            9
+          ],
+          [
+            -1.99,
+            0.5,
+            9
+          ]
+        ]
+      },
+      {
+        "id": "bench",
+        "vertices": [
+          [
+            -1.5,
+            0.45,
+            5
+          ],
+          [
+            -1.5,
+            0.45,
+            6.5
+          ],
+          [
+            -0.9,
+            0.45,
+            6.5
+          ],
+          [
+            -0.9,
+            0.45,
+            5
+          ]
+        ]
+      },
+      {
+        "id": "paving_0",
+        "vertices": [
+          [
+            -2,
+            0,
+            0
+          ],
+          [
+            2.5,
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "id": "paving_2",
+        "vertices": [
+          [
+            -2,
+            0,
+            2
+          ],
+          [
+            2.5,
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "id": "paving_4",
+        "vertices": [
+          [
+            -2,
+            0,
+            4
+          ],
+          [
+            2.5,
+            0,
+            4
+          ]
+        ]
+      },
+      {
+        "id": "paving_6",
+        "vertices": [
+          [
+            -2,
+            0,
+            6
+          ],
+          [
+            2.5,
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "id": "paving_8",
+        "vertices": [
+          [
+            -2,
+            0,
+            8
+          ],
+          [
+            2.5,
+            0,
+            8
+          ]
+        ]
+      },
+      {
+        "id": "paving_10",
+        "vertices": [
+          [
+            -2,
+            0,
+            10
+          ],
+          [
+            2.5,
+            0,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "paving_12",
+        "vertices": [
+          [
+            -2,
+            0,
+            12
+          ],
+          [
+            2.5,
+            0,
+            12
+          ]
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "shot_id": "S01",
+        "character_samples": [
+          {
+            "frame": 0,
+            "position": [
+              -0.4,
+              0.0,
+              0.0
+            ],
+            "heading_degrees": 14.708303899682749,
+            "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+          },
+          {
+            "frame": 84,
+            "position": [
+              0.029120683517265933,
+              0.0,
+              2.1132075471698113
+            ],
+            "heading_degrees": 8.173609986481669,
+            "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+          },
+          {
+            "frame": 168,
+            "position": [
+              0.20704877180491277,
+              0.0,
+              4.226415094339623
+            ],
+            "heading_degrees": 1.418591389738544,
+            "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+          }
+        ],
+        "camera_samples": [
+          {
+            "frame": 0,
+            "position": [
+              0.8,
+              1.1,
+              3.5
+            ],
+            "target": [
+              -0.4,
+              1.1,
+              0.0
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 84,
+            "position": [
+              0.12516909932360276,
+              1.1,
+              5.7687077251691
+            ],
+            "target": [
+              0.029120683517265933,
+              1.1,
+              2.1132075471698113
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 168,
+            "position": [
+              -0.10309718761124956,
+              1.1,
+              7.925774296902812
+            ],
+            "target": [
+              0.20704877180491277,
+              1.1,
+              4.226415094339623
+            ],
+            "vertical_fov_degrees": 40
+          }
+        ],
+        "projected_samples": [
+          {
+            "frame": 0,
+            "person_center_uv": [
+              0.5000000000000001,
+              0.6021022013986516
+            ],
+            "person_height_fraction": 0.6126132083919089,
+            "visible_landmark_ids": [],
+            "visible_clothing": "full outfit, schematic garment only"
+          },
+          {
+            "frame": 84,
+            "person_center_uv": [
+              0.5,
+              0.6033094759823505
+            ],
+            "person_height_fraction": 0.6198568558941027,
+            "visible_landmark_ids": [],
+            "visible_clothing": "full outfit, schematic garment only"
+          },
+          {
+            "frame": 168,
+            "person_center_uv": [
+              0.5,
+              0.6017628797508754
+            ],
+            "person_height_fraction": 0.6105772785052521,
+            "visible_landmark_ids": [],
+            "visible_clothing": "full outfit, schematic garment only"
+          }
+        ]
+      },
+      {
+        "shot_id": "S02",
+        "character_samples": [
+          {
+            "frame": 150,
+            "position": [
+              0.19006763972944107,
+              0.0,
+              3.7735849056603774
+            ],
+            "heading_degrees": 2.875884524208755,
+            "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+          },
+          {
+            "frame": 234,
+            "position": [
+              0.17063011747953014,
+              0.0,
+              5.886792452830188
+            ],
+            "heading_degrees": -3.9261714253773214,
+            "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+          },
+          {
+            "frame": 318,
+            "position": [
+              -0.1,
+              0.0,
+              8.0
+            ],
+            "heading_degrees": -10.619655276155134,
+            "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+          }
+        ],
+        "camera_samples": [
+          {
+            "frame": 150,
+            "position": [
+              -0.09177643289426846,
+              1.1,
+              7.472944108223568
+            ],
+            "target": [
+              0.19006763972944107,
+              1.1,
+              3.7735849056603774
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 234,
+            "position": [
+              0.030829476682093182,
+              1.1,
+              9.542292630829476
+            ],
+            "target": [
+              0.17063011747953014,
+              1.1,
+              5.886792452830188
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 318,
+            "position": [
+              0.6,
+              1.1,
+              11.5
+            ],
+            "target": [
+              -0.1,
+              1.1,
+              8.0
+            ],
+            "vertical_fov_degrees": 40
+          }
+        ],
+        "projected_samples": [
+          {
+            "frame": 150,
+            "person_center_uv": [
+              0.5,
+              0.6018247939843646
+            ],
+            "person_height_fraction": 0.6109487639061872,
+            "visible_landmark_ids": [],
+            "visible_clothing": "full outfit, schematic garment only"
+          },
+          {
+            "frame": 234,
+            "person_center_uv": [
+              0.5,
+              0.6032696377700222
+            ],
+            "person_height_fraction": 0.619617826620133,
+            "visible_landmark_ids": [],
+            "visible_clothing": "full outfit, schematic garment only"
+          },
+          {
+            "frame": 318,
+            "person_center_uv": [
+              0.49999999999999994,
+              0.6058405568162785
+            ],
+            "person_height_fraction": 0.6350433408976703,
+            "visible_landmark_ids": [
+              "office_wall",
+              "window_A",
+              "bench",
+              "paving_0",
+              "paving_2",
+              "paving_4"
+            ],
+            "visible_clothing": "full outfit, schematic garment only"
+          }
+        ]
+      }
+    ],
+    "curve_controls": {
+      "character": [
+        [
+          -0.4,
+          0,
+          0
+        ],
+        [
+          0.65,
+          0,
+          4
+        ],
+        [
+          -0.1,
+          0,
+          8
+        ]
+      ],
+      "camera": [
+        [
+          0.8,
+          1.1,
+          3.5
+        ],
+        [
+          -0.9,
+          1.1,
+          7.9
+        ],
+        [
+          0.6,
+          1.1,
+          11.5
+        ]
+      ]
+    },
+    "clock": {
+      "fps": 24,
+      "frame_count": 318
+    },
+    "projection": "pinhole vertical FOV 40deg; chest-level horizontal optical axis; 9:16"
+  },
+  "shared_space_asset_id": "common_space",
+  "assets": [
+    {
+      "id": "M02_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "id": "M02_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W44/planning/series_01_storyboard.png",
+      "sha256": "745ea40e4da1eab02554a45178f974124fcfb12471187fd42b8b9c82334b0379"
+    },
+    {
+      "id": "source_2026-W43",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W43/source_perplexity.csv",
+      "sha256": "bfbcbfed72cd206d244e7060ec696a4eedbaeab6c86f53a8e63bd7bb30dcf592"
+    },
+    {
+      "id": "source_2026-W44",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/source_perplexity.csv",
+      "sha256": "e748d14c130def173affb0dbab800e95ba4ff097d5c18455efc6e999d67962ab"
+    },
+    {
+      "id": "research_receipt",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/planning/research_receipt.json",
+      "sha256": "114ace984bd93c8cd3a599345cb0578cc8fdd0cfd12933d3862c67158fddcb3f"
+    },
+    {
+      "id": "common_space",
+      "kind": "space_plan",
+      "path": "10_automation/runs/2026-W44/planning/shared_space.json",
+      "sha256": "610597d9dc2cf50ce0b3e4105161829a79e2641b138deb1284489a5a062f84ae"
+    },
+    {
+      "id": "route_previs",
+      "kind": "previs",
+      "path": "10_automation/runs/2026-W44/planning/review.html",
+      "sha256": "f73d9532f39e6b53ac7dde5834b5ceb72cf0c5b9e2838edb0f24e442513688ab",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "610597d9dc2cf50ce0b3e4105161829a79e2641b138deb1284489a5a062f84ae"
+      }
+    },
+    {
+      "id": "route_overhead",
+      "kind": "overhead",
+      "path": "10_automation/runs/2026-W44/planning/review.html",
+      "sha256": "f73d9532f39e6b53ac7dde5834b5ceb72cf0c5b9e2838edb0f24e442513688ab",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "610597d9dc2cf50ce0b3e4105161829a79e2641b138deb1284489a5a062f84ae"
+      }
+    },
+    {
+      "id": "L01_reel_A_candidate",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_candidate_A_framing_v2.png",
+      "sha256": "e4f2e8b1e4aba05d295d21f3987d01d65ccdf94a263de096317732ae7a55a3c7"
+    },
+    {
+      "id": "L01_styling_proof_candidate",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_styling_proof_candidate_A.png",
+      "sha256": "b971d913fd7fa9974e3c922dda568b70a939f68b48b720e25233b1ffc293b1c9"
+    },
+    {
+      "id": "L02_outfit_reference_candidate",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L02/reel/2026-W44-001-L02_M02_outfit_reference_reset_candidate_A.png",
+      "sha256": "7d5716e96738916843720deb2f908790752c4574d42d44d38fde36fc7f62254c",
+      "intended_use": "outfit-direction review only; not a shot input"
+    }
+  ],
+  "approvals": [
+    {
+      "asset_id": "board",
+      "scope": "storyboard",
+      "decision": "approved",
+      "target_sha256": "745ea40e4da1eab02554a45178f974124fcfb12471187fd42b8b9c82334b0379",
+      "receipt_path": "10_automation/runs/2026-W44/approvals/01_storyboard_2026-10-28.json"
+    },
+    {
+      "asset_id": "route_previs",
+      "scope": "previs",
+      "decision": "approved",
+      "target_sha256": "f73d9532f39e6b53ac7dde5834b5ceb72cf0c5b9e2838edb0f24e442513688ab",
+      "receipt_path": "10_automation/runs/2026-W44/approvals/01_previs_2026-10-28.json"
+    },
+    {
+      "asset_id": "route_overhead",
+      "scope": "overhead",
+      "decision": "approved",
+      "target_sha256": "f73d9532f39e6b53ac7dde5834b5ceb72cf0c5b9e2838edb0f24e442513688ab",
+      "receipt_path": "10_automation/runs/2026-W44/approvals/01_overhead_2026-10-28.json"
+    },
+    {
+      "asset_id": "L01_reel_A_candidate",
+      "scope": "still",
+      "decision": "approved",
+      "target_sha256": "e4f2e8b1e4aba05d295d21f3987d01d65ccdf94a263de096317732ae7a55a3c7",
+      "receipt_path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/user_A_still_approval_2026-10-28.json"
+    },
+    {
+      "asset_id": "L01_styling_proof_candidate",
+      "scope": "still",
+      "decision": "approved",
+      "target_sha256": "b971d913fd7fa9974e3c922dda568b70a939f68b48b720e25233b1ffc293b1c9",
+      "receipt_path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/user_proof_still_approval_2026-10-28.json"
+    }
+  ],
+  "missing_assets": [
+    "新全身圖與proof尚未生成／逐張核准",
+    "既有身份核准沿用manifest；尚未把歷史收據轉為本檢查器格式，不重問身份核准",
+    "本案只有兩套，不移轉M03五套舊案的視覺或動態核准；兩套各需full/proof",
+    "L02 source-reset outfit reference awaits direction approval and is not exact wardrobe/scene continuity pass",
+    "Actual S02 f150 entry still and compatible S01/S02 18-frame overlap remain missing; do not substitute outfit-reference-only candidate",
+    "Prior shared-space animation generated but no continuous playback review; L01 photoreal site not calibrated to common schematic",
+    "Current user editorial direction review: outfit contrast, visual interest and long-take camera experience unresolved. Generation on hold."
+  ],
+  "design_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+  "latest_feedback_receipt": "10_automation/runs/2026-W44/user_editorial_feedback_2026-10-28.json"
+}

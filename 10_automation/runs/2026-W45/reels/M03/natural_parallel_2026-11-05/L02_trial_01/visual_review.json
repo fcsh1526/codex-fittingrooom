@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "status": "sampled_pending_user_performance_review",
+  "whole_film_samples_viewed": 13,
+  "upper_body_samples_viewed": 25,
+  "panel_fit_samples_viewed": 25,
+  "additional_full_resolution_source_frames_viewed": [],
+  "native_UI_samples": 42,
+  "native_UI_sample_range_seconds": [
+    0.018567,
+    5.910575
+  ],
+  "native_UI_samples_all_playing1x": true,
+  "continuous_human_native_speed_review": false,
+  "observed": "Initial facial response and brief mouth opening, one side/back turn with low relaxed arms, side hold, then frontal return. Sampled views lack repeated left-right hip/shoulder sway or high arm pose chain.",
+  "plan_deviation": "Turn is deeper than the requested45degrees; exact angle unmeasured. Natural-body and face physics not certified.",
+  "attention": "Face mostly remains responsive toward camera during turn; friend/photo context is directing intent, not independent evidence of a real off-camera event.",
+  "audio": "Original contains AAC. Source sound not reviewed; silent review streamcopies original video and removes audio only.",
+  "user_acceptance": null,
+  "publication_approval": null
+}

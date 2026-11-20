@@ -1,0 +1,20 @@
+{
+  "scene_sha256": "0b0af1ff32f330ca8b44cb091553dbe0b009c58c80e317d44fa4385533f8aac4",
+  "same_scene_and_clock": true,
+  "camera_is_independent_curve": true,
+  "render_frames": 288,
+  "fps": 24,
+  "seconds": 12,
+  "height_fraction_range": [
+    0.719428719125017,
+    0.8140053397301754
+  ],
+  "front_angle_range": [
+    33.25789720606151,
+    73.41465340782216
+  ],
+  "top_min": 0.10828248290831462,
+  "bottom_max": 0.92228782263849,
+  "collisions_blockout": [],
+  "limits": "Schematic geometry, approximate human; not real gait, identity or video-engine trajectory verification. Visual review pending."
+}

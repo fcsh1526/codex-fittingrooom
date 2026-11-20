@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo",
+    "title": "04_黑白灰配藍色包_貼文文字",
+    "revisionId": "ANLCKQlcGqc7rJJVumkaTlo4kowVkgT0lDOfJ_KAbhsGycCWJ1pwdNaIwmakQNrfuu9_fOeJwYZbJVes4-5XAUVlHOAdRS7dH3oQ_5Fu8g",
+    "documentUrl": "https://docs.google.com/document/d/1DOepgmnDq30ykpoEFosmEbITr70l5s9k7w_Cg-xgSuo",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

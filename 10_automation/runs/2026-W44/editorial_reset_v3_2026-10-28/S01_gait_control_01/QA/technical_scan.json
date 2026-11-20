@@ -1,0 +1,36 @@
+{
+  "source_sha256": "f03254a9dd243f77180c704739b48ab9815110ce93381050e88c0fe162f0bc26",
+  "bytes": 5228639,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "decoded_frames": 145,
+  "seconds_from_count": 6.041666666666667,
+  "source_full_decode": true,
+  "silent_preview": "gait_control_silent_review.mp4",
+  "comparison": {
+    "file": "original_left_control_right_6s.mp4",
+    "left": "rejected original S01 first6s",
+    "right": "new straight-camera gait control first6s",
+    "frame_count": 144,
+    "fps": 24,
+    "duration": 6.0,
+    "all_native_speed": true,
+    "full_rasters_resized_equally_no_crop": true
+  },
+  "QA": "Whole control every0.5s plus0–6s feet every2frames; manual continuous playback remains unverified"
+}

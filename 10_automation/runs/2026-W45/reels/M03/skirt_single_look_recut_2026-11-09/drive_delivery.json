@@ -1,0 +1,49 @@
+{
+  "content_week": "2026-W45",
+  "look": "2026-W45-003-L02",
+  "release_approval": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/user_release_and_upload_approval.json",
+  "folder_url": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "assets": {
+    "video": {
+      "id": "18gqOthCfTsn7rZ1csBVw55XjVJrqwS-l",
+      "url": "https://drive.google.com/file/d/18gqOthCfTsn7rZ1csBVw55XjVJrqwS-l/view?usp=drivesdk",
+      "bytes": 2431980,
+      "local": {
+        "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/W45_M03_L02_Skirt_Styling_v1.mp4",
+        "sha256": "d08cf7c7a41b2d964c1c02711e456e03842c547a489de1fbe5c32f7be4105963",
+        "frames": 118,
+        "fps": 24,
+        "duration_seconds": 4.916666666666667,
+        "size": [
+          720,
+          1280
+        ],
+        "audio": false,
+        "text": false
+      }
+    },
+    "cover": {
+      "id": "1jQ2_a6KI-JFVsYC6s0OCAGqKqpbSCnH-",
+      "url": "https://drive.google.com/file/d/1jQ2_a6KI-JFVsYC6s0OCAGqKqpbSCnH-/view?usp=drivesdk",
+      "bytes": 1500123,
+      "local": {
+        "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/W45_M03_L02_Cover.png",
+        "sha256": "d244210122385869063b5bd3a1538c37a7163c3da059bd49921f65b0c5fde0d6",
+        "frame_index": 106,
+        "seconds": 4.416666666666667
+      }
+    }
+  },
+  "native_doc": {
+    "id": "1tNdCE9JXpXVl5-eROGu-5mG0svYhLlmcl8BHA95G7aI",
+    "url": "https://docs.google.com/document/d/1tNdCE9JXpXVl5-eROGu-5mG0svYhLlmcl8BHA95G7aI"
+  },
+  "verification": {
+    "folder_contains_all_three": true,
+    "media_sizes_match_local": true,
+    "caption_and_both_links_read_back": true
+  },
+  "external_handoff_performed": true,
+  "instagram_published": false,
+  "instagram_url": null
+}

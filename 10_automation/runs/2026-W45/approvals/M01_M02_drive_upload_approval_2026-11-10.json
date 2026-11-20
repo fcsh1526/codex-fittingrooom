@@ -1,0 +1,11 @@
+{
+  "actor": "user",
+  "quote": "上傳。",
+  "recorded_at": "2026-11-10",
+  "timezone": "Asia/Taipei",
+  "scope": "Upload both exact W45 M01 and M02 handoff packages: video, cover and native Google Docs caption to the W45 Drive publishing folder.",
+  "folder_url": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "M01_video_sha256": "aa1a657e88480a966226bdbf72ea3e5c46346290df154408d376ebcc2b27a2fb",
+  "M02_video_sha256": "bf1828d34ce61ac76e82d1573a49e85d8403d5a5ae9be9bb8be46c16fa114b67",
+  "instagram_posting_authorized": false
+}

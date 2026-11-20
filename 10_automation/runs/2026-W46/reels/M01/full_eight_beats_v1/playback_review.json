@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-11",
+  "reviewed_file": "M01_W46_eight_beats_v1.mp4",
+  "reviewed_sha256": "bad70a172619515c309530af90487286226adb24991d8b5a35448ac02e95fd05",
+  "playback_rate": 1,
+  "played_start_to_end": true,
+  "browser_end_time": 13.458333,
+  "visual_evidence": "sampled screenshots and contact sheet; not continuous human observation",
+  "sample_times_seconds": [
+    1.1971,
+    3.361,
+    4.1213,
+    6.2899,
+    9.6258,
+    13.458333
+  ],
+  "comparison_observation": "both full figures and shoes visible; seated figure naturally lower; blurred top/bottom fill",
+  "delivery_file": "M01_W46_eight_beats_v1_cfr.mp4",
+  "delivery_note": "CFR timing normalization after playback; 324 frames verified, not separately UI-played",
+  "user_acceptance": "pending",
+  "publish_approval": false
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-03",
+  "scope": "wardrobe metadata and exact identity-file presence/hash; not visual acceptance of legacy stills",
+  "existing_look_plan": "10_automation/runs/2026-W44/weekly_look_plan.csv",
+  "existing_film_receipts": "10_automation/runs/2026-W44/publishing_structure.md",
+  "finding": "W44 films remain delivered as W44. Proposed W45 complete outfits differ; no exact still/clip reuse is certified. Approved identity anchors reused. Styling proofs may reuse a new approved exact-outfit view only after composition/clarity review.",
+  "role_count": 52,
+  "baseline_roles": 50,
+  "additional_view_roles": 2,
+  "unique_new_image_range": "40–52 planning range, conditional on 10 proof reuses and 2 medium/detail roles being satisfied by those views. No promised reuse before visual review.",
+  "new_generation_jobs_submitted": 0,
+  "paid_cloud_requests": 0
+}

@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "cuts": [
+    {
+      "id": "C01",
+      "source": "v3-pair",
+      "in_seconds": 2.9166666666666665,
+      "out_seconds": 3.9166666666666665,
+      "speed": 1,
+      "transition_in": "start",
+      "reason": "沿用並排裡既有微動；雙方都安定時切出。"
+    },
+    {
+      "id": "C02",
+      "source": "wind",
+      "in_seconds": 0.5,
+      "out_seconds": 2.1666666666666665,
+      "speed": 1,
+      "transition_in": "cut",
+      "reason": "切到原片已有的側傾起勢，讓頭肩動作讀完；跳過拉鍊操作。"
+    },
+    {
+      "id": "C03",
+      "source": "closed",
+      "in_seconds": 0.6666666666666666,
+      "out_seconds": 2.6666666666666665,
+      "speed": 1,
+      "transition_in": "cut",
+      "reason": "有意省略閉合動作；在風的反應後切到安定的閉領，以畫面內微動收尾。"
+    }
+  ],
+  "render_runtime": "ffmpeg",
+  "renderer_family": "product-reveal",
+  "metadata": {
+    "mode": "dry_run",
+    "approval": "unapproved",
+    "external_generation": false,
+    "source_frame_ranges": [
+      [
+        70,
+        94
+      ],
+      [
+        12,
+        52
+      ],
+      [
+        16,
+        64
+      ]
+    ],
+    "timeline_boundaries": [
+      0,
+      24,
+      64,
+      112
+    ],
+    "fps": 24,
+    "frame_interval": "[in,out)",
+    "unverified": "尚未輸出或做新剪法原速審片。"
+  }
+}

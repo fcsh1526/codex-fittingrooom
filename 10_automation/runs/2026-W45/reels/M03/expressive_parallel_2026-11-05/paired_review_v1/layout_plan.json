@@ -1,0 +1,29 @@
+{
+  "status": "editorial_layout_options_not_approved_film",
+  "aspect_ratio": "9:16",
+  "A": {
+    "method": "parallel selected poses",
+    "fixed_source_crop": [
+      135,
+      0,
+      585,
+      1280
+    ],
+    "panel_width": 356,
+    "gutter": 8,
+    "scale": 0.7911111111111111,
+    "preserves_native_speed": true,
+    "excluded_for_layout": [
+      "two-arm high V",
+      "wide-palms presentation"
+    ],
+    "note": "Keep full-frame accepted source separate; omit broad gestures for layout, never claim this fixes motion physics."
+  },
+  "B": {
+    "method": "single sequential",
+    "scale": 1,
+    "both_sources_full_width": true,
+    "transition_seconds": 0.75
+  },
+  "right_mockup_is_still": true
+}

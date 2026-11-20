@@ -1,0 +1,22 @@
+{
+  "source_sha256": "ba30f3caa2a6e759c8b83a83f11def52b8306623c31968988d40d0bee35ee33f",
+  "silent_sha256": "b6508ab5b41d00e8889d06405d95b7b2d4673a8d8b5af3db885c4b5009a0f3d9",
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 145,
+  "duration_seconds": 6.041666666666667,
+  "source_audio": "AAC",
+  "review_audio": "none",
+  "full_video_decode": "pass",
+  "silent_review_frame_and_timing_hashes_identical": true,
+  "sampled_interval_seconds": 0.5,
+  "continuous_visual_review": "pending",
+  "canvas_preview": "Play did not advance in controlled browser",
+  "seated_reference": {
+    "scope": "S02 continuity reference only",
+    "time_seconds": 5.5,
+    "frame_index": 132,
+    "sha256": "8e58e6236daec786708fbe710d621f1ec82299b32be60e6a29922c212f482226"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "status": "pending_user_gait_comparison_not_a_motion_pass",
+  "trial": "S01_gait_control_01",
+  "generation_calls": 1,
+  "media_uuid": "f77a8508-f37b-46e2-a96f-c58401fb3a58",
+  "source_sha256": "f03254a9dd243f77180c704739b48ab9815110ce93381050e88c0fe162f0bc26",
+  "source_bytes": 5228639,
+  "pixels": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "decoded_frames": 145,
+  "duration_seconds": 6.041666666666667,
+  "audio": "AAC",
+  "requested": {
+    "first_frame_asset_id": "0f8837dc-8587-4e77-a2cc-c911cb289096",
+    "asset_ids": [
+      "539840d8-dc19-488c-a8f1-f60a5905d67d",
+      "37a45888-e3e5-43a1-bdfc-98da09fc2c1e"
+    ],
+    "keyframes": null,
+    "last_frame_asset_id": null,
+    "duration_seconds": 6,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "camera": "Straight same-flank tracking, near-constant person size/angle; no column transition"
+  },
+  "parameter_acceptance": "Grok agent reports all accepted; engine call not directly observed",
+  "scope": "Diagnostic gait control after user rejects original foot sliding and says ok to repair. Does not replace approved16s route/camera or establish cause.",
+  "inspected": "13 whole-person frames every0.5s plus final;72 foot+ground samples every2frames from0–6s",
+  "observations": [
+    "Inspected head and both shoes remain visible; early/middle/late scale comparatively steady, no foreground-column sweep.",
+    "Alternating support/swing visible, but local foot-ground registration not calibrated; no zero-slip claim or categorical improvement certified.",
+    "The generated walkway later includes additional structural bays/drainage texture not present in start; fixed-world adherence not certified."
+  ],
+  "comparison": {
+    "file": "original_left_control_right_6s.mp4",
+    "left": "Rejected10s original first144frames",
+    "right": "New control first144frames",
+    "duration_seconds": 6,
+    "fps": 24,
+    "native_speed": true,
+    "full_frame_resized_equally_no_crop": true,
+    "labels_baked_in": false
+  },
+  "continuous_manual_playback": false,
+  "user_visual_approval": null,
+  "limitations": "Multiple conditions simplified, not strict single-factor attribution; exact world foot speed/contact and gait regularity unresolved. Original source remains rejected. No S02 / film / publication / retry.",
+  "download_tool_wall_seconds": 2904.4135,
+  "active_minutes": null,
+  "generation_wait_minutes": null,
+  "next": "Ask user to compare support-foot planting in original-left/control-right at native speed. Keep only scoped gait acceptance if user approves; restore curved camera progressively and recheck actual joins separately."
+}

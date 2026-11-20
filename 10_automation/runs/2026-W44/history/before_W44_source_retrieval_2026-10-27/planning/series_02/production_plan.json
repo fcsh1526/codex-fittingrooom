@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "plan_id": "2026-W44-02-v1",
+  "status": "draft",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W41"
+    ],
+    "content": "2026-W44",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣成年女性日常穿搭",
+    "takeaway": "同件格紋上衣，左側紮入深色直筒褲、右側敞開罩白T配丹寧；同時看腰線和層次。",
+    "visual_theme": "一件格紋，通勤或週末",
+    "selection_rationale": "同件格紋襯衫，怎麼一眼看出上班與週末的差別？"
+  },
+  "presentation": {
+    "layout_id": "parallel_comparison",
+    "recipe_id": "parallel_comparison"
+  },
+  "models": [
+    {
+      "id": "M01",
+      "identity_asset_ids": [
+        "M01_face",
+        "M01_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W44-002-L01",
+      "model_id": "M01",
+      "wardrobe_summary": "奶油白海軍藍薄格紋長袖襯衫（紮入、袖口預先翻折）、炭灰高腰直筒褲、黑低跟樂福鞋、黑小肩包",
+      "source_asset_ids": [
+        "source_W41",
+        "research_receipt"
+      ]
+    },
+    {
+      "id": "2026-W44-002-L02",
+      "model_id": "M01",
+      "wardrobe_summary": "同件薄格紋襯衫（敞開）、白圓領短袖T、深藍直筒九分丹寧褲、白低筒鞋、海軍藍小斜背包",
+      "source_asset_ids": [
+        "source_W41",
+        "research_receipt"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 192,
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W44-002-L01",
+        "2026-W44-002-L02"
+      ],
+      "frames": [
+        0,
+        192
+      ],
+      "clothing_purpose": "同件格紋上衣，左側紮入深色直筒褲、右側敞開罩白T配丹寧；同時看腰線和層次。",
+      "clear_read_intervals": [
+        [
+          0,
+          192
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "左右全身同時出現",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖",
+      "panels": [
+        {
+          "id": "left",
+          "look_id": "2026-W44-002-L01"
+        },
+        {
+          "id": "right",
+          "look_id": "2026-W44-002-L02"
+        }
+      ]
+    }
+  ],
+  "transitions": [],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M01_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+    },
+    {
+      "id": "M01_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W44/planning/series_02_storyboard.png",
+      "sha256": "5891260a77440fe82c17a791972b5361d8fb9df3d3634d6776e3b2271712be1b"
+    },
+    {
+      "id": "source_W41",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W41/source_perplexity.csv",
+      "sha256": "61bffeedf1023f454745e45851df3d5b985de87093c1f3d50dcbf410bd231d11"
+    },
+    {
+      "id": "research_receipt",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/planning/research_receipt.json",
+      "sha256": "87836e2218ef6f1814da6bdd1493c2fbddab7ce1b801768e469dcbe663222c31"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "本週企劃及精確線稿待使用者確認",
+    "新全身圖與proof尚未生成／逐張核准",
+    "既有身份核准沿用manifest；尚未把歷史收據轉為本檢查器格式，不重問身份核准",
+    "手機並排實際人物寬度／格紋清晰度待真圖審查；必要時改為依序",
+    "8秒每側需要8秒可用原速來源，不能用6秒片循環補足"
+  ]
+}

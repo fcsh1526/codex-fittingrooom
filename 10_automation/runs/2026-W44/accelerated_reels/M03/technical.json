@@ -1,0 +1,22 @@
+{
+  "sha256": "f7bed24ef93adfde7e7ccf9ff035559185d544b6203f43ca52fd22ab55066099",
+  "frames": 145,
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "continuous_review": false
+}

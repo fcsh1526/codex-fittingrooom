@@ -1,0 +1,16 @@
+{
+  "actor": "user",
+  "quote": "我同意將清單中的 190 份檔案，包括製作紀錄、素材識別與 Drive 連結，公開同步到 fcsh1526/codex-fittingrooom 的 main。",
+  "date": "2026-11-17",
+  "timezone": "Asia/Taipei",
+  "repository": "fcsh1526/codex-fittingrooom",
+  "branch": "main",
+  "file_count": 190,
+  "reviewed_manifest_sha256": "4b4e1ab9bde088480390d1627dbae5452f1b58689a6c31e87ac4c4da1701690e",
+  "scope": "Publish the listed workflow, directing skills and related research/receipt text. Includes media identifiers, hashes, Drive links and production status.",
+  "updated_after_consent": [
+    "10_automation/CLOUD_HANDOFF.md approval-status note"
+  ],
+  "public_disclosure_approved": true,
+  "final_manifest_sha256": "7b6ec75ac73a36ce65cb79f3e295de1e215478148e837ab6f734a03bf9250373"
+}

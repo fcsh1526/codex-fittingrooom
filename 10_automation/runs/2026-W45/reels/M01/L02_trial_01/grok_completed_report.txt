@@ -1,0 +1,166 @@
+
+        - cell "雙臂外開、掌心向上；肘彎；手高約胸際（可能偏高於「低於胸」）"
+      - row "~5s 手勢緩收；仍對鏡笑；裝不變":
+        - cell "~5s"
+        - cell "手勢緩收；仍對鏡笑；裝不變"
+  - paragraph:
+    - strong: 不
+    - text: 認證手高、腳地或成片通過。只此一支。
+  - generic: "本次只做W45 M01 L02第二鏡，一個獨立6秒720p原生9:16影片，只一次，不重試、不出照片、不改刪舊媒體、不合片、不加購或改服務。使用者已明確「採用這張」核准剛上傳的第二套首圖，可開始這一鏡；第一套已完成，不要重做第一套，也不是M02。 精確輸入： first_frame_asset_id: \"60cb1873-95ba-42ff-88b5-fb8b392e06e2\" asset_ids: [\"a3306f94-b579-4498-9a01-a1717fe12c62\",\"61671532-de26-495b-b7f5-5331a1570fa3\"] duration: \"6\" resolution_name: \"720p\" aspect_ratio: \"9:16\" 不設last_frame_asset_id或keyframes。 first已下載SHA比對為核准L02原圖：M01束髮，橄欖綠薄工裝敞開／白T／奶油白膝下A字裙／黑鞋／深棕斜背包，同咖啡店側牆、約86.6%近全身。不是沙卡其外套＋深藍褲。face/full只鎖M01 v4身份／髮型／普通比例，不複製棚拍服裝或姿態。先實際看這三個UUID，內容不符、參數不支援、額度不足便停下回報，不替換或猜圖。 請逐字傳入以下英文，不自行擴寫或加手勢／走路；標記不傳入。 PROMPT_BEGIN Her friend directly behind the camera is taking a casual photo of her skirt outfit. Begin from the exact approved first frame, nearly frontal with relaxed low hands and a warm smile, allowing the complete outfit to read clearly. One continuous six-second real-time shot. Staying in her place, she responds playfully to the photographer with a small shoulder angle and a comfortable weight shift, then returns toward the lens with a spontaneous happy laugh. The cream A-line skirt responds with believable changing folds while retaining its silhouette. Keep her face engaged with the camera. Both hands remain relaxed, low and visibly outside the torso, without touching the skirt or swinging behind her body. Finish comfortably near front-facing, still smiling rather than frozen. Preserve the exact M01 face, tied-back dark hair, open olive-green unlined cotton utility shirt-jacket, white crewneck tee, cream-white below-knee A-line cotton skirt, black casual shoes and dark-brown crossbody bag. Keep the short jacket hem, front pockets, waist and skirt shape readable. Locked chest-height 50mm camera; complete head and both shoes stay visible with normal proportions. Preserve the same cafe wall, windows, paving and shaded daylight. No walking, spin, raised-arm pose, camera move, cut or text. PROMPT_END 音訊僅真有開關時關，否則如實保留AAC，不因音訊重生。完成保留唯一原片、列真正first/asset_ids、設定是否接受、影片UUID、實際時長／像素／音軌、是否逐字傳入；seed、模型版本與額度無欄位則unknown。不要宣告手腳／身份／接點或成片QA通過。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M01 L02 — 一次
+  - heading "首圖核對" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 結果":
+        - columnheader "項目"
+        - columnheader "結果"
+    - rowgroup:
+      - row "first 60cb1873-95ba-42ff-88b5-fb8b392e06e2":
+        - cell "first"
+        - cell "60cb1873-95ba-42ff-88b5-fb8b392e06e2":
+          - code: 60cb1873-95ba-42ff-88b5-fb8b392e06e2
+      - row "內容 橄欖綠薄工裝敞開／白T／奶油白膝下A字裙／黑鞋／深棕斜背；束髮；同咖啡側牆 — 相符（非沙卡其＋深藍褲）":
+        - cell "內容"
+        - cell "橄欖綠薄工裝敞開／白T／奶油白膝下A字裙／黑鞋／深棕斜背；束髮；同咖啡側牆 — 相符（非沙卡其＋深藍褲）":
+          - text: 橄欖綠薄工裝敞開／白T／奶油白膝下A字裙／黑鞋／深棕斜背；束髮；同咖啡側牆 —
+          - strong: 相符
+          - text: （非沙卡其＋深藍褲）
+      - row "face / full a3306f94-… / 61671532-… 可讀":
+        - cell "face / full"
+        - cell "a3306f94-… / 61671532-… 可讀":
+          - code: a3306f94-…
+          - text: /
+          - code: 61671532-…
+          - text: 可讀
+  - paragraph: 未重做 L01。
+  - separator
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 60cb1873-95ba-42ff-88b5-fb8b392e06e2 是":
+        - cell "first"
+        - cell "60cb1873-95ba-42ff-88b5-fb8b392e06e2":
+          - code: 60cb1873-95ba-42ff-88b5-fb8b392e06e2
+        - cell "是"
+      - row "asset_ids a3306f94-…、61671532-… 是":
+        - cell "asset_ids"
+        - cell "a3306f94-…、61671532-…":
+          - code: a3306f94-…
+          - text: 、
+          - code: 61671532-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"6\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"6\" / \"720p\" / \"9:16\"":
+          - code: "\"6\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID b8e62f5a-9509-4419-9456-485f3835e57a":
+        - cell "影片 UUID"
+        - cell "b8e62f5a-9509-4419-9456-485f3835e57a":
+          - code: b8e62f5a-9509-4419-9456-485f3835e57a
+      - row "時長 6.04 s":
+        - cell "時長"
+        - cell "6.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告 QA 通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 近正面；綠外套／奶油裙可讀；手低；頭鞋在框":
+        - cell "0s"
+        - cell "近正面；綠外套／奶油裙可讀；手低；頭鞋在框"
+      - row "~1–2s 笑開；肩／重心微動；裙褶變化；手仍低於腰側":
+        - cell "~1–2s"
+        - cell "笑開；肩／重心微動；裙褶變化；手仍低於腰側"
+      - row "~3–4s 大開笑；近正面；無抬臂":
+        - cell "~3–4s"
+        - cell "大開笑；近正面；無抬臂"
+      - row "~5s 笑緩；近正面；裝不變":
+        - cell "~5s"
+        - cell "笑緩；近正面；裝不變"
+  - paragraph:
+    - strong: 不
+    - text: 認證手腳、身份接點或成片通過。只此一支。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-28",
+  "trial": "S01_motion_trial_01",
+  "status": "generated_review_required_not_ready_for_planned_join",
+  "generation_calls": 1,
+  "output_media_uuid": "09156091-b063-4933-9d3e-9baafa1f0a5a",
+  "requested": {
+    "duration_seconds": 10,
+    "resolution": "720p",
+    "aspect_ratio": "9:16",
+    "first_frame_asset_id": "0f8837dc-8587-4e77-a2cc-c911cb289096",
+    "keyframes": [
+      {
+        "asset_id": "718771d4-0e06-4e07-a9b5-a287c1b361b2",
+        "timestamp_s": 8
+      }
+    ],
+    "asset_ids": [
+      "539840d8-dc19-488c-a8f1-f60a5905d67d",
+      "37a45888-e3e5-43a1-bdfc-98da09fc2c1e"
+    ],
+    "last_frame_asset_id": null
+  },
+  "submitted_evidence": "submitted_prompt.txt",
+  "agent_report": "grok_agent_report.txt",
+  "parameter_acceptance": "Agent reports all requested parameters accepted; actual engine call not directly observed",
+  "observed_file": {
+    "source": "S01_source.mp4",
+    "sha256": "6b249dd3eece25149324d4003a56ef961cb18d480ba18a7f668aa0f54b72c446",
+    "bytes": 6247851,
+    "pixels": [
+      720,
+      1280
+    ],
+    "fps": 24,
+    "decoded_frames": 241,
+    "seconds": 10.041666666666666,
+    "audio": "AAC"
+  },
+  "review_preview": {
+    "file": "S01_silent_review.mp4",
+    "sha256": "527cb7b6528b2e741bff108168cced365e3ec31d4daf06c41c7965ce028e32f5",
+    "change": "Video stream copied; only audio removed; native speed and full duration retained"
+  },
+  "visual_review": {
+    "sampled_frames": [
+      0,
+      24,
+      48,
+      60,
+      72,
+      96,
+      120,
+      144,
+      156,
+      168,
+      171,
+      174,
+      177,
+      180,
+      183,
+      186,
+      189,
+      192,
+      195,
+      198,
+      201,
+      204,
+      216,
+      240
+    ],
+    "findings": [
+      "Purple outfit preserved in inspected images; early full-person outfit readable, subject angle/scale and window parallax change.",
+      "At6.5s the near column already hides part of the body; at7.0–7.375s almost entirely hidden; requested full outfit reading through6.75s not satisfied.",
+      "At8.0s pillar hides head/torso and purple sleeve/trouser/shoe appear on pillar left, broadly resembles guide; exact image match not certified.",
+      "Planned7.5–8.25s S01/S02 join remains unverified. Sampled S01 pillar is near centre whereas accepted S02 first still has a broad left-edge pillar. Do not blend and declare continuity solved.",
+      "Continuous normal-speed visual playback, gait cadence/zero-slip, identity throughout, fixed-world geometry and viewer comfort remain unverified."
+    ],
+    "user_motion_approval": null
+  },
+  "actions_not_taken": [
+    "No S02 motion generated",
+    "No combined film or publishing",
+    "No automatic retry"
+  ],
+  "wait_measurements": {
+    "upload_tool_call_seconds": 977.2648,
+    "download_tool_call_seconds": 2047.7375,
+    "meaning": "Observed tool wall times, not exact generation/transfer or active-work durations",
+    "active_minutes": null,
+    "generation_wait_minutes": null
+  },
+  "next": "User reviews full native silent preview for walking/camera appeal. Classify pillar timing / join geometry before any repeat or S02 source; retain exact accepted stills and original source."
+}

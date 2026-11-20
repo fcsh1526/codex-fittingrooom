@@ -1,0 +1,15 @@
+{
+  "user_quote": "[展館入口認出同伴、笑開，再轉向展場]這個沒有做出來",
+  "reviewed_video": {
+    "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/W45_M05_L02_Reel_motion_trial_v1.mp4",
+    "sha256": "b9f6288409faebf3f491c0484833db79701101b4305db1a335ccc913f97c6db2",
+    "duration_seconds": 6.041667,
+    "frames": 145,
+    "audio": false,
+    "video_stream_copy": true
+  },
+  "decision": "interaction_beat_not_achieved",
+  "observed_difference": "首圖的微笑收淡，缺少先轉眼認出、再笑開停一拍、最後轉向展場的可見因果。",
+  "retry_change": "Only the readable reaction direction and its timing. Use the same approved starting image, identity, scene, outfit, fixed framing, generation length and resolution.",
+  "retry_limit": 1
+}

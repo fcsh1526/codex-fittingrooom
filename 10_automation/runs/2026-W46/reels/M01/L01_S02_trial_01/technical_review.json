@@ -1,0 +1,25 @@
+{
+  "source_sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+  "silent_sha256": "55c41e4ed5ceb86ec1d773010848f7936fd6d4acd245434041bc45f18a49b967",
+  "video_decode": "pass",
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 145,
+  "duration_seconds": 6.041666666666667,
+  "silent_copy_frames_and_timing_match": true,
+  "continuous_visual_review": "pending",
+  "user_acceptance": "pending",
+  "source_audio": "AAC",
+  "canvas_playback": {
+    "rate": 1,
+    "observed_seconds": [
+      0,
+      2.564831,
+      5.106269
+    ],
+    "loop_observed": true,
+    "scope": "原速頁面播放抽看，觀察到播放時間前進及循環；非完整連續目視"
+  },
+  "performance_deviation": "實片兩腳同步提跟、腳尖下壓，超出近腳小幅前移並全程鞋底接地的要求。"
+}

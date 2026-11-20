@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-05",
+  "status": "request_sent_awaiting_provider",
+  "user_authorization_quote": "側步抬臂眼睛也跟著看手臂，其實整體有點莫名，動作再大一點，再多一點",
+  "context": "Direct request for larger/more varied poses after trial01; ten seconds gives more distinct poses time to read. Not a single-variable A/B experiment.",
+  "first_frame_asset_id": "2e8df556-7034-4788-92d8-3a769fcdfed3",
+  "identity_asset_ids": [
+    "26e03f42-2907-488c-b75c-239a2a19b9c8",
+    "15c720b2-46b6-45e0-a150-60290e3290e6"
+  ],
+  "source_still": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+  "source_still_sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+  "still_approval": "10_automation/runs/2026-W45/approvals/M03_L01_still_approval_2026-11-04.json",
+  "duration_requested": 10,
+  "resolution_requested": "720p",
+  "aspect_requested": "9:16",
+  "max_new_jobs": 1,
+  "new_jobs_submitted": 0,
+  "new_still_calls": 0,
+  "native_speed_required": true,
+  "full_film_generation_authorized": false,
+  "prompt_sha256": "b9037abd42d5377fe9ee188f1af6a7d450f14f367bb5484d9e2a84c99f4b6a63",
+  "performance_phrases": [
+    "hands on waist, large left-right hip/shoulder poses",
+    "both arms forward and high V, attention to lens",
+    "side turn and foot pivot, return frontal",
+    "bent-arm presentation and new hip pose"
+  ],
+  "layout_scope": "Full-frame performance test; no guarantee of narrow-panel fit. Existing parallel film design requires reassessment.",
+  "seed": "unknown",
+  "model_version": "unknown",
+  "remaining_quota": "unknown",
+  "last_frame_asset_id": null,
+  "keyframes": null,
+  "request_messages_sent": 1
+}

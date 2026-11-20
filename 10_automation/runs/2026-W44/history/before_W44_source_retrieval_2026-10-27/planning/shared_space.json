@@ -1,0 +1,485 @@
+{
+  "id": "W44_arcade_schematic_v1",
+  "units": "schematic",
+  "unit_note": "Unmeasured relative scale; stature 1.65 is a schematic unit, not a measured model height. No claim of real site geometry.",
+  "axes": "x_right_y_up_z_forward",
+  "geometry": [
+    {
+      "id": "office_wall",
+      "vertices": [
+        [
+          -2,
+          0,
+          -1
+        ],
+        [
+          -2,
+          3,
+          -1
+        ],
+        [
+          -2,
+          3,
+          13
+        ],
+        [
+          -2,
+          0,
+          13
+        ]
+      ]
+    },
+    {
+      "id": "window_A",
+      "vertices": [
+        [
+          -1.99,
+          0.5,
+          2
+        ],
+        [
+          -1.99,
+          2.5,
+          2
+        ],
+        [
+          -1.99,
+          2.5,
+          4
+        ],
+        [
+          -1.99,
+          0.5,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "window_B",
+      "vertices": [
+        [
+          -1.99,
+          0.5,
+          7
+        ],
+        [
+          -1.99,
+          2.5,
+          7
+        ],
+        [
+          -1.99,
+          2.5,
+          9
+        ],
+        [
+          -1.99,
+          0.5,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "bench",
+      "vertices": [
+        [
+          -1.5,
+          0.45,
+          5
+        ],
+        [
+          -1.5,
+          0.45,
+          6.5
+        ],
+        [
+          -0.9,
+          0.45,
+          6.5
+        ],
+        [
+          -0.9,
+          0.45,
+          5
+        ]
+      ]
+    },
+    {
+      "id": "paving_0",
+      "vertices": [
+        [
+          -2,
+          0,
+          0
+        ],
+        [
+          2.5,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "paving_2",
+      "vertices": [
+        [
+          -2,
+          0,
+          2
+        ],
+        [
+          2.5,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "id": "paving_4",
+      "vertices": [
+        [
+          -2,
+          0,
+          4
+        ],
+        [
+          2.5,
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "paving_6",
+      "vertices": [
+        [
+          -2,
+          0,
+          6
+        ],
+        [
+          2.5,
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "paving_8",
+      "vertices": [
+        [
+          -2,
+          0,
+          8
+        ],
+        [
+          2.5,
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "paving_10",
+      "vertices": [
+        [
+          -2,
+          0,
+          10
+        ],
+        [
+          2.5,
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "paving_12",
+      "vertices": [
+        [
+          -2,
+          0,
+          12
+        ],
+        [
+          2.5,
+          0,
+          12
+        ]
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "shot_id": "S01",
+      "character_samples": [
+        {
+          "frame": 0,
+          "position": [
+            -0.4,
+            0.0,
+            0.0
+          ],
+          "heading_degrees": 14.708303899682749,
+          "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+        },
+        {
+          "frame": 84,
+          "position": [
+            0.029120683517265933,
+            0.0,
+            2.1132075471698113
+          ],
+          "heading_degrees": 8.173609986481669,
+          "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+        },
+        {
+          "frame": 168,
+          "position": [
+            0.20704877180491277,
+            0.0,
+            4.226415094339623
+          ],
+          "heading_degrees": 1.418591389738544,
+          "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 0,
+          "position": [
+            0.8,
+            1.1,
+            3.5
+          ],
+          "target": [
+            -0.4,
+            1.1,
+            0.0
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 84,
+          "position": [
+            0.12516909932360276,
+            1.1,
+            5.7687077251691
+          ],
+          "target": [
+            0.029120683517265933,
+            1.1,
+            2.1132075471698113
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 168,
+          "position": [
+            -0.10309718761124956,
+            1.1,
+            7.925774296902812
+          ],
+          "target": [
+            0.20704877180491277,
+            1.1,
+            4.226415094339623
+          ],
+          "vertical_fov_degrees": 40
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 0,
+          "person_center_uv": [
+            0.5000000000000001,
+            0.6021022013986516
+          ],
+          "person_height_fraction": 0.6126132083919089,
+          "visible_landmark_ids": [],
+          "visible_clothing": "full outfit, schematic garment only"
+        },
+        {
+          "frame": 84,
+          "person_center_uv": [
+            0.5,
+            0.6033094759823505
+          ],
+          "person_height_fraction": 0.6198568558941027,
+          "visible_landmark_ids": [],
+          "visible_clothing": "full outfit, schematic garment only"
+        },
+        {
+          "frame": 168,
+          "person_center_uv": [
+            0.5,
+            0.6017628797508754
+          ],
+          "person_height_fraction": 0.6105772785052521,
+          "visible_landmark_ids": [],
+          "visible_clothing": "full outfit, schematic garment only"
+        }
+      ]
+    },
+    {
+      "shot_id": "S02",
+      "character_samples": [
+        {
+          "frame": 150,
+          "position": [
+            0.19006763972944107,
+            0.0,
+            3.7735849056603774
+          ],
+          "heading_degrees": 2.875884524208755,
+          "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+        },
+        {
+          "frame": 234,
+          "position": [
+            0.17063011747953014,
+            0.0,
+            5.886792452830188
+          ],
+          "heading_degrees": -3.9261714253773214,
+          "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+        },
+        {
+          "frame": 318,
+          "position": [
+            -0.1,
+            0.0,
+            8.0
+          ],
+          "heading_degrees": -10.619655276155134,
+          "gait_phase": "schematic continuous phase; no physical foot-contact claim"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 150,
+          "position": [
+            -0.09177643289426846,
+            1.1,
+            7.472944108223568
+          ],
+          "target": [
+            0.19006763972944107,
+            1.1,
+            3.7735849056603774
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 234,
+          "position": [
+            0.030829476682093182,
+            1.1,
+            9.542292630829476
+          ],
+          "target": [
+            0.17063011747953014,
+            1.1,
+            5.886792452830188
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 318,
+          "position": [
+            0.6,
+            1.1,
+            11.5
+          ],
+          "target": [
+            -0.1,
+            1.1,
+            8.0
+          ],
+          "vertical_fov_degrees": 40
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 150,
+          "person_center_uv": [
+            0.5,
+            0.6018247939843646
+          ],
+          "person_height_fraction": 0.6109487639061872,
+          "visible_landmark_ids": [],
+          "visible_clothing": "full outfit, schematic garment only"
+        },
+        {
+          "frame": 234,
+          "person_center_uv": [
+            0.5,
+            0.6032696377700222
+          ],
+          "person_height_fraction": 0.619617826620133,
+          "visible_landmark_ids": [],
+          "visible_clothing": "full outfit, schematic garment only"
+        },
+        {
+          "frame": 318,
+          "person_center_uv": [
+            0.49999999999999994,
+            0.6058405568162785
+          ],
+          "person_height_fraction": 0.6350433408976703,
+          "visible_landmark_ids": [
+            "office_wall",
+            "window_A",
+            "bench",
+            "paving_0",
+            "paving_2",
+            "paving_4"
+          ],
+          "visible_clothing": "full outfit, schematic garment only"
+        }
+      ]
+    }
+  ],
+  "curve_controls": {
+    "character": [
+      [
+        -0.4,
+        0,
+        0
+      ],
+      [
+        0.65,
+        0,
+        4
+      ],
+      [
+        -0.1,
+        0,
+        8
+      ]
+    ],
+    "camera": [
+      [
+        0.8,
+        1.1,
+        3.5
+      ],
+      [
+        -0.9,
+        1.1,
+        7.9
+      ],
+      [
+        0.6,
+        1.1,
+        11.5
+      ]
+    ]
+  },
+  "clock": {
+    "fps": 24,
+    "frame_count": 318
+  },
+  "projection": "pinhole vertical FOV 40deg; chest-level horizontal optical axis; 9:16"
+}

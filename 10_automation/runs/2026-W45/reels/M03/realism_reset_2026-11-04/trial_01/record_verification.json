@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-04",
+  "source_sha256": "5deb6d9d08e89d85a2143493108e7ff87354c7429880fce917ea503f971b2514",
+  "review_sha256": "f8d35d777a3f26ebcb7b29f691b816abcfc0d865f2388bb923d5404d78ae75b0",
+  "full145frames_preserved": true,
+  "source_prompt_URL_UUID_matched": true,
+  "source_still_approval_hash_matched": true,
+  "approved_snapshot_count": 18,
+  "approved_snapshot_hashes_unchanged": true,
+  "new_still_calls": 0,
+  "new_video_sources": 1,
+  "weekly_video_sources": 9,
+  "weekly_accepted_films": 2,
+  "continuous_full_source_visual_QA": false,
+  "realism_pass": null,
+  "publication_approval": null
+}

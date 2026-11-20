@@ -1,0 +1,25 @@
+{
+  "asset_id": "78057334-e9bb-4480-a870-4c5e796d9343",
+  "sha256": "972ee1ea02895fcb73b9d45de9ad748fa46013059bc446bf084aaa1db6cca3ff",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "decoded_frames": 145,
+  "continuous_manual_playback": false,
+  "user_approval": "pending",
+  "generation_count": 1
+}

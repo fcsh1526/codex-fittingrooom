@@ -1,0 +1,239 @@
+{
+  "status": "static_layout_and_storyboard_visually_reviewed_not_motion_approved",
+  "targets": [
+    {
+      "time": 0.0,
+      "panels": [
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 159.36,
+          "arm_envelope_x": [
+            68.44,
+            289.22
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        },
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 159.36,
+          "arm_envelope_x": [
+            68.44,
+            289.22
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        }
+      ]
+    },
+    {
+      "time": 1.5,
+      "panels": [
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 145.416,
+          "arm_envelope_x": [
+            49.547875000000005,
+            274.48825
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        },
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 148.20480000000003,
+          "arm_envelope_x": [
+            76.10919999999999,
+            281.43460000000005
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        }
+      ]
+    },
+    {
+      "time": 3.2,
+      "panels": [
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 106.37280000000001,
+          "arm_envelope_x": [
+            101.8687,
+            249.23935
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        },
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 106.37280000000001,
+          "arm_envelope_x": [
+            107.8687,
+            255.23935
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        }
+      ]
+    },
+    {
+      "time": 5.0,
+      "panels": [
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 153.7824,
+          "arm_envelope_x": [
+            70.2746,
+            283.32730000000004
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        },
+        {
+          "hair_top": 48,
+          "shoe_bottom": 866.38,
+          "shoulder_width": 152.66688000000002,
+          "arm_envelope_x": [
+            50.392180000000025,
+            286.54876
+          ],
+          "full_outfit_visible": true,
+          "head_inside": true
+        }
+      ]
+    },
+    {
+      "time": 6.8,
+      "panels": [
+        {
+          "hair_top": 48,
+          "shoe_bottom": 1111.894,
+          "shoulder_width": 203.54256,
+          "arm_envelope_x": [
+            38.064490000000006,
+            320.055745
+          ],
+          "full_outfit_visible": false,
+          "head_inside": true
+        },
+        {
+          "hair_top": 48,
+          "shoe_bottom": 1111.894,
+          "shoulder_width": 203.54256,
+          "arm_envelope_x": [
+            38.064490000000006,
+            320.055745
+          ],
+          "full_outfit_visible": false,
+          "head_inside": true
+        }
+      ]
+    },
+    {
+      "time": 9.0,
+      "panels": [
+        {
+          "hair_top": 48,
+          "shoe_bottom": 1291.9376,
+          "shoulder_width": 242.22719999999998,
+          "arm_envelope_x": [
+            11.468800000000016,
+            347.0544
+          ],
+          "full_outfit_visible": false,
+          "head_inside": true
+        },
+        {
+          "hair_top": 48,
+          "shoe_bottom": 1291.9376,
+          "shoulder_width": 242.22719999999998,
+          "arm_envelope_x": [
+            11.468800000000016,
+            347.0544
+          ],
+          "full_outfit_visible": false,
+          "head_inside": true
+        }
+      ]
+    }
+  ],
+  "still_sources": [
+    {
+      "look": "L01",
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+      "sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+      "original_size": [
+        941,
+        1672
+      ],
+      "crop_box_original": [
+        235.25,
+        169.8125,
+        758.0277777777778,
+        1520.475
+      ]
+    },
+    {
+      "look": "L02",
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L02/reel/2026-W45-003-L02_M03_reel_candidate_A.png",
+      "sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d",
+      "original_size": [
+        941,
+        1672
+      ],
+      "crop_box_original": [
+        235.25,
+        169.8125,
+        758.0277777777778,
+        1520.475
+      ]
+    }
+  ],
+  "start_picture_rects": [
+    [
+      0,
+      180,
+      356,
+      920
+    ],
+    [
+      364,
+      180,
+      356,
+      920
+    ]
+  ],
+  "start_body_height_approx_percent": 65,
+  "end_framing": "head to knees, lower legs intentionally outside picture",
+  "end_scale_factor_schematic": 1.52,
+  "limits": [
+    "No physical world calibration",
+    "Sketch interpolation does not validate gait or hand anatomy",
+    "Actual new source needs full motion-envelope and continuous playback review",
+    "Original first images already smile; do not claim neutral-to-smile onset"
+  ],
+  "assistant_review": {
+    "viewed": [
+      "storyboard.png",
+      "approved_stills_layout.png",
+      "key_03.png",
+      "key_06.png"
+    ],
+    "finding": "Initial photo layout shows complete heads/shoes and hands/bags. Sketch visibly changes pose/foot placement and scale; end lower legs intentionally outside picture. Narrow-panel margins need actual source verification.",
+    "not_certified": [
+      "realistic acting",
+      "gait or contact",
+      "exact perspective",
+      "generator ability",
+      "continuous native-speed footage",
+      "user acceptance"
+    ]
+  }
+}

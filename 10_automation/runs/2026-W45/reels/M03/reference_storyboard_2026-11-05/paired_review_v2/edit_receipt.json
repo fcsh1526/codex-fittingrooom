@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-05",
+  "status": "user_rejected",
+  "film_sha256": "e47629d64faac82d0aade06ab729af623eea6992851af04cc0ec31f7efd519eb",
+  "source_left_sha256": "eea1bdfbc5add114ee8e8e4f9a363bf9544d8976660f8b7316707807e8e62f1c",
+  "source_right_sha256": "85252ae95333fbc4062b39759be7eb882a282d3e1f89b34f8d2fd5a467c72186",
+  "source_intervals_frames": {
+    "left": [
+      0,
+      192
+    ],
+    "right": [
+      24,
+      216
+    ]
+  },
+  "fps": 24,
+  "frame_count": 192,
+  "duration_seconds": 8,
+  "crop_each_xywh": [
+    160,
+    0,
+    400,
+    1280
+  ],
+  "panel_xywh": [
+    [
+      0,
+      70,
+      356,
+      1140
+    ],
+    [
+      364,
+      70,
+      356,
+      1140
+    ]
+  ],
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "internal_joins": [],
+  "no_retime_freeze_repeat_or_motion_interpolation": true,
+  "full_decode": true,
+  "continuous_human_native_speed_review": false,
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "source_jobs_added": 0,
+  "latest_feedback_receipt": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/user_feedback.json"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-03",
+  "revision": 2,
+  "source_rows": 20,
+  "source_csv_matches_report": true,
+  "recent_pool_rows": 60,
+  "missing_weeks": [],
+  "all_five_boards_updated": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05"
+  ],
+  "archive_files_sha_verified": 38,
+  "planning_structure_errors": 0,
+  "generation_ready": false,
+  "previs_encoded_frames": 86,
+  "previs_total_ms": 8000,
+  "current_document_broken_links": [],
+  "actual_image_or_video_generation_jobs": 0,
+  "review_scope": "Revised overview and M02 contact-sheet visual samples; schematic framing only, no actual generated-motion QA."
+}

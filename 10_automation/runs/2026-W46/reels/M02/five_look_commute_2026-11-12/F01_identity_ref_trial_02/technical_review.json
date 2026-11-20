@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-13",
+  "source_sha256": "27de36ebfc5b0a759334e2cc983caa61dad2eeb3dd5f59c5afb73de0063289e3",
+  "source_frames": 145,
+  "fps": 24,
+  "size": [
+    720,
+    1280
+  ],
+  "source_seconds": 6.041666666666667,
+  "selected_frames": 105,
+  "selected_seconds": 4.375,
+  "decode": "source and selected clip decoded without reported failure; selected framemd5 verifies105frames",
+  "playback": "Grok canvas1x loop observed atstart and paused1.839205s; sampled screen evidence only, not continuous human full-clip review",
+  "observed_identity": "New sampled views retain a three-quarter orientation and look closer to the approved first-frame face than old near-frontal late views. Smile, gaze and head orientation also differ; cannot isolate reference effect or certify identity. User confirmation pending.",
+  "other_observations": [
+    "complete head and shoes in source samples",
+    "continuous walking, body grows from wide opening",
+    "actual curve and foot-contact quality still not certified"
+  ],
+  "reference_evidence": "Grok agent reports first plus nonempty asset_ids accepted; source downloaded by visible canvas Download button. No dedicatedface-lock control.",
+  "user_acceptance": "pending",
+  "F02_continuation": "withheld; stale oldf87 candidate remains withdrawn"
+}

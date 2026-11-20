@@ -1,0 +1,139 @@
+ions, long wavy brown hair, open deep-navy blazer, cream-white short-sleeve fine-knit top, cream-white calf-length A-line skirt, white-grey low-top sneakers, small black bag on her left shoulder and silver necklace. The bag and clothes respond naturally to her body; the A-line skirt sways and opens naturally as her hips and feet change direction, preserving its calf length. Preserve the shaded office wall, windows, bench, paving and coherent daylight. No camera move, slow motion, outfit change, cut or text. PROMPT_END 鏡頭是注意對象，不眼睛追手或看虛構物件；自然活潑的完整穿搭換姿，不靠嘴角獨演。音訊有實際開關才關，沒有如實回報。完成列真正First/identity IDs、新影片UUID、設定與實際時長／像素／音軌。參數接受、畫面觀察與物理／真人感通過分開；只此一次，不做新圖或第二支。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M03 裙裝多姿態 — 一次
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 1499ae56-08c0-4503-b88f-898a373738e0 是（奶油裙 L02）":
+        - cell "first"
+        - cell "1499ae56-08c0-4503-b88f-898a373738e0":
+          - code: 1499ae56-08c0-4503-b88f-898a373738e0
+        - cell "是（奶油裙 L02）"
+      - row "asset_ids 26e03f42-…、15c720b2-… 是":
+        - cell "asset_ids"
+        - cell "26e03f42-…、15c720b2-…":
+          - code: 26e03f42-…
+          - text: 、
+          - code: 15c720b2-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"10\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - paragraph:
+    - text: 未重做褲裝
+    - code: 414c5d81
+    - text: 。
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID 64c9236b-86e1-4456-82b4-36de7918ec41":
+        - cell "影片 UUID"
+        - cell "64c9236b-86e1-4456-82b4-36de7918ec41":
+          - code: 64c9236b-86e1-4456-82b4-36de7918ec41
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0–1.7s 雙手叉腰；奶油裙可讀；對鏡笑；鞋在框":
+        - cell "0–1.7s"
+        - cell "雙手叉腰；奶油裙可讀；對鏡笑；鞋在框":
+          - strong: 雙手叉腰
+          - text: ；奶油裙可讀；對鏡笑；鞋在框
+      - row "~3.4s 雙臂高 V；對鏡；裙長可讀":
+        - cell "~3.4s"
+        - cell "雙臂高 V；對鏡；裙長可讀":
+          - strong: 雙臂高 V
+          - text: ；對鏡；裙長可讀
+      - row "~5s 雙臂下降外展；近正面（側轉拍較弱／未見深側）":
+        - cell "~5s"
+        - cell "雙臂下降外展；近正面（側轉拍較弱／未見深側）"
+      - row "~6.7s 半側身；回眸對鏡；裙擺動":
+        - cell "~6.7s"
+        - cell "半側身；回眸對鏡；裙擺動":
+          - strong: 半側身
+          - text: ；回眸對鏡；裙擺動
+      - row "~8.4s 近正面；臂在動；末姿叉腰不明顯":
+        - cell "~8.4s"
+        - cell "近正面；臂在動；末姿叉腰不明顯":
+          - text: 近正面；臂在動；
+          - strong: 末姿叉腰不明顯
+  - paragraph:
+    - strong: 不
+    - text: 認證與褲裝同步、四拍完整或物理／真人感通過。只此一次。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

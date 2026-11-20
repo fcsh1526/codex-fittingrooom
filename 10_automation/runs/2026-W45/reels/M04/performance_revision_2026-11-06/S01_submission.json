@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-06",
+  "status": "downloaded",
+  "first": "06080caf-4520-4ac8-bb1e-37f2ceb79162",
+  "identity": [
+    "14974b17-8fb8-4590-9346-4582373a5a57",
+    "fa226a4d-f9fa-408a-b3d0-f6da3f517739"
+  ],
+  "seconds_requested": 6,
+  "jobs_submitted": 1,
+  "uuid": "8e660c39-6175-4491-8bcb-2cda03f4eb3a",
+  "provider_report": "provider_report.txt",
+  "page_uuid_and_prompt_verified": true,
+  "engine_call_directly_observed": false
+}

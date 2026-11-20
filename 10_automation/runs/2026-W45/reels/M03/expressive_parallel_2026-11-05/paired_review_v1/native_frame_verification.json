@@ -1,0 +1,43 @@
+{
+  "fps_normalization_checks": [
+    {
+      "source": "trial_02",
+      "original_frames": 241,
+      "normalized_frames": 241,
+      "decoded_frame_hashes_identical": true
+    },
+    {
+      "source": "L02_trial_01",
+      "original_frames": 241,
+      "normalized_frames": 241,
+      "decoded_frame_hashes_identical": true
+    }
+  ],
+  "boundary_samples": {
+    "A": [
+      60,
+      63,
+      66,
+      69,
+      72,
+      75,
+      78,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
+    ],
+    "B": [
+      223,
+      226,
+      229,
+      232,
+      235,
+      238,
+      241
+    ]
+  },
+  "uninterrupted_human_review": false
+}

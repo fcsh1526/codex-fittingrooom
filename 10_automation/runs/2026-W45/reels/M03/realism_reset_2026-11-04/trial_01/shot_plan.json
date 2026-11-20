@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "viewer_purpose": "Read the same approved work outfit and blazer side line while testing integrated believable performance.",
+  "execution_mode": "generate_one_source",
+  "duration_request_seconds": 6,
+  "camera": "locked full person, original framing",
+  "action_sequence": [
+    "Already relaxed at approved starting view",
+    "Weight, hips and shoulders turn slightly toward frame-left to expose side line",
+    "Brief lens-directed friendly response during the turn settling",
+    "Attention follows the body direction, ordinary pause"
+  ],
+  "timing_note": "Order only, not second-by-second choreography or guaranteed engine timing.",
+  "source_still": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+  "additional_new_stills": 0,
+  "whole_film_integration": "Not yet. Review raw full source before two-look joins.",
+  "success_criteria": [
+    "Whole-person reaction feels plausible at native speed; cannot be certified by sampled smile frames.",
+    "Body/head/gaze/expression develop together with natural pauses; no imposed fixed stare or theatrical surprise.",
+    "Original outfit/identity/proportions remain stable, hands/foot repositioning/bag/scene inspected.",
+    "Full outfit remains readable; no full spin, approaching camera or new cut."
+  ],
+  "failure_handling": "Record observed defect; no automatic retry or second look extension. Same-source recutting is not a realism repair.",
+  "new_generation_budget_jobs": 1,
+  "reference_comparison_limits": "This redesigned performance changes several linked constraints; not a single-variable causal experiment."
+}

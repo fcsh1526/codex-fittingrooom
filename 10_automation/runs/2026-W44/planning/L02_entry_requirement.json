@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "shot": "S02",
+  "entry_global_frame": 150,
+  "entry_seconds": 6.25,
+  "overlap_global_frames": [
+    150,
+    168
+  ],
+  "source_space_sha256": "610597d9dc2cf50ce0b3e4105161829a79e2641b138deb1284489a5a062f84ae",
+  "source_previs_frames_sha256": "c6557fd4d3d69b6efeaf522dcaa6577614d2a49e1f4a2359641429b32dfd407d",
+  "camera_key_view": "10_automation/runs/2026-W44/planning/L02_entry_f150_camera.png",
+  "key_view_sha256": "27c9c955c90792683f644e56c27888d43ee30c6418a1c447367613e93f474a37",
+  "motion_preview": "10_automation/runs/2026-W44/planning/route_previs_schematic_13p25s.gif",
+  "correction": "Prior generic weekly look scene mistakenly said S01f0 for L02. Corrected below; garment change alone is not S02 route progress.",
+  "limits": "Key view derived from already approved schematic. Static f150 view checked; full timed native playback not visually verified. Approved photoreal L01 scene is uncalibrated and does not prove precise shared-space reprojection; new L02 remains a candidate."
+}

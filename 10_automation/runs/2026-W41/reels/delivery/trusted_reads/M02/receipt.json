@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0",
+    "title": "02_可可棕牛仔褲_貼文文字",
+    "revisionId": "ANLCKQmSsa84I5U_tY3PZpoucbq1LqBTCAwWHiSMvmL1n8W-LTRb-oW0Aqc-Csty4TXZ6mD6nD4r1R-vELxn-botxEXu-7PQpW4__yyShw",
+    "documentUrl": "https://docs.google.com/document/d/1A2-8hywayiA-ukASiQvkoO_zkA4fKi2M1Kl62CY5fE0",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

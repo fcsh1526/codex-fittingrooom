@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "status": "user_rejected_emotional_purpose_unclear",
+  "film_path": "10_automation/runs/2026-W45/reels/M03/realism_reset_2026-11-04/trial_01/M03_W45_realism_trial01_silent_review.mp4",
+  "film_sha256": "f8d35d777a3f26ebcb7b29f691b816abcfc0d865f2388bb923d5404d78ae75b0",
+  "duration_seconds": 6.041667,
+  "frame_count": 145,
+  "fps": 24,
+  "raster": [
+    720,
+    1280
+  ],
+  "generation_jobs_this_test": 1,
+  "new_still_calls": 0,
+  "viewer_purpose": "Full work outfit/blazer side line, testing coordinated body/gaze/expression before any outfit join.",
+  "observations": [
+    "0–about.75s mostly frontal; about1–1.75s hip/shoulder turn with head tilt and smile; about2–3s returns frontal; about3.25–4s turns into near-profile and holds toward6s.",
+    "There is more body/head/gaze development than in the previous planted-body source. The generator added a return/front phase and another turn rather than a single small turn; not exact choreography compliance.",
+    "Smile remains present through the sampled sequence, with a brief eyes-closed moment around3.25s. Whether it feels natural or uncanny is unresolved; sampled smiling faces do not certify realism.",
+    "Foot orientations change during the turns with little visible lift in quarter-second samples. Pivot/sliding concern remains; not a no-slip physical pass.",
+    "Bag becomes wider/flap-facing as the body turns and shoes change apparent outline in profile. Unseen bag surfaces/perspective versus generated shape inconsistency are not isolated; no accessory-continuity pass.",
+    "Hair and shoes stay in frame; no obvious sampled extreme head enlargement or internal cut. This is not an identity/proportion guarantee."
+  ],
+  "evidence": {
+    "whole_source_samples": "13 frames0–6s at.5s intervals",
+    "turn_samples": "15frames.75–4.25s at.25s intervals, face/hands-bag/feet diagnostic crops",
+    "native_UI": "Exact post observed playing at1x atabout5.30s; intermittent observation only, no uninterrupted full-source viewing claimed.",
+    "prompt_integrity": "Exact URL/mediaUUID/visible prompt matched frozen input; generator internal call not directly visible."
+  },
+  "technical": {
+    "full_decode": "completed",
+    "silent_remux_frames_and_timing_identical": true,
+    "speed": 1,
+    "cuts": false,
+    "crop": false,
+    "rescale": false,
+    "freeze": false,
+    "text": false
+  },
+  "continuous_human_visual_review": false,
+  "realism_pass": null,
+  "physical_motion_pass": null,
+  "user_clip_acceptance": null,
+  "whole_film_acceptance": null,
+  "publication_approval": null,
+  "external_delivery": null,
+  "next": "Explain and audit workflow first. Return to viewer purpose and legible situation/performance; do not auto-generate another gesture/smile variant.",
+  "inference_limit": "Several linked performance constraints were redesigned together; this is not a controlled single-variable causal demonstration.",
+  "latest_user_feedback": "10_automation/runs/2026-W45/reels/M03/realism_reset_2026-11-04/trial_01/user_story_clarity_rejection_2026-11-04.json"
+}

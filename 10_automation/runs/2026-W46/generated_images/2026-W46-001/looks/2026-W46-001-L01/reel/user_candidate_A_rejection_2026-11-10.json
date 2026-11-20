@@ -1,0 +1,10 @@
+{
+  "actor": "user",
+  "decision": "rejected",
+  "quote": "臉飄了",
+  "recorded_at": "2026-11-10",
+  "timezone": "Asia/Taipei",
+  "scope": "M01 L01 Reel original candidate facial identity",
+  "target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A.png",
+  "target_sha256": "ae81ee9389d5dd305bbaa79ed63f3db3918f86bdda49d8b939977eb9abeaf70b"
+}

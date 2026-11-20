@@ -1,0 +1,11 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "ok",
+  "recorded_at": "2026-11-06",
+  "timezone": "Asia/Taipei",
+  "scope": "exact displayed M04 L01 face-v2 starting still; continue its film",
+  "asset_path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/2026-W45-004-L01_M04_reel_candidate_A_face_v2.png",
+  "target_sha256": "5e6c7a2a00997c2774d0f7a6a1dfa27075cb1304afeb9a81c66cf3133e01957c",
+  "limits": "Still acceptance, including visible clothing/accessories/framing; not unseen motion, full film or publication approval."
+}

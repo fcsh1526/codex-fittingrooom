@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "scope": "Six editing methods, two research methods, performance optimization within the chosen method",
+  "skills_validated": ["mira-reel-director", "mira-image-daily"],
+  "validator": "skill-creator/scripts/quick_validate.py",
+  "validation_runtime": "openmontage/.venv/Scripts/python.exe -X utf8",
+  "initial_runtime_issue": "Primary runtime lacked PyYAML; reran successfully with existing OpenMontage environment, without installing packages.",
+  "installed_files_synced_and_sha256_matched": [
+    "mira-reel-director/SKILL.md",
+    "mira-reel-director/references/performance-and-reference.md",
+    "mira-reel-director/references/research-and-production.md",
+    "mira-reel-director/references/plan-contract.md",
+    "mira-reel-director/scripts/plan.py",
+    "mira-image-daily/SKILL.md"
+  ],
+  "new_recipe_checks": {
+    "single_shot_performance": {"init_success": true, "validation_errors": [], "status": "incomplete", "ready_for_generation": false},
+    "overhead_fan_transition_experiment": {"init_success": true, "validation_errors": [], "status": "incomplete", "ready_for_generation": false}
+  },
+  "check_meaning": "New recipe IDs accepted; empty drafts still blocked for generation. Does not validate visual appeal or generation capability.",
+  "mandatory_accepted_footage_comparison_added": false,
+  "new_media_jobs": 0,
+  "git_push": false
+}

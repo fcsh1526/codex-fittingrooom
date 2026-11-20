@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "plan_id": "W46_M04_v1",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W46"
+    ],
+    "content": "2026-W46",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "看淺V領口留一小段白色，以及同一造型轉側時依然只有一塊莓紫。",
+    "visual_theme": "窗前柔光下的莓紫、白領口與淺石灰",
+    "selection_rationale": "想用一件紫色薄針織提氣色，又怕上身顏色堆在一起。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "single_shot_performance"
+  },
+  "models": [
+    {
+      "id": "M04",
+      "identity_asset_ids": [
+        "M04_face",
+        "M04_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W46-004-L01",
+      "model_id": "M04",
+      "wardrobe_summary": "莓紫細針距棉混紡淺V長袖針織、薄白棉圓領T僅在V口露窄邊、淺石灰棉質直筒褲、黑平底皮鞋、灰褐小肩包、細銀耳環",
+      "source_asset_ids": [
+        "source"
+      ],
+      "source_prompt_ids": [
+        "W46-P005",
+        "W46-P007"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 144,
+    "duration_seconds": 6.0,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W46-004-L01"
+      ],
+      "frames": [
+        0,
+        144
+      ],
+      "clothing_purpose": "亮色靠近臉時，領口留一線白並讓鞋包退到中性色",
+      "clear_read_intervals": [
+        [
+          0,
+          144
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "抬頭聽見店員叫號，笑著轉肩應聲，0秒 全身莓紫與淺石灰清楚分塊 → 6秒 回應叫號後轉肩停穩，白領邊仍可讀",
+      "camera": "定機全身約78%，臉面向窗側光。從讀取票單方向抬眼，空手自然放下。直幅細節另取胸口和包帶直幅。",
+      "execution_mode": "generate"
+    }
+  ],
+  "transitions": [],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M04_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M04_start_v3_face.png",
+      "sha256": "b9fbb46533782597e255b30a910c2457741aa70f92ddc0aa05060de9fb0b4a91"
+    },
+    {
+      "id": "M04_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M04_start_v3_full.png",
+      "sha256": "958dec3949edd2ebaedd7be408bc1ef6cc8a735a9749c11b6e5e73d401fa8241"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W46/planning/M04/storyboard.png",
+      "sha256": "21efe503cbea6650c74faf20f96286d9956503df4915b5ad982ec816ed0e369d"
+    },
+    {
+      "id": "source",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W46/source_perplexity.csv",
+      "sha256": "37d41dad2bb70e1dacbe544e574cc8448fe0f5e8c5c5d038ca87981a5e7646b7"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "企劃／線稿尚待使用者選定",
+    "所有入片鏡頭均待準備個別核准的首圖",
+    "動態片長與原速可用段尚未測試"
+  ],
+  "validation_focus": "全片保持同一紫色、白領口及衣長。表情先辨認、後微笑；轉肩過程眼神要有對象，避免反覆扭身。",
+  "transition_rationale": "單一連續鏡頭。",
+  "previs_rationale": "鏡頭固定，單鏡局部站位／坐起或獨立場景剪接，不依賴共同連續路線。"
+}

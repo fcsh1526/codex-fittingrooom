@@ -1,0 +1,132 @@
+{
+  "id": "M02_five_look_office_route_v1",
+  "units": "schematic",
+  "unit_note": "Fictional blockout, not a measured location; adult height1.68 schematic units.",
+  "axes": "x right, y up, z toward office",
+  "duration_seconds": 20,
+  "fps": 24,
+  "person_control_points": [
+    [
+      -0.8,
+      0
+    ],
+    [
+      -0.7,
+      5
+    ],
+    [
+      0.1,
+      10.5
+    ],
+    [
+      1.5,
+      15.8
+    ],
+    [
+      2.1,
+      21
+    ]
+  ],
+  "camera_control_points": [
+    [
+      -2.7,
+      3
+    ],
+    [
+      -3,
+      7.5
+    ],
+    [
+      -2.5,
+      12
+    ],
+    [
+      -1.7,
+      17
+    ],
+    [
+      0.2,
+      24.1
+    ]
+  ],
+  "camera_height": 1.35,
+  "vertical_fov_degrees": 34,
+  "target_height": 0.9,
+  "office_footprint": [
+    1.4,
+    6,
+    21.8,
+    26
+  ],
+  "planters": [
+    [
+      4,
+      4
+    ],
+    [
+      4.5,
+      11
+    ],
+    [
+      -5,
+      6
+    ],
+    [
+      -5,
+      14
+    ]
+  ],
+  "person_time": "arc-length uniform0-18s, decelerate18-20s",
+  "camera_time": "independent arc-length curve with smooth phase offset qC=qP-.025sin(pi*qP); common20s clock, no restart at clothing changes",
+  "wardrobe": "five proposed workday combinations, same dark-indigo jeans",
+  "approval": "user chose five-look format; wardrobe, route, duration and new images remain proposed",
+  "looks": [
+    {
+      "id": "F01",
+      "name": "週一 白襯衫",
+      "top": "#fffdf8",
+      "bag": "#8f4f53",
+      "shoe": "#303237",
+      "weekly_look": "2026-W46-002-L01"
+    },
+    {
+      "id": "F02",
+      "name": "週二 藍條紋襯衫",
+      "top": "#c2d4e0",
+      "bag": "#a69a83",
+      "shoe": "#735744",
+      "weekly_look": null
+    },
+    {
+      "id": "F03",
+      "name": "週三 燕麥薄針織",
+      "top": "#d6c8ae",
+      "bag": "#a69a83",
+      "shoe": "#303237",
+      "weekly_look": null
+    },
+    {
+      "id": "F04",
+      "name": "週四 淺灰薄西外",
+      "top": "#b9bfc4",
+      "bag": "#7d8487",
+      "shoe": "#303237",
+      "weekly_look": null
+    },
+    {
+      "id": "F05",
+      "name": "週五 白T帆布鞋",
+      "top": "#fffdf8",
+      "bag": "#7797aa",
+      "shoe": "#d7dbd8",
+      "weekly_look": "2026-W46-002-L02"
+    }
+  ],
+  "change_centers_seconds": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "overlap_seconds": 0.75
+}

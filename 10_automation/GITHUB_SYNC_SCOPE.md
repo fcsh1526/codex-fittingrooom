@@ -1,5 +1,15 @@
 # GitHub 工作流同步範圍
 
+## 2026-11-20 製作經驗與換機接手
+
+Mira 的正式版本在 [fcsh1526/codex-fittingrooom 的 main](https://github.com/fcsh1526/codex-fittingrooom/tree/main)。使用者於 11/20 同意將這次新增的製作紀錄、素材識別與 Drive 連結公開同步至該分支。OpenMontage 的上游版本供查方法。Mira 用這些方法產出的文字稿、試驗結果與採用理由保存在本庫。
+
+新環境先讀[雲端交接](CLOUD_HANDOFF.md)，再看各週的 `publishing_structure.md`、逐版審查與使用者收據。現行方法以 [Reel 方法庫](../09_sops/mira_reel_method_catalog.md) 與[導演技能](../11_skills/mira-reel-director/SKILL.md)為準；退件、單次偏好及尚待選案的草稿保留各自日期與狀態。
+
+備份範圍包含研究摘要、提案、提示詞、分鏡、運鏡、預演與剪輯程式、品檢、核准及交付紀錄。媒體檔名、雜湊及 Drive 收據可用來尋回或比對原片；換機重剪仍需對應媒體。此次同步沿用媒體另存的範圍，瀏覽器原始畫面、服務回應、登入資料、私有 Sites 工作台和工具安裝目錄留在各自環境。
+
+往後每次收尾比對本機變動與遠端版本，把新經驗連回對應的企劃或審查，並以 GitHub 可讀的提交確認同步結果。仍只在本機的資料應留在交接紀錄中。[本次經驗索引與還原範圍](workflow_audits/2026-11-20_github_backup/README.md)
+
 ## 2026-11-17 雲端導演經驗同步
 
 遠端主分支原停在 10/27 的 `8139356`。此次補入六種 Reel 方法、導演技能、IG 參考解讀、表演 A/B 回饋、三層觀看目的、運鏡與接點經驗，以及接續 W46 所需的文字紀錄。從[雲端交接](CLOUD_HANDOFF.md)進入；專案技能入口置於 `.agents/skills/`，維護來源置於 `11_skills/`。

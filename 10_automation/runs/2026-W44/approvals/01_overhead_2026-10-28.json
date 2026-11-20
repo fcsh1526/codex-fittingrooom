@@ -1,0 +1,10 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "overhead",
+  "target_sha256": "f73d9532f39e6b53ac7dde5834b5ceb72cf0c5b9e2838edb0f24e442513688ab",
+  "quote": "ok",
+  "recorded_at": "2026-10-28",
+  "source_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+  "limits": "Schematic design only, not actual generated media or physical/camera adherence."
+}

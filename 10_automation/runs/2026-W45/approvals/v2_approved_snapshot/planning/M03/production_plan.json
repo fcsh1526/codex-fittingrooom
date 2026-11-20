@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M03_v2",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W44",
+      "2026-W45"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "看同件薄料西外如何拆搭不同色直褲，或換成淺色裙與球鞋；以輪廓和正式程度的可見差異帶出赴約情境。",
+    "visual_theme": "薄層次、生活中的表情與清楚服裝輪廓",
+    "selection_rationale": "同件海軍藍西外，工作深褲與休閒淺裙兩種穿法；已核對W45原報與20筆CSV，來源單品與本專案完整搭配分開。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "everyday_sequence"
+  },
+  "models": [
+    {
+      "id": "M03",
+      "identity_asset_ids": [
+        "M03_face",
+        "M03_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-003-L01",
+      "model_id": "M03",
+      "wardrobe_summary": "深海軍藍薄料柔肩單排扣西裝外套敞開、白棉圓領短袖T、炭灰高腰直筒長褲、黑低跟樂福鞋、黑小肩包、細銀項鍊",
+      "source_asset_ids": []
+    },
+    {
+      "id": "2026-W45-003-L02",
+      "model_id": "M03",
+      "wardrobe_summary": "同款深海軍藍柔肩薄西外敞開、奶油白薄棉短袖針織上衣、奶油白小腿中段A字裙、白灰低筒球鞋、同款黑小肩包、細銀項鍊",
+      "source_asset_ids": []
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 252,
+    "duration_seconds": 10.5,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W45-003-L01"
+      ],
+      "frames": [
+        0,
+        96
+      ],
+      "clothing_purpose": "看同件薄料西外如何拆搭不同色直褲，或換成淺色裙與球鞋；以輪廓和正式程度的可見差異帶出赴約情境。",
+      "clear_read_intervals": [
+        [
+          0,
+          78
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "等待同伴，聽見招呼後從工作狀態放鬆",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W45-003-L02"
+      ],
+      "frames": [
+        78,
+        186
+      ],
+      "clothing_purpose": "看同件薄料西外如何拆搭不同色直褲，或換成淺色裙與球鞋；以輪廓和正式程度的可見差異帶出赴約情境。",
+      "clear_read_intervals": [
+        [
+          96,
+          168
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "換一套赴約提案；看見朋友，肩膀轉向對方、笑容展開",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    },
+    {
+      "id": "S03",
+      "look_ids": [
+        "2026-W45-003-L02"
+      ],
+      "frames": [
+        168,
+        252
+      ],
+      "clothing_purpose": "看同件薄料西外如何拆搭不同色直褲，或換成淺色裙與球鞋；以輪廓和正式程度的可見差異帶出赴約情境。",
+      "clear_read_intervals": [
+        [
+          186,
+          252
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "中景收回笑意再笑出來，視線仍有對象，雙手不突然入畫",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes.",
+      "framing": "same-look medium shot; new approved source or exact approved-footage lineage required"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        78,
+        96
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    },
+    {
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "frames": [
+        168,
+        186
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M03_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "id": "M03_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/planning/M03/storyboard.png",
+      "sha256": "a5404e230afea41735f1d782c55b1a259d2e64aa6d7a34fc5c99f2a5a85adc26"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "使用者對W45具體企劃與線稿的確認；不從「繼續W45」推定新圖核准",
+    "各鏡全新、逐張核准的原生9:16起始圖；現有身份參照不等於新造型圖",
+    "正式生成當下的Grok額度、可用片長與設定尚待核對；未送工作",
+    "額外同套中景／細節構圖來源，或有精確來源與適用核准範圍的影片影格"
+  ]
+}

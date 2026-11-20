@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "plan_id": "W46_M02_commute_route_2026-11-12_v1",
+  "status": "draft",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W46"
+    ],
+    "content": "2026-W46",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "daily commute outfit readers",
+    "takeaway": "See clean dark-indigo straight jeans work with a crisp shirt and loafers during a purposeful walk to work.",
+    "visual_theme": "morning office greenway, open forecourt, daylight",
+    "selection_rationale": "User requested a different scene and overhead route-first planning based on earlier walking-to-work experiments. This12s is a route/previs proposal, final shot edit not locked."
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "continuous_route"
+  },
+  "models": [
+    {
+      "id": "M02",
+      "identity_asset_ids": [
+        "M02_face",
+        "M02_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W46-002-L01",
+      "model_id": "M02",
+      "wardrobe_summary": "white pointed-collar shirt, dark-indigo ankle straight jeans, black penny loafers, burgundy shoulder bag",
+      "source_asset_ids": []
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 288,
+    "duration_seconds": 12,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W46-002-L01"
+      ],
+      "frames": [
+        0,
+        288
+      ],
+      "clothing_purpose": "Route blockout full-figure front-side-front; six key views are time checkpoints, not repeated walking starts. Final fast multi-shot film design remains to be derived after route choice.",
+      "clear_read_intervals": [
+        [
+          0,
+          288
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": "previs",
+      "overhead_asset_id": "overhead",
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [
+        "scene_blockout"
+      ],
+      "space_mode": "shared_world",
+      "execution_mode": "generate"
+    }
+  ],
+  "transitions": [],
+  "space": {
+    "id": "M02_office_greenway_v1",
+    "units": "schematic",
+    "unit_note": "Fictional blockout, not a measured location; adult height1.68 schematic units.",
+    "axes": "x_right_y_up_z_forward",
+    "geometry": [
+      {
+        "id": "office",
+        "footprint": [
+          1.4,
+          6,
+          12.4,
+          16
+        ],
+        "height": 4.2,
+        "vertices": [
+          [
+            1.4,
+            0,
+            12.4
+          ],
+          [
+            1.4,
+            0,
+            16
+          ],
+          [
+            1.4,
+            4.2,
+            12.4
+          ],
+          [
+            1.4,
+            4.2,
+            16
+          ],
+          [
+            6,
+            0,
+            12.4
+          ],
+          [
+            6,
+            0,
+            16
+          ],
+          [
+            6,
+            4.2,
+            12.4
+          ],
+          [
+            6,
+            4.2,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "tree_planters",
+        "centers": [
+          [
+            4,
+            2
+          ],
+          [
+            4.5,
+            6
+          ],
+          [
+            -5,
+            3
+          ],
+          [
+            -5,
+            8
+          ]
+        ],
+        "vertices": [
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            2.9,
+            2
+          ],
+          [
+            4.5,
+            0,
+            6
+          ],
+          [
+            4.5,
+            2.9,
+            6
+          ],
+          [
+            -5,
+            0,
+            3
+          ],
+          [
+            -5,
+            2.9,
+            3
+          ],
+          [
+            -5,
+            0,
+            8
+          ],
+          [
+            -5,
+            2.9,
+            8
+          ]
+        ]
+      }
+    ],
+    "routes": [
+      {
+        "shot_id": "S01",
+        "character_samples": [
+          {
+            "frame": 0,
+            "position": [
+              -0.8,
+              0,
+              0.0
+            ],
+            "heading_degrees": 1.8159879396879182,
+            "gait_phase": "schematic continuous cycle; not measured real gait"
+          },
+          {
+            "frame": 72,
+            "position": [
+              -0.6093475670962124,
+              0,
+              3.312680766738416
+            ],
+            "heading_degrees": 11.182180323925671,
+            "gait_phase": "schematic continuous cycle; not measured real gait"
+          },
+          {
+            "frame": 144,
+            "position": [
+              0.38985575646598325,
+              0,
+              6.476341173226267
+            ],
+            "heading_degrees": 25.58155573221539,
+            "gait_phase": "schematic continuous cycle; not measured real gait"
+          },
+          {
+            "frame": 216,
+            "position": [
+              1.7016784455581064,
+              0,
+              9.519764424090596
+            ],
+            "heading_degrees": 13.273597955925288,
+            "gait_phase": "schematic continuous cycle; not measured real gait"
+          },
+          {
+            "frame": 288,
+            "position": [
+              2.1,
+              0,
+              11.7
+            ],
+            "heading_degrees": 11.46393153469694,
+            "gait_phase": "schematic continuous cycle; not measured real gait"
+          }
+        ],
+        "camera_samples": [
+          {
+            "frame": 0,
+            "position": [
+              -2.7,
+              1.35,
+              3.0
+            ],
+            "target": [
+              -0.8,
+              0.9,
+              0.0
+            ],
+            "vertical_fov_degrees": 34
+          },
+          {
+            "frame": 72,
+            "position": [
+              -2.793751063309257,
+              1.35,
+              6.042044365631534
+            ],
+            "target": [
+              -0.6093475670962124,
+              0.9,
+              3.312680766738416
+            ],
+            "vertical_fov_degrees": 34
+          },
+          {
+            "frame": 144,
+            "position": [
+              -2.072569099723558,
+              1.35,
+              9.049837658952377
+            ],
+            "target": [
+              0.38985575646598325,
+              0.9,
+              6.476341173226267
+            ],
+            "vertical_fov_degrees": 34
+          },
+          {
+            "frame": 216,
+            "position": [
+              -1.0058636131144252,
+              1.35,
+              11.951400659239795
+            ],
+            "target": [
+              1.7016784455581064,
+              0.9,
+              9.519764424090596
+            ],
+            "vertical_fov_degrees": 34
+          },
+          {
+            "frame": 288,
+            "position": [
+              0.2,
+              1.35,
+              14.8
+            ],
+            "target": [
+              2.1,
+              0.9,
+              11.7
+            ],
+            "vertical_fov_degrees": 34
+          }
+        ],
+        "projected_samples": [
+          {
+            "frame": 0,
+            "person_center_uv": [
+              0.5,
+              0.5159669973963917
+            ],
+            "person_height_fraction": 0.7589480378874542,
+            "visible_landmark_ids": [
+              "office",
+              "tree_planters"
+            ],
+            "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+          },
+          {
+            "frame": 72,
+            "person_center_uv": [
+              0.5,
+              0.5158556817574063
+            ],
+            "person_height_fraction": 0.7704842192108715,
+            "visible_landmark_ids": [
+              "office",
+              "tree_planters"
+            ],
+            "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+          },
+          {
+            "frame": 144,
+            "person_center_uv": [
+              0.5,
+              0.515986432207301
+            ],
+            "person_height_fraction": 0.7567418833318234,
+            "visible_landmark_ids": [
+              "office",
+              "tree_planters"
+            ],
+            "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+          },
+          {
+            "frame": 216,
+            "person_center_uv": [
+              0.5,
+              0.5161066072068127
+            ],
+            "person_height_fraction": 0.7412179508219353,
+            "visible_landmark_ids": [
+              "office",
+              "tree_planters"
+            ],
+            "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+          },
+          {
+            "frame": 288,
+            "person_center_uv": [
+              0.5,
+              0.5161022270466081
+            ],
+            "person_height_fraction": 0.7418571855258037,
+            "visible_landmark_ids": [
+              "office",
+              "tree_planters"
+            ],
+            "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+          }
+        ]
+      }
+    ]
+  },
+  "shared_space_asset_id": "common_space",
+  "assets": [
+    {
+      "id": "common_space",
+      "kind": "space_plan",
+      "path": "10_automation/runs/2026-W46/planning/M02/commute_route_2026-11-12/shared_space_plan.json",
+      "sha256": "b916045a2e80ec0cbfe36a5fe2636e6e59811f069c5e04e797ad5359a216a95e"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W46/planning/M02/commute_route_2026-11-12/camera_storyboard.png",
+      "sha256": "6700f6c0ed5662e67a9b9383f1dd018f1c147bef0ebad26568c99b4614cba24d",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "b916045a2e80ec0cbfe36a5fe2636e6e59811f069c5e04e797ad5359a216a95e"
+      }
+    },
+    {
+      "id": "overhead",
+      "kind": "overhead",
+      "path": "10_automation/runs/2026-W46/planning/M02/commute_route_2026-11-12/overhead_routes.png",
+      "sha256": "87fea16e3e62ae04676e9398215dfc512eed00c40064de7ca0f0d68b86a5b3c9",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "b916045a2e80ec0cbfe36a5fe2636e6e59811f069c5e04e797ad5359a216a95e"
+      }
+    },
+    {
+      "id": "previs",
+      "kind": "previs",
+      "path": "10_automation/runs/2026-W46/planning/M02/commute_route_2026-11-12/synchronized_previs.mp4",
+      "sha256": "6104bc9a01e7dd7a8ca3866ebedc9938097173ef099afc528ea380e9941cd1ed",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "b916045a2e80ec0cbfe36a5fe2636e6e59811f069c5e04e797ad5359a216a95e"
+      }
+    },
+    {
+      "id": "scene_blockout",
+      "kind": "scene",
+      "path": "10_automation/runs/2026-W46/planning/M02/commute_route_2026-11-12/shared_scene.json",
+      "sha256": "0b0af1ff32f330ca8b44cb091553dbe0b009c58c80e317d44fa4385533f8aac4"
+    },
+    {
+      "id": "M02_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "id": "M02_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "User visual selection of this new scene, overhead routes and synchronized previs",
+    "New photorealistic scene reference and approved starting/middle/ending views for the selected route",
+    "Final connected film shot/beat design after route selection; twelve seconds is a blockout proposal"
+  ]
+}

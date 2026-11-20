@@ -1,0 +1,362 @@
+[
+  {
+    "look": "F01",
+    "role": "start",
+    "global_frame": 0,
+    "global_seconds": 0.0,
+    "image": "F01_start_layout.png",
+    "sha256": "274d118a388934ae259b97c6415b916c0205f605c353d5a4156d9d2657117c1c",
+    "projection": {
+      "time": 0.0,
+      "person_xz": [
+        -0.8,
+        0.0
+      ],
+      "camera_xz": [
+        -2.7,
+        3.0
+      ],
+      "heading_xz": [
+        0.017811196929084387,
+        0.999841368049929
+      ],
+      "distance": 3.5510561809129406,
+      "height_fraction": 0.7589480378874541,
+      "top_uv": [
+        0.4999999999999999,
+        0.1364929784526647
+      ],
+      "bottom_uv": [
+        0.4999999999999999,
+        0.8954410163401189
+      ],
+      "front_angle_degrees": 33.368003876619916
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F01",
+    "role": "end",
+    "global_frame": 105,
+    "global_seconds": 4.375,
+    "image": "F01_end_layout.png",
+    "sha256": "82eaa67489a6c5393c83b80be7d8121984174d2c749b63153c94c9ea197cd78b",
+    "projection": {
+      "time": 4.375,
+      "person_xz": [
+        -0.7083839072790299,
+        4.898685423697446
+      ],
+      "camera_xz": [
+        -2.998183002945413,
+        7.57381953684297
+      ],
+      "heading_xz": [
+        0.0796616063718084,
+        0.9968219642796114
+      ],
+      "distance": 3.5212955601354277,
+      "height_fraction": 0.7651256566767065,
+      "top_uv": [
+        0.5000000000000001,
+        0.13334659111446
+      ],
+      "bottom_uv": [
+        0.5000000000000001,
+        0.8984722477911665
+      ],
+      "front_angle_degrees": 45.13121041237433
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F02",
+    "role": "start",
+    "global_frame": 87,
+    "global_seconds": 3.625,
+    "image": "F02_start_layout.png",
+    "sha256": "b45a186099628bd6d8f9d8e1d01f18268d555254e10be3b7de1a82e81c043f18",
+    "projection": {
+      "time": 3.625,
+      "person_xz": [
+        -0.7592148967590309,
+        4.0601214941425585
+      ],
+      "camera_xz": [
+        -2.99540100168777,
+        6.779333284954792
+      ],
+      "heading_xz": [
+        0.04440643887655533,
+        0.9990135475489321
+      ],
+      "distance": 3.5206023716359445,
+      "height_fraction": 0.7652707258587146,
+      "top_uv": [
+        0.5000000000000001,
+        0.133272648273041
+      ],
+      "bottom_uv": [
+        0.5000000000000001,
+        0.8985433741317556
+      ],
+      "front_angle_degrees": 41.977840049203174
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F02",
+    "role": "end",
+    "global_frame": 201,
+    "global_seconds": 8.375,
+    "image": "F02_end_layout.png",
+    "sha256": "00c2532182ff2c6fdf48ba29b6700c37574cc49af53a288eb296cc300fdfa5bf",
+    "projection": {
+      "time": 8.375,
+      "person_xz": [
+        -0.12132007226101757,
+        9.339249475933947
+      ],
+      "camera_xz": [
+        -2.5151577173212933,
+        11.889873468824074
+      ],
+      "heading_xz": [
+        0.17534601190114865,
+        0.984506869508975
+      ],
+      "distance": 3.4980196431716193,
+      "height_fraction": 0.7700265746246607,
+      "top_uv": [
+        0.5000000000000001,
+        0.13084712226886974
+      ],
+      "bottom_uv": [
+        0.5000000000000001,
+        0.9008736968935305
+      ],
+      "front_angle_degrees": 53.28258320732134
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F03",
+    "role": "start",
+    "global_frame": 183,
+    "global_seconds": 7.625,
+    "image": "F03_start_layout.png",
+    "sha256": "7b8ddc21174612e4f26e83c41a7b319a237b4ab85f7072d07b072e4cd478ecf2",
+    "projection": {
+      "time": 7.625,
+      "person_xz": [
+        -0.26176211968909846,
+        8.510934343085367
+      ],
+      "camera_xz": [
+        -2.6320869560506144,
+        11.06739657512145
+      ],
+      "heading_xz": [
+        0.15905921789056945,
+        0.9872690439814471
+      ],
+      "distance": 3.4862499872641317,
+      "height_fraction": 0.7725283456955336,
+      "top_uv": [
+        0.4999999999999999,
+        0.1295700748168758
+      ],
+      "bottom_uv": [
+        0.4999999999999999,
+        0.9020984205124094
+      ],
+      "front_angle_degrees": 51.98864928945252
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F03",
+    "role": "end",
+    "global_frame": 297,
+    "global_seconds": 12.375,
+    "image": "F03_end_layout.png",
+    "sha256": "b4a2c9bcb4216b4673154f3bbe8efbe53328a782e73b993fdf46d417e1e4a9bf",
+    "projection": {
+      "time": 12.375,
+      "person_xz": [
+        0.9646399217142729,
+        13.682598805416587
+      ],
+      "camera_xz": [
+        -1.8275723018510543,
+        16.40454720422865
+      ],
+      "heading_xz": [
+        0.2811735867642235,
+        0.9596569252113704
+      ],
+      "distance": 3.8994169034899535,
+      "height_fraction": 0.6933217502677809,
+      "top_uv": [
+        0.5,
+        0.1696394493392815
+      ],
+      "bottom_uv": [
+        0.5,
+        0.8629611996070623
+      ],
+      "front_angle_degrees": 62.06030866446947
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F04",
+    "role": "start",
+    "global_frame": 279,
+    "global_seconds": 11.625,
+    "image": "F04_start_layout.png",
+    "sha256": "d7e61360a46a9b2bc615158d0c8a98a57e235a80546f6441d8a8a6e81cc17042",
+    "projection": {
+      "time": 11.625,
+      "person_xz": [
+        0.7256774189610421,
+        12.877153753676968
+      ],
+      "camera_xz": [
+        -1.9922971238849696,
+        15.546462205285827
+      ],
+      "heading_xz": [
+        0.28489143820876905,
+        0.9585597886597055
+      ],
+      "distance": 3.8095397655608574,
+      "height_fraction": 0.7091581638496807,
+      "top_uv": [
+        0.5000000000000001,
+        0.16168607098720156
+      ],
+      "bottom_uv": [
+        0.5000000000000001,
+        0.8708442348368822
+      ],
+      "front_angle_degrees": 62.06992753130829
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F04",
+    "role": "end",
+    "global_frame": 393,
+    "global_seconds": 16.375,
+    "image": "F04_end_layout.png",
+    "sha256": "0aad5c4e5b76b7f1fb2e2129a2c5941c70ef246b95833536959f928db90153cc",
+    "projection": {
+      "time": 16.375,
+      "person_xz": [
+        1.819496810112747,
+        18.072953177642585
+      ],
+      "camera_xz": [
+        -0.6547761215448038,
+        21.026296974584604
+      ],
+      "heading_xz": [
+        0.10805205065471127,
+        0.994145238055945
+      ],
+      "distance": 3.8528257322735415,
+      "height_fraction": 0.7014430885194632,
+      "top_uv": [
+        0.49999999999999967,
+        0.16556423384717192
+      ],
+      "bottom_uv": [
+        0.49999999999999967,
+        0.8670073223666352
+      ],
+      "front_angle_degrees": 46.15887320516051
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F05",
+    "role": "start",
+    "global_frame": 375,
+    "global_seconds": 15.625,
+    "image": "F05_start_layout.png",
+    "sha256": "bd534f0db0676e1e25032f9d6f78ea9c4bac4b2c60ef5fca7ba44373427151fc",
+    "projection": {
+      "time": 15.625,
+      "person_xz": [
+        1.7215414599310797,
+        17.23854874811536
+      ],
+      "camera_xz": [
+        -0.8944417610729836,
+        20.153046569030998
+      ],
+      "heading_xz": [
+        0.12636824188053128,
+        0.9919834007905695
+      ],
+      "distance": 3.916333203482155,
+      "height_fraction": 0.6904187597714225,
+      "top_uv": [
+        0.49999999999999967,
+        0.17109437891718984
+      ],
+      "bottom_uv": [
+        0.4999999999999998,
+        0.8615131386886125
+      ],
+      "front_angle_degrees": 49.17016398566692
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  },
+  {
+    "look": "F05",
+    "role": "end",
+    "global_frame": 480,
+    "global_seconds": 20.0,
+    "image": "F05_end_layout.png",
+    "sha256": "d0265682bb39185ba756a5990ddd75e23d0d88af5da09db8ec7d625c4047ce4c",
+    "projection": {
+      "time": 20.0,
+      "person_xz": [
+        2.1,
+        21.0
+      ],
+      "camera_xz": [
+        0.2,
+        24.1
+      ],
+      "heading_xz": [
+        0.11237723235033563,
+        0.9936656166182257
+      ],
+      "distance": 3.6359317925395698,
+      "height_fraction": 0.7418571855258037,
+      "top_uv": [
+        0.5,
+        0.14517363428370628
+      ],
+      "bottom_uv": [
+        0.5,
+        0.88703081980951
+      ],
+      "front_angle_degrees": 37.95663753837647
+    },
+    "derived_from_scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+    "status": "schematic planning reference only, not a photoreal still or motion approval"
+  }
+]

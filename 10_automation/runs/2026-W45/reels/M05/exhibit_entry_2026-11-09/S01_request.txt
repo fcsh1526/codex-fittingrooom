@@ -1,0 +1,7 @@
+W45 M05 L02 展館入口｜一次6秒試片。剛在這個畫布上傳三張PNG。請先實際看三張素材並按檔名及畫面核對。唯一first是2026-W45-005-L02_M05_reel_candidate_A.png：同一位短髮女性在展館入口，敞開灰藍薄襯衫、白T、深藍直褲、白灰球鞋、棕色小肩包。M05_start_v1_face.png及M05_start_v1_full.png只做身份參照asset_ids。請確認三張UUID並據此執行，不能用舊M04結果或兩張參照當first。
+只送一次6秒、720p、9:16原片；last/keyframes不設；可實際控制音軌就關，無控制請如實回報。不生成新圖，不重試、不延伸、不剪輯、不升級或加購。檔案或六秒設定不符、額度不足或需額外付費時，停下回報。
+以下英文原文逐字用作prompt，標記不送入：
+PROMPT_BEGIN
+A single continuous vertical fashion shot at the same exhibition entrance. Start from the supplied image with the same person, open gray-blue overshirt, white T-shirt, navy straight trousers, sneakers and brown shoulder bag. She notices a friend next to the camera; her small existing smile warms and her shoulders relax. After a brief beat she looks and turns slightly toward the gallery. Use a natural in-place weight transfer, with at most a small sideways half step at the same camera distance. The open front and side hem remain readable, hands stay low, and the bag moves with her shoulder. Locked chest-height camera and full-body framing; keep head and shoes visible. Keep real-time motion, stable identity, clothes and background. No text, cuts or added props.
+PROMPT_END
+完成時回報實際first UUID、兩張identity UUID、送出的長度／解析度／畫幅、影片UUID、實際片長及音軌。只此一支。

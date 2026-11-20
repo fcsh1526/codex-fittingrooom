@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "plan_id": "W46_M02_v1",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W46"
+    ],
+    "content": "2026-W46",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "看同一條無刷破深靛直褲如何從白襯衫通勤變成白T週末，差異由領口、鞋型和褲線說清楚。",
+    "visual_theme": "白上衣與深靛褲線，日光下的兩種正式度",
+    "selection_rationale": "平日可以穿丹寧，卻想把休閒感收乾淨。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "sequential_lookbook"
+  },
+  "models": [
+    {
+      "id": "M02",
+      "identity_asset_ids": [
+        "M02_face",
+        "M02_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W46-002-L01",
+      "model_id": "M02",
+      "wardrobe_summary": "白色挺薄棉小尖領長袖襯衫袖口折一折、深靛無刷破中高腰直筒丹寧九分長、黑皮便士樂福鞋、酒紅扁方肩包、銀色小耳釘",
+      "source_asset_ids": [
+        "source"
+      ],
+      "source_prompt_ids": [
+        "W46-P001",
+        "W46-P004"
+      ]
+    },
+    {
+      "id": "2026-W46-002-L02",
+      "model_id": "M02",
+      "wardrobe_summary": "白色透氣短袖圓領T、同件深靛無刷破中高腰直筒丹寧九分長、灰白低筒帆布鞋、灰藍棉帆布托特包、銀色小耳釘",
+      "source_asset_ids": [
+        "source"
+      ],
+      "source_prompt_ids": [
+        "W46-P001",
+        "W46-P002"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 192,
+    "duration_seconds": 8.0,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W46-002-L01"
+      ],
+      "frames": [
+        0,
+        96
+      ],
+      "clothing_purpose": "要俐落時保留硬挺白領與鞋面",
+      "clear_read_intervals": [
+        [
+          0,
+          96
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "看見同事推開門，抬眼微笑打招呼，0秒 白領、深褲、樂福鞋同時讀到 → 4秒 抬眼向開門的同事微笑",
+      "camera": "定機全身偏左，門框在右側。雙手自然放鬆，留足褲線閱讀。",
+      "execution_mode": "generate"
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W46-002-L02"
+      ],
+      "frames": [
+        96,
+        192
+      ],
+      "clothing_purpose": "保留原褲，用圓領和帆布鞋降低正式度",
+      "clear_read_intervals": [
+        [
+          96,
+          192
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "托住袋底，抬眼和店員微笑道謝，4秒 換到週末店面，圓領和白鞋入眼 → 8秒 托穩袋底抬眼道謝",
+      "camera": "另一場景定機全身，匹配頭鞋落點。轉場落在兩段手部各自穩定的格。",
+      "execution_mode": "generate"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        96,
+        96
+      ],
+      "overlap_frames": 0,
+      "method": "cut"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M02_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "id": "M02_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W46/planning/M02/storyboard.png",
+      "sha256": "acb0af693d3bd12cd5479fcd693b77e7ccbeee455ffe4449c0dab5e1c1d10b9b"
+    },
+    {
+      "id": "source",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W46/source_perplexity.csv",
+      "sha256": "37d41dad2bb70e1dacbe544e574cc8448fe0f5e8c5c5d038ca87981a5e7646b7"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "企劃／線稿尚待使用者選定",
+    "所有入片鏡頭均待準備個別核准的首圖",
+    "動態片長與原速可用段尚未測試"
+  ],
+  "validation_focus": "兩段全身同為約74%畫高。切換場景及鞋型清楚，檢查深靛褲沒有刷白、直線沒有飄、站姿轉移無滑腳。",
+  "transition_rationale": "提案用有意義的景別或場景切換，選在動作穩定點。驗收時以既有約 0.75 秒柔接為對照，檢查雙影及讀衣連續。",
+  "previs_rationale": "鏡頭固定，單鏡局部站位／坐起或獨立場景剪接，不依賴共同連續路線。"
+}

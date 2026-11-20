@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-04",
+  "status": "not_selected_for_current_realism_redesign",
+  "model": "M03",
+  "look": "L02",
+  "first_frame_asset_id": "1499ae56-08c0-4503-b88f-898a373738e0",
+  "asset_ids": [
+    "26e03f42-2907-488c-b75c-239a2a19b9c8",
+    "15c720b2-46b6-45e0-a150-60290e3290e6"
+  ],
+  "duration_requested": 10,
+  "resolution_requested": "720p",
+  "aspect_requested": "9:16",
+  "source_still_sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d",
+  "source_still_approval": "10_automation/runs/2026-W45/approvals/M03_L02_still_approval_2026-11-04.json",
+  "max_new_jobs": 1,
+  "prompt_sha256": "8994ecdafe3250d72b242f2cfd45c4aab5a5e83d957965ee1da6ea02781c6ab3",
+  "user_video_acceptance": null,
+  "publication_approval": null,
+  "execution_reconciliation": "../preflight_2026-11-04/EXECUTION_RECONCILIATION.md",
+  "submitted_at": "2026-11-04T03:49:47.656Z",
+  "video_asset_id": "76ee1ce6-4fdb-44b1-bdaa-9c14d480f070",
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\generated_video (99).mp4",
+  "local_source": "source.mp4",
+  "generator_reported_parameters_accepted": true,
+  "actual_tool_call_directly_visible": false,
+  "paired_review": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/M03_W45_two_looks_review_v1.mp4",
+  "latest_whole_film_feedback": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/user_realism_rejection_2026-11-04.json",
+  "selection_scope_note": "Whole film rejected; individual source cause not isolated. Preserve technical facts, do not infer per-frame user rejection."
+}

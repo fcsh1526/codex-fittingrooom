@@ -1,0 +1,13 @@
+{
+  "path": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/2026-W46-002-L01_M02_route_F01_start_candidate_A.png",
+  "sha256": "b75d2a15e447aa3a284bede26defe879951b0e251652841c1676fbe69ec2af7c",
+  "size": [
+    941,
+    1672
+  ],
+  "status": "needs_framing_correction",
+  "visual_review": "Scene and walking direction generally support proposed first view; entire hair and shoes visible but figure approximately90% of image height vs76% planned. One framing-only correction requested. No motion submitted.",
+  "source_generated_path": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a1c419-deb1-7780-875f-dd33f794473b\\exec-f55585eb-ec58-4f58-8940-927e61bb02c4.png",
+  "source_plan": "10_automation/runs/2026-W46/planning/M02/five_look_commute_2026-11-12/F01_start_layout.png",
+  "date": "2026-11-12"
+}

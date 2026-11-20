@@ -1,0 +1,18 @@
+{
+  "status": "downloaded_sampled_used_in_initial_edit",
+  "uuid": "0c3fed58-b7bf-45c3-a4c5-ecc70793c1bb",
+  "first_uuid_reported": "06080caf-4520-4ac8-bb1e-37f2ceb79162",
+  "face_uuid_reported": "14974b17-8fb8-4590-9346-4582373a5a57",
+  "full_uuid_reported": "fa226a4d-f9fa-408a-b3d0-f6da3f517739",
+  "provider_controls_reported": {
+    "seconds": 10,
+    "resolution": "720p",
+    "aspect": "9:16",
+    "last": null,
+    "keyframes": null
+  },
+  "internal_call_directly_observed": false,
+  "source_sha256": "c6380ee2cac2a9b731e1a4bc07d034462a30efb04d380cff72dc5ec310265595",
+  "technical_review": "10_automation/runs/2026-W45/reels/M04/production_2026-11-06/technical_review.json",
+  "edit_receipt": "10_automation/runs/2026-W45/reels/M04/production_2026-11-06/edit_receipt.json"
+}

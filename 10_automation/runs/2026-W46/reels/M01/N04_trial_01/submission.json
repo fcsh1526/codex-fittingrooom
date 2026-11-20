@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "shot": "M01 L01 N04",
+  "status": "generated_downloaded",
+  "first_frame_asset_id": "0a868e5a-4ad0-420a-9598-8d37caacf12c",
+  "first_frame_sha256": "8116bee0d610fc54fbd488a50e2934415f42169a8ac278b859fe5ea3c76f2dfc",
+  "requested": {
+    "keyframes": [],
+    "count": 1,
+    "ratio": "9:16",
+    "other_refs": [],
+    "duration": 6,
+    "resolution": "720p"
+  },
+  "video_asset_id": "1ef721d7-a1d3-4be9-950e-05481fe999e3",
+  "provider_report": "Agent reported exact first frame, empty additional asset IDs, no last/keyframes, six seconds/720p/9:16 and verbatim prompt accepted; internal call not independently observed."
+}

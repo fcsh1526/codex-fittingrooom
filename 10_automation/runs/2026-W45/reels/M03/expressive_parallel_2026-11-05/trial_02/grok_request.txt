@@ -1,0 +1,12 @@
+本次只執行一次新trial02，不是重放a9d31a19。使用者明確回饋上一版「側步抬臂眼睛也跟著看手臂，其實整體有點莫名，動作再大一點，再多一點」。改為面向拍攝者的活潑、多姿態穿搭展示；先用完整9:16幅面測表演，不加入左右窄欄限制，不把動作縮成輕晃。只生成一支10秒720p9:16新影片，不補圖、不做第二套、不重試、不合片、不加購額度／換服務，不改刪舊媒體。
+精確First: 2e8df556-7034-4788-92d8-3a769fcdfed3，仍是已核准M03 framing_v2：長棕捲髮、深藍西外白T炭灰直褲、黑樂福、小黑包在她左肩，辦公遮簷長凳，完整頭鞋。face/full asset_ids: ["26e03f42-2907-488c-b75c-239a2a19b9c8","15c720b2-46b6-45e0-a150-60290e3290e6"]，只鎖M03身份／普通比例。不用其他M03舊服裝、選取殘留或上一支影片作first。
+先實際查看三個UUID與可用設定。duration:"10", resolution_name:"720p", aspect_ratio:"9:16"，不設last/keyframes。若來源不符／不可用、10秒不支援或額度不足，停下回報，不代換、不生成額外照片。
+以下英文逐字傳入prompt，標記不傳入：
+PROMPT_BEGIN
+A playful, confident fashion model is showing off her outfit directly to the camera, enjoying a lively sequence of clearly different full-body poses. Her attention stays with the person filming, with warm eye contact and a spontaneous changing smile. Her eyes do not follow her hands or look up at an imaginary object.
+
+Flow through four generous posing phrases at ordinary lively human speed: put both hands on her waist and make a pronounced left-right hip shift with alternating shoulder angles; lift both bent arms forward and then open them into an exuberant high V while smiling toward the lens; lower her arms and make a clear side-facing turn with a real foot pivot, then return toward the camera; finish by opening her bent arms in a playful presenting gesture and settling into a different hand-on-hip pose. The head, torso, hips, knees, feet, arms and clothes participate together. Give each different pose a brief readable beat, with flowing natural transitions and no long idle hold. This should feel like someone happily trying poses for an outfit video, not an isolated arm raise.
+
+One continuous ten-second real-time full-person shot, original locked level chest-height 50mm camera and original subject distance. Use the full portrait width for the performance; keep complete hair, hands and both shoes within the image. Preserve exact M03 identity, ordinary body proportions, long wavy brown hair, open deep-navy blazer, white crewneck tee, charcoal straight trousers, black loafers, small black bag on her left shoulder and silver necklace. The bag and clothes respond naturally to her body. Preserve the shaded office wall, windows, bench, paving and coherent daylight. No camera move, slow motion, outfit change, cut or text.
+PROMPT_END
+重點是四組可辨大幅換姿及面向鏡頭的展示態度；不要眼睛追手或假裝看東西。音軌有真實開關才關，沒有如實回報，不為音訊重生。完成列實際First/identity IDs、設定是否接受、新影片UUID、實際時長／像素／音軌；參數回報、畫面觀察與物理／真人感驗收分開，不自行宣稱通過。

@@ -1,0 +1,16 @@
+{
+  "source_sha256": "72246e958a4487d51be54a4754f9df4dd42d3300c32ffcf74897ff43cb2a5be4",
+  "preview_sha256": "f128d497b61acbd133c0a6fac0e7820a804785828654b12b14ac81a05a716fcb",
+  "width": 720,
+  "height": 1280,
+  "fps": "24/1",
+  "frame_count": "145",
+  "seconds": "6.041667",
+  "original_audio": true,
+  "full_decode": true,
+  "sample_every_frames": 3,
+  "sample_count": 49,
+  "preview": "Full-length video streamcopy with audio removed; no crop/cut/retiming.",
+  "continuous_native_speed_visual_pass": false,
+  "user_acceptance": null
+}

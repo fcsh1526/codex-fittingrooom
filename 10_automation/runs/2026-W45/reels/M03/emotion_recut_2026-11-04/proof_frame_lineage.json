@@ -1,0 +1,27 @@
+{
+  "source_path": "10_automation/runs/2026-W45/reels/M03/L02_trial_01/source.mp4",
+  "source_sha256": "ebc028878aeac24b2538c34eab32b191ddbf8b348e3abc0bbea9331be879f2be",
+  "source_video_asset_id": "76ee1ce6-4fdb-44b1-bdaa-9c14d480f070",
+  "zero_based_source_frame": 144,
+  "fps": 24,
+  "source_seconds": 6.0,
+  "whole_film_frame": 159,
+  "whole_film_seconds": 6.625,
+  "path": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/L02_styling_proof_source_f144.png",
+  "sha256": "28b48927e54eec36600eb1c6b21d40881a8035e0b15f88791cc14293feb7ce4e",
+  "size": [
+    720,
+    1280
+  ],
+  "crop": false,
+  "rescale": false,
+  "new_image_generation": false,
+  "scope": "Same unchanged source f144, medium styling-proof candidate. New timeline correspondence only; not new generation, Carousel or acceptance.",
+  "user_separate_still_approval": null,
+  "current_film": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/M03_W45_emotion_recut_v2.mp4",
+  "current_film_sha256": "001ff0dc8fa724c61fd42846689d9877bb0957be296e6c65d8a7dc48795e2022",
+  "source_proof_record": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/proof_frame_lineage.json",
+  "status": "withdrawn_from_publish_ready_pending_source_reassessment",
+  "latest_whole_film_feedback": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/user_realism_rejection_2026-11-04.json",
+  "withdrawal_scope": "Assistant withdraws video-derived proof candidate as part of rejected film review; user did not explicitly reject this isolated frame or approved AI stills."
+}

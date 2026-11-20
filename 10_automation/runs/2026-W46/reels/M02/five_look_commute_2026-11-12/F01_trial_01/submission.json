@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-12",
+  "status": "generated_downloaded",
+  "first_frame_asset_id": "12ed904f-daf6-4dfe-855c-7b33e3aa9ca9",
+  "first_frame_sha256": "c0a8194a638553a0f67a6f8894ad9f9adb28682cbcb77f3fef3ae05b01bed631",
+  "requested": {
+    "duration": 6,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "count": 1,
+    "other_refs": [],
+    "last": null,
+    "keyframes": []
+  },
+  "authority": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/user_route_F01_wide_start_approval_2026-11-12.json",
+  "plan": "10_automation/runs/2026-W46/planning/M02/five_look_commute_wide_start_2026-11-12/production_plan.json",
+  "planned_select_frames": [
+    0,
+    105
+  ],
+  "planned_overlap_frames": [
+    87,
+    105
+  ],
+  "limits": "First-frame-only prompt trial; actual path, framing and gait require review.",
+  "video_asset_id": "fc01c926-5d8e-4657-96c4-6cf90698cc81",
+  "source_sha256": "898582110d895f1b111e8c25cbc82fe7d8cd74e301e5c022cf99fdc9c45021df",
+  "provider_report": "Agent reports6.04s720x1280 AAC, first-only6s720p9:16. Internal execution not observed."
+}

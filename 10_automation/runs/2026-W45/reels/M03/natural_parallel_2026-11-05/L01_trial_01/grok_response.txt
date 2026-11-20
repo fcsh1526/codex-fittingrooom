@@ -1,0 +1,166 @@
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0–1.7s 雙手叉腰；奶油裙可讀；對鏡笑；鞋在框":
+        - cell "0–1.7s"
+        - cell "雙手叉腰；奶油裙可讀；對鏡笑；鞋在框":
+          - strong: 雙手叉腰
+          - text: ；奶油裙可讀；對鏡笑；鞋在框
+      - row "~3.4s 雙臂高 V；對鏡；裙長可讀":
+        - cell "~3.4s"
+        - cell "雙臂高 V；對鏡；裙長可讀":
+          - strong: 雙臂高 V
+          - text: ；對鏡；裙長可讀
+      - row "~5s 雙臂下降外展；近正面（側轉拍較弱／未見深側）":
+        - cell "~5s"
+        - cell "雙臂下降外展；近正面（側轉拍較弱／未見深側）"
+      - row "~6.7s 半側身；回眸對鏡；裙擺動":
+        - cell "~6.7s"
+        - cell "半側身；回眸對鏡；裙擺動":
+          - strong: 半側身
+          - text: ；回眸對鏡；裙擺動
+      - row "~8.4s 近正面；臂在動；末姿叉腰不明顯":
+        - cell "~8.4s"
+        - cell "近正面；臂在動；末姿叉腰不明顯":
+          - text: 近正面；臂在動；
+          - strong: 末姿叉腰不明顯
+  - paragraph:
+    - strong: 不
+    - text: 認證與褲裝同步、四拍完整或物理／真人感通過。只此一次。
+  - generic: "W45 M03自然表演改案，這次只生成L01一支獨立6秒720p9:16原片。使用者最新明確說「我不喜歡搖擺跳舞」，又對改成自然情境、轉身與反應回覆ok。原414c5d81／64c9236b多姿態與舊四秒合片不是本輪目標。保留原片；不改刪任何媒體，不補新照片、不重試、不追加另一套、不加購／升級／換服務。 精確First: 2e8df556-7034-4788-92d8-3a769fcdfed3，已核准M03 L01原圖，deep-navy blazer, white tee, charcoal trousers, black loafers，原辦公遮簷場景，完整頭鞋。identity asset_ids: [\"26e03f42-2907-488c-b75c-239a2a19b9c8\",\"15c720b2-46b6-45e0-a150-60290e3290e6\"]，只鎖身份與普通比例。 先實際查看三個UUID與可用控制。duration:\"6\",resolution_name:\"720p\",aspect_ratio:\"9:16\"；不設last/keyframes。若來源不符／不可用、額度不足或需要額外費用，停止回報，不代換、不送別的生成。 以下英文逐字作prompt，標記不傳入： PROMPT_BEGIN Continue naturally from the supplied first image. This is a casual outfit photo before heading out: a friend just behind the camera is ready to take her picture. She listens, responds to her friend with a brief warm smile, and makes one clear, ordinary repositioning to show the clothes: turn her whole body about45degrees to her right with one grounded foot adjustment, let the jacket reveal its side line, then return to a comfortable front-facing stance. Her face stays naturally responsive to the person filming. Her arms rest loosely beside her body and move only with the turn; both shoulders and hips settle together. Give the side view and final frontal outfit a readable moment. No repeated left-right swaying, dancing, high arm gestures or exaggerated fixed grin. One continuous six-second real-time full-person shot. Keep the original locked, level chest-height50mm camera and subject distance, exact M03 face, normal body proportions and long wavy brown hair. Preserve the open deep-navy blazer, white crewneck tee, charcoal straight trousers, black loafers, small black bag on her left shoulder and silver necklace. Preserve the original shaded office windows, bench, paving and daylight. Keep the complete hair, hands, bag and shoes visible with relaxed arms near the torso. No camera move, slow motion, cut, outfit change or text. PROMPT_END 這是回應拍攝者後一次完整轉向與回正，不是節奏舞蹈或連續擺姿；手臂近身保留窄欄空間，不用大幅外展。保留實際自然變體，不強制逐秒機械編舞。音訊有實際開關才關，沒有則如實記錄。完成列實際First/identity IDs、設定是否接受、新影片UUID、實際時長／尺寸／音軌。參數接受、可見觀察與物理／真人感分開記錄，不自行宣稱通過。只此一支，後續由我檢查。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M03 L01 自然轉身 — 一次
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 2e8df556-7034-4788-92d8-3a769fcdfed3 是":
+        - cell "first"
+        - cell "2e8df556-7034-4788-92d8-3a769fcdfed3":
+          - code: 2e8df556-7034-4788-92d8-3a769fcdfed3
+        - cell "是"
+      - row "asset_ids 26e03f42-…、15c720b2-… 是":
+        - cell "asset_ids"
+        - cell "26e03f42-…、15c720b2-…":
+          - code: 26e03f42-…
+          - text: 、
+          - code: 15c720b2-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"6\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"6\" / \"720p\" / \"9:16\"":
+          - code: "\"6\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - paragraph:
+    - text: 未用
+    - code: 414c5d81
+    - text: /
+    - code: 64c9236b
+    - text: 。
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID 95b2f7fe-2b05-4101-88fd-e5367afd784f":
+        - cell "影片 UUID"
+        - cell "95b2f7fe-2b05-4101-88fd-e5367afd784f":
+          - code: 95b2f7fe-2b05-4101-88fd-e5367afd784f
+      - row "時長 6.04 s":
+        - cell "時長"
+        - cell "6.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 近正面；臂低；頭鞋在框":
+        - cell "0s"
+        - cell "近正面；臂低；頭鞋在框"
+      - row "~1s 開始向其右（畫面左）轉；臂近身":
+        - cell "~1s"
+        - cell "開始向其右（畫面左）轉；臂近身"
+      - row "~2–3s 約側身／背側（西外側線可讀）；回眸對鏡；無高抬臂":
+        - cell "~2–3s"
+        - cell "約側身／背側（西外側線可讀）；回眸對鏡；無高抬臂":
+          - strong: 約側身／背側
+          - text: （西外側線可讀）；回眸對鏡；無高抬臂
+      - row "~4–5s 回正近正面；微笑；臂低；鞋在框":
+        - cell "~4–5s"
+        - cell "回正近正面；微笑；臂低；鞋在框":
+          - strong: 回正近正面
+          - text: ；微笑；臂低；鞋在框
+  - paragraph:
+    - strong: 抽樣：
+    - text: 無反覆左右搖、無高 V／舞蹈感。側轉幅度可能 ≥45°。
+    - strong: 不
+    - text: 認證轉角精確、腳地或真人感通過。只此一支。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert: Imagine 代理模式 - Grok

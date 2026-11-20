@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "actor": "user",
+  "quote": "ok",
+  "scope": "Proceed with action onset/peak/settle boards and dual-panel envelope, then one expressive single-side short test using approved still if suitable.",
+  "context": "Direct reply to assistant explaining revised M03 performance planning, not exact new AI still or final-film acceptance.",
+  "new_still_visual_approval": false,
+  "new_film_acceptance": false,
+  "max_first_test_jobs": 1
+}

@@ -1,0 +1,10 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "still",
+  "target_sha256": "b971d913fd7fa9974e3c922dda568b70a939f68b48b720e25233b1ffc293b1c9",
+  "quote": "ok",
+  "recorded_at": "2026-10-28",
+  "context": "Direct reply to displayed L01 styling proof and explicit question whether it may be retained",
+  "limits": "Exact independent styling-proof still, not a later route frame, generated motion or publication approval"
+}

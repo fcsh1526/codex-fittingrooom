@@ -1,0 +1,18 @@
+{
+  "asset": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/W45_M05_L02_Reel_v2.mp4",
+  "sha256": "c961c2c9dd1a2bb697077b081059ca3122ffaafb2ad0241a5646c8ca04d74160",
+  "local_player": {
+    "rate": 1,
+    "end_seconds": 6.041667,
+    "starts": 1,
+    "ends": 1,
+    "ended": true
+  },
+  "ui_screenshot_scope": "Three observations, with capture latency and two distinct visible states. They confirm a front smile and the final side pose, not a continuous visual review.",
+  "supplementary_evidence": [
+    "motion_contact.jpg",
+    "expression_contact.jpg"
+  ],
+  "whole_film_continuous_visual_qa": "unverified",
+  "observation": "Full outfit and shoes stay in frame. At the end the body is angled toward the gallery and the face remains near the camera. This can function as a styling angle reveal, not as clear narrative evidence."
+}

@@ -1,0 +1,10 @@
+{
+  "approval_snapshots_verified": 18,
+  "approved_source_unchanged": true,
+  "two_video_outputs_recorded": true,
+  "prompt_evidence_mismatch_recorded": true,
+  "silent_preview_same_frames_and_timing": true,
+  "film_acceptance": null,
+  "publication_approval": null,
+  "automatic_third_trial": false
+}

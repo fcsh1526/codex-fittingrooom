@@ -1,0 +1,21 @@
+{
+  "horizontal_center_range": [
+    0.37500127428141455,
+    0.5449987257185853
+  ],
+  "height_fraction_range": [
+    0.4504125138926884,
+    0.9490034546505705
+  ],
+  "relative_camera_angle_range": [
+    -41.59355624500529,
+    54.704481966614026
+  ],
+  "head_in_frame_all": true,
+  "feet_in_frame_until_13s": true,
+  "shared_clock_frames": 384,
+  "preview_frames": 128,
+  "preview_fps": 8,
+  "duration_seconds": 16,
+  "limits": "Projection checks only. No physical gait, exact AI adherence, comfortable dissolve or full continuous human playback certification."
+}

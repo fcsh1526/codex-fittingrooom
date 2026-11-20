@@ -1,0 +1,1082 @@
+{
+  "id": "W44_editorial_reset_v3_shared_world",
+  "units": "schematic",
+  "unit_note": "Unmeasured fictional schematic units; no calibrated photoreal scene or real camera control claimed.",
+  "axes": "x_right_y_up_z_forward",
+  "geometry": [
+    {
+      "id": "wall",
+      "vertices": [
+        [
+          -2,
+          0,
+          -3
+        ],
+        [
+          -2,
+          3,
+          -3
+        ],
+        [
+          -2,
+          3,
+          7.2
+        ],
+        [
+          -2,
+          0,
+          7.2
+        ]
+      ],
+      "fill": "#e4e0d7",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "window_-1.5",
+      "vertices": [
+        [
+          -1.98,
+          0.5,
+          -1.5
+        ],
+        [
+          -1.98,
+          2.5,
+          -1.5
+        ],
+        [
+          -1.98,
+          2.5,
+          0.19999999999999996
+        ],
+        [
+          -1.98,
+          0.5,
+          0.19999999999999996
+        ]
+      ],
+      "fill": "#c9d9dc",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "window_1.2",
+      "vertices": [
+        [
+          -1.98,
+          0.5,
+          1.2
+        ],
+        [
+          -1.98,
+          2.5,
+          1.2
+        ],
+        [
+          -1.98,
+          2.5,
+          2.9
+        ],
+        [
+          -1.98,
+          0.5,
+          2.9
+        ]
+      ],
+      "fill": "#c9d9dc",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "window_4.4",
+      "vertices": [
+        [
+          -1.98,
+          0.5,
+          4.4
+        ],
+        [
+          -1.98,
+          2.5,
+          4.4
+        ],
+        [
+          -1.98,
+          2.5,
+          6.1000000000000005
+        ],
+        [
+          -1.98,
+          0.5,
+          6.1000000000000005
+        ]
+      ],
+      "fill": "#c9d9dc",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "canopy",
+      "vertices": [
+        [
+          -2,
+          2.85,
+          -3
+        ],
+        [
+          3.8,
+          2.85,
+          -3
+        ],
+        [
+          3.8,
+          2.85,
+          8.9
+        ],
+        [
+          -2,
+          2.85,
+          8.9
+        ]
+      ],
+      "fill": "#e9e5db",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "reveal_column_0",
+      "vertices": [
+        [
+          2.6295364530549663,
+          0.0,
+          8.254694090055448
+        ],
+        [
+          2.8595364530549667,
+          0.0,
+          8.254694090055448
+        ],
+        [
+          2.8595364530549667,
+          2.85,
+          8.254694090055448
+        ],
+        [
+          2.6295364530549663,
+          2.85,
+          8.254694090055448
+        ]
+      ],
+      "fill": "#ddd7c9",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "reveal_column_1",
+      "vertices": [
+        [
+          2.8595364530549667,
+          0.0,
+          8.254694090055448
+        ],
+        [
+          2.8595364530549667,
+          0.0,
+          8.484694090055449
+        ],
+        [
+          2.8595364530549667,
+          2.85,
+          8.484694090055449
+        ],
+        [
+          2.8595364530549667,
+          2.85,
+          8.254694090055448
+        ]
+      ],
+      "fill": "#ddd7c9",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "reveal_column_2",
+      "vertices": [
+        [
+          2.8595364530549667,
+          0.0,
+          8.484694090055449
+        ],
+        [
+          2.6295364530549663,
+          0.0,
+          8.484694090055449
+        ],
+        [
+          2.6295364530549663,
+          2.85,
+          8.484694090055449
+        ],
+        [
+          2.8595364530549667,
+          2.85,
+          8.484694090055449
+        ]
+      ],
+      "fill": "#ddd7c9",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "reveal_column_3",
+      "vertices": [
+        [
+          2.6295364530549663,
+          0.0,
+          8.484694090055449
+        ],
+        [
+          2.6295364530549663,
+          0.0,
+          8.254694090055448
+        ],
+        [
+          2.6295364530549663,
+          2.85,
+          8.254694090055448
+        ],
+        [
+          2.6295364530549663,
+          2.85,
+          8.484694090055449
+        ]
+      ],
+      "fill": "#ddd7c9",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "reveal_column_4",
+      "vertices": [
+        [
+          2.6295364530549663,
+          2.85,
+          8.254694090055448
+        ],
+        [
+          2.8595364530549667,
+          2.85,
+          8.254694090055448
+        ],
+        [
+          2.8595364530549667,
+          2.85,
+          8.484694090055449
+        ],
+        [
+          2.6295364530549663,
+          2.85,
+          8.484694090055449
+        ]
+      ],
+      "fill": "#ddd7c9",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "bench_0",
+      "vertices": [
+        [
+          -1.325,
+          0.42,
+          8.6
+        ],
+        [
+          -0.675,
+          0.42,
+          8.6
+        ],
+        [
+          -0.675,
+          0.54,
+          8.6
+        ],
+        [
+          -1.325,
+          0.54,
+          8.6
+        ]
+      ],
+      "fill": "#c8aa82",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "bench_1",
+      "vertices": [
+        [
+          -0.675,
+          0.42,
+          8.6
+        ],
+        [
+          -0.675,
+          0.42,
+          10.6
+        ],
+        [
+          -0.675,
+          0.54,
+          10.6
+        ],
+        [
+          -0.675,
+          0.54,
+          8.6
+        ]
+      ],
+      "fill": "#c8aa82",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "bench_2",
+      "vertices": [
+        [
+          -0.675,
+          0.42,
+          10.6
+        ],
+        [
+          -1.325,
+          0.42,
+          10.6
+        ],
+        [
+          -1.325,
+          0.54,
+          10.6
+        ],
+        [
+          -0.675,
+          0.54,
+          10.6
+        ]
+      ],
+      "fill": "#c8aa82",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "bench_3",
+      "vertices": [
+        [
+          -1.325,
+          0.42,
+          10.6
+        ],
+        [
+          -1.325,
+          0.42,
+          8.6
+        ],
+        [
+          -1.325,
+          0.54,
+          8.6
+        ],
+        [
+          -1.325,
+          0.54,
+          10.6
+        ]
+      ],
+      "fill": "#c8aa82",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "bench_4",
+      "vertices": [
+        [
+          -1.325,
+          0.54,
+          8.6
+        ],
+        [
+          -0.675,
+          0.54,
+          8.6
+        ],
+        [
+          -0.675,
+          0.54,
+          10.6
+        ],
+        [
+          -1.325,
+          0.54,
+          10.6
+        ]
+      ],
+      "fill": "#c8aa82",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "planter_0",
+      "vertices": [
+        [
+          -2.0,
+          0.0,
+          11.549999999999999
+        ],
+        [
+          -1.0,
+          0.0,
+          11.549999999999999
+        ],
+        [
+          -1.0,
+          0.6,
+          11.549999999999999
+        ],
+        [
+          -2.0,
+          0.6,
+          11.549999999999999
+        ]
+      ],
+      "fill": "#b6c8a4",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "planter_1",
+      "vertices": [
+        [
+          -1.0,
+          0.0,
+          11.549999999999999
+        ],
+        [
+          -1.0,
+          0.0,
+          12.65
+        ],
+        [
+          -1.0,
+          0.6,
+          12.65
+        ],
+        [
+          -1.0,
+          0.6,
+          11.549999999999999
+        ]
+      ],
+      "fill": "#b6c8a4",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "planter_2",
+      "vertices": [
+        [
+          -1.0,
+          0.0,
+          12.65
+        ],
+        [
+          -2.0,
+          0.0,
+          12.65
+        ],
+        [
+          -2.0,
+          0.6,
+          12.65
+        ],
+        [
+          -1.0,
+          0.6,
+          12.65
+        ]
+      ],
+      "fill": "#b6c8a4",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "planter_3",
+      "vertices": [
+        [
+          -2.0,
+          0.0,
+          12.65
+        ],
+        [
+          -2.0,
+          0.0,
+          11.549999999999999
+        ],
+        [
+          -2.0,
+          0.6,
+          11.549999999999999
+        ],
+        [
+          -2.0,
+          0.6,
+          12.65
+        ]
+      ],
+      "fill": "#b6c8a4",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "planter_4",
+      "vertices": [
+        [
+          -2.0,
+          0.6,
+          11.549999999999999
+        ],
+        [
+          -1.0,
+          0.6,
+          11.549999999999999
+        ],
+        [
+          -1.0,
+          0.6,
+          12.65
+        ],
+        [
+          -2.0,
+          0.6,
+          12.65
+        ]
+      ],
+      "fill": "#b6c8a4",
+      "edge": "#9da4a2"
+    },
+    {
+      "id": "plaza_edge",
+      "vertices": [
+        [
+          -2,
+          0,
+          8.9
+        ],
+        [
+          7,
+          0,
+          8.9
+        ],
+        [
+          7,
+          0.1,
+          9
+        ],
+        [
+          -2,
+          0.1,
+          9
+        ]
+      ],
+      "fill": "#c8c7bd",
+      "edge": "#9da4a2"
+    }
+  ],
+  "curve_controls": {
+    "character": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        5
+      ],
+      [
+        0.5,
+        0,
+        10
+      ],
+      [
+        5,
+        0,
+        12
+      ]
+    ],
+    "camera": [
+      [
+        2.1,
+        1.1,
+        3.0
+      ],
+      [
+        5.4,
+        1.1,
+        4.0
+      ],
+      [
+        3.8,
+        1.1,
+        12.5
+      ],
+      [
+        6,
+        1.1,
+        14.2
+      ]
+    ]
+  },
+  "timing": "person arc-length progression; camera independent cubic time curve; no per-look ease/reset",
+  "routes": [
+    {
+      "shot_id": "S01",
+      "character_samples": [
+        {
+          "frame": 0,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "heading_degrees": 0.0,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 57,
+          "position": [
+            0.037400268098837265,
+            0.0,
+            2.0532991327108276
+          ],
+          "heading_degrees": 2.357168723884513,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 114,
+          "position": [
+            0.1905899626815844,
+            0.0,
+            4.100904171901635
+          ],
+          "heading_degrees": 6.5499910452871655,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 0,
+          "position": [
+            2.1,
+            1.1,
+            3.0
+          ],
+          "target": [
+            0.08071012303078096,
+            1.1,
+            -0.05490890089534961
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 57,
+          "position": [
+            3.5541252532287015,
+            1.0999999999999999,
+            4.370492219771283
+          ],
+          "target": [
+            0.027696713757292102,
+            1.1,
+            2.0680934316029633
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 114,
+          "position": [
+            4.23239295199292,
+            1.1,
+            6.693002369699319
+          ],
+          "target": [
+            0.14352335425576257,
+            1.1,
+            4.175803552733755
+          ],
+          "vertical_fov_degrees": 40
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 0,
+          "person_center_uv": [
+            0.4348807824337865,
+            0.6031993050470645
+          ],
+          "person_height_fraction": 0.619195830282387,
+          "visible_landmark_ids": [],
+          "visible_clothing": "紫外搭褲裝，斜前方走向側前方"
+        },
+        {
+          "frame": 57,
+          "person_center_uv": [
+            0.5102598439353488,
+            0.5897023419449204
+          ],
+          "person_height_fraction": 0.5382140516695222,
+          "visible_landmark_ids": [],
+          "visible_clothing": "紫外搭褲裝，斜前方走向側前方"
+        },
+        {
+          "frame": 114,
+          "person_center_uv": [
+            0.5449987257185853,
+            0.5786912808806901
+          ],
+          "person_height_fraction": 0.47214768528413986,
+          "visible_landmark_ids": [],
+          "visible_clothing": "紫外搭褲裝，斜前方走向側前方"
+        }
+      ]
+    },
+    {
+      "shot_id": "S02",
+      "character_samples": [
+        {
+          "frame": 96,
+          "position": [
+            0.12558157675458484,
+            0.0,
+            3.4556267021166907
+          ],
+          "heading_degrees": 4.994672888943649,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 147,
+          "position": [
+            0.36078831342933454,
+            0.0,
+            5.277505160526596
+          ],
+          "heading_degrees": 10.06577520850838,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 198,
+          "position": [
+            0.7924211800191496,
+            0.0,
+            7.062329130094223
+          ],
+          "heading_degrees": 17.60216157642702,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 96,
+          "position": [
+            4.075096575320431,
+            1.1000000000000003,
+            5.910255395168616
+          ],
+          "target": [
+            0.08473620316622377,
+            1.1,
+            3.522600720599509
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 147,
+          "position": [
+            4.439344103173748,
+            1.1,
+            8.142034213581171
+          ],
+          "target": [
+            0.3222906032821262,
+            1.1,
+            5.33311725060744
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 198,
+          "position": [
+            4.672609140965979,
+            1.1,
+            10.200122987521423
+          ],
+          "target": [
+            0.8220922505974628,
+            1.1,
+            7.025988683341565
+          ],
+          "vertical_fov_degrees": 40
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 96,
+          "person_center_uv": [
+            0.5412036015756766,
+            0.5812515983839092
+          ],
+          "person_height_fraction": 0.48750959030345453,
+          "visible_landmark_ids": [],
+          "visible_clothing": "同套褲裝繼續走到柱後窗口"
+        },
+        {
+          "frame": 147,
+          "person_center_uv": [
+            0.5331451183276973,
+            0.5758053345490726
+          ],
+          "person_height_fraction": 0.4548320072944346,
+          "visible_landmark_ids": [],
+          "visible_clothing": "同套褲裝繼續走到柱後窗口"
+        },
+        {
+          "frame": 198,
+          "person_center_uv": [
+            0.4770389168569429,
+            0.5757080952051878
+          ],
+          "person_height_fraction": 0.45424857123112716,
+          "visible_landmark_ids": [],
+          "visible_clothing": "同套褲裝繼續走到柱後窗口"
+        }
+      ]
+    },
+    {
+      "shot_id": "S03",
+      "character_samples": [
+        {
+          "frame": 180,
+          "position": [
+            0.6128710207163208,
+            0.0,
+            6.439191099953925
+          ],
+          "heading_degrees": 14.610351703568178,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 237,
+          "position": [
+            1.3044451473240493,
+            0.0,
+            8.369748526568067
+          ],
+          "heading_degrees": 25.50851197691501,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 294,
+          "position": [
+            2.4111464289880407,
+            0.0,
+            10.092838840516443
+          ],
+          "heading_degrees": 40.51359451858066,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 180,
+          "position": [
+            4.593779059701427,
+            1.1,
+            9.51335336043366
+          ],
+          "target": [
+            0.612268657028396,
+            1.1,
+            6.4399712930654385
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 237,
+          "position": [
+            4.85734096574605,
+            1.1,
+            11.501424787774562
+          ],
+          "target": [
+            1.4034682838318568,
+            1.1,
+            8.260864898080856
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 294,
+          "position": [
+            5.201807588698499,
+            1.1,
+            12.924987979670142
+          ],
+          "target": [
+            2.557471053981701,
+            1.1,
+            9.955755293286753
+          ],
+          "vertical_fov_degrees": 40
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 180,
+          "person_center_uv": [
+            0.5004785956244568,
+            0.5751091530975944
+          ],
+          "person_height_fraction": 0.4506549185855661,
+          "visible_landmark_ids": [],
+          "visible_clothing": "柱前開始的同時間換裝窗口，揭開深藍洋裝"
+        },
+        {
+          "frame": 237,
+          "person_center_uv": [
+            0.4240791067197469,
+            0.579804511477754
+          ],
+          "person_height_fraction": 0.4788270688665237,
+          "visible_landmark_ids": [],
+          "visible_clothing": "柱前開始的同時間換裝窗口，揭開深藍洋裝"
+        },
+        {
+          "frame": 294,
+          "person_center_uv": [
+            0.3767253020879565,
+            0.5951347416625046
+          ],
+          "person_height_fraction": 0.5708084499750269,
+          "visible_landmark_ids": [],
+          "visible_clothing": "柱前開始的同時間換裝窗口，揭開深藍洋裝"
+        }
+      ]
+    },
+    {
+      "shot_id": "S04",
+      "character_samples": [
+        {
+          "frame": 276,
+          "position": [
+            2.01254868451974,
+            0.0,
+            9.581491915589213
+          ],
+          "heading_degrees": 35.40290956738272,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 330,
+          "position": [
+            3.340100251139727,
+            0.0,
+            10.995461478775889
+          ],
+          "heading_degrees": 51.16219684841179,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        },
+        {
+          "frame": 384,
+          "position": [
+            5.0,
+            0.0,
+            12.0
+          ],
+          "heading_degrees": 66.03751102542182,
+          "gait_phase": "schematic sine phase only; actual native gait must be reviewed"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 276,
+          "position": [
+            5.081566354345087,
+            1.1,
+            12.53433620092827
+          ],
+          "target": [
+            2.154511988788994,
+            1.1,
+            9.440711858471877
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 330,
+          "position": [
+            5.477839535375912,
+            1.1,
+            13.560833060844915
+          ],
+          "target": [
+            3.4671675609005073,
+            1.1121093750000002,
+            10.894701253804394
+          ],
+          "vertical_fov_degrees": 40
+        },
+        {
+          "frame": 384,
+          "position": [
+            6.0,
+            1.1,
+            14.2
+          ],
+          "target": [
+            5.058995562253412,
+            1.2000000000000002,
+            11.974126991910538
+          ],
+          "vertical_fov_degrees": 40
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 276,
+          "person_center_uv": [
+            0.3852572191026342,
+            0.5888012418741029
+          ],
+          "person_height_fraction": 0.5328074512446165,
+          "visible_landmark_ids": [],
+          "visible_clothing": "同套洋裝延續靠近，讀白T與肩帶"
+        },
+        {
+          "frame": 330,
+          "person_center_uv": [
+            0.3812569256439993,
+            0.6185858179663544
+          ],
+          "person_height_fraction": 0.6799989013311415,
+          "visible_landmark_ids": [],
+          "visible_clothing": "同套洋裝延續靠近，讀白T與肩帶"
+        },
+        {
+          "frame": 384,
+          "person_center_uv": [
+            0.4345033846591367,
+            0.7209734274920969
+          ],
+          "person_height_fraction": 0.9490034546505705,
+          "visible_landmark_ids": [],
+          "visible_clothing": "同套洋裝延續靠近，讀白T與肩帶"
+        }
+      ]
+    }
+  ],
+  "clock": {
+    "fps": 24,
+    "frame_count": 384
+  },
+  "motion_parameters": {
+    "character_parameter": "normalized arc length of cubic curve, lookup2000 samples over16s",
+    "camera_curve_parameter": "t + 0.35*sin(pi*t)/pi, t=global_frame/384",
+    "aim_horizontal_target": "0.46 + 0.085*sin(2*pi*t-0.3)",
+    "camera_target_height": "1.1 + 0.1*clamp((t-0.84)/0.16,0,1)",
+    "vertical_fov_degrees": 40,
+    "schematic_person_height": 1.65,
+    "projected_samples_file": "projection_samples.json",
+    "projected_samples_sha256": "f32e304786a07af77826e2f03a06f7c6bafca9cd57e85f36ebb3e837c3968771"
+  }
+}

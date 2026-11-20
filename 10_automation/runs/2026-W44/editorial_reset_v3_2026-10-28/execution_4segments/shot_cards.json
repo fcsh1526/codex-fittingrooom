@@ -1,0 +1,110 @@
+[
+  {
+    "segment": "A",
+    "shot_id": "S01",
+    "look_id": "2026-W44-001-R3-L01",
+    "global_frames": [
+      0,
+      114
+    ],
+    "useful_frames": 114,
+    "useful_seconds": 4.75,
+    "candidate_generation_duration_seconds": 6,
+    "duration_status": "historical6s path only; current UI not verified",
+    "planned_source_interval": "[0,114) if valid at native24fps; otherwise reselect measured interval and update lineage",
+    "purpose": "紫外搭褲裝，斜前方走向側前方",
+    "source_input_rule": "new first still at global0, plus late composition guide at global114",
+    "late_guide_global_frame": 114,
+    "late_guide_relative_seconds": 4.75,
+    "controls_limit": "Do not set a6s last frame and pretend it pins a4.25–4.75s selected endpoint. First/last/keyframe roles and actual timestamp rounding must be verified in current UI; no unsupported curve parameters.",
+    "acceptance": [
+      "actual raw duration/fps/size and selected interval recorded",
+      "identity, wardrobe, bag/hands, gait and fixed architecture individually stable",
+      "new source overlaps previous source over the same full18f world-time interval",
+      "source phase/scale/light/landmarks checked, then whole context at native speed",
+      "at most one bounded retry per necessary shot; preserve failure and classify cause"
+    ],
+    "status": "planning_only_not_submitted"
+  },
+  {
+    "segment": "B",
+    "shot_id": "S02",
+    "look_id": "2026-W44-001-R3-L01",
+    "global_frames": [
+      96,
+      198
+    ],
+    "useful_frames": 102,
+    "useful_seconds": 4.25,
+    "candidate_generation_duration_seconds": 6,
+    "duration_status": "historical6s path only; current UI not verified",
+    "planned_source_interval": "[0,102) if valid at native24fps; otherwise reselect measured interval and update lineage",
+    "purpose": "同套褲裝繼續走到柱後窗口",
+    "source_input_rule": "actual approved A source extract corresponding to global96; independent late guide global198",
+    "late_guide_global_frame": 198,
+    "late_guide_relative_seconds": 4.25,
+    "controls_limit": "Do not set a6s last frame and pretend it pins a4.25–4.75s selected endpoint. First/last/keyframe roles and actual timestamp rounding must be verified in current UI; no unsupported curve parameters.",
+    "acceptance": [
+      "actual raw duration/fps/size and selected interval recorded",
+      "identity, wardrobe, bag/hands, gait and fixed architecture individually stable",
+      "new source overlaps previous source over the same full18f world-time interval",
+      "source phase/scale/light/landmarks checked, then whole context at native speed",
+      "at most one bounded retry per necessary shot; preserve failure and classify cause"
+    ],
+    "status": "planning_only_not_submitted"
+  },
+  {
+    "segment": "C",
+    "shot_id": "S03",
+    "look_id": "2026-W44-001-R3-L02",
+    "global_frames": [
+      180,
+      294
+    ],
+    "useful_frames": 114,
+    "useful_seconds": 4.75,
+    "candidate_generation_duration_seconds": 6,
+    "duration_status": "historical6s path only; current UI not verified",
+    "planned_source_interval": "[0,114) if valid at native24fps; otherwise reselect measured interval and update lineage",
+    "purpose": "柱前開始的同時間換裝窗口，揭開深藍洋裝",
+    "source_input_rule": "actual approved B source extract corresponding to global180; new dress replacement candidate must be visually approved before use",
+    "late_guide_global_frame": 294,
+    "late_guide_relative_seconds": 4.75,
+    "controls_limit": "Do not set a6s last frame and pretend it pins a4.25–4.75s selected endpoint. First/last/keyframe roles and actual timestamp rounding must be verified in current UI; no unsupported curve parameters.",
+    "acceptance": [
+      "actual raw duration/fps/size and selected interval recorded",
+      "identity, wardrobe, bag/hands, gait and fixed architecture individually stable",
+      "new source overlaps previous source over the same full18f world-time interval",
+      "source phase/scale/light/landmarks checked, then whole context at native speed",
+      "at most one bounded retry per necessary shot; preserve failure and classify cause"
+    ],
+    "status": "planning_only_not_submitted"
+  },
+  {
+    "segment": "D",
+    "shot_id": "S04",
+    "look_id": "2026-W44-001-R3-L02",
+    "global_frames": [
+      276,
+      384
+    ],
+    "useful_frames": 108,
+    "useful_seconds": 4.5,
+    "candidate_generation_duration_seconds": 6,
+    "duration_status": "historical6s path only; current UI not verified",
+    "planned_source_interval": "[0,108) if valid at native24fps; otherwise reselect measured interval and update lineage",
+    "purpose": "同套洋裝延續靠近，讀白T與肩帶",
+    "source_input_rule": "actual approved C source extract corresponding to global276; late closer composition guide global384",
+    "late_guide_global_frame": 384,
+    "late_guide_relative_seconds": 4.5,
+    "controls_limit": "Do not set a6s last frame and pretend it pins a4.25–4.75s selected endpoint. First/last/keyframe roles and actual timestamp rounding must be verified in current UI; no unsupported curve parameters.",
+    "acceptance": [
+      "actual raw duration/fps/size and selected interval recorded",
+      "identity, wardrobe, bag/hands, gait and fixed architecture individually stable",
+      "new source overlaps previous source over the same full18f world-time interval",
+      "source phase/scale/light/landmarks checked, then whole context at native speed",
+      "at most one bounded retry per necessary shot; preserve failure and classify cause"
+    ],
+    "status": "planning_only_not_submitted"
+  }
+]

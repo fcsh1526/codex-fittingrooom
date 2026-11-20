@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-11",
+  "video_id": "1ef721d7-a1d3-4be9-950e-05481fe999e3",
+  "source_sha256": "1ccec4c4f9aaec915b714260e92355ceff307ac35b8947b0a822449ca25bae54",
+  "silent_sha256": "136adbdfa52868ddb7707cd4f00599d12681b56cb4c2bb6c2f297d7e07748f92",
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 145,
+  "duration_seconds": 6.041666666666667,
+  "full_decode": "pass",
+  "silent_remux_frames_and_timing_identical": true,
+  "visual_review": "每 0.5 秒抽格及畫布1倍速抽看至4.96秒；非全片連續目視",
+  "observation": "約1.5秒笑開，2–2.5秒肩膀放鬆並前傾，之後坐回。手低放、肩包同側。身份、肢體與接點仍需原速確認。",
+  "user_acceptance": "pending"
+}

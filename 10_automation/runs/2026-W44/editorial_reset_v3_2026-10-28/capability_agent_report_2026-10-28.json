@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "evidence_level": "Current Grok canvas agent report of schema; not a directly observed engine call or output-adherence test",
+  "query": "只核對當前影片工具，不生成、不上傳、不改資產、不執行歷史工單。請回報reference-to-video能否同時指定first_frame_asset_id、keyframes[{asset_id,timestamp_s}]和身份asset_ids；是否支援10秒/720p/9:16；錨點是否對齊1/3秒及數量間距限制；first/last/keyframe/身份實際欄位；能否關音訊。直接可讀參數與推測分開，讀不到就說未知。只答能力，禁止任何生成。",
+  "reported_tool": "imagine_reference_to_video",
+  "reported_combination": ["first_frame_asset_id", "keyframes[{asset_id,timestamp_s}]", "asset_ids"],
+  "reported_duration_options": [6,10,15],
+  "reported_resolution_options": ["480p","720p","1080p"],
+  "reported_aspect_ratios": ["1:1","16:9","9:16","2:3","3:2"],
+  "reported_midpoint_limits": {"maximum":4,"minimum_spacing_seconds":0.3333333333333333,"strictly_inside_duration":true,"snapped_grid_seconds":0.3333333333333333,"non_grid_rounding_rule":"unknown"},
+  "reported_reference_roles": "Endpoints/keyframes accept image UUID only. asset_ids are reference images; no independent face/full/scene typed controls. Bind purpose in prompt.",
+  "reported_audio_off_parameter": false,
+  "actions": "One read-only query submitted; response states no generation/upload. No motion or upload performed by Codex.",
+  "next": "S01 proposed10s720p9:16, approved start + user-approved8.0s guide once accepted + M02 identity pictures. Keep last unset; never use second-look dress image as S01 anchor. Need uploaded asset UUID verification before any generation."
+}

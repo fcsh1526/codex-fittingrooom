@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-09",
+  "asset": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/A_existing_source_opening_rough_v1.mp4",
+  "sha256": "6dfed7f49c19afbf5f7899051295730464b1692d37a4c89ffeeacd04643064b7",
+  "playback": {
+    "rate": 1,
+    "starts": 1,
+    "ended": true,
+    "ends": 1,
+    "end_seconds": 4.958333,
+    "sample_times_seconds_approximate": [
+      0.247,
+      0.74,
+      1.217,
+      1.694,
+      2.168,
+      2.633,
+      3.111,
+      3.567,
+      4.027,
+      4.448,
+      4.958
+    ],
+    "review_scope": "Playback from the beginning to the end at native speed, with 11 visual observations. No continuous visual observation between samples."
+  },
+  "media": {
+    "width": 720,
+    "height": 1280,
+    "codec": "h264",
+    "video_frames": 120,
+    "duration_seconds": 4.958333,
+    "audio_streams": 0
+  },
+  "findings": {
+    "expression": "側身回望，約1.7秒笑開，轉身時表情收回，最後再回望鏡頭。",
+    "continuity": "抽看範圍內，臉、手、花卉上衣與肩包未見明顯跳位或變形。",
+    "ending": "收在轉身離開時的回望。人物仍在步行，部分腳掌在畫面外，無法由成片確認完整步態。",
+    "decision": "保留同一版本作成片候選。現有證據為完整原速播放及跨全片的抽看，不將它記為持續視覺驗收。"
+  },
+  "opening_acceptance": "opening_appeal_and_continued_viewing",
+  "continuous_native_speed_visual_pass": false,
+  "release_handoff_performed": false,
+  "ordered_frame_review": {
+    "frames_reviewed": 120,
+    "evidence_sheets": [
+      "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/frame_review/candidate_01.jpg",
+      "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/frame_review/candidate_02.jpg",
+      "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/frame_review/candidate_03.jpg"
+    ],
+    "observations": [
+      "0–1.5秒保持側身回望，約1.5秒起笑容張開，有逐格過渡。",
+      "約2.7–3.3秒轉正，雙手、肩包和腰線的位移接續，襯衫正面可讀。",
+      "末段轉向另一側並回看，肩包隨轉身移到背側；鞋尖短暫入鏡，不能驗證完整落地。"
+    ]
+  }
+}

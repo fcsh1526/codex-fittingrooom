@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-12",
+  "source": "source.mp4",
+  "sha256": "2ef658413bcbb4f636c0801edd3ba2fd4c0a88ebdf921b1efeb6680ef6f1629d",
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "decoded_frames": 145,
+  "nominal_duration_seconds": 6.041666666666667,
+  "audio": "AAC, removed from compiled film",
+  "decode": "complete",
+  "visual_evidence": "2fps contact sheet inspected; both shoes black throughout sampled views. 0-1s quarter-turn, 1-2.5s smile and bag-strap hand rise, then near-front stance. No departure/lookback in samples. Not a continuous human review.",
+  "user_motion_acceptance": "pending"
+}

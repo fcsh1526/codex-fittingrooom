@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "exact_download_hashes_match": true,
+  "assets": [
+    {
+      "role": "L01",
+      "asset_id": "2e8df556-7034-4788-92d8-3a769fcdfed3",
+      "sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd"
+    },
+    {
+      "role": "face",
+      "asset_id": "26e03f42-2907-488c-b75c-239a2a19b9c8",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "role": "full",
+      "asset_id": "15c720b2-46b6-45e0-a150-60290e3290e6",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    },
+    {
+      "role": "L02",
+      "asset_id": "1499ae56-08c0-4503-b88f-898a373738e0",
+      "sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "M01 revised 13.5-second eight-beat whole-film storyboard and preparation of its new source still candidates",
+  "quote": "ok",
+  "recorded_at": "2026-11-11",
+  "timezone": "Asia/Taipei",
+  "artifacts": [
+    {
+      "path": "10_automation/runs/2026-W46/planning/M01/editorial_reset_2026-11-11/STORYBOARD.md",
+      "sha256": "4c84ddd5eeddf9a9b69d6a3ea110083e12e1cfc20fbb8c22fa9be54f408b508f"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M01/editorial_reset_2026-11-11/shot_plan.json",
+      "sha256": "bb515dfa1addddf2e9409bc16d3d174e5bcfcbbec9164bbc717d4b824b1f9584"
+    }
+  ],
+  "limits": "New stills require individual visual approval before motion generation."
+}

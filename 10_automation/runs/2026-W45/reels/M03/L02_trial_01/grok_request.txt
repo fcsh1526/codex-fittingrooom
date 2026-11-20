@@ -1,0 +1,21 @@
+本次只做W45 M03 L02，只生成一支10秒720p原生9:16候選。使用者已核准兩套各自精確首圖；本次只用以下這一套，不混衣、不出新照片、不重試、不改刪舊媒體、不合片、不加購或換服務。不是舊W43／W44系列，也不是M01或M02。本鏡用一個10秒來源先全身，再連續相機靠近至頭至大腿中景，保留同套衣服；只有這次10秒鏡頭，不能重做L01。10秒若不支援就停下，不默改6秒或分兩片；不用未核准新中景圖，不能在生成後數位裁切冒充運鏡。
+
+精確輸入：
+first_frame_asset_id: "1499ae56-08c0-4503-b88f-898a373738e0"
+asset_ids: ["26e03f42-2907-488c-b75c-239a2a19b9c8","15c720b2-46b6-45e0-a150-60290e3290e6"]
+duration: "10"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+不設last_frame_asset_id或keyframes。
+
+first內容：M03長棕捲髮，同件深海軍藍西外／奶油白短袖針織上衣／奶油白小腿中段A字裙／白灰球鞋／同款黑小肩包，與L01同尺度同場景。三份圖片已實際下載SHA核對為核准原檔。face/full只鎖M03 v3身份、髮型與普通比例，不複製白襯衫／炭灰褲的棚拍造型、表情或站姿。先實際看這三個UUID；找不到、內容不符、額度不足或設定不支援便停下回報，不替換圖或參數。
+
+把以下英文逐字傳入prompt，不擴寫動作或加走路；標記不傳入。
+PROMPT_BEGIN
+She recognizes the friend directly behind the camera and relaxes into a cheerful conversation. Begin from the exact approved first image, showing the complete cream-skirt outfit. She meets the lens, her smile grows into an easy laugh, and her shoulders and weight respond naturally while she remains in her place. Her relaxed hands stay low and visible, without touching clothing or waving.
+
+One continuous ten-second real-time shot. Hold the initial full-person camera view for about the first three and a quarter seconds so the skirt and sneakers read clearly. Then smoothly move the level 50mm camera closer and slightly higher over about two seconds, retaining complete hair and normal proportions, to settle into a head-to-mid-thigh medium view. Remain in that medium view while her smile, breathing and warm response continue naturally. The approach reveals the navy blazer lapels, cream-knit neckline, waist and black shoulder bag; it is a camera approach, not her walking forward.
+
+Preserve the exact M03 face, long wavy brown hair, same deep-navy soft-shouldered blazer, cream-white fine-gauge short-sleeve knit top, cream mid-calf A-line skirt, white-grey sneakers, black left-shoulder bag and silver necklace. Preserve coherent shaded daylight and rigid office wall, windows, bench and paving with plausible parallax. No zoom, orbit, spin, raised-arm gesture, internal cut, slow motion or text.
+PROMPT_END
+音訊只有真有開關才關；無法關就保留AAC如實回報，不因音訊重生。完成列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、明確模型版本、剩餘額度無欄位就unknown。代理回報、抽樣與QA分開，不宣告物理／身份／接點或成片通過。

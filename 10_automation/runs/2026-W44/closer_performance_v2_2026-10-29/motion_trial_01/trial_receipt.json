@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "asset_uuid": "8158973f-6eb6-4f89-bf4c-3282f2da74b6",
+  "source_sha256": "6b48a9226ab6e01ca26cc6f80f32992ab70984bd8946ca3093dd11226e03ee09",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "decoded_frames": 145,
+  "generation_count": 1,
+  "native_speed": true,
+  "review_audio_removed_only": true,
+  "continuous_manual_playback": false,
+  "user_approval": null,
+  "parameter_evidence": "Grok agent UI report; internal engine call not observed",
+  "download_tool_wall_seconds": 1592.2461,
+  "sample_review": "13 frames at0.5s: gaze returns to lens by~1s, turn at1.5–3s is larger than planned subtle15deg, exposing bag front and hardware; returns frontal by3.5s and tilts head late. Smile remains restrained. No continuous naturalness/identity/bag-continuity pass."
+}

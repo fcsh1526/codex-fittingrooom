@@ -1,0 +1,271 @@
+{
+  "id": "W45_M02_short_meeting_v2",
+  "units": "schematic",
+  "unit_note": "Relative schematic units; physical scale is unmeasured. Framing uses an explicit off-centre principal point, not a calibrated lens or a promised engine trajectory.",
+  "axes": "x_right_y_up_z_forward",
+  "geometry": [
+    {
+      "id": "wall",
+      "vertices": [
+        [
+          -2,
+          0,
+          4.4
+        ],
+        [
+          2,
+          0,
+          4.4
+        ],
+        [
+          2,
+          2.6,
+          4.4
+        ],
+        [
+          -2,
+          2.6,
+          4.4
+        ]
+      ]
+    },
+    {
+      "id": "pavement",
+      "vertices": [
+        [
+          -2,
+          0,
+          2.5
+        ],
+        [
+          2,
+          0,
+          2.5
+        ],
+        [
+          2,
+          0,
+          4.4
+        ],
+        [
+          -2,
+          0,
+          4.4
+        ]
+      ]
+    }
+  ],
+  "render_model": {
+    "person_height": 1.68,
+    "normalized_focal_length": 1.416666666666667,
+    "principal_point_uv": [
+      0.5,
+      0.338
+    ],
+    "note": "Simplified perspective/framing illustration only; level camera, fixed independent camera path. Not anatomy, gait or physical camera calibration."
+  },
+  "routes": [
+    {
+      "shot_id": "S01",
+      "character_samples": [
+        {
+          "frame": 0,
+          "position": [
+            0.3,
+            0,
+            3.5
+          ],
+          "heading_degrees": 180,
+          "gait_phase": "standing; contact must be checked in generated footage"
+        },
+        {
+          "frame": 48,
+          "position": [
+            0.3,
+            0,
+            3.5
+          ],
+          "heading_degrees": 180,
+          "gait_phase": "standing; contact must be checked in generated footage"
+        },
+        {
+          "frame": 84,
+          "position": [
+            0.22,
+            0,
+            3.25
+          ],
+          "heading_degrees": 180,
+          "gait_phase": "short approach; gait phase not simulated"
+        },
+        {
+          "frame": 120,
+          "position": [
+            8.572527594031473e-18,
+            0,
+            3.0
+          ],
+          "heading_degrees": 180,
+          "gait_phase": "standing; contact must be checked in generated footage"
+        },
+        {
+          "frame": 192,
+          "position": [
+            8.572527594031473e-18,
+            0,
+            3.0
+          ],
+          "heading_degrees": 180,
+          "gait_phase": "standing; contact must be checked in generated footage"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 0,
+          "position": [
+            0,
+            1.15,
+            0
+          ],
+          "target": [
+            0,
+            1.15,
+            4
+          ],
+          "vertical_fov_degrees": 38.880069656352376
+        },
+        {
+          "frame": 48,
+          "position": [
+            0,
+            1.15,
+            0
+          ],
+          "target": [
+            0,
+            1.15,
+            4
+          ],
+          "vertical_fov_degrees": 38.880069656352376
+        },
+        {
+          "frame": 84,
+          "position": [
+            0,
+            1.15,
+            0
+          ],
+          "target": [
+            0,
+            1.15,
+            4
+          ],
+          "vertical_fov_degrees": 38.880069656352376
+        },
+        {
+          "frame": 120,
+          "position": [
+            0,
+            1.15,
+            0
+          ],
+          "target": [
+            0,
+            1.15,
+            4
+          ],
+          "vertical_fov_degrees": 38.880069656352376
+        },
+        {
+          "frame": 192,
+          "position": [
+            0,
+            1.15,
+            0
+          ],
+          "target": [
+            0,
+            1.15,
+            4
+          ],
+          "vertical_fov_degrees": 38.880069656352376
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 0,
+          "person_center_uv": [
+            0.7158730158730159,
+            0.4634761904761905
+          ],
+          "person_height_fraction": 0.68,
+          "visible_landmark_ids": [
+            "wall",
+            "pavement"
+          ],
+          "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+        },
+        {
+          "frame": 48,
+          "person_center_uv": [
+            0.7158730158730159,
+            0.4634761904761905
+          ],
+          "person_height_fraction": 0.68,
+          "visible_landmark_ids": [
+            "wall",
+            "pavement"
+          ],
+          "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+        },
+        {
+          "frame": 84,
+          "person_center_uv": [
+            0.6704843304843305,
+            0.47312820512820514
+          ],
+          "person_height_fraction": 0.7323076923076924,
+          "visible_landmark_ids": [
+            "wall",
+            "pavement"
+          ],
+          "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+        },
+        {
+          "frame": 120,
+          "person_center_uv": [
+            0.5,
+            0.48438888888888887
+          ],
+          "person_height_fraction": 0.7933333333333334,
+          "visible_landmark_ids": [
+            "wall",
+            "pavement"
+          ],
+          "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+        },
+        {
+          "frame": 192,
+          "person_center_uv": [
+            0.5,
+            0.48438888888888887
+          ],
+          "person_height_fraction": 0.7933333333333334,
+          "visible_landmark_ids": [
+            "wall",
+            "pavement"
+          ],
+          "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+        }
+      ]
+    }
+  ],
+  "route_function": {
+    "start_seconds": 2,
+    "move_seconds": 3,
+    "x_start": 0.3,
+    "x_bulge": 0.07,
+    "z_start": 3.5,
+    "z_travel": 0.5
+  }
+}

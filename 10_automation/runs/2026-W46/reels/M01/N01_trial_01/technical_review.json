@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "video_id": "a5fb8833-70c7-4b86-b2c1-ec06eb533f55",
+  "source_sha256": "64436d63061f06a269ebef9edbeeb6ac3f1a1f593dc4d70faaa6597927560701",
+  "silent_sha256": "f5f4465b2ac722eea622c44d6e22c25ff8cd7082d1352abcb41de21234b539b7",
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 145,
+  "duration_seconds": 6.041666666666667,
+  "full_decode": "pass",
+  "silent_copy_frames_and_timing_identical": true,
+  "visual_review": "每 0.5 秒抽格，畫布一倍速動態抽看至2.87秒；非全片連續目視",
+  "observation": "約1.5秒笑意展開，約2–3.5秒露齒笑，後段收回微笑。頭身與場景大致穩定；動態身份及開場吸引力待使用者回饋。",
+  "ui_observed_times": [
+    0,
+    0.680474,
+    2.871786
+  ],
+  "user_clip_acceptance": "pending"
+}

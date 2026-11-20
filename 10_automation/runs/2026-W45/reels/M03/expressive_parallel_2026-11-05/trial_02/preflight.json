@@ -1,0 +1,9 @@
+{
+  "approved_source_sha256_matches": true,
+  "identity_files_exist": true,
+  "new_stills_needed_for_first_test": false,
+  "same_service": true,
+  "prior_failed_trials_in_this_expressive_branch": 1,
+  "this_request_max_jobs": 1,
+  "pause_after_second_failure_unless_user_further_directs": true
+}

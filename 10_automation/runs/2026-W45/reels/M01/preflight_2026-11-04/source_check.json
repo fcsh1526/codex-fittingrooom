@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04",
+  "L01_user_approval_receipt": "10_automation/runs/2026-W45/approvals/M01_L01_still_approval_2026-11-04.json",
+  "L02_user_approval": "10_automation/runs/2026-W45/approvals/M01_L02_still_approval_2026-11-04.json",
+  "two_source_pixels_same": true,
+  "manual_height_fraction_L01": 0.8660287081339713,
+  "manual_height_fraction_L02": 0.8660287081339713,
+  "actual_height_difference_percentage_points_approx": 0,
+  "head_top_waist_shoe_alignment": "visually close; source bounds manually estimated",
+  "gesture_safety": "No full horizontal arm span at this closer86.6% frame. Bend elbows, hands remain inside frame and away from torso; no turn/arm crossing/backward arm swing.",
+  "L01_route": "fixed stance, natural weight shift only, no forward walk",
+  "L02_route": "independent fixed stance, small shoulder turn, then return to lens; approved to animate after scoped adoption",
+  "transition_plan": "0.75s comparison baseline, match neutral hands/front face at outgoing/incoming source overlap. Actual dynamic joins not yet tested."
+}

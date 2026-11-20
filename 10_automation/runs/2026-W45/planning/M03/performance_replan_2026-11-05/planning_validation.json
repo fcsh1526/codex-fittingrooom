@@ -1,0 +1,26 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: 完整並排片仍需兩側來源與第二段可用起點／相鄰接點證據；不得用6秒來源延長為9.25秒",
+    "declared missing asset: 本圖為助理新繪製分鏡，使用者尚未看過精確圖；既有ok授權規劃及一側短測，非整片視覺接受",
+    "declared missing asset: 完整計畫的身份／首圖核准收據需依現有精確紀錄連接，不能補造核准",
+    "M03_face: user identity approval evidence required",
+    "M03_full: user identity approval evidence required",
+    "new_board: user storyboard approval evidence required",
+    "still_L01: user still approval evidence required",
+    "still_L02: user still approval evidence required",
+    "shot P02: no planned source image input"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 222,
+    "overlap_frames": 18,
+    "clear_read_frames_by_shot": {
+      "P01": 102,
+      "P02": 102
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

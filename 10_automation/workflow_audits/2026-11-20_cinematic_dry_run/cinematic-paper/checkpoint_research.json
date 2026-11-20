@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "project_id": "mira-w47-m01-cinematic-dry-run-20261120",
+  "pipeline_type": "cinematic",
+  "stage": "research",
+  "status": "in_progress",
+  "timestamp": "2026-11-20T05:58:59.199187+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "research_brief": {
+      "version": "1.0",
+      "topic": "\u540c\u4ef6\u77ed\u5916\u5957\u958b\u9818\u8207\u7acb\u9818",
+      "research_date": "2026-11-20",
+      "landscape": {
+        "existing_content": [
+          {
+            "title": "slow.and \u683c\u7d0b\u5169\u7a2e\u7a7f\u6cd5",
+            "source": "slow.and \u683c\u7d0b\u5169\u7a2e\u7a7f\u6cd5",
+            "angle": "\u540c\u4e00\u55ae\u54c1\u5efa\u7acb\u53ef\u6bd4\u8f03\u7684\u72c0\u614b",
+            "what_it_covers": "\u540c\u4e00\u55ae\u54c1\u5efa\u7acb\u53ef\u6bd4\u8f03\u7684\u72c0\u614b",
+            "url": "https://www.instagram.com/p/Df028l7mLyy/"
+          },
+          {
+            "title": "syuan_ord Fitcheck",
+            "source": "syuan_ord Fitcheck",
+            "angle": "\u6301\u7e8c\u540c\u5957\u9020\u578b\uff0c\u4ee5\u8996\u7dda\u6539\u8b8a\u89c0\u773e\u6ce8\u610f\u9ede",
+            "what_it_covers": "\u6301\u7e8c\u540c\u5957\u9020\u578b\uff0c\u4ee5\u8996\u7dda\u6539\u8b8a\u89c0\u773e\u6ce8\u610f\u9ede",
+            "url": "https://www.instagram.com/reel/DfbfZTaIZqQ/"
+          },
+          {
+            "title": "W47 \u539f\u5206\u93e1",
+            "source": "W47 \u539f\u5206\u93e1",
+            "angle": "\u60c5\u5883\u3001\u670d\u88dd\u8207\u4e26\u6392\u76ee\u7684",
+            "what_it_covers": "\u60c5\u5883\u3001\u670d\u88dd\u8207\u4e26\u6392\u76ee\u7684",
+            "url": "mira:/10_automation/runs/2026-W47/publishing_structure.md"
+          }
+        ],
+        "saturated_angles": [],
+        "underserved_gaps": [
+          "\u672c\u6848\u73fe\u6709\u7247\u6bb5\u7f3a\u5c11\u53ef\u4fe1\u7684\u6263\u5408\u64cd\u4f5c\u3002"
+        ]
+      },
+      "data_points": [
+        {
+          "claim": "\u539f\u4f01\u5283\u6838\u5fc3\u70ba\u540c\u4ef6\u5916\u5957\u958b\u5408\u3002",
+          "source_url": "mira:/10_automation/runs/2026-W47/publishing_structure.md",
+          "credibility": "primary_source"
+        },
+        {
+          "claim": "\u7cbe\u78ba\u62c9\u934a\u64cd\u4f5c\u9000\u4ef6\u3002",
+          "source_url": "mira:/10_automation/runs/2026-W47/reels/M01/S01_trial_01/REVIEW.md",
+          "credibility": "primary_source"
+        },
+        {
+          "claim": "W46 \u9ed1\u978b\u4e26\u6392\u63a5\u53d7\u53ea\u5c6c\u8a72\u7247\u3002",
+          "source_url": "mira:/10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/user_full_film_acceptance_2026-11-12.json",
+          "credibility": "primary_source"
+        }
+      ],
+      "audience_insights": {
+        "common_questions": [
+          "\u7b2c\u4e00\u773c\u770b\u54ea\u88e1\uff1f",
+          "\u98a8\u5982\u4f55\u6539\u8b8a\u6ce8\u610f\u529b\uff1f",
+          "\u54ea\u4e00\u683c\u80fd\u8fa8\u5225\u5169\u7a2e\u8f2a\u5ed3\uff1f"
+        ],
+        "misconceptions": [],
+        "knowledge_level": "\u4ee5\u4e0a\u70ba\u7de8\u8f2f\u63d0\u51fa\u7684\u89c0\u770b\u554f\u984c\uff0c\u5c1a\u7121\u89c0\u773e\u8abf\u67e5\u3002"
+      },
+      "angles_discovered": [
+        {
+          "name": "\u5230\u9580\u53e3\u9047\u5230\u98a8",
+          "hook": "\u5979\u6703\u600e\u9ebc\u56de\u61c9\u51b7\u98a8\uff1f",
+          "type": "narrative",
+          "why_now": "\u6709\u65e5\u5e38\u52d5\u6a5f\uff1b\u670d\u88dd\u548c\u62db\u624b\u53ef\u80fd\u7af6\u722d\u6ce8\u610f\u529b\u3002"
+        },
+        {
+          "name": "\u540c\u4e00\u5f35\u81c9\uff0c\u5169\u7a2e\u9818\u7dda",
+          "hook": "\u5148\u9078\u4e00\u908a\uff1a\u54ea\u500b\u9818\u53e3\u8b93\u81c9\u65c1\u8f2a\u5ed3\u66f4\u4fd0\u843d\uff1f",
+          "type": "evergreen",
+          "why_now": "\u4e09\u6bb5\u5df2\u6709\u539f\u901f\u7d20\u6750\uff0c\u80fd\u4ee5\u4eba\u7269\u52d5\u975c\u6539\u8b8a\u89c0\u773e\u6ce8\u610f\u4f4d\u7f6e\u3002"
+        },
+        {
+          "name": "\u8ddf\u8457\u5979\u7684\u8996\u7dda",
+          "hook": "\u5979\u770b\u5411\u8ab0\uff1f",
+          "type": "evergreen",
+          "why_now": "\u6709\u8868\u6f14\u8d77\u4f0f\uff0c\u4f46\u73fe\u6709\u756b\u9762\u6b20\u7f3a\u5c0d\u65b9\u6216\u56de\u61c9\u7dda\u7d22\uff0c\u4e14\u8863\u9818\u6bd4\u8f03\u8b8a\u5f31\u3002"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.instagram.com/p/Df028l7mLyy/",
+          "title": "slow.and \u683c\u7d0b\u5169\u7a2e\u7a7f\u6cd5",
+          "used_for": "\u540c\u4e00\u55ae\u54c1\u5efa\u7acb\u53ef\u6bd4\u8f03\u7684\u72c0\u614b"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DfbfZTaIZqQ/",
+          "title": "syuan_ord Fitcheck",
+          "used_for": "\u6301\u7e8c\u540c\u5957\u9020\u578b\uff0c\u4ee5\u8996\u7dda\u6539\u8b8a\u89c0\u773e\u6ce8\u610f\u9ede"
+        },
+        {
+          "url": "mira:/10_automation/runs/2026-W47/publishing_structure.md",
+          "title": "W47 \u539f\u5206\u93e1",
+          "used_for": "\u60c5\u5883\u3001\u670d\u88dd\u8207\u4e26\u6392\u76ee\u7684"
+        },
+        {
+          "url": "mira:/10_automation/runs/2026-W47/reels/M01/S01_trial_01/REVIEW.md",
+          "title": "\u62c9\u934a\u9000\u4ef6",
+          "used_for": "\u907f\u958b\u932f\u8aa4\u7684\u7269\u4ef6\u63a5\u89f8"
+        },
+        {
+          "url": "mira:/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+          "title": "\u539f\u526a\u8f2f\u8868",
+          "used_for": "\u4f86\u6e90\u8207\u6f14\u51fa"
+        },
+        {
+          "url": "mira:/10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/user_full_film_acceptance_2026-11-12.json",
+          "title": "W46 \u63a5\u53d7\u6536\u64da",
+          "used_for": "\u78ba\u8a8d\u4e0a\u4e00\u7247\u4e26\u6392\u63a5\u53d7\u7684\u7bc4\u570d"
+        }
+      ],
+      "metadata": {
+        "mode": "dry_run",
+        "approval": "unapproved",
+        "external_generation": false,
+        "source_scheme": "file references with mira:/ resolved relative to the Mira workspace",
+        "new_web_queries": 0,
+        "scope": "\u56fa\u5b9a\u5df2\u89c0\u5bdf\u7684\u5171\u540c\u8b49\u64da\uff1b\u539f\u751f\u5b8c\u6574\u88fd\u4f5c\u7684 8 \u6b21\u641c\u5c0b\u672a\u57f7\u884c\u3002"
+      }
+    }
+  },
+  "metadata": {
+    "mode": "dry_run",
+    "reason": "Fixed references for comparison. Production research scope and approvals are not claimed."
+  }
+}

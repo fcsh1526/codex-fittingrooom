@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-05",
+  "status": "internal_test_not_promoted",
+  "viewer_purpose": "Compare the same navy blazer with work trousers and a cream A-line skirt, via generous outfit poses.",
+  "motivation": "A playful outfit presentation addressed to the camera, with turn revealing side/back, then frontal waist/hip poses for clear comparison.",
+  "authorization": "User selected A parallel layout; latest ok acknowledges that production direction, not film/publication approval.",
+  "main_variable": "Order plus static framing, based on internal v2 review; not a single-variable causal comparison.",
+  "left_intervals": [
+    [
+      126,
+      192
+    ],
+    [
+      0,
+      78
+    ]
+  ],
+  "right_intervals": [
+    [
+      144,
+      210
+    ],
+    [
+      0,
+      78
+    ]
+  ],
+  "join_output_frames": [
+    48,
+    66
+  ],
+  "overlap_frames": 18,
+  "output_frames": 126,
+  "fps": 24,
+  "native_speed": true,
+  "crop": [
+    80,
+    0,
+    560,
+    1280
+  ],
+  "panel": [
+    356,
+    1280
+  ],
+  "gutter": 8,
+  "scale": 0.6357142857142857,
+  "no_ai_warp_or_optical_flow": true,
+  "new_stills": 0,
+  "new_video_jobs": 0,
+  "expected_limit": "Double outlines can remain. Test whether frontal-return-to-frontal-start reduces face mismatch; not a physical repair or zero-ghost promise.",
+  "output": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v3/M03_W45_parallel_selected_review_v3.mp4",
+  "output_sha256": "9c01bdd2889f430b7acd29e9de872b3d97231b22066429324d2cd7feaaef99f1",
+  "seconds": 5.25,
+  "width": 720,
+  "height": 1280,
+  "audio": false,
+  "full_decode": true,
+  "all_126_frames_encoded": true,
+  "source_and_v1_hashes_preserved": true,
+  "sample_frames_every": 3,
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "continuous_human_visual_review": false,
+  "visual_outcome": "Wider560px crop still clips a hand near0.875s; figures smaller. Not selected for presentation.",
+  "latest_candidate": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/edit_receipt.json"
+}

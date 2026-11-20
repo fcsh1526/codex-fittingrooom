@@ -1,5 +1,7 @@
 # Mira Project Instructions
 
+Mira 的正式經驗庫是 `fcsh1526/codex-fittingrooom` 的 `main`。每次導演或製作工作有新決策、退件、改版或學習時，在對應週／研究目錄記下版本、原因與適用範圍，從交接頁連回來源。收尾依 `10_automation/GITHUB_SYNC_SCOPE.md` 對照遠端並核實提交。借用外部工具時，將 Mira 自己的劇本、場景、聲音設計及審查結論存進本庫。
+
 ## 雲端與新環境接手
 
 先讀 `10_automation/CLOUD_HANDOFF.md`，再依下方順序讀主流程與最新狀態。Reel 的六種方法、三層觀看目的、人物表演、IG 參考及運鏡經驗都在版本庫內，入口為 `09_sops/mira_reel_method_catalog.md` 和 `11_skills/mira-reel-director/SKILL.md`。技能未出現在環境清單時直接讀取版本庫中的 SKILL.md。專案的 `.agents/skills/` 提供對應入口。

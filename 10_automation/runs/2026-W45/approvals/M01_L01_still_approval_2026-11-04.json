@@ -1,0 +1,13 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "ok",
+  "recorded_at": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "context": "Direct reply to M02 trial03 video preview plus M01 L01 still link and explicit request to confirm new still before video. Accepted both displayed scoped items.",
+  "scope": "exact M01 L01 Reel starting still",
+  "asset_path": "10_automation/runs/2026-W45/generated_images/2026-W45-001/looks/2026-W45-001-L01/reel/2026-W45-001-L01_M01_reel_candidate_A.png",
+  "target_sha256": "ead6fbc6a18450afe8e09b814ef99fc2a322c3aba655b40cfc3f2735ffd0ebb9",
+  "movement_authority": "Proceed with this closer approximately86.6% source; reconcile L02 scale and arm safety before motion.",
+  "limits": "Not acceptance of unseen L02 still, M01 video, Carousel or publication."
+}

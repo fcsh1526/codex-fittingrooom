@@ -1,0 +1,20 @@
+本次只生成一支W45 M03 L01真人感重設trial01，6秒720p原生9:16。使用者已同意先測單鏡身體／視線／表情連動。不是舊L01 trial01/trial02，不是M03兩套重剪，也不是L02；新機制只這一次，不重試、不合片、不補新圖、不修改刪除既有媒體、不加購額度或換服務。
+
+精確輸入：
+first_frame_asset_id: "2e8df556-7034-4788-92d8-3a769fcdfed3"
+asset_ids: ["26e03f42-2907-488c-b75c-239a2a19b9c8","15c720b2-46b6-45e0-a150-60290e3290e6"]
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+不設last_frame_asset_id或keyframes。
+
+先實際看三張圖：first必須是核准framing_v2（長棕捲髮M03，深藍西外／白T／炭灰直褲／黑樂福／黑左肩包，辦公樓遮簷長凳，人物約74%畫高）。face/full只鎖M03 v3身份與自然比例，不複製棚拍白襯衫造型。三個UUID此前實際下載SHA已核對；找不到、內容不符、額度不足或6秒設定不支援就停下，不代換。不能沿用a5cdb89d或2919da8e舊片冒充新輸出。
+
+本鏡目的：完整讀褲裝與西外側線，做連動的自然小轉身；不把雙腳全程鎖死、雙手固定、持續直視或大笑當作附加要求。不要加額外笑容演出或招手。
+以下英文逐字傳入prompt，標記不傳入：
+PROMPT_BEGIN
+A friend is filming her outfit outside the office. Begin from the exact approved image, already relaxed. She casually shifts her weight and turns her hips and shoulders a little toward frame-left to show the blazer's side line. As her body settles, she briefly looks back to the friend at the lens with an easy smile, then lets her attention follow the direction of her body. Her head, eyes, expression, arms, balance and fabric respond together with ordinary pauses, like a candid moment during a quick outfit video.
+
+One continuous six-second real-time full-person shot with the original locked, level chest-height 50mm camera. Allow comfortable natural foot repositioning for the small turn; retain complete hair and both shoes in frame. Keep the open blazer, white neckline, waist and charcoal-trouser silhouette readable. Keep the same M03 face, long wavy brown hair, deep-navy soft-shouldered blazer, white crewneck cotton tee, charcoal straight trousers, black loafers, small black bag on her left shoulder and fine silver necklace. Preserve the shaded office wall, windows, bench and paving. No sustained posed grin, theatrical laugh, speech, full spin, walk toward camera, camera movement, slow motion, cut or text.
+PROMPT_END
+音訊僅有實際開關才關；沒有便如實保留AAC，不能為音訊重生。完成列實際輸入UUID、可用設定、英文原文是否傳入、新影片UUID、實際時長／像素／音軌。seed、明確模型版本與剩餘額度無欄位就unknown。代理回報、可見畫面、實際檔案與原速審查分開，不宣告真人感、身份或物理通過。

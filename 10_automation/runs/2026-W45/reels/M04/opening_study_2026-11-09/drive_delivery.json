@@ -1,0 +1,36 @@
+{
+  "content_week": "2026-W45",
+  "look": "2026-W45-004-L01",
+  "release_approval": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_release_approval.json",
+  "upload_authorization_quote": "同意上傳",
+  "folder_id": "1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "folder_url": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "assets": {
+    "video": {
+      "name": "W45_M04_L01_Reel_A.mp4",
+      "id": "1B3m1Gd3Dk16imtnBYlsiywSV2x6rmmR_",
+      "url": "https://drive.google.com/file/d/1B3m1Gd3Dk16imtnBYlsiywSV2x6rmmR_/view?usp=drivesdk",
+      "size": 2311834,
+      "mime_type": "video/mp4",
+      "local_sha256": "6dfed7f49c19afbf5f7899051295730464b1692d37a4c89ffeeacd04643064b7"
+    },
+    "cover": {
+      "name": "W45_M04_L01_Cover.png",
+      "id": "187nZnnNfa-1vegJB5DhutLrQQzce_eGt",
+      "url": "https://drive.google.com/file/d/187nZnnNfa-1vegJB5DhutLrQQzce_eGt/view?usp=drivesdk",
+      "size": 1242619,
+      "mime_type": "image/png",
+      "local_sha256": "2a80ae4d7d47cc6c58089e228feeecf5be1a3abd75d10f7e565e109b9b48145d"
+    }
+  },
+  "native_google_doc": {
+    "id": "1LFWZ6eLUvTtl071yzdcOsoTjhpTBwjcIxVDmPZuoRKE",
+    "url": "https://docs.google.com/document/d/1LFWZ6eLUvTtl071yzdcOsoTjhpTBwjcIxVDmPZuoRKE/edit?usp=drivesdk",
+    "caption_and_asset_links_readback_verified": true
+  },
+  "folder_membership_verified": true,
+  "remote_media_name_mime_size_verified": true,
+  "external_handoff_performed": true,
+  "instagram_published": false,
+  "instagram_url": null
+}

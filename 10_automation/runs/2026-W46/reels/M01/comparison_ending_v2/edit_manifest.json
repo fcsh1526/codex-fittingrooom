@@ -1,0 +1,134 @@
+{
+  "output": "10_automation/runs/2026-W46/reels/M01/comparison_ending_v2/M01_comparison_ending_timing_only_v2.mp4",
+  "sha256": "58afd91e99577682cf5a251ad3b787e2d0203f4ee7d2520b567f7c314c3ac84c",
+  "frame_count": 258,
+  "fps": 24,
+  "duration": 10.75,
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "segments": [
+    {
+      "shot": "N01",
+      "path": "10_automation/runs/2026-W46/reels/M01/N01_trial_01/source.mp4",
+      "sha256": "64436d63061f06a269ebef9edbeeb6ac3f1a1f593dc4d70faaa6597927560701",
+      "source_frames": [
+        18,
+        48
+      ],
+      "output_frames": [
+        0,
+        30
+      ]
+    },
+    {
+      "shot": "N02",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+      "source_frames": [
+        0,
+        18
+      ],
+      "output_frames": [
+        30,
+        48
+      ]
+    },
+    {
+      "shot": "N03",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/source.mp4",
+      "sha256": "ba30f3caa2a6e759c8b83a83f11def52b8306623c31968988d40d0bee35ee33f",
+      "source_frames": [
+        66,
+        108
+      ],
+      "output_frames": [
+        48,
+        90
+      ]
+    },
+    {
+      "shot": "N04",
+      "path": "10_automation/runs/2026-W46/reels/M01/N04_trial_01/source.mp4",
+      "sha256": "1ccec4c4f9aaec915b714260e92355ceff307ac35b8947b0a822449ca25bae54",
+      "source_frames": [
+        36,
+        72
+      ],
+      "output_frames": [
+        90,
+        126
+      ]
+    },
+    {
+      "shot": "N06",
+      "path": "10_automation/runs/2026-W46/reels/M01/N06_N08_trial_01/source.mp4",
+      "sha256": "d7d62d09d668c2aeb5cb908abb7fce2907018381e188f1a35ab2fbb989dba21b",
+      "source_frames": [
+        0,
+        60
+      ],
+      "output_frames": [
+        126,
+        186
+      ]
+    },
+    {
+      "shot": "N07",
+      "output_frames": [
+        186,
+        258
+      ],
+      "left": {
+        "path": "10_automation/runs/2026-W46/reels/M01/N07_left_extension/source.mp4",
+        "sha256": "45bc16134695103c41eb9aec42bcff6b9058334e36c5066a75944492e26b1a6b",
+        "source_frames": [
+          12,
+          84
+        ],
+        "crop": [
+          180,
+          0,
+          480,
+          1280
+        ],
+        "scale": [
+          360,
+          960
+        ],
+        "position": [
+          0,
+          160
+        ]
+      },
+      "right": {
+        "path": "10_automation/runs/2026-W46/reels/M01/N06_N08_trial_01/source.mp4",
+        "sha256": "d7d62d09d668c2aeb5cb908abb7fce2907018381e188f1a35ab2fbb989dba21b",
+        "source_frames": [
+          72,
+          144
+        ],
+        "crop": [
+          100,
+          0,
+          480,
+          1280
+        ],
+        "scale": [
+          360,
+          960
+        ],
+        "position": [
+          360,
+          160
+        ]
+      },
+      "background": "right source scaled full frame with gaussian blur sigma24"
+    }
+  ],
+  "stage": "Timing-only recut; skirt shoes still burgundy pending approved replacement source",
+  "visual_review": "complete decode, 1fps contact-sheet visually inspected; no new continuous native-speed playback",
+  "user_acceptance": "pending",
+  "frame_ranges": "zero-based, end-exclusive",
+  "normalization": "CFR24"
+}

@@ -1,0 +1,37 @@
+Grok
+思考了1 秒
+
+W45 M05 L02 展館入口 — 一次
+
+三圖核對
+角色	UUID	檔名／內容
+first	23f9fa86-c540-4c0b-9fef-232f353a4d3b	…L02_M05_reel_candidate_A：展館入口；灰藍開衫／白T／深藍直褲／白灰鞋／棕包 — 相符
+face	0cca4769-6066-4619-aa63-c0aabf0a9a66	M05_start_v1_face — 相符
+full	d87130ac-c61c-4e00-97e2-a6dfc8677786	M05_start_v1_full 棚拍比例 — 相符
+
+未用 M04 或棚拍當 first。
+
+實際傳入
+參數	值	接受
+first	23f9fa86-…	是
+asset_ids	0cca4769-…、d87130ac-…	是
+last / keyframes	未設	—
+duration / res / AR	"6" / "720p" / "9:16"	是
+prompt	PROMPT 英文原文逐字	是
+seed / model / 額度	unknown	—
+輸出
+項目	實際
+影片 UUID	2c0ebf8b-0515-4b63-832c-158c5b511792
+時長	6.04 s
+像素	720×1280
+音軌	有（AAC；工具無音訊關控）
+抽樣觀察（不宣告通過）
+時間	觀察
+0–2s	近正面；微笑；頭鞋在框；距離大致不變
+~3–4s	略側身；對展廳方向
+~5s	純側面對展廳；開衫側線可讀；鞋在框
+
+抽樣： 手低；無大步走近。末側轉可能 > 半步。
+不認證身份／服裝／動作通過。只此一支。
+
+開啟 Imagine Canvas

@@ -1,0 +1,72 @@
+[
+  {
+    "model": "M02",
+    "role": "face",
+    "path": "02_brand/reference_models/M02_start_v3_face.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M02",
+    "role": "full",
+    "path": "02_brand/reference_models/M02_start_v3_full.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M01",
+    "role": "face",
+    "path": "02_brand/reference_models/M01_start_v4_face.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M01",
+    "role": "full",
+    "path": "02_brand/reference_models/M01_start_v4_full.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M04",
+    "role": "face",
+    "path": "02_brand/reference_models/M04_start_v3_face.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M04",
+    "role": "full",
+    "path": "02_brand/reference_models/M04_start_v3_full.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M03",
+    "role": "face",
+    "path": "02_brand/reference_models/M03_start_v3_face.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M03",
+    "role": "full",
+    "path": "02_brand/reference_models/M03_start_v3_full.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M05",
+    "role": "face",
+    "path": "02_brand/reference_models/M05_start_v1_face.png",
+    "exists": true,
+    "reference_status": "approved"
+  },
+  {
+    "model": "M05",
+    "role": "full",
+    "path": "02_brand/reference_models/M05_start_v1_full.png",
+    "exists": true,
+    "reference_status": "approved"
+  }
+]

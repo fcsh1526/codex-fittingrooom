@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "layout": "A parallel",
+  "viewer_purpose": "Same navy blazer with formal dark trousers/loafers versus light skirt/sneakers, natural response to photographer and one turn.",
+  "shot_count": 1,
+  "panel_source_frames": {
+    "left": [
+      0,
+      145
+    ],
+    "right": [
+      0,
+      145
+    ]
+  },
+  "source_sha256": [
+    "9fdca42aa8a3141601c8ab9c262f0d13c5c5432b0de12b4bcd1d8f5d146c511b",
+    "6ce2f27eaf5db550e27da1da1a7a8284ce4b347670e1cc2d6ef37b13a520d1e0"
+  ],
+  "crop_each_source": [
+    160,
+    0,
+    400,
+    1280
+  ],
+  "panel_width": 356,
+  "gutter": 8,
+  "scale_each": 0.89,
+  "fps": 24,
+  "frames": 145,
+  "seconds": 6.041666666666667,
+  "native_speed": true,
+  "internal_joins": [],
+  "transition_note": "No temporal shot cut exists: two continuous panels for the whole film. Existing0.75s rule remains for actual joins; not replaced with a hard cut.",
+  "baked_text": false,
+  "audio": false,
+  "new_still_calls": 0,
+  "new_source_jobs": 2,
+  "no_freeze_repeat_reverse_retime_or_flow": true,
+  "user_film_acceptance": null,
+  "publication_approval": null
+}

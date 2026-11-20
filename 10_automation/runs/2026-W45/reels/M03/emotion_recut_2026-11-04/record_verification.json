@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "output_sha256": "001ff0dc8fa724c61fd42846689d9877bb0957be296e6c65d8a7dc48795e2022",
+  "snapshot_count": 18,
+  "snapshot_hashes_unchanged": true,
+  "original_film_and_source_hashes_unchanged": true,
+  "new_still_calls": 0,
+  "new_video_jobs": 0,
+  "complete_decode": "passed",
+  "frame_mapping": {
+    "checked_unblended_frames": 159,
+    "A_mapping": "output[0,48)=A[0,48)",
+    "B_mapping": "output[66,177)=B[51,162)",
+    "A_max_MAD": 0.5735300779342651,
+    "B_max_MAD": 0.9579745531082153,
+    "result": "passed_encoder_loss_tolerance",
+    "limits": "Technical frame mapping only, not emotional/physical or continuous visual QA."
+  },
+  "continuous_visual_review": false,
+  "user_acceptance": null,
+  "publication_approval": null
+}

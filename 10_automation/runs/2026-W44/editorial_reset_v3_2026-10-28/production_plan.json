@@ -1,0 +1,1048 @@
+{
+  "schema_version": 1,
+  "plan_id": "2026-W44-001-editorial-reset-v3",
+  "status": "draft",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W44"
+    ],
+    "content": "2026-W44",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣成年女性工作日／週末的日常穿搭靈感",
+    "takeaway": "同一段出門路線，看紫色外搭褲裝的俐落輪廓，轉成白T內搭深藍洋裝的輕鬆裙裝輪廓。",
+    "visual_theme": "走過街角，換一種出門狀態",
+    "selection_rationale": "回應衣服變換不明顯、畫面不有趣、缺少長鏡頭趣味；先讓服裝輪廓、空間揭露與相機視角一起發展。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "continuous_route"
+  },
+  "models": [
+    {
+      "id": "M02",
+      "identity_asset_ids": [
+        "M02_face",
+        "M02_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W44-001-R3-L01",
+      "model_id": "M02",
+      "wardrobe_summary": "皇家紫薄V領開襟衫＋白圓領短袖T＋炭灰高腰直筒褲＋白灰低筒鞋＋黑小肩包＋細銀耳環",
+      "source_asset_ids": [
+        "source_W44"
+      ]
+    },
+    {
+      "id": "2026-W44-001-R3-L02",
+      "model_id": "M02",
+      "wardrobe_summary": "白圓領短袖T內搭深藍不透霧面細肩帶及小腿直身洋裝＋白灰低筒鞋＋深棕小肩包＋細銀耳環；不穿紫外搭",
+      "source_asset_ids": [
+        "source_W44"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 384,
+    "duration_seconds": 16,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W44-001-R3-L01"
+      ],
+      "frames": [
+        0,
+        198
+      ],
+      "clothing_purpose": "前段讀紫外搭、白T、直筒褲及鞋；相機從斜前方轉向側前方，柱與開闊處逐步進入畫面",
+      "clear_read_intervals": [
+        [
+          0,
+          162
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": "previs",
+      "overhead_asset_id": "overhead",
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "shared_world",
+      "action_start": "沿騎樓自然前進，服裝全貌可讀",
+      "action_end": "經過固定前景柱、仍沿同一時間路線前進",
+      "camera": "獨立曲線＋同時間朝向；固定40度垂直FOV，非鏡頭變焦"
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W44-001-R3-L02"
+      ],
+      "frames": [
+        180,
+        384
+      ],
+      "clothing_purpose": "同一段柱前重疊後揭開深藍洋裝，先讀完整裙裝，再在後段靠近讀白T領口與肩帶",
+      "clear_read_intervals": [
+        [
+          216,
+          384
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": "previs",
+      "overhead_asset_id": "overhead",
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "shared_world",
+      "action_start": "與S01同世界時間及位置，在柱前窗口換套",
+      "action_end": "進入較開闊處，鏡頭靠近到含臉中景，腳離框是預先設計",
+      "camera": "獨立時間曲線延續，後段接近；不把後製裁腳當作運鏡"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        180,
+        198
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve",
+      "note": "既有0.75秒比較基準，安排在前景柱通過窗口；未改為硬切／延長疊化，不宣稱生成後自然舒適。"
+    }
+  ],
+  "space": {
+    "id": "W44_editorial_reset_v3_shared_world",
+    "units": "schematic",
+    "unit_note": "Unmeasured fictional schematic units; no calibrated photoreal scene or real camera control claimed.",
+    "axes": "x_right_y_up_z_forward",
+    "geometry": [
+      {
+        "id": "wall",
+        "vertices": [
+          [
+            -2,
+            0,
+            -3
+          ],
+          [
+            -2,
+            3,
+            -3
+          ],
+          [
+            -2,
+            3,
+            7.2
+          ],
+          [
+            -2,
+            0,
+            7.2
+          ]
+        ],
+        "fill": "#e4e0d7",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "window_-1.5",
+        "vertices": [
+          [
+            -1.98,
+            0.5,
+            -1.5
+          ],
+          [
+            -1.98,
+            2.5,
+            -1.5
+          ],
+          [
+            -1.98,
+            2.5,
+            0.19999999999999996
+          ],
+          [
+            -1.98,
+            0.5,
+            0.19999999999999996
+          ]
+        ],
+        "fill": "#c9d9dc",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "window_1.2",
+        "vertices": [
+          [
+            -1.98,
+            0.5,
+            1.2
+          ],
+          [
+            -1.98,
+            2.5,
+            1.2
+          ],
+          [
+            -1.98,
+            2.5,
+            2.9
+          ],
+          [
+            -1.98,
+            0.5,
+            2.9
+          ]
+        ],
+        "fill": "#c9d9dc",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "window_4.4",
+        "vertices": [
+          [
+            -1.98,
+            0.5,
+            4.4
+          ],
+          [
+            -1.98,
+            2.5,
+            4.4
+          ],
+          [
+            -1.98,
+            2.5,
+            6.1000000000000005
+          ],
+          [
+            -1.98,
+            0.5,
+            6.1000000000000005
+          ]
+        ],
+        "fill": "#c9d9dc",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "canopy",
+        "vertices": [
+          [
+            -2,
+            2.85,
+            -3
+          ],
+          [
+            3.8,
+            2.85,
+            -3
+          ],
+          [
+            3.8,
+            2.85,
+            8.9
+          ],
+          [
+            -2,
+            2.85,
+            8.9
+          ]
+        ],
+        "fill": "#e9e5db",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "reveal_column_0",
+        "vertices": [
+          [
+            2.6295364530549663,
+            0.0,
+            8.254694090055448
+          ],
+          [
+            2.8595364530549667,
+            0.0,
+            8.254694090055448
+          ],
+          [
+            2.8595364530549667,
+            2.85,
+            8.254694090055448
+          ],
+          [
+            2.6295364530549663,
+            2.85,
+            8.254694090055448
+          ]
+        ],
+        "fill": "#ddd7c9",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "reveal_column_1",
+        "vertices": [
+          [
+            2.8595364530549667,
+            0.0,
+            8.254694090055448
+          ],
+          [
+            2.8595364530549667,
+            0.0,
+            8.484694090055449
+          ],
+          [
+            2.8595364530549667,
+            2.85,
+            8.484694090055449
+          ],
+          [
+            2.8595364530549667,
+            2.85,
+            8.254694090055448
+          ]
+        ],
+        "fill": "#ddd7c9",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "reveal_column_2",
+        "vertices": [
+          [
+            2.8595364530549667,
+            0.0,
+            8.484694090055449
+          ],
+          [
+            2.6295364530549663,
+            0.0,
+            8.484694090055449
+          ],
+          [
+            2.6295364530549663,
+            2.85,
+            8.484694090055449
+          ],
+          [
+            2.8595364530549667,
+            2.85,
+            8.484694090055449
+          ]
+        ],
+        "fill": "#ddd7c9",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "reveal_column_3",
+        "vertices": [
+          [
+            2.6295364530549663,
+            0.0,
+            8.484694090055449
+          ],
+          [
+            2.6295364530549663,
+            0.0,
+            8.254694090055448
+          ],
+          [
+            2.6295364530549663,
+            2.85,
+            8.254694090055448
+          ],
+          [
+            2.6295364530549663,
+            2.85,
+            8.484694090055449
+          ]
+        ],
+        "fill": "#ddd7c9",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "reveal_column_4",
+        "vertices": [
+          [
+            2.6295364530549663,
+            2.85,
+            8.254694090055448
+          ],
+          [
+            2.8595364530549667,
+            2.85,
+            8.254694090055448
+          ],
+          [
+            2.8595364530549667,
+            2.85,
+            8.484694090055449
+          ],
+          [
+            2.6295364530549663,
+            2.85,
+            8.484694090055449
+          ]
+        ],
+        "fill": "#ddd7c9",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "bench_0",
+        "vertices": [
+          [
+            -1.325,
+            0.42,
+            8.6
+          ],
+          [
+            -0.675,
+            0.42,
+            8.6
+          ],
+          [
+            -0.675,
+            0.54,
+            8.6
+          ],
+          [
+            -1.325,
+            0.54,
+            8.6
+          ]
+        ],
+        "fill": "#c8aa82",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "bench_1",
+        "vertices": [
+          [
+            -0.675,
+            0.42,
+            8.6
+          ],
+          [
+            -0.675,
+            0.42,
+            10.6
+          ],
+          [
+            -0.675,
+            0.54,
+            10.6
+          ],
+          [
+            -0.675,
+            0.54,
+            8.6
+          ]
+        ],
+        "fill": "#c8aa82",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "bench_2",
+        "vertices": [
+          [
+            -0.675,
+            0.42,
+            10.6
+          ],
+          [
+            -1.325,
+            0.42,
+            10.6
+          ],
+          [
+            -1.325,
+            0.54,
+            10.6
+          ],
+          [
+            -0.675,
+            0.54,
+            10.6
+          ]
+        ],
+        "fill": "#c8aa82",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "bench_3",
+        "vertices": [
+          [
+            -1.325,
+            0.42,
+            10.6
+          ],
+          [
+            -1.325,
+            0.42,
+            8.6
+          ],
+          [
+            -1.325,
+            0.54,
+            8.6
+          ],
+          [
+            -1.325,
+            0.54,
+            10.6
+          ]
+        ],
+        "fill": "#c8aa82",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "bench_4",
+        "vertices": [
+          [
+            -1.325,
+            0.54,
+            8.6
+          ],
+          [
+            -0.675,
+            0.54,
+            8.6
+          ],
+          [
+            -0.675,
+            0.54,
+            10.6
+          ],
+          [
+            -1.325,
+            0.54,
+            10.6
+          ]
+        ],
+        "fill": "#c8aa82",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "planter_0",
+        "vertices": [
+          [
+            -2.0,
+            0.0,
+            11.549999999999999
+          ],
+          [
+            -1.0,
+            0.0,
+            11.549999999999999
+          ],
+          [
+            -1.0,
+            0.6,
+            11.549999999999999
+          ],
+          [
+            -2.0,
+            0.6,
+            11.549999999999999
+          ]
+        ],
+        "fill": "#b6c8a4",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "planter_1",
+        "vertices": [
+          [
+            -1.0,
+            0.0,
+            11.549999999999999
+          ],
+          [
+            -1.0,
+            0.0,
+            12.65
+          ],
+          [
+            -1.0,
+            0.6,
+            12.65
+          ],
+          [
+            -1.0,
+            0.6,
+            11.549999999999999
+          ]
+        ],
+        "fill": "#b6c8a4",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "planter_2",
+        "vertices": [
+          [
+            -1.0,
+            0.0,
+            12.65
+          ],
+          [
+            -2.0,
+            0.0,
+            12.65
+          ],
+          [
+            -2.0,
+            0.6,
+            12.65
+          ],
+          [
+            -1.0,
+            0.6,
+            12.65
+          ]
+        ],
+        "fill": "#b6c8a4",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "planter_3",
+        "vertices": [
+          [
+            -2.0,
+            0.0,
+            12.65
+          ],
+          [
+            -2.0,
+            0.0,
+            11.549999999999999
+          ],
+          [
+            -2.0,
+            0.6,
+            11.549999999999999
+          ],
+          [
+            -2.0,
+            0.6,
+            12.65
+          ]
+        ],
+        "fill": "#b6c8a4",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "planter_4",
+        "vertices": [
+          [
+            -2.0,
+            0.6,
+            11.549999999999999
+          ],
+          [
+            -1.0,
+            0.6,
+            11.549999999999999
+          ],
+          [
+            -1.0,
+            0.6,
+            12.65
+          ],
+          [
+            -2.0,
+            0.6,
+            12.65
+          ]
+        ],
+        "fill": "#b6c8a4",
+        "edge": "#9da4a2"
+      },
+      {
+        "id": "plaza_edge",
+        "vertices": [
+          [
+            -2,
+            0,
+            8.9
+          ],
+          [
+            7,
+            0,
+            8.9
+          ],
+          [
+            7,
+            0.1,
+            9
+          ],
+          [
+            -2,
+            0.1,
+            9
+          ]
+        ],
+        "fill": "#c8c7bd",
+        "edge": "#9da4a2"
+      }
+    ],
+    "curve_controls": {
+      "character": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0.5,
+          0,
+          10
+        ],
+        [
+          5,
+          0,
+          12
+        ]
+      ],
+      "camera": [
+        [
+          2.1,
+          1.1,
+          3.0
+        ],
+        [
+          5.4,
+          1.1,
+          4.0
+        ],
+        [
+          3.8,
+          1.1,
+          12.5
+        ],
+        [
+          6,
+          1.1,
+          14.2
+        ]
+      ]
+    },
+    "timing": "person arc-length progression; camera independent cubic time curve; no per-look ease/reset",
+    "routes": [
+      {
+        "shot_id": "S01",
+        "character_samples": [
+          {
+            "frame": 0,
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "heading_degrees": 0.0,
+            "gait_phase": "diagram sine phase only; physical gait unvalidated"
+          },
+          {
+            "frame": 99,
+            "position": [
+              0.1352200935656116,
+              0.0,
+              3.5632900211473495
+            ],
+            "heading_degrees": 5.2378503726456564,
+            "gait_phase": "diagram sine phase only; physical gait unvalidated"
+          },
+          {
+            "frame": 198,
+            "position": [
+              0.7924211800191496,
+              0.0,
+              7.062329130094223
+            ],
+            "heading_degrees": 17.60216157642702,
+            "gait_phase": "diagram sine phase only; physical gait unvalidated"
+          }
+        ],
+        "camera_samples": [
+          {
+            "frame": 0,
+            "position": [
+              2.1,
+              1.1,
+              3.0
+            ],
+            "target": [
+              0.08071012303078096,
+              1.1,
+              -0.05490890089534961
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 99,
+            "position": [
+              4.1042291941929525,
+              1.1000000000000003,
+              6.038956216030082
+            ],
+            "target": [
+              0.09290436592832485,
+              1.1,
+              3.632458871029353
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 198,
+            "position": [
+              4.672609140965979,
+              1.1,
+              10.200122987521423
+            ],
+            "target": [
+              0.8220922505974628,
+              1.1,
+              7.025988683341565
+            ],
+            "vertical_fov_degrees": 40
+          }
+        ],
+        "projected_samples": [
+          {
+            "frame": 0,
+            "person_center_uv": [
+              0.4348807824337865,
+              0.6031993050470645
+            ],
+            "person_height_fraction": 0.619195830282387,
+            "visible_landmark_ids": [],
+            "visible_clothing": "planned full outfit then intentional closer closing view; actual bounds in projection_samples.json"
+          },
+          {
+            "frame": 99,
+            "person_center_uv": [
+              0.542338329868179,
+              0.5807716599467682
+            ],
+            "person_height_fraction": 0.48462995968060896,
+            "visible_landmark_ids": [],
+            "visible_clothing": "planned full outfit then intentional closer closing view; actual bounds in projection_samples.json"
+          },
+          {
+            "frame": 198,
+            "person_center_uv": [
+              0.4770389168569429,
+              0.5757080952051878
+            ],
+            "person_height_fraction": 0.45424857123112716,
+            "visible_landmark_ids": [],
+            "visible_clothing": "planned full outfit then intentional closer closing view; actual bounds in projection_samples.json"
+          }
+        ]
+      },
+      {
+        "shot_id": "S02",
+        "character_samples": [
+          {
+            "frame": 180,
+            "position": [
+              0.6128710207163208,
+              0.0,
+              6.439191099953925
+            ],
+            "heading_degrees": 14.610351703568178,
+            "gait_phase": "diagram sine phase only; physical gait unvalidated"
+          },
+          {
+            "frame": 282,
+            "position": [
+              2.140338906005188,
+              0.0,
+              9.755858020668757
+            ],
+            "heading_degrees": 37.07685604200707,
+            "gait_phase": "diagram sine phase only; physical gait unvalidated"
+          },
+          {
+            "frame": 384,
+            "position": [
+              5.0,
+              0.0,
+              12.0
+            ],
+            "heading_degrees": 66.03751102542182,
+            "gait_phase": "diagram sine phase only; physical gait unvalidated"
+          }
+        ],
+        "camera_samples": [
+          {
+            "frame": 180,
+            "position": [
+              4.593779059701427,
+              1.1,
+              9.51335336043366
+            ],
+            "target": [
+              0.612268657028396,
+              1.1,
+              6.4399712930654385
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 282,
+            "position": [
+              5.120403313447277,
+              1.1,
+              12.670307193857536
+            ],
+            "target": [
+              2.284902257483275,
+              1.1,
+              9.615027891202711
+            ],
+            "vertical_fov_degrees": 40
+          },
+          {
+            "frame": 384,
+            "position": [
+              6.0,
+              1.1,
+              14.2
+            ],
+            "target": [
+              5.058995562253412,
+              1.2000000000000002,
+              11.974126991910538
+            ],
+            "vertical_fov_degrees": 40
+          }
+        ],
+        "projected_samples": [
+          {
+            "frame": 180,
+            "person_center_uv": [
+              0.5004785956244568,
+              0.5751091530975944
+            ],
+            "person_height_fraction": 0.4506549185855661,
+            "visible_landmark_ids": [],
+            "visible_clothing": "planned full outfit then intentional closer closing view; actual bounds in projection_samples.json"
+          },
+          {
+            "frame": 282,
+            "person_center_uv": [
+              0.3816495298342688,
+              0.5907373948024195
+            ],
+            "person_height_fraction": 0.5444243688145162,
+            "visible_landmark_ids": [],
+            "visible_clothing": "planned full outfit then intentional closer closing view; actual bounds in projection_samples.json"
+          },
+          {
+            "frame": 384,
+            "person_center_uv": [
+              0.4345033846591367,
+              0.7209734274920969
+            ],
+            "person_height_fraction": 0.9490034546505705,
+            "visible_landmark_ids": [],
+            "visible_clothing": "planned full outfit then intentional closer closing view; actual bounds in projection_samples.json"
+          }
+        ]
+      }
+    ],
+    "clock": {
+      "fps": 24,
+      "frame_count": 384
+    },
+    "motion_parameters": {
+      "character_parameter": "normalized arc length of cubic curve, lookup2000 samples over16s",
+      "camera_curve_parameter": "t + 0.35*sin(pi*t)/pi, t=global_frame/384",
+      "aim_horizontal_target": "0.46 + 0.085*sin(2*pi*t-0.3)",
+      "camera_target_height": "1.1 + 0.1*clamp((t-0.84)/0.16,0,1)",
+      "vertical_fov_degrees": 40,
+      "schematic_person_height": 1.65,
+      "projected_samples_file": "projection_samples.json",
+      "projected_samples_sha256": "f32e304786a07af77826e2f03a06f7c6bafca9cd57e85f36ebb3e837c3968771"
+    }
+  },
+  "shared_space_asset_id": "common_space",
+  "assets": [
+    {
+      "id": "common_space",
+      "kind": "space_plan",
+      "path": "10_automation/runs/2026-W44/editorial_reset_v3_2026-10-28/shared_space.json",
+      "sha256": "21b9057f11e05ab8275204b99b5022068dc9896dd80de4382f9dcaeeb8f5a91e"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W44/editorial_reset_v3_2026-10-28/connected_storyboard_v3.png",
+      "sha256": "41811e9f126436f32c5b48769255e526c6c35cc1dbd0421cdc25abd3cbd84052"
+    },
+    {
+      "id": "previs",
+      "kind": "previs",
+      "path": "10_automation/runs/2026-W44/editorial_reset_v3_2026-10-28/shared_route_previs_16s.gif",
+      "sha256": "3c368824f363fa028262c8f398f56030405cf856b1fd119753b37227f403a98d",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "21b9057f11e05ab8275204b99b5022068dc9896dd80de4382f9dcaeeb8f5a91e"
+      }
+    },
+    {
+      "id": "overhead",
+      "kind": "overhead",
+      "path": "10_automation/runs/2026-W44/editorial_reset_v3_2026-10-28/shared_route_previs_16s.gif",
+      "sha256": "3c368824f363fa028262c8f398f56030405cf856b1fd119753b37227f403a98d",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "21b9057f11e05ab8275204b99b5022068dc9896dd80de4382f9dcaeeb8f5a91e"
+      }
+    },
+    {
+      "id": "source_W44",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/source_perplexity.csv",
+      "sha256": "e748d14c130def173affb0dbab800e95ba4ff097d5c18455efc6e999d67962ab"
+    },
+    {
+      "id": "M02_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "id": "M02_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "新主題、第二套裙裝與本v3分鏡／共同預演尚待使用者確認；前次ok只授權重想企劃",
+    "兩段來源需各有8.25及8.5秒原速可用區間；現行工具可選時長／參照控制未核對，若僅6秒則本計畫不能直接執行",
+    "新場地與雙路徑未校準到現有照片；現有已核准照片只作人物／第一套服裝參考，不直接當新片首幀",
+    "所有符合新時間／構圖的起始及必要接點圖未生成／未逐張核准",
+    "原始影片、18幀換裝窗口與整片原速舒服度均未驗證；示意同位混合不證明AI影片無雙影",
+    "只重設第一支提案，其他四系列仍待此方向定案後重新協調；正式每人兩套契約保持"
+  ],
+  "workflow_state": "proposed_user_review_required_generation_hold"
+}

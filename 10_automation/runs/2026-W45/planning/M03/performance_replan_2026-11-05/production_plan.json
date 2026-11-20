@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M03_expressive_parallel_draft_2026-11-05",
+  "status": "draft",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W44",
+      "2026-W45"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "同件海軍藍西外，直接比較俐落褲裝與柔和裙裝，觀看有起落的換姿展示",
+    "visual_theme": "自在自信、帶玩心的全身時裝展示",
+    "selection_rationale": "使用者要求明顯且多樣的表演，而非僅微幅擺身；借參考的角度與姿態發展，不推定原片製作方法"
+  },
+  "presentation": {
+    "layout_id": "parallel_comparison",
+    "recipe_id": "parallel_comparison"
+  },
+  "models": [
+    {
+      "id": "M03",
+      "identity_asset_ids": [
+        "M03_face",
+        "M03_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-003-L01",
+      "model_id": "M03",
+      "wardrobe_summary": "深海軍藍薄料柔肩單排扣西裝外套敞開、白棉圓領短袖T、炭灰高腰直筒長褲、黑低跟樂福鞋、黑小肩包、細銀項鍊",
+      "source_asset_ids": [
+        "still_L01"
+      ]
+    },
+    {
+      "id": "2026-W45-003-L02",
+      "model_id": "M03",
+      "wardrobe_summary": "同款深海軍藍柔肩薄西外敞開、奶油白薄棉短袖針織上衣、奶油白小腿中段A字裙、白灰低筒球鞋、同款黑小肩包、細銀項鍊",
+      "source_asset_ids": [
+        "still_L02"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 222,
+    "duration_seconds": 9.25,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "P01",
+      "look_ids": [
+        "2026-W45-003-L01",
+        "2026-W45-003-L02"
+      ],
+      "frames": [
+        0,
+        120
+      ],
+      "clothing_purpose": "並排看同件西外下的褲裙及鞋款差異，動作展現輪廓",
+      "clear_read_intervals": [
+        [
+          0,
+          102
+        ]
+      ],
+      "storyboard_asset_id": "new_board",
+      "previs_asset_id": null,
+      "input_asset_ids": [
+        "still_L01",
+        "still_L02"
+      ],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "panels": [
+        {
+          "id": "left",
+          "look_id": "2026-W45-003-L01"
+        },
+        {
+          "id": "right",
+          "look_id": "2026-W45-003-L02"
+        }
+      ],
+      "performance": "左右完整亮相，先左抬臂右叉腰；收手後轉向"
+    },
+    {
+      "id": "P02",
+      "look_ids": [
+        "2026-W45-003-L01",
+        "2026-W45-003-L02"
+      ],
+      "frames": [
+        102,
+        222
+      ],
+      "clothing_purpose": "並排看同件西外下的褲裙及鞋款差異，動作展現輪廓",
+      "clear_read_intervals": [
+        [
+          120,
+          222
+        ]
+      ],
+      "storyboard_asset_id": "new_board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "panels": [
+        {
+          "id": "left",
+          "look_id": "2026-W45-003-L01"
+        },
+        {
+          "id": "right",
+          "look_id": "2026-W45-003-L02"
+        }
+      ],
+      "performance": "左側轉後回正，右側抬臂／換姿，完整收束"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "P01",
+      "to_shot": "P02",
+      "frames": [
+        102,
+        120
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M03_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "id": "M03_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    },
+    {
+      "id": "still_L01",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+      "sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd"
+    },
+    {
+      "id": "still_L02",
+      "kind": "still",
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L02/reel/2026-W45-003-L02_M03_reel_candidate_A.png",
+      "sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d"
+    },
+    {
+      "id": "new_board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/planning/M03/performance_replan_2026-11-05/storyboard.png",
+      "sha256": "8ec7188cbcb058ad07f34fe7239757f9a7284034aa89d0372736386ad9826d52"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "完整並排片仍需兩側來源與第二段可用起點／相鄰接點證據；不得用6秒來源延長為9.25秒",
+    "本圖為助理新繪製分鏡，使用者尚未看過精確圖；既有ok授權規劃及一側短測，非整片視覺接受",
+    "完整計畫的身份／首圖核准收據需依現有精確紀錄連接，不能補造核准"
+  ],
+  "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json"
+}

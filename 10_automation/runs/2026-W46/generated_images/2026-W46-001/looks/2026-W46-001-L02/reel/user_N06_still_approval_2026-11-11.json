@@ -1,0 +1,11 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "still",
+  "quote": "ok",
+  "recorded_at": "2026-11-11",
+  "target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L02/reel/2026-W46-001-L02_M01_N06_full_candidate_A.png",
+  "target_sha256": "4a1691e40d864c628448b420ea7edc0d169ce5c9f3c01f3096ff1284567d1a49",
+  "context": "Direct reply to N06 skirt-look full-body candidate and request to verify identity, skirt and T-strap flats.",
+  "limits": "Starting still and planned next motion; whole-film review remains separate."
+}

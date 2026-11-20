@@ -1,0 +1,9 @@
+W45 M05 L02 展館入口｜反應重試 02，只生成一支。沿用本畫布已核對的素材，不重新上傳或新出圖。First 23f9fa86-c540-4c0b-9fef-232f353a4d3b（灰藍薄襯衫展館入口）；只作 identity 的 face 0cca4769-6066-4619-aa63-c0aabf0a9a66、full d87130ac-c61c-4e00-97e2-a6dfc8677786。請先核對素材，勿把先前試片當首幀。上一支缺了認出同伴與笑開，此次只改下面的表演指令，保持同圖、機位、服裝和設定。
+只送一次 6 秒、720p、9:16；last/keyframes 不設。實際可關音軌就關。不要重試、延伸、剪輯、加購或升級。素材或設定不符、額度不足就停並回報。
+以下英文逐字用作 prompt，標記不送入：
+PROMPT_BEGIN
+One continuous six-second portrait fashion shot from the supplied exhibition entrance first frame. Keep the exact woman, slate blue-gray open overshirt, white T-shirt, navy trousers, white sneakers, brown shoulder bag and daylight. Locked chest-height camera, full body and both shoes in view.
+
+Make her reaction to a friend readable in three distinct beats. At first her eyes are looking just off the lens toward the windows on screen left. Almost immediately she shifts her eyes and turns her face slightly to meet her friend beside the lens. She recognizes them: a small lift in the eyebrows, then a clear, brief open smile that reaches her eyes, with an easy release of the shoulders. Stay with that smile for a natural beat while her front layers are visible. Only after that pause, her eyes go toward the entrance on screen right and her head and shoulders follow. Finish at a soft three-quarter angle as she gets ready to go in. Her feet stay nearly in place, with a small natural pivot or weight shift. The bag and shirt hem follow her torso. Keep the expression human and understated, the scene and outfit stable, in real time. No cuts or text.
+PROMPT_END
+完成後回報實際素材 UUID、設定、影片 UUID、片長及音軌。

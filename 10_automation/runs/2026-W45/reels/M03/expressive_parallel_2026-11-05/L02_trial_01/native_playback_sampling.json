@@ -1,0 +1,478 @@
+{
+  "mode": "native1x_UI_sampling_not_uninterrupted_human_review",
+  "samples": [
+    {
+      "file": "ui_00.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 8.212673
+        }
+      ]
+    },
+    {
+      "file": "ui_01.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 8.491132
+        }
+      ]
+    },
+    {
+      "file": "ui_02.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 8.751162
+        }
+      ]
+    },
+    {
+      "file": "ui_03.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 9.024776
+        }
+      ]
+    },
+    {
+      "file": "ui_04.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 9.275634
+        }
+      ]
+    },
+    {
+      "file": "ui_05.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 9.531462
+        }
+      ]
+    },
+    {
+      "file": "ui_06.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 9.78609
+        }
+      ]
+    },
+    {
+      "file": "ui_07.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 10.041667
+        }
+      ]
+    },
+    {
+      "file": "ui_08.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 0.200496
+        }
+      ]
+    },
+    {
+      "file": "ui_09.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 0.451564
+        }
+      ]
+    },
+    {
+      "file": "ui_10.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 0.705634
+        }
+      ]
+    },
+    {
+      "file": "ui_11.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 0.961885
+        }
+      ]
+    },
+    {
+      "file": "ui_12.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 1.207556
+        }
+      ]
+    },
+    {
+      "file": "ui_13.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 1.449471
+        }
+      ]
+    },
+    {
+      "file": "ui_14.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 1.706466
+        }
+      ]
+    },
+    {
+      "file": "ui_15.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 1.973614
+        }
+      ]
+    },
+    {
+      "file": "ui_16.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 2.216494
+        }
+      ]
+    },
+    {
+      "file": "ui_17.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 2.474148
+        }
+      ]
+    },
+    {
+      "file": "ui_18.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 2.722179
+        }
+      ]
+    },
+    {
+      "file": "ui_19.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 2.968731
+        }
+      ]
+    },
+    {
+      "file": "ui_20.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 3.228697
+        }
+      ]
+    },
+    {
+      "file": "ui_21.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 3.48171
+        }
+      ]
+    },
+    {
+      "file": "ui_22.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 3.732702
+        }
+      ]
+    },
+    {
+      "file": "ui_23.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 3.969074
+        }
+      ]
+    },
+    {
+      "file": "ui_24.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 4.228351
+        }
+      ]
+    },
+    {
+      "file": "ui_25.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 4.46834
+        }
+      ]
+    },
+    {
+      "file": "ui_26.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 4.727618
+        }
+      ]
+    },
+    {
+      "file": "ui_27.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 4.987985
+        }
+      ]
+    },
+    {
+      "file": "ui_28.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 5.225802
+        }
+      ]
+    },
+    {
+      "file": "ui_29.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 5.482883
+        }
+      ]
+    },
+    {
+      "file": "ui_30.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 5.733524
+        }
+      ]
+    },
+    {
+      "file": "ui_31.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 5.986081
+        }
+      ]
+    },
+    {
+      "file": "ui_32.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 6.251141
+        }
+      ]
+    },
+    {
+      "file": "ui_33.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 6.526637
+        }
+      ]
+    },
+    {
+      "file": "ui_34.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 6.773026
+        }
+      ]
+    },
+    {
+      "file": "ui_35.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 7.030687
+        }
+      ]
+    },
+    {
+      "file": "ui_36.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 7.274817
+        }
+      ]
+    },
+    {
+      "file": "ui_37.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 7.529011
+        }
+      ]
+    },
+    {
+      "file": "ui_38.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 7.777187
+        }
+      ]
+    },
+    {
+      "file": "ui_39.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 8.028701
+        }
+      ]
+    },
+    {
+      "file": "ui_40.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 8.266119
+        }
+      ]
+    },
+    {
+      "file": "ui_41.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 8.522344
+        }
+      ]
+    },
+    {
+      "file": "ui_42.png",
+      "media": [
+        {
+          "d": 10.041667,
+          "paused": false,
+          "rate": 1,
+          "t": 8.783881
+        }
+      ]
+    }
+  ]
+}

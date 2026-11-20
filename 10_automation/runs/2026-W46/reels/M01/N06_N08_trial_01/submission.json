@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "shot": "M01 L02 N06-N08",
+  "status": "generated_downloaded",
+  "first_frame_asset_id": "ed45a5bb-12d2-430c-92d1-3d165336eade",
+  "first_frame_sha256": "4a1691e40d864c628448b420ea7edc0d169ce5c9f3c01f3096ff1284567d1a49",
+  "requested": {
+    "other_refs": [],
+    "count": 1,
+    "ratio": "9:16",
+    "resolution": "720p",
+    "keyframes": [],
+    "duration": 10
+  },
+  "authority": "user_N06_still_approval_2026-11-11.json plus approved eight-beat plan",
+  "video_asset_id": "156ae5e7-3325-4dca-83d5-84694e687122",
+  "provider_report": "Agent reported 10-second setting available, exact first frame and requested parameters accepted; 10.04s/720x1280/AAC, internal call not directly observed."
+}

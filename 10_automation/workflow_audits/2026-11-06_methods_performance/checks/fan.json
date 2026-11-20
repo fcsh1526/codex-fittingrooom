@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "plan_id": "",
+  "status": "draft",
+  "path_base": "plan",
+  "weeks": {
+    "source": [],
+    "content": null,
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "",
+    "takeaway": "",
+    "visual_theme": "",
+    "selection_rationale": ""
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "overhead_fan_transition_experiment"
+  },
+  "models": [],
+  "looks": [],
+  "film": {
+    "fps": 24,
+    "frame_count": 0,
+    "duration_seconds": null,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [],
+  "transitions": [],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [],
+  "approvals": [],
+  "missing_assets": []
+}

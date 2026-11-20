@@ -1,0 +1,18 @@
+{
+  "method": "UI Play and Fullscreen controls, DOM timing/rate observations and screenshots; not continuous frame-by-frame visual viewing",
+  "canvas_ui_playback_progress_observed": [
+    "0:00 / 0:06",
+    "0:05 / 0:06"
+  ],
+  "read_rate": 1,
+  "continuous_human_visual_review": false,
+  "assistant_sampled_frames_reviewed": 13,
+  "additional_full_frames_reviewed_seconds": [
+    2.5,
+    5.0
+  ],
+  "full_dynamic_QA_pass": false,
+  "why_no_pass": "Viewer/gesture relationship remains incomplete and prompt evidence conflicts; no need to certify detailed physical QA for this candidate.",
+  "user_acceptance": null,
+  "publication_approval": null
+}

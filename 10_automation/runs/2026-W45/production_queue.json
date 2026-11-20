@@ -1,0 +1,57 @@
+{
+  "content_week": "2026-W45",
+  "status": "M03_L02_skirt_recut_release_approved_and_delivered",
+  "order": [
+    "M02",
+    "M01",
+    "M03",
+    "M04",
+    "M05"
+  ],
+  "next": {
+    "model": "M03",
+    "action": "Record Instagram posting time and URL once published."
+  },
+  "user_authorization_quote": "繼續W45",
+  "authorization_scope": "Start W45 research and proposal; does not fabricate approval for unseen stills.",
+  "stills_generated": 10,
+  "video_jobs_submitted": 20,
+  "paid_cloud_requests": 0,
+  "actual_publication_dates": null,
+  "revision": 2,
+  "source_status": "W45 report and 20 rows verified; no missing recent weeks",
+  "stills_note": "Nine builtin still calls: prior seven plus M04 initial face-drift candidate and corrected face_v2. Six exact look starting stills approved; proofs/Carousels incomplete. Still approval is not film acceptance.",
+  "builtin_image_calls": 10,
+  "video_jobs_completed": 20,
+  "weekly_reels_user_accepted": 5,
+  "active_reviews": [],
+  "latest_reference_study": "03_research/ig_feed_followup_2026-11-04/mizzu_ri_DeO_-RVvCC-/REVIEW.md",
+  "reference_studies": [
+    "03_research/ig_feed_study_2026-11-04/REVIEW.md",
+    "03_research/ig_feed_followup_2026-11-04/mizzu_ri_DeO_-RVvCC-/REVIEW.md"
+  ],
+  "latest_editorial_proposal": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/production_plan.json",
+  "active_trial": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/S01_submission.json",
+  "latest_edit_receipt": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/edit_and_review.json",
+  "retained_alternate_reviews": [
+    "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/M03_W45_full_frame_sequence_review_v1.mp4"
+  ],
+  "layout_preference_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/user_layout_preference_2026-11-05.json",
+  "latest_performance_feedback": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_opening_acceptance.json",
+  "latest_editorial_reassessment": "10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/REVIEW.md",
+  "latest_workflow_clarification": "10_automation/workflow_audits/2026-11-06_methods_performance/user_clarification.json",
+  "accepted_opening": {
+    "asset": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/A_existing_source_opening_rough_v1.mp4",
+    "sha256": "6dfed7f49c19afbf5f7899051295730464b1692d37a4c89ffeeacd04643064b7",
+    "receipt": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_opening_acceptance.json"
+  },
+  "latest_candidate_review": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/playback_review.json",
+  "latest_local_handoff": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/HANDOFF.md",
+  "latest_release_approval": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_release_approval.json",
+  "latest_drive_handoff": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/drive_delivery.json",
+  "latest_still_review": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/still_candidate_review.json",
+  "latest_still_approval": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/user_still_approval.json",
+  "latest_motion_trial": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/S01_submission.json",
+  "latest_motion_feedback": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/user_feedback_v2.json",
+  "latest_supplementary_edit_study": "10_automation/runs/2026-W45/reels/M03/two_look_sequential_study_2026-11-09/edit_and_review.json"
+}

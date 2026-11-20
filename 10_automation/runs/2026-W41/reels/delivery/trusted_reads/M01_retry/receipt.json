@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU",
+    "title": "01_格紋襯衫配素色褲_貼文文字",
+    "revisionId": "ANLCKQkPDv0J1ER13gCtgiI6ufPdIWACNfeO7hMj_3951m65887MiBFSBULfLESZx-WtMvAG8CRqsXqPr5aWmsQRKP-6Nox_XeVoR18KPQ",
+    "documentUrl": "https://docs.google.com/document/d/1MJ0lWxucfGWUVo1JhNo7RggldThUqXhuH8kfWfD7cLU",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

@@ -1,0 +1,6 @@
+{
+  "B_equals_prefix_plus_A": true,
+  "A_sha256": "d27c853dadad5870155cb1bbf3a50c9692993488d1d5d0f78add11af50e2f171",
+  "B_sha256": "5a39b58695d2e9a89a0be9e3fb240559c63a5f8f8d0e842b44c3d71fa3bfaf9a",
+  "verification_scope": "Local frozen prompts only; provider payload reported by agent"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "proposed_user_review_required_generation_hold",
+  "review": "review.html",
+  "plan": "production_plan.json",
+  "previous_feedback": "../user_editorial_feedback_2026-10-28.json",
+  "generation_allowed": false
+}

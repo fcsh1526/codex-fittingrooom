@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M05_v2",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W44",
+      "2026-W45"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "同時比較白天短袖與冷氣房加薄襯衫外層的完整樣貌；其他衣服、鞋包固定，讓一層之差有明確用途。",
+    "visual_theme": "薄層次、生活中的表情與清楚服裝輪廓",
+    "selection_rationale": "同套白T深藍褲，左短袖、右灰藍薄外層；已核對W45原報與20筆CSV，來源單品與本專案完整搭配分開。"
+  },
+  "presentation": {
+    "layout_id": "parallel_comparison",
+    "recipe_id": "parallel_comparison"
+  },
+  "models": [
+    {
+      "id": "M05",
+      "identity_asset_ids": [
+        "M05_face",
+        "M05_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-005-L01",
+      "model_id": "M05",
+      "wardrobe_summary": "白棉圓領短袖T、深藍高腰直筒長褲、白灰低筒球鞋、深棕素色小肩包、細銀耳環",
+      "source_asset_ids": []
+    },
+    {
+      "id": "2026-W45-005-L02",
+      "model_id": "M05",
+      "wardrobe_summary": "同款白棉短袖T、灰藍薄棉平織長袖襯衫外套敞開、同款深藍直筒長褲、同款白灰低筒球鞋、同款深棕小肩包、細銀耳環",
+      "source_asset_ids": []
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 192,
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W45-005-L01",
+        "2026-W45-005-L02"
+      ],
+      "frames": [
+        0,
+        192
+      ],
+      "clothing_purpose": "同時比較白天短袖與冷氣房加薄襯衫外層的完整樣貌；其他衣服、鞋包固定，讓一層之差有明確用途。",
+      "clear_read_intervals": [
+        [
+          0,
+          192
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "兩個獨立片段並排；各自回應鏡頭旁朋友，可不同步笑或轉肩，但不走出窄面板",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes.",
+      "panels": [
+        {
+          "id": "left",
+          "look_id": "2026-W45-005-L01",
+          "height_fraction": 0.74,
+          "head_v": 0.14,
+          "shoe_v": 0.88
+        },
+        {
+          "id": "right",
+          "look_id": "2026-W45-005-L02",
+          "height_fraction": 0.74,
+          "head_v": 0.14,
+          "shoe_v": 0.88
+        }
+      ]
+    }
+  ],
+  "transitions": [],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M05_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M05_start_v1_face.png",
+      "sha256": "aab41b639568698a3630819201bcdd6a80e2dcd0248f682abc389dbe7a2b838b"
+    },
+    {
+      "id": "M05_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M05_start_v1_full.png",
+      "sha256": "06cd9d7868f38c650662c448318da1a536aec51e68ee19bbb0768a9605da2d8a"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/planning/M05/storyboard.png",
+      "sha256": "e844d9373e5912190d0d5806cc5f18fc78204d667eae542a1c8b70aba5fd0221"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "使用者對W45具體企劃與線稿的確認；不從「繼續W45」推定新圖核准",
+    "各鏡全新、逐張核准的原生9:16起始圖；現有身份參照不等於新造型圖",
+    "正式生成當下的Grok額度、可用片長與設定尚待核對；未送工作"
+  ]
+}

@@ -1,0 +1,22 @@
+只製作W45 M02 L01這一支新候選影片，在同一Mira畫布；使用者已核准較近原圖及縮短走近幅度。先實際核對三張圖和目前工具支援，內容不符、額度不足或參數不支援就停止回報，不替換圖、不加購或改用其他服務。僅執行一次，不自行重試、不出新照片、不改刪舊媒體、不合片。
+
+精確輸入：
+first_frame_asset_id: "124e6ebc-f0aa-4d0a-bf05-4cfca6e884be"
+asset_ids: ["9db0bc5b-49ff-4357-a832-6c73a4d9ba8e","6d1e317a-1ee3-4512-a308-c1fd4147aef5"]
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+不設last_frame_asset_id，不設keyframes。
+
+first為剛上傳的苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕肩包，M02低棕髮髻，咖啡店騎樓木長凳旁，人物約81%畫高。不是遠景58%修正版，不是舊紫色過街圖。face/full只鎖已核准M02身份與普通比例，不複製棚拍服裝、站姿或背景。不要以畫布殘留的紫外搭影片作輸入。
+
+請將PROMPT_BEGIN到PROMPT_END英文逐字傳作影片prompt，不自行擴寫或另加手勢／走路。標記不要傳入。
+PROMPT_BEGIN
+She recognizes her friend waiting just beside the camera, so her existing smile grows into a spontaneous, happy laugh. One continuous six-second real-time shot, beginning with the exact approved first image.
+
+She opens her free right arm outward in a welcoming gesture, with an easy elbow and relaxed open palm. Her bag stays on her left shoulder and her other arm remains loose. She takes only one small, relaxed half-step slightly toward camera-left and her friend, then settles comfortably. Her shoulders turn gently toward the friend as she laughs, and the greeting hand lowers naturally. Keep the performance lively and responsive rather than a rigid pose or a repeated wave.
+
+Her distance changes only slightly. Preserve her complete head, waist, trouser hems and both shoes throughout, with normal consistent head-to-body proportions. Keep the camera locked at its initial chest-height 50mm view: no zoom, pan or orbit. Keep the exact face, low brown bun, moss-green fine-knit long-sleeve top, cocoa-brown straight trousers, cream shoes and dark-brown shoulder bag. The cafe windows, bench and paving stay rigid in coherent daylight. Natural weight transfer, grounded shoe contacts, responsive cloth, ordinary live-action tempo. No continuous walking, clothing-touch gesture, internal cut, slow motion, text or logos.
+PROMPT_END
+
+音訊僅在真有控制時關閉；若仍帶AAC如實回報，不因音訊重生。完成保留唯一原片，列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、模型版本、剩餘額度無可讀欄位就寫unknown。代理回報與抽樣動作分開，不宣告步態、手部、尺度或成片通過。

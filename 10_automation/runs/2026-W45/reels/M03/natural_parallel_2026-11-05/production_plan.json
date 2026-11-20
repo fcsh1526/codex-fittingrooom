@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-05",
+  "status": "editorial_revision_required_after_user_feedback",
+  "viewer_purpose": "Same navy blazer: compare charcoal work trousers/loafers versus cream skirt/sneakers.",
+  "layout": "A parallel",
+  "model": "M03",
+  "target_seconds": 6,
+  "fps_target": 24,
+  "per_panel": "one continuous source, no internal edit join planned",
+  "story": "Friend behind camera prepares outfit photo; brief response and one45degree turn with return to standing.",
+  "panel_schedule": [
+    {
+      "seconds": [
+        0,
+        1.5
+      ],
+      "action": "listen/respond with brief smile",
+      "clothing": "front silhouette"
+    },
+    {
+      "seconds": [
+        1.5,
+        4
+      ],
+      "action": "one whole-body turn, arms relaxed",
+      "clothing": "blazer side line and trouser/skirt outline"
+    },
+    {
+      "seconds": [
+        4,
+        6
+      ],
+      "action": "front-facing comfortable stance",
+      "clothing": "full silhouette and shoe contrast"
+    }
+  ],
+  "camera": "fixed, independent source scenes; shared-world routes not required",
+  "crop_proposal_source720": [
+    135,
+    0,
+    450,
+    1280
+  ],
+  "panel_width": 356,
+  "gutter": 8,
+  "preflight": "Still mockup inspected; dynamic actual envelope and scale must be rechecked, no promise of motion success.",
+  "reuse_assessment": "Existing approved stills fit. Old dance-pose videos do not cover the new motivated continuous scene; no recut or retiming to fabricate it.",
+  "new_stills_required": 0,
+  "new_video_sources_needed": 2,
+  "generation_order": "one L01 test, inspect exact result; L02 only if direction visibly useful and in-scope. No automatic repeat L01.",
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "latest_review": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/paired_review_v1/REVIEW.md",
+  "actual_seconds": 6.041666666666667,
+  "new_video_jobs_submitted": 2,
+  "new_video_jobs_completed": 2,
+  "actual_crop_each_source": [
+    160,
+    0,
+    400,
+    1280
+  ],
+  "actual_deviation": "Turn deeper than planned45degrees; crop tightened after actual sampled-envelope inspection, identical scale both sides.",
+  "latest_feedback": "10_automation/runs/2026-W45/reels/M03/reference_execution_audit_2026-11-05/user_editorial_feedback.json",
+  "superseding_editorial_brief": "10_automation/runs/2026-W45/reels/M03/reference_execution_audit_2026-11-05/REVIEW.md"
+}

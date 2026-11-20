@@ -1,0 +1,141 @@
+ing poses for an outfit video, not an isolated arm raise. One continuous ten-second real-time full-person shot, original locked level chest-height 50mm camera and original subject distance. Use the full portrait width for the performance; keep complete hair, hands and both shoes within the image. Preserve exact M03 identity, ordinary body proportions, long wavy brown hair, open deep-navy blazer, white crewneck tee, charcoal straight trousers, black loafers, small black bag on her left shoulder and silver necklace. The bag and clothes respond naturally to her body. Preserve the shaded office wall, windows, bench, paving and coherent daylight. No camera move, slow motion, outfit change, cut or text. PROMPT_END 重點是四組可辨大幅換姿及面向鏡頭的展示態度；不要眼睛追手或假裝看東西。音軌有真實開關才關，沒有如實回報，不為音訊重生。完成列實際First/identity IDs、設定是否接受、新影片UUID、實際時長／像素／音軌；參數回報、畫面觀察與物理／真人感驗收分開，不自行宣稱通過。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M03 褲裝 trial02（多姿態 10s）— 一次
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 2e8df556-7034-4788-92d8-3a769fcdfed3 是":
+        - cell "first"
+        - cell "2e8df556-7034-4788-92d8-3a769fcdfed3":
+          - code: 2e8df556-7034-4788-92d8-3a769fcdfed3
+        - cell "是"
+      - row "asset_ids 26e03f42-…、15c720b2-… 是":
+        - cell "asset_ids"
+        - cell "26e03f42-…、15c720b2-…":
+          - code: 26e03f42-…
+          - text: 、
+          - code: 15c720b2-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"10\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - paragraph:
+    - text: 未用
+    - code: a9d31a19
+    - text: 。
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID 414c5d81-cd08-4ca3-87e9-0ff1ecd2e73f":
+        - cell "影片 UUID"
+        - cell "414c5d81-cd08-4ca3-87e9-0ff1ecd2e73f":
+          - code: 414c5d81-cd08-4ca3-87e9-0ff1ecd2e73f
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0–1.7s 雙手叉腰；對鏡笑；頭鞋在框":
+        - cell "0–1.7s"
+        - cell "雙手叉腰；對鏡笑；頭鞋在框":
+          - strong: 雙手叉腰
+          - text: ；對鏡笑；頭鞋在框
+      - row "~3.4s 雙臂高 V；對鏡大笑；鞋在框":
+        - cell "~3.4s"
+        - cell "雙臂高 V；對鏡大笑；鞋在框":
+          - strong: 雙臂高 V
+          - text: ；對鏡大笑；鞋在框
+      - row "~5s 側身／背側（轉身幅度大）；視線離鏡":
+        - cell "~5s"
+        - cell "側身／背側（轉身幅度大）；視線離鏡":
+          - strong: 側身／背側
+          - text: （轉身幅度大）；視線離鏡
+      - row "~6.7s 轉回近正面；笑":
+        - cell "~6.7s"
+        - cell "轉回近正面；笑"
+      - row "~8.4s 雙手叉腰結姿；對鏡":
+        - cell "~8.4s"
+        - cell "雙手叉腰結姿；對鏡":
+          - strong: 雙手叉腰
+          - text: 結姿；對鏡
+  - paragraph:
+    - strong: 注意：
+    - text: 四組姿有可見切換；側轉可能偏深；V 手與視線抽樣多對鏡。
+    - strong: 不
+    - text: 認證四拍時序、眼不追手或真人感／物理通過。只此一次。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

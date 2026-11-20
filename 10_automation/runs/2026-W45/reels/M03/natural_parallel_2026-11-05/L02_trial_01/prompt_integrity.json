@@ -1,0 +1,14 @@
+{
+  "visible_prompt_matches_frozen_after_whitespace_normalization": true,
+  "url": "grok-asset/imagine/post/d8318fa2-0d21-41fc-b94f-cfffd8111538",
+  "media": [
+    {
+      "d": 6.041667,
+      "height": 1280,
+      "src": "grok-asset/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/d8318fa2-0d21-41fc-b94f-cfffd8111538/generated_video.mp4",
+      "width": 720
+    }
+  ],
+  "old_asset_initially_reselected_by_site": true,
+  "correct_new_thumbnail_explicitly_selected": true
+}

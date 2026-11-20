@@ -1,0 +1,17 @@
+{
+ "first_frame_asset_id":"30f90037-f912-480e-bc61-71acdd8d5967",
+ "first_local_file":"start_candidate_v2.png",
+ "first_sha256":"f8ed3b5606aca1af5ae56f9db07440d8de604214be58a1136deb246c0914547d",
+ "face_asset_id":"9db0bc5b-49ff-4357-a832-6c73a4d9ba8e",
+ "full_asset_id":"6d1e317a-1ee3-4512-a308-c1fd4147aef5",
+ "mapping_evidence":"Exact local files uploaded through browser chooser; Grok agent reports visual/name/UUID match. Internal generation controls not directly observable.",
+ "duration_requested":10,"resolution_requested":"720p","aspect_ratio_requested":"9:16",
+ "seed_control":"unsupported per agent schema report; no visible UI option",
+ "explicit_model_version_control":"unsupported per agent schema report",
+ "quota_before_submission":"unknown; not exposed",
+ "generation_attempts_A":1,"generation_attempts_B":1,
+ "output_A":"e512b975-e9fe-4399-9a49-bc1116650108",
+ "output_B":"99d7a06e-eb06-442f-b090-c151fecc27cf",
+ "quota_after_successful_pair":"remaining amount unknown",
+ "actual_prompt_fidelity":"Agent reports verbatim; internal provider call not independently visible."
+}

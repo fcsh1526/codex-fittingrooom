@@ -1,0 +1,80 @@
+{
+  "output": "10_automation/runs/2026-W46/reels/M01/opening_five_beats_v1/M01_first_five_beats_6p5s.mp4",
+  "sha256": "1bde4c8626b3c2bbe2e52c12c1b12c1f580dd21797e4e8e612386a0315f0babc",
+  "frame_count": 156,
+  "fps": 24,
+  "duration": 6.5,
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "segments": [
+    {
+      "shot": "N01",
+      "path": "10_automation/runs/2026-W46/reels/M01/N01_trial_01/source.mp4",
+      "sha256": "64436d63061f06a269ebef9edbeeb6ac3f1a1f593dc4d70faaa6597927560701",
+      "source_frames": [
+        18,
+        48
+      ],
+      "output_frames": [
+        0,
+        30
+      ]
+    },
+    {
+      "shot": "N02",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+      "source_frames": [
+        0,
+        18
+      ],
+      "output_frames": [
+        30,
+        48
+      ]
+    },
+    {
+      "shot": "N03",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/source.mp4",
+      "sha256": "ba30f3caa2a6e759c8b83a83f11def52b8306623c31968988d40d0bee35ee33f",
+      "source_frames": [
+        66,
+        108
+      ],
+      "output_frames": [
+        48,
+        90
+      ]
+    },
+    {
+      "shot": "N04",
+      "path": "10_automation/runs/2026-W46/reels/M01/N04_trial_01/source.mp4",
+      "sha256": "1ccec4c4f9aaec915b714260e92355ceff307ac35b8947b0a822449ca25bae54",
+      "source_frames": [
+        36,
+        72
+      ],
+      "output_frames": [
+        90,
+        126
+      ]
+    },
+    {
+      "shot": "N05",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+      "source_frames": [
+        114,
+        144
+      ],
+      "output_frames": [
+        126,
+        156
+      ]
+    }
+  ],
+  "stage": "N01-N05 draft of eight-beat 13.5-second plan",
+  "visual_review": "pending",
+  "user_acceptance": "pending"
+}

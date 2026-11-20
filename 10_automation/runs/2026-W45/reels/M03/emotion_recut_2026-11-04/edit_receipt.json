@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-04",
+  "status": "candidate_pending_emotion_review",
+  "feedback_receipt": "../paired_review_v1/user_emotion_feedback_2026-11-04.json",
+  "fps": 24,
+  "raster": [
+    720,
+    1280
+  ],
+  "frame_count": 177,
+  "duration_seconds": 7.375,
+  "sources": [
+    {
+      "role": "A",
+      "path": "10_automation/runs/2026-W45/reels/M03/L01_trial_02/source.mp4",
+      "sha256": "a6dba2c5f6898cb74aa806e701dee535e1fecc2ac97d80832f1b06380a03acda",
+      "range_half_open": [
+        0,
+        66
+      ],
+      "source_seconds": [
+        0,
+        2.75
+      ],
+      "output_start_frame": 0
+    },
+    {
+      "role": "B",
+      "path": "10_automation/runs/2026-W45/reels/M03/L02_trial_01/source.mp4",
+      "sha256": "ebc028878aeac24b2538c34eab32b191ddbf8b348e3abc0bbea9331be879f2be",
+      "range_half_open": [
+        33,
+        162
+      ],
+      "source_seconds": [
+        1.375,
+        6.75
+      ],
+      "output_start_frame": 48
+    }
+  ],
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_range_half_open": [
+      48,
+      66
+    ],
+    "output_seconds": [
+      2,
+      2.75
+    ]
+  },
+  "change": "Select one smile/brighten/approach/smile progression. Exclude L02 surprised opening0–1.375s, L01 later big laugh/head tilt, and L02 later speech-like ending. No inferred dialogue narrative.",
+  "clear_reading_intervals_estimated": {
+    "A_full_seconds": [
+      0,
+      2
+    ],
+    "B_full_seconds": [
+      2.75,
+      4.0
+    ],
+    "B_medium_seconds": [
+      5.625,
+      7.375
+    ]
+  },
+  "speed": 1,
+  "retiming": false,
+  "freeze": false,
+  "crop": false,
+  "rescale": false,
+  "text": false,
+  "audio": false,
+  "new_still_calls": 0,
+  "new_video_jobs": 0,
+  "old_film_preserved_sha256": "40f4644211ab5cac5f42a4be4bd361f66349df35f70e76bc94e7ddee4a62b6f3",
+  "output_file": "M03_W45_emotion_recut_v2.mp4",
+  "output_sha256": "001ff0dc8fa724c61fd42846689d9877bb0957be296e6c65d8a7dc48795e2022",
+  "complete_decode": "completed",
+  "continuous_human_visual_review": false,
+  "user_acceptance": null,
+  "publication_approval": null
+}

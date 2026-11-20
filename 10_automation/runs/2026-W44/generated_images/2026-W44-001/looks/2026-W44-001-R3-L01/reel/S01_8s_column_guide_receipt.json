@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "status": "pending_user_visual_approval",
+  "tool": "built-in image_gen",
+  "calls": 1,
+  "file": "S01_8s_column_guide_candidate_A.png",
+  "proposed_input_role": "S01 keyframes image at timestamp_s8.0 in10s source; not a last frame nor full-person styling proof",
+  "source_layout": "camera_S01_f192_8s.png; rendered camera(192,1,540) from same approved shared-world renderer definitions; prior source files not regenerated",
+  "review": "Opaque foreground column conceals head and most torso; purple cardigan/charcoal leg/white-grey shoe visible on left. Pillar roughly39–83% vs schematic40–72%; visible shoe around87% vs schematicabout80%. Broad occlusion purpose present, exact geometry/scale not matched; actual motion/join unknown.",
+  "prompt": "Create one native vertical9:16 photorealistic camera-view guide for the FIRST purple-trouser outfit at8.0 seconds of the approved walkway route. This is a foreground occlusion moment, not a new clothing Hero. Input1 fixes the exact M02 woman, purple cardigan/white T/plain charcoal straight trousers/white-grey sneakers/black bag and photographic look. Input2 fixes the nearby pale column and walkway material appearance only; DO NOT copy its navy dress. Input3 is the REQUIRED8-second spatial layout: render it as a real photograph, never as a block drawing.\nMatch input3 exactly in broad composition. A single close fixed rectangular warm-pale plaster pillar occupies the CENTRAL vertical strip, approximately x40% to72% of frame, runs out of frame above and below, and occludes almost the entire woman. The woman remains BEHIND it, near x44%: her head, face and nearly all torso are HIDDEN by the opaque pillar; only a narrow sliver of PURPLE cardigan, plain charcoal trouser leg and a white-grey shoe may show immediately LEFT of the pillar around x35–40%. Do not reveal a whole person to the pillar's right. The rear facade, blue-grey rectangular window panels on either side and grey paving are one rigid covered walkway, coherent with input2 materials from a later camera position. Soft daylight, believable foreground depth and contact shadows. Level chest-height normal-lens photograph. No text, new people, navy dress, extra pillars or graphic wipe."
+}

@@ -1,0 +1,14 @@
+現在只執行本輪條件A一次影片生成，保留於同一畫布。不得新生照片、重試、改刪舊媒體、替換輸入、改用API／其他服務或加購額度。若額度不足或必要參數被拒絕，停止並如實回報。
+精確角色與設定：
+first_frame_asset_id:"30f90037-f912-480e-bc61-71acdd8d5967"
+asset_ids:["9db0bc5b-49ff-4357-a832-6c73a4d9ba8e","6d1e317a-1ee3-4512-a308-c1fd4147aef5"]
+duration:"10"
+resolution_name:"720p"
+aspect_ratio:"9:16"
+不設last_frame_asset_id，不設keyframes。無seed與明確model設定，記為不可控制。
+First是剛核對的紫外搭白T灰褲黑包、遠側路緣與大片道路起始圖；face/full只鎖M02身份與普通比例，不複製棚拍衣服、姿態或背景。若內容不符停止，不用舊M01或其他M02圖。
+請把下列PROMPT_BEGIN與PROMPT_END之間英文逐字作為實際影片工具的prompt；標記本身不要傳入，不自行改寫、擴充或加入其他故事／動作。
+PROMPT_BEGIN
+One continuous ten-second real-time shot, starting from the exact first image. She takes one easy step toward the curb. At the curb, she briefly turns her head and eyes farther toward the lane on screen right, then brings her gaze back to her direction of travel. She steps off the curb and walks diagonally toward the fixed camera at a natural everyday pace. As she comes closer, she meets the lens with an increasingly warm spontaneous smile. Her free arm and bag respond naturally to her steps; her left hand keeps the existing light hold on the shoulder strap. End in a comfortable waist-up view with normal consistent head-to-body proportions. Keep the camera locked, coherent daylight, rigid street geometry and the exact face, low bun, purple cardigan, white tee, charcoal trousers, white-grey shoes and black bag. One uninterrupted native-speed shot with clear outfit visibility at the beginning; no cuts or text.
+PROMPT_END
+只送一次，完成保留獨立原片。回報實際使用first/asset_ids、解析度時長、影片UUID、音軌、是否逐字傳入及任何參數差異。額度無可讀欄位就寫unknown，不假稱預先查到餘額。實際動作與品質待下載審查，不自行宣告通過。

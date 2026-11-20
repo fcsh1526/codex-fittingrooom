@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "A",
+      "title": "到門口遇到風",
+      "hook": "她會怎麼回應冷風？",
+      "narrative_structure": "story",
+      "visual_approach": "開領反應起頭，全身與並排收尾。",
+      "why_this_works": "有日常動機；服裝和招手可能競爭注意力。",
+      "target_duration_seconds": 4.666666666666667,
+      "target_platform": "instagram"
+    },
+    {
+      "id": "B",
+      "title": "同一張臉，兩種領線",
+      "hook": "先選一邊：哪個領口讓臉旁輪廓更俐落？",
+      "narrative_structure": "comparison",
+      "visual_approach": "並排先給問題，切回迎風開領；安定的閉領單幅回答。",
+      "why_this_works": "三段已有原速素材，能以人物動靜改變觀眾注意位置。",
+      "target_duration_seconds": 4.666666666666667,
+      "target_platform": "instagram"
+    },
+    {
+      "id": "C",
+      "title": "跟著她的視線",
+      "hook": "她看向誰？",
+      "narrative_structure": "journey",
+      "visual_approach": "迎風側望接全身回應，留在人與畫外的關係。",
+      "why_this_works": "有表演起伏，但現有畫面欠缺對方或回應線索，且衣領比較變弱。",
+      "target_duration_seconds": 4.666666666666667,
+      "target_platform": "instagram"
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "B",
+    "rationale": "用於本次比較的編輯假設；優先測試並排開場能否在一秒內建立選擇。"
+  },
+  "production_plan": {
+    "pipeline": "cinematic",
+    "render_runtime": "ffmpeg",
+    "stages": [
+      {
+        "stage": "research",
+        "tools": [],
+        "approach": "既有參考限定"
+      },
+      {
+        "stage": "proposal",
+        "tools": [],
+        "approach": "三種方向"
+      },
+      {
+        "stage": "script",
+        "tools": [],
+        "approach": "開場提問到收束"
+      },
+      {
+        "stage": "scene_plan",
+        "tools": [],
+        "approach": "三段固定取景"
+      },
+      {
+        "stage": "assets",
+        "tools": [],
+        "approach": "沿用已存在的動態"
+      },
+      {
+        "stage": "edit",
+        "tools": [],
+        "approach": "三段原速硬切"
+      },
+      {
+        "stage": "compose",
+        "tools": [],
+        "approach": "只驗時間軸與素材條件"
+      },
+      {
+        "stage": "publish",
+        "tools": [],
+        "approach": "只列交付條件"
+      }
+    ]
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0,
+    "line_items": [
+      {
+        "tool": "existing footage",
+        "operation": "external provider calls in dry run",
+        "estimated_usd": 0
+      }
+    ],
+    "budget_verdict": "within_budget"
+  },
+  "approval": {
+    "status": "pending"
+  },
+  "metadata": {
+    "mode": "dry_run",
+    "approval": "unapproved",
+    "external_generation": false,
+    "motion_required": true,
+    "sound": "Mira 原速無音無字，依動作剪接。",
+    "render_runtime_scope": "試算用；三段含預合成並排的既有影片可直接剪接，未啟動渲染。"
+  }
+}

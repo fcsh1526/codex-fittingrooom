@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-28",
+  "look_id": "2026-W44-001-L01",
+  "model": "M02 v3",
+  "surface": "reel",
+  "provider": "built-in image_gen",
+  "runtime_model_name": "not surfaced",
+  "initial_prompt_file": "hero_A_prompt.md",
+  "correction_prompt_file": "framing_correction_prompt.md",
+  "generation_calls": 2,
+  "new_initial_candidates": 1,
+  "targeted_corrections": 1,
+  "actual_reference_inputs": {
+    "initial": [
+      "02_brand/reference_models/M02_start_v3_face.png",
+      "02_brand/reference_models/M02_start_v3_full.png"
+    ],
+    "correction": [
+      "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_candidate_A_initial.png",
+      "02_brand/reference_models/M02_start_v3_face.png",
+      "02_brand/reference_models/M02_start_v3_full.png"
+    ]
+  },
+  "observed_tool_wall_seconds": [
+    58.7,
+    38.5
+  ],
+  "timing_limit": "Tool round-trip wall time, not independently measured engine processing or active work time.",
+  "outputs": [
+    {
+      "file": "2026-W44-001-L01_M02_reel_candidate_A_initial.png",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_candidate_A_initial.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2189401,
+      "sha256": "039c007c49b73acb8b5395acd3f8b42dde5a05b2cc96235400531f277ee77663",
+      "status": "preserved_initial_needs_framing_revision"
+    },
+    {
+      "file": "2026-W44-001-L01_M02_reel_candidate_A_framing_v2.png",
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_candidate_A_framing_v2.png",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2296078,
+      "sha256": "e4f2e8b1e4aba05d295d21f3987d01d65ccdf94a263de096317732ae7a55a3c7",
+      "status": "user_approved_still"
+    }
+  ],
+  "selected_review_file": "2026-W44-001-L01_M02_reel_candidate_A_framing_v2.png",
+  "status": "user_approved_full_still",
+  "approved": true,
+  "motion_generated": false,
+  "visual_review": {
+    "reviewed": "Generated full images and identity anchors visually inspected",
+    "identity": "Face shape, cheeks, jaw, gathered hairstyle and expression remain close to approved M02v3 anchors; not a quantified biometric result",
+    "outfit": "Purple open cardigan/white crew tee/charcoal straight trousers/white-gray low sneakers/black bag/silver earrings visible; no text or visible logo observed",
+    "composition": "Corrected figure approx65% frame height, hair top approx21%, shoe bottom approx87%; still larger and higher than schematic approx61%, top29%, bottom91%. Manual visual estimates, not segmentation measurements.",
+    "scene": "Office facade, paving, greenery and low bench coherent within still; brighter mottled daylight and more architectural detail than schematic. Not exact world geometry, matched soft-overcast exposure or future camera-route proof.",
+    "contact": "Plausible mid-step and floor contact shadows in still; gait/no-slip not established",
+    "blocking_defects_observed": "No obvious cropped hair/shoes/bag or gross anatomy collapse in displayed still; user judgement pending"
+  },
+  "approval_receipt": "user_A_still_approval_2026-10-28.json"
+}

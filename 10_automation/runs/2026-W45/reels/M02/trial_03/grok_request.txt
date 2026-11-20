@@ -1,0 +1,22 @@
+只製作W45 M02 L01 trial03這一支修正版候選影片，在同一Mira畫布；使用者已核准較近原圖及縮短走近幅度；現改成認出鏡頭前的你、笑開並短步靠近；取消前兩支的外伸迎接手臂。這是新表演設計，只做一次。不要沿用舊prompt或選取殘留。先實際核對三張圖和目前工具支援，內容不符、額度不足或參數不支援就停止回報，不替換圖、不加購或改用其他服務。僅執行一次，不自行重試、不出新照片、不改刪舊媒體、不合片。
+
+精確輸入：
+first_frame_asset_id: "124e6ebc-f0aa-4d0a-bf05-4cfca6e884be"
+asset_ids: ["9db0bc5b-49ff-4357-a832-6c73a4d9ba8e","6d1e317a-1ee3-4512-a308-c1fd4147aef5"]
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+不設last_frame_asset_id，不設keyframes。
+
+first為剛上傳的苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕肩包，M02低棕髮髻，咖啡店騎樓木長凳旁，人物約81%畫高。不是遠景58%修正版，不是舊紫色過街圖。face/full只鎖已核准M02身份與普通比例，不複製棚拍服裝、站姿或背景。不要以畫布殘留的紫外搭影片作輸入。
+
+請將PROMPT_BEGIN到PROMPT_END英文逐字傳作影片prompt，不自行擴寫或另加手勢／走路。標記不要傳入。
+PROMPT_BEGIN
+The viewer is the friend she has come to meet at this cafe. Begin from the exact approved first image. She naturally finds the camera lens with her eyes and turns her face squarely toward it. Recognition brightens her smile into a spontaneous happy laugh.
+
+In one continuous six-second real-time shot, her upper body responds with a lively, easy forward inclination. She takes one short, comfortable half-step toward the lens and settles into grounded balance, still smiling directly at the viewer. Her arms make only a natural low counter-swing beside her hips; this greeting is carried by eye contact, expression and her small approach. Keep her chest facing the camera and let her breathing and smile remain alive after she settles.
+
+Keep her complete head and both shoes visible, with only a slight distance change and normal head-to-body proportions. Preserve the exact M02 face, low brown bun, moss-green fine-knit top, cocoa-brown straight trousers, cream shoes and dark-brown left-shoulder bag. Locked chest-height 50mm view; preserve the cafe, bench, paving and original daylight. No outstretched greeting arm, wave, side turn, camera move or cut.
+PROMPT_END
+
+音訊僅在真有控制時關閉；若仍帶AAC如實回報，不因音訊重生。完成保留唯一原片，列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、模型版本、剩餘額度無可讀欄位就寫unknown。代理回報與抽樣動作分開，不宣告步態、手部、尺度或成片通過。

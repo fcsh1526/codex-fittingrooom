@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "status": "user_feedback_requires_editorial_revision",
+  "motion_board_samples_viewed": 25,
+  "full_resolution_output_frames_viewed": [
+    0,
+    72
+  ],
+  "technical_full_decode": true,
+  "observed": "In samples, full heads/shoes, hands, bag and skirt stay inside the400px crops. Both panels use same scale and show side view then frontal return, no repeated dance-pose sequence.",
+  "scale": "Approximate64–67% of canvas height; actual samples compared side by side. Not a guarantee of identical posture heights at all times.",
+  "timing": "All145 native frames of each source, no temporal edit join, no retime or duplicate/freeze. Generated motion is not claimed physically perfect.",
+  "remaining_limits": [
+    "Source turns deeper than planned45degrees",
+    "Brief mouth opening/possible speech-like response remains",
+    "No uninterrupted human native-speed whole-film review",
+    "Source/UI parameter report does not expose internal generation call"
+  ],
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "latest_user_feedback": "10_automation/runs/2026-W45/reels/M03/reference_execution_audit_2026-11-05/user_editorial_feedback.json"
+}

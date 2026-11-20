@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "scenes": [
+    {
+      "id": "S01",
+      "type": "character_scene",
+      "description": "第一眼同時看見兩種領形",
+      "start_seconds": 0,
+      "end_seconds": 1,
+      "script_section_id": "S01",
+      "framing": "左右各半的上身，保留兩側下顎、領緣和白色內搭。",
+      "movement": "沿用並排裡既有微動；雙方都安定時切出。",
+      "transition_in": "直接起畫",
+      "shot_intent": "比較",
+      "narrative_role": "comparison"
+    },
+    {
+      "id": "S02",
+      "type": "character_scene",
+      "description": "回到風吹起的那一瞬",
+      "start_seconds": 1,
+      "end_seconds": 2.6666666666666665,
+      "script_section_id": "S02",
+      "framing": "定機單人中景，背景直線維持方向；人物側傾，衣領與手同框。",
+      "movement": "切到原片已有的側傾起勢，讓頭肩動作讀完；跳過拉鍊操作。",
+      "transition_in": "硬切",
+      "shot_intent": "反應",
+      "narrative_role": "build_tension"
+    },
+    {
+      "id": "S03",
+      "type": "character_scene",
+      "description": "視線安定，留下立領",
+      "start_seconds": 2.6666666666666665,
+      "end_seconds": 4.666666666666667,
+      "script_section_id": "S03",
+      "framing": "單人同級中景，臉旁立領完整，維持騎樓側光，手垂下。",
+      "movement": "有意省略閉合動作；在風的反應後切到安定的閉領，以畫面內微動收尾。",
+      "transition_in": "硬切",
+      "shot_intent": "收束",
+      "narrative_role": "resolution"
+    }
+  ],
+  "metadata": {
+    "mode": "dry_run",
+    "approval": "unapproved",
+    "external_generation": false,
+    "continuity": "三拍為狀態對照；手的位置有改變，不剪成拉鍊動作連續。",
+    "risk": "首秒的左右面積與閱讀時間不足時，開場問題無法成立。"
+  }
+}

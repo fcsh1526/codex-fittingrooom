@@ -1,0 +1,319 @@
+{
+  "id": "M02_office_greenway_v1",
+  "units": "schematic",
+  "unit_note": "Fictional blockout, not a measured location; adult height1.68 schematic units.",
+  "axes": "x_right_y_up_z_forward",
+  "geometry": [
+    {
+      "id": "office",
+      "footprint": [
+        1.4,
+        6,
+        12.4,
+        16
+      ],
+      "height": 4.2,
+      "vertices": [
+        [
+          1.4,
+          0,
+          12.4
+        ],
+        [
+          1.4,
+          0,
+          16
+        ],
+        [
+          1.4,
+          4.2,
+          12.4
+        ],
+        [
+          1.4,
+          4.2,
+          16
+        ],
+        [
+          6,
+          0,
+          12.4
+        ],
+        [
+          6,
+          0,
+          16
+        ],
+        [
+          6,
+          4.2,
+          12.4
+        ],
+        [
+          6,
+          4.2,
+          16
+        ]
+      ]
+    },
+    {
+      "id": "tree_planters",
+      "centers": [
+        [
+          4,
+          2
+        ],
+        [
+          4.5,
+          6
+        ],
+        [
+          -5,
+          3
+        ],
+        [
+          -5,
+          8
+        ]
+      ],
+      "vertices": [
+        [
+          4,
+          0,
+          2
+        ],
+        [
+          4,
+          2.9,
+          2
+        ],
+        [
+          4.5,
+          0,
+          6
+        ],
+        [
+          4.5,
+          2.9,
+          6
+        ],
+        [
+          -5,
+          0,
+          3
+        ],
+        [
+          -5,
+          2.9,
+          3
+        ],
+        [
+          -5,
+          0,
+          8
+        ],
+        [
+          -5,
+          2.9,
+          8
+        ]
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "shot_id": "S01",
+      "character_samples": [
+        {
+          "frame": 0,
+          "position": [
+            -0.8,
+            0,
+            0.0
+          ],
+          "heading_degrees": 1.8159879396879182,
+          "gait_phase": "schematic continuous cycle; not measured real gait"
+        },
+        {
+          "frame": 72,
+          "position": [
+            -0.6093475670962124,
+            0,
+            3.312680766738416
+          ],
+          "heading_degrees": 11.182180323925671,
+          "gait_phase": "schematic continuous cycle; not measured real gait"
+        },
+        {
+          "frame": 144,
+          "position": [
+            0.38985575646598325,
+            0,
+            6.476341173226267
+          ],
+          "heading_degrees": 25.58155573221539,
+          "gait_phase": "schematic continuous cycle; not measured real gait"
+        },
+        {
+          "frame": 216,
+          "position": [
+            1.7016784455581064,
+            0,
+            9.519764424090596
+          ],
+          "heading_degrees": 13.273597955925288,
+          "gait_phase": "schematic continuous cycle; not measured real gait"
+        },
+        {
+          "frame": 288,
+          "position": [
+            2.1,
+            0,
+            11.7
+          ],
+          "heading_degrees": 11.46393153469694,
+          "gait_phase": "schematic continuous cycle; not measured real gait"
+        }
+      ],
+      "camera_samples": [
+        {
+          "frame": 0,
+          "position": [
+            -2.7,
+            1.35,
+            3.0
+          ],
+          "target": [
+            -0.8,
+            0.9,
+            0.0
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 72,
+          "position": [
+            -2.793751063309257,
+            1.35,
+            6.042044365631534
+          ],
+          "target": [
+            -0.6093475670962124,
+            0.9,
+            3.312680766738416
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 144,
+          "position": [
+            -2.072569099723558,
+            1.35,
+            9.049837658952377
+          ],
+          "target": [
+            0.38985575646598325,
+            0.9,
+            6.476341173226267
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 216,
+          "position": [
+            -1.0058636131144252,
+            1.35,
+            11.951400659239795
+          ],
+          "target": [
+            1.7016784455581064,
+            0.9,
+            9.519764424090596
+          ],
+          "vertical_fov_degrees": 34
+        },
+        {
+          "frame": 288,
+          "position": [
+            0.2,
+            1.35,
+            14.8
+          ],
+          "target": [
+            2.1,
+            0.9,
+            11.7
+          ],
+          "vertical_fov_degrees": 34
+        }
+      ],
+      "projected_samples": [
+        {
+          "frame": 0,
+          "person_center_uv": [
+            0.5,
+            0.5159669973963917
+          ],
+          "person_height_fraction": 0.7589480378874542,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+        },
+        {
+          "frame": 72,
+          "person_center_uv": [
+            0.5,
+            0.5158556817574063
+          ],
+          "person_height_fraction": 0.7704842192108715,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+        },
+        {
+          "frame": 144,
+          "person_center_uv": [
+            0.5,
+            0.515986432207301
+          ],
+          "person_height_fraction": 0.7567418833318234,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+        },
+        {
+          "frame": 216,
+          "person_center_uv": [
+            0.5,
+            0.5161066072068127
+          ],
+          "person_height_fraction": 0.7412179508219353,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+        },
+        {
+          "frame": 288,
+          "person_center_uv": [
+            0.5,
+            0.5161022270466081
+          ],
+          "person_height_fraction": 0.7418571855258037,
+          "visible_landmark_ids": [
+            "office",
+            "tree_planters"
+          ],
+          "visible_clothing": "full white shirt, indigo straight jeans, black loafers, burgundy bag; view varies front-side-front"
+        }
+      ]
+    }
+  ]
+}

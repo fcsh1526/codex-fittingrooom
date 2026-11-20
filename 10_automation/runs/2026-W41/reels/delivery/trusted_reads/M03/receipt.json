@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4",
+    "title": "03_西裝外套配棉T_貼文文字",
+    "revisionId": "ANLCKQnKQofau05ntj7gUup4dkWupBMOgym6hOaVSjWnhZzmja9vZeoFk9KKW38VXHtAadisfWjQBtoir94JFkGcoOj_7QPVtreir-0Okg",
+    "documentUrl": "https://docs.google.com/document/d/1iJSp5jJoWHZARZhbOgMZZqyvQBN2rg959p8Egx1K0-4",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

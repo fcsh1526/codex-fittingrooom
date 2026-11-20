@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Taipei",
+  "actor": "user",
+  "quote": "這個好像沒有參考前面看過別人IG 的reel。然後好像也沒照我們工作流，然後好像也只是舊版的影像剪輯模式",
+  "decision": "editorial_and_workflow_revision_requested",
+  "target_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/paired_review_v1/M03_W45_natural_parallel_review_v1.mp4",
+  "target_sha256": "13cd4260052fb452e396d2293874e0fa7496b0dfee868c8702e4c004621d072c",
+  "context": "Direct feedback to the displayed 6.041667s natural parallel candidate.",
+  "assistant_diagnosis": "Reference findings were not mapped into observable performance and framing development; no-dance preference was overconstrained into a turn-and-stand display. Existing parallel layout is not itself rejected.",
+  "limits": "No new source/still/publication approval, no explicit rejection of all source footage or A layout. The exact multi-action parallel IG reference remains unconfirmed.",
+  "audit_path": "10_automation/runs/2026-W45/reels/M03/reference_execution_audit_2026-11-05/REVIEW.md",
+  "new_generation": false
+}

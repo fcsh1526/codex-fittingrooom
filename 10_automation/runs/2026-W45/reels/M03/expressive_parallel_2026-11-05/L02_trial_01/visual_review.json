@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "status": "source_pending_user_feedback_used_in_review_edits",
+  "whole_film_samples_viewed": 21,
+  "upper_body_samples_viewed": 23,
+  "additional_full_resolution_frames_viewed": [
+    144,
+    204,
+    216
+  ],
+  "native_UI_samples": 43,
+  "uninterrupted_human_visual_review": false,
+  "observed_phrases": [
+    "hands on waist, hip and shoulder shifts",
+    "high two-arm V",
+    "side/rear turn and frontal return, skirt swing",
+    "palms near shoulders then hand-on-hip finish"
+  ],
+  "attention": "Visible samples mainly address lens; not complete eye tracking.",
+  "layout_envelope": "High V and broad arm swing exceed narrow columns. Selected intervals/crop in paired_review_v1/edit_receipt.json; full source retained.",
+  "body_feet_bag_anatomy_zero_defect_certification": false,
+  "user_acceptance": null,
+  "publication_approval": null
+}

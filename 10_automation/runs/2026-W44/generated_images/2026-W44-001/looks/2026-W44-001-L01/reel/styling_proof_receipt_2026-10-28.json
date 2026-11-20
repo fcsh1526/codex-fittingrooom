@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-28",
+  "look_id": "2026-W44-001-L01",
+  "role": "reel_styling_proof",
+  "provider": "built-in image_gen",
+  "runtime_model": "not surfaced",
+  "generation_calls": 1,
+  "corrections": 0,
+  "tool_wall_seconds": 54.4,
+  "timing_limit": "Observed round trip, not separate engine or active production measurement",
+  "input_roles": [
+    {
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_candidate_A_framing_v2.png",
+      "role": "user-approved exact outfit and scene lock",
+      "sha256": "e4f2e8b1e4aba05d295d21f3987d01d65ccdf94a263de096317732ae7a55a3c7",
+      "approval_receipt": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/user_A_still_approval_2026-10-28.json"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "role": "face identity"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "role": "body proportion identity"
+    }
+  ],
+  "prompt": "styling_proof_prompt.md",
+  "output": {
+    "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/2026-W44-001-L01_M02_reel_styling_proof_candidate_A.png",
+    "width": 941,
+    "height": 1672,
+    "bytes": 2196327,
+    "sha256": "b971d913fd7fa9974e3c922dda568b70a939f68b48b720e25233b1ffc293b1c9"
+  },
+  "status": "user_approved_still",
+  "review": {
+    "viewed": "Full generated output and approved full-person source",
+    "framing": "Full hair/face, open cardigan, white crew neck, charcoal waistband and whole black shoulder bag visible; lower legs intentionally out of frame",
+    "identity": "Face, gathered hairstyle, expression close to M02v3/source; not quantified biometric evidence",
+    "wardrobe": "Same purple-white-charcoal-black grouping; close view makes knit and trouser surface detail more pronounced, user wardrobe-continuity check pending",
+    "physical_limit": "Closer independent styling-proof composition only; not an approved later frame, continuous dolly endpoint or exact world/camera match",
+    "lighting": "Preserves bright available daylight treatment of accepted full still; not relabeled overcast exposure",
+    "blocking_defects_observed": "No obvious cropped hair/bag or gross hand collapse in displayed proof; no dynamic review performed"
+  },
+  "motion_generated": false,
+  "new_still_approved": true,
+  "approval_receipt": "user_proof_still_approval_2026-10-28.json"
+}

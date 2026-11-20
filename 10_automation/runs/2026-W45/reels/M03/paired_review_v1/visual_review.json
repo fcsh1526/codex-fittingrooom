@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-04",
+  "status": "not_accepted_emotional_continuity_needs_repair",
+  "film_path": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/M03_W45_two_looks_review_v1.mp4",
+  "film_sha256": "40f4644211ab5cac5f42a4be4bd361f66349df35f70e76bc94e7ddee4a62b6f3",
+  "duration_seconds": 10.5,
+  "frame_count": 252,
+  "fps": 24,
+  "raster": [
+    720,
+    1280
+  ],
+  "viewer_purpose": "Same navy soft blazer, charcoal work trousers versus cream A-line skirt/sneakers, then readable neckline/lapels in medium.",
+  "source_A": "L01_trial_02 [0,96)",
+  "source_B": "L02_trial_01 [0,174)",
+  "reviewed_samples": {
+    "whole_film": "22 frames at0.5 s intervals plus finalframe",
+    "join": "3.0–4.25 s, every2frames inside18frame overlap",
+    "approach": "5.5–9.0 s at0.25 s intervals",
+    "proof": "L02 source f144 inspected at native720x1280"
+  },
+  "observations": [
+    "Work trouser and skirt/sneaker silhouettes visibly differ; full-person size broadly matches outside expression movement.",
+    "3.25–4.0 s dissolve retains double facial contours, hands and trouser/skirt transparency. This is a visible transition limitation, not marked seamless.",
+    "L02 supplies a continuous approach to medium, including small subject steps. Not a camera-only method validation.",
+    "Late medium preserves full hair and readable blazer neckline/waist/bag in sampled frames."
+  ],
+  "technical": {
+    "full_decode": "completed",
+    "native_source_mapping": "234 unblended frames checked, encoder-loss tolerance passed",
+    "speed": 1,
+    "retiming": false,
+    "freeze": false,
+    "crop": false,
+    "text": false,
+    "audio": false
+  },
+  "continuous_human_visual_review": false,
+  "native_dynamic_review_status": "required before publish-ready; UI1x source observations and sampled sequence only, no uninterrupted assistant full-film visual review claimed",
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "external_delivery": null,
+  "next": "Historical rejected candidate. Do not reopen as pending or publish; see emotion_recut v2.",
+  "user_feedback": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/user_emotion_feedback_2026-11-04.json",
+  "superseded_by_candidate": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/M03_W45_emotion_recut_v2.mp4"
+}

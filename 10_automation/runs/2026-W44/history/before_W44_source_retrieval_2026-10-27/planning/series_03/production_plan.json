@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "plan_id": "2026-W44-03-v1",
+  "status": "draft",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W41"
+    ],
+    "content": "2026-W44",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣成年女性日常穿搭",
+    "takeaway": "同件可可棕直筒褲：移動搭白T與短外層，見客換淺藍尖領襯衫；比較領口、衣長及坐姿。",
+    "visual_theme": "短程出差，一條棕褲兩個場合",
+    "selection_rationale": "少帶一條褲子，移動與見客怎麼分配上衣？"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "everyday_sequence"
+  },
+  "models": [
+    {
+      "id": "M04",
+      "identity_asset_ids": [
+        "M04_face",
+        "M04_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W44-003-L01",
+      "model_id": "M04",
+      "wardrobe_summary": "米白無鋪棉短外套、白圓領短袖T、可可棕高腰直筒丹寧、黑低跟樂福鞋、深棕拉鍊肩包",
+      "source_asset_ids": [
+        "source_W41",
+        "research_receipt"
+      ]
+    },
+    {
+      "id": "2026-W44-003-L02",
+      "model_id": "M04",
+      "wardrobe_summary": "淺藍薄棉尖領長袖襯衫（袖口預先翻折、紮入）、同件可可棕直筒丹寧、黑窄皮帶、黑低跟樂福鞋、同款深棕肩包",
+      "source_asset_ids": [
+        "source_W41",
+        "research_receipt"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 330,
+    "duration_seconds": 13.75,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W44-003-L01"
+      ],
+      "frames": [
+        0,
+        96
+      ],
+      "clothing_purpose": "移動裝全身短步入座旁",
+      "clear_read_intervals": [
+        [
+          0,
+          78
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "移動裝全身短步入座旁",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W44-003-L01"
+      ],
+      "frames": [
+        78,
+        174
+      ],
+      "clothing_purpose": "已坐妥，讀短外套與褲腰",
+      "clear_read_intervals": [
+        [
+          96,
+          156
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "已坐妥，讀短外套與褲腰",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    },
+    {
+      "id": "S03",
+      "look_ids": [
+        "2026-W44-003-L02"
+      ],
+      "frames": [
+        156,
+        252
+      ],
+      "clothing_purpose": "見客裝已坐妥，相近位置接入",
+      "clear_read_intervals": [
+        [
+          174,
+          234
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "見客裝已坐妥，相近位置接入",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    },
+    {
+      "id": "S04",
+      "look_ids": [
+        "2026-W44-003-L02"
+      ],
+      "frames": [
+        234,
+        330
+      ],
+      "clothing_purpose": "起身後全身，讀襯衫／褲型",
+      "clear_read_intervals": [
+        [
+          252,
+          330
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "起身後全身，讀襯衫／褲型",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        78,
+        96
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    },
+    {
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "frames": [
+        156,
+        174
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    },
+    {
+      "from_shot": "S03",
+      "to_shot": "S04",
+      "frames": [
+        234,
+        252
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M04_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M04_start_v3_face.png",
+      "sha256": "b9fbb46533782597e255b30a910c2457741aa70f92ddc0aa05060de9fb0b4a91"
+    },
+    {
+      "id": "M04_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M04_start_v3_full.png",
+      "sha256": "958dec3949edd2ebaedd7be408bc1ef6cc8a735a9749c11b6e5e73d401fa8241"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W44/planning/series_03_storyboard.png",
+      "sha256": "14dbba686717ab58f0fa93606f8d76e2f2bac4a42b9d9acb728561d1224e919f"
+    },
+    {
+      "id": "source_W41",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W41/source_perplexity.csv",
+      "sha256": "61bffeedf1023f454745e45851df3d5b985de87093c1f3d50dcbf410bd231d11"
+    },
+    {
+      "id": "research_receipt",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/planning/research_receipt.json",
+      "sha256": "87836e2218ef6f1814da6bdd1493c2fbddab7ce1b801768e469dcbe663222c31"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "本週企劃及精確線稿待使用者確認",
+    "新全身圖與proof尚未生成／逐張核准",
+    "既有身份核准沿用manifest；尚未把歷史收據轉為本檢查器格式，不重問身份核准",
+    "新搭配是編輯提案，不聲稱真實打包／材質舒適度測試",
+    "坐姿圖須另審；不強迫模型生成坐下到站起的複雜全過程"
+  ]
+}

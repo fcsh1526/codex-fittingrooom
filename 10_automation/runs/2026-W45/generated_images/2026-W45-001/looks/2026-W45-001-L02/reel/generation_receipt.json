@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-04",
+  "status": "user_still_approved",
+  "look_id": "2026-W45-001-L02",
+  "model": "M01",
+  "surface": "reel",
+  "provider": "builtin_image_gen",
+  "generation_calls": 1,
+  "correction_calls": 0,
+  "source_tool_output": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a17c38-aa07-76f2-a857-3127abcc97fb\\exec-3fe77e71-373d-4d56-816d-d1cfd0907ec1.png",
+  "saved_output": "2026-W45-001-L02_M01_reel_candidate_A.png",
+  "output_sha256": "f821acb4e063c1525f1b1bee9e1d96d10183d3ae7bf5c0e626f9c27823d939d5",
+  "actual_source_pixels": [
+    941,
+    1672
+  ],
+  "delivery_target": [
+    1080,
+    1920
+  ],
+  "references": [
+    {
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-001/looks/2026-W45-001-L01/reel/2026-W45-001-L01_M01_reel_candidate_A.png",
+      "sha256": "ead6fbc6a18450afe8e09b814ef99fc2a322c3aba655b40cfc3f2735ffd0ebb9"
+    },
+    {
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+    },
+    {
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4"
+    }
+  ],
+  "reference_roles": [
+    "L01 accepted scene/framing/bag/shoes only; not L02 clothes",
+    "approved v4 face",
+    "approved v4 full proportions/hair"
+  ],
+  "manual_subject_bounds": {
+    "top_px": 160,
+    "bottom_px": 1608,
+    "height_fraction": 0.8660287081339713,
+    "method": "approximate visual comparison, not automated anatomy measurement"
+  },
+  "scale_comparison": "10_automation/runs/2026-W45/reels/M01/preflight_2026-11-04/source_scale_comparison.png",
+  "user_approval": "10_automation/runs/2026-W45/approvals/M01_L02_still_approval_2026-11-04.json",
+  "motion_from_this_unseen_still_submitted": false,
+  "prompt_file": "submitted_prompt_A.txt",
+  "prompt_sha256": "78657d77b366ce12c528239c8f1310cf9091184e435addb32df9cb9be3f3b783"
+}

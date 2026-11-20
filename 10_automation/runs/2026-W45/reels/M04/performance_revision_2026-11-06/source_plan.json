@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06",
+  "status": "downloaded_technical_checked_editorially_reassessed",
+  "purpose": "單套花卉上衣搭素色下身；讓觀眾感受自在向朋友展示穿搭的互動",
+  "film_method": "sequential_lookbook",
+  "stage": "performance source before editorial selection",
+  "user_reply": "ok",
+  "reply_scope": "Proceed with described performance-direction approach; no new still or finished-film acceptance inferred",
+  "source_seconds_requested": 6,
+  "source_jobs_limit": 1,
+  "first_path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/2026-W45-004-L01_M04_reel_candidate_A_face_v2.png",
+  "first_sha256": "5e6c7a2a00997c2774d0f7a6a1dfa27075cb1304afeb9a81c66cf3133e01957c",
+  "new_stills": 0,
+  "beats": [
+    "正面銜接明顯三分之二側轉，呈現上衣與褲型",
+    "臉回望拍攝者，短暫等待反應",
+    "受到回應後笑容展開、肩膀放鬆",
+    "轉向騎樓斜向走一兩步並回望同伴"
+  ],
+  "timing": "Beats are ordering guidance, not mandatory exact-second keyframes",
+  "camera": "stationary level chest height; brief diagonal exit, no shared curved tracking system",
+  "detail_edit": "Decide only after source performance review; preserve face during response, do not impose previous crop intervals",
+  "previs": "Connected line board sufficient for a stationary shot with short step; no precision route reproduction claimed",
+  "prior_rejection_retained": true,
+  "remaining_quota": "unknown",
+  "reviewed_at": "2026-11-09",
+  "technical_review": "technical_review.json",
+  "current_editorial_proposal": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/opening_plan.json"
+}

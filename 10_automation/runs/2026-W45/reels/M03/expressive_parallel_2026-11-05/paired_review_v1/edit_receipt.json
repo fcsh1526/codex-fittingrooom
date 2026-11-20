@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-05",
+  "status": "review_candidates_not_user_accepted",
+  "source_left": {
+    "path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_02/source.mp4",
+    "sha256": "533f789b3aab103573af3270f545aa3834a2e483805306659ff6a4fef009c3e2",
+    "user_acceptance_scope": "exact source performance; not final layout or publication"
+  },
+  "source_right": {
+    "path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/L02_trial_01/source.mp4",
+    "sha256": "13b4f38ca17ddd2e0495775753d6ed1eb02db2bc0ed73496ebc9a98d0aa436fe",
+    "user_acceptance": null
+  },
+  "A": {
+    "left_source_frames": [
+      [
+        0,
+        78
+      ],
+      [
+        126,
+        192
+      ]
+    ],
+    "right_source_frames": [
+      [
+        0,
+        78
+      ],
+      [
+        144,
+        210
+      ]
+    ],
+    "output_transition_frames": [
+      60,
+      78
+    ],
+    "overlap_frames": 18,
+    "crop_each_source": [
+      135,
+      0,
+      450,
+      1280
+    ],
+    "panel_size": [
+      356,
+      1280
+    ],
+    "gutter": 8,
+    "scale_each": 0.7911111111111111,
+    "rationale": "Select waist, side-turn, knee and skirt movement that fit the narrow columns. High V and broad palms remain in full sources and variantB; this is editorial selection, not a motion-defect repair."
+  },
+  "B": {
+    "left_source_frames": [
+      0,
+      241
+    ],
+    "right_source_frames": [
+      0,
+      241
+    ],
+    "output_transition_frames": [
+      223,
+      241
+    ],
+    "overlap_frames": 18,
+    "scale_each": 1,
+    "rationale": "Optional alternate layout preserves full performance and larger figures. Not silently substituted for original parallel intent."
+  },
+  "outputs": [
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/M03_W45_parallel_selected_review_v1.mp4",
+      "sha256": "3ab8dbe73a02546f12135f3cfed9e7184016e2af531038e9414688dcaeec9135",
+      "fps": 24,
+      "frames": 126,
+      "seconds": 5.25,
+      "width": 720,
+      "height": 1280,
+      "audio": false,
+      "full_decode": true,
+      "contact_samples": 21
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/M03_W45_full_frame_sequence_review_v1.mp4",
+      "sha256": "19154236a8105acaa67fd0fca4513c09805e7688b3f5d11c2d2a89b0b474d954",
+      "fps": 24,
+      "frames": 464,
+      "seconds": 19.333333333333332,
+      "width": 720,
+      "height": 1280,
+      "audio": false,
+      "full_decode": true,
+      "contact_samples": 20
+    }
+  ],
+  "native_speed": true,
+  "no_freeze_duplicate_reverse_or_retime": true,
+  "baked_text": false,
+  "uninterrupted_human_visual_review": false,
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "selected_layout": "A",
+  "layout_preference_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/user_layout_preference_2026-11-05.json"
+}

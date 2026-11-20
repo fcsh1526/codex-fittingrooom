@@ -1,0 +1,18 @@
+{
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 241,
+  "seconds": 10.041667,
+  "source_has_audio": true,
+  "source_sha256": "c6380ee2cac2a9b731e1a4bc07d034462a30efb04d380cff72dc5ec310265595",
+  "silent_sha256": "64d5fd91c902168bced4446ef1e46248f8e7fb3cd575f6f3f68531e489f511fc",
+  "full_decode": true,
+  "silent_video_stream_copy": true,
+  "native_speed": true,
+  "sample_every_frames": 3,
+  "sample_count": 81,
+  "continuous_native_speed_review": false,
+  "user_film_approval": null,
+  "publication_approval": null
+}

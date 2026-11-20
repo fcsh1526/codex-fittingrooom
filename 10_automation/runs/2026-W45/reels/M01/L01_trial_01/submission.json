@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-04",
+  "status": "source_in_two_look_review_pending_user_motion_acceptance",
+  "scope": "M01 L01 single6s motion trial",
+  "first_frame_asset_id": "52712daf-fde5-49fd-8ed2-a59010a25fde",
+  "asset_ids": [
+    "a3306f94-b579-4498-9a01-a1717fe12c62",
+    "61671532-de26-495b-b7f5-5331a1570fa3"
+  ],
+  "source_still_approval": "10_automation/runs/2026-W45/approvals/M01_L01_still_approval_2026-11-04.json",
+  "duration_requested": 6,
+  "resolution_requested": "720p",
+  "aspect_requested": "9:16",
+  "max_new_jobs": 1,
+  "prompt_sha256": "3844df0bc2b881a171d6bab34116c265458ec18b84e4b567ce312c84cce0a10e",
+  "L02_motion_authority": false,
+  "user_video_acceptance": null,
+  "publication_approval": null,
+  "request_ui_url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "video_asset_id": "e86b3366-65bc-4c2d-b9bc-282ae52a2757",
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\generated_video (96).mp4",
+  "local_source": "source.mp4",
+  "generator_reported_parameters_accepted": true,
+  "actual_tool_call_directly_visible": false,
+  "seed": "unknown",
+  "model_version": "unknown",
+  "remaining_quota": "unknown",
+  "source_still_sha256": "ead6fbc6a18450afe8e09b814ef99fc2a322c3aba655b40cfc3f2735ffd0ebb9",
+  "source_video_sha256": "d04134d55e8d07672162bd8acec626e8a58327e16767de402a941c7c404e9d20",
+  "post_media_prompt_verified": true,
+  "technical_review": "technical_review.json",
+  "paired_review": "../paired_review_v1/REVIEW.md"
+}

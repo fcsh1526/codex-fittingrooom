@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "post_url": "grok-asset/imagine/post/b8e62f5a-9509-4419-9456-485f3835e57a",
+  "expected_asset_id": "b8e62f5a-9509-4419-9456-485f3835e57a",
+  "visible_prompt": "Her friend directly behind the camera is taking a casual photo of her skirt outfit. Begin from the exact approved first frame, nearly frontal with relaxed low hands and a warm smile, allowing the complete outfit to read clearly.\n\n\n\n\nOne continuous six-second real-time shot. Staying in her place, she responds playfully to the photographer with a small shoulder angle and a comfortable weight shift, then returns toward the lens with a spontaneous happy laugh. The cream A-line skirt responds with believable changing folds while retaining its silhouette. Keep her face engaged with the camera. Both hands remain relaxed, low and visibly outside the torso, without touching the skirt or swinging behind her body. Finish comfortably near front-facing, still smiling rather than frozen.\n\n\n\n\nPreserve the exact M01 face, tied-back dark hair, open olive-green unlined cotton utility shirt-jacket, white crewneck tee, cream-white below-knee A-line cotton skirt, black casual shoes and dark-brown crossbody bag. Keep the short jacket hem, front pockets, waist and skirt shape readable. Locked chest-height 50mm camera; complete head and both shoes stay visible with normal proportions. Preserve the same cafe wall, windows, paving and shaded daylight. No walking, spin, raised-arm pose, camera move, cut or text.",
+  "matches_frozen": true,
+  "media": [
+    {
+      "duration": 6.041667,
+      "paused": true,
+      "rate": 1,
+      "src": "grok-asset/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/b8e62f5a-9509-4419-9456-485f3835e57a/generated_video.mp4",
+      "time": 0
+    },
+    {
+      "duration": 6.041667,
+      "paused": false,
+      "rate": 1,
+      "src": "grok-asset/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/b8e62f5a-9509-4419-9456-485f3835e57a/generated_video.mp4",
+      "time": 2.384262
+    },
+    {
+      "duration": 6.041667,
+      "paused": true,
+      "rate": 1,
+      "src": "grok-asset/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/b8e62f5a-9509-4419-9456-485f3835e57a/generated_video.mp4",
+      "time": 0.001
+    }
+  ],
+  "internal_tool_call_directly_visible": false
+}

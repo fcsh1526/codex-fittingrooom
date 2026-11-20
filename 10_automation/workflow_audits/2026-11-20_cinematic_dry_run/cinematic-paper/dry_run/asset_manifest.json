@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "assets": [
+    {
+      "id": "v3-pair",
+      "type": "video",
+      "path": "assets/video/pair-v3.mp4",
+      "source_tool": "W47 既有動態，僅本機複用",
+      "scene_id": "S01"
+    },
+    {
+      "id": "wind",
+      "type": "video",
+      "path": "assets/video/wind.mp4",
+      "source_tool": "W47 既有動態，僅本機複用",
+      "scene_id": "S02"
+    },
+    {
+      "id": "closed",
+      "type": "video",
+      "path": "assets/video/closed.mp4",
+      "source_tool": "W47 既有動態，僅本機複用",
+      "scene_id": "S03"
+    }
+  ],
+  "metadata": {
+    "mode": "dry_run",
+    "approval": "unapproved",
+    "external_generation": false
+  }
+}

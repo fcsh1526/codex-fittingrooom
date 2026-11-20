@@ -1,0 +1,22 @@
+{
+  "content_week": "2026-W45",
+  "status": "awaiting_concrete_plan_review",
+  "order": [
+    "M02",
+    "M01",
+    "M03",
+    "M04",
+    "M05"
+  ],
+  "next": {
+    "model": "M02",
+    "look_id": "2026-W45-002-L01",
+    "action": "After plan confirmation with source gap acknowledged, generate one native 9:16 starting-image candidate; get individual visual approval before motion."
+  },
+  "user_authorization_quote": "繼續W45",
+  "authorization_scope": "Start W45 research and proposal; does not fabricate approval for unseen stills.",
+  "stills_generated": 0,
+  "video_jobs_submitted": 0,
+  "paid_cloud_requests": 0,
+  "actual_publication_dates": null
+}

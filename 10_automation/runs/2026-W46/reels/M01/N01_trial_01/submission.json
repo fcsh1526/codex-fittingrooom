@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "shot": "M01 L01 N01",
+  "status": "generated_downloaded",
+  "first_frame_asset_id": "6899bfa7-0f8e-453b-a1be-eb98a9711dad",
+  "first_frame_sha256": "055468bada65947dd046b80d58e94d2d329ce099f5f3232b9b8ca7f7f02183f2",
+  "requested": {
+    "count": 1,
+    "other_refs": [],
+    "keyframes": [],
+    "ratio": "9:16",
+    "duration": 6,
+    "resolution": "720p"
+  },
+  "approval": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/user_N01_attached_still_approval_2026-11-11.json",
+  "video_asset_id": "a5fb8833-70c7-4b86-b2c1-ec06eb533f55",
+  "provider_report": "Agent reported exact first image and settings accepted, no additional reference IDs, prompt verbatim, 6.04s/720x1280/AAC; internal call not directly observed."
+}

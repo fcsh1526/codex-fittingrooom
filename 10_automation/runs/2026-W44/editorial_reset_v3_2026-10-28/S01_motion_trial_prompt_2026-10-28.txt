@@ -1,0 +1,15 @@
+執行且只執行一次W44新版S01「紫外搭褲裝走向柱邊」10秒動態測試。使用者已逐張核准首圖與8秒柱邊導引，不新增圖片、不修改舊資產、不生成第二套、不合片、不自行重試。先用媒體UUID查看四項內容，任一讀不到或不符便停止回報，不可用舊M03/M04或選取殘留替代。
+
+duration:"10";resolution_name:"720p";aspect_ratio:"9:16";
+first_frame_asset_id:"0f8837dc-8587-4e77-a2cc-c911cb289096"：剛上傳核准首圖，M02低髻、皇家紫薄開襟衫＋白圓領T＋素炭灰直筒褲＋白灰鞋＋黑小肩包，完整頭鞋朝畫面左跨步，左窗、米白牆角。
+keyframes:[{"asset_id":"718771d4-0e06-4e07-a9b5-a287c1b361b2","timestamp_s":8.0}]：剛上傳核准8秒導引，中央近柱遮住臉及大部分身體，柱左只露同套紫袖／灰褲／白灰鞋。這是第8秒片內導引，不是10秒末幀。
+asset_ids:["539840d8-dc19-488c-a8f1-f60a5905d67d","37a45888-e3e5-43a1-bdfc-98da09fc2c1e"]：M02 v3臉／全身比例。前者為原畫布既有M02臉；後者剛上傳白長袖上衣灰褲中性全身，只鎖身份與健康比例，不複製參照衣服。若臉UUID不符或讀不到就停。
+last_frame_asset_id:不設、不傳。不要塞洋裝圖，不要用8秒圖當last。必要控制不能同時接受就停止，不省略或改純文字參照。
+
+Generate ONE continuous ten-second real-time fashion walking shot. She is already taking a natural purposeful step toward image-left from the approved first frame. Continue the same grounded ordinary city walking rhythm, relaxed opposing arm swing and forward gaze, no posing, hesitation or slowing to meet the8-second guide. Keep exactly the same M02 face, low brown bun, open royal-purple cardigan, white crewneck tee, plain charcoal straight trousers, white-grey low sneakers, black shoulder bag and silver earrings throughout. No touching clothes, outfit change or second person.
+
+The level chest-height normal50mm camera travels on a smooth separate curved path rather than copying her path or holding a fixed screen pose. Begin at the approved front-side full-person view. Through the first6.75seconds keep head and both shoes clearly readable while the viewing angle and subject size gradually develop from front-side toward the same-flank view. Plausible camera translation and parallax reveal more of the walkway. From about7seconds pass the SINGLE fixed close plaster column: it enters from image-left and traverses toward centre-right in the foreground because of camera movement, increasingly hiding her. By8.0seconds reach the approved guide's opaque central pillar occlusion, with only a sliver of purple sleeve, charcoal leg and white-grey shoe visible LEFT of the pillar. Do not move or grow the pillar to create the effect. Continue the same camera and walking motion beyond8seconds through10seconds, staying in the purple outfit; no freeze or held still. Intended usable film portion is0–8.25seconds, but deliver the full native10seconds without retiming.
+
+ONE rigid covered walkway: warm pale plaster facade/corner, blue-grey glass panels, flat canopy and grey paving, same coherent soft daylight and shoe contact shadows. Connect the views through real-looking parallax, not morphing architecture or a graphic wipe. The person walks behind a physical opaque pillar; do not dissolve or erase body parts before occlusion, slide planted feet, grow windows, add column rows, jump camera axis or teleport. No internal cut, slow motion, speed ramp, text, logos or baked transition. Audio-off is not a known tool parameter; report the actual track.
+
+先確認UUID內容與必要參數，符合才只呼叫一次。完成留原畫布，回報真正使用first/keyframes含8.0/identity與last未設、是否全數接受、新影片媒體UUID、實際秒數／像素／音軌。把參數回報與抽樣觀察分開；不因schema接受就宣稱精密雙路徑、步態、固定場地或換裝接點通過。

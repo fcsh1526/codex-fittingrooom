@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28",
+  "user_reply": "ok",
+  "scope": "Accept identity and clothing of identity_reset_candidate_A.png only; framing still requires correction. No generated v2 static, motion or publication approval.",
+  "approved_reference_sha256": "32ee0cfc6147ef22eeb06cd31675fcd7e9e41a53b85c9f5577165cb8580f0216",
+  "tool": "built-in image_gen",
+  "calls_this_turn": 1,
+  "output": "framing_direction_v2_candidate.png",
+  "pixels": [
+    941,
+    1672
+  ],
+  "review": {
+    "direction": "now image-left, corrected",
+    "approximate_manual_frame_measurements": {
+      "head_y_fraction": 0.243,
+      "sole_y_fraction": 0.922,
+      "height_fraction": 0.679
+    },
+    "previs_target": {
+      "head_y_fraction": 0.294,
+      "sole_y_fraction": 0.913,
+      "height_fraction": 0.619
+    },
+    "limitations": "Still about6 percentage points larger than schematic; wall corner and window geometry approximate; trouser texture not certified solid/plain on close review. Not exact camera/scene match; pending user visual approval."
+  },
+  "next": "Review v2 visual; no video sent",
+  "prompt": "Recompose photograph 1 to the EXACT shot layout of reference 2. Reference2 is a spatial storyboard: replace its block figure with the actual photoreal woman from photo1, retaining her recognizable face, gathered brown hair, healthy proportions and exact clothes. Render all as a natural photograph. IMPORTANT: reference2 determines figure size, head position, feet position, camera side and wall/window geometry. Do not use photo1 framing. In a 941x1672 portrait, top of her head must be around y490 and her soles y1525, centre x410; NOT a tiny distant figure and NOT a frame-filling portrait. Her head/torso face toward image-LEFT, seen three-quarter front, walking naturally that way; her nose points left, no looking right. Small black shoulder bag stays visible on image-RIGHT hip. Arms swing naturally. Exact royal-purple open thin cardigan, plain white crewneck tee tucked into SOLID plain charcoal straight trousers, white-grey low sneakers and small silver earrings. Use the simple architecture from storyboard2: partial blue-grey window on left wall, a pale plaster wall corner behind figure near horizontal centre, overhead flat canopy, plain grey paving. Soft available daylight, realistic skin/fabric, complete head and both shoes, chest-height normal-lens view. No extra people, text, decorative fabric patterns, wide-angle elongation or illustration."
+}

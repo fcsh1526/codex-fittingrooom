@@ -1,0 +1,44 @@
+{
+  "status": "downloaded_sampled",
+  "uuid": "b6178fd0-12ed-4dc0-b3f8-3835f5c58e39",
+  "provider_report": "provider_report.txt",
+  "internal_call_directly_observed": false,
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 241,
+  "seconds": 10.041667,
+  "source_has_audio": true,
+  "source_sha256": "85252ae95333fbc4062b39759be7eb882a282d3e1f89b34f8d2fd5a467c72186",
+  "silent_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L02_trial_01/M03_W45_reference_L02_trial01_silent.mp4",
+  "silent_sha256": "067f48e63296b0212cd0c3ecbfa7a048e17ca9e0991b6de08a0392e6a1289264",
+  "full_decode": true,
+  "native_speed": true,
+  "silent_video_stream_copy": true,
+  "extracted_every_frames": 3,
+  "sample_count": 81,
+  "panel_diagnostic_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L02_trial_01/M03_W45_reference_L02_trial01_panel_diagnostic.mp4",
+  "panel_crop_xywh": [
+    180,
+    130,
+    400,
+    1034
+  ],
+  "panel_output_xywh": [
+    0,
+    180,
+    356,
+    920
+  ],
+  "panel_sha256": "bbafc4ae07e46e590fa6f73d9e3e3add47a571250b26ffdb16a3f6e4ba330ad5",
+  "panel_note": "Left panel only; right blank intentionally. Diagnostic, not finished film.",
+  "uninterrupted_human_review": false,
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "provider_first_reported": "1499ae56-08c0-4503-b88f-898a373738e0",
+  "provider_identity_reported": [
+    "26e03f42-2907-488c-b75c-239a2a19b9c8",
+    "15c720b2-46b6-45e0-a150-60290e3290e6"
+  ],
+  "provider_settings_reported": "10s,720p,9:16, no last/keyframes"
+}

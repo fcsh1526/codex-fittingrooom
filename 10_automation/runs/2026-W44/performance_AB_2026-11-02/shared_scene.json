@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "units": "schematic",
+  "unit_note": "Not measured metres; no exact model-control claim.",
+  "camera": {
+    "position": [
+      0,
+      1.35,
+      0
+    ],
+    "target": [
+      0,
+      1.35,
+      6
+    ],
+    "focal_length_look_mm": 50,
+    "portrait_sensor": [
+      20.25,
+      36
+    ],
+    "note": "Illustrative normal-lens projection, not calibrated photography."
+  },
+  "body_height": 1.65,
+  "far_curb_z": 4.8,
+  "near_curb_z": 1.8,
+  "far_pavement_y": 0.1,
+  "road_y": 0,
+  "traffic_origin": "positive x / screen right",
+  "camera_route": [
+    {
+      "t": 0.0,
+      "position": [
+        0,
+        1.35,
+        0
+      ],
+      "target": [
+        0,
+        1.35,
+        6
+      ]
+    },
+    {
+      "t": 2.2,
+      "position": [
+        0,
+        1.35,
+        0
+      ],
+      "target": [
+        0,
+        1.35,
+        6
+      ]
+    },
+    {
+      "t": 5.5,
+      "position": [
+        0,
+        1.35,
+        0
+      ],
+      "target": [
+        0,
+        1.35,
+        6
+      ]
+    },
+    {
+      "t": 10.0,
+      "position": [
+        0,
+        1.35,
+        0
+      ],
+      "target": [
+        0,
+        1.35,
+        6
+      ]
+    }
+  ],
+  "character_route": [
+    {
+      "t": 0.0,
+      "p": [
+        -0.5,
+        0.1,
+        5.6
+      ],
+      "gaze": "forward",
+      "label": "出現｜完整造型",
+      "note": "站在遠側人行道，尚未察看"
+    },
+    {
+      "t": 2.2,
+      "p": [
+        -0.42,
+        0.1,
+        4.88
+      ],
+      "gaze": "right",
+      "label": "察看｜再跨出路緣",
+      "note": "視線朝畫面右側車流來向"
+    },
+    {
+      "t": 5.5,
+      "p": [
+        -0.18,
+        0,
+        2.8
+      ],
+      "gaze": "forward",
+      "label": "過街｜接近鏡頭",
+      "note": "看回行進方向，笑容逐漸展開"
+    },
+    {
+      "t": 10.0,
+      "p": [
+        0,
+        0.1,
+        1.3
+      ],
+      "gaze": "camera",
+      "label": "會合｜眼神與微笑",
+      "note": "上半身近景，保持正常頭身比例"
+    }
+  ],
+  "review_status": "draft static key-view design; dynamic gait not simulated",
+  "projected_samples": [
+    {
+      "t": 0.0,
+      "person_height_fraction": 0.409,
+      "head_top_v": 0.401,
+      "shoe_v": 0.81,
+      "person_center_u": 0.28,
+      "camera_position": [
+        0,
+        1.35,
+        0
+      ],
+      "person_position": [
+        -0.5,
+        0.1,
+        5.6
+      ]
+    },
+    {
+      "t": 2.2,
+      "person_height_fraction": 0.47,
+      "head_top_v": 0.386,
+      "shoe_v": 0.856,
+      "person_center_u": 0.287,
+      "camera_position": [
+        0,
+        1.35,
+        0
+      ],
+      "person_position": [
+        -0.42,
+        0.1,
+        4.88
+      ]
+    },
+    {
+      "t": 5.5,
+      "person_height_fraction": 0.818,
+      "head_top_v": 0.351,
+      "shoe_v": 1.17,
+      "person_center_u": 0.341,
+      "camera_position": [
+        0,
+        1.35,
+        0
+      ],
+      "person_position": [
+        -0.18,
+        0,
+        2.8
+      ]
+    },
+    {
+      "t": 10.0,
+      "person_height_fraction": 1.763,
+      "head_top_v": 0.073,
+      "shoe_v": 1.835,
+      "person_center_u": 0.5,
+      "camera_position": [
+        0,
+        1.35,
+        0
+      ],
+      "person_position": [
+        0,
+        0.1,
+        1.3
+      ]
+    }
+  ]
+}

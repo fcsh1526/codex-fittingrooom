@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_date": "2026-10-22",
+  "updated_date": "2026-11-06",
   "series": [
     {
       "series_id": "SERIES_COMMUTE_WEEK",
@@ -327,6 +327,420 @@
       "adopted_date": null,
       "source_material_ids": [],
       "usage_ids": []
+    },
+    {
+      "series_id": "W44_PROPOSAL_01",
+      "title": "一件紫色薄針織，工作日到週末",
+      "audience_question": "同一件亮色外搭，搭工作褲或舊牛仔褲時，怎麼保留清楚的色塊？",
+      "relationship": "同一件皇家紫薄開襟衫與白短袖，工作日配炭灰直筒褲，週末換W43巧克力棕丹寧；兩套都只讓紫色做唯一亮色。",
+      "status": "editorial_revision_requested_generation_hold",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_34d881f46ce6a4a26e54",
+        "mi_e91ceab7ede58f016983",
+        "mi_ee39e99528b55ec36570",
+        "mi_85fca8136ccb85b567c7"
+      ],
+      "usage_ids": [],
+      "proposal_paths": [
+        "10_automation/runs/2026-W44/planning/series_proposals.json"
+      ],
+      "superseded_proposal_paths": [
+        "10_automation/runs/2026-W44/history/before_W44_source_retrieval_2026-10-27/planning/series_proposals.json"
+      ],
+      "content_week": "2026-W44",
+      "source_weeks": [
+        "2026-W43",
+        "2026-W44"
+      ],
+      "model_id": "M02",
+      "look_ids": [
+        "2026-W44-001-L01",
+        "2026-W44-001-L02"
+      ],
+      "version": "v2_source_verified",
+      "note": "已取得W42–W44三週來源共60筆，完整搭配仍為編輯提案。未生成新AI圖或取得新企劃核准。",
+      "planning_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+      "latest_receipt": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L02/reel/outfit_reference_receipt_2026-10-28.json",
+      "latest_feedback_receipt": "10_automation/runs/2026-W44/user_editorial_feedback_2026-10-28.json"
+    },
+    {
+      "series_id": "W44_PROPOSAL_02",
+      "title": "夏天的細肩帶洋裝，白天繼續穿",
+      "audience_question": "如何讓細肩帶洋裝的肩帶與短袖層次清楚，又能分出上班和週末？",
+      "relationship": "左側黑色洋裝內搭白T並加薄灰藍襯衫；右側可可棕洋裝配白T與奶油白平底鞋。比較內搭遮覆和外層有無，不以露膚差或換色當大變裝。",
+      "status": "weekly_presentation_review_generation_hold",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_bb3624ade9d2c29c10fb",
+        "mi_1945ca0dac1d06f02eb4",
+        "mi_6967880fb45f3be6bf8e",
+        "mi_85fca8136ccb85b567c7"
+      ],
+      "usage_ids": [],
+      "proposal_paths": [
+        "10_automation/runs/2026-W44/planning/series_proposals.json"
+      ],
+      "superseded_proposal_paths": [
+        "10_automation/runs/2026-W44/history/before_W44_source_retrieval_2026-10-27/planning/series_proposals.json"
+      ],
+      "content_week": "2026-W44",
+      "source_weeks": [
+        "2026-W42",
+        "2026-W44"
+      ],
+      "model_id": "M01",
+      "look_ids": [
+        "2026-W44-002-L01",
+        "2026-W44-002-L02"
+      ],
+      "version": "v2_source_verified",
+      "note": "已取得W42–W44三週來源共60筆，完整搭配仍為編輯提案。未生成新AI圖或取得新企劃核准。",
+      "planning_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+      "latest_feedback_receipt": "10_automation/runs/2026-W44/user_editorial_feedback_2026-10-28.json"
+    },
+    {
+      "series_id": "W44_PROPOSAL_03",
+      "title": "短程出差，同雙低筒鞋搭裙或褲",
+      "audience_question": "少帶一雙鞋，裙裝與褲裝各要留出多少鞋面？",
+      "relationship": "同雙白灰低筒球鞋，第一套配W42炭灰膝長直筒裙，第二套配深藍九分直筒褲；整片看鞋口、下襬間距與完整比例，不聲稱實穿舒適。",
+      "status": "weekly_presentation_review_generation_hold",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_85fca8136ccb85b567c7",
+        "mi_367030f26caeed71fa07",
+        "mi_fb3e913af274aec33a86",
+        "mi_e734ad397d076055e0bc"
+      ],
+      "usage_ids": [],
+      "proposal_paths": [
+        "10_automation/runs/2026-W44/planning/series_proposals.json"
+      ],
+      "superseded_proposal_paths": [
+        "10_automation/runs/2026-W44/history/before_W44_source_retrieval_2026-10-27/planning/series_proposals.json"
+      ],
+      "content_week": "2026-W44",
+      "source_weeks": [
+        "2026-W42",
+        "2026-W43",
+        "2026-W44"
+      ],
+      "model_id": "M04",
+      "look_ids": [
+        "2026-W44-003-L01",
+        "2026-W44-003-L02"
+      ],
+      "version": "v2_source_verified",
+      "note": "已取得W42–W44三週來源共60筆，完整搭配仍為編輯提案。未生成新AI圖或取得新企劃核准。",
+      "planning_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+      "latest_feedback_receipt": "10_automation/runs/2026-W44/user_editorial_feedback_2026-10-28.json"
+    },
+    {
+      "series_id": "W44_PROPOSAL_04",
+      "title": "下班赴約，一抹紅放包或腰間",
+      "audience_question": "不換成整套紅，紅色小包與窄皮帶各如何放進中性色穿搭？",
+      "relationship": "第一套白短袖＋炭灰褲只加正紅小包；第二套白襯衫＋黑褲只加酒紅窄皮帶、包回黑色。兩套各只有一個紅色部位。",
+      "status": "weekly_presentation_review_generation_hold",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_5eab6b33f08ae37006fe",
+        "mi_2a9cac822e3ee6f6b4e6",
+        "mi_e734ad397d076055e0bc"
+      ],
+      "usage_ids": [],
+      "proposal_paths": [
+        "10_automation/runs/2026-W44/planning/series_proposals.json"
+      ],
+      "superseded_proposal_paths": [
+        "10_automation/runs/2026-W44/history/before_W44_source_retrieval_2026-10-27/planning/series_proposals.json"
+      ],
+      "content_week": "2026-W44",
+      "source_weeks": [
+        "2026-W43",
+        "2026-W44"
+      ],
+      "model_id": "M03",
+      "look_ids": [
+        "2026-W44-004-L01",
+        "2026-W44-004-L02"
+      ],
+      "version": "v2_source_verified",
+      "note": "已取得W42–W44三週來源共60筆，完整搭配仍為編輯提案。未生成新AI圖或取得新企劃核准。",
+      "planning_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+      "latest_feedback_receipt": "10_automation/runs/2026-W44/user_editorial_feedback_2026-10-28.json"
+    },
+    {
+      "series_id": "W44_PROPOSAL_05",
+      "title": "襯衫長褲，腰間加一條方巾",
+      "audience_question": "既有襯衫長褲，方巾如何在腰間成為清楚、平整的小重點？",
+      "relationship": "第一套白襯衫黑褲配海軍藍米白方巾；第二套灰藍襯衫米白褲配棕米小方巾。兩套都窄折穿一至兩個褲耳、預先側結，其餘素色。",
+      "status": "weekly_presentation_review_generation_hold",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_e04be4ac90d6cfe733e8",
+        "mi_483e42c56358083f2aeb",
+        "mi_b28cb7ef4e42f9759d85"
+      ],
+      "usage_ids": [],
+      "proposal_paths": [
+        "10_automation/runs/2026-W44/planning/series_proposals.json"
+      ],
+      "superseded_proposal_paths": [
+        "10_automation/runs/2026-W44/history/before_W44_source_retrieval_2026-10-27/planning/series_proposals.json"
+      ],
+      "content_week": "2026-W44",
+      "source_weeks": [
+        "2026-W43",
+        "2026-W44"
+      ],
+      "model_id": "M05",
+      "look_ids": [
+        "2026-W44-005-L01",
+        "2026-W44-005-L02"
+      ],
+      "version": "v2_source_verified",
+      "note": "已取得W42–W44三週來源共60筆，完整搭配仍為編輯提案。未生成新AI圖或取得新企劃核准。",
+      "planning_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+      "latest_feedback_receipt": "10_automation/runs/2026-W44/user_editorial_feedback_2026-10-28.json"
+    },
+    {
+      "series_id": "SERIES_W45_M01",
+      "title": "短工裝出門，褲裝與裙裝各有精神",
+      "audience_question": "看不過臀的工裝外層如何配俐落深褲或淺色A字裙；口袋與下襬清楚，人物回應朋友而開心展臂。",
+      "relationship": "短外層配深直褲或淺A字裙，先看比例與輪廓",
+      "status": "user_film_accepted_not_delivered",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_1f008409a9884e0bf266",
+        "mi_a7a714af8ea10b4c2e29",
+        "mi_c61c266455d69856b319"
+      ],
+      "usage_ids": [
+        "USE_W45_M01_PAIRED_V1_20261104"
+      ],
+      "proposal_paths": [
+        "10_automation/runs/2026-W45/planning/M01/production_plan.json"
+      ],
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W45"
+      ],
+      "source_gap": null,
+      "revision": 2,
+      "revision_history": [
+        {
+          "revision": 1,
+          "title": "格紋出門，褲裝與裙裝各有精神",
+          "source_material_ids": [
+            "mi_5db970cc725d5074114d",
+            "mi_e1d0162bbdf8479b18cf",
+            "mi_e91ceab7ede58f016983"
+          ],
+          "status": "proposed_pending_user_plan_review",
+          "archive_path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/EDITORIAL_PROPOSAL.md"
+        }
+      ],
+      "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+      "latest_asset_receipt": "10_automation/runs/2026-W45/generated_images/2026-W45-001/looks/2026-W45-001-L01/reel/generation_receipt.json",
+      "video_acceptance_receipt": "10_automation/runs/2026-W45/approvals/M01_paired_v1_video_acceptance_2026-11-04.json"
+    },
+    {
+      "series_id": "SERIES_W45_M02",
+      "title": "苔綠配棕，看到你就笑著走近",
+      "audience_question": "她認出鏡頭前的你、正面開心迎接你；苔綠／可可棕是這段生活互動中清楚可讀的單套造型。",
+      "relationship": "鏡頭／觀眾就是赴約朋友；不是鏡頭旁的畫外對象。",
+      "status": "user_video_accepted_not_delivered",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_3ba0e4f48c26417af011",
+        "mi_8267c854df0c0d434d3f",
+        "mi_9c8e00ecb2498d4c2c8e",
+        "mi_fdfc3f8f3f9956c80d9f"
+      ],
+      "usage_ids": [
+        "USE_W45_M02_TRIAL01_20261103",
+        "USE_W45_M02_TRIAL02_20261103",
+        "USE_W45_M02_TRIAL03_20261104"
+      ],
+      "proposal_paths": [
+        "10_automation/runs/2026-W45/planning/M02/production_plan.json"
+      ],
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W45"
+      ],
+      "source_gap": null,
+      "revision": 2,
+      "revision_history": [
+        {
+          "revision": 1,
+          "title": "看到你，就笑著走近",
+          "source_material_ids": [
+            "mi_5eab6b33f08ae37006fe"
+          ],
+          "status": "proposed_pending_user_plan_review",
+          "archive_path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/EDITORIAL_PROPOSAL.md"
+        }
+      ],
+      "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+      "audience_question_before_feedback": "單套生活代入：苔綠上身與可可棕褲上下分區清楚，表演從認出朋友、迎接到短程走近，色彩關係一直可讀。",
+      "video_acceptance_receipt": "10_automation/runs/2026-W45/approvals/M02_trial03_video_acceptance_2026-11-04.json"
+    },
+    {
+      "series_id": "SERIES_W45_M03",
+      "title": "一件柔肩西外，直褲到淺裙",
+      "audience_question": "看同件薄料西外如何拆搭不同色直褲，或換成淺色裙與球鞋；以輪廓和正式程度的可見差異帶出赴約情境。",
+      "relationship": "同件海軍藍西外，工作深褲與休閒淺裙兩種穿法",
+      "status": "parallel_editing_paused_by_user",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_111ac2cdead07deae7cd",
+        "mi_215af9651c8fc1c94ee7",
+        "mi_85fca8136ccb85b567c7",
+        "mi_d91bf3eddbe7c5d09867"
+      ],
+      "usage_ids": [
+        "USE_W45_M03_PAIRED_V1_20261104",
+        "USE_W45_M03_EMOTION_RECUT_V2_20261104",
+        "USE_W45_M03_REALISM_TRIAL01_20261104",
+        "W45_M03_expressive_trial02_2026-11-05",
+        "W45_M03_expressive_parallel_trial01_2026-11-05",
+        "W45_M03_skirt_expressive_trial01_20261105",
+        "USE_W45_M03_PARALLEL_SELECTED_V1_20261105",
+        "USE_W45_M03_FULL_FRAME_SEQUENCE_V1_20261105",
+        "USE_W45_M03_PARALLEL_SELECTED_V4_20261105",
+        "USE_W45_M03_NATURAL_L01_TRIAL01_20261105",
+        "USE_W45_M03_NATURAL_L02_TRIAL01_20261105",
+        "USE_W45_M03_NATURAL_PARALLEL_V1_20261105",
+        "USE_W45_M03_REFERENCE_L01_TRIAL01_20261105",
+        "USE_W45_M03_REFERENCE_L02_20261105",
+        "USE_W45_M03_REFERENCE_PARALLEL_V1_20261105",
+        "USE_W45_M03_REFERENCE_PARALLEL_V2_20261105"
+      ],
+      "proposal_paths": [
+        "10_automation/runs/2026-W45/planning/M03/production_plan.json",
+        "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/production_plan.json"
+      ],
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W44",
+        "2026-W45"
+      ],
+      "source_gap": null,
+      "revision": 2,
+      "revision_history": [
+        {
+          "revision": 1,
+          "title": "下班赴約，把直線換成柔軟",
+          "source_material_ids": [
+            "mi_2a9cac822e3ee6f6b4e6",
+            "mi_986215f8d5315b210ad8",
+            "mi_c01ec8e4f4a8b081bc51"
+          ],
+          "status": "proposed_pending_user_plan_review",
+          "archive_path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/EDITORIAL_PROPOSAL.md"
+        }
+      ],
+      "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+      "latest_asset_receipt": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v2/edit_receipt.json",
+      "still_approval_receipts": [
+        "10_automation/runs/2026-W45/approvals/M03_L01_still_approval_2026-11-04.json",
+        "10_automation/runs/2026-W45/approvals/M03_L02_still_approval_2026-11-04.json"
+      ],
+      "execution_reconciliation": "10_automation/runs/2026-W45/reels/M03/preflight_2026-11-04/EXECUTION_RECONCILIATION.md",
+      "current_reassessment": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/REVIEW.md",
+      "latest_reference_study": "03_research/ig_feed_followup_2026-11-04/mizzu_ri_DeO_-RVvCC-/REVIEW.md",
+      "reference_study_paths": [
+        "03_research/ig_feed_study_2026-11-04/REVIEW.md",
+        "03_research/ig_feed_followup_2026-11-04/mizzu_ri_DeO_-RVvCC-/REVIEW.md"
+      ],
+      "latest_editorial_proposal": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/production_plan.json",
+      "source_performance_acceptance": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_02/user_performance_acceptance_2026-11-05.json",
+      "layout_preference_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/user_layout_preference_2026-11-05.json",
+      "selected_layout": "A parallel selected poses",
+      "latest_performance_feedback": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/user_pause_parallel_2026-11-05.json"
+    },
+    {
+      "series_id": "SERIES_W45_M04",
+      "title": "深底花卉，只讓一件當主角",
+      "audience_question": "全身先看深底花卉只占上衣、下身與包保持素色；中近景再確認花卉尺度、顏色與薄棉衣料。",
+      "relationship": "先看花襯衫與素色下身，再讀花卉圖案",
+      "status": "M04_v1_user_rejected_editorial_redesign_required",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_283b48bf094c551a1384",
+        "mi_73d4d8ff0a0e078410bb"
+      ],
+      "usage_ids": [
+        "USE_W45_M04_FLORAL_SINGLE_V1_20261106"
+      ],
+      "proposal_paths": [
+        "10_automation/runs/2026-W45/planning/M04/production_plan.json"
+      ],
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W45"
+      ],
+      "source_gap": null,
+      "revision": 2,
+      "revision_history": [
+        {
+          "revision": 1,
+          "title": "素色穿搭，把紋理留給包",
+          "source_material_ids": [
+            "mi_00ae547dc9118c4016ff",
+            "mi_b4d92d6516ac6bac48b8"
+          ],
+          "status": "proposed_pending_user_plan_review",
+          "archive_path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/EDITORIAL_PROPOSAL.md"
+        }
+      ],
+      "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+      "latest_asset_receipt": "10_automation/runs/2026-W45/reels/M04/production_2026-11-06/edit_receipt.json",
+      "current_reassessment": "10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/REVIEW.md",
+      "still_approval_receipts": [
+        "10_automation/runs/2026-W45/approvals/M04_L01_face_v2_still_approval_2026-11-06.json"
+      ],
+      "latest_feedback_receipt": "10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/user_feedback.json"
+    },
+    {
+      "series_id": "SERIES_W45_M05",
+      "title": "短袖底層，一件薄外層應付冷氣房",
+      "audience_question": "同時比較白天短袖與冷氣房加薄襯衫外層的完整樣貌；其他衣服、鞋包固定，讓一層之差有明確用途。",
+      "relationship": "同套白T深藍褲，左短袖、右灰藍薄外層",
+      "status": "editorial_approved_media_not_approved",
+      "adopted_date": null,
+      "source_material_ids": [
+        "mi_1f008409a9884e0bf266",
+        "mi_232dcec2a0bf59e47113",
+        "mi_85fca8136ccb85b567c7",
+        "mi_c724a5ccea64825fe9cd"
+      ],
+      "usage_ids": [],
+      "proposal_paths": [
+        "10_automation/runs/2026-W45/planning/M05/production_plan.json"
+      ],
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W44",
+        "2026-W45"
+      ],
+      "source_gap": null,
+      "revision": 2,
+      "revision_history": [
+        {
+          "revision": 1,
+          "title": "同雙低筒鞋，裙褲都留出鞋面",
+          "source_material_ids": [
+            "mi_1a1af5c2144fb3378c1d",
+            "mi_7dda5d00cba59742d17a",
+            "mi_8e10d036059ac0d7c20c"
+          ],
+          "status": "proposed_pending_user_plan_review",
+          "archive_path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/EDITORIAL_PROPOSAL.md"
+        }
+      ],
+      "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json"
     }
   ],
   "uses": [
@@ -635,7 +1049,443 @@
       "user_feedback_quote": "仍不夠俐落或吸引人",
       "root_cause_status": "hypotheses_unvalidated",
       "remaining_U03_U05_expansion_allowed": false
+    },
+    {
+      "usage_id": "USE_W45_M02_TRIAL01_20261103",
+      "series_id": "SERIES_W45_M02",
+      "source_weeks": [
+        "2026-W45"
+      ],
+      "content_week": "2026-W45",
+      "production_date": "2026-11-03",
+      "model_profile_id": "M02",
+      "look_ids": [
+        "2026-W45-002-L01"
+      ],
+      "film_path": "10_automation/runs/2026-W45/reels/M02/trial_01/M02_W45_trial01_silent_review.mp4",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M02/trial_01/submission.json",
+      "status": "user_attention_direction_feedback_not_accepted",
+      "feedback_summary": "User asked purpose and pointed out side-looking. Original prompt placed friend offscreen; preserve diagnostic, no film/publication acceptance. Same approved still retained for one repair.",
+      "publication_date": null,
+      "post_url": null,
+      "metrics": null,
+      "feedback_receipt": "10_automation/runs/2026-W45/reels/M02/trial_01/user_feedback_2026-11-03.json"
+    },
+    {
+      "usage_id": "USE_W45_M02_TRIAL02_20261103",
+      "series_id": "SERIES_W45_M02",
+      "source_weeks": [
+        "2026-W45"
+      ],
+      "content_week": "2026-W45",
+      "production_date": "2026-11-03",
+      "model_profile_id": "M02",
+      "look_ids": [
+        "2026-W45-002-L01"
+      ],
+      "film_path": "10_automation/runs/2026-W45/reels/M02/trial_02/M02_W45_trial02_silent_review.mp4",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M02/trial_02/submission.json",
+      "status": "generated_performance_needs_redesign_not_accepted",
+      "feedback_summary": "11/4 correction: prior prompt mismatch audit URL was trial01, not trial02. Exact trial02 URL/media/visible prompt now match frozen new text. More frontal but large image-left welcome arm remains; redesign as recognition/smile/short approach with low arms. No user film/publication acceptance.",
+      "publication_date": null,
+      "post_url": null,
+      "metrics": null,
+      "correction_receipt": "10_automation/runs/2026-W45/reels/M02/trial_02/prompt_audit_correction_2026-11-04.json"
+    },
+    {
+      "usage_id": "USE_W45_M02_TRIAL03_20261104",
+      "series_id": "SERIES_W45_M02",
+      "source_weeks": [
+        "2026-W45"
+      ],
+      "content_week": "2026-W45",
+      "production_date": "2026-11-04",
+      "model_profile_id": "M02",
+      "look_ids": [
+        "2026-W45-002-L01"
+      ],
+      "film_path": "10_automation/runs/2026-W45/reels/M02/trial_03/M02_W45_trial03_silent_review.mp4",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M02/trial_03/submission.json",
+      "status": "user_video_accepted_not_delivered",
+      "feedback_summary": "User ok accepts exact6.04s trial03 and M01 L01 still in adjacent reply. Not IG publication, external delivery, precision path/physical certification or repeated-method success.",
+      "publication_date": null,
+      "post_url": null,
+      "metrics": null,
+      "user_acceptance_receipt": "10_automation/runs/2026-W45/approvals/M02_trial03_video_acceptance_2026-11-04.json"
+    },
+    {
+      "usage_id": "USE_W45_M01_PAIRED_V1_20261104",
+      "series_id": "SERIES_W45_M01",
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W45"
+      ],
+      "production_date": "2026-11-04",
+      "model_profile_id": "M01",
+      "look_ids": [
+        "2026-W45-001-L01",
+        "2026-W45-001-L02"
+      ],
+      "film_path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/M01_W45_two_looks_review_v1.mp4",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/edit_receipt.json",
+      "status": "user_film_accepted_not_delivered",
+      "feedback_summary": "User ok accepts exact10.25s native silent two-look film after disclosed0.75s transient ghosting/small foot shifts. Limits retained; not zero physical errors, continuous-viewing self-report, external delivery or publication.",
+      "publication_date": null,
+      "post_url": null,
+      "metrics": null,
+      "user_acceptance_receipt": "10_automation/runs/2026-W45/approvals/M01_paired_v1_video_acceptance_2026-11-04.json"
+    },
+    {
+      "usage_id": "USE_W45_M03_PAIRED_V1_20261104",
+      "series_id": "SERIES_W45_M03",
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W44",
+        "2026-W45"
+      ],
+      "production_date": "2026-11-04",
+      "model_profile_id": "M03",
+      "look_ids": [
+        "2026-W45-003-L01",
+        "2026-W45-003-L02"
+      ],
+      "film_path": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/M03_W45_two_looks_review_v1.mp4",
+      "film_sha256": "40f4644211ab5cac5f42a4be4bd361f66349df35f70e76bc94e7ddee4a62b6f3",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/edit_receipt.json",
+      "status": "not_accepted_emotional_continuity_needs_repair",
+      "feedback_summary": "User asks expression purpose, then says overall emotion strange. Exact10.5s film not accepted; not a rejection of approved stills/other films.",
+      "publication_date": null,
+      "post_url": null,
+      "metrics": null,
+      "feedback_receipt": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/user_emotion_feedback_2026-11-04.json",
+      "current_reassessment": "10_automation/runs/2026-W45/reels/M03/realism_reset_2026-11-04/REASSESSMENT.md"
+    },
+    {
+      "usage_id": "USE_W45_M03_EMOTION_RECUT_V2_20261104",
+      "series_id": "SERIES_W45_M03",
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W44",
+        "2026-W45"
+      ],
+      "production_date": "2026-11-04",
+      "model_profile_id": "M03",
+      "look_ids": [
+        "2026-W45-003-L01",
+        "2026-W45-003-L02"
+      ],
+      "film_path": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/M03_W45_emotion_recut_v2.mp4",
+      "film_sha256": "001ff0dc8fa724c61fd42846689d9877bb0957be296e6c65d8a7dc48795e2022",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/edit_receipt.json",
+      "status": "user_rejected_strong_AI_uncanny_feeling",
+      "feedback_summary": "User rejects strongAI/uncanny feeling despite removing surprise. No third recut. Cause unisolated; redesign single-source integrated body/gaze/performance first.",
+      "publication_date": null,
+      "post_url": null,
+      "metrics": null,
+      "feedback_receipt": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/user_realism_rejection_2026-11-04.json"
+    },
+    {
+      "usage_id": "USE_W45_M03_REALISM_TRIAL01_20261104",
+      "series_id": "SERIES_W45_M03",
+      "content_week": "2026-W45",
+      "source_weeks": [
+        "2026-W44",
+        "2026-W45"
+      ],
+      "production_date": "2026-11-04",
+      "model_profile_id": "M03",
+      "look_ids": [
+        "2026-W45-003-L01"
+      ],
+      "film_path": "10_automation/runs/2026-W45/reels/M03/realism_reset_2026-11-04/trial_01/M03_W45_realism_trial01_silent_review.mp4",
+      "film_sha256": "f8d35d777a3f26ebcb7b29f691b816abcfc0d865f2388bb923d5404d78ae75b0",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/realism_reset_2026-11-04/trial_01/submission.json",
+      "status": "user_rejected_emotional_purpose_unclear",
+      "feedback_summary": "User rejects unclear emotional meaning and asks workflow explanation. Return to editorial purpose/situation before further generation; no current pending source review.",
+      "publication_date": null,
+      "post_url": null,
+      "metrics": null,
+      "feedback_receipt": "10_automation/runs/2026-W45/reels/M03/realism_reset_2026-11-04/trial_01/user_story_clarity_rejection_2026-11-04.json"
+    },
+    {
+      "usage_id": "W45_M03_expressive_parallel_trial01_2026-11-05",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "user_not_accepted_more_varied_action_requested",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_01/M03_W45_expressive_trial01_silent_review.mp4",
+      "source_asset_id": "a9d31a19-5434-4f47-8682-f8963b6f1d86",
+      "source_sha256": "afe96cf6d649fcd8bfd7b5ce92fb178629b692194b01f6be17684c99844f753a",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_01/submission.json",
+      "feedback_summary": "Arm-following gaze purposeless, larger/more varied poses requested. Not accepted; superseded by accepted-source trial02, not reopened.",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "feedback_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_01/user_performance_feedback_2026-11-05.json"
+    },
+    {
+      "usage_id": "W45_M03_expressive_trial02_2026-11-05",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "user_accepted_exact_source_performance",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_02/M03_W45_expressive_trial02_silent_review.mp4",
+      "source_asset_id": "414c5d81-cd08-4ca3-87e9-0ff1ecd2e73f",
+      "source_sha256": "533f789b3aab103573af3270f545aa3834a2e483805306659ff6a4fef009c3e2",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_02/submission.json",
+      "feedback_summary": "User ok accepts exact full-frame trousers performance/naturalness; not new skirt, edited film or publication.",
+      "user_acceptance_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_02/user_performance_acceptance_2026-11-05.json",
+      "publication_url": null
+    },
+    {
+      "usage_id": "W45_M03_skirt_expressive_trial01_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "source_candidate_pending_user_feedback",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/L02_trial_01/M03_W45_skirt_expressive_trial01_silent_review.mp4",
+      "source_asset_id": "64c9236b-86e1-4456-82b4-36de7918ec41",
+      "source_sha256": "13b4f38ca17ddd2e0495775753d6ed1eb02db2bc0ed73496ebc9a98d0aa436fe",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/L02_trial_01/submission.json",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "feedback_summary": "New skirt/full-film candidate pending user review. Trousers source performance accepted separately; no edited-film or publication approval."
+    },
+    {
+      "usage_id": "USE_W45_M03_PARALLEL_SELECTED_V1_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "layout_selected_film_quality_pending_user_review",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/M03_W45_parallel_selected_review_v1.mp4",
+      "film_sha256": "3ab8dbe73a02546f12135f3cfed9e7184016e2af531038e9414688dcaeec9135",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/edit_receipt.json",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "feedback_summary": "User selected A parallel layout and expressive poses fitting the columns. Exact film/new skirt quality and publication remain unapproved; trousers source performance accepted separately.",
+      "layout_preference_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/user_layout_preference_2026-11-05.json"
+    },
+    {
+      "usage_id": "USE_W45_M03_FULL_FRAME_SEQUENCE_V1_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "retained_alternate_not_selected_layout",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/M03_W45_full_frame_sequence_review_v1.mp4",
+      "film_sha256": "19154236a8105acaa67fd0fca4513c09805e7688b3f5d11c2d2a89b0b474d954",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/edit_receipt.json",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "feedback_summary": "User chose parallel layout A; B retained as optional comparison, not rejected source performance and not publication approved."
+    },
+    {
+      "usage_id": "USE_W45_M03_PARALLEL_SELECTED_V4_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "user_not_accepted_swaying_dance_performance",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/M03_W45_parallel_selected_review_v4.mp4",
+      "film_sha256": "522ff32bb389abee138b79c88601b5b23fd96d88de96f83134d7862301576106",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/edit_receipt.json",
+      "feedback_summary": "User: 我不喜歡搖擺跳舞. Exact4s v4 not accepted. Preserve A layout preference; replan natural motivated actions, do not continue dance-like pose chains. Earlier trousers source acceptance remains historical, not current-film approval.",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "feedback_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/user_performance_feedback_2026-11-05.json"
+    },
+    {
+      "usage_id": "USE_W45_M03_NATURAL_L01_TRIAL01_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "source_sampled_pending_user_feedback",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/L01_trial_01/M03_W45_natural_L01_trial_01_silent_review.mp4",
+      "source_asset_id": "95b2f7fe-2b05-4101-88fd-e5367afd784f",
+      "source_sha256": "9fdca42aa8a3141601c8ab9c262f0d13c5c5432b0de12b4bcd1d8f5d146c511b",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/L01_trial_01/submission.json",
+      "feedback_summary": "One new6.04s source after user rejected swaying/dance. Sampled response/one deeper-than45degree turn and return with low arms; no film/publication approval.",
+      "user_acceptance_receipt": null,
+      "publication_url": null
+    },
+    {
+      "usage_id": "USE_W45_M03_NATURAL_L02_TRIAL01_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "source_sampled_pending_user_feedback",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/L02_trial_01/M03_W45_natural_L02_trial_01_silent_review.mp4",
+      "source_asset_id": "d8318fa2-0d21-41fc-b94f-cfffd8111538",
+      "source_sha256": "6ce2f27eaf5db550e27da1da1a7a8284ce4b347670e1cc2d6ef37b13a520d1e0",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/L02_trial_01/submission.json",
+      "feedback_summary": "One new6.04s source after user rejected swaying/dance. Sampled response/one deeper-than45degree turn and return with low arms; no film/publication approval.",
+      "user_acceptance_receipt": null,
+      "publication_url": null
+    },
+    {
+      "usage_id": "USE_W45_M03_NATURAL_PARALLEL_V1_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "user_feedback_requires_editorial_revision",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/paired_review_v1/M03_W45_natural_parallel_review_v1.mp4",
+      "film_sha256": "13cd4260052fb452e396d2293874e0fa7496b0dfee868c8702e4c004621d072c",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/paired_review_v1/edit_receipt.json",
+      "feedback_summary": "User finds IG reference learning and workflow execution missing; still resembles the old edit. Returned to editorial/storyboard revision. Existing A layout and approved stills remain; no film or publication acceptance.",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "latest_feedback_receipt": "10_automation/runs/2026-W45/reels/M03/reference_execution_audit_2026-11-05/user_editorial_feedback.json"
+    },
+    {
+      "usage_id": "USE_W45_M03_REFERENCE_L01_TRIAL01_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "source_trial_review_ready_panel_framing_requires_revision",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_trial_01/M03_W45_reference_L01_trial01_silent.mp4",
+      "film_sha256": "a53cb90415341d806ed31445025475347297d023562d18815767532ee4a3287f",
+      "source_asset_id": "fad9518f-bbd0-4f68-a9c3-0351bb7b3440",
+      "source_sha256": "eea1bdfbc5add114ee8e8e4f9a363bf9544d8976660f8b7316707807e8e62f1c",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_trial_01/submission.json",
+      "feedback_summary": "Assistant: three-stage presentation partly visible; deeper side turn and excessive approach cause late hair/hand clipping in proposed narrow panel. Exact source awaits user feedback; no second look or publication approval.",
+      "user_acceptance_receipt": null,
+      "publication_url": null
+    },
+    {
+      "usage_id": "USE_W45_M03_REFERENCE_L02_20261105",
+      "status": "source_sampled",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L02_trial_01/M03_W45_reference_L02_trial01_silent.mp4",
+      "source_asset_id": "b6178fd0-12ed-4dc0-b3f8-3835f5c58e39",
+      "source_sha256": "85252ae95333fbc4062b39759be7eb882a282d3e1f89b34f8d2fd5a467c72186",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L02_trial_01/submission.json",
+      "feedback_summary": "Skirt source after user allowed person cropping; side turn and approach are visible; full-speed motion acceptance pending.",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "user_acceptance_receipt": null,
+      "publication_url": null
+    },
+    {
+      "usage_id": "USE_W45_M03_REFERENCE_PARALLEL_V1_20261105",
+      "status": "user_preferred_to_v2_not_film_approved",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v1/M03_W45_reference_parallel_review_v1.mp4",
+      "film_sha256": "cbf6d44706f77d0750497535ce08a14483b092ea4e2c4b2b3a81b1b5f1397e28",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v1/edit_receipt.json",
+      "feedback_summary": "User prefers v1 over v2 but raises wider concern about split-screen IG feel; no publication approval.",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "latest_feedback_receipt": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/user_feedback.json"
+    },
+    {
+      "usage_id": "USE_W45_M03_REFERENCE_PARALLEL_V2_20261105",
+      "series_id": "SERIES_W45_M03",
+      "production_date": "2026-11-05",
+      "status": "user_rejected",
+      "film_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v2/M03_W45_reference_parallel_review_v2.mp4",
+      "film_sha256": "e47629d64faac82d0aade06ab729af623eea6992851af04cc0ec31f7efd519eb",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v2/edit_receipt.json",
+      "feedback_summary": "User rejects new 8s recut; prefers previous 9s version and questions whether this comparison feels like IG references.",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "latest_feedback_receipt": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/user_feedback.json"
+    },
+    {
+      "usage_id": "USE_W45_M04_FLORAL_SINGLE_V1_20261106",
+      "series_id": "SERIES_W45_M04",
+      "production_date": "2026-11-06",
+      "status": "user_rejected",
+      "film_path": "10_automation/runs/2026-W45/reels/M04/production_2026-11-06/M04_W45_floral_single_review_v1.mp4",
+      "film_sha256": "4feb9e3016587963605548f5cfcf8dc03d140494b8e25965a0de2a37f7757067",
+      "source_asset_id": "0c3fed58-b7bf-45c3-a4c5-ecc70793c1bb",
+      "source_sha256": "c6380ee2cac2a9b731e1a4bc07d034462a30efb04d380cff72dc5ec310265595",
+      "receipt_path": "10_automation/runs/2026-W45/reels/M04/production_2026-11-06/edit_receipt.json",
+      "feedback_summary": "User rejects M04 full/detail/full v1 as repetitive old approach and recalls stronger W44 films. Return to viewer hook, performance and connected storyboard; exact approved starting still retained. No new generation or publication.",
+      "user_acceptance_receipt": null,
+      "publication_url": null,
+      "latest_feedback_receipt": "10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/user_feedback.json"
     }
   ],
-  "weather_checks": []
+  "weather_checks": [
+    {
+      "check_id": "WX_W44_20261027",
+      "checked_date": "2026-10-27",
+      "timezone": "Asia/Taipei",
+      "regions": [
+        "台北",
+        "台中",
+        "高雄"
+      ],
+      "source": "https://www.cwa.gov.tw/Data/fcst_pdf/W53.pdf",
+      "issued_at": "2026-10-27T11:00:00+08:00",
+      "target_dates": [
+        "2026-10-27",
+        "2026-11-01"
+      ],
+      "receipt_path": "10_automation/runs/2026-W44/planning/research_receipt.json",
+      "status": "checked_for_planning_recheck_before_publication",
+      "actual_publication_dates": null
+    },
+    {
+      "check_id": "WX_W45_20261103",
+      "checked_date": "2026-11-03",
+      "timezone": "Asia/Taipei",
+      "regions": [
+        "台北",
+        "中部",
+        "南部"
+      ],
+      "source": "https://www.cwa.gov.tw/Data/fcst_pdf/W11.pdf",
+      "issued_at": "2026-11-03T11:00:00+08:00",
+      "valid_from": "2026-11-03T12:00:00+08:00",
+      "valid_to": "2026-11-10T00:00:00+08:00",
+      "target_dates": [
+        "2026-11-03",
+        "2026-11-08"
+      ],
+      "receipt_path": "10_automation/runs/2026-W45/sources/weather_check.json",
+      "source_pdf_path": "10_automation/runs/2026-W45/sources/cwa_weekly_2026-11-03.pdf",
+      "source_pdf_sha256": "6734057833b318ddccc6aa5abf43b12bc9ef502c770de1afa0da7fba3c56723b",
+      "status": "checked_for_planning_recheck_before_publication",
+      "actual_publication_dates": null,
+      "Taipei_forecast": [
+        {
+          "date": "2026-11-03",
+          "range_celsius": [
+            23,
+            26
+          ],
+          "weather": "陰時多雲"
+        },
+        {
+          "date": "2026-11-04",
+          "range_celsius": [
+            23,
+            30
+          ],
+          "weather": "晴時多雲"
+        },
+        {
+          "date": "2026-11-05",
+          "range_celsius": [
+            22,
+            29
+          ],
+          "weather": "晴時多雲"
+        },
+        {
+          "date": "2026-11-06",
+          "range_celsius": [
+            23,
+            25
+          ],
+          "weather": "陰短暫雨"
+        },
+        {
+          "date": "2026-11-07",
+          "range_celsius": [
+            23,
+            25
+          ],
+          "weather": "多雲時陰短暫雨"
+        },
+        {
+          "date": "2026-11-08",
+          "range_celsius": [
+            23,
+            26
+          ],
+          "weather": "多雲短暫雨"
+        }
+      ],
+      "editorial_decision": "台北用薄層次與有遮簷外景，中南部不直接搬厚冬裝；實際發文前重查。這是編輯判斷，非衣物機能證明。"
+    }
+  ]
 }

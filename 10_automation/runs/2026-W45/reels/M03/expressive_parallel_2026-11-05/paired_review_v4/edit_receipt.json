@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-05",
+  "status": "user_not_accepted_swaying_dance_performance",
+  "viewer_purpose": "Compare navy blazer with work trousers/loafers versus cream skirt/sneakers.",
+  "performance": "Playful outfit display addressed to lens. Left shows side/back, bent knee, then waist/hip poses; right shows side-to-front return and skirt movement, then waist/hip poses.",
+  "layout_choice_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/user_layout_preference_2026-11-05.json",
+  "panels": [
+    {
+      "tag": "l",
+      "intervals": [
+        [
+          126,
+          192
+        ],
+        [
+          0,
+          48
+        ]
+      ],
+      "join": [
+        48,
+        66
+      ]
+    },
+    {
+      "tag": "r",
+      "intervals": [
+        [
+          180,
+          210
+        ],
+        [
+          0,
+          84
+        ]
+      ],
+      "join": [
+        12,
+        30
+      ]
+    }
+  ],
+  "crop_each": [
+    100,
+    0,
+    520,
+    1280
+  ],
+  "panel_width": 356,
+  "gutter": 8,
+  "fps": 24,
+  "frames": 96,
+  "seconds": 4,
+  "overlap_frames_each": 18,
+  "scale_each": 0.6846153846153846,
+  "native_speed": true,
+  "new_stills": 0,
+  "new_video_jobs": 0,
+  "no_freeze_duplicate_reverse_or_warp": true,
+  "known_tradeoff": "Shorter4s edit; full rear skirt turn and high V excluded for narrow-column layout, preserved in sources. Staggered panel dissolves retain one clear outfit panel throughout each join. Not motion-physics repair.",
+  "output": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/M03_W45_parallel_selected_review_v4.mp4",
+  "output_sha256": "522ff32bb389abee138b79c88601b5b23fd96d88de96f83134d7862301576106",
+  "source_left_sha256": "533f789b3aab103573af3270f545aa3834a2e483805306659ff6a4fef009c3e2",
+  "source_right_sha256": "13b4f38ca17ddd2e0495775753d6ed1eb02db2bc0ed73496ebc9a98d0aa436fe",
+  "width": 720,
+  "height": 1280,
+  "audio": false,
+  "full_decode": true,
+  "all_frames_extracted": 96,
+  "continuous_human_native_speed_review": false,
+  "user_film_acceptance": false,
+  "publication_approval": null,
+  "feedback_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/user_performance_feedback_2026-11-05.json"
+}

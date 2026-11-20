@@ -1,0 +1,7 @@
+{
+  "status": "direction_closer_controls_not_visible_media_hold",
+  "generation_allowed": false,
+  "current_blocker": "Grok site security verification",
+  "readiness": "No current tool settings or actual source/join proof",
+  "next": "Read controls after user completes site verification; no blind generation"
+}

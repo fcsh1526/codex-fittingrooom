@@ -1,0 +1,51 @@
+{
+  "pipeline": "cinematic",
+  "commit": "08e2151fa02de28a5d6a312b3d575692bf147ad7",
+  "mode": "dry_run_existing_media_only",
+  "stages": [
+    "research",
+    "proposal",
+    "script",
+    "scene_plan",
+    "assets",
+    "edit",
+    "compose",
+    "publish"
+  ],
+  "director_files_present": true,
+  "tools_registered": [
+    "video_compose",
+    "video_trimmer",
+    "frame_sampler",
+    "visual_qa"
+  ],
+  "media_check": "FFmpeg full video decode / framemd5; local Remotion ffprobe exited abnormally",
+  "sources": {
+    "full_edit_v1/wind.mp4": {
+      "frames": 145,
+      "timebase": "1/24",
+      "size": "720x1280",
+      "sha256": "0ae07c7ef17161a420b1a353e8cf2b64027ff14532d8ccbbfba41979652b4508"
+    },
+    "full_edit_v1/greeting.mp4": {
+      "frames": 145,
+      "timebase": "1/24",
+      "size": "720x1280",
+      "sha256": "1ecdb49fb146879fca185c6453eca4bbac969b508cfa259dcf7c8ebaf64e2fae"
+    },
+    "S01_closed_collar_trial_01/source.mp4": {
+      "frames": 145,
+      "timebase": "1/24",
+      "size": "720x1280",
+      "sha256": "8cd326c19c0d38f79f9c521cfff47deb38d29e694896e67348e8b33c74b24dd7"
+    },
+    "full_edit_v3/M01_W47_v3.mp4": {
+      "frames": 112,
+      "timebase": "1/24",
+      "size": "720x1280",
+      "sha256": "af31068f0f949f880a73367863c13655c29f96e2f9a9482e8382b49a28e42741"
+    }
+  },
+  "generation_calls": 0,
+  "new_video_renders": 0
+}

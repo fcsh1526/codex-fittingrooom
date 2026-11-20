@@ -1,0 +1,14 @@
+{
+  "week": "2026-W43",
+  "report_url": "https://mika-lin-weekly.pplx.app/weeks/2026-W43.html",
+  "csv_url": "https://mika-lin-weekly.pplx.app/data/2026-W43.csv",
+  "retrieved_date": "2026-10-27",
+  "method": "W44 verified in in-app browser, then original CSV/report fetched over permitted direct network access; no re-encoding or manual CSV reconstruction",
+  "sha256": "bfbcbfed72cd206d244e7060ec696a4eedbaeab6c86f53a8e63bd7bb30dcf592",
+  "rows": 20,
+  "themes": 5,
+  "report_sha256": "0f6e0197796dd3efb260255d7b8109ee32799c129d3d3fdef7c232197053f5ea",
+  "csv_matches_embedded_report_rows": true,
+  "external_claims_verified": false,
+  "evidence_limit": "保存原始週報與20筆原列、頁面內CSV逐列核對。上游配搭卡是研究輸入，不是本專案企劃／照片／商品或使用者核准；材質舒適度與止滑主張不能由AI示意圖驗證。"
+}

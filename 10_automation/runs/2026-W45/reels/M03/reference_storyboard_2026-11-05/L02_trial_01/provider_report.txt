@@ -1,0 +1,142 @@
+W45 M03正式週企劃續製：使用者看完褲裝試片後明確表示「畫面裁切人物沒關係，繼續」。現在只生成L02裙裝一支，作兩套並排的另一側。使用已核准L02首圖及原身份；不生成新圖、不重抽、不加購、不發布。先核對來源及設定，若額度不足或需額外付款即停止回報，不替換來源。 First frame: 1499ae56-08c0-4503-b88f-898a373738e0（已核准M03 L02，海軍藍西外、奶油白上衣及A字裙、白灰鞋）；identity asset_ids: [\"26e03f42-2907-488c-b75c-239a2a19b9c8\",\"15c720b2-46b6-45e0-a150-60290e3290e6\"]。duration:\"10\", resolution_name:\"720p\", aspect_ratio:\"9:16\"；不設last或keyframes。音訊如有開關才關。先查看三個UUID，核對實際可用控制。 以下英文原文是prompt，標記不傳入： PROMPT_BEGIN She is showing her outfit to the person filming, with lively, confident ease. Continue naturally from the supplied smiling first image. She takes a clear short diagonal step so the cream A-line skirt opens naturally, then turns to a three-quarter view, briefly showing the skirt shape and blazer side line. Her head, arms, weight and clothes respond together, her attention stays naturally with the camera and her smile changes spontaneously. She returns toward the viewer without a long pose-hold, then walks a few ordinary steps forward so her expression, blazer lapels and cream knit top become clearer. This is an outfit presentation, not dancing or repeated left-right rocking. One continuous ten-second real-time shot. The full outfit and both shoes should be readable at first; then she approaches smoothly, making a closer portrait for the ending. Camera position stays fixed; a gentle upward tilt is allowed during approach. End before she crowds the lens. Preserve normal head-to-body proportions, M03 identity, long wavy brown hair, open deep-navy blazer, cream-white short-sleeve fine-knit top, cream-white calf-length A-line skirt, white-grey low-top sneakers, small black bag on her left shoulder and silver necklace. Keep the same shaded office windows, bench, paving and coherent daylight. No running, repeated swaying, zoom, slow motion, cut, text or outfit change. PROMPT_END 只執行一支，回報實際first／identity IDs、設定接受狀態、UUID、時長、像素與音軌；代理回報與可見畫面分開。不要重試、生成其他素材或刪改既有素材。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M03 L02 裙裝並排側 — 一次
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 1499ae56-08c0-4503-b88f-898a373738e0 是（奶油裙）":
+        - cell "first"
+        - cell "1499ae56-08c0-4503-b88f-898a373738e0":
+          - code: 1499ae56-08c0-4503-b88f-898a373738e0
+        - cell "是（奶油裙）"
+      - row "asset_ids 26e03f42-…、15c720b2-… 是":
+        - cell "asset_ids"
+        - cell "26e03f42-…、15c720b2-…":
+          - code: 26e03f42-…
+          - text: 、
+          - code: 15c720b2-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"10\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - paragraph:
+    - text: 未重抽褲裝
+    - code: fad9518f
+    - text: 。
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID b6178fd0-12ed-4dc0-b3f8-3835f5c58e39":
+        - cell "影片 UUID"
+        - cell "b6178fd0-12ed-4dc0-b3f8-3835f5c58e39":
+          - code: b6178fd0-12ed-4dc0-b3f8-3835f5c58e39
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 近正面；奶油裙／鞋可讀":
+        - cell "0s"
+        - cell "近正面；奶油裙／鞋可讀"
+      - row "~1.7s 背側；回眸；裙形／西外側；鞋在框":
+        - cell "~1.7s"
+        - cell "背側；回眸；裙形／西外側；鞋在框":
+          - strong: 背側
+          - text: ；回眸；裙形／西外側；鞋在框
+      - row "~3.4s 近 3/4 側；對鏡笑":
+        - cell "~3.4s"
+        - cell "近 3/4 側；對鏡笑"
+      - row "~5s 回正；全身仍可讀":
+        - cell "~5s"
+        - cell "回正；全身仍可讀"
+      - row "~6.7s 向前走；裙擺動；構圖變緊":
+        - cell "~6.7s"
+        - cell "向前走；裙擺動；構圖變緊":
+          - strong: 向前走
+          - text: ；裙擺動；構圖變緊
+      - row "~8.4s 頭至腰／大腿；西外領／表情近；鞋出框":
+        - cell "~8.4s"
+        - cell "頭至腰／大腿；西外領／表情近；鞋出框":
+          - strong: 頭至腰／大腿
+          - text: ；西外領／表情近；鞋出框
+  - paragraph:
+    - strong: 抽樣：
+    - text: 無高 V／反覆搖；側轉偏深；走近有。
+    - strong: 不
+    - text: 認證與褲裝同步、步數或動態通過。只此一支。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert: Imagine 代理模式 - Grok

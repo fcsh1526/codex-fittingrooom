@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "status": "new_proposal_pending_user_review",
+  "common_space_sha256": "21b9057f11e05ab8275204b99b5022068dc9896dd80de4382f9dcaeeb8f5a91e",
+  "storyboard_sha256": "41811e9f126436f32c5b48769255e526c6c35cc1dbd0421cdc25abd3cbd84052",
+  "previs_sha256": "3c368824f363fa028262c8f398f56030405cf856b1fd119753b37227f403a98d",
+  "gif_frames": 128,
+  "actual_gif_duration_ms": 16000,
+  "projection_checks": {
+    "horizontal_center_range": [
+      0.37500127428141455,
+      0.5449987257185853
+    ],
+    "height_fraction_range": [
+      0.4504125138926884,
+      0.9490034546505705
+    ],
+    "relative_camera_angle_range": [
+      -41.59355624500529,
+      54.704481966614026
+    ],
+    "head_in_frame_all": true,
+    "feet_in_frame_until_13s": true,
+    "shared_clock_frames": 384,
+    "preview_frames": 128,
+    "preview_fps": 8,
+    "duration_seconds": 16,
+    "limits": "Projection checks only. No physical gait, exact AI adherence, comfortable dissolve or full continuous human playback certification."
+  },
+  "implementation": "Perspective pinhole with triangle per-pixel depth buffer; earlier polygon-average occlusion bug found and repaired before review export. Line/garment diagrams only, no raster photoreal image generation.",
+  "visual_review": "Key-frame contact sheet and column-window close view inspected; no continuous normal-speed human playback claim",
+  "approvals": [],
+  "ai_still_generation_calls": 0,
+  "ai_video_generation_calls": 0,
+  "limits": "Unmeasured fictional scene, schematic avatar/sine gait, no cloth physics, tool adherence or final comfort validation."
+}

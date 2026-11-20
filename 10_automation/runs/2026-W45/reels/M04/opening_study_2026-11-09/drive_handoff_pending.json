@@ -1,0 +1,18 @@
+{
+  "content_week": "2026-W45",
+  "folder_id": "1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "folder_url": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9",
+  "parent_id": "1hFZQo0CI6noDgrawSnx9xqtq6RVO3DH_",
+  "parent_name": "800.Codex IG",
+  "video_upload": "automatic_review_rejected",
+  "cover_upload": "not_attempted",
+  "native_doc": {
+    "id": "1LFWZ6eLUvTtl071yzdcOsoTjhpTBwjcIxVDmPZuoRKE",
+    "url": "https://docs.google.com/document/d/1LFWZ6eLUvTtl071yzdcOsoTjhpTBwjcIxVDmPZuoRKE/edit?usp=drivesdk",
+    "state": "blank_document_created_outside_week_folder_content_write_rejected"
+  },
+  "reason": "Automatic review requires explicit authorization for the exact video and publication handoff contents to the verified Drive and Docs destination.",
+  "external_handoff_performed": false,
+  "superseded_by": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/drive_delivery.json",
+  "historical_attempt": true
+}

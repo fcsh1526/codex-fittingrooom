@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "plan_id": "W46_M01_v1",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W46"
+    ],
+    "content": "2026-W46",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "先看一整套赴約穿搭，再看褲腳和丁字扣帶之間保留的空間。",
+    "visual_theme": "窗邊日光、黑鞋與褲腳之間的一段裸踝",
+    "selection_rationale": "換了丁字帶鞋，長褲卻把扣帶蓋住。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "everyday_sequence"
+  },
+  "models": [
+    {
+      "id": "M01",
+      "identity_asset_ids": [
+        "M01_face",
+        "M01_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W46-001-L01",
+      "model_id": "M01",
+      "wardrobe_summary": "米白短袖細針織圓領上衣紮入、炭黑九分直筒西裝褲、黑色霧面圓方頭丁字帶平底鞋、可可棕小型肩包、銀色小圈耳環",
+      "source_asset_ids": [
+        "source"
+      ],
+      "source_prompt_ids": [
+        "W46-P009",
+        "W46-P011"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 156,
+    "duration_seconds": 6.5,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W46-001-L01"
+      ],
+      "frames": [
+        0,
+        90
+      ],
+      "clothing_purpose": "九分直褲留出腳背扣帶上方一段空隙",
+      "clear_read_intervals": [
+        [
+          0,
+          90
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "找到靠窗空位，稍轉肩笑著回應友人，再坐下，0秒 先看到米白上衣、九分褲與黑鞋 → 3.75秒 望向友人、笑著朝長椅坐下",
+      "camera": "座位在畫面右側，鏡頭固定，從鞋到臉保留安全空間。切在臀部落座、手已穩定時。",
+      "execution_mode": "generate"
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W46-001-L01"
+      ],
+      "frames": [
+        90,
+        156
+      ],
+      "clothing_purpose": "九分直褲留出腳背扣帶上方一段空隙",
+      "clear_read_intervals": [
+        [
+          90,
+          156
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "找到靠窗空位，稍轉肩笑著回應友人，再坐下，3.75秒 鞋面與褲腳入鏡 → 6.5秒 前腳自然往前放穩，露出扣帶",
+      "camera": "外前側定機，膝下到地面。延續坐定後的腳位，靠窗光向不變。",
+      "execution_mode": "generate"
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        90,
+        90
+      ],
+      "overlap_frames": 0,
+      "method": "cut"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M01_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+    },
+    {
+      "id": "M01_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W46/planning/M01/storyboard.png",
+      "sha256": "8255eec0e87904d1ce186a66b7ef77c3100ae3473388beb8dfbc28f6e80481fe"
+    },
+    {
+      "id": "source",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W46/source_perplexity.csv",
+      "sha256": "37d41dad2bb70e1dacbe544e574cc8448fe0f5e8c5c5d038ca87981a5e7646b7"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "企劃／線稿尚待使用者選定",
+    "所有入片鏡頭均待準備個別核准的首圖",
+    "動態片長與原速可用段尚未測試"
+  ],
+  "validation_focus": "切至鞋時必須接得上同一坐姿。兩腳接地，鞋面各有一條直帶、一條橫帶及外側小扣，褲腳不可忽長忽短。",
+  "transition_rationale": "提案用有意義的景別或場景切換，選在動作穩定點。驗收時以既有約 0.75 秒柔接為對照，檢查雙影及讀衣連續。",
+  "previs_rationale": "鏡頭固定，單鏡局部站位／坐起或獨立場景剪接，不依賴共同連續路線。"
+}

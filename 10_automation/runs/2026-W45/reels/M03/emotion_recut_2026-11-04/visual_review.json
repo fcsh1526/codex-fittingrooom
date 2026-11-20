@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "status": "user_rejected_strong_AI_uncanny_feeling",
+  "film": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/M03_W45_emotion_recut_v2.mp4",
+  "sha256": "001ff0dc8fa724c61fd42846689d9877bb0957be296e6c65d8a7dc48795e2022",
+  "duration_seconds": 7.375,
+  "user_feedback": "10_automation/runs/2026-W45/reels/M03/paired_review_v1/user_emotion_feedback_2026-11-04.json",
+  "source_interpretation": "The original independent laugh/surprise/talking reactions reset emotion. Source selection now attempts one connected smile/brighten/approach/smile arc; not an objective emotion classifier output.",
+  "observed_samples": {
+    "source_selection": "L02 .75–2.5s every .125s; L01 1.5–4s every .25s; L02 5–7s every .25s",
+    "whole_film": "0–7s every .5s plus7.333s finalframe",
+    "join": "All18overlap frames pluscontext at1.75/2.75/3s, full frame and face diagnostic crops",
+    "approach_ending": "4–7.25s every .25s; final native720x1280frame inspected"
+  },
+  "observations": [
+    "The surprised rounded-mouth L02 opening no longer appears as a clear shot. The two sides now both progress from a smile toward a wider happy expression.",
+    "L01 is cut before its sustained big laugh/head tilt; later L02 speech-like mouth changes are excluded, with an open-eyed smiling last frame.",
+    "The0.75s dissolve still has face/body/hand and skirt/trouser double outlines around2–2.75s. No seamless transition claim.",
+    "Shorter edit trades away reading time: trousers about2s fully clear; skirt/sneakers about1.25s fully clear after the dissolve before shoe cropping, plus partially overlapped full view. This remains a clothing-readability review issue.",
+    "L02 subject steps and framing approach are unchanged; no new physical-gait or camera-only success inferred."
+  ],
+  "technical": {
+    "full_decode": "completed",
+    "source_mapping": {
+      "checked_unblended_frames": 159,
+      "A_mapping": "output[0,48)=A[0,48)",
+      "B_mapping": "output[66,177)=B[51,162)",
+      "A_max_MAD": 0.5735300779342651,
+      "B_max_MAD": 0.9579745531082153,
+      "result": "passed_encoder_loss_tolerance",
+      "limits": "Technical frame mapping only, not emotional/physical or continuous visual QA."
+    },
+    "native_speed": true,
+    "full_raster": true,
+    "new_generation": false
+  },
+  "continuous_human_visual_review": false,
+  "user_acceptance": null,
+  "publication_approval": null,
+  "next": "Do not re-present as pending or make a third recut from these sources. See realism_reset reassessment.",
+  "latest_user_feedback": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/user_realism_rejection_2026-11-04.json"
+}

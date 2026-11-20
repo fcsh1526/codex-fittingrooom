@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-12",
+  "scope": "M02 still production under W46 approved wardrobe plan; six-shot timing is new directing proposal responding to general fast/multi-shot instruction",
+  "storyboard": "STORYBOARD.md",
+  "schematic": "storyboard_schematic.svg",
+  "previs_required": false,
+  "space_mode": "independent",
+  "still_generation_authority": "existing W46 planning approval plus ongoing W46 production instructions",
+  "new_still_user_approval": "pending",
+  "film_user_approval": "pending",
+  "expected_duration_seconds": 12,
+  "expected_shots": 6,
+  "missing_sources": [
+    "L01 full-person A",
+    "L01 denim-loafer proof",
+    "L02 full-person A",
+    "L02 proof"
+  ],
+  "crop_candidates": [
+    "N02 from L01 full source after resolution review",
+    "N05 from L02 full source after resolution review"
+  ]
+}

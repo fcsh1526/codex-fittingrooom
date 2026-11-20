@@ -1,0 +1,142 @@
+    - strong: W45 M03 L01 參考轉分鏡試片 — 一次
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 2e8df556-7034-4788-92d8-3a769fcdfed3 是":
+        - cell "first"
+        - cell "2e8df556-7034-4788-92d8-3a769fcdfed3":
+          - code: 2e8df556-7034-4788-92d8-3a769fcdfed3
+        - cell "是"
+      - row "asset_ids 26e03f42-…、15c720b2-… 是":
+        - cell "asset_ids"
+        - cell "26e03f42-…、15c720b2-…":
+          - code: 26e03f42-…
+          - text: 、
+          - code: 15c720b2-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"10\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - paragraph:
+    - text: 未用
+    - code: 95b2f7fe
+    - text: /
+    - code: 414c5d81
+    - text: ；未做裙裝。
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID fad9518f-bbd0-4f68-a9c3-0351bb7b3440":
+        - cell "影片 UUID"
+        - cell "fad9518f-bbd0-4f68-a9c3-0351bb7b3440":
+          - code: fad9518f-bbd0-4f68-a9c3-0351bb7b3440
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 手近腰；全身可讀":
+        - cell "0s"
+        - cell "手近腰；全身可讀"
+      - row "~1.7s 右手叉腰；近正面":
+        - cell "~1.7s"
+        - cell "右手叉腰；近正面":
+          - strong: 右手叉腰
+          - text: ；近正面
+      - row "~3.4s 約背側（西外側線）；回眸；鞋在框":
+        - cell "~3.4s"
+        - cell "約背側（西外側線）；回眸；鞋在框":
+          - strong: 約背側
+          - text: （西外側線）；回眸；鞋在框
+      - row "~5s 回正；前移開始；全身仍可讀":
+        - cell "~5s"
+        - cell "回正；前移開始；全身仍可讀"
+      - row "~6.7s 向前走；構圖變緊；鞋仍見":
+        - cell "~6.7s"
+        - cell "向前走；構圖變緊；鞋仍見":
+          - strong: 向前走
+          - text: ；構圖變緊；鞋仍見
+      - row "~8.4s 頭至腰／大腿；西外領／表情近；鞋出框":
+        - cell "~8.4s"
+        - cell "頭至腰／大腿；西外領／表情近；鞋出框":
+          - strong: 頭至腰／大腿
+          - text: ；西外領／表情近；鞋出框
+  - paragraph:
+    - strong: 抽樣：
+    - text: 無高 V／反覆搖。側轉偏深；走近有。
+    - strong: 不
+    - text: 認證步數、頭至膝時點或動態通過。只此一支。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert: Imagine 代理模式 - Grok

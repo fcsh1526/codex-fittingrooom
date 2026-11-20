@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-04",
+  "result": "not_selected_for_planned_four_second_stationary_shot",
+  "evidence": "contact_sheet.png at 0.5 s intervals; exact URL/media/prompt matched",
+  "observations": [
+    "Subject advances with visible steps around 1–2.5 s, then retreats toward the original position by 4–5 s.",
+    "Requested fixed-camera stationary full-person performance was not obeyed; early approach crops shoes.",
+    "Late stationary tail alone does not provide the planned four-second source plus useful transition handles."
+  ],
+  "cause": "Unknown. Forward-inclination and weight-shift wording may have encouraged translation; hypothesis only.",
+  "next": "One correction changes performance blocking only: both feet stay at the same paving marks, expression and small shoulder response carry the scene.",
+  "continuous_human_visual_review": false,
+  "user_acceptance": null,
+  "publication_approval": null
+}

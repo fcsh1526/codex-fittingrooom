@@ -1,0 +1,120 @@
+{
+  "version": "1.0",
+  "topic": "同件短外套開領與立領",
+  "research_date": "2026-11-20",
+  "landscape": {
+    "existing_content": [
+      {
+        "title": "slow.and 格紋兩種穿法",
+        "source": "slow.and 格紋兩種穿法",
+        "angle": "同一單品建立可比較的狀態",
+        "what_it_covers": "同一單品建立可比較的狀態",
+        "url": "https://www.instagram.com/p/Df028l7mLyy/"
+      },
+      {
+        "title": "syuan_ord Fitcheck",
+        "source": "syuan_ord Fitcheck",
+        "angle": "持續同套造型，以視線改變觀眾注意點",
+        "what_it_covers": "持續同套造型，以視線改變觀眾注意點",
+        "url": "https://www.instagram.com/reel/DfbfZTaIZqQ/"
+      },
+      {
+        "title": "W47 原分鏡",
+        "source": "W47 原分鏡",
+        "angle": "情境、服裝與並排目的",
+        "what_it_covers": "情境、服裝與並排目的",
+        "url": "mira:/10_automation/runs/2026-W47/publishing_structure.md"
+      }
+    ],
+    "saturated_angles": [],
+    "underserved_gaps": [
+      "本案現有片段缺少可信的扣合操作。"
+    ]
+  },
+  "data_points": [
+    {
+      "claim": "原企劃核心為同件外套開合。",
+      "source_url": "mira:/10_automation/runs/2026-W47/publishing_structure.md",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "精確拉鍊操作退件。",
+      "source_url": "mira:/10_automation/runs/2026-W47/reels/M01/S01_trial_01/REVIEW.md",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "W46 黑鞋並排接受只屬該片。",
+      "source_url": "mira:/10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/user_full_film_acceptance_2026-11-12.json",
+      "credibility": "primary_source"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "第一眼看哪裡？",
+      "風如何改變注意力？",
+      "哪一格能辨別兩種輪廓？"
+    ],
+    "misconceptions": [],
+    "knowledge_level": "以上為編輯提出的觀看問題，尚無觀眾調查。"
+  },
+  "angles_discovered": [
+    {
+      "name": "到門口遇到風",
+      "hook": "她會怎麼回應冷風？",
+      "type": "narrative",
+      "why_now": "有日常動機；服裝和招手可能競爭注意力。"
+    },
+    {
+      "name": "同一張臉，兩種領線",
+      "hook": "先選一邊：哪個領口讓臉旁輪廓更俐落？",
+      "type": "evergreen",
+      "why_now": "三段已有原速素材，能以人物動靜改變觀眾注意位置。"
+    },
+    {
+      "name": "跟著她的視線",
+      "hook": "她看向誰？",
+      "type": "evergreen",
+      "why_now": "有表演起伏，但現有畫面欠缺對方或回應線索，且衣領比較變弱。"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.instagram.com/p/Df028l7mLyy/",
+      "title": "slow.and 格紋兩種穿法",
+      "used_for": "同一單品建立可比較的狀態"
+    },
+    {
+      "url": "https://www.instagram.com/reel/DfbfZTaIZqQ/",
+      "title": "syuan_ord Fitcheck",
+      "used_for": "持續同套造型，以視線改變觀眾注意點"
+    },
+    {
+      "url": "mira:/10_automation/runs/2026-W47/publishing_structure.md",
+      "title": "W47 原分鏡",
+      "used_for": "情境、服裝與並排目的"
+    },
+    {
+      "url": "mira:/10_automation/runs/2026-W47/reels/M01/S01_trial_01/REVIEW.md",
+      "title": "拉鍊退件",
+      "used_for": "避開錯誤的物件接觸"
+    },
+    {
+      "url": "mira:/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+      "title": "原剪輯表",
+      "used_for": "來源與演出"
+    },
+    {
+      "url": "mira:/10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/user_full_film_acceptance_2026-11-12.json",
+      "title": "W46 接受收據",
+      "used_for": "確認上一片並排接受的範圍"
+    }
+  ],
+  "metadata": {
+    "mode": "dry_run",
+    "approval": "unapproved",
+    "external_generation": false,
+    "source_scheme": "file references with mira:/ resolved relative to the Mira workspace",
+    "new_web_queries": 0,
+    "scope": "固定已觀察的共同證據；原生完整製作的 8 次搜尋未執行。"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "content_week": "2026-W45",
+  "scope": "supplementary local editing study",
+  "method": "sequential_lookbook",
+  "audience_takeaway": "同件海軍藍西外配炭灰直褲與樂福鞋，或配奶油A字裙與球鞋，兩套從頭到腳各有可讀時間。",
+  "sources": [
+    {
+      "look": "L01",
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_trial_01/source.mp4",
+      "sha256": "eea1bdfbc5add114ee8e8e4f9a363bf9544d8976660f8b7316707807e8e62f1c",
+      "source_frames_half_open": [
+        7,
+        72
+      ],
+      "origin_uuid": "fad9518f-bbd0-4f68-a9c3-0351bb7b3440"
+    },
+    {
+      "look": "L02",
+      "path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/L02_trial_01/source.mp4",
+      "sha256": "6ce2f27eaf5db550e27da1da1a7a8284ce4b347670e1cc2d6ef37b13a520d1e0",
+      "source_frames_half_open": [
+        18,
+        136
+      ],
+      "origin_uuid": "d8318fa2-0d21-41fc-b94f-cfffd8111538"
+    }
+  ],
+  "output": {
+    "path": "10_automation/runs/2026-W45/reels/M03/two_look_sequential_study_2026-11-09/W45_M03_兩套全畫幅依序試剪.mp4",
+    "sha256": "762725a0c980df385f4776ff91df64bc54c3b9a9478abb79d91fadaab6c478fa",
+    "seconds": 7.625,
+    "frames": 183,
+    "fps": 24,
+    "audio": false,
+    "baked_text": false
+  },
+  "join": {
+    "frame": 65,
+    "seconds": 2.7083333333333335,
+    "method": "direct_cut",
+    "design": "同尺度全身構圖中切換兩套。兩段並非同一連續動作，明確呈現兩種穿法。"
+  },
+  "review": {
+    "decode_completed": true,
+    "native_playback_completed_from_start_to_end": true,
+    "native_playback_rate": 1,
+    "ui_visual_samples": 8,
+    "timing_observations": 12,
+    "cut_frames_reviewed": [
+      61,
+      68
+    ],
+    "continuous_visual_qa": "unverified",
+    "observation": "褲裝、裙裝與鞋型清楚區分；切點前後頭鞋安全，手位置與表情有小幅變化。裙裝中段約兩秒側身停留。"
+  },
+  "new_generation_calls": 0,
+  "prior_delivery_local_hash_verified": true,
+  "release_approved": false
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "approved_snapshot_count": 18,
+  "approved_snapshot_hashes_unchanged": true,
+  "exact_still_approvals_verified": [
+    "M01_L01",
+    "M01_L02",
+    "M03_L01",
+    "M03_L02"
+  ],
+  "source_url_media_prompt_checks": 3,
+  "paired_film_sha256": "40f4644211ab5cac5f42a4be4bd361f66349df35f70e76bc94e7ddee4a62b6f3",
+  "source_mapping": {
+    "unblended_output_frames_checked": 234,
+    "scale_for_comparison": [
+      180,
+      320
+    ],
+    "A_source_frame_mapping": "output[0,78)=A[0,78)",
+    "B_source_frame_mapping": "output[96,252)=B[18,174)",
+    "A_mean_MAD": 0.4831342101097107,
+    "A_max_MAD": 0.6452372670173645,
+    "B_mean_MAD": 0.720890462398529,
+    "B_max_MAD": 0.9635995626449585,
+    "outside_join_mapping_check": "passed within encoder-loss tolerance",
+    "does_not_certify": "Full-resolution identity, hand/foot physics, continuous visual QA or viewing comfort."
+  },
+  "counts": {
+    "builtin_still_calls": 7,
+    "video_sources": 8,
+    "accepted_films": 2
+  },
+  "continuous_full_film_visual_review": false,
+  "publication_approval": null
+}

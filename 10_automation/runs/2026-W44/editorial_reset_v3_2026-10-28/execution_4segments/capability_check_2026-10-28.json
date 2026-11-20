@@ -1,0 +1,17 @@
+{
+  "checked_date": "2026-10-28",
+  "url": "https://grok.com/imagine/agent/f040d332-48df-47c4-86d4-28e85c97d5b5?conversation=3f0241af-1184-4a74-9ced-b0b4715a1a95",
+  "method": "in-app browser, existing Mira canvas URL",
+  "observed_title": "請稍候...",
+  "observed_text": [
+    "正在執行安全驗證",
+    "此網站使用安全服務抵禦惡意機器人。當網站驗證並確認您不是機器人時，便會顯示此頁面。"
+  ],
+  "status": "controls_not_visible_security_verification",
+  "current_duration_options": null,
+  "current_first_last_keyframe_controls": null,
+  "current_identity_inputs": null,
+  "historical_evidence": "Prior October tests produced about6s raw clips and reported picture references plus first/keyframe support. Historical reports do not verify current controls.",
+  "actions": "Read only; no challenge interaction, upload, prompt submission or generation.",
+  "limits": "Cannot claim current6s/10s availability or precise camera-curve support from this blocked page."
+}

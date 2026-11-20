@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-28",
+  "look_id": "2026-W44-001-L01",
+  "surface": "reel",
+  "provider": "built-in image_gen",
+  "quantity": 1,
+  "prompt": "Create one photorealistic fashion-magazine starting photograph, composed natively as a vertical 9:16 Reel frame. The dressing decision is one royal-purple lightweight cardigan over neutral workwear. Image 1 supplies facial identity and hairstyle; image 2 supplies the same adult East Asian woman’s normal body proportions only. Preserve her youthful late-20s appearance, soft oval face and loosely gathered dark-brown hair; replace the reference outfit and studio setting.\n\nShe is taking one purposeful, natural step toward the camera along a sheltered Taipei office-adjacent walkway, with a gently engaged expression and relaxed arm swing. Keep the ground level, with quiet pale paving and restrained office architecture; the simple window wall and low bench belong to one coherent location. Dress her in an open royal-purple fine-knit V-neck cardigan, white crew-neck short-sleeve cotton T-shirt tucked into charcoal high-waisted straight-leg trousers, white-and-light-gray low-profile sneakers, a small plain black shoulder bag, and delicate silver earrings. The cardigan is the only bright color.\n\nUse soft overcast daylight, matching ambient spill and believable foot contact, lived-in folds, natural skin texture and flyaway hairs. Full-frame mirrorless, 50mm prime, chest-height level optical axis. Keep her full hair, both shoes and entire bag visible, in the lower two-thirds of the frame with generous overhead space and visible ground.\n\nConstraints: no text, logos, watermark, fashion-elongated anatomy, or studio-cutout lighting.",
+  "references": [
+    "02_brand/reference_models/M02_start_v3_face.png",
+    "02_brand/reference_models/M02_start_v3_full.png"
+  ],
+  "target": "native9:16, intended1080x1920; record actual output dimensions",
+  "source_view": "planning/series_01 S01 globalf0; common scene schematic",
+  "review_targets": {
+    "person_height_fraction": 0.613,
+    "person_center_uv": [
+      0.5,
+      0.602
+    ],
+    "top_margin_min": 0.08,
+    "central_platform_safe_fraction": 0.7
+  },
+  "limits": "The geometric draft is direction, not proof of exact photoreal reconstruction. No image approval or motion submission yet.",
+  "approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json"
+}

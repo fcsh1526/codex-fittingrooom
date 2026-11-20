@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "title": "會動的第三張色票",
+  "total_duration_seconds": 12,
+  "sections": [
+    {
+      "id": "B1",
+      "label": "三塊顏色",
+      "text": "畫面只有可可、燕麥、暖白三個色面；前兩塊邊緣齊整，第三塊延伸到畫外。",
+      "start_seconds": 0,
+      "end_seconds": 2
+    },
+    {
+      "id": "B2",
+      "label": "白色先動",
+      "text": "暖白色面起一道斜褶，褶線滑向右邊緣；旁邊的兩張色票紋絲不動。",
+      "start_seconds": 2,
+      "end_seconds": 5
+    },
+    {
+      "id": "B3",
+      "label": "猜對了嗎",
+      "text": "鏡頭外的她早知道答案。M02 從膝頭抬眼，嘴角動一下，手撐椅面準備起身。",
+      "start_seconds": 5,
+      "end_seconds": 8
+    },
+    {
+      "id": "B4",
+      "label": "把色票穿走",
+      "text": "她站起，離開矮台半步，在窗邊停住；可可、燕麥、暖白完整落在她一人身上。",
+      "start_seconds": 8,
+      "end_seconds": 12
+    }
+  ],
+  "metadata": {
+    "mode": "text_only_preproduction",
+    "human_approved": false,
+    "external_generation_calls": 0,
+    "dialogue": "無對白與畫面文字",
+    "music_spotting": [
+      [
+        0,
+        "兩聲輕敲，之後空一拍。"
+      ],
+      [
+        2,
+        "只留衣料摩擦；在側縫露出時進第一個撥弦音。"
+      ],
+      [
+        5,
+        "兩個上行短音，笑意出現時留空間。"
+      ],
+      [
+        8,
+        "落腳時低音加入，一個短和弦收束，不鋪滿末兩秒。"
+      ]
+    ]
+  }
+}

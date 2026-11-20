@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-11",
+  "output": "10_automation/runs/2026-W46/reels/M01/opening_three_beats_v1/opening_3p75s_review.mp4",
+  "sha256": "675d9bb73f144f1828f10f7e4e3a08943811e1b2e54b74f569d5ee9299c0519f",
+  "fps": 24,
+  "frame_count": 90,
+  "duration_seconds": 3.75,
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "segments": [
+    {
+      "shot": "N01",
+      "source": "10_automation/runs/2026-W46/reels/M01/N01_trial_01/source.mp4",
+      "source_sha256": "64436d63061f06a269ebef9edbeeb6ac3f1a1f593dc4d70faaa6597927560701",
+      "source_frames": [
+        18,
+        48
+      ],
+      "output_frames": [
+        0,
+        30
+      ]
+    },
+    {
+      "shot": "N02",
+      "source": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "source_frames": [
+        0,
+        18
+      ],
+      "output_frames": [
+        30,
+        48
+      ]
+    },
+    {
+      "shot": "N03",
+      "source": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/source.mp4",
+      "source_frames": [
+        66,
+        108
+      ],
+      "output_frames": [
+        48,
+        90
+      ]
+    }
+  ],
+  "stage": "opening three beats; N04-N08 not yet assembled",
+  "continuous_visual_review": "pending"
+}

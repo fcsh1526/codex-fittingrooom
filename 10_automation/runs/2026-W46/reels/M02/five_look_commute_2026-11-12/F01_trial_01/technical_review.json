@@ -1,0 +1,33 @@
+{
+  "source_sha256": "898582110d895f1b111e8c25cbc82fe7d8cd74e301e5c022cf99fdc9c45021df",
+  "decoded_frames": 145,
+  "fps": 24,
+  "size": [
+    720,
+    1280
+  ],
+  "duration_nominal": 6.041666666666667,
+  "audio": "AAC in raw source; removed in selected review",
+  "native_playback": {
+    "selected_frames": 105,
+    "seconds": 4.375,
+    "rate": 1,
+    "ended": true,
+    "evidence": "browser start/end screenshots and ended/time metadata; sampled observations"
+  },
+  "observations": [
+    "continuous alternating walking in2fps source samples, no stop or outfit change",
+    "figure enlarges from wide opening while hair, shoes and bag stay in frame",
+    "later samples nearly front-facing; intended drift to more side-facing view is not clearly achieved",
+    "background frontage, trees and paving move; exact world path not verified"
+  ],
+  "unresolved": [
+    "motion identity acceptance",
+    "native perceived gait quality and foot sliding",
+    "whether revised camera path is sufficiently represented",
+    "F01/F02 full18frame overlap not tested"
+  ],
+  "quality_status": "candidate; no user motion or whole-film approval",
+  "user_acceptance": "rejected motion identity on2026-11-13",
+  "rejection_receipt": "user_identity_rejection_2026-11-13.json"
+}

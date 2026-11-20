@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M01_v1",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W43",
+      "2026-W44"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "看格紋外層配深色直褲或淺色A字裙的輪廓差；人物對朋友的開心反應把穿搭帶進生活。",
+    "visual_theme": "薄層次、生活中的表情與清楚服裝輪廓",
+    "selection_rationale": "同樣是格紋，一眼分出俐落褲線與輕鬆裙形；W45上游週報缺，近週來源與11/3補充查核分開記錄。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "sequential_lookbook"
+  },
+  "models": [
+    {
+      "id": "M01",
+      "identity_asset_ids": [
+        "M01_face",
+        "M01_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-001-L01",
+      "model_id": "M01",
+      "wardrobe_summary": "米灰小格紋薄棉襯衫敞開、白棉短袖T、巧克力棕高腰直筒牛仔褲、米白低筒鞋、深棕小斜背包",
+      "source_asset_ids": []
+    },
+    {
+      "id": "2026-W45-001-L02",
+      "model_id": "M01",
+      "wardrobe_summary": "咖啡白格紋薄棉短襯衫敞開、深棕不透光背心、奶油白膝下A字棉裙、米白低筒鞋、深棕小斜背包",
+      "source_asset_ids": []
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 246,
+    "duration_seconds": 10.25,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W45-001-L01"
+      ],
+      "frames": [
+        0,
+        132
+      ],
+      "clothing_purpose": "看格紋外層配深色直褲或淺色A字裙的輪廓差；人物對朋友的開心反應把穿搭帶進生活。",
+      "clear_read_intervals": [
+        [
+          0,
+          114
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "聽見朋友招呼 → 看向左前方 → 笑並展臂 → 放鬆收回",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W45-001-L02"
+      ],
+      "frames": [
+        114,
+        246
+      ],
+      "clothing_purpose": "看格紋外層配深色直褲或淺色A字裙的輪廓差；人物對朋友的開心反應把穿搭帶進生活。",
+      "clear_read_intervals": [
+        [
+          132,
+          246
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "朋友要拍照 → 站穩轉肩 → 開心展臂 → 回正笑",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        114,
+        132
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M01_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+    },
+    {
+      "id": "M01_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/planning/M01/storyboard.png",
+      "sha256": "1ab241611bb9ddb6d59507459f5e0c27701cd700fc0f5ae7a6ec3dd00d828647"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "使用者對W45具體企劃與線稿的確認；不從「繼續W45」推定新圖核准",
+    "各鏡全新、逐張核准的原生9:16起始圖；現有身份參照不等於新造型圖",
+    "W45上游週報／原始CSV尚未取得；可評估本提案但必須保留此來源缺口",
+    "正式生成當下的Grok額度、可用片長與設定尚待核對；未送工作"
+  ]
+}

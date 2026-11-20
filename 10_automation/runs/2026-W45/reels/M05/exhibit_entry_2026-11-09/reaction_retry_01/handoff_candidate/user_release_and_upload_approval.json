@@ -1,0 +1,11 @@
+{
+  "quote": "可發布並同意上傳",
+  "scope": "Exact staged M05 v2 film, 3.50 second cover, and native Google Docs caption and handoff to the verified W45 Drive folder",
+  "film": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/W45_M05_L02_Reel_v2.mp4",
+  "film_sha256": "c961c2c9dd1a2bb697077b081059ca3122ffaafb2ad0241a5646c8ca04d74160",
+  "cover": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/W45_M05_L02_Cover.png",
+  "cover_sha256": "95f6282dbc5e99ef48582583f4235a36a3081ee1c739c3c28757bcc8c3568084",
+  "caption": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/instagram_caption.txt",
+  "caption_sha256": "2560af923924b535c25e267df4dccf5d12e803e23869aba71fcac6198dcc04fb",
+  "destination": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9"
+}

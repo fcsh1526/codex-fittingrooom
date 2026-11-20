@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-09",
+  "content_week": "2026-W45",
+  "calendar_week": "2026-W46",
+  "stage": "opening_concepts_and_one_local_rough_cut",
+  "status": "A_opening_appeal_user_accepted",
+  "user_reply": "ok",
+  "scope": "Proceed with concrete opening proposals following the discussion of first-glance attention. No unseen image/film approval inferred.",
+  "purpose": "讓陌生人先停留，再持續看人物與穿搭，逐步建立對Mira的興趣。",
+  "timing_note": "0–1/1–3/3–5秒為企劃檢查窗口，不是普遍注意力定律或精確生成承諾。",
+  "recommended": "A",
+  "recommendation_reason": "先用現有素材驗證人物反應能否形成觀看理由，無新生成成本；B的穿搭資訊最明確，但缺第二套影像。",
+  "concepts": [
+    {
+      "id": "A",
+      "title": "她在等你一起走",
+      "hook": "回望與笑容帶來親近感",
+      "expectation": "她會如何回應、邀你同行？",
+      "method": "single_shot_performance",
+      "beats": [
+        "0–1秒｜側身已回望你",
+        "1–3秒｜笑容展開，肩膀隨反應放鬆",
+        "3–5秒｜轉向街道，回望同行者"
+      ],
+      "wardrobe": "同套深底花襯衫＋黑直褲",
+      "assets": "先做既有來源的5秒草剪；沒有補圖。素材不含明確「認出你」起因，不能宣稱完整達成。",
+      "risk": "笑容較大，是否自然及親近仍需原速觀看；不能只用動機文字保證觀眾看懂。",
+      "next": "先呈現一個原速草剪，若觀看理由仍不成立，回到開場設計而非繼續縮短微調。"
+    },
+    {
+      "id": "B",
+      "title": "花放上面，還是下面？",
+      "hook": "花襯衫黑褲 → 素白上衣花裙",
+      "expectation": "第二套會把氣質改成什麼樣？",
+      "method": "sequential_lookbook",
+      "beats": [
+        "0–1秒｜花襯衫＋黑直褲，造型清楚",
+        "1–3秒｜柔和換到白上衣＋花裙",
+        "3–5秒｜看清第二套輪廓、姿態"
+      ],
+      "wardrobe": "沿用W45 M04原有L01及L02完整搭配，並非同一件襯衫兩種搭法",
+      "assets": "L01已存在；未找到L02生成首圖，需補圖並逐張核准，再生成第二套來源。",
+      "risk": "兩套是否有足夠第一眼反差尚未驗證；不恢復左右並排。換段預留0.75秒，不能占滿讀衣時間。",
+      "next": "先確認視覺對比方案，再補L02；本輪不新增圖或影片。"
+    },
+    {
+      "id": "C",
+      "title": "一眼看花，再看整套",
+      "hook": "臉與花卉在第一眼清楚可見",
+      "expectation": "這件花襯衫搭起來是什麼樣？",
+      "method": "sequential_lookbook",
+      "beats": [
+        "0–1秒｜臉＋上衣中景，花卉清楚",
+        "1–3秒｜身體轉側，露出腰線與包",
+        "3–5秒｜轉入全身，看完整黑褲比例"
+      ],
+      "wardrobe": "同套深底花襯衫＋黑直褲",
+      "assets": "現有720p全身來源可試裁，但中景細節不足時需新圖與新來源；全身原片只能作待審素材。",
+      "risk": "現有深底花樣未必足以吸引第一眼；中景／全身接點可能重影。不預設推近或裁切本身就是看點。",
+      "next": "先用分鏡檢查花樣與整套的揭示是否值得等待；本輪不生成。"
+    }
+  ],
+  "new_stills": 0,
+  "new_video_jobs": 0,
+  "previs": "固定鏡頭與簡單單人短步，本輪使用示意分鏡；無複雜共享空間運鏡。",
+  "evidence_limits": [
+    "既有來源49張抽格及完整解碼，不等於連續原速視覺通過。",
+    "草剪同時改開頭區間和固定構圖，屬方向試看，不是能分離因果的A/B。",
+    "未取得IG留存數據，不宣稱停留率提升。"
+  ],
+  "decision_checks": [
+    "不看說明，第一秒是否能指出吸引自己的具體元素？",
+    "第三秒是否仍期待一個尚未完整呈現的反應或穿搭資訊？",
+    "第五秒是否真的得到相應回報？",
+    "若只有動作更多卻沒有觀看期待，不繼續同機制微調。"
+  ],
+  "after_publication": "有實際發布權限及數據時，記錄可取得的留存/觀看時間與收藏分享追蹤，記錄分母；區分主觀偏好與觀眾成效。",
+  "selected_opening": "A",
+  "selected_asset": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/A_existing_source_opening_rough_v1.mp4",
+  "acceptance_receipt": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_opening_acceptance.json",
+  "remaining_scope": "Preserve accepted opening; complete full-film motion/end review before release handoff. B/C remain proposals."
+}

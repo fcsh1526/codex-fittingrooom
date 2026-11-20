@@ -1,0 +1,37 @@
+[
+  {
+    "id": "F01",
+    "weekly_look": "2026-W46-002-L01",
+    "name": "週一 白襯衫",
+    "wardrobe": "原定挺薄白棉小尖領襯衫、深靛無刷破中高腰直筒九分丹寧、黑便士樂福鞋、酒紅扁方肩包、銀耳釘",
+    "status": "existing weekly wardrobe, new scene sources still needed"
+  },
+  {
+    "id": "F02",
+    "weekly_look": null,
+    "name": "週二 藍條紋襯衫",
+    "wardrobe": "淺藍白細直條襯衫紮入、同件深靛直褲、咖棕皮便士樂福鞋、灰褐小肩包、銀耳釘",
+    "status": "new series outfit proposed"
+  },
+  {
+    "id": "F03",
+    "weekly_look": null,
+    "name": "週三 燕麥薄針織",
+    "wardrobe": "燕麥薄短版圓領針織外衫扣合、白內搭僅露少量領口、同件深靛直褲、黑樂福鞋、灰褐小肩包、銀耳釘",
+    "status": "new series outfit proposed"
+  },
+  {
+    "id": "F04",
+    "weekly_look": null,
+    "name": "週四 淺灰薄西外",
+    "wardrobe": "淺灰無內裡薄西外敞開、白圓領T紮入、同件深靛直褲、黑樂福鞋、深灰小肩包、銀耳釘",
+    "status": "new series outfit proposed"
+  },
+  {
+    "id": "F05",
+    "weekly_look": "2026-W46-002-L02",
+    "name": "週五 白T帆布鞋",
+    "wardrobe": "原定白透氣短袖圓領T、同件深靛直褲、灰白低筒帆布鞋、灰藍棉帆布托特、銀耳釘",
+    "status": "existing weekly wardrobe repurposed as casual-Friday commute proposal"
+  }
+]

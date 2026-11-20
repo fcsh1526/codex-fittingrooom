@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "title": "同一張臉，兩種領線",
+  "total_duration_seconds": 4.666666666666667,
+  "sections": [
+    {
+      "id": "S01",
+      "text": "第一眼同時看見兩種領形",
+      "start_seconds": 0,
+      "end_seconds": 1
+    },
+    {
+      "id": "S02",
+      "text": "回到風吹起的那一瞬",
+      "start_seconds": 1,
+      "end_seconds": 2.6666666666666665
+    },
+    {
+      "id": "S03",
+      "text": "視線安定，留下立領",
+      "start_seconds": 2.6666666666666665,
+      "end_seconds": 4.666666666666667
+    }
+  ],
+  "metadata": {
+    "mode": "dry_run",
+    "approval": "unapproved",
+    "external_generation": false,
+    "spoken_words": 0
+  }
+}

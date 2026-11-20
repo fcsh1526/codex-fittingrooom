@@ -1,0 +1,45 @@
+{
+  "carousel_id": "2026-W46-001",
+  "look_id": "2026-W46-001-L01",
+  "model_profile_id": "M01",
+  "delivery_surface": "carousel",
+  "canva_template_key": "D",
+  "canva_template_name": "Mira Template Master v3 - D Cross-Boundary Full-Bleed",
+  "canva_design_id": "DAHPUvMiRRI",
+  "canva_crop_limit": 0.15,
+  "slots": {
+    "A": {
+      "slot_id": "cover_image",
+      "variant": "A",
+      "element_id": "PBc4SXKCMsrnDq09-LBLCbPB4ylJMHvgH",
+      "left": 0,
+      "top": 0,
+      "width": 1240,
+      "height": 1350,
+      "aspect_ratio": 0.9185,
+      "composition": "full_body"
+    },
+    "B": {
+      "slot_id": "motion_crop",
+      "variant": "B",
+      "element_id": "PBc4SXKCMsrnDq09-LBFxrBMDgGbP2z2x",
+      "left": 1160,
+      "top": 0,
+      "width": 1140,
+      "height": 1350,
+      "aspect_ratio": 0.8444,
+      "composition": "portrait_motion"
+    },
+    "C": {
+      "slot_id": "detail_image",
+      "variant": "C",
+      "element_id": "PBc4SXKCMsrnDq09-LBlGL2nSt6yjbl6m",
+      "left": 2060,
+      "top": 0,
+      "width": 1180,
+      "height": 1350,
+      "aspect_ratio": 0.8741,
+      "composition": "outfit_detail"
+    }
+  }
+}

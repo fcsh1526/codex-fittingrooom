@@ -1,0 +1,83 @@
+{
+  "id": "M02_office_greenway_v1",
+  "units": "schematic",
+  "unit_note": "Fictional blockout, not a measured location; adult height1.68 schematic units.",
+  "axes": "x right, y up, z toward office",
+  "duration_seconds": 12,
+  "fps": 24,
+  "person_control_points": [
+    [
+      -0.8,
+      0
+    ],
+    [
+      -0.7,
+      2.8
+    ],
+    [
+      0.1,
+      5.8
+    ],
+    [
+      1.5,
+      8.8
+    ],
+    [
+      2.1,
+      11.7
+    ]
+  ],
+  "camera_control_points": [
+    [
+      -2.7,
+      3.0
+    ],
+    [
+      -3.0,
+      4.7
+    ],
+    [
+      -2.5,
+      7.3
+    ],
+    [
+      -1.7,
+      10.2
+    ],
+    [
+      0.2,
+      14.8
+    ]
+  ],
+  "camera_height": 1.35,
+  "vertical_fov_degrees": 34,
+  "target_height": 0.9,
+  "office_footprint": [
+    1.4,
+    6,
+    12.4,
+    16
+  ],
+  "planters": [
+    [
+      4,
+      2
+    ],
+    [
+      4.5,
+      6
+    ],
+    [
+      -5,
+      3
+    ],
+    [
+      -5,
+      8
+    ]
+  ],
+  "person_time": "arc-length uniform until10s, then decelerate to rest at12s",
+  "camera_time": "independent curve with uniform arc-length progression",
+  "wardrobe": "white pointed-collar shirt, dark-indigo ankle straight jeans, black penny loafers, burgundy shoulder bag",
+  "approval": "proposed, not a generated shot or approved scene"
+}

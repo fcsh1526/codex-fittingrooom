@@ -1,0 +1,15 @@
+{
+  "actor": "user",
+  "recorded_date": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "target_file": "M03_W45_two_looks_review_v1.mp4",
+  "target_sha256": "40f4644211ab5cac5f42a4be4bd361f66349df35f70e76bc94e7ddee4a62b6f3",
+  "duration_seconds": 10.5,
+  "quotes": ["這段剪輯的人物表情是要表達甚麼?", "是的，整體情緒很怪"],
+  "status": "not_accepted_emotional_continuity_needs_repair",
+  "scope": "This exact M03 film's unclear overall emotion; not rejection of approved outfits/stills, M01/M02 or all approach movements.",
+  "assistant_diagnosis": "Laughing first look is followed by an unexplained surprised open-mouth second-look reaction and later speech-like mouth movement. Independent reactions were edited as if one continuous meeting, producing an emotional reset. This is an interpretation, not a user-specified per-frame diagnosis.",
+  "repair_plan": "Inspect existing source intervals first. Preserve two-look clothing purpose, one model, native speed, full raster and0.75s transition. Select one consistent pleasant-smile/approach progression; expose any lost outfit-reading time. No new generation before assessing this lower-cost edit.",
+  "publication_approval": null,
+  "original_media_preserved": true
+}

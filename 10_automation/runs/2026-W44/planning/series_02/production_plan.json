@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "plan_id": "2026-W44-02-v2",
+  "status": "design_approved_stills_pending",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W42",
+      "2026-W44"
+    ],
+    "content": "2026-W44",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣成年女性日常穿搭",
+    "takeaway": "左側黑色洋裝內搭白T並加薄灰藍襯衫；右側可可棕洋裝配白T與奶油白平底鞋。比較內搭遮覆和外層有無，不以露膚差或換色當大變裝。",
+    "visual_theme": "夏天的細肩帶洋裝，白天繼續穿",
+    "selection_rationale": "如何讓細肩帶洋裝的肩帶與短袖層次清楚，又能分出上班和週末？"
+  },
+  "presentation": {
+    "layout_id": "parallel_comparison",
+    "recipe_id": "parallel_comparison"
+  },
+  "models": [
+    {
+      "id": "M01",
+      "identity_asset_ids": [
+        "M01_face",
+        "M01_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W44-002-L01",
+      "model_id": "M01",
+      "wardrobe_summary": "白圓領棉短袖T、黑色不透霧面細肩帶及小腿直身洋裝、灰藍薄棉襯衫敞開、白灰低筒球鞋、深棕小肩包、細銀耳環",
+      "source_asset_ids": [
+        "source_2026-W42",
+        "source_2026-W44",
+        "research_receipt"
+      ]
+    },
+    {
+      "id": "2026-W44-002-L02",
+      "model_id": "M01",
+      "wardrobe_summary": "白圓領棉短袖T、可可棕不透霧面細肩帶及小腿直身洋裝、奶油白尖頭平底鞋、黑小肩包、細銀耳環",
+      "source_asset_ids": [
+        "source_2026-W42",
+        "source_2026-W44",
+        "research_receipt"
+      ]
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 192,
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W44-002-L01",
+        "2026-W44-002-L02"
+      ],
+      "frames": [
+        0,
+        192
+      ],
+      "clothing_purpose": "左側黑色洋裝內搭白T並加薄灰藍襯衫；右側可可棕洋裝配白T與奶油白平底鞋。比較內搭遮覆和外層有無，不以露膚差或換色當大變裝。",
+      "clear_read_intervals": [
+        [
+          0,
+          192
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "action_start": "兩套全身同時出現，讀洋裝長度",
+      "action_end": "動作自然延續；各套保持身份及衣服",
+      "camera": "固定鏡位，或同套一次原生推拉；起始構圖見線稿",
+      "missing_input_note": "企劃未核准，尚未生成新圖",
+      "panels": [
+        {
+          "id": "left",
+          "look_id": "2026-W44-002-L01"
+        },
+        {
+          "id": "right",
+          "look_id": "2026-W44-002-L02"
+        }
+      ]
+    }
+  ],
+  "transitions": [],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M01_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_face.png",
+      "sha256": "a0ceea7f5c5cfbf78a7b53e0f128d2ce9cc99fab873f6f09a0ba2e87a676c846"
+    },
+    {
+      "id": "M01_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M01_start_v4_full.png",
+      "sha256": "27755a6722fa26f55228fad4296682ad406b260fcb8f3a6b0608b54e842624f4"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W44/planning/series_02_storyboard.png",
+      "sha256": "6c1e996b2bdecef9a8c4b7e864f336c3a6d2acc968c996f0807e36ea98da93c0"
+    },
+    {
+      "id": "source_2026-W42",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W42/source_perplexity.csv",
+      "sha256": "0dfa30d1eac5e633c18d61479296d5fee97963ceb6132146528e85e25c0fc6dd"
+    },
+    {
+      "id": "source_2026-W44",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/source_perplexity.csv",
+      "sha256": "e748d14c130def173affb0dbab800e95ba4ff097d5c18455efc6e999d67962ab"
+    },
+    {
+      "id": "research_receipt",
+      "kind": "source",
+      "path": "10_automation/runs/2026-W44/planning/research_receipt.json",
+      "sha256": "114ace984bd93c8cd3a599345cb0578cc8fdd0cfd12933d3862c67158fddcb3f"
+    }
+  ],
+  "approvals": [
+    {
+      "asset_id": "board",
+      "scope": "storyboard",
+      "decision": "approved",
+      "target_sha256": "6c1e996b2bdecef9a8c4b7e864f336c3a6d2acc968c996f0807e36ea98da93c0",
+      "receipt_path": "10_automation/runs/2026-W44/approvals/02_storyboard_2026-10-28.json"
+    }
+  ],
+  "missing_assets": [
+    "新全身圖與proof尚未生成／逐張核准",
+    "既有身份核准沿用manifest；尚未把歷史收據轉為本檢查器格式，不重問身份核准",
+    "並排手機尺寸須能分辨肩帶／短袖；不清楚則改依序呈現，不用畫面字補救",
+    "8秒每側都需8秒可用原速來源，不能6秒循環或慢放；先核對引擎可用時長"
+  ],
+  "design_approval_receipt": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json"
+}

@@ -1,0 +1,52 @@
+{
+  "checked_date": "2026-11-03",
+  "content_week": "2026-W45",
+  "status": "weekly_source_missing_supplemented_proposal_only",
+  "public_index_url": "https://mika-lin-weekly.pplx.app/data/index.json",
+  "public_index_sha256": "682da31f300ae0814ce9f4c813a7f2e7fb1ba87ea69eee128e8794594855db82",
+  "latest_index_week": "2026-W44",
+  "report_url": "https://mika-lin-weekly.pplx.app/weeks/2026-W45.html",
+  "browser_observed_response": "No static asset at /weeks/2026-W45.html",
+  "verification_methods": [
+    "In-app browser W45 expected report and home",
+    "Public index direct retrieval"
+  ],
+  "source_csv_created": false,
+  "perplexity_weekly_claims_verified": false,
+  "recent_window": [
+    "2026-W43",
+    "2026-W44",
+    "2026-W45"
+  ],
+  "current_source_candidates": 40,
+  "selected_material_ids": [
+    "mi_00ae547dc9118c4016ff",
+    "mi_1a1af5c2144fb3378c1d",
+    "mi_2a9cac822e3ee6f6b4e6",
+    "mi_5db970cc725d5074114d",
+    "mi_5eab6b33f08ae37006fe",
+    "mi_7dda5d00cba59742d17a",
+    "mi_8e10d036059ac0d7c20c",
+    "mi_986215f8d5315b210ad8",
+    "mi_b4d92d6516ac6bac48b8",
+    "mi_c01ec8e4f4a8b081bc51",
+    "mi_e1d0162bbdf8479b18cf",
+    "mi_e91ceab7ede58f016983"
+  ],
+  "supplementary_sources": [
+    {
+      "url": "https://www.cos.com/en-us/women/new-arrivals",
+      "scope": "current brand page, not trend prevalence or Taiwan stock"
+    },
+    {
+      "url": "https://www.whowhatwear.com/fashion/shopping/shopping-predictions-november-2026",
+      "scope": "editorial November predictions; not sales or popularity proof"
+    },
+    {
+      "url": "https://www.vogue.com/article/fall-2026-fashion-forecast",
+      "publication_date": "2026-09-08",
+      "scope": "seasonal background, not newly published this week"
+    }
+  ],
+  "source_materials_are_items_not_complete_outfits": true
+}

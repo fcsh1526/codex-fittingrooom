@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "actor": "user",
+  "quote": "不行，新剪的不行。上一版比較好。這一型態左右比較的，好像沒辦法像其他IG帳號的reel",
+  "target_rejected": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v2/M03_W45_reference_parallel_review_v2.mp4",
+  "target_rejected_sha256": "e47629d64faac82d0aade06ab729af623eea6992851af04cc0ec31f7efd519eb",
+  "preferred_over_rejected": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v1/M03_W45_reference_parallel_review_v1.mp4",
+  "preferred_sha256": "cbf6d44706f77d0750497535ce08a14483b092ea4e2c4b2b3a81b1b5f1397e28",
+  "scope": "v2 rejected; v1 relative preference, not film or publication acceptance. Concern about whether this comparison format can feel like referenced IG Reels; no universal prohibition inferred."
+}

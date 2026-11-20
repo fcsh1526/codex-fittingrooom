@@ -1,0 +1,12 @@
+W45 M03正式週企劃續製：使用者看完褲裝試片後明確表示「畫面裁切人物沒關係，繼續」。現在只生成L02裙裝一支，作兩套並排的另一側。使用已核准L02首圖及原身份；不生成新圖、不重抽、不加購、不發布。先核對來源及設定，若額度不足或需額外付款即停止回報，不替換來源。
+
+First frame: 1499ae56-08c0-4503-b88f-898a373738e0（已核准M03 L02，海軍藍西外、奶油白上衣及A字裙、白灰鞋）；identity asset_ids: ["26e03f42-2907-488c-b75c-239a2a19b9c8","15c720b2-46b6-45e0-a150-60290e3290e6"]。duration:"10", resolution_name:"720p", aspect_ratio:"9:16"；不設last或keyframes。音訊如有開關才關。先查看三個UUID，核對實際可用控制。
+
+以下英文原文是prompt，標記不傳入：
+PROMPT_BEGIN
+She is showing her outfit to the person filming, with lively, confident ease. Continue naturally from the supplied smiling first image. She takes a clear short diagonal step so the cream A-line skirt opens naturally, then turns to a three-quarter view, briefly showing the skirt shape and blazer side line. Her head, arms, weight and clothes respond together, her attention stays naturally with the camera and her smile changes spontaneously. She returns toward the viewer without a long pose-hold, then walks a few ordinary steps forward so her expression, blazer lapels and cream knit top become clearer. This is an outfit presentation, not dancing or repeated left-right rocking.
+
+One continuous ten-second real-time shot. The full outfit and both shoes should be readable at first; then she approaches smoothly, making a closer portrait for the ending. Camera position stays fixed; a gentle upward tilt is allowed during approach. End before she crowds the lens. Preserve normal head-to-body proportions, M03 identity, long wavy brown hair, open deep-navy blazer, cream-white short-sleeve fine-knit top, cream-white calf-length A-line skirt, white-grey low-top sneakers, small black bag on her left shoulder and silver necklace. Keep the same shaded office windows, bench, paving and coherent daylight. No running, repeated swaying, zoom, slow motion, cut, text or outfit change.
+PROMPT_END
+
+只執行一支，回報實際first／identity IDs、設定接受狀態、UUID、時長、像素與音軌；代理回報與可見畫面分開。不要重試、生成其他素材或刪改既有素材。

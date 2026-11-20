@@ -1,0 +1,181 @@
+ rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID f6443725-886b-410e-8c73-b929e8f73b56":
+        - cell "影片 UUID"
+        - cell "f6443725-886b-410e-8c73-b929e8f73b56":
+          - code: f6443725-886b-410e-8c73-b929e8f73b56
+      - row "時長 6.04 s":
+        - cell "時長"
+        - cell "6.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 苔綠＋棕褲全身；笑；頭／鞋在框":
+        - cell "0s"
+        - cell "苔綠＋棕褲全身；笑；頭／鞋在框"
+      - row "~1s 右手開始外開；肩略轉":
+        - cell "~1s"
+        - cell "右手開始外開；肩略轉"
+      - row "~2–3s 歡迎手勢＋開掌；笑開；半步感；頭／腰／鞋在框":
+        - cell "~2–3s"
+        - cell "歡迎手勢＋開掌；笑開；半步感；頭／腰／鞋在框"
+      - row "~4–5s 手勢緩降；仍近全身；裝不變":
+        - cell "~4–5s"
+        - cell "手勢緩降；仍近全身；裝不變"
+  - paragraph:
+    - strong: 不
+    - text: 認證半步幅度、手勢時序、尺度或成片 QA。只此一次。
+  - generic: "只製作W45 M02 L01 trial02這一支修正版候選影片，在同一Mira畫布；使用者已核准較近原圖及縮短走近幅度；最新指出trial01看旁邊，必須修正為鏡頭就是赴約朋友。不要沿用trial01的畫外目標或側向轉身。先實際核對三張圖和目前工具支援，內容不符、額度不足或參數不支援就停止回報，不替換圖、不加購或改用其他服務。僅執行一次，不自行重試、不出新照片、不改刪舊媒體、不合片。 精確輸入： first_frame_asset_id: \"124e6ebc-f0aa-4d0a-bf05-4cfca6e884be\" asset_ids: [\"9db0bc5b-49ff-4357-a832-6c73a4d9ba8e\",\"6d1e317a-1ee3-4512-a308-c1fd4147aef5\"] duration: \"6\" resolution_name: \"720p\" aspect_ratio: \"9:16\" 不設last_frame_asset_id，不設keyframes。 first為剛上傳的苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕肩包，M02低棕髮髻，咖啡店騎樓木長凳旁，人物約81%畫高。不是遠景58%修正版，不是舊紫色過街圖。face/full只鎖已核准M02身份與普通比例，不複製棚拍服裝、站姿或背景。不要以畫布殘留的紫外搭影片作輸入。 請將PROMPT_BEGIN到PROMPT_END英文逐字傳作影片prompt，不自行擴寫或另加手勢／走路。標記不要傳入。 PROMPT_BEGIN The camera is the friend she has come to meet. She recognizes the viewer directly through the lens, and her existing smile brightens into a spontaneous, happy laugh. One continuous six-second real-time shot, starting from the exact approved first image. Keep her face and chest oriented toward the camera, with her eyes meeting the lens throughout the greeting. Her shoulders move easily while remaining front-oriented. She opens her free right arm in a relaxed welcome addressed to the viewer, with an easy elbow and open palm. Her bag stays on her left shoulder. She takes just one small, relaxed half-step forward toward the viewer, then settles with a natural weight transfer. The greeting hand lowers comfortably while she keeps smiling at the lens. There is no friend or attention target beside the camera; she does not turn or step sideways. Keep her distance change slight, her complete head and both shoes inside the frame, and normal consistent head-to-body proportions. Locked chest-height 50mm camera, no zoom, pan or orbit. Preserve the exact face, low brown bun, moss-green fine-knit long-sleeve top, cocoa-brown straight trousers, cream shoes and dark-brown shoulder bag. Preserve the cafe windows, bench, rigid paving and existing daylight. Grounded shoe contacts, responsive cloth and ordinary live-action tempo. No continuous walking, repeated wave, clothing-touch gesture, internal cut, slow motion, text or logos. PROMPT_END 音訊僅在真有控制時關閉；若仍帶AAC如實回報，不因音訊重生。完成保留唯一原片，列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、模型版本、剩餘額度無可讀欄位就寫unknown。代理回報與抽樣動作分開，不宣告步態、手部、尺度或成片通過。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M02 L01 trial02 — 一次
+  - heading "首圖核對" [level=3]
+  - paragraph:
+    - code: 124e6ebc-…
+    - text: ＝苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕包；騎樓長凳；近全身 —
+    - strong: 相符
+    - text: 未用 trial01 殘留或紫衣片。
+  - separator
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be 是":
+        - cell "first"
+        - cell "124e6ebc-f0aa-4d0a-bf05-4cfca6e884be":
+          - code: 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be
+        - cell "是"
+      - row "asset_ids 9db0bc5b-… / 6d1e317a-… 是":
+        - cell "asset_ids"
+        - cell "9db0bc5b-… / 6d1e317a-…":
+          - code: 9db0bc5b-…
+          - text: /
+          - code: 6d1e317a-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"6\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"6\" / \"720p\" / \"9:16\"":
+          - code: "\"6\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID 7c57fa0e-aa5c-4c36-84fa-c84cba31c58a":
+        - cell "影片 UUID"
+        - cell "7c57fa0e-aa5c-4c36-84fa-c84cba31c58a":
+          - code: 7c57fa0e-aa5c-4c36-84fa-c84cba31c58a
+      - row "時長 6.04 s":
+        - cell "時長"
+        - cell "6.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 近正面對鏡；笑；苔綠／棕褲可讀；頭鞋在框":
+        - cell "0s"
+        - cell "近正面對鏡；笑；苔綠／棕褲可讀；頭鞋在框"
+      - row "~1–3s 右手向前／向鏡外開歡迎；視線對鏡；肩大致正面；左肩包":
+        - cell "~1–3s"
+        - cell "右手向前／向鏡外開歡迎；視線對鏡；肩大致正面；左肩包"
+      - row "~4–5s 手勢緩降；仍對鏡笑；尺度變化小；無明顯側向轉身":
+        - cell "~4–5s"
+        - cell "手勢緩降；仍對鏡笑；尺度變化小；無明顯側向轉身"
+  - paragraph:
+    - strong: 相對 trial01：
+    - text: 抽樣幀多為對鏡、無大幅側身。
+    - strong: 仍觀察：
+    - text: 歡迎臂伸幅偏大；半步不明顯。
+    - strong: 不
+    - text: 認證視線／手勢／尺度 QA。只此一次。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

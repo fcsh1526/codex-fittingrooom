@@ -1,0 +1,14 @@
+{
+  "actor": "user",
+  "recorded_date": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "quote": "不行，這有強烈的AI感。我不知道怎麼描述，但是有點恐怖谷效應的感覺",
+  "target_file": "10_automation/runs/2026-W45/reels/M03/emotion_recut_2026-11-04/M03_W45_emotion_recut_v2.mp4",
+  "target_sha256": "001ff0dc8fa724c61fd42846689d9877bb0957be296e6c65d8a7dc48795e2022",
+  "duration_seconds": 7.375,
+  "decision": "rejected_strong_AI_uncanny_feeling",
+  "scope": "Exact v2 whole-film realism/viewing discomfort, not rejection of approved stills, identity M03, all expressions/movements or other accepted films.",
+  "specific_frame_or_cause_provided": false,
+  "assistant_action": "Stop further recuts of this source pair; reassess performance design and isolate a single-source realism test before rebuilding a film. No new generation in this turn.",
+  "publication_approval": null
+}

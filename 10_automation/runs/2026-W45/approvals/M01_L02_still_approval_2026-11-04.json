@@ -1,0 +1,12 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "採用這張",
+  "recorded_at": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "scope": "exact M01 L02 Reel source still; proceed to its motion",
+  "asset_path": "10_automation/runs/2026-W45/generated_images/2026-W45-001/looks/2026-W45-001-L02/reel/2026-W45-001-L02_M01_reel_candidate_A.png",
+  "target_sha256": "f821acb4e063c1525f1b1bee9e1d96d10183d3ae7bf5c0e626f9c27823d939d5",
+  "context": "Async reply to question naming olive lightweight utility layer plus cream A-line skirt, matched first-look scale, and asking use this still for video.",
+  "limits": "Not approval of unseen video, join, whole-film publication, Carousel or additional generated stills."
+}

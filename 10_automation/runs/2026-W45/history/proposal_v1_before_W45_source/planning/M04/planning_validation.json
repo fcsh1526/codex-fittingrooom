@@ -1,0 +1,30 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: 使用者對W45具體企劃與線稿的確認；不從「繼續W45」推定新圖核准",
+    "declared missing asset: 各鏡全新、逐張核准的原生9:16起始圖；現有身份參照不等於新造型圖",
+    "declared missing asset: W45上游週報／原始CSV尚未取得；可評估本提案但必須保留此來源缺口",
+    "declared missing asset: 正式生成當下的Grok額度、可用片長與設定尚待核對；未送工作",
+    "declared missing asset: 額外同套中景／細節構圖來源，或有精確來源與適用核准範圍的影片影格",
+    "M04_face: user identity approval evidence required",
+    "M04_full: user identity approval evidence required",
+    "look 2026-W45-004-L01: source evidence missing",
+    "board: user storyboard approval evidence required",
+    "shot S01: no planned source image input",
+    "shot S02: no planned source image input",
+    "shot S03: no planned source image input"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 240,
+    "overlap_frames": 36,
+    "clear_read_frames_by_shot": {
+      "S01": 78,
+      "S02": 60,
+      "S03": 66
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

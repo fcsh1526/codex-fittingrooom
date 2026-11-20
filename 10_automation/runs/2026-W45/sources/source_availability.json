@@ -1,0 +1,46 @@
+{
+  "checked_date": "2026-11-03",
+  "content_week": "2026-W45",
+  "status": "retrieved_and_verified",
+  "latest_index_week": "2026-W45",
+  "public_index_url": "https://mika-lin-weekly.pplx.app/data/index.json",
+  "public_index_path": "sources/public_index_after_user_update_2026-11-03.json",
+  "public_index_sha256": "f2f049a1722a968cb40a2b63fc7b3487f3d51e88a4097cd71af39fc2e43aed99",
+  "report_url": "https://mika-lin-weekly.pplx.app/weeks/2026-W45.html",
+  "csv_url": "https://mika-lin-weekly.pplx.app/data/2026-W45.csv",
+  "source_csv_created": true,
+  "rows": 20,
+  "themes": 5,
+  "csv_matches_embedded_report_rows": true,
+  "external_claims_verified": false,
+  "recent_window": [
+    "2026-W43",
+    "2026-W44",
+    "2026-W45"
+  ],
+  "current_source_candidates": 60,
+  "selected_material_ids": [
+    "mi_111ac2cdead07deae7cd",
+    "mi_1f008409a9884e0bf266",
+    "mi_215af9651c8fc1c94ee7",
+    "mi_232dcec2a0bf59e47113",
+    "mi_283b48bf094c551a1384",
+    "mi_3ba0e4f48c26417af011",
+    "mi_73d4d8ff0a0e078410bb",
+    "mi_8267c854df0c0d434d3f",
+    "mi_85fca8136ccb85b567c7",
+    "mi_9c8e00ecb2498d4c2c8e",
+    "mi_a7a714af8ea10b4c2e29",
+    "mi_c61c266455d69856b319",
+    "mi_c724a5ccea64825fe9cd",
+    "mi_d91bf3eddbe7c5d09867",
+    "mi_fdfc3f8f3f9956c80d9f"
+  ],
+  "source_gap": null,
+  "earlier_missing_state": "Retained in history/proposal_v1_before_W45_source; superseded after user-reported publication.",
+  "verification_methods": [
+    "Direct public index and report retrieval",
+    "Original linked CSV bytes saved",
+    "All 20 embedded rows equal CSV parsed rows"
+  ]
+}

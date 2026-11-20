@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-06",
+  "status": "M04_v1_user_rejected_editorial_redesign_required",
+  "source_uuid": "0c3fed58-b7bf-45c3-a4c5-ecc70793c1bb",
+  "source_sha256": "c6380ee2cac2a9b731e1a4bc07d034462a30efb04d380cff72dc5ec310265595",
+  "film_sha256": "4feb9e3016587963605548f5cfcf8dc03d140494b8e25965a0de2a37f7757067",
+  "source_intervals_frames": {
+    "full_open": [
+      0,
+      96
+    ],
+    "detail": [
+      96,
+      174
+    ],
+    "full_end": [
+      174,
+      241
+    ]
+  },
+  "detail_crop_xywh": [
+    185,
+    250,
+    360,
+    640
+  ],
+  "detail_upscale_factor": 2,
+  "detail_note": "Digital reframing from same continuous source, no newly generated fabric; print arrangement readable, fine cotton weave not established.",
+  "join_output_frames": [
+    [
+      78,
+      96
+    ],
+    [
+      138,
+      156
+    ]
+  ],
+  "join_frames_each": 18,
+  "fps": 24,
+  "frame_count": 205,
+  "seconds": 8.541666666666666,
+  "full_decode": true,
+  "audio": false,
+  "baked_text": false,
+  "native_source_speed": true,
+  "source_raw_intervals_disjoint": true,
+  "no_freeze_retime_reverse_repeat_or_flow": true,
+  "continuous_native_speed_review": false,
+  "user_film_approval": null,
+  "publication_approval": null,
+  "status_before_latest_feedback": "initial_edit_sampled_pending_user_review",
+  "latest_user_feedback": "10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/user_feedback.json"
+}

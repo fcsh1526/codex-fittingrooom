@@ -1,0 +1,40 @@
+{
+  "recorded_date": "2026-10-27",
+  "scope": "Mira Reel directing system and skill v1; no new production media",
+  "skill_source": "11_skills/mira-reel-director/SKILL.md",
+  "method_catalog": "09_sops/mira_reel_method_catalog.md",
+  "layout_family_count": 3,
+  "production_recipe_count_with_scoped_accepted_examples": 5,
+  "unresolved_primary_detail_experiment": true,
+  "skill_format_validation": "passed bundled skill-creator quick_validate",
+  "local_links_checked": 17,
+  "contract_tests": {"passed": 40, "failed": 0, "fixtures": "synthetic, not production approvals"},
+  "tests_cover": [
+    "drafts remain incomplete and init refuses overwrite",
+    "exact timeline, overlap and unobscured clothing reading intervals",
+    "parallel panels are one composed shot",
+    "shared scene provenance and synchronized route sample times",
+    "existing still approval and extracted-frame source scope reuse",
+    "existing clip bounds, native duration, per-panel coverage and no hidden loop"
+  ],
+  "independent_forward_test": {
+    "request": "Plan an approximately 8-second no-text parallel film from existing approved looks, without generating media",
+    "example": "2026-W41 M04 parallel comparison",
+    "observed_source_frames": 145,
+    "approved_selected_frames": 144,
+    "fps": 24,
+    "requested_frames": 192,
+    "unsupported_frames_per_panel_against_approved_selection": 48,
+    "finding": "Do not fabricate eight seconds of usable native footage. Record shortage or propose a shorter edit. Reuse-clip contract added after this test exposed a missing mode.",
+    "after_patch_validation": {"exit_code": 2, "status": "invalid", "ready_for_generation": false,
+      "errors": ["shot S01/left: source footage does not cover the full shot", "shot S01/right: source footage does not cover the full shot"]}
+  },
+  "local_install": {"skill_name": "mira-reel-director", "files": 7, "verified_bytes_match_project": true},
+  "limits": [
+    "No reusable spatial renderer was implemented in this task",
+    "Schema, hashes and receipt fields cannot authenticate approval or prove projection, camera motion, visual comfort or Grok adherence",
+    "No new AI still, generated video, IG posting or Drive replacement",
+    "These new system files postdate GitHub commit 8139356 and have not yet been pushed"
+  ],
+  "local_ignored_check_records": ["tmp/mira-reel-director-validation/", "tmp/mira-reel-director-forward-test/"]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "W45_M02_lens_meeting_trial02",
+  "units": "schematic",
+  "unit_note": "Unmeasured relative units; manually calibrated frame bounds only, not physical lens/anatomy/gait calibration.",
+  "axes": "x_right_y_up_z_forward",
+  "source_still_sha256": "c88594e59aefa486a88365b02c938cca3dd69bf9171a9915ef6dbf4ced58d06b",
+  "source_manual_bounds": {
+    "top_px": 205,
+    "bottom_px": 1566,
+    "image_height": 1672,
+    "center_x_fraction": 0.642
+  },
+  "camera": {
+    "position": [
+      0,
+      1.2354529904481997,
+      0
+    ],
+    "target": [
+      0,
+      1.2354529904481997,
+      4
+    ],
+    "normalized_focal": 1.416666666666667,
+    "principal_uv": [
+      0.5,
+      0.338
+    ],
+    "fixed": true
+  },
+  "geometry": {
+    "wall_z": 4.4,
+    "pavement_extent": [
+      -2,
+      2,
+      2.5,
+      4.4
+    ]
+  },
+  "route_function": {
+    "start_seconds": 1.5,
+    "move_seconds": 1,
+    "x_start": 0.16485354886113152,
+    "x_end": 0.16090678415524917,
+    "z_start": 2.923850110213079,
+    "z_travel": 0.07
+  },
+  "key_views": [
+    {
+      "seconds": 0,
+      "position": [
+        0.16485354886113152,
+        0,
+        2.923850110213079
+      ],
+      "projection": {
+        "center_uv": [
+          0.642,
+          0.5296052631578947
+        ],
+        "height_fraction": 0.8139952153110048,
+        "top": 0.12260765550239228,
+        "bottom": 0.9366028708133971
+      },
+      "attention_target": "camera_lens",
+      "face_and_chest_direction": "toward_camera"
+    },
+    {
+      "seconds": 1.5,
+      "position": [
+        0.16485354886113152,
+        0,
+        2.923850110213079
+      ],
+      "projection": {
+        "center_uv": [
+          0.642,
+          0.5296052631578947
+        ],
+        "height_fraction": 0.8139952153110048,
+        "top": 0.12260765550239228,
+        "bottom": 0.9366028708133971
+      },
+      "attention_target": "camera_lens",
+      "face_and_chest_direction": "toward_camera"
+    },
+    {
+      "seconds": 2.5,
+      "position": [
+        0.16090678415524917,
+        0,
+        2.853850110213079
+      ],
+      "projection": {
+        "center_uv": [
+          0.642,
+          0.5343050083803413
+        ],
+        "height_fraction": 0.833961108007281,
+        "top": 0.11732445437670086,
+        "bottom": 0.9512855623839818
+      },
+      "attention_target": "camera_lens",
+      "face_and_chest_direction": "toward_camera"
+    },
+    {
+      "seconds": 6,
+      "position": [
+        0.16090678415524917,
+        0,
+        2.853850110213079
+      ],
+      "projection": {
+        "center_uv": [
+          0.642,
+          0.5343050083803413
+        ],
+        "height_fraction": 0.833961108007281,
+        "top": 0.11732445437670086,
+        "bottom": 0.9512855623839818
+      },
+      "attention_target": "camera_lens",
+      "face_and_chest_direction": "toward_camera"
+    }
+  ],
+  "performance": "The camera IS the friend; face/chest/gaze and welcome address the lens. One small forward half-step, then settle with warm smile.",
+  "limits": "Relative framing check only, not exact Grok control or gait certification. Attention target comes from explicit user correction; no user approval of an unseen video inferred."
+}

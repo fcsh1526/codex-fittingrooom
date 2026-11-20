@@ -1,0 +1,14 @@
+{
+  "provider": "Grok Imagine on existing Mira canvas",
+  "observed_state": "one result downloaded and checked",
+  "first_asset": "10_automation/runs/2026-W45/generated_images/2026-W45-005/looks/2026-W45-005-L02/reel/2026-W45-005-L02_M05_reel_candidate_A.png",
+  "first_sha256": "852901fd46e82791751244ae0b166add8b3fd2b3d67d4f3bbfebcd4a9693604d",
+  "requested_seconds": 6,
+  "maximum_jobs": 1,
+  "prompt": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/motion_prompt_draft.txt",
+  "submitted": true,
+  "request_sent": true,
+  "request_path": "S01_request.txt",
+  "engine_settings_pending_readback": false,
+  "submission": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/S01_submission.json"
+}

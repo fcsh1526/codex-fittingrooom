@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-04",
+  "result": "selected_as_coherent_approach_variant_for_user_film_review_not_camera_only_success",
+  "sampled_seconds": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0,
+    7.5,
+    8.0,
+    8.5,
+    9.0,
+    9.5,
+    10.0
+  ],
+  "observations": [
+    "Full outfit and sneakers readable initially; two small forward steps appear around2.5–3.5 s.",
+    "Framing tightens during about3–5 s, reaching head-to-mid-thigh medium by about5 s. This combines subject movement and framing change, not the requested stationary actor with camera-only approach.",
+    "Shoe cropping begins around3.5 s in source; by then the initial full look has had about2.75 s clear after the dissolve. Planned3.25 s hold and exact camera calibration were not achieved.",
+    "Head stays complete, medium lapels/cream neckline/waist/bag readable. Sampled medium has no obvious extreme head enlargement; precise lens/body reconstruction unverified.",
+    "Natural mouth/expression changes retained; small-step foot physics need native-speed user review."
+  ],
+  "continuous_human_visual_review": false,
+  "native_ui_observation": "Exact source post playing at1x observed intermittently; not uninterrupted visual review.",
+  "user_acceptance": null,
+  "publication_approval": null
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "frame_extract",
+  "source": "source.mp4",
+  "source_sha256": "898582110d895f1b111e8c25cbc82fe7d8cd74e301e5c022cf99fdc9c45021df",
+  "frame_index": 87,
+  "time_seconds": 3.625,
+  "path": "10_automation/runs/2026-W46/reels/M02/five_look_commute_2026-11-12/F01_trial_01/overlap_start_f087.png",
+  "extracted_sha256": "9608825bb1a162232951c6cf52c2821da6ed0d76c26d2bcab6b7765957155c07",
+  "reuse_authority": "Ongoing five-look trial and exact approved F01 starting still authorize preparing next wardrobe candidate from actual source; F01 motion has not separately been accepted. New clothing edit remains a new still requiring user approval.",
+  "purpose": "F02 proposed first frame at start of planned0.75s overlap, preserving actual pose/background instead of assuming theoretical path execution."
+}

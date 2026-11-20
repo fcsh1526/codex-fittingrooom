@@ -1,0 +1,25 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: 企劃／線稿尚待使用者選定",
+    "declared missing asset: 所有入片鏡頭均待準備個別核准的首圖",
+    "declared missing asset: 動態片長與原速可用段尚未測試",
+    "M03_face: user identity approval evidence required",
+    "M03_full: user identity approval evidence required",
+    "board: user storyboard approval evidence required",
+    "shot S01: no planned source image input",
+    "shot S02: no planned source image input"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 192,
+    "overlap_frames": 0,
+    "clear_read_frames_by_shot": {
+      "S01": 96,
+      "S02": 96
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

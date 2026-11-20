@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-04",
+  "approval_snapshots_unchanged": 18,
+  "M01_exact_accepted_file_hash_verified": true,
+  "M03_v3_anchors_verified": true,
+  "M03_selected_corrected_still_hash": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+  "M03_original_retained": true,
+  "M03_still_calls": 2,
+  "M03_motion_jobs": 0,
+  "M03_user_still_approval": null,
+  "weekly_video_acceptances": 2,
+  "new_publication_approval": null
+}

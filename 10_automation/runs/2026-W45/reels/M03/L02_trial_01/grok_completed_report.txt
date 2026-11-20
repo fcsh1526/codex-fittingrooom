@@ -1,0 +1,169 @@
+ "~1–2s 向鏡走近／抬步（prompt 要求 no walking；抽樣見跨步）":
+        - cell "~1–2s"
+        - cell "向鏡走近／抬步（prompt 要求 no walking；抽樣見跨步）":
+          - strong: 向鏡走近／抬步
+          - text: （prompt 要求 no walking；抽樣見跨步）
+      - row "~3–4s 仍前移後似站回；大笑對鏡；手偏低":
+        - cell "~3–4s"
+        - cell "仍前移後似站回；大笑對鏡；手偏低"
+      - row "~5s 近站定微笑；裝大致不變":
+        - cell "~5s"
+        - cell "近站定微笑；裝大致不變"
+  - paragraph:
+    - strong: 不
+    - text: 認證「不走路」、物理或成片通過。只此一支。
+  - generic: "本次只做W45 M03 L02，只生成一支10秒720p原生9:16候選。使用者已核准兩套各自精確首圖；本次只用以下這一套，不混衣、不出新照片、不重試、不改刪舊媒體、不合片、不加購或換服務。不是舊W43／W44系列，也不是M01或M02。本鏡用一個10秒來源先全身，再連續相機靠近至頭至大腿中景，保留同套衣服；只有這次10秒鏡頭，不能重做L01。10秒若不支援就停下，不默改6秒或分兩片；不用未核准新中景圖，不能在生成後數位裁切冒充運鏡。 精確輸入： first_frame_asset_id: \"1499ae56-08c0-4503-b88f-898a373738e0\" asset_ids: [\"26e03f42-2907-488c-b75c-239a2a19b9c8\",\"15c720b2-46b6-45e0-a150-60290e3290e6\"] duration: \"10\" resolution_name: \"720p\" aspect_ratio: \"9:16\" 不設last_frame_asset_id或keyframes。 first內容：M03長棕捲髮，同件深海軍藍西外／奶油白短袖針織上衣／奶油白小腿中段A字裙／白灰球鞋／同款黑小肩包，與L01同尺度同場景。三份圖片已實際下載SHA核對為核准原檔。face/full只鎖M03 v3身份、髮型與普通比例，不複製白襯衫／炭灰褲的棚拍造型、表情或站姿。先實際看這三個UUID；找不到、內容不符、額度不足或設定不支援便停下回報，不替換圖或參數。 把以下英文逐字傳入prompt，不擴寫動作或加走路；標記不傳入。 PROMPT_BEGIN She recognizes the friend directly behind the camera and relaxes into a cheerful conversation. Begin from the exact approved first image, showing the complete cream-skirt outfit. She meets the lens, her smile grows into an easy laugh, and her shoulders and weight respond naturally while she remains in her place. Her relaxed hands stay low and visible, without touching clothing or waving. One continuous ten-second real-time shot. Hold the initial full-person camera view for about the first three and a quarter seconds so the skirt and sneakers read clearly. Then smoothly move the level 50mm camera closer and slightly higher over about two seconds, retaining complete hair and normal proportions, to settle into a head-to-mid-thigh medium view. Remain in that medium view while her smile, breathing and warm response continue naturally. The approach reveals the navy blazer lapels, cream-knit neckline, waist and black shoulder bag; it is a camera approach, not her walking forward. Preserve the exact M03 face, long wavy brown hair, same deep-navy soft-shouldered blazer, cream-white fine-gauge short-sleeve knit top, cream mid-calf A-line skirt, white-grey sneakers, black left-shoulder bag and silver necklace. Preserve coherent shaded daylight and rigid office wall, windows, bench and paving with plausible parallax. No zoom, orbit, spin, raised-arm gesture, internal cut, slow motion or text. PROMPT_END 音訊只有真有開關才關；無法關就保留AAC如實回報，不因音訊重生。完成列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、明確模型版本、剩餘額度無欄位就unknown。代理回報、抽樣與QA分開，不宣告物理／身份／接點或成片通過。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M03 L02 — 一次（10s）
+  - heading "首圖核對" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 結果":
+        - columnheader "項目"
+        - columnheader "結果"
+    - rowgroup:
+      - row "first 1499ae56-08c0-4503-b88f-898a373738e0":
+        - cell "first"
+        - cell "1499ae56-08c0-4503-b88f-898a373738e0":
+          - code: 1499ae56-08c0-4503-b88f-898a373738e0
+      - row "內容 長棕捲髮；深海軍藍西外／奶油短袖針織／奶油中長A字裙／白灰球鞋／黑肩包；同辦公遮簷 — 相符":
+        - cell "內容"
+        - cell "長棕捲髮；深海軍藍西外／奶油短袖針織／奶油中長A字裙／白灰球鞋／黑肩包；同辦公遮簷 — 相符":
+          - text: 長棕捲髮；深海軍藍西外／奶油短袖針織／奶油中長A字裙／白灰球鞋／黑肩包；同辦公遮簷 —
+          - strong: 相符
+      - row "face / full 26e03f42-… / 15c720b2-… 可讀":
+        - cell "face / full"
+        - cell "26e03f42-… / 15c720b2-… 可讀":
+          - code: 26e03f42-…
+          - text: /
+          - code: 15c720b2-…
+          - text: 可讀
+  - paragraph: 未重做 L01；未混褲裝。
+  - separator
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 1499ae56-… 是":
+        - cell "first"
+        - cell "1499ae56-…":
+          - code: 1499ae56-…
+        - cell "是"
+      - row "asset_ids 26e03f42-…、15c720b2-… 是":
+        - cell "asset_ids"
+        - cell "26e03f42-…、15c720b2-…":
+          - code: 26e03f42-…
+          - text: 、
+          - code: 15c720b2-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"10\" / \"720p\" / \"9:16\" 是（未改 6s）":
+        - cell "duration / res / AR"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是（未改 6s）"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID 76ee1ce6-4fdb-44b1-bdaa-9c14d480f070":
+        - cell "影片 UUID"
+        - cell "76ee1ce6-4fdb-44b1-bdaa-9c14d480f070":
+          - code: 76ee1ce6-4fdb-44b1-bdaa-9c14d480f070
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告 QA 通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 全身奶油裙可讀；驚訝／張口；頭鞋在框":
+        - cell "0s"
+        - cell "全身奶油裙可讀；驚訝／張口；頭鞋在框"
+      - row "~1.7s 似向前跨步（prompt 要 in place + camera approach）；大笑":
+        - cell "~1.7s"
+        - cell "似向前跨步（prompt 要 in place + camera approach）；大笑":
+          - strong: 似向前跨步
+          - text: （prompt 要 in place + camera approach）；大笑
+      - row "~3.4s 構圖變緊，約頭至膝／大腿；西外領／腰可讀":
+        - cell "~3.4s"
+        - cell "構圖變緊，約頭至膝／大腿；西外領／腰可讀"
+      - row "~5–8.4s 頭至大腿中景持續；對鏡笑；手低；球鞋出框":
+        - cell "~5–8.4s"
+        - cell "頭至大腿中景持續；對鏡笑；手低；球鞋出框"
+  - paragraph:
+    - strong: 不
+    - text: 認證「僅相機靠近、人不走」、時點 3.25s 或成片通過。只此一支。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

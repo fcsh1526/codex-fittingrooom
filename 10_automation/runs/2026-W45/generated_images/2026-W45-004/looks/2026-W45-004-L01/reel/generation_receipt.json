@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "status": "user_requested_face_identity_revision",
+  "generator": "built-in image generation",
+  "surface": "reel",
+  "model": "M04 v3",
+  "look": "2026-W45-004-L01",
+  "output_path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/2026-W45-004-L01_M04_reel_candidate_A.png",
+  "output_sha256": "6b0c9691fe0b214a2ae5bbdee103178c125563e1fcfe662f0be20bd7ae7d4b46",
+  "actual_pixels": [
+    941,
+    1672
+  ],
+  "reference_face_path": "02_brand/reference_models/M04_start_v3_face.png",
+  "reference_face_sha256": "b9fbb46533782597e255b30a910c2457741aa70f92ddc0aa05060de9fb0b4a91",
+  "reference_full_path": "02_brand/reference_models/M04_start_v3_full.png",
+  "reference_full_sha256": "958dec3949edd2ebaedd7be408bc1ef6cc8a735a9749c11b6e5e73d401fa8241",
+  "prompt_target_subject_height_percent": "72–78",
+  "assistant_approx_subject_height_percent": 89,
+  "observed_deviations": [
+    "bag appears larger than planned small shoulder bag",
+    "additional silver necklace",
+    "framing tighter than target, limited head/shoe margin"
+  ],
+  "individual_user_approval": null,
+  "film_or_publication_approval": null,
+  "generation_calls": 1,
+  "new_video_jobs": 0,
+  "latest_feedback_receipt": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/user_face_feedback_2026-11-05.json",
+  "superseded_candidate_receipt": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/generation_receipt_face_v2.json"
+}

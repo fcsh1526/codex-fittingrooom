@@ -349,8 +349,8 @@ def render_summary(pool, index, registry):
               '2. 有新週 CSV 時先存入對應 run，重建索引；缺週明示，勿假裝完整三週資料。',
               '3. 選一個觀眾問題，從候選材料編完整搭配，將來源 material_id 寫入系列紀錄。',
               '4. 針對台灣實際地區、發布日期查天氣與場合條件，再決定系列、人物、套數與分鏡。',
-              '5. 仍在內容企劃階段；新產量未定案，不由索引啟動影像生成。', '',
-              '目前天氣：本次未查；發布日期、網址與成效未知者留空。', '',
+              '5. 本索引只供選材；企劃、產量、核准與製作狀態以當週run及canonical為準，不由索引啟動影像生成。', '',
+              '索引程式本身不查天氣；當期查核見series_registry.json的weather_checks及當週企劃。發布日期、網址與成效未知者留空。', '',
               '詳列資料：`material_index.json`；當期選材：`current_pool.json`；'
               '人工維護系列／使用：`series_registry.json`。更新方法見同資料夾 `README.md`。', '']
     return '\n'.join(lines)

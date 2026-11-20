@@ -1,0 +1,9 @@
+{
+  "fps": 24,
+  "panels": [
+    {"image":"panels/01_open.jpg","frames":16,"source":"full_edit_v1/wind.mp4","source_frame":0},
+    {"image":"panels/02_wind.jpg","frames":22,"source":"full_edit_v1/wind.mp4","source_frame":24},
+    {"image":"panels/03_closed.jpg","frames":32,"source":"S01_closed_collar_trial_01/source.mp4","source_frame":32},
+    {"image":"panels/04_compare.jpg","frames":40,"source":"full_edit_v3/M01_W47_v3.mp4","source_frame":94}
+  ]
+}

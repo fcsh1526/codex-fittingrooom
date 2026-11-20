@@ -1,5 +1,7 @@
 # Mira Canonical Production Workflow
 
+2026-11-20｜Reel 的單片企劃、分鏡、運鏡與剪輯依[從分鏡到剪輯台](../11_skills/mira-reel-director/references/directing-to-edit.md)串接。先用關鍵格播放整片節拍，再依實際可用動作重讀當初的觀看期待。缺少揭曉時回到對應分鏡決定重寫或補拍。W47 M01 的 v3 回驗及工作流示範見[案例](workflow_audits/2026-11-20_directing/REVIEW.md)。
+
 2026-11-11 使用者明確修正整片導演方向。整體分鏡要有多個有趣、活潑、節奏快且功能不同的鏡頭，連續安排人物反應、動作、景別與服裝看點的發展。三層觀看目的須落實到整片的節拍、期待與回收，逐鏡自然是其中一項檢查。六種既有剪輯方法都可依內容選用及組合，包含左右並排；本次指示取代較早左右比較暫停的範圍。鏡數與秒數依當片設計，保留必要讀衣時間與自然動作因果。
 
 2026-11-10 Reel 觀看目的：分鏡前先寫「停下來、繼續看、記住我們」三層。第一眼要讓陌生人立刻感到值得看，前 3–5 秒要讓人期待一個具體的下一瞬間，後段要兌現期待並留下一個能記住、能和 Mira 連在一起的要素。企劃和原速成片都用這三層核對。跨專業參考及具體做法見[持續研究與製作](../11_skills/mira-reel-director/references/research-and-production.md)及[製作檢查](../11_skills/mira-reel-director/references/production-checkpoints.md)。

@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-04",
+  "fps": 24,
+  "width": 720,
+  "height": 1280,
+  "total_frames": 252,
+  "duration_seconds": 10.5,
+  "source_A": {
+    "path": "10_automation/runs/2026-W45/reels/M03/L01_trial_02/source.mp4",
+    "sha256": "a6dba2c5f6898cb74aa806e701dee535e1fecc2ac97d80832f1b06380a03acda",
+    "range_frames_half_open": [
+      0,
+      96
+    ],
+    "source_seconds": [
+      0.0,
+      4.0
+    ],
+    "output_start_frame": 0
+  },
+  "source_B": {
+    "path": "10_automation/runs/2026-W45/reels/M03/L02_trial_01/source.mp4",
+    "sha256": "ebc028878aeac24b2538c34eab32b191ddbf8b348e3abc0bbea9331be879f2be",
+    "range_frames_half_open": [
+      0,
+      174
+    ],
+    "source_seconds": [
+      0,
+      7.25
+    ],
+    "output_start_frame": 78
+  },
+  "transition": {
+    "type": "linear_cross_dissolve",
+    "frames": 18,
+    "seconds": 0.75,
+    "output_frames_half_open": [
+      78,
+      96
+    ],
+    "output_seconds": [
+      3.25,
+      4.0
+    ]
+  },
+  "speed": 1,
+  "retiming": false,
+  "freeze": false,
+  "crop": false,
+  "text": false,
+  "audio": false,
+  "output_file": "M03_W45_two_looks_review_v1.mp4",
+  "output_sha256": "40f4644211ab5cac5f42a4be4bd361f66349df35f70e76bc94e7ddee4a62b6f3",
+  "full_decode": "completed",
+  "continuous_human_visual_review": false,
+  "user_film_acceptance": null,
+  "publication_approval": null
+}

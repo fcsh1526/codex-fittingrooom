@@ -1,0 +1,32 @@
+{
+  "content_week": "2026-W45",
+  "look_id": "2026-W45-005-L02",
+  "generator": "built_in_ImageGen",
+  "calls_this_pass": 1,
+  "candidate": "10_automation/runs/2026-W45/generated_images/2026-W45-005/looks/2026-W45-005-L02/reel/2026-W45-005-L02_M05_reel_candidate_A.png",
+  "sha256": "852901fd46e82791751244ae0b166add8b3fd2b3d67d4f3bbfebcd4a9693604d",
+  "pixels": [
+    941,
+    1672
+  ],
+  "prompt": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/generation_prompt.txt",
+  "references": [
+    {
+      "path": "02_brand/reference_models/M05_start_v1_face.png",
+      "sha256": "aab41b639568698a3630819201bcdd6a80e2dcd0248f682abc389dbe7a2b838b"
+    },
+    {
+      "path": "02_brand/reference_models/M05_start_v1_full.png",
+      "sha256": "06cd9d7868f38c650662c448318da1a536aec51e68ee19bbb0768a9605da2d8a"
+    }
+  ],
+  "visual_checks": {
+    "outfit": "敞開的灰藍襯衫、白T、深藍直褲、白灰球鞋、深棕小肩包均清楚；可見小耳飾。",
+    "identity": "髮型、臉部主要特徵及身形與M05參照相近，待使用者目視核准。",
+    "pose_and_scene": "視線偏向鏡頭旁、微笑已起，人物稍朝入口側身，雙鞋可見且有落地陰影。",
+    "framing": "頭頂約6.7%空間，少於8%參考，鞋底約3.9%。以原地轉向或側移半步保留安全範圍。"
+  },
+  "user_visual_approval": "approved",
+  "motion_submitted": true,
+  "user_approval_receipt": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/user_still_approval.json"
+}

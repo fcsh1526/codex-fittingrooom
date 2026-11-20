@@ -1,0 +1,824 @@
+{
+  "date": "2026-11-17",
+  "timezone": "Asia/Taipei",
+  "repository": "fcsh1526/codex-fittingrooom",
+  "branch": "main",
+  "repository_visibility": "public",
+  "user_approval_quote": "我同意將清單中的 190 份檔案，包括製作紀錄、素材識別與 Drive 連結，公開同步到 fcsh1526/codex-fittingrooom 的 main。",
+  "base_commit": "8139356d538a03efb277b61702813449f6c92b12",
+  "commit": "480e32d0a56547794ee0da173f4ec4324b720215",
+  "tree": "af4a2000c239a374f28572888e783c429e8c8744",
+  "commit_url": "https://github.com/fcsh1526/codex-fittingrooom/commit/480e32d0a56547794ee0da173f4ec4324b720215",
+  "file_count": 190,
+  "full_remote_tree_listed": true,
+  "core_content_readbacks": [
+    {
+      "path": "AGENTS.md",
+      "sha": "aac8afc1f39e07ae2df19148b75dd5baf5bd5c5c",
+      "exactMatch": true
+    },
+    {
+      "path": "10_automation/CLOUD_HANDOFF.md",
+      "sha": "adf6b28b2bc41851bda18a144ab65036320c7758",
+      "exactMatch": true
+    },
+    {
+      "path": "09_sops/mira_reel_method_catalog.md",
+      "sha": "46602c75d2e2b81c94293722d901262fc1ef3584",
+      "exactMatch": true
+    },
+    {
+      "path": "11_skills/mira-reel-director/SKILL.md",
+      "sha": "0bc0c49b842940eab3d588a7ff42eec326a5b2f3",
+      "exactMatch": true
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/performance-and-reference.md",
+      "sha": "a82c9ed9c42f6aaca602cb61c7b1c086bcd72a3e",
+      "exactMatch": true
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/route-previs.md",
+      "sha": "7c3cfc4e442a030107551e9c7c8bf9a36ebd7f82",
+      "exactMatch": true
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/production-checkpoints.md",
+      "sha": "d275e5dc7086a5ed375c89b37a5880d8f5d0d2f4",
+      "exactMatch": true
+    },
+    {
+      "path": ".agents/skills/mira-reel-director/SKILL.md",
+      "sha": "ad3df823280b6d2833ada1d97ed0d7e488a1e2c2",
+      "exactMatch": true
+    },
+    {
+      "path": ".agents/skills/mira-image-daily/SKILL.md",
+      "sha": "daf44a55ad2b6c9a01fce7c13b8f48b5d6813418",
+      "exactMatch": true
+    }
+  ],
+  "remote_files": [
+    {
+      "path": ".agents/skills/mira-image-daily/SKILL.md",
+      "sha": "daf44a55ad2b6c9a01fce7c13b8f48b5d6813418"
+    },
+    {
+      "path": ".agents/skills/mira-reel-director/SKILL.md",
+      "sha": "ad3df823280b6d2833ada1d97ed0d7e488a1e2c2"
+    },
+    {
+      "path": "03_research/ig_feed_followup_2026-11-04/mizzu_ri_DeO_-RVvCC-/REVIEW.md",
+      "sha": "2e495fcce9e99a863849a5fc6b4a5ee0f8b36730"
+    },
+    {
+      "path": "03_research/ig_feed_study_2026-11-04/REVIEW.md",
+      "sha": "cdad2d02d79188bfddbb69c9737aa534565d2038"
+    },
+    {
+      "path": "03_research/ig_feed_study_2026-11-04/references.json",
+      "sha": "195cf9398db111996d2f67edbdc33638b192807f"
+    },
+    {
+      "path": "03_research/ig_reference_Db8AXqwpkef_2026-11-02/AB_TEST_PLAN.md",
+      "sha": "44461021d473a9131e6de42709845a76e8dc6d31"
+    },
+    {
+      "path": "03_research/ig_reference_Db8AXqwpkef_2026-11-02/REFERENCE_STUDY.md",
+      "sha": "4baafbfd1bc65f96bc91068711b223219bd1143f"
+    },
+    {
+      "path": "03_research/reel_method_growth_2026-10-29/De-0E2dzoNE/observation.json",
+      "sha": "548c1c551d1d529f4e24eaab20dd02d210461c07"
+    },
+    {
+      "path": "03_research/reel_method_growth_2026-10-29/QUEUE.md",
+      "sha": "e8121fe3e7bfe3fdfb7ede58ea5e602ac23e66fb"
+    },
+    {
+      "path": "03_research/reel_method_growth_2026-10-29/mika_account_study/REVIEW.md",
+      "sha": "af345e10e303f7c36a2f4ae5e6c47aa70b329b1f"
+    },
+    {
+      "path": "03_research/reel_method_growth_2026-10-29/mika_account_study/observations.json",
+      "sha": "8c88b8545f76be896d8c17e7a1c0ddf46e1b5442"
+    },
+    {
+      "path": "03_research/reel_presentation_study_2026-10-12/PRESENTATION_TYPES.md",
+      "sha": "5da9120f088aca015bb57ba263f64921fb3f2f97"
+    },
+    {
+      "path": "09_sops/mira_reel_method_catalog.md",
+      "sha": "46602c75d2e2b81c94293722d901262fc1ef3584"
+    },
+    {
+      "path": "09_sops/mira_reel_production_sop.md",
+      "sha": "a0010bc8d03cfbe6c4e2fa3d8a55b3913cafc88c"
+    },
+    {
+      "path": "10_automation/CANONICAL_WORKFLOW.md",
+      "sha": "49a53c62944c5b2ac69100c165ebcf40fccfd40c"
+    },
+    {
+      "path": "10_automation/CLOUD_HANDOFF.md",
+      "sha": "adf6b28b2bc41851bda18a144ab65036320c7758"
+    },
+    {
+      "path": "10_automation/GITHUB_SYNC_SCOPE.md",
+      "sha": "2e815af931511a93e021e2870fcf043e196496b1"
+    },
+    {
+      "path": "10_automation/MIRA_EDITORIAL_HANDOFF.md",
+      "sha": "dec70bde34770bd5147ae26a8e22790c3732caef"
+    },
+    {
+      "path": "10_automation/diagnostics/2026-11-04_ig_unexpected_tab/REPORT.md",
+      "sha": "835997587938a64d4089a4fe6451c794b4a4278e"
+    },
+    {
+      "path": "10_automation/diagnostics/2026-11-04_ig_unexpected_tab/evidence.json",
+      "sha": "51cb599acb3c126eb42a3e0a481e96a2c890787f"
+    },
+    {
+      "path": "10_automation/history/MIRA_EDITORIAL_HANDOFF_before_2026-11-03_workflow_audit.md",
+      "sha": "5e5797205d188a988e341ea0572938159a89864e"
+    },
+    {
+      "path": "10_automation/history/W44_publishing_structure_before_2026-11-03_workflow_audit.md",
+      "sha": "3896a43cb469b456e62844c8d262118a640a6569"
+    },
+    {
+      "path": "10_automation/history/workflow_audit_2026-11-03_archives.json",
+      "sha": "81a62369dab1bae61bdf0cef92a946116a306749"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/M02_restart_2026-10-30/USER_ACCEPTANCE.md",
+      "sha": "2311f41ddac95cb0043e692fa6369064cbf9d7fe"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/approvals/user_planning_approval_2026-10-28.json",
+      "sha": "4ff786ebef70542c5f2b1bc1e51edc3dd2ac13d2"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/editorial_reset_v3_2026-10-28/REVIEW.md",
+      "sha": "671242ee1334643de9bf6283b34ea1d49e591b19"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/editorial_reset_v3_2026-10-28/execution_4segments/EXECUTION_REVIEW.md",
+      "sha": "3568f9807271eb1f50fc1f333675018d203ddde7"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/five_methods_2026-10-30/PRODUCTION_STATUS.md",
+      "sha": "ba478e6183a522d325678872b1fa1329d8ab2fa7"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/generated_images/2026-W44-001/looks/2026-W44-001-L01/reel/user_A_still_approval_2026-10-28.json",
+      "sha": "b32b928cfca8e0145f65c73c8a6f6d0f77b0a4a7"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/lively_models_2026-10-30/M01_v2_review_presented_2026-11-03.json",
+      "sha": "3487d47bc6447fba952685439d97a085b2e15cf4"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/lively_models_2026-10-30/STATUS.md",
+      "sha": "6445d7588772742e62aebf0ef39ab9ac0a7d824d"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/performance_AB_2026-11-02/A_video_prompt.txt",
+      "sha": "684f316486ab48a3575bae8e11d0c959f0bd19f7"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/performance_AB_2026-11-02/B_video_prompt.txt",
+      "sha": "6e79d13c133937fc2d442127d524874a0d0a5598"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/performance_AB_2026-11-02/RESULT_REVIEW.md",
+      "sha": "c348f93aaaefdc6a16353a0acc6f40e38f0c46b9"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/performance_AB_2026-11-02/STILL_REVIEW.md",
+      "sha": "0758396d0e6a228ca66458044f0f8f684e06794c"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/performance_AB_2026-11-02/user_comparison_feedback_2026-11-03.json",
+      "sha": "88c2871c6eb4a3e71da7e4ab0efe2291622772d7"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/publishing_structure.md",
+      "sha": "4ea1b6b44357590e11b071fcf2cd1922f18d9e14"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/source_first_revision_2026-10-29.md",
+      "sha": "15c366463874740db9f2e4addc74cb9d673e4da7"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/user_editorial_feedback_2026-10-28.json",
+      "sha": "8c68d2d30fa9a33528a6e77fdc6df032c28c09fe"
+    },
+    {
+      "path": "10_automation/runs/2026-W44/viewer_first_M02_proposal_2026-10-29.md",
+      "sha": "7fc47c19208b1001e55102af9f7d00b059269489"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/ASSET_GAP_REVIEW_2026-11-10.md",
+      "sha": "1dda48baffbb482b7f521786dae632d77142cbdc"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/approvals/M02_trial03_video_acceptance_2026-11-04.json",
+      "sha": "c53e5339a5226c7fc351df808b91c2fa052d627d"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+      "sha": "25a018f2d327188c1404dbd2ea47db1e3f271b69"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/asset_requirements.csv",
+      "sha": "55305db8bc52a70cc830b2713b484480adfd87a1"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/asset_requirements.csv",
+      "sha": "57379b7f95a95bb566434596db66fb1fc2fe08b9"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/EDITORIAL_PROPOSAL.md",
+      "sha": "b20fe55eae8b58447efffa0ed3bdc8dc4122ee88"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/M01/SHOT_CARDS.md",
+      "sha": "de76a6ffc86e9c84d8bf86042caea7e31201c694"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/M02/SHOT_CARDS.md",
+      "sha": "14176df18dc26cac54caa86ddb8e7807ec51d156"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/M02/space.json",
+      "sha": "e06209d5c0f6e3be6bf23b8e8186c5f26b822400"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/M03/SHOT_CARDS.md",
+      "sha": "1845a696e03a9651f79782881d12d7c146d829f6"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/M04/SHOT_CARDS.md",
+      "sha": "1a4ea640d2b69e3612e1e2a5aa6c5cf0c52199ec"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/planning/M05/SHOT_CARDS.md",
+      "sha": "d4b11d5d050531af3009aac36a3e9d257f22efde"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/history/proposal_v1_before_W45_source/sources/RESEARCH.md",
+      "sha": "7190385f2bbb346311facda4e4f2e4652333f9fd"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/EDITORIAL_PROPOSAL.md",
+      "sha": "7904422ad8e276492d8fd77d160b8a4edd32d1a2"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M01/SHOT_CARDS.md",
+      "sha": "f4bcd3aab6253c62919b6085b24fbc5f9aaa50a3"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M02/SHOT_CARDS.md",
+      "sha": "83c72867ade5f5d9d0c0d7803be0c514bf80a0f3"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M02/space.json",
+      "sha": "f8a7e5efb9d07a08e4520084898f2e7fc7ebefa2"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M03/SHOT_CARDS.md",
+      "sha": "3398e40ea8e08112b443b5f34378a2978eb3847b"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M04/SHOT_CARDS.md",
+      "sha": "3c7b94c2df411a497d8a74e7b9864294d2e00f90"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/M05/SHOT_CARDS.md",
+      "sha": "31864aea13bfe831eb29f65b26e21888db7f9a1a"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/planning/planning_validation_summary.json",
+      "sha": "9b0cf388909dfc2ceca8dde8a5823a4a71ce8387"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/publishing_structure.md",
+      "sha": "0d781635b0d46fb735dcc2904c1562addfb4fbf0"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/REVIEW.md",
+      "sha": "650c2a6f7ba458fabbc14878bf983a8d67b4a557"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/edit_receipt.json",
+      "sha": "4ac0cba1db562a4c4bf12f2bfae57721f432af48"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/handoff_candidate/HANDOFF.md",
+      "sha": "bdda405521357970dad6c03ceae83a1cf954d9f2"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/handoff_candidate/drive_delivery.json",
+      "sha": "0ad0dcec4d51cb98298e5c1bdd1b5df91cf777ff"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/handoff_candidate/handoff_manifest.json",
+      "sha": "24dd000614ff8eec563ca1032df5b247f3b0099a"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/handoff_candidate/instagram_caption.txt",
+      "sha": "79abd1077de6ae8f83b020e58429b7338a084d68"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/source_mapping_check.json",
+      "sha": "17d0bbfa6b9a77756fbd6555efea9245ce92aadc"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M01/preflight_2026-11-04/join_timing_analysis.json",
+      "sha": "8ed8baefd07bdaa9ca0fd77e3780ea72e6353a99"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/REVIEW.md",
+      "sha": "6894409e4f6a90a949708c91ee5a4b1a22d65f59"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/adapted_space.json",
+      "sha": "4ac17d4648ffccda3afb4e3e58abe4d871a3c358"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/native_playback_observation.json",
+      "sha": "f106e61ed9b41ec3ae6d583ccc25b3d89911bf1d"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/submission.json",
+      "sha": "b327ea2bc82a4707be3a85ecad581b1cebfa10ed"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/technical_review.json",
+      "sha": "310d9e54bec93f501477cdff034094a981006f0b"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/user_feedback_2026-11-03.json",
+      "sha": "62cee372fa1af29f6f9bad2b37e2b4ecce1ba4b4"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/video_prompt.txt",
+      "sha": "dcfcafad36d6bf4215affb106c505dcbffb39ed6"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_02/SHOT_CARD.md",
+      "sha": "322f41ca8cf9c249dc6cfcb05ff2a837c021ec99"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_02/prompt_audit_correction_2026-11-04.json",
+      "sha": "9aada2fe58037e1b542ad0e22937208b6023652a"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/REVIEW.md",
+      "sha": "354388f611ab61e8385cc5378db2bff049f40eec"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/SHOT_CARD.md",
+      "sha": "2799fb335e4751e04c9369fb460e87d28239ab24"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/grok_completed_report.txt",
+      "sha": "cf7dfd8ec26e2ca26770b013b20476a868b2f301"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/handoff_candidate/HANDOFF.md",
+      "sha": "b9daf4e40ceb6e6462a37aa159f177037e7af530"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/handoff_candidate/drive_delivery.json",
+      "sha": "d942a24e2a1cb494fa98753603c0f0c52f0eb46a"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/handoff_candidate/handoff_manifest.json",
+      "sha": "0a48feeb129a8bc3ac5688497d4e065d7bd7bdff"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/handoff_candidate/instagram_caption.txt",
+      "sha": "d265ac9535bf08bd383dd30b611e3ebc3509bfd8"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/prompt_integrity.json",
+      "sha": "c7df4690e3888734d4f9ec5c935d7234a5790028"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/submission.json",
+      "sha": "f4e027a6c3e1424e42309962cc304f2e7399e41c"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_03/technical_review.json",
+      "sha": "8748022ba58c2a40c726ed11e41beacf83872697"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/user_performance_feedback_2026-11-05.json",
+      "sha": "0ddab173eeee2224a399780c267a3b787d0b37e5"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/paired_review_v1/REVIEW.md",
+      "sha": "44f2738af8e02dde3ead61faff2dd615629ee638"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/paired_review_v1/edit_receipt.json",
+      "sha": "bac91aeb667d5827ec2115ff40d3e99670a4465a"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/preflight_2026-11-04/EXECUTION_RECONCILIATION.md",
+      "sha": "cbd53942fb78f6bf760f2697e7be3539f13c1796"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/preflight_2026-11-04/shared_space.json",
+      "sha": "96833f157351095aa5a7367a3c6ff419a7938d63"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_execution_audit_2026-11-05/REVIEW.md",
+      "sha": "0206aa6e2d42cea03b276086736f5830035bc9bd"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_trial_01/REVIEW.md",
+      "sha": "0b76b0c69f63005a844a87ea9b7779fdb6b4361d"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/REVIEW.md",
+      "sha": "2697850d09d26c57977c8928b6034c3adbb8d567"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/editorial_feedback_2026-11-05/REVIEW.md",
+      "sha": "9bedf68a8e6e9a57b75a266f26fb9e6621e74428"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v1/REVIEW.md",
+      "sha": "80b188d49ff50a43946521476e98e5f77a07a9f1"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/paired_review_v2/REVIEW.md",
+      "sha": "bc5c93eb97595a94f62e8f3ee9d55d2847d0dc9d"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/planning_validation.json",
+      "sha": "8d8bdecad1cf77edd0692fe828bbcbd462a3e764"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/HANDOFF.md",
+      "sha": "4ea68c481ff041d434a9cb075234bfd3bed3a3f3"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/edit_and_review.json",
+      "sha": "5b262678d0c509494daa62aff50317bb13083969"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/instagram_caption.txt",
+      "sha": "7d1df9a0aa619fece910999cc116538b27bb9ba2"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/two_look_sequential_study_2026-11-09/distinct_shots_v4/REVIEW.md",
+      "sha": "5e498c65cae20ba910b296fb2444065e17abd144"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/two_look_sequential_study_2026-11-09/extended_cut_v3/REVIEW.md",
+      "sha": "91352ca4ded466b4d9746bb5154160bc2aa480b8"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M03/two_look_sequential_study_2026-11-09/face_opening_v5/REVIEW.md",
+      "sha": "dd215c271b8596dd89f8eb2db6335849480f9713"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/REVIEW.md",
+      "sha": "dcd5772c2e58d9b645a4a06a79214b345ee37253"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/REVIEW.md",
+      "sha": "62f1e3b17fbe82fbe9889da67785be124bbb6916"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/handoff_candidate/HANDOFF.md",
+      "sha": "95d13ef648cd210cea75588efcb168e975986015"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/handoff_candidate/instagram_caption.txt",
+      "sha": "26645aee8b7b8f14136ef47cd9ddea2a61261cd4"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/handoff_readiness.json",
+      "sha": "5bbed46e7154a45209c5e56f2774af5c9a72ab47"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_opening_acceptance.json",
+      "sha": "00932eddb4233727332acf1b33b088938a602129"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M04/opening_study_2026-11-09/user_release_approval.json",
+      "sha": "72baeee48d8dcf6675cfb7470ab9ee6cfe6fc106"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/MOTION_REVIEW.md",
+      "sha": "5c333d170c8de62ec8ab4de35c801283a25c705b"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/S01_submission.json",
+      "sha": "4553f4511efbd9736c2c9c3c9b608ab92e63ba49"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/SHOT_CARD.md",
+      "sha": "35154710897530f29ae10804930ef4d4182f6b1f"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/generation_prompt.txt",
+      "sha": "9d793404ebd7dbba6e1c1ac80af5e0ab91a59008"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/production_plan.json",
+      "sha": "e6fc0bb55feff3b385d2bed12a2158bbcc4b720a"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/MOTION_REVIEW.md",
+      "sha": "3bfadf62482c12715515fc0e7b878493c93d9578"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/HANDOFF.md",
+      "sha": "77f6e527b9fc2f618d0ffc82c61bc15e2de2006e"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/instagram_caption.txt",
+      "sha": "490089a87c69295cbb13bc279ebfd002cc40ad6c"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/source_receipt.json",
+      "sha": "bfdbdcf088dfb91b0ea606b6ed4f78eb34bba626"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/sources/RESEARCH.md",
+      "sha": "3e2ba5eea012ec866791d27073f171a8ade8b14d"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/sources/public_index_after_user_update_2026-11-03.json",
+      "sha": "e69570793942c7038e81200224347126dd5aaa87"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/sources/weather_check.json",
+      "sha": "931aebfa89785eb88af403e72a620afa5539464a"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/weekly_content_packet.csv",
+      "sha": "17651d8a841a2828799424f8de3b2920a22733d3"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/weekly_look_plan.csv",
+      "sha": "6f68a6a0a39cd1768bc701f6f4350ce65ea6fb6e"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/approvals/user_planning_approval_2026-11-10.json",
+      "sha": "983276d12184e988360aacf98d94e002c782d3e0"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/asset_requirements.csv",
+      "sha": "4c8a9bad06219a6e725c1e7993a6a517b0819cbf"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/carousel/hero_A_prompt.md",
+      "sha": "1c6d0f5f3ec5d534a90fc8350f09701b65ecc654"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/N01_close_face_v2_generation.json",
+      "sha": "e8eac04e3fea5fd79634bab931ea18835ab2024d"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/N01_close_generation.json",
+      "sha": "9c7d021a1c65e409e49ba95dac6eacb12a082926"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/N01_face_anchor_extension_v3_generation.json",
+      "sha": "c8477eb25203c737a32e3e67b29b91da7bbc406d"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/N04_seated_generation.json",
+      "sha": "ec7312aac3f297c5eb93d48f570200b6758111f0"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/S02_proof_generation.json",
+      "sha": "a7229de6f31dfb6fb2e3d0fdc2fb08c61d030fe5"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/candidate_A_face_v2_generation.json",
+      "sha": "5a1553e3e29bec3ccdfebc5528cc5ee9242c1453"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/candidate_A_front_v3_generation.json",
+      "sha": "a738e023ca78c658b8c3b55c1398717d2c2aac5f"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/candidate_A_generation.json",
+      "sha": "9ce92d8417e1a092d6efdf0d8193818b8c591d13"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/hero_A_prompt.md",
+      "sha": "81205fab2389835a748257fe3414bc0bf0b4b934"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/user_N01_attached_still_approval_2026-11-11.json",
+      "sha": "786bf5733137ac69e1a0da4ad78d0fba77f04cc3"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/user_candidate_A_front_v3_approval_2026-11-10.json",
+      "sha": "83f9847adfd06d03d65a68965781d123cda52c7f"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L02/reel/N06_black_shoes_v2_generation.json",
+      "sha": "e8ba42091f4c73631c757a2458637d614f8c1ff3"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L02/reel/N06_full_generation.json",
+      "sha": "c9ca0d481b141404917f166082517b56e5981595"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/candidate_A_generation.json",
+      "sha": "95a00cd8b7340fc4fe35f9aa97de31d921c1cbef"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/route_F01_framing_v2_generation.json",
+      "sha": "ef841d665701cdd194bd4fc66ebc7548c423ccdf"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-002/series/five_look_commute/F02/reel/F02_start_generation.json",
+      "sha": "339d70df63bf5041ae73ef9697a0f68b87bc43a8"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M01/SHOT_CARDS.md",
+      "sha": "7de4efe6cc35eb35020ebd66b11ae2f566deeb26"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M01/editorial_reset_2026-11-11/STORYBOARD.md",
+      "sha": "4a35841423a04a4fb6fe165287c33f135f0f6e94"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/SHOT_CARDS.md",
+      "sha": "bd3e1fe830517d061cfcd42b1d95bb4847c5f49e"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/commute_route_2026-11-12/README.md",
+      "sha": "8cba4d8d8e82e3e886bc432914fc9e8c220e876d"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/editorial_update_2026-11-12/STORYBOARD.md",
+      "sha": "7d38456a8b9eba6aa52cad0126b1869756b9341d"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/five_look_commute_2026-11-12/README.md",
+      "sha": "eb675b271aa2532a8cd70e590b7d5c28efa20c9d"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M02/five_look_commute_wide_start_2026-11-12/README.md",
+      "sha": "d23e9daf11a270bbb67c10bd9567f85df1463809"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M03/SHOT_CARDS.md",
+      "sha": "1885d0014380bf429654e51957405094be4ec3fb"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M04/SHOT_CARDS.md",
+      "sha": "141e03edbd76a33a67d678c4fdb7f436ca153124"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/M05/SHOT_CARDS.md",
+      "sha": "f856fe3e6bc5c27a0f33efe2db0516c0a439a19e"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/planning/planning_validation_summary.json",
+      "sha": "8fc46b9447136e03849fa95e2f3fb8d3092baef2"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/publishing_structure.md",
+      "sha": "dc9bc00af21b2253735bb63e8b7668ed66ec41cd"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/MOTION_REVIEW.md",
+      "sha": "28cab129a830909a27a653d3972325f034565368"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/N01_existing_source_crop/crop_receipt.json",
+      "sha": "137c35c2748014b0cb3ce4a8a0152bd9565f086c"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/REVIEW.md",
+      "sha": "1bb48bc9ff7b32557881c6baa4b026961327ba9b"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/user_full_film_acceptance_2026-11-12.json",
+      "sha": "c6602d453fb7afe910b88a7dea6b6c3e90621bcd"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/comparison_ending_v2/REVIEW.md",
+      "sha": "9e6ecc19718ec4fc7a2e3edeb1bb1a38cefaa3b5"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/full_eight_beats_v1/REVIEW.md",
+      "sha": "31382f5fcd51a19fd4a2dd6be63553d0a14cd011"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/opening_five_beats_v1/REVIEW.md",
+      "sha": "2739a1aeef9b6b4f3432db8f455cecc3034e0c1c"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/opening_three_beats_v1/REVIEW.md",
+      "sha": "fcdce0bc0e1a3c40ee3d1c219468de8d931560be"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/paired_review_v1/REVIEW.md",
+      "sha": "cd8345437f7c5853461b1370e517d9c3880ad18a"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M02/five_look_commute_2026-11-12/F01_identity_ref_trial_02/REVIEW.md",
+      "sha": "a1d91811166277c1722fdf580b2e40241d8dbeaa"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M02/five_look_commute_2026-11-12/F01_trial_01/REVIEW.md",
+      "sha": "9fbbf579e79562348a79eba3ed05c67fbf2be6e0"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M02/five_look_commute_2026-11-12/F01_trial_01/user_identity_rejection_2026-11-13.json",
+      "sha": "553b82e2ada047bb8c82f9626a6671c717cf859e"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/source_receipt.json",
+      "sha": "72ac6192f70286a90812d16a892c7c4f40de0690"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/weekly_look_plan.csv",
+      "sha": "e3f7f8121bf2481d9fd1b5643c63d3eba399f119"
+    },
+    {
+      "path": "10_automation/workflow_audits/2026-11-03/REPORT.md",
+      "sha": "4917cffcd69e834a1c760c5172e850ee00f6646d"
+    },
+    {
+      "path": "10_automation/workflow_audits/2026-11-03/verification.json",
+      "sha": "fe63092cbb4a4eb2bbef02a7ed4e23799eeb8c47"
+    },
+    {
+      "path": "10_automation/workflow_audits/2026-11-06_methods_performance/user_clarification.json",
+      "sha": "e82d414fbea2ab224016918eb66d793493c1b718"
+    },
+    {
+      "path": "11_skills/mira-image-daily/SKILL.md",
+      "sha": "ba025a930facc5e5c0898b4d4f35c8165d909138"
+    },
+    {
+      "path": "11_skills/mira-image-daily/references/image-standard.md",
+      "sha": "87ccb9552b63279bd283df33de601cf0d41cd542"
+    },
+    {
+      "path": "11_skills/mira-reel-director/SKILL.md",
+      "sha": "0bc0c49b842940eab3d588a7ff42eec326a5b2f3"
+    },
+    {
+      "path": "11_skills/mira-reel-director/agents/openai.yaml",
+      "sha": "bdc88aafb7574d1377e531b5a13754f3841f0eeb"
+    },
+    {
+      "path": "11_skills/mira-reel-director/assets/production_plan.template.json",
+      "sha": "adfece9d239ec24209f5e1ee06820064f943ef35"
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/performance-and-reference.md",
+      "sha": "a82c9ed9c42f6aaca602cb61c7b1c086bcd72a3e"
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/plan-contract.md",
+      "sha": "728322563c0a5cb97982ceffbc59601bad81d396"
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/production-checkpoints.md",
+      "sha": "d275e5dc7086a5ed375c89b37a5880d8f5d0d2f4"
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/production-system.md",
+      "sha": "7471b1653ddbe02776b5eda9ac4eb0ab983de38e"
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/research-and-production.md",
+      "sha": "85bc5614592135d54caa0a9d625e6e1968b0e372"
+    },
+    {
+      "path": "11_skills/mira-reel-director/references/route-previs.md",
+      "sha": "7c3cfc4e442a030107551e9c7c8bf9a36ebd7f82"
+    },
+    {
+      "path": "11_skills/mira-reel-director/scripts/plan.py",
+      "sha": "a8e3c5d5c27038034e10b6ca1c9182db9979d0c0"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha": "aac8afc1f39e07ae2df19148b75dd5baf5bd5c5c"
+    },
+    {
+      "path": "CURRENT_STATUS.md",
+      "sha": "d170e999e0deb2b464cdc60fddc1450f9171eba1"
+    }
+  ],
+  "all_190_git_blob_hashes_match": true
+}

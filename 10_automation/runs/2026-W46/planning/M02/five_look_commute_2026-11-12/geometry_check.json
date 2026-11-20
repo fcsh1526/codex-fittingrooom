@@ -1,0 +1,29 @@
+{
+  "scene_sha256": "ac21cb1d1467ebcfb60698038912322365c2247de3a2ad3bd616ccc284e9117a",
+  "same_scene_and_clock": true,
+  "camera_is_independent_curve": true,
+  "render_frames": 480,
+  "fps": 24,
+  "seconds": 20,
+  "look_count": 5,
+  "transition_count": 4,
+  "transition_centers": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "transition_overlap_seconds": 0.75,
+  "height_fraction_range": [
+    0.6773430631668585,
+    0.7725718516717988
+  ],
+  "front_angle_range": [
+    33.028226270515056,
+    62.228393242318084
+  ],
+  "top_min": 0.12954786000697344,
+  "bottom_max": 0.9021197116787721,
+  "collisions_blockout": [],
+  "limits": "Five-look format accepted; proposed wardrobe/routes/timing not yet visually approved. Mathematical pose equality in overlaps is not real video ghosting/gait verification."
+}

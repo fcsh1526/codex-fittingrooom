@@ -1,0 +1,103 @@
+{
+  "look_id": "2026-W45-002-L01",
+  "model": "M02",
+  "date": "2026-11-03",
+  "tool": "built-in imagegen",
+  "api_cli_used": false,
+  "new_paid_provider_enabled": false,
+  "billed_cost": null,
+  "reference_inputs": [
+    {
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5",
+      "role": "face_identity_hair"
+    },
+    {
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4",
+      "role": "full_body_proportions"
+    }
+  ],
+  "calls": [
+    {
+      "kind": "initial_candidate",
+      "prompt_path": "10_automation/runs/2026-W45/generated_images/2026-W45-002/looks/2026-W45-002-L01/reel/submitted_prompt_A.txt",
+      "prompt_sha256": "11f03aca55101f77a8f5a0678f5bb99cc9a27d3449ab60f3646a88c5d133b036",
+      "reference_order": [
+        "02_brand/reference_models/M02_start_v3_face.png",
+        "02_brand/reference_models/M02_start_v3_full.png"
+      ],
+      "tool_output_id": "exec-4fe3d70e-982c-403a-8e03-13fa966f582a",
+      "reported_tool_wait_seconds": 41.1
+    },
+    {
+      "kind": "one_targeted_framing_correction",
+      "prompt_path": "10_automation/runs/2026-W45/generated_images/2026-W45-002/looks/2026-W45-002-L01/reel/submitted_prompt_A_framing_v2.txt",
+      "prompt_sha256": "60565148fe4ff60cccea0278e7164e8ee0626d45db62c2d09ba6891f524a5f75",
+      "reference_order": [
+        "10_automation/runs/2026-W45/generated_images/2026-W45-002/looks/2026-W45-002-L01/reel/2026-W45-002-L01_M02_reel_candidate_A.png",
+        "02_brand/reference_models/M02_start_v3_face.png",
+        "02_brand/reference_models/M02_start_v3_full.png"
+      ],
+      "tool_output_id": "exec-2e083ee0-48b9-4fd0-81ee-3cc2e08c65c8",
+      "reported_tool_wait_seconds": 42.4
+    }
+  ],
+  "outputs": [
+    {
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-002/looks/2026-W45-002-L01/reel/2026-W45-002-L01_M02_reel_candidate_A.png",
+      "sha256": "c88594e59aefa486a88365b02c938cca3dd69bf9171a9915ef6dbf4ced58d06b",
+      "width": 941,
+      "height": 1672,
+      "requested_aspect_ratio": "9:16",
+      "requested_delivery_pixels": [
+        1080,
+        1920
+      ],
+      "source_pixels_exact": [
+        941,
+        1672
+      ],
+      "manual_approx_head_top_px": 205,
+      "manual_approx_shoe_bottom_px": 1566,
+      "manual_approx_person_height_fraction": 0.814,
+      "measurement_method": "Assistant visual approximate bounds, not automated segmentation",
+      "status": "user_still_approved"
+    },
+    {
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-002/looks/2026-W45-002-L01/reel/2026-W45-002-L01_M02_reel_candidate_A_framing_v2.png",
+      "sha256": "8811f83c6fd8147bdf69c185db1c6829415f5e25263953c2079449dc21b04fa0",
+      "width": 941,
+      "height": 1672,
+      "requested_aspect_ratio": "9:16",
+      "requested_delivery_pixels": [
+        1080,
+        1920
+      ],
+      "source_pixels_exact": [
+        941,
+        1672
+      ],
+      "manual_approx_head_top_px": 391,
+      "manual_approx_shoe_bottom_px": 1356,
+      "manual_approx_person_height_fraction": 0.5772,
+      "measurement_method": "Assistant visual approximate bounds, not automated segmentation",
+      "status": "framing_edit_not_selected_too_distant"
+    }
+  ],
+  "selected_candidate": "10_automation/runs/2026-W45/generated_images/2026-W45-002/looks/2026-W45-002-L01/reel/2026-W45-002-L01_M02_reel_candidate_A.png",
+  "selected_candidate_sha256": "c88594e59aefa486a88365b02c938cca3dd69bf9171a9915ef6dbf4ced58d06b",
+  "user_still_approval": "10_automation/runs/2026-W45/approvals/M02_L01_still_approval_2026-11-03.json",
+  "planned_scale_fraction": 0.68,
+  "framing_target_met": false,
+  "review_findings": {
+    "identity": "Visual candidate consistent with approved low-bun face/full references; pending user recognition judgment",
+    "outfit": "Moss-green fine knit, cocoa-brown straight trousers, cream low-top shoes and dark-brown shoulder bag visible; waist tucked",
+    "accessories": "Tiny gold studs obscured by hair; not separately verified",
+    "hands_and_ground": "No obvious still hand defect on visual inspection; both shoes visible with pavement shadows. No dynamic physics claim.",
+    "expression": "Warm smile already developed; motion should continue recognition/greeting rather than invent an unrelated opening gesture",
+    "framing": "Initial ~81%, correction ~58%, neither matches planned68%. Initial retained for nearer outfit readability, not a plan-conformance pass."
+  },
+  "dependent_motion_action": "After user acceptance of the selected closer still, reconcile/preview the reduced approach range and endpoint before sending Grok. Original 68→79% schematic is not a verified match to this source.",
+  "motion_jobs_submitted": 0
+}

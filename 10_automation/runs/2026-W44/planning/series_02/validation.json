@@ -1,0 +1,25 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: 本週企劃及精確線稿待使用者確認",
+    "declared missing asset: 新全身圖與proof尚未生成／逐張核准",
+    "declared missing asset: 既有身份核准沿用manifest；尚未把歷史收據轉為本檢查器格式，不重問身份核准",
+    "declared missing asset: 並排手機尺寸須能分辨肩帶／短袖；不清楚則改依序呈現，不用畫面字補救",
+    "declared missing asset: 8秒每側都需8秒可用原速來源，不能6秒循環或慢放；先核對引擎可用時長",
+    "M01_face: user identity approval evidence required",
+    "M01_full: user identity approval evidence required",
+    "board: user storyboard approval evidence required",
+    "shot S01: no planned source image input"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 192,
+    "overlap_frames": 0,
+    "clear_read_frames_by_shot": {
+      "S01": 192
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

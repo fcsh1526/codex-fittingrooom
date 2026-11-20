@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "status": "user_not_accepted_revision_requested",
+  "whole_film_samples_viewed": 25,
+  "upper_body_samples_viewed": 16,
+  "panel_fit_samples_viewed": 6,
+  "native_UI_samples": 28,
+  "native_UI_all1x_playing": true,
+  "uninterrupted_human_visual_review": false,
+  "motion_amplitude": "clearly visible arm rise/lower, weight/step and side-rear turn in samples",
+  "parallel_ready": false,
+  "blocking_design_issue": "Arm arc crosses fixed panel boundary and reaches/exceeds source left edge; turn exceeds planned quarter turn.",
+  "user_acceptance": false,
+  "publication_approval": null,
+  "silent_copy_retimed": false,
+  "technical_review": "technical_review.json",
+  "feedback_receipt": "user_performance_feedback_2026-11-05.json"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-05",
+  "status": "source_trial_review_ready_panel_framing_requires_revision",
+  "source_uuid": "fad9518f-bbd0-4f68-a9c3-0351bb7b3440",
+  "source_sha256": "eea1bdfbc5add114ee8e8e4f9a363bf9544d8976660f8b7316707807e8e62f1c",
+  "reference_development": "partially_observed: waist stance, deeper side/back angle, return and approach",
+  "prompt_deviations": [
+    "side/back rather than three-quarter",
+    "small pivot rather than clear diagonal travelling step",
+    "more than two approach steps",
+    "end tighter than head-through-knees"
+  ],
+  "planned_panel_fit": "failed: hair near top at7.75–8s; clear hair and hand clipping from sampled8.25s; severe9–10s",
+  "sampled_body_continuity": "No obvious disconnected hand or shoe found in reviewed samples; not proof of zero sliding or temporal naturalness.",
+  "native_speed_continuous_review": false,
+  "browser_playback_evidence": "browser_playback_samples.json",
+  "user_source_acceptance": null,
+  "user_full_film_acceptance": null,
+  "publication_approval": null,
+  "next": "Review exact full source performance; compare existing-source framing/endpoint locally before any skirt generation or retry."
+}

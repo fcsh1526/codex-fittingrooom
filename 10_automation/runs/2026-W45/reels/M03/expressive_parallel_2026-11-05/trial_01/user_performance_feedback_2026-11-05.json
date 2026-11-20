@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "actor": "user",
+  "quote": "側步抬臂眼睛也跟著看手臂，其實整體有點莫名，動作再大一點，再多一點",
+  "target_asset_id": "a9d31a19-5434-4f47-8682-f8963b6f1d86",
+  "target_sha256": "afe96cf6d649fcd8bfd7b5ce92fb178629b692194b01f6be17684c99844f753a",
+  "scope": "Trial01 performance not accepted: arm-following gaze feels purposeless; requests larger/more varied action. Not a new physical-quality diagnosis.",
+  "decision": "not_accepted_revision_requested",
+  "next_authorization": "One revised broader pose test in existing service, retaining approved still; not a finished-film or new-still approval."
+}

@@ -1,0 +1,21 @@
+{
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 145,
+  "seconds": 6.041667,
+  "source_has_audio": true,
+  "source_sha256": "9fdca42aa8a3141601c8ab9c262f0d13c5c5432b0de12b4bcd1d8f5d146c511b",
+  "silent_path": "10_automation/runs/2026-W45/reels/M03/natural_parallel_2026-11-05/L01_trial_01/M03_W45_natural_L01_trial_01_silent_review.mp4",
+  "silent_sha256": "789fe15bf28d00c05118e8ce4c8ca141bd99e0b59333e40864a2ea07ed4e8a44",
+  "full_decode": true,
+  "native_speed": true,
+  "silent_video_stream_copy": true,
+  "new_frames_generated": false,
+  "extracted_every_frames": 3,
+  "whole_film_board_samples": 13,
+  "upper_board_samples": 25,
+  "panel_fit_board_samples": 25,
+  "uninterrupted_human_review": false,
+  "user_film_acceptance": null
+}

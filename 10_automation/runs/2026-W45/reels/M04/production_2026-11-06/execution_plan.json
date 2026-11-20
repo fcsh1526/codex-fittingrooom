@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-06",
+  "purpose": "Full outfit → floral detail → full outfit; one M04, one look.",
+  "approved_weekly_plan": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+  "still_approval": "10_automation/runs/2026-W45/approvals/M04_L01_face_v2_still_approval_2026-11-06.json",
+  "first_path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/2026-W45-004-L01_M04_reel_candidate_A_face_v2.png",
+  "first_sha256": "5e6c7a2a00997c2774d0f7a6a1dfa27075cb1304afeb9a81c66cf3133e01957c",
+  "first_source_request": "one10s full-person source; evaluate distinct early/late sections for S01/S03, no repeating footage",
+  "detail_strategy": "derive a traceable same-outfit crop/frame after source review; evaluate clarity before further source generation",
+  "join_baseline_frames": 18,
+  "fps": 24,
+  "editorial_seconds": 10,
+  "camera": "fixed; no shared-space route model needed",
+  "prompt_sha256": "7a15cdebcb78a7bf471a4181ac5a020be8c8a461054372c2dba04ad74be2215f",
+  "max_current_jobs": 1,
+  "quota": "unknown",
+  "new_stills": 0,
+  "publication": null,
+  "status": "M04_v1_user_rejected_editorial_redesign_required",
+  "source_uuid": "0c3fed58-b7bf-45c3-a4c5-ecc70793c1bb",
+  "source_jobs_completed": 1,
+  "source_sha256": "c6380ee2cac2a9b731e1a4bc07d034462a30efb04d380cff72dc5ec310265595",
+  "observed_execution": {
+    "S01": {
+      "execution_mode": "reuse_clip",
+      "source_frames": [
+        0,
+        96
+      ]
+    },
+    "S02": {
+      "execution_mode": "reuse_clip",
+      "source_frames": [
+        96,
+        174
+      ],
+      "crop": [
+        185,
+        250,
+        360,
+        640
+      ]
+    },
+    "S03": {
+      "execution_mode": "reuse_clip",
+      "source_frames": [
+        174,
+        241
+      ]
+    }
+  },
+  "actual_film_seconds": 8.541666666666666,
+  "observed_deviations": [
+    "window-look and sideways step not clear",
+    "digital detail crop replaces separately generated close source",
+    "film shorter due available unique footage and two dissolves",
+    "visible scale ghosting during joins"
+  ],
+  "status_before_latest_feedback": "M04_single_floral_review_v1_pending_user_motion_review",
+  "latest_user_feedback": "10_automation/runs/2026-W45/reels/M04/editorial_reset_2026-11-06/user_feedback.json"
+}

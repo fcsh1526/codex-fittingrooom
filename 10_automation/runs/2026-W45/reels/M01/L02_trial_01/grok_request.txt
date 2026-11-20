@@ -1,0 +1,21 @@
+本次只做W45 M01 L02第二鏡，一個獨立6秒720p原生9:16影片，只一次，不重試、不出照片、不改刪舊媒體、不合片、不加購或改服務。使用者已明確「採用這張」核准剛上傳的第二套首圖，可開始這一鏡；第一套已完成，不要重做第一套，也不是M02。
+
+精確輸入：
+first_frame_asset_id: "60cb1873-95ba-42ff-88b5-fb8b392e06e2"
+asset_ids: ["a3306f94-b579-4498-9a01-a1717fe12c62","61671532-de26-495b-b7f5-5331a1570fa3"]
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+不設last_frame_asset_id或keyframes。
+
+first已下載SHA比對為核准L02原圖：M01束髮，橄欖綠薄工裝敞開／白T／奶油白膝下A字裙／黑鞋／深棕斜背包，同咖啡店側牆、約86.6%近全身。不是沙卡其外套＋深藍褲。face/full只鎖M01 v4身份／髮型／普通比例，不複製棚拍服裝或姿態。先實際看這三個UUID，內容不符、參數不支援、額度不足便停下回報，不替換或猜圖。
+
+請逐字傳入以下英文，不自行擴寫或加手勢／走路；標記不傳入。
+PROMPT_BEGIN
+Her friend directly behind the camera is taking a casual photo of her skirt outfit. Begin from the exact approved first frame, nearly frontal with relaxed low hands and a warm smile, allowing the complete outfit to read clearly.
+
+One continuous six-second real-time shot. Staying in her place, she responds playfully to the photographer with a small shoulder angle and a comfortable weight shift, then returns toward the lens with a spontaneous happy laugh. The cream A-line skirt responds with believable changing folds while retaining its silhouette. Keep her face engaged with the camera. Both hands remain relaxed, low and visibly outside the torso, without touching the skirt or swinging behind her body. Finish comfortably near front-facing, still smiling rather than frozen.
+
+Preserve the exact M01 face, tied-back dark hair, open olive-green unlined cotton utility shirt-jacket, white crewneck tee, cream-white below-knee A-line cotton skirt, black casual shoes and dark-brown crossbody bag. Keep the short jacket hem, front pockets, waist and skirt shape readable. Locked chest-height 50mm camera; complete head and both shoes stay visible with normal proportions. Preserve the same cafe wall, windows, paving and shaded daylight. No walking, spin, raised-arm pose, camera move, cut or text.
+PROMPT_END
+音訊僅真有開關時關，否則如實保留AAC，不因音訊重生。完成保留唯一原片、列真正first/asset_ids、設定是否接受、影片UUID、實際時長／像素／音軌、是否逐字傳入；seed、模型版本與額度無欄位則unknown。不要宣告手腳／身份／接點或成片QA通過。

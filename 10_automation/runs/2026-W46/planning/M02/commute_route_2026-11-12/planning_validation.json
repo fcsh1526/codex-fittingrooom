@@ -1,0 +1,26 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: User visual selection of this new scene, overhead routes and synchronized previs",
+    "declared missing asset: New photorealistic scene reference and approved starting/middle/ending views for the selected route",
+    "declared missing asset: Final connected film shot/beat design after route selection; twelve seconds is a blockout proposal",
+    "M02_face: user identity approval evidence required",
+    "M02_full: user identity approval evidence required",
+    "look 2026-W46-002-L01: source evidence missing",
+    "board: user storyboard approval evidence required",
+    "previs: user previs approval evidence required",
+    "shot S01: no planned source image input",
+    "overhead: user overhead approval evidence required"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 288,
+    "overlap_frames": 0,
+    "clear_read_frames_by_shot": {
+      "S01": 288
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

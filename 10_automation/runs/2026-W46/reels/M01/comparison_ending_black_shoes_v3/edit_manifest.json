@@ -1,0 +1,135 @@
+{
+  "output": "10_automation/runs/2026-W46/reels/M01/comparison_ending_black_shoes_v3/M01_W46_comparison_ending_black_shoes_v3.mp4",
+  "sha256": "b23e8efd4b5110c8c8d091124682fdc7226abd39032f0d4abaa44f1e3df3b982",
+  "frame_count": 258,
+  "fps": 24,
+  "duration": 10.75,
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "segments": [
+    {
+      "shot": "N01",
+      "path": "10_automation/runs/2026-W46/reels/M01/N01_trial_01/source.mp4",
+      "sha256": "64436d63061f06a269ebef9edbeeb6ac3f1a1f593dc4d70faaa6597927560701",
+      "source_frames": [
+        18,
+        48
+      ],
+      "output_frames": [
+        0,
+        30
+      ]
+    },
+    {
+      "shot": "N02",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+      "source_frames": [
+        0,
+        18
+      ],
+      "output_frames": [
+        30,
+        48
+      ]
+    },
+    {
+      "shot": "N03",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/source.mp4",
+      "sha256": "ba30f3caa2a6e759c8b83a83f11def52b8306623c31968988d40d0bee35ee33f",
+      "source_frames": [
+        66,
+        108
+      ],
+      "output_frames": [
+        48,
+        90
+      ]
+    },
+    {
+      "shot": "N04",
+      "path": "10_automation/runs/2026-W46/reels/M01/N04_trial_01/source.mp4",
+      "sha256": "1ccec4c4f9aaec915b714260e92355ceff307ac35b8947b0a822449ca25bae54",
+      "source_frames": [
+        36,
+        72
+      ],
+      "output_frames": [
+        90,
+        126
+      ]
+    },
+    {
+      "shot": "N06",
+      "path": "10_automation/runs/2026-W46/reels/M01/N06_black_shoes_trial_01/source.mp4",
+      "sha256": "2ef658413bcbb4f636c0801edd3ba2fd4c0a88ebdf921b1efeb6680ef6f1629d",
+      "source_frames": [
+        0,
+        60
+      ],
+      "output_frames": [
+        126,
+        186
+      ]
+    },
+    {
+      "shot": "N07",
+      "output_frames": [
+        186,
+        258
+      ],
+      "left": {
+        "path": "10_automation/runs/2026-W46/reels/M01/N07_left_extension/source.mp4",
+        "sha256": "45bc16134695103c41eb9aec42bcff6b9058334e36c5066a75944492e26b1a6b",
+        "source_frames": [
+          12,
+          84
+        ],
+        "crop": [
+          180,
+          0,
+          480,
+          1280
+        ],
+        "scale": [
+          360,
+          960
+        ],
+        "position": [
+          0,
+          160
+        ]
+      },
+      "right": {
+        "path": "10_automation/runs/2026-W46/reels/M01/N06_black_shoes_trial_01/source.mp4",
+        "sha256": "2ef658413bcbb4f636c0801edd3ba2fd4c0a88ebdf921b1efeb6680ef6f1629d",
+        "source_frames": [
+          60,
+          132
+        ],
+        "crop": [
+          100,
+          0,
+          480,
+          1280
+        ],
+        "scale": [
+          360,
+          960
+        ],
+        "position": [
+          360,
+          160
+        ]
+      },
+      "background": "right source scaled full frame with gaussian blur sigma24"
+    }
+  ],
+  "stage": "Black shoes in both looks, comparison ending; user full-film acceptance pending",
+  "visual_review": "Full decode258frames; source2fps and compiled contact sheets; native-speed browser played from0 through10.75 ended at1x, screenshot observations9.3373and10.75. Not continuous human visual review.",
+  "user_acceptance": "accepted exact film on2026-11-12, quote ok",
+  "frame_ranges": "zero-based, end-exclusive",
+  "normalization": "24fps CFR; first126 frames re-encoded from original draft; native motion rate retained",
+  "acceptance_receipt": "user_full_film_acceptance_2026-11-12.json"
+}

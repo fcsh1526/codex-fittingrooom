@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "result": "selected_for_exact_source_frames_0_96_and_user_whole_film_review",
+  "sampled_seconds": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0
+  ],
+  "observations": [
+    "In sampled selected 0–4 s, complete hair/shoes remain visible and no forward/retreat translation of trial01 is seen.",
+    "Smile develops into a laugh with small shoulder/head movement, hands low. Late head tilt after about4.25 s is excluded from the selected range.",
+    "Clothing and office scene remain broadly coherent in samples; these observations are not a zero-error physical certification."
+  ],
+  "full_file_decode": "completed",
+  "continuous_human_visual_review": false,
+  "native_ui_observation": "Exact source post observed playing at1x; intermittent observations only, not uninterrupted visual review.",
+  "user_acceptance": null,
+  "publication_approval": null
+}

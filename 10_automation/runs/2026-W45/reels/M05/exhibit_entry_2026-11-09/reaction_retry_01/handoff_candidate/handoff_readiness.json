@@ -1,0 +1,19 @@
+{
+  "content_week": "2026-W45",
+  "look": "2026-W45-005-L02",
+  "asset": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/W45_M05_L02_Reel_v2.mp4",
+  "video_sha256": "c961c2c9dd1a2bb697077b081059ca3122ffaafb2ad0241a5646c8ca04d74160",
+  "cover": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/W45_M05_L02_Cover.png",
+  "cover_time_seconds": 3.5,
+  "cover_sha256": "95f6282dbc5e99ef48582583f4235a36a3081ee1c739c3c28757bcc8c3568084",
+  "caption": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/instagram_caption.txt",
+  "playback_review": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/playback_review.json",
+  "feedback": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/user_feedback_v2.json",
+  "candidate_status": "release_approved_and_delivered",
+  "release_approved": true,
+  "external_handoff_performed": true,
+  "instagram_published": false,
+  "upload_authorized": true,
+  "approval_receipt": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/handoff_candidate/user_release_and_upload_approval.json",
+  "drive_delivery_receipt": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/reaction_retry_01/drive_delivery.json"
+}

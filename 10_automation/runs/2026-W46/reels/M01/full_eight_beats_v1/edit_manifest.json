@@ -1,0 +1,160 @@
+{
+  "output": "10_automation/runs/2026-W46/reels/M01/full_eight_beats_v1/M01_W46_eight_beats_v1_cfr.mp4",
+  "sha256": "372b81c30b9012ce7c28693af1cb8b4c0b4fe06780d5af52963f2add5dfd9742",
+  "frame_count": 324,
+  "fps": 24,
+  "duration": 13.5,
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "segments": [
+    {
+      "shot": "N01",
+      "path": "10_automation/runs/2026-W46/reels/M01/N01_trial_01/source.mp4",
+      "sha256": "64436d63061f06a269ebef9edbeeb6ac3f1a1f593dc4d70faaa6597927560701",
+      "source_frames": [
+        18,
+        48
+      ],
+      "output_frames": [
+        0,
+        30
+      ]
+    },
+    {
+      "shot": "N02",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+      "source_frames": [
+        0,
+        18
+      ],
+      "output_frames": [
+        30,
+        48
+      ]
+    },
+    {
+      "shot": "N03",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/source.mp4",
+      "sha256": "ba30f3caa2a6e759c8b83a83f11def52b8306623c31968988d40d0bee35ee33f",
+      "source_frames": [
+        66,
+        108
+      ],
+      "output_frames": [
+        48,
+        90
+      ]
+    },
+    {
+      "shot": "N04",
+      "path": "10_automation/runs/2026-W46/reels/M01/N04_trial_01/source.mp4",
+      "sha256": "1ccec4c4f9aaec915b714260e92355ceff307ac35b8947b0a822449ca25bae54",
+      "source_frames": [
+        36,
+        72
+      ],
+      "output_frames": [
+        90,
+        126
+      ]
+    },
+    {
+      "shot": "N05",
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+      "source_frames": [
+        114,
+        144
+      ],
+      "output_frames": [
+        126,
+        156
+      ]
+    },
+    {
+      "shot": "N06",
+      "path": "10_automation/runs/2026-W46/reels/M01/N06_N08_trial_01/source.mp4",
+      "sha256": "d7d62d09d668c2aeb5cb908abb7fce2907018381e188f1a35ab2fbb989dba21b",
+      "source_frames": [
+        0,
+        60
+      ],
+      "output_frames": [
+        156,
+        216
+      ]
+    },
+    {
+      "shot": "N07",
+      "output_frames": [
+        216,
+        270
+      ],
+      "left": {
+        "path": "10_automation/runs/2026-W46/reels/M01/N07_left_extension/source.mp4",
+        "sha256": "45bc16134695103c41eb9aec42bcff6b9058334e36c5066a75944492e26b1a6b",
+        "source_frames": [
+          12,
+          66
+        ],
+        "crop": [
+          180,
+          0,
+          480,
+          1280
+        ],
+        "scale": [
+          360,
+          960
+        ],
+        "position": [
+          0,
+          160
+        ]
+      },
+      "right": {
+        "path": "10_automation/runs/2026-W46/reels/M01/N06_N08_trial_01/source.mp4",
+        "sha256": "d7d62d09d668c2aeb5cb908abb7fce2907018381e188f1a35ab2fbb989dba21b",
+        "source_frames": [
+          72,
+          126
+        ],
+        "crop": [
+          100,
+          0,
+          480,
+          1280
+        ],
+        "scale": [
+          360,
+          960
+        ],
+        "position": [
+          360,
+          160
+        ]
+      },
+      "background": "right source scaled full frame with gaussian blur sigma24"
+    },
+    {
+      "shot": "N08",
+      "path": "10_automation/runs/2026-W46/reels/M01/N06_N08_trial_01/source.mp4",
+      "sha256": "d7d62d09d668c2aeb5cb908abb7fce2907018381e188f1a35ab2fbb989dba21b",
+      "source_frames": [
+        174,
+        228
+      ],
+      "output_frames": [
+        270,
+        324
+      ]
+    }
+  ],
+  "stage": "Complete N01-N08 draft; user review pending",
+  "visual_review": "decoded and original encode played at 1x with sampled UI observations; CFR normalization not separately played",
+  "user_acceptance": "pending",
+  "frame_ranges": "zero-based, end-exclusive",
+  "normalization": "CFR re-encode at 24fps without changing frame count or editorial sequence; previous review encode retained"
+}

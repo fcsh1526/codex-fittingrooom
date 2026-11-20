@@ -1,0 +1,14 @@
+{
+  "source": "source.mp4",
+  "sha256": "45bc16134695103c41eb9aec42bcff6b9058334e36c5066a75944492e26b1a6b",
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 24,
+  "decoded_frames": 145,
+  "duration_frames_seconds": 6.041666666666667,
+  "decode": "completed; see decode_log.txt",
+  "visual_review": "contact sheet sampled, compiled-film sampled UI review",
+  "user_motion_acceptance": "pending"
+}

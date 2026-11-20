@@ -1,0 +1,16 @@
+{
+  "status": "downloaded_sampled",
+  "first_frame": "1499ae56-08c0-4503-b88f-898a373738e0",
+  "first_sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d",
+  "identity": [
+    "26e03f42-2907-488c-b75c-239a2a19b9c8",
+    "15c720b2-46b6-45e0-a150-60290e3290e6"
+  ],
+  "duration_requested": 10,
+  "max_new_jobs": 1,
+  "feedback": "../user_cropping_feedback_2026-11-05.json",
+  "new_jobs_submitted": 1,
+  "new_jobs_completed": 1,
+  "output_uuid": "b6178fd0-12ed-4dc0-b3f8-3835f5c58e39",
+  "technical_review": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L02_trial_01/technical_review.json"
+}

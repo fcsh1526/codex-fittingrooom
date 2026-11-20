@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-05",
+  "status": "request_sent_awaiting_provider_generation_confirmation",
+  "user_authorization_quote": "ok",
+  "authorization_context": "Direct assent to draw action onset/peak/settle and dual-panel space, then test one more expressive motion segment; no unseen still or finished-film approval.",
+  "first_frame_asset_id": "2e8df556-7034-4788-92d8-3a769fcdfed3",
+  "identity_asset_ids": [
+    "26e03f42-2907-488c-b75c-239a2a19b9c8",
+    "15c720b2-46b6-45e0-a150-60290e3290e6"
+  ],
+  "source_still": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+  "source_still_sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+  "still_approval": "10_automation/runs/2026-W45/approvals/M03_L01_still_approval_2026-11-04.json",
+  "storyboard": "10_automation/runs/2026-W45/planning/M03/performance_replan_2026-11-05/storyboard.png",
+  "storyboard_sha256": "8ec7188cbcb058ad07f34fe7239757f9a7284034aa89d0372736386ad9826d52",
+  "schematic_poses_are_not_new_AI_stills": true,
+  "prompt_sha256": "46d5f18cc0bafb04a8f7c4581fae3f0788f79671b6442be9b7933700be4f8cea",
+  "max_new_jobs": 1,
+  "full_film_generation_authorized": false,
+  "new_still_calls": 0,
+  "new_jobs_submitted": 0,
+  "native_speed_required": true,
+  "remaining_quota": "unknown",
+  "model_version": "unknown",
+  "seed": "unknown",
+  "request_messages_sent": 1
+}

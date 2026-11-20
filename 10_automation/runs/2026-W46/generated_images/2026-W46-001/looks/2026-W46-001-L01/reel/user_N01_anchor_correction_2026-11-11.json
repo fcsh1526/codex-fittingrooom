@@ -1,0 +1,19 @@
+{
+  "actor": "user",
+  "quote": "但剛剛半身裁切的臉是錯的，也沒有照M01的臉錨",
+  "date": "2026-11-11",
+  "decision": "identity_not_accepted",
+  "targets": [
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_close_candidate_A.png",
+      "sha256": "75db946b5bde7d49965df3639cd34853560bfc879b28095337f63c628e2aef96"
+    },
+    {
+      "path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_close_face_v2.png",
+      "sha256": "c5f488605d13b1d2c52afc0bca9b3155e8a915f951e21bddc81acb7a5e82ba3e"
+    }
+  ],
+  "clarification": "前一張比較好是相對偏好，使用者明確表示半身身份仍錯，沒有新的圖像核准。",
+  "production_correction": "以 canonical M01_start_v4_face.png 作編輯底圖，保留五官／頭角／表情，延展身體和環境。front_v3 作服裝和場景參考。",
+  "observation": "此前有附 canonical 臉錨，但產出未維持身份。未推定引擎內部成因。"
+}

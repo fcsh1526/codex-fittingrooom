@@ -1,0 +1,29 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc",
+    "title": "05_短版立領外套_貼文文字",
+    "revisionId": "ANLCKQn2dV8BZJXhgc20KR8Oig5q_kKhZqWDvvaXFha9owSPFrCIde5TOT2giMnPwZo3wDslfH6Nd1hLk9mrqTSLA45d5JDJv6-ChijLJw",
+    "documentUrl": "https://docs.google.com/document/d/1xMO0xKLaoQ8GamcNxeC_Eu27x9vD2NDF5bLiJsi2yqc",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {},
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

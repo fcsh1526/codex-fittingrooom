@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "tool": "built-in image_gen",
+  "generations": 1,
+  "targeted_corrections": 1,
+  "outputs": [
+    {
+      "file": "start_candidate_A.png",
+      "sha256": "602cf08071dc75b67370ff6d94b46ca799071a4976c3cda442fd1680a9915c73",
+      "size": [
+        941,
+        1672
+      ]
+    },
+    {
+      "file": "start_candidate_A_framing_v2.png",
+      "sha256": "d371909c78608d4f310b94773471ef968ed856485eddf1bdfe77544498e8f8ac",
+      "size": [
+        941,
+        1672
+      ]
+    }
+  ],
+  "selected": "start_candidate_A_framing_v2.png",
+  "user_visual_approval": null,
+  "review": "Full person, both shoes, bag and smile visible. Framing correction leaves generous overhead space. Approximate hair top 30%, soles 86%, body 56% versus requested 27/89/62; no exact framing claim. Trousers retain visible tonal texture from reference. Static review only, not gait or arm-motion proof."
+}

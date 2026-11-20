@@ -1,0 +1,28 @@
+{
+  "quote": "可發布並同意上傳",
+  "scope": "Exact M03 L02 4.916667s full-frame single-look recut, cover, and native Google Docs caption/handoff in the identified W45 Drive folder.",
+  "video": {
+    "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/W45_M03_L02_Skirt_Styling_v1.mp4",
+    "sha256": "d08cf7c7a41b2d964c1c02711e456e03842c547a489de1fbe5c32f7be4105963",
+    "frames": 118,
+    "fps": 24,
+    "duration_seconds": 4.916666666666667,
+    "size": [
+      720,
+      1280
+    ],
+    "audio": false,
+    "text": false
+  },
+  "cover": {
+    "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/W45_M03_L02_Cover.png",
+    "sha256": "d244210122385869063b5bd3a1538c37a7163c3da059bd49921f65b0c5fde0d6",
+    "frame_index": 106,
+    "seconds": 4.416666666666667
+  },
+  "caption": {
+    "path": "10_automation/runs/2026-W45/reels/M03/skirt_single_look_recut_2026-11-09/instagram_caption.txt",
+    "sha256": "24d65949d017f70893351bd9ab8874668ed834f0293866fe74c3940018c52f7f"
+  },
+  "destination": "https://drive.google.com/drive/folders/1gMCuKhScFxqIWSjuT29Ue5y7d-df3KN9"
+}

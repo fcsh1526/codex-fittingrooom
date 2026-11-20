@@ -1,0 +1,10 @@
+{
+  "actor": "user",
+  "decision": "rejected",
+  "quote": "沒有",
+  "recorded_at": "2026-11-10",
+  "timezone": "Asia/Taipei",
+  "scope": "M01 L01 face_v2 has not recovered recognizable M01 identity",
+  "target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_candidate_A_face_v2.png",
+  "target_sha256": "c67350ee93034dc742bce52834ddeaa1bb2d30638989190dcb04b3744dceefa5"
+}

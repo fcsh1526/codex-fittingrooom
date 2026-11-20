@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "status": "review_candidates_not_release_approved",
+  "technical_full_decode": [
+    true,
+    true
+  ],
+  "native_frame_verification": "native_frame_verification.json",
+  "whole_film_contact_samples_viewed": {
+    "A": 21,
+    "B": 20
+  },
+  "additional_join_and_end_samples_viewed": {
+    "A": [
+      60,
+      63,
+      66,
+      69,
+      72,
+      75,
+      78,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
+    ],
+    "B": [
+      223,
+      226,
+      229,
+      232,
+      235,
+      238,
+      241
+    ]
+  },
+  "A_observation": "Waist/hip poses, side/rear turn, bent knee and skirt swing visible; sampled head/shoes stay visible and similar scale. Same crop/scale both sides. Broad high-V not included. Last six frames checked for raised-palm panel safety.",
+  "A_scale_tradeoff": "Roughly 57–60% canvas height, smaller than full-frame source; no full-height promise.",
+  "B_observation": "Full native frames retain high-V and wider gestures, with larger people. Optional sequential alternative.",
+  "join_observation": "Both use 18-frame/0.75s dissolve. Overlap has visible double outlines; do not label seamless or ghost-free.",
+  "continuous_human_native_speed_review": false,
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "layout_preference": {
+    "question_pending": false,
+    "selected": "A parallel selected poses",
+    "receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/user_layout_preference_2026-11-05.json",
+    "B": "retained optional comparison, not active direction"
+  },
+  "later_boundary_correction": "Later full-resolution review found skirt rear-turn hand clipping in original450px crop, contradicting the earlier sampled safety impression. v1 is retained, not promoted or user-rejected.",
+  "latest_candidate": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v4/REVIEW.md"
+}

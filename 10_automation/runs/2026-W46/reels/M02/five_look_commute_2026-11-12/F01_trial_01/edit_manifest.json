@@ -1,0 +1,24 @@
+{
+  "output": "10_automation/runs/2026-W46/reels/M02/five_look_commute_2026-11-12/F01_trial_01/F01_selected_4p375s_silent.mp4",
+  "sha256": "0a6b72c937fac357993a907489e0c8a3f135bf13027ce2673a9da31fa295d2e5",
+  "frame_count": 105,
+  "fps": 24,
+  "duration": 4.375,
+  "native_speed": true,
+  "audio": false,
+  "baked_text": false,
+  "source": "source.mp4",
+  "source_sha256": "898582110d895f1b111e8c25cbc82fe7d8cd74e301e5c022cf99fdc9c45021df",
+  "source_frames": [
+    0,
+    105
+  ],
+  "planned_overlap_frames": [
+    87,
+    105
+  ],
+  "frame_ranges": "zero-based/end-exclusive",
+  "visual_review": "source2fps contact sheet inspected; selected105frames fully decoded and browser played0to4.375 at1x ended, start/end UI screenshots observed. Not continuous human visual review.",
+  "user_acceptance": "rejected motion identity on2026-11-13",
+  "rejection_receipt": "user_identity_rejection_2026-11-13.json"
+}

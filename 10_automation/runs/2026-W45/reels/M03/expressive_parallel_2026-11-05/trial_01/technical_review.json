@@ -1,0 +1,15 @@
+{
+  "full_decode_exit_code": 0,
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 145,
+  "duration_seconds": 6.041666666666667,
+  "source_audio": "AAC",
+  "silent_copy_video_stream_copy": true,
+  "source_sha256": "afe96cf6d649fcd8bfd7b5ce92fb178629b692194b01f6be17684c99844f753a",
+  "silent_sha256": "0d082e2643092b5ac5f8f5569ee3a9cd3a958a456ca63ae28176f61200fba72f",
+  "whole_film_sample_count": 25,
+  "visual_approval": null,
+  "continuous_human_review": false
+}

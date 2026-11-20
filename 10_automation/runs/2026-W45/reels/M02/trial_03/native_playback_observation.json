@@ -1,0 +1,9 @@
+{
+  "rate": 1,
+  "method": "Detail-page active video DOM timing and representative screenshot observations; thirteen sampled full frames plus 2.5s full-size frame inspected.",
+  "continuous_human_visual_review": false,
+  "full_dynamic_QA_pass": null,
+  "user_acceptance": null,
+  "publication_approval": null,
+  "limits": "Playback active at1x was observed; not a claim of uninterrupted full-film human viewing or zero physics errors."
+}

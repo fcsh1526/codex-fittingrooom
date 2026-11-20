@@ -1,0 +1,12 @@
+W45 M04 單畫面正式企劃第一段來源。使用者已於11/6對剛展示的M04臉修正版回覆ok。只使用本次上傳三張素材：檔名含reel_candidate_A_face_v2的是唯一First；M04_start_v3_face與M04_start_v3_full是身份參照。First不是原始漂臉候選，也不是身份棚拍。先實際查看三張並回報對應UUID，不可憑文字代替圖。
+
+只生成一支10秒、720p、9:16原片；不設last／keyframes，不生成新照片，不重試、不加購／升級／換服務。若三張未到齊、圖不符、額度不足或需額外費用，停止回報。若有真實音訊開關則關，無則如實記錄。不要自動做細節鏡或剪輯。
+
+以下英文逐字作prompt，標記不傳入：
+PROMPT_BEGIN
+Continue from the supplied first image. She is browsing a bookstore window with the person filming, and is ready to leave with them. Still smiling softly, she turns her head and shoulders partway toward the books, then pivots comfortably back to the person behind the camera and takes one small sideways step toward the open walkway. Her arms respond naturally to the turn and settle freely by her body; her expression brightens in response to the photographer, then softens. Her eyes, shoulders and weight move together, with no repeated rocking, dance routine, exaggerated fixed grin or long frozen pose. She stays at the same camera distance; do not walk toward the lens.
+
+One continuous ten-second real-time full-person shot, locked level chest-height 50mm camera. Keep her complete head, hands and shoes visible. Preserve the exact woman from the corrected first frame and approved identity anchors: tied-back black hair, normal head/body proportions and natural facial texture. Preserve exactly the dark berry-red and cream floral blouse including its motif size and positions, plain black straight trousers, dark-brown loafers, dark-brown shoulder bag, small silver earrings and the existing fine necklace. Keep the bookstore window, arcade wall and paving coherent, with the original daylight. No cut, zoom, slow motion, outfit change or text.
+PROMPT_END
+
+完成回報first與身份UUID、實際接受設定、影片UUID／時長／像素／音軌。參數回報、可見畫面與品質通過分開。不宣稱已通過真人感或整片驗收。

@@ -1,22 +1,22 @@
 # Mira 跨週選材入口
 
-更新基準：2026-10-16；規劃週：2026-W42。
+更新基準：2026-11-18；規劃週：2026-W47。
 
 ## 目前可用範圍
 
-優先窗口：2026-W40、2026-W41、2026-W42。這是選材優先順序，不是流行有效期限。
+優先窗口：2026-W45、2026-W46、2026-W47。這是選材優先順序，不是流行有效期限。
 
 | 來源週 | 原始單品列 | 狀態 |
 |---|---:|---|
-| 2026-W40 | 0 | 缺原始 CSV |
-| 2026-W41 | 20 | 可供編輯審閱 |
-| 2026-W42 | 0 | 缺原始 CSV |
+| 2026-W45 | 20 | 可供編輯審閱 |
+| 2026-W46 | 20 | 可供編輯審閱 |
+| 2026-W47 | 20 | 可供編輯審閱 |
 
-本窗口原始來源候選 20 筆；需補來源的舊庫候選 0 筆；編輯擴寫 0 筆。單品列不等於完整穿搭。
+本窗口原始來源候選 60 筆；需補來源的舊庫候選 0 筆；編輯擴寫 0 筆。單品列不等於完整穿搭。
 
-全庫：有原始 CSV 對應 40 筆，舊庫來源待補 160 筆，編輯擴寫 10 筆；另隔離非正式週／測試 23 筆。
+全庫：有原始 CSV 對應 160 筆，舊庫來源待補 160 筆，編輯擴寫 10 筆；另隔離非正式週／測試 23 筆。
 
-較早資料保留 190 筆，使用前重審季節與用途。相同服裝欄位只合併顯示，仍保留各週來源；近義名稱不自動當成同款。
+較早資料保留 270 筆，使用前重審季節與用途。相同服裝欄位只合併顯示，仍保留各週來源；近義名稱不自動當成同款。
 
 原始 CSV 可追溯不代表外部流行／商品主張已查證；原始列、編輯搭配與視覺核准分開。
 
@@ -32,6 +32,16 @@
 - 一件單品多種穿法：同一件衣櫥單品還可以和什麼搭配，各種搭法有什麼用途？
 - 配色如何成立：主色、配色與點綴色可以如何安排，才能照著搭？
 - 換季與室內外層次：進出冷氣房或遇到天氣變化時，外層與內搭可以如何安排？
+- 一件紫色薄針織，工作日到週末：同一件亮色外搭，搭工作褲或舊牛仔褲時，怎麼保留清楚的色塊？
+- 夏天的細肩帶洋裝，白天繼續穿：如何讓細肩帶洋裝的肩帶與短袖層次清楚，又能分出上班和週末？
+- 短程出差，同雙低筒鞋搭裙或褲：少帶一雙鞋，裙裝與褲裝各要留出多少鞋面？
+- 下班赴約，一抹紅放包或腰間：不換成整套紅，紅色小包與窄皮帶各如何放進中性色穿搭？
+- 襯衫長褲，腰間加一條方巾：既有襯衫長褲，方巾如何在腰間成為清楚、平整的小重點？
+- 短工裝出門，褲裝與裙裝各有精神：看不過臀的工裝外層如何配俐落深褲或淺色A字裙；口袋與下襬清楚，人物回應朋友而開心展臂。
+- 苔綠配棕，看到你就笑著走近：她認出鏡頭前的你、正面開心迎接你；苔綠／可可棕是這段生活互動中清楚可讀的單套造型。
+- 一件柔肩西外，直褲到淺裙：看同件薄料西外如何拆搭不同色直褲，或換成淺色裙與球鞋；以輪廓和正式程度的可見差異帶出赴約情境。
+- 深底花卉，只讓一件當主角：全身先看深底花卉只占上衣、下身與包保持素色；中近景再確認花卉尺度、顏色與薄棉衣料。
+- 短袖底層，一件薄外層應付冷氣房：同時比較白天短袖與冷氣房加薄襯衫外層的完整樣貌；其他衣服、鞋包固定，讓一層之差有明確用途。
 
 ### 歷史研究回饋
 
@@ -44,6 +54,27 @@
 - USE_20261015_M03_COMMUTE_FIVE_LOOK_V1：使用者回覆「節奏或觀看重點仍需調整」，診斷追問回「兩者都有」。需改整片節奏與觀看重點，不推定拒絕五套系列、0.75秒偏好或原靜態／首兩鏡核准。
 - USE_20261015_M03_COMMUTE_INSPIRATION_V2_REFINED：使用者對精確19.75秒v2_refined指出節奏太慢、同類45度人物角度及背景重複、缺少上班人潮、走路像普通散步；要求俐落灑脫的都會女性動勢與廣告影片般吸引力。需重新準備都會通勤來源，不能將原片重排縮短當成已解決。保留同一M03、原五套、無字、原速及約0.75秒柔接；不推定奢侈品疏離廣告、新片核准或全帳號採納。
 - USE_20261015_M03_URBAN_COMMUTE_FIRST_PAIR_V1：使用者對精確9.25秒新都會通勤首兩鏡回「仍不夠俐落或吸引人」；記錄日2026-10-16，事件具體時間未知。狀態revision_requested_reference_led_shot_redesign，停止擴U03–U05，先回到參考證據及具體鏡頭重設計；根因尚為假設，未完成新研究或核准新分鏡。原M03五套／一週穿搭靈感、逐張起始圖核准、原速無字及約0.75秒偏好保留；接點舒服度未單獨裁定，不推定整片接受、全帳號採納或發布替換。
+- USE_W45_M02_TRIAL01_20261103：User asked purpose and pointed out side-looking. Original prompt placed friend offscreen; preserve diagnostic, no film/publication acceptance. Same approved still retained for one repair.
+- USE_W45_M02_TRIAL02_20261103：11/4 correction: prior prompt mismatch audit URL was trial01, not trial02. Exact trial02 URL/media/visible prompt now match frozen new text. More frontal but large image-left welcome arm remains; redesign as recognition/smile/short approach with low arms. No user film/publication acceptance.
+- USE_W45_M02_TRIAL03_20261104：User ok accepts exact6.04s trial03 and M01 L01 still in adjacent reply. Not IG publication, external delivery, precision path/physical certification or repeated-method success.
+- USE_W45_M01_PAIRED_V1_20261104：User ok accepts exact10.25s native silent two-look film after disclosed0.75s transient ghosting/small foot shifts. Limits retained; not zero physical errors, continuous-viewing self-report, external delivery or publication.
+- USE_W45_M03_PAIRED_V1_20261104：User asks expression purpose, then says overall emotion strange. Exact10.5s film not accepted; not a rejection of approved stills/other films.
+- USE_W45_M03_EMOTION_RECUT_V2_20261104：User rejects strongAI/uncanny feeling despite removing surprise. No third recut. Cause unisolated; redesign single-source integrated body/gaze/performance first.
+- USE_W45_M03_REALISM_TRIAL01_20261104：User rejects unclear emotional meaning and asks workflow explanation. Return to editorial purpose/situation before further generation; no current pending source review.
+- W45_M03_expressive_parallel_trial01_2026-11-05：Arm-following gaze purposeless, larger/more varied poses requested. Not accepted; superseded by accepted-source trial02, not reopened.
+- W45_M03_expressive_trial02_2026-11-05：User ok accepts exact full-frame trousers performance/naturalness; not new skirt, edited film or publication.
+- W45_M03_skirt_expressive_trial01_20261105：New skirt/full-film candidate pending user review. Trousers source performance accepted separately; no edited-film or publication approval.
+- USE_W45_M03_PARALLEL_SELECTED_V1_20261105：User selected A parallel layout and expressive poses fitting the columns. Exact film/new skirt quality and publication remain unapproved; trousers source performance accepted separately.
+- USE_W45_M03_FULL_FRAME_SEQUENCE_V1_20261105：User chose parallel layout A; B retained as optional comparison, not rejected source performance and not publication approved.
+- USE_W45_M03_PARALLEL_SELECTED_V4_20261105：User: 我不喜歡搖擺跳舞. Exact4s v4 not accepted. Preserve A layout preference; replan natural motivated actions, do not continue dance-like pose chains. Earlier trousers source acceptance remains historical, not current-film approval.
+- USE_W45_M03_NATURAL_L01_TRIAL01_20261105：One new6.04s source after user rejected swaying/dance. Sampled response/one deeper-than45degree turn and return with low arms; no film/publication approval.
+- USE_W45_M03_NATURAL_L02_TRIAL01_20261105：One new6.04s source after user rejected swaying/dance. Sampled response/one deeper-than45degree turn and return with low arms; no film/publication approval.
+- USE_W45_M03_NATURAL_PARALLEL_V1_20261105：User finds IG reference learning and workflow execution missing; still resembles the old edit. Returned to editorial/storyboard revision. Existing A layout and approved stills remain; no film or publication acceptance.
+- USE_W45_M03_REFERENCE_L01_TRIAL01_20261105：Assistant: three-stage presentation partly visible; deeper side turn and excessive approach cause late hair/hand clipping in proposed narrow panel. Exact source awaits user feedback; no second look or publication approval.
+- USE_W45_M03_REFERENCE_L02_20261105：Skirt source after user allowed person cropping; side turn and approach are visible; full-speed motion acceptance pending.
+- USE_W45_M03_REFERENCE_PARALLEL_V1_20261105：User prefers v1 over v2 but raises wider concern about split-screen IG feel; no publication approval.
+- USE_W45_M03_REFERENCE_PARALLEL_V2_20261105：User rejects new 8s recut; prefers previous 9s version and questions whether this comparison feels like IG references.
+- USE_W45_M04_FLORAL_SINGLE_V1_20261106：User rejects M04 full/detail/full v1 as repetitive old approach and recalls stronger W44 films. Return to viewer hook, performance and connected storyboard; exact approved starting still retained. No new generation or publication.
 
 ## 下一次對話的執行入口
 
@@ -51,8 +82,8 @@
 2. 有新週 CSV 時先存入對應 run，重建索引；缺週明示，勿假裝完整三週資料。
 3. 選一個觀眾問題，從候選材料編完整搭配，將來源 material_id 寫入系列紀錄。
 4. 針對台灣實際地區、發布日期查天氣與場合條件，再決定系列、人物、套數與分鏡。
-5. 仍在內容企劃階段；新產量未定案，不由索引啟動影像生成。
+5. 本索引只供選材；企劃、產量、核准與製作狀態以當週run及canonical為準，不由索引啟動影像生成。
 
-目前天氣：本次未查；發布日期、網址與成效未知者留空。
+索引程式本身不查天氣；當期查核見series_registry.json的weather_checks及當週企劃。發布日期、網址與成效未知者留空。
 
 詳列資料：`material_index.json`；當期選材：`current_pool.json`；人工維護系列／使用：`series_registry.json`。更新方法見同資料夾 `README.md`。

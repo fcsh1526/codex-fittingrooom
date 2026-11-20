@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "tool": "built-in image_gen",
+  "initial_generations": 1,
+  "targeted_corrections": 1,
+  "outputs": [
+    {
+      "file": "start_candidate_A.png",
+      "sha256": "c13f8c02e0f39ae30942eef8ccb0822f31f5080787d19ed5bbd6dca8e80d9b7d",
+      "size": [
+        941,
+        1672
+      ]
+    },
+    {
+      "file": "start_candidate_A_expression_v2.png",
+      "sha256": "ee76de8c9deeeb065d7ceb0fd0e58c3967fe73194c9eeb0cf783b4e954ec95a4",
+      "size": [
+        941,
+        1672
+      ]
+    }
+  ],
+  "selected": "start_candidate_A_expression_v2.png",
+  "still_approval": null,
+  "review": "Head-to-thigh framing, hair top about9%, full hands and black bag visible. Latest gaze image-left and closed mouth support pre-notice start. Hair rendering changes with head turn; identity and wardrobe still require user review. Not motion approval."
+}

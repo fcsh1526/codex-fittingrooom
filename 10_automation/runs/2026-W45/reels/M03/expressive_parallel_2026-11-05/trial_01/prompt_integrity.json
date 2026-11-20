@@ -1,0 +1,21 @@
+{
+  "post_url": "grok-asset/imagine/post/a9d31a19-5434-4f47-8682-f8963b6f1d86",
+  "visible_prompt": "She is playfully and confidently showing her outfit to the camera, flowing through a clear full-body posing phrase. Start from the exact approved image. First she takes one small side-step to her right (image-left) and settles her weight, lifting her free right arm with a bent elbow so her hand reaches just above her hair. Her chest opens and her hips angle naturally; the other arm stays comfortably beside the bag. Let the lifted pose read briefly. She then lowers that arm before making a clear quarter-turn toward image-left, and finishes looking back to the lens in an easy, self-assured pose. Her head, gaze, expression, arms and fabric respond together, with ordinary pauses and a relaxed changing smile. This is an intentional, lively outfit demonstration with visible pose changes.\n\n\n\n\nOne continuous six-second real-time full-person shot from the original fixed, level chest-height 50mm camera. Keep her at the original distance, complete hair, raised hand and both shoes visible. Keep the action compact across the frame, with no horizontal arm spread; leave both side margins for a later narrow-panel layout. Preserve the same M03 face, long wavy brown hair, open deep-navy blazer, white crewneck tee, charcoal straight trousers, black loafers, small black bag on her left shoulder and silver necklace. Keep the shaded office wall, windows, bench, paving and daylight coherent. Natural grounded foot repositioning and responsive cloth. No camera move, full spin, outfit change, slow motion or text.",
+  "whitespace_normalized_match": true,
+  "media": [
+    {
+      "d": 6.041667,
+      "paused": false,
+      "rate": 1,
+      "rect": {
+        "height": 561,
+        "width": 316,
+        "x": 465.3333435058594,
+        "y": 34.66666793823242
+      },
+      "src": "grok-asset/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/a9d31a19-5434-4f47-8682-f8963b6f1d86/generated_video.mp4",
+      "t": 3.460009
+    }
+  ],
+  "internal_call_directly_visible": false
+}

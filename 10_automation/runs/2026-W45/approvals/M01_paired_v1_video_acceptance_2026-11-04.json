@@ -1,0 +1,15 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "ok",
+  "recorded_at": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "scope": "exact M01 W45 two-look whole-film acceptance",
+  "asset_path": "10_automation/runs/2026-W45/reels/M01/paired_review_v1/M01_W45_two_looks_review_v1.mp4",
+  "target_sha256": "aa1a657e88480a966226bdbf72ea3e5c46346290df154408d376ebcc2b27a2fb",
+  "duration_seconds": 10.25,
+  "frame_count": 246,
+  "fps": 24,
+  "context": "Direct reply to M01 full10.25s native silent preview, naming4.75-5.5s transient dissolve ghosting and small foot shifts for review.",
+  "limits": "Accepts this exact film with disclosed limits. Not a self-report of complete native playback, zero physical errors, repeatability, external delivery or IG publication."
+}

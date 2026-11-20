@@ -1,0 +1,158 @@
+- paragraph:
+    - strong: W45 M02 L01 — 一次
+  - heading "首圖核對" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 結果":
+        - columnheader "項目"
+        - columnheader "結果"
+    - rowgroup:
+      - row "first UUID 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be":
+        - cell "first UUID"
+        - cell "124e6ebc-f0aa-4d0a-bf05-4cfca6e884be":
+          - code: 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be
+      - row "檔名 2026-W45-002-L01_M02_reel_candidate_A.png":
+        - cell "檔名"
+        - cell "2026-W45-002-L01_M02_reel_candidate_A.png"
+      - row "內容 苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕肩包；低棕髻；咖啡騎樓木長凳；人物近全身 — 相符（非遠景／非紫衣）":
+        - cell "內容"
+        - cell "苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕肩包；低棕髻；咖啡騎樓木長凳；人物近全身 — 相符（非遠景／非紫衣）":
+          - text: 苔綠圓領薄長袖／可可棕直褲／米白鞋／深棕肩包；低棕髻；咖啡騎樓木長凳；人物近全身 —
+          - strong: 相符
+          - text: （非遠景／非紫衣）
+  - paragraph: face / full 可讀；未用紫外搭殘留。
+  - separator
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be 是":
+        - cell "first"
+        - cell "124e6ebc-f0aa-4d0a-bf05-4cfca6e884be":
+          - code: 124e6ebc-f0aa-4d0a-bf05-4cfca6e884be
+        - cell "是"
+      - row "asset_ids 9db0bc5b-… / 6d1e317a-… 是":
+        - cell "asset_ids"
+        - cell "9db0bc5b-… / 6d1e317a-…":
+          - code: 9db0bc5b-…
+          - text: /
+          - code: 6d1e317a-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"6\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"6\" / \"720p\" / \"9:16\"":
+          - code: "\"6\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT 英文
+          - strong: 原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+      - row "音訊關閉 無此控制 —":
+        - cell "音訊關閉"
+        - cell "無此控制"
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID f6443725-886b-410e-8c73-b929e8f73b56":
+        - cell "影片 UUID"
+        - cell "f6443725-886b-410e-8c73-b929e8f73b56":
+          - code: f6443725-886b-410e-8c73-b929e8f73b56
+      - row "時長 6.04 s":
+        - cell "時長"
+        - cell "6.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 苔綠＋棕褲全身；笑；頭／鞋在框":
+        - cell "0s"
+        - cell "苔綠＋棕褲全身；笑；頭／鞋在框"
+      - row "~1s 右手開始外開；肩略轉":
+        - cell "~1s"
+        - cell "右手開始外開；肩略轉"
+      - row "~2–3s 歡迎手勢＋開掌；笑開；半步感；頭／腰／鞋在框":
+        - cell "~2–3s"
+        - cell "歡迎手勢＋開掌；笑開；半步感；頭／腰／鞋在框"
+      - row "~4–5s 手勢緩降；仍近全身；裝不變":
+        - cell "~4–5s"
+        - cell "手勢緩降；仍近全身；裝不變"
+  - paragraph:
+    - strong: 不
+    - text: 認證半步幅度、手勢時序、尺度或成片 QA。只此一次。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - button "Play":
+      - generic: 0:00 / 0:06
+      - button "Mute":
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

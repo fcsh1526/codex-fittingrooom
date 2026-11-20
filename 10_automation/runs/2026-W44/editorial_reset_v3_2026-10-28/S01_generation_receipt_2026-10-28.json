@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-28",
+  "user_reply": "ok",
+  "approval_scope": "v3 purple-trousers to navy-dress, two long shots / 16s route, authorize S01 single-image candidate production; no motion/publication or individual generated-still approval",
+  "tool": "built-in image_gen",
+  "calls": 4,
+  "assets": [
+    {
+      "file": "10_automation\\runs\\2026-W44\\generated_images\\2026-W44-001\\looks\\2026-W44-001-R3-L01\\reel\\initial_pattern_failed.png",
+      "sha256": "a472d505788c37179e67c40e9a399a1720eca9e528bb6d237b2cece9fae8a87b",
+      "pixels": [
+        941,
+        1672
+      ]
+    },
+    {
+      "file": "10_automation\\runs\\2026-W44\\generated_images\\2026-W44-001\\looks\\2026-W44-001-R3-L01\\reel\\texture_edit_failed.png",
+      "sha256": "fbbf4379ccab09ff4e89f53fa8e45e7ff701c1c67f5fe65f44d8c426f81fcfd9",
+      "pixels": [
+        941,
+        1672
+      ]
+    },
+    {
+      "file": "10_automation\\runs\\2026-W44\\generated_images\\2026-W44-001\\looks\\2026-W44-001-R3-L01\\reel\\identity_reset_candidate_A.png",
+      "sha256": "32ee0cfc6147ef22eeb06cd31675fcd7e9e41a53b85c9f5577165cb8580f0216",
+      "pixels": [
+        941,
+        1672
+      ]
+    },
+    {
+      "file": "10_automation\\runs\\2026-W44\\generated_images\\2026-W44-001\\looks\\2026-W44-001-R3-L01\\reel\\wide_framing_edit_failed.png",
+      "sha256": "02454b75f512bff33b927764c5742ccc610845f9c3f090916a544ed5a09535d0",
+      "pixels": [
+        941,
+        1672
+      ]
+    }
+  ],
+  "review": {
+    "status": "not_ready_as_exact_previs_start",
+    "initial": "unintended swirling trouser patterns; local edit ineffective",
+    "reset": "plain trousers improved, full head/shoes visible; subject about77% image height vs62% target, looks image-right instead of proposed image-left; architecture not calibrated",
+    "wide_edit": "overcorrected to about42% person height, head about38%, feet about80%; target62%,29%,91% not met",
+    "next": "user visual review of identity/outfit and framing; do not send these to video as approved route-matched sources"
+  },
+  "generation_allowed": false
+}

@@ -1,0 +1,165 @@
+
+  - heading "三圖核對" [level=3]
+  - table:
+    - rowgroup:
+      - row "角色 UUID 內容":
+        - columnheader "角色"
+        - columnheader "UUID"
+        - columnheader "內容"
+    - rowgroup:
+      - row "first 06080caf-4520-4ac8-bb1e-37f2ceb79162 face_v2 書店花襯衫 — 相符":
+        - cell "first"
+        - cell "06080caf-4520-4ac8-bb1e-37f2ceb79162":
+          - code: 06080caf-4520-4ac8-bb1e-37f2ceb79162
+        - cell "face_v2 書店花襯衫 — 相符":
+          - text: face_v2 書店花襯衫 —
+          - strong: 相符
+      - row "face 14974b17-8fb8-4590-9346-4582373a5a57 M04 v3 近臉 — 相符":
+        - cell "face"
+        - cell "14974b17-8fb8-4590-9346-4582373a5a57":
+          - code: 14974b17-8fb8-4590-9346-4582373a5a57
+        - cell "M04 v3 近臉 — 相符":
+          - text: M04 v3 近臉 —
+          - strong: 相符
+      - row "full fa226a4d-f9fa-408a-b3d0-f6da3f517739 M04 v3 比例 — 相符":
+        - cell "full"
+        - cell "fa226a4d-f9fa-408a-b3d0-f6da3f517739":
+          - code: fa226a4d-f9fa-408a-b3d0-f6da3f517739
+        - cell "M04 v3 比例 — 相符":
+          - text: M04 v3 比例 —
+          - strong: 相符
+  - paragraph:
+    - text: 未用
+    - code: 0c3fed58
+    - text: 當 first。
+  - separator
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 06080caf-… 是":
+        - cell "first"
+        - cell "06080caf-…":
+          - code: 06080caf-…
+        - cell "是"
+      - row "asset_ids 14974b17-…、fa226a4d-… 是":
+        - cell "asset_ids"
+        - cell "14974b17-…、fa226a4d-…":
+          - code: 14974b17-…
+          - text: 、
+          - code: fa226a4d-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"6\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"6\" / \"720p\" / \"9:16\"":
+          - code: "\"6\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID 8e660c39-6175-4491-8bcb-2cda03f4eb3a":
+        - cell "影片 UUID"
+        - cell "8e660c39-6175-4491-8bcb-2cda03f4eb3a":
+          - code: 8e660c39-6175-4491-8bcb-2cda03f4eb3a
+      - row "時長 6.04 s":
+        - cell "時長"
+        - cell "6.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 近正面；花襯衫可讀；頭鞋在框":
+        - cell "0s"
+        - cell "近正面；花襯衫可讀；頭鞋在框"
+      - row "~1s 3/4～背側；回眸；包在肩":
+        - cell "~1s"
+        - cell "3/4～背側；回眸；包在肩":
+          - strong: 3/4～背側
+          - text: ；回眸；包在肩
+      - row "~2s 側姿；張口大笑":
+        - cell "~2s"
+        - cell "側姿；張口大笑":
+          - text: 側姿；
+          - strong: 張口大笑
+      - row "~3–4s 略回正；仍笑；距離大致不變":
+        - cell "~3–4s"
+        - cell "略回正；仍笑；距離大致不變"
+      - row "~5s 背側遠行；回眸邀請感；鞋在框":
+        - cell "~5s"
+        - cell "背側遠行；回眸邀請感；鞋在框":
+          - strong: 背側遠行
+          - text: ；回眸邀請感；鞋在框
+  - paragraph:
+    - strong: 抽樣：
+    - text: 無反覆搖舞；有側展與笑；末段離走。
+    - strong: 不
+    - text: 認證反應節奏、步數或品質通過。只此一次。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert: Imagine 代理模式 - Grok

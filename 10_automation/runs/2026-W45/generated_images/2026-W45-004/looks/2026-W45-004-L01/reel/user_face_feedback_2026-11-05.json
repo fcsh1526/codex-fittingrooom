@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "actor": "user",
+  "quote": "臉有點飄，再一次",
+  "decision": "face_identity_revision_requested",
+  "target_path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/2026-W45-004-L01_M04_reel_candidate_A.png",
+  "target_sha256": "6b0c9691fe0b214a2ae5bbdee103178c125563e1fcfe662f0be20bd7ae7d4b46",
+  "scope": "One targeted facial-identity correction using the approved M04 identity anchor. New output still requires visual approval before video; no other appearance or scene change requested.",
+  "film_or_publication_approval": null
+}

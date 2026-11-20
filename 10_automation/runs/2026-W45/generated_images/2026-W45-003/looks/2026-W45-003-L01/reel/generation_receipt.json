@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-04",
+  "status": "user_still_approved",
+  "look_id": "2026-W45-003-L01",
+  "model": "M03",
+  "surface": "reel",
+  "provider": "builtin_image_gen",
+  "generation_calls": 1,
+  "correction_calls": 1,
+  "references": [
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "original_tool_output": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a17c38-aa07-76f2-a857-3127abcc97fb\\exec-ac943ce4-436d-4842-af46-ce0e1199ea37.png",
+  "original_saved_file": "2026-W45-003-L01_M03_reel_candidate_A_framing_v1.png",
+  "original_sha256": "65e6429121875614a6c1c3fea1aa38c7bd8e434cf9a5dbb9ec20fa080c58480a",
+  "original_source_pixels": [
+    941,
+    1672
+  ],
+  "original_review": "Outfit/identity plausible; framing too tight: approximately95% height, little shoe margin. One allowed framing-only correction before user approval.",
+  "user_approval": "10_automation/runs/2026-W45/approvals/M03_L01_still_approval_2026-11-04.json",
+  "motion_generation_submitted": false,
+  "selected_tool_output": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a17c38-aa07-76f2-a857-3127abcc97fb\\exec-06b42271-bd34-40c9-9aee-f5ea4623013b.png",
+  "saved_output": "2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+  "output_sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+  "actual_source_pixels": [
+    941,
+    1672
+  ],
+  "manual_subject_bounds": {
+    "top_px": 238,
+    "bottom_px": 1467,
+    "height_fraction": 0.7350478468899522,
+    "method": "assistant approximate visual bounds, not anatomy calibration"
+  },
+  "framing_result": "Correction requested84%, actual roughly73.5%. Original~95% not selected; corrected frame keeps complete head/shoes and arm space, close to original74% storyboard, not claimed to satisfy84% request.",
+  "prompt_files": [
+    "submitted_prompt_A.txt",
+    "submitted_prompt_framing_v2.txt"
+  ]
+}

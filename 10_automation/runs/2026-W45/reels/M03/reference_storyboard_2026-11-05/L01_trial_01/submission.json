@@ -1,0 +1,55 @@
+{
+  "submitted_at": "2026-11-05T07:28:18.849Z",
+  "status": "source_trial_review_ready_panel_framing_requires_revision",
+  "request_file": "grok_request.txt",
+  "new_video_jobs_requested": 1,
+  "new_image_calls": 0,
+  "provider_result_observed_at": "2026-11-05T07:30:16.210Z",
+  "uuid": "fad9518f-bbd0-4f68-a9c3-0351bb7b3440",
+  "provider_reported_controls": {
+    "first": "2e8df556-7034-4788-92d8-3a769fcdfed3",
+    "identity": [
+      "26e03f42-2907-488c-b75c-239a2a19b9c8",
+      "15c720b2-46b6-45e0-a150-60290e3290e6"
+    ],
+    "duration": 10,
+    "resolution": "720p",
+    "aspect": "9:16",
+    "last": null,
+    "keyframes": null,
+    "internal_call_directly_observed": false
+  },
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 241,
+  "seconds": 10.041667,
+  "source_has_audio": true,
+  "source_sha256": "eea1bdfbc5add114ee8e8e4f9a363bf9544d8976660f8b7316707807e8e62f1c",
+  "silent_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_trial_01/M03_W45_reference_L01_trial01_silent.mp4",
+  "silent_sha256": "a53cb90415341d806ed31445025475347297d023562d18815767532ee4a3287f",
+  "full_decode": true,
+  "native_speed": true,
+  "silent_video_stream_copy": true,
+  "extracted_every_frames": 3,
+  "sample_count": 81,
+  "panel_diagnostic_path": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_trial_01/M03_W45_reference_L01_trial01_panel_diagnostic.mp4",
+  "panel_crop_xywh": [
+    180,
+    130,
+    400,
+    1034
+  ],
+  "panel_output_xywh": [
+    0,
+    180,
+    356,
+    920
+  ],
+  "panel_sha256": "fb275112f0c1cd053c6d31cc0aede60b8bd29f55981570700159622072ded7e7",
+  "panel_note": "Left panel only; right blank intentionally. Diagnostic, not finished film.",
+  "uninterrupted_human_review": false,
+  "user_film_acceptance": null,
+  "publication_approval": null,
+  "review_receipt": "10_automation/runs/2026-W45/reels/M03/reference_storyboard_2026-11-05/L01_trial_01/visual_review.json"
+}

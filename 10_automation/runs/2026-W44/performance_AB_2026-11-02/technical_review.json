@@ -1,0 +1,104 @@
+{
+  "A": {
+    "sha256": "4b8e322edf7ff63dcb97ef18ed9370c99452c94050421f0f6861f6d5f9661565",
+    "video": {
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "24/1",
+      "duration": "10.041667",
+      "nb_frames": "241"
+    },
+    "audio_present": true,
+    "sampling": {
+      "strategy": "timestamps",
+      "frame_count": 6,
+      "frames": [
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\A_frames\\frame_0000.jpg",
+          "timestamp_seconds": 0,
+          "index": 0
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\A_frames\\frame_0001.jpg",
+          "timestamp_seconds": 2,
+          "index": 1
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\A_frames\\frame_0002.jpg",
+          "timestamp_seconds": 4,
+          "index": 2
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\A_frames\\frame_0003.jpg",
+          "timestamp_seconds": 6,
+          "index": 3
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\A_frames\\frame_0004.jpg",
+          "timestamp_seconds": 8,
+          "index": 4
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\A_frames\\frame_0005.jpg",
+          "timestamp_seconds": 9.9,
+          "index": 5
+        }
+      ],
+      "output_dir": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\A_frames"
+    },
+    "continuous_manual_playback": false,
+    "user_acceptance": "pending",
+    "full_file_decode": "completed"
+  },
+  "B": {
+    "sha256": "0f30a290db3049f95a3a0ffafc74af5f32e4c65ee85022cb62bfc2556f3cf15e",
+    "video": {
+      "width": 720,
+      "height": 1280,
+      "r_frame_rate": "24/1",
+      "duration": "10.041667",
+      "nb_frames": "241"
+    },
+    "audio_present": true,
+    "sampling": {
+      "strategy": "timestamps",
+      "frame_count": 6,
+      "frames": [
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\B_frames\\frame_0000.jpg",
+          "timestamp_seconds": 0,
+          "index": 0
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\B_frames\\frame_0001.jpg",
+          "timestamp_seconds": 2,
+          "index": 1
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\B_frames\\frame_0002.jpg",
+          "timestamp_seconds": 4,
+          "index": 2
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\B_frames\\frame_0003.jpg",
+          "timestamp_seconds": 6,
+          "index": 3
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\B_frames\\frame_0004.jpg",
+          "timestamp_seconds": 8,
+          "index": 4
+        },
+        {
+          "path": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\B_frames\\frame_0005.jpg",
+          "timestamp_seconds": 9.9,
+          "index": 5
+        }
+      ],
+      "output_dir": "C:\\Users\\Brandon_ChangChien\\Documents\\Codex\\人物試衣間\\10_automation\\runs\\2026-W44\\performance_AB_2026-11-02\\B_frames"
+    },
+    "continuous_manual_playback": false,
+    "user_acceptance": "pending",
+    "full_file_decode": "completed"
+  }
+}

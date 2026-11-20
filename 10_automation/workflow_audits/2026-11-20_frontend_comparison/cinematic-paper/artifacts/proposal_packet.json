@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "swatch",
+      "title": "會動的第三張色票",
+      "hook": "三塊顏色排得很整齊，怎麼只有一塊動了？",
+      "narrative_structure": "myth_busting",
+      "visual_approach": "好奇 → 認錯 → 會心一笑。垂直俯視的棕、燕麥、暖白三塊色面；用布褶揭開尺度，再切工作室全身。淺灰日光、清楚紋理、無字。",
+      "why_this_works": "把色票和穿搭變成同一個謎底。須驗桌沿與膝蓋能否同高。",
+      "target_duration_seconds": 12,
+      "target_platform": "instagram",
+      "key_points": [
+        "把色票和穿搭變成同一個謎底。須驗桌沿與膝蓋能否同高。",
+        "紙上輕敲兩次，第三拍留白；膝彎起後才進撥弦。"
+      ]
+    },
+    {
+      "id": "lastlift",
+      "title": "趕上末班電梯",
+      "hook": "她到門口忽然放慢，裡面的人在等她。",
+      "narrative_structure": "journey",
+      "visual_approach": "急 → 被等候 → 放鬆。走廊低位側拍黑鞋和暖白褲腳，到了電梯口才看見棕針織和她的笑。中性日光與深牆，短距離同側跟移。",
+      "why_this_works": "鞋褲隨步幅展開，有人情味；需處理移動與門的距離。",
+      "target_duration_seconds": 12,
+      "target_platform": "instagram",
+      "key_points": [
+        "鞋褲隨步幅展開，有人情味；需處理移動與門的距離。",
+        "短促腳步與悶鼓對拍；門鈴後停鼓，留下腳步。"
+      ]
+    },
+    {
+      "id": "lastlight",
+      "title": "把午後的光留一會兒",
+      "hook": "她把椅子挪進最後一小塊日光。",
+      "narrative_structure": "story",
+      "visual_approach": "平靜 → 惋惜 → 滿足。定機側全身，暖白褲在窗框的明暗邊界上最先亮起；可可上身仍在柔光裡。",
+      "why_this_works": "單人與窗光供給柔和氣氛；白平衡若漂，布色就難以相信。",
+      "target_duration_seconds": 12,
+      "target_platform": "instagram",
+      "key_points": [
+        "單人與窗光供給柔和氣氛；白平衡若漂，布色就難以相信。",
+        "一個長音跟隨光面，椅腳停住後讓和聲落定。"
+      ]
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "swatch",
+    "rationale": "紙上選案。只有這案的揭曉必須靠丹寧本身的紋理和動態才能成立；另外兩案可換服裝仍大致成立。"
+  },
+  "production_plan": {
+    "pipeline": "cinematic",
+    "stages": [
+      {
+        "stage": "research",
+        "tools": [],
+        "approach": "共用服裝與視聽研究"
+      },
+      {
+        "stage": "proposal",
+        "tools": [],
+        "approach": "三案對比"
+      },
+      {
+        "stage": "script",
+        "tools": [],
+        "approach": "四拍無對白劇本"
+      },
+      {
+        "stage": "scene_plan",
+        "tools": [],
+        "approach": "將四拍寫為三段未來所需動態"
+      }
+    ],
+    "render_runtime": "ffmpeg"
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0,
+    "line_items": [
+      {
+        "tool": "generation providers",
+        "operation": "本次企劃無生成",
+        "estimated_usd": 0
+      }
+    ],
+    "budget_verdict": "no_budget_set"
+  },
+  "approval": {
+    "status": "pending"
+  },
+  "metadata": {
+    "mode": "text_only_preproduction",
+    "human_approved": false,
+    "external_generation_calls": 0,
+    "production_cost": "正式生成費用未估定，沒有支出授權。",
+    "delivery_promise": "未來如製作，需原速真人感動態；現階段只交文字。",
+    "runtime_scope": "schema 指定欄位的紙上候選；本次不選定正式合成器。",
+    "score_plan": [
+      [
+        "swatch",
+        "紙上輕敲兩次，第三拍留白；膝彎起後才進撥弦。"
+      ],
+      [
+        "lastlift",
+        "短促腳步與悶鼓對拍；門鈴後停鼓，留下腳步。"
+      ],
+      [
+        "lastlight",
+        "一個長音跟隨光面，椅腳停住後讓和聲落定。"
+      ]
+    ]
+  }
+}

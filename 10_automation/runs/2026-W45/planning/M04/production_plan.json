@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M04_v2",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W45"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "全身先看深底花卉只占上衣、下身與包保持素色；中近景再確認花卉尺度、顏色與薄棉衣料。",
+    "visual_theme": "薄層次、生活中的表情與清楚服裝輪廓",
+    "selection_rationale": "先看花襯衫與素色下身，再讀花卉圖案；已核對W45原報與20筆CSV，來源單品與本專案完整搭配分開。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "sequential_lookbook"
+  },
+  "models": [
+    {
+      "id": "M04",
+      "identity_asset_ids": [
+        "M04_face",
+        "M04_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-004-L01",
+      "model_id": "M04",
+      "wardrobe_summary": "墨黑底莓紅與少量奶油白花卉薄棉開領長袖襯衫、黑色高腰直筒長褲、深棕樂福鞋、深棕無圖案小肩包、銀色耳針",
+      "source_asset_ids": []
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 240,
+    "duration_seconds": 10,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W45-004-L01"
+      ],
+      "frames": [
+        0,
+        96
+      ],
+      "clothing_purpose": "全身先看深底花卉只占上衣、下身與包保持素色；中近景再確認花卉尺度、顏色與薄棉衣料。",
+      "clear_read_intervals": [
+        [
+          0,
+          78
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "看書店櫥窗後回應同伴，肩膀放鬆打開",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    },
+    {
+      "id": "S02",
+      "look_ids": [
+        "2026-W45-004-L01"
+      ],
+      "frames": [
+        78,
+        174
+      ],
+      "clothing_purpose": "只讀花卉與衣料；此段不計完整全身讀衣",
+      "clear_read_intervals": [
+        [
+          96,
+          156
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "中近景讀上衣花卉與領口、袖子；保持圖案位置，不揉抓衣料",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes.",
+      "framing": "floral blouse with neck and sleeve context; no full-outfit claim"
+    },
+    {
+      "id": "S03",
+      "look_ids": [
+        "2026-W45-004-L01"
+      ],
+      "frames": [
+        156,
+        240
+      ],
+      "clothing_purpose": "全身先看深底花卉只占上衣、下身與包保持素色；中近景再確認花卉尺度、顏色與薄棉衣料。",
+      "clear_read_intervals": [
+        [
+          174,
+          240
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": null,
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "independent",
+      "performance": "回到全身，她向同伴微笑收尾，圖案仍只占上衣",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes."
+    }
+  ],
+  "transitions": [
+    {
+      "from_shot": "S01",
+      "to_shot": "S02",
+      "frames": [
+        78,
+        96
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    },
+    {
+      "from_shot": "S02",
+      "to_shot": "S03",
+      "frames": [
+        156,
+        174
+      ],
+      "overlap_frames": 18,
+      "method": "cross_dissolve"
+    }
+  ],
+  "space": null,
+  "shared_space_asset_id": null,
+  "assets": [
+    {
+      "id": "M04_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M04_start_v3_face.png",
+      "sha256": "b9fbb46533782597e255b30a910c2457741aa70f92ddc0aa05060de9fb0b4a91"
+    },
+    {
+      "id": "M04_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M04_start_v3_full.png",
+      "sha256": "958dec3949edd2ebaedd7be408bc1ef6cc8a735a9749c11b6e5e73d401fa8241"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/planning/M04/storyboard.png",
+      "sha256": "5df31462260b9cddff6d48358b36bff23c7173cf6bc58935a5c535770154325e"
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "各鏡全新、逐張核准的原生9:16起始圖；現有身份參照不等於新造型圖",
+    "正式生成當下的Grok額度、可用片長與設定尚待核對；未送工作",
+    "額外同套中景／細節構圖來源，或有精確來源與適用核准範圍的影片影格"
+  ],
+  "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json"
+}

@@ -1,0 +1,10 @@
+{
+  "actor": "user",
+  "quote": "仍然不像",
+  "decision": "rejected",
+  "scope": "N01 anchor_extension_v3 identity",
+  "date": "2026-11-11",
+  "target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N01_face_anchor_extension_v3.png",
+  "target_sha256": "ed11685a0f741283ff375f5854f017d34c555d7dd4170a847fe2f9eee0ac8c10",
+  "next": "Change execution to actual existing-source video crop for N01"
+}

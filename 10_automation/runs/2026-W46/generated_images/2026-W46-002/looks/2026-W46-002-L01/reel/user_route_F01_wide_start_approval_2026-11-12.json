@@ -1,0 +1,11 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "still",
+  "target_sha256": "c0a8194a638553a0f67a6f8894ad9f9adb28682cbcb77f3fef3ae05b01bed631",
+  "quote": "ok",
+  "recorded_at": "2026-11-12",
+  "file": "10_automation/runs/2026-W46/generated_images/2026-W46-002/looks/2026-W46-002-L01/reel/2026-W46-002-L01_M02_route_F01_start_framing_v2.png",
+  "context": "Reply to wide F01 starting image and disclosed wider-than-previs composition. Accepts face, scene and subject scale for a wider opening; synchronizing camera distance is authorized before first bounded motion trial.",
+  "limits": "Does not approve generated motion, all5look joins, wholefilm or publication."
+}

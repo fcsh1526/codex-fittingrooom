@@ -1,0 +1,38 @@
+{
+  "purpose": "diagnostic composition only; not a new AI source still",
+  "output": [
+    720,
+    1280
+  ],
+  "source_crop": [
+    236,
+    0,
+    701,
+    1672
+  ],
+  "panel_width": 356,
+  "gutter": 8,
+  "sources": [
+    {
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+      "sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+      "size": [
+        941,
+        1672
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L02/reel/2026-W45-003-L02_M03_reel_candidate_A.png",
+      "sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d",
+      "size": [
+        941,
+        1672
+      ]
+    }
+  ],
+  "human_estimated_head_to_sole_height_fraction": [
+    0.735,
+    0.735
+  ],
+  "limits": "Source first-frame bounds visually checked; future arm/bag/foot bounds require actual generated motion review. No measured3D route or motion guarantee."
+}

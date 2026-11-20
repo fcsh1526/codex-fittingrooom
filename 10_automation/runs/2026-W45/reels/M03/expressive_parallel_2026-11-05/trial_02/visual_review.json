@@ -1,0 +1,25 @@
+{
+  "status": "user_accepted_exact_source_performance",
+  "whole_film_samples_viewed": 21,
+  "upper_body_samples_viewed": 23,
+  "additional_full_resolution_frames_viewed": [
+    96,
+    144,
+    168
+  ],
+  "native_UI_samples": 44,
+  "native_UI_all1x_playing": true,
+  "uninterrupted_human_visual_review": false,
+  "observed_phrases": [
+    "hands on waist with hip/shoulder/head changes",
+    "two-arm high V with face toward lens",
+    "side/rear turn, return and bent-knee playful pose",
+    "bent-arm presentation and hip pose finish"
+  ],
+  "gaze_observation": "V-pose sample images face lens rather than looking up at hands; not a full gaze-tracking certification.",
+  "body_feet_bag_anatomy_zero_defect_certification": false,
+  "parallel_fit_review": "Full V does not fit narrow columns; selected-pose edit candidate reviewed separately in ../paired_review_v1/visual_review.json.",
+  "user_acceptance": true,
+  "publication_approval": null,
+  "user_acceptance_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_02/user_performance_acceptance_2026-11-05.json"
+}

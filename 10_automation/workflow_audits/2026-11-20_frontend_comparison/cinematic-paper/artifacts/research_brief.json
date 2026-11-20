@@ -1,0 +1,130 @@
+{
+  "version": "1.0",
+  "topic": "秋天想穿白褲時，有哪一套搭法值得試？W47-P005，M02 單套暖白丹寧。",
+  "research_date": "2026-11-20",
+  "landscape": {
+    "existing_content": [
+      {
+        "url": "https://www.uniqlo.com/au/en/contents/lifewear-magazine/revisiting-classic/?param=11",
+        "title": "UNIQLO · Revisiting Classic",
+        "source": "品牌編輯原文",
+        "angle": "UNIQLO · Revisiting Classic",
+        "what_it_covers": "咖啡色外套與白丹寧組合；本案借配色，另創情境。"
+      },
+      {
+        "url": "https://www.uniqlo.com/au/en/contents/lifewear-magazine/lightness-essentials/",
+        "title": "UNIQLO · Lightness Essentials",
+        "source": "品牌編輯原文",
+        "angle": "UNIQLO · Lightness Essentials",
+        "what_it_covers": "染色與布料會改變白的觀感，提示保留丹寧表面。"
+      },
+      {
+        "url": "https://www.cos.com/en-ww/features/collections/the-womens-aw25-runway-collection",
+        "title": "COS · Women's AW25",
+        "source": "品牌編輯原文",
+        "angle": "COS · Women's AW25",
+        "what_it_covers": "以明暗與材質對照建立系列語言，可發展空間與服裝的對照。"
+      }
+    ],
+    "saturated_angles": [],
+    "underserved_gaps": [
+      "本次創意機會：把靜態色彩關係變成可由人物動作揭曉的問題。"
+    ]
+  },
+  "data_points": [
+    {
+      "source_url": "https://www.uniqlo.com/au/en/contents/lifewear-magazine/revisiting-classic/?param=11",
+      "claim": "咖啡色外套與白丹寧組合；本案借配色，另創情境。",
+      "credibility": "primary_source"
+    },
+    {
+      "source_url": "https://www.uniqlo.com/au/en/contents/lifewear-magazine/lightness-essentials/",
+      "claim": "染色與布料會改變白的觀感，提示保留丹寧表面。",
+      "credibility": "primary_source"
+    },
+    {
+      "source_url": "https://online.berklee.edu/takenote/5-film-scoring-concepts-to-know-for-your-first-movie-score/",
+      "claim": "用畫面動勢與同步點安排聲音進出。",
+      "credibility": "primary_source"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "白褲在秋天會顯得太輕嗎？",
+      "上衣配什麼顏色？",
+      "整套穿起來什麼樣？"
+    ],
+    "misconceptions": [],
+    "knowledge_level": "編輯根據 W47-P005 建立的觀看假設，並無新受眾調查。"
+  },
+  "angles_discovered": [
+    {
+      "name": "會動的第三張色票",
+      "hook": "三塊顏色排得很整齊，怎麼只有一塊動了？",
+      "type": "narrative",
+      "why_now": "把色票和穿搭變成同一個謎底。須驗桌沿與膝蓋能否同高。"
+    },
+    {
+      "name": "趕上末班電梯",
+      "hook": "她到門口忽然放慢，裡面的人在等她。",
+      "type": "narrative",
+      "why_now": "鞋褲隨步幅展開，有人情味；需處理移動與門的距離。"
+    },
+    {
+      "name": "把午後的光留一會兒",
+      "hook": "她把椅子挪進最後一小塊日光。",
+      "type": "narrative",
+      "why_now": "單人與窗光供給柔和氣氛；白平衡若漂，布色就難以相信。"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.uniqlo.com/au/en/contents/lifewear-magazine/revisiting-classic/?param=11",
+      "title": "UNIQLO · Revisiting Classic",
+      "used_for": "咖啡色外套與白丹寧組合；本案借配色，另創情境。"
+    },
+    {
+      "url": "https://www.uniqlo.com/au/en/contents/lifewear-magazine/lightness-essentials/",
+      "title": "UNIQLO · Lightness Essentials",
+      "used_for": "染色與布料會改變白的觀感，提示保留丹寧表面。"
+    },
+    {
+      "url": "https://www.cos.com/en-ww/features/collections/the-womens-aw25-runway-collection",
+      "title": "COS · Women's AW25",
+      "used_for": "以明暗與材質對照建立系列語言，可發展空間與服裝的對照。"
+    },
+    {
+      "url": "https://www.adobe.com/creativecloud/video/hub/ideas/what-is-continuity-editing-in-film.html",
+      "title": "Adobe · Continuity editing",
+      "used_for": "相鄰鏡保有視線方向，讓觀眾跟隨同一位置。"
+    },
+    {
+      "url": "https://www.focusfeatures.com/article/behind-the-credits_adam-mendez",
+      "title": "Focus Features · Foley mixer Adam Mendez",
+      "used_for": "依實際動作設計布料與腳步聲。"
+    },
+    {
+      "url": "https://online.berklee.edu/takenote/5-film-scoring-concepts-to-know-for-your-first-movie-score/",
+      "title": "Berklee · Film scoring concepts",
+      "used_for": "用畫面動勢與同步點安排聲音進出。"
+    }
+  ],
+  "metadata": {
+    "mode": "text_only_preproduction",
+    "human_approved": false,
+    "external_generation_calls": 0,
+    "search_count": 8,
+    "shared_sources": true,
+    "search_topics": [
+      "白丹寧與棕色搭配",
+      "秋冬白褲",
+      "服裝與建築",
+      "時裝短片的日常道具",
+      "日常場景編輯",
+      "服裝腳步擬音",
+      "配樂與留白",
+      "視線及動作接點"
+    ],
+    "source_reality": "此為創意開發，未選舊片，預計以新動態片段實現。僅用文字評估。"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "ok",
+  "recorded_at": "2026-11-05",
+  "timezone": "Asia/Taipei",
+  "scope": "exact trial02 full-frame10.041667s source performance and naturalness, as presented; continue in existing M03 production context",
+  "target_sha256": "ea9f94dbc839f7240461be8e09813ed4c7edf0566e6549cebf3753e7335fead6",
+  "source_sha256": "533f789b3aab103573af3270f545aa3834a2e483805306659ff6a4fef009c3e2",
+  "target_asset_id": "414c5d81-cd08-4ca3-87e9-0ff1ecd2e73f",
+  "target_path": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/trial_02/M03_W45_expressive_trial02_silent_review.mp4",
+  "context": "Direct reply to the displayed revised performance test with waist/hip poses, high V, side turn, bent knee and presentation finish.",
+  "limits": "Not finished parallel-film acceptance, publication/delivery approval, zero-defect technical certification or permission for unseen new stills."
+}

@@ -1,0 +1,39 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: Visual choice of the20s five-look storyboard, wardrobe, route and synchronized previs",
+    "declared missing asset: Shared photoreal scene reference and ten exact first/end images across five look sources",
+    "declared missing asset: Styling proof and Carousel coverage for the3 additional series outfits",
+    "declared missing asset: Native motion join trials across all four overlaps before full production",
+    "M02_face: user identity approval evidence required",
+    "M02_full: user identity approval evidence required",
+    "look F01: source evidence missing",
+    "look F02: source evidence missing",
+    "look F03: source evidence missing",
+    "look F04: source evidence missing",
+    "look F05: source evidence missing",
+    "board: user storyboard approval evidence required",
+    "previs: user previs approval evidence required",
+    "shot F01: no planned source image input",
+    "shot F02: no planned source image input",
+    "shot F03: no planned source image input",
+    "shot F04: no planned source image input",
+    "shot F05: no planned source image input",
+    "overhead: user overhead approval evidence required"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 480,
+    "overlap_frames": 72,
+    "clear_read_frames_by_shot": {
+      "F01": 87,
+      "F02": 78,
+      "F03": 78,
+      "F04": 78,
+      "F05": 87
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

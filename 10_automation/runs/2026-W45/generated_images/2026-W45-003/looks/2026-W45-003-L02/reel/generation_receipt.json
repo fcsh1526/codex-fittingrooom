@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-04",
+  "status": "user_still_approved",
+  "model": "M03",
+  "look_id": "2026-W45-003-L02",
+  "surface": "reel",
+  "provider": "builtin_image_gen",
+  "generation_calls": 1,
+  "correction_calls": 0,
+  "source_tool_output": "C:\\Users\\Brandon_ChangChien\\.codex\\generated_images\\01a17c38-aa07-76f2-a857-3127abcc97fb\\exec-1519b575-175d-450b-a102-4915da3b1acb.png",
+  "saved_output": "2026-W45-003-L02_M03_reel_candidate_A.png",
+  "output_sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d",
+  "actual_source_pixels": [
+    941,
+    1672
+  ],
+  "references": [
+    {
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+      "sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_face.png",
+      "sha256": "ca479fe686d72abb6ba75ff95fee621542860a4f22d9d852e6560119ab481c6d"
+    },
+    {
+      "path": "02_brand/reference_models/M03_start_v3_full.png",
+      "sha256": "e6707116027bea5d36ca1215159652e8a728a972f33f79f5f37fd221e727e890"
+    }
+  ],
+  "manual_subject_bounds": {
+    "top_px": 238,
+    "bottom_px": 1467,
+    "height_fraction": 0.7350478468899522,
+    "method": "approximate visual comparison"
+  },
+  "user_approval": "10_automation/runs/2026-W45/approvals/M03_L02_still_approval_2026-11-04.json",
+  "motion_submitted": false,
+  "prompt_file": "submitted_prompt_A.txt",
+  "prompt_sha256": "5c581b94278b50ec6c4322616b415cd68899fdab9e48ad6ad623bb4c2f3d18b0",
+  "scale_comparison": "10_automation/runs/2026-W45/reels/M03/preflight_2026-11-04/source_scale_comparison.png"
+}

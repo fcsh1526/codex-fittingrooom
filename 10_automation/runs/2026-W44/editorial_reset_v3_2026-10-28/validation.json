@@ -1,0 +1,30 @@
+{
+  "status": "incomplete",
+  "ready_for_generation": false,
+  "errors": [],
+  "incomplete": [
+    "declared missing asset: 新主題、第二套裙裝與本v3分鏡／共同預演尚待使用者確認；前次ok只授權重想企劃",
+    "declared missing asset: 兩段來源需各有8.25及8.5秒原速可用區間；現行工具可選時長／參照控制未核對，若僅6秒則本計畫不能直接執行",
+    "declared missing asset: 新場地與雙路徑未校準到現有照片；現有已核准照片只作人物／第一套服裝參考，不直接當新片首幀",
+    "declared missing asset: 所有符合新時間／構圖的起始及必要接點圖未生成／未逐張核准",
+    "declared missing asset: 原始影片、18幀換裝窗口與整片原速舒服度均未驗證；示意同位混合不證明AI影片無雙影",
+    "declared missing asset: 只重設第一支提案，其他四系列仍待此方向定案後重新協調；正式每人兩套契約保持",
+    "M02_face: user identity approval evidence required",
+    "M02_full: user identity approval evidence required",
+    "board: user storyboard approval evidence required",
+    "previs: user previs approval evidence required",
+    "shot S01: no planned source image input",
+    "shot S02: no planned source image input",
+    "overhead: user overhead approval evidence required"
+  ],
+  "warnings": [],
+  "timeline": {
+    "frame_count": 384,
+    "overlap_frames": 18,
+    "clear_read_frames_by_shot": {
+      "S01": 162,
+      "S02": 168
+    }
+  },
+  "limits": "Checks structure, local files, hashes and recorded approval fields only. Does not authenticate receipts, inspect images/video, solve projection/collisions, verify visual comfort, or certify Grok execution."
+}

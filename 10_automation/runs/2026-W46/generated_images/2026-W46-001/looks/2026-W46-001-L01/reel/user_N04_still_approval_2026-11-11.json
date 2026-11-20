@@ -1,0 +1,11 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "still",
+  "quote": "繼續",
+  "recorded_at": "2026-11-11",
+  "target": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_N04_seated_bag_v2.png",
+  "target_sha256": "8116bee0d610fc54fbd488a50e2934415f42169a8ac278b859fe5ea3c76f2dfc",
+  "context": "Direct reply to N04 seated bag_v2 preview and request to confirm face and seated pose, understood as approval to continue with this specific source.",
+  "limits": "N04 starting still only; source motion, joins and completed film require review."
+}

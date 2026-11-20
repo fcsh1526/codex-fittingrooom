@@ -1,0 +1,12 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "採用這張",
+  "recorded_at": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "scope": "exact M03 L02 Reel starting still; proceed to its video",
+  "asset_path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L02/reel/2026-W45-003-L02_M03_reel_candidate_A.png",
+  "target_sha256": "2a7069a0ce028a1c3a80aa5e0800b67369c9f5ecd8ec3a60c1bf26d032cf2c6d",
+  "context": "Async answer naming same navy blazer, cream knit/A-line skirt, white-grey sneakers and matched L01 scale.",
+  "limits": "Not approval of unseen generated clip, camera adherence, full film, new medium image, publication or delivery."
+}

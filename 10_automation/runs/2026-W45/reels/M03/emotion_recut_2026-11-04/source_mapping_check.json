@@ -1,0 +1,9 @@
+{
+  "checked_unblended_frames": 159,
+  "A_mapping": "output[0,48)=A[0,48)",
+  "B_mapping": "output[66,177)=B[51,162)",
+  "A_max_MAD": 0.5735300779342651,
+  "B_max_MAD": 0.9579745531082153,
+  "result": "passed_encoder_loss_tolerance",
+  "limits": "Technical frame mapping only, not emotional/physical or continuous visual QA."
+}

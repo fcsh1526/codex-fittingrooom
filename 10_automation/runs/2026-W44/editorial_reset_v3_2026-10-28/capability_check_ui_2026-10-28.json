@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-28",
+  "method": "existing Mira Grok canvas; visible Generate Video panel and aspect-ratio menu",
+  "security_verification": "passed",
+  "duration_options_seconds": [6, 10, 15],
+  "resolution_options": ["480p", "720p"],
+  "aspect_ratio_options": ["2:3", "3:2", "1:1", "9:16", "16:9"],
+  "image_input_instruction": "選取一或多個影像節點來動畫化。",
+  "first_last_mid_identity_roles": "not verified by current visible panel; historical agent reports are not current control evidence",
+  "decision": "Prefer original two-source 16s plan using two 10s sources; retain four-segment plan only as historical conditional fallback",
+  "limits": "UI options verified, no new output or precise keyframe adherence verified. Do not confuse 10s last frame with the intended 8.25/8.5s useful endpoints.",
+  "actions": "Opened controls, inspected ratio menu, Escape returned to canvas. No settings applied, uploads, prompts, or generation.",
+  "generation_allowed": false
+}

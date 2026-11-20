@@ -1,0 +1,10 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "scope": "storyboard",
+  "quote": "ok",
+  "recorded_at": "2026-11-09",
+  "target": "10_automation/runs/2026-W45/reels/M05/exhibit_entry_2026-11-09/storyboard.png",
+  "target_sha256": "d2e423e9f765b3224b7697856781728fc94d92a0995f80f9626b652f8793c6af",
+  "context": "Direct answer to asking if this exact first still and storyboard could proceed to a motion trial. Covers one trial. No final-film or publication approval."
+}

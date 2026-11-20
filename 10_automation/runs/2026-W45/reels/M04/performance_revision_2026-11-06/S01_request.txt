@@ -1,0 +1,9 @@
+W45 M04 表演修訂。一支6秒原片，沿用本畫布內既有三張已核對素材：檔名含reel_candidate_A_face_v2為唯一first，M04_start_v3_face及M04_start_v3_full只作身份參照。First UUID: 06080caf-4520-4ac8-bb1e-37f2ceb79162；identity asset_ids: ["14974b17-8fb8-4590-9346-4582373a5a57","fa226a4d-f9fa-408a-b3d0-f6da3f517739"]。先實際查看三個UUID並核對圖片，不重新上傳、不選上次影片當first。以本次新英文指令取代上次同距離小側步指令。
+只送一次6秒、720p、9:16，不設last/keyframes、不生成照片、不自動重試／剪輯／延伸、不加購升級換服務；若額度／素材不符或需額外付費則停止回報。音訊有實際控制就關，沒有則如實記錄。
+以下英文逐字作生成prompt，標記不送入：
+PROMPT_BEGIN
+Continue naturally from the supplied first frame. She is showing her new floral blouse to the friend filming her outside the bookstore before they leave together. With easy confidence she makes one clear three-quarter body turn to show the side of the outfit, letting her free arm move with the turn while the bag stays on her shoulder. She turns her face back to her friend and briefly waits for their reaction. Amused by the friend's response, her smile opens into a short warm laugh, with a relaxed shoulder release. She then turns toward the open arcade and starts walking away with one or two easy diagonal steps, glancing back at her friend as if inviting them along. Let the gaze, expression, shoulders, arms and weight respond together in one fluid everyday interaction. Give the reaction room to develop; no repetitive swaying or dance routine.
+
+One continuous six-second real-time shot, level chest-height camera with the same natural 50mm look. Begin with the approved full-person composition; keep her face legible and her movement within the frame without zooming toward her face. Preserve the exact woman, normal head/body proportions, tied-back black hair and natural skin texture. Keep the same dark berry-red and cream floral blouse, plain black straight trousers, brown loafers and shoulder bag, silver earrings and fine necklace, with coherent print, daylight and bookstore geometry. No cuts, slow motion, outfit change or text.
+PROMPT_END
+完成後回報first／identity UUID、實際設定與影片UUID。控制回報不等於影片品質通過。

@@ -1,0 +1,22 @@
+本次只製作W45 M01 L01第一鏡，一個獨立6秒、720p、原生9:16影片，僅一次；不重試、不出照片、不改刪舊媒體、不合片、不加購或切換服務。使用者已核准M01第一套首圖；第二套新候選尚未核准，這次不能使用或生成第二套影片。不是M02、不是舊週片。
+
+三份輸入已以實際下載的檔案SHA核對為本機核准原檔：
+first_frame_asset_id: "52712daf-fde5-49fd-8ed2-a59010a25fde"
+asset_ids: ["a3306f94-b579-4498-9a01-a1717fe12c62","61671532-de26-495b-b7f5-5331a1570fa3"]
+duration: "6"
+resolution_name: "720p"
+aspect_ratio: "9:16"
+不設last_frame_asset_id或keyframes。
+
+first是M01沙卡其短工裝外套敞開／白圓領T／深藍直褲／黑鞋／深棕斜背包，束髮、咖啡店側牆，近全身約86.6%畫高。face/full只鎖M01 v4身份、髮型與普通比例，不複製棚拍白襯衫／灰褲、姿態或背景。1152e2b3-fb44-4961-a253-65a2458c3878是已排除的其他舊全身圖，不能使用。先實際看正確三個UUID，任何內容不符、工具不支援或額度不足就停下回報，不替換圖或默改設定。
+
+PROMPT_BEGIN到PROMPT_END英文逐字作影片prompt，不自行擴寫動作或加走路；標記不傳入。
+PROMPT_BEGIN
+Her friend directly behind the camera is taking a casual outfit photo. Starting from the exact approved first frame, she meets the lens and her warm smile grows into a spontaneous happy laugh.
+
+One continuous six-second real-time shot. Staying in her grounded position, she responds with a lively, comfortable weight shift and opens both forearms into a cheerful low pose. Keep her elbows bent and hands below chest height, slightly outside the torso and comfortably inside the portrait. Her arms remain visible without crossing her body or swinging behind it. She then relaxes her hands back beside her hips, settling near front-facing while continuing to smile at the viewer. The short jacket hem, front pockets, tucked waist and straight trouser silhouette stay readable.
+
+Preserve the exact M01 identity, tied-back dark hair, open sand-khaki short unpadded cotton utility jacket, white crewneck tee, dark-navy straight trousers, black casual shoes and dark-brown crossbody bag. Locked chest-height 50mm camera; complete head and both shoes stay in frame. Preserve the cafe wall, windows, paving and shaded daylight, with normal body proportions and natural cloth response. No walking, spin, camera move, cut or text.
+PROMPT_END
+
+音訊真有開關才關；無法關保留AAC如實回報，不因音訊重生。完成只保留這一支原片，列first/asset_ids、設定是否接受、影片UUID、真正時長／像素／音軌，與是否逐字傳入。seed、模型版本、剩餘額度無可讀欄位就寫unknown。不要宣告手、腳、頭身或成片QA通過。

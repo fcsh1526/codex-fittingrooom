@@ -1,0 +1,11 @@
+{
+  "post_url": "grok-asset/imagine/post/f6443725-886b-410e-8c73-b929e8f73b56",
+  "reloaded_for_check": true,
+  "visible_prompt": "She recognizes her friend waiting just beside the camera, so her existing smile grows into a spontaneous, happy laugh. One continuous six-second real-time shot, beginning with the exact approved first image.\n\n\n\n\nShe opens her free right arm outward in a welcoming gesture, with an easy elbow and relaxed open palm. Her bag stays on her left shoulder and her other arm remains loose. She takes only one small, relaxed half-step slightly toward camera-left and her friend, then settles comfortably. Her shoulders turn gently toward the friend as she laughs, and the greeting hand lowers naturally. Keep the performance lively and responsive rather than a rigid pose or a repeated wave.\n\n\n\n\nHer distance changes only slightly. Preserve her complete head, waist, trouser hems and both shoes throughout, with normal consistent head-to-body proportions. Keep the camera locked at its initial chest-height 50mm view: no zoom, pan or orbit. Keep the exact face, low brown bun, moss-green fine-knit long-sleeve top, cocoa-brown straight trousers, cream shoes and dark-brown shoulder bag. The cafe windows, bench and paving stay rigid in coherent daylight. Natural weight transfer, grounded shoe contacts, responsive cloth, ordinary live-action tempo. No continuous walking, clothing-touch gesture, internal cut, slow motion, text or logos.",
+  "matches_frozen_trial02": false,
+  "matches_old_trial01": true,
+  "internal_tool_call_directly_visible": false,
+  "conclusion": "Unresolved evidence mismatch: observed reloaded post editor shows trial01; proxy reports trial02 call/Stored summary. Neither engine input nor cause is independently established.",
+  "proxy_audit_report": "grok_prompt_audit_report.txt",
+  "proxy_claim": "Agent reports call arguments, success echo and view_media Stored summary are trial02, but cannot read UI detail prompt."
+}

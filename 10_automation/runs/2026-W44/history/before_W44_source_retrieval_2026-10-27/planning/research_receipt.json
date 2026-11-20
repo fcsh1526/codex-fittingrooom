@@ -1,0 +1,57 @@
+{
+  "checked_date": "2026-10-27",
+  "timezone": "Asia/Taipei",
+  "content_week": "2026-W44",
+  "week_dates": [
+    "2026-10-26",
+    "2026-11-01"
+  ],
+  "original_publishing_structure": "missing_on_entry",
+  "perplexity": {
+    "url": "https://mika-lin-weekly.pplx.app/data/index.json",
+    "web_result": "not accessible",
+    "local_http_result": "DNS host not resolved",
+    "missing_source_weeks": [
+      "2026-W42",
+      "2026-W43",
+      "2026-W44"
+    ],
+    "new_source_csv_imported": false
+  },
+  "pool_refresh": {
+    "as_of": "2026-10-27",
+    "window_weeks": 3,
+    "current_source_candidates": 0,
+    "older_W41_saved_rows": 20,
+    "source_claims_independently_verified": false
+  },
+  "sources": [
+    {
+      "id": "WX",
+      "url": "https://www.cwa.gov.tw/Data/fcst_pdf/W53.pdf",
+      "publisher": "中央氣象署",
+      "issued_at": "2026-10-27 11:00 +08:00",
+      "valid": "2026-10-27 12:00 至 2026-11-03 06:00",
+      "finding": "台北10/28白天22–24°C、陰短暫雨，10/29–31白天高溫26–27°C、11/1可達30°C；台中10/27–11/1白天高溫29–31°C，高雄29–31°C。",
+      "limit": "逐日縣市預報；不以長期展望的氣候正常值當本週溫度。發布前重查。"
+    },
+    {
+      "id": "T1",
+      "url": "https://us.princesspolly.com/blogs/princess-polly-blog/fall-style-guide",
+      "publisher": "Princess Polly",
+      "issued_at": null,
+      "finding": "品牌秋季指南列出層次、深色丹寧、棕／酒紅及短袖長度等方向。",
+      "limit": "本次可讀的2026秋季品牌內容；頁面日期未核實，商業選品訊號，不是W44市場排名。"
+    },
+    {
+      "id": "T2",
+      "url": "https://www.whowhatwear.com/fashion/shopping/new-fall-wardrobe-basics-2026",
+      "publisher": "Who What Wear",
+      "issued_at": null,
+      "finding": "2026秋季基本款文章列出格紋襯衫、領口變化及合身丹寧外套。",
+      "limit": "季節背景，不等於本週新增趨勢；未驗證商品、銷量或平台熱度。"
+    }
+  ],
+  "editorial_basis": "W41舊素材重新審視＋本次可查秋季訊號與台灣逐日天氣；不是已完整取得的W44 Perplexity週報。",
+  "generation_authorized": false
+}

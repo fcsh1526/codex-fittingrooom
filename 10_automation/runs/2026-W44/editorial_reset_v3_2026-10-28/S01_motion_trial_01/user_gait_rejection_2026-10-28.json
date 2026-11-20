@@ -1,0 +1,10 @@
+{
+  "actor":"user",
+  "decision":"rejected",
+  "scope":"gait",
+  "quote":"腳步飄移了",
+  "recorded_at":"2026-10-28",
+  "target_sha256":"6b249dd3eece25149324d4003a56ef961cb18d480ba18a7f668aa0f54b72c446",
+  "follow_up_quote":"ok",
+  "follow_up_scope":"Proceed with diagnosing and repairing foot planting / body progression. Preserve photos and rejected source; do not continue S02 or mask failure with retiming/cropping."
+}

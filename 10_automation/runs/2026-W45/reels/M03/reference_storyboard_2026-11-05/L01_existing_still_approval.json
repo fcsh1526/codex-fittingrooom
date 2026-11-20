@@ -1,0 +1,14 @@
+{
+  "actor": "user",
+  "decision": "approved",
+  "quote": "採用修正版",
+  "recorded_at": "2026-11-04",
+  "timezone": "Asia/Taipei",
+  "scope": "still",
+  "asset_path": "10_automation/runs/2026-W45/generated_images/2026-W45-003/looks/2026-W45-003-L01/reel/2026-W45-003-L01_M03_reel_candidate_A_framing_v2.png",
+  "target_sha256": "d62277fdb318f1e799f534f3b610d092895585ffa769338f222cddb090f618dd",
+  "context": "Reply to question explicitly naming corrected navy soft blazer/charcoal trousers still, roughly74% subject height and complete head/shoes/arm space.",
+  "limits": "Not the too-tight original, unseen L02/new medium image, generated clip, joins, publication or delivery.",
+  "original_scope": "exact M03 L01 framing_v2 Reel source still; proceed to motion",
+  "original_receipt_path": "10_automation/runs/2026-W45/approvals/M03_L01_still_approval_2026-11-04.json"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-12",
+  "shot": "M01 N06 and N07 right",
+  "status": "generated_downloaded",
+  "first_frame_asset_id": "85da4c98-4ef5-40a9-846a-898d3b31b7b1",
+  "first_frame_sha256": "1e886c6fe3647484cc9157231c69a3b00f2d33d6c6446f54edc85c63fea5e29f",
+  "requested": {
+    "duration": 6,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "count": 1,
+    "other_refs": [],
+    "last": null,
+    "keyframes": []
+  },
+  "authority": "10_automation\\runs\\2026-W46\\generated_images\\2026-W46-001\\looks\\2026-W46-001-L02\\reel\\user_N06_black_shoes_v2_approval_2026-11-12.json",
+  "provider": "existing authorized Grok canvas agent composer",
+  "video_asset_id": "c41fec19-8a68-48ca-8ed3-8cfb6f25b293",
+  "source_sha256": "2ef658413bcbb4f636c0801edd3ba2fd4c0a88ebdf921b1efeb6680ef6f1629d",
+  "provider_report": "Agent reports exact black-shoe first frame only; 6s720p9:16; 6.04s actual,720x1280,AAC. Internal call not directly observed."
+}

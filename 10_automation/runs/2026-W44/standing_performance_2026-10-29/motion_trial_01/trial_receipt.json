@@ -1,0 +1,31 @@
+{
+  "source_sha256": "0fcc02756c19871c5bf20069cc3bff5f1ccccafcba9b6259ab8f123699755039",
+  "metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709, progressive)",
+    "audio_codec": "aac",
+    "fps": 24.0,
+    "source_size": [
+      720,
+      1280
+    ],
+    "size": [
+      720,
+      1280
+    ],
+    "rotate": 0,
+    "duration": 6.04
+  },
+  "decoded_frames": 145,
+  "native_speed": true,
+  "audio_removed_in_review_only": true,
+  "user_approval": null,
+  "continuous_manual_playback": false,
+  "generation_count": 1,
+  "asset_uuid": "9ab4ae39-edd9-41df-bea5-a5927a8f7106",
+  "parameter_evidence": "Grok agent UI report; internal call not observed",
+  "upload_tool_wall_seconds": 4469.1212,
+  "download_tool_wall_seconds": 1983.9419,
+  "sample_review": "13 full frames every0.5s: one arm raise/lower, head/hands/shoes visible, slight shoulder sway after lowering and bag swinging outward near5s. No continuous playback or precise ground-registration pass; naturalness pending user."
+}

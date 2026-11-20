@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-05",
+  "status": "user_approved_for_motion",
+  "generator": "built-in image generation",
+  "call_type": "targeted_identity_edit",
+  "edit_attempt_for_this_hero": 1,
+  "user_feedback_receipt": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/user_face_feedback_2026-11-05.json",
+  "input_roles": [
+    {
+      "path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/2026-W45-004-L01_M04_reel_candidate_A.png",
+      "sha256": "6b0c9691fe0b214a2ae5bbdee103178c125563e1fcfe662f0be20bd7ae7d4b46",
+      "role": "edit target, preserve clothing/body/scene/composition"
+    },
+    {
+      "path": "02_brand/reference_models/M04_start_v3_face.png",
+      "sha256": "b9fbb46533782597e255b30a910c2457741aa70f92ddc0aa05060de9fb0b4a91",
+      "role": "primary identity authority"
+    },
+    {
+      "path": "02_brand/reference_models/M04_start_v3_full.png",
+      "sha256": "958dec3949edd2ebaedd7be408bc1ef6cc8a735a9749c11b6e5e73d401fa8241",
+      "role": "identity and proportion support"
+    }
+  ],
+  "prompt_path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/face_correction_v2_prompt.txt",
+  "prompt_sha256": "ae9a825a6ac29b73323da04c01acf21e7dc80e4444808dac12c752817573f772",
+  "output_path": "10_automation/runs/2026-W45/generated_images/2026-W45-004/looks/2026-W45-004-L01/reel/2026-W45-004-L01_M04_reel_candidate_A_face_v2.png",
+  "output_sha256": "5e6c7a2a00997c2774d0f7a6a1dfa27075cb1304afeb9a81c66cf3133e01957c",
+  "actual_pixels": [
+    941,
+    1672
+  ],
+  "assistant_visual_review": "Eye/nose/chin appearance adjusted; outfit, floral positions, scene and stance broadly retained visually. Pixel-identical preservation or exact identity not certified. Original tight framing, larger bag and added necklace remain.",
+  "user_visual_approval": "10_automation/runs/2026-W45/approvals/M04_L01_face_v2_still_approval_2026-11-06.json",
+  "publishable": null,
+  "new_image_calls": 1,
+  "new_video_jobs": 0,
+  "publication_action": false
+}

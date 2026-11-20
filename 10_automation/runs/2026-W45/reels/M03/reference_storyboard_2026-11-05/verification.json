@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "storyboard_sha256": "62af2712880c267d7f53c6e2be4064f1b8957fda604f5b4232aba596fc193ae5",
+  "animatic_sha256": "715cdf9eb9731385cdb688ee08b267ec949e6e5f44326cd2b77f9193e4254edc",
+  "animatic_frames": 72,
+  "animatic_duration_ms": 9000,
+  "structure_errors": [],
+  "ready_for_generation": false,
+  "immutable_snapshots_verified": 18,
+  "accepted_M01_M02_unchanged": true,
+  "old_M03_unchanged": true,
+  "new_AI_stills": 0,
+  "new_Grok_jobs": 0,
+  "user_visual_acceptance": null,
+  "publication_approval": null,
+  "no_IG_browser_operations": true
+}

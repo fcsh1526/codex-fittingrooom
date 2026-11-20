@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-11",
+  "week": "2026-W46",
+  "shot": "M01 N07 left",
+  "status": "generated_downloaded",
+  "first_frame_asset_id": "e2df2932-109a-4ab2-b8c5-9c5560c3a77a",
+  "first_frame_sha256": "8e58e6236daec786708fbe710d621f1ec82299b32be60e6a29922c212f482226",
+  "requested": {
+    "keyframes": [],
+    "duration": 6,
+    "ratio": "9:16",
+    "resolution": "720p",
+    "count": 1,
+    "other_refs": []
+  },
+  "reuse_authority": "frame_reuse_authority.json",
+  "video_asset_id": "594cdb0b-80f1-4315-aef0-960ab6963357",
+  "provider_report": "Agent reported exact existing-frame first and requested six-second settings accepted, no additional references; 6.04s/720x1280/AAC; internal call not directly observed."
+}

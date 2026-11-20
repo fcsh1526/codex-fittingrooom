@@ -1,5 +1,7 @@
 # Mira 雲端製作交接
 
+**2026-11-20 接手入口。** [W47 週企劃與選案](runs/2026-W47/publishing_structure.md)記錄實際製作選擇。[前期流程比較](workflow_audits/2026-11-20_frontend_comparison/READOUT.md)逐案核對 W45–W47 的開案順序，並保留同題的兩份概念、劇本、場景與配樂構想。[衣領試剪](workflow_audits/2026-11-20_cinematic_dry_run/COMPARISON.md)比較同批素材的剪輯順序。[同步範圍](GITHUB_SYNC_SCOPE.md)記錄換機後可以從 GitHub 恢復哪些資料。
+
 2026-11-17。此入口讓新的製作環境取得本專案已累積的導演經驗。接著依序讀 [主工作流](CANONICAL_WORKFLOW.md)、[最新狀態](../CURRENT_STATUS.md)、選定內容週的發布結構及[跨週交接](MIRA_EDITORIAL_HANDOFF.md)。日曆週、素材週與接續中的內容週分開確認。
 
 使用者已於 2026-11-17 明確同意將清單中的 190 份檔案，包括製作紀錄、素材識別及 Drive 連結，公開同步至 `fcsh1526/codex-fittingrooom` 的 `main`。實際發布版本以儲存庫提交紀錄為準。

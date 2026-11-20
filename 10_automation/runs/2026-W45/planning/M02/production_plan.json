@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "plan_id": "W45_M02_v2",
+  "status": "in_review",
+  "path_base": "project",
+  "weeks": {
+    "source": [
+      "2026-W45"
+    ],
+    "content": "2026-W45",
+    "delivery": null
+  },
+  "editorial": {
+    "audience": "台灣日常穿搭讀者",
+    "takeaway": "單套生活代入：苔綠上身與可可棕褲上下分區清楚，表演從認出朋友、迎接到短程走近，色彩關係一直可讀。",
+    "visual_theme": "薄層次、生活中的表情與清楚服裝輪廓",
+    "selection_rationale": "先讀苔綠與可可棕，再看認出朋友的開心反應；已核對W45原報與20筆CSV，來源單品與本專案完整搭配分開。"
+  },
+  "presentation": {
+    "layout_id": "single_sequential",
+    "recipe_id": "custom_experiment",
+    "recipe_name": "固定鏡頭的認出與短程會合",
+    "viewer_mechanism": "先看認出朋友的反應，再看穿搭在短程走近時的樣子",
+    "evidence_status": "proposed_transfer_of_prior_motivated_performance"
+  },
+  "models": [
+    {
+      "id": "M02",
+      "identity_asset_ids": [
+        "M02_face",
+        "M02_full"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "id": "2026-W45-002-L01",
+      "model_id": "M02",
+      "wardrobe_summary": "苔綠薄棉細針織圓領長袖上衣、可可棕高腰直筒長褲、米白低筒休閒鞋、深棕小肩包、細金色耳針",
+      "source_asset_ids": []
+    }
+  ],
+  "film": {
+    "fps": 24,
+    "frame_count": 192,
+    "duration_seconds": 8,
+    "aspect_ratio": "9:16",
+    "native_speed": true,
+    "baked_text": false
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "look_ids": [
+        "2026-W45-002-L01"
+      ],
+      "frames": [
+        0,
+        192
+      ],
+      "clothing_purpose": "單套生活代入：苔綠上身與可可棕褲上下分區清楚，表演從認出朋友、迎接到短程走近，色彩關係一直可讀。",
+      "clear_read_intervals": [
+        [
+          0,
+          192
+        ]
+      ],
+      "storyboard_asset_id": "board",
+      "previs_asset_id": "previs",
+      "input_asset_ids": [],
+      "scene_reference_asset_ids": [],
+      "space_mode": "shared_world",
+      "performance": "認出鏡頭旁的朋友 → 眼神先定住並笑 → 空著的一手自然打開 → 一兩步走近 → 停穩笑談",
+      "execution_mode": "generate",
+      "camera": "fixed",
+      "source_duration_note": "Output timing is editorial. Available Grok lengths, real usable intervals and source shortage must be recorded at execution; no retiming/freezes.",
+      "overhead_asset_id": "overhead"
+    }
+  ],
+  "transitions": [],
+  "space": {
+    "id": "W45_M02_short_meeting_v2",
+    "units": "schematic",
+    "unit_note": "Relative schematic units; physical scale is unmeasured. Framing uses an explicit off-centre principal point, not a calibrated lens or a promised engine trajectory.",
+    "axes": "x_right_y_up_z_forward",
+    "geometry": [
+      {
+        "id": "wall",
+        "vertices": [
+          [
+            -2,
+            0,
+            4.4
+          ],
+          [
+            2,
+            0,
+            4.4
+          ],
+          [
+            2,
+            2.6,
+            4.4
+          ],
+          [
+            -2,
+            2.6,
+            4.4
+          ]
+        ]
+      },
+      {
+        "id": "pavement",
+        "vertices": [
+          [
+            -2,
+            0,
+            2.5
+          ],
+          [
+            2,
+            0,
+            2.5
+          ],
+          [
+            2,
+            0,
+            4.4
+          ],
+          [
+            -2,
+            0,
+            4.4
+          ]
+        ]
+      }
+    ],
+    "render_model": {
+      "person_height": 1.68,
+      "normalized_focal_length": 1.416666666666667,
+      "principal_point_uv": [
+        0.5,
+        0.338
+      ],
+      "note": "Simplified perspective/framing illustration only; level camera, fixed independent camera path. Not anatomy, gait or physical camera calibration."
+    },
+    "routes": [
+      {
+        "shot_id": "S01",
+        "character_samples": [
+          {
+            "frame": 0,
+            "position": [
+              0.3,
+              0,
+              3.5
+            ],
+            "heading_degrees": 180,
+            "gait_phase": "standing; contact must be checked in generated footage"
+          },
+          {
+            "frame": 48,
+            "position": [
+              0.3,
+              0,
+              3.5
+            ],
+            "heading_degrees": 180,
+            "gait_phase": "standing; contact must be checked in generated footage"
+          },
+          {
+            "frame": 84,
+            "position": [
+              0.22,
+              0,
+              3.25
+            ],
+            "heading_degrees": 180,
+            "gait_phase": "short approach; gait phase not simulated"
+          },
+          {
+            "frame": 120,
+            "position": [
+              8.572527594031473e-18,
+              0,
+              3.0
+            ],
+            "heading_degrees": 180,
+            "gait_phase": "standing; contact must be checked in generated footage"
+          },
+          {
+            "frame": 192,
+            "position": [
+              8.572527594031473e-18,
+              0,
+              3.0
+            ],
+            "heading_degrees": 180,
+            "gait_phase": "standing; contact must be checked in generated footage"
+          }
+        ],
+        "camera_samples": [
+          {
+            "frame": 0,
+            "position": [
+              0,
+              1.15,
+              0
+            ],
+            "target": [
+              0,
+              1.15,
+              4
+            ],
+            "vertical_fov_degrees": 38.880069656352376
+          },
+          {
+            "frame": 48,
+            "position": [
+              0,
+              1.15,
+              0
+            ],
+            "target": [
+              0,
+              1.15,
+              4
+            ],
+            "vertical_fov_degrees": 38.880069656352376
+          },
+          {
+            "frame": 84,
+            "position": [
+              0,
+              1.15,
+              0
+            ],
+            "target": [
+              0,
+              1.15,
+              4
+            ],
+            "vertical_fov_degrees": 38.880069656352376
+          },
+          {
+            "frame": 120,
+            "position": [
+              0,
+              1.15,
+              0
+            ],
+            "target": [
+              0,
+              1.15,
+              4
+            ],
+            "vertical_fov_degrees": 38.880069656352376
+          },
+          {
+            "frame": 192,
+            "position": [
+              0,
+              1.15,
+              0
+            ],
+            "target": [
+              0,
+              1.15,
+              4
+            ],
+            "vertical_fov_degrees": 38.880069656352376
+          }
+        ],
+        "projected_samples": [
+          {
+            "frame": 0,
+            "person_center_uv": [
+              0.7158730158730159,
+              0.4634761904761905
+            ],
+            "person_height_fraction": 0.68,
+            "visible_landmark_ids": [
+              "wall",
+              "pavement"
+            ],
+            "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+          },
+          {
+            "frame": 48,
+            "person_center_uv": [
+              0.7158730158730159,
+              0.4634761904761905
+            ],
+            "person_height_fraction": 0.68,
+            "visible_landmark_ids": [
+              "wall",
+              "pavement"
+            ],
+            "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+          },
+          {
+            "frame": 84,
+            "person_center_uv": [
+              0.6704843304843305,
+              0.47312820512820514
+            ],
+            "person_height_fraction": 0.7323076923076924,
+            "visible_landmark_ids": [
+              "wall",
+              "pavement"
+            ],
+            "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+          },
+          {
+            "frame": 120,
+            "person_center_uv": [
+              0.5,
+              0.48438888888888887
+            ],
+            "person_height_fraction": 0.7933333333333334,
+            "visible_landmark_ids": [
+              "wall",
+              "pavement"
+            ],
+            "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+          },
+          {
+            "frame": 192,
+            "person_center_uv": [
+              0.5,
+              0.48438888888888887
+            ],
+            "person_height_fraction": 0.7933333333333334,
+            "visible_landmark_ids": [
+              "wall",
+              "pavement"
+            ],
+            "visible_clothing": "full outfit; moss-green upper and cocoa-brown trousers remain separate"
+          }
+        ]
+      }
+    ],
+    "route_function": {
+      "start_seconds": 2,
+      "move_seconds": 3,
+      "x_start": 0.3,
+      "x_bulge": 0.07,
+      "z_start": 3.5,
+      "z_travel": 0.5
+    }
+  },
+  "shared_space_asset_id": "common_space",
+  "assets": [
+    {
+      "id": "M02_face",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_face.png",
+      "sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5"
+    },
+    {
+      "id": "M02_full",
+      "kind": "identity",
+      "path": "02_brand/reference_models/M02_start_v3_full.png",
+      "sha256": "2282c4fb3e35f8adb99b51aec4a55afa9402f1c60492503c555beecea6914ac4"
+    },
+    {
+      "id": "board",
+      "kind": "storyboard",
+      "path": "10_automation/runs/2026-W45/planning/M02/storyboard.png",
+      "sha256": "165e070b952361e1efcf130ed89ff7c1fc997d10336e0d740c8f3552a1d2eafe"
+    },
+    {
+      "id": "common_space",
+      "kind": "space_plan",
+      "path": "10_automation/runs/2026-W45/planning/M02/space.json",
+      "sha256": "be7427240b0938592a526a4044c452c8b51ee287ab8a9649153ea53b36bcf35f"
+    },
+    {
+      "id": "previs",
+      "kind": "previs",
+      "path": "10_automation/runs/2026-W45/planning/M02/previs.gif",
+      "sha256": "91ef8966c3f052b4b9c304bd0fe0d80b5cd76920523cacb259e08e85d136c700",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "be7427240b0938592a526a4044c452c8b51ee287ab8a9649153ea53b36bcf35f"
+      }
+    },
+    {
+      "id": "overhead",
+      "kind": "overhead",
+      "path": "10_automation/runs/2026-W45/planning/M02/overhead_and_view.png",
+      "sha256": "0bc96cd75ae8e0e0f5f6b1f0ae75370cafd111f7b0bcbb07a733997ce1eedf85",
+      "derived_from": {
+        "asset_id": "common_space",
+        "sha256": "be7427240b0938592a526a4044c452c8b51ee287ab8a9649153ea53b36bcf35f"
+      }
+    }
+  ],
+  "approvals": [],
+  "missing_assets": [
+    "各鏡全新、逐張核准的原生9:16起始圖；現有身份參照不等於新造型圖",
+    "正式生成當下的Grok額度、可用片長與設定尚待核對；未送工作"
+  ],
+  "editorial_approval_receipt": "10_automation/runs/2026-W45/approvals/user_planning_approval_2026-11-03.json",
+  "execution_trials": [
+    {
+      "path": "10_automation/runs/2026-W45/reels/M02/trial_01/submission.json",
+      "duration": 6.041667,
+      "source_approved": true,
+      "status": "pending_user_motion_review",
+      "note": "Reduced-step trial from accepted81% still; original8s68→79% spatial plan is not claimed as executed."
+    }
+  ]
+}

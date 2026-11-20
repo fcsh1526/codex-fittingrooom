@@ -1,0 +1,449 @@
+nt daylight. No morphing, cut, slow motion, speed ramp, text or logos. Report actual inputs/video UUID and observations separately; focus on whether arm gesture overlaps rotation, do not certify full QA.
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: M01 手臂修正版 — 一次
+  - heading "首圖核對" [level=3]
+  - paragraph:
+    - code: 70fd1ab3-…
+    - text: ＝白T＋可可棕細肩帶裙＋奶油鞋＋黑包 —
+    - strong: 相符
+    - text: 未重用退件片
+    - code: e8778f58-…
+    - text: 。
+  - separator
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 70fd1ab3-e523-4c1b-a1f6-59190a3f55f5 是":
+        - cell "first"
+        - cell "70fd1ab3-e523-4c1b-a1f6-59190a3f55f5":
+          - code: 70fd1ab3-e523-4c1b-a1f6-59190a3f55f5
+        - cell "是"
+      - row "face / full 4502814b-… / 74159011-… 是":
+        - cell "face / full"
+        - cell "4502814b-… / 74159011-…":
+          - code: 4502814b-…
+          - text: /
+          - code: 74159011-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"10\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID ef4194e2-a7d3-4bef-bd3c-b79c13ed6689":
+        - cell "影片 UUID"
+        - cell "ef4194e2-a7d3-4bef-bd3c-b79c13ed6689":
+          - code: ef4194e2-a7d3-4bef-bd3c-b79c13ed6689
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（聚焦轉肩 vs 手勢重疊）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0–3.4s 近正面；雙手維持近髖；輕側身／移重心；無大開臂、無背向":
+        - cell "0–3.4s"
+        - cell "近正面；雙手維持近髖；輕側身／移重心；無大開臂、無背向":
+          - text: 近正面；
+          - strong: 雙手維持近髖
+          - text: ；輕側身／移重心；
+          - strong: 無大開臂、無背向
+      - row "~5s 已近正面站定；右手抬起揮手／開掌（肘不緊貼腰）":
+        - cell "~5s"
+        - cell "已近正面站定；右手抬起揮手／開掌（肘不緊貼腰）":
+          - text: 已近正面站定；
+          - strong: 右手抬起揮手／開掌
+          - text: （肘不緊貼腰）
+      - row "~6.7–8.4s 掌心向上對話手勢；另一手近腰；笑；裙裝可讀":
+        - cell "~6.7–8.4s"
+        - cell "掌心向上對話手勢；另一手近腰；笑；裙裝可讀"
+  - paragraph:
+    - strong: 相對 v1：
+    - text: 前段轉肩時手臂未同時大幅外展，無整圈轉身。
+    - strong: 仍見：
+    - text: 後段手勢偏高／偏「揮手」；
+    - strong: 不
+    - text: 認證 20° 精準、時序或全片 QA。只此一次。
+  - generic: 本輪是M02兩條件表演測試，先只讀核對，不生成任何照片或影片、不修改舊媒體、不為查額度試叫生成。剛透過畫布上傳了三張圖片：1）start_candidate_v2.png，M02紫薄開襟／白T／灰直褲／白灰鞋／黑左肩包，人物約33%畫高站在遠側咖啡店人行道，前方有低路緣和大片道路；這是本輪已核准共同First frame，不能用舊站姿或近景代替。2）M02_start_v3_face.png，低棕髮髻近臉身份。3）M02_start_v3_full.png，白長袖V領襯衫／深灰褲／黑鞋的中性全身，只鎖比例，不作服裝。請實際查看最近上傳三張，列出精確asset UUID及各自內容；找不到就停，不猜ID。並依當前工具回答10秒720p9:16是否可同時用first_frame_asset_id及asset_ids(face/full)、不設last/keyframes；有沒有可固定seed或明確模型版本設定？若額度有可讀欄位請回報，無法查則寫unknown，不能假稱已重置。此測試需把指定英文prompt原文直接傳給影片工具，不能自行改寫擴充；請回報能否原文傳入。不要開始生成。
+  - button "顯示更多"
+  - paragraph:
+    - strong: 只讀核對 — 未生成、未改媒體
+  - heading "三張上傳 UUID 與內容" [level=3]
+  - table:
+    - rowgroup:
+      - row "角色 asset UUID 檔名 內容核對":
+        - columnheader "角色"
+        - columnheader "asset UUID"
+        - columnheader "檔名"
+        - columnheader "內容核對"
+    - rowgroup:
+      - row "共同 First frame 30f90037-f912-480e-bc61-71acdd8d5967 start_candidate_v2.png M02 紫薄開襟／白T／灰直褲／白灰鞋／黑左肩包；人物偏遠、約 1/3 畫高，站遠側咖啡店人行道，前方低路緣＋大片道路 — 相符":
+        - cell "共同 First frame":
+          - strong: 共同 First frame
+        - cell "30f90037-f912-480e-bc61-71acdd8d5967":
+          - code: 30f90037-f912-480e-bc61-71acdd8d5967
+        - cell "start_candidate_v2.png"
+        - cell "M02 紫薄開襟／白T／灰直褲／白灰鞋／黑左肩包；人物偏遠、約 1/3 畫高，站遠側咖啡店人行道，前方低路緣＋大片道路 — 相符":
+          - text: M02 紫薄開襟／白T／灰直褲／白灰鞋／黑左肩包；人物偏遠、約 1/3 畫高，站遠側咖啡店人行道，前方低路緣＋大片道路 —
+          - strong: 相符
+      - row "face 身份 9db0bc5b-49ff-4357-a832-6c73a4d9ba8e M02_start_v3_face.png 低棕髮髻近臉、笑、裸肩棚拍 — 相符（身份用）":
+        - cell "face 身份":
+          - strong: face 身份
+        - cell "9db0bc5b-49ff-4357-a832-6c73a4d9ba8e":
+          - code: 9db0bc5b-49ff-4357-a832-6c73a4d9ba8e
+        - cell "M02_start_v3_face.png"
+        - cell "低棕髮髻近臉、笑、裸肩棚拍 — 相符（身份用）":
+          - text: 低棕髮髻近臉、笑、裸肩棚拍 —
+          - strong: 相符
+          - text: （身份用）
+      - row "full 比例 6d1e317a-1ee3-4512-a308-c1fd4147aef5 M02_start_v3_full.png 白長袖 V 領襯衫／深灰褲／黑平底鞋、中性棚拍全身 — 相符（只鎖比例，非本輪服裝）":
+        - cell "full 比例":
+          - strong: full 比例
+        - cell "6d1e317a-1ee3-4512-a308-c1fd4147aef5":
+          - code: 6d1e317a-1ee3-4512-a308-c1fd4147aef5
+        - cell "M02_start_v3_full.png"
+        - cell "白長袖 V 領襯衫／深灰褲／黑平底鞋、中性棚拍全身 — 相符（只鎖比例，非本輪服裝）":
+          - text: 白長袖 V 領襯衫／深灰褲／黑平底鞋、中性棚拍全身 —
+          - strong: 相符
+          - text: （只鎖比例，非本輪服裝）
+  - paragraph: 三張均可讀；不猜其他 ID。
+  - separator
+  - heading "當前 imagine_reference_to_video 能力（直接可讀 schema）" [level=3]:
+    - text: 當前
+    - code: imagine_reference_to_video
+    - text: 能力（直接可讀 schema）
+  - table:
+    - rowgroup:
+      - row "問題 實際可讀答案":
+        - columnheader "問題"
+        - columnheader "實際可讀答案"
+    - rowgroup:
+      - row "10s / 720p / 9:16 + first + asset_ids(face/full)、不設 last/keyframes 可以。 duration enum 含 \"10\"；resolution_name 含 \"720p\"；aspect_ratio 含 \"9:16\"；first_frame_asset_id 可單獨傳；asset_ids 可傳 1+ 圖；last_frame_asset_id / keyframes 可省略。":
+        - cell "10s / 720p / 9:16 + first + asset_ids(face/full)、不設 last/keyframes":
+          - strong: 10s / 720p / 9:16 + first + asset_ids(face/full)、不設 last/keyframes
+        - cell "可以。 duration enum 含 \"10\"；resolution_name 含 \"720p\"；aspect_ratio 含 \"9:16\"；first_frame_asset_id 可單獨傳；asset_ids 可傳 1+ 圖；last_frame_asset_id / keyframes 可省略。":
+          - strong: 可以。
+          - code: duration
+          - text: enum 含
+          - code: "\"10\""
+          - text: ；
+          - code: resolution_name
+          - text: 含
+          - code: "\"720p\""
+          - text: ；
+          - code: aspect_ratio
+          - text: 含
+          - code: "\"9:16\""
+          - text: ；
+          - code: first_frame_asset_id
+          - text: 可單獨傳；
+          - code: asset_ids
+          - text: 可傳 1+ 圖；
+          - code: last_frame_asset_id
+          - text: /
+          - code: keyframes
+          - text: 可省略。
+      - row "固定 seed 無。 schema 無 seed 欄位。":
+        - cell "固定 seed":
+          - strong: 固定 seed
+        - cell "無。 schema 無 seed 欄位。":
+          - strong: 無。
+          - text: schema 無
+          - code: seed
+          - text: 欄位。
+      - row "明確模型版本設定 無。 schema 無 model / version 欄位。":
+        - cell "明確模型版本設定":
+          - strong: 明確模型版本設定
+        - cell "無。 schema 無 model / version 欄位。":
+          - strong: 無。
+          - text: schema 無 model / version 欄位。
+      - row "額度／quota 可讀欄位 unknown（工具參數與回傳未提供額度欄位；不能假稱已重置）。":
+        - cell "額度／quota 可讀欄位":
+          - strong: 額度／quota 可讀欄位
+        - cell "unknown（工具參數與回傳未提供額度欄位；不能假稱已重置）。":
+          - strong: unknown
+          - text: （工具參數與回傳未提供額度欄位；不能假稱已重置）。
+      - row "英文 prompt 原文直接傳入、不自行改寫擴充 可以。 prompt 為字串參數，可原樣傳入；實際是否被下游改寫為未知（引擎內部行為不可見），但代理端可做到「不改寫、不擴充」後再送。":
+        - cell "英文 prompt 原文直接傳入、不自行改寫擴充":
+          - strong: 英文 prompt 原文直接傳入、不自行改寫擴充
+        - cell "可以。 prompt 為字串參數，可原樣傳入；實際是否被下游改寫為未知（引擎內部行為不可見），但代理端可做到「不改寫、不擴充」後再送。":
+          - strong: 可以。
+          - code: prompt
+          - text: 為字串參數，可原樣傳入；實際是否被下游改寫為未知（引擎內部行為不可見），但代理端可做到「不改寫、不擴充」後再送。
+  - paragraph:
+    - strong: 對照（非推測）：
+    - text: 本輪測試所需控制（first + face/full、無 last/keyframes、10s/720p/9:16、原文 prompt）在參數層皆支援。
+  - paragraph: 未開始生成。
+  - generic: 現在只執行本輪條件A一次影片生成，保留於同一畫布。不得新生照片、重試、改刪舊媒體、替換輸入、改用API／其他服務或加購額度。若額度不足或必要參數被拒絕，停止並如實回報。 精確角色與設定： first_frame_asset_id:"30f90037-f912-480e-bc61-71acdd8d5967" asset_ids:["9db0bc5b-49ff-4357-a832-6c73a4d9ba8e","6d1e317a-1ee3-4512-a308-c1fd4147aef5"] duration:"10" resolution_name:"720p" aspect_ratio:"9:16" 不設last_frame_asset_id，不設keyframes。無seed與明確model設定，記為不可控制。 First是剛核對的紫外搭白T灰褲黑包、遠側路緣與大片道路起始圖；face/full只鎖M02身份與普通比例，不複製棚拍衣服、姿態或背景。若內容不符停止，不用舊M01或其他M02圖。 請把下列PROMPT_BEGIN與PROMPT_END之間英文逐字作為實際影片工具的prompt；標記本身不要傳入，不自行改寫、擴充或加入其他故事／動作。 PROMPT_BEGIN One continuous ten-second real-time shot, starting from the exact first image. She takes one easy step toward the curb. At the curb, she briefly turns her head and eyes farther toward the lane on screen right, then brings her gaze back to her direction of travel. She steps off the curb and walks diagonally toward the fixed camera at a natural everyday pace. As she comes closer, she meets the lens with an increasingly warm spontaneous smile. Her free arm and bag respond naturally to her steps; her left hand keeps the existing light hold on the shoulder strap. End in a comfortable waist-up view with normal consistent head-to-body proportions. Keep the camera locked, coherent daylight, rigid street geometry and the exact face, low bun, purple cardigan, white tee, charcoal trousers, white-grey shoes and black bag. One uninterrupted native-speed shot with clear outfit visibility at the beginning; no cuts or text. PROMPT_END 只送一次，完成保留獨立原片。回報實際使用first/asset_ids、解析度時長、影片UUID、音軌、是否逐字傳入及任何參數差異。額度無可讀欄位就寫unknown，不假稱預先查到餘額。實際動作與品質待下載審查，不自行宣告通過。
+  - button "顯示更多"
+  - button "在畫布上顯示" [active]
+  - paragraph:
+    - strong: 條件 A — 一次（已接受，未改寫）
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first_frame_asset_id 30f90037-f912-480e-bc61-71acdd8d5967 是":
+        - cell "first_frame_asset_id"
+        - cell "30f90037-f912-480e-bc61-71acdd8d5967":
+          - code: 30f90037-f912-480e-bc61-71acdd8d5967
+        - cell "是"
+      - row "asset_ids 9db0bc5b-…（face）、6d1e317a-…（full） 是":
+        - cell "asset_ids"
+        - cell "9db0bc5b-…（face）、6d1e317a-…（full）":
+          - code: 9db0bc5b-…
+          - text: （face）、
+          - code: 6d1e317a-…
+          - text: （full）
+        - cell "是"
+      - row "last_frame / keyframes 未設 —":
+        - cell "last_frame / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / resolution / aspect \"10\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / resolution / aspect"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "seed / model 不可控制（無欄位） —":
+        - cell "seed / model"
+        - cell "不可控制（無欄位）"
+        - cell "—"
+      - row "prompt PROMPT_BEGIN–END 英文原文逐字 是（標記未傳入）":
+        - cell "prompt"
+        - cell "PROMPT_BEGIN–END 英文原文逐字":
+          - text: PROMPT_BEGIN–END
+          - strong: 英文原文逐字
+        - cell "是（標記未傳入）"
+      - row "參數差異 無 —":
+        - cell "參數差異"
+        - cell "無":
+          - strong: 無
+        - cell "—"
+      - row "額度 unknown（無可讀欄位） —":
+        - cell "額度"
+        - cell "unknown（無可讀欄位）":
+          - strong: unknown
+          - text: （無可讀欄位）
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID e512b975-e9fe-4399-9a49-bc1116650108":
+        - cell "影片 UUID"
+        - cell "e512b975-e9fe-4399-9a49-bc1116650108":
+          - code: e512b975-e9fe-4399-9a49-bc1116650108
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - paragraph: 獨立原片保留；未改刪舊媒體。
+  - separator
+  - heading "抽樣觀察（不宣告通過；待下載審查）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 已在路緣／道路上跨步（較 first 站定更前）；紫衣／灰褲可讀":
+        - cell "0s"
+        - cell "已在路緣／道路上跨步（較 first 站定更前）；紫衣／灰褲可讀"
+      - row "~1.7–3.4s 對角向鏡走近；頭／視線有側向變化":
+        - cell "~1.7–3.4s"
+        - cell "對角向鏡走近；頭／視線有側向變化"
+      - row "~5–6.7s 繼續走近；全身仍可讀":
+        - cell "~5–6.7s"
+        - cell "繼續走近；全身仍可讀"
+      - row "~8.4s 近半身／腰上；對鏡笑；左手扶包帶":
+        - cell "~8.4s"
+        - cell "近半身／腰上；對鏡笑；左手扶包帶"
+  - paragraph:
+    - strong: 不
+    - text: 認證步態、視線時序、腰上終點或全片 QA。只此一次。
+  - generic: 現在只執行本輪條件B一次影片生成，保留於同一畫布。不得新生照片、重試、改刪舊媒體、替換輸入、改用API／其他服務或加購額度。若額度不足或必要參數被拒絕，停止並如實回報。 精確角色與設定： first_frame_asset_id:"30f90037-f912-480e-bc61-71acdd8d5967" asset_ids:["9db0bc5b-49ff-4357-a832-6c73a4d9ba8e","6d1e317a-1ee3-4512-a308-c1fd4147aef5"] duration:"10" resolution_name:"720p" aspect_ratio:"9:16" 不設last_frame_asset_id，不設keyframes。無seed與明確model設定，記為不可控制。 First是剛核對的紫外搭白T灰褲黑包、遠側路緣與大片道路起始圖；face/full只鎖M02身份與普通比例，不複製棚拍衣服、姿態或背景。若內容不符停止，不用舊M01或其他M02圖。 請把下列PROMPT_BEGIN與PROMPT_END之間英文逐字作為實際影片工具的prompt；標記本身不要傳入，不自行改寫、擴充或加入其他故事／動作。 PROMPT_BEGIN Her brief glance toward the lane is to check for approaching traffic before crossing. One continuous ten-second real-time shot, starting from the exact first image. She takes one easy step toward the curb. At the curb, she briefly turns her head and eyes farther toward the lane on screen right, then brings her gaze back to her direction of travel. She steps off the curb and walks diagonally toward the fixed camera at a natural everyday pace. As she comes closer, she meets the lens with an increasingly warm spontaneous smile. Her free arm and bag respond naturally to her steps; her left hand keeps the existing light hold on the shoulder strap. End in a comfortable waist-up view with normal consistent head-to-body proportions. Keep the camera locked, coherent daylight, rigid street geometry and the exact face, low bun, purple cardigan, white tee, charcoal trousers, white-grey shoes and black bag. One uninterrupted native-speed shot with clear outfit visibility at the beginning; no cuts or text. PROMPT_END 只送一次，完成保留獨立原片。回報實際使用first/asset_ids、解析度時長、影片UUID、音軌、是否逐字傳入及任何參數差異。額度無可讀欄位就寫unknown，不假稱預先查到餘額。實際動作與品質待下載審查，不自行宣告通過。
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: 條件 B — 一次（已接受，未改寫）
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first_frame_asset_id 30f90037-f912-480e-bc61-71acdd8d5967 是":
+        - cell "first_frame_asset_id"
+        - cell "30f90037-f912-480e-bc61-71acdd8d5967":
+          - code: 30f90037-f912-480e-bc61-71acdd8d5967
+        - cell "是"
+      - row "asset_ids 9db0bc5b-…（face）、6d1e317a-…（full） 是":
+        - cell "asset_ids"
+        - cell "9db0bc5b-…（face）、6d1e317a-…（full）":
+          - code: 9db0bc5b-…
+          - text: （face）、
+          - code: 6d1e317a-…
+          - text: （full）
+        - cell "是"
+      - row "last_frame / keyframes 未設 —":
+        - cell "last_frame / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / resolution / aspect \"10\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / resolution / aspect"
+        - cell "\"10\" / \"720p\" / \"9:16\"":
+          - code: "\"10\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "seed / model 不可控制（無欄位） —":
+        - cell "seed / model"
+        - cell "不可控制（無欄位）"
+        - cell "—"
+      - row "prompt PROMPT_BEGIN–END 英文原文逐字（含 traffic 首句） 是":
+        - cell "prompt"
+        - cell "PROMPT_BEGIN–END 英文原文逐字（含 traffic 首句）":
+          - text: PROMPT_BEGIN–END
+          - strong: 英文原文逐字
+          - text: （含 traffic 首句）
+        - cell "是"
+      - row "參數差異 無 —":
+        - cell "參數差異"
+        - cell "無":
+          - strong: 無
+        - cell "—"
+      - row "額度 unknown —":
+        - cell "額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID 99d7a06e-eb06-442f-b090-c151fecc27cf":
+        - cell "影片 UUID"
+        - cell "99d7a06e-eb06-442f-b090-c151fecc27cf":
+          - code: 99d7a06e-eb06-442f-b090-c151fecc27cf
+      - row "時長 10.04 s":
+        - cell "時長"
+        - cell "10.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - paragraph: 獨立原片保留；未改刪舊媒體。
+  - separator
+  - heading "抽樣觀察（不宣告通過；待下載審查）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 路緣站定；紫衣／灰褲可讀；臉略偏右":
+        - cell "0s"
+        - cell "路緣站定；紫衣／灰褲可讀；臉略偏右"
+      - row "~1.7s 頭／視線更偏畫面右（車道方向）；抬步下緣":
+        - cell "~1.7s"
+        - cell "頭／視線更偏畫面右（車道方向）；抬步下緣"
+      - row "~3.4–5s 下路緣、對角向鏡走；笑漸開":
+        - cell "~3.4–5s"
+        - cell "下路緣、對角向鏡走；笑漸開"
+      - row "~6.7–8.4s 走近；近腰上／半身；對鏡暖笑；左手扶包帶":
+        - cell "~6.7–8.4s"
+        - cell "走近；近腰上／半身；對鏡暖笑；左手扶包帶"
+  - paragraph:
+    - strong: 不
+    - text: 認證「看車」動機、視線時序或全片 QA。只此一次。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - button "Play":
+      - generic: 0:00 / 0:10
+      - button "Mute":
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "99%, 適合視圖": 99%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

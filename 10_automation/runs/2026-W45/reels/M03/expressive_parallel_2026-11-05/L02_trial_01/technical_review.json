@@ -1,0 +1,17 @@
+{
+  "full_decode_exit_code": 0,
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frame_count": 241,
+  "duration_seconds": 10.041667,
+  "source_has_audio": true,
+  "source_sha256": "13b4f38ca17ddd2e0495775753d6ed1eb02db2bc0ed73496ebc9a98d0aa436fe",
+  "silent_sha256": "840864f4876f2940e969c6289519c389a49f666f652053fa8718335e2963553b",
+  "silent_video_stream_copy": true,
+  "retimed": false,
+  "whole_film_samples": 21,
+  "upper_body_samples": 23,
+  "continuous_human_review": false,
+  "user_acceptance": null
+}

@@ -1,0 +1,161 @@
+MPT_BEGIN Her friend directly behind the camera has called to her after work. Begin from the exact approved first image. She meets the lens, releases her workday tension through her shoulders and lets her warm smile open into a spontaneous happy laugh. One continuous six-second real-time shot. Keep her comfortably in the same place, with a natural weight shift and a relaxed, responsive upper body. A small forward inclination accompanies the laugh, then she returns comfortably upright, still engaged with the viewer. Her hands remain low, relaxed and visible beside the torso; the bag stays on her left shoulder. Preserve the open blazer front, white neckline, waist and straight-trouser silhouette throughout. Keep the exact M03 identity and long wavy brown hair, deep-navy lightweight soft-shouldered blazer, white crewneck cotton tee, charcoal straight trousers, black low-heeled loafers, small black shoulder bag and fine silver necklace. Locked level chest-height 50mm camera; complete hair and both shoes remain visible with normal head-to-body proportions. Keep coherent shaded daylight and rigid office windows, stone wall, bench and paving. Ordinary live-action tempo, grounded balance and responsive fabric. No walking, large arm gesture, spin, camera move, cut or text. PROMPT_END 音訊只有真有開關才關；無法關就保留AAC如實回報，不因音訊重生。完成列實際first/asset_ids、設定接受與否、影片UUID、實際時長／像素／音軌、是否原文傳入。seed、明確模型版本、剩餘額度無欄位就unknown。代理回報、抽樣與QA分開，不宣告物理／身份／接點或成片通過。"
+  - button "顯示更多"
+  - button "在畫布上顯示"
+  - paragraph:
+    - strong: W45 M03 L01 — 一次
+  - heading "三圖核對" [level=3]
+  - table:
+    - rowgroup:
+      - row "角色 UUID 內容":
+        - columnheader "角色"
+        - columnheader "UUID"
+        - columnheader "內容"
+    - rowgroup:
+      - row "first (framing_v2) 2e8df556-7034-4788-92d8-3a769fcdfed3 長棕捲髮；深海軍藍西外／白T／炭灰直褲／黑樂福／黑肩包；辦公遮簷長凳；約中全身 — 相符":
+        - cell "first (framing_v2)"
+        - cell "2e8df556-7034-4788-92d8-3a769fcdfed3":
+          - code: 2e8df556-7034-4788-92d8-3a769fcdfed3
+        - cell "長棕捲髮；深海軍藍西外／白T／炭灰直褲／黑樂福／黑肩包；辦公遮簷長凳；約中全身 — 相符":
+          - text: 長棕捲髮；深海軍藍西外／白T／炭灰直褲／黑樂福／黑肩包；辦公遮簷長凳；約中全身 —
+          - strong: 相符
+      - row "face 26e03f42-2907-488c-b75c-239a2a19b9c8 M03 v3 近臉 — 相符":
+        - cell "face"
+        - cell "26e03f42-2907-488c-b75c-239a2a19b9c8":
+          - code: 26e03f42-2907-488c-b75c-239a2a19b9c8
+        - cell "M03 v3 近臉 — 相符":
+          - text: M03 v3 近臉 —
+          - strong: 相符
+      - row "full 15c720b2-46b6-45e0-a150-60290e3290e6 中性白襯衫／炭灰褲棚拍（比例用） — 相符":
+        - cell "full"
+        - cell "15c720b2-46b6-45e0-a150-60290e3290e6":
+          - code: 15c720b2-46b6-45e0-a150-60290e3290e6
+        - cell "中性白襯衫／炭灰褲棚拍（比例用） — 相符":
+          - text: 中性白襯衫／炭灰褲棚拍（比例用） —
+          - strong: 相符
+  - paragraph: 未用第二套圖；未混衣。
+  - separator
+  - heading "實際傳入" [level=3]
+  - table:
+    - rowgroup:
+      - row "參數 值 接受":
+        - columnheader "參數"
+        - columnheader "值"
+        - columnheader "接受"
+    - rowgroup:
+      - row "first 2e8df556-… 是":
+        - cell "first"
+        - cell "2e8df556-…":
+          - code: 2e8df556-…
+        - cell "是"
+      - row "asset_ids 26e03f42-…、15c720b2-… 是":
+        - cell "asset_ids"
+        - cell "26e03f42-…、15c720b2-…":
+          - code: 26e03f42-…
+          - text: 、
+          - code: 15c720b2-…
+        - cell "是"
+      - row "last / keyframes 未設 —":
+        - cell "last / keyframes"
+        - cell "未設"
+        - cell "—"
+      - row "duration / res / AR \"6\" / \"720p\" / \"9:16\" 是":
+        - cell "duration / res / AR"
+        - cell "\"6\" / \"720p\" / \"9:16\"":
+          - code: "\"6\""
+          - text: /
+          - code: "\"720p\""
+          - text: /
+          - code: "\"9:16\""
+        - cell "是"
+      - row "prompt PROMPT 英文原文逐字 是":
+        - cell "prompt"
+        - cell "PROMPT 英文原文逐字":
+          - text: PROMPT
+          - strong: 英文原文逐字
+        - cell "是"
+      - row "seed / model / 額度 unknown —":
+        - cell "seed / model / 額度"
+        - cell "unknown":
+          - strong: unknown
+        - cell "—"
+  - separator
+  - heading "輸出" [level=3]
+  - table:
+    - rowgroup:
+      - row "項目 實際":
+        - columnheader "項目"
+        - columnheader "實際"
+    - rowgroup:
+      - row "影片 UUID a5cdb89d-a893-4e6d-b5e4-e38c7fcfc3f2":
+        - cell "影片 UUID"
+        - cell "a5cdb89d-a893-4e6d-b5e4-e38c7fcfc3f2":
+          - code: a5cdb89d-a893-4e6d-b5e4-e38c7fcfc3f2
+      - row "時長 6.04 s":
+        - cell "時長"
+        - cell "6.04 s"
+      - row "像素 720×1280":
+        - cell "像素"
+        - cell "720×1280"
+      - row "音軌 有（AAC）":
+        - cell "音軌"
+        - cell "有（AAC）"
+  - separator
+  - heading "抽樣觀察（不宣告 QA 通過）" [level=3]
+  - table:
+    - rowgroup:
+      - row "時間 觀察":
+        - columnheader "時間"
+        - columnheader "觀察"
+    - rowgroup:
+      - row "0s 近站定；藍西外／灰褲可讀；頭鞋在框":
+        - cell "0s"
+        - cell "近站定；藍西外／灰褲可讀；頭鞋在框"
+      - row "~1–2s 向鏡走近／抬步（prompt 要求 no walking；抽樣見跨步）":
+        - cell "~1–2s"
+        - cell "向鏡走近／抬步（prompt 要求 no walking；抽樣見跨步）":
+          - strong: 向鏡走近／抬步
+          - text: （prompt 要求 no walking；抽樣見跨步）
+      - row "~3–4s 仍前移後似站回；大笑對鏡；手偏低":
+        - cell "~3–4s"
+        - cell "仍前移後似站回；大笑對鏡；手偏低"
+      - row "~5s 近站定微笑；裝大致不變":
+        - cell "~5s"
+        - cell "近站定微笑；裝大致不變"
+  - paragraph:
+    - strong: 不
+    - text: 認證「不走路」、物理或成片通過。只此一支。
+  - button "喜歡回應":
+  - button "不喜歡回應":
+  - button "回報問題":
+  - button "新增圖像":
+  - textbox "問 Grok 任何事":
+    - paragraph: 輕鬆輸入，展開想像
+  - button "語音輸入 (Ctrl+D)":
+  - button "傳送" [disabled]:
+  - complementary:
+    - button "檔案":
+    - button "畫布" [pressed]:
+    - button "展開":
+    - button "隱藏畫布":
+    - application:
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+      - generic: HD
+    - button "手工具":
+    - button "生成圖像":
+    - button "生成影片":
+    - button "文字":
+    - button "上傳圖片":
+    - button "縮小":
+    - button "50%, 適合視圖": 50%
+    - button "放大":
+- region "Notifications alt+T"
+- status
+- alert
+- alert

@@ -1,0 +1,11 @@
+{
+  "source_sha256": "6b249dd3eece25149324d4003a56ef961cb18d480ba18a7f668aa0f54b72c446",
+  "crop": [
+    0,
+    720,
+    720,
+    1280
+  ],
+  "sampling": "Every2frames for0–6s foot+ground contact sheets; every4frames full-resolution samples. Same crop for all frames; no alignment, stabilization, tracking or retiming.",
+  "limits": "Screen-coordinate drift includes camera motion; foot world-lock requires same-ground landmark comparison. No metric 3D foot sliding estimate or cause certified."
+}

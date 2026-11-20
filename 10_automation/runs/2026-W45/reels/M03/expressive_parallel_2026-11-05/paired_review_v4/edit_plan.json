@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-05",
+  "status": "prepared",
+  "viewer_purpose": "Compare navy blazer with work trousers/loafers versus cream skirt/sneakers.",
+  "performance": "Playful outfit display addressed to lens. Left shows side/back, bent knee, then waist/hip poses; right shows side-to-front return and skirt movement, then waist/hip poses.",
+  "layout_choice_receipt": "10_automation/runs/2026-W45/reels/M03/expressive_parallel_2026-11-05/paired_review_v1/user_layout_preference_2026-11-05.json",
+  "panels": [
+    {
+      "tag": "l",
+      "intervals": [
+        [
+          126,
+          192
+        ],
+        [
+          0,
+          48
+        ]
+      ],
+      "join": [
+        48,
+        66
+      ]
+    },
+    {
+      "tag": "r",
+      "intervals": [
+        [
+          180,
+          210
+        ],
+        [
+          0,
+          84
+        ]
+      ],
+      "join": [
+        12,
+        30
+      ]
+    }
+  ],
+  "crop_each": [
+    100,
+    0,
+    520,
+    1280
+  ],
+  "panel_width": 356,
+  "gutter": 8,
+  "fps": 24,
+  "frames": 96,
+  "seconds": 4,
+  "overlap_frames_each": 18,
+  "scale_each": 0.6846153846153846,
+  "native_speed": true,
+  "new_stills": 0,
+  "new_video_jobs": 0,
+  "no_freeze_duplicate_reverse_or_warp": true,
+  "known_tradeoff": "Shorter4s edit; full rear skirt turn and high V excluded for narrow-column layout, preserved in sources. Staggered panel dissolves retain one clear outfit panel throughout each join. Not motion-physics repair."
+}

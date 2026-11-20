@@ -1,0 +1,40 @@
+{
+  "output": "10_automation/runs/2026-W46/reels/M01/paired_review_v1/M01_W46_seated_shoe_review_v1.mp4",
+  "sha256": "5bc6da17bd91e1e0b9c0531d0ee89ce708902d5bb0e78269e0cfe3bbbc6ebf16",
+  "fps": 24,
+  "frame_count": 198,
+  "duration_seconds": 8.25,
+  "native_speed": true,
+  "baked_text": false,
+  "audio": false,
+  "transition": "hard cut at frame 132 / 5.50 seconds",
+  "segments": [
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S01_trial_01/source.mp4",
+      "sha256": "ba30f3caa2a6e759c8b83a83f11def52b8306623c31968988d40d0bee35ee33f",
+      "source_frames": [
+        0,
+        132
+      ],
+      "output_frames": [
+        0,
+        132
+      ]
+    },
+    {
+      "path": "10_automation/runs/2026-W46/reels/M01/L01_S02_trial_01/source.mp4",
+      "sha256": "eae5bb41dcfbdce42003c3fab3d71d24ea09e5c46844e1ce88736b9193154909",
+      "source_frames": [
+        0,
+        66
+      ],
+      "output_frames": [
+        132,
+        198
+      ]
+    }
+  ],
+  "status": "review_candidate",
+  "user_acceptance": "pending",
+  "continuous_visual_review": "pending"
+}

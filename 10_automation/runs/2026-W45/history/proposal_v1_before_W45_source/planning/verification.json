@@ -1,0 +1,15 @@
+{
+  "checked_date": "2026-11-03",
+  "planning_structure_errors": 0,
+  "all_plans_require_approval_and_stills": true,
+  "asset_role_rows": 52,
+  "previs_render_samples": 96,
+  "previs_encoded_frames": 86,
+  "previs_total_ms": 8000,
+  "gif_note": "Identical standing frames are merged by the GIF encoder, keeping 8 seconds total. Schematic only, not production footage.",
+  "route_projection_control_points_checked": 5,
+  "local_document_links_broken": [],
+  "visual_review": "Overview, M03 full board, M02 start and route contact sheet sampled by assistant; not generated-motion QA.",
+  "limits": "Schematic composition only; no real image, video, gait, hand or facial QA performed.",
+  "source_pdf_check": "07fW11036\n中央氣象署　１週天氣預報\n發布時間：１１５年１１月　３日１１時　０分\n有效時間：自１１月　３日１２時起至１１月　９日２４時止\n一、天氣概況：\n　　３日東北季風影響，北部及東北部天氣較涼；東半部地區\n　　及恆春半島有局部短暫陣雨，東半部地區並有局部大雨發\n　　生的機率，基隆北海岸及大臺北山區有局部短暫雨，大臺\n　　北地區亦有零星短暫雨，其他地區為多雲"
+}

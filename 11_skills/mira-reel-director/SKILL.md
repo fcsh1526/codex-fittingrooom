@@ -9,6 +9,8 @@ description: >-
 
 # Mira Reel Director
 
+For new films and re-edits, follow [從分鏡到剪輯台](references/directing-to-edit.md). Use the same directing sheet through the timed storyboard, camera blocking, footage selection and rough cut. If the pivotal action fails, revisit what the audience is waiting for before choosing coverage. Use the current film's existing approval scope.
+
 2026-11-11 接續 Reel 前，先核對整片的多個鏡頭是否有不同看點、活潑人物反應及明快節拍，並逐項寫出「停下來、繼續看、記住我們」。六種既有剪輯方法都可按內容選用及組合，左右並排已恢復可選。交接需列整片時間軸、各鏡觀看功能、已具備與缺少素材、未兌現的期待及有效核准範圍。使用者對片段自然度的確認只記在該範圍，整片趣味另行檢查。
 
 Turn a clothing story into a reviewable film design before spending on generated footage.

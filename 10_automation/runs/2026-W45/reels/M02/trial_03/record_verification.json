@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04",
+  "approval_snapshots_unchanged": 18,
+  "trial03_post_media_prompt_match": true,
+  "silent_copy_same_frames_and_timing": true,
+  "prior_wrong_page_claim_corrected": true,
+  "M01_candidate_copied_and_hash_verified": true,
+  "video_outputs": 3,
+  "builtin_still_calls": 3,
+  "weekly_reels_user_accepted": 0,
+  "publication_approval": null,
+  "continuous_human_visual_QA_pass": null,
+  "M01_still_approval": null
+}

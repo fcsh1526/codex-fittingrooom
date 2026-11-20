@@ -1,0 +1,20 @@
+{
+  "week": "2026-W46",
+  "shot": "M01 L01 S02",
+  "date": "2026-11-11",
+  "user_reply": "ok",
+  "status": "generated_downloaded",
+  "first_frame_asset_id": "aec20afe-9b42-4eb1-b5c8-a48e18df533c",
+  "first_frame_path": "10_automation/runs/2026-W46/generated_images/2026-W46-001/looks/2026-W46-001-L01/reel/2026-W46-001-L01_M01_reel_S02_proof_candidate.png",
+  "first_frame_sha256": "d1afa3335a5aa30c20855b1afbda1fb5e0769e5e6b56f4d4da7c26564e0754db",
+  "requested": {
+    "resolution": "720p",
+    "identity_refs": [],
+    "duration_seconds": 6,
+    "ratio": "9:16",
+    "keyframes": [],
+    "count": 1
+  },
+  "video_asset_id": "e0093df0-8e03-4d8a-9fd4-be7cd6849d91",
+  "provider_report": "Agent reported exact first image and requested settings accepted, no identity refs, last or keyframes; source audio AAC. Internal call not directly observed."
+}

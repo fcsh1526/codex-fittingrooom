@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-13",
+  "status": "downloaded_qa_candidate_pending_identity_acceptance",
+  "first_frame_asset_id": "12ed904f-daf6-4dfe-855c-7b33e3aa9ca9",
+  "first_frame_sha256": "c0a8194a638553a0f67a6f8894ad9f9adb28682cbcb77f3fef3ae05b01bed631",
+  "reference_asset_ids": [
+    "6529002e-2cda-47d7-9ff2-24f6ff0daaa4"
+  ],
+  "reference_path": "02_brand/reference_models/M02_start_v3_face.png",
+  "reference_sha256": "b214676fb8b24b77654ac76d12be06a9b6f1101d1fca48083ba3bcbb740706f5",
+  "reference_role": "generic image conditioning plus identity-role prompt; no dedicated face-lock control",
+  "requested": {
+    "duration": 6,
+    "resolution": "720p",
+    "ratio": "9:16",
+    "count": 1,
+    "last": null,
+    "keyframes": []
+  },
+  "primary_change": "Add one approved face reference plus required@id bindings; retain exactfirst, original walking prompt and settings",
+  "capability_evidence": "Current Grok agent reports imagine_reference_to_video schema permits first_frame_asset_id with asset_ids, no independentidentityfield. Schema is agent-reported, not directly exposed to this assistant. No generation during capability query.",
+  "comparison_limits": "Seed and model version unknown. One trial per condition cannot establish causal or repeatability claim.",
+  "authority": "Ongoing repair after user13Nov motion-identity rejection; first still and M02v3 face remain approved.",
+  "video_asset_id": "8a6d8acc-5b4b-4770-9ddb-67eda10a44a3",
+  "observed_media_url": "grok-asset/users/af7e5e27-75c5-45d7-ace5-b0bd4d719ffb/generated/8a6d8acc-5b4b-4770-9ddb-67eda10a44a3/generated_video.mp4",
+  "provider_report": "Agent reports first+nonemptyfaceasset_ids accepted,6.04s720x1280AAC, no fallback tofirst-only. Internal call not directly observed.",
+  "download_attempts": [
+    "CUA downloadMedia timed out and reset kernel; no new generated_video file in Downloads",
+    "existing tab focus and new observed-media tab navigation timed out",
+    "direct static media HTTP returned403 despite allowed elevated download; no cookies extracted",
+    "normal Edge recovery was stopped by Computer Use policy because current URL could not be reliably determined; no furtherUIactions"
+  ],
+  "quality_status": "No local file/decode/playback/identity assessment; must retrieve this exact existing result before any new generation",
+  "do_not_regenerate": true,
+  "download_method": "Grok canvas selected video87 -> visible Download button in existing in-app browser; saved native download. Direct media URL failure did not imply disconnected browser.",
+  "download_path": "C:\\Users\\Brandon_ChangChien\\Downloads\\grok-8a6d8acc-5b4b-4770-9ddb-67eda10a44a3-720p.mp4",
+  "source_sha256": "27de36ebfc5b0a759334e2cc983caa61dad2eeb3dd5f59c5afb73de0063289e3",
+  "local_qa": "decoded and sampled1x playback; identity not yet accepted"
+}

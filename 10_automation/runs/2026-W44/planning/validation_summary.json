@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-27",
+  "version": "v2_source_verified",
+  "plan_checks": [
+    {
+      "series": "01",
+      "errors": 0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    {
+      "series": "02",
+      "errors": 0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    {
+      "series": "03",
+      "errors": 0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    {
+      "series": "04",
+      "errors": 0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    },
+    {
+      "series": "05",
+      "errors": 0,
+      "status": "incomplete",
+      "ready_for_generation": false
+    }
+  ],
+  "source_rows": {
+    "2026-W42": 20,
+    "2026-W43": 20,
+    "2026-W44": 20
+  },
+  "quota": "5 series; M01–M05 each once; 10 complete looks",
+  "visual_review": "Five revised line boards inspected, including dresses and layering, lower-leg proof, red bag/belt and scarf side-knot schematics. Shared-space contact sheet reviewed. Interactive HTML playback not browser-executed; local file protocol access was blocked.",
+  "ai_stills_generated": 0,
+  "approval": "pending; user correction about source connectivity is not plan approval"
+}

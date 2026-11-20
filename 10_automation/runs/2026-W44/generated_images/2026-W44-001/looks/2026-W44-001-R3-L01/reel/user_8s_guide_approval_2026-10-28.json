@@ -1,0 +1,11 @@
+{
+  "actor":"user",
+  "decision":"approved",
+  "scope":"still",
+  "quote":"OK",
+  "recorded_at":"2026-10-28",
+  "file":"S01_8s_column_guide_candidate_A.png",
+  "target_sha256":"a50f31789f24c6bdad56026a938e6bf16035c7f7ea2319b95cdbc0e880fa471c",
+  "question":"請確認這張導引圖；核准後再進行第一段動態測試。",
+  "execution_scope":"Proceed with one S01 motion trial,10s720p9:16,approved start +8.0s guide +M02 identity pictures. No automatic retry, S02 generation, film acceptance or publication inferred."
+}
