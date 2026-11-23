@@ -1,0 +1,95 @@
+{
+  "version": "1.0",
+  "project_id": "cinematic-paper",
+  "pipeline_type": "cinematic",
+  "stage": "proposal",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-23T02:17:17.577683+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "proposal_packet": {
+      "version": "1.0",
+      "concept_options": [
+        {
+          "id": "camera",
+          "title": "\u501f\u4e00\u4e0b\u4f60\u7684\u93e1\u982d",
+          "hook": "\u5979\u767c\u73fe\u670b\u53cb\u6b63\u5728\u62cd\u5979\uff0c\u6703\u600e\u9ebc\u56de\u770b\uff1f",
+          "narrative_structure": "story",
+          "visual_approach": "\u8fd1\u3001\u9060\u3001\u56de\u8fd1\u7684\u8868\u6f14",
+          "why_this_works": "\u80fd\u6e2c\u8a66\u53c3\u8003\u7247\u8207\u93e1\u982d\u4e92\u52d5\u7684\u89aa\u5bc6\u611f\u3002",
+          "target_duration_seconds": 15,
+          "target_platform": "instagram"
+        },
+        {
+          "id": "white",
+          "title": "\u4e00\u5c0f\u89d2\u9727\u767d",
+          "hook": "\u8863\u9818\u88e1\u7684\u9727\u767d\u53bb\u4e86\u54ea\u88e1\uff1f",
+          "narrative_structure": "journey",
+          "visual_approach": "\u5c11\u91cf\u9732\u767d\u3001\u9732\u66f4\u591a\u3001\u6d88\u5931\u3001\u63ed\u958b\u5168\u5957",
+          "why_this_works": "\u5167\u642d\u5728\u7247\u982d\u5c31\u57cb\u597d\uff0c\u80fd\u5728\u7247\u5c3e\u56de\u6536\u3002",
+          "target_duration_seconds": 15,
+          "target_platform": "instagram"
+        },
+        {
+          "id": "wind",
+          "title": "\u540c\u4e00\u9663\u98a8",
+          "hook": "\u98a8\u4f86\u6642\u5169\u7a2e\u9818\u5f62\u600e\u9ebc\u6539\u8b8a\u5074\u81c9\uff1f",
+          "narrative_structure": "comparison",
+          "visual_approach": "\u540c\u5074\u5149\u4e0b\u5c0d\u770b\u4e0d\u540c\u9818\u5f62",
+          "why_this_works": "\u958b\u9818\u548c\u9589\u9818\u90fd\u80fd\u5f9e\u6b77\u53f2\u8a66\u7247\u67e5\u9a57\u3002",
+          "target_duration_seconds": 15,
+          "target_platform": "instagram"
+        }
+      ],
+      "selected_concept": {
+        "concept_id": "white",
+        "rationale": "\u689d\u4ef6\u5f0f\u958b\u767c\uff0c\u9078\u64c7\u7531\u670d\u88dd\u7dda\u7d22\u9a45\u52d5\u7684\u65b9\u6848\u3002"
+      },
+      "production_plan": {
+        "pipeline": "cinematic",
+        "render_runtime": "ffmpeg",
+        "stages": [
+          {
+            "stage": "research",
+            "tools": [],
+            "approach": "IG \u89c0\u5bdf\u53ca\u820a\u6848"
+          },
+          {
+            "stage": "proposal",
+            "tools": [],
+            "approach": "\u4e09\u6848"
+          },
+          {
+            "stage": "script",
+            "tools": [],
+            "approach": "\u9727\u767d\u7684\u56db\u62cd"
+          },
+          {
+            "stage": "scene_plan",
+            "tools": [],
+            "approach": "\u69cb\u5716\u8207\u63a5\u9ede"
+          }
+        ]
+      },
+      "approval": {
+        "status": "pending"
+      },
+      "cost_estimate": {
+        "total_estimated_usd": 0,
+        "line_items": [
+          {
+            "tool": "provider",
+            "operation": "\u7d19\u4e0a\u7a7a\u8dd1\uff0c\u7121\u751f\u6210",
+            "estimated_usd": 0
+          }
+        ],
+        "budget_verdict": "no_budget_set"
+      }
+    }
+  },
+  "metadata": {
+    "external_generation_calls": 0
+  }
+}

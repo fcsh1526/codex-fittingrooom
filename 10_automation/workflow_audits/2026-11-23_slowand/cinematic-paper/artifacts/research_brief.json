@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "topic": "M01 外套與霧白內搭",
+  "research_date": "2026-11-23",
+  "landscape": {
+    "existing_content": [
+      {
+        "title": "slow.and 原片",
+        "url": "https://www.instagram.com/reel/DgCBRVLAmAt/",
+        "source": "原始參考或製作資料",
+        "angle": "slow.and 原片",
+        "what_it_covers": "約36.8秒，從敞領與撥髮、遠近轉身，到閉領側影、陽光下內搭。"
+      },
+      {
+        "title": "W47造型",
+        "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/publishing_structure.md",
+        "source": "原始參考或製作資料",
+        "angle": "W47造型",
+        "what_it_covers": "M01 漏斗領石灰外套搭霧白長袖與深灰直褲。"
+      },
+      {
+        "title": "衣領接點",
+        "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/COLLAR_JOIN_TEST.md",
+        "source": "原始參考或製作資料",
+        "angle": "衣領接點",
+        "what_it_covers": "開與閉可分段，但手位有落差。"
+      },
+      {
+        "title": "原剪",
+        "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+        "source": "原始參考或製作資料",
+        "angle": "原剪",
+        "what_it_covers": "既有迎風、閉領片段可作候選。"
+      }
+    ],
+    "saturated_angles": [],
+    "underserved_gaps": [
+      "既有衣領試剪未把內搭發展成結尾。"
+    ]
+  },
+  "data_points": [
+    {
+      "claim": "約36.8秒，從敞領與撥髮、遠近轉身，到閉領側影、陽光下內搭。",
+      "source_url": "https://www.instagram.com/reel/DgCBRVLAmAt/",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "M01 漏斗領石灰外套搭霧白長袖與深灰直褲。",
+      "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/publishing_structure.md",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "開與閉可分段，但手位有落差。",
+      "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/COLLAR_JOIN_TEST.md",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "既有迎風、閉領片段可作候選。",
+      "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+      "credibility": "primary_source"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "開領時怎麼看見內搭？",
+      "閉領會怎麼框住下顎？",
+      "外套離身後全套比例如何？"
+    ],
+    "misconceptions": [],
+    "knowledge_level": "依共同簡報推導的編輯問題"
+  },
+  "angles_discovered": [
+    {
+      "name": "借一下你的鏡頭",
+      "hook": "她發現朋友正在拍她，會怎麼回看？",
+      "type": "narrative",
+      "why_now": "能測試參考片與鏡頭互動的親密感。"
+    },
+    {
+      "name": "一小角霧白",
+      "hook": "衣領裡的霧白去了哪裡？",
+      "type": "narrative",
+      "why_now": "內搭在片頭就埋好，能在片尾回收。"
+    },
+    {
+      "name": "同一陣風",
+      "hook": "風來時兩種領形怎麼改變側臉？",
+      "type": "narrative",
+      "why_now": "開領和閉領都能從歷史試片查驗。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "slow.and 原片",
+      "url": "https://www.instagram.com/reel/DgCBRVLAmAt/",
+      "used_for": "約36.8秒，從敞領與撥髮、遠近轉身，到閉領側影、陽光下內搭。"
+    },
+    {
+      "title": "W47造型",
+      "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/publishing_structure.md",
+      "used_for": "M01 漏斗領石灰外套搭霧白長袖與深灰直褲。"
+    },
+    {
+      "title": "衣領接點",
+      "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/COLLAR_JOIN_TEST.md",
+      "used_for": "開與閉可分段，但手位有落差。"
+    },
+    {
+      "title": "原剪",
+      "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+      "used_for": "既有迎風、閉領片段可作候選。"
+    },
+    {
+      "title": "導演檢查",
+      "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/11_skills/mira-reel-director/references/production-checkpoints.md",
+      "used_for": "開場要有讓人繼續看的目的及其回收。"
+    }
+  ]
+}

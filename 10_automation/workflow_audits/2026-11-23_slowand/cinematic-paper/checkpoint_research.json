@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "project_id": "cinematic-paper",
+  "pipeline_type": "cinematic",
+  "stage": "research",
+  "status": "completed",
+  "timestamp": "2026-11-23T02:17:17.474408+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "research_brief": {
+      "version": "1.0",
+      "topic": "M01 \u5916\u5957\u8207\u9727\u767d\u5167\u642d",
+      "research_date": "2026-11-23",
+      "landscape": {
+        "existing_content": [
+          {
+            "title": "slow.and \u539f\u7247",
+            "url": "https://www.instagram.com/reel/DgCBRVLAmAt/",
+            "source": "\u539f\u59cb\u53c3\u8003\u6216\u88fd\u4f5c\u8cc7\u6599",
+            "angle": "slow.and \u539f\u7247",
+            "what_it_covers": "\u7d0436.8\u79d2\uff0c\u5f9e\u655e\u9818\u8207\u64a5\u9aee\u3001\u9060\u8fd1\u8f49\u8eab\uff0c\u5230\u9589\u9818\u5074\u5f71\u3001\u967d\u5149\u4e0b\u5167\u642d\u3002"
+          },
+          {
+            "title": "W47\u9020\u578b",
+            "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/publishing_structure.md",
+            "source": "\u539f\u59cb\u53c3\u8003\u6216\u88fd\u4f5c\u8cc7\u6599",
+            "angle": "W47\u9020\u578b",
+            "what_it_covers": "M01 \u6f0f\u6597\u9818\u77f3\u7070\u5916\u5957\u642d\u9727\u767d\u9577\u8896\u8207\u6df1\u7070\u76f4\u8932\u3002"
+          },
+          {
+            "title": "\u8863\u9818\u63a5\u9ede",
+            "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/COLLAR_JOIN_TEST.md",
+            "source": "\u539f\u59cb\u53c3\u8003\u6216\u88fd\u4f5c\u8cc7\u6599",
+            "angle": "\u8863\u9818\u63a5\u9ede",
+            "what_it_covers": "\u958b\u8207\u9589\u53ef\u5206\u6bb5\uff0c\u4f46\u624b\u4f4d\u6709\u843d\u5dee\u3002"
+          },
+          {
+            "title": "\u539f\u526a",
+            "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+            "source": "\u539f\u59cb\u53c3\u8003\u6216\u88fd\u4f5c\u8cc7\u6599",
+            "angle": "\u539f\u526a",
+            "what_it_covers": "\u65e2\u6709\u8fce\u98a8\u3001\u9589\u9818\u7247\u6bb5\u53ef\u4f5c\u5019\u9078\u3002"
+          }
+        ],
+        "saturated_angles": [],
+        "underserved_gaps": [
+          "\u65e2\u6709\u8863\u9818\u8a66\u526a\u672a\u628a\u5167\u642d\u767c\u5c55\u6210\u7d50\u5c3e\u3002"
+        ]
+      },
+      "data_points": [
+        {
+          "claim": "\u7d0436.8\u79d2\uff0c\u5f9e\u655e\u9818\u8207\u64a5\u9aee\u3001\u9060\u8fd1\u8f49\u8eab\uff0c\u5230\u9589\u9818\u5074\u5f71\u3001\u967d\u5149\u4e0b\u5167\u642d\u3002",
+          "source_url": "https://www.instagram.com/reel/DgCBRVLAmAt/",
+          "credibility": "primary_source"
+        },
+        {
+          "claim": "M01 \u6f0f\u6597\u9818\u77f3\u7070\u5916\u5957\u642d\u9727\u767d\u9577\u8896\u8207\u6df1\u7070\u76f4\u8932\u3002",
+          "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/publishing_structure.md",
+          "credibility": "primary_source"
+        },
+        {
+          "claim": "\u958b\u8207\u9589\u53ef\u5206\u6bb5\uff0c\u4f46\u624b\u4f4d\u6709\u843d\u5dee\u3002",
+          "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/COLLAR_JOIN_TEST.md",
+          "credibility": "primary_source"
+        },
+        {
+          "claim": "\u65e2\u6709\u8fce\u98a8\u3001\u9589\u9818\u7247\u6bb5\u53ef\u4f5c\u5019\u9078\u3002",
+          "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+          "credibility": "primary_source"
+        }
+      ],
+      "audience_insights": {
+        "common_questions": [
+          "\u958b\u9818\u6642\u600e\u9ebc\u770b\u898b\u5167\u642d\uff1f",
+          "\u9589\u9818\u6703\u600e\u9ebc\u6846\u4f4f\u4e0b\u984e\uff1f",
+          "\u5916\u5957\u96e2\u8eab\u5f8c\u5168\u5957\u6bd4\u4f8b\u5982\u4f55\uff1f"
+        ],
+        "misconceptions": [],
+        "knowledge_level": "\u4f9d\u5171\u540c\u7c21\u5831\u63a8\u5c0e\u7684\u7de8\u8f2f\u554f\u984c"
+      },
+      "angles_discovered": [
+        {
+          "name": "\u501f\u4e00\u4e0b\u4f60\u7684\u93e1\u982d",
+          "hook": "\u5979\u767c\u73fe\u670b\u53cb\u6b63\u5728\u62cd\u5979\uff0c\u6703\u600e\u9ebc\u56de\u770b\uff1f",
+          "type": "narrative",
+          "why_now": "\u80fd\u6e2c\u8a66\u53c3\u8003\u7247\u8207\u93e1\u982d\u4e92\u52d5\u7684\u89aa\u5bc6\u611f\u3002"
+        },
+        {
+          "name": "\u4e00\u5c0f\u89d2\u9727\u767d",
+          "hook": "\u8863\u9818\u88e1\u7684\u9727\u767d\u53bb\u4e86\u54ea\u88e1\uff1f",
+          "type": "narrative",
+          "why_now": "\u5167\u642d\u5728\u7247\u982d\u5c31\u57cb\u597d\uff0c\u80fd\u5728\u7247\u5c3e\u56de\u6536\u3002"
+        },
+        {
+          "name": "\u540c\u4e00\u9663\u98a8",
+          "hook": "\u98a8\u4f86\u6642\u5169\u7a2e\u9818\u5f62\u600e\u9ebc\u6539\u8b8a\u5074\u81c9\uff1f",
+          "type": "narrative",
+          "why_now": "\u958b\u9818\u548c\u9589\u9818\u90fd\u80fd\u5f9e\u6b77\u53f2\u8a66\u7247\u67e5\u9a57\u3002"
+        }
+      ],
+      "sources": [
+        {
+          "title": "slow.and \u539f\u7247",
+          "url": "https://www.instagram.com/reel/DgCBRVLAmAt/",
+          "used_for": "\u7d0436.8\u79d2\uff0c\u5f9e\u655e\u9818\u8207\u64a5\u9aee\u3001\u9060\u8fd1\u8f49\u8eab\uff0c\u5230\u9589\u9818\u5074\u5f71\u3001\u967d\u5149\u4e0b\u5167\u642d\u3002"
+        },
+        {
+          "title": "W47\u9020\u578b",
+          "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/publishing_structure.md",
+          "used_for": "M01 \u6f0f\u6597\u9818\u77f3\u7070\u5916\u5957\u642d\u9727\u767d\u9577\u8896\u8207\u6df1\u7070\u76f4\u8932\u3002"
+        },
+        {
+          "title": "\u8863\u9818\u63a5\u9ede",
+          "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/COLLAR_JOIN_TEST.md",
+          "used_for": "\u958b\u8207\u9589\u53ef\u5206\u6bb5\uff0c\u4f46\u624b\u4f4d\u6709\u843d\u5dee\u3002"
+        },
+        {
+          "title": "\u539f\u526a",
+          "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/10_automation/runs/2026-W47/reels/M01/full_edit_v1/REVIEW.md",
+          "used_for": "\u65e2\u6709\u8fce\u98a8\u3001\u9589\u9818\u7247\u6bb5\u53ef\u4f5c\u5019\u9078\u3002"
+        },
+        {
+          "title": "\u5c0e\u6f14\u6aa2\u67e5",
+          "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/68a7cf3/11_skills/mira-reel-director/references/production-checkpoints.md",
+          "used_for": "\u958b\u5834\u8981\u6709\u8b93\u4eba\u7e7c\u7e8c\u770b\u7684\u76ee\u7684\u53ca\u5176\u56de\u6536\u3002"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "external_generation_calls": 0
+  }
+}

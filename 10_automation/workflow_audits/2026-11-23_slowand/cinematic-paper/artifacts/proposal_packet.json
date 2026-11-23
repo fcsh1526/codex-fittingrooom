@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "camera",
+      "title": "借一下你的鏡頭",
+      "hook": "她發現朋友正在拍她，會怎麼回看？",
+      "narrative_structure": "story",
+      "visual_approach": "近、遠、回近的表演",
+      "why_this_works": "能測試參考片與鏡頭互動的親密感。",
+      "target_duration_seconds": 15,
+      "target_platform": "instagram"
+    },
+    {
+      "id": "white",
+      "title": "一小角霧白",
+      "hook": "衣領裡的霧白去了哪裡？",
+      "narrative_structure": "journey",
+      "visual_approach": "少量露白、露更多、消失、揭開全套",
+      "why_this_works": "內搭在片頭就埋好，能在片尾回收。",
+      "target_duration_seconds": 15,
+      "target_platform": "instagram"
+    },
+    {
+      "id": "wind",
+      "title": "同一陣風",
+      "hook": "風來時兩種領形怎麼改變側臉？",
+      "narrative_structure": "comparison",
+      "visual_approach": "同側光下對看不同領形",
+      "why_this_works": "開領和閉領都能從歷史試片查驗。",
+      "target_duration_seconds": 15,
+      "target_platform": "instagram"
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "white",
+    "rationale": "條件式開發，選擇由服裝線索驅動的方案。"
+  },
+  "production_plan": {
+    "pipeline": "cinematic",
+    "render_runtime": "ffmpeg",
+    "stages": [
+      {
+        "stage": "research",
+        "tools": [],
+        "approach": "IG 觀察及舊案"
+      },
+      {
+        "stage": "proposal",
+        "tools": [],
+        "approach": "三案"
+      },
+      {
+        "stage": "script",
+        "tools": [],
+        "approach": "霧白的四拍"
+      },
+      {
+        "stage": "scene_plan",
+        "tools": [],
+        "approach": "構圖與接點"
+      }
+    ]
+  },
+  "approval": {
+    "status": "pending"
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0,
+    "line_items": [
+      {
+        "tool": "provider",
+        "operation": "紙上空跑，無生成",
+        "estimated_usd": 0
+      }
+    ],
+    "budget_verdict": "no_budget_set"
+  }
+}
