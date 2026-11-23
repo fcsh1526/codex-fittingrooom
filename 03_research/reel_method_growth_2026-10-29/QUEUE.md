@@ -1,5 +1,9 @@
 # 方法研究與製作佇列 — 2026-10-29
 
+## 下一個雙流程測試 · 2026-11-23
+
+[Instagram Reel Df6_nBeA1eq](https://www.instagram.com/reel/Df6_nBeA1eq/) 已列入下一次 Mira／OpenMontage 文字空跑。狀態為待看片、待測試。
+
 ## 現行摘要 — 2026-11-03
 
 過街A/B已完成並收到比較：B優先參考，A的雙向察看也合理；無新增生成／發布核准，不再列待做或待比較。M01舊修正版的重複待審撤回。執行指引已接入 [情境表演與參考拆解](../../11_skills/mira-reel-director/references/performance-and-reference.md)。目前任務是工作流更新；新內容按最近明確提案與既有授權接續，不自動回到下方舊M02首支提案。
