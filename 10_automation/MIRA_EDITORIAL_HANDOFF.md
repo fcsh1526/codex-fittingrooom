@@ -1,5 +1,7 @@
 # Mira 跨週編輯交接
 
+2026-11-26｜下一支 IG 參考仍待看片；[雙流程測試計畫](../03_research/reel_method_growth_2026-10-29/QUEUE.md)已補入共同簡報、各自選案、實際順序留存及逐拍評閱方式。
+
 2026-11-23｜[slow.and 參考片與雙流程文字空跑](workflow_audits/2026-11-23_slowand/READOUT.md)。已沿用 IG 原分頁播放核對，改用 W47 M01 漏斗領 L01。Mira 展開迎風人物反應，cinematic 比較三案後假設以霧白內搭作揭曉。研究已記錄，提案待選，兩案皆未生成。W48 週發布結構尚未建立。
 
 2026-11-20｜本輪先調整 Reel 分鏡、導演與剪輯工作流。W47 M01 最新製作紀錄是 11/19 的 4.67 秒 v3，待整片回饋。另有[工作流回驗與四格預演](workflow_audits/2026-11-20_directing/REVIEW.md)供接手參照；下支企劃從[導演工作表](../11_skills/mira-reel-director/assets/director-sheet.template.md)或同內容的既有拍攝卡開始。
