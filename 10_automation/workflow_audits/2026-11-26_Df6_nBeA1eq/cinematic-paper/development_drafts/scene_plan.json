@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "scenes": [
+    {
+      "id": "S1",
+      "start_seconds": 0.0,
+      "end_seconds": 2.0,
+      "script_section_id": "B1",
+      "type": "character_scene",
+      "description": "膝高正面近景，霧面亮窗下方一條窄深直框佔畫面右三分之一。紗的自由側邊疊在框上，炭灰褲管稍偏左。開場就讓細線跨越裸露背景與半透明紗。",
+      "shot_intent": "一粒木音引人注意，無旁白。"
+    },
+    {
+      "id": "S2",
+      "start_seconds": 2.0,
+      "end_seconds": 5.0,
+      "script_section_id": "B2",
+      "type": "character_scene",
+      "description": "保留同一鎖定機位。她向右小幅移重心，紗移、直框不移。停留讓觀眾能自行比對。右手的黑包放在腰側，避開膝下示範區。",
+      "shot_intent": "第二粒木音落在紗邊越過直線時。"
+    },
+    {
+      "id": "S3",
+      "start_seconds": 5.0,
+      "end_seconds": 8.0,
+      "script_section_id": "B3",
+      "type": "character_scene",
+      "description": "延用同鏡走完半步，炭灰褲遮住框的一段，旁邊垂下的黑紗仍透出框。保留同畫面兩個對照區至少一秒，才切遠。",
+      "shot_intent": "褲管遮框時抽掉木音，留環境底聲。"
+    },
+    {
+      "id": "S4",
+      "start_seconds": 8.0,
+      "end_seconds": 12.0,
+      "script_section_id": "B4",
+      "type": "character_scene",
+      "description": "硬切眼平正面全身，同一窗框仍在右方。M05 抬頭笑，鞋與上衣均留在安全畫幅內。最後兩秒靜讀全套及背後長窗框。",
+      "shot_intent": "全身切入後兩音補全樂句，停穩收尾。"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "topic": "黑紗罩裙壓在深褲上，怎樣看清兩層？",
+  "research_date": "2026-11-26",
+  "landscape": {
+    "existing_content": [
+      {
+        "title": "slow.and 指定原片",
+        "url": "https://www.instagram.com/reel/Df6_nBeA1eq/",
+        "source": "原片／版本文件",
+        "angle": "slow.and 指定原片",
+        "what_it_covers": "31.1 秒，多場地全貌與門襟局部交替。"
+      },
+      {
+        "title": "W47 週企劃",
+        "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/8d78f014e4a46918dc6b64fdbe92d15cd9669187/10_automation/runs/2026-W47/publishing_structure.md",
+        "source": "原片／版本文件",
+        "angle": "W47 週企劃",
+        "what_it_covers": "M05 L02 是黑紗罩裙和炭灰不透直褲。"
+      },
+      {
+        "title": "Mira 導演檢查",
+        "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/8d78f014e4a46918dc6b64fdbe92d15cd9669187/11_skills/mira-reel-director/references/production-checkpoints.md",
+        "source": "原片／版本文件",
+        "angle": "Mira 導演檢查",
+        "what_it_covers": "觀看目的要在指定鏡頭得到回收。"
+      }
+    ],
+    "saturated_angles": [],
+    "underserved_gaps": [
+      "靜止全黑造型難以看出紗邊與褲管。"
+    ]
+  },
+  "data_points": [
+    {
+      "claim": "31.1 秒，多場地全貌與門襟局部交替。",
+      "source_url": "https://www.instagram.com/reel/Df6_nBeA1eq/",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "M05 L02 是黑紗罩裙和炭灰不透直褲。",
+      "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/8d78f014e4a46918dc6b64fdbe92d15cd9669187/10_automation/runs/2026-W47/publishing_structure.md",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "觀看目的要在指定鏡頭得到回收。",
+      "source_url": "https://github.com/fcsh1526/codex-fittingrooom/blob/8d78f014e4a46918dc6b64fdbe92d15cd9669187/11_skills/mira-reel-director/references/production-checkpoints.md",
+      "credibility": "primary_source"
+    },
+    {
+      "claim": "動作中切鏡與聲音跨切是可選方法。",
+      "source_url": "https://www.adobe.com/creativecloud/video/post-production/cuts-in-film",
+      "credibility": "primary_source"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "哪一層透？",
+      "深色穿在一起能分清嗎？",
+      "全身比例如何？"
+    ],
+    "misconceptions": [],
+    "knowledge_level": "編輯依共同簡報假設"
+  },
+  "angles_discovered": [
+    {
+      "name": "窗框去哪了",
+      "hook": "為什麼同一條線在她身旁出現，在腿邊消失？",
+      "type": "narrative",
+      "why_now": "靜音也有外部參照可辨認。"
+    },
+    {
+      "name": "一步之後",
+      "hook": "人停了，為什麼黑色還在動？",
+      "type": "narrative",
+      "why_now": "可用動作辨材質，依賴布料物理。"
+    },
+    {
+      "name": "朋友替她拍失敗了",
+      "hook": "她看照片後為什麼挪位置？",
+      "type": "narrative",
+      "why_now": "有情境與笑意，但需手機及額外構圖。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "slow.and 指定原片",
+      "url": "https://www.instagram.com/reel/Df6_nBeA1eq/",
+      "used_for": "31.1 秒，多場地全貌與門襟局部交替。"
+    },
+    {
+      "title": "W47 週企劃",
+      "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/8d78f014e4a46918dc6b64fdbe92d15cd9669187/10_automation/runs/2026-W47/publishing_structure.md",
+      "used_for": "M05 L02 是黑紗罩裙和炭灰不透直褲。"
+    },
+    {
+      "title": "Mira 導演檢查",
+      "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/8d78f014e4a46918dc6b64fdbe92d15cd9669187/11_skills/mira-reel-director/references/production-checkpoints.md",
+      "used_for": "觀看目的要在指定鏡頭得到回收。"
+    },
+    {
+      "title": "Adobe 剪輯說明",
+      "url": "https://www.adobe.com/creativecloud/video/post-production/cuts-in-film",
+      "used_for": "動作中切鏡與聲音跨切是可選方法。"
+    },
+    {
+      "title": "試驗計畫",
+      "url": "https://github.com/fcsh1526/codex-fittingrooom/blob/8d78f014e4a46918dc6b64fdbe92d15cd9669187/03_research/reel_method_growth_2026-10-29/QUEUE.md",
+      "used_for": "共用簡報，先存首選，再逐拍比較。"
+    }
+  ],
+  "metadata": {
+    "search_queries_executed": 8,
+    "reference_context": "原片用外套的場合與局部切換；本案改用單一場地清楚呈現重疊。"
+  }
+}

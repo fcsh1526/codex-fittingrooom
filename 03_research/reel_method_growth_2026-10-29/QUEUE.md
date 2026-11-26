@@ -2,7 +2,7 @@
 
 ## 下一個雙流程測試 · 2026-11-23
 
-[Instagram Reel Df6_nBeA1eq](https://www.instagram.com/reel/Df6_nBeA1eq/) 已列入下一次 Mira／OpenMontage 文字空跑。狀態為待看片、待測試。
+[Instagram Reel Df6_nBeA1eq](https://www.instagram.com/reel/Df6_nBeA1eq/) 已完成 11/26 看片與雙流程文字測試。借 W47 M05 L02 同題比較，兩個首選與逐拍推導見[試驗結果](../../10_automation/workflow_audits/2026-11-26_Df6_nBeA1eq/READOUT.md)。正式製作與選案另計。
 
 ### 2026-11-26 計畫修訂 · 下次執行時使用
 

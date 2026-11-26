@@ -1,0 +1,83 @@
+{
+  "version": "1.0",
+  "concept_options": [
+    {
+      "id": "line",
+      "title": "窗框去哪了",
+      "hook": "為什麼同一條線在她身旁出現，在腿邊消失？",
+      "narrative_structure": "comparison",
+      "visual_approach": "兩種材質用同一條深線測試；短木音與留白。",
+      "why_this_works": "靜音也有外部參照可辨認。",
+      "target_duration_seconds": 12,
+      "target_platform": "instagram"
+    },
+    {
+      "id": "step",
+      "title": "一步之後",
+      "hook": "人停了，為什麼黑色還在動？",
+      "narrative_structure": "journey",
+      "visual_approach": "鞋先停，紗後停；最後回全身。",
+      "why_this_works": "可用動作辨材質，依賴布料物理。",
+      "target_duration_seconds": 12,
+      "target_platform": "instagram"
+    },
+    {
+      "id": "photo",
+      "title": "朋友替她拍失敗了",
+      "hook": "她看照片後為什麼挪位置？",
+      "narrative_structure": "problem_solution",
+      "visual_approach": "剪影到亮處；兩聲快門。",
+      "why_this_works": "有情境與笑意，但需手機及額外構圖。",
+      "target_duration_seconds": 12,
+      "target_platform": "instagram"
+    }
+  ],
+  "selected_concept": {
+    "concept_id": "line",
+    "rationale": "靜音也有外部參照可辨認。"
+  },
+  "production_plan": {
+    "pipeline": "cinematic",
+    "render_runtime": "ffmpeg",
+    "stages": [
+      {
+        "stage": "research",
+        "tools": [],
+        "approach": "原片、週資料與方法查詢"
+      },
+      {
+        "stage": "proposal",
+        "tools": [],
+        "approach": "三種情緒與機制"
+      },
+      {
+        "stage": "script",
+        "tools": [],
+        "approach": "假設首選，僅開發稿"
+      },
+      {
+        "stage": "scene_plan",
+        "tools": [],
+        "approach": "拆解構圖與接點"
+      }
+    ]
+  },
+  "cost_estimate": {
+    "total_estimated_usd": 0,
+    "line_items": [
+      {
+        "tool": "generation providers",
+        "operation": "本輪文字試驗",
+        "estimated_usd": 0
+      }
+    ],
+    "budget_verdict": "no_budget_set"
+  },
+  "approval": {
+    "status": "pending"
+  },
+  "metadata": {
+    "motion_required": true,
+    "delivery_promise": "此輪交付文字。未來成片需要 M05 的真實動態；素材、品質、音樂及渲染待確認。"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "title": "窗框去哪了",
+  "total_duration_seconds": 12,
+  "sections": [
+    {
+      "id": "B1",
+      "start_seconds": 0.0,
+      "end_seconds": 2.0,
+      "text": "M05 在窗邊等朋友拍照，低頭發現裙邊有一截深線，好像是衣服上的花紋。"
+    },
+    {
+      "id": "B2",
+      "start_seconds": 2.0,
+      "end_seconds": 5.0,
+      "text": "她好奇地移動一點。黑紗跟著她走，那條線卻留在原地。"
+    },
+    {
+      "id": "B3",
+      "start_seconds": 5.0,
+      "end_seconds": 8.0,
+      "text": "她再移半步，炭灰褲管遮住細線。等她站穩，紗邊仍能透出同一條線，兩層的差異有了答案。"
+    },
+    {
+      "id": "B4",
+      "start_seconds": 8.0,
+      "end_seconds": 12.0,
+      "text": "她抬眼對朋友笑，安心站好。現在從上衣、裙到鞋都看得清，那截「花紋」原來屬於窗框。"
+    }
+  ],
+  "metadata": {
+    "human_approved": false
+  }
+}
