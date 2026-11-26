@@ -33,3 +33,15 @@
 日本 PARIGOT 冬季型錄印刷頁 02 有 Chika Kisada 黑紗裙搭 RED CARD TOKYO 牛仔褲的全身造型，可對照兩種面料在自然站姿下如何區分。[品牌型錄](https://www.parigot.co.jp/uploads/2024/09/WOMEN-24-WNTER.pdf#page=2)
 
 編輯建議為黑色薄紗過膝裙配洗灰直筒牛仔褲，保留奶油白上衣與黑低跟鞋。若續作，先以全身比例確認裙襬、褲管和鞋面，再選窗框位置。建議限本套；本次只複審，兩版均未取得使用者定裝確認。
+
+## 洗灰丹寧全身定裝候選 v1
+
+使用者同意先看全身比例。ImageGen 以 M05 v1 已核准的正臉及全身圖為身份與比例參照，完成一張素背景定裝照。黑紗下可辨識五袋褲的袋口、金屬鈕與大腿洗色；過膝紗襬下方露出一段較亮的灰色褲管。雙鞋完整入鏡，褲腳停在腳踝附近，露出腳背，較原訂剛碰鞋面的長度稍短。本圖待使用者確認，窗框分鏡與動態尚待接續。
+
+本機圖檔 `M05_L02_washed_denim_full_v1.png`，941 × 1672，SHA-256 `0fba2b82738919875732fb0c533b7660c52a5541da5f67c75446d48ae997674b`。
+
+<details><summary>定裝照生成提示</summary>
+
+One photoreal vertical 9:16 full-length Mira fashion fitting photograph. Ref 1 gives the identity and hair of adult M05, ref 2 her body proportions. Dress her afresh: a slim cream crewneck fine-knit long-sleeved top tucked into medium washed charcoal grey straight-leg five-pocket cotton JEANS with visible twill, subtle faded thighs, curved pocket stitching and a stitched fly. Over the jeans she wears a separate, single layer of very sheer black fine mesh, a softly draping slightly A-line midi overskirt with a narrow flat waistband and fine hem just below knees to upper calf. The grey denim's subtle wash, seam, and pocket should remain distinguishable through the sheer black front. No lining, embellishment, ruffles or stiff flaring tulle. Jeans hems just brush the uppers of her black low-heeled leather shoes with no pooling. Small black handheld bag resting beside her thigh, small silver hoops. Standing naturally with one foot a little forward, both shoes separated, no fabric held up. Plain warm light grey wall, soft side daylight, level front view with full head and shoes, comfortable frame margins, natural skin and textile texture. One unlettered editorial wardrobe proof, no windows, graphics or logos.
+
+</details>
