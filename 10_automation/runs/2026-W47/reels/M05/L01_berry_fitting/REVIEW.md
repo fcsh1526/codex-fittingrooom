@@ -1,5 +1,21 @@
 # M05 L01 深莓紅紗裙全身定裝 v1
 
+## 動態收尾與配樂試剪 v2
+
+使用者看過 6.5 秒節奏試剪後回覆「ok」。依此接續補全身動態，使用已核准全身定裝 v1 作唯一首幀，單次 Grok 生成 6 秒／720p／音訊關閉。提示指定站定、放鬆肩膀、對鏡頭漸露閉唇微笑。原片 `M05_L01_full_smile_v1.mp4`，SHA-256 `159763871cb4237a56d1652dccac58523e955204188d2ea3f2942d05143f4f88`；識別 `ced72bf1-e648-480c-b27f-747bc495afcc`。實際 720 × 1264，24 fps，145 格，6.04 秒，無音軌。
+
+全身原片已解碼、每半秒抽格，並在 Grok 以 1 倍速觀察完整循環。腳從首幀的稍錯開站姿收到較併攏，隨後停穩；面向鏡頭微笑，包仍在同一手。頭與雙鞋完整入鏡。身份觀感待使用者對精確動態確認。
+
+試剪 v2 沿用前版的前兩段，4.5 秒接全身原片 [24,96)，收尾三秒，總長 7.5 秒／180 格。全身段在素牆前，與窗邊特寫作明確景別與場地切換。原創配樂草稿用五個淡入衰減音符與低音底聲，音符在 0.05／1.5／3／4.5／6 秒落點，供本版試聽。[重製程式與音色參數](render_hem_edit.py)
+
+匯出 `M05_L01_hem_edit_v2.mp4`，720 × 1280，24 fps，H.264＋AAC，7.5 秒，SHA-256 `73abeccff7d86ee3272dc3f27ee460ab3f7d8f6d8503b496ecbcb1d15d896275`。已完整解碼。兩支來源均經原速觀看，匯出整片的連續原速複核尚待完成。內建瀏覽器無法連到本機預覽，轉用本機 Edge 時偵測使用者輸入，因此停止該視窗操作。配樂已編碼核對，實際聽感待確認。使用者接受與發布仍待後續。
+
+<details><summary>全身動態實際提示</summary>
+
+Six-second full-length fashion portrait from this exact image. She has just settled into position for a friend taking her picture. Keeping both feet planted, she relaxes her shoulders, looks warmly at the camera and gradually gives a small natural closed-lip smile. One gentle blink, subtle breathing. Her handbag hangs quietly in the same hand. The berry chiffon falls softly, showing the shorter opaque lining. Static tripod, same full head-to-shoes framing and soft grey wall. Preserve her face, short hair, outfit, skirt lengths and shoes exactly. Calm finish with two seconds of steady smiling eye contact.
+
+</details>
+
 ## 兩層裙襬節奏試剪 v1
 
 使用者看完 v2 結果後回覆「ok」，接續以現有素材調整分鏡。觀看目的改為在起步時看見薄紗下襬和內裙的不同長度及擺動，最後看完整穿搭。第一眼以正面兩層下襬吸引注意，起步時切近保留步相，收尾回到全身讀衣。本次為現有素材粗剪，只涉及本支 M05 的方法修正。
