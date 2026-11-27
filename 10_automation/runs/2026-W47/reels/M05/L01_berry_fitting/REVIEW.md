@@ -1,5 +1,15 @@
 # M05 L01 深莓紅紗裙全身定裝 v1
 
+## 11/27 合併版發布核准與 Drive 交付
+
+使用者看過 19.5 秒合併版後回覆「這片可以，放入drive連同文案，可以發IG」。核准對象為本頁窗框接裙襬的 v1 匯出。已原檔交付 [W47 成片](https://drive.google.com/file/d/1O1tyhK8UvyBYDoa_iIl3LFe1hYW4lZtO/view?usp=drivesdk) 與 [IG Reel 文案](https://docs.google.com/document/d/10K7URHFCxFq_4kOAySk-GACDz1lzllw1a6q-vOEAuFs/edit)。兩者均核對位於 [800.Codex IG／2026-W47](https://drive.google.com/drive/folders/1vQhzg7Bih3JcC7Q_iSlNQ7hEStvW-Eax)。影片大小 5,314,243 位元組與本機一致，Google Docs 正文已回讀。IG 狀態為可發布、待手動發文，貼文網址與時間尚無。
+
+**W47／M05 L01／Reel 貼文內文**
+
+想穿薄紗裙，可以選有同色內裡的款式，把透膚的地方留在膝下。
+
+窗框透過莓紅色裙襬隱約可見。走起來，外層的紗會比內裙多晃一下。
+
 ## 11/27 《窗框去哪了》19.5 秒合併版 v1
 
 使用者指定將 B 的 12 秒窗框揭曉接上先前接受的 7.5 秒裙襬版，讓觀眾看懂窗框後，接著看同一條裙子走動與全身造型。沿用完整兩段和各自配樂，12.000 秒直接切入動態。首段採 [B 窗框預演](../../../../../workflow_audits/2026-11-26_Df6_nBeA1eq/READOUT.md) 的數位運鏡，後段採本頁 hem_edit_v2。兩段同窗位的構圖接近，末段回素牆全身微笑。此剪法適用於本片；Mira 的 A 案仍獨立。
