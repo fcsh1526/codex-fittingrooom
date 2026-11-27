@@ -37,3 +37,17 @@ One continuous six-second locked-off fashion shot starting exactly from the atta
 Create one vertical 9:16 photoreal fashion-film opening still, a location and framing edit of the supplied approved full-length outfit photo. Preserve exact deep berry red midi outer chiffon, matching opaque knee length slip, waistband, black knit and black square bag in her right hand (image left), same black bow ballet flats, leg proportions. Crop from below bust to whole shoes with floor margin. Straight-on locked camera facing large softly glowing frosted window. ONE straight narrow charcoal vertical mullion behind her slightly right of her center but left of her skirt's right outer edge, at x roughly 60% frame: place both her calves a little LEFT of that line. This aligned background bar must be very clearly visible unobstructed between the skirt hem and the stone floor; trace the same bar upwards through just the sheer band below the slip, muted by red chiffon; then it disappears cleanly at the opaque slip hem. Visually obvious vertical continuity at exactly the same x, perpendicular to floor. The bar is behind the fabric, no stripe printed on fabric, no bar or stripe across opaque fabric. Natural relaxed standing position, right edge of composition has breathing room for a small lateral step, soft sidelight preserves deep berry color with no silhouette, no lifting skirt, single photograph, no text or arrows.
 
 </details>
+
+## 半步短測 v2 與分鏡調整
+
+使用者看完第一次短測回覆「ok」。沿用同一核准首圖，第二次僅調整表演指示，縮為保持正面、往畫面右方 15 cm 的一步。Grok 實際設定 6 秒、720p、關閉音訊，單次生成。紀錄識別 `899b0734-4bb4-4b0e-8e5f-de2c0a5eea4c`。原片 `M05_L01_window_half_step_v2.mp4`，SHA-256 `fa3f18fe38ee0a8fe431142ad87766d2acbe97f629cdd2d360ce8bdf4af6a895`。H.264、720 × 1264、24 fps、145 格、6.04 秒、無音軌。
+
+完整解碼、每半秒抽樣，並在播放器以 1 倍速檢視全循環。窗框較前版穩定，未再看到錯開的深色直條；但她仍轉成側身邁步再回到正面，沒有執行預期的正面側移。手未再刻意提紗，外紗隨腳步擺動。內裙下襬一直維持在膝附近，橫移本身無法把同高度窗框從透紗區換到內裙區。此前從裙褲改為內外裙時，未把遮擋動作的幾何關係一起改完，導致動態期待不夠明確。
+
+本機制兩次未達原案效果，轉回分鏡設計。v2 可作「兩層裙襬隨步伐擺動」的服裝素材候選，待使用者看圖；固定窗框的消失揭曉維持未通過。後續改案可用 v2 的正面段、起步裙襬特寫和已核准定裝的全身景別，讓觀眾先看到兩條不同高度的裙襬，再看輕紗的擺動及完整造型。整片所需的露臉全身動態尚缺。
+
+<details><summary>v2 實際提示</summary>
+
+Locked tripod, six seconds, exactly the attached starting frame. The frosted window, single continuous vertical mullion, horizontal sill and floor are completely stationary throughout. She faces the camera throughout, both hands relaxed, bag down. After a brief pause she steps just 15 cm toward screen right and brings the other foot beside it. Her shoulders, hips and toes keep facing forward. She then stands still. Only the woman and her chiffon skirt move. Preserve the exact single background mullion geometry through the translucent hem and behind the opaque lining. Gentle natural skirt settling. Same framing and scale throughout.
+
+</details>
