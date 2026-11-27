@@ -11,3 +11,15 @@
 Photoreal fitting photograph, vertical 9:16, one full-body image including both shoes. Use reference 1 for face and short dark hair and reference 2 for the body proportions of the same adult Mira model M05. Change her entire outfit to a fitted black fine-gauge knit with long sleeves and a clean shallow boat neck tucked into a deep berry-red chiffon midi skirt. Matte opaque matching berry slip reaches the knees; a single lightly gathered, fluid chiffon outer skirt falls to mid-calf creating a clearly visible translucent band below the lining. Refined deep mulberry tone, subtle folds, restrained everyday gallery outfit, no glitter or tiers. Black leather ballet flats, compact square black handbag at her side, tiny silver stud earrings. Calm relaxed standing pose, one foot lightly forward, weight on the other leg, hands clear of the skirt, soft warm grey studio wall and floor, diffused daylight from one side. Easy to judge the entire silhouette and the hem from the front, natural face and skin. No trousers, logos, captions, text or collage.
 
 </details>
+
+## 11/27 定裝確認與窗邊首圖
+
+使用者看過全身定裝 v1 後回覆「這張可以」，確認本案沿用此版。據此以已確認的全身照為影像參照，製作 L01 的 B1 窗邊首圖 v1。沿用 B 案的固定機位，改由莓紅不透內裙遮住窗框。畫面中，小腿右方的窗框可從裸窗沿同一位置向上追到外紗，再於內裙下襬消失。隔紗的直框和一旁裙褶的顏色相近，動態時須檢查窗框能否維持在原位，讓觀眾分辨兩者。
+
+窗邊首圖仍待使用者看圖。工作區檔案 `M05_L01_berry_window_B1_v1.png`，941 × 1672，SHA-256 `774c4ca2a2475240ee608e08d296135f5a83d21e678eb7c6f9f4d63dcc984b31`。
+
+<details><summary>窗邊首圖 ImageGen 提示</summary>
+
+Create one vertical 9:16 photoreal fashion-film opening still, a location and framing edit of the supplied approved full-length outfit photo. Preserve exact deep berry red midi outer chiffon, matching opaque knee length slip, waistband, black knit and black square bag in her right hand (image left), same black bow ballet flats, leg proportions. Crop from below bust to whole shoes with floor margin. Straight-on locked camera facing large softly glowing frosted window. ONE straight narrow charcoal vertical mullion behind her slightly right of her center but left of her skirt's right outer edge, at x roughly 60% frame: place both her calves a little LEFT of that line. This aligned background bar must be very clearly visible unobstructed between the skirt hem and the stone floor; trace the same bar upwards through just the sheer band below the slip, muted by red chiffon; then it disappears cleanly at the opaque slip hem. Visually obvious vertical continuity at exactly the same x, perpendicular to floor. The bar is behind the fabric, no stripe printed on fabric, no bar or stripe across opaque fabric. Natural relaxed standing position, right edge of composition has breathing room for a small lateral step, soft sidelight preserves deep berry color with no silhouette, no lifting skirt, single photograph, no text or arrows.
+
+</details>
