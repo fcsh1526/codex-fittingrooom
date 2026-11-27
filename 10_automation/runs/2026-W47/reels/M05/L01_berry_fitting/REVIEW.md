@@ -20,6 +20,18 @@ Photoreal fitting photograph, vertical 9:16, one full-body image including both 
 
 短試片指示：保持首幀與固定機位，先站約一秒，她向畫面右方橫移半步，重心落穩，紗擺自然回落。直到結尾保持同一窗框在固定位置，透過紗可見，遇到不透內裙則隱去。維持腰下構圖、原鞋包和裙長，單鏡約六秒。
 
+### Grok 半步橫移試片 v1
+
+以核准的窗邊 v1 為唯一首幀，Grok Imagine 送出一次。影片模式選用 6 秒、720p，音訊關閉。下載原片 `M05_L01_window_half_step_v1.mp4`，SHA-256 `a9dfe5b1139322ffc5850afa1086a10d799874f795a2c5e17906b3e666b570bd`。H.264，720 × 1264，24 fps，145 格，6.04 秒，沒有音軌。生成紀錄識別為 `8a69345c-f262-4c40-891f-dfae06229699`。
+
+原檔完整解碼、每半秒抽格，並在播放器以 1 倍速核對整個循環。前兩秒人物多做了輕提裙邊的動作，莓紅內外裙的長短與透感清楚。之後向畫面右方跨步並轉成側身，平底鞋和同色內裙仍可辨識。後半段原直框相對畫面向左漂移，另露出一截與底部窗框錯開的深色直條，站穩後仍可見。服裝展示有可用片段，原案要求的固定窗框遮擋未通過。本次完成一支研究試片，未送第二次生成。
+
+<details><summary>實際動態提示</summary>
+
+One continuous six-second locked-off fashion shot starting exactly from the attached frame. Hold for one second. She takes one small lateral half-step toward screen right and brings her weight onto that foot, then settles. Feet lift and plant naturally. The berry chiffon hem sways briefly then falls still. The vertical window mullion is rigid and stays at precisely the same screen position: visible through the sheer hem, hidden behind the opaque slip or leg. Keep the same light, shoes, bag, skirt length and crop. No camera tracking, zoom, cuts, text or audio. Hold the final pose for one second.
+
+</details>
+
 <details><summary>窗邊首圖 ImageGen 提示</summary>
 
 Create one vertical 9:16 photoreal fashion-film opening still, a location and framing edit of the supplied approved full-length outfit photo. Preserve exact deep berry red midi outer chiffon, matching opaque knee length slip, waistband, black knit and black square bag in her right hand (image left), same black bow ballet flats, leg proportions. Crop from below bust to whole shoes with floor margin. Straight-on locked camera facing large softly glowing frosted window. ONE straight narrow charcoal vertical mullion behind her slightly right of her center but left of her skirt's right outer edge, at x roughly 60% frame: place both her calves a little LEFT of that line. This aligned background bar must be very clearly visible unobstructed between the skirt hem and the stone floor; trace the same bar upwards through just the sheer band below the slip, muted by red chiffon; then it disappears cleanly at the opaque slip hem. Visually obvious vertical continuity at exactly the same x, perpendicular to floor. The bar is behind the fabric, no stripe printed on fabric, no bar or stripe across opaque fabric. Natural relaxed standing position, right edge of composition has breathing room for a small lateral step, soft sidelight preserves deep berry color with no silhouette, no lifting skirt, single photograph, no text or arrows.
